@@ -87,7 +87,7 @@ export function buildRFC822Date (dateString) {
 }
 
 export function generateRetroRequestUrl (dateString) {
-  return `https://raw.githubusercontent.com/cutenode/retro-weekly/main/retros/${dateString}.md`
+  return `https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${dateString}.md`
 }
 
 export function generateRetroUIUrl (dateString) {
