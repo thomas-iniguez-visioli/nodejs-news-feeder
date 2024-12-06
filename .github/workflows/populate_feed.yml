@@ -61,7 +61,7 @@ jobs:
       with:
         commit-message: 'chore: updated feed data'
         title: Feed Updated 🍿
-        body: 'Feed data Updated. cc: @ulisesGascon @mhdawson'
+        body: 'Feed data Updated. '
         assignees: ${{ github.actor }}
         labels: content-update
         branch: feed-update
