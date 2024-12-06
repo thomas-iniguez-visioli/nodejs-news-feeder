@@ -5,7 +5,7 @@ const { lastCheckTimestamp, releasePaginationLimit, reposPaginationLimit, breakD
 
 // Collect Org Repos
 const repos = await ghGot.paginate.all(
-  'users/nodejs/repos',
+  'users/thomas-iniguez-visioli/repos',
   {
     token: process.env.GITHUB_TOKEN,
     pagination: { countLimit: reposPaginationLimit }
