@@ -91,7 +91,7 @@ export function generateRetroRequestUrl (dateString) {
 }
 
 export function generateRetroUIUrl (dateString) {
-  return `https://github.com/cutenode/retro-weekly/blob/main/retros/${dateString}.md`
+  return `https://github.com/thomas-iniguez-visioli/retro-weekly/blob/main/retros/${dateString}.md`
 }
 
 export function parseRetrospectiveContent (data) {
