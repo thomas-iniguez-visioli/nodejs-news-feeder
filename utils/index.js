@@ -3,7 +3,7 @@ import { join } from 'path'
 import { createHash } from 'crypto'
 import * as remark from 'remark'
 import remarkHtml from 'remark-html'
-
+import   DateTime   from 'luxon'
 const dateRegex = /(\d*-\d*-\d*)/gm
 const xmlFile = join(process.cwd(), 'feed.xml')
 const configFile = join(process.cwd(), 'config.json')
@@ -87,11 +87,11 @@ export function buildRFC822Date (dateString) {
 }
 
 export function generateRetroRequestUrl (dateString) {
-  return `https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${dateString}.md`
+  return `https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${DateTime.now().toISODate()}.md`
 }
 
 export function generateRetroUIUrl (dateString) {
-  return `https://github.com/thomas-iniguez-visioli/retro-weekly/blob/main/retros/${dateString}.md`
+  return `https://github.com/thomas-iniguez-visioli/retro-weekly/blob/main/retros/${DateTime.now().toISODate()}.md`
 }
 
 export function parseRetrospectiveContent (data) {
