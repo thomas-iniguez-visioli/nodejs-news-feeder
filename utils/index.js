@@ -3,7 +3,7 @@ import { join } from 'path'
 import { createHash } from 'crypto'
 import * as remark from 'remark'
 import remarkHtml from 'remark-html'
-import   DateTime   from 'luxon'
+import DateTime from 'luxon'
 const dateRegex = /(\d*-\d*-\d*)/gm
 const xmlFile = join(process.cwd(), 'feed.xml')
 const configFile = join(process.cwd(), 'config.json')
