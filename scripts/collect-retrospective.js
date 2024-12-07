@@ -12,8 +12,8 @@ try {
     title: data.title,
     description: `<![CDATA[<p>${data.description}</p>]]>`,
     pubDate: buildRFC822Date(data.lastDay),
-    link: generateRetroUIUrl(data.lastDay),
-    guid: generateRetroUIUrl(data.lastDay)
+    link: generateRetroUIUrl(data.nextDay),
+    guid: generateRetroUIUrl(data.nextDay)
   })
   // Add the new item to the feed
   const feedContent = getFeedContent()
