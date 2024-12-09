@@ -7,6 +7,8 @@ const url = generateRetroRequestUrl(currentConfig.nextDay)
 
 try {
   const content = await got(url).text()
+  const html =await got("https://bonjourlafuite.eu.org/feed.xml").text()
+  console.log(html)
   const data = parseRetrospectiveContent(content)
   const retrospective = composeFeedItem({
     title: data.title,
