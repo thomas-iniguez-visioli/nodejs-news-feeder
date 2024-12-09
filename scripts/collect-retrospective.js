@@ -33,6 +33,7 @@ try {
     }
   })
 } catch (error) {
+  console.log(error)
   console.log("Retrospective not found or generated and error, so we're not updating the feed.")
   console.log("Configuration for the retrospective won't be updated either.")
 }
