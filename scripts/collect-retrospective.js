@@ -40,12 +40,12 @@ const jsonData = Array.from(timelineEntries).map(entry => {
     const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
     content = contentItems.join(', ');
   }
-  //const source = entry.querySelector('ul li a').getAttribute('href');
+  const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href');
   return {
     timestamp,
     title,
     content,
-    //source
+    source
   };
 });
 console.log(JSON.stringify(jsonData,null,2));
@@ -55,7 +55,7 @@ jsonData.map((dat)=>{
     description: `<![CDATA[<p>${dat.content}</p>]]>`,
     pubDate: buildRFC822Date(new Date(dat.timestamp).toISOString()),
     link: "https://bonjourlafuite.eu.org/",
-    guid: dat.title
+    guid: dat.source
   })
   // Add the new item to the feed
   const feedContent = getFeedContent()
