@@ -1,4 +1,5 @@
 import got from 'got'
+import { parse } from 'node-html-parser';
 import * as https from 'node:https'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl } from '../utils/index.js'
 const staticDnsAgent = (resolvconf) => new https.Agent({
@@ -6,7 +7,7 @@ const staticDnsAgent = (resolvconf) => new https.Agent({
     console.log(resolvconf[0].address)
     console.log(hostname)
     console.log(opts)
-  cb(null, resolvconf[0].address, resolvconf[0].family)
+  cb(null, resolvconf, resolvconf[0].family)
   }
 });
 var resolvConf=[]
@@ -20,8 +21,51 @@ const url = generateRetroRequestUrl(currentConfig.nextDay)
 
 try {
   const content = await got(url).text()
-  const html =await  https.get("https://bonjourlafuite.eu.org/feed.xml",{agent: staticDnsAgent(resolvConf)},response=>{return response})
-  console.log(html)
+ var html ="" 
+ https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf)},response=>{ response.on('data', (chunk) => {
+  html += chunk;
+  console.log(html.length)
+})
+response.on("end",(da)=>{
+  const buffer = html
+
+const parsedHtml = parse(buffer.toString());
+const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
+const jsonData = Array.from(timelineEntries).map(entry => {
+  const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime');
+  const title = entry.querySelector('h2').textContent;
+ var content = entry.querySelector('p').textContent;
+  const contentList = entry.querySelector('p ul');
+  if (contentList) {
+    const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
+    content = contentItems.join(', ');
+  }
+  //const source = entry.querySelector('ul li a').getAttribute('href');
+  return {
+    timestamp,
+    title,
+    content,
+    //source
+  };
+});
+console.log(JSON.stringify(jsonData,null,2));
+jsonData.map((dat)=>{
+  const retrospective = composeFeedItem({
+    title: dat.title,
+    description: `<![CDATA[<p>${dat.content}</p>]]>`,
+    pubDate: buildRFC822Date(new Date(dat.timestamp).toISOString()),
+    link: "https://bonjourlafuite.eu.org/",
+    guid: generateRetroUIUrl(data.nextDay)
+  })
+  // Add the new item to the feed
+  const feedContent = getFeedContent()
+  const [before, after] = feedContent.split(breakDelimiter)
+  const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
+  overwriteFeedContent(updatedFeedContent)
+})
+})})
+  
+
   const data = parseRetrospectiveContent(content)
   const retrospective = composeFeedItem({
     title: data.title,
