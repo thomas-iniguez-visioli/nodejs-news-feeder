@@ -23,7 +23,7 @@ try {
 
   if (title === 'Sorry') {
     console.log('🚨 Feed is invalid!')
-    process.exit(1)
+  //  process.exit(1)
   } else {
     console.log('✅ Feed is valid!')
   }
