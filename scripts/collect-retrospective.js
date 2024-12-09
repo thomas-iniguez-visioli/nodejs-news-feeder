@@ -54,7 +54,7 @@ jsonData.map((dat)=>{
     title: dat.title,
     description: `<![CDATA[<p>${dat.content}</p>]]>`,
     pubDate: buildRFC822Date(new Date(dat.timestamp).toISOString()),
-    link: "https://bonjourlafuite.eu.org/",
+    link: dat.source,
     guid: dat.source
   })
   // Add the new item to the feed
