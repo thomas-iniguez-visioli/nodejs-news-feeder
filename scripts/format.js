@@ -15,7 +15,7 @@ const xml = getFeedContent()
 const updaterrss=(feed)=>{
   console.log(feed.sort(
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
-  ).map(i=>{return i.title}))
+  ).map(i=>{return i.guid}))
   return feed
 }
 parser.parseString(xml).then((parsedXml) => {
