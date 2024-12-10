@@ -19,7 +19,7 @@ const updaterrss=(feed)=>{
     return JSON.parse(i)
   }).filter(
     (val,i,arr)=>{
-      return !arr.some(
+      return arr.some(
         (arrVal,index) => 
           (val.title === arrVal.title)&&(i!=index)
       
@@ -27,7 +27,7 @@ const updaterrss=(feed)=>{
     }
   ).filter(
     (val,i,arr)=>
-      {return !arr.some(
+      {return arr.some(
         (arrVal,index) => (val.guid === arrVal.guid)&&(i!=index))
       }
   )
