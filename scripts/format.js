@@ -16,7 +16,7 @@ const xml = getFeedContent()
 parser.parseString(xml).then((parsedXml) => {
   const sortedItems = parsedXml.items.sort(
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
-  )
+  ).filter((value, index, array) => array.indexOf(value) === index)
   const newXml = sortedItems
     .map(({ title, link, pubDate, content, guid }) =>
       composeFeedItem({
