@@ -13,7 +13,7 @@ const parser = new ParseRss()
 
 const xml = getFeedContent()
 const updaterrss=(feed)=>{
-  feed =[...new Set(feed.map((i)=>{return JSON.stringify(i)}))].map((i)=>{return JSON.parse(i)}).map((val,i,arr)=>{return arr.some((arrVal) => val === arrVal)});
+  feed =[...new Set(feed.map((i)=>{return JSON.stringify(i)}))].map((i)=>{return JSON.parse(i)}).filter((val,i,arr)=>{return arr.some((arrVal) => val === arrVal)});
   console.log(feed)
   return feed
 }
