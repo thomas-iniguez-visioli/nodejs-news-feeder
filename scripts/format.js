@@ -13,6 +13,7 @@ const parser = new ParseRss()
 
 const xml = getFeedContent()
 const updaterrss=(feed)=>{
+  feed =[...newSet(feed.map((i)=>{return JSON.stringify(i)}))].map((i)=>{return JSON.parse(i)})
   console.log(feed.sort(
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
   ).map(i=>{return i.guid}))
