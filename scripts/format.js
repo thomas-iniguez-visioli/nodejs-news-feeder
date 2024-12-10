@@ -10,32 +10,22 @@ import {
 const { breakDelimiter } = getConfig()
 
 const parser = new ParseRss()
-
+const tribykey=(array,key)=>{
+  var valid=[array[0]]
+  array.forEach(element => {
+    if(!valid.map((item)=>{return item[key]}).includes(element[key])){
+      valid.push(element)
+    }
+  });
+  return valid
+}
 const xml = getFeedContent()
 const updaterrss=(feed)=>{
-  var fed =[...new Set(feed.map((i)=>{
+  var fed =tribykey(tribykey([...new Set(feed.map((i)=>{
     return JSON.stringify(i)
   }))].map((i)=>{
     return JSON.parse(i)
-  }).filter(
-    (val,i,arr)=>{
-      return arr.filter(
-        (arrVal,index) => 
-          (val.title === arrVal.title)&&(i==index)
-      
-      ).flat().reduce(
-  (accumulator, currentValue) => accumulator && currentValue,
-  true,)
-    }
-
-  ).filter(
-    (val,i,arr)=>
-      {return arr.filter(
-        (arrVal,index) => (val.guid === arrVal.guid)&&(i!=index)).flat().reduce(
-  (accumulator, currentValue) => accumulator && currentValue,
-  true,)
-      }
-  )
+  }),"title"),"guid")
   console.log(fed)
   return fed
 }
