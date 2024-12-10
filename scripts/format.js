@@ -21,14 +21,19 @@ const updaterrss=(feed)=>{
     (val,i,arr)=>{
       return arr.filter(
         (arrVal,index) => 
-          (val.title === arrVal.title)&&(i!=index)
+          (val.title === arrVal.title)&&(i==index)
       
       )
-    }
+    }.flat().reduce(
+  (accumulator, currentValue) => accumulator && currentValue,
+  true,)
+
   ).filter(
     (val,i,arr)=>
       {return arr.filter(
-        (arrVal,index) => (val.guid === arrVal.guid)&&(i!=index))
+        (arrVal,index) => (val.guid === arrVal.guid)&&(i!=index)).flat().reduce(
+  (accumulator, currentValue) => accumulator && currentValue,
+  true,)
       }
   )
   console.log(fed)
