@@ -12,9 +12,11 @@ const { breakDelimiter } = getConfig()
 const parser = new ParseRss()
 
 const xml = getFeedContent()
-
+const updaterrss=(feed)=>{
+  return feed
+}
 parser.parseString(xml).then((parsedXml) => {
-  const sortedItems = parsedXml.items.sort(
+  const sortedItems = updaterrss(parsedXml.items).sort(
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
   )
   const newXml = sortedItems
