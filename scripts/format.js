@@ -22,7 +22,7 @@ parser.parseString(xml).then((parsedXml) => {
     if(i==index){
       return value
     }
-    if(v.title==value.title){array.splice(index,1),i}else{return value}
+    if(v.guid==value.guid){sortedItems.splice(index,1),i}else{return value}
   }).filter((val)=>{return val})
     console.log(test)
     if(test){}
