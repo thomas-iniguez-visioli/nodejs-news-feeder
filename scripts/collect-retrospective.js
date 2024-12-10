@@ -59,9 +59,12 @@ jsonData.map((dat)=>{
   })
   // Add the new item to the feed
   const feedContent = getFeedContent()
-  const [before, after] = feedContent.split(breakDelimiter)
+  if(!feedContent.includes(retrospective){
+    const [before, after] = feedContent.split(breakDelimiter)
   const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
   overwriteFeedContent(updatedFeedContent)
+  }
+  
 })
 })})
   
