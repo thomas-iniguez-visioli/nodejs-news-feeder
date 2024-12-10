@@ -18,7 +18,7 @@ parser.parseString(xml).then((parsedXml) => {
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
   ).filter((value, index, array) => {
     console.log(value)
-   test=array.map((v,i)=>{
+   var test=array.map((v,i)=>{
     if(i==index){
       return true
     }
