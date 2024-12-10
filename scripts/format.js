@@ -13,7 +13,7 @@ const parser = new ParseRss()
 
 const xml = getFeedContent()
 const updaterrss=(feed)=>{
-  console.log(feed)
+  console.log(feed.map(i=>{return i.title}))
   return feed
 }
 parser.parseString(xml).then((parsedXml) => {
