@@ -23,10 +23,10 @@ const updaterrss=(feed)=>{
         (arrVal,index) => 
           (val.title === arrVal.title)&&(i==index)
       
-      )
-    }.flat().reduce(
+      ).flat().reduce(
   (accumulator, currentValue) => accumulator && currentValue,
   true,)
+    }
 
   ).filter(
     (val,i,arr)=>
