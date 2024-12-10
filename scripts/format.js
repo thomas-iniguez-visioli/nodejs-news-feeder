@@ -17,7 +17,7 @@ const updaterrss=(feed)=>{
     return JSON.stringify(i)
   }))].map((i)=>{
     return JSON.parse(i)
-  }).filter((val,i,arr)=>{return !arr.some((arrVal) => val.title === arrVal.title)}).filter((val,i,arr)=>{return !arr.some((arrVal) => val.guid === arrVal.guid)})
+  }).filter((val,i,arr)=>{return !arr.some((arrVal,index) => val.title === arrVal.title&&i!=index)}).filter((val,i,arr)=>{return !arr.some((arrVal,index) => val.guid === arrVal.guid&&i!=index)})
   console.log(fed)
   return fed
 }
