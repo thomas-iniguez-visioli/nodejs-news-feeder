@@ -23,7 +23,7 @@ parser.parseString(xml).then((parsedXml) => {
       return value
     }
     if(v.title==value.title){array.splice(index,1),i}else{return value}
-  }).filter((val)=>val)
+  }).filter((val)=>{return valval})
     console.log(test)
     if(test){}
     return test[0]
