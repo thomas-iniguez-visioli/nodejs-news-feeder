@@ -26,7 +26,7 @@ parser.parseString(xml).then((parsedXml) => {
   }).includes(false)
     console.log(test)
     if(test){array.splice(index,1)}
-    return test
+    return true
   })
   const newXml = sortedItems
     .map(({ title, link, pubDate, content, guid }) =>
