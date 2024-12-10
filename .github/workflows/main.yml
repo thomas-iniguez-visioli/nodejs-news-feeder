@@ -29,3 +29,25 @@ jobs:
         uses: "pascalgn/automerge-action@v0.16.4"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+            node-version-file: '.nvmrc'
+            cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm i
+      
+          
+      - name: RSS Build
+        run: npm run rss:build
+      
+      - name: RSS Check Format
+        run: npm run rss:format-check
+      
+      - name: RSS Validate
+        run: npm run rss:validate
+      
+      - name: Build website
+        run: npm run website:build
+      
