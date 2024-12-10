@@ -23,10 +23,10 @@ parser.parseString(xml).then((parsedXml) => {
       return value
     }
     if(v.title==value.title){array.splice(index,1),i}else{return value}
-  })
+  }).filter((val)=>val)
     console.log(test)
     if(test){}
-    return value
+    return test[0]
   })
   const newXml = sortedItems
     .map(({ title, link, pubDate, content, guid }) =>
