@@ -18,7 +18,13 @@ parser.parseString(xml).then((parsedXml) => {
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
   ).filter((value, index, array) => {
     console.log(value)
-    array.indexOf(value) === index})
+  return !array.map((v,i)=>{
+    if(i==index){
+      return true
+    }
+    if(v.link==value.link){return false}
+  }).includes(false)
+  })
   const newXml = sortedItems
     .map(({ title, link, pubDate, content, guid }) =>
       composeFeedItem({
