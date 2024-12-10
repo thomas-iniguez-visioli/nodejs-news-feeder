@@ -16,17 +16,17 @@ const xml = getFeedContent()
 parser.parseString(xml).then((parsedXml) => {
   const sortedItems = parsedXml.items.sort(
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
-  ).filter((value, index, array) => {
+  ).map((value, index, array) => {
     console.log(value)
-   var test=!array.map((v,i)=>{
+   var test=array.map((v,i)=>{
     if(i==index){
-      return true
+      return value
     }
-    if(v.title==value.title){return false}
-  }).includes(false)
+    if(v.title==value.title){array.splice(index,1),i}else{return value}
+  })
     console.log(test)
-    if(test){array.splice(index,1)}
-    return true
+    if(test){}
+    return value
   })
   const newXml = sortedItems
     .map(({ title, link, pubDate, content, guid }) =>
