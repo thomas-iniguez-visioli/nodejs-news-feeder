@@ -64,6 +64,6 @@ jobs:
         title: Feed Updated 🍿
         body: 'Feed data Updated. '
         assignees: ${{ github.actor }}
-        labels: content-update
+        labels: automerge
         branch: feed-update
         update-pull-request-title-and-body: true
