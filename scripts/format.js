@@ -17,7 +17,7 @@ parser.parseString(xml).then((parsedXml) => {
   const sortedItems = parsedXml.items.sort(
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
   ).map((value, index, array) => {
-    console.log(value)
+    #console.log(value)
    var test=array.map((v,i)=>{
     if(i==index){
       return value
