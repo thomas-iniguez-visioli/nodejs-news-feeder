@@ -13,9 +13,9 @@ const parser = new ParseRss()
 
 const xml = getFeedContent()
 const updaterrss=(feed)=>{
-  feed =[...new Set(feed.map((i)=>{return JSON.stringify(i)}))].map((i)=>{return JSON.parse(i)}).filter((val,i,arr)=>{return arr.some((arrVal) => val.title === arrVal.title)});
-  console.log(feed)
-  return feed
+  fed =[...new Set(feed.map((i)=>{return JSON.stringify(i)}))].map((i)=>{return JSON.parse(i)}).filter((val,i,arr)=>{return arr.some((arrVal) => val.title === arrVal.title)});
+  console.log(fed)
+  return fed
 }
 parser.parseString(xml).then((parsedXml) => {
   const sortedItems = updaterrss(parsedXml.items).sort(
