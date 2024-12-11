@@ -92,12 +92,13 @@ export async function generateRetroRequestUrl () {
 }
 
 export function generateRetroUIUrl (dateString) {
-  return `https://github.com/thomas-iniguez-visioli/retro-weekly/blob/main/retros/${DateTime.now().toISODate()}.md`
+  return `https://github.com/thomas-iniguez-visioli/retro-weekly/blob/main/retros/${dateString.toISODate()}.md`
 }
 
 export function parseRetrospectiveContent (data) {
   const [rawTitle, , description] = data.split('\n')
   const title = rawTitle.replace('# ', '').replaceAll('`', '').trim()
   const dates = title.split(dateRegex)
+  console.log(dates)
   return { title, description, lastDay: dates[1], nextDay: dates[3] }
 }
