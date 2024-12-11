@@ -25,7 +25,7 @@ urls.map(async(url)=>{
  var html ="" 
  https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf)},response=>{ response.on('data', (chunk) => {
   html += chunk;
-  console.log(html.length)
+ // console.log(html.length)
 })
 response.on("end",(da)=>{
   const buffer = html
@@ -49,7 +49,7 @@ const jsonData = Array.from(timelineEntries).map(entry => {
     source
   };
 });
-console.log(JSON.stringify(jsonData,null,2));
+//console.log(JSON.stringify(jsonData,null,2));
 jsonData.map((dat)=>{
   const retrospective = composeFeedItem({
     title: dat.title,
@@ -60,7 +60,7 @@ jsonData.map((dat)=>{
   })
   // Add the new item to the feed
   const feedContent = getFeedContent()
-  console.log(feedContent.includes(dat.title))
+ // console.log((dat.title))
 
     const [before, after] = feedContent.split(breakDelimiter)
   const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
@@ -73,6 +73,7 @@ jsonData.map((dat)=>{
   
 
   const data = parseRetrospectiveContent(content)
+    console.log(data)
   const retrospective = composeFeedItem({
     title: data.title,
     description: `<![CDATA[<p>${data.description}</p>]]>`,
