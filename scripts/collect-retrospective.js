@@ -17,9 +17,10 @@ resolvConf.push({
 })
 // Collect new retrospective
 const { retrospective: currentConfig, breakDelimiter } = getConfig()
-const url = generateRetroRequestUrl(currentConfig.nextDay)
-
-try {
+const urls = await generateRetroRequestUrl()
+console.log(urls)
+urls.map((url)=>{
+  try {
   const content = await got(url).text()
  var html ="" 
  https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf)},response=>{ response.on('data', (chunk) => {
@@ -99,3 +100,5 @@ jsonData.map((dat)=>{
   console.log("Retrospective not found or generated and error, so we're not updating the feed.")
   console.log("Configuration for the retrospective won't be updated either.")
 }
+})
+
