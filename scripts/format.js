@@ -26,7 +26,7 @@ const updaterrss=(feed)=>{
     return JSON.stringify(i)
   }))].map((i)=>{
     return JSON.parse(i)
-  }),"title"),"link")
+  }),"link"),"link")
   //console.log(fed)
   return fed
 }
