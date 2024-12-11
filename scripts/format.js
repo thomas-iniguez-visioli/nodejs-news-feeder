@@ -13,6 +13,7 @@ const parser = new ParseRss()
 const tribykey=(array,key)=>{
   var valid=[array[0]]
   array.forEach(element => {
+    console.log(element[key])
     if(!valid.map((item)=>{return item[key]}).includes(element[key])){
       valid.push(element)
     }
@@ -26,7 +27,7 @@ const updaterrss=(feed)=>{
   }))].map((i)=>{
     return JSON.parse(i)
   }),"title"),"guid")
-  console.log(fed)
+  //console.log(fed)
   return fed
 }
 parser.parseString(xml).then((parsedXml) => {
