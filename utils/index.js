@@ -92,7 +92,7 @@ export async function generateRetroRequestUrl () {
 }
 
 export function generateRetroUIUrl (dateString) {
-  return `https://github.com/thomas-iniguez-visioli/retro-weekly/blob/main/retros/${dateString.toISODate()}.md`
+  return `https://github.com/thomas-iniguez-visioli/retro-weekly/blob/main/retros/${dateString}.md`
 }
 
 export function parseRetrospectiveContent (data) {
