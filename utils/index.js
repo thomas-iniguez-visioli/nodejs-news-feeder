@@ -86,8 +86,8 @@ export function buildRFC822Date (dateString) {
   return `${day}, ${dayNumber} ${month} ${year} ${time} ${timezone}`
 }
 
-export function generateRetroRequestUrl () {
-  return JSON.parse(got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()).map((item)=>{return item.url})
+export async function generateRetroRequestUrl () {
+  return JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()).map((item)=>{return item.url})
 }
 
 export function generateRetroUIUrl (dateString) {
