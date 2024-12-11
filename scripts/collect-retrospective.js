@@ -19,7 +19,7 @@ resolvConf.push({
 const { retrospective: currentConfig, breakDelimiter } = getConfig()
 const urls = await generateRetroRequestUrl()
 console.log(urls)
-urls.map((url)=>{
+urls.map(async(url)=>{
   try {
   const content = await got(url).text()
  var html ="" 
