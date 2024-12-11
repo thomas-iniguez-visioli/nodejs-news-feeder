@@ -73,13 +73,13 @@ jsonData.map((dat)=>{
   
 
   const data = parseRetrospectiveContent(content)
-    console.log(data)
+    console.log(data.nextDay)
   const retrospective = composeFeedItem({
     title: data.title,
     description: `<![CDATA[<p>${data.description}</p>]]>`,
     pubDate: buildRFC822Date(data.lastDay),
     link: generateRetroUIUrl(data.nextDay),
-    guid: generateRetroUIUrl(data.nextDay)
+    guid: data.nextDay
   })
   // Add the new item to the feed
   const feedContent = getFeedContent()
