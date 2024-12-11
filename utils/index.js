@@ -87,6 +87,7 @@ export function buildRFC822Date (dateString) {
 }
 
 export async function generateRetroRequestUrl () {
+  console.log(JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()))
   return JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()).map((item)=>{return item.url})
 }
 
