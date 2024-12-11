@@ -9,7 +9,7 @@ const xmlFile = join(process.cwd(), 'feed.xml')
 const configFile = join(process.cwd(), 'config.json')
 const websiteFile = join(process.cwd(), 'index.html')
 const websiteTemplate = join(process.cwd(), 'templates', 'index.html.ejs')
-
+import got from 'got'
 export function md2html (md) {
   return remark.remark().use(remarkHtml).processSync(md).toString()
 }
@@ -86,8 +86,8 @@ export function buildRFC822Date (dateString) {
   return `${day}, ${dayNumber} ${month} ${year} ${time} ${timezone}`
 }
 
-export function generateRetroRequestUrl (dateString) {
-  return `https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${DateTime.now().toISODate()}.md`
+export function generateRetroRequestUrl () {
+  return JSON.parse(got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()).map((item)=>{return item.url})
 }
 
 export function generateRetroUIUrl (dateString) {
