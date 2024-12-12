@@ -21,7 +21,7 @@ const urls = await generateRetroRequestUrl()
 console.log(urls)
 urls.map(async(url)=>{
   try {
-  const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.split("/")[url.split("/").length-2]}.md`).text()
+  const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
  var html ="" 
  https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf)},response=>{ response.on('data', (chunk) => {
   html += chunk;
@@ -54,7 +54,7 @@ jsonData.map((dat)=>{
   const retrospective = composeFeedItem({
     title: dat.title,
     description: `<![CDATA[<p>${dat.content}</p>]]>`,
-    pubDate: dat.date_published,
+    pubDate: dat.timestamp,
     link: dat.source,
     guid: dat.timestamp
   })
@@ -77,7 +77,7 @@ jsonData.map((dat)=>{
   const retrospective = composeFeedItem({
     title: data.title,
     description: `<![CDATA[<p>${data.description}</p>]]>`,
-    pubDate: buildRFC822Date(data.lastDay),
+    pubDate: buildRFC822Date(url.date_published),
     link: generateRetroUIUrl(data.nextDay),
     guid: data.nextDay
   })
