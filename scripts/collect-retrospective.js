@@ -56,7 +56,7 @@ jsonData.map((dat)=>{
     description: `<![CDATA[<p>${dat.content}</p>]]>`,
     pubDate: buildRFC822Date(new Date(dat.timestamp).toISOString()),
     link: dat.source,
-    guid: url.split("/")[url.split("/").length-2]
+    guid: dat.timestamp
   })
   // Add the new item to the feed
   const feedContent = getFeedContent()
