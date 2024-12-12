@@ -7,7 +7,7 @@ on:
     branches:
     - main
   workflow_run:
-    workflows: ["Populate Feed"]
+    workflows: ["Populate Feed",'automerge']
     types:
       - completed
 
