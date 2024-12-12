@@ -7,8 +7,9 @@ on:
     branches:
     - main
   workflow_run:
-    workflows: ["Build"]
-    types: [requested]
+    workflows: ["Populate Feed"]
+    types:
+      - completed
 
 name: Source Code Health
 
