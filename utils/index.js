@@ -88,7 +88,7 @@ export function buildRFC822Date (dateString) {
 
 export async function generateRetroRequestUrl () {
   console.log(JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()))
-  return JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()).items.map((item)=>{return item.url})
+  return JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()).items
 }
 
 export function generateRetroUIUrl (dateString) {
