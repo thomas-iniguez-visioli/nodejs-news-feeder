@@ -54,7 +54,7 @@ jsonData.map((dat)=>{
   const retrospective = composeFeedItem({
     title: dat.title,
     description: `<![CDATA[<p>${dat.content}</p>]]>`,
-    pubDate: buildRFC822Date(new Date(dat.timestamp).toISOString()),
+    pubDate: dat.date_published,
     link: dat.source,
     guid: dat.timestamp
   })
