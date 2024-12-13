@@ -65,5 +65,5 @@ jobs:
         body: 'Feed data Updated. '
         assignees: ${{ github.actor }}
         labels: automerge
-        branch: feed-update
+        branch: gh-readonly-queue/main
         update-pull-request-title-and-body: true
