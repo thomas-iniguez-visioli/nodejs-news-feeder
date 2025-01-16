@@ -59,6 +59,7 @@ jsonData.map((dat)=>{
     guid: dat.timestamp
   })
   // Add the new item to the feed
+  
   const feedContent = getFeedContent()
  // console.log((dat.title))
 
@@ -82,7 +83,10 @@ jsonData.map((dat)=>{
     guid: data.nextDay
   })
   // Add the new item to the feed
-  
+    const feedContent = getFeedContent()
+  const [before, after] = feedContent.split(breakDelimiter)
+  const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
+  overwriteFeedContent(updatedFeedContent)
 
   // Overwrite config with new dates
   const config = getConfig()
