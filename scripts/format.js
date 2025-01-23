@@ -31,6 +31,7 @@ const updaterrss=(feed)=>{
   return fed
 }
 parser.parseString(xml).then((parsedXml) => {
+  console.log(parsedXml)
   const sortedItems = updaterrss(parsedXml.items).sort(
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
   )
@@ -38,7 +39,7 @@ parser.parseString(xml).then((parsedXml) => {
     .map(({ title, link, pubDate, content, guid }) =>
       composeFeedItem({
         title,
-        description: `<![CDATA[${content}]]>`,
+        description: `${content}`,
         pubDate,
         link,
         guid
