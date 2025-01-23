@@ -39,7 +39,7 @@ parser.parseString(xml).then((parsedXml) => {
     .map(({ title, link, pubDate, content, guid }) =>
       composeFeedItem({
         title,
-        description: `${content}`,
+        description: `<![CDATA[${content}]]>`,
         pubDate,
         link,
         guid
