@@ -86,7 +86,7 @@ jsonData.map((dat)=>{
     const feedContent = getFeedContent()
   const [before, after] = feedContent.split(breakDelimiter)
   const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
-  overwriteFeedContent(updatedFeedContent)*/
+  overwriteFeedContent(updatedFeedContent)
 
   // Overwrite config with new dates
   const config = getConfig()
@@ -96,7 +96,7 @@ jsonData.map((dat)=>{
       lastDay: data.lastDay,
       nextDay: data.nextDay
     }
-  })
+  })*/
 } catch (error) {
   console.log(error)
   console.log("Retrospective not found or generated and error, so we're not updating the feed.")
