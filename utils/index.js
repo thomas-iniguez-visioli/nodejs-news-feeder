@@ -30,13 +30,13 @@ export function overwriteConfig (config) {
 
 export function composeFeedItem ({ title, description, pubDate, link, guid }) {
   return `
-    <item>
+    <entry>
       <title>${title}</title>
-      <description>${description}</description>
-      <pubDate>${pubDate}</pubDate>
+      <content>${description}</content>
+      <published>${pubDate}</published>
       <link>${link}</link>
-      <guid>${guid}</guid>
-    </item>
+      <id>${guid}</id>
+    </entry>
   `
 }
 
