@@ -73,7 +73,7 @@ jsonData.map((dat)=>{
                                                                                           })
   
 
-  const data = parseRetrospectiveContent(content)
+ /* const data = parseRetrospectiveContent(content)
     console.log(data.nextDay)
   const retrospective = composeFeedItem({
     title: data.title,
@@ -86,7 +86,7 @@ jsonData.map((dat)=>{
     const feedContent = getFeedContent()
   const [before, after] = feedContent.split(breakDelimiter)
   const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
-  overwriteFeedContent(updatedFeedContent)
+  overwriteFeedContent(updatedFeedContent)*/
 
   // Overwrite config with new dates
   const config = getConfig()
