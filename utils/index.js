@@ -32,10 +32,10 @@ export function composeFeedItem ({ title, description, pubDate, link, guid }) {
   return `
     <entry>
       <title>${title}</title>
-      <content>${description}</content>
-      <published>${pubDate}</published>
+      <description>${description}</description>
+      <pubDate>${pubDate}</pubDate>
       <link>${link}</link>
-      <id>${guid}</id>
+      <guid>${guid}</guid>
     </entry>
   `
 }
