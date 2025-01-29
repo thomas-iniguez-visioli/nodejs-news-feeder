@@ -24,7 +24,9 @@ const releases = await Promise.all(repos.map(async repo => {
 
   // Select only releases that are newer than the last check and add the repo name
   return repoReleases
-    //.filter(rel => new Date(rel.published_at).getTime() > lastCheckTimestamp)
+    //
+    
+    .filter(rel => new Date(rel.published_at).getTime() > lastCheckTimestamp)
     .map(rel => ({ ...rel, repo: repo.full_name }))
 }))
 
