@@ -4,7 +4,7 @@ import {
   composeFeedItem,
   getConfig,
   getFeedContent,
-  overwriteFeedContent
+  overwriteFeedContent,buildRFC822Date
 } from '../utils/index.js'
 
 const { breakDelimiter } = getConfig()
@@ -40,7 +40,7 @@ parser.parseString(xml).then((parsedXml) => {
       composeFeedItem({
         title,
         description: `<![CDATA[${content}]]>`,
-        pubDate,
+        pubDate:buildRFC822Date(pubDate),
         link,
         guid
       })
