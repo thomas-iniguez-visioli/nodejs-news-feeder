@@ -12,7 +12,7 @@
     "collect:retrospective": "node scripts/collect-retrospective.js",
     "rss:validate": "node scripts/validate.js",
     "rss:build": "node scripts/build-rss.js",
-    "rss:format": "node scripts/format.js",
+    "rss:format": "node scripts/format.js>>log.txt",
     "rss:format-check": "node scripts/format-check.js",
     "website:build": "node scripts/build-website.js",
     "lint": "standard",
