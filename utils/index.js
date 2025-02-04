@@ -33,7 +33,7 @@ export function composeFeedItem ({ title, description, pubDate, link, guid }) {
     <item>
       <title>${title}</title>
       <description>${description}</description>
-      <pubDate>${pubDate}</pubDate>
+      <pubDate>${buildRFC822Date(pubDate)}</pubDate>
       <link>${link}</link>
       <guid>${guid}</guid>
     </item>
@@ -81,7 +81,7 @@ export function buildRFC822Date (dateString) {
   const year = date.getFullYear()
   const time = `${addLeadingZero(date.getHours())}:${addLeadingZero(date.getMinutes())}:00`
   const timezone = date.getTimezoneOffset() === 0 ? 'GMT' : 'BST'
-
+  console.log(`${day}, ${dayNumber} ${month} ${year} ${time} ${timezone}`)
   // Wed, 02 Oct 2002 13:00:00 GMT
   return `${day}, ${dayNumber} ${month} ${year} ${time} ${timezone}`
 }
