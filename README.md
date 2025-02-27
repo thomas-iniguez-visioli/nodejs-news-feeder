@@ -1,4 +1,4 @@
-# Official Node.js News Feeder
+[![Dependabot Updates](https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/actions/workflows/dependabot/dependabot-updates)# Official Node.js News Feeder
 
 ### Usage
 
