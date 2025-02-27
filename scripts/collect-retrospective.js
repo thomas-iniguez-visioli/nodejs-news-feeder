@@ -70,7 +70,7 @@ jsonData.map((dat)=>{
   
 })
 })
-                                                                                          })
+})
   
 
  /* const data = parseRetrospectiveContent(content)
