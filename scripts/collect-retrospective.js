@@ -18,7 +18,7 @@ resolvConf.push({
 // Collect new retrospective
 const { retrospective: currentConfig, breakDelimiter } = getConfig()
 const urls = await generateRetroRequestUrl()
-console.log(urls)
+//console.log(urls)
 urls.map(async(url)=>{
   try {
   //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
