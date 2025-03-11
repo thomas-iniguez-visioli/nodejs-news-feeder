@@ -23,7 +23,7 @@ urls.map(async(url)=>{
   try {
   //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
  var html ="" 
- https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf)},response=>{ response.on('data', (chunk) => {
+ https.get("https://bonjourlafuite.eu.org/"/*,{agent: staticDnsAgent(resolvConf)}*/,response=>{ response.on('data', (chunk) => {
   html += chunk;
  // console.log(html.length)
 })
