@@ -17,19 +17,21 @@ resolvConf.push({
 })
 // Collect new retrospective
 const { retrospective: currentConfig, breakDelimiter } = getConfig()
-const urls = await generateRetroRequestUrl()
-//console.log(urls)
-urls.map(async(url)=>{
+
   try {
   //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
  var html ="" 
  https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf),
   
-},response=>{ response.on('data', (chunk) => {
+},response=>{ 
+   response.setTimeout(3000000, function() {
+  console.log("temp")
+});response.on('data', (chunk) => {
   html += chunk;
   console.log(html.length)
 })
 response.on("end",(da)=>{
+  response.abort()
   const buffer = html
 
 const parsedHtml = parse(buffer.toString());
@@ -72,7 +74,7 @@ jsonData.map((dat)=>{
   
 })
 })
-})
+
   
 
  /* const data = parseRetrospectiveContent(content)
