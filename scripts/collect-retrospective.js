@@ -8,7 +8,7 @@ const staticDnsAgent = (resolvconf) => new https.Agent({
     console.log(hostname)
     console.log(opts)
   cb(null, resolvconf, resolvconf[0].family)
-  },timeout:30000000
+  },timeout:30000000,keepAlive:true
 });
 var resolvConf=[]
 resolvConf.push({
@@ -24,7 +24,7 @@ urls.map(async(url)=>{
   //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
  var html ="" 
  https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf),
-  timeout: 30000000
+  
 },response=>{ response.on('data', (chunk) => {
   html += chunk;
   console.log(html.length)
