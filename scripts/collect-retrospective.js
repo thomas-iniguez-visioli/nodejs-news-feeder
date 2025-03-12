@@ -8,7 +8,7 @@ const staticDnsAgent = (resolvconf) => new https.Agent({
     console.log(hostname)
     console.log(opts)
   cb(null, resolvconf, resolvconf[0].family)
-  }
+  },timeout:30000000
 });
 var resolvConf=[]
 resolvConf.push({
