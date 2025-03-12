@@ -21,12 +21,13 @@ const { retrospective: currentConfig, breakDelimiter } = getConfig()
   try {
   //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
  var html ="" 
- https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf),
+ https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf)
   
 },response=>{ 
    response.setTimeout(3000000, function() {
   console.log("temp")
-});response.on('data', (chunk) => {
+});
+response.on('data', (chunk) => {
   html += chunk;
   console.log(html.length)
 })
@@ -73,7 +74,7 @@ jsonData.map((dat)=>{
  
   
 })
-})
+})})
 
   
 
@@ -106,5 +107,5 @@ jsonData.map((dat)=>{
   console.log("Retrospective not found or generated and error, so we're not updating the feed.")
   console.log("Configuration for the retrospective won't be updated either.")
 }
-})
+
 
