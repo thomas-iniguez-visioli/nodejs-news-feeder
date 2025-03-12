@@ -32,7 +32,7 @@ response.on('data', (chunk) => {
   console.log(html.length)
 })
 response.on("end",(da)=>{
-  response.abort()
+  
   const buffer = html
 
 const parsedHtml = parse(buffer.toString());
