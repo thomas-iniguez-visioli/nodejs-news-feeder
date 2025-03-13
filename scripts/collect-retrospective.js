@@ -1,4 +1,7 @@
 import got from 'got'
+import ParseRss from 'rss-parser'
+
+const parser = new ParseRss()
 import { parse } from 'node-html-parser';
 import * as https from 'node:https'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl } from '../utils/index.js'
@@ -17,7 +20,20 @@ resolvConf.push({
 })
 // Collect new retrospective
 const { retrospective: currentConfig, breakDelimiter } = getConfig()
-
+const t=await got(`https://cyber.gouv.fr/actualites/feed`).text()
+//console.log(t)
+parser.parseString(t).then((parsedXml) => {
+  //console.log(parsedXml.items)
+  parsedXml.items.map((dat)=>{
+    composeFeedItem({
+      title: dat.title,
+      description: `<![CDATA[<p>${dat.content}</p>]]>`,
+      pubDate: buildRFC822Date(dat.pubDate),
+      link: dat.link,
+      guid: dat.timestamp
+    })
+  })
+})
   try {
   //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
  var html ="" 
@@ -25,11 +41,11 @@ const { retrospective: currentConfig, breakDelimiter } = getConfig()
   
 },response=>{ 
    response.setTimeout(3000000, function() {
-  console.log("temp")
+  //console.log("temp")
 });
 response.on('data', (chunk) => {
   html += chunk;
-  console.log(html.length)
+  //console.log(html.length)
 })
 response.on("end",(da)=>{
   
@@ -38,7 +54,8 @@ response.on("end",(da)=>{
 const parsedHtml = parse(buffer.toString());
 const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
 const jsonData = Array.from(timelineEntries).map(entry => {
-  const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime');
+  const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
+  //console.log(buildRFC822Date(timestamp))
   const title = "fuite de donnée chez "+entry.querySelector('h2').textContent;
  var content = entry.querySelector('p').textContent;
   const contentList = entry.querySelector('p ul');
@@ -48,7 +65,7 @@ const jsonData = Array.from(timelineEntries).map(entry => {
   }
   const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href');
   return {
-    timestamp,
+    timestamp:buildRFC822Date(timestamp),
     title,
     content,
     source
@@ -59,7 +76,7 @@ jsonData.map((dat)=>{
   const retrospective = composeFeedItem({
     title: dat.title,
     description: `<![CDATA[<p>${dat.content}</p>]]>`,
-    pubDate: buildRFC822Date(dat.timestamp),
+    pubDate: dat.timestamp,
     link: dat.source,
     guid: dat.timestamp
   })
