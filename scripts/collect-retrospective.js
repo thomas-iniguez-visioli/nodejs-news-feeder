@@ -65,7 +65,7 @@ const jsonData = Array.from(timelineEntries).map(entry => {
   }
   const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href');
   return {
-    timestamp:buildRFC822Date(timestamp),
+    timestamp:timestamp,
     title,
     content,
     source

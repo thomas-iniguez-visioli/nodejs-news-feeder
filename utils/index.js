@@ -35,7 +35,7 @@ export function composeFeedItem ({ title, description, pubDate, link, guid }) {
     <item>
       <title>${title}</title>
       <description>${description}</description>
-      <pubDate>${buildRFC822Date(pubDate)}</pubDate>
+      <pubDate>${pubDate}</pubDate>
       <link>${link}</link>
       <guid>${guid}</guid>
     </item>

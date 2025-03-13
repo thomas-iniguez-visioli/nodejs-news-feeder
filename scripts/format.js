@@ -40,7 +40,7 @@ parser.parseString(xml).then((parsedXml) => {
       composeFeedItem({
         title,
         description: `<![CDATA[${content}]]>`,
-        pubDate:buildRFC822Date(pubDate),
+        pubDate:pubDate,
         link,
         guid
       })
