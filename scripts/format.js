@@ -15,6 +15,7 @@ const tribykey=(array,key)=>{
   array.forEach(element => {
     console.log(element[key])
     if(!valid.map((item)=>{return item[key]}).includes(element[key])){
+      //console.log(valid)
       valid.push(element)
     }
   });
@@ -26,12 +27,12 @@ const updaterrss=(feed)=>{
     return JSON.stringify(i)
   }))].map((i)=>{
     return JSON.parse(i)
-  }),"title"),"title")
+  }),"link"),"guid")
   //console.log(fed)
   return fed
 }
 parser.parseString(xml).then((parsedXml) => {
-  console.log(parsedXml)
+  //console.log(parsedXml)
   const sortedItems = updaterrss(parsedXml.items).sort(
     (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
   )
