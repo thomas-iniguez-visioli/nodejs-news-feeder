@@ -27,13 +27,20 @@ parser.parseString(t).then((parsedXml) => {
   parsedXml.items.map((dat)=>{
     console.log(dat.title)
     console.log(dat.link)
-    composeFeedItem({
+    const retrospective =composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.content}</p>]]>`,
       pubDate: buildRFC822Date(dat.pubDate),
       link: dat.link,
       guid: dat.guid
     })
+    const feedContent = getFeedContent()
+   // console.log((dat.title))
+  
+      const [before, after] = feedContent.split(breakDelimiter)
+    const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
+    overwriteFeedContent(updatedFeedContent)
+   
   })
 }).then(()=>{
   try {
