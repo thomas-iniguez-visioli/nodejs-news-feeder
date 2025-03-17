@@ -65,7 +65,7 @@ parser.parseString(t).then((parsedXml) => {
   const jsonData = Array.from(timelineEntries).map(entry => {
     const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
     //console.log(buildRFC822Date(timestamp))
-    const title = "fuite de donnée chez "+entry.querySelector('h2').textContent;
+    const title = "Fuite de données chez "+entry.querySelector('h2').textContent;
    var content = entry.querySelector('p').textContent;
     const contentList = entry.querySelector('p ul');
     if (contentList) {
