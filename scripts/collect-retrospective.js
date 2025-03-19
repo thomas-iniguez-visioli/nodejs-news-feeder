@@ -1,7 +1,7 @@
 import got from 'got'
 import ParseRss from 'rss-parser'
 
-const parser = new ParseRss()
+
 import { parse } from 'node-html-parser';
 import * as https from 'node:https'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl } from '../utils/index.js'
@@ -20,8 +20,9 @@ resolvConf.push({
 })
 // Collect new retrospective
 const { retrospective: currentConfig, breakDelimiter } = getConfig()
-const t=await got(`https://cyber.gouv.fr/actualites/feed`).text()
+const addfeed=async(url)=>{const t=await got(url).text()
 //console.log(t)
+const parser = new ParseRss()
 parser.parseString(t).then((parsedXml) => {
   console.log(parsedXml.items)
   parsedXml.items.map((dat)=>{
@@ -42,7 +43,9 @@ parser.parseString(t).then((parsedXml) => {
     overwriteFeedContent(updatedFeedContent)
    
   })
-}).then(()=>{
+})}
+addfeed('https://cyber.gouv.fr/actualites/feed')
+
   try {
     //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
    var html ="" 
@@ -133,7 +136,7 @@ parser.parseString(t).then((parsedXml) => {
     console.log("Retrospective not found or generated and error, so we're not updating the feed.")
     console.log("Configuration for the retrospective won't be updated either.")
   }
-})
+
 
 
 
