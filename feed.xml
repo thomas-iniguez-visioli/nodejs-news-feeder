@@ -8,18 +8,35 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 20 Mar 2025 00:48:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 02:51:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-30259 - WhatsApp Cloud Service PDF Sandbox Evasion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30259
+<br>
+<strong>Published : </strong> March 20, 2025, 12:15 a.m. | 1 hour, 39 minutes ago
+<br>
+<strong>Description : </strong>The WhatsApp cloud service before late 2024 did not block certain crafted PDF content that can defeat a sandbox protection mechanism and consequently allow remote access to messaging applications by third parties, as exploited in the wild in 2024 for installation of Android malware associated with BIGPRETZEL.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30259</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30259</guid>
+    </item>
+    <item>
       <title>CVE-2025-1628 - CVE-2016-0728: Apache Struts Remote Code Execution Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1628
 <br>
-<strong>Published : </strong> March 19, 2025, 11:15 p.m. | 39 minutes ago
+<strong>Published : </strong> March 19, 2025, 11:15 p.m. | 2 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
@@ -36,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-55009
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>A reflected cross-site scripting (XSS) vulnerability in AutoBib - Bibliographic collection management system 3.1.140 and earlier allows attackers to execute arbitrary Javascript in the context of a victim's browser via injecting a crafted payload into the WCE=topFrame&WCU= parameter.
 <br>
@@ -53,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-26816
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in Intrexx Portal Server 12.0.2 and earlier which was classified as problematic potentially allows users with particular permissions under certain conditions to see potentially sensitive data from a different user context.
 <br>
@@ -70,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27774
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.7 and prior are vulnerable to server-side request forgery (SSRF) and file write in `model_download.py` (line 156 in 3.2.7). The blind SSRF allows for sending requests on behalf of Applio server and can be leveraged to probe for other vulnerabilities on the server itself or on other back-end systems on the internal network, that the Applio server can reach. The blind SSRF can also be coupled with the an arbitrary file read (e.g., CVE-2025-27784) to read files from hosts on the internal network, that the Applio server can reach, which would make it a full SSRF. The file write allows for writing files on the server, which can be coupled with other vulnerabilities, for example an unsafe deserialization, to achieve remote code execution on the Applio server. As of time of publication, no known patches are available.
 <br>
@@ -87,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27775
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.7 and prior are vulnerable to server-side request forgery (SSRF) and file write in `model_download.py` (line 143 in 3.2.7). The blind SSRF allows for sending requests on behalf of Applio server and can be leveraged to probe for other vulnerabilities on the server itself or on other back-end systems on the internal network, that the Applio server can reach. The file write allows for writing files on the server, which can be coupled with other vulnerabilities, for example an unsafe deserialization, to achieve remote code execution on the Applio server. As of time of publication, no known patches are available.
 <br>
@@ -104,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27776
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.7 and prior are vulnerable to server-side request forgery (SSRF) and file write in `model_download.py` (line 240 in 3.2.7). The blind SSRF allows for sending requests on behalf of Applio server and can be leveraged to probe for other vulnerabilities on the server itself or on other back-end systems on the internal network, that the Applio server can reach. The blind SSRF can also be coupled with the arbitrary file read CVE-2025-27784 to read files from hosts on the internal network, that the Applio server can reach, which would make it a full SSRF. The file write allows for writing files on the server, which can be coupled with other vulnerabilities, for example an unsafe deserialization, to achieve remote code execution on the Applio server. As of time of publication, no known patches are available.
 <br>
@@ -121,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27777
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.7 and prior are vulnerable to server-side request forgery (SSRF) in `model_download.py` (line 195 in 3.2.7). The blind SSRF allows for sending requests on behalf of Applio server and can be leveraged to probe for other vulnerabilities on the server itself or on other back-end systems on the internal network, that the Applio server can reach. The blind SSRF can also be coupled with a arbitrary file read (e.g., CVE-2025-27784) to read files from hosts on the internal network, that the Applio server can reach, which would make it a full SSRF. As of time of publication, no known patches are available.
 <br>
@@ -138,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27778
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to unsafe deserialization in `infer.py`. The issue can lead to remote code execution. As of time of publication, a fix is available on the `main` branch of the Applio repository but not attached to a numbered release.
 <br>
@@ -155,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27779
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to unsafe deserialization in `model_blender.py` lines 20 and 21. `model_fusion_a` and `model_fusion_b` from voice_blender.py take user-supplied input (e.g. a path to a model) and pass that value to the `run_model_blender_script` and later to `model_blender` function, which loads these two models with `torch.load` in `model_blender.py (on lines 20-21 in 3.2.8-bugfix), which is vulnerable to unsafe deserialization. The issue can lead to remote code execution. A patch is available on the `main` branch of the Applio repository.
 <br>
@@ -172,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27780
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to unsafe deserialization in model_information.py. `model_name` in model_information.py takes user-supplied input (e.g. a path to a model) and pass that value to the `run_model_information_script` and later to `model_information` function, which loads that model with `torch.load` in rvc/train/process/model_information.py (on line 16 in 3.2.8-bugfix), which is vulnerable to unsafe deserialization. The issue can lead to remote code execution. A patch is available in the `main` branch of the repository.
 <br>
@@ -189,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27781
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to unsafe deserialization in inference.py. `model_file` in inference.py as well as `model_file` in tts.py take user-supplied input (e.g. a path to a model) and pass that value to the `change_choices` and later to `get_speakers_id` function, which loads that model with `torch.load` in inference.py (line 326 in 3.2.8-bugfix), which is vulnerable to unsafe deserialization. The issue can lead to remote code execution. A patch is available on the `main` branch of the repository.
 <br>
@@ -206,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27782
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to arbitrary file write in inference.py. This issue may lead to writing arbitrary files on the Applio server. It can also be used in conjunction with an unsafe deserialization to achieve remote code execution. As of time of publication, no known patches are available.
 <br>
@@ -223,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27783
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to arbitrary file write in train.py. This issue may lead to writing arbitrary files on the Applio server. It can also be used in conjunction with an unsafe deserialization to achieve remote code execution. As of time of publication, no known patches are available.
 <br>
@@ -240,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27784
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to arbitrary file read in train.py's `export_pth` function. This issue may lead to reading arbitrary files on the Applio server. It can also be used in conjunction with blind server-side request forgery to read files from servers on the internal network that the Applio server has access to. As of time of publication, no known patches are available.
 <br>
@@ -257,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27785
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to arbitrary file read in train.py's `export_index` function. This issue may lead to reading arbitrary files on the Applio server. It can also be used in conjunction with blind server-side request forgery to read files from servers on the internal network that the Applio server has access to. As of time of publication, no known patches are available.
 <br>
@@ -274,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27786
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to arbitrary file removal in core.py. `output_tts_path` in tts.py takes arbitrary user input and passes it to `run_tts_script` function in core.py, which checks if the path in `output_tts_path` exists, and if yes, removes that path, which leads to arbitrary file removal. As of time of publication, no known patches are available.
 <br>
@@ -291,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27787
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Applio is a voice conversion tool. Versions 3.2.8-bugfix and prior are vulnerable to denial of service (DoS) in restart.py. `model_name` in train.py takes user input, and passes it to the `stop_train` function in restart.py, which uses it construct a path to a folder with `config.json`. That `config.json` is opened and the list of values under "process_pids" are read. Next all the process IDs listed in the JSON are killed. Using one of the arbitrary file writes, one can  write to `logs/foobar` a `config.json` file, which contains a list of process IDs. Then one can access this endpoint to kill these processes. Since an attacker can't know what process is running on which process ID, they can send a list of hundreds of process IDs, which can kill the process that applio is using to run, as well as other, potentially important processes, which leads to DoS. Note that constructing a path with user input also enables path traversal. For example, by supplying "../../" in `model_name` one can access `config.json` freom locations two folders down on the server. As of time of publication, no known patches are available.
 <br>
@@ -308,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30092
 <br>
-<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 9:15 p.m. | 4 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Intrexx Portal Server 12.x <= 12.0.2 and 11.x <= 11.9.2 allows XSS in multiple Velocity scripts.
 <br>
@@ -325,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27705
 <br>
-<strong>Published : </strong> March 19, 2025, 8:15 p.m. | 3 hours, 39 minutes ago
+<strong>Published : </strong> March 19, 2025, 8:15 p.m. | 5 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>There is a cross-site scripting vulnerability in the Secure
 Access administrative console of Absolute Secure Access prior to version 13.53.
@@ -349,7 +366,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30258
 <br>
-<strong>Published : </strong> March 19, 2025, 8:15 p.m. | 3 hours, 39 minutes ago
+<strong>Published : </strong> March 19, 2025, 8:15 p.m. | 5 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify signatures made from certain other signing keys, aka a "verification DoS."
 <br>
@@ -362,28 +379,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-30258</guid>
     </item>
     <item>
-      <title>CVE-2024-7631 - OpenShift Console Directory Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-7631
-<br>
-<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 4 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>A flaw was found in the OpenShift Console, an endpoint for plugins to serve resources in multiple languages: /locales/resources.json. This endpoint's lng and ns parameters are used to construct a filepath in pkg/plugins/handlers unsafely.go#L112 Because of this unsafe filepath construction, an authenticated user can manipulate the path to retrieve any JSON files on the console's pod by using sequences of ../ and valid directory paths.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 19 Mar 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-7631</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-7631</guid>
-    </item>
-    <item>
       <title>CVE-2025-27415 - Nuxt CDN Cache Poisoning Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27415
 <br>
-<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 6 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Nuxt is an open-source web development framework for Vue.js. Prior to 3.16.0, by sending a crafted HTTP request to a server behind an CDN, it is possible in some circumstances to poison the CDN cache and highly impacts the availability of a site. It is possible to craft a request, such as https://mysite.com/?/_payload.json which will be rendered as JSON. If the CDN in front of a Nuxt site ignores the query string when determining whether to cache a route, then this JSON response could be served to future visitors to the site. An attacker can perform this attack to a vulnerable site in order to make a site unavailable indefinitely. It is also possible in the case where the cache will be reset to make a small script to send a request each X seconds (=caching duration) so that the cache is permanently poisoned making the site completely unavailable. This vulnerability is fixed in 3.16.0.
 <br>
@@ -400,7 +400,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27704
 <br>
-<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 6 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>There is a cross-site scripting vulnerability in the Secure
 Access administrative console of Absolute Secure Access prior to version 13.53.
@@ -424,7 +424,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2476
 <br>
-<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 6 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Use after free in Lens in Google Chrome prior to 134.0.6998.117 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)
 <br>
@@ -441,7 +441,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2536
 <br>
-<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> March 19, 2025, 7:15 p.m. | 6 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Cross-site scripting (XSS) vulnerability on Liferay Portal 7.4.3.82 through 7.4.3.128, and Liferay DXP 2024.Q3.0, 2024.Q2.0 through 2024.Q2.13, 2024.Q1.1 through 2024.Q1.12, 2023.Q4.0 through 2023.Q4.10, 2023.Q3.1 through 2023.Q3.10, 7.4 update 82 through update 92 in the Frontend JS module's layout-taglib/__liferay__/index.js allows remote attackers to inject arbitrary web script or HTML via toastData parameter
 <br>
