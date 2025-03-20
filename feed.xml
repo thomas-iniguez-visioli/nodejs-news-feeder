@@ -8,12 +8,491 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 20 Mar 2025 11:38:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 12:19:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>L’ANSSI partage en open source un outil de test du protocole industriel OPC UA</title>
+      <description><![CDATA[<p><span class="field field--name-title field--type-string field--label-hidden">L’ANSSI partage en open source un outil de test du protocole industriel OPC UA</span>
+
+            <div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><picture class="image-banniere"><source media="(max-width:766px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_767_400/public/image/actu_web_fuzzy_sully.png?h=284f21b9&itok=inYbUfLs"></source><source media="(min-width:768px) and (max-width:999px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1200_350/public/image/actu_web_fuzzy_sully.png?h=284f21b9&itok=vlD1XSLG"></source><source media="(min-width:1000px) and (max-width:1200px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1200_250/public/image/actu_web_fuzzy_sully.png?h=284f21b9&itok=XABg8OLH"></source><source media="(min-width:1201px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1920_328/public/image/actu_web_fuzzy_sully.png?h=284f21b9&itok=hrWtwsZE"></source><img src="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_767_400/public/image/actu_web_fuzzy_sully.png?h=284f21b9&itok=inYbUfLs" /></picture></div>
+      <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span>anssiadm</span></span>
+<span class="field field--name-created field--type-created field--label-hidden"><time datetime="2025-03-20T12:11:53+00:00" title="Jeudi 20 Mars 2025 - 12:11" class="datetime">jeu 20/03/2025 - 12:11</time></span>
+
+            <div class="field field--name-field-chapo field--type-string-long field--label-hidden field__item">L’outil « fuzzysully » est un fuzzer qui permet d’évaluer la sécurité de l’implémentation du protocole OPC UA utilisé dans le secteur industriel. Son code est désormais disponible pour tous.</div>
+      
+      <div class="field field--name-field-corps field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--op-texte-riche paragraph--view-mode--default">
+    <div class="text-riche">
+      
+            <div class="clearfix text-formatted field field--name-field-texte-riche field--type-text-long field--label-hidden field__item"><p>Dans sa mobilisation pour accroître le niveau de sécurité des systèmes d’information (SI) industriels, l’ANSSI souhaite <strong>favoriser et encourager l’adoption du protocole <em>Open Platform Communications Unified Architecture</em> (« OPC UA »)</strong>. Le protocole OPC UA est un standard international, open source, définissant la communication entre les différents constituants d’un système d’information industriel. Ce standard, nativement sécurisé, ouvert et interopérable, est largement adopté par les organisations du secteur de l’industrie.</p>
+<p><strong>L’Agence soutient activement l’utilisation de ce protocole au sein de l’écosystème numérique</strong>, notamment pour les SI industriels répondant à de forts enjeux de sécurité comme certains systèmes d’information d’importance vitale (SIIV) et certains systèmes d’information essentiels (SIE).</p>
+<p><strong>Courant 2024, l’ANSSI a sous-traité à la société Quarkslab le développement de « fuzzysully », un <em>fuzzer</em> pour le protocole OPC UA</strong>. <strong>L’ANSSI publie ce jour cet outil <a href="https://github.com/ANSSI-FR/fuzzysully">sur le dépôt Github de l’Agence</a></strong>.</p>
+<p>Cette publication s’inscrit dans <a href="https://cyber.gouv.fr/open-source-lanssi">la démarche générale de l’ANSSI</a> visant à partager avec la communauté cyber les codes qu’elle produit et à accroître le niveau de sécurité des logiciels open source. L’Agence assurera le maintien en conditions de sécurité (MCS) de <strong>fuzzysully</strong> mais ne prévoit pas de le faire évoluer.</p>
+<p><strong>L’ANSSI invite l’écosystème cyber à s’approprier cet outil de manière à évaluer la robustesse de différentes implémentations du protocole OPC UA et ainsi à participer à l’amélioration de la sécurité des SI industriels.</strong> Pour toutes remarques ou questions : <u>industries [at] ssi.gouv.fr</u>.</p>
+</div>
+      
+    </div>
+  </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--texte paragraph--view-mode--default">
+        <h2>Qu’est-ce qu’un fuzzer ? Qu’est-ce que le fuzzing ?</h2>
+        <div class="text-exergue">
+      <div class="text">
+        
+      </div>
+      <div class="exergue">
+        
+            <div class="field field--name-field-text field--type-entity-reference-revisions field--label-hidden field__item">  <div class="paragraph paragraph--type--op-texte-riche paragraph--view-mode--default">
+    <div class="text-riche">
+      
+            <div class="clearfix text-formatted field field--name-field-texte-riche field--type-text-long field--label-hidden field__item"><p>Un <em>fuzzer</em> est un outil qui injecte automatiquement dans un programme, des entrées aléatoires, invalides, inattendues ou malformées pour éprouver sa capacité à résister à des cas non envisagés lors d’une utilisation normale.</p>
+<p>L'objectif du <em>fuzzing</em> est d'identifier, au moyen d’un <em>fuzzer</em>, des bugs, des vulnérabilités ou des comportements inattendus, tels que des plantages (crashs), des fuites de mémoire ou d’autres défauts pouvant mettre en péril la sécurité du programme.</p>
+</div>
+      
+    </div>
+  </div>
+</div>
+      
+      </div>
+    </div>
+
+  </div>
+</div>
+          </div>
+  </p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 12:11:00 GMT</pubDate>
+      <link>https://cyber.gouv.fr/actualites/lanssi-partage-en-open-source-un-outil-de-test-du-protocole-industriel-opc-ua</link>
+      <guid>74107 at https://cyber.gouv.fr</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0184 - Dify Langgenius SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0184
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A Server-Side Request Forgery (SSRF) vulnerability was identified in langgenius/dify version 0.10.2. The vulnerability occurs in the 'Create Knowledge' section when uploading DOCX files. If an external relationship exists in the DOCX file, the reltype value is requested as a URL using the 'requests' module instead of the 'ssrf_proxy', leading to an SSRF vulnerability. This issue was fixed in version 0.11.0.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0184</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0184</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0185 - Dify Tools Vanna Module Pandas Query Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0185
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the Dify Tools' Vanna module of the langgenius/dify repository allows for a Pandas Query Injection in the latest version. The vulnerability occurs in the function `vn.get_training_plan_generic(df_information_schema)`, which does not properly sanitize user inputs before executing queries using the Pandas library. This can potentially lead to Remote Code Execution (RCE) if exploited.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0185</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0185</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0187 - Gradio DoS File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0187
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A Denial of Service (DoS) vulnerability was discovered in the file upload feature of gradio-app/gradio version 0.39.1. The vulnerability is due to improper handling of form-data with a large filename in the file upload request. By sending a payload with an excessively large filename, the server becomes overwhelmed and unresponsive, leading to unavailability for legitimate users.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0187</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0187</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0188 - ChuanhuChatGPT SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0188
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A Server-Side Request Forgery (SSRF) vulnerability was discovered in gaizhenbiao/chuanhuchatgpt version 20240914. The vulnerability allows an attacker to construct a response link by saving the response in a folder named after the SHA-1 hash of the target URL. This enables the attacker to access the response directly, potentially leading to unauthorized access to internal systems, data theft, service disruption, or further attacks such as port scanning and accessing metadata endpoints.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0188</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0188</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0189 - Aimhubio Aim WebSocket Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0189
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>In version 3.25.0 of aimhubio/aim, the tracking server is vulnerable to a denial of service attack. The server overrides the maximum size for websocket messages, allowing very large images to be tracked. This causes the server to become unresponsive to other requests while processing the large image, leading to a denial of service condition.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0189</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0189</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0190 - Aimhubio Aim Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0190
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>In version 3.25.0 of aimhubio/aim, a denial of service vulnerability exists. By tracking a large number of `Text` objects and then querying them simultaneously through the web API, the Aim web server becomes unresponsive to other requests for an extended period while processing and returning these objects. This vulnerability can be exploited repeatedly, leading to a complete denial of service.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0190</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0190</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0191 - Gaizhenbiao Chuanhuchatgpt File Upload Large Filename DoS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0191
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A Denial of Service (DoS) vulnerability exists in the file upload feature of gaizhenbiao/chuanhuchatgpt version 20240914. The vulnerability is due to improper handling of form-data with a large filename in the file upload request. By sending a payload with an excessively large filename, the server becomes overwhelmed and unresponsive, leading to unavailability for legitimate users.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0191</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0191</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0192 - Wandb OpenUI Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0192
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A stored Cross-site Scripting (XSS) vulnerability exists in the latest version of wandb/openui. The vulnerability is present in the edit HTML functionality, where an attacker can inject malicious scripts. When the modified HTML is shared with another user, the XSS payload executes, potentially leading to the theft of user prompt history and other sensitive information.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0192</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0192</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0281 - "Lunary SAML IdP Stored XSS"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0281
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A stored cross-site scripting (XSS) vulnerability exists in lunary-ai/lunary versions 1.6.7 and earlier. An attacker can inject malicious JavaScript into the SAML IdP XML metadata, which is used to generate the SAML login redirect URL. This URL is then set as the value of `window.location.href` without proper validation or sanitization. This vulnerability allows the attacker to execute arbitrary JavaScript in the context of the user's browser, potentially leading to session hijacking, data theft, or other malicious actions. The issue is fixed in version 1.7.10.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0281</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0281</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0312 - Ollama Ollama Null Pointer Dereference Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0312
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in ollama/ollama versions <=0.3.14 allows a malicious user to create a customized GGUF model file that, when uploaded and created on the Ollama server, can cause a crash due to an unchecked null pointer dereference. This can lead to a Denial of Service (DoS) attack via remote network.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0312</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0312</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0313 - Ollama Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0313
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in ollama/ollama versions <=0.3.14 allows a malicious user to create a GGUF model that can cause a denial of service (DoS) attack. The vulnerability is due to improper validation of array index bounds in the GGUF model handling code, which can be exploited via a remote network.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0313</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0313</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0315 - Ollama Ollama Memory Allocation Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0315
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in ollama/ollama <=0.3.14 allows a malicious user to create a customized GGUF model file, upload it to the Ollama server, and create it. This can cause the server to allocate unlimited memory, leading to a Denial of Service (DoS) attack.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0315</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0315</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0317 - Ollama Denial of Service (DoS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0317
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in ollama/ollama versions <=0.3.14 allows a malicious user to upload and create a customized GGUF model file on the Ollama server. This can lead to a division by zero error in the ggufPadding function, causing the server to crash and resulting in a Denial of Service (DoS) attack.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0317</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0317</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0330 - Berriai Litellm API Key Exposure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0330
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>In berriai/litellm version v1.52.1, an issue in proxy_server.py causes the leakage of Langfuse API keys when an error occurs while parsing team settings. This vulnerability exposes sensitive information, including langfuse_secret and langfuse_public_key, which can provide full access to the Langfuse project storing all requests.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0330</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0330</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0452 - Eosphoros-ai DB-GPT Windows File Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0452
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>eosphoros-ai/DB-GPT version latest is vulnerable to arbitrary file deletion on Windows systems via the '/v1/agent/hub/update' endpoint. The application fails to properly filter the '\' character, which is commonly used as a separator in Windows paths. This vulnerability allows attackers to delete any files on the host system by manipulating the 'plugin_repo_name' variable.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0452</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0452</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0453 - Apache MLFlow GraphQL Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0453
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>In mlflow/mlflow version 2.17.2, the `/graphql` endpoint is vulnerable to a denial of service attack. An attacker can create large batches of queries that repeatedly request all runs from a given experiment. This can tie up all the workers allocated by MLFlow, rendering the application unable to respond to other requests. This vulnerability is due to uncontrolled resource consumption.
+<br>
+<strong>Severity:</strong> 5.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0453</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0453</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0454 - Apache Autogpt SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0454
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A Server-Side Request Forgery (SSRF) vulnerability was identified in the Requests utility of significant-gravitas/autogpt versions prior to v0.4.0. The vulnerability arises due to a hostname confusion between the `urlparse` function from the `urllib.parse` library and the `requests` library. A malicious user can exploit this by submitting a specially crafted URL, such as `http://localhost:\@google.com/../`, to bypass the SSRF check and perform an SSRF attack.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0454</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0454</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0508 - AWS SageMaker Python SDK SageMaker Workflow MD5 Hash Collision</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0508
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the SageMaker Workflow component of aws/sagemaker-python-sdk allows for the possibility of MD5 hash collisions in all versions. This can lead to workflows being inadvertently replaced due to the reuse of results from different configurations that produce the same MD5 hash. This issue can cause integrity problems within the pipeline, potentially leading to erroneous processing outcomes.
+<br>
+<strong>Severity:</strong> 5.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0508</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0508</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0628 - BerriAI Litellm Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0628
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>An improper authorization vulnerability exists in the main-latest version of BerriAI/litellm. When a user with the role 'internal_user_viewer' logs into the application, they are provided with an overly privileged API key. This key can be used to access all the admin functionality of the application, including endpoints such as '/users/list' and '/users/get_users'. This vulnerability allows for privilege escalation within the application, enabling any account to become a PROXY ADMIN.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0628</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0628</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0655 - Man Group dtale Remote Code Execution (RCE)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0655
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in man-group/dtale versions 3.15.1 allows an attacker to override global state settings to enable the `enable_custom_filters` feature, which is typically restricted to trusted environments. Once enabled, the attacker can exploit the /test-filter endpoint to execute arbitrary system commands, leading to remote code execution (RCE). This issue is addressed in version 3.16.1.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0655</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0655</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1040 - AutoGPT SSTI RCE</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1040
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>AutoGPT versions 0.3.4 and earlier are vulnerable to a Server-Side Template Injection (SSTI) that could lead to Remote Code Execution (RCE). The vulnerability arises from the improper handling of user-supplied format strings in the `AgentOutputBlock` implementation, where malicious input is passed to the Jinja2 templating engine without adequate security measures. Attackers can exploit this flaw to execute arbitrary commands on the host system. The issue is fixed in version 0.4.0.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1040</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1040</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1451 - Apache Lollms WebUI Multipart Boundary Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1451
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in parisneo/lollms-webui v13 arises from the server's handling of multipart boundaries in file uploads. The server does not limit or validate the length of the boundary or the characters appended to it, allowing an attacker to craft requests with excessively long boundaries, leading to resource exhaustion and eventual denial of service (DoS). Despite an attempted patch in commit 483431bb, which blocked hyphen characters from being appended to the multipart boundary, the fix is insufficient. The server remains vulnerable if other characters (e.g., '4', 'a') are used instead of hyphens. This allows attackers to exploit the vulnerability using different characters, causing resource exhaustion and service unavailability.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1451</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1451</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1473 - "Apache MLflow CSRF Account Creation"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1473
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A Cross-Site Request Forgery (CSRF) vulnerability exists in the Signup feature of mlflow/mlflow versions 2.17.0 to 2.20.1. This vulnerability allows an attacker to create a new account, which may be used to perform unauthorized actions on behalf of the malicious user.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1473</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1473</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1474 - Apache MLflow Passwordless User Account Creation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1474
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>In mlflow/mlflow version 2.18, an admin is able to create a new user account without setting a password. This vulnerability could lead to security risks, as accounts without passwords may be susceptible to unauthorized access. Additionally, this issue violates best practices for secure user account management. The issue is fixed in version 2.19.0.
+<br>
+<strong>Severity:</strong> 3.8 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1474</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1474</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1796 - "Langgenius Dify PRNG Predictable Password Reset Code Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1796
+<br>
+<strong>Published : </strong> March 20, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in langgenius/dify v0.10.1 allows an attacker to take over any account, including administrator accounts, by exploiting a weak pseudo-random number generator (PRNG) used for generating password reset codes. The application uses `random.randint` for this purpose, which is not suitable for cryptographic use and can be cracked. An attacker with access to workflow tools can extract the PRNG output and predict future password reset codes, leading to a complete compromise of the application.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 20 Mar 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1796</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1796</guid>
+    </item>
     <item>
       <title>CVE-2024-47552 - Apache Seata Untrusted Data Deserialization Remote Code Execution Vulnerability</title>
       <description><![CDATA[<p>
