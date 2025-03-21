@@ -8,18 +8,103 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 21 Mar 2025 14:09:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 16:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-57490 - Guangzhou Hongfan Technology Co., LTD. iOffice20 Login Authentication Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-57490
+<br>
+<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 27 minutes ago
+<br>
+<strong>Description : </strong>Guangzhou Hongfan Technology Co., LTD. iOffice20 has any user login vulnerability. An attacker can log in to any system account including the system administrator through a logical flaw.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-57490</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-57490</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2591 - "Open Asset Import Library Assimp Divide By Zero Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2591
+<br>
+<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 27 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic was found in Open Asset Import Library Assimp 5.4.3. This vulnerability affects the function MDLImporter::InternReadFile_Quake1 of the file code/AssetLib/MDL/MDLLoader.cpp. The manipulation of the argument skinwidth/skinheight leads to divide by zero. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The patch is identified as ab66a1674fcfac87aaba4c8b900b315ebc3e7dbd. It is recommended to apply a patch to fix this issue.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2591</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2591</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2592 - "Open Asset Import Library (Assimp) Heap-Based Buffer Overflow Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2592
+<br>
+<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 27 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Open Asset Import Library Assimp 5.4.3. This issue affects the function CSMImporter::InternReadFile of the file code/AssetLib/CSM/CSMLoader.cpp. The manipulation leads to heap-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The patch is named 2690e354da0c681db000cfd892a55226788f2743. It is recommended to apply a patch to fix this issue.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2592</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2592</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2589 - Code-projects Human Resource Management System Unauthorized Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2589
+<br>
+<strong>Published : </strong> March 21, 2025, 1:15 p.m. | 1 hour, 27 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Human Resource Management System 1.0.1 and classified as critical. This issue affects the function Index of the file \handler\Account.go. The manipulation of the argument user_cookie leads to improper authorization. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2589</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2589</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2590 - Code-projects Human Resource Management System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2590
+<br>
+<strong>Published : </strong> March 21, 2025, 1:15 p.m. | 1 hour, 27 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Human Resource Management System 1.0.1. It has been classified as problematic. Affected is the function UpdateRecruitmentById of the file \handler\recruitment.go. The manipulation of the argument c leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2590</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2590</guid>
+    </item>
+    <item>
       <title>CVE-2025-2587 - Jinher OA SQL Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2587
 <br>
-<strong>Published : </strong> March 21, 2025, 12:15 p.m. | 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 12:15 p.m. | 2 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in Jinher OA C6 1.0. This affects an unknown part of the file IncentivePlanFulfillAppprove.aspx. The manipulation of the argument httpOID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2588
 <br>
-<strong>Published : </strong> March 21, 2025, 12:15 p.m. | 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 12:15 p.m. | 2 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in Hercules Augeas 1.14.1 and classified as problematic. This vulnerability affects the function re_case_expand of the file src/fa.c. The manipulation of the argument re leads to null pointer dereference. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2597
 <br>
-<strong>Published : </strong> March 21, 2025, 12:15 p.m. | 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 12:15 p.m. | 2 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Reflected Cross-Site Scripting (XSS) in ITIUM 6050 version 5.5.5.2-b3526 from Impact Technologies. This vulnerability could allow an attacker to execute malicious Javascript code via GET and POST requests to the ‘/index.php’ endpoint and injecting code into the ‘id_session.
 <br>
@@ -70,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24920
 <br>
-<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 3 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 5 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.3.x <= 10.3.3, 9.11.x <= 9.11.8, 10.5.x <= 10.5.0 fail to restrict bookmark creation and updates in archived channels, which allows authenticated users created or update bookmarked in archived channels
 <br>
@@ -87,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25068
 <br>
-<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 3 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 5 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.3.x <= 10.3.3, 9.11.x <= 9.11.8, 10.5.x <= 10.5.0 fail to enforce MFA on plugin endpoints, which allows authenticated attackers to bypass MFA protections via API requests to plugin-specific routes.
 <br>
@@ -104,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25274
 <br>
-<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 3 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 5 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.3.x <= 10.3.3, 9.11.x <= 9.11.8 fail to restrict command execution in archived channels, which allows authenticated users to run commands in archived channels.
 <br>
@@ -121,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27715
 <br>
-<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 3 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 5 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Mattermost versions 9.11.x <= 9.11.8 fail to prompt for explicit approval before adding a team admin to a private channel, which team admins to joining private channels via crafted permalink links without explicit consent from them.
 <br>
@@ -138,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27933
 <br>
-<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 3 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 5 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.3.x <= 10.3.3, 9.11.x <= 9.11.8 fail to fail to enforce channel conversion restrictions, which allows members with permission to convert public channels to private ones to also convert private ones to public
 <br>
@@ -155,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30179
 <br>
-<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 3 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 9:15 a.m. | 5 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.3.x <= 10.3.3, 9.11.x <= 9.11.8 fail to enforce MFA on certain search APIs, which allows authenticated attackers to bypass MFA protections via user search, channel search, or team search queries.
 <br>
@@ -172,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2584
 <br>
-<strong>Published : </strong> March 21, 2025, 8:15 a.m. | 4 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 8:15 a.m. | 6 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in WebAssembly wabt 1.0.36. It has been declared as critical. This vulnerability affects the function BinaryReaderInterp::GetReturnCallDropKeepCount of the file wabt/src/interp/binary-reader-interp.cc. The manipulation leads to heap-based buffer overflow. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used.
 <br>
@@ -189,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13903
 <br>
-<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 5 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 7 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in quickjs-ng QuickJS up to 0.8.0. It has been declared as problematic. Affected by this vulnerability is the function JS_GetRuntime of the file quickjs.c of the component qjs. The manipulation leads to stack-based buffer overflow. The attack can be launched remotely. Upgrading to version 0.9.0 is able to address this issue. The patch is named 99c02eb45170775a9a679c32b45dd4000ea67aff. It is recommended to upgrade the affected component.
 <br>
@@ -206,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2582
 <br>
-<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 5 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 7 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in SimpleMachines SMF 2.1.4 and classified as problematic. Affected by this issue is some unknown functionality of the file ManageAttachments.php. The manipulation of the argument Notice leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure.
 <br>
@@ -223,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2583
 <br>
-<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 5 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 7 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in SimpleMachines SMF 2.1.4. It has been classified as problematic. This affects an unknown part of the file ManageNews.php. The manipulation of the argument subject/message leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure.
 <br>
@@ -240,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30346
 <br>
-<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 5 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 7 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Varnish Cache before 7.6.2 and Varnish Enterprise before 6.0.13r10 allow client-side desync via HTTP/1 requests.
 <br>
@@ -257,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30347
 <br>
-<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 5 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 7 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>Varnish Enterprise before 6.0.13r13 allows remote attackers to obtain sensitive information via an out-of-bounds read for range requests on ephemeral MSE4 stevedore objects.
 <br>
@@ -274,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30348
 <br>
-<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 5 hours, 30 minutes ago
+<strong>Published : </strong> March 21, 2025, 7:15 a.m. | 7 hours, 27 minutes ago
 <br>
 <strong>Description : </strong>encodeText in QDom in Qt before 6.8.0 has a complex algorithm involving XML string copy and inline replacement of parts of a string (with relocation of later data).
 <br>
@@ -285,6 +370,74 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 21 Mar 2025 07:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-30348</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-30348</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30342 - OpenSlides Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30342
+<br>
+<strong>Published : </strong> March 21, 2025, 6:15 a.m. | 8 hours, 27 minutes ago
+<br>
+<strong>Description : </strong>An XSS issue was discovered in OpenSlides before 4.2.5. When submitting descriptions such as Moderator Notes or Agenda Topics, an editor is shown that allows one to format the submitted text. This allows insertion of various HTML elements. When trying to insert a SCRIPT element, it is properly encoded when reflected; however, adding attributes to links is possible, which allows the injection of JavaScript via the onmouseover attribute and others. When a user moves the mouse over such a prepared link, JavaScript is executed in that user's session.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30342</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30342</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30343 - OpenSlides Directory Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30343
+<br>
+<strong>Published : </strong> March 21, 2025, 6:15 a.m. | 8 hours, 27 minutes ago
+<br>
+<strong>Description : </strong>A directory traversal issue was discovered in OpenSlides before 4.2.5. Files can be uploaded to OpenSlides meetings and organized in folders. The interface allows users to download a ZIP archive that contains all files in a folder and its subfolders. If an attacker specifies the title of a file or folder as a relative or absolute path (e.g., ../../../etc/passwd), the ZIP archive generated for download converts that title into a path. Depending on the extraction tool used by the user, this might overwrite files locally outside of the chosen directory.
+<br>
+<strong>Severity:</strong> 3.0 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30343</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30343</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30344 - OpenSlides Timing-Based Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30344
+<br>
+<strong>Published : </strong> March 21, 2025, 6:15 a.m. | 8 hours, 27 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in OpenSlides before 4.2.5. During login at the /system/auth/login/ endpoint, the system's response times differ depending on whether a user exists in the system. The timing discrepancy stems from the omitted hashing of the password (e.g., more than 100 milliseconds).
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30344</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30344</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30345 - OpenSlides Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30345
+<br>
+<strong>Published : </strong> March 21, 2025, 6:15 a.m. | 8 hours, 27 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in OpenSlides before 4.2.5. When creating new chats via the chat_group.create action, the user is able to specify the name of the chat. Some HTML elements such as SCRIPT are filtered, whereas others are not. In most cases, HTML entities are encoded properly, but not when deleting chats or deleting messages in these chats. This potentially allows attackers to interfere with the layout of the rendered website, but it is unlikely that victims would click on deleted chats or deleted messages.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30345</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30345</guid>
     </item>
     <item>
       <title>CVE-2024-50053 - Zohocorp ManageEngine ServiceDesk Plus Stored Cross-Site Scripting</title>
@@ -302,74 +455,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2024-50053</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2024-50053</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30342 - OpenSlides Cross-Site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30342
-<br>
-<strong>Published : </strong> March 21, 2025, 6:15 a.m. | 6 hours, 30 minutes ago
-<br>
-<strong>Description : </strong>An XSS issue was discovered in OpenSlides before 4.2.5. When submitting descriptions such as Moderator Notes or Agenda Topics, an editor is shown that allows one to format the submitted text. This allows insertion of various HTML elements. When trying to insert a SCRIPT element, it is properly encoded when reflected; however, adding attributes to links is possible, which allows the injection of JavaScript via the onmouseover attribute and others. When a user moves the mouse over such a prepared link, JavaScript is executed in that user's session.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30342</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30342</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30343 - OpenSlides Directory Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30343
-<br>
-<strong>Published : </strong> March 21, 2025, 6:15 a.m. | 6 hours, 30 minutes ago
-<br>
-<strong>Description : </strong>A directory traversal issue was discovered in OpenSlides before 4.2.5. Files can be uploaded to OpenSlides meetings and organized in folders. The interface allows users to download a ZIP archive that contains all files in a folder and its subfolders. If an attacker specifies the title of a file or folder as a relative or absolute path (e.g., ../../../etc/passwd), the ZIP archive generated for download converts that title into a path. Depending on the extraction tool used by the user, this might overwrite files locally outside of the chosen directory.
-<br>
-<strong>Severity:</strong> 3.0 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30343</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30343</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30344 - OpenSlides Timing-Based Authentication Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30344
-<br>
-<strong>Published : </strong> March 21, 2025, 6:15 a.m. | 6 hours, 30 minutes ago
-<br>
-<strong>Description : </strong>An issue was discovered in OpenSlides before 4.2.5. During login at the /system/auth/login/ endpoint, the system's response times differ depending on whether a user exists in the system. The timing discrepancy stems from the omitted hashing of the password (e.g., more than 100 milliseconds).
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30344</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30344</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30345 - OpenSlides Cross-Site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30345
-<br>
-<strong>Published : </strong> March 21, 2025, 6:15 a.m. | 6 hours, 30 minutes ago
-<br>
-<strong>Description : </strong>An issue was discovered in OpenSlides before 4.2.5. When creating new chats via the chat_group.create action, the user is able to specify the name of the chat. Some HTML elements such as SCRIPT are filtered, whereas others are not. In most cases, HTML entities are encoded properly, but not when deleting chats or deleting messages in these chats. This potentially allows attackers to interfere with the layout of the rendered website, but it is unlikely that victims would click on deleted chats or deleted messages.
-<br>
-<strong>Severity:</strong> 3.5 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 21 Mar 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30345</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30345</guid>
     </item>
     <item>
       <title>CVE-2025-2581 - xmedcon DICOM File Handler Integer Underflow Vulnerability</title>
