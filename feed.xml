@@ -8,18 +8,383 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 21 Mar 2025 16:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 18:13:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-53350 - Kubeslice Service Account Token Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-53350
+<br>
+<strong>Published : </strong> March 21, 2025, 5:15 p.m. | 43 minutes ago
+<br>
+<strong>Description : </strong>Insecure permissions in kubeslice v1.3.1 allow attackers to gain access to the service account's token, leading to escalation of privileges.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-53350</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-53350</guid>
+    </item>
+    <item>
+      <title>CVE-2024-53351 - Pipecd Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-53351
+<br>
+<strong>Published : </strong> March 21, 2025, 5:15 p.m. | 43 minutes ago
+<br>
+<strong>Description : </strong>Insecure permissions in pipecd v0.49 allow attackers to gain access to the service account's token, leading to escalation of privileges.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-53351</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-53351</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29223 - Linksys E5600 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29223
+<br>
+<strong>Published : </strong> March 21, 2025, 5:15 p.m. | 43 minutes ago
+<br>
+<strong>Description : </strong>Linksys E5600 v1.1.0.26 was discovered to contain a command injection vulnerability via the pt parameter in the traceRoute function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29223</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29223</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29226 - Linksys E5600 Lua Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29226
+<br>
+<strong>Published : </strong> March 21, 2025, 5:15 p.m. | 43 minutes ago
+<br>
+<strong>Description : </strong>In Linksys E5600 V1.1.0.26, the \usr\share\lua\runtime.lua file contains a command injection vulnerability in the runtime.pingTest function via the pt["count"] parameter.
+<br>
+<strong>Severity:</strong> 8.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29226</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29226</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29227 - Linksys E5600 Remote Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29227
+<br>
+<strong>Published : </strong> March 21, 2025, 5:15 p.m. | 43 minutes ago
+<br>
+<strong>Description : </strong>In Linksys E5600 V1.1.0.26, the \usr\share\lua\runtime.lua file contains a command injection vulnerability in the runtime.pingTest function via the pt["pkgsize"] parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29227</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29227</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29230 - Linksys E5600 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29230
+<br>
+<strong>Published : </strong> March 21, 2025, 5:15 p.m. | 43 minutes ago
+<br>
+<strong>Description : </strong>Linksys E5600 v1.1.0.26 was discovered to contain a command injection vulnerability in the runtime.emailReg function. The vulnerability can be triggered via the `pt["email"]` parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29230</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29230</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30349 - Horde IMP Cross-Site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30349
+<br>
+<strong>Published : </strong> March 21, 2025, 5:15 p.m. | 43 minutes ago
+<br>
+<strong>Description : </strong>Horde IMP through 6.2.27, as used with Horde Application Framework through 5.2.23, allows XSS that leads to account takeover via a crafted text/html e-mail message with an onerror attribute (that may use base64-encoded JavaScript code), as exploited in the wild in March 2025.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30349</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30349</guid>
+    </item>
+    <item>
+      <title>CVE-2019-16151 - FortiOS Host Header Injection and JavaScript Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2019-16151
+<br>
+<strong>Published : </strong> March 21, 2025, 4:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiOS 6.4.1 and below, 6.2.9 and below may allow a remote unauthenticated attacker to either redirect users to malicious websites via a crafted "Host" header or to execute JavaScript code in the victim's browser context.
+This happens when the FortiGate has web filtering and category override enabled/configured.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2019-16151</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2019-16151</guid>
+    </item>
+    <item>
+      <title>CVE-2023-43029 - IBM Storage Virtualize vSphere Remote Plug-in Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-43029
+<br>
+<strong>Published : </strong> March 21, 2025, 4:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>IBM Storage Virtualize vSphere Remote Plug-in 1.0 and 1.1 could allow a remote user to obtain sensitive credential information after deployment.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-43029</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-43029</guid>
+    </item>
+    <item>
+      <title>CVE-2024-53348 - LoxiLB Router Unauthenticated Information Disclosure and Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-53348
+<br>
+<strong>Published : </strong> March 21, 2025, 4:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>LoxiLB v.0.9.7 and before is vulnerable to Incorrect Access Control which allows attackers to obtain sensitive information and escalate privileges.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-53348</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-53348</guid>
+    </item>
+    <item>
+      <title>CVE-2024-53349 - Kuadrant Secret Token Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-53349
+<br>
+<strong>Published : </strong> March 21, 2025, 4:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>Insecure permissions in kuadrant v0.11.3 allow attackers to gain access to the service account's token, leading to escalation of privileges via the secretes component in the k8s cluster
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-53349</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-53349</guid>
+    </item>
+    <item>
+      <title>CVE-2021-25635 - LibreOffice Improper Certificate Validation Certificate Spoofing Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2021-25635
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>An Improper Certificate Validation vulnerability in LibreOffice allowed 
+an attacker to self sign an ODF document, with a signature untrusted by 
+the target, then modify it to change the signature algorithm to an 
+invalid (or unknown to LibreOffice) algorithm and LibreOffice would incorrectly present such a signature with an unknown algorithm as a 
+valid signature issued by a trusted person
+
+
+This issue affects LibreOffice: from 7.0 before 7.0.5, from 7.1 before 7.1.1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-25635</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-25635</guid>
+    </item>
+    <item>
+      <title>CVE-2025-24915 - Nessus Agent Windows Local Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-24915
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>When installing Nessus Agent to a non-default location on a Windows host, Nessus Agent versions prior to 10.8.3 did not enforce secure permissions for sub-directories.  This could allow for local privilege escalation if users had not secured the directories in the non-default installation location.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-24915</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-24915</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27612 - Libcontainer Capability Elevation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27612
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>libcontainer is a library for container control. Prior to libcontainer 0.5.3, while creating a tenant container, the tenant builder accepts a list of capabilities to be added in the spec of tenant container. The logic here adds the given capabilities to all capabilities of main container if present in spec, otherwise simply set provided capabilities as capabilities of the tenant container. However, setting inherited caps in any case for tenant container can lead to elevation of capabilities, similar to CVE-2022-29162. This does not affect youki binary itself. This is only applicable if you are using libcontainer directly and using the tenant builder.
+<br>
+<strong>Severity:</strong> 5.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27612</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27612</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29640 - "PhpGurukul Testing Management System SQL Injection"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29640
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Phpgurukul Human Metapneumovirus (HMPV) – Testing Management System v1.0 is vulnerable to SQL Injection in /patient-report.php via the parameter searchdata..
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29640</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29640</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29641 - "PhpGurukul Vehicle Record Management System SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29641
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Phpgurukul Vehicle Record Management System v1.0 is vulnerable to SQL Injection in /index.php via the 'searchinputdata' parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29641</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29641</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29927 - Next.js Authorization Bypass in Middleware</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29927
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29927</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29927</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2593 - FastCMS SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2593
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in FastCMS up to 0.1.5 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /api/client/article/list. The manipulation of the argument orderBy leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2593</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2593</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2598 - AWS CDK CLI AWS Credentials Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2598
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>When the AWS Cloud Development Kit (AWS CDK) Command Line Interface (AWS CDK CLI) is used with a credential plugin which returns an expiration property with the retrieved AWS credentials, the credentials are printed to the console output. To mitigate this issue, users should upgrade to version 2.178.2 or later and ensure any forked or derivative code is patched to incorporate the new fixes.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2598</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2598</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30157 - Envoy HTTP Filter Crash Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30157
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Envoy is a cloud-native high-performance edge/middle/service proxy. Prior to 1.33.1, 1.32.4, 1.31.6, and 1.30.10, Envoy's ext_proc HTTP filter is at risk of crashing if a local reply is sent to the external server due to the filter's life time issue. A known situation is the failure of a websocket handshake will trigger a local reply leading to the crash of Envoy. This vulnerability is fixed in 1.33.1, 1.32.4, 1.31.6, and 1.30.10.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30157</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30157</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30168 - "Parse Server Authentication Provider Cross-Site Credential Abuse"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30168
+<br>
+<strong>Published : </strong> March 21, 2025, 3:15 p.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior to 7.5.2 and 8.0.2, the 3rd party authentication handling of Parse Server allows the authentication credentials of some specific authentication providers to be used across multiple Parse Server apps. For example, if a user signed up using the same authentication provider in two unrelated Parse Server apps, the credentials stored by one app can be used to authenticate the same user in the other app. Note that this only affects Parse Server apps that specifically use an affected 3rd party authentication provider for user authentication, for example by setting the Parse Server option auth to configure a Parse Server authentication adapter. The fix of this vulnerability requires to upgrade Parse Server to a version that includes the bug fix, as well as upgrade the client app to send a secure payload, which is different from the previous insecure payload. This vulnerability is fixed in 7.5.2 and 8.0.2.
+<br>
+<strong>Severity:</strong> 6.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30168</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30168</guid>
+    </item>
+    <item>
       <title>CVE-2024-57490 - Guangzhou Hongfan Technology Co., LTD. iOffice20 Login Authentication Bypass Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-57490
 <br>
-<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 27 minutes ago
+<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>Guangzhou Hongfan Technology Co., LTD. iOffice20 has any user login vulnerability. An attacker can log in to any system account including the system administrator through a logical flaw.
 <br>
@@ -36,7 +401,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2591
 <br>
-<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 27 minutes ago
+<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in Open Asset Import Library Assimp 5.4.3. This vulnerability affects the function MDLImporter::InternReadFile_Quake1 of the file code/AssetLib/MDL/MDLLoader.cpp. The manipulation of the argument skinwidth/skinheight leads to divide by zero. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The patch is identified as ab66a1674fcfac87aaba4c8b900b315ebc3e7dbd. It is recommended to apply a patch to fix this issue.
 <br>
@@ -53,7 +418,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2592
 <br>
-<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 27 minutes ago
+<strong>Published : </strong> March 21, 2025, 2:15 p.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Open Asset Import Library Assimp 5.4.3. This issue affects the function CSMImporter::InternReadFile of the file code/AssetLib/CSM/CSMLoader.cpp. The manipulation leads to heap-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The patch is named 2690e354da0c681db000cfd892a55226788f2743. It is recommended to apply a patch to fix this issue.
 <br>
@@ -64,6 +429,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 21 Mar 2025 14:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2592</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2592</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2590 - Code-projects Human Resource Management System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2590
+<br>
+<strong>Published : </strong> March 21, 2025, 1:15 p.m. | 4 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Human Resource Management System 1.0.1. It has been classified as problematic. Affected is the function UpdateRecruitmentById of the file \handler\recruitment.go. The manipulation of the argument c leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2590</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2590</guid>
     </item>
     <item>
       <title>CVE-2025-2589 - Code-projects Human Resource Management System Unauthorized Access Vulnerability</title>
@@ -81,23 +463,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 21 Mar 2025 13:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2589</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2589</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2590 - Code-projects Human Resource Management System Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2590
-<br>
-<strong>Published : </strong> March 21, 2025, 1:15 p.m. | 1 hour, 27 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Human Resource Management System 1.0.1. It has been classified as problematic. Affected is the function UpdateRecruitmentById of the file \handler\recruitment.go. The manipulation of the argument c leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 2.4 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 21 Mar 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2590</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2590</guid>
     </item>
     <item>
       <title>CVE-2025-2587 - Jinher OA SQL Injection Vulnerability</title>
