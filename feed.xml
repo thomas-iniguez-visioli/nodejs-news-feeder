@@ -8,18 +8,120 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 22 Mar 2025 12:16:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Mar 2025 14:09:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-1970 - WordPress Export and Import Users and Customers SSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1970
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The Export and Import Users and Customers plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 2.6.2 via the validate_file() function. This makes it possible for authenticated attackers, with Administrator-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1970</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1970</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1971 - WordPress Export and Import Users and Customers Plugin PHP Object Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1971
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The Export and Import Users and Customers plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.6.2 via deserialization of untrusted input from the 'form_data' parameter. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1971</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1971</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1972 - WordPress Export Import Users and Customers Plugin Remote File Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1972
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The Export and Import Users and Customers plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the admin_log_page() function in all versions up to, and including, 2.6.2. This makes it possible for authenticated attackers, with Administrator-level access and above, to delete arbitrary log files on the server.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1972</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1972</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1973 - WordPress Export and Import Users and Customers Path Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1973
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The Export and Import Users and Customers plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 2.6.2 via the download_file() function. This makes it possible for authenticated attackers, with Administrator-level access and above, to read the contents of arbitrary log files on the server, which can contain sensitive information.
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1973</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1973</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2331 - GiveWP WordPress Sensitive Information Exposure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2331
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.22.1 via a misconfigured capability check in the 'permissionsCheck' function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to extract sensitive data including reports detailing donors and donation amounts.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2331</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2331</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2577 - Bitspecter Suite for WordPress Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2577
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The Bitspecter Suite plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2577</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2577</guid>
+    </item>
+    <item>
       <title>CVE-2025-2616 - Yangyouwang CRUD Simplified Backend Management System Cross-Site Scripting Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2616
 <br>
-<strong>Published : </strong> March 22, 2025, 10:15 a.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 10:15 a.m. | 2 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in yangyouwang 杨有旺 crud 简约后台管理系统 1.0.0. Affected is an unknown function of the component Role Management Page. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13666
 <br>
-<strong>Published : </strong> March 22, 2025, 9:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 9:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder plugin for WordPress is vulnerable to IP Address Spoofing in all versions up to, and including, 5.2.12 due to insufficient IP address validation and use of user-supplied HTTP headers as a primary method for IP retrieval. This makes it possible for unauthenticated attackers spoof their IP address and submit forms that may have IP-based restrictions.
 <br>
@@ -53,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13768
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The CITS Support svg, webp Media and TTF,OTF File Upload, Use Custom Fonts plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 4.2. This is due to missing or incorrect nonce validation on the cits_assign_fonts_tab() function. This makes it possible for unauthenticated attackers to delete font assignments via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -70,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13856
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Your Friendly Drag and Drop Page Builder — Make Builder plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 1.1.10 via the make_builder_ajax_subscribe() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.
 <br>
@@ -87,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0807
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The CITS Support svg, webp Media and TTF,OTF File Upload, Use Custom Fonts plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 4.2. This is due to missing or incorrect nonce validation on the cits_settings_tab() function. This makes it possible for unauthenticated attackers to update the plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -104,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1311
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The WooCommerce Multivendor Marketplace – REST API plugin for WordPress is vulnerable to SQL Injection via the 'id' parameter in the update_delivery_status() function in all versions up to, and including, 1.6.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 <br>
@@ -121,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2303
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Block Logic – Full Gutenberg Block Display Control plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.0.8 via the block_logic_check_logic function. This is due to the unsafe evaluation of user-controlled input. This makes it possible for authenticated attackers, with Contributor-level access and above, to execute code on the server.
 <br>
@@ -138,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2477
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The CryoKey plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘ckemail’ parameter in all versions up to, and including, 2.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
 <br>
@@ -155,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2478
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Code Clone plugin for WordPress is vulnerable to time-based SQL Injection via the ‘snippetId’ parameter in all versions up to, and including, 0.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 <br>
@@ -172,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2479
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Easy Custom Admin Bar plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘msg’ parameter in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
 <br>
@@ -189,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2482
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Gotcha | Gesture-based Captcha plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'menu' parameter in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
 <br>
@@ -206,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2484
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Multi Video Box plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'video_id' and 'group_id' parameters in all versions up to, and including, 1.5.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
 <br>
@@ -223,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13739
 <br>
-<strong>Published : </strong> March 22, 2025, 5:15 a.m. | 6 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 5:15 a.m. | 7 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Newsletters plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the "to" parameter in all versions up to, and including, 4.9.9.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick an admin user into performing an action such as clicking on a link.
 <br>
@@ -240,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0723
 <br>
-<strong>Published : </strong> March 22, 2025, 5:15 a.m. | 6 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 5:15 a.m. | 7 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The ProfileGrid – User Profiles, Groups and Communities plugin for WordPress is vulnerable to blind and time-based SQL Injections via the rid and search parameters in all versions up to, and including, 5.9.4.7 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 <br>
@@ -257,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0724
 <br>
-<strong>Published : </strong> March 22, 2025, 5:15 a.m. | 6 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 5:15 a.m. | 7 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The ProfileGrid – User Profiles, Groups and Communities plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 5.9.4.5 via deserialization of untrusted input in the get_user_meta_fields_html function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.
 <br>
@@ -274,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1408
 <br>
-<strong>Published : </strong> March 22, 2025, 5:15 a.m. | 6 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 5:15 a.m. | 7 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The ProfileGrid – User Profiles, Groups and Communities plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the pm_decline_join_group_request and pm_approve_join_group_request functions in all versions up to, and including, 5.9.4.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to approve or decline join group requests which is normally should be available to administrators only.
 <br>
@@ -291,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13737
 <br>
-<strong>Published : </strong> March 22, 2025, 3:15 a.m. | 8 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 3:15 a.m. | 9 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Motors – Car Dealer, Classifieds & Listing plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability checks on the motors_create_template and motors_delete_template functions in all versions up to, and including, 1.4.57. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary posts or create listing templates. This issue requires Elementor plugin to be installed, which is a required plugin for Motors Starter Theme.
 <br>
@@ -308,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30472
 <br>
-<strong>Published : </strong> March 22, 2025, 2:15 a.m. | 9 hours, 44 minutes ago
+<strong>Published : </strong> March 22, 2025, 2:15 a.m. | 10 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>Corosync through 3.1.9, if encryption is disabled or the attacker knows the encryption key, has a stack-based buffer overflow in orf_token_endian_convert in exec/totemsrp.c via a large UDP packet.
 <br>
@@ -319,6 +421,25 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 22 Mar 2025 02:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-30472</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-30472</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2610 - MagnusSolution MagnusBilling Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2610
+<br>
+<strong>Published : </strong> March 21, 2025, 11:15 p.m. | 13 hours, 31 minutes ago
+<br>
+<strong>Description : </strong>Improper neutralization of input during web page generation vulnerability in MagnusSolution MagnusBilling (Alarm Module modules) allows authenticated stored cross-site scripting. This vulnerability is associated with program files protected/components/MagnusLog.Php.
+
+This issue affects MagnusBilling: through 7.3.0.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 21 Mar 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2610</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2610</guid>
     </item>
     <item>
       <title>CVE-2025-26500 - VxWorks USB Uncontrolled Resource Consumption Vulnerability</title>
@@ -359,25 +480,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 21 Mar 2025 23:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2609</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2609</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2610 - MagnusSolution MagnusBilling Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2610
-<br>
-<strong>Published : </strong> March 21, 2025, 11:15 p.m. | 12 hours, 44 minutes ago
-<br>
-<strong>Description : </strong>Improper neutralization of input during web page generation vulnerability in MagnusSolution MagnusBilling (Alarm Module modules) allows authenticated stored cross-site scripting. This vulnerability is associated with program files protected/components/MagnusLog.Php.
-
-This issue affects MagnusBilling: through 7.3.0.
-<br>
-<strong>Severity:</strong> 7.6 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 21 Mar 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2610</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2610</guid>
     </item>
     <item>
       <title>CVE-2025-2608 - PHPGurukul Banquet Booking System SQL Injection Vulnerability</title>
