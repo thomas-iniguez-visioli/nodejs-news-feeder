@@ -8,18 +8,168 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sun, 23 Mar 2025 16:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 18:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-2653 - FoxCMS Remote Authentication Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2653
+<br>
+<strong>Published : </strong> March 23, 2025, 4:15 p.m. | 1 hour, 11 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in FoxCMS 1.25 and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to improper authorization. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2653</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2653</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2654 - SourceCodester AC Repair and Services System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2654
+<br>
+<strong>Published : </strong> March 23, 2025, 4:15 p.m. | 1 hour, 11 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester AC Repair and Services System 1.0. It has been classified as critical. This affects an unknown part of the file /admin/services/manage_service.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2654</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2654</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0927 - Linux Kernel HFS+ Heap Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0927
+<br>
+<strong>Published : </strong> March 23, 2025, 3:15 p.m. | 2 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>Attila Szász discovered that the HFS+ file system implementation in the Linux Kernel contained a heap overflow vulnerability. An attacker could use a specially crafted file system image that, when mounted, could cause a denial of service (system crash) or possibly execute arbitrary code.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0927</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0927</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27553 - Apache Commons VFS Descendant File Object Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27553
+<br>
+<strong>Published : </strong> March 23, 2025, 3:15 p.m. | 2 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>Relative Path Traversal vulnerability in Apache Commons VFS before 2.10.0.
+
+The FileObject API in Commons VFS has a 'resolveFile' method that
+takes a 'scope' parameter. Specifying 'NameScope.DESCENDENT' promises that "an exception is thrown if the resolved file is not a descendent of
+the base file". However, when the path contains encoded ".."
+characters (for example, "%2E%2E/bar.txt"), it might return file objects that are not
+a descendent of the base file, without throwing an exception.
+This issue affects Apache Commons VFS: before 2.10.0.
+
+Users are recommended to upgrade to version 2.10.0, which fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27553</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27553</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2651 - SourceCodester Online Eyewear Shop Remote Directory Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2651
+<br>
+<strong>Published : </strong> March 23, 2025, 3:15 p.m. | 2 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, was found in SourceCodester Online Eyewear Shop 1.0. Affected is an unknown function of the file /oews/admin/. The manipulation leads to exposure of information through directory listing. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. It is recommended to change the configuration settings. Multiple sub-directories are affected.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2651</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2651</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2652 - SourceCodester Employee and Visitor Gate Pass Logging System Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2652
+<br>
+<strong>Published : </strong> March 23, 2025, 3:15 p.m. | 2 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in SourceCodester Employee and Visitor Gate Pass Logging System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality. The manipulation leads to exposure of information through directory listing. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. It is recommended to change the configuration settings. Multiple sub-directories are affected.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2652</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2652</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2691 - Nossrf SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2691
+<br>
+<strong>Published : </strong> March 23, 2025, 3:15 p.m. | 2 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>Versions of the package nossrf before 1.0.4 are vulnerable to Server-Side Request Forgery (SSRF) where an attacker can provide a hostname that resolves to a local or reserved IP address space and bypass the SSRF protection mechanism.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2691</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2691</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30474 - Apache Commons VFS Sensitive Information Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30474
+<br>
+<strong>Published : </strong> March 23, 2025, 3:15 p.m. | 2 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Commons VFS.
+
+The FtpFileObject class can throw an exception when a file is not found, revealing the original URI in its message, which may include a password. The fix is to mask the password in the exception message
+This issue affects Apache Commons VFS: before 2.10.0.
+
+Users are recommended to upgrade to version 2.10.0, which fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30474</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30474</guid>
+    </item>
+    <item>
       <title>CVE-2025-2650 - PHPGurukul Medical Card Generation System Cross Site Scripting Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2650
 <br>
-<strong>Published : </strong> March 23, 2025, 2:15 p.m. | 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 2:15 p.m. | 3 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in PHPGurukul Medical Card Generation System 1.0. This issue affects some unknown processing of the file /download-medical-cards.php. The manipulation of the argument searchdata leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +186,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2648
 <br>
-<strong>Published : </strong> March 23, 2025, 12:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 12:15 p.m. | 5 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in PHPGurukul Art Gallery Management System 1.0. This affects an unknown part of the file /admin/view-enquiry-detail.php. The manipulation of the argument viewid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +203,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2649
 <br>
-<strong>Published : </strong> March 23, 2025, 12:15 p.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 12:15 p.m. | 5 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in PHPGurukul Doctor Appointment Management System 1.0. This vulnerability affects unknown code of the file /check-appointment.php. The manipulation of the argument searchdata leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -70,7 +220,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2647
 <br>
-<strong>Published : </strong> March 23, 2025, 11:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 11:15 a.m. | 6 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Art Gallery Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /search.php. The manipulation of the argument Search leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -87,7 +237,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2646
 <br>
-<strong>Published : </strong> March 23, 2025, 10:15 a.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 10:15 a.m. | 7 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Art Gallery Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/admin-profile.php. The manipulation of the argument contactnumber leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
 <br>
@@ -104,7 +254,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2645
 <br>
-<strong>Published : </strong> March 23, 2025, 9:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 9:15 a.m. | 8 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Art Gallery Management System 1.0. It has been classified as problematic. Affected is an unknown function of the file /product.php. The manipulation of the argument artname leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -121,7 +271,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2643
 <br>
-<strong>Published : </strong> March 23, 2025, 8:15 a.m. | 6 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 8:15 a.m. | 9 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in PHPGurukul Art Gallery Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/edit-art-type-detail.php?editid=1. The manipulation of the argument arttype leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -138,7 +288,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2644
 <br>
-<strong>Published : </strong> March 23, 2025, 8:15 a.m. | 6 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 8:15 a.m. | 9 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Art Gallery Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/add-art-product.php. The manipulation of the argument arttype leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -155,7 +305,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2642
 <br>
-<strong>Published : </strong> March 23, 2025, 7:15 a.m. | 7 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 7:15 a.m. | 10 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Art Gallery Management System 1.0. This affects an unknown part of the file /admin/edit-art-product-detail.php?editid=2. The manipulation of the argument editide/sprice/description leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -172,7 +322,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0718
 <br>
-<strong>Published : </strong> March 23, 2025, 6:15 a.m. | 8 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 6:15 a.m. | 11 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>The Nested Pages WordPress plugin before 3.2.13 does not sanitise and escape some of its settings, which could allow high privilege users such as contributors to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
 <br>
@@ -189,7 +339,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1446
 <br>
-<strong>Published : </strong> March 23, 2025, 6:15 a.m. | 8 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 6:15 a.m. | 11 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>The Pods  WordPress plugin before 3.2.8.2 does not sanitize and escape a parameter before using it in a SQL statement, allowing admins to perform SQL injection attacks
 <br>
@@ -206,7 +356,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2641
 <br>
-<strong>Published : </strong> March 23, 2025, 5:15 a.m. | 9 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 5:15 a.m. | 12 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in PHPGurukul Art Gallery Management System 1.0. Affected by this issue is some unknown functionality of the file /admin/edit-artist-detail.php?editid=1. The manipulation of the argument Name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -223,7 +373,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2640
 <br>
-<strong>Published : </strong> March 23, 2025, 4:15 a.m. | 10 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 4:15 a.m. | 13 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Doctor Appointment Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /doctor/appointment-bwdates-reports-details.php. The manipulation of the argument fromdate/todate leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -240,7 +390,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2639
 <br>
-<strong>Published : </strong> March 23, 2025, 3:15 a.m. | 11 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 3:15 a.m. | 14 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in JIZHICMS up to 1.7.0 and classified as problematic. This vulnerability affects unknown code of the file /user/release.html of the component Article Handler. The manipulation leads to improper authorization. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -257,7 +407,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2638
 <br>
-<strong>Published : </strong> March 23, 2025, 2:15 a.m. | 12 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 2:15 a.m. | 15 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in JIZHICMS up to 1.7.0. This affects an unknown part of the file /user/release.html of the component Article Handler. The manipulation of the argument ishot with the input 1 leads to improper authorization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -274,7 +424,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2637
 <br>
-<strong>Published : </strong> March 23, 2025, 12:15 a.m. | 14 hours, 38 minutes ago
+<strong>Published : </strong> March 23, 2025, 12:15 a.m. | 17 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in JIZHICMS up to 1.7.0. Affected by this issue is some unknown functionality of the file /user/userinfo.html of the component Account Profile Page. The manipulation of the argument jifen leads to improper authorization. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -291,7 +441,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2628
 <br>
-<strong>Published : </strong> March 22, 2025, 10:15 p.m. | 16 hours, 38 minutes ago
+<strong>Published : </strong> March 22, 2025, 10:15 p.m. | 19 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Art Gallery Management System 1.1. Affected is an unknown function of the file /art-enquiry.php. The manipulation of the argument eid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
