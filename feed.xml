@@ -8,18 +8,69 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sun, 23 Mar 2025 06:13:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 08:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-0718 - WordPress Nested Pages Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0718
+<br>
+<strong>Published : </strong> March 23, 2025, 6:15 a.m. | 1 hour, 11 minutes ago
+<br>
+<strong>Description : </strong>The Nested Pages WordPress plugin before 3.2.13 does not sanitise and escape some of its settings, which could allow high privilege users such as contributors to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0718</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0718</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1446 - "Pods SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1446
+<br>
+<strong>Published : </strong> March 23, 2025, 6:15 a.m. | 1 hour, 11 minutes ago
+<br>
+<strong>Description : </strong>The Pods  WordPress plugin before 3.2.8.2 does not sanitize and escape a parameter before using it in a SQL statement, allowing admins to perform SQL injection attacks
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1446</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1446</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2641 - PHPGurukul Art Gallery Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2641
+<br>
+<strong>Published : </strong> March 23, 2025, 5:15 a.m. | 2 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in PHPGurukul Art Gallery Management System 1.0. Affected by this issue is some unknown functionality of the file /admin/edit-artist-detail.php?editid=1. The manipulation of the argument Name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 23 Mar 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2641</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2641</guid>
+    </item>
+    <item>
       <title>CVE-2025-2640 - PHPGurukul Doctor Appointment Management System SQL Injection</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2640
 <br>
-<strong>Published : </strong> March 23, 2025, 4:15 a.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> March 23, 2025, 4:15 a.m. | 3 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Doctor Appointment Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /doctor/appointment-bwdates-reports-details.php. The manipulation of the argument fromdate/todate leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2639
 <br>
-<strong>Published : </strong> March 23, 2025, 3:15 a.m. | 2 hours, 11 minutes ago
+<strong>Published : </strong> March 23, 2025, 3:15 a.m. | 4 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in JIZHICMS up to 1.7.0 and classified as problematic. This vulnerability affects unknown code of the file /user/release.html of the component Article Handler. The manipulation leads to improper authorization. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2638
 <br>
-<strong>Published : </strong> March 23, 2025, 2:15 a.m. | 3 hours, 10 minutes ago
+<strong>Published : </strong> March 23, 2025, 2:15 a.m. | 5 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in JIZHICMS up to 1.7.0. This affects an unknown part of the file /user/release.html of the component Article Handler. The manipulation of the argument ishot with the input 1 leads to improper authorization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -70,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2637
 <br>
-<strong>Published : </strong> March 23, 2025, 12:15 a.m. | 5 hours, 10 minutes ago
+<strong>Published : </strong> March 23, 2025, 12:15 a.m. | 7 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in JIZHICMS up to 1.7.0. Affected by this issue is some unknown functionality of the file /user/userinfo.html of the component Account Profile Page. The manipulation of the argument jifen leads to improper authorization. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -87,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2628
 <br>
-<strong>Published : </strong> March 22, 2025, 10:15 p.m. | 7 hours, 11 minutes ago
+<strong>Published : </strong> March 22, 2025, 10:15 p.m. | 9 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Art Gallery Management System 1.1. Affected is an unknown function of the file /art-enquiry.php. The manipulation of the argument eid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -104,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2626
 <br>
-<strong>Published : </strong> March 22, 2025, 9:15 p.m. | 8 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 9:15 p.m. | 10 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in SourceCodester Kortex Lite Advocate Office Management System 1.0. This vulnerability affects unknown code of the file edit_case.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -121,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2627
 <br>
-<strong>Published : </strong> March 22, 2025, 9:15 p.m. | 8 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 9:15 p.m. | 10 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in PHPGurukul Art Gallery Management System 1.0. This issue affects some unknown processing of the file /admin/contactus.php. The manipulation of the argument pagetitle leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -138,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2625
 <br>
-<strong>Published : </strong> March 22, 2025, 8:15 p.m. | 9 hours, 11 minutes ago
+<strong>Published : </strong> March 22, 2025, 8:15 p.m. | 11 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in westboy CicadasCMS 1.0. This affects an unknown part of the file /system/cms/content/page. The manipulation of the argument orderField/orderDirection leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -155,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2624
 <br>
-<strong>Published : </strong> March 22, 2025, 7:15 p.m. | 10 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 7:15 p.m. | 12 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in westboy CicadasCMS 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /system/cms/content/save. The manipulation of the argument content/fujian/laiyuan leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -172,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2623
 <br>
-<strong>Published : </strong> March 22, 2025, 6:15 p.m. | 11 hours, 11 minutes ago
+<strong>Published : </strong> March 22, 2025, 6:15 p.m. | 13 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in westboy CicadasCMS 1.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /system/cms/content/save. The manipulation of the argument title/content/laiyuan leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -189,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2621
 <br>
-<strong>Published : </strong> March 22, 2025, 5:15 p.m. | 12 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 5:15 p.m. | 14 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in D-Link DAP-1620 1.03 and classified as critical. This issue affects the function check_dws_cookie of the file /storage. The manipulation of the argument uid leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -206,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2622
 <br>
-<strong>Published : </strong> March 22, 2025, 5:15 p.m. | 12 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 5:15 p.m. | 14 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in aizuda snail-job 1.4.0. It has been classified as critical. Affected is the function getRuntime of the file /snail-job/workflow/check-node-expression of the component Workflow-Task Management Module. The manipulation of the argument nodeExpression leads to deserialization. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -223,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2620
 <br>
-<strong>Published : </strong> March 22, 2025, 3:15 p.m. | 14 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 3:15 p.m. | 16 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in D-Link DAP-1620 1.03 and classified as critical. This vulnerability affects the function mod_graph_auth_uri_handler of the file /storage of the component Authentication Handler. The manipulation leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -240,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2618
 <br>
-<strong>Published : </strong> March 22, 2025, 2:15 p.m. | 15 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 2:15 p.m. | 17 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in D-Link DAP-1620 1.03. Affected by this issue is the function set_ws_action of the file /dws/api/ of the component Path Handler. The manipulation leads to heap-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -257,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2619
 <br>
-<strong>Published : </strong> March 22, 2025, 2:15 p.m. | 15 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 2:15 p.m. | 17 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in D-Link DAP-1620 1.03. This affects the function check_dws_cookie of the file /storage of the component Cookie Handler. The manipulation leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -274,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-26796
 <br>
-<strong>Published : </strong> March 22, 2025, 1:15 p.m. | 16 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 1:15 p.m. | 18 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>** UNSUPPORTED WHEN ASSIGNED ** Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache Oozie.
 
@@ -297,7 +348,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2186
 <br>
-<strong>Published : </strong> March 22, 2025, 1:15 p.m. | 16 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 1:15 p.m. | 18 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>The Recover WooCommerce Cart Abandonment, Newsletter, Email Marketing, Marketing Automation By FunnelKit plugin for WordPress is vulnerable to SQL Injection via the ‘automationId’ parameter in all versions up to, and including, 3.5.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 <br>
@@ -314,7 +365,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2617
 <br>
-<strong>Published : </strong> March 22, 2025, 1:15 p.m. | 16 hours, 10 minutes ago
+<strong>Published : </strong> March 22, 2025, 1:15 p.m. | 18 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in yangyouwang 杨有旺 crud 简约后台管理系统 1.0.0. Affected by this vulnerability is an unknown functionality of the component Department Page. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -325,6 +376,74 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 22 Mar 2025 13:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2617</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2617</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1972 - WordPress Export Import Users and Customers Plugin Remote File Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1972
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 19 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>The Export and Import Users and Customers plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the admin_log_page() function in all versions up to, and including, 2.6.2. This makes it possible for authenticated attackers, with Administrator-level access and above, to delete arbitrary log files on the server.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1972</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1972</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1973 - WordPress Export and Import Users and Customers Path Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1973
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 19 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>The Export and Import Users and Customers plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 2.6.2 via the download_file() function. This makes it possible for authenticated attackers, with Administrator-level access and above, to read the contents of arbitrary log files on the server, which can contain sensitive information.
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1973</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1973</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2331 - GiveWP WordPress Sensitive Information Exposure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2331
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 19 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.22.1 via a misconfigured capability check in the 'permissionsCheck' function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to extract sensitive data including reports detailing donors and donation amounts.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2331</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2331</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2577 - Bitspecter Suite for WordPress Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2577
+<br>
+<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 19 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>The Bitspecter Suite plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2577</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2577</guid>
     </item>
     <item>
       <title>CVE-2025-1970 - WordPress Export and Import Users and Customers SSRF Vulnerability</title>
@@ -359,74 +478,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-1971</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-1971</guid>
-    </item>
-    <item>
-      <title>CVE-2025-1972 - WordPress Export Import Users and Customers Plugin Remote File Deletion Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-1972
-<br>
-<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 17 hours, 10 minutes ago
-<br>
-<strong>Description : </strong>The Export and Import Users and Customers plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the admin_log_page() function in all versions up to, and including, 2.6.2. This makes it possible for authenticated attackers, with Administrator-level access and above, to delete arbitrary log files on the server.
-<br>
-<strong>Severity:</strong> 2.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-1972</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1972</guid>
-    </item>
-    <item>
-      <title>CVE-2025-1973 - WordPress Export and Import Users and Customers Path Traversal</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-1973
-<br>
-<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 17 hours, 10 minutes ago
-<br>
-<strong>Description : </strong>The Export and Import Users and Customers plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 2.6.2 via the download_file() function. This makes it possible for authenticated attackers, with Administrator-level access and above, to read the contents of arbitrary log files on the server, which can contain sensitive information.
-<br>
-<strong>Severity:</strong> 4.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-1973</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1973</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2331 - GiveWP WordPress Sensitive Information Exposure Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2331
-<br>
-<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 17 hours, 10 minutes ago
-<br>
-<strong>Description : </strong>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.22.1 via a misconfigured capability check in the 'permissionsCheck' function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to extract sensitive data including reports detailing donors and donation amounts.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2331</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2331</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2577 - Bitspecter Suite for WordPress Stored XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2577
-<br>
-<strong>Published : </strong> March 22, 2025, 12:15 p.m. | 17 hours, 10 minutes ago
-<br>
-<strong>Description : </strong>The Bitspecter Suite plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 22 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2577</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2577</guid>
     </item>
     <item>
       <title>CVE-2025-2616 - Yangyouwang CRUD Simplified Backend Management System Cross-Site Scripting Vulnerability</title>
