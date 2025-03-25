@@ -75,7 +75,7 @@ addfeed('https://cvefeed.io/rssfeed/latest.xml')
       const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
       content = contentItems.join(', ');
     }
-    const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('h2').textContent.replace("&","").trim();
+    const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('h2').textContent.replaceAll("&","").trim();
     return {
       timestamp:timestamp,
       title,
