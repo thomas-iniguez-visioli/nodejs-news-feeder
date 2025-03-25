@@ -27,7 +27,9 @@ const updaterrss=(feed)=>{
     return JSON.stringify(i)
   }))].map((i)=>{
     return JSON.parse(i)
-  }),"link"),"title")
+  }),"link"),"title").filter((item)=>{
+    return !item.link.includes("Fuite de données")
+  })
   //console.log(fed)
   return fed
 }
