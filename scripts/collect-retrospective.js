@@ -81,7 +81,7 @@ addfeed('https://cvefeed.io/rssfeed/latest.xml')
       timestamp:timestamp,
       title,
       content,
-      source:source.replace("&","")
+      source:source.replace(/&/g,"")
     };
   });
   //console.log(JSON.stringify(jsonData,null,2));
