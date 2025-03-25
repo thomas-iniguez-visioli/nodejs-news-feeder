@@ -60,4 +60,4 @@ parser.parseString(xml).then((parsedXml) => {
   })
 
   overwriteFeedContent(formattedXml)
-})}catch(error){console.log(error)}
+}).catch((err)=>{console.log(err)}}catch(error){console.log(error)}
