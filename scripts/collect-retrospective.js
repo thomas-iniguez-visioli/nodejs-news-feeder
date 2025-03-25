@@ -68,19 +68,19 @@ addfeed('https://cvefeed.io/rssfeed/latest.xml')
   const jsonData = Array.from(timelineEntries).map(entry => {
     const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
     //console.log(buildRFC822Date(timestamp))
-    const title = "Fuite de données chez "+entry.querySelector('h2').textContent;
+    const title = "Fuite de données chez "+entry.querySelector('h2').textContent.replace("&","");
    var content = entry.querySelector('p').textContent;
     const contentList = entry.querySelector('p ul');
     if (contentList) {
       const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
       content = contentItems.join(', ');
     }
-    const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href');
+    const source ="https://bonjourlafuite.eu.org/"+ title;
     return {
       timestamp:timestamp,
       title,
       content,
-      source
+      source:source.replace("&","")
     };
   });
   //console.log(JSON.stringify(jsonData,null,2));
