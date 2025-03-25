@@ -53,8 +53,9 @@ addfeed('https://cvefeed.io/rssfeed/latest.xml')
     
   },response=>{ 
      response.setTimeout(3000000, function() {
-    //console.log("temp")
+    console.log("temp")
   });
+     response.on('timeout', function () {console.log("timeout")})
   response.on('data', (chunk) => {
     html += chunk;
     //console.log(html.length)
@@ -75,7 +76,7 @@ addfeed('https://cvefeed.io/rssfeed/latest.xml')
       const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
       content = contentItems.join(', ');
     }
-    const source ="https://bonjourlafuite.eu.org/"+ title;
+    const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('h2').textContent.replaceAll("&","").trim();
     return {
       timestamp:timestamp,
       title,
