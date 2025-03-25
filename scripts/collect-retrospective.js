@@ -55,6 +55,7 @@ addfeed('https://cvefeed.io/rssfeed/latest.xml')
      response.setTimeout(3000000, function() {
     console.log("temp")
   });
+     response.on('timeout', function () {console.log("timeout")})
   response.on('data', (chunk) => {
     html += chunk;
     //console.log(html.length)
