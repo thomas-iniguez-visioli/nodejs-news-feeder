@@ -33,6 +33,7 @@ const updaterrss=(feed)=>{
   //console.log(fed)
   return fed
 }
+try{
 parser.parseString(xml).then((parsedXml) => {
   //console.log(parsedXml)
   const sortedItems = updaterrss(parsedXml.items).sort(
@@ -59,4 +60,4 @@ parser.parseString(xml).then((parsedXml) => {
   })
 
   overwriteFeedContent(formattedXml)
-})
+})}catch(error){console.log(error)}
