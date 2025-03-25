@@ -53,7 +53,7 @@ addfeed('https://cvefeed.io/rssfeed/latest.xml')
     
   },response=>{ 
      response.setTimeout(3000000, function() {
-    //console.log("temp")
+    console.log("temp")
   });
   response.on('data', (chunk) => {
     html += chunk;
