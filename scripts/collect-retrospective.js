@@ -69,7 +69,7 @@ addfeed('https://cvefeed.io/rssfeed/latest.xml')
   const jsonData = Array.from(timelineEntries).map(entry => {
     const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
     //console.log(buildRFC822Date(timestamp))
-    const title = "Fuite de données chez "+entry.querySelector('h2').textContent.replace("&","").trim().replaceAll("  "," ");
+    const title = "Fuite de données chez "+entry.querySelector('h2').textContent.replace(/&/g,"").trim().replaceAll("  "," ");
    var content = entry.querySelector('p').textContent;
     const contentList = entry.querySelector('p ul');
     if (contentList) {
