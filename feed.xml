@@ -8,12 +8,461 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 26 Mar 2025 18:14:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 22:09:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2024-55963 - Appsmith DoS: Unauthorized Server Restart</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-55963
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in Appsmith before 1.51. A user on Appsmith that doesn't have admin permissions can trigger the restart API on Appsmith, causing a server restart. This is still within the Appsmith container, and the impact is limited to Appsmith's own server only, but there is a denial of service because it can be continually restarted. This is due to incorrect access control checks, which should check for super user permissions on the incoming request.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-55963</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-55963</guid>
+    </item>
+    <item>
+      <title>CVE-2024-55964 - Appsmith PostgreSQL Command Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-55964
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in Appsmith before 1.52. An incorrectly configured PostgreSQL instance in the Appsmith image leads to remote command execution inside the Appsmith Docker container. The attacker must be able to access Appsmith, login to it, create a datasource, create a query against that datasource, and execute that query.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-55964</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-55964</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26005 - Telesquare TLR-2005KSH Stack Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26005
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 is vulnerable to unauthorized stack overflow vulnerability when requesting admin.cgi parameter with setNtp.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26005</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26005</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26006 - Telesquare TLR-2005KSH Stack Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26006
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 has an unauthorized stack overflow vulnerability when requesting the admin.cgi parameter with setAutorest.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26006</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26006</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26007 - Telesquare TLR-2005KSH Stack Overflow Vulnerability in Login Interface</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26007
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 has an unauthorized stack overflow vulnerability in the login interface when requesting systemtil.cgi.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26007</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26007</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26008 - Telesquare TLR-2005KSH Stack Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26008
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>In Telesquare TLR-2005KSH 1.1.4, an unauthorized stack overflow vulnerability exists when requesting admin.cgi parameter with setSyncTimeHost.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26008</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26008</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26009 - Telesquare TLR-2005KSH Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26009
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 has an Information Disclosure vulnerability when requesting systemutilit.cgi.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26009</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26009</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26010 - Telesquare TLR-2005KSH Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26010
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 allows unauthorized password modification when requesting the admin.cgi parameter with setUserNamePassword.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26010</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26010</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26011 - Telesquare TLR-2005KSH Stack Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26011
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 has an unauthorized stack overflow vulnerability when requesting the admin.cgi parameter with setUsernamePassword.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26011</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26011</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28361 - Telesquare TLR-2005KSH Stack Overflow Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28361
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Unauthorized stack overflow vulnerability in Telesquare TLR-2005KSH v.1.1.4 allows a remote attacker to obtain sensitive information via the systemutil.cgi component.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28361</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28361</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30073 - OPC cardsystems Webapp Aufwertung Referential Reuse Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30073
+<br>
+<strong>Published : </strong> March 26, 2025, 8:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in OPC cardsystems Webapp Aufwertung 2.1.0. The reference assigned to transactions can be reused. When completing a payment, the first or all transactions with the same reference are completed, depending on timing. This can be used to transfer more money onto employee cards than is paid.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30073</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30073</guid>
+    </item>
+    <item>
+      <title>CVE-2025-25535 - SCRIPT CASE HTTP Response Manipulation Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-25535
+<br>
+<strong>Published : </strong> March 26, 2025, 7:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>HTTP Response Manipulation in SCRIPT CASE v.1.0.002 Build7 allows a remote attacker to escalate privileges via a crafted request.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-25535</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-25535</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26001 - Telesquare TLR-2005KSH Authentication Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26001
+<br>
+<strong>Published : </strong> March 26, 2025, 7:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 is vulnerable to Information Disclosure via the parameter getUserNamePassword.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26001</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26001</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26002 - Telesquare TLR-2005KSH Stack Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26002
+<br>
+<strong>Published : </strong> March 26, 2025, 7:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 is affected by an unauthorized stack overflow vulnerability when requesting the admin.cgi parameter with setSyncTimeHost.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26002</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26002</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26003 - Telesquare TLR-2005KSH Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26003
+<br>
+<strong>Published : </strong> March 26, 2025, 7:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 is affected by an unauthorized command execution vulnerability when requesting the admin.cgi parameter with setAutorest.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26003</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26003</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26004 - Telesquare TLR-2005KSH Stack Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26004
+<br>
+<strong>Published : </strong> March 26, 2025, 7:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Telesquare TLR-2005KSH 1.1.4 is vulnerable to unauthorized stack buffer overflow vulnerability when requesting admin.cgi parameter with setDdns.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26004</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26004</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29322 - ScriptCase XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29322
+<br>
+<strong>Published : </strong> March 26, 2025, 7:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>A cross-site scripting (XSS) vulnerability in ScriptCase before v1.0.003 - Build 3 allows attackers to execute arbitrary code via a crafted payload to the "Connection Name" in the New Connection and Rename Connection pages.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29322</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29322</guid>
+    </item>
+    <item>
+      <title>CVE-2024-41643 - Arris NVG443B Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-41643
+<br>
+<strong>Published : </strong> March 26, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>An issue in Arris NVG443B 9.3.0h3d36 allows a physically proximate attacker to execute arbitrary code via the cshell login component.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41643</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41643</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2499 - Devolutions Remote Desktop Manager Windows Client-Side Access Control Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2499
+<br>
+<strong>Published : </strong> March 26, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Client side access control bypass in the permission component in 
+Devolutions Remote Desktop Manager on Windows. An authenticated user can exploit this flaw to bypass certain permission restrictions—specifically View Password, Edit Asset, and Edit Permissions by performing specific actions. 
+
+This issue affects Remote Desktop Manager versions from 2025.1.24 through 2025.1.25, and all versions up to 2024.3.29.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2499</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2499</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2528 - Devolutions Remote Desktop Manager Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2528
+<br>
+<strong>Published : </strong> March 26, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper authorization in application password policy in Devolutions Remote Desktop Manager on Windows allows an authenticated user to 
+use a configuration different from the one mandated by the system administrators.
+
+
+
+
+
+This issue affects Remote Desktop Manager versions from 2025.1.24 through 2025.1.25, and all versions up to 2024.3.29.
+<br>
+<strong>Severity:</strong> 3.6 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2528</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2528</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2562 - Devolutions Remote Desktop Manager Inadequate Logging in Autotyping Feature</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2562
+<br>
+<strong>Published : </strong> March 26, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Insufficient logging in the autotyping feature in Devolutions Remote Desktop Manager on Windows allows an authenticated user to use a stored password without generating a corresponding log event, via the use of the autotyping functionality.
+
+
+
+
+
+
+
+This issue affects Remote Desktop Manager versions from 2025.1.24 through 2025.1.25, and all versions up to 2024.3.29.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2562</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2562</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2600 - Devolutions Remote Desktop Manager Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2600
+<br>
+<strong>Published : </strong> March 26, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper authorization in the variable component in Devolutions Remote Desktop Manager on Windows allows an authenticated password to use the ELEVATED_PASSWORD variable even though not allowed by the "Allow password in variable policy". 
+
+
+
+
+
+This issue affects Remote Desktop Manager versions from 2025.1.24 through 2025.1.25, and all versions up to 2024.3.29.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2600</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2600</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30351 - Directus Session Token Abuse</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30351
+<br>
+<strong>Published : </strong> March 26, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Directus is a real-time API and App dashboard for managing SQL database content. Starting in version 10.10.0 and prior to version 11.5.0, a suspended user can use the token generated in session auth mode to access the API despite their status. This happens because there is a check missing in `verifySessionJWT` to verify that a user is actually still active and allowed to access the API. One can extract the session token obtained by, e.g. login in to the app while still active and then, after the user has been suspended continue to use that token until it expires. Version 11.5.0 patches the issue.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30351</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30351</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30352 - Directus Unrestricted Field Enumerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30352
+<br>
+<strong>Published : </strong> March 26, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Directus is a real-time API and App dashboard for managing SQL database content. Starting in version 9.0.0-alpha.4 and prior to version 11.5.0, the `search` query parameter allows users with access to a collection to filter items based on fields they do not have permission to view. This allows the enumeration of unknown field contents. The searchable columns (numbers & strings) are not checked against permissions when injecting the `where` clauses for applying the search query. This leads to the possibility of enumerating those un-permitted fields. Version 11.5.0 fixes the issue.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30352</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30352</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30353 - Directus Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30353
+<br>
+<strong>Published : </strong> March 26, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Directus is a real-time API and App dashboard for managing SQL database content. Starting in version 9.12.0 and prior to version 11.5.0, when a Flow with the "Webhook" trigger and the "Data of Last Operation" response body encounters a ValidationError thrown by a failed condition operation, the API response includes sensitive data. This includes environmental variables, sensitive API keys, user accountability information, and operational data. This issue poses a significant security risk, as any unintended exposure of this data could lead to potential misuse. Version 11.5.0 fixes the issue.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30353</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30353</guid>
+    </item>
     <item>
       <title>CVE-2025-27609 - Icinga Web 2 Cross-Site Scripting (XSS)</title>
       <description><![CDATA[<p>
