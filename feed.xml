@@ -8,18 +8,154 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 26 Mar 2025 12:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 13:44:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-13411 - Zapier for WordPress SSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13411
+<br>
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>The Zapier for WordPress plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 1.5.1 via the updated_user() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to make web requests to arbitrary locations originating from the web application which can be used to query and modify information from internal services.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13411</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13411</guid>
+    </item>
+    <item>
+      <title>CVE-2024-13889 - WordPress Importer PHP Object Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13889
+<br>
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>The WordPress Importer plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 0.8.3 via deserialization of untrusted input in the 'maybe_unserialize' function. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13889</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13889</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1312 - WordPress Blocks Plugin Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1312
+<br>
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>The Ultimate Blocks – WordPress Blocks Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'buttonTextColor’ parameter in all versions up to, and including, 3.2.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1312</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1312</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1769 - WooCommerce Product Import Export Directory Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1769
+<br>
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 2.5.0 via the download_file() function. This makes it possible for authenticated attackers, with Administrator-level access and above, to read the contents of arbitrary log files on the server, which can contain sensitive information.
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1769</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1769</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1911 - WooCommerce Product Import Export Arbitrary File Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1911
+<br>
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the admin_log_page() function in all versions up to, and including, 2.5.0. This makes it possible for authenticated attackers, with Administrator-level access and above, to delete arbitrary log files on the server.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1911</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1911</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1912 - WooCommerce Product Import Export Plugin SSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1912
+<br>
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 2.5.0 via the validate_file() Function. This makes it possible for authenticated attackers, with Administrator-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1912</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1912</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1913 - WooCommerce Product Import Export - PHP Object Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1913
+<br>
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.5.0 via deserialization of untrusted input from the 'form_data' parameter This makes it possible for authenticated attackers, with Administrator-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1913</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1913</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2110 - WordPress WP Compress Unauthorized Access and Data Manipulation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2110
+<br>
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>The WP Compress – Instant Performance & Speed Optimization plugin for WordPress is vulnerable to unauthorized access, modification, and loss of data due to missing capability checks on its on its AJAX functions in all versions up to, and including, 6.30.15. This makes it possible for authenticated attackers, with Subscriber-level access and above, to compromise the site in various ways depending on the specific function exploited - for example, by retrieving sensitive settings and configuration details, or by altering and deleting them, thereby disclosing sensitive information, disrupting the plugin’s functionality, and potentially impacting overall site performance.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2110</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2110</guid>
+    </item>
+    <item>
       <title>CVE-2025-1542 - OXARI ServiceDesk Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1542
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>Improper permission control vulnerability in the OXARI ServiceDesk application could allow an attacker using a guest access or an unprivileged account to gain additional administrative permissions in the application.This issue affects OXARI ServiceDesk in versions before 2.0.324.0.
 <br>
@@ -36,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27551
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>DBIx::Class::EncodedColumn use the rand() function, which is not cryptographically secure to salt password hashes.
 
@@ -57,7 +193,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27552
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>DBIx::Class::EncodedColumn use the rand() function, which is not cryptographically secure to salt password hashes.
 
@@ -78,7 +214,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2596
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>Session logout could be overwritten in Checkmk GmbH's Checkmk versions <2.3.0p30, <2.2.0p41, and 2.1.0p49 (EOL)
 <br>
@@ -105,9 +241,9 @@ Visit the link for more details, such as CVSS details, affected products, timeli
     <div class="text-riche">
       
             <div class="clearfix text-formatted field field--name-field-texte-riche field--type-text-long field--label-hidden field__item"><h3><strong>Échangez avec nos experts</strong></h3>
-<p>Sur son stand (stand D-6, hall D du Grand Palais), les agents vous accueillent, présentent nos dernières actualités et répondent à vos questions au travers de sept corners thématiques : le CERT-FR, le Centre de formation SSI, la Directive NIS 2, l’Innovation, l’Industrie et la Technologie, le Management de la sécurité numérique, ou encore le Recrutement.</p>
+<p>Sur le stand ANSSI (stand D-6, hall D du Grand Palais), nos agents vous accueillent, présentent nos dernières actualités et répondent à vos questions au travers de sept corners thématiques : le CERT-FR, le Centre de formation SSI, la Directive NIS 2, l’Innovation, l’Industrie et la Technologie, le Management de la sécurité numérique, ou encore le Recrutement.</p>
 <p> </p>
-<h3><strong>Découvrez la programmation détaillée de ces ateliers </strong></h3>
+<h3><strong>Découvrez la programmation détaillée des ateliers </strong></h3>
 <p>L’ANSSI anime, sur son stand, des ateliers lors des 3 jours du salon. Ceux-ci ont pour objectif de mettre en avant des sujets structurants pour l’écosystème cyber en proposant des expériences interactives à nos communautés. Rendez-vous sur le stand de l’ANSSI :</p>
 <h4><strong>L’IA au service de la détection : enjeux et impacts ? Retour sur une étude du marché français</strong></h4>
 <p><em>Comment est utilisée l'IA au service des capacités de détection et de réponse aux incidents cyber ? L’ANSSI et Wavestone présenteront leur étude du marché français, issue d’entretiens menés avec une vingtaine d’éditeurs.</em></p>
@@ -143,7 +279,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
 <h3><strong>Retrouvez-nous lors de temps forts </strong></h3>
 <ul><li><u>Mercredi 2 avril à 9h00</u> : intervention en plénière de Vincent Strubel, directeur général, au Grand Théâtre</li>
 <li><u>Mercredi 2 avril à 11h15</u> : intervention d’Aurélie Cotton, cheffe d’Etat Major de la sous-direction stratégique, à la table ronde : « RSSI, faites plus avec moins ? »  en salle 3.2</li>
-<li><u>Mercredi 2 avril à 16h</u> : intervention en plénière de Vincent Loriot, sous-directeur adjoint Stratégie, « Le défi du passage à l’échelle », au Grand Théâtre</li>
+<li><u>Mercredi 2 avril à 17h15</u> : intervention en plénière de Vincent Loriot, sous-directeur adjoint Stratégie, « Le défi du passage à l’échelle », au Grand Théâtre</li>
 <li><u>Jeudi 3 avril à 11h15</u> : intervention de Mathieu Couturier, chef de division management de la sécurité numérique, à la table ronde : « Notation : comment mesurer la cybersécurité ? » en salle 2.3 + 2.4</li>
 </ul><p> </p>
 <h3><strong>Interventions aux évènements associés au FIC</strong></h3>
@@ -168,7 +304,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1310
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Jobs for WordPress plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 2.7.11 via the 'job_postings_get_file' parameter. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.
 <br>
@@ -185,7 +321,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1437
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'advanced_iframe' shortcode in all versions up to, and including, 2024.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -202,7 +338,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1439
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'advanced_iframe' shortcode in all versions up to, and including, 2024.5 due to insufficient input sanitization and output escaping on user supplied attributes through the 'src' attribute when the src supplied returns a header with an injected value . This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -219,7 +355,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1440
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to unauthorized excessive creation of options on the aip_map_url_callback() function in all versions up to, and including, 2024.5 due to insufficient restrictions. This makes it possible for unauthenticated attackers to update the advancediFrameParameterData option with an excessive amount of unvalidated data.
 <br>
@@ -236,7 +372,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1703
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Ultimate Blocks plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘content’ parameter in all versions up to, and including, 3.2.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -253,7 +389,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13702
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The CRM and Lead Management by vcita plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'vCitaMeetingScheduler' and 'vCitaSchedulingCalendar' shortcodes in all versions up to, and including, 2.7.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -270,7 +406,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13801
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The BWL Advanced FAQ Manager plugin for WordPress is vulnerable to unauthorized modification of data that can lead to a denial of service due to a missing capability check on the 'baf_set_notice_status' AJAX action in all versions up to, and including, 2.1.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update option values to '1' on the WordPress site. This can be leveraged to update an option that would create an error on the site and deny service to legitimate users or be used to set some values to true such as registration.
 <br>
@@ -287,7 +423,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1514
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Active Products Tables for WooCommerce. Use constructor to create tables plugin for WordPress is vulnerable to unauthorized filter calling due to insufficient restrictions on the get_smth() function in all versions up to, and including, 1.0.6.7. This makes it possible for unauthenticated attackers to call arbitrary WordPress filters with a single parameter.
 <br>
@@ -304,7 +440,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2009
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Newsletters plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the logging functionality in all versions up to, and including, 4.9.9.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -321,7 +457,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2167
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Event post plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'events_list' shortcodes in all versions up to, and including, 5.9.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -338,7 +474,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2257
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>The Total Upkeep – WordPress Backup Plugin plus Restore & Migrate by BoldGrid plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.16.10 via the compression_level setting. This is due to the plugin using the compression_level setting in proc_open() without any validation. This makes it possible for authenticated attackers, with administrator-level access and above, to execute code on the server.
 <br>
@@ -355,7 +491,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-30155
 <br>
-<strong>Published : </strong> March 26, 2025, 8:15 a.m. | 3 hours, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 8:15 a.m. | 4 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>HCL SX does not set the secure attribute on authorization tokens or session cookies. Attackers may potentially be able to obtain access to the cookie values via a Cross-Site-Forgery-Request (CSRF).
 <br>
@@ -372,7 +508,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-52972
 <br>
-<strong>Published : </strong> March 26, 2025, 7:15 a.m. | 4 hours, 15 minutes ago
+<strong>Published : </strong> March 26, 2025, 7:15 a.m. | 5 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>Huawei PCs have a vulnerability that allows low-privilege users to bypass SDDL permission checks . Successful exploitation this vulnerability could lead to termination of some system processes.
 <br>
@@ -797,7 +933,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <title>Fuite de données chez Cerballiance</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, adresse postale, numéro de sécurité sociale, régime de mutuelle, caisse de mutuelle, date de fin de droit</p>]]></description>
       <pubDate>Tue Mar 25 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Cerballiance</link>
+      <link>https://bonjourlafuite.eu.org/#Cerballiance-2025-03-25</link>
       <guid>Tue Mar 25 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -894,7 +1030,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <title>Fuite de données chez Autosur Diagnosur</title>
       <description><![CDATA[<p>nom, prénom, adresse email et postale, numéro de téléphone, place d’immatriculation</p>]]></description>
       <pubDate>Mon Mar 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Autosur  Diagnosur</link>
+      <link>https://bonjourlafuite.eu.org/#Autosur  Diagnosur-2025-03-24</link>
       <guid>Mon Mar 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -955,21 +1091,21 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <title>Fuite de données chez Intersport</title>
       <description><![CDATA[<p>n° de transaction, n° de facture, n° de référence PayPal, code de transaction, date de début / date de fin de la transaction, transaction débitée ou créditée, montant brut de la transaction, n° de compte du payeur, pseudo de l’acheteur, adresse de livraison et de facturation, identifiant utilisateur, nom et prénom,, source de paiement, numéro de la carte de fidélité</p>]]></description>
       <pubDate>Thu Mar 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Intersport</link>
+      <link>https://bonjourlafuite.eu.org/#Intersport-2025-03-20</link>
       <guid>Thu Mar 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Éclaireuses et Éclaireurs de France</title>
       <description><![CDATA[<p>nom, prénom, genre, date et lieu de naissance, adresse, profession, email, téléphone fixe et mobile</p>]]></description>
       <pubDate>Thu Mar 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Éclaireuses et Éclaireurs de France</link>
+      <link>https://bonjourlafuite.eu.org/#Éclaireuses et Éclaireurs de France-2025-03-20</link>
       <guid>Thu Mar 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Laforêt</title>
       <description><![CDATA[<p>dossier locataire, pièces d’identité, RIB</p>]]></description>
       <pubDate>Thu Mar 13 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Laforêt</link>
+      <link>https://bonjourlafuite.eu.org/#Laforêt-2025-03-13</link>
       <guid>Thu Mar 13 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1144,56 +1280,56 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <title>Fuite de données chez UTwin</title>
       <description><![CDATA[<p>identité, adresse email, numéro de téléphone</p>]]></description>
       <pubDate>Wed Mar 05 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/UTwin</link>
+      <link>https://bonjourlafuite.eu.org/#UTwin-2025-03-05</link>
       <guid>Wed Mar 05 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez La Poste</title>
       <description><![CDATA[<p>nom, prénom, email, adresse postale, année de naissance, numéro de téléphone</p>]]></description>
       <pubDate>Tue Mar 04 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/La Poste</link>
+      <link>https://bonjourlafuite.eu.org/#La Poste-2025-03-04</link>
       <guid>Tue Mar 04 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Côté Sushi</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, coordonnées de contact, programme de fidélité</p>]]></description>
       <pubDate>Tue Mar 04 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Côté Sushi</link>
+      <link>https://bonjourlafuite.eu.org/#Côté Sushi-2025-03-04</link>
       <guid>Tue Mar 04 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez École Nationale de la Sécurité</title>
       <description><![CDATA[<p>civilité, nom, prénom, date de naissance, adresse, téléphone, email, ville et payes de naissance, nationalité, numéro de sécurité sociale, numéro Pôle Emploi, numéro carte VTC, diplôme, niveau d’étude</p>]]></description>
       <pubDate>Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/École Nationale de la Sécurité</link>
+      <link>https://bonjourlafuite.eu.org/#École Nationale de la Sécurité-2025-02-28</link>
       <guid>Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Zephir</title>
       <description><![CDATA[<p>nom, prénom, email, téléphone, IBAN</p>]]></description>
       <pubDate>Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Zephir</link>
+      <link>https://bonjourlafuite.eu.org/#Zephir-2025-02-28</link>
       <guid>Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez EDF DPIH</title>
       <description><![CDATA[<p>plan d’intervention et de maintenance des centrales, résultats des contrôles et opérations de sécurité, identifiants des agents de maintenance</p>]]></description>
       <pubDate>Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/EDF DPIH</link>
+      <link>https://bonjourlafuite.eu.org/#EDF DPIH-2025-02-28</link>
       <guid>Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Nord Emploi</title>
       <description><![CDATA[<p>nom, prénom, téléphone, adresse, n° allocataire, organisme référent, formulaire RSA & CAF, CV, date ouverture des droits, date de cessation d’inscription, notification projet personnalisé, modalité accompagnement, status analphabétisme, capacité à utiliser des outils informatiques, solution de garde d’enfant, soutien par un réseau professionnel, nombre de candidatures, vie professionnelle, expérience associative et professionnelle, formations, savoir-faire, métiers envisagés, centre d’intérêt, certification, langue, connaissance des outils bureautique, permis de conduire</p>]]></description>
       <pubDate>Wed Feb 26 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Nord Emploi</link>
+      <link>https://bonjourlafuite.eu.org/#Nord Emploi-2025-02-26</link>
       <guid>Wed Feb 26 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Fédération Française de Foot</title>
       <description><![CDATA[<p>nom, prénom, genre, date et lieu de naissance, nationalité, adresse postale, adresse email, numéro de téléphone, photo, copie du justificatif d’identité</p>]]></description>
       <pubDate>Fri Feb 21 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Fédération Française de Foot</link>
+      <link>https://bonjourlafuite.eu.org/#Fédération Française de Foot-2025-02-21</link>
       <guid>Fri Feb 21 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1278,7 +1414,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <title>Fuite de données chez Service Départemental d'Incendie et de Secours de la Vienne</title>
       <description><![CDATA[<p>login, mot de passe hashé, email</p>]]></description>
       <pubDate>Wed Feb 19 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Service Départemental d'Incendie et de Secours de la Vienne</link>
+      <link>https://bonjourlafuite.eu.org/#Service Départemental d'Incendie et de Secours de la Vienne-2025-02-19</link>
       <guid>Wed Feb 19 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1382,21 +1518,21 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <title>Fuite de données chez Sport Découverte</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, numéro de téléphone, adresse mail</p>]]></description>
       <pubDate>Mon Feb 17 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Sport Découverte</link>
+      <link>https://bonjourlafuite.eu.org/#Sport Découverte-2025-02-17</link>
       <guid>Mon Feb 17 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Mutuelle des motards</title>
       <description><![CDATA[<p>nom, prénom, adresse email, numéro de téléphone, code postal</p>]]></description>
       <pubDate>Thu Feb 13 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Mutuelle des motards</link>
+      <link>https://bonjourlafuite.eu.org/#Mutuelle des motards-2025-02-13</link>
       <guid>Thu Feb 13 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Chronopost</title>
       <description><![CDATA[<p>nom, prénom, numéro de téléphone, adresse, signature</p>]]></description>
       <pubDate>Wed Feb 12 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Chronopost</link>
+      <link>https://bonjourlafuite.eu.org/#Chronopost-2025-02-12</link>
       <guid>Wed Feb 12 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1405,14 +1541,14 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                70 000 personnes 
             </p>]]></description>
       <pubDate>Wed Feb 12 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Caisse des dépôts et des consignations</link>
+      <link>https://bonjourlafuite.eu.org/#Caisse des dépôts et des consignations-2025-02-12</link>
       <guid>Wed Feb 12 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez King Jouet</title>
       <description><![CDATA[<p>nom, prénom, email, numéro de téléphone, détail de la commande</p>]]></description>
       <pubDate>Tue Feb 11 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/King Jouet</link>
+      <link>https://bonjourlafuite.eu.org/#King Jouet-2025-02-11</link>
       <guid>Tue Feb 11 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1451,49 +1587,49 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <title>Fuite de données chez Espace-Recettes.fr Vorwerk</title>
       <description><![CDATA[<p>nom complet, adresse postale, adresse email, numéro de téléphone, données de préférence Thermomix</p>]]></description>
       <pubDate>Thu Feb 06 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Espace-Recettes.fr Vorwerk</link>
+      <link>https://bonjourlafuite.eu.org/#Espace-Recettes.fr Vorwerk-2025-02-06</link>
       <guid>Thu Feb 06 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez AIDES</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, adresse postale, téléphone, adresse email, IBAN, numéro de sécurité sociale, résultat d’examen de santé</p>]]></description>
       <pubDate>Mon Jan 27 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/AIDES</link>
+      <link>https://bonjourlafuite.eu.org/#AIDES-2025-01-27</link>
       <guid>Mon Jan 27 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez E.Leclerc</title>
       <description><![CDATA[<p>nom, prénom, adresse email, identifiant d’accès, numéro de dossier, montant de prime, libellé de prestation</p>]]></description>
       <pubDate>Fri Jan 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/E.Leclerc</link>
+      <link>https://bonjourlafuite.eu.org/#E.Leclerc-2025-01-24</link>
       <guid>Fri Jan 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Fédération Française Montagne Escalade</title>
       <description><![CDATA[<p>nom, prénom, adresse postale, adresse email, identifiant, date de naissance, numéro de téléphone</p>]]></description>
       <pubDate>Fri Jan 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Fédération Française Montagne Escalade</link>
+      <link>https://bonjourlafuite.eu.org/#Fédération Française Montagne Escalade-2025-01-24</link>
       <guid>Fri Jan 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Fédération Française de tir à l'arc</title>
       <description><![CDATA[<p>nom, prénom, sexe, date de naissance, adresse postale, téléphone, adresse email, photo de profil</p>]]></description>
       <pubDate>Mon Jan 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Fédération Française de tir à l'arc</link>
+      <link>https://bonjourlafuite.eu.org/#Fédération Française de tir à l'arc-2025-01-20</link>
       <guid>Mon Jan 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Kiabi</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, IBAN</p>]]></description>
       <pubDate>Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Kiabi</link>
+      <link>https://bonjourlafuite.eu.org/#Kiabi-2025-01-14</link>
       <guid>Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Fédération Française de Roller Skateboard</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, date et lieu de naissance, numéro de téléphone, numéro de licence</p>]]></description>
       <pubDate>Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Fédération Française de Roller Skateboard</link>
+      <link>https://bonjourlafuite.eu.org/#Fédération Française de Roller Skateboard-2025-01-14</link>
       <guid>Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1502,7 +1638,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                64 512 comptes 
             </p>]]></description>
       <pubDate>Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Fédération Française de Force</link>
+      <link>https://bonjourlafuite.eu.org/#Fédération Française de Force-2025-01-14</link>
       <guid>Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1588,7 +1724,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                82Go 
             </p>]]></description>
       <pubDate>Tue Dec 31 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Cogitis</link>
+      <link>https://bonjourlafuite.eu.org/#Cogitis-2024-12-31</link>
       <guid>Tue Dec 31 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1597,7 +1733,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Mon Dec 30 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Atos</link>
+      <link>https://bonjourlafuite.eu.org/#Atos-2024-12-30</link>
       <guid>Mon Dec 30 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1606,14 +1742,14 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Fri Dec 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Arsoé</link>
+      <link>https://bonjourlafuite.eu.org/#Arsoé-2024-12-27</link>
       <guid>Fri Dec 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Volkswagen</title>
       <description><![CDATA[<p>données client, localisation</p>]]></description>
       <pubDate>Fri Dec 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Volkswagen</link>
+      <link>https://bonjourlafuite.eu.org/#Volkswagen-2024-12-27</link>
       <guid>Fri Dec 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1622,7 +1758,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Thu Dec 26 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Peugeot</link>
+      <link>https://bonjourlafuite.eu.org/#Peugeot-2024-12-26</link>
       <guid>Thu Dec 26 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1631,7 +1767,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Wed Dec 25 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Cyberhaven</link>
+      <link>https://bonjourlafuite.eu.org/#Cyberhaven-2024-12-25</link>
       <guid>Wed Dec 25 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1687,7 +1823,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Wakanim</link>
+      <link>https://bonjourlafuite.eu.org/#Wakanim-2024-12-20</link>
       <guid>Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1696,7 +1832,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Sport 2000</link>
+      <link>https://bonjourlafuite.eu.org/#Sport 2000-2024-12-20</link>
       <guid>Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1705,7 +1841,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Go Sport</link>
+      <link>https://bonjourlafuite.eu.org/#Go Sport-2024-12-20</link>
       <guid>Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1714,14 +1850,14 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Electro Dépôt</link>
+      <link>https://bonjourlafuite.eu.org/#Electro Dépôt-2024-12-20</link>
       <guid>Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Top Achat</title>
       <description><![CDATA[<p>nom, prénom, email, addresse</p>]]></description>
       <pubDate>Thu Dec 12 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Top Achat</link>
+      <link>https://bonjourlafuite.eu.org/#Top Achat-2024-12-12</link>
       <guid>Thu Dec 12 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1730,56 +1866,56 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Wed Dec 04 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Deloitte</link>
+      <link>https://bonjourlafuite.eu.org/#Deloitte-2024-12-04</link>
       <guid>Wed Dec 04 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Guy Demarle</title>
       <description><![CDATA[<p>nom, prénom, adresse postale, adresse email, numéro de téléphone</p>]]></description>
       <pubDate>Tue Dec 03 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Guy Demarle</link>
+      <link>https://bonjourlafuite.eu.org/#Guy Demarle-2024-12-03</link>
       <guid>Tue Dec 03 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Norauto</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, numéro de téléphone, numéro de pièce d’identité</p>]]></description>
       <pubDate>Mon Dec 02 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Norauto</link>
+      <link>https://bonjourlafuite.eu.org/#Norauto-2024-12-02</link>
       <guid>Mon Dec 02 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Ze Camping</title>
       <description><![CDATA[<p>nom, prénom, login, mot de passe hashé, date de naissance, téléphone, adresse postale</p>]]></description>
       <pubDate>Wed Nov 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Ze Camping</link>
+      <link>https://bonjourlafuite.eu.org/#Ze Camping-2024-11-27</link>
       <guid>Wed Nov 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez JVS</title>
       <description><![CDATA[<p>nom, prénom, adresse email, login, numéro de téléphone, collectivité</p>]]></description>
       <pubDate>Tue Nov 26 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/JVS</link>
+      <link>https://bonjourlafuite.eu.org/#JVS-2024-11-26</link>
       <guid>Tue Nov 26 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez SFR</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, code postal, ville, date de naissance, département de naissance, numéro de téléphone, 150 000 IBAN</p>]]></description>
       <pubDate>Sun Nov 24 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/SFR</link>
+      <link>https://bonjourlafuite.eu.org/#SFR-2024-11-24</link>
       <guid>Sun Nov 24 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Banque de France</title>
       <description><![CDATA[<p>identité des employés, poste, salaire, identité des clients, comptes bancaires, historique, webmail, documents stratégiques, rapports financiers</p>]]></description>
       <pubDate>Sat Nov 23 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Banque de France</link>
+      <link>https://bonjourlafuite.eu.org/#Banque de France-2024-11-23</link>
       <guid>Sat Nov 23 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Companie de Transport Strasbourgeoise</title>
       <description><![CDATA[<p>inconnu</p>]]></description>
       <pubDate>Fri Nov 22 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Companie de Transport Strasbourgeoise</link>
+      <link>https://bonjourlafuite.eu.org/#Companie de Transport Strasbourgeoise-2024-11-22</link>
       <guid>Fri Nov 22 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
@@ -1788,161 +1924,161 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                 
             </p>]]></description>
       <pubDate>Thu Nov 21 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Chambres d’agriculture</link>
+      <link>https://bonjourlafuite.eu.org/#Chambres d’agriculture-2024-11-21</link>
       <guid>Thu Nov 21 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Auchan</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, téléphone, composition familiale, date de naissance, numéro de carte de fidélité, montant de la cagnotte</p>]]></description>
       <pubDate>Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Auchan</link>
+      <link>https://bonjourlafuite.eu.org/#Auchan-2024-11-19</link>
       <guid>Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Mediboard</title>
       <description><![CDATA[<p>nom, prénom, date de naissance et de décès, genre, numéro de téléphone, médecin traitant, prescriptions médicales, identifiant externe, historique des soins</p>]]></description>
       <pubDate>Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Mediboard</link>
+      <link>https://bonjourlafuite.eu.org/#Mediboard-2024-11-19</link>
       <guid>Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Direct Assurance</title>
       <description><![CDATA[<p>nom, adresse email, numéros de téléphone, IBAN</p>]]></description>
       <pubDate>Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Direct Assurance</link>
+      <link>https://bonjourlafuite.eu.org/#Direct Assurance-2024-11-19</link>
       <guid>Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Le Point</title>
       <description><![CDATA[<p>nom, adresse email, numéro de téléphone, adresse postale, date de naissance</p>]]></description>
       <pubDate>Mon Nov 18 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Le Point</link>
+      <link>https://bonjourlafuite.eu.org/#Le Point-2024-11-18</link>
       <guid>Mon Nov 18 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Huttopia</title>
       <description><![CDATA[<p>nom, prénom, adresse email</p>]]></description>
       <pubDate>Thu Nov 14 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Huttopia</link>
+      <link>https://bonjourlafuite.eu.org/#Huttopia-2024-11-14</link>
       <guid>Thu Nov 14 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Molotov</title>
       <description><![CDATA[<p>adresse email, nom, prénom, date de naissance</p>]]></description>
       <pubDate>Wed Nov 13 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Molotov</link>
+      <link>https://bonjourlafuite.eu.org/#Molotov-2024-11-13</link>
       <guid>Wed Nov 13 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Picard</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, adresse email, adresse postale, numéro de téléphone, numéro de carte de fidélité, points de fidélité, bons de réduction, historique des commandes, tickets de caisse, liste d’achats, favoris d’achat</p>]]></description>
       <pubDate>Tue Nov 12 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Picard</link>
+      <link>https://bonjourlafuite.eu.org/#Picard-2024-11-12</link>
       <guid>Tue Nov 12 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Free Mobile</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, lieu de naissance, adresse email, adresse postale, identifiant abonné, type d’offre souscrite, date de souscription, abonnement actif ou non</p>]]></description>
       <pubDate>Fri Oct 25 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Free Mobile</link>
+      <link>https://bonjourlafuite.eu.org/#Free Mobile-2024-10-25</link>
       <guid>Fri Oct 25 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Free</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, lieu de naissance, adresse email, adresse postale, IBAN, identifiant abonné, type d’offre souscrite, date de souscription, abonnement actif ou non</p>]]></description>
       <pubDate>Fri Oct 25 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Free</link>
+      <link>https://bonjourlafuite.eu.org/#Free-2024-10-25</link>
       <guid>Fri Oct 25 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Ornikar</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, adresse email, adresse postale, numéro de téléphone</p>]]></description>
       <pubDate>Thu Oct 24 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Ornikar</link>
+      <link>https://bonjourlafuite.eu.org/#Ornikar-2024-10-24</link>
       <guid>Thu Oct 24 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Meilleurtaux</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, pays de naissance, adresse postale, numéro de téléphone, situation professionnelle, situation familiale, revenus</p>]]></description>
       <pubDate>Mon Sep 30 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Meilleurtaux</link>
+      <link>https://bonjourlafuite.eu.org/#Meilleurtaux-2024-09-30</link>
       <guid>Mon Sep 30 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez RED by SFR</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, numéro de téléphone, IBAN, type de forfait, identifiant de la carte SIM, identifiant du smartphone</p>]]></description>
       <pubDate>Wed Sep 18 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/RED by SFR</link>
+      <link>https://bonjourlafuite.eu.org/#RED by SFR-2024-09-18</link>
       <guid>Wed Sep 18 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Assurance retraite</title>
       <description><![CDATA[<p>nom, prénom, adresse, numéro de Sécurité sociale, montant approximatif des ressources</p>]]></description>
       <pubDate>Fri Sep 13 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Assurance retraite</link>
+      <link>https://bonjourlafuite.eu.org/#Assurance retraite-2024-09-13</link>
       <guid>Fri Sep 13 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Cybertek</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, numéro de téléphone</p>]]></description>
       <pubDate>Thu Sep 12 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Cybertek</link>
+      <link>https://bonjourlafuite.eu.org/#Cybertek-2024-09-12</link>
       <guid>Thu Sep 12 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Cultura</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, numéro de téléphone, historique des commandes</p>]]></description>
       <pubDate>Tue Sep 10 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Cultura</link>
+      <link>https://bonjourlafuite.eu.org/#Cultura-2024-09-10</link>
       <guid>Tue Sep 10 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Boulanger</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, numéro de téléphone</p>]]></description>
       <pubDate>Sat Sep 07 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Boulanger</link>
+      <link>https://bonjourlafuite.eu.org/#Boulanger-2024-09-07</link>
       <guid>Sat Sep 07 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Ticketmaster</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, numéro de téléphone, distorique des transactions, détails des commandes, informations bancaires (4 derniers numéros de la carte enregistrée et date d’expiration)</p>]]></description>
       <pubDate>Sun Apr 28 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Ticketmaster</link>
+      <link>https://bonjourlafuite.eu.org/#Ticketmaster-2024-04-28</link>
       <guid>Sun Apr 28 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Le Slip Français</title>
       <description><![CDATA[<p>nom, prénom, téléphones, adresse postale, adresse email, numéros de commandes</p>]]></description>
       <pubDate>Mon Apr 15 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Le Slip Français</link>
+      <link>https://bonjourlafuite.eu.org/#Le Slip Français-2024-04-15</link>
       <guid>Mon Apr 15 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez France Travail</title>
       <description><![CDATA[<p>nom, prénom, numéro de sécurité sociale, adresse email, adresse postale, numéro de téléphone, identifiants France Travail</p>]]></description>
       <pubDate>Fri Mar 08 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/France Travail</link>
+      <link>https://bonjourlafuite.eu.org/#France Travail-2024-03-08</link>
       <guid>Fri Mar 08 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez LDLC</title>
       <description><![CDATA[<p>nom, prénom, adresse email, adresse postale, numéro de téléphone</p>]]></description>
       <pubDate>Fri Mar 01 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/LDLC</link>
+      <link>https://bonjourlafuite.eu.org/#LDLC-2024-03-01</link>
       <guid>Fri Mar 01 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Almerys, Viamedis</title>
       <description><![CDATA[<p>nom, prénom, date de naissance, numéro de sécurité sociale, nom de l’assureur de santé, contrat souscrit</p>]]></description>
       <pubDate>Tue Feb 06 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Almerys, Viamedis</link>
+      <link>https://bonjourlafuite.eu.org/#Almerys, Viamedis-2024-02-06</link>
       <guid>Tue Feb 06 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>Fuite de données chez Dailymotion</title>
       <description><![CDATA[<p>nom d'utilisateur, adresse email, Hachage des mots de passe</p>]]></description>
       <pubDate>Sat Oct 01 2016 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</pubDate>
-      <link>https://bonjourlafuite.eu.org/Dailymotion</link>
+      <link>https://bonjourlafuite.eu.org/#Dailymotion-2016-10-01</link>
       <guid>Sat Oct 01 2016 02:00:00 GMT+0200 (heure d’été d’Europe centrale)</guid>
     </item>
   </channel>
