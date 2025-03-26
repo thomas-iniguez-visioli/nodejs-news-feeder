@@ -8,18 +8,35 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 26 Mar 2025 13:44:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 14:10:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-2228 - Elementor Responsive Addons WordPress Sensitive Information Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2228
+<br>
+<strong>Published : </strong> March 26, 2025, 1:15 p.m. | 15 minutes ago
+<br>
+<strong>Description : </strong>The Responsive Addons for Elementor – Free Elementor Addons Plugin and Elementor Templates plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.6.8 the 'register_user' function. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive data including usernames and passwords of any users who register via the Edit Login | Registration Form widget, as long as that user opens the email notification for successful registration.
+<br>
+<strong>Severity:</strong> 5.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2228</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2228</guid>
+    </item>
+    <item>
       <title>CVE-2024-13411 - Zapier for WordPress SSRF Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13411
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Zapier for WordPress plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 1.5.1 via the updated_user() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to make web requests to arbitrary locations originating from the web application which can be used to query and modify information from internal services.
 <br>
@@ -36,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13889
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The WordPress Importer plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 0.8.3 via deserialization of untrusted input in the 'maybe_unserialize' function. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.
 <br>
@@ -53,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1312
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Ultimate Blocks – WordPress Blocks Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'buttonTextColor’ parameter in all versions up to, and including, 3.2.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -70,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1769
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 2.5.0 via the download_file() function. This makes it possible for authenticated attackers, with Administrator-level access and above, to read the contents of arbitrary log files on the server, which can contain sensitive information.
 <br>
@@ -87,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1911
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the admin_log_page() function in all versions up to, and including, 2.5.0. This makes it possible for authenticated attackers, with Administrator-level access and above, to delete arbitrary log files on the server.
 <br>
@@ -104,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1912
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 2.5.0 via the validate_file() Function. This makes it possible for authenticated attackers, with Administrator-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.
 <br>
@@ -121,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1913
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.5.0 via deserialization of untrusted input from the 'form_data' parameter This makes it possible for authenticated attackers, with Administrator-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.
 <br>
@@ -138,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2110
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The WP Compress – Instant Performance & Speed Optimization plugin for WordPress is vulnerable to unauthorized access, modification, and loss of data due to missing capability checks on its on its AJAX functions in all versions up to, and including, 6.30.15. This makes it possible for authenticated attackers, with Subscriber-level access and above, to compromise the site in various ways depending on the specific function exploited - for example, by retrieving sensitive settings and configuration details, or by altering and deleting them, thereby disclosing sensitive information, disrupting the plugin’s functionality, and potentially impacting overall site performance.
 <br>
@@ -155,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1542
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 2 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Improper permission control vulnerability in the OXARI ServiceDesk application could allow an attacker using a guest access or an unprivileged account to gain additional administrative permissions in the application.This issue affects OXARI ServiceDesk in versions before 2.0.324.0.
 <br>
@@ -172,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27551
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 2 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>DBIx::Class::EncodedColumn use the rand() function, which is not cryptographically secure to salt password hashes.
 
@@ -193,7 +210,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27552
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 2 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>DBIx::Class::EncodedColumn use the rand() function, which is not cryptographically secure to salt password hashes.
 
@@ -214,7 +231,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2596
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 2 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Session logout could be overwritten in Checkmk GmbH's Checkmk versions <2.3.0p30, <2.2.0p41, and 2.1.0p49 (EOL)
 <br>
@@ -304,7 +321,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1310
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Jobs for WordPress plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 2.7.11 via the 'job_postings_get_file' parameter. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.
 <br>
@@ -321,7 +338,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1437
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'advanced_iframe' shortcode in all versions up to, and including, 2024.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -338,7 +355,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1439
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'advanced_iframe' shortcode in all versions up to, and including, 2024.5 due to insufficient input sanitization and output escaping on user supplied attributes through the 'src' attribute when the src supplied returns a header with an injected value . This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -355,7 +372,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1440
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to unauthorized excessive creation of options on the aip_map_url_callback() function in all versions up to, and including, 2024.5 due to insufficient restrictions. This makes it possible for unauthenticated attackers to update the advancediFrameParameterData option with an excessive amount of unvalidated data.
 <br>
@@ -372,7 +389,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1703
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Ultimate Blocks plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘content’ parameter in all versions up to, and including, 3.2.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -389,7 +406,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13702
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The CRM and Lead Management by vcita plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'vCitaMeetingScheduler' and 'vCitaSchedulingCalendar' shortcodes in all versions up to, and including, 2.7.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -406,7 +423,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13801
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The BWL Advanced FAQ Manager plugin for WordPress is vulnerable to unauthorized modification of data that can lead to a denial of service due to a missing capability check on the 'baf_set_notice_status' AJAX action in all versions up to, and including, 2.1.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update option values to '1' on the WordPress site. This can be leveraged to update an option that would create an error on the site and deny service to legitimate users or be used to set some values to true such as registration.
 <br>
@@ -423,7 +440,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1514
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Active Products Tables for WooCommerce. Use constructor to create tables plugin for WordPress is vulnerable to unauthorized filter calling due to insufficient restrictions on the get_smth() function in all versions up to, and including, 1.0.6.7. This makes it possible for unauthenticated attackers to call arbitrary WordPress filters with a single parameter.
 <br>
@@ -440,7 +457,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2009
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Newsletters plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the logging functionality in all versions up to, and including, 4.9.9.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -457,7 +474,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2167
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Event post plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'events_list' shortcodes in all versions up to, and including, 5.9.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -474,7 +491,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2257
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Total Upkeep – WordPress Backup Plugin plus Restore & Migrate by BoldGrid plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.16.10 via the compression_level setting. This is due to the plugin using the compression_level setting in proc_open() without any validation. This makes it possible for authenticated attackers, with administrator-level access and above, to execute code on the server.
 <br>
@@ -491,7 +508,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-30155
 <br>
-<strong>Published : </strong> March 26, 2025, 8:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 8:15 a.m. | 5 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>HCL SX does not set the secure attribute on authorization tokens or session cookies. Attackers may potentially be able to obtain access to the cookie values via a Cross-Site-Forgery-Request (CSRF).
 <br>
