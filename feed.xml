@@ -8,18 +8,443 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 26 Mar 2025 13:44:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 18:14:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-27609 - Icinga Web 2 Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27609
+<br>
+<strong>Published : </strong> March 26, 2025, 5:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. A vulnerability in versions prior to 2.11.5 and 2.12.13 allows an attacker to craft a request that, once transmitted to a victim's Icinga Web, allows to embed arbitrary Javascript into it and to act on behalf of that user. This issue has been resolved in versions 2.11.5 and 2.12.3 of Icinga Web 2. As a workaround, those who have Icinga Web 2.12.2 may enable a content security policy in the application settings. Any modern browser with a working CORS implementation also sufficiently guards against the vulnerability.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27609</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27609</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30164 - Icinga Web 2 Cross-Site Request Forgery (CSRF) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30164
+<br>
+<strong>Published : </strong> March 26, 2025, 5:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. A vulnerability in versions prior to 2.11.5 and 2.12.13 vulnerability allows an attacker to craft a URL that, once visited by an authenticated user (or one that is able to authenticate), allows to manipulate the backend to redirect the user to any location. This issue has been resolved in versions 2.11.5 and 2.12.3 of Icinga Web 2. No known workarounds are available.
+<br>
+<strong>Severity:</strong> 4.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30164</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30164</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30217 - Frappe SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30217
+<br>
+<strong>Published : </strong> March 26, 2025, 5:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>Frappe is a full-stack web application framework. Prior to versions 14.93.2 and 15.55.0, a SQL Injection vulnerability has been identified in Frappe Framework which could allow a malicious actor to access sensitive information. Versions 14.93.2 and 15.55.0 contain a patch for the issue. No known workarounds are available.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30217</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30217</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30225 - Directus S3 Storage Driver Asset Unavailability Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30225
+<br>
+<strong>Published : </strong> March 26, 2025, 5:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>Directus is a real-time API and App dashboard for managing SQL database content. The `@directus/storage-driver-s3` package starting in version 9.22.0 and prior to version 12.0.1, corresponding to Directus starting in version 9.22.0 and prior to 11.5.0, is vulnerable to asset unavailability after a burst of malformed transformations. When making many malformed transformation requests at once, at some point, all assets are served as 403. This causes denial of assets for all policies of Directus, including Admin and Public. Version 12.0.1 of the `@directus/storage-driver-s3` package, corresponding to version 11.5.0 of Directus, fixes the issue.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30225</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30225</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30350 - Directus S3 Storage Driver HEAD Flood Denial of Assets</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30350
+<br>
+<strong>Published : </strong> March 26, 2025, 5:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>Directus is a real-time API and App dashboard for managing SQL database content. The `@directus/storage-driver-s3` package starting in version 9.22.0 and prior to version 12.0.1, corresponding to Directus starting in version 9.22.0 and prior to 11.5.0, is vulnerable to asset unavailability after a burst of HEAD requests. Some tools use Directus to sync content and assets, and some of those tools use the HEAD method to check the existence of files. When making many HEAD requests at once, at some point, all assets are eventually served as 403. This causes denial of assets for all policies of Directus, including Admin and Public. Version 12.0.1 of the `@directus/storage-driver-s3` package, corresponding to version 11.5.0 of Directus, fixes the issue.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30350</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30350</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27405 - Icinga Web 2 Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27405
+<br>
+<strong>Published : </strong> March 26, 2025, 4:15 p.m. | 1 hour, 16 minutes ago
+<br>
+<strong>Description : </strong>Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. A vulnerability in versions prior to 2.11.5 and 2.12.13 allows an attacker to craft a URL that, once visited by any user, allows to embed arbitrary Javascript into Icinga Web and to act on behalf of that user. This issue has been resolved in versions 2.11.5 and 2.12.3 of Icinga Web 2. As a workaround, those who have Icinga Web 2.12.2 may enable a content security policy in the application settings.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27405</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27405</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27406 - Icinga Reporting Cross-Site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27406
+<br>
+<strong>Published : </strong> March 26, 2025, 4:15 p.m. | 1 hour, 16 minutes ago
+<br>
+<strong>Description : </strong>Icinga Reporting is the central component for reporting related functionality in the monitoring web frontend and framework Icinga Web 2. A vulnerability present in versions 0.10.0 through 1.0.2 allows to set up a template that allows to embed arbitrary Javascript. This enables the attacker to act on behalf of the user, if the template is being previewed; and act on behalf of the headless browser, if a report using the template is printed to PDF. This issue has been resolved in version 1.0.3 of Icinga Reporting. As a workaround, review all templates and remove suspicious settings.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27406</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27406</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2098 - Fast CAD Reader Dylib Hijacking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2098
+<br>
+<strong>Published : </strong> March 26, 2025, 4:15 p.m. | 1 hour, 16 minutes ago
+<br>
+<strong>Description : </strong>Fast CAD Reader application on MacOS was found to be installed with incorrect file permissions (rwxrwxrwx). This is inconsistent with standard macOS security practices, where applications should have drwxr-xr-x permissions. Incorrect permissions allow for Dylib Hijacking. Guest account, other users and applications can exploit this vulnerability for privilege escalation. This issue affects Fast CAD Reader in possibly all versions since the vendor has not responded to our messages. The tested version was 4.1.5
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2098</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2098</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2783 - Google Chrome Mojo Sandbox Escape Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2783
+<br>
+<strong>Published : </strong> March 26, 2025, 4:15 p.m. | 1 hour, 16 minutes ago
+<br>
+<strong>Description : </strong>Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)
+<br>
+<strong>Severity:</strong> 8.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2783</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2783</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2825 - CrushFTP Unauthenticated Remote Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2825
+<br>
+<strong>Published : </strong> March 26, 2025, 4:15 p.m. | 1 hour, 16 minutes ago
+<br>
+<strong>Description : </strong>CrushFTP versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0 are affected by a vulnerability that may result in unauthenticated access. Remote and unauthenticated HTTP requests to CrushFTP may allow attackers to gain unauthorized access.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2825</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2825</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28899 - WP Event Ticketing Cross-site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28899
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound WP Event Ticketing allows Reflected XSS. This issue affects WP Event Ticketing: from n/a through 1.3.4.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28899</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28899</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28903 - Apache NotFound Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28903
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound Driving Directions allows Reflected XSS. This issue affects Driving Directions: from n/a through 1.4.4.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28903</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28903</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28911 - Gravity2Pdf Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28911
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in gravity2pdf Gravity 2 PDF allows Reflected XSS. This issue affects Gravity 2 PDF: from n/a through 3.1.3.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28911</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28911</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28916 - Docpro PHP Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28916
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in NotFound Docpro allows PHP Local File Inclusion. This issue affects Docpro: from n/a through 2.0.1.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28916</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28916</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28917 - Apache NotFound Custom Smilies Cross-site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28917
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound Custom Smilies allows Stored XSS. This issue affects Custom Smilies: from n/a through 2.9.2.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28917</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28917</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28921 - SpatialMatch IDX Cross-site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28921
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound SpatialMatch IDX allows Reflected XSS. This issue affects SpatialMatch IDX: from n/a through 3.0.9.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28921</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28921</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28924 - ZenphotoPress Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28924
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound ZenphotoPress allows Reflected XSS. This issue affects ZenphotoPress: from n/a through 1.8.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28924</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28924</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28928 - Google ReCaptcha for WordPress Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28928
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in sureshdsk Are you robot google recaptcha for wordpress allows Reflected XSS. This issue affects Are you robot google recaptcha for wordpress: from n/a through 2.2.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28928</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28934 - Apache NotFound Simple Post Series Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28934
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound Simple Post Series allows Reflected XSS. This issue affects Simple Post Series: from n/a through 2.4.4.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28934</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28934</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28935 - Fancybox Plus Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28935
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in puzich Fancybox Plus allows Reflected XSS. This issue affects Fancybox Plus: from n/a through 1.0.1.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28935</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28935</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28939 - WordPress Google Calendar Manager SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28939
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in NotFound WP Google Calendar Manager allows Blind SQL Injection. This issue affects WP Google Calendar Manager: from n/a through 2.1.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28939</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28939</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28942 - Trust Payments Gateway for WooCommerce SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28942
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Trust Payments Trust Payments Gateway for WooCommerce allows SQL Injection. This issue affects Trust Payments Gateway for WooCommerce: from n/a through 1.1.4.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28942</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28942</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2819 - GT-SoftControl File Upload Vulnerability (Path Traversal)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2819
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>There is a risk of unauthorized file uploads in GT-SoftControl and potential file overwrites due to insufficient validation in the file selection process. This could lead to data integrity issues and unauthorized access by an authenticated privileged user.
+<br>
+<strong>Severity:</strong> 6.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2819</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2819</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2820 - Cisco Device Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2820
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>An authenticated attacker can compromise the availability of the device via the network
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2820</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2820</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30524 - Origincode Product Catalog SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30524
+<br>
+<strong>Published : </strong> March 26, 2025, 3:16 p.m. | 2 hours, 15 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in origincode Product Catalog allows SQL Injection. This issue affects Product Catalog: from n/a through 1.0.4.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 26 Mar 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30524</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30524</guid>
+    </item>
+    <item>
       <title>CVE-2024-13411 - Zapier for WordPress SSRF Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13411
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Zapier for WordPress plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 1.5.1 via the updated_user() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to make web requests to arbitrary locations originating from the web application which can be used to query and modify information from internal services.
 <br>
@@ -36,7 +461,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13889
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The WordPress Importer plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 0.8.3 via deserialization of untrusted input in the 'maybe_unserialize' function. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.
 <br>
@@ -53,7 +478,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1312
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Ultimate Blocks – WordPress Blocks Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'buttonTextColor’ parameter in all versions up to, and including, 3.2.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -70,7 +495,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1769
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 2.5.0 via the download_file() function. This makes it possible for authenticated attackers, with Administrator-level access and above, to read the contents of arbitrary log files on the server, which can contain sensitive information.
 <br>
@@ -87,7 +512,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1911
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the admin_log_page() function in all versions up to, and including, 2.5.0. This makes it possible for authenticated attackers, with Administrator-level access and above, to delete arbitrary log files on the server.
 <br>
@@ -104,7 +529,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1912
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 2.5.0 via the validate_file() Function. This makes it possible for authenticated attackers, with Administrator-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.
 <br>
@@ -121,7 +546,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1913
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The Product Import Export for WooCommerce – Import Export Product CSV Suite plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.5.0 via deserialization of untrusted input from the 'form_data' parameter This makes it possible for authenticated attackers, with Administrator-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.
 <br>
@@ -138,7 +563,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2110
 <br>
-<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 12:15 p.m. | 1 hour, 15 minutes ago
 <br>
 <strong>Description : </strong>The WP Compress – Instant Performance & Speed Optimization plugin for WordPress is vulnerable to unauthorized access, modification, and loss of data due to missing capability checks on its on its AJAX functions in all versions up to, and including, 6.30.15. This makes it possible for authenticated attackers, with Subscriber-level access and above, to compromise the site in various ways depending on the specific function exploited - for example, by retrieving sensitive settings and configuration details, or by altering and deleting them, thereby disclosing sensitive information, disrupting the plugin’s functionality, and potentially impacting overall site performance.
 <br>
@@ -155,7 +580,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1542
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 2 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Improper permission control vulnerability in the OXARI ServiceDesk application could allow an attacker using a guest access or an unprivileged account to gain additional administrative permissions in the application.This issue affects OXARI ServiceDesk in versions before 2.0.324.0.
 <br>
@@ -172,7 +597,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27551
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 2 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>DBIx::Class::EncodedColumn use the rand() function, which is not cryptographically secure to salt password hashes.
 
@@ -193,7 +618,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27552
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 2 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>DBIx::Class::EncodedColumn use the rand() function, which is not cryptographically secure to salt password hashes.
 
@@ -214,7 +639,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2596
 <br>
-<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 1 hour, 43 minutes ago
+<strong>Published : </strong> March 26, 2025, 11:15 a.m. | 2 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Session logout could be overwritten in Checkmk GmbH's Checkmk versions <2.3.0p30, <2.2.0p41, and 2.1.0p49 (EOL)
 <br>
@@ -304,7 +729,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1310
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Jobs for WordPress plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 2.7.11 via the 'job_postings_get_file' parameter. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.
 <br>
@@ -321,7 +746,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1437
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'advanced_iframe' shortcode in all versions up to, and including, 2024.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -338,7 +763,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1439
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'advanced_iframe' shortcode in all versions up to, and including, 2024.5 due to insufficient input sanitization and output escaping on user supplied attributes through the 'src' attribute when the src supplied returns a header with an injected value . This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -355,7 +780,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1440
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Advanced iFrame plugin for WordPress is vulnerable to unauthorized excessive creation of options on the aip_map_url_callback() function in all versions up to, and including, 2024.5 due to insufficient restrictions. This makes it possible for unauthenticated attackers to update the advancediFrameParameterData option with an excessive amount of unvalidated data.
 <br>
@@ -372,7 +797,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1703
 <br>
-<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 2 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 10:15 a.m. | 3 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Ultimate Blocks plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘content’ parameter in all versions up to, and including, 3.2.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -389,7 +814,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13702
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The CRM and Lead Management by vcita plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'vCitaMeetingScheduler' and 'vCitaSchedulingCalendar' shortcodes in all versions up to, and including, 2.7.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -406,7 +831,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13801
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The BWL Advanced FAQ Manager plugin for WordPress is vulnerable to unauthorized modification of data that can lead to a denial of service due to a missing capability check on the 'baf_set_notice_status' AJAX action in all versions up to, and including, 2.1.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update option values to '1' on the WordPress site. This can be leveraged to update an option that would create an error on the site and deny service to legitimate users or be used to set some values to true such as registration.
 <br>
@@ -423,7 +848,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1514
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Active Products Tables for WooCommerce. Use constructor to create tables plugin for WordPress is vulnerable to unauthorized filter calling due to insufficient restrictions on the get_smth() function in all versions up to, and including, 1.0.6.7. This makes it possible for unauthenticated attackers to call arbitrary WordPress filters with a single parameter.
 <br>
@@ -440,7 +865,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2009
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Newsletters plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the logging functionality in all versions up to, and including, 4.9.9.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -457,7 +882,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2167
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Event post plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'events_list' shortcodes in all versions up to, and including, 5.9.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -474,7 +899,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2257
 <br>
-<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 3 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 9:15 a.m. | 4 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The Total Upkeep – WordPress Backup Plugin plus Restore & Migrate by BoldGrid plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.16.10 via the compression_level setting. This is due to the plugin using the compression_level setting in proc_open() without any validation. This makes it possible for authenticated attackers, with administrator-level access and above, to execute code on the server.
 <br>
@@ -491,7 +916,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-30155
 <br>
-<strong>Published : </strong> March 26, 2025, 8:15 a.m. | 4 hours, 44 minutes ago
+<strong>Published : </strong> March 26, 2025, 8:15 a.m. | 5 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>HCL SX does not set the secure attribute on authorization tokens or session cookies. Attackers may potentially be able to obtain access to the cookie values via a Cross-Site-Forgery-Request (CSRF).
 <br>
