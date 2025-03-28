@@ -8,12 +8,437 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 28 Mar 2025 16:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 18:14:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-2913 - HDF5 Use After Free Local Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2913
+<br>
+<strong>Published : </strong> March 28, 2025, 5:15 p.m. | 20 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in HDF5 up to 1.14.6. It has been rated as problematic. Affected by this issue is the function H5FL__blk_gc_list of the file src/H5FL.c. The manipulation of the argument H5FL_blk_head_t leads to use after free. An attack has to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2913</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2913</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2914 - HDF5 Heap-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2914
+<br>
+<strong>Published : </strong> March 28, 2025, 5:15 p.m. | 20 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in HDF5 up to 1.14.6. This affects the function H5FS__sinfo_Srialize_Sct_cb of the file src/H5FScache.c. The manipulation of the argument sect leads to heap-based buffer overflow. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2914</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2914</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2915 - HDF5 Heap-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2915
+<br>
+<strong>Published : </strong> March 28, 2025, 5:15 p.m. | 20 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic was found in HDF5 up to 1.14.6. This vulnerability affects the function H5F__accum_free of the file src/H5Faccum.c. The manipulation of the argument overlap_size leads to heap-based buffer overflow. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2915</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2915</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2916 - "Aishida Call Center System Command Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2916
+<br>
+<strong>Published : </strong> March 28, 2025, 5:15 p.m. | 20 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Aishida Call Center System up to 20250314. This issue affects some unknown processing of the file /doscall/weixin/open/amr2mp3. The manipulation of the argument File leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2916</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2916</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2713 - Google gVisor's runsc Local Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2713
+<br>
+<strong>Published : </strong> March 28, 2025, 4:15 p.m. | 1 hour, 20 minutes ago
+<br>
+<strong>Description : </strong>Google gVisor's runsc component exhibited a local privilege escalation vulnerability due to incorrect handling of file access permissions, which allowed unprivileged users to access restricted files. This occurred because the process initially ran with root-like permissions until the first fork.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2713</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2713</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2912 - HDF5 Heap-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2912
+<br>
+<strong>Published : </strong> March 28, 2025, 4:15 p.m. | 1 hour, 20 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in HDF5 up to 1.14.6. It has been declared as problematic. Affected by this vulnerability is the function H5O_msg_flush of the file src/H5Omessage.c. The manipulation of the argument oh leads to heap-based buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2912</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2912</guid>
+    </item>
+    <item>
+      <title>CVE-2024-39311 - Publify Cross-Site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-39311
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Publify is a self hosted Web publishing platform on Rails. Prior to version 10.0.1 of Publify, corresponding to versions prior to 10.0.2 of the `publify_core` rubygem, publisher on a `publify` application is able to perform a cross-site scripting (XSS) attack on an administrator using the redirect functionality. The exploitation of this XSS vulnerability requires the administrator to click a malicious link. An attack could attempt to hide their payload by using HTML, or other encodings, as to not make it obvious to an administrator that this is a malicious link. A publisher may attempt to use this vulnerability to escalate their privileges and become an administrator. Version 10.0.1 of Publify and version 10.0.2 of the `publify_core` rubygem fix the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-39311</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-39311</guid>
+    </item>
+    <item>
+      <title>CVE-2024-48615 - Apache libarchive Null Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-48615
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Null Pointer Dereference vulnerability in libarchive 3.7.6 and earlier when running program bsdtar in function header_pax_extension at rchive_read_support_format_tar.c:1844:8.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-48615</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-48615</guid>
+    </item>
+    <item>
+      <title>CVE-2024-51624 - Já-Já Pagamentos for WooCommerce Cross-site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-51624
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in jajapagamentos Já-Já Pagamentos for WooCommerce allows Reflected XSS. This issue affects Já-Já Pagamentos for WooCommerce: from n/a through 1.3.0.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-51624</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-51624</guid>
+    </item>
+    <item>
+      <title>CVE-2024-54291 - Apache NotFound PluginPass Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-54291
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in NotFound PluginPass allows Manipulating Web Input to File System Calls. This issue affects PluginPass: from n/a through 0.9.10.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-54291</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-54291</guid>
+    </item>
+    <item>
+      <title>CVE-2024-54362 - GetShop Ecommerce Path Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-54362
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Path Traversal vulnerability in NotFound GetShop ecommerce allows Path Traversal. This issue affects GetShop ecommerce: from n/a through 1.3.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-54362</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-54362</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22356 - Stencies Cross-site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22356
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Stencies Stencies allows Reflected XSS. This issue affects Stencies: from n/a through 0.58.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22356</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22356</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22360 - WordPress Azure Offload Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22360
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound WP Azure offload allows Reflected XSS. This issue affects WP Azure offload: from n/a through 2.0.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22360</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22360</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22501 - Improve My City Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22501
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Improve My City Improve My City allows Reflected XSS. This issue affects Improve My City: from n/a through 1.6.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22501</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22501</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22523 - Apache NotFound SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22523
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in NotFound Schedule allows Blind SQL Injection. This issue affects Schedule: from n/a through 1.0.0.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22523</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22523</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22526 - Apache PHP MySQL Untrusted Data Object Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22526
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Deserialization of Untrusted Data vulnerability in NotFound PHP/MySQL CPU performance statistics allows Object Injection. This issue affects PHP/MySQL CPU performance statistics: from n/a through 1.2.1.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22526</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22526</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22566 - Ultimate Video Gallery Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22566
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound ULTIMATE VIDEO GALLERY allows Reflected XSS. This issue affects ULTIMATE VIDEO GALLERY: from n/a through 1.4.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22566</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22566</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22575 - Super Responsive Slider Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22575
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in extendyourweb SUPER RESPONSIVE SLIDER allows Reflected XSS. This issue affects SUPER RESPONSIVE SLIDER: from n/a through 1.4.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22575</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22575</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22767 - GlobalPayments WooCommerce Cross-site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22767
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in globalpayments GlobalPayments WooCommerce allows Reflected XSS. This issue affects GlobalPayments WooCommerce: from n/a through 1.13.0.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22767</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22767</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29928 - Authentik Persistent Session Storage Vulnerability (Session Hijacking)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29928
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>authentik is an open-source identity provider. Prior to versions 2024.12.4 and 2025.2.3, when authentik was configured to use the database for session storage (which is a non-default setting), deleting sessions via the Web Interface or the API would not revoke the session and the session holder would continue to have access to authentik. authentik 2025.2.3 and 2024.12.4 fix this issue. Switching to the cache-based session storage until the authentik instance can be upgraded is recommended. This will however also delete all existing sessions and users will have to re-authenticate.
+<br>
+<strong>Severity:</strong> 8.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29928</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30211 - Erlang/OTP KEX Init Message Memory Exhaustion Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30211
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.1, 26.2.5.10, and 25.3.2.19, a maliciously formed KEX init message can result with high memory usage. Implementation does not verify RFC specified limits on algorithm names (64 characters) provided in KEX init message. Big KEX init packet may lead to inefficient processing of the error data. As a result, large amount of memory will be allocated for processing malicious data. Versions OTP-27.3.1, OTP-26.2.5.10, and OTP-25.3.2.19 fix the issue. Some workarounds are available. One may set option `parallel_login` to `false` and/or reduce the `max_sessions` option.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30211</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30211</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30371 - Metabase GeoJson Endpoint Local Link Access Protection Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30371
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Metabase is a business intelligence and embedded analytics tool. Versions prior to v0.52.16.4, v1.52.16.4, v0.53.8, and v1.53.8 are vulnerable to circumvention of local link access protection in GeoJson endpoint. Self hosted Metabase instances that are using the GeoJson feature could be potentially impacted if their Metabase is colocated with other unsecured resources. This is fixed in v0.52.16.4, v1.52.16.4, v0.53.8, and v1.53.8. Migrating to Metabase Cloud or redeploying Metabase in a dedicated subnet with strict outbound port controls is an available workaround.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30371</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30371</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30372 - Emlog Pro SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30372
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Emlog is an open source website building system. Emlog Pro versions pro-2.5.7 and pro-2.5.8 contain an SQL injection vulnerability. `search_controller.php` does not use addslashes after urldecode, allowing the preceeding addslashes to be bypassed by URL double encoding. This could result in potential leakage of sensitive information from the user database. Version pro-2.5.9 fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30372</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30372</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31010 - ReichertBrothers SimplyRETS Real Estate IDX CSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31010
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 2 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in ReichertBrothers SimplyRETS Real Estate IDX allows Cross Site Request Forgery. This issue affects SimplyRETS Real Estate IDX: from n/a through 3.0.3.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31010</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31010</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2901 - JBoss EAP Cross-site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2901
+<br>
+<strong>Published : </strong> March 28, 2025, 2:15 p.m. | 3 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in the JBoss EAP Management Console, where a stored Cross-site scripting vulnerability occurs when an application improperly sanitizes user input before storing it in a data store. When this stored data is later included in web pages without adequate sanitization, malicious scripts can execute in the context of users who view these pages, leading to potential data theft, session hijacking, or other malicious activities.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2901</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2901</guid>
+    </item>
     <item>
       <title>REMPAR25 : les inscriptions sont ouvertes !</title>
       <description><![CDATA[<p><span class="field field--name-title field--type-string field--label-hidden">REMPAR25 : les inscriptions sont ouvertes !</span>
@@ -22,7 +447,7 @@
       <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span>anssiadm</span></span>
 <span class="field field--name-created field--type-created field--label-hidden"><time datetime="2025-03-28T13:36:43+00:00" title="Vendredi 28 Mars 2025 - 13:36" class="datetime">ven 28/03/2025 - 13:36</time></span>
 
-            <div class="field field--name-field-chapo field--type-string-long field--label-hidden field__item">Fort du succès de REMPAR22 et de ses enseignements, l’ANSSI, le Club de la Continuité d'Activité (CCA) et le Club de la sécurité de l’information français (CLUSIF) vous invitent à participer à l'exercice de crise massifié REMPAR25 le 18 septembre 2025.</div>
+            <div class="field field--name-field-chapo field--type-string-long field--label-hidden field__item">Fort du succès de REMPAR22 et de ses enseignements, l’ANSSI avec le soutien du Club de la Continuité d'Activité (CCA) et du Club de la sécurité de l’information français (CLUSIF) vous invitent à participer à l'exercice de crise massifié REMPAR25 le 18 septembre 2025.</div>
       
       <div class="field field--name-field-corps field--type-entity-reference-revisions field--label-hidden field__items">
               <div class="field__item">  <div class="paragraph paragraph--type--op-texte-riche paragraph--view-mode--default">
@@ -51,433 +476,6 @@
       <pubDate>Fri, 28 Mar 2025 13:36:00 GMT</pubDate>
       <link>https://cyber.gouv.fr/actualites/rempar25-les-inscriptions-sont-ouvertes</link>
       <guid>74111 at https://cyber.gouv.fr</guid>
-    </item>
-    <item>
-      <title>CVE-2024-11504 - Streamsoft Prestiż SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-11504
-<br>
-<strong>Published : </strong> March 28, 2025, 1:15 p.m. | 1 hour ago
-<br>
-<strong>Description : </strong>Input from multiple fields in Streamsoft Prestiż is not sanitized properly, leading to an SQL injection vulnerability, which might be exploited by an authenticated remote attacker. 
-This issue was fixed in 18.1.376.37 version of the software.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-11504</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-11504</guid>
-    </item>
-    <item>
-      <title>CVE-2024-7407 - Streamsoft Prestiż Password Encoding Algorithm Weakness</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-7407
-<br>
-<strong>Published : </strong> March 28, 2025, 1:15 p.m. | 59 minutes ago
-<br>
-<strong>Description : </strong>Use of a custom password encoding algorithm in Streamsoft Prestiż software allows straightforward decoding of passwords using their encoded forms, which are stored in the application's database. One has to know the encoding algorithm, but it can be deduced by observing how password are transformed. 
-This issue was fixed in 18.2.377 version of the software.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-7407</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-7407</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2908 - MeetMe Credentials Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2908
-<br>
-<strong>Published : </strong> March 28, 2025, 1:15 p.m. | 59 minutes ago
-<br>
-<strong>Description : </strong>The exposure of credentials in the call forwarding configuration module in MeetMe products in versions prior to 2024-09 allows an attacker to gain access to some important assets via configuration files.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2908</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2908</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2909 - DuoxMe Insecure Binary Decryption</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2909
-<br>
-<strong>Published : </strong> March 28, 2025, 1:15 p.m. | 59 minutes ago
-<br>
-<strong>Description : </strong>The lack of encryption in the DuoxMe (formerly Blue) application binary in versions prior to 3.3.1 for iOS devices allows an attacker to gain unauthorised access to the application code and discover sensitive information.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2909</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2909</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2910 - MeetMe User Enumeration Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2910
-<br>
-<strong>Published : </strong> March 28, 2025, 1:15 p.m. | 59 minutes ago
-<br>
-<strong>Description : </strong>User enumeration in the password reset module of the MeetMe authentication service in versions prior to 2024-09 allows an attacker to determine whether an email address is registered through specific error messages.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2910</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2910</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2911 - MeetMe Call Forwarding Service Unauthorised Access Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2911
-<br>
-<strong>Published : </strong> March 28, 2025, 1:15 p.m. | 59 minutes ago
-<br>
-<strong>Description : </strong>Unauthorised access to the call forwarding service system in MeetMe products in versions prior to 2024-09 allows an attacker to identify multiple users and perform brute force attacks via extensions.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2911</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2911</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31450 - Phantom Omgas Toggle Box Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31450
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in phantom.omaga Toggle Box allows Stored XSS. This issue affects Toggle Box: from n/a through 1.6.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31450</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31450</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31451 - KevinWeber wBounce Cross-site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31451
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in kevinweber wBounce allows Stored XSS. This issue affects wBounce: from n/a through 1.8.1.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31451</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31451</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31452 - Mindshare Labs, Inc. WP Ultimate Search Cross-site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31452
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Mindshare Labs, Inc. WP Ultimate Search allows Stored XSS. This issue affects WP Ultimate Search: from n/a through 2.0.3.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31452</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31452</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31453 - YouTube SimpleGallery Cross-Site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31453
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Stian Andreassen YouTube SimpleGallery allows Stored XSS. This issue affects YouTube SimpleGallery: from n/a through 2.0.6.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31453</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31453</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31456 - BSNDev Ultimate Security Checker CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31456
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in bsndev Ultimate Security Checker allows Cross Site Request Forgery. This issue affects Ultimate Security Checker: from n/a through 4.2.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31456</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31456</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31457 - Aurélien LWS LWS SMS CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31457
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Aurélien LWS LWS SMS allows Cross Site Request Forgery. This issue affects LWS SMS: from n/a through 2.4.1.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31457</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31457</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31458 - Forsgren Video Embedder CSRF Stored XSS Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31458
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in forsgren Video Embedder allows Stored XSS. This issue affects Video Embedder: from n/a through 1.7.1.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31458</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31458</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31459 - PasqualePuzio Login Alert CSRF Stored XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31459
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in PasqualePuzio Login Alert allows Stored XSS. This issue affects Login Alert: from n/a through 0.2.1.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31459</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31459</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31460 - OmniLeads Scripts and Tags Manager CSRF Stored XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31460
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in danielmuldernl OmniLeads Scripts and Tags Manager allows Stored XSS. This issue affects OmniLeads Scripts and Tags Manager: from n/a through 1.3.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31460</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31460</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31463 - TGG WP Optimizer Cross-site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31463
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Preetinder Singh TGG WP Optimizer allows Stored XSS. This issue affects TGG WP Optimizer: from n/a through 1.22.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31463</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31463</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31464 - Nazmur Rahman Text Selection Color Stored Cross-site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31464
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Nazmur Rahman Text Selection Color allows Stored XSS. This issue affects Text Selection Color: from n/a through 1.6.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31464</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31464</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31465 - "CornerShop Better Section Navigation Widget Stored XSS"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31465
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in cornershop Better Section Navigation Widget allows Stored XSS. This issue affects Better Section Navigation Widget: from n/a through 1.6.1.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31465</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31465</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31466 - Falcon Solutions Duplicate Page and Post SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31466
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Falcon Solutions Duplicate Page and Post allows Blind SQL Injection. This issue affects Duplicate Page and Post: from n/a through 1.0.
-<br>
-<strong>Severity:</strong> 8.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31466</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31466</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31469 - Webrangers Clear Sucuri Cache Missing Authorization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31469
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in webrangers Clear Sucuri Cache allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Clear Sucuri Cache: from n/a through 1.4.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31469</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31469</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31470 - FancyThemes Page Takeover Stored Cross-site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31470
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in FancyThemes Page Takeover allows Stored XSS. This issue affects Page Takeover: from n/a through 1.1.6.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31470</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31470</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31471 - Falcon Solutions Duplicate Page and Post Stored Cross-site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31471
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Falcon Solutions Duplicate Page and Post allows Stored XSS. This issue affects Duplicate Page and Post: from n/a through 1.0.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31471</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31471</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31472 - Flatty Stored Cross-Site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31472
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Michele Marri Flatty allows Stored XSS. This issue affects Flatty: from n/a through 2.0.0.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31472</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31472</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31473 - WordPress Database Optimizer Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31473
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in matthewprice1178 WP Database Optimizer allows Stored XSS. This issue affects WP Database Optimizer: from n/a through 1.2.1.3.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31473</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31473</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31474 - Matthewprice1178 WP Database Optimizer CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31474
-<br>
-<strong>Published : </strong> March 28, 2025, 12:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in matthewprice1178 WP Database Optimizer allows Cross Site Request Forgery. This issue affects WP Database Optimizer: from n/a through 1.2.1.3.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 28 Mar 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31474</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31474</guid>
     </item>
     <item>
       <title>CVE-2021-24008 - FortiDDoS FortiVoice FortiRecorder FortiMail Information Disclosure</title>
@@ -1368,6 +1366,13 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 28 Mar 2025 01:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-1860</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-1860</guid>
+    </item>
+    <item>
+      <title>Fuite de données chez MAIF BPCE</title>
+      <description><![CDATA[<p>nom, genre, date de naissance, situation matrimoniale et professionnelle, adresse postale, adresse email, numéro de téléphone, revenus, patrimoine, numéro de sociétaire</p>]]></description>
+      <pubDate>Fri Mar 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
+      <link>https://bonjourlafuite.eu.org/#MAIF  BPCE-2025-03-28</link>
+      <guid>Fri Mar 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>L’ANSSI vous donne rendez-vous au Forum InCyber 2025 !</title>
