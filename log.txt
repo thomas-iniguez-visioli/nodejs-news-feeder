@@ -1,14 +1,14 @@
-Error: Invalid character in entity name
-Line: 8879
-Column: 67
-Char:  
+Error: Non-whitespace before first tag.
+Line: 0
+Column: 1
+Char: m
     at error (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:658:10)
     at strictFail (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:684:7)
-    at SAXParser.write (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:1522:13)
+    at beginWhiteSpace (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:958:7)
+    at SAXParser.write (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:1013:11)
     at exports.Parser.Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/xml2js/lib/parser.js:327:31)
     at Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/xml2js/lib/parser.js:5:59)
     at /home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/rss-parser/lib/parser.js:33:22
     at new Promise (<anonymous>)
     at Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/rss-parser/lib/parser.js:32:16)
     at file:///home/runner/work/nodejs-news-feeder/nodejs-news-feeder/scripts/format.js:37:8
-    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
