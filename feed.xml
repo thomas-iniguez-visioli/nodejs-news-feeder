@@ -8,12 +8,475 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 28 Mar 2025 12:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 20:11:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-2917 - ChestnutCMS Remote Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2917
+<br>
+<strong>Published : </strong> March 28, 2025, 6:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, was found in ChestnutCMS up to 1.5.3. Affected is the function readFile of the file /dev-api/cms/file/read. The manipulation of the argument filePath leads to path traversal. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2917</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2917</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2919 - Netis WF-2404 UART Debug Logic Runtime Activation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2919
+<br>
+<strong>Published : </strong> March 28, 2025, 6:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Netis WF-2404 1.1.124EN. It has been declared as critical. This vulnerability affects unknown code of the component UART. The manipulation leads to hardware allows activation of test or debug logic at runtime. It is possible to launch the attack on the physical device. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2919</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2919</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2920 - Netis WF-2404 Password Hash Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2920
+<br>
+<strong>Published : </strong> March 28, 2025, 6:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Netis WF-2404 1.1.124EN. It has been rated as problematic. This issue affects some unknown processing of the file /еtc/passwd. The manipulation leads to use of weak hash. It is possible to launch the attack on the physical device. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 2.0 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2920</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2920</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2921 - Netis WF-2404 Default Password Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2921
+<br>
+<strong>Published : </strong> March 28, 2025, 6:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in Netis WF-2404 1.1.124EN. Affected is an unknown function of the file /etc/passwd. The manipulation with the input Realtek leads to use of default password. It is possible to launch the attack on the physical device. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2921</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2921</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31162 - Fig2Dev Floating Point Exception Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31162
+<br>
+<strong>Published : </strong> March 28, 2025, 6:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>Floating point exception in fig2dev in version 3.2.9a allows an attacker to availability via local input manipulation via get_slope function.
+<br>
+<strong>Severity:</strong> 6.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31162</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31162</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31163 - "Fig2Dev Segmentation Fault Buffer Overflow"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31163
+<br>
+<strong>Published : </strong> March 28, 2025, 6:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>Segmentation fault in fig2dev in version 3.2.9a allows an attacker to availability via local input manipulation via put_patternarc function.
+<br>
+<strong>Severity:</strong> 6.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31163</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31163</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31164 - Fig2Dev Heap Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31164
+<br>
+<strong>Published : </strong> March 28, 2025, 6:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>heap-buffer overflow in fig2dev in version 3.2.9a allows an attacker to availability via local input manipulation via  create_line_with_spline.
+<br>
+<strong>Severity:</strong> 6.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31164</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31164</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2913 - HDF5 Use After Free Local Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2913
+<br>
+<strong>Published : </strong> March 28, 2025, 5:15 p.m. | 1 hour, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in HDF5 up to 1.14.6. It has been rated as problematic. Affected by this issue is the function H5FL__blk_gc_list of the file src/H5FL.c. The manipulation of the argument H5FL_blk_head_t leads to use after free. An attack has to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2913</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2913</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2914 - HDF5 Heap-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2914
+<br>
+<strong>Published : </strong> March 28, 2025, 5:15 p.m. | 1 hour, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in HDF5 up to 1.14.6. This affects the function H5FS__sinfo_Srialize_Sct_cb of the file src/H5FScache.c. The manipulation of the argument sect leads to heap-based buffer overflow. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2914</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2914</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2915 - HDF5 Heap-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2915
+<br>
+<strong>Published : </strong> March 28, 2025, 5:15 p.m. | 1 hour, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic was found in HDF5 up to 1.14.6. This vulnerability affects the function H5F__accum_free of the file src/H5Faccum.c. The manipulation of the argument overlap_size leads to heap-based buffer overflow. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2915</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2915</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2916 - "Aishida Call Center System Command Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2916
+<br>
+<strong>Published : </strong> March 28, 2025, 5:15 p.m. | 1 hour, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Aishida Call Center System up to 20250314. This issue affects some unknown processing of the file /doscall/weixin/open/amr2mp3. The manipulation of the argument File leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2916</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2916</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2713 - Google gVisor's runsc Local Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2713
+<br>
+<strong>Published : </strong> March 28, 2025, 4:15 p.m. | 2 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Google gVisor's runsc component exhibited a local privilege escalation vulnerability due to incorrect handling of file access permissions, which allowed unprivileged users to access restricted files. This occurred because the process initially ran with root-like permissions until the first fork.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2713</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2713</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2912 - HDF5 Heap-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2912
+<br>
+<strong>Published : </strong> March 28, 2025, 4:15 p.m. | 2 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in HDF5 up to 1.14.6. It has been declared as problematic. Affected by this vulnerability is the function H5O_msg_flush of the file src/H5Omessage.c. The manipulation of the argument oh leads to heap-based buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2912</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2912</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22360 - WordPress Azure Offload Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22360
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound WP Azure offload allows Reflected XSS. This issue affects WP Azure offload: from n/a through 2.0.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22360</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22360</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22501 - Improve My City Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22501
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Improve My City Improve My City allows Reflected XSS. This issue affects Improve My City: from n/a through 1.6.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22501</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22501</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22523 - Apache NotFound SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22523
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in NotFound Schedule allows Blind SQL Injection. This issue affects Schedule: from n/a through 1.0.0.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22523</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22523</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22526 - Apache PHP MySQL Untrusted Data Object Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22526
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Deserialization of Untrusted Data vulnerability in NotFound PHP/MySQL CPU performance statistics allows Object Injection. This issue affects PHP/MySQL CPU performance statistics: from n/a through 1.2.1.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22526</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22526</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22566 - Ultimate Video Gallery Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22566
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound ULTIMATE VIDEO GALLERY allows Reflected XSS. This issue affects ULTIMATE VIDEO GALLERY: from n/a through 1.4.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22566</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22566</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22575 - Super Responsive Slider Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22575
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in extendyourweb SUPER RESPONSIVE SLIDER allows Reflected XSS. This issue affects SUPER RESPONSIVE SLIDER: from n/a through 1.4.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22575</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22575</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22767 - GlobalPayments WooCommerce Cross-site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22767
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in globalpayments GlobalPayments WooCommerce allows Reflected XSS. This issue affects GlobalPayments WooCommerce: from n/a through 1.13.0.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22767</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22767</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29928 - Authentik Persistent Session Storage Vulnerability (Session Hijacking)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29928
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>authentik is an open-source identity provider. Prior to versions 2024.12.4 and 2025.2.3, when authentik was configured to use the database for session storage (which is a non-default setting), deleting sessions via the Web Interface or the API would not revoke the session and the session holder would continue to have access to authentik. authentik 2025.2.3 and 2024.12.4 fix this issue. Switching to the cache-based session storage until the authentik instance can be upgraded is recommended. This will however also delete all existing sessions and users will have to re-authenticate.
+<br>
+<strong>Severity:</strong> 8.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29928</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30211 - Erlang/OTP KEX Init Message Memory Exhaustion Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30211
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.1, 26.2.5.10, and 25.3.2.19, a maliciously formed KEX init message can result with high memory usage. Implementation does not verify RFC specified limits on algorithm names (64 characters) provided in KEX init message. Big KEX init packet may lead to inefficient processing of the error data. As a result, large amount of memory will be allocated for processing malicious data. Versions OTP-27.3.1, OTP-26.2.5.10, and OTP-25.3.2.19 fix the issue. Some workarounds are available. One may set option `parallel_login` to `false` and/or reduce the `max_sessions` option.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30211</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30211</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30371 - Metabase GeoJson Endpoint Local Link Access Protection Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30371
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Metabase is a business intelligence and embedded analytics tool. Versions prior to v0.52.16.4, v1.52.16.4, v0.53.8, and v1.53.8 are vulnerable to circumvention of local link access protection in GeoJson endpoint. Self hosted Metabase instances that are using the GeoJson feature could be potentially impacted if their Metabase is colocated with other unsecured resources. This is fixed in v0.52.16.4, v1.52.16.4, v0.53.8, and v1.53.8. Migrating to Metabase Cloud or redeploying Metabase in a dedicated subnet with strict outbound port controls is an available workaround.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30371</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30371</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30372 - Emlog Pro SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30372
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Emlog is an open source website building system. Emlog Pro versions pro-2.5.7 and pro-2.5.8 contain an SQL injection vulnerability. `search_controller.php` does not use addslashes after urldecode, allowing the preceeding addslashes to be bypassed by URL double encoding. This could result in potential leakage of sensitive information from the user database. Version pro-2.5.9 fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30372</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30372</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31010 - ReichertBrothers SimplyRETS Real Estate IDX CSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31010
+<br>
+<strong>Published : </strong> March 28, 2025, 3:15 p.m. | 3 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in ReichertBrothers SimplyRETS Real Estate IDX allows Cross Site Request Forgery. This issue affects SimplyRETS Real Estate IDX: from n/a through 3.0.3.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31010</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31010</guid>
+    </item>
+    <item>
+      <title>REMPAR25 : les inscriptions sont ouvertes !</title>
+      <description><![CDATA[<p><span class="field field--name-title field--type-string field--label-hidden">REMPAR25 : les inscriptions sont ouvertes !</span>
+
+            <div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><picture class="image-banniere"><source media="(max-width:766px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_767_400/public/image/actu_web_rempar25.png?h=284f21b9&itok=Mr6Hc52C"></source><source media="(min-width:768px) and (max-width:999px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1200_350/public/image/actu_web_rempar25.png?h=284f21b9&itok=01ws_jFK"></source><source media="(min-width:1000px) and (max-width:1200px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1200_250/public/image/actu_web_rempar25.png?h=284f21b9&itok=oassvA5I"></source><source media="(min-width:1201px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1920_328/public/image/actu_web_rempar25.png?h=284f21b9&itok=ESX29Qkx"></source><img src="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_767_400/public/image/actu_web_rempar25.png?h=284f21b9&itok=Mr6Hc52C" /></picture></div>
+      <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span>anssiadm</span></span>
+<span class="field field--name-created field--type-created field--label-hidden"><time datetime="2025-03-28T13:36:43+00:00" title="Vendredi 28 Mars 2025 - 13:36" class="datetime">ven 28/03/2025 - 13:36</time></span>
+
+            <div class="field field--name-field-chapo field--type-string-long field--label-hidden field__item">Fort du succès de REMPAR22 et de ses enseignements, l’ANSSI avec le soutien du Club de la Continuité d'Activité (CCA) et du Club de la sécurité de l’information français (CLUSIF) vous invitent à participer à l'exercice de crise massifié REMPAR25 le 18 septembre 2025.</div>
+      
+      <div class="field field--name-field-corps field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--op-texte-riche paragraph--view-mode--default">
+    <div class="text-riche">
+      
+            <div class="clearfix text-formatted field field--name-field-texte-riche field--type-text-long field--label-hidden field__item"><p>L'objectif de l’exercice ? Eprouver les capacités des organisations à faire face à une cyberattaque systémique. REMPAR25 vise à aider les organisations participantes de franchir une première étape en matière de maturité à la gestion de crise, en continuité d’activité cyber ainsi que de tester leurs dispositifs en place, pour ceux qui en disposent.</p>
+<p>Cet exercice de crise de niveau stratégique et opérationnel, s'adresse à toutes les organisations, quel que soit leur maturité en gestion de crise cyber, leur taille et leur secteur d'activité. Déployée dans tous les territoires, cette nouvelle édition offre la possibilité de participer dans toute la France.</p>
+<p>REMPAR25 est dédié à l’entrainement des différents métiers et compétences d’une organisation, tels que :</p>
+<ul><li>la communication,</li>
+<li>les ressources humaines,</li>
+<li>les métiers juridiques,</li>
+<li>les métiers du numérique,</li>
+<li>les instances de décision.</li>
+</ul><p>Retrouvez <a href="https://www.dailymotion.com/video/k58NtJnopeTNsKCGfjg">le replay vidéo du 1er webinaire de lancement</a> qui présente les modalités d’inscription et de l’exercice.</p>
+<p>Avant de vous inscrire, <a href="https://cyber.gouv.fr/actualites/publication-dun-outil-dautoevaluation-de-gestion-de-crise-cyber">évaluez votre niveau de maturité cyber grâce à l’outil d’autoévaluation</a>.</p>
+<p>Puis, inscrivez-vous pour participer à l’exercice de crise avant le 10 mai 2025, <a href="https://www.evenements.cyber.gouv.fr/public/events/73921/website/home">via ce lien</a>. </p>
+<p>Une fois votre inscription soumise, nous vous confirmerons la modalité retenue en fonction des possibilités. Plusieurs webinaires thématiques de préparation à l’exercice s'étendront de mai à septembre 2025.</p>
+<p>Pour en savoir plus : <a href="https://cyber.gouv.fr/actualites/production-du-groupe-de-travail-gestion-de-crise-et-entrainement-et-mise-disposition-du">REMPAR22</a></p>
+</div>
+      
+    </div>
+  </div>
+</div>
+          </div>
+  </p>]]></description>
+      <pubDate>Fri, 28 Mar 2025 13:36:00 GMT</pubDate>
+      <link>https://cyber.gouv.fr/actualites/rempar25-les-inscriptions-sont-ouvertes</link>
+      <guid>74111 at https://cyber.gouv.fr</guid>
+    </item>
     <item>
       <title>CVE-2021-24008 - FortiDDoS FortiVoice FortiRecorder FortiMail Information Disclosure</title>
       <description><![CDATA[<p>
@@ -903,6 +1366,13 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 28 Mar 2025 01:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-1860</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-1860</guid>
+    </item>
+    <item>
+      <title>Fuite de données chez MAIF BPCE</title>
+      <description><![CDATA[<p>nom, genre, date de naissance, situation matrimoniale et professionnelle, adresse postale, adresse email, numéro de téléphone, revenus, patrimoine, numéro de sociétaire</p>]]></description>
+      <pubDate>Fri Mar 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</pubDate>
+      <link>https://bonjourlafuite.eu.org/#MAIF  BPCE-2025-03-28</link>
+      <guid>Fri Mar 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)</guid>
     </item>
     <item>
       <title>L’ANSSI vous donne rendez-vous au Forum InCyber 2025 !</title>
