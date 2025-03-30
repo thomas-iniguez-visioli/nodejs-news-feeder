@@ -179,12 +179,112 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-1219 - Apache HTTP Server PHP DOM XML Charset Bypass
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-1219
+<br>
+<strong>Published : </strong> March 30, 2025, 6:15 a.m. | 2 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when requesting a HTTP resource using the DOM or SimpleXML extensions, the wrong content-type header is used to determine the charset when the requested resource performs a redirect. This may cause the resulting document to be parsed incorrectly or bypass validations.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Sun, 30 Mar 2025 06:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-1219">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-1734 - Apache HTTP Server Header Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-1734
+<br>
+<strong>Published : </strong> March 30, 2025, 6:15 a.m. | 2 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when receiving headers from HTTP server, the headers missing a colon (:) are treated as valid headers even though they are not. This may confuse applications into accepting invalid headers.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Sun, 30 Mar 2025 06:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-1734">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-1736 - Apache PHP Header Injection
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-1736
+<br>
+<strong>Published : </strong> March 30, 2025, 6:15 a.m. | 2 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when user-supplied headers are sent, the insufficient validation of the end-of-line characters may prevent certain headers from being sent or lead to certain headers be misinterpreted.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Sun, 30 Mar 2025 06:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-1736">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-1861 - Apache HTTP Server URL Truncation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-1861
+<br>
+<strong>Published : </strong> March 30, 2025, 6:15 a.m. | 2 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when parsing HTTP redirect in the response to an HTTP request, there is currently limit on the location value size caused by limited size of the location buffer to 1024. However as per RFC9110, the limit is recommended to be 8000. This may lead to incorrect URL truncation and redirecting to a wrong location.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Sun, 30 Mar 2025 06:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-1861">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2024-55895 - IBM InfoSphere Information Server Information Disclosure Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2024-55895
 <br>
-<strong>Published : </strong> March 29, 2025, 1:15 p.m. | 17 hours, 5 minutes ago
+<strong>Published : </strong> March 29, 2025, 1:15 p.m. | 19 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>IBM InfoSphere Information Server 11.7 could allow a remote attacker to obtain sensitive information when a detailed technical error message is returned in the browser.  This information could be used in further attacks against the system.
 <br>
@@ -209,7 +309,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-11180
 <br>
-<strong>Published : </strong> March 29, 2025, 8:15 a.m. | 22 hours, 5 minutes ago
+<strong>Published : </strong> March 29, 2025, 8:15 a.m. | 1 day ago
 <br>
 <strong>Description : </strong>The ElementsKit Elementor addons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Countdown Timer Widget ekit_countdown_timer_title parameter in all versions up to, and including, 3.4.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -234,7 +334,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-13557
 <br>
-<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 23 hours, 5 minutes ago
+<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>The Shortcodes by United Themes plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 5.1.6. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
 <br>
@@ -259,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-2006
 <br>
-<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 23 hours, 5 minutes ago
+<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>The Inline Image Upload for BBPress plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the file uploading functionality in all versions up to, and including, 1.1.19. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible. This may be exploitable by unauthenticated attackers when the "Allow guest users without accounts to create topics and replies" setting is enabled.
 <br>
@@ -284,7 +384,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-2249
 <br>
-<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 23 hours, 5 minutes ago
+<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>The SoJ SoundSlides plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the soj_soundslides_options_subpanel() function in all versions up to, and including, 1.2.2. This makes it possible for authenticated attackers, with Contributor-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
 <br>
@@ -309,7 +409,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-2266
 <br>
-<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 23 hours, 5 minutes ago
+<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>The Checkout Mestres do WP for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the cwmpUpdateOptions() function in versions 8.6.5 to 8.7.5. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
 <br>
@@ -334,7 +434,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-2803
 <br>
-<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 23 hours, 5 minutes ago
+<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>The So-Called Air Quotes plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
 <br>
@@ -359,7 +459,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-2840
 <br>
-<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 23 hours, 5 minutes ago
+<strong>Published : </strong> March 29, 2025, 7:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>The DAP to Autoresponders Email Syncing plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.0 through the publicly accessible phpinfo.php script. This makes it possible for unauthenticated attackers to view potentially sensitive information contained in the exposed file.
 <br>
@@ -384,7 +484,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1217
 <br>
-<strong>Published : </strong> March 29, 2025, 6:15 a.m. | 1 day ago
+<strong>Published : </strong> March 29, 2025, 6:15 a.m. | 1 day, 2 hours ago
 <br>
 <strong>Description : </strong>In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when http request module parses HTTP response obtained from a server, folded headers are parsed incorrectly, which may lead to misinterpreting the response and using incorrect headers, MIME types, etc.
 <br>
@@ -409,7 +509,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31367
 <br>
-<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 2 hours ago
+<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -434,7 +534,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31368
 <br>
-<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 2 hours ago
+<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -459,7 +559,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31369
 <br>
-<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 2 hours ago
+<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -484,7 +584,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31370
 <br>
-<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 2 hours ago
+<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -509,7 +609,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31371
 <br>
-<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 2 hours ago
+<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -534,7 +634,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31372
 <br>
-<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 2 hours ago
+<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -559,7 +659,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31373
 <br>
-<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 2 hours ago
+<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -584,7 +684,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31374
 <br>
-<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 2 hours ago
+<strong>Published : </strong> March 29, 2025, 4:15 a.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -609,7 +709,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-43186
 <br>
-<strong>Published : </strong> March 29, 2025, 12:15 a.m. | 1 day, 6 hours ago
+<strong>Published : </strong> March 29, 2025, 12:15 a.m. | 1 day, 8 hours ago
 <br>
 <strong>Description : </strong>IBM InfoSphere Information Server 11.7 could allow an authenticated user to obtain sensitive information that is stored locally under certain conditions.
 <br>
@@ -634,7 +734,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-51477
 <br>
-<strong>Published : </strong> March 29, 2025, 12:15 a.m. | 1 day, 6 hours ago
+<strong>Published : </strong> March 29, 2025, 12:15 a.m. | 1 day, 8 hours ago
 <br>
 <strong>Description : </strong>IBM InfoSphere Information Server 11.7 
 
@@ -661,7 +761,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-7577
 <br>
-<strong>Published : </strong> March 29, 2025, 12:15 a.m. | 1 day, 6 hours ago
+<strong>Published : </strong> March 29, 2025, 12:15 a.m. | 1 day, 8 hours ago
 <br>
 <strong>Description : </strong>IBM InfoSphere Information Server 11.7 could disclose sensitive user credentials from log files during new installation of the product.
 <br>
@@ -673,6 +773,35 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Sat, 29 Mar 2025 00:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-7577">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-2782 - WatchGuard Terminal Services Agent Directory Permissions Escalation
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-2782
+<br>
+<strong>Published : </strong> March 28, 2025, 11:15 p.m. | 1 day, 9 hours ago
+<br>
+<strong>Description : </strong>The WatchGuard Terminal Services Agent on Windows does not properly configure directory permissions when installed in a non-default directory. This could allow an authenticated local attacker to escalate to SYSTEM privileges on a vulnerable system.
+
+
+
+This issue affects Terminal Services Agent: from 12.0 through 12.10.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 28 Mar 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2782">
                                 read more
                             </a>
                     </article>
@@ -702,35 +831,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 28 Mar 2025 23:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2781">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-2782 - WatchGuard Terminal Services Agent Directory Permissions Escalation
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-2782
-<br>
-<strong>Published : </strong> March 28, 2025, 11:15 p.m. | 1 day, 7 hours ago
-<br>
-<strong>Description : </strong>The WatchGuard Terminal Services Agent on Windows does not properly configure directory permissions when installed in a non-default directory. This could allow an authenticated local attacker to escalate to SYSTEM privileges on a vulnerable system.
-
-
-
-This issue affects Terminal Services Agent: from 12.0 through 12.10.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 28 Mar 2025 23:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2782">
                                 read more
                             </a>
                     </article>
