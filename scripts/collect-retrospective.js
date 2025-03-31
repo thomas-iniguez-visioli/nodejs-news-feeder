@@ -46,6 +46,7 @@ parser.parseString(t).then((parsedXml) => {
 })}
 addfeed('https://cyber.gouv.fr/actualites/feed')
 addfeed('https://cvefeed.io/rssfeed/latest.xml')
+addfeed("https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet")
   try {
     //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
    var html ="" 
