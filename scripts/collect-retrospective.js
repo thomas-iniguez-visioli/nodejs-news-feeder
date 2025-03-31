@@ -30,7 +30,7 @@ parser.parseString(t).then((parsedXml) => {
     console.log(dat.link)
     const retrospective =composeFeedItem({
       title: dat.title,
-      description: `<![CDATA[<p>${dat.content}</p>]]>`,
+      description: `<![CDATA[<p>${dat.content|| dat.summary}</p>]]>`,
       pubDate: buildRFC822Date(dat.pubDate),
       link: dat.link,
       guid: dat.guid
