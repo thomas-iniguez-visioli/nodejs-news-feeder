@@ -1,14 +1,14 @@
-Error: Invalid character in entity name
-Line: 1424
-Column: 57
-Char:  
+Error: Unexpected close tag
+Line: 1320
+Column: 264
+Char: >
     at error (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:658:10)
     at strictFail (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:684:7)
-    at SAXParser.write (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:1522:13)
+    at closeTag (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:878:9)
+    at SAXParser.write (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:1460:13)
     at exports.Parser.Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/xml2js/lib/parser.js:327:31)
     at Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/xml2js/lib/parser.js:5:59)
     at /home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/rss-parser/lib/parser.js:33:22
     at new Promise (<anonymous>)
     at Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/rss-parser/lib/parser.js:32:16)
     at file:///home/runner/work/nodejs-news-feeder/nodejs-news-feeder/scripts/format.js:37:8
-    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
