@@ -8,12 +8,447 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 02 Apr 2025 16:13:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 18:14:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2024-56474 - IBM TXSeries for Multiplatforms CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-56474
+<br>
+<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>IBM TXSeries for Multiplatforms 9.1 and 11.1 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 16:17:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-56474</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-56474</guid>
+    </item>
+    <item>
+      <title>CVE-2024-56475 - IBM TXSeries for Multiplatforms Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-56475
+<br>
+<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>IBM TXSeries for Multiplatforms 9.1 and 11.1 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 16:17:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-56475</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-56475</guid>
+    </item>
+    <item>
+      <title>CVE-2024-56476 - IBM TXSeries for Multiplatforms Authentication Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-56476
+<br>
+<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>IBM TXSeries for Multiplatforms 9.1 and 11.1 could allow an attacker to enumerate usernames due to an observable login attempt response discrepancy.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 16:17:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-56476</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-56476</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0154 - IBM TXSeries for Multiplatforms HTTP Header Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0154
+<br>
+<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>IBM TXSeries for Multiplatforms 9.1 and 11.1 could disclose sensitive information to a remote attacker due to improper neutralization of HTTP headers.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 16:17:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0154</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0154</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31725 - Jenkins Monitor-Remote-Job Plugin Unencrypted Password Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31725
+<br>
+<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>Jenkins monitor-remote-job Plugin 1.0 stores passwords unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31725</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31725</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31726 - Jenkins Stack Hammer Plugin Unencrypted API Key Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31726
+<br>
+<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>Jenkins Stack Hammer Plugin 1.0.6 and earlier stores Stack Hammer API keys unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31726</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31726</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31727 - Jenkins AsakusaSatellite Plugin Unencrypted API Key Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31727
+<br>
+<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>Jenkins AsakusaSatellite Plugin 0.1.1 and earlier stores AsakusaSatellite API keys unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31727</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31727</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31728 - Jenkins AsakusaSatellite Plugin API Key Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31728
+<br>
+<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>Jenkins AsakusaSatellite Plugin 0.1.1 and earlier does not mask AsakusaSatellite API keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31728</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31728</guid>
+    </item>
+    <item>
+      <title>CVE-2024-25051 - IBM Jazz Reporting Service Session Impersonation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-25051
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>IBM Jazz Reporting Service 7.0.2 and 7.0.3 does not invalidate session after logout which could allow an authenticated privileged user to impersonate another user on the system.
+<br>
+<strong>Severity:</strong> 6.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-25051</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-25051</guid>
+    </item>
+    <item>
+      <title>CVE-2024-56341 - IBM Content Navigator Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-56341
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>IBM Content Navigator 3.0.11, 3.0.15, and 3.1.0 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-56341</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-56341</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31720 - Jenkins Missing Permission Check Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31720
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>A missing permission check in Jenkins 2.503 and earlier, LTS 2.492.2 and earlier allows attackers with Computer/Create permission but without Computer/Extended Read permission to copy an agent, gaining access to its configuration.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31720</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31720</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31721 - Jenkins Missing Permission Check Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31721
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>A missing permission check in Jenkins 2.503 and earlier, LTS 2.492.2 and earlier allows attackers with Computer/Create permission but without Computer/Configure permission to copy an agent, gaining access to encrypted secrets in its configuration.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31721</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31721</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31722 - Jenkins Templating Engine Plugin Sandbox Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31722
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>In Jenkins Templating Engine Plugin 2.5.3 and earlier, libraries defined in folders are not subject to sandbox protection, allowing attackers with Item/Configure permission to execute arbitrary code in the context of the Jenkins controller JVM.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31722</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31722</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31723 - Jenkins Simple Queue Plugin CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31723
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>A cross-site request forgery (CSRF) vulnerability in Jenkins Simple Queue Plugin 1.4.6 and earlier allows attackers to change and reset the build queue order.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31723</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31723</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31724 - Jenkins Cadence vManager Plugin Unencrypted API Key Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31724
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
+<br>
+<strong>Description : </strong>Jenkins Cadence vManager Plugin 4.0.0-282.v5096a_c2db_275 and earlier stores Verisium Manager vAPI keys unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31724</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31724</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21994 - Linux ksmbd Integer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21994
+<br>
+<strong>Published : </strong> April 2, 2025, 2:16 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ksmbd: fix incorrect validation for num_aces field of smb_acl
+
+parse_dcal() validate num_aces to allocate posix_ace_state_array.
+
+if (num_aces > ULONG_MAX / sizeof(struct smb_ace *))
+
+It is an incorrect validation that we can create an array of size ULONG_MAX.
+smb_acl has ->size field to calculate actual number of aces in request buffer
+size. Use this to check invalid num_aces.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 14:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21994</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21994</guid>
+    </item>
+    <item>
+      <title>CVE-2024-45064 - STMicroelectronics X-CUBE-AZRTOS-WL Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-45064
+<br>
+<strong>Published : </strong> April 2, 2025, 2:15 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>A buffer overflow vulnerability exists in the FileX Internal RAM interface functionality of STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0. A specially crafted set of network packets can lead to code execution. An attacker can send a sequence of requests to trigger this vulnerability.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-45064</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-45064</guid>
+    </item>
+    <item>
+      <title>CVE-2024-50384 - STMicroelectronics X-CUBE-AZRTOS-WL NetX Component HTTP Server Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-50384
+<br>
+<strong>Published : </strong> April 2, 2025, 2:15 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>A denial of service vulnerability exists in the NetX Component HTTP server functionality of STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0. A specially crafted network packet can lead to denial of service. An attacker can send a malicious packet to trigger this vulnerability.This vulnerability affects X-CUBE-AZRTOS-F7 NetX Duo Web Component HTTP server v 1.1.0. This HTTP server implementation is contained in this file - x-cube-azrtos-f7\Middlewares\ST\netxduo\addons\web\nx_web_http_server.c
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-50384</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-50384</guid>
+    </item>
+    <item>
+      <title>CVE-2024-50385 - STMicroelectronics X-CUBE-AZRTOS-WL NetX Component HTTP Server Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-50385
+<br>
+<strong>Published : </strong> April 2, 2025, 2:15 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>A denial of service vulnerability exists in the NetX Component HTTP server functionality of STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0. A specially crafted network packet can lead to denial of service. An attacker can send a malicious packet to trigger this vulnerability.This vulnerability affects X-CUBE-AZRTOS-F7 NetX Duo Component HTTP Server HTTP server v 1.1.0. This HTTP server implementation is contained in this file - x-cube-azrtos-f7\Middlewares\ST\netxduo\addons\http\nxd_http_server.c
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-50385</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-50385</guid>
+    </item>
+    <item>
+      <title>CVE-2024-50594 - STMicroelectronics X-CUBE-AZRTOS-WL HTTP Server Integer Underflow Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-50594
+<br>
+<strong>Published : </strong> April 2, 2025, 2:15 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>An integer underflow vulnerability exists in the HTTP server PUT request functionality of STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0. A specially crafted series of network requests can lead to denial of service. An attacker can send a sequence of malicious packets to trigger this vulnerability.This vulnerability affects the NetX Duo Web Component HTTP Server implementation which can be found in x-cube-azrtos-f7\Middlewares\ST\netxduo\addons\web\nx_web_http_server.c
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-50594</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-50594</guid>
+    </item>
+    <item>
+      <title>CVE-2024-50595 - STMicroelectronics X-CUBE-AZRTOS-WL HTTP Server Integer Underflow Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-50595
+<br>
+<strong>Published : </strong> April 2, 2025, 2:15 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>An integer underflow vulnerability exists in the HTTP server PUT request functionality of STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0. A specially crafted series of network requests can lead to denial of service. An attacker can send a sequence of malicious packets to trigger this vulnerability.This vulnerability affects the NetX Duo Component HTTP Server implementation which can be found in x-cube-azrtos-f7\Middlewares\ST\netxduo\addons\http\nxd_http_server.c
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-50595</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-50595</guid>
+    </item>
+    <item>
+      <title>CVE-2024-50596 - STMicroelectronics X-CUBE-AZRTOS-WL Denial of Service Integer Underflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-50596
+<br>
+<strong>Published : </strong> April 2, 2025, 2:15 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>An integer underflow vulnerability exists in the HTTP server PUT request functionality of STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0. A specially crafted network packet can lead to denial of service. An attacker can send a malicious packet to trigger this vulnerability.This vulnerability affects the NetX Duo Web Component HTTP Server implementation which can be found in x-cube-azrtos-f7\Middlewares\ST\netxduo\addons\web\nx_web_http_server.c
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-50596</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-50596</guid>
+    </item>
+    <item>
+      <title>CVE-2024-50597 - STMicroelectronics X-CUBE-AZRTOS-WL HTTP Server Integer Underflow Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-50597
+<br>
+<strong>Published : </strong> April 2, 2025, 2:15 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>An integer underflow vulnerability exists in the HTTP server PUT request functionality of STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0. A specially crafted network packet can lead to denial of service. An attacker can send a malicious packet to trigger this vulnerability.This vulnerability affects the NetX Duo Component HTTP Server implementation which can be found in x-cube-azrtos-f7\Middlewares\ST\netxduo\addons\http\nxd_http_server.c
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-50597</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-50597</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27556 - Django Denial-of-Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27556
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 4 hours, 1 minute ago
+<br>
+<strong>Description : </strong>An issue was discovered in Django 5.1 before 5.1.8 and 5.0 before 5.0.14. The NFKC normalization is slow on Windows. As a consequence, django.contrib.auth.views.LoginView, django.contrib.auth.views.LogoutView, and django.views.i18n.set_language are subject to a potential denial-of-service attack via certain inputs with a very large number of Unicode characters.
+<br>
+<strong>Severity:</strong> 5.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27556</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27556</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30090 - SquirrelMail MIME PHP XSS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30090
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 4 hours, 1 minute ago
+<br>
+<strong>Description : </strong>mime.php in SquirrelMail through 1.4.23-svn-20250401 and 1.5.x through 1.5.2-svn-20250401 allows XSS via e-mail headers, because JavaScript payloads are mishandled after $encoded has been set to true.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30090</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30090</guid>
+    </item>
     <item>
       <title>CVE-2025-1805 - Crypt::Salt for Perl Insecure Salt Generation</title>
       <description><![CDATA[<p>
@@ -249,40 +684,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-21993</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-21993</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27556 - Django Denial-of-Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27556
-<br>
-<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
-<br>
-<strong>Description : </strong>An issue was discovered in Django 5.1 before 5.1.8 and 5.0 before 5.0.14. The NFKC normalization is slow on Windows. As a consequence, django.contrib.auth.views.LoginView, django.contrib.auth.views.LogoutView, and django.views.i18n.set_language are subject to a potential denial-of-service attack via certain inputs with a very large number of Unicode characters.
-<br>
-<strong>Severity:</strong> 5.8 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27556</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27556</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30090 - SquirrelMail MIME PHP XSS Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30090
-<br>
-<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
-<br>
-<strong>Description : </strong>mime.php in SquirrelMail through 1.4.23-svn-20250401 and 1.5.x through 1.5.2-svn-20250401 allows XSS via e-mail headers, because JavaScript payloads are mishandled after $encoded has been set to true.
-<br>
-<strong>Severity:</strong> 7.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30090</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30090</guid>
     </item>
     <item>
       <title>CVE-2025-2842 - Tempo Operator ClusterRoleBinding Escalation</title>
