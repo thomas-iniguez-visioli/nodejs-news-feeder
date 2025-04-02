@@ -1,14 +1,730 @@
-Error: Unexpected close tag
-Line: 1327
-Column: 264
-Char: >
-    at error (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:658:10)
-    at strictFail (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:684:7)
-    at closeTag (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:878:9)
-    at SAXParser.write (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:1460:13)
-    at exports.Parser.Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/xml2js/lib/parser.js:327:31)
-    at Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/xml2js/lib/parser.js:5:59)
-    at /home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/rss-parser/lib/parser.js:33:22
-    at new Promise (<anonymous>)
-    at Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/rss-parser/lib/parser.js:32:16)
-    at file:///home/runner/work/nodejs-news-feeder/nodejs-news-feeder/scripts/format.js:37:8
+https://bonjourlafuite.eu.org/#Dailymotion-2016-10-01
+https://bonjourlafuite.eu.org/#Almerys, Viamedis-2024-02-06
+https://bonjourlafuite.eu.org/#LDLC-2024-03-01
+https://bonjourlafuite.eu.org/#France Travail-2024-03-08
+https://bonjourlafuite.eu.org/#Le Slip Français-2024-04-15
+https://bonjourlafuite.eu.org/#Ticketmaster-2024-04-28
+https://bonjourlafuite.eu.org/#Boulanger-2024-09-07
+https://bonjourlafuite.eu.org/#Cultura-2024-09-10
+https://bonjourlafuite.eu.org/#Cybertek-2024-09-12
+https://bonjourlafuite.eu.org/#Assurance retraite-2024-09-13
+https://bonjourlafuite.eu.org/#RED by SFR-2024-09-18
+https://bonjourlafuite.eu.org/#Meilleurtaux-2024-09-30
+https://bonjourlafuite.eu.org/#Ornikar-2024-10-24
+https://bonjourlafuite.eu.org/#Free Mobile-2024-10-25
+https://bonjourlafuite.eu.org/#Free-2024-10-25
+https://bonjourlafuite.eu.org/#Picard-2024-11-12
+https://bonjourlafuite.eu.org/#Molotov-2024-11-13
+https://bonjourlafuite.eu.org/#Huttopia-2024-11-14
+https://bonjourlafuite.eu.org/#Le Point-2024-11-18
+https://bonjourlafuite.eu.org/#Auchan-2024-11-19
+https://bonjourlafuite.eu.org/#Mediboard-2024-11-19
+https://bonjourlafuite.eu.org/#Direct Assurance-2024-11-19
+https://bonjourlafuite.eu.org/#Chambres d’agriculture-2024-11-21
+https://bonjourlafuite.eu.org/#Companie de Transport Strasbourgeoise-2024-11-22
+https://bonjourlafuite.eu.org/#Banque de France-2024-11-23
+https://bonjourlafuite.eu.org/#SFR-2024-11-24
+https://bonjourlafuite.eu.org/#JVS-2024-11-26
+https://bonjourlafuite.eu.org/#Ze Camping-2024-11-27
+https://bonjourlafuite.eu.org/#Norauto-2024-12-02
+https://bonjourlafuite.eu.org/#Guy Demarle-2024-12-03
+https://bonjourlafuite.eu.org/#Deloitte-2024-12-04
+https://bonjourlafuite.eu.org/#LDLC-2024-12-10
+https://bonjourlafuite.eu.org/#Top Achat-2024-12-12
+https://bonjourlafuite.eu.org/#Wakanim-2024-12-20
+https://bonjourlafuite.eu.org/#Sport 2000-2024-12-20
+https://bonjourlafuite.eu.org/#Go Sport-2024-12-20
+https://bonjourlafuite.eu.org/#Electro Dépôt-2024-12-20
+https://bonjourlafuite.eu.org/#Cyberhaven-2024-12-25
+https://bonjourlafuite.eu.org/#Peugeot-2024-12-26
+https://bonjourlafuite.eu.org/#Arsoé-2024-12-27
+https://bonjourlafuite.eu.org/#Volkswagen-2024-12-27
+https://bonjourlafuite.eu.org/#Atos-2024-12-30
+https://bonjourlafuite.eu.org/#Cogitis-2024-12-31
+https://bonjourlafuite.eu.org/#Kiabi-2025-01-14
+https://bonjourlafuite.eu.org/#Fédération Française de Roller Skateboard-2025-01-14
+https://bonjourlafuite.eu.org/#Fédération Française de Force-2025-01-14
+https://bonjourlafuite.eu.org/#Fédération Française de tir à l'arc-2025-01-20
+https://bonjourlafuite.eu.org/#Fédération Française de la montagne et de l'escalade-2025-01-23
+https://bonjourlafuite.eu.org/#E.Leclerc-2025-01-24
+https://bonjourlafuite.eu.org/#Fédération Française Montagne Escalade-2025-01-24
+https://bonjourlafuite.eu.org/#AIDES-2025-01-27
+https://bonjourlafuite.eu.org/#Espace-Recettes.fr Vorwerk-2025-02-06
+https://bonjourlafuite.eu.org/#King Jouet-2025-02-11
+https://bonjourlafuite.eu.org/#Chronopost-2025-02-12
+https://bonjourlafuite.eu.org/#Caisse des dépôts et des consignations-2025-02-12
+https://bonjourlafuite.eu.org/#Mutuelle des motards-2025-02-13
+https://bonjourlafuite.eu.org/#Sport Découverte-2025-02-17
+https://bonjourlafuite.eu.org/#Service Départemental d'Incendie et de Secours de la Vienne-2025-02-19
+https://bonjourlafuite.eu.org/#Fédération Française de Foot-2025-02-21
+https://bonjourlafuite.eu.org/#Nord Emploi-2025-02-26
+https://bonjourlafuite.eu.org/#École Nationale de la Sécurité-2025-02-28
+https://bonjourlafuite.eu.org/#Zephir-2025-02-28
+https://bonjourlafuite.eu.org/#EDF DPIH-2025-02-28
+https://bonjourlafuite.eu.org/#La Poste-2025-03-04
+https://bonjourlafuite.eu.org/#Côté Sushi-2025-03-04
+https://bonjourlafuite.eu.org/#UTwin-2025-03-05
+https://bonjourlafuite.eu.org/#Laforêt-2025-03-13
+https://bonjourlafuite.eu.org/#Direct Assurance-2025-03-18
+https://bonjourlafuite.eu.org/#Intersport-2025-03-20
+https://bonjourlafuite.eu.org/#Éclaireuses et Éclaireurs de France-2025-03-20
+https://bonjourlafuite.eu.org/#Autosur  Diagnosur-2025-03-24
+https://bonjourlafuite.eu.org/#Cerballiance-2025-03-25
+https://bonjourlafuite.eu.org/#Centrale Nantes-2025-03-26
+https://bonjourlafuite.eu.org/#Oracle Cloud-2025-03-27
+https://bonjourlafuite.eu.org/#MAIF  BPCE-2025-03-28
+https://bonjourlafuite.eu.org/#Reporterre-2025-04-01
+https://cyber.gouv.fr/actualites/lalgorithme-haetae-laureat-de-la-competition-coreenne-de-cryptographie-post-quantique
+https://cyber.gouv.fr/actualites/sommet-pour-laction-sur-lintelligence-artificielle-retour-sur-les-travaux-de-lanssi
+https://cyber.gouv.fr/actualites/lanssi-publie-son-etat-de-la-menace-sur-le-cloud-computing
+https://cyber.gouv.fr/actualites/lanssi-publie-son-plan-strategique-2025-2027
+https://cyber.gouv.fr/actualites/appel-commentaires-sur-le-vote-par-internet-pour-les-elections-non-politiques
+https://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2024-mobilisation-et-vigilance-face-aux-attaquants
+https://cyber.gouv.fr/actualites/lanssi-partage-en-open-source-un-outil-de-test-du-protocole-industriel-opc-ua
+https://cyber.gouv.fr/actualites/appel-commentaires-sur-lajout-dun-volet-gestion-de-crise-au-referentiel-pris
+https://cyber.gouv.fr/actualites/lanssi-vous-donne-rendez-vous-au-forum-incyber-2025
+https://cyber.gouv.fr/actualites/rempar25-les-inscriptions-sont-ouvertes
+https://cvefeed.io/vuln/detail/CVE-2025-31135
+https://cvefeed.io/vuln/detail/CVE-2025-27692
+https://cvefeed.io/vuln/detail/CVE-2025-27693
+https://cvefeed.io/vuln/detail/CVE-2025-27694
+https://cvefeed.io/vuln/detail/CVE-2025-29981
+https://cvefeed.io/vuln/detail/CVE-2025-29982
+https://cvefeed.io/vuln/detail/CVE-2025-3066
+https://cvefeed.io/vuln/detail/CVE-2025-3067
+https://cvefeed.io/vuln/detail/CVE-2025-3068
+https://cvefeed.io/vuln/detail/CVE-2025-3069
+https://cvefeed.io/vuln/detail/CVE-2025-3070
+https://cvefeed.io/vuln/detail/CVE-2025-3071
+https://cvefeed.io/vuln/detail/CVE-2025-3072
+https://cvefeed.io/vuln/detail/CVE-2025-3073
+https://cvefeed.io/vuln/detail/CVE-2025-3074
+https://cvefeed.io/vuln/detail/CVE-2025-2779
+https://cvefeed.io/vuln/detail/CVE-2025-25060
+https://cvefeed.io/vuln/detail/CVE-2025-27244
+https://cvefeed.io/vuln/detail/CVE-2024-36465
+https://cvefeed.io/vuln/detail/CVE-2024-36469
+https://cvefeed.io/vuln/detail/CVE-2024-42325
+https://cvefeed.io/vuln/detail/CVE-2024-45699
+https://cvefeed.io/vuln/detail/CVE-2024-45700
+https://cvefeed.io/vuln/detail/CVE-2025-0415
+https://cvefeed.io/vuln/detail/CVE-2025-0676
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/culture-presse-sndp-france-messagerie-cybermois-2024
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/numeum-campus-cyber-cyber4tomorrowfr-cybermalveillancegouvfr
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-campagne-de-messages-frauduleux-usurpant-lidentite-de-cybermalveillance-gouv-fr-202412
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lancement-17cyber
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/module-assistance-17cyber
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/17cyber-kit-communication
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-sensibilisation-jeunes-cyber-en-clair
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cactus-lancement-national
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2024
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territoriaux-17cyber
+https://bonjourlafuite.eu.org/#Chambres d’agriculture-2024-11-21
+https://bonjourlafuite.eu.org/#Deloitte-2024-12-04
+https://bonjourlafuite.eu.org/#LDLC-2024-12-10
+https://bonjourlafuite.eu.org/#Wakanim-2024-12-20
+https://bonjourlafuite.eu.org/#Sport 2000-2024-12-20
+https://bonjourlafuite.eu.org/#Go Sport-2024-12-20
+https://bonjourlafuite.eu.org/#Electro Dépôt-2024-12-20
+https://bonjourlafuite.eu.org/#Cyberhaven-2024-12-25
+https://bonjourlafuite.eu.org/#Peugeot-2024-12-26
+https://bonjourlafuite.eu.org/#Arsoé-2024-12-27
+https://bonjourlafuite.eu.org/#Atos-2024-12-30
+https://bonjourlafuite.eu.org/#Cogitis-2024-12-31
+https://bonjourlafuite.eu.org/#Fédération Française de Force-2025-01-14
+https://bonjourlafuite.eu.org/#Caisse des dépôts et des consignations-2025-02-12
+https://bonjourlafuite.eu.org/#Direct Assurance-2025-03-18
+https://cyber.gouv.fr/actualites/lalgorithme-haetae-laureat-de-la-competition-coreenne-de-cryptographie-post-quantique
+https://cyber.gouv.fr/actualites/sommet-pour-laction-sur-lintelligence-artificielle-retour-sur-les-travaux-de-lanssi
+https://cyber.gouv.fr/actualites/lanssi-publie-son-etat-de-la-menace-sur-le-cloud-computing
+https://cyber.gouv.fr/actualites/lanssi-publie-son-plan-strategique-2025-2027
+https://cyber.gouv.fr/actualites/appel-commentaires-sur-le-vote-par-internet-pour-les-elections-non-politiques
+https://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2024-mobilisation-et-vigilance-face-aux-attaquants
+https://cyber.gouv.fr/actualites/lanssi-partage-en-open-source-un-outil-de-test-du-protocole-industriel-opc-ua
+https://cyber.gouv.fr/actualites/appel-commentaires-sur-lajout-dun-volet-gestion-de-crise-au-referentiel-pris
+https://cyber.gouv.fr/actualites/lanssi-vous-donne-rendez-vous-au-forum-incyber-2025
+https://cyber.gouv.fr/actualites/rempar25-les-inscriptions-sont-ouvertes
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/culture-presse-sndp-france-messagerie-cybermois-2024
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lancement-17cyber
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/module-assistance-17cyber
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/17cyber-kit-communication
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2024
+https://cvefeed.io/vuln/detail/CVE-2025-31594
+https://cvefeed.io/vuln/detail/CVE-2025-31612
+https://cvefeed.io/vuln/detail/CVE-2025-31619
+https://cvefeed.io/vuln/detail/CVE-2025-31628
+https://cvefeed.io/vuln/detail/CVE-2025-31753
+https://cvefeed.io/vuln/detail/CVE-2025-31819
+https://cvefeed.io/vuln/detail/CVE-2025-31889
+https://cvefeed.io/vuln/detail/CVE-2023-46988
+https://cvefeed.io/vuln/detail/CVE-2025-30356
+https://cvefeed.io/vuln/detail/CVE-2025-31135
+https://cvefeed.io/vuln/detail/CVE-2025-27692
+https://cvefeed.io/vuln/detail/CVE-2025-27693
+https://cvefeed.io/vuln/detail/CVE-2025-27694
+https://cvefeed.io/vuln/detail/CVE-2025-29981
+https://cvefeed.io/vuln/detail/CVE-2025-29982
+https://cvefeed.io/vuln/detail/CVE-2025-3066
+https://cvefeed.io/vuln/detail/CVE-2025-3067
+https://cvefeed.io/vuln/detail/CVE-2025-3068
+https://cvefeed.io/vuln/detail/CVE-2025-3069
+https://cvefeed.io/vuln/detail/CVE-2025-3070
+https://cvefeed.io/vuln/detail/CVE-2025-3071
+https://cvefeed.io/vuln/detail/CVE-2025-3072
+https://cvefeed.io/vuln/detail/CVE-2025-3073
+https://cvefeed.io/vuln/detail/CVE-2025-3074
+https://cvefeed.io/vuln/detail/CVE-2025-2779
+https://cvefeed.io/vuln/detail/CVE-2025-21966
+https://cvefeed.io/vuln/detail/CVE-2025-21967
+https://cvefeed.io/vuln/detail/CVE-2025-21968
+https://cvefeed.io/vuln/detail/CVE-2025-21969
+https://cvefeed.io/vuln/detail/CVE-2025-21970
+https://cvefeed.io/vuln/detail/CVE-2025-21971
+https://cvefeed.io/vuln/detail/CVE-2025-21972
+https://cvefeed.io/vuln/detail/CVE-2025-21973
+https://cvefeed.io/vuln/detail/CVE-2025-21974
+https://cvefeed.io/vuln/detail/CVE-2025-21975
+https://cvefeed.io/vuln/detail/CVE-2025-21976
+https://cvefeed.io/vuln/detail/CVE-2025-21977
+https://cvefeed.io/vuln/detail/CVE-2025-21978
+https://cvefeed.io/vuln/detail/CVE-2025-21979
+https://cvefeed.io/vuln/detail/CVE-2025-21980
+https://cvefeed.io/vuln/detail/CVE-2025-21981
+https://cvefeed.io/vuln/detail/CVE-2025-21982
+https://cvefeed.io/vuln/detail/CVE-2025-21983
+https://cvefeed.io/vuln/detail/CVE-2025-21984
+https://cvefeed.io/vuln/detail/CVE-2025-21985
+https://cvefeed.io/vuln/detail/CVE-2025-21986
+https://cvefeed.io/vuln/detail/CVE-2025-25041
+https://cvefeed.io/vuln/detail/CVE-2025-27829
+https://cvefeed.io/vuln/detail/CVE-2025-28131
+https://cvefeed.io/vuln/detail/CVE-2025-28132
+https://cvefeed.io/vuln/detail/CVE-2025-2891
+https://cvefeed.io/vuln/detail/CVE-2025-30065
+https://cvefeed.io/vuln/detail/CVE-2024-56325
+https://cvefeed.io/vuln/detail/CVE-2025-27130
+https://cvefeed.io/vuln/detail/CVE-2025-3082
+https://cvefeed.io/vuln/detail/CVE-2024-13553
+https://cvefeed.io/vuln/detail/CVE-2025-2237
+https://cvefeed.io/vuln/detail/CVE-2025-2906
+https://cvefeed.io/vuln/detail/CVE-2025-30177
+https://cvefeed.io/vuln/detail/CVE-2025-3083
+https://cvefeed.io/vuln/detail/CVE-2025-3084
+https://cvefeed.io/vuln/detail/CVE-2025-3085
+https://cvefeed.io/vuln/detail/CVE-2025-1658
+https://cvefeed.io/vuln/detail/CVE-2025-1659
+https://cvefeed.io/vuln/detail/CVE-2025-1660
+https://cvefeed.io/vuln/detail/CVE-2025-22231
+https://cvefeed.io/vuln/detail/CVE-2025-31408
+https://cvefeed.io/vuln/detail/CVE-2025-3028
+https://cvefeed.io/vuln/detail/CVE-2025-3029
+https://cvefeed.io/vuln/detail/CVE-2025-3030
+https://cvefeed.io/vuln/detail/CVE-2025-3031
+https://cvefeed.io/vuln/detail/CVE-2025-3032
+https://cvefeed.io/vuln/detail/CVE-2025-3033
+https://cvefeed.io/vuln/detail/CVE-2025-3034
+https://cvefeed.io/vuln/detail/CVE-2025-3035
+https://cvefeed.io/vuln/detail/CVE-2025-30910
+https://cvefeed.io/vuln/detail/CVE-2025-30911
+https://cvefeed.io/vuln/detail/CVE-2025-30917
+https://cvefeed.io/vuln/detail/CVE-2025-30924
+https://cvefeed.io/vuln/detail/CVE-2025-30926
+https://cvefeed.io/vuln/detail/CVE-2025-30971
+https://cvefeed.io/vuln/detail/CVE-2025-31001
+https://cvefeed.io/vuln/detail/CVE-2025-31024
+https://cvefeed.io/vuln/detail/CVE-2025-31074
+https://cvefeed.io/vuln/detail/CVE-2025-31084
+https://cvefeed.io/vuln/detail/CVE-2025-31087
+https://cvefeed.io/vuln/detail/CVE-2025-31095
+https://cvefeed.io/vuln/detail/CVE-2025-31409
+https://cvefeed.io/vuln/detail/CVE-2025-31415
+https://cvefeed.io/vuln/detail/CVE-2024-12189
+https://cvefeed.io/vuln/detail/CVE-2024-12278
+https://cvefeed.io/vuln/detail/CVE-2025-1267
+https://cvefeed.io/vuln/detail/CVE-2025-1512
+https://cvefeed.io/vuln/detail/CVE-2025-27427
+https://cvefeed.io/vuln/detail/CVE-2025-29868
+https://cvefeed.io/vuln/detail/CVE-2025-2891
+https://cvefeed.io/vuln/detail/CVE-2025-30065
+https://cvefeed.io/vuln/detail/CVE-2024-56325
+https://cvefeed.io/vuln/detail/CVE-2025-27130
+https://cvefeed.io/vuln/detail/CVE-2025-3082
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/action-citoyenne-cyberengages
+https://cyber.gouv.fr/actualites/rempar25-les-inscriptions-sont-ouvertes
+https://cvefeed.io/vuln/detail/CVE-2025-30848
+https://cvefeed.io/vuln/detail/CVE-2025-30849
+https://cvefeed.io/vuln/detail/CVE-2025-30869
+https://cvefeed.io/vuln/detail/CVE-2025-30870
+https://cvefeed.io/vuln/detail/CVE-2025-30876
+https://cvefeed.io/vuln/detail/CVE-2025-30878
+https://cvefeed.io/vuln/detail/CVE-2025-30880
+https://cvefeed.io/vuln/detail/CVE-2025-30882
+https://cvefeed.io/vuln/detail/CVE-2025-30886
+https://cvefeed.io/vuln/detail/CVE-2025-30901
+https://cvefeed.io/vuln/detail/CVE-2025-30902
+https://cvefeed.io/vuln/detail/CVE-2025-30910
+https://cvefeed.io/vuln/detail/CVE-2025-30911
+https://cvefeed.io/vuln/detail/CVE-2025-30917
+https://cvefeed.io/vuln/detail/CVE-2025-30924
+https://cvefeed.io/vuln/detail/CVE-2025-30926
+https://cvefeed.io/vuln/detail/CVE-2025-30971
+https://cvefeed.io/vuln/detail/CVE-2025-31001
+https://cvefeed.io/vuln/detail/CVE-2025-31024
+https://cvefeed.io/vuln/detail/CVE-2025-31074
+https://cvefeed.io/vuln/detail/CVE-2025-31084
+https://cvefeed.io/vuln/detail/CVE-2025-31087
+https://cvefeed.io/vuln/detail/CVE-2025-31095
+https://cvefeed.io/vuln/detail/CVE-2025-31409
+https://cvefeed.io/vuln/detail/CVE-2025-31415
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
+https://cvefeed.io/vuln/detail/CVE-2025-30902
+https://cvefeed.io/vuln/detail/CVE-2025-30910
+https://cvefeed.io/vuln/detail/CVE-2025-30911
+https://cvefeed.io/vuln/detail/CVE-2025-30917
+https://cvefeed.io/vuln/detail/CVE-2025-30924
+https://cvefeed.io/vuln/detail/CVE-2025-30926
+https://cvefeed.io/vuln/detail/CVE-2025-30971
+https://cvefeed.io/vuln/detail/CVE-2025-31001
+https://cvefeed.io/vuln/detail/CVE-2025-31024
+https://cvefeed.io/vuln/detail/CVE-2025-31074
+https://cvefeed.io/vuln/detail/CVE-2025-31084
+https://cvefeed.io/vuln/detail/CVE-2025-31087
+https://cvefeed.io/vuln/detail/CVE-2025-31095
+https://cvefeed.io/vuln/detail/CVE-2025-31409
+https://cvefeed.io/vuln/detail/CVE-2025-31415
+https://cvefeed.io/vuln/detail/CVE-2024-12189
+https://cvefeed.io/vuln/detail/CVE-2024-12278
+https://cvefeed.io/vuln/detail/CVE-2025-1267
+https://cvefeed.io/vuln/detail/CVE-2025-1512
+https://cvefeed.io/vuln/detail/CVE-2025-27427
+https://cvefeed.io/vuln/detail/CVE-2025-29868
+https://cvefeed.io/vuln/detail/CVE-2025-2891
+https://cvefeed.io/vuln/detail/CVE-2025-30065
+https://cvefeed.io/vuln/detail/CVE-2024-56325
+https://cvefeed.io/vuln/detail/CVE-2025-27130
+https://cvefeed.io/vuln/detail/CVE-2025-3037
+https://cvefeed.io/vuln/detail/CVE-2025-3038
+https://cvefeed.io/vuln/detail/CVE-2025-3039
+https://cvefeed.io/vuln/detail/CVE-2025-3040
+https://cvefeed.io/vuln/detail/CVE-2025-3059
+https://cvefeed.io/vuln/detail/CVE-2025-3060
+https://cvefeed.io/vuln/detail/CVE-2025-3061
+https://cvefeed.io/vuln/detail/CVE-2025-3062
+https://cvefeed.io/vuln/detail/CVE-2025-3041
+https://cvefeed.io/vuln/detail/CVE-2025-21384
+https://cvefeed.io/vuln/detail/CVE-2025-3042
+https://cvefeed.io/vuln/detail/CVE-2025-3043
+https://cvefeed.io/vuln/detail/CVE-2025-3045
+https://cvefeed.io/vuln/detail/CVE-2025-30672
+https://cvefeed.io/vuln/detail/CVE-2025-30673
+https://cvefeed.io/vuln/detail/CVE-2025-31515
+https://cvefeed.io/vuln/detail/CVE-2025-31516
+https://cvefeed.io/vuln/detail/CVE-2025-31517
+https://cvefeed.io/vuln/detail/CVE-2025-31518
+https://cvefeed.io/vuln/detail/CVE-2025-31519
+https://cvefeed.io/vuln/detail/CVE-2025-31520
+https://cvefeed.io/vuln/detail/CVE-2025-31521
+https://cvefeed.io/vuln/detail/CVE-2025-31522
+https://cvefeed.io/vuln/detail/CVE-2025-31523
+https://cvefeed.io/vuln/detail/CVE-2025-3051
+https://cvefeed.io/vuln/detail/CVE-2025-31600
+https://cvefeed.io/vuln/detail/CVE-2025-31601
+https://cvefeed.io/vuln/detail/CVE-2025-31602
+https://cvefeed.io/vuln/detail/CVE-2025-31603
+https://cvefeed.io/vuln/detail/CVE-2025-31604
+https://cvefeed.io/vuln/detail/CVE-2025-31605
+https://cvefeed.io/vuln/detail/CVE-2025-31606
+https://cvefeed.io/vuln/detail/CVE-2025-31607
+https://cvefeed.io/vuln/detail/CVE-2025-31608
+https://cvefeed.io/vuln/detail/CVE-2025-31609
+https://cvefeed.io/vuln/detail/CVE-2025-31610
+https://cvefeed.io/vuln/detail/CVE-2025-31611
+https://cvefeed.io/vuln/detail/CVE-2025-31613
+https://cvefeed.io/vuln/detail/CVE-2025-31614
+https://cvefeed.io/vuln/detail/CVE-2025-31615
+https://cvefeed.io/vuln/detail/CVE-2025-31616
+https://cvefeed.io/vuln/detail/CVE-2025-31617
+https://cvefeed.io/vuln/detail/CVE-2025-31618
+https://cvefeed.io/vuln/detail/CVE-2025-31620
+https://cvefeed.io/vuln/detail/CVE-2025-31621
+https://cvefeed.io/vuln/detail/CVE-2025-31623
+https://cvefeed.io/vuln/detail/CVE-2025-31624
+https://cvefeed.io/vuln/detail/CVE-2025-31625
+https://cvefeed.io/vuln/detail/CVE-2025-31627
+https://cvefeed.io/vuln/detail/CVE-2025-31629
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-campagne-de-messages-frauduleux-usurpant-lidentite-de-cybermalveillance-gouv-fr-202412
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cactus-lancement-national
+https://bonjourlafuite.eu.org/#Chambres d’agriculture-2024-11-21
+https://bonjourlafuite.eu.org/#Deloitte-2024-12-04
+https://bonjourlafuite.eu.org/#LDLC-2024-12-10
+https://bonjourlafuite.eu.org/#Wakanim-2024-12-20
+https://bonjourlafuite.eu.org/#Sport 2000-2024-12-20
+https://bonjourlafuite.eu.org/#Go Sport-2024-12-20
+https://bonjourlafuite.eu.org/#Electro Dépôt-2024-12-20
+https://bonjourlafuite.eu.org/#Cyberhaven-2024-12-25
+https://bonjourlafuite.eu.org/#Peugeot-2024-12-26
+https://bonjourlafuite.eu.org/#Arsoé-2024-12-27
+https://bonjourlafuite.eu.org/#Atos-2024-12-30
+https://bonjourlafuite.eu.org/#Direct Assurance-2025-03-18
+https://cvefeed.io/vuln/detail/CVE-2025-2402
+https://cvefeed.io/vuln/detail/CVE-2025-2980
+https://cvefeed.io/vuln/detail/CVE-2025-2981
+https://cvefeed.io/vuln/detail/CVE-2025-3019
+https://cvefeed.io/vuln/detail/CVE-2025-2982
+https://cvefeed.io/vuln/detail/CVE-2025-2983
+https://cvefeed.io/vuln/detail/CVE-2025-2071
+https://cvefeed.io/vuln/detail/CVE-2025-2072
+https://cvefeed.io/vuln/detail/CVE-2025-2984
+https://cvefeed.io/vuln/detail/CVE-2025-2985
+https://cvefeed.io/vuln/detail/CVE-2025-30961
+https://cvefeed.io/vuln/detail/CVE-2025-31406
+https://cvefeed.io/vuln/detail/CVE-2025-31410
+https://cvefeed.io/vuln/detail/CVE-2025-2989
+https://cvefeed.io/vuln/detail/CVE-2025-2990
+https://cvefeed.io/vuln/detail/CVE-2025-31376
+https://cvefeed.io/vuln/detail/CVE-2025-31386
+https://cvefeed.io/vuln/detail/CVE-2025-23995
+https://cvefeed.io/vuln/detail/CVE-2025-2991
+https://cvefeed.io/vuln/detail/CVE-2025-2992
+https://cvefeed.io/vuln/detail/CVE-2025-30963
+https://cvefeed.io/vuln/detail/CVE-2025-31419
+https://cvefeed.io/vuln/detail/CVE-2025-3021
+https://cvefeed.io/vuln/detail/CVE-2025-3026
+https://cvefeed.io/vuln/detail/CVE-2025-3027
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/action-citoyenne-cyberengages
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/culture-presse-sndp-france-messagerie-cybermois-2024
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/numeum-campus-cyber-cyber4tomorrowfr-cybermalveillancegouvfr
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-campagne-de-messages-frauduleux-usurpant-lidentite-de-cybermalveillance-gouv-fr-202412
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lancement-17cyber
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/module-assistance-17cyber
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/17cyber-kit-communication
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-sensibilisation-jeunes-cyber-en-clair
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cactus-lancement-national
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2024
+Fuite de données chez Dailymotion
+Fuite de données chez Almerys, Viamedis
+Fuite de données chez LDLC
+Fuite de données chez France Travail
+Fuite de données chez Le Slip Français
+Fuite de données chez Ticketmaster
+Fuite de données chez Boulanger
+Fuite de données chez Cultura
+Fuite de données chez Cybertek
+Fuite de données chez Assurance retraite
+Fuite de données chez RED by SFR
+Fuite de données chez Meilleurtaux
+Fuite de données chez Ornikar
+Fuite de données chez Free Mobile
+Fuite de données chez Free
+Fuite de données chez Picard
+Fuite de données chez Molotov
+Fuite de données chez Huttopia
+Fuite de données chez Le Point
+Fuite de données chez Auchan
+Fuite de données chez Mediboard
+Fuite de données chez Direct Assurance
+Fuite de données chez Chambres d’agriculture
+Fuite de données chez Companie de Transport Strasbourgeoise
+Fuite de données chez Banque de France
+Fuite de données chez SFR
+Fuite de données chez JVS
+Fuite de données chez Ze Camping
+Fuite de données chez Norauto
+Fuite de données chez Guy Demarle
+Fuite de données chez Deloitte
+Fuite de données chez LDLC
+Fuite de données chez Top Achat
+Fuite de données chez Wakanim
+Fuite de données chez Sport 2000
+Fuite de données chez Go Sport
+Fuite de données chez Electro Dépôt
+Fuite de données chez Cyberhaven
+Fuite de données chez Peugeot
+Fuite de données chez Arsoé
+Fuite de données chez Volkswagen
+Fuite de données chez Atos
+Fuite de données chez Cogitis
+Fuite de données chez Kiabi
+Fuite de données chez Fédération Française de Roller Skateboard
+Fuite de données chez Fédération Française de Force
+Fuite de données chez Fédération Française de tir à l'arc
+Fuite de données chez Fédération Française de la montagne et de l'escalade
+Fuite de données chez E.Leclerc
+Fuite de données chez Fédération Française Montagne Escalade
+Fuite de données chez AIDES
+Fuite de données chez Espace-Recettes.fr Vorwerk
+Fuite de données chez King Jouet
+Fuite de données chez Chronopost
+Fuite de données chez Caisse des dépôts et des consignations
+Fuite de données chez Mutuelle des motards
+Fuite de données chez Sport Découverte
+Fuite de données chez Service Départemental d'Incendie et de Secours de la Vienne
+Fuite de données chez Fédération Française de Foot
+Fuite de données chez Nord Emploi
+Fuite de données chez École Nationale de la Sécurité
+Fuite de données chez Zephir
+Fuite de données chez EDF DPIH
+Fuite de données chez La Poste
+Fuite de données chez Côté Sushi
+Fuite de données chez UTwin
+Fuite de données chez Laforêt
+Fuite de données chez Direct Assurance
+Fuite de données chez Intersport
+Fuite de données chez Éclaireuses et Éclaireurs de France
+Fuite de données chez Autosur Diagnosur
+Fuite de données chez Cerballiance
+Fuite de données chez Centrale Nantes
+Fuite de données chez Oracle Cloud
+Fuite de données chez MAIF BPCE
+Fuite de données chez Reporterre
+L’algorithme HAETAE lauréat de la compétition coréenne de cryptographie post-quantique
+Sommet pour l’action sur l’intelligence artificielle : retour sur les travaux de l’ANSSI
+L’ANSSI publie son état de la menace sur le cloud computing 
+L’ANSSI publie son plan stratégique 2025-2027
+Appel à commentaires sur le vote par internet pour les élections non politiques
+Panorama de la cybermenace 2024 : mobilisation et vigilance face aux attaquants
+L’ANSSI partage en open source un outil de test du protocole industriel OPC UA
+Appel à commentaires sur l’ajout d’un volet gestion de crise au référentiel PRIS
+L’ANSSI vous donne rendez-vous au Forum InCyber 2025 !
+REMPAR25 : les inscriptions sont ouvertes !
+CVE-2025-31135 - Go-Guerrilla SMTP Daemon Reverse Proxy IP Spoofing Vulnerability
+CVE-2025-27692 - Dell Wyse Management Suite Unrestricted File Upload Vulnerability
+CVE-2025-27693 - Dell Wyse Management Suite Cross-site Scripting Vulnerability
+CVE-2025-27694 - Dell Wyse Management Suite Insufficient Resource Pool Denial of Service Vulnerability
+CVE-2025-29981 - Dell Wyse Management Suite Exposure of Sensitive Information Through Data Queries Vulnerability
+CVE-2025-29982 - Dell Wyse Management Suite Insecure Inherited Permissions Unauthorized Access Vulnerability
+CVE-2025-3066 - Google Chrome Use-After-Free in Navigations Vulnerability
+CVE-2025-3067 - Google Chrome Android Custom Tabs Privilege Escalation Vulnerability
+CVE-2025-3068 - Google Chrome Android Intents Privilege Escalation Vulnerability
+CVE-2025-3069 - Google Chrome Extension Privilege Escalation Vulnerability
+CVE-2025-3070 - Google Chrome Extension Input Validation Privilege Escalation Vulnerability
+CVE-2025-3071 - Google Chrome Navigation Same-Origin Policy Bypass Vulnerability
+CVE-2025-3072 - Google Chrome Custom Tabs UI Spoofing Vulnerability
+CVE-2025-3073 - Google Chrome Autofill UI Spoofing Vulnerability
+CVE-2025-3074 - Google Chrome UI Spoofing Vulnerability
+CVE-2025-2779 - WordPress HT Script Plugin Unauthenticated Data Modification Vulnerability
+CVE-2025-25060 - AssetView Unauthenticated File Access and Deletion Vulnerability
+CVE-2025-27244 - AssetView Information Disclosure Vulnerability
+CVE-2024-36465 - Zabbix SQL Injection Vulnerability
+CVE-2024-36469 - Apache HTTP Server Authentication Bypass
+CVE-2024-42325 - Zabbix Information Disclosure
+CVE-2024-45699 - Zabbix Cross-Site Scripting (XSS)
+CVE-2024-45700 - Zabbix Server Memory Exhaustion Denial of Service
+CVE-2025-0415 - F5 Networks NTP Command Injection Vulnerability
+CVE-2025-0676 - Moxa tcpdump Command Injection Vulnerability
+Culture presse, le SNDP et France Messagerie se mobilisent aux cotés de Cybermalveillance.gouv.fr à l’occasion du Cybermoi/s 2024
+Cybersécurité : Numeum et le Campus Cyber lancent la plateforme Cyber4Tomorrow.fr et signent un partenariat avec Cybermalveillance.gouv.fr pour une cybersécurité durable et inclusive
+Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
+Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
+Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
+Alerte : campagne de messages drsquo;escroquerie à lrsquo;indemnisation usurpant l’identité de Cybermalveillance.gouv.fr
+Soldes drsquo;hiver : 7 conseils pour éviter les cyber-arnaques
+17Cyber, le nouveau réflexe d’assistance en ligne pour toutes les victimes de cybermalveillance
+Cybermalveillance.gouv.fr vous propose d’adopter le module 17Cyber
+17Cyber : kit de communication
+L’association ECTI rejoint Cybermalveillance.gouv.fr
+Alerte Cyber : Failles de sécurité critiques dans les produits Microsoft
+Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
+#PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
+Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
+Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
+Lettres drsquo;information
+Opération Cactus : lancement national de la campagne de sensibilisation à lrsquo;hameçonnage dans les espaces numériques de travail
+Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
+Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ annoncent la signature drsquo;une convention pour intégrer lrsquo;offre de service drsquo;assistance des CSIRT territoriaux néo-aquitain et d’Occitanie dans le 17Cyber, guichet unique face à la cybermalveillance
+CVE-2025-31594 - WordPress Auto Scroll for Reading Cross-Site Scripting (XSS)
+CVE-2025-31612 - Sabuj Kundu CBX Poll Object Injection Vulnerability
+CVE-2025-31619 - Actionwear SQL Injection
+CVE-2025-31628 - SlicedInvoices Missing Authorization
+CVE-2025-31753 - Animesh Kumar Advanced Speed Increaser CSRF Vulnerability
+CVE-2025-31819 - Pixelgrade Nova Blocks Cross-site Scripting Vulnerability
+CVE-2025-31889 - Elementor Extensions Cross-Site Scripting Vulnerability
+CVE-2023-46988 - ONLYOFFICE Document Server File Path Traversal Vulnerability
+CVE-2025-30356 - "CryptoLib Heap Buffer Overflow Vulnerability"
+CVE-2025-21966 - Linux Kernel dm-flakey Memory Corruption Vulnerability
+CVE-2025-21967 - Samba Linux Kernel Use-After-Free Vulnerability
+CVE-2025-21968 - AMD Display Slab-Use-After-Free Vulnerability
+CVE-2025-21969 - Android Bluetooth L2CAP Slab-Use-After-Free Vulnerability
+CVE-2025-21970 - "mlx5 Bridge LAG State Check Crash"
+CVE-2025-21971 - "Linux Kernel net_sched TC_H_ROOT Class Creation Vulnerability"
+CVE-2025-21972 - Linux Kernel MCTP Net Fragment Reassembly Vulnerability
+CVE-2025-21973 - Here is the title:
+
+ASUS PRIME Z690-P D4 bnxt_en NULL Pointer Dereference Vulnerability
+CVE-2025-21974 - ASUS PRIME Z690-P D4 bnxt_en Use-After-Free Vulnerability
+CVE-2025-21975 - "mlx5 Linux Kernel Null Pointer Dereference Vulnerability"
+CVE-2025-21976 - Linux Kernel Hyper-V framebuffer Unbind Information Leak
+CVE-2025-21977 - Linux Hyper-V Framebuffer Vulnerability
+CVE-2025-21978 - Hyper-V DRM Address Space Leak
+CVE-2025-21979 - "Linux Kernel WiFi cfg80211 Use-After-Free Vulnerability"
+CVE-2025-21980 - Linux Kernel Sched NULL Pointer Dereference Vulnerability
+CVE-2025-21981 - "Ice: Memory Leak in aRFS after Reset"
+CVE-2025-21982 - "NuvoTon Npcm8xx Linux Kernel Null Pointer Dereference"
+CVE-2025-21983 - Linux Kernel - NVMe WQ_MEM_RECLAIM Workqueue Vulnerability
+CVE-2025-21984 - Linux Kernel mm Swapcache Vulnerability
+CVE-2025-21985 - AMD Display Out-of-Bounds Array Index Vulnerability
+CVE-2025-21986 - Linux Kernel: Switchdev Notification Chain Locking Vulnerability
+CVE-2025-25041 - Aruba Networking VIA Client File Overwrite Vulnerability
+CVE-2025-27829 - Stormshield Network Security Multicast Traffic Interruption Vulnerability
+CVE-2025-28131 - Nagios Network Analyzer Broken Access Control Vulnerability
+CVE-2025-28132 - Nagios Network Analyzer Session Reuse Vulnerability
+CVE-2025-2891 - "Real Estate 7 WordPress Theme Arbitrary File Upload Vulnerability"
+CVE-2025-30065 - Apache Parquet Remote Code Execution Vulnerability
+CVE-2024-56325 - Apache Pinot Authentication Bypass
+CVE-2025-27130 - Welcart e-Commerce Deserialization Remote Code Execution
+CVE-2025-3082 - MongoDB Server Collation Manipulation Vulnerability
+CVE-2024-13553 - WooCommerce WordPress Host Header Spoofing Privilege Escalation Vulnerability
+CVE-2025-2237 - Homeo Theme for WordPress Authentication Bypass
+CVE-2025-2906 - Contempo Real Estate Core WordPress Stored Cross-Site Scripting Vulnerability
+CVE-2025-30177 - Apache Camel Undertow: Camel Message Header Injection
+CVE-2025-3083 - MongoDB Mongos Protocol Crash Vulnerability
+CVE-2025-3084 - MongoDB Server Argument Validation Buffer Crash
+CVE-2025-3085 - MongoDB TLS Intermediate Certificate Revocation Status Checking Vulnerability
+CVE-2025-1658 - Autodesk Navisworks Out-of-Bounds Read Vulnerability
+CVE-2025-1659 - Autodesk Navisworks Out-of-Bounds Read Vulnerability
+CVE-2025-1660 - Autodesk Navisworks Memory Corruption Vulnerability
+CVE-2025-22231 - VMware Aria Operations Local Privilege Escalation
+CVE-2025-31408 - Zoho Flow Missing Authorization Vulnerability
+CVE-2025-3028 - Mozilla Firefox JavaScript XSLTProcessor Use-After-Free Vulnerability
+CVE-2025-3029 - Mozilla Firefox/Thunderbird URL Spoofing Vulnerability
+CVE-2025-3030 - Mozilla Firefox Memory Corruption Vulnerability
+CVE-2025-3031 - Mozilla Firefox Stack Information Leak Vulnerability
+CVE-2025-3032 - Firefox File Descriptor Leak Privilege Escalation
+CVE-2025-3033 - Firefox Windows URL Shortcut Upload Vulnerability
+CVE-2025-3034 - Mozilla Firefox Memory Corruption Vulnerability
+CVE-2025-3035 - Firefox Document Title Leaking Vulnerability
+CVE-2025-30910 - CreativeMindsSolutions CM Download Manager Path Traversal Vulnerability
+CVE-2025-30911 - Rometheme RomethemeKit For Elementor Command Injection Vulnerability
+CVE-2025-30917 - WooCommerce SKU Generator Cross-site Scripting Vulnerability
+CVE-2025-30924 - Primer MyData for Woocommerce Cross-site Scripting
+CVE-2025-30926 - KingAddons.com King Addons for Elementor Missing Authorization Vulnerability
+CVE-2025-30971 - Xavi Ivars XV Random Quotes SQL Injection Vulnerability
+CVE-2025-31001 - TLA Media GTM Kit Debug Information Leak
+CVE-2025-31024 - RJ Quickcharts SQL Injection
+CVE-2025-31074 - MDJM Event Management Object Injection Vulnerability
+CVE-2025-31084 - Sunshine Photo Cart Object Injection Vulnerability
+CVE-2025-31087 - Silverplugins217 Woocommerce Object Injection Vulnerability
+CVE-2025-31095 - Ho3einie Material Dashboard Authentication Bypass
+CVE-2025-31409 - NotFound Bridge Core Cross-site Scripting (XSS)
+CVE-2025-31415 - YayCommerce YayExtra Missing Authorization Vulnerability
+CVE-2024-12189 - WDesignKit WordPress Stored Cross-Site Scripting Vulnerability
+CVE-2024-12278 - Booster for WooCommerce Stored Cross-Site Scripting Vulnerability
+CVE-2025-1267 - Groundhogg for WordPress Stored Cross-Site Scripting Vulnerability
+CVE-2025-1512 - Elementor PowerPack Stored Cross-Site Scripting Vulnerability
+CVE-2025-27427 - Apache ActiveMQ Artemis Routing Type Permission Bypass
+CVE-2025-29868 - Apache Answer IP Address Disclosure
+Cybermoi/s 2024 : rejoignez le mouvement #CyberEngagés avec la campagne « Fausse Bonne Idée »
+CVE-2025-30848 - Bob Hostel Cross-site Scripting Vulnerability
+CVE-2025-30849 - "G5theme Essential Real Estate PHP Remote File Inclusion Vulnerability"
+CVE-2025-30869 - Parakoos Image Wall Cross-site Scripting (XSS)
+CVE-2025-30870 - WP Travel Engine PHP Remote File Inclusion Vulnerability
+CVE-2025-30876 - WPQuads SQL Injection
+CVE-2025-30878 - JoomSky JS Help Desk Path Traversal Vulnerability
+CVE-2025-30880 - JoomSky JS Help Desk Missing Authorization Vulnerability
+CVE-2025-30882 - JoomSky JS Help Desk Path Traversal
+CVE-2025-30886 - JoomSky JS Help Desk SQL Injection
+CVE-2025-30901 - JoomSky JS Help Desk PHP Remote File Inclusion
+CVE-2025-30902 - ATL Software SRL AEC Kiosque Cross-Site Scripting (XSS)
+CVE-2025-3037 - "yzk2356911358 StudentServlet-JSP Cross-Site Request Forgery (CSRF)"
+CVE-2025-3038 - Code-projects Payroll Management System SQL Injection Vulnerability
+CVE-2025-3039 - Code-projects Payroll Management System SQL Injection Vulnerability
+CVE-2025-3040 - Project Worlds Online Time Table Generator File Upload Vulnerability
+CVE-2025-3059 - Drupal Profile Private Unauthenticated File Upload
+CVE-2025-3060 - Drupal Flattern Cross-Site Scripting (XSS) Vulnerability
+CVE-2025-3061 - "Drupal Material Admin Stored Cross-Site Scripting"
+CVE-2025-3062 - "Drupal Admin LTE Theme Cross-Site Scripting Vulnerability"
+CVE-2025-3041 - Project Worlds Online Time Table Generator Unrestricted File Upload Vulnerability
+CVE-2025-21384 - Microsoft Azure Health Bot SSRF Privilege Escalation
+CVE-2025-3042 - Project Worlds Online Time Table Generator Unrestricted File Upload Vulnerability
+CVE-2025-3043 - GuoMinJim PersonManage Path Traversal Vulnerability
+CVE-2025-3045 - "SourceCodester Apartment Visitor Management System SQL Injection"
+CVE-2025-30672 - Mite for Perl Arbitrary Code Execution Vulnerability
+CVE-2025-30673 - Perl Sub::HandlesVia Remote Code Execution Vulnerability
+CVE-2025-31515 - Apache HTTP Server Unvalidated User Input
+CVE-2025-31516 - Apache OpenOffice Unvalidated User Input
+CVE-2025-31517 - Apache HTTP Server Unvalidated User Input
+CVE-2025-31518 - Apache Web Server Cross-Site Request Forgery
+CVE-2025-31519 - Citrix NetScaler Denial of Service
+CVE-2025-31520 - VMware VMFS File System Directory Traversal
+CVE-2025-31521 - Apache HTTP Server Remote Code Execution Vulnerability
+CVE-2025-31522 - Apache HTTP Server XML Entity Injection
+CVE-2025-31523 - Apache HTTP Server Unvalidated User Input
+CVE-2025-3051 - Linux::Statm::Tiny Remote Code Execution Vulnerability
+CVE-2025-31600 - Designnbuy DesignO CSRF Vulnerability
+CVE-2025-31601 - Appointy Appointment Scheduler CSRF Vulnerability
+CVE-2025-31602 - Apimo Connector CSRF Vulnerability
+CVE-2025-31603 - Moshensky CF7 Spreadsheets Missing Authorization Vulnerability
+CVE-2025-31604 - Cal.com Stored XSS
+CVE-2025-31605 - WeblineIndia Welcome Popup Cross-site Scripting (XSS)
+CVE-2025-31606 - Softpulseinfotech SP Blog Designer Missing Authorization Vulnerability
+CVE-2025-31607 - Flomei Simple-Audioplayer Stored Cross-Site Scripting Vulnerability
+CVE-2025-31608 - CookieHint WP Cross-site Scripting Vulnerability
+CVE-2025-31609 - Arni Cinco WPCargo Track  Trace Missing Authorization Vulnerability
+CVE-2025-31610 - Gingerplugins Cross-site Scripting Vulnerability
+CVE-2025-31611 - Shaharia Azam Auto Post After Image Upload Missing Authorization
+CVE-2025-31613 - AB Google Map Travel CSRF
+CVE-2025-31614 - Hiroprot Web Page Generation Cross-site Scripting (XSS)
+CVE-2025-31615 - Owenr88 Simple Contact Forms Cross-site Scripting (XSS)
+CVE-2025-31616 - Varnish WordPress CSRF
+CVE-2025-31617 - PostmarkApp Email Integrator CSRF Vulnerability
+CVE-2025-31618 - Jaap Jansma Connector to CiviCRM Unauthenticated Authorization Bypass
+CVE-2025-31620 - Carperfer CoverManager Stored Cross-site Scripting
+CVE-2025-31621 - byBrick Accordion Stored Cross-Site Scripting (XSS)
+CVE-2025-31623 - Rich Text Editor CSRF-Stored XSS Vulnerability
+CVE-2025-31624 - LABCAT Processing Projects Cross-site Scripting (XSS)
+CVE-2025-31625 - Useinfluence Stored Cross-site Scripting (XSS)
+CVE-2025-31627 - Media Library Assistant Cross-site Scripting
+CVE-2025-31629 - Infusionsoft Web Form JavaScript Cross-site Scripting
+CVE-2025-2402 - Minio Hardcoded Password Remote Authentication Bypass and Data Manipulation Vulnerability in KNIME Business Hub
+CVE-2025-2980 - Legrand SMS PowerView Open Redirect Vulnerability
+CVE-2025-2981 - Legrand SMS PowerView Cross Site Scripting
+CVE-2025-3019 - KNIME Business Hub Cross-Site Scripting Vulnerability
+CVE-2025-2982 - Legrand SMS PowerView Remote File Inclusion Vulnerability
+CVE-2025-2983 - "Legrand SMS PowerView OS Command Injection Vulnerability"
+CVE-2025-2071 - "FAST LTA Silent Brick WebUI OS Command Injection Vulnerability"
+CVE-2025-2072 - "FAST LTA Silent Brick WebUI Reflected Cross-Site Scripting (XSS)"
+CVE-2025-2984 - "Code-Projects Payroll Management System SQL Injection Vulnerability"
+CVE-2025-2985 - Code-projects Payroll Management System SQL Injection Vulnerability
+CVE-2025-30961 - Tinuzz Trackserver DOM-Based XSS Vulnerability
+CVE-2025-31406 - ELEX WooCommerce Subscriber Unauthenticated Access Control Vulnerability
+CVE-2025-31410 - Ashish Ajani WP Church Donation CSRF
+CVE-2025-2989 - Tenda Web Management Interface Improper Access Controls Remote Vulnerability
+CVE-2025-2990 - Tenda FH1202 Web Management Interface Unauthenticated Remote Code Execution Vulnerability
+CVE-2025-31376 - NanoSupport Missing Authorization Vulnerability
+CVE-2025-31386 - Simple:Press Missing Authorization Vulnerability
+CVE-2025-23995 - Tantyyellow Cross-site Scripting (XSS)
+CVE-2025-2991 - Tenda FH1202 Web Management Interface Improper Access Control Vulnerability
+CVE-2025-2992 - Tenda FH1202 Web Management Interface Improper Access Controls Vulnerability
+CVE-2025-30963 - Crocoblock JetSmartFilters Cross-site Scripting
+CVE-2025-31419 - Themeix Churel Cross-site Scripting Vulnerability
+CVE-2025-3021 - e-solutions e-management Path Traversal
+CVE-2025-3026 - EJBCA Host Header Injection Vulnerability
+CVE-2025-3027 - EJBCA Path Traversal Vulnerability
