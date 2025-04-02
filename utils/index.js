@@ -33,7 +33,7 @@ export function composeFeedItem ({ title, description, pubDate, link, guid }) {
  // console.log(title)
   return `
     <item>
-      <title>${title.replace("\r\n","").replaceAll("&","")}</title>
+      <title>${title.replace("\r\n","").replaceAll("&","").replaceAll("<br>","")}</title>
       <description>${description}</description>
       <pubDate>${pubDate}</pubDate>
       <link>${link}</link>
