@@ -8,18 +8,222 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 02 Apr 2025 20:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 22:09:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-37917 - Pexip Infinity Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-37917
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>Pexip Infinity before 35.0 has improper input validation that allows remote attackers to trigger a denial of service (software abort) via a crafted signalling message.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-37917</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-37917</guid>
+    </item>
+    <item>
+      <title>CVE-2024-38392 - Pexip Infinity Connect Remote Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-38392
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>Pexip Infinity Connect before 1.13.0 lacks sufficient authenticity checks during the loading of resources, and thus remote attackers can cause the application to run untrusted code.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-38392</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-38392</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22923 - OS4ED openSIS File Deletion Directory Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22923
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>An issue in OS4ED openSIS v8.0 through v9.1 allows attackers to execute a directory traversal and delete files by sending a crafted POST request to /Modules.php?modname=users/Staff.php&removefile.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22923</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22923</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22924 - OS4ED openSIS SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22924
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>OS4ED openSIS v7.0 through v9.1 contains a SQL injection vulnerability via the stu_id parameter at /modules/students/Student.php.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22924</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22924</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22925 - OS4ED openSIS SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22925
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>OS4ED openSIS v7.0 to v9.1 was discovered to contain a SQL injection vulnerability via the table parameter at /attendance/AttendanceCodes.php. The remote, authenticated attacker requires the admin role to successfully exploit this vulnerability.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22925</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22925</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29062 - BL-AC2100 Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29062
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>An issue in BL-AC2100 <=V1.0.4 allows a remote attacker to execute arbitrary code via the time1 and time2 parameters in the set_LimitClient_cfg of the goahead webservice.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29062</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29062</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29063 - BL-AC2100 Router Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29063
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>An issue in BL-AC2100 V1.0.4 and before allows a remote attacker to execute arbitrary code via the enable parameter passed to /goform/set_hidessid_cfg is not handled properly.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29063</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29063</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29085 - Vipshop Saturn SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29085
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>SQL injection vulnerability in vipshop Saturn v.3.5.1 and before allows a remote attacker to execute arbitrary code via /console/dashboard/executorCount?zkClusterKey component.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29085</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29085</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29719 - SourceCodester rems Employee Management System Cross Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29719
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>SourceCodester (rems) Employee Management System 1.0 is vulnerable to Cross Site Scripting (XSS) in add_employee.php via the First Name and Address text fields.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29719</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29719</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2704 - OpenVPN TLS-crypt-v2 Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2704
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>OpenVPN version 2.6.1 through 2.6.13 in server mode using TLS-crypt-v2 allows remote attackers to trigger a denial of service by corrupting and replaying network packets in the early handshake phase
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2704</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2704</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30080 - Pexip Infinity Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30080
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>Signalling in Pexip Infinity 29 through 36.2 before 37.0 has improper input validation that allows remote attackers to trigger a temporary denial of service (software abort).
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30080</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30080</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3118 - SourceCodester Online Tutor Portal SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3118
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Online Tutor Portal 1.0. It has been classified as critical. This affects an unknown part of the file /tutor/courses/view_course.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3118</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3118</guid>
+    </item>
+    <item>
       <title>CVE-2024-36328 - AMD NPU Driver Integer Overflow Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-36328
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>Integer overflow within AMD NPU Driver could allow a local attacker to write out of bounds, potentially leading to loss of integrity or availability.
 <br>
@@ -36,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-36336
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>Integer overflow within the AMD NPU Driver could allow a local attacker to write out of bounds, potentially leading to a loss of confidentiality, integrity, or availability.
 <br>
@@ -53,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-36337
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>Integer overflow within AMD NPU Driver could allow a local attacker to write out of bounds, potentially leading to loss of confidentiality, integrity or availability.
 <br>
@@ -70,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0014
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>Incorrect default permissions on the AMD Ryzen(TM) AI installation folder could allow an attacker to achieve privilege escalation, potentially resulting in arbitrary code execution.
 <br>
@@ -87,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-20120
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the web-based management interface of Cisco Evolved Programmable Network Manager (EPNM) and Cisco Prime Infrastructure could allow an unauthenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface on an affected device.
  This vulnerability is due to insufficient validation of user-supplied input by the web-based management interface of an affected system. An attacker could exploit this vulnerability by injecting malicious code into specific pages of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.
@@ -105,7 +309,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-20139
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in chat messaging features of Cisco Enterprise Chat and Email (ECE) could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition.
  This vulnerability is due to improper validation of user-supplied input to chat entry points. An attacker could exploit this vulnerability by sending malicious requests to a messaging chat entry point in the affected application. A successful exploit could allow the attacker to cause the application to stop responding, resulting in a DoS condition. The application may not recover on its own and may need an administrator to manually restart services to recover.
@@ -123,7 +327,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-20203
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the web-based management interface of Cisco Evolved Programmable Network Manager (EPNM) and Cisco Prime Infrastructure could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against users of the interface of an affected system.
  The vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by inserting malicious code into specific data fields in the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information. To exploit this vulnerability, the attacker must have valid administrative credentials.
@@ -143,7 +347,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-20212
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series devices could allow an authenticated, remote attacker to cause a denial of service (DoS) condition in the Cisco AnyConnect service on an affected device. To exploit this vulnerability, the attacker must have valid VPN user credentials on the affected device.
  This vulnerability exists because a variable is not initialized when an SSL VPN session is established. An attacker could exploit this vulnerability by supplying crafted attributes while establishing an SSL VPN session with an affected device. A successful exploit could allow the attacker to cause the Cisco AnyConnect VPN server to restart, resulting in the failure of the established SSL VPN sessions and forcing remote users to initiate a new VPN connection and reauthenticate. A sustained attack could prevent new SSL VPN connections from being established.
@@ -162,7 +366,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31282
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A broken access control vulnerability previously discovered in the Trend Vision One User Account component could have allowed an administrator to create users who could then change the role of the account and ultimately escalate privileges. 
 
@@ -181,7 +385,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31283
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A broken access control vulnerability previously discovered in the Trend Vision One User Roles component could have allowed an administrator to create users who could then change the role of the account and ultimately escalate privileges. 
 
@@ -200,7 +404,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31284
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A broken access control vulnerability previously discovered in the Trend Vision One Status component could have allowed an administrator to create users who could then change the role of the account and ultimately escalate privileges. 
 
@@ -219,7 +423,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31285
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A broken access control vulnerability previously discovered in the Trend Vision One Role Name component could have allowed an administrator to create users who could then change the role of the account and ultimately escalate privileges. 
 
@@ -238,7 +442,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31286
 <br>
-<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<strong>Published : </strong> April 2, 2025, 5:15 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>An HTML injection vulnerability previously discovered in Trend Vision One could have allowed a malicious user to execute arbitrary code.
 

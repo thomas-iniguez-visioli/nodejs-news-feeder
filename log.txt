@@ -84,18 +84,6 @@ https://cyber.gouv.fr/actualites/appel-commentaires-sur-lajout-dun-volet-gestion
 https://cyber.gouv.fr/actualites/lanssi-vous-donne-rendez-vous-au-forum-incyber-2025
 https://cyber.gouv.fr/actualites/rempar25-les-inscriptions-sont-ouvertes
 https://cyber.gouv.fr/actualites/lanssi-lance-son-offre-de-services-messervicescyber
-https://cvefeed.io/vuln/detail/CVE-2025-31721
-https://cvefeed.io/vuln/detail/CVE-2025-31722
-https://cvefeed.io/vuln/detail/CVE-2025-31723
-https://cvefeed.io/vuln/detail/CVE-2025-31724
-https://cvefeed.io/vuln/detail/CVE-2025-31725
-https://cvefeed.io/vuln/detail/CVE-2025-31726
-https://cvefeed.io/vuln/detail/CVE-2025-31727
-https://cvefeed.io/vuln/detail/CVE-2025-31728
-https://cvefeed.io/vuln/detail/CVE-2024-56474
-https://cvefeed.io/vuln/detail/CVE-2024-56475
-https://cvefeed.io/vuln/detail/CVE-2024-56476
-https://cvefeed.io/vuln/detail/CVE-2025-0154
 https://cvefeed.io/vuln/detail/CVE-2024-36328
 https://cvefeed.io/vuln/detail/CVE-2024-36336
 https://cvefeed.io/vuln/detail/CVE-2024-36337
@@ -109,6 +97,18 @@ https://cvefeed.io/vuln/detail/CVE-2025-31283
 https://cvefeed.io/vuln/detail/CVE-2025-31284
 https://cvefeed.io/vuln/detail/CVE-2025-31285
 https://cvefeed.io/vuln/detail/CVE-2025-31286
+https://cvefeed.io/vuln/detail/CVE-2024-37917
+https://cvefeed.io/vuln/detail/CVE-2024-38392
+https://cvefeed.io/vuln/detail/CVE-2025-22923
+https://cvefeed.io/vuln/detail/CVE-2025-22924
+https://cvefeed.io/vuln/detail/CVE-2025-22925
+https://cvefeed.io/vuln/detail/CVE-2025-29062
+https://cvefeed.io/vuln/detail/CVE-2025-29063
+https://cvefeed.io/vuln/detail/CVE-2025-29085
+https://cvefeed.io/vuln/detail/CVE-2025-29719
+https://cvefeed.io/vuln/detail/CVE-2025-2704
+https://cvefeed.io/vuln/detail/CVE-2025-30080
+https://cvefeed.io/vuln/detail/CVE-2025-3118
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/culture-presse-sndp-france-messagerie-cybermois-2024
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/numeum-campus-cyber-cyber4tomorrowfr-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
@@ -485,18 +485,6 @@ Appel à commentaires sur l’ajout d’un volet gestion de crise au référenti
 L’ANSSI vous donne rendez-vous au Forum InCyber 2025 !
 REMPAR25 : les inscriptions sont ouvertes !
 L’ANSSI lance son offre de services : MesServicesCyber 
-CVE-2025-31721 - Jenkins Missing Permission Check Vulnerability
-CVE-2025-31722 - Jenkins Templating Engine Plugin Sandbox Bypass
-CVE-2025-31723 - Jenkins Simple Queue Plugin CSRF Vulnerability
-CVE-2025-31724 - Jenkins Cadence vManager Plugin Unencrypted API Key Exposure
-CVE-2025-31725 - Jenkins Monitor-Remote-Job Plugin Unencrypted Password Storage Vulnerability
-CVE-2025-31726 - Jenkins Stack Hammer Plugin Unencrypted API Key Storage Vulnerability
-CVE-2025-31727 - Jenkins AsakusaSatellite Plugin Unencrypted API Key Disclosure
-CVE-2025-31728 - Jenkins AsakusaSatellite Plugin API Key Disclosure Vulnerability
-CVE-2024-56474 - IBM TXSeries for Multiplatforms CSRF Vulnerability
-CVE-2024-56475 - IBM TXSeries for Multiplatforms Cross-Site Scripting
-CVE-2024-56476 - IBM TXSeries for Multiplatforms Authentication Information Disclosure
-CVE-2025-0154 - IBM TXSeries for Multiplatforms HTTP Header Injection Vulnerability
 CVE-2024-36328 - AMD NPU Driver Integer Overflow Vulnerability
 CVE-2024-36336 - AMD NPU Driver Integer Overflow
 CVE-2024-36337 - AMD NPU Driver Integer Overflow Vulnerability
@@ -510,6 +498,18 @@ CVE-2025-31283 - Trend Vision One Escalation of Privilege Vulnerability
 CVE-2025-31284 - Trend Vision One Status Privilege Escalation Vulnerability
 CVE-2025-31285 - Trend Vision One Role Name Privilege Escalation Vulnerability
 CVE-2025-31286 - Trend Vision One HTML Injection Vulnerability
+CVE-2024-37917 - Pexip Infinity Denial of Service
+CVE-2024-38392 - Pexip Infinity Connect Remote Code Execution
+CVE-2025-22923 - OS4ED openSIS File Deletion Directory Traversal
+CVE-2025-22924 - OS4ED openSIS SQL Injection Vulnerability
+CVE-2025-22925 - OS4ED openSIS SQL Injection
+CVE-2025-29062 - BL-AC2100 Remote Code Execution Vulnerability
+CVE-2025-29063 - BL-AC2100 Router Code Execution Vulnerability
+CVE-2025-29085 - Vipshop Saturn SQL Injection Vulnerability
+CVE-2025-29719 - SourceCodester rems Employee Management System Cross Site Scripting (XSS)
+CVE-2025-2704 - OpenVPN TLS-crypt-v2 Denial of Service
+CVE-2025-30080 - Pexip Infinity Denial of Service
+CVE-2025-3118 - SourceCodester Online Tutor Portal SQL Injection
 Culture presse, le SNDP et France Messagerie se mobilisent aux cotés de Cybermalveillance.gouv.fr à l’occasion du Cybermoi/s 2024
 Cybersécurité : Numeum et le Campus Cyber lancent la plateforme Cyber4Tomorrow.fr et signent un partenariat avec Cybermalveillance.gouv.fr pour une cybersécurité durable et inclusive
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
@@ -530,9 +530,21 @@ Lettres drsquo;information
 Opération Cactus : lancement national de la campagne de sensibilisation à lrsquo;hameçonnage dans les espaces numériques de travail
 Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
 Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ annoncent la signature drsquo;une convention pour intégrer lrsquo;offre de service drsquo;assistance des CSIRT territoriaux néo-aquitain et d’Occitanie dans le 17Cyber, guichet unique face à la cybermalveillance
+CVE-2024-56474 - IBM TXSeries for Multiplatforms CSRF Vulnerability
+CVE-2024-56475 - IBM TXSeries for Multiplatforms Cross-Site Scripting
+CVE-2024-56476 - IBM TXSeries for Multiplatforms Authentication Information Disclosure
+CVE-2025-0154 - IBM TXSeries for Multiplatforms HTTP Header Injection Vulnerability
+CVE-2025-31725 - Jenkins Monitor-Remote-Job Plugin Unencrypted Password Storage Vulnerability
+CVE-2025-31726 - Jenkins Stack Hammer Plugin Unencrypted API Key Storage Vulnerability
+CVE-2025-31727 - Jenkins AsakusaSatellite Plugin Unencrypted API Key Disclosure
+CVE-2025-31728 - Jenkins AsakusaSatellite Plugin API Key Disclosure Vulnerability
 CVE-2024-25051 - IBM Jazz Reporting Service Session Impersonation Vulnerability
 CVE-2024-56341 - IBM Content Navigator Cross-Site Scripting Vulnerability
 CVE-2025-31720 - Jenkins Missing Permission Check Vulnerability
+CVE-2025-31721 - Jenkins Missing Permission Check Vulnerability
+CVE-2025-31722 - Jenkins Templating Engine Plugin Sandbox Bypass
+CVE-2025-31723 - Jenkins Simple Queue Plugin CSRF Vulnerability
+CVE-2025-31724 - Jenkins Cadence vManager Plugin Unencrypted API Key Exposure
 CVE-2025-21994 - Linux ksmbd Integer Overflow Vulnerability
 CVE-2024-45064 - STMicroelectronics X-CUBE-AZRTOS-WL Buffer Overflow Vulnerability
 CVE-2024-50384 - STMicroelectronics X-CUBE-AZRTOS-WL NetX Component HTTP Server Denial of Service Vulnerability
