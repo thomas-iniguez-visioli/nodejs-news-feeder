@@ -8,18 +8,323 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 02 Apr 2025 12:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 16:13:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-1805 - Crypt::Salt for Perl Insecure Salt Generation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1805
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Crypt::Salt for Perl version 0.01 uses insecure rand() function when generating salts for cryptographic purposes.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1805</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1805</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21987 - AMDGPU Uninitialized Value Return Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21987
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+drm/amdgpu: init return value in amdgpu_ttm_clear_buffer
+
+Otherwise an uninitialized value can be returned if
+amdgpu_res_cleared returns true for all regions.
+
+Possibly closes: https://gitlab.freedesktop.org/drm/amd/-/issues/3812
+
+(cherry picked from commit 7c62aacc3b452f73a1284198c81551035fac6d71)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21987</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21987</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21988 - Linux Kernel Netfs Read Collect Data Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21988
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+fs/netfs/read_collect: add to next->prev_donated
+
+If multiple subrequests donate data to the same "next" request
+(depending on the subrequest completion order), each of them would
+overwrite the `prev_donated` field, causing data corruption and a
+BUG() crash ("Can't donate prior to front").
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21988</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21988</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21989 - AMDGPU NULL Pointer Dereference</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21989
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+drm/amd/display: fix missing .is_two_pixels_per_container
+
+Starting from 6.11, AMDGPU driver, while being loaded with amdgpu.dc=1,
+due to lack of .is_two_pixels_per_container function in dce60_tg_funcs,
+causes a NULL pointer dereference on PCs with old GPUs, such as R9 280X.
+
+So this fix adds missing .is_two_pixels_per_container to dce60_tg_funcs.
+
+(cherry picked from commit bd4b125eb949785c6f8a53b0494e32795421209d)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21989</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21989</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21990 - AMDGPU NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21990
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+drm/amdgpu: NULL-check BO's backing store when determining GFX12 PTE flags
+
+PRT BOs may not have any backing store, so bo->tbo.resource will be
+NULL. Check for that before dereferencing.
+
+(cherry picked from commit 3e3fcd29b505cebed659311337ea03b7698767fc)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21990</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21990</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21991 - AMD CPU Microcode Out-of-Bounds Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21991
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+x86/microcode/AMD: Fix out-of-bounds on systems with CPU-less NUMA nodes
+
+Currently, load_microcode_amd() iterates over all NUMA nodes, retrieves their
+CPU masks and unconditionally accesses per-CPU data for the first CPU of each
+mask.
+
+According to Documentation/admin-guide/mm/numaperf.rst:
+
+  "Some memory may share the same node as a CPU, and others are provided as
+  memory only nodes."
+
+Therefore, some node CPU masks may be empty and wouldn't have a "first CPU".
+
+On a machine with far memory (and therefore CPU-less NUMA nodes):
+- cpumask_of_node(nid) is 0
+- cpumask_first(0) is CONFIG_NR_CPUS
+- cpu_data(CONFIG_NR_CPUS) accesses the cpu_info per-CPU array at an
+  index that is 1 out of bounds
+
+This does not have any security implications since flashing microcode is
+a privileged operation but I believe this has reliability implications by
+potentially corrupting memory while flashing a microcode update.
+
+When booting with CONFIG_UBSAN_BOUNDS=y on an AMD machine that flashes
+a microcode update. I get the following splat:
+
+  UBSAN: array-index-out-of-bounds in arch/x86/kernel/cpu/microcode/amd.c:X:Y
+  index 512 is out of range for type 'unsigned long[512]'
+  [...]
+  Call Trace:
+   dump_stack
+   __ubsan_handle_out_of_bounds
+   load_microcode_amd
+   request_microcode_amd
+   reload_store
+   kernfs_fop_write_iter
+   vfs_write
+   ksys_write
+   do_syscall_64
+   entry_SYSCALL_64_after_hwframe
+
+Change the loop to go over only NUMA nodes which have CPUs before determining
+whether the first CPU on the respective node needs microcode update.
+
+  [ bp: Massage commit message, fix typo. ]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21991</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21991</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21992 - HP 5MP Camera HID Sensor Interface Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21992
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+HID: ignore non-functional sensor in HP 5MP Camera
+
+The HP 5MP Camera (USB ID 0408:5473) reports a HID sensor interface that
+is not actually implemented. Attempting to access this non-functional
+sensor via iio_info causes system hangs as runtime PM tries to wake up
+an unresponsive sensor.
+
+  [453] hid-sensor-hub 0003:0408:5473.0003: Report latency attributes: ffffffff:ffffffff
+  [453] hid-sensor-hub 0003:0408:5473.0003: common attributes: 5:1, 2:1, 3:1 ffffffff:ffffffff
+
+Add this device to the HID ignore list since the sensor interface is
+non-functional by design and should not be exposed to userspace.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21992</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21992</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21993 - IBM iSCSI IPv6 Subnet Mask Out-of-Bounds Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21993
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+iscsi_ibft: Fix UBSAN shift-out-of-bounds warning in ibft_attr_show_nic()
+
+When performing an iSCSI boot using IPv6, iscsistart still reads the
+/sys/firmware/ibft/ethernetX/subnet-mask entry. Since the IPv6 prefix
+length is 64, this causes the shift exponent to become negative,
+triggering a UBSAN warning. As the concept of a subnet mask does not
+apply to IPv6, the value is set to ~0 to suppress the warning message.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21993</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21993</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27556 - Django Denial-of-Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27556
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in Django 5.1 before 5.1.8 and 5.0 before 5.0.14. The NFKC normalization is slow on Windows. As a consequence, django.contrib.auth.views.LoginView, django.contrib.auth.views.LogoutView, and django.views.i18n.set_language are subject to a potential denial-of-service attack via certain inputs with a very large number of Unicode characters.
+<br>
+<strong>Severity:</strong> 5.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27556</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27556</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30090 - SquirrelMail MIME PHP XSS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30090
+<br>
+<strong>Published : </strong> April 2, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>mime.php in SquirrelMail through 1.4.23-svn-20250401 and 1.5.x through 1.5.2-svn-20250401 allows XSS via e-mail headers, because JavaScript payloads are mishandled after $encoded has been set to true.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30090</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30090</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2842 - Tempo Operator ClusterRoleBinding Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2842
+<br>
+<strong>Published : </strong> April 2, 2025, 12:15 p.m. | 2 hours, 4 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in the Tempo Operator. When the Jaeger UI Monitor Tab functionality is enabled in a Tempo instance managed by the Tempo Operator, the Operator creates a ClusterRoleBinding for the Service Account of the Tempo instance to grant the cluster-monitoring-view ClusterRole.
+This can be exploited if a user has 'create' permissions on TempoStack and 'get' permissions on Secret in a namespace (for example, a user has ClusterAdmin permissions for a specific namespace), as the user can read the token of the Tempo service account and therefore has access to see all cluster metrics.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2842</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2842</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2786 - Tempo Operator Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2786
+<br>
+<strong>Published : </strong> April 2, 2025, 11:15 a.m. | 3 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in Tempo Operator, where it creates a ServiceAccount, ClusterRole, and ClusterRoleBinding when a user deploys a TempoStack or TempoMonolithic instance. This flaw allows a user with full access to their namespace to extract the ServiceAccount token and use it to submit TokenReview and SubjectAccessReview requests, potentially revealing information about other users' permissions. While this does not allow privilege escalation or impersonation, it exposes information that could aid in gathering information for further attacks.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2786</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2786</guid>
+    </item>
+    <item>
       <title>CVE-2024-12410 - WordPress Front End Users SQL Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-12410
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>The Front End Users plugin for WordPress is vulnerable to SQL Injection via the 'UserSearchField' parameter in all versions up to, and including, 3.2.32 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 <br>
@@ -36,7 +341,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13637
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>The Demo Awesome plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the install_plugin function in all versions up to, and including, 1.0.3. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins..
 <br>
@@ -53,7 +358,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2005
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>The Front End Users plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the file uploads field of the registration form in all versions up to, and including, 3.2.32. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 <br>
@@ -70,7 +375,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2483
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>The Gift Certificate Creator plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘receip_address’ parameter in all versions up to, and including, 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
 <br>
@@ -87,7 +392,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2513
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>The Smart Icons For WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Editor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
 <br>
@@ -104,7 +409,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3063
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>The Shopper Approved Reviews plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the ajax_callback_update_sa_option() function in versions 2.0 to 2.1. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
 <br>
@@ -121,7 +426,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3097
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>The wp Time Machine plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.4.0. This is due to missing or incorrect nonce validation on the 'wpTimeMachineCore.php' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -138,7 +443,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3098
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>The Video Url plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'id' parameter in all versions up to, and including, 1.0.0.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
 <br>
@@ -155,7 +460,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3099
 <br>
-<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 10:15 a.m. | 4 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>The Advanced Search by My Solr Server plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.0.5. This is due to missing or incorrect nonce validation on the 'MySolrServerSettings' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -216,7 +521,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-40714
 <br>
-<strong>Published : </strong> April 2, 2025, 8:15 a.m. | 2 hours, 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 8:15 a.m. | 6 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>A relative path traversal in Fortinet FortiSIEM versions 7.0.0, 6.7.0 through 6.7.2, 6.6.0 through 6.6.3, 6.5.1, 6.5.0 allows attacker to escalate privilege via uploading certain GUI elements
 <br>
@@ -233,7 +538,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-39780
 <br>
-<strong>Published : </strong> April 2, 2025, 8:15 a.m. | 2 hours, 50 minutes ago
+<strong>Published : </strong> April 2, 2025, 8:15 a.m. | 6 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>A YAML deserialization vulnerability was found in the Robot Operating System (ROS) 'dynparam', a command-line tool for getting, setting, and deleting parameters of a dynamically configurable node, affecting ROS distributions Noetic and earlier. The issue is caused by the use of the yaml.load() function in the 'set' and 'get' verbs, and allows for the creation of arbitrary Python objects. Through this flaw, a local or remote user can craft and execute arbitrary Python code. This issue has now been fixed for ROS Noetic via commit 3d93ac13603438323d7e9fa74e879e45c5fe2e8e.
 <br>
@@ -244,6 +549,40 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 02 Apr 2025 08:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2024-39780</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2024-39780</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0415 - F5 Networks NTP Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0415
+<br>
+<strong>Published : </strong> April 2, 2025, 7:15 a.m. | 7 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>A remote attacker with web administrator privileges can exploit the device’s web interface to execute arbitrary system commands through the NTP settings. Successful exploitation may result in the device entering an infinite reboot loop, leading to a total or partial denial of connectivity for downstream systems that rely on its network services.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0415</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0415</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0676 - Moxa tcpdump Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0676
+<br>
+<strong>Published : </strong> April 2, 2025, 7:15 a.m. | 7 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>This vulnerability involves command injection in tcpdump within Moxa products, enabling an authenticated attacker with console access to exploit improper input validation to inject and execute systems commands. Successful exploitation could result in privilege escalation, allowing the attacker to gain root shell access and maintain persistent control over the device, potentially disrupting network services and affecting the availability of downstream systems that rely on its connectivity.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0676</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0676</guid>
     </item>
     <item>
       <title>CVE-2024-36469 - Apache HTTP Server Authentication Bypass</title>
@@ -312,40 +651,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 02 Apr 2025 07:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2024-45700</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2024-45700</guid>
-    </item>
-    <item>
-      <title>CVE-2025-0415 - F5 Networks NTP Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-0415
-<br>
-<strong>Published : </strong> April 2, 2025, 7:15 a.m. | 3 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>A remote attacker with web administrator privileges can exploit the device’s web interface to execute arbitrary system commands through the NTP settings. Successful exploitation may result in the device entering an infinite reboot loop, leading to a total or partial denial of connectivity for downstream systems that rely on its network services.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 02 Apr 2025 07:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-0415</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0415</guid>
-    </item>
-    <item>
-      <title>CVE-2025-0676 - Moxa tcpdump Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-0676
-<br>
-<strong>Published : </strong> April 2, 2025, 7:15 a.m. | 3 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>This vulnerability involves command injection in tcpdump within Moxa products, enabling an authenticated attacker with console access to exploit improper input validation to inject and execute systems commands. Successful exploitation could result in privilege escalation, allowing the attacker to gain root shell access and maintain persistent control over the device, potentially disrupting network services and affecting the availability of downstream systems that rely on its connectivity.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 02 Apr 2025 07:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-0676</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0676</guid>
     </item>
     <item>
       <title>CVE-2024-36465 - Zabbix SQL Injection Vulnerability</title>
