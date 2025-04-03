@@ -8,18 +8,445 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 02 Apr 2025 18:14:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 06:15:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3136 - PyTorch CUDA Caching Allocator Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3136
+<br>
+<strong>Published : </strong> April 3, 2025, 4:15 a.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in PyTorch 2.6.0. This issue affects the function torch.cuda.memory.caching_allocator_delete of the file c10/cuda/CUDACachingAllocator.cpp. The manipulation leads to memory corruption. An attack has to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3136</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3136</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3137 - PHPGurukul Online Security Guards Hiring System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3137
+<br>
+<strong>Published : </strong> April 3, 2025, 4:15 a.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Online Security Guards Hiring System 1.0. Affected is an unknown function of the file /admin/changeimage.php. The manipulation of the argument editid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3137</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3137</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3138 - PHPGurukul Online Security Guards Hiring System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3138
+<br>
+<strong>Published : </strong> April 3, 2025, 4:15 a.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in PHPGurukul Online Security Guards Hiring System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/edit-guard-detail.php. The manipulation of the argument editid leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3138</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3138</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3139 - Code-projects Bus Reservation System Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3139
+<br>
+<strong>Published : </strong> April 3, 2025, 4:15 a.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Bus Reservation System 1.0 and classified as critical. Affected by this issue is the function Login of the component Login Form. The manipulation of the argument Str1 leads to buffer overflow. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3139</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3139</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29991 - Yubico YubiKey FIDO CTAP PIN/UV Auth Protocol Two Signature Verification Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29991
+<br>
+<strong>Published : </strong> April 3, 2025, 3:15 a.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Yubico YubiKey 5.4.1 through 5.7.3 before 5.7.4 has an incorrect FIDO CTAP PIN/UV Auth Protocol Two implementation. It uses the signature length from CTAP PIN/UV Auth Protocol One, even when CTAP PIN/UV Auth Protocol Two was chosen, resulting in a partial signature verification.
+<br>
+<strong>Severity:</strong> 2.2 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29991</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29991</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2784 - Libsoup HTTP Response Heap Buffer Over-Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2784
+<br>
+<strong>Published : </strong> April 3, 2025, 3:15 a.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in libsoup. The package is vulnerable to a heap buffer over-read when sniffing content via the skip_insight_whitespace() function. Libsoup clients may read one byte out-of-bounds in response to a crafted HTTP response by an HTTP server.
+<br>
+<strong>Severity:</strong> 7.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2784</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2784</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3134 - Code-Projects Payroll Management System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3134
+<br>
+<strong>Published : </strong> April 3, 2025, 2:15 a.m. | 2 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Payroll Management System 1.0. This affects an unknown part of the file /add_overtime.php. The manipulation of the argument rate leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3134</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3134</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3135 - "fcba_zzm ICS-Park Smart Park Management System SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3135
+<br>
+<strong>Published : </strong> April 3, 2025, 2:15 a.m. | 2 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in fcba_zzm ics-park Smart Park Management System 2.1. This vulnerability affects unknown code of the file /api/system/dept/update. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3135</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3135</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3153 - Concrete CMS Address Attribute Cross-Site Request Forgery and Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3153
+<br>
+<strong>Published : </strong> April 3, 2025, 2:15 a.m. | 2 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>Concrete CMS version 9 below 9.4.0RC2 and versions below 8.5.20 are vulnerable to CSRF and XSS in the Concrete CMS Address attribute because addresses are not properly sanitized in the output when a country is not specified.  Attackers are limited to individuals whom a site administrator has granted the ability to fill in an address attribute. It is possible for the attacker to glean limited information from the site but amount and type is restricted by mitigating controls and the level of access of the attacker. Limited data modification is possible. The dashboard page itself could be rendered unavailable. 
+The fix only sanitizes new data uploaded post update to Concrete CMS 9.4.0RC2. Existing database entries added before the update will still be “live” if there were successful exploits added under previous versions; a database search is recommended. The Concrete CMS security team gave this vulnerability CVSS v.4.0 score of 5.1  with vector CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L Thanks Myq Larson for reporting.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3153</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3153</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3123 - WonderCMS Unrestricted File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3123
+<br>
+<strong>Published : </strong> April 2, 2025, 11:15 p.m. | 5 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in WonderCMS 3.5.0. Affected by this issue is the function installUpdateModuleAction of the component Theme Installation/Plugin Installation. The manipulation leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The vendor explains, that "[t]he philosophy has always been, admin [...] bear responsibility to not install themes/plugins from untrusted sources."
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3123</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3123</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3154 - Xpdf Out-of-bounds Array Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3154
+<br>
+<strong>Published : </strong> April 2, 2025, 11:15 p.m. | 5 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>Out-of-bounds array write in Xpdf 4.05 and earlier, triggered by an invalid VerticesPerRow value in a PDF shading dictionary.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3154</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3154</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0257 - HCL DevOps Deploy/HCL Launch Agent Relay Authentication Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0257
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>HCL DevOps Deploy / HCL Launch could allow unauthorized access to other services or potential exposure of sensitive data due to missing authentication in its Agent Relay service.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0257</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0257</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27608 - Arduino IDE Theia Framework Electron Self Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27608
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>Arduino IDE 2.x is an IDE based on the Theia IDE framework and built with Electron. A Self Cross-Site Scripting (XSS) vulnerability has been identified within the Arduino-IDE prior to version v2.3.5. The vulnerability occurs in the Additional Board Manager URLs field, which can be found in the Preferences -> Settings section of the Arduino IDE interface. In the vulnerable versions, any values entered in this field are directly displayed to the user through a notification tooltip object, without a proper output encoding routine, due to the underlying ElectronJS engine interpretation. This vulnerability exposes the input parameter to Self-XSS attacks, which may lead to security risks depending on where the malicious payload is injected. This vulnerability is fixed in 2.3.5.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27608</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27608</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30218 - Next.js Cross-Origin Request Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30218
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>Next.js is a React framework for building full-stack web applications. To mitigate CVE-2025-29927, Next.js validated the x-middleware-subrequest-id which persisted across multiple incoming requests. However, this subrequest ID is sent to all requests, even if the destination is not the same host as the Next.js application. Initiating a fetch request to a third-party within Middleware will send the x-middleware-subrequest-id to that third party. This vulnerability is fixed in 12.3.6, 13.5.10, 14.2.26, and 15.2.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30218</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30218</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31477 - Tauri Shell Plugin Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31477
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>The Tauri shell plugin allows access to the system shell. Prior to 2.2.1, the Tauri shell plugin exposes functionality to execute code and open programs on the system. The open endpoint of this plugin is designed to allow open functionality with the system opener (e.g. xdg-open on Linux). This was meant to be restricted to a reasonable number of protocols like https or mailto by default. This default restriction was not functional due to improper validation of the allowed protocols, allowing for potentially dangerous protocols like file://, smb://, or nfs:// and others to be opened by the system registered protocol handler. By passing untrusted user input to the open endpoint these potentially dangerous protocols can be abused to gain remote code execution on the system. This either requires direct exposure of the endpoint to application users or code execution in the frontend of a Tauri application. This vulnerability is fixed in 2.2.1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31477</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31477</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31479 - GitHub Get-Workflow-Version-Action Token Truncation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31479
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>canonical/get-workflow-version-action is a GitHub composite action to get commit SHA that GitHub Actions reusable workflow was called with. Prior to 1.0.1, if the get-workflow-version-action step fails, the exception output may include the GITHUB_TOKEN. If the full token is included in the exception output, GitHub will automatically redact the secret from the GitHub Actions logs. However, the token may be truncated—causing part of the GITHUB_TOKEN to be displayed in plaintext in the GitHub Actions logs. Anyone with read access to the GitHub repository can view GitHub Actions logs. For public repositories, anyone can view the GitHub Actions logs. The opportunity to exploit this vulnerability is limited—the GITHUB_TOKEN is automatically revoked when the job completes. However, there is an opportunity for an attack in the time between the GITHUB_TOKEN being displayed in the logs and the completion of the job. Users using the github-token input are impacted. This vulnerability is fixed in 1.0.1.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31479</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31479</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31484 - Conda-Forge Azure CF-Staging Token Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31484
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>conda-forge infrastructure holds common configurations and settings for key pieces of the conda-forge infrastructure.
+Between 2025-02-10 and 2025-04-01, conda-forge infrastructure used the wrong token for Azure's cf-staging access. This bug meant that any feedstock maintainer could upload a package to the conda-forge channel, bypassing our feedstock-token + upload process. The security logs on anaconda.org were check for any packages that were not copied from the cf-staging to the conda-forge channel and none were found.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31484</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31484</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3119 - SourceCodester Online Tutor Portal SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3119
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Online Tutor Portal 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /tutor/courses/manage_course.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3119</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3119</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3120 - "SourceCodester Apartment Visitors Management System SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3120
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Apartment Visitors Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /add-apartment.php. The manipulation of the argument apartmentno leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3120</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3120</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3121 - PyTorch Memory Corruption (Local Access)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3121
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in PyTorch 2.6.0. Affected is the function torch.jit.jit_module_from_flatbuffer. The manipulation leads to memory corruption. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3121</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3121</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3122 - Microsoft WebAssembly wabt Null Pointer Dereference Remote Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3122
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic was found in WebAssembly wabt 1.0.36. Affected by this vulnerability is the function BinaryReaderInterp::BeginFunctionBody of the file src/interp/binary-reader-interp.cc. The manipulation leads to null pointer dereference. The attack can be launched remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3122</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3122</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3129 - Drupal Access Code Excessive Authentication Brute Force Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3129
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>Improper Restriction of Excessive Authentication Attempts vulnerability in Drupal Access code allows Brute Force.This issue affects Access code: from 0.0.0 before 2.0.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3129</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3129</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3130 - Drupal Obfuscate Cross-site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3130
+<br>
+<strong>Published : </strong> April 2, 2025, 10:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Drupal Obfuscate allows Stored XSS.This issue affects Obfuscate: from 0.0.0 before 2.0.1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3130</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3130</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30080 - Pexip Infinity Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30080
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 7 hours, 47 minutes ago
+<br>
+<strong>Description : </strong>Signalling in Pexip Infinity 29 through 36.2 before 37.0 has improper input validation that allows remote attackers to trigger a temporary denial of service (software abort).
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30080</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30080</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3118 - SourceCodester Online Tutor Portal SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3118
+<br>
+<strong>Published : </strong> April 2, 2025, 9:15 p.m. | 7 hours, 47 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Online Tutor Portal 1.0. It has been classified as critical. This affects an unknown part of the file /tutor/courses/view_course.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3118</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3118</guid>
+    </item>
+    <item>
       <title>CVE-2024-56474 - IBM TXSeries for Multiplatforms CSRF Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-56474
 <br>
-<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 59 minutes ago
+<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 2 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>IBM TXSeries for Multiplatforms 9.1 and 11.1 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts.
 <br>
@@ -36,7 +463,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-56475
 <br>
-<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 59 minutes ago
+<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 2 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>IBM TXSeries for Multiplatforms 9.1 and 11.1 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
 <br>
@@ -53,7 +480,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-56476
 <br>
-<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 59 minutes ago
+<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 2 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>IBM TXSeries for Multiplatforms 9.1 and 11.1 could allow an attacker to enumerate usernames due to an observable login attempt response discrepancy.
 <br>
@@ -70,7 +497,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0154
 <br>
-<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 59 minutes ago
+<strong>Published : </strong> April 2, 2025, 4:17 p.m. | 2 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>IBM TXSeries for Multiplatforms 9.1 and 11.1 could disclose sensitive information to a remote attacker due to improper neutralization of HTTP headers.
 <br>
@@ -87,7 +514,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31725
 <br>
-<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 2 hours, 1 minute ago
+<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>Jenkins monitor-remote-job Plugin 1.0 stores passwords unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
 <br>
@@ -104,7 +531,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31726
 <br>
-<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 2 hours, 1 minute ago
+<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>Jenkins Stack Hammer Plugin 1.0.6 and earlier stores Stack Hammer API keys unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
 <br>
@@ -121,7 +548,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31727
 <br>
-<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 2 hours, 1 minute ago
+<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>Jenkins AsakusaSatellite Plugin 0.1.1 and earlier stores AsakusaSatellite API keys unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
 <br>
@@ -138,7 +565,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31728
 <br>
-<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 2 hours, 1 minute ago
+<strong>Published : </strong> April 2, 2025, 3:16 p.m. | 3 hours, 44 minutes ago
 <br>
 <strong>Description : </strong>Jenkins AsakusaSatellite Plugin 0.1.1 and earlier does not mask AsakusaSatellite API keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
 <br>
@@ -149,6 +576,74 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 02 Apr 2025 15:16:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-31728</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-31728</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31721 - Jenkins Missing Permission Check Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31721
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 3 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>A missing permission check in Jenkins 2.503 and earlier, LTS 2.492.2 and earlier allows attackers with Computer/Create permission but without Computer/Configure permission to copy an agent, gaining access to encrypted secrets in its configuration.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31721</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31721</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31722 - Jenkins Templating Engine Plugin Sandbox Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31722
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 3 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>In Jenkins Templating Engine Plugin 2.5.3 and earlier, libraries defined in folders are not subject to sandbox protection, allowing attackers with Item/Configure permission to execute arbitrary code in the context of the Jenkins controller JVM.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31722</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31722</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31723 - Jenkins Simple Queue Plugin CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31723
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 3 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>A cross-site request forgery (CSRF) vulnerability in Jenkins Simple Queue Plugin 1.4.6 and earlier allows attackers to change and reset the build queue order.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31723</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31723</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31724 - Jenkins Cadence vManager Plugin Unencrypted API Key Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31724
+<br>
+<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 3 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Cadence vManager Plugin 4.0.0-282.v5096a_c2db_275 and earlier stores Verisium Manager vAPI keys unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31724</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31724</guid>
     </item>
     <item>
       <title>CVE-2024-25051 - IBM Jazz Reporting Service Session Impersonation Vulnerability</title>
@@ -200,74 +695,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-31720</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-31720</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31721 - Jenkins Missing Permission Check Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31721
-<br>
-<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>A missing permission check in Jenkins 2.503 and earlier, LTS 2.492.2 and earlier allows attackers with Computer/Create permission but without Computer/Configure permission to copy an agent, gaining access to encrypted secrets in its configuration.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31721</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31721</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31722 - Jenkins Templating Engine Plugin Sandbox Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31722
-<br>
-<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>In Jenkins Templating Engine Plugin 2.5.3 and earlier, libraries defined in folders are not subject to sandbox protection, allowing attackers with Item/Configure permission to execute arbitrary code in the context of the Jenkins controller JVM.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31722</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31722</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31723 - Jenkins Simple Queue Plugin CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31723
-<br>
-<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>A cross-site request forgery (CSRF) vulnerability in Jenkins Simple Queue Plugin 1.4.6 and earlier allows attackers to change and reset the build queue order.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31723</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31723</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31724 - Jenkins Cadence vManager Plugin Unencrypted API Key Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31724
-<br>
-<strong>Published : </strong> April 2, 2025, 3:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Jenkins Cadence vManager Plugin 4.0.0-282.v5096a_c2db_275 and earlier stores Verisium Manager vAPI keys unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 02 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31724</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31724</guid>
     </item>
     <item>
       <title>CVE-2025-21994 - Linux ksmbd Integer Overflow Vulnerability</title>
