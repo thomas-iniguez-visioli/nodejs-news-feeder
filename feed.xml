@@ -8,12 +8,746 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 03 Apr 2025 06:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 10:11:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2024-13673 - WordPress Big Boom Directory Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13673
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>The Big Boom Directory plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'bbd-search' shortcode in all versions up to, and including, 2.5.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13673</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13673</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1663 - Elementor Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1663
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>The Unlimited Elements For Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several widgets in all versions up to, and including, 1.5.142 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1663</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1663</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21995 - Linux Kernel DRM Fence Reference Count Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21995
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+drm/sched: Fix fence reference count leak
+
+The last_scheduled fence leaks when an entity is being killed and adding
+the cleanup callback fails.
+
+Decrement the reference count of prev when dma_fence_add_callback()
+fails, ensuring proper balance.
+
+[phasta: add git tag info for stable kernel]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21995</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21995</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21996 - Radeon Linux Kernel Uninitialized Variable Use</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21996
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+drm/radeon: fix uninitialized size issue in radeon_vce_cs_parse()
+
+On the off chance that command stream passed from userspace via
+ioctl() call to radeon_vce_cs_parse() is weirdly crafted and
+first command to execute is to encode (case 0x03000001), the function
+in question will attempt to call radeon_vce_cs_reloc() with size
+argument that has not been properly initialized. Specifically, 'size'
+will point to 'tmp' variable before the latter had a chance to be
+assigned any value.
+
+Play it safe and init 'tmp' with 0, thus ensuring that
+radeon_vce_cs_reloc() will catch an early error in cases like these.
+
+Found by Linux Verification Center (linuxtesting.org) with static
+analysis tool SVACE.
+
+(cherry picked from commit 2d52de55f9ee7aaee0e09ac443f77855989c6b68)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21996</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21996</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21997 - Linux Kernel xsk Integer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21997
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+xsk: fix an integer overflow in xp_create_and_assign_umem()
+
+Since the i and pool->chunk_size variables are of type 'u32',
+their product can wrap around and then be cast to 'u64'.
+This can lead to two different XDP buffers pointing to the same
+memory area.
+
+Found by InfoTeCS on behalf of Linux Verification Center
+(linuxtesting.org) with SVACE.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21997</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21997</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21998 - Apache Firmware Null Pointer Dereference</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21998
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+firmware: qcom: uefisecapp: fix efivars registration race
+
+Since the conversion to using the TZ allocator, the efivars service is
+registered before the memory pool has been allocated, something which
+can lead to a NULL-pointer dereference in case of a racing EFI variable
+access.
+
+Make sure that all resources have been set up before registering the
+efivars.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21998</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21998</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21999 - Apache Linux proc UAF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21999
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+proc: fix UAF in proc_get_inode()
+
+Fix race between rmmod and /proc/XXX's inode instantiation.
+
+The bug is that pde->proc_ops don't belong to /proc, it belongs to a
+module, therefore dereferencing it after /proc entry has been registered
+is a bug unless use_pde/unuse_pde() pair has been used.
+
+use_pde/unuse_pde can be avoided (2 atomic ops!) because pde->proc_ops
+never changes so information necessary for inode instantiation can be
+saved _before_ proc_register() in PDE itself and used later, avoiding
+pde->proc_ops->...  dereference.
+
+      rmmod                         lookup
+sys_delete_module
+                         proc_lookup_de
+			   pde_get(de);
+			   proc_get_inode(dir->i_sb, de);
+  mod->exit()
+    proc_remove
+      remove_proc_subtree
+       proc_entry_rundown(de);
+  free_module(mod);
+
+                               if (S_ISREG(inode->i_mode))
+	                         if (de->proc_ops->proc_read_iter)
+                           --> As module is already freed, will trigger UAF
+
+BUG: unable to handle page fault for address: fffffbfff80a702b
+PGD 817fc4067 P4D 817fc4067 PUD 817fc0067 PMD 102ef4067 PTE 0
+Oops: Oops: 0000 [#1] PREEMPT SMP KASAN PTI
+CPU: 26 UID: 0 PID: 2667 Comm: ls Tainted: G
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996)
+RIP: 0010:proc_get_inode+0x302/0x6e0
+RSP: 0018:ffff88811c837998 EFLAGS: 00010a06
+RAX: dffffc0000000000 RBX: ffffffffc0538140 RCX: 0000000000000007
+RDX: 1ffffffff80a702b RSI: 0000000000000001 RDI: ffffffffc0538158
+RBP: ffff8881299a6000 R08: 0000000067bbe1e5 R09: 1ffff11023906f20
+R10: ffffffffb560ca07 R11: ffffffffb2b43a58 R12: ffff888105bb78f0
+R13: ffff888100518048 R14: ffff8881299a6004 R15: 0000000000000001
+FS:  00007f95b9686840(0000) GS:ffff8883af100000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: fffffbfff80a702b CR3: 0000000117dd2000 CR4: 00000000000006f0
+DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+Call Trace:
+ <TASK>
+ proc_lookup_de+0x11f/0x2e0
+ __lookup_slow+0x188/0x350
+ walk_component+0x2ab/0x4f0
+ path_lookupat+0x120/0x660
+ filename_lookup+0x1ce/0x560
+ vfs_statx+0xac/0x150
+ __do_sys_newstat+0x96/0x110
+ do_syscall_64+0x5f/0x170
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+[adobriyan@gmail.com: don't do 2 atomic ops on the common path]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21999</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21999</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22000 - Linux Kernel Memory Leak in Huge Memory Folios</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22000
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+mm/huge_memory: drop beyond-EOF folios with the right number of refs
+
+When an after-split folio is large and needs to be dropped due to EOF,
+folio_put_refs(folio, folio_nr_pages(folio)) should be used to drop all
+page cache refs.  Otherwise, the folio will not be freed, causing memory
+leak.
+
+This leak would happen on a filesystem with blocksize > page_size and a
+truncate is performed, where the blocksize makes folios split to >0 order
+ones, causing truncated folios not being freed.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22000</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22000</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22001 - "Qualcomm Accelerator Integer Overflow Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22001
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+accel/qaic: Fix integer overflow in qaic_validate_req()
+
+These are u64 variables that come from the user via
+qaic_attach_slice_bo_ioctl().  Use check_add_overflow() to ensure that
+the math doesn't have an integer wrapping bug.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22001</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22001</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22002 - HP Linux Kernel Netfs NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22002
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+netfs: Call `invalidate_cache` only if implemented
+
+Many filesystems such as NFS and Ceph do not implement the
+`invalidate_cache` method.  On those filesystems, if writing to the
+cache (`NETFS_WRITE_TO_CACHE`) fails for some reason, the kernel
+crashes like this:
+
+ BUG: kernel NULL pointer dereference, address: 0000000000000000
+ #PF: supervisor instruction fetch in kernel mode
+ #PF: error_code(0x0010) - not-present page
+ PGD 0 P4D 0
+ Oops: Oops: 0010 [#1] SMP PTI
+ CPU: 9 UID: 0 PID: 3380 Comm: kworker/u193:11 Not tainted 6.13.3-cm4all1-hp #437
+ Hardware name: HP ProLiant DL380 Gen9/ProLiant DL380 Gen9, BIOS P89 10/17/2018
+ Workqueue: events_unbound netfs_write_collection_worker
+ RIP: 0010:0x0
+ Code: Unable to access opcode bytes at 0xffffffffffffffd6.
+ RSP: 0018:ffff9b86e2ca7dc0 EFLAGS: 00010202
+ RAX: 0000000000000000 RBX: 0000000000000000 RCX: 7fffffffffffffff
+ RDX: 0000000000000001 RSI: ffff89259d576a18 RDI: ffff89259d576900
+ RBP: ffff89259d5769b0 R08: ffff9b86e2ca7d28 R09: 0000000000000002
+ R10: ffff89258ceaca80 R11: 0000000000000001 R12: 0000000000000020
+ R13: ffff893d158b9338 R14: ffff89259d576900 R15: ffff89259d5769b0
+ FS:  0000000000000000(0000) GS:ffff893c9fa40000(0000) knlGS:0000000000000000
+ CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+ CR2: ffffffffffffffd6 CR3: 000000054442e003 CR4: 00000000001706f0
+ Call Trace:
+  <TASK>
+  ? __die+0x1f/0x60
+  ? page_fault_oops+0x15c/0x460
+  ? try_to_wake_up+0x2d2/0x530
+  ? exc_page_fault+0x5e/0x100
+  ? asm_exc_page_fault+0x22/0x30
+  netfs_write_collection_worker+0xe9f/0x12b0
+  ? xs_poll_check_readable+0x3f/0x80
+  ? xs_stream_data_receive_workfn+0x8d/0x110
+  process_one_work+0x134/0x2d0
+  worker_thread+0x299/0x3a0
+  ? __pfx_worker_thread+0x10/0x10
+  kthread+0xba/0xe0
+  ? __pfx_kthread+0x10/0x10
+  ret_from_fork+0x30/0x50
+  ? __pfx_kthread+0x10/0x10
+  ret_from_fork_asm+0x1a/0x30
+  </TASK>
+ Modules linked in:
+ CR2: 0000000000000000
+
+This patch adds the missing `NULL` check.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22002</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22002</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22003 - Linux Kernel CAN Ucan Out-of-Bound Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22003
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+can: ucan: fix out of bound read in strscpy() source
+
+Commit 7fdaf8966aae ("can: ucan: use strscpy() to instead of strncpy()")
+unintentionally introduced a one byte out of bound read on strscpy()'s
+source argument (which is kind of ironic knowing that strscpy() is meant
+to be a more secure alternative :)).
+
+Let's consider below buffers:
+
+  dest[len + 1]; /* will be NUL terminated */
+  src[len]; /* may not be NUL terminated */
+
+When doing:
+
+  strncpy(dest, src, len);
+  dest[len] = '\0';
+
+strncpy() will read up to len bytes from src.
+
+On the other hand:
+
+  strscpy(dest, src, len + 1);
+
+will read up to len + 1 bytes from src, that is to say, an out of bound
+read of one byte will occur on src if it is not NUL terminated. Note
+that the src[len] byte is never copied, but strscpy() still needs to
+read it to check whether a truncation occurred or not.
+
+This exact pattern happened in ucan.
+
+The root cause is that the source is not NUL terminated. Instead of
+doing a copy in a local buffer, directly NUL terminate it as soon as
+usb_control_msg() returns. With this, the local firmware_str[] variable
+can be removed.
+
+On top of this do a couple refactors:
+
+  - ucan_ctl_payload->raw is only used for the firmware string, so
+    rename it to ucan_ctl_payload->fw_str and change its type from u8 to
+    char.
+
+  - ucan_device_request_in() is only used to retrieve the firmware
+    string, so rename it to ucan_get_fw_str() and refactor it to make it
+    directly handle all the string termination logic.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22003</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22003</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22004 - Linux Kernel Use After Free Vulnerability in ATM Net</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22004
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: atm: fix use after free in lec_send()
+
+The ->send() operation frees skb so save the length before calling
+->send() to avoid a use after free.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22004</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22004</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22005 - Linux Kernel IPv6 Memory Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22005
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ipv6: Fix memleak of nhc_pcpu_rth_output in fib_check_nh_v6_gw().
+
+fib_check_nh_v6_gw() expects that fib6_nh_init() cleans up everything
+when it fails.
+
+Commit 7dd73168e273 ("ipv6: Always allocate pcpu memory in a fib6_nh")
+moved fib_nh_common_init() before alloc_percpu_gfp() within fib6_nh_init()
+but forgot to add cleanup for fib6_nh->nh_common.nhc_pcpu_rth_output in
+case it fails to allocate fib6_nh->rt6i_pcpu, resulting in memleak.
+
+Let's call fib_nh_common_release() and clear nhc_pcpu_rth_output in the
+error path.
+
+Note that we can remove the fib6_nh_release() call in nh_create_ipv6()
+later in net-next.git.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22005</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22005</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22006 - Cisco Ethernet Linux Kernel NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22006
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: ethernet: ti: am65-cpsw: Fix NAPI registration sequence
+
+Registering the interrupts for TX or RX DMA Channels prior to registering
+their respective NAPI callbacks can result in a NULL pointer dereference.
+This is seen in practice as a random occurrence since it depends on the
+randomness associated with the generation of traffic by Linux and the
+reception of traffic from the wire.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22006</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22006</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22007 - Linux Bluetooth NULL Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22007
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+Bluetooth: Fix error code in chan_alloc_skb_cb()
+
+The chan_alloc_skb_cb() function is supposed to return error pointers on
+error.  Returning NULL will lead to a NULL dereference.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22007</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22007</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2874 - WordPress User Submitted Posts Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2874
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>The User Submitted Posts – Enable Users to Submit Posts from the Front End plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 20240319 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+<br>
+<strong>Severity:</strong> 4.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2874</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2874</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3149 - "ITing Student Homework Management System Cross-Site Scripting Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3149
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in itning Student Homework Management System up to 1.2.7. It has been classified as problematic. Affected is an unknown function of the file /shw_war/fileupload of the component Edit Job Page. The manipulation of the argument Course leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3149</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3149</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3150 - "Inting Student Homework Management System Cross-Site Request Forgery Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3150
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in itning Student Homework Management System up to 1.2.7. It has been declared as problematic. Affected by this vulnerability is an unknown functionality. The manipulation leads to cross-site request forgery. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Multiple endpoints might be affected.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3150</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3150</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3151 - SourceCodester Gym Management System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3151
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Gym Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /signup.php. The manipulation of the argument user_name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3151</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3151</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3152 - Caipeichao ThinkOX Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3152
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 57 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in caipeichao ThinkOX 1.0. This affects an unknown part of the file /ThinkOX-master/index.php?s=/Weibo/Index/search.html of the component Search. The manipulation of the argument keywords leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3152</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3152</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30485 - FutureNet Router Symlink Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30485
+<br>
+<strong>Published : </strong> April 3, 2025, 7:15 a.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>UNIX symbolic link (Symlink) following issue exists in FutureNet NXR series, VXR series and WXR series routers. Attaching to the affected product an external storage containing malicious symbolic link files, a logged-in administrative user may obtain and/or destroy internal files.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30485</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30485</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3145 - MindSpore FFT Local Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3145
+<br>
+<strong>Published : </strong> April 3, 2025, 7:15 a.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in MindSpore 2.5.0. Affected by this issue is the function mindspore.numpy.fft.rfft2. The manipulation leads to memory corruption. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3145</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3145</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3146 - PHPGurukul Bus Pass Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3146
+<br>
+<strong>Published : </strong> April 3, 2025, 7:15 a.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Bus Pass Management System 1.0. This affects an unknown part of the file /view-pass-detail.php. The manipulation of the argument viewid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3146</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3146</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3147 - PHPGurukul Boat Booking System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3147
+<br>
+<strong>Published : </strong> April 3, 2025, 7:15 a.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in PHPGurukul Boat Booking System 1.0 and classified as critical. This vulnerability affects unknown code of the file /add-subadmin.php. The manipulation of the argument sadminusername leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3147</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3147</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3148 - "Codeprojects Product Management System Buffer Overflow Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3148
+<br>
+<strong>Published : </strong> April 3, 2025, 7:15 a.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in codeprojects Product Management System 1.0 and classified as problematic. This issue affects some unknown processing of the component Login. The manipulation of the argument Str1 leads to buffer overflow. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3148</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3148</guid>
+    </item>
+    <item>
+      <title>Le centre de certification de l’ANSSI émet ses premiers certificats EUCC </title>
+      <description><![CDATA[<p><span class="field field--name-title field--type-string field--label-hidden">Le centre de certification de l’ANSSI émet ses premiers certificats EUCC </span>
+
+            <div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><picture class="image-banniere"><source media="(max-width:766px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_767_400/public/image/actu_web_schema_eucc.png?h=284f21b9&itok=mPNvBm6s"></source><source media="(min-width:768px) and (max-width:999px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1200_350/public/image/actu_web_schema_eucc.png?h=284f21b9&itok=r6vkbIzu"></source><source media="(min-width:1000px) and (max-width:1200px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1200_250/public/image/actu_web_schema_eucc.png?h=284f21b9&itok=RjL59fI6"></source><source media="(min-width:1201px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1920_328/public/image/actu_web_schema_eucc.png?h=284f21b9&itok=mQKvbC9W"></source><img src="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_767_400/public/image/actu_web_schema_eucc.png?h=284f21b9&itok=mPNvBm6s" /></picture></div>
+      <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span>anssiadm</span></span>
+<span class="field field--name-created field--type-created field--label-hidden"><time datetime="2025-04-03T06:40:40+00:00" title="Jeudi 3 Avril 2025 - 06:40" class="datetime">jeu 03/04/2025 - 06:40</time></span>
+
+            <div class="field field--name-field-chapo field--type-string-long field--label-hidden field__item">Un an après l’adoption du schéma de certification européen EUCC, l’ANSSI reçoit l’accréditation du Cofrac et publie deux premiers certificats EUCC.</div>
+      
+      <div class="field field--name-field-corps field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--op-texte-riche paragraph--view-mode--default">
+    <div class="text-riche">
+      
+            <div class="clearfix text-formatted field field--name-field-texte-riche field--type-text-long field--label-hidden field__item"><p>Le <strong>schéma européen de certification selon les critères communs ( EUCC)</strong> est entré en vigueur en février 2024 dans le cadre de la mise en œuvre du règlement européen sur la cybersécurité (<em><a href="https://cyber.gouv.fr/cybersecurity-act">Cybersecurity Act</a></em><u>)</u>. Il vise à garantir que les produits des technologies de l’information et de la communication tels que les composants technologiques, le matériel et les logiciels, répondent à des normes de sécurité strictes. Le but : renforcer la cybersécurité et garantir la cohérence des approches dans l’ensemble de l’Union européenne.</p>
+<p>L’ANSSI est l’autorité nationale de certification de cybersécurité, à double titre. D’une part, l<strong>e Centre de certification national de l’ANSSI (CCN) est en charge de délivrer les certifications pour le niveau élevé du schéma EUCC</strong>. Au cours de l’année écoulée, les équipes de l’ANSSI et leurs partenaires se sont mis en ordre de bataille afin de pouvoir délivrer, sous les meilleurs délais, des certificats EUCC. D’autre part, <strong>la Mission Contrôles et Supervision de l’ANSSI instruit la procédure d’autorisation des organismes d’évaluation de la conformité</strong> nécessaire au préalable.</p>
+<p>Le Centre de certification national a reçu l’accréditation du Cofrac le 28 mars dernier, puis l’autorisation de la Mission Contrôles et Supervision pour certifier les produits appartenant aux 3 domaines « Cartes à puce et dispositifs similaires », « Dispositifs matériels avec boîtiers de sécurité » et « Produits réseaux ou logiciels génériques »<sup>1</sup> . En parallèle, le centre d’évaluation de la sécurité (CESTI) Serma Safety & Security, avec lequel travaille CCN, a lui-même été accrédité et autorisé. <a href="https://certification.enisa.europa.eu/certificates_en"><strong>Deux certificats EUCC ont ainsi pu être émis par l’ANSSI</strong></a> le 31 mars 2025, suite à des évaluations conduites par Serma Safety & Security, pour les solutions des entreprises STMicroelectronics et Thales DIS France. Les certificats en question sont les premiers certificats EUCC à être publiés en Europe.</p>
+<p><strong>Certificats EUCC : quelles modalités ?</strong></p>
+<p>Depuis le 27 février 2025, tous les enregistrements de produits à évaluer selon les critères communs se font par une certification EUCC (hors cas spécifiques de défense et sécurité nationale).</p>
+<p>Les certificats EUCC sont <strong>valables cinq ans</strong>, avec des conditions de maintien et de surveillance clairement définies dans le schéma. Ces dernières permettent de garantir la pérennité de la sécurité des solutions.</p>
+<p><strong>Le formulaire de dossier d’évaluation est disponible </strong><a href="https://cyber.gouv.fr/documents-applicables-la-certification-criteres-communs-cc"><strong>ici</strong></a>.</p>
+<p>Par ailleurs, les certificats EUCC ne remplacent pas le schéma <a href="https://cyber.gouv.fr/presentation-de-la-certification-de-securite-de-premier-niveau-cspn">CSPN</a> (certification de premier niveau) de l’ANSSI.</p>
+<p>Plus d’informations sur EUCC :</p>
+<ul><li><a href="https://certification.enisa.europa.eu/certification-library/eucc-certification-scheme_en">Site de l’ENISA (anglais)</a></li>
+<li><a href="https://eur-lex.europa.eu/FR/legal-content/summary/european-common-criteria-based-cybersecurity-certification-scheme-eucc.html">Site de l’Union Européenne</a></li>
+<li><a href="https://cyber.gouv.fr/cybersecurity-act">Site de l’ANSSI</a></li>
+</ul></div>
+      
+    </div>
+  </div>
+</div>
+              <div class="field__item">
+
+
+  
+
+  <div class="paragraph paragraph--type--media-anssi paragraph--view-mode--default">
+          <figure role="figure" aria-label="Certification EUCC"><a data-lightbox="public://image/anssi-eucc-certification.png" data-title=" Certification EUCC" data-alt="" href="https://cyber.gouv.fr/sites/default/files/image/anssi-eucc-certification.png" class="lightbox-img">
+          <img src="https://cyber.gouv.fr/sites/default/files/styles/scale_only/public/image/anssi-eucc-certification.png?itok=7z3EM2Gs" alt="" /></a>
+        <figcaption>Certification EUCC</figcaption></figure></div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--op-texte-riche paragraph--view-mode--default">
+    <div class="text-riche">
+      
+            <div class="clearfix text-formatted field field--name-field-texte-riche field--type-text-long field--label-hidden field__item"><p><sub><em>1 Pour les niveaux d’assurance AVA_VAN3, AVA_VAN4 et AVA_VAN5 (niveau « élevé »).</em></sub></p>
+</div>
+      
+    </div>
+  </div>
+</div>
+          </div>
+  </p>]]></description>
+      <pubDate>Thu, 03 Apr 2025 06:40:00 GMT</pubDate>
+      <link>https://cyber.gouv.fr/actualites/le-centre-de-certification-de-lanssi-emet-ses-premiers-certificats-eucc</link>
+      <guid>76730 at https://cyber.gouv.fr</guid>
+    </item>
     <item>
       <title>CVE-2025-3136 - PyTorch CUDA Caching Allocator Memory Corruption Vulnerability</title>
       <description><![CDATA[<p>
