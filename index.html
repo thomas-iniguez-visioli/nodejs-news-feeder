@@ -179,12 +179,167 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2024-9416 - WordPress Modula Image Gallery Stored Cross-Site Scripting
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2024-9416
+<br>
+<strong>Published : </strong> April 3, 2025, 1:15 p.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>The Modula Image Gallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's bundled FancyBox JavaScript library (versions <= 5.0.36) due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-9416">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-22927 - OS4ED openSIS Path Traversal Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-22927
+<br>
+<strong>Published : </strong> April 3, 2025, 1:15 p.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>An issue in OS4ED openSIS v8.0 through v9.1 allows attackers to execute a directory traversal by sending a crafted POST request to /Modules.php?modname=messaging/Inbox.php&modfunc=save&filename.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22927">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-22928 - OS4ED openSIS SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-22928
+<br>
+<strong>Published : </strong> April 3, 2025, 1:15 p.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>OS4ED openSIS v7.0 to v9.1 was discovered to contain a SQL injection vulnerability via the cp_id parameter at /modules/messages/Inbox.php.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22928">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-2945 - pgAdmin 4 Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-2945
+<br>
+<strong>Published : </strong> April 3, 2025, 1:15 p.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>Remote Code Execution security vulnerability in pgAdmin 4  (Query Tool and Cloud Deployment modules).
+
+The vulnerability is associated with the 2 POST endpoints; /sqleditor/query_tool/download, where the query_commited parameter and /cloud/deploy endpoint, where the high_availability parameter is unsafely passed to the Python eval() function, allowing arbitrary code execution.
+
+
+This issue affects pgAdmin 4: before 9.2.
+<br>
+<strong>Severity:</strong> 9.9 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2945">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-2946 - pgAdmin Cross-Site Scripting (XSS) Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-2946
+<br>
+<strong>Published : </strong> April 3, 2025, 1:15 p.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>pgAdmin <= 9.1 is affected by a security vulnerability with Cross-Site Scripting(XSS). If attackers execute any arbitrary HTML/JavaScript in a user's browser through query result rendering, then HTML/JavaScript runs on the browser.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2946">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-2299 - LuckyWP Table of Contents CSRF Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-2299
+<br>
+<strong>Published : </strong> April 3, 2025, 12:15 p.m. | 1 hour, 43 minutes ago
+<br>
+<strong>Description : </strong>The LuckyWP Table of Contents plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.1.10. This is due to missing or incorrect nonce validation on the 'ajaxEdit' function. This makes it possible for unauthenticated attackers to inject arbitrary web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2299">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2024-53868 - Apache Traffic Server Chunked Request Smuggling Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2024-53868
 <br>
-<strong>Published : </strong> April 3, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 9:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>Apache Traffic Server allows request smuggling if chunked messages are malformed. 
 
@@ -212,62 +367,12 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2024-13673 - WordPress Big Boom Directory Stored Cross-Site Scripting Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2024-13673
-<br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>The Big Boom Directory plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'bbd-search' shortcode in all versions up to, and including, 2.5.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Apr 2025 08:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-13673">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-1663 - Elementor Stored Cross-Site Scripting Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-1663
-<br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>The Unlimited Elements For Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several widgets in all versions up to, and including, 1.5.142 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Apr 2025 08:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-1663">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
                             CVE-2025-21995 - Linux Kernel DRM Fence Reference Count Leak
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-21995
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -302,7 +407,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-21996
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -345,7 +450,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-21997
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -380,7 +485,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-21998
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -415,7 +520,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-21999
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -499,7 +604,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-22000
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -535,7 +640,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-22001
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -566,7 +671,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-22002
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -641,7 +746,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-22003
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -711,7 +816,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-22004
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -741,7 +846,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-22005
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -782,7 +887,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-22006
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -815,7 +920,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-22007
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -845,7 +950,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-2874
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>The User Submitted Posts – Enable Users to Submit Posts from the Front End plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 20240319 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
 <br>
@@ -870,7 +975,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3149
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in itning Student Homework Management System up to 1.2.7. It has been classified as problematic. Affected is an unknown function of the file /shw_war/fileupload of the component Edit Job Page. The manipulation of the argument Course leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -895,7 +1000,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3150
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in itning Student Homework Management System up to 1.2.7. It has been declared as problematic. Affected by this vulnerability is an unknown functionality. The manipulation leads to cross-site request forgery. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Multiple endpoints might be affected.
 <br>
@@ -920,7 +1025,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3151
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in SourceCodester Gym Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /signup.php. The manipulation of the argument user_name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -945,7 +1050,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3152
 <br>
-<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in caipeichao ThinkOX 1.0. This affects an unknown part of the file /ThinkOX-master/index.php?s=/Weibo/Index/search.html of the component Search. The manipulation of the argument keywords leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -957,6 +1062,56 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Thu, 03 Apr 2025 08:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3152">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2024-13673 - WordPress Big Boom Directory Stored Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2024-13673
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>The Big Boom Directory plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'bbd-search' shortcode in all versions up to, and including, 2.5.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Apr 2025 08:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-13673">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-1663 - Elementor Stored Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-1663
+<br>
+<strong>Published : </strong> April 3, 2025, 8:15 a.m. | 3 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>The Unlimited Elements For Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several widgets in all versions up to, and including, 1.5.142 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Apr 2025 08:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-1663">
                                 read more
                             </a>
                     </article>
