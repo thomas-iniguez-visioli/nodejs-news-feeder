@@ -8,18 +8,137 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 05 Apr 2025 06:13:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Apr 2025 08:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-2941 - WooCommerce Drag and Drop Multiple File Upload Remote File Moving Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2941
+<br>
+<strong>Published : </strong> April 5, 2025, 7:15 a.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>The Drag and Drop Multiple File Upload for WooCommerce plugin for WordPress is vulnerable to arbitrary file moving due to insufficient file path validation via the wc-upload-file[] parameter in all versions up to, and including, 1.1.4. This makes it possible for unauthenticated attackers to move arbitrary files on the server, which can easily lead to remote code execution when the right file is moved (such as wp-config.php).
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2941</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2941</guid>
+    </item>
+    <item>
+      <title>CVE-2024-13776 - "ZoomSounds WordPress Wave Audio Player with Playlist Unauthorized Data Modification Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13776
+<br>
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 1 hour, 49 minutes ago
+<br>
+<strong>Description : </strong>The ZoomSounds - WordPress Wave Audio Player with Playlist plugin for WordPress is vulnerable to unauthorized modification of data that can lead to a denial of service due to a missing capability check on the 'dzsap_delete_notice' AJAX action in all versions up to, and including, 6.91. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update option values to 'seen' on the WordPress site. This can be leveraged to update an option that would create an error on the site and deny service to legitimate users or be used to set some values to true such as registration. There are several other functions also vulnerable to missing authorization.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13776</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13776</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0839 - ZoomSounds Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0839
+<br>
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 1 hour, 49 minutes ago
+<br>
+<strong>Description : </strong>The ZoomSounds plugin for WordPress is vulnerable to Stored Cross-Site Scripting via shortcodes in versions up to, and including, 6.91 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0839</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0839</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1233 - Lafka Plugin for WordPress Unauthorized Theme Option Update Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1233
+<br>
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 1 hour, 49 minutes ago
+<br>
+<strong>Description : </strong>The Lafka Plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the 'lafka_options_upload' AJAX function in all versions up to, and including, 7.1.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to update the theme option that overrides the site.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1233</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1233</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2789 - MultiVendorX Unauthenticated Table Rates Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2789
+<br>
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 1 hour, 49 minutes ago
+<br>
+<strong>Description : </strong>The MultiVendorX – Empower Your WooCommerce Store with a Dynamic Multivendor Marketplace – Build the Next Amazon, eBay, Etsy plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the delete_table_rate_shipping_row function in all versions up to, and including, 4.2.19. This makes it possible for unauthenticated attackers to delete Table Rates that can impact the shipping cost calculations.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2789</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2789</guid>
+    </item>
+    <item>
+      <title>CVE-2021-47667 - ZendTo OS Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2021-47667
+<br>
+<strong>Published : </strong> April 5, 2025, 5:15 a.m. | 2 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>An OS command injection vulnerability in lib/NSSDropoff.php in ZendTo 5.24-3 through 6.x before 6.10-7 allows unauthenticated remote attackers to execute arbitrary commands via shell metacharacters in the tmp_name parameter when dropping off a file via a POST /dropoff request.
+<br>
+<strong>Severity:</strong> 10.0 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-47667</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-47667</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32352 - ZendTo PHP Authentication Type Confusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32352
+<br>
+<strong>Published : </strong> April 5, 2025, 5:15 a.m. | 2 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>A type confusion vulnerability in lib/NSSAuthenticator.php in ZendTo before v5.04-7 allows remote attackers to bypass authentication for users with passwords stored as MD5 hashes that can be interpreted as numbers. A solution requires moving from MD5 to bcrypt.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32352</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32352</guid>
+    </item>
+    <item>
       <title>CVE-2024-13604 - KB Support WordPress Sensitive Information Exposure Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13604
 <br>
-<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 2 hours, 58 minutes ago
+<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 5 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The KB Support – Customer Support Ticket & Helpdesk Plugin, Knowledge Base Plugin plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.7.4 via the 'kbs' directory. This makes it possible for unauthenticated attackers to extract sensitive data stored insecurely in the /wp-content/uploads/kbs directory which can contain file attachments included in support tickets. The vulnerability was partially patched in version 1.7.3.2.
 <br>
@@ -36,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0810
 <br>
-<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 2 hours, 58 minutes ago
+<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 5 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The Read More & Accordion plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.4.5. This is due to missing or incorrect nonce validation on the addNewButtons() function. This makes it possible for unauthenticated attackers to include and execute arbitrary PHP files via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -53,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2544
 <br>
-<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 2 hours, 58 minutes ago
+<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 5 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The AI Content Pipelines plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
 <br>
@@ -70,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2933
 <br>
-<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 2 hours, 58 minutes ago
+<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 5 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The Email Notifications for Updates plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the awun_import_settings() function in all versions up to, and including, 1.1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
 <br>
@@ -87,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1500
 <br>
-<strong>Published : </strong> April 5, 2025, 1:15 a.m. | 3 hours, 58 minutes ago
+<strong>Published : </strong> April 5, 2025, 1:15 a.m. | 6 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>IBM Maximo Application Suite 9.0 could allow an authenticated user to upload a file with dangerous types that could be executed by another user if opened.
 <br>
@@ -104,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2889
 <br>
-<strong>Published : </strong> April 5, 2025, 12:15 a.m. | 4 hours, 58 minutes ago
+<strong>Published : </strong> April 5, 2025, 12:15 a.m. | 7 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The Link Library plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Link Additional Parameters in all versions up to, and including, 7.7.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -121,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3268
 <br>
-<strong>Published : </strong> April 4, 2025, 9:15 p.m. | 7 hours, 57 minutes ago
+<strong>Published : </strong> April 4, 2025, 9:15 p.m. | 10 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in qinguoyi TinyWebServer up to 1.0 and classified as critical. This vulnerability affects unknown code of the file http/http_conn.cpp. The manipulation of the argument m_url_real leads to improper authentication. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -138,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3265
 <br>
-<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 8 hours, 58 minutes ago
+<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 11 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in PHPGurukul e-Diary Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /add-category.php. The manipulation of the argument Category leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -155,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3266
 <br>
-<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 8 hours, 58 minutes ago
+<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 11 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in qinguoyi TinyWebServer up to 1.0. Affected by this issue is some unknown functionality of the file /http/http_conn.cpp. The manipulation of the argument name/password leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -172,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3267
 <br>
-<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 8 hours, 58 minutes ago
+<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 11 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in qinguoyi TinyWebServer up to 1.0. This affects an unknown part of the file /http/http_conn.cpp. The manipulation of the argument name/password leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -189,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-11235
 <br>
-<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 10 hours, 57 minutes ago
+<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 13 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>In PHP versions 8.3.* before 8.3.19 and 8.4.* before 8.4.5, a code sequence involving __set handler or ??=  operator and exceptions can lead to a use-after-free vulnerability. If the third party can control the memory layout leading to this, for example by supplying specially crafted inputs to the script, it could lead to remote code execution.
 <br>
@@ -206,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29476
 <br>
-<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 10 hours, 57 minutes ago
+<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 13 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Buffer Overflow vulnerability in compress_chunk_fuzzer with oss-fuzz on commit 16450518afddcb3139de627157208e49bfef6987 in c-blosc2 v.2.17.0 and before.
 <br>
@@ -223,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29477
 <br>
-<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 10 hours, 57 minutes ago
+<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 13 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>An issue in fluent-bit v.3.7.2 allows a local attacker to cause a denial of service via the function consume_event.
 <br>
@@ -240,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3259
 <br>
-<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 10 hours, 57 minutes ago
+<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 13 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Tenda RX3 16.03.13.11. This issue affects the function formSetDeviceName of the file /goform/SetOnlineDevName. The manipulation of the argument devName leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -257,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3256
 <br>
-<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 11 hours, 57 minutes ago
+<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 14 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in xujiangfei admintwo 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /user/updateSet. The manipulation of the argument email leads to improper access controls. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -274,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3257
 <br>
-<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 11 hours, 57 minutes ago
+<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 14 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in xujiangfei admintwo 1.0. This affects an unknown part of the file /user/updateSet. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -291,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3258
 <br>
-<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 11 hours, 57 minutes ago
+<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 14 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in PHPGurukul Old Age Home Management System 1.0. This vulnerability affects unknown code of the file /search.php. The manipulation of the argument searchdata leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -304,130 +423,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3258</guid>
     </item>
     <item>
-      <title>CVE-2025-32276 - Quý Lê 91 Administrator Z CSRF</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32276
-<br>
-<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 12 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Quý Lê 91 Administrator Z allows Cross Site Request Forgery. This issue affects Administrator Z: from n/a through 2025.03.04.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32276</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32276</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32277 - RepairBuddy Missing Authorization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32277
-<br>
-<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 12 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in Ateeq Rafeeq RepairBuddy allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects RepairBuddy: from n/a through 3.8211.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32277</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32277</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32278 - RioVizual wprio Table Block CSRF</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32278
-<br>
-<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 12 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in wprio Table Block by RioVizual allows Cross Site Request Forgery. This issue affects Table Block by RioVizual: from n/a through 2.1.7.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32278</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32278</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32280 - WeDevs WP Project Manager CSRF</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32280
-<br>
-<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 12 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in weDevs WP Project Manager allows Cross Site Request Forgery. This issue affects WP Project Manager: from n/a through 2.6.22.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32280</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32280</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3252 - Xujiangfei Admintwo Cross Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3252
-<br>
-<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 12 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability has been found in xujiangfei admintwo 1.0 and classified as problematic. This vulnerability affects unknown code of the file /resource/add. The manipulation of the argument Name leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 3.5 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3252</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3252</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3253 - Xujiangfei Admintwo Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3253
-<br>
-<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 12 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in xujiangfei admintwo 1.0 and classified as problematic. This issue affects some unknown processing of the file /ztree/insertTree. The manipulation of the argument Name leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 3.5 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3253</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3253</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3254 - Xujiangfei Admintwo SSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3254
-<br>
-<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 12 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in xujiangfei admintwo 1.0. It has been classified as critical. Affected is an unknown function of the file /resource/add. The manipulation of the argument description leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3254</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3254</guid>
-    </item>
-    <item>
       <title>CVE-2025-3255 - Xujiangfei Admintwo Remote File Access Control Bypass Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3255
 <br>
-<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 12 hours, 58 minutes ago
+<strong>Published : </strong> April 4, 2025, 4:15 p.m. | 15 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in xujiangfei admintwo 1.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /user/home. The manipulation of the argument ID leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
