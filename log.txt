@@ -94,16 +94,6 @@ https://cyber.gouv.fr/actualites/lanssi-vous-donne-rendez-vous-au-forum-incyber-
 https://cyber.gouv.fr/actualites/rempar25-les-inscriptions-sont-ouvertes
 https://cyber.gouv.fr/actualites/lanssi-lance-son-offre-de-services-messervicescyber
 https://cyber.gouv.fr/actualites/le-centre-de-certification-de-lanssi-emet-ses-premiers-certificats-eucc
-https://cvefeed.io/vuln/detail/CVE-2025-3267
-https://cvefeed.io/vuln/detail/CVE-2025-3268
-https://cvefeed.io/vuln/detail/CVE-2025-2889
-https://cvefeed.io/vuln/detail/CVE-2025-1500
-https://cvefeed.io/vuln/detail/CVE-2024-13604
-https://cvefeed.io/vuln/detail/CVE-2025-0810
-https://cvefeed.io/vuln/detail/CVE-2025-2544
-https://cvefeed.io/vuln/detail/CVE-2025-2933
-https://cvefeed.io/vuln/detail/CVE-2021-47667
-https://cvefeed.io/vuln/detail/CVE-2025-32352
 https://cvefeed.io/vuln/detail/CVE-2024-13776
 https://cvefeed.io/vuln/detail/CVE-2025-0839
 https://cvefeed.io/vuln/detail/CVE-2025-1233
@@ -119,6 +109,16 @@ https://cvefeed.io/vuln/detail/CVE-2024-57868
 https://cvefeed.io/vuln/detail/CVE-2024-58036
 https://cvefeed.io/vuln/detail/CVE-2024-52322
 https://cvefeed.io/vuln/detail/CVE-2024-56370
+https://cvefeed.io/vuln/detail/CVE-2025-32357
+https://cvefeed.io/vuln/detail/CVE-2025-32358
+https://cvefeed.io/vuln/detail/CVE-2025-32359
+https://cvefeed.io/vuln/detail/CVE-2025-32360
+https://cvefeed.io/vuln/detail/CVE-2025-3303
+https://cvefeed.io/vuln/detail/CVE-2025-32364
+https://cvefeed.io/vuln/detail/CVE-2025-32365
+https://cvefeed.io/vuln/detail/CVE-2025-3304
+https://cvefeed.io/vuln/detail/CVE-2025-32366
+https://cvefeed.io/vuln/detail/CVE-2025-3305
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/culture-presse-sndp-france-messagerie-cybermois-2024
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/numeum-campus-cyber-cyber4tomorrowfr-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
@@ -693,16 +693,6 @@ L’ANSSI vous donne rendez-vous au Forum InCyber 2025 !
 REMPAR25 : les inscriptions sont ouvertes !
 L’ANSSI lance son offre de services : MesServicesCyber 
 Le centre de certification de l’ANSSI émet ses premiers certificats EUCC 
-CVE-2025-3267 - TinyWebServer SQL Injection Vulnerability
-CVE-2025-3268 - TinyWebServer qinguoyi Remote Authentication Bypass
-CVE-2025-2889 - WordPress Link Library Stored Cross-Site Scripting Vulnerability
-CVE-2025-1500 - IBM Maximo Application Suite File Upload Privilege Escalation Vulnerability
-CVE-2024-13604 - KB Support WordPress Sensitive Information Exposure Vulnerability
-CVE-2025-0810 - WordPress Read More  Accordion CSRF
-CVE-2025-2544 - WordPress AI Content Pipelines Stored Cross-Site Scripting
-CVE-2025-2933 - "WordPress Email Notifications for Updates Unauthenticated Privilege Escalation"
-CVE-2021-47667 - ZendTo OS Command Injection Vulnerability
-CVE-2025-32352 - ZendTo PHP Authentication Type Confusion Vulnerability
 CVE-2024-13776 - "ZoomSounds WordPress Wave Audio Player with Playlist Unauthorized Data Modification Vulnerability"
 CVE-2025-0839 - ZoomSounds Stored Cross-Site Scripting Vulnerability
 CVE-2025-1233 - Lafka Plugin for WordPress Unauthorized Theme Option Update Vulnerability
@@ -718,6 +708,16 @@ CVE-2024-57868 - Web::API Cryptographically Insecure Randomness Vulnerability
 CVE-2024-58036 - Dropbox::API Cryptographically Insecure Random Number Generation
 CVE-2024-52322 - Xero WebService Perl Cryptographic Entropy Weakness
 CVE-2024-56370 - Xero Perl Cryptographic Entropy Weakness
+CVE-2025-32357 - Zammad Privilege Escalation Information Disclosure
+CVE-2025-32358 - Zammad SSRF
+CVE-2025-32359 - Zammad Two-Factor Authentication Authentication Bypass
+CVE-2025-32360 - Zammad Information Exposure Vulnerability
+CVE-2025-3303 - Apache Code-projects Patient Record Management System SQL Injection Vulnerability
+CVE-2025-32364 - Poppler Floating-Point Exception
+CVE-2025-32365 - Poppler JBIG2Stream Out-of-Bounds Read Vulnerability
+CVE-2025-3304 - "Code-projects Patient Record Management System SQL Injection Vulnerability"
+CVE-2025-32366 - ConnMan DNS Proxy Heap-Based Buffer Overflow
+CVE-2025-3305 - "IKUN_Library Remote Improper Access Control Vulnerability"
 Culture presse, le SNDP et France Messagerie se mobilisent aux cotés de Cybermalveillance.gouv.fr à l’occasion du Cybermoi/s 2024
 Cybersécurité : Numeum et le Campus Cyber lancent la plateforme Cyber4Tomorrow.fr et signent un partenariat avec Cybermalveillance.gouv.fr pour une cybersécurité durable et inclusive
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
@@ -738,8 +738,18 @@ Opération Cactus : lancement national de la campagne de sensibilisation à lrsq
 Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
 Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ annoncent la signature drsquo;une convention pour intégrer lrsquo;offre de service drsquo;assistance des CSIRT territoriaux néo-aquitain et d’Occitanie dans le 17Cyber, guichet unique face à la cybermalveillance
 Lettres drsquo;information
+CVE-2021-47667 - ZendTo OS Command Injection Vulnerability
+CVE-2025-32352 - ZendTo PHP Authentication Type Confusion Vulnerability
+CVE-2024-13604 - KB Support WordPress Sensitive Information Exposure Vulnerability
+CVE-2025-0810 - WordPress Read More  Accordion CSRF
+CVE-2025-2544 - WordPress AI Content Pipelines Stored Cross-Site Scripting
+CVE-2025-2933 - "WordPress Email Notifications for Updates Unauthenticated Privilege Escalation"
+CVE-2025-1500 - IBM Maximo Application Suite File Upload Privilege Escalation Vulnerability
+CVE-2025-2889 - WordPress Link Library Stored Cross-Site Scripting Vulnerability
+CVE-2025-3268 - TinyWebServer qinguoyi Remote Authentication Bypass
 CVE-2025-3265 - PHPGurukul e-Diary Management System SQL Injection
 CVE-2025-3266 - Qinguoyi TinyWebServer Stack-Based Buffer Overflow
+CVE-2025-3267 - TinyWebServer SQL Injection Vulnerability
 CVE-2024-11235 - Apache PHP Use-After-Free Remote Code Execution Vulnerability
 CVE-2025-29476 - OSS-Fuzz c-blosc2 Buffer Overflow
 CVE-2025-29477 - Fluent-Bit Denial of Service Vulnerability
