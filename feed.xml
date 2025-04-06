@@ -8,18 +8,820 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 05 Apr 2025 08:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2025 06:13:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3308 - Blood Bank Management System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3308
+<br>
+<strong>Published : </strong> April 6, 2025, 4:15 a.m. | 1 hour, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /viewrequest.php. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 06 Apr 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3308</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3308</guid>
+    </item>
+    <item>
+      <title>CVE-2024-58131 - FISCO BCOS Denial of Service (DoS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-58131
+<br>
+<strong>Published : </strong> April 6, 2025, 3:15 a.m. | 2 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>FISCO BCOS 3.11.0 has an issue with synchronization of the transaction pool that can, for example, be observed when a malicious node (that has modified the codebase to allow a large min_seal_time value) joins a blockchain network.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 06 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-58131</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58131</guid>
+    </item>
+    <item>
+      <title>CVE-2024-58132 - ChainMaker Concurrent Map Panic</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-58132
+<br>
+<strong>Published : </strong> April 6, 2025, 3:15 a.m. | 2 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In chainmaker-go (aka ChainMaker) before 2.3.6, multiple updates to a single node's configuration can cause other normal nodes to perform concurrent read and write operations on a map, leading to a panic.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 06 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-58132</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58132</guid>
+    </item>
+    <item>
+      <title>CVE-2024-58133 - ChainMaker Go Concurrency Panic</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-58133
+<br>
+<strong>Published : </strong> April 6, 2025, 3:15 a.m. | 2 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In chainmaker-go (aka ChainMaker) before 2.4.0, when making frequent updates to a node's configuration file and restarting this node, concurrent writes by logger.go to a map are mishandled. Creating other logs simultaneously can lead to a read-write conflict and panic.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 06 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-58133</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58133</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3307 - Blood Bank Management System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3307
+<br>
+<strong>Published : </strong> April 6, 2025, 3:15 a.m. | 2 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /reset.php. The manipulation of the argument useremail leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 06 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3307</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3307</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3306 - Blood Bank Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3306
+<br>
+<strong>Published : </strong> April 6, 2025, 1:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Blood Bank Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /don.php. The manipulation of the argument fullname leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 06 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3306</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3306</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32366 - ConnMan DNS Proxy Heap-Based Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32366
+<br>
+<strong>Published : </strong> April 5, 2025, 11:15 p.m. | 6 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In ConnMan through 1.44, parse_rr in dnsproxy.c has a memcpy length that depends on an RR RDLENGTH value, i.e., *rdlen=ntohs(rr->rdlen) and memcpy(response+offset,*end,*rdlen).
+<br>
+<strong>Severity:</strong> 3.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32366</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32366</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3305 - "IKUN_Library Remote Improper Access Control Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3305
+<br>
+<strong>Published : </strong> April 5, 2025, 11:15 p.m. | 6 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in 1902756969/code-projects IKUN_Library 1.0 and classified as problematic. This vulnerability affects the function addInterceptors of the file MvcConfig.java of the component Borrow Handler. The manipulation leads to improper access controls. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3305</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3305</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32364 - Poppler Floating-Point Exception</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32364
+<br>
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 7 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A floating-point exception in the PSStack::roll function of Poppler before 25.04.0 can cause an application to crash when handling malformed inputs associated with INT_MIN.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32364</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32364</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32365 - Poppler JBIG2Stream Out-of-Bounds Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32365
+<br>
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 7 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>Poppler before 25.04.0 allows crafted input files to trigger out-of-bounds reads in the JBIG2Bitmap::combine function in JBIG2Stream.cc because of a misplaced isOk check.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32365</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32365</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3304 - "Code-projects Patient Record Management System SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3304
+<br>
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 7 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Patient Record Management System 1.0. This affects an unknown part of the file /dental_not.php. The manipulation of the argument itr_no leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3304</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3304</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32357 - Zammad Privilege Escalation Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32357
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 8 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In Zammad 6.4.x before 6.4.2, an authenticated agent with knowledge base permissions was able to use the Zammad API to fetch knowledge base content that they have no permission for.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32357</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32357</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32358 - Zammad SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32358
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 8 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In Zammad 6.4.x before 6.4.2, SSRF can occur. Authenticated admin users can enable webhooks in Zammad, which are triggered as POST requests when certain conditions are met. If a webhook endpoint returned a redirect response, Zammad would follow it automatically with another GET request. This could be abused by an attacker to cause GET requests for example in the local network.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32358</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32358</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32359 - Zammad Two-Factor Authentication Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32359
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 8 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In Zammad 6.4.x before 6.4.2, there is client-side enforcement of server-side security. When changing their two factor authentication configuration, users need to re-authenticate with their current password first. However, this change was enforced in Zammad only on the front end level, and not when using the API directly.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32359</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32359</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32360 - Zammad Information Exposure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32360
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 8 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In Zammad 6.4.x before 6.4.2, there is information exposure. Only agents should be able to see and work on shared article drafts. However, a logged in customer was able to see details about shared drafts for their customer tickets in the browser console, which may contain confidential information, and also to manipulate them via API.
+<br>
+<strong>Severity:</strong> 4.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32360</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32360</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3303 - Apache Code-projects Patient Record Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3303
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 8 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Patient Record Management System 1.0. Affected by this issue is some unknown functionality of the file /birthing_record.php. The manipulation of the argument itr_no leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3303</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3303</guid>
+    </item>
+    <item>
+      <title>CVE-2024-56370 - Xero Perl Cryptographic Entropy Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-56370
+<br>
+<strong>Published : </strong> April 5, 2025, 7:15 p.m. | 10 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>Net::Xero 0.044 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+Specifically Net::Xero uses the Data::Random library which specifically states that it is "Useful mostly for test programs". Data::Random uses the rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-56370</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-56370</guid>
+    </item>
+    <item>
+      <title>CVE-2024-52322 - Xero WebService Perl Cryptographic Entropy Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-52322
+<br>
+<strong>Published : </strong> April 5, 2025, 5:15 p.m. | 12 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>WebService::Xero 0.11 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+Specifically WebService::Xero uses the Data::Random library which specifically states that it is "Useful mostly for test programs". Data::Random uses the rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-52322</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-52322</guid>
+    </item>
+    <item>
+      <title>CVE-2024-57835 - Amon2::Auth::Site::LINE Cryptographically Insecure Random Number Generation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-57835
+<br>
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 13 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>Amon2::Auth::Site::LINE uses the String::Random module to generate nonce values. 
+
+String::Random defaults to Perl's built-in predictable random number generator, the rand() function, which is not cryptographically secure
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-57835</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-57835</guid>
+    </item>
+    <item>
+      <title>CVE-2024-57868 - Web::API Cryptographically Insecure Randomness Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-57868
+<br>
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 13 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>Web::API 2.8 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+Specifically Web::API uses the Data::Random library which specifically states that it is "Useful mostly for test programs". Data::Random uses the rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-57868</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-57868</guid>
+    </item>
+    <item>
+      <title>CVE-2024-58036 - Dropbox::API Cryptographically Insecure Random Number Generation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-58036
+<br>
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 13 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>Net::Dropbox::API 1.9 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+Specifically Net::Dropbox::API uses the Data::Random library which specifically states that it is "Useful mostly for test programs". Data::Random uses the rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-58036</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58036</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30401 - WhatsApp for Windows MIME Type Spoofing Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30401
+<br>
+<strong>Published : </strong> April 5, 2025, 12:15 p.m. | 17 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A spoofing issue in WhatsApp for Windows prior to version 2.2450.6 displayed attachments according to their MIME type but selected the file opening handler based on the attachment’s filename extension. A maliciously crafted mismatch could have caused the recipient to inadvertently execute arbitrary code rather than view the attachment when manually opening the attachment inside WhatsApp.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30401</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30401</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3298 - SourceCodester Online Eyewear Shop Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3298
+<br>
+<strong>Published : </strong> April 5, 2025, 11:15 a.m. | 18 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in SourceCodester Online Eyewear Shop 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /oews/classes/Master.php?f=save_product of the component Registration Handler. The manipulation of the argument email leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3298</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3298</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3299 - PHPGurukul Men Salon Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3299
+<br>
+<strong>Published : </strong> April 5, 2025, 11:15 a.m. | 18 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Men Salon Management System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /appointment.php. The manipulation of the argument Name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3299</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3299</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3297 - SourceCodester Online Eyewear Shop Cross Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3297
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 a.m. | 20 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, was found in SourceCodester Online Eyewear Shop 1.0. Affected is an unknown function of the file /classes/Master.php?f=save_product. The manipulation of the argument brand leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3297</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3297</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2941 - WooCommerce Drag and Drop Multiple File Upload Remote File Moving Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3306
+<br>
+<strong>Published : </strong> April 6, 2025, 1:15 a.m. | 1 hour, 10 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Blood Bank Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /don.php. The manipulation of the argument fullname leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 06 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3306</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3306</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32366 - ConnMan DNS Proxy Heap-Based Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32366
+<br>
+<strong>Published : </strong> April 5, 2025, 11:15 p.m. | 3 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>In ConnMan through 1.44, parse_rr in dnsproxy.c has a memcpy length that depends on an RR RDLENGTH value, i.e., *rdlen=ntohs(rr->rdlen) and memcpy(response+offset,*end,*rdlen).
+<br>
+<strong>Severity:</strong> 3.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32366</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32366</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3305 - "IKUN_Library Remote Improper Access Control Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3305
+<br>
+<strong>Published : </strong> April 5, 2025, 11:15 p.m. | 3 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in 1902756969/code-projects IKUN_Library 1.0 and classified as problematic. This vulnerability affects the function addInterceptors of the file MvcConfig.java of the component Borrow Handler. The manipulation leads to improper access controls. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3305</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3305</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32364 - Poppler Floating-Point Exception</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32364
+<br>
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A floating-point exception in the PSStack::roll function of Poppler before 25.04.0 can cause an application to crash when handling malformed inputs associated with INT_MIN.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32364</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32364</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32365 - Poppler JBIG2Stream Out-of-Bounds Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32365
+<br>
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Poppler before 25.04.0 allows crafted input files to trigger out-of-bounds reads in the JBIG2Bitmap::combine function in JBIG2Stream.cc because of a misplaced isOk check.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32365</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32365</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3304 - "Code-projects Patient Record Management System SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3304
+<br>
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Patient Record Management System 1.0. This affects an unknown part of the file /dental_not.php. The manipulation of the argument itr_no leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3304</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3304</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32357 - Zammad Privilege Escalation Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32357
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 5 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>In Zammad 6.4.x before 6.4.2, an authenticated agent with knowledge base permissions was able to use the Zammad API to fetch knowledge base content that they have no permission for.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32357</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32357</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32358 - Zammad SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32358
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 5 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>In Zammad 6.4.x before 6.4.2, SSRF can occur. Authenticated admin users can enable webhooks in Zammad, which are triggered as POST requests when certain conditions are met. If a webhook endpoint returned a redirect response, Zammad would follow it automatically with another GET request. This could be abused by an attacker to cause GET requests for example in the local network.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32358</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32358</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32359 - Zammad Two-Factor Authentication Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32359
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 5 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>In Zammad 6.4.x before 6.4.2, there is client-side enforcement of server-side security. When changing their two factor authentication configuration, users need to re-authenticate with their current password first. However, this change was enforced in Zammad only on the front end level, and not when using the API directly.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32359</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32359</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32360 - Zammad Information Exposure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32360
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 5 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>In Zammad 6.4.x before 6.4.2, there is information exposure. Only agents should be able to see and work on shared article drafts. However, a logged in customer was able to see details about shared drafts for their customer tickets in the browser console, which may contain confidential information, and also to manipulate them via API.
+<br>
+<strong>Severity:</strong> 4.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32360</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32360</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3303 - Apache Code-projects Patient Record Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3303
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 5 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Patient Record Management System 1.0. Affected by this issue is some unknown functionality of the file /birthing_record.php. The manipulation of the argument itr_no leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3303</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3303</guid>
+    </item>
+    <item>
+      <title>CVE-2024-56370 - Xero Perl Cryptographic Entropy Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-56370
+<br>
+<strong>Published : </strong> April 5, 2025, 7:15 p.m. | 7 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Net::Xero 0.044 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+Specifically Net::Xero uses the Data::Random library which specifically states that it is "Useful mostly for test programs". Data::Random uses the rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-56370</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-56370</guid>
+    </item>
+    <item>
+      <title>CVE-2024-52322 - Xero WebService Perl Cryptographic Entropy Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-52322
+<br>
+<strong>Published : </strong> April 5, 2025, 5:15 p.m. | 9 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>WebService::Xero 0.11 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+Specifically WebService::Xero uses the Data::Random library which specifically states that it is "Useful mostly for test programs". Data::Random uses the rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-52322</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-52322</guid>
+    </item>
+    <item>
+      <title>CVE-2024-57835 - Amon2::Auth::Site::LINE Cryptographically Insecure Random Number Generation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-57835
+<br>
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 10 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Amon2::Auth::Site::LINE uses the String::Random module to generate nonce values. 
+
+String::Random defaults to Perl's built-in predictable random number generator, the rand() function, which is not cryptographically secure
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-57835</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-57835</guid>
+    </item>
+    <item>
+      <title>CVE-2024-57868 - Web::API Cryptographically Insecure Randomness Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-57868
+<br>
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 10 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Web::API 2.8 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+Specifically Web::API uses the Data::Random library which specifically states that it is "Useful mostly for test programs". Data::Random uses the rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-57868</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-57868</guid>
+    </item>
+    <item>
+      <title>CVE-2024-58036 - Dropbox::API Cryptographically Insecure Random Number Generation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-58036
+<br>
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 10 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Net::Dropbox::API 1.9 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+Specifically Net::Dropbox::API uses the Data::Random library which specifically states that it is "Useful mostly for test programs". Data::Random uses the rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-58036</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58036</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30401 - WhatsApp for Windows MIME Type Spoofing Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30401
+<br>
+<strong>Published : </strong> April 5, 2025, 12:15 p.m. | 14 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A spoofing issue in WhatsApp for Windows prior to version 2.2450.6 displayed attachments according to their MIME type but selected the file opening handler based on the attachment’s filename extension. A maliciously crafted mismatch could have caused the recipient to inadvertently execute arbitrary code rather than view the attachment when manually opening the attachment inside WhatsApp.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30401</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30401</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3298 - SourceCodester Online Eyewear Shop Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3298
+<br>
+<strong>Published : </strong> April 5, 2025, 11:15 a.m. | 15 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in SourceCodester Online Eyewear Shop 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /oews/classes/Master.php?f=save_product of the component Registration Handler. The manipulation of the argument email leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3298</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3298</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3299 - PHPGurukul Men Salon Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3299
+<br>
+<strong>Published : </strong> April 5, 2025, 11:15 a.m. | 15 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Men Salon Management System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /appointment.php. The manipulation of the argument Name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3299</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3299</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3297 - SourceCodester Online Eyewear Shop Cross Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3297
+<br>
+<strong>Published : </strong> April 5, 2025, 9:15 a.m. | 17 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, was found in SourceCodester Online Eyewear Shop 1.0. Affected is an unknown function of the file /classes/Master.php?f=save_product. The manipulation of the argument brand leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3297</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3297</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3296 - SourceCodester Online Eyewear Shop SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3296
+<br>
+<strong>Published : </strong> April 5, 2025, 8:15 a.m. | 18 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in SourceCodester Online Eyewear Shop 1.0. This issue affects some unknown processing of the file /classes/Users.php?f=delete_customer. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3296</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3296</guid>
+    </item>
+    <item>
       <title>CVE-2025-2941 - WooCommerce Drag and Drop Multiple File Upload Remote File Moving Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2941
 <br>
-<strong>Published : </strong> April 5, 2025, 7:15 a.m. | 49 minutes ago
+<strong>Published : </strong> April 5, 2025, 7:15 a.m. | 19 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>The Drag and Drop Multiple File Upload for WooCommerce plugin for WordPress is vulnerable to arbitrary file moving due to insufficient file path validation via the wc-upload-file[] parameter in all versions up to, and including, 1.1.4. This makes it possible for unauthenticated attackers to move arbitrary files on the server, which can easily lead to remote code execution when the right file is moved (such as wp-config.php).
 <br>
@@ -30,6 +832,57 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 05 Apr 2025 07:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2941</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2941</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0839 - ZoomSounds Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0839
+<br>
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 20 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>The ZoomSounds plugin for WordPress is vulnerable to Stored Cross-Site Scripting via shortcodes in versions up to, and including, 6.91 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0839</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0839</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1233 - Lafka Plugin for WordPress Unauthorized Theme Option Update Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1233
+<br>
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 20 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>The Lafka Plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the 'lafka_options_upload' AJAX function in all versions up to, and including, 7.1.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to update the theme option that overrides the site.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1233</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1233</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2789 - MultiVendorX Unauthenticated Table Rates Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2789
+<br>
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 20 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>The MultiVendorX – Empower Your WooCommerce Store with a Dynamic Multivendor Marketplace – Build the Next Amazon, eBay, Etsy plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the delete_table_rate_shipping_row function in all versions up to, and including, 4.2.19. This makes it possible for unauthenticated attackers to delete Table Rates that can impact the shipping cost calculations.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2789</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2789</guid>
     </item>
     <item>
       <title>CVE-2024-13776 - "ZoomSounds WordPress Wave Audio Player with Playlist Unauthorized Data Modification Vulnerability"</title>
@@ -49,62 +902,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2024-13776</guid>
     </item>
     <item>
-      <title>CVE-2025-0839 - ZoomSounds Stored Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-0839
-<br>
-<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 1 hour, 49 minutes ago
-<br>
-<strong>Description : </strong>The ZoomSounds plugin for WordPress is vulnerable to Stored Cross-Site Scripting via shortcodes in versions up to, and including, 6.91 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-0839</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0839</guid>
-    </item>
-    <item>
-      <title>CVE-2025-1233 - Lafka Plugin for WordPress Unauthorized Theme Option Update Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-1233
-<br>
-<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 1 hour, 49 minutes ago
-<br>
-<strong>Description : </strong>The Lafka Plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the 'lafka_options_upload' AJAX function in all versions up to, and including, 7.1.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to update the theme option that overrides the site.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-1233</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1233</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2789 - MultiVendorX Unauthenticated Table Rates Deletion Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2789
-<br>
-<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 1 hour, 49 minutes ago
-<br>
-<strong>Description : </strong>The MultiVendorX – Empower Your WooCommerce Store with a Dynamic Multivendor Marketplace – Build the Next Amazon, eBay, Etsy plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the delete_table_rate_shipping_row function in all versions up to, and including, 4.2.19. This makes it possible for unauthenticated attackers to delete Table Rates that can impact the shipping cost calculations.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2789</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2789</guid>
-    </item>
-    <item>
       <title>CVE-2021-47667 - ZendTo OS Command Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2021-47667
 <br>
-<strong>Published : </strong> April 5, 2025, 5:15 a.m. | 2 hours, 49 minutes ago
+<strong>Published : </strong> April 5, 2025, 5:15 a.m. | 15 hours, 9 minutes ago
 <br>
 <strong>Description : </strong>An OS command injection vulnerability in lib/NSSDropoff.php in ZendTo 5.24-3 through 6.x before 6.10-7 allows unauthenticated remote attackers to execute arbitrary commands via shell metacharacters in the tmp_name parameter when dropping off a file via a POST /dropoff request.
 <br>
@@ -121,7 +923,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32352
 <br>
-<strong>Published : </strong> April 5, 2025, 5:15 a.m. | 2 hours, 49 minutes ago
+<strong>Published : </strong> April 5, 2025, 5:15 a.m. | 15 hours, 9 minutes ago
 <br>
 <strong>Description : </strong>A type confusion vulnerability in lib/NSSAuthenticator.php in ZendTo before v5.04-7 allows remote attackers to bypass authentication for users with passwords stored as MD5 hashes that can be interpreted as numbers. A solution requires moving from MD5 to bcrypt.
 <br>
@@ -138,7 +940,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13604
 <br>
-<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 5 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 18 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>The KB Support – Customer Support Ticket & Helpdesk Plugin, Knowledge Base Plugin plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.7.4 via the 'kbs' directory. This makes it possible for unauthenticated attackers to extract sensitive data stored insecurely in the /wp-content/uploads/kbs directory which can contain file attachments included in support tickets. The vulnerability was partially patched in version 1.7.3.2.
 <br>
@@ -155,7 +957,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0810
 <br>
-<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 5 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 18 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>The Read More & Accordion plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.4.5. This is due to missing or incorrect nonce validation on the addNewButtons() function. This makes it possible for unauthenticated attackers to include and execute arbitrary PHP files via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -172,7 +974,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2544
 <br>
-<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 5 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 18 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>The AI Content Pipelines plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
 <br>
@@ -189,7 +991,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2933
 <br>
-<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 5 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 2:15 a.m. | 18 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>The Email Notifications for Updates plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the awun_import_settings() function in all versions up to, and including, 1.1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
 <br>
@@ -206,7 +1008,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1500
 <br>
-<strong>Published : </strong> April 5, 2025, 1:15 a.m. | 6 hours, 49 minutes ago
+<strong>Published : </strong> April 5, 2025, 1:15 a.m. | 19 hours, 9 minutes ago
 <br>
 <strong>Description : </strong>IBM Maximo Application Suite 9.0 could allow an authenticated user to upload a file with dangerous types that could be executed by another user if opened.
 <br>
@@ -223,7 +1025,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2889
 <br>
-<strong>Published : </strong> April 5, 2025, 12:15 a.m. | 7 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 12:15 a.m. | 20 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>The Link Library plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Link Additional Parameters in all versions up to, and including, 7.7.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -240,7 +1042,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3268
 <br>
-<strong>Published : </strong> April 4, 2025, 9:15 p.m. | 10 hours, 49 minutes ago
+<strong>Published : </strong> April 4, 2025, 9:15 p.m. | 23 hours, 9 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in qinguoyi TinyWebServer up to 1.0 and classified as critical. This vulnerability affects unknown code of the file http/http_conn.cpp. The manipulation of the argument m_url_real leads to improper authentication. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -251,6 +1053,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 04 Apr 2025 21:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-3268</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3268</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3267 - TinyWebServer SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3267
+<br>
+<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 1 day ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in qinguoyi TinyWebServer up to 1.0. This affects an unknown part of the file /http/http_conn.cpp. The manipulation of the argument name/password leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3267</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3267</guid>
     </item>
     <item>
       <title>CVE-2025-3265 - PHPGurukul e-Diary Management System SQL Injection</title>
@@ -274,7 +1093,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3266
 <br>
-<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 11 hours, 50 minutes ago
+<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 22 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in qinguoyi TinyWebServer up to 1.0. Affected by this issue is some unknown functionality of the file /http/http_conn.cpp. The manipulation of the argument name/password leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -285,23 +1104,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 04 Apr 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-3266</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3266</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3267 - TinyWebServer SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3267
-<br>
-<strong>Published : </strong> April 4, 2025, 8:15 p.m. | 11 hours, 50 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, was found in qinguoyi TinyWebServer up to 1.0. This affects an unknown part of the file /http/http_conn.cpp. The manipulation of the argument name/password leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3267</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3267</guid>
     </item>
     <item>
       <title>CVE-2024-11235 - Apache PHP Use-After-Free Remote Code Execution Vulnerability</title>
@@ -325,7 +1127,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29476
 <br>
-<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 13 hours, 49 minutes ago
+<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 22 hours, 9 minutes ago
 <br>
 <strong>Description : </strong>Buffer Overflow vulnerability in compress_chunk_fuzzer with oss-fuzz on commit 16450518afddcb3139de627157208e49bfef6987 in c-blosc2 v.2.17.0 and before.
 <br>
@@ -342,7 +1144,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29477
 <br>
-<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 13 hours, 49 minutes ago
+<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 22 hours, 9 minutes ago
 <br>
 <strong>Description : </strong>An issue in fluent-bit v.3.7.2 allows a local attacker to cause a denial of service via the function consume_event.
 <br>
@@ -359,7 +1161,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3259
 <br>
-<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 13 hours, 49 minutes ago
+<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 22 hours, 9 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Tenda RX3 16.03.13.11. This issue affects the function formSetDeviceName of the file /goform/SetOnlineDevName. The manipulation of the argument devName leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -372,11 +1174,28 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3259</guid>
     </item>
     <item>
+      <title>CVE-2024-11235 - Apache PHP Use-After-Free Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-11235
+<br>
+<strong>Published : </strong> April 4, 2025, 6:15 p.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>In PHP versions 8.3.* before 8.3.19 and 8.4.* before 8.4.5, a code sequence involving __set handler or ??=  operator and exceptions can lead to a use-after-free vulnerability. If the third party can control the memory layout leading to this, for example by supplying specially crafted inputs to the script, it could lead to remote code execution.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-11235</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-11235</guid>
+    </item>
+    <item>
       <title>CVE-2025-3256 - Xujiangfei Admintwo Remote File Improper Access Control Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3256
 <br>
-<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 14 hours, 49 minutes ago
+<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 15 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in xujiangfei admintwo 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /user/updateSet. The manipulation of the argument email leads to improper access controls. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -393,7 +1212,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3257
 <br>
-<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 14 hours, 49 minutes ago
+<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 15 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in xujiangfei admintwo 1.0. This affects an unknown part of the file /user/updateSet. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -410,7 +1229,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3258
 <br>
-<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 14 hours, 49 minutes ago
+<strong>Published : </strong> April 4, 2025, 5:15 p.m. | 15 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in PHPGurukul Old Age Home Management System 1.0. This vulnerability affects unknown code of the file /search.php. The manipulation of the argument searchdata leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
