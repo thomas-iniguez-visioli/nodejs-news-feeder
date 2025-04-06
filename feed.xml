@@ -8,22 +8,39 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sun, 06 Apr 2025 00:54:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2025 02:58:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3306 - Blood Bank Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3306
+<br>
+<strong>Published : </strong> April 6, 2025, 1:15 a.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Blood Bank Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /don.php. The manipulation of the argument fullname leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 06 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3306</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3306</guid>
+    </item>
+    <item>
       <title>CVE-2025-32366 - ConnMan DNS Proxy Heap-Based Buffer Overflow</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32366
 <br>
-<strong>Published : </strong> April 5, 2025, 11:15 p.m. | 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 11:15 p.m. | 2 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>In ConnMan through 1.44, parse_rr in dnsproxy.c has a memcpy length that depends on an RR RDLENGTH value, i.e., *rdlen=ntohs(rr->rdlen) and memcpy(response+offset,*end,*rdlen).
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 3.7 | LOW
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -36,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3305
 <br>
-<strong>Published : </strong> April 5, 2025, 11:15 p.m. | 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 11:15 p.m. | 2 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in 1902756969/code-projects IKUN_Library 1.0 and classified as problematic. This vulnerability affects the function addInterceptors of the file MvcConfig.java of the component Borrow Handler. The manipulation leads to improper access controls. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32364
 <br>
-<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 1 hour, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A floating-point exception in the PSStack::roll function of Poppler before 25.04.0 can cause an application to crash when handling malformed inputs associated with INT_MIN.
 <br>
@@ -70,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32365
 <br>
-<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 1 hour, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>Poppler before 25.04.0 allows crafted input files to trigger out-of-bounds reads in the JBIG2Bitmap::combine function in JBIG2Stream.cc because of a misplaced isOk check.
 <br>
@@ -87,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3304
 <br>
-<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 1 hour, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 10:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Patient Record Management System 1.0. This affects an unknown part of the file /dental_not.php. The manipulation of the argument itr_no leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -104,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32357
 <br>
-<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 2 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 4 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>In Zammad 6.4.x before 6.4.2, an authenticated agent with knowledge base permissions was able to use the Zammad API to fetch knowledge base content that they have no permission for.
 <br>
@@ -121,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32358
 <br>
-<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 2 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 4 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>In Zammad 6.4.x before 6.4.2, SSRF can occur. Authenticated admin users can enable webhooks in Zammad, which are triggered as POST requests when certain conditions are met. If a webhook endpoint returned a redirect response, Zammad would follow it automatically with another GET request. This could be abused by an attacker to cause GET requests for example in the local network.
 <br>
@@ -138,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32359
 <br>
-<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 2 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 4 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>In Zammad 6.4.x before 6.4.2, there is client-side enforcement of server-side security. When changing their two factor authentication configuration, users need to re-authenticate with their current password first. However, this change was enforced in Zammad only on the front end level, and not when using the API directly.
 <br>
@@ -155,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32360
 <br>
-<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 2 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 4 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>In Zammad 6.4.x before 6.4.2, there is information exposure. Only agents should be able to see and work on shared article drafts. However, a logged in customer was able to see details about shared drafts for their customer tickets in the browser console, which may contain confidential information, and also to manipulate them via API.
 <br>
@@ -172,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3303
 <br>
-<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 2 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 9:15 p.m. | 4 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Patient Record Management System 1.0. Affected by this issue is some unknown functionality of the file /birthing_record.php. The manipulation of the argument itr_no leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -189,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-56370
 <br>
-<strong>Published : </strong> April 5, 2025, 7:15 p.m. | 4 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 7:15 p.m. | 6 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>Net::Xero 0.044 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
 
@@ -208,7 +225,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-52322
 <br>
-<strong>Published : </strong> April 5, 2025, 5:15 p.m. | 6 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 5:15 p.m. | 8 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>WebService::Xero 0.11 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
 
@@ -227,7 +244,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-57835
 <br>
-<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 7 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 9 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>Amon2::Auth::Site::LINE uses the String::Random module to generate nonce values. 
 
@@ -246,7 +263,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-57868
 <br>
-<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 7 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 9 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>Web::API 2.8 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
 
@@ -265,7 +282,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-58036
 <br>
-<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 7 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 4:15 p.m. | 9 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>Net::Dropbox::API 1.9 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
 
@@ -284,7 +301,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30401
 <br>
-<strong>Published : </strong> April 5, 2025, 12:15 p.m. | 11 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 12:15 p.m. | 13 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A spoofing issue in WhatsApp for Windows prior to version 2.2450.6 displayed attachments according to their MIME type but selected the file opening handler based on the attachment’s filename extension. A maliciously crafted mismatch could have caused the recipient to inadvertently execute arbitrary code rather than view the attachment when manually opening the attachment inside WhatsApp.
 <br>
@@ -301,7 +318,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3298
 <br>
-<strong>Published : </strong> April 5, 2025, 11:15 a.m. | 12 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 11:15 a.m. | 14 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in SourceCodester Online Eyewear Shop 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /oews/classes/Master.php?f=save_product of the component Registration Handler. The manipulation of the argument email leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -318,7 +335,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3299
 <br>
-<strong>Published : </strong> April 5, 2025, 11:15 a.m. | 12 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 11:15 a.m. | 14 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Men Salon Management System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /appointment.php. The manipulation of the argument Name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -335,7 +352,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3297
 <br>
-<strong>Published : </strong> April 5, 2025, 9:15 a.m. | 14 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 9:15 a.m. | 16 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in SourceCodester Online Eyewear Shop 1.0. Affected is an unknown function of the file /classes/Master.php?f=save_product. The manipulation of the argument brand leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
 <br>
@@ -352,7 +369,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3296
 <br>
-<strong>Published : </strong> April 5, 2025, 8:15 a.m. | 15 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 8:15 a.m. | 17 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in SourceCodester Online Eyewear Shop 1.0. This issue affects some unknown processing of the file /classes/Users.php?f=delete_customer. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -369,7 +386,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2941
 <br>
-<strong>Published : </strong> April 5, 2025, 7:15 a.m. | 16 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 7:15 a.m. | 18 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The Drag and Drop Multiple File Upload for WooCommerce plugin for WordPress is vulnerable to arbitrary file moving due to insufficient file path validation via the wc-upload-file[] parameter in all versions up to, and including, 1.1.4. This makes it possible for unauthenticated attackers to move arbitrary files on the server, which can easily lead to remote code execution when the right file is moved (such as wp-config.php).
 <br>
@@ -382,28 +399,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2941</guid>
     </item>
     <item>
-      <title>CVE-2024-13776 - "ZoomSounds WordPress Wave Audio Player with Playlist Unauthorized Data Modification Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-13776
-<br>
-<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 17 hours, 50 minutes ago
-<br>
-<strong>Description : </strong>The ZoomSounds - WordPress Wave Audio Player with Playlist plugin for WordPress is vulnerable to unauthorized modification of data that can lead to a denial of service due to a missing capability check on the 'dzsap_delete_notice' AJAX action in all versions up to, and including, 6.91. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update option values to 'seen' on the WordPress site. This can be leveraged to update an option that would create an error on the site and deny service to legitimate users or be used to set some values to true such as registration. There are several other functions also vulnerable to missing authorization.
-<br>
-<strong>Severity:</strong> 8.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-13776</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13776</guid>
-    </item>
-    <item>
       <title>CVE-2025-0839 - ZoomSounds Stored Cross-Site Scripting Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0839
 <br>
-<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 17 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 19 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The ZoomSounds plugin for WordPress is vulnerable to Stored Cross-Site Scripting via shortcodes in versions up to, and including, 6.91 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -420,7 +420,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1233
 <br>
-<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 17 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 19 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The Lafka Plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the 'lafka_options_upload' AJAX function in all versions up to, and including, 7.1.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to update the theme option that overrides the site.
 <br>
@@ -437,7 +437,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2789
 <br>
-<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 17 hours, 50 minutes ago
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 19 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The MultiVendorX – Empower Your WooCommerce Store with a Dynamic Multivendor Marketplace – Build the Next Amazon, eBay, Etsy plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the delete_table_rate_shipping_row function in all versions up to, and including, 4.2.19. This makes it possible for unauthenticated attackers to delete Table Rates that can impact the shipping cost calculations.
 <br>
@@ -448,6 +448,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2789</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2789</guid>
+    </item>
+    <item>
+      <title>CVE-2024-13776 - "ZoomSounds WordPress Wave Audio Player with Playlist Unauthorized Data Modification Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13776
+<br>
+<strong>Published : </strong> April 5, 2025, 6:15 a.m. | 1 hour, 49 minutes ago
+<br>
+<strong>Description : </strong>The ZoomSounds - WordPress Wave Audio Player with Playlist plugin for WordPress is vulnerable to unauthorized modification of data that can lead to a denial of service due to a missing capability check on the 'dzsap_delete_notice' AJAX action in all versions up to, and including, 6.91. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update option values to 'seen' on the WordPress site. This can be leveraged to update an option that would create an error on the site and deny service to legitimate users or be used to set some values to true such as registration. There are several other functions also vulnerable to missing authorization.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13776</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13776</guid>
     </item>
     <item>
       <title>CVE-2021-47667 - ZendTo OS Command Injection Vulnerability</title>
