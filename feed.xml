@@ -8,436 +8,653 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 08 Apr 2025 08:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 10:11:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
-      <title>CVE-2024-47261 - Axis VAPIX API File Upload Vulnerability (Arbitrary File Upload)</title>
+      <title>CVE-2024-41790 - "SENTRON 7KT PAC1260 Data Manager Authenticated Remote Code Execution"</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-47261
+<strong>CVE ID : </strong>CVE-2024-41790
 <br>
-<strong>Published : </strong> April 8, 2025, 6:15 a.m. | 59 minutes ago
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
 <br>
-<strong>Description : </strong>51l3nc3, a member of the AXIS OS Bug Bounty Program, has found that the VAPIX API uploadoverlayimage.cgi did not have sufficient input validation to allow an attacker to upload files to block access to create image overlays in the web interface of the Axis device.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-47261</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-47261</guid>
-    </item>
-    <item>
-      <title>CVE-2025-0361 - Axis Communications VAPIX Device Configuration SSH Management API Unauthenticated Username Enumeration Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-0361
-<br>
-<strong>Published : </strong> April 8, 2025, 6:15 a.m. | 59 minutes ago
-<br>
-<strong>Description : </strong>During an annual penetration test conducted on behalf of Axis Communications, Truesec discovered a flaw in the VAPIX Device Configuration framework that allowed for unauthenticated username enumeration through the VAPIX Device Configuration SSH Management API.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-0361</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0361</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3412 - Mymagicpower AIAS Server-Side Request Forgery Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3412
-<br>
-<strong>Published : </strong> April 8, 2025, 6:15 a.m. | 59 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, was found in mymagicpower AIAS 20250308. Affected is an unknown function of the file 2_training_platform/train-platform/src/main/java/top/aias/training/controller/InferController.java. The manipulation of the argument url leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3412</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3412</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3413 - Opplus Springboot-Admin Remote Deserialization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3413
-<br>
-<strong>Published : </strong> April 8, 2025, 6:15 a.m. | 59 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability has been found in opplus springboot-admin up to a2d5310f44fd46780a8686456cf2f9001ab8f024 and classified as critical. Affected by this vulnerability is the function code of the file SysGeneratorController.java. The manipulation of the argument Tables leads to deserialization. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3413</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3413</guid>
-    </item>
-    <item>
-      <title>CVE-2024-13820 - Melhor Envio for WordPress Sensitive Information Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-13820
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>The Melhor Envio plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.15.9 via the 'run' function, which uses a hardcoded hash. This makes it possible for unauthenticated attackers to extract sensitive data including environment information, plugin tokens, shipping configurations, and limited vendor information.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-13820</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13820</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20934 - Sticker Center Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20934
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper access control in Sticker Center prior to SMR Apr-2025 Release 1 allows local attackers to access image files with system privilege.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20934</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20934</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20935 - Google ClipboardService Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20935
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper handling of insufficient permission or privileges in ClipboardService prior to SMR Apr-2025 Release 1 allows local attackers to access files with system privilege. User interaction is required for triggering this vulnerability.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20935</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20935</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20936 - Broadcom HDMI Compliance Module Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20936
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper access control in HDCP trustlet prior to SMR Apr-2025 Release 1 allows local attackers with shell privilege to escalate their privileges to root.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20936</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20936</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20938 - Samsung Contacts Access Control Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20938
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper access control in SamsungContacts prior to SMR Apr-2025 Release 1 allows local attackers to access protected data in SamsungContacts.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20938</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20938</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20939 - Samsung Galaxy Watch Authorization Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20939
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper authorization in wireless download protocol in Galaxy Watch prior to SMR Apr-2025 Release 1 allows physical attackers to update device unique identifier of Watch devices.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20939</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20939</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20940 - Samsung Device Health Manager Service Permission Bypass Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20940
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper handling of insufficient permission in Samsung Device Health Manager Service prior to SMR Apr-2025 Release 1 allows local attackers to access provider in SDMHS.
-<br>
-<strong>Severity:</strong> 4.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20940</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20940</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20941 - Logitech InputManager Unauthenticated Scancode Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20941
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper access control in InputManager to SMR Apr-2025 Release 1 allows local attackers to access the scancode of specific input device.
-<br>
-<strong>Severity:</strong> 6.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20941</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20941</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20942 - Google Android Intent Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20942
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Verification of Intent by Broadcast Receiver in DeviceIdService prior to SMR Apr-2025 Release 1 allows local attackers to reset OAID.
-<br>
-<strong>Severity:</strong> 4.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20942</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20942</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20943 - "Qualcomm secfr Trustlet Out-of-Bounds Write Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20943
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Out-of-bounds write in secfr trustlet prior to SMR Apr-2025 Release 1 allows local privileged attackers to cause memory corruption.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20943</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20943</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20944 - "SAVSAC Audio Parsing OOB Read"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20944
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Out-of-bounds read in parsing audio data in libsavsac.so prior to SMR Apr-2025 Release 1 allows local attackers to read out-of-bounds memory.
-<br>
-<strong>Severity:</strong> 6.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20944</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20944</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20945 - Samsung Galaxy Watch Authentication Bypass Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20945
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper access control in Galaxy Watch prior to SMR Apr-2025 Release 1 allows local attackers to access sensitive information of Galaxy watch.
-<br>
-<strong>Severity:</strong> 4.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20945</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20945</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20946 - Galaxy Watch Bluetooth Vulnerability: Unauthenticated Bluetooth Pairing</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20946
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper handling of exceptional conditions in pairing specific bluetooth devices in Galaxy Watch Bluetooth pairing prior to SMR Apr-2025 Release 1 allows local attackers to pair with specific bluetooth devices without user interaction.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20946</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20946</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20947 - Microsoft ClipboardService Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20947
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper handling of insufficient permission or privileges in ClipboardService prior to SMR Apr-2025 Release 1 allows local attackers to access image files across multiple users. User interaction is required for triggering this vulnerability.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20947</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20947</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20948 - Qualcomm Snapdragon CDSP Frame Secfr Trustlet OOB Read Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20948
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Out-of-bounds read in enrollment with cdsp frame secfr trustlet prior to SMR Apr-2025 Release 1 allows local privileged attackers to read out-of-bounds memory.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20948</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20948</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20950 - Samsung Notes Intent Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20950
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Use of implicit intent for sensitive communication in SamsungNotes prior to version 4.4.26.45 allows local attackers to access sensitive information.
-<br>
-<strong>Severity:</strong> 4.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20950</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20950</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20951 - Samsung Galaxy Store Local File Write</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20951
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper verification of intent by broadcast receiver vulnerability in Galaxy Store prior to version 4.5.90.7 allows local attackers to write arbitrary files with the privilege of Galaxy Store.
-<br>
-<strong>Severity:</strong> 5.1 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20951</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20951</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2004 - WordPress Simple WP Events Remote File Deletion Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2004
-<br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
-<br>
-<strong>Description : </strong>The Simple WP Events plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the wpe_delete_file AJAX action in all versions up to, and including, 1.8.17. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
+<strong>Description : </strong>A vulnerability has been identified in SENTRON 7KT PAC1260 Data Manager (All versions). The web interface of affected devices does not sanitize the region parameter in specific POST requests. This could allow an authenticated remote attacker to execute arbitrary code with root privileges.
 <br>
 <strong>Severity:</strong> 9.1 | CRITICAL
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2004</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2004</guid>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41790</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41790</guid>
     </item>
     <item>
-      <title>CVE-2025-3409 - Nothings stb Stack-Based Buffer Overflow Vulnerability</title>
+      <title>CVE-2024-41791 - "SENTRON 7KT PAC1260 Data Manager Unauthenticated Remote Command Execution"</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3409
+<strong>CVE ID : </strong>CVE-2024-41791
 <br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
 <br>
-<strong>Description : </strong>A vulnerability classified as critical has been found in Nothings stb up to f056911. This affects the function stb_include_string. The manipulation of the argument path_to_includes leads to stack-based buffer overflow. It is possible to initiate the attack remotely. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The vendor was contacted early about this disclosure but did not respond in any way.
+<strong>Description : </strong>A vulnerability has been identified in SENTRON 7KT PAC1260 Data Manager (All versions). The web interface of affected devices does not authenticate report creation requests. This could allow an unauthenticated remote attacker to read or clear the log files on the device, reset the device or set the date and time.
 <br>
-<strong>Severity:</strong> 6.3 | MEDIUM
+<strong>Severity:</strong> 7.3 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3409</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3409</guid>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41791</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41791</guid>
     </item>
     <item>
-      <title>CVE-2025-3410 - MyMagicPower AIAS Unrestricted File Upload Vulnerability</title>
+      <title>CVE-2024-41792 - "Siemens SENTRON 7KT PAC1260 Path Traversal Vulnerability"</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3410
+<strong>CVE ID : </strong>CVE-2024-41792
 <br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
 <br>
-<strong>Description : </strong>A vulnerability classified as critical was found in mymagicpower AIAS 20250308. This vulnerability affects unknown code of the file training_platform/train-platform/src/main/java/top/aias/training/controller/LocalStorageController.java. The manipulation of the argument File leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<strong>Description : </strong>A vulnerability has been identified in SENTRON 7KT PAC1260 Data Manager (All versions). The web interface of affected devices contains a path traversal vulnerability. This could allow an unauthenticated attacker it to access arbitrary files on the device with root privileges.
 <br>
-<strong>Severity:</strong> 6.3 | MEDIUM
+<strong>Severity:</strong> 8.6 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3410</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3410</guid>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41792</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41792</guid>
     </item>
     <item>
-      <title>CVE-2025-3411 - Mymagicpower AIAS SSRF</title>
+      <title>CVE-2024-41793 - Sentron 7KT PAC1260 Data Manager Unauthenticated SSH Service Enablement</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3411
+<strong>CVE ID : </strong>CVE-2024-41793
 <br>
-<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 1 hour, 59 minutes ago
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
 <br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in mymagicpower AIAS 20250308. This issue affects some unknown processing of the file 3_api_platform/api-platform/src/main/java/top/aias/platform/controller/AsrController.java. The manipulation of the argument url leads to server-side request forgery. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<strong>Description : </strong>A vulnerability has been identified in SENTRON 7KT PAC1260 Data Manager (All versions). The web interface of affected devices provides an endpoint that allows to enable the ssh service without authentication. This could allow an unauthenticated remote attacker to enable remote access to the device via ssh.
 <br>
-<strong>Severity:</strong> 6.3 | MEDIUM
+<strong>Severity:</strong> 8.6 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3411</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3411</guid>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41793</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41793</guid>
+    </item>
+    <item>
+      <title>CVE-2024-41794 - Siemens SENTRON 7KT PAC1260 Hardcoded Credentials Remote Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-41794
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been identified in SENTRON 7KT PAC1260 Data Manager (All versions). Affected devices contain hardcoded credentials for remote access to the device operating system with root privileges. This could allow unauthenticated remote attackers to gain full access to a device, if they are in possession of these credentials and if the ssh service is enabled (e.g., by exploitation of CVE-2024-41793).
+<br>
+<strong>Severity:</strong> 10.0 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41794</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41794</guid>
+    </item>
+    <item>
+      <title>CVE-2024-41795 - "Siemens SENTRON 7KT PAC1260 CSRF Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-41795
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been identified in SENTRON 7KT PAC1260 Data Manager (All versions). The web interface of affected devices is vulnerable to Cross-Site Request Forgery (CSRF) attacks. This could allow an unauthenticated attacker to change arbitrary device settings by tricking a legitimate device administrator to click on a malicious link.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41795</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41795</guid>
+    </item>
+    <item>
+      <title>CVE-2024-41796 - Siemens SENTRON 7KT PAC1260 CSRF Password Change Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-41796
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been identified in SENTRON 7KT PAC1260 Data Manager (All versions). The web interface of affected devices allows to change the login password without knowing the current password. In combination with a prepared CSRF attack (CVE-2024-41795) an unauthenticated attacker could be able to set the password to an attacker-controlled value.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41796</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41796</guid>
+    </item>
+    <item>
+      <title>CVE-2024-54092 - "Siemens Industrial Edge Devices Federation Authentication Bypass"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-54092
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been identified in Industrial Edge Device Kit - arm64 V1.17 (All versions), Industrial Edge Device Kit - arm64 V1.18 (All versions), Industrial Edge Device Kit - arm64 V1.19 (All versions), Industrial Edge Device Kit - arm64 V1.20 (All versions < V1.20.2-1), Industrial Edge Device Kit - arm64 V1.21 (All versions < V1.21.1-1), Industrial Edge Device Kit - x86-64 V1.17 (All versions), Industrial Edge Device Kit - x86-64 V1.18 (All versions), Industrial Edge Device Kit - x86-64 V1.19 (All versions), Industrial Edge Device Kit - x86-64 V1.20 (All versions < V1.20.2-1), Industrial Edge Device Kit - x86-64 V1.21 (All versions < V1.21.1-1), Industrial Edge Own Device (IEOD) (All versions < V1.21.1-1-a), Industrial Edge Virtual Device (All versions < V1.21.1-1-a), SCALANCE LPE9413 (6GK5998-3GS01-2AC2) (All versions), SIMATIC IPC BX-39A Industrial Edge Device (All versions < V3.0), SIMATIC IPC BX-59A Industrial Edge Device (All versions < V3.0), SIMATIC IPC127E Industrial Edge Device (All versions < V3.0), SIMATIC IPC227E Industrial Edge Device (All versions < V3.0), SIMATIC IPC427E Industrial Edge Device (All versions < V3.0), SIMATIC IPC847E Industrial Edge Device (All versions < V3.0). Affected devices do not properly enforce user authentication on specific API endpoints when identity federation is used. This could facilitate an unauthenticated remote attacker to circumvent authentication and impersonate a legitimate user. Successful exploitation requires that identity federation is currently or has previously been used and the attacker has learned the identity of a legitimate user.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-54092</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-54092</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22008 - Linux Kernel Regulator Use-After-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22008
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+regulator: check that dummy regulator has been probed before using it
+
+Due to asynchronous driver probing there is a chance that the dummy
+regulator hasn't already been probed when first accessing it.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22008</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22008</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22009 - Linux Kernel Dummy Regulator Synchronous Probing Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22009
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+regulator: dummy: force synchronous probing
+
+Sometimes I get a NULL pointer dereference at boot time in kobject_get()
+with the following call stack:
+
+anatop_regulator_probe()
+ devm_regulator_register()
+  regulator_register()
+   regulator_resolve_supply()
+    kobject_get()
+
+By placing some extra BUG_ON() statements I could verify that this is
+raised because probing of the 'dummy' regulator driver is not completed
+('dummy_regulator_rdev' is still NULL).
+
+In the JTAG debugger I can see that dummy_regulator_probe() and
+anatop_regulator_probe() can be run by different kernel threads
+(kworker/u4:*).  I haven't further investigated whether this can be
+changed or if there are other possibilities to force synchronization
+between these two probe routines.  On the other hand I don't expect much
+boot time penalty by probing the 'dummy' regulator synchronously.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22009</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22009</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22010 - "Huawei RDMA Linux Kernel Soft Lockup Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22010
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+RDMA/hns: Fix soft lockup during bt pages loop
+
+Driver runs a for-loop when allocating bt pages and mapping them with
+buffer pages. When a large buffer (e.g. MR over 100GB) is being allocated,
+it may require a considerable loop count. This will lead to soft lockup:
+
+        watchdog: BUG: soft lockup - CPU#27 stuck for 22s!
+        ...
+        Call trace:
+         hem_list_alloc_mid_bt+0x124/0x394 [hns_roce_hw_v2]
+         hns_roce_hem_list_request+0xf8/0x160 [hns_roce_hw_v2]
+         hns_roce_mtr_create+0x2e4/0x360 [hns_roce_hw_v2]
+         alloc_mr_pbl+0xd4/0x17c [hns_roce_hw_v2]
+         hns_roce_reg_user_mr+0xf8/0x190 [hns_roce_hw_v2]
+         ib_uverbs_reg_mr+0x118/0x290
+
+        watchdog: BUG: soft lockup - CPU#35 stuck for 23s!
+        ...
+        Call trace:
+         hns_roce_hem_list_find_mtt+0x7c/0xb0 [hns_roce_hw_v2]
+         mtr_map_bufs+0xc4/0x204 [hns_roce_hw_v2]
+         hns_roce_mtr_create+0x31c/0x3c4 [hns_roce_hw_v2]
+         alloc_mr_pbl+0xb0/0x160 [hns_roce_hw_v2]
+         hns_roce_reg_user_mr+0x108/0x1c0 [hns_roce_hw_v2]
+         ib_uverbs_reg_mr+0x120/0x2bc
+
+Add a cond_resched() to fix soft lockup during these loops. In order not
+to affect the allocation performance of normal-size buffer, set the loop
+count of a 100GB MR as the threshold to call cond_resched().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22010</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22010</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22011 - Raspberry Pi ARM Linux Kernel USB Power Management Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22011
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ARM: dts: bcm2711: Fix xHCI power-domain
+
+During s2idle tests on the Raspberry CM4 the VPU firmware always crashes
+on xHCI power-domain resume:
+
+root@raspberrypi:/sys/power# echo freeze > state
+[   70.724347] xhci_suspend finished
+[   70.727730] xhci_plat_suspend finished
+[   70.755624] bcm2835-power bcm2835-power: Power grafx off
+[   70.761127]  USB: Set power to 0
+
+[   74.653040]  USB: Failed to set power to 1 (-110)
+
+This seems to be caused because of the mixed usage of
+raspberrypi-power and bcm2835-power at the same time. So avoid
+the usage of the VPU firmware power-domain driver, which
+prevents the VPU crash.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22011</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22011</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22012 - Lenovo Yoga C630 ARM64 Pagetable Walker Coherency Lockup Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22012
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+Revert "arm64: dts: qcom: sdm845: Affirm IDR0.CCTW on apps_smmu"
+
+There are reports that the pagetable walker cache coherency is not a
+given across the spectrum of SDM845/850 devices, leading to lock-ups
+and resets. It works fine on some devices (like the Dragonboard 845c,
+but not so much on the Lenovo Yoga C630).
+
+This unfortunately looks like a fluke in firmware development, where
+likely somewhere in the vast hypervisor stack, a change to accommodate
+for this was only introduced after the initial software release (which
+often serves as a baseline for products).
+
+Revert the change to avoid additional guesswork around crashes.
+
+This reverts commit 6b31a9744b8726c69bb0af290f8475a368a4b805.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22012</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22012</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22013 - KVM: arm64: FPSIMD/SVE/SME State Eager Save and Flush Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22013
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+KVM: arm64: Unconditionally save+flush host FPSIMD/SVE/SME state
+
+There are several problems with the way hyp code lazily saves the host's
+FPSIMD/SVE state, including:
+
+* Host SVE being discarded unexpectedly due to inconsistent
+  configuration of TIF_SVE and CPACR_ELx.ZEN. This has been seen to
+  result in QEMU crashes where SVE is used by memmove(), as reported by
+  Eric Auger:
+
+  https://issues.redhat.com/browse/RHEL-68997
+
+* Host SVE state is discarded *after* modification by ptrace, which was an
+  unintentional ptrace ABI change introduced with lazy discarding of SVE state.
+
+* The host FPMR value can be discarded when running a non-protected VM,
+  where FPMR support is not exposed to a VM, and that VM uses
+  FPSIMD/SVE. In these cases the hyp code does not save the host's FPMR
+  before unbinding the host's FPSIMD/SVE/SME state, leaving a stale
+  value in memory.
+
+Avoid these by eagerly saving and "flushing" the host's FPSIMD/SVE/SME
+state when loading a vCPU such that KVM does not need to save any of the
+host's FPSIMD/SVE/SME state. For clarity, fpsimd_kvm_prepare() is
+removed and the necessary call to fpsimd_save_and_flush_cpu_state() is
+placed in kvm_arch_vcpu_load_fp(). As 'fpsimd_state' and 'fpmr_ptr'
+should not be used, they are set to NULL; all uses of these will be
+removed in subsequent patches.
+
+Historical problems go back at least as far as v5.17, e.g. erroneous
+assumptions about TIF_SVE being clear in commit:
+
+  8383741ab2e773a9 ("KVM: arm64: Get rid of host SVE tracking/saving")
+
+... and so this eager save+flush probably needs to be backported to ALL
+stable trees.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22013</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22013</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22014 - Linux Kernel Qcom PDR Deadlock Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22014
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+soc: qcom: pdr: Fix the potential deadlock
+
+When some client process A call pdr_add_lookup() to add the look up for
+the service and does schedule locator work, later a process B got a new
+server packet indicating locator is up and call pdr_locator_new_server()
+which eventually sets pdr->locator_init_complete to true which process A
+sees and takes list lock and queries domain list but it will timeout due
+to deadlock as the response will queued to the same qmi->wq and it is
+ordered workqueue and process B is not able to complete new server
+request work due to deadlock on list lock.
+
+Fix it by removing the unnecessary list iteration as the list iteration
+is already being done inside locator work, so avoid it here and just
+call schedule_work() here.
+
+       Process A                        Process B
+
+                                     process_scheduled_works()
+pdr_add_lookup()                      qmi_data_ready_work()
+ process_scheduled_works()             pdr_locator_new_server()
+                                         pdr->locator_init_complete=true;
+   pdr_locator_work()
+    mutex_lock(&pdr->list_lock);
+
+     pdr_locate_service()                  mutex_lock(&pdr->list_lock);
+
+      pdr_get_domain_list()
+       pr_err("PDR: %s get domain list
+               txn wait failed: %d\n",
+               req->service_name,
+               ret);
+
+Timeout error log due to deadlock:
+
+"
+ PDR: tms/servreg get domain list txn wait failed: -110
+ PDR: service lookup for msm/adsp/sensor_pd:tms/servreg failed: -110
+"
+
+Thanks to Bjorn and Johan for letting me know that this commit also fixes
+an audio regression when using the in-kernel pd-mapper as that makes it
+easier to hit this race. [1]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22014</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22014</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22015 - Linux Kernel Shmem Xarray Update Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22015
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+mm/migrate: fix shmem xarray update during migration
+
+A shmem folio can be either in page cache or in swap cache, but not at the
+same time.  Namely, once it is in swap cache, folio->mapping should be
+NULL, and the folio is no longer in a shmem mapping.
+
+In __folio_migrate_mapping(), to determine the number of xarray entries to
+update, folio_test_swapbacked() is used, but that conflates shmem in page
+cache case and shmem in swap cache case.  It leads to xarray multi-index
+entry corruption, since it turns a sibling entry to a normal entry during
+xas_store() (see [1] for a userspace reproduction).  Fix it by only using
+folio_test_swapcache() to determine whether xarray is storing swap cache
+entries or not to choose the right number of xarray entries to update.
+
+[1] https://lore.kernel.org/linux-mm/Z8idPCkaJW1IChjT@casper.infradead.org/
+
+Note:
+In __split_huge_page(), folio_test_anon() && folio_test_swapcache() is
+used to get swap_cache address space, but that ignores the shmem folio in
+swap cache case.  It could lead to NULL pointer dereferencing when a
+in-swap-cache shmem folio is split at __xa_store(), since
+!folio_test_anon() is true and folio->mapping is NULL.  But fortunately,
+its caller split_huge_page_to_list_to_order() bails out early with EBUSY
+when folio->mapping is NULL.  So no need to take care of it here.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22015</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22015</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22016 - Linux Kernel dpll XA Allocation Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22016
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+dpll: fix xa_alloc_cyclic() error handling
+
+In case of returning 1 from xa_alloc_cyclic() (wrapping) ERR_PTR(1) will
+be returned, which will cause IS_ERR() to be false. Which can lead to
+dereference not allocated pointer (pin).
+
+Fix it by checking if err is lower than zero.
+
+This wasn't found in real usecase, only noticed. Credit to Pierre.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22016</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22016</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22017 - Linux kernel devlink XA-Alloc Cyclic Off-by-Error</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22017
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+devlink: fix xa_alloc_cyclic() error handling
+
+In case of returning 1 from xa_alloc_cyclic() (wrapping) ERR_PTR(1) will
+be returned, which will cause IS_ERR() to be false. Which can lead to
+dereference not allocated pointer (rel).
+
+Fix it by checking if err is lower than zero.
+
+This wasn't found in real usecase, only noticed. Credit to Pierre.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22017</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22017</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29999 - Siemens License Server (SLS) Path Traversal Arbitrary Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29999
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been identified in Siemens License Server (SLS) (All versions < V4.3). The affected application searches for executable files in the application folder without proper validation.
+This could allow an attacker to execute arbitrary code with administrative privileges by placing a malicious executable in the same directory.
+<br>
+<strong>Severity:</strong> 6.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29999</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29999</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30000 - Siemens License Server (SLS) Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30000
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been identified in Siemens License Server (SLS) (All versions < V4.3). The affected application does not properly restrict permissions of the users. This could allow a lowly-privileged attacker to escalate their privileges.
+<br>
+<strong>Severity:</strong> 6.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30000</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30000</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30280 - Mendix Entity Enumeration Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30280
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been identified in Mendix Runtime V10 (All versions < V10.21.0), Mendix Runtime V10.12 (All versions), Mendix Runtime V10.18 (All versions), Mendix Runtime V10.6 (All versions), Mendix Runtime V8 (All versions), Mendix Runtime V9 (All versions < V9.24.34). Affected applications allow for entity enumeration due to distinguishable responses in certain client actions. This could allow an unauthenticated remote attacker to list all valid entities and attribute names of a Mendix Runtime-based application.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30280</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30280</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3064 - WPFront User Role Editor CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3064
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>The WPFront User Role Editor plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 4.2.1. This is due to missing or incorrect nonce validation on the whitelist_options() function. This makes it possible for unauthenticated attackers to update the default role option that can be leveraged for privilege escalation via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. This is only exploitable on multisite instances.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3064</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3064</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3432 - WordPress AAWP Obfuscator Stored Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3432
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>The AAWP Obfuscator plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'data-aawp-web' parameter in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3432</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3432</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3433 - WordPress Advanced Advertising System Open Redirect Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3433
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>The Advanced Advertising System plugin for WordPress is vulnerable to Open Redirect in all versions up to, and including, 1.3.1. This is due to insufficient validation on the redirect url supplied via the 'redir' parameter. This makes it possible for unauthenticated attackers to redirect users to potentially malicious sites if they can successfully trick them into performing an action.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3433</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3433</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3436 - WordPress CoreActivity Activity Logging Plugin SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3436
+<br>
+<strong>Published : </strong> April 8, 2025, 9:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>The coreActivity: Activity Logging for WordPress plugin for WordPress is vulnerable to SQL Injection via the 'order' and 'orderby' parameters in all versions up to, and including, 2.7 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3436</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3436</guid>
     </item>
     <item>
       <title>CVE-2025-2519 - Sreamit WordPress Arbitrary File Download Vulnerability</title>
