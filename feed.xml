@@ -8,18 +8,222 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 08 Apr 2025 02:55:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 04:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-2519 - Sreamit WordPress Arbitrary File Download Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2519
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>The Sreamit theme for WordPress is vulnerable to arbitrary file downloads in all versions up to, and including, 4.0.1. This is due to insufficient file validation in the 'st_send_download_file' function. This makes it possible for authenticated attackers, with subscriber-level access and above, to download arbitrary files.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2519</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2519</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2525 - Streamit for WordPress Arbitrary File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2525
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>The Streamit theme for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'st_Authentication_Controller::edit_profile' function in all versions up to, and including, 4.0.1. This makes it possible for authenticated attackers, with subscriber-level and above permissions, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2525</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2525</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2526 - Streamit Theme for WordPress Privilege Escalation via Account Takeover</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2526
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>The Streamit theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 4.0.2. This is due to the plugin not properly validating a user's identity prior to updating their details like email in the 'st_Authentication_Controller::edit_profile' function. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2526</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2526</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3361 - HGiga iSherlock OS Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3361
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>The web service of iSherlock from HGiga has an OS Command Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary OS commands and execute them on the server.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3361</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3361</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3362 - HGiga iSherlock OS Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3362
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>The web service of iSherlock from HGiga has an OS Command Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary OS commands and execute them on the server.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3362</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3362</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3363 - HGiga iSherlock OS Command Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3363
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>The web service of iSherlock from HGiga has an OS Command Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary OS commands and execute them on the server.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3363</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3363</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3392 - "Hailey888 OA System Backend MailController Cross-Site Scripting Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3392
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability was found in hailey888 oa_system up to 2025.01.01 and classified as problematic. Affected by this issue is the function Save of the file cn/gson/oasys/controller/mail/MailController.java of the component Backend. The manipulation of the argument MailNumberId leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3392</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3392</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3393 - MRCEN Springboot-Ucan-Admin Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3393
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability was found in mrcen springboot-ucan-admin up to 5f35162032cbe9288a04e429ef35301545143509. It has been classified as problematic. This affects an unknown part of the file /ucan-admin/index of the component Personal Settings Interface. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3393</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3393</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3397 - YzmCMS Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3397
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in YzmCMS 7.1. Affected is an unknown function of the file message.tpl. The manipulation of the argument gourl leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3397</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3397</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3398 - Lenve VBlog Remote Web Security Config File Improper Access Controls Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3398
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in lenve VBlog up to 1.0.0. Affected by this vulnerability is the function configure of the file blogserver/src/main/java/org/sang/config/WebSecurityConfig.java. The manipulation leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3398</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3398</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3399 - ESAFENET CDG SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3399
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in ESAFENET CDG 5.6.3.154.205_20250114. Affected by this issue is some unknown functionality of the file /pubinfo/updateNotice.jsp. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3399</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3399</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3400 - ESAfENET CDG SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3400
+<br>
+<strong>Published : </strong> April 8, 2025, 2:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in ESAFENET CDG 5.6.3.154.205_20250114. This affects an unknown part of the file /client/UnChkMailApplication.jsp. The manipulation of the argument typename leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3400</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3400</guid>
+    </item>
+    <item>
       <title>CVE-2025-3391 - Hailey888 Oa_System Cross-Site Scripting Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3391
 <br>
-<strong>Published : </strong> April 8, 2025, 1:15 a.m. | 54 minutes ago
+<strong>Published : </strong> April 8, 2025, 1:15 a.m. | 1 hour, 59 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in hailey888 oa_system up to 2025.01.01 and classified as problematic. Affected by this vulnerability is the function outAddress of the file cn/gson/oass/controller/address/AddrController. java of the component Backend. The manipulation of the argument outtype leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available.
 <br>
@@ -36,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3389
 <br>
-<strong>Published : </strong> April 8, 2025, 12:15 a.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> April 8, 2025, 12:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in hailey888 oa_system up to 2025.01.01. This issue affects the function testMess of the file cn/gson/oasys/controller/inform/InformManageController.java of the component Backend. The manipulation of the argument menu leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable.
 <br>
@@ -53,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3390
 <br>
-<strong>Published : </strong> April 8, 2025, 12:15 a.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> April 8, 2025, 12:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in hailey888 oa_system up to 2025.01.01. Affected is the function addandchangeday of the file cn/gson/oass/controller/daymanager/DaymanageController.java of the component Backend. The manipulation of the argument scheduleList leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available.
 <br>
@@ -70,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3387
 <br>
-<strong>Published : </strong> April 7, 2025, 11:15 p.m. | 2 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 11:15 p.m. | 3 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in renrenio renren-security up to 5.4.0. This affects an unknown part of the component JSON Handler. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -87,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3388
 <br>
-<strong>Published : </strong> April 7, 2025, 11:15 p.m. | 2 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 11:15 p.m. | 3 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in hailey888 oa_system up to 2025.01.01. This vulnerability affects the function loginCheck of the file cn/gson/oasys/controller/login/LoginsController.java of the component Frontend. The manipulation of the argument Username leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available.
 <br>
@@ -104,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0942
 <br>
-<strong>Published : </strong> April 7, 2025, 10:15 p.m. | 3 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 10:15 p.m. | 5 hours ago
 <br>
 <strong>Description : </strong>The DB chooser functionality in Jalios JPlatform 10 SP6 before 10.0.6 improperly neutralizes special elements used in an SQL command allows for authenticated administrative users to trigger SQL Injection.
 
@@ -123,7 +327,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32409
 <br>
-<strong>Published : </strong> April 7, 2025, 10:15 p.m. | 3 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 10:15 p.m. | 5 hours ago
 <br>
 <strong>Description : </strong>Ratta SuperNote A6 X2 Nomad before December 2024 allows remote code execution because an arbitrary firmware image (signed with debug keys) can be sent to TCP port 60002, and placed into the correct image-update location as a consequence of both directory traversal and unintended handling of concurrency.
 <br>
@@ -140,7 +344,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3385
 <br>
-<strong>Published : </strong> April 7, 2025, 10:15 p.m. | 3 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 10:15 p.m. | 5 hours ago
 <br>
 <strong>Description : </strong>A vulnerability was found in LinZhaoguan pb-cms 2.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the component Classification Management Page. The manipulation of the argument Classification name leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -157,7 +361,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3386
 <br>
-<strong>Published : </strong> April 7, 2025, 10:15 p.m. | 3 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 10:15 p.m. | 5 hours ago
 <br>
 <strong>Description : </strong>A vulnerability was found in LinZhaoguan pb-cms 2.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /admin#links of the component Friendship Link Handler. The manipulation leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -170,96 +374,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3386</guid>
     </item>
     <item>
-      <title>CVE-2025-31496 - Apollo Compiler Named Fragment Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31496
-<br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>apollo-compiler is a query-based compiler for the GraphQL query language. Prior to 1.27.0, a vulnerability in Apollo Compiler allowed queries with deeply nested and reused named fragments to be prohibitively expensive to validate. Named fragments were being processed once per fragment spread in some cases during query validation, leading to exponential resource usage when deeply nested and reused fragments were involved. This could lead to excessive resource consumption and denial of service in applications. This vulnerability is fixed in 1.27.0.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31496</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31496</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32029 - Apache TS ASN1 DER Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32029
-<br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>ts-asn1-der is a collection of utility classes to encode ASN.1 data following DER rule. Incorrect number DER encoding can lead to denial on service for absolute values in the range 2**31 -- 2**32 - 1. The arithmetic in the numBitLen didn't take into account that values in this range could result in a negative result upon applying the >> operator, leading to an infinite loop. The issue is patched in version 1.0.4. If upgrading is not an option, the issue can be mitigated by validating inputs to Asn1Integer to ensure that they are not smaller than -2**31 + 1 and no larger than 2**31 - 1.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32029</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32029</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32030 - Apollo Gateway Nested Fragment Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32030
-<br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>Apollo Gateway provides utilities for combining multiple GraphQL microservices into a single GraphQL endpoint. Prior to 2.10.1, a vulnerability in Apollo Gateway allowed queries with deeply nested and reused named fragments to be prohibitively expensive to query plan, specifically during named fragment expansion. Named fragments were being expanded once per fragment spread during query planning, leading to exponential resource usage when deeply nested and reused fragments were involved. This could lead to excessive resource consumption and denial of service. This has been remediated in @apollo/gateway version 2.10.1.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32030</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32030</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32031 - Apollo Gateway Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32031
-<br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>Apollo Gateway provides utilities for combining multiple GraphQL microservices into a single GraphQL endpoint. Prior to 2.10.1, a vulnerability in Apollo Gateway allowed queries with deeply nested and reused named fragments to be prohibitively expensive to query plan, specifically due to internal optimizations being frequently bypassed. The query planner includes an optimization that significantly speeds up planning for applicable GraphQL selections. However, queries with deeply nested and reused named fragments can generate many selections where this optimization does not apply, leading to significantly longer planning times. Because the query planner does not enforce a timeout, a small number of such queries can render gateway inoperable. This could lead to excessive resource consumption and denial of service. This has been remediated in @apollo/gateway version 2.10.1.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32031</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32031</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32032 - Apollo Router Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32032
-<br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>The Apollo Router Core is a configurable, high-performance graph router written in Rust to run a federated supergraph that uses Apollo Federation 2. A vulnerability in Apollo Router allowed queries with deeply nested and reused named fragments to be prohibitively expensive to query plan, specifically due to internal optimizations being frequently bypassed. The query planner includes an optimization that significantly speeds up planning for applicable GraphQL selections. However, queries with deeply nested and reused named fragments can generate many selections where this optimization does not apply, leading to significantly longer planning times. Because the query planner does not enforce a timeout, a small number of such queries can exhaust router's thread pool, rendering it inoperable. This could lead to excessive resource consumption and denial of service. This has been remediated in apollo-router versions 1.61.2 and 2.1.1.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32032</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32032</guid>
-    </item>
-    <item>
       <title>CVE-2025-32033 - Apollo Router Core Unsigned Integer Wraparound Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32033
 <br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>The Apollo Router Core is a configurable, high-performance graph router written in Rust to run a federated supergraph that uses Apollo Federation 2. Prior to 1.61.2 and 2.1.1, the operation limits plugin uses unsigned 32-bit integers to track limit counters (e.g. for a query's height). If a counter exceeded the maximum value for this data type (4,294,967,295), it wrapped around to 0, unintentionally allowing queries to bypass configured thresholds. This could occur for large queries if the payload limit were sufficiently increased, but could also occur for small queries with deeply nested and reused named fragments. This has been remediated in apollo-router versions 1.61.2 and 2.1.1.
 <br>
@@ -276,7 +395,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32034
 <br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>The Apollo Router Core is a configurable, high-performance graph router written in Rust to run a federated supergraph that uses Apollo Federation 2. Prior to 1.61.2 and 2.1.1, a vulnerability in Apollo Router allowed queries with deeply nested and reused named fragments to be prohibitively expensive to query plan, specifically during named fragment expansion. Named fragments were being expanded once per fragment spread during query planning, leading to exponential resource usage when deeply nested and reused fragments were involved. This could lead to excessive resource consumption and denial of service. This has been remediated in apollo-router versions 1.61.2 and 2.1.1.
 <br>
@@ -293,7 +412,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3383
 <br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in SourceCodester Web-based Pharmacy Product Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /search/search_sales.php. The manipulation of the argument Name leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -310,7 +429,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3384
 <br>
-<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 4 hours, 54 minutes ago
+<strong>Published : </strong> April 7, 2025, 9:15 p.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in 1000 Projects Human Resource Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /controller/employee.php. The manipulation of the argument email leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -321,125 +440,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 07 Apr 2025 21:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-3384</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3384</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29480 - GDAL Buffer Overflow Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29480
-<br>
-<strong>Published : </strong> April 7, 2025, 8:15 p.m. | 5 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>Buffer Overflow vulnerability in gdal 3.10.2 allows a local attacker to cause a denial of service via the OGRSpatialReference::Release function.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29480</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29480</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29481 - Libbpf Buffer Overflow RCE</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29481
-<br>
-<strong>Published : </strong> April 7, 2025, 8:15 p.m. | 5 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>Buffer Overflow vulnerability in libbpf 1.5.0 allows a local attacker to execute arbitrary code via the bpf_object__init_prog` function of libbpf.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29481</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29481</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29482 - Libheif Buffer Overflow Arbitrary Code Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29482
-<br>
-<strong>Published : </strong> April 7, 2025, 8:15 p.m. | 5 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>Buffer Overflow vulnerability in libheif 1.19.7 allows a local attacker to execute arbitrary code via the SAO (Sample Adaptive Offset) processing of libde265.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29482</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29482</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29594 - Apache CS2-WeaponPaints Website Unvalidated Input XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29594
-<br>
-<strong>Published : </strong> April 7, 2025, 8:15 p.m. | 5 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability exists in the errorpage.php file of the CS2-WeaponPaints-Website v2.1.7 where user-controlled input is not adequately validated before being processed. Specifically, the $_GET['errorcode'] parameter can be manipulated to access unauthorized error codes, leading to Cross-Site Scripting (XSS) attacks and information disclosure.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29594</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29594</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29769 - Libvips HEIF Alpha Channel Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29769
-<br>
-<strong>Published : </strong> April 7, 2025, 8:15 p.m. | 5 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>libvips is a demand-driven, horizontally threaded image processing library.  The heifsave operation could incorrectly determine the presence of an alpha channel in an input when it was not possible to determine the colour interpretation, known internally within libvips as "multiband". There aren't many ways to create a "multiband" input, but it is possible with a well-crafted TIFF image. If a "multiband" TIFF input image had 4 channels and HEIF-based output was requested, this led to libvips creating a 3 channel HEIF image without an alpha channel but then attempting to write 4 channels of data. This caused a heap buffer overflow, which could crash the process. This vulnerability is fixed in 8.16.1.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29769</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29769</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3381 - Zhangyanbo2007 Youkefu File Upload Java Path Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3381
-<br>
-<strong>Published : </strong> April 7, 2025, 8:15 p.m. | 5 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, was found in zhangyanbo2007 youkefu 4.2.0. This affects an unknown part of the file WebIMController.java of the component File Upload. The manipulation of the argument ID leads to path traversal. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3381</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3381</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3382 - Joey-Zhou Xiaozhi-ESP32-Server-Java SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3382
-<br>
-<strong>Published : </strong> April 7, 2025, 8:15 p.m. | 5 hours, 54 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability has been found in joey-zhou xiaozhi-esp32-server-java up to a14fe8115842ee42ab5c7a51706b8a85db5200b7 and classified as critical. This vulnerability affects the function update of the file /api/user/update. The manipulation of the argument state leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 07 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3382</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3382</guid>
     </item>
     <item>
       <title>Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030</title>
