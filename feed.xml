@@ -8,12 +8,437 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 08 Apr 2025 04:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 08:15:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2024-47261 - Axis VAPIX API File Upload Vulnerability (Arbitrary File Upload)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-47261
+<br>
+<strong>Published : </strong> April 8, 2025, 6:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>51l3nc3, a member of the AXIS OS Bug Bounty Program, has found that the VAPIX API uploadoverlayimage.cgi did not have sufficient input validation to allow an attacker to upload files to block access to create image overlays in the web interface of the Axis device.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-47261</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-47261</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0361 - Axis Communications VAPIX Device Configuration SSH Management API Unauthenticated Username Enumeration Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0361
+<br>
+<strong>Published : </strong> April 8, 2025, 6:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>During an annual penetration test conducted on behalf of Axis Communications, Truesec discovered a flaw in the VAPIX Device Configuration framework that allowed for unauthenticated username enumeration through the VAPIX Device Configuration SSH Management API.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0361</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0361</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3412 - Mymagicpower AIAS Server-Side Request Forgery Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3412
+<br>
+<strong>Published : </strong> April 8, 2025, 6:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in mymagicpower AIAS 20250308. Affected is an unknown function of the file 2_training_platform/train-platform/src/main/java/top/aias/training/controller/InferController.java. The manipulation of the argument url leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3412</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3412</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3413 - Opplus Springboot-Admin Remote Deserialization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3413
+<br>
+<strong>Published : </strong> April 8, 2025, 6:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in opplus springboot-admin up to a2d5310f44fd46780a8686456cf2f9001ab8f024 and classified as critical. Affected by this vulnerability is the function code of the file SysGeneratorController.java. The manipulation of the argument Tables leads to deserialization. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3413</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3413</guid>
+    </item>
+    <item>
+      <title>CVE-2024-13820 - Melhor Envio for WordPress Sensitive Information Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13820
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Melhor Envio plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.15.9 via the 'run' function, which uses a hardcoded hash. This makes it possible for unauthenticated attackers to extract sensitive data including environment information, plugin tokens, shipping configurations, and limited vendor information.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13820</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13820</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20934 - Sticker Center Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20934
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper access control in Sticker Center prior to SMR Apr-2025 Release 1 allows local attackers to access image files with system privilege.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20934</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20934</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20935 - Google ClipboardService Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20935
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper handling of insufficient permission or privileges in ClipboardService prior to SMR Apr-2025 Release 1 allows local attackers to access files with system privilege. User interaction is required for triggering this vulnerability.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20935</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20935</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20936 - Broadcom HDMI Compliance Module Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20936
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper access control in HDCP trustlet prior to SMR Apr-2025 Release 1 allows local attackers with shell privilege to escalate their privileges to root.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20936</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20936</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20938 - Samsung Contacts Access Control Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20938
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper access control in SamsungContacts prior to SMR Apr-2025 Release 1 allows local attackers to access protected data in SamsungContacts.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20938</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20938</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20939 - Samsung Galaxy Watch Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20939
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper authorization in wireless download protocol in Galaxy Watch prior to SMR Apr-2025 Release 1 allows physical attackers to update device unique identifier of Watch devices.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20939</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20939</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20940 - Samsung Device Health Manager Service Permission Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20940
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper handling of insufficient permission in Samsung Device Health Manager Service prior to SMR Apr-2025 Release 1 allows local attackers to access provider in SDMHS.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20940</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20940</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20941 - Logitech InputManager Unauthenticated Scancode Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20941
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper access control in InputManager to SMR Apr-2025 Release 1 allows local attackers to access the scancode of specific input device.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20941</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20941</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20942 - Google Android Intent Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20942
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Verification of Intent by Broadcast Receiver in DeviceIdService prior to SMR Apr-2025 Release 1 allows local attackers to reset OAID.
+<br>
+<strong>Severity:</strong> 4.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20942</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20942</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20943 - "Qualcomm secfr Trustlet Out-of-Bounds Write Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20943
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Out-of-bounds write in secfr trustlet prior to SMR Apr-2025 Release 1 allows local privileged attackers to cause memory corruption.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20943</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20943</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20944 - "SAVSAC Audio Parsing OOB Read"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20944
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Out-of-bounds read in parsing audio data in libsavsac.so prior to SMR Apr-2025 Release 1 allows local attackers to read out-of-bounds memory.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20944</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20944</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20945 - Samsung Galaxy Watch Authentication Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20945
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper access control in Galaxy Watch prior to SMR Apr-2025 Release 1 allows local attackers to access sensitive information of Galaxy watch.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20945</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20945</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20946 - Galaxy Watch Bluetooth Vulnerability: Unauthenticated Bluetooth Pairing</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20946
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper handling of exceptional conditions in pairing specific bluetooth devices in Galaxy Watch Bluetooth pairing prior to SMR Apr-2025 Release 1 allows local attackers to pair with specific bluetooth devices without user interaction.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20946</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20946</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20947 - Microsoft ClipboardService Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20947
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper handling of insufficient permission or privileges in ClipboardService prior to SMR Apr-2025 Release 1 allows local attackers to access image files across multiple users. User interaction is required for triggering this vulnerability.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20947</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20947</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20948 - Qualcomm Snapdragon CDSP Frame Secfr Trustlet OOB Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20948
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Out-of-bounds read in enrollment with cdsp frame secfr trustlet prior to SMR Apr-2025 Release 1 allows local privileged attackers to read out-of-bounds memory.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20948</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20948</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20950 - Samsung Notes Intent Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20950
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Use of implicit intent for sensitive communication in SamsungNotes prior to version 4.4.26.45 allows local attackers to access sensitive information.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20950</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20950</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20951 - Samsung Galaxy Store Local File Write</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20951
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper verification of intent by broadcast receiver vulnerability in Galaxy Store prior to version 4.5.90.7 allows local attackers to write arbitrary files with the privilege of Galaxy Store.
+<br>
+<strong>Severity:</strong> 5.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20951</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20951</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2004 - WordPress Simple WP Events Remote File Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2004
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Simple WP Events plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the wpe_delete_file AJAX action in all versions up to, and including, 1.8.17. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2004</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2004</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3409 - Nothings stb Stack-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3409
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in Nothings stb up to f056911. This affects the function stb_include_string. The manipulation of the argument path_to_includes leads to stack-based buffer overflow. It is possible to initiate the attack remotely. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3409</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3409</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3410 - MyMagicPower AIAS Unrestricted File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3410
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in mymagicpower AIAS 20250308. This vulnerability affects unknown code of the file training_platform/train-platform/src/main/java/top/aias/training/controller/LocalStorageController.java. The manipulation of the argument File leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3410</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3410</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3411 - Mymagicpower AIAS SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3411
+<br>
+<strong>Published : </strong> April 8, 2025, 5:15 a.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in mymagicpower AIAS 20250308. This issue affects some unknown processing of the file 3_api_platform/api-platform/src/main/java/top/aias/platform/controller/AsrController.java. The manipulation of the argument url leads to server-side request forgery. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3411</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3411</guid>
+    </item>
     <item>
       <title>CVE-2025-2519 - Sreamit WordPress Arbitrary File Download Vulnerability</title>
       <description><![CDATA[<p>
