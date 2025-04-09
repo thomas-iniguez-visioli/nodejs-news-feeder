@@ -8,18 +8,128 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 09 Apr 2025 12:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Apr 2025 14:11:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2017-20197 - Propanetank Roommate-Bill-Tracking SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2017-20197
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in propanetank Roommate-Bill-Tracking up to 288437f658fc9ee7d4b92a9da12557024d8bc55c. It has been declared as critical. This vulnerability affects unknown code of the file /includes/login.php. The manipulation of the argument Username leads to sql injection. The attack can be initiated remotely. The name of the patch is b32bb1b940f82d38fb9310cd66ebe349e20a1d0a. It is recommended to apply a patch to fix this issue.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2017-20197</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2017-20197</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2222 - Apache HTTP Server Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2222
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>CWE-552: Files or Directories Accessible to External Parties vulnerability over https exists that could leak
+information and potential privilege escalation following man in the middle attack.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2222</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2222</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2223 - Citrix Engineering Workstation Malicious File Load Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2223
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>CWE-20: Improper Input Validation vulnerability exists that could cause a loss of Confidentiality, Integrity and
+Availability of engineering workstation when a malicious project file is loaded by a user from the local system.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2223</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2223</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2440 - Qualcomm Snapdragon Secure Insecure Storage of Sensitive Information</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2440
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>CWE-922: Insecure Storage of Sensitive Information vulnerability exists that could potentially lead to unauthorized
+access of confidential data when a malicious user, having physical access and advanced information on the file
+system, sets the radio in factory default mode.
+<br>
+<strong>Severity:</strong> 4.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2440</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2440</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2441 - Cisco Radio Confidentiality Loss</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2441
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>CWE-1188: Initialization of a Resource with an Insecure Default vulnerability exists that could lead to loss of
+confidentiality when a malicious user, having physical access, sets the radio in factory default mode where the
+product does not correctly initialize all data.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2441</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2441</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2442 - Cisco Wireless Router Default Initialization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2442
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 a.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>CWE-1188: Initialization of a Resource with an Insecure Default vulnerability exists that could potentially lead to
+unauthorized access which could result in the loss of confidentially, integrity and availability when a malicious
+user, having physical access, sets the radio to the factory default mode.
+<br>
+<strong>Severity:</strong> 6.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2442</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2442</guid>
+    </item>
+    <item>
       <title>CVE-2025-23407 - Wi-Fi AP UNIT AC-WPS-11ac Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23407
 <br>
-<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 2 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>Incorrect privilege assignment vulnerability in the WEB UI (the setting page) exists in Wi-Fi AP UNIT 'AC-WPS-11ac series'. If exploited, a remote attacker who can log in to the product may alter the settings without appropriate privileges.
 <br>
@@ -36,7 +146,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25053
 <br>
-<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 2 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>OS command injection vulnerability in the WEB UI (the setting page) exists in Wi-Fi AP UNIT 'AC-WPS-11ac series'. If exploited, an arbitrary OS command may be executed by a remote attacker who can log in to the product.
 <br>
@@ -53,7 +163,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25056
 <br>
-<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 2 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>Cross-site request forgery vulnerability exists in Wi-Fi AP UNIT 'AC-WPS-11ac series'. If a user views a malicious page while logged in, unintended operations may be performed.
 <br>
@@ -70,7 +180,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25213
 <br>
-<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 2 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>Improper restriction of rendered UI layers or frames issue exists in Wi-Fi AP UNIT 'AC-WPS-11ac series'. If a user views and clicks on the content on the malicious page while logged in, unintended operations may be performed.
 <br>
@@ -87,7 +197,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27722
 <br>
-<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 2 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>Cleartext transmission of sensitive information issue exists in Wi-Fi AP UNIT 'AC-WPS-11ac series'. If exploited, a man-in-the-middle attack may allow a remote unauthenticated attacker to eavesdrop the communication and obtain the authentication information.
 <br>
@@ -104,7 +214,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27797
 <br>
-<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 2 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>OS command injection vulnerability in the specific service exists in Wi-Fi AP UNIT 'AC-WPS-11ac series'. If exploited, an arbitrary OS command may be executed by a remote attacker who can log in to the product.
 <br>
@@ -121,7 +231,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27934
 <br>
-<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 2 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>Information disclosure of authentication information in the specific service vulnerability exists in Wi-Fi AP UNIT 'AC-WPS-11ac series'. If exploited, a remote unauthenticated attacker may obtain the product authentication information.
 <br>
@@ -138,7 +248,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29870
 <br>
-<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 2 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 9:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>Missing authentication for critical function vulnerability exists in Wi-Fi AP UNIT 'AC-WPS-11ac series'. If exploited, a remote unauthenticated attacker may obtain the product configuration information including authentication information.
 <br>
@@ -155,7 +265,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-20952
 <br>
-<strong>Published : </strong> April 9, 2025, 8:15 a.m. | 3 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 8:15 a.m. | 4 hours ago
 <br>
 <strong>Description : </strong>Improper access control in Mdecservice prior to SMR Apr-2025 Release 1 allows local attackers to access arbitrary files with system privilege.
 <br>
@@ -172,7 +282,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3442
 <br>
-<strong>Published : </strong> April 9, 2025, 7:15 a.m. | 4 hours, 8 minutes ago
+<strong>Published : </strong> April 9, 2025, 7:15 a.m. | 4 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>This vulnerability exists in TP-Link Tapo H200 V1  IoT Smart Hub due to storage of Wi-Fi credentials in plain text within the device firmware. An attacker with physical access could exploit this by extracting the firmware and analyzing the binary data to obtain the Wi-Fi credentials stored on the vulnerable device.
 <br>
@@ -189,7 +299,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-6857
 <br>
-<strong>Published : </strong> April 9, 2025, 6:15 a.m. | 5 hours, 8 minutes ago
+<strong>Published : </strong> April 9, 2025, 6:15 a.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>The WP MultiTasking  WordPress plugin through 0.1.12 does not have CSRF check when updating its Header, Footer and Body Script Settings, which could allow attackers to make logged admins perform such action via a CSRF attack
 <br>
@@ -206,7 +316,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-6860
 <br>
-<strong>Published : </strong> April 9, 2025, 6:15 a.m. | 5 hours, 8 minutes ago
+<strong>Published : </strong> April 9, 2025, 6:15 a.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>The WP MultiTasking  WordPress plugin through 0.1.12 does not have CSRF check when updating its permalink suffix settings, which could allow attackers to make logged admins perform such action via a CSRF attack
 <br>
@@ -223,7 +333,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-8243
 <br>
-<strong>Published : </strong> April 9, 2025, 6:15 a.m. | 5 hours, 8 minutes ago
+<strong>Published : </strong> April 9, 2025, 6:15 a.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>The WordPress/Plugin Upgrade Time Out Plugin WordPress plugin through 1.0 does not have CSRF check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add Stored XSS payloads via a CSRF attack.
 <br>
@@ -240,7 +350,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3100
 <br>
-<strong>Published : </strong> April 9, 2025, 5:15 a.m. | 6 hours, 8 minutes ago
+<strong>Published : </strong> April 9, 2025, 5:15 a.m. | 6 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>The WP Project Manager – Task, team, and project management plugin featuring kanban board and gantt charts plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 2.6.22 due to insufficient input sanitization and output escaping in tasks discussion. This makes it possible for authenticated attackers, with Subscriber-level access and above, and permissions granted by an Administrator, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
 <br>
@@ -257,7 +367,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29988
 <br>
-<strong>Published : </strong> April 9, 2025, 3:15 a.m. | 8 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 3:15 a.m. | 9 hours ago
 <br>
 <strong>Description : </strong>Dell Client Platform BIOS contains a Stack-based Buffer Overflow Vulnerability. A high privileged attacker with local access could potentially exploit this vulnerability, leading to arbitrary code execution.
 <br>
@@ -274,7 +384,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32464
 <br>
-<strong>Published : </strong> April 9, 2025, 3:15 a.m. | 8 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 3:15 a.m. | 9 hours ago
 <br>
 <strong>Description : </strong>HAProxy 2.2 through 3.1.6, in certain uncommon configurations, has a sample_conv_regsub heap-based buffer overflow because of mishandling of the replacement of multiple short patterns with a longer one.
 <br>
@@ -291,7 +401,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32460
 <br>
-<strong>Published : </strong> April 9, 2025, 2:15 a.m. | 9 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 2:15 a.m. | 10 hours ago
 <br>
 <strong>Description : </strong>GraphicsMagick before 8e56520 has a heap-based buffer over-read in ReadJXLImage in coders/jxl.c, related to an ImportViewPixelArea call.
 <br>
@@ -308,7 +418,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32461
 <br>
-<strong>Published : </strong> April 9, 2025, 2:15 a.m. | 9 hours, 9 minutes ago
+<strong>Published : </strong> April 9, 2025, 2:15 a.m. | 10 hours ago
 <br>
 <strong>Description : </strong>wikiplugin_includetpl in lib/wiki-plugins/wikiplugin_includetpl.php in Tiki before 28.3 mishandles input to an eval. The fixed versions are 21.12, 24.8, 27.2, and 28.3.
 <br>
@@ -325,7 +435,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25013
 <br>
-<strong>Published : </strong> April 8, 2025, 11:15 p.m. | 12 hours, 8 minutes ago
+<strong>Published : </strong> April 8, 2025, 11:15 p.m. | 12 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>Improper restriction of environment variables in Elastic Defend can lead to exposure of sensitive information such as API keys and tokens via automatic transmission of unfiltered environment variables to the stack.
 <br>
@@ -336,108 +446,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 08 Apr 2025 23:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-25013</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-25013</guid>
-    </item>
-    <item>
-      <title>CVE-2024-55354 - Lucee Code Execution and Resource Access</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-55354
-<br>
-<strong>Published : </strong> April 8, 2025, 10:15 p.m. | 13 hours, 9 minutes ago
-<br>
-<strong>Description : </strong>Lucee before 5.4.7.3 LTS and 6 before 6.1.1.118, when an attacker can place files on the server, is vulnerable to a protection mechanism failure that can let an attacker run code that would be expected to be blocked and access resources that would be expected to be protected.
-<br>
-<strong>Severity:</strong> 5.1 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-55354</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-55354</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27188 - Adobe Commerce Privilege Escalation Improper Authorization</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27188
-<br>
-<strong>Published : </strong> April 8, 2025, 9:15 p.m. | 14 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Adobe Commerce versions 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, 2.4.8-beta2 and earlier are affected by an Improper Authorization vulnerability that could result in Privilege escalation. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access. Exploitation of this issue does not require user interaction.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27188</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27188</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27189 - Adobe Commerce CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27189
-<br>
-<strong>Published : </strong> April 8, 2025, 9:15 p.m. | 14 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Adobe Commerce versions 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, 2.4.8-beta2 and earlier are affected by a Cross-Site Request Forgery (CSRF) vulnerability that could be exploited to cause a denial-of-service condition. An attacker could trick a logged-in user into submitting a forged request to the vulnerable application, which may disrupt service availability. Exploitation of this issue requires user interaction, typically in the form of clicking a malicious link or visiting an attacker-controlled website.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27189</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27189</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27190 - Adobe Commerce Improper Access Control Security Feature Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27190
-<br>
-<strong>Published : </strong> April 8, 2025, 9:15 p.m. | 14 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Adobe Commerce versions 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, 2.4.8-beta2 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access. Exploitation of this issue does not require user interaction.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27190</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27190</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27191 - Adobe Commerce Improper Access Control Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27191
-<br>
-<strong>Published : </strong> April 8, 2025, 9:15 p.m. | 14 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Adobe Commerce versions 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, 2.4.8-beta2 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access. Exploitation of this issue does not require user interaction.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27191</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27191</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27192 - Adobe Commerce Insufficiently Protected Credentials Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27192
-<br>
-<strong>Published : </strong> April 8, 2025, 9:15 p.m. | 14 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Adobe Commerce versions 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, 2.4.8-beta2 and earlier are affected by an Insufficiently Protected Credentials vulnerability that could lead to a security feature bypass. A high privileged attacker could exploit this vulnerability to gain unauthorized access to protected resources by obtaining sensitive credential information. Exploitation of this issue does not require user interaction.
-<br>
-<strong>Severity:</strong> 2.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27192</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27192</guid>
     </item>
     <item>
       <title>CVE-2025-2519 - Sreamit WordPress Arbitrary File Download Vulnerability</title>
