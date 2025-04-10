@@ -8,442 +8,769 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 09 Apr 2025 22:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 00:50:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
-      <title>CVE-2025-2629 - NI LabVIEW DLL Hijacking Vulnerability</title>
+      <title>CVE-2025-24375 - MySQL Charmed Operator Credentials Leak</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2629
+<strong>CVE ID : </strong>CVE-2025-24375
 <br>
-<strong>Published : </strong> April 9, 2025, 7:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 1 hour, 2 minutes ago
 <br>
-<strong>Description : </strong>There is a DLL hijacking vulnerability due to an uncontrolled search path that exists in NI LabVIEW when loading NI Error Reporting.  This vulnerability may result in arbitrary code execution.  Successful exploitation requires an attacker to insert a malicious DLL into the uncontrolled search path.  This vulnerability affects NI LabVIEW 2025 Q1 and prior versions.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2629</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2629</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2630 - NI LabVIEW DLL Hijacking Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2630
-<br>
-<strong>Published : </strong> April 9, 2025, 7:15 p.m. | 1 hour, 1 minute ago
-<br>
-<strong>Description : </strong>There is a DLL hijacking vulnerability due to an uncontrolled search path that exists in NI LabVIEW.  This vulnerability may result in arbitrary code execution.  Successful exploitation requires an attacker to insert a malicious DLL into the uncontrolled search path.  This vulnerability affects NI LabVIEW 2025 Q1 and prior versions.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2630</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2630</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3114 - Here are the titles:
-
-* VMware Code Execution Vulnerability
-* TERR Sandbox Bypass Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3114
-<br>
-<strong>Published : </strong> April 9, 2025, 6:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Code Execution via Malicious Files: Attackers can create specially crafted files with embedded code that may execute without adequate security validation, potentially leading to system compromise.
-
-Sandbox Bypass Vulnerability: A flaw in the TERR security mechanism allows attackers to bypass sandbox restrictions, enabling the execution of untrusted code without appropriate controls.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3114</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3114</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3115 - Apache File Upload Remote Code Execution Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3115
-<br>
-<strong>Published : </strong> April 9, 2025, 6:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Injection Vulnerabilities: Attackers can inject malicious code, potentially gaining control over the system executing these functions.
-Additionally, insufficient validation of filenames during file uploads can enable attackers to upload and execute malicious files, leading to arbitrary code execution
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3115</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3115</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3131 - Drupal ECA CSRF</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3131
-<br>
-<strong>Published : </strong> April 9, 2025, 6:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Drupal ECA: Event - Condition - Action allows Cross Site Request Forgery.This issue affects ECA: Event - Condition - Action: from 0.0.0 before 1.1.12, from 2.0.0 before 2.0.16, from 2.1.0 before 2.1.7, from 0.0.0 before 1.2.*.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3131</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3131</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3474 - Drupal Panels Authentication Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3474
-<br>
-<strong>Published : </strong> April 9, 2025, 6:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Missing Authentication for Critical Function vulnerability in Drupal Panels allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Panels: from 0.0.0 before 4.9.0.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3474</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3474</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3475 - Drupal WEB-T Allocation of Resources Without Limits or Throttling Incorrect Authorization Web Content Spoofing</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3475
-<br>
-<strong>Published : </strong> April 9, 2025, 6:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Allocation of Resources Without Limits or Throttling, Incorrect Authorization vulnerability in Drupal WEB-T allows Excessive Allocation, Content Spoofing.This issue affects WEB-T: from 0.0.0 before 1.1.0.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3475</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3475</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32667 - Doppler Forms CSRF Stored XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32667
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in fromdoppler Doppler Forms allows Stored XSS. This issue affects Doppler Forms: from n/a through 2.4.5.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32667</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32667</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32669 - Mergado Pack CSRF Stored XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32669
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in MERGADO Mergado Pack allows Stored XSS. This issue affects Mergado Pack: from n/a through 4.1.1.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32669</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32669</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32673 - Epeken All Kurir CSRF Stored XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32673
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in epeken Epeken All Kurir allows Stored XSS. This issue affects Epeken All Kurir: from n/a through 1.4.6.2.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32673</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32673</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32675 - QuantumCloud SEO Help SSRF</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32675
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Server-Side Request Forgery (SSRF) vulnerability in QuantumCloud SEO Help allows Server Side Request Forgery. This issue affects SEO Help: from n/a through 6.6.0.
-<br>
-<strong>Severity:</strong> 6.8 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32675</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32675</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32676 - Verowa Connect SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32676
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Picture-Planet GmbH Verowa Connect allows Blind SQL Injection. This issue affects Verowa Connect: from n/a through 3.0.5.
-<br>
-<strong>Severity:</strong> 7.6 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32676</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32676</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32677 - Solwininfotech WP Social Stream Designer SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32677
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in solwininfotech WP Social Stream Designer allows Blind SQL Injection. This issue affects WP Social Stream Designer: from n/a through 1.3.
-<br>
-<strong>Severity:</strong> 7.6 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32677</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32677</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32678 - Ashish Ajani WP Show Stats CSRF</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32678
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Ashish Ajani WP Show Stats allows Cross Site Request Forgery. This issue affects WP Show Stats: from n/a through 1.5.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32678</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32678</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32679 - ZealousWeb Contact Form 7 CSRF</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32679
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in ZealousWeb User Registration Using Contact Form 7 allows Cross Site Request Forgery. This issue affects User Registration Using Contact Form 7: from n/a through 2.2.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32679</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32679</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32680 - Grade Us, Inc. Review Stream Stored Cross-site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32680
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Grade Us, Inc. Review Stream allows Stored XSS. This issue affects Review Stream: from n/a through 1.6.7.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32680</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32680</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32683 - RomanCode MapSVG Lite Cross-site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32683
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in RomanCode MapSVG Lite allows DOM-Based XSS. This issue affects MapSVG Lite: from n/a through 8.5.32.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32683</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32683</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32684 - RomanCode MapSVG Lite Missing Authorization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32684
-<br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in RomanCode MapSVG Lite allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects MapSVG Lite: from n/a through 8.5.32.
+<strong>Description : </strong>Charmed MySQL K8s operator is a Charmed Operator for running MySQL on Kubernetes. Before revision 221, the method for calling a SQL DDL or python based mysql-shell scripts can leak database users credentials. The method mysql-operator calls mysql-shell application rely on writing to a temporary script file containing the full URI, with user and password. The file can be read by a unprivileged user during the operator runtime, due it being created with read permissions (0x644). On other cases, when calling mysql cli, for one specific case when creating the operator users, the DDL contains said users credentials, which can be leak through the same mechanism of a temporary file. All versions prior to revision 221 for kubernetes and revision 338 for machine operators.
 <br>
 <strong>Severity:</strong> 5.0 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32684</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32684</guid>
+      <pubDate>Wed, 09 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-24375</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-24375</guid>
     </item>
     <item>
-      <title>CVE-2025-32685 - Aristo Rinjuang WP Inquiries SQL Injection Vulnerability</title>
+      <title>CVE-2025-2845 - CVE-2021-1234: VMware VMware Workspace ONE Authentication Bypass</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32685
+<strong>CVE ID : </strong>CVE-2025-2845
 <br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 1 hour, 2 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Aristo Rinjuang WP Inquiries allows SQL Injection. This issue affects WP Inquiries: from n/a through 0.2.1.
+<strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
-<strong>Severity:</strong> 7.6 | HIGH
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32685</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32685</guid>
+      <pubDate>Wed, 09 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2845</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2845</guid>
     </item>
     <item>
-      <title>CVE-2025-32690 - PowerPress Podcasting Cross-site Scripting Vulnerability</title>
+      <title>CVE-2025-32386 - Helm Denial of Service (DoS) Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32690
+<strong>CVE ID : </strong>CVE-2025-32386
 <br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 1 hour, 2 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Angelo Mandato PowerPress Podcasting allows DOM-Based XSS. This issue affects PowerPress Podcasting: from n/a through 11.12.4.
+<strong>Description : </strong>Helm is a tool for managing Charts. A chart archive file can be crafted in a manner where it expands to be significantly larger uncompressed than compressed (e.g., >800x difference). When Helm loads this specially crafted chart, memory can be exhausted causing the application to terminate. This issue has been resolved in Helm v3.17.3.
 <br>
 <strong>Severity:</strong> 6.5 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32690</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32690</guid>
+      <pubDate>Wed, 09 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32386</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32386</guid>
     </item>
     <item>
-      <title>CVE-2025-32691 - PowerPress Podcasting SSRF Vulnerability</title>
+      <title>CVE-2025-32387 - Helm Chart JSON Schema Stack Overflow Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32691
+<strong>CVE ID : </strong>CVE-2025-32387
 <br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 1 hour, 2 minutes ago
 <br>
-<strong>Description : </strong>Server-Side Request Forgery (SSRF) vulnerability in Angelo Mandato PowerPress Podcasting allows Server Side Request Forgery. This issue affects PowerPress Podcasting: from n/a through 11.12.4.
+<strong>Description : </strong>Helm is a package manager for Charts for Kubernetes. A JSON Schema file within a chart can be crafted with a deeply nested chain of references, leading to parser recursion that can exceed the stack size limit and trigger a stack overflow. This issue has been resolved in Helm v3.17.3.
 <br>
-<strong>Severity:</strong> 4.9 | MEDIUM
+<strong>Severity:</strong> 6.5 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32691</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32691</guid>
+      <pubDate>Wed, 09 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32387</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32387</guid>
     </item>
     <item>
-      <title>CVE-2025-32692 - WP Shuffle WP Subscription Forms PHP Local File Inclusion Vulnerability</title>
+      <title>CVE-2025-3023 - Apache Struts Remote Code Execution</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32692
+<strong>CVE ID : </strong>CVE-2025-3023
 <br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 1 hour, 2 minutes ago
 <br>
-<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in WP Shuffle WP Subscription Forms allows PHP Local File Inclusion. This issue affects WP Subscription Forms: from n/a through 1.2.4.
+<strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3023</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3023</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29018 - Code Astro Internet Banking System Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29018
+<br>
+<strong>Published : </strong> April 9, 2025, 9:16 p.m. | 3 hours, 1 minute ago
+<br>
+<strong>Description : </strong>A Stored Cross-Site Scripting (XSS) vulnerability exists in the name parameter of pages_add_acc_type.php in Code Astro Internet Banking System 2.0.0.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 21:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29018</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29018</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26902 - Brizy Pro CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26902
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Brizy Brizy Pro allows Cross Site Request Forgery.This issue affects Brizy Pro: from n/a through 2.6.1.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26902</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26902</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2631 - NI LabVIEW Out-of-Bounds Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2631
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>Out of bounds write vulnerability due to improper bounds checking in NI LabVIEW in InitCPUInformation() that may result in information disclosure or arbitrary code execution.  Successful exploitation requires an attacker to get a user to open a specially crafted VI.  This vulnerability affects NI LabVIEW 2025 Q1 and prior versions.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2631</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2631</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2632 - NI LabVIEW CPU Info Disclosure and Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2632
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>Out of bounds write vulnerability due to improper bounds checking in NI LabVIEW reading CPU info from cache that may result in information disclosure or arbitrary code execution.  Successful exploitation requires an attacker to get a user to open a specially crafted VI.  This vulnerability affects NI LabVIEW 2025 Q1 and prior versions.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2632</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2632</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30644 - Juniper Networks Junos OS Flexible PIC Concentrator Remote Code Execution and Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30644
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>A Heap-based Buffer Overflow vulnerability in the flexible PIC concentrator (FPC) of Juniper Networks Junos OS on EX2300, EX3400, EX4100, EX4300, EX4300MP, EX4400, EX4600, EX4650-48Y, and QFX5k Series allows an attacker to send a specific DHCP packet to the device, leading to an FPC crash and restart, resulting in a Denial of Service (DoS). Continued receipt and processing of this packet will create a sustained Denial of Service (DoS) condition.
+
+Under a rare timing scenario outside the attacker's control, memory corruption may be observed when DHCP Option 82 is enabled, leading to an FPC crash and affecting packet forwarding. Due to the nature of the heap-based overflow, exploitation of this vulnerability could also lead to remote code execution within the FPC, resulting in complete control of the vulnerable component.
+This issue affects Junos OS on EX2300, EX3400, EX4100, EX4300, EX4300MP, EX4400, EX4600, EX4650-48Y, and QFX5k Series: 
+
+
+
+
+  *  All versions before 21.4R3-S9, 
+  *  from 22.2 before 22.2R3-S5, 
+  *  from 22.4 before 22.4R3-S5, 
+  *  from 23.2 before 23.2R2-S3, 
+  *  from 23.4 before 23.4R2-S3, 
+  *  from 24.2 before 24.2R2.
 <br>
 <strong>Severity:</strong> 7.5 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32692</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32692</guid>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30644</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30644</guid>
     </item>
     <item>
-      <title>CVE-2025-32693 - WPWebinarSystem WebinarPress Open Redirect Phishing Vulnerability</title>
+      <title>CVE-2025-30645 - Juniper Networks Junos OS SRX Series NULL Pointer Dereference Denial of Service Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32693
+<strong>CVE ID : </strong>CVE-2025-30645
 <br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
 <br>
-<strong>Description : </strong>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in WPWebinarSystem WebinarPress allows Phishing. This issue affects WebinarPress: from n/a through 1.33.27.
+<strong>Description : </strong>A NULL Pointer Dereference vulnerability in the flow daemon (flowd) of Juniper Networks Junos OS on SRX Series allows an attacker causing specific, valid control traffic to be sent out of a Dual-Stack (DS) Lite tunnel to crash the flowd process, resulting in a Denial of Service (DoS).  Continuous triggering of specific control traffic will create a sustained Denial of Service (DoS) condition.
+
+On all SRX platforms, when specific, valid control traffic needs to be sent out of a DS-Lite tunnel, a segmentation fault occurs within the flowd process, resulting in a network outage until the flowd process restarts.
+
+This issue affects Junos OS on SRX Series: 
+  *  All versions before 21.2R3-S9, 
+  *  from 21.4 before 21.4R3-S9, 
+  *  from 22.2 before 22.2R3-S5, 
+  *  from 22.4 before 22.4R3-S6, 
+  *  from 23.2 before 23.2R2-S3, 
+  *  from 23.4 before 23.4R2.
 <br>
-<strong>Severity:</strong> 4.7 | MEDIUM
+<strong>Severity:</strong> 7.5 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32693</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32693</guid>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30645</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30645</guid>
     </item>
     <item>
-      <title>CVE-2025-32694 - Rustaurius Ultimate WP Mail Open Redirect Phishing Vulnerability</title>
+      <title>CVE-2025-30646 - Juniper Networks Junos OS and Junos OS Evolved LLDP Signed to Unsigned Conversion Error Denial of Service</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32694
+<strong>CVE ID : </strong>CVE-2025-30646
 <br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
 <br>
-<strong>Description : </strong>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Rustaurius Ultimate WP Mail allows Phishing. This issue affects Ultimate WP Mail: from n/a through 1.3.2.
+<strong>Description : </strong>A Signed to Unsigned Conversion Error vulnerability in the Layer 2 Control Protocol daemon (l2cpd) of Juniper Networks Junos OS and Juniper Networks Junos OS Evolved allows an unauthenticated adjacent attacker sending a specifically malformed LLDP TLV to cause the l2cpd process to crash and restart, causing a Denial of Service (DoS).  Continued receipt and processing of this packet will create a sustained Denial of Service (DoS) condition.
+
+When an LLDP telemetry subscription is active, receipt of a specifically malformed LLDP TLV causes the l2cpd process to crash and restart.
+
+
+
+This issue affects:
+
+Junos OS: 
+
+
+  *  All versions before 21.2R3-S9, 
+  *  from 21.4 before 21.4R3-S10, 
+  *  from 22.2 before 22.2R3-S6, 
+  *  from 22.4 before 22.4R3-S6, 
+  *  from 23.2 before 23.2R2-S3, 
+  *  from 23.4 before 23.4R2-S4, 
+  *  from 24.2 before 24.2R2; 
+
+
+
+
+Junos OS Evolved: 
+
+
+
+  *  All versions before 21.4R3-S10-EVO,
+  *  from 22.2-EVO before 22.2R3-S6-EVO, 
+  *  from 22.4-EVO before 22.4R3-S6-EVO, 
+  *  from 23.2-EVO before 23.2R2-S3-EVO, 
+  *  from 23.4-EVO before 23.4R2-S4-EVO, 
+  *  from 24.2-EVO before 24.2R2-EVO.
 <br>
-<strong>Severity:</strong> 4.7 | MEDIUM
+<strong>Severity:</strong> 6.5 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32694</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32694</guid>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30646</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30646</guid>
     </item>
     <item>
-      <title>CVE-2025-32695 - Mestres do WP Checkout Mestres WP Privilege Escalation</title>
+      <title>CVE-2025-30647 - Juniper Networks Junos OS MX Series Memory Leak DoS Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32695
+<strong>CVE ID : </strong>CVE-2025-30647
 <br>
-<strong>Published : </strong> April 9, 2025, 5:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
 <br>
-<strong>Description : </strong>Incorrect Privilege Assignment vulnerability in Mestres do WP Checkout Mestres WP allows Privilege Escalation. This issue affects Checkout Mestres WP: from n/a through 8.7.5.
+<strong>Description : </strong>A Missing Release of Memory after Effective Lifetime vulnerability in the packet forwarding engine (PFE) of Juniper Networks Junos OS on MX Series allows an unauthenticated adjacent attacker to cause a Denial-of-Service (DoS).
+
+In a subscriber management scenario, login/logout activity triggers a memory leak, and the leaked memory gradually increments and eventually results in a crash. 
+   
+           user@host> show chassis fpc
+                                       Temp    CPU Utilization (%)   CPU Utilization (%)   Memory      Utilization (%)
+                      Slot State       (C)     Total   Interrupt      1min   5min  15min    DRAM (MB)  Heap     Buffer
+
+                      2  Online         36        10          0          9      8      9         32768       26          0
+                                                                                                     
+
+This issue affects Junos OS on MX Series: 
+  *  All versions before 21.2R3-S9
+  *  from 21.4 before 21.4R3-S10
+  *  from 22.2 before 22.2R3-S6
+  *  from 22.4 before 22.4R3-S5
+  *  from 23.2 before 23.2R2-S3
+  *  from 23.4 before 23.4R2-S3
+  *  from 24.2 before 24.2R2.
 <br>
-<strong>Severity:</strong> 9.8 | CRITICAL
+<strong>Severity:</strong> 6.5 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32695</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32695</guid>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30647</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30647</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30648 - Juniper Junos OS Juniper DHCP Daemon Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30648
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Improper Input Validation vulnerability in the Juniper DHCP Daemon (jdhcpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, adjacent attacker to cause the jdhcpd process to crash resulting in a Denial of Service (DoS).
+
+When a specifically malformed DHCP packet is received from a DHCP client, the jdhcpd process crashes, which will lead to the unavailability of the DHCP service and thereby resulting in a sustained DoS. The DHCP process will restart automatically to recover the service.
+
+This issue will occur when dhcp-security is enabled. 
+This issue affects Junos OS: 
+
+
+
+  *  All versions before 21.2R3-S9, 
+  *  from 21.4 before 21.4R3-S10, 
+  *  from 22.2 before 22.2R3-S6, 
+  *  from 22.4 before 22.4R3-S6, 
+  *  from 23.2 before 23.2R2-S3, 
+  *  from 23.4 before 23.4R2-S4, 
+  *  from 24.2 before 24.2R2; 
+
+
+
+
+Junos OS Evolved:   *  from 22.4 before 22.4R3-S6-EVO, 
+  *  from 23.2 before 23.2R2-S3-EVO, 
+  *  from 23.4 before 23.4R2-S4-EVO, 
+  *  from 24.2 before 24.2R2-EVO.
+
+
+
+
+.
+<br>
+<strong>Severity:</strong> 7.4 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30648</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30648</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30649 - "Juniper Networks Junos OS syslog stream TCP transport Improper Input Validation allows CPU Denial of Service"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30649
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Improper Input Validation vulnerability in the syslog stream TCP transport of Juniper Networks Junos OS on MX240, MX480 and MX960 devices with MX-SPC3 Security Services Card allows an unauthenticated, network-based attacker, to send specific spoofed packets to cause a CPU Denial of Service (DoS) to the MX-SPC3 SPUs.
+
+Continued receipt and processing of these specific packets will sustain the DoS condition.
+
+This issue affects Junos OS:  *  All versions before 22.2R3-S6,
+  *  from 22.4 before 22.4R3-S4,
+  *  from 23.2 before 23.2R2-S3,
+  *  from 23.4 before 23.4R2-S4,
+  *  from 24.2 before 24.2R1-S2, 24.2R2
+
+
+An indicator of compromise will indicate the SPC3 SPUs utilization has spiked.
+
+
+For example: 
+   user@device> show services service-sets summary
+                     Service sets                                                                               CPU
+  Interface          configured       Bytes used             Session bytes used        Policy bytes used        utilization
+  "interface"          1              "bytes" (percent%)     "sessions" ("percent"%)   "bytes" ("percent"%)     99.97 % OVLD  <<<<<< look for high CPU usage
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30649</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30649</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30651 - Juniper Networks Junos OS and Junos OS Evolved Router Advertisement Protocol Buffer Access Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30651
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>A Buffer Access with Incorrect Length Value vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, network-based attacker to cause a Denial of Service (DoS).
+When an attacker sends a specific ICMPv6 packet to an interface with "protocols router-advertisement" configured, rpd crashes and restarts. Continued receipt of this packet will cause a sustained DoS condition. 
+
+
+
+
+This issue only affects systems configured with IPv6.
+
+
+
+This issue affects Junos OS: 
+
+
+  *  All versions before 21.2R3-S9, 
+  *  from 21.4 before 21.4R3-S10, 
+  *  from 22.2 before 22.2R3-S6, 
+  *  from 22.4 before 22.4R3-S4, 
+  *  from 23.2 before 23.2R2-S2, 
+  *  from 23.4 before 23.4R2; 
+
+
+
+and Junos OS Evolved: 
+  *  All versions before 21.2R3-S9-EVO, 
+  *  from 21.4-EVO before 21.4R3-S10-EVO, 
+  *  from 22.2-EVO before 22.2R3-S6-EVO, 
+  *  from 22.4-EVO before 22.4R3-S4-EVO, 
+  *  from 23.2-EVO before 23.2R2-S2-EVO, 
+  *  from 23.4-EVO before 23.4R2-EVO.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30651</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30651</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30652 - Juniper Networks Junos OS and Junos OS Evolved Denial of Service Vulnerability in Routing Protocol Daemon (rpd)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30652
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Improper Handling of Exceptional Conditions vulnerability in routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a local, low-privileged attacker executing a CLI command to cause a Denial of Service (DoS).
+
+When asregex-optimized is configured and a specific "show route as-path" CLI command  is executed, the rpd crashes and restarts. Repeated execution of this command will cause a sustained DoS condition.
+This issue affects Junos OS: 
+
+
+  *  All versions before 21.2R3-S9, 
+  *  from 21.4 before 21.4R3-S10, 
+  *  from 22.2 before 22.2R3-S6, 
+  *  from 22.4 before 22.4R3-S6, 
+  *  from 23.2 before 23.2R2-S3, 
+  *  from 23.4 before 23.4R2-S4, 
+  *  from 24.2 before 24.2R2.
+
+
+
+and Junos OS Evolved: 
+  *  All versions before 21.2R3-S9-EVO, 
+  *  from 21.4-EVO before 21.4R3-S10-EVO, 
+  *  from 22.2-EVO before 22.2R3-S6-EVO, 
+  *  from 22.4-EVO before 22.4R3-S6-EVO, 
+  *  from 23.2-EVO before 23.2R2-S3-EVO, 
+  *  from 23.4-EVO before 23.4R2-S4-EVO, 
+  *  from 24.2-EVO before 24.2R2-EVO.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30652</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30652</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30653 - Juniper Networks Junos OS and Junos OS Evolved Routing Protocol Daemon (rpd) Expired Pointer Dereference Denial of Service (DoS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30653
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Expired Pointer Dereference vulnerability in Routing Protocol Daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, adjacent attacker to cause Denial of Service (DoS).On all Junos OS and Junos OS Evolved platforms, when an MPLS Label-Switched Path (LSP) is configured with node-link-protection and transport-class, and an LSP flaps, rpd crashes and restarts. Continuous flapping of LSP can cause a sustained Denial of Service (DoS) condition.
+
+This issue affects:
+
+Junos OS:
+
+
+
+  *  All versions before 22.2R3-S4,
+
+  *  22.4 versions before 22.4R3-S2,
+
+  *  23.2 versions before 23.2R2,
+
+  *  23.4 versions before 23.4R2.
+
+
+
+
+
+Junos OS Evolved:
+
+
+
+  *  All versions before 22.2R3-S4-EVO,
+
+  *  22.4-EVO versions before 22.4R3-S2-EVO,
+
+  *  23.2-EVO versions before 23.2R2-EVO,
+
+  *  23.4-EVO versions before 23.4R2-EVO.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30653</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30653</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30654 - Juniper Networks Junos OS and Junos OS Evolved Sensitive Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30654
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Exposure of Sensitive Information to an Unauthorized Actor vulnerability in the User Interface (UI) of Juniper Networks Junos OS and Junos OS Evolved allows a local, low-privileged, authenticated attacker with access to the CLI to access sensitive information. 
+
+Through the execution of a specific show mgd command, a user with limited permissions (e.g., a low-privileged login class user) can access sensitive information such as hashed passwords, that can be used to further impact the system.
+
+
+This issue affects Junos OS:   *  All versions before 21.4R3-S10,
+  *  from 22.2 before 22.2R3-S5,
+  *  from 22.4 before 22.4R3-S5, 
+  *  from 23.2 before 23.2R2-S3, 
+  *  from 23.4 before 23.4R2-S3.
+
+
+
+
+
+Junos OS Evolved: 
+
+  *  All versions before 21.4R3-S10-EVO,
+  *  from 22.2-EVO before 22.2R3-S6-EVO, 
+  *  from 22.4-EVO before 22.4R3-S5-EVO, 
+  *  from 23.2-EVO before 23.2R2-S3-EVO, 
+  *  from 23.4-EVO before 23.4R2-S3-EVO.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30654</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30654</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30655 - Juniper Networks Junos OS/Junos OS Evolved BGP RPD Denial-of-Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30655
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Improper Check for Unusual or Exceptional Conditions vulnerability in the Routing Protocol Daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a local, low-privileged attacker to cause a Denial-of-Service (DoS).
+
+When a specific "show bgp neighbor" CLI command is run, the rpd cpu utilization rises and eventually causes a crash and restart. Repeated use of this command will cause a sustained DoS condition. 
+
+The device is only affected if BGP RIB sharding and update-threading is enabled.
+This issue affects Junos OS: 
+
+
+
+  *  All versions before 21.2R3-S9, 
+  *  from 21.4 before 21.4R3-S8,
+  *  from 22.2 before 22.2R3-S6, 
+  *  from 22.4 before 22.4R3-S2, 
+  *  from 23.2 before 23.2R2-S3, 
+  *  from 23.4 before 23.4R2.
+
+
+and Junos OS Evolved: 
+
+
+
+  *  All versions before 21.2R3-S9-EVO, 
+  *  from 21.4-EVO before 21.4R3-S8-EVO, 
+  *  from 22.2-EVO before 22.2R3-S6-EVO, 
+  *  from 22.4-EVO before 22.4R3-S2-EVO, 
+  *  from 23.2-EVO before 23.2R2-S3-EVO, 
+  *  from 23.4-EVO before 23.4R2-EVO.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30655</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30655</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30656 - Juniper Junos OS Packet Forwarding Engine Denial-of-Service Memory Corruption</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30656
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Improper Handling of Additional Special Element vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS on MX Series with MS-MPC, MS-MIC and SPC3, and SRX Series, allows an unauthenticated, network-based attacker to cause a Denial-of-Service (DoS).
+
+If the SIP ALG processes specifically formatted SIP invites, a memory corruption will occur which will lead to a crash of the FPC processing these packets. Although the system will automatically recover with the restart of the FPC, subsequent SIP invites will cause the crash again and lead to a sustained DoS.
+
+
+
+
+This issue affects Junos OS on MX Series and SRX Series: 
+
+  *  all versions before 21.2R3-S9,
+  *  21.4 versions before 21.4R3-S10,
+  *  22.2 versions before 22.2R3-S6,
+  *  22.4 versions before 22.4R3-S5,
+  *  23.2 versions before 23.2R2-S3,
+  *  23.4 versions before 23.4R2-S3,
+  *  24.2 versions before 24.2R1-S2, 24.2R2.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30656</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30656</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30657 - Juniper Networks Junos OS Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30657
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Improper Encoding or Escaping of Output vulnerability in the Sampling Route Record Daemon (SRRD) of Juniper Networks Junos OS allows an unauthenticated, network-based attacker to cause a Denial-of-Service (DoS).
+
+When a device configured for flow-monitoring receives a specific BGP update message, it is correctly processed internally by the routing protocol daemon (rpd), but when it's sent to SRRD it's encoded incorrectly which leads to a crash and momentary interruption of jflow processing until it automatically restarts. This issue does not affect traffic forwarding itself.
+This issue affects Junos OS: 
+
+
+
+  *  All versions before 21.2R3-S9,
+  *  21.4 versions before 21.4R3-S10,
+  *  22.2 versions before 22.2R3-S6,
+  *  22.4 versions before 22.4R3,
+  *  23.2 versions before 23.2R1-S2, 23.2R2.
+
+
+
+This issue does not affected Junos OS Evolved.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30657</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30657</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30658 - Juniper Networks Junos OS SRX Series Anti-Virus Memory Leak Denial-of-Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30658
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>A Missing Release of Memory after Effective Lifetime vulnerability in the Anti-Virus processing of Juniper Networks Junos OS on SRX Series 
+
+allows an unauthenticated, network-based attacker to cause a Denial-of-Service (DoS).
+
+On all SRX platforms with Anti-Virus enabled, if a server sends specific content in the HTTP body of a response to a client request, these packets are queued by Anti-Virus processing in Juniper Buffers (jbufs) which are never released. When these jbufs are exhausted, the device stops forwarding all transit traffic.
+
+A jbuf memory leak can be noticed from the following logs:
+
+(<node>.)<fpc> Warning: jbuf pool id <#> utilization level (<current level>%) is above <threshold>%!
+
+To recover from this issue, the affected device needs to be manually rebooted to free the leaked jbufs.
+
+
+
+
+This issue affects Junos OS on SRX Series: 
+
+  *  all versions before 21.2R3-S9,
+  *  21.4 versions before 21.4R3-S10,
+  *  22.2 versions before 22.2R3-S6,
+  *  22.4 versions before 22.4R3-S6,
+  *  23.2 versions before 23.2R2-S3,
+  *  23.4 versions before 23.4R2-S3,
+  *  24.2 versions before 24.2R2.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30658</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30658</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30659 - Juniper Networks Junos OS SRX Series Denial-of-Service (DoS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30659
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Improper Handling of Length Parameter Inconsistency vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause a Denial-of-Service (DoS).
+
+When a device configured for Secure Vector Routing (SVR) receives a specifically malformed packet the PFE will crash and restart.
+This issue affects Junos OS on SRX Series:
+
+
+
+  *  All 21.4 versions,
+  *  22.2 versions before 22.2R3-S6,
+  *  22.4 versions before 22.4R3-S6,
+  *  23.2 versions before 23.2R2-S3,
+  *  23.4 versions before 23.4R2-S4,
+  *  24.2 versions before 24.2R2.
+
+
+
+
+This issue does not affect versions before 21.4.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30659</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30659</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30660 - Juniper Networks Junos OS GRE Traffic Denial-of-Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30660
+<br>
+<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 4 hours, 2 minutes ago
+<br>
+<strong>Description : </strong>An Improper Check for Unusual or Exceptional Conditions vulnerability in the Packet Forwarding Engine (pfe) of Juniper Networks Junos OS on MX Series allows an unauthenticated, network-based attacker to cause a Denial-of-Service (DoS).When processing a high rate of specific GRE traffic destined to the device, the respective PFE will hang causing traffic forwarding to stop. 
+
+
+
+When this issue occurs the following logs can be observed:
+
+ <fpc #> MQSS(0): LI-3: Received a parcel with more than 512B accompanying data 
+CHASSISD_FPC_ASIC_ERROR: ASIC Error detected <...>
+
+
+This issue affects Junos OS:
+
+  *  all versions before 21.2R3-S9,
+  *  21.4 versions before 21.4R3-S8,
+  *  22.2 versions before 22.2R3-S4,
+  *  22.4 versions before 22.4R3-S5,
+  *  23.2 versions before 23.2R2-S2,
+  *  23.4 versions before 23.4R2.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30660</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30660</guid>
     </item>
     <item>
       <title>CVE-2025-2519 - Sreamit WordPress Arbitrary File Download Vulnerability</title>
