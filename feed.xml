@@ -8,18 +8,171 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 10 Apr 2025 08:14:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 10:11:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-10894 - Paystack WordPress Payment Forms Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-10894
+<br>
+<strong>Published : </strong> April 10, 2025, 7:15 a.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>The Payment Forms for Paystack plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's shortcodes like 'datepicker', 'textarea', and 'text' in all versions up to, and including, 4.0.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-10894</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-10894</guid>
+    </item>
+    <item>
+      <title>CVE-2024-13874 - Feedify WordPress Plugin Reflected Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13874
+<br>
+<strong>Published : </strong> April 10, 2025, 7:15 a.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>The Feedify  WordPress plugin before 2.4.6 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13874</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13874</guid>
+    </item>
+    <item>
+      <title>CVE-2024-13896 - WordPress WP-GeSHi-Highlight Regular Expression Denial of Service (ReDoS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13896
+<br>
+<strong>Published : </strong> April 10, 2025, 7:15 a.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>The WP-GeSHi-Highlight — rock-solid syntax highlighting for 259 languages WordPress plugin through 1.4.3 processes user-supplied input as a regular expression via the wp_geshi_filter_replace_code() function, which could lead to Regular Expression Denial of Service (ReDoS) issue
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13896</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13896</guid>
+    </item>
+    <item>
+      <title>CVE-2024-13909 - "Accredible Certificates  Open Badges WordPress SQL Injection"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13909
+<br>
+<strong>Published : </strong> April 10, 2025, 7:15 a.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>The Accredible Certificates & Open Badges plugin for WordPress is vulnerable to time-based SQL Injection via the ‘orderby’ parameter in all versions up to, and including, 1.4.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13909</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13909</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2719 - Swatchly – WooCommerce Variation Swatches Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2719
+<br>
+<strong>Published : </strong> April 10, 2025, 7:15 a.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>The Swatchly – WooCommerce Variation Swatches for Products (product attributes: Image swatch, Color swatches, Label swatches) plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_dismiss function in versions 1.2.8 to 1.4.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update option values to 1/true on the WordPress site. This can be leveraged to update an option that would create an error on the site and deny access to legitimate users or be used to set some values to true, such as registration.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2719</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2719</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2805 - WordPress ORDER POST Arbitrary Shortcode Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2805
+<br>
+<strong>Published : </strong> April 10, 2025, 7:15 a.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>The ORDER POST plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.0.2. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2805</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2805</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2809 - Azurecurve Shortcodes in Comments Plugin Arbitrary Shortcode Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2809
+<br>
+<strong>Published : </strong> April 10, 2025, 7:15 a.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>The azurecurve Shortcodes in Comments plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.0.2. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2809</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2809</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3417 - WordPress Embedder Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3417
+<br>
+<strong>Published : </strong> April 10, 2025, 7:15 a.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>The Embedder plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the ajax_set_global_option() function in versions 1.3 to 1.3.5. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3417</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3417</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0539 - Microsoft Octopus Deploy Server-Side Request Forgery (SSRF)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0539
+<br>
+<strong>Published : </strong> April 10, 2025, 6:15 a.m. | 2 hours, 4 minutes ago
+<br>
+<strong>Description : </strong>In affected Microsoft Windows versions of Octopus Deploy, the server can be coerced into sending server-side requests that contain authentication material allowing a suitably positioned attacker to compromise the account running Octopus Server and potentially the host infrastructure itself.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0539</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0539</guid>
+    </item>
+    <item>
       <title>CVE-2025-3102 - WordPress SureTriggers Plugin Authentication Bypass Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3102
 <br>
-<strong>Published : </strong> April 10, 2025, 5:15 a.m. | 1 hour, 4 minutes ago
+<strong>Published : </strong> April 10, 2025, 5:15 a.m. | 3 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.
 <br>
@@ -36,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3489
 <br>
-<strong>Published : </strong> April 10, 2025, 4:15 a.m. | 2 hours, 4 minutes ago
+<strong>Published : </strong> April 10, 2025, 4:15 a.m. | 4 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Nababur Simple-User-Management-System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /register.php. The manipulation of the argument name/username leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -53,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-58136
 <br>
-<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 3 hours, 4 minutes ago
+<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 5 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an __class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025.
 <br>
@@ -70,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22471
 <br>
-<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 3 hours, 4 minutes ago
+<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 5 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.1, contains an integer overflow or wraparound vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to denial of service.
 <br>
@@ -87,7 +240,160 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23378
 <br>
-<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 3 hours, 4 minutes ago
+<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 5 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.0, contains an exposure of information through directory listing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to information disclosure.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23378</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23378</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26330 - Dell PowerScale OneFS Local Privilege Escalation Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26330
+<br>
+<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 5 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.1, contains an incorrect authorization vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability to access the cluster with previous privileges of a disabled user account.
+<br>
+<strong>Severity:</strong> 7.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26330</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26330</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26479 - Dell PowerScale OneFS Out-of-Bounds Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26479
+<br>
+<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 5 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.0, contains an out-of-bounds write vulnerability. An attacker could potentially exploit this vulnerability in NFS workflows, leading to data integrity issues.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26479</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26479</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26480 - Dell PowerScale OneFS Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26480
+<br>
+<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 5 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>Dell PowerScale OneFS, versions 9.5.0.0 through 9.10.0.0, contains an uncontrolled resource consumption vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to denial of service.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26480</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26480</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27690 - Dell PowerScale OneFS Default Password Vulnerability (Remote Authentication Bypass)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27690
+<br>
+<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 5 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>Dell PowerScale OneFS, versions 9.5.0.0 through 9.10.1.0, contains a use of default password vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to the takeover of a high privileged user account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27690</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27690</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29989 - Dell Client Platform BIOS Denial of Service (DoS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3102
+<br>
+<strong>Published : </strong> April 10, 2025, 2:15 a.m. | 6 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3102</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3102</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3489 - Nababur Simple-User-Management-System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3489
+<br>
+<strong>Published : </strong> April 10, 2025, 2:15 a.m. | 6 hours, 5 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Nababur Simple-User-Management-System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /register.php. The manipulation of the argument name/username leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3489</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3489</guid>
+    </item>
+    <item>
+      <title>CVE-2024-58136 - Yii 2 Behavior Array Key Attachment Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-58136
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
+<br>
+<strong>Description : </strong>Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an __class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025.
+<br>
+<strong>Severity:</strong> 9.0 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-58136</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58136</guid>
+    </item>
+    <item>
+      <title>CVE-2025-22471 - Dell PowerScale OneFS Integer Overflow Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22471
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
+<br>
+<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.1, contains an integer overflow or wraparound vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to denial of service.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22471</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22471</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23378 - Dell PowerScale OneFS Directory Listing Information Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23378
+<br>
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.0, contains an exposure of information through directory listing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to information disclosure.
 <br>
@@ -189,7 +495,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22471
 <br>
-<strong>Published : </strong> April 10, 2025, 2:15 a.m. | 4 hours, 4 minutes ago
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.1, contains an integer overflow or wraparound vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to denial of service.
 <br>
@@ -206,7 +512,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23378
 <br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 7 hours, 4 minutes ago
+<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.0, contains an exposure of information through directory listing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to information disclosure.
 <br>
