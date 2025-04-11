@@ -8,440 +8,446 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 11 Apr 2025 10:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 12:19:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
-      <title>CVE-2025-3512 - Qt QTextMarkdownImporter Heap-based Buffer Overflow</title>
+      <title>CVE-2024-52282 - SUSE Rancher Sensitive Information Disclosure</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3512
+<strong>CVE ID : </strong>CVE-2024-52282
 <br>
-<strong>Published : </strong> April 11, 2025, 8:15 a.m. | 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 11:15 a.m. | 22 minutes ago
 <br>
-<strong>Description : </strong>There is a Heap-based Buffer Overflow vulnerability in QTextMarkdownImporter. This requires an incorrectly formatted markdown file to be passed to QTextMarkdownImporter to trigger the overflow.This issue affects Qt from 6.8.0 to 6.8.4. Versions up to 6.6.0 are known to be unaffected, and the fix is in 6.8.4 and later.
+<strong>Description : </strong>A Exposure of Sensitive Information to an Unauthorized Actor vulnerability in SUSE rancher allowing any users with GET
+ access to the Rancher Manager Apps Catalog to read any sensitive information that are 
+contained within the Apps’ values. Additionally, the same information 
+leaks into auditing logs when the audit level is set to equal or above 
+2.
+
+This issue affects rancher: from 2.8.0 before 2.8.10, from 2.9.0 before 2.9.4.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-52282</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-52282</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23387 - SUSE Rancher Unauthenticated Token Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23387
+<br>
+<strong>Published : </strong> April 11, 2025, 11:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A Exposure of Sensitive Information to an Unauthorized Actor vulnerability in SUSE rancher allowed unauthenticated users to list all CLI authentication tokens and delete them before the CLI is able to get the token value.This issue affects rancher: from 2.8.0 before 2.8.13, from 2.9.0 before 2.9.7, from 2.10.0 before 2.10.3.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23387</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23387</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23388 - SUSE Rancher Stack-based Buffer Overflow Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23388
+<br>
+<strong>Published : </strong> April 11, 2025, 11:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A Stack-based Buffer Overflow vulnerability in SUSE rancher allows for denial of service.This issue affects rancher: from 2.8.0 before 2.8.13, from 2.9.0 before 2.9.7, from 2.10.0 before 2.10.3.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23388</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23388</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23389 - SUSE Rancher SAML Impersonation Access Control Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23389
+<br>
+<strong>Published : </strong> April 11, 2025, 11:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A Improper Access Control vulnerability in SUSE rancher allows a local user to impersonate other identities through SAML Authentication on first login.
+This issue affects rancher: from 2.8.0 before 2.8.13, from 2.9.0 before 2.9.7, from 2.10.0 before 2.10.3.
+<br>
+<strong>Severity:</strong> 8.4 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23389</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23389</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23391 - SUSE Rancher Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23391
+<br>
+<strong>Published : </strong> April 11, 2025, 11:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A Incorrect Privilege Assignment vulnerability in SUSE rancher allows a Restricted Administrator to change the password of Administrators and take over their accounts.
+This issue affects rancher: from 2.8.0 before 2.8.14, from 2.9.0 before 2.9.8, from 2.10.0 before 2.10.4.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23391</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23391</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2128 - "WordPress Cost Calculator Builder SQL Injection"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2128
+<br>
+<strong>Published : </strong> April 11, 2025, 10:15 a.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>The Cost Calculator Builder plugin for WordPress is vulnerable to time-based SQL Injection via the ‘order_ids’ parameter in all versions up to, and including, 3.2.67 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3512</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3512</guid>
+      <pubDate>Fri, 11 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2128</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2128</guid>
     </item>
     <item>
-      <title>CVE-2025-1386 - Apache Ch-Go Library Protocol Injection Vulnerability</title>
+      <title>CVE-2025-31362 - BizRobo Hard-Coded Cryptographic Key Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-1386
+<strong>CVE ID : </strong>CVE-2025-31362
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 a.m. | 3 hours, 51 minutes ago
+<strong>Published : </strong> April 11, 2025, 10:15 a.m. | 1 hour, 22 minutes ago
 <br>
-<strong>Description : </strong>When using the ch-go library, under a specific condition when the query includes a large, uncompressed malicious external data, it is possible for an attacker in control of such data to smuggle another query packet into the connection stream.
+<strong>Description : </strong>Use of hard-coded cryptographic key issue exists in BizRobo! all versions. Credentials inside robot files may be obtained if the encryption key is available.
+The vendor provides the workaround information and recommends to apply it to the deployment environment.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 3.7 | LOW
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-1386</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1386</guid>
+      <pubDate>Fri, 11 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31362</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31362</guid>
     </item>
     <item>
-      <title>CVE-2025-2636 - InstaWP Connect WordPress Local File Inclusion Vulnerability</title>
+      <title>CVE-2025-31932 - BizRobo RCE via Deserialization</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2636
+<strong>CVE ID : </strong>CVE-2025-31932
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 a.m. | 3 hours, 51 minutes ago
+<strong>Published : </strong> April 11, 2025, 10:15 a.m. | 1 hour, 22 minutes ago
 <br>
-<strong>Description : </strong>The InstaWP Connect – 1-click WP Staging & Migration plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 0.1.0.85 via the 'instawp-database-manager' parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+<strong>Description : </strong>Deserialization of untrusted data issue exists in BizRobo! all versions. If this vulnerability is exploited, an arbitrary code is executed on the Management Console.
+The vendor provides the workaround information and recommends to apply it to the deployment environment.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31932</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31932</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32603 - HK WP Online Users Stats SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32603
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in HK WP Online Users Stats allows Blind SQL Injection. This issue affects WP Online Users Stats: from n/a through 1.0.0.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32603</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32603</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32607 - Magepeopleteam WpBookingly Object Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32607
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Deserialization of Untrusted Data vulnerability in magepeopleteam WpBookingly allows Object Injection. This issue affects WpBookingly: from n/a through 1.2.0.
 <br>
 <strong>Severity:</strong> 9.8 | CRITICAL
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2636</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2636</guid>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32607</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32607</guid>
     </item>
     <item>
-      <title>CVE-2025-32816 - CodeLit CourseLit Payment Plan Tampering Vulnerability</title>
+      <title>CVE-2025-32614 - EventON PHP Remote File Inclusion Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32816
+<strong>CVE ID : </strong>CVE-2025-32614
 <br>
-<strong>Published : </strong> April 11, 2025, 4:15 a.m. | 4 hours, 51 minutes ago
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
 <br>
-<strong>Description : </strong>CodeLit CourseLit before 0.57.5 allows Parameter Tampering via a payment plan associated with the wrong entity.
-<br>
-<strong>Severity:</strong> 3.1 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 04:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32816</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32816</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32757 - WordPress CSRF</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32757
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Ashan Perera EventON allows PHP Local File Inclusion. This issue affects EventON: from n/a through 2.3.2.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32757</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32757</guid>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32614</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32614</guid>
     </item>
     <item>
-      <title>CVE-2025-32758 - Apache HTTP Server XML External Entity (XXE) Injection</title>
+      <title>CVE-2025-32618 - PickPlugins Wishlist SQL Injection</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32758
+<strong>CVE ID : </strong>CVE-2025-32618
 <br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
 <br>
-<strong>Description : </strong>Rejected reason: Not used
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in PickPlugins Wishlist allows SQL Injection. This issue affects Wishlist: from n/a through 1.0.43.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32618</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32618</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32627 - JoomSky JS Job Manager PHP Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32627
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in JoomSky JS Job Manager allows PHP Local File Inclusion. This issue affects JS Job Manager: from n/a through 2.0.2.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32758</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32758</guid>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32627</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32627</guid>
     </item>
     <item>
-      <title>CVE-2025-32759 - Apache HTTP Server Remote Code Execution</title>
+      <title>CVE-2025-32629 - CMSJunkie WordPress Business Directory Plugins Path Traversal Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32759
+<strong>CVE ID : </strong>CVE-2025-32629
 <br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
 <br>
-<strong>Description : </strong>Rejected reason: Not used
+<strong>Description : </strong>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in CMSJunkie - WordPress Business Directory Plugins WP-BusinessDirectory allows Path Traversal. This issue affects WP-BusinessDirectory: from n/a through 3.1.2.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32629</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32629</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32631 - Oxygen MyData for WooCommerce Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32631
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in oxygensuite Oxygen MyData for WooCommerce allows Path Traversal. This issue affects Oxygen MyData for WooCommerce: from n/a through 1.0.63.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32631</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32631</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32632 - KaizenCoders Automatic Ban IP Cross-site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32632
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in KaizenCoders Automatic Ban IP allows Reflected XSS. This issue affects Automatic Ban IP: from n/a through 1.0.7.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32632</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32632</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32633 - Neoslab Database Toolset Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32633
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in neoslab Database Toolset allows Path Traversal. This issue affects Database Toolset: from n/a through 1.8.4.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32633</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32633</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32650 - Ability, Inc Accessibility Suite SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32650
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Ability, Inc Accessibility Suite by Online ADA allows SQL Injection. This issue affects Accessibility Suite by Online ADA: from n/a through 4.18.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32650</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32650</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32654 - Stylemix Motors PHP Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32654
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Stylemix Motors allows PHP Local File Inclusion. This issue affects Motors: from n/a through 1.4.65.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32654</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32654</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32656 - "Testimonial Slider And Showcase Pro PHP RFI Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32656
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in NotFound Testimonial Slider And Showcase Pro allows PHP Local File Inclusion. This issue affects Testimonial Slider And Showcase Pro: from n/a through 2.3.15.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32656</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32656</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32663 - FAT Cooming Soon PHP Remote File Include Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32663
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in roninwp FAT Cooming Soon allows PHP Local File Inclusion. This issue affects FAT Cooming Soon: from n/a through 1.1.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32663</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32663</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32671 - John Weissberg Print Science Designer Path Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32671
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in John Weissberg Print Science Designer allows Path Traversal. This issue affects Print Science Designer: from n/a through 1.3.155.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32671</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32671</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32672 - g5theme Ultimate Bootstrap Elements for Elementor PHP RFI Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32672
+<br>
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in g5theme Ultimate Bootstrap Elements for Elementor allows PHP Local File Inclusion. This issue affects Ultimate Bootstrap Elements for Elementor: from n/a through 1.4.9.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32759</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32759</guid>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32672</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32672</guid>
     </item>
     <item>
-      <title>CVE-2025-32760 - Apache HTTP Server Cross Site Request Forgery</title>
+      <title>CVE-2025-32681 - WordPress Guru SQL Injection Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32760
+<strong>CVE ID : </strong>CVE-2025-32681
 <br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
 <br>
-<strong>Description : </strong>Rejected reason: Not used
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WP Guru Error Log Viewer allows Blind SQL Injection. This issue affects Error Log Viewer: from n/a through 1.0.5.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 8.5 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32760</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32760</guid>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32681</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32681</guid>
     </item>
     <item>
-      <title>CVE-2025-32761 - Apache HTTP Server Unvalidated User Input</title>
+      <title>CVE-2025-3434 - Amazon SES YaySMTP WordPress Stored Cross-Site Scripting</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32761
+<strong>CVE ID : </strong>CVE-2025-3434
 <br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 9:15 a.m. | 2 hours, 22 minutes ago
 <br>
-<strong>Description : </strong>Rejected reason: Not used
+<strong>Description : </strong>The SMTP for Amazon SES – YaySMTP plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Email Logs in all versions up to, and including, 1.8 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 7.2 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32761</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32761</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32762 - Apache Jenkins Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32762
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32762</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32762</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32763 - Apache HTTP Server Unauthenticated Remote Command Execution Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32763
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32763</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32763</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32764 - Adobe Flash Memory Corruption Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32764
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32764</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32764</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32765 - Cisco WebEx Meeting Server Vulnerability in Handling Meeting Links</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32765
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32765</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32765</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32767 - Apache HTTP Server Cross-Site Request Forgery</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32767
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32767</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32767</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32768 - Adobe Flash Unvalidated User Input</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32768
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32768</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32768</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32769 - Apache HTTP Server Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32769
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32769</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32769</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32770 - Apache HTTP Server Cross-Site Request Forgery</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32770
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32770</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32770</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32771 - Apache HTTP Server Cross-Site Request Forgery</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32771
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32771</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32771</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32772 - Apache HTTP Server Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32772
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32772</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32772</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32773 - Apache Struts Remote Code Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32773
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32773</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32773</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32774 - Apache HTTP Server Cross-Site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32774
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32774</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32774</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32775 - Citrix Web Application</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32775
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 a.m. | 5 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32775</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32775</guid>
-    </item>
-    <item>
-      <title>CVE-2025-0127 - Palo Alto Networks PAN-OS Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-0127
-<br>
-<strong>Published : </strong> April 11, 2025, 2:15 a.m. | 6 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>A command injection vulnerability in Palo Alto Networks PAN-OS® software enables an authenticated administrator to bypass system restrictions and run arbitrary commands as a root user. This issue is only applicable to PAN-OS VM-Series. This issue does not affect firewalls that are already deployed.
-
-Cloud NGFW and Prisma® Access are not affected by this vulnerability.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 02:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-0127</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0127</guid>
-    </item>
-    <item>
-      <title>CVE-2025-0128 - Palo Alto Networks PAN-OS DoS Vulnerability in SCEP Authentication</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-0128
-<br>
-<strong>Published : </strong> April 11, 2025, 2:15 a.m. | 6 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>A denial-of-service (DoS) vulnerability in the Simple Certificate Enrollment Protocol (SCEP) authentication feature of Palo Alto Networks PAN-OS® software enables an unauthenticated attacker to initiate system reboots using a maliciously crafted packet. Repeated attempts to initiate a reboot causes the firewall to enter maintenance mode.
-
-Cloud NGFW is not affected by this vulnerability. Prisma® Access software is proactively patched and protected from this issue.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 02:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-0128</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0128</guid>
-    </item>
-    <item>
-      <title>CVE-2025-26335 - Dell PowerProtect Cyber Recovery Insertion of Sensitive Information Into Sent Data Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26335
-<br>
-<strong>Published : </strong> April 11, 2025, 2:15 a.m. | 6 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerProtect Cyber Recovery, versions prior to 19.18.0.2, contains an Insertion of Sensitive Information Into Sent Data vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Information exposure.
-<br>
-<strong>Severity:</strong> 5.8 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 02:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26335</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26335</guid>
+      <pubDate>Fri, 11 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3434</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3434</guid>
     </item>
     <item>
       <title>CVE-2024-10894 - Paystack WordPress Payment Forms Stored Cross-Site Scripting Vulnerability</title>
