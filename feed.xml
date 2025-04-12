@@ -8,12 +8,447 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 10 Apr 2025 10:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Apr 2025 04:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-2269 - 10Web Photo Gallery by 10Web Reflected Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2269
+<br>
+<strong>Published : </strong> April 12, 2025, 12:15 a.m. | 2 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>The Photo Gallery by 10Web – Mobile-Friendly Image Gallery plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘image_id’ parameter in all versions up to, and including, 1.8.34 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick an administrative user into performing an action such as clicking on a link.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 12 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2269</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2269</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0129 - Prisma Access Browser: Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0129
+<br>
+<strong>Published : </strong> April 11, 2025, 11:15 p.m. | 3 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Prisma Access Browser: Inappropriate control behavior in Prisma Access Browser
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0129</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0129</guid>
+    </item>
+    <item>
+      <title>CVE-2024-11679 - IBM System x Server Memory Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-11679
+<br>
+<strong>Published : </strong> April 11, 2025, 7:15 p.m. | 7 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>An input validation weakness was reported in the TpmSetup module for some legacy System x server products that could allow a local attacker with elevated privileges to read the contents of memory.
+<br>
+<strong>Severity:</strong> 4.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-11679</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-11679</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0119 - Palo Alto Networks Cortex XDR Broker VM Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0119
+<br>
+<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 8 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>A command injection vulnerability in the Palo Alto Networks Cortex XDR® Broker VM allows an authenticated user to execute arbitrary OS commands with root privileges on the host operating system running Broker VM.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0119</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0119</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0123 - Palo Alto Networks PAN-OS Unauthorized Access to Decrypted Packet Captures</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0123
+<br>
+<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 8 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the Palo Alto Networks PAN-OS® software enables unlicensed administrators to view clear-text data captured using the  packet capture feature https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-admin/monitoring/take-packet-captures/take-a-custom-packet-capture  in decrypted HTTP/2 data streams traversing network interfaces on the firewall. HTTP/1.1 data streams are not impacted.
+
+In normal conditions, decrypted packet captures are available to firewall administrators after they obtain and install a free Decryption Port Mirror license. The license requirement ensures that this feature can only be used after approved personnel purposefully activate the license. For more information, review how to  configure decryption port mirroring https://docs.paloaltonetworks.com/network-security/decryption/administration/monitoring-decryption/configure-decryption-port-mirroring .
+
+The administrator must obtain network access to the management interface (web, SSH, console, or telnet) and successfully authenticate to exploit this issue. Risk of this issue can be greatly reduced by restricting access to the management interface to only trusted administrators and from only internal IP addresses according to our recommended  critical deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .
+
+Customer firewall administrators do not have access to the packet capture feature in Cloud NGFW. This feature is available only to authorized Palo Alto Networks personnel permitted to perform troubleshooting.
+
+Prisma® Access is not impacted by this vulnerability.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0123</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0123</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32067 - Wikimedia Mediawiki Growth Experiments XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32067
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Growth Experiments Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Growth Experiments Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32067</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32067</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32068 - Wikimedia Foundation Mediawiki OAuth Extension Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32068
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Incorrect Authorization vulnerability in The Wikimedia Foundation Mediawiki - OAuth Extension allows Authentication Bypass.This issue affects Mediawiki - OAuth Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32068</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32068</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32069 - "Wikimedia Mediawiki Wikibase Media Info Extension Cross-Site Scripting (XSS)"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32069
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Wikibase Media Info Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Wikibase Media Info Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32069</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32069</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32070 - Wikimedia Mediawiki AJAX Poll Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32070
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - AJAX Poll Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - AJAX Poll Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32070</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32070</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32071 - Wikimedia Mediawiki Wikidata Extension Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32071
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Wikidata Extension allows Cross-Site Scripting (XSS) from widthheight message via ImageHandler::getDimensionsString()This issue affects Mediawiki - Wikidata Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32071</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32071</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32072 - Wikimedia Mediawiki Core Feed Utils XML External Entity (XXE) Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32072
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Encoding or Escaping of Output vulnerability in The Wikimedia Foundation Mediawiki Core - Feed Utils allows WebView Injection.This issue affects Mediawiki Core - Feed Utils: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32072</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32072</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32073 - Wikimedia Mediawiki HTML Tags Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32073
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - HTML Tags allows Cross-Site Scripting (XSS).This issue affects Mediawiki - HTML Tags: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32073</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32073</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32074 - Wikimedia Mediawiki Confirm Account Extension XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32074
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Encoding or Escaping of Output vulnerability in The Wikimedia Foundation Mediawiki - Confirm Account Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Confirm Account Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32074</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32074</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32075 - WikiMedia Foundation Mediawiki Tabs Extension Code Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32075
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Tabs Extension allows Code Injection.This issue affects Mediawiki - Tabs Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32075</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32075</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32076 - Wikimedia Mediawiki Visual Data Extension HTTP DoS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32076
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Visual Data Extension allows HTTP DoS.This issue affects Mediawiki - Visual Data Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32076</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32076</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32077 - WikiMedia SimpleCalendar XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32077
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Extension:SimpleCalendar allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Extension:SimpleCalendar: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32077</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32077</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32078 - Wikimedia Mediawiki Version Compare Extension XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32078
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Encoding or Escaping of Output vulnerability in The Wikimedia Foundation Mediawiki - Version Compare Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Version Compare Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32078</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32078</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32079 - Wikimedia Mediawiki GrowthExperiments HTTP Denial of Service (DoS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32079
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - GrowthExperiments allows HTTP DoS.This issue affects Mediawiki - GrowthExperiments: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32079</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32079</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32080 - Wikimedia Foundation Mediawiki Mobile Frontend Extension Information Exposure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32080
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in The Wikimedia Foundation Mediawiki - Mobile Frontend Extension allows Shared Resource Manipulation.This issue affects Mediawiki - Mobile Frontend Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32080</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32080</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32367 - Oz Forensics Face Recognition IDOR</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32367
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>The Oz Forensics face recognition application before 4.0.8 late 2023 allows PII retrieval via /statistic/list Insecure Direct Object Reference. NOTE: the number 4.0.8 was used for both the unpatched and patched versions.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32367</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32367</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31354 - Subnet Solutions PowerSYSTEM Center ECDSA Signature Validation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31354
+<br>
+<strong>Published : </strong> April 11, 2025, 4:15 p.m. | 10 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Subnet Solutions PowerSYSTEM Center's SMTPS notification service can be affected by importing an EC certificate with crafted F2m parameters, which can lead to excessive CPU consumption during the evaluation of the curve parameters.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31354</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31354</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31935 - Subnet Solutions PowerSYSTEM Center Denial of Service (DoS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31935
+<br>
+<strong>Published : </strong> April 11, 2025, 4:15 p.m. | 10 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Subnet Solutions 
+
+PowerSYSTEM Center is affected by a mishandling of exceptional conditions vulnerability. Crafted data that is passed to the API may trigger an exception, resulting in a denial-of-service condition.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31935</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31935</guid>
+    </item>
+    <item>
+      <title>CVE-2023-42981 - Apple macOS File Processing Denial-of-Service and Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-42981
+<br>
+<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 11 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Processing a file may lead to a denial-of-service or potentially disclose memory contents. This issue is fixed in macOS 14. The issue was addressed with improved checks.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-42981</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-42981</guid>
+    </item>
+    <item>
+      <title>CVE-2023-42982 - Apple macOS File Processing Denial-of-Service/Memory Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-42982
+<br>
+<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 11 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Processing a file may lead to a denial-of-service or potentially disclose memory contents. This issue is fixed in macOS 14. The issue was addressed with improved checks.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-42982</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-42982</guid>
+    </item>
+    <item>
+      <title>CVE-2023-42983 - Apple macOS File Processing Denial-of-Service/Memory Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-42983
+<br>
+<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 11 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>Processing a file may lead to a denial-of-service or potentially disclose memory contents. This issue is fixed in macOS 14. The issue was addressed with improved checks.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-42983</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-42983</guid>
+    </item>
     <item>
       <title>CVE-2024-10894 - Paystack WordPress Payment Forms Stored Cross-Site Scripting Vulnerability</title>
       <description><![CDATA[<p>
@@ -309,278 +744,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
 <strong>CVE ID : </strong>CVE-2025-27690
 <br>
 <strong>Published : </strong> April 10, 2025, 3:15 a.m. | 5 hours, 5 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.5.0.0 through 9.10.1.0, contains a use of default password vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to the takeover of a high privileged user account.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27690</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27690</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29989 - Dell Client Platform BIOS Denial of Service (DoS) Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3102
-<br>
-<strong>Published : </strong> April 10, 2025, 2:15 a.m. | 6 hours, 5 minutes ago
-<br>
-<strong>Description : </strong>The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.
-<br>
-<strong>Severity:</strong> 8.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 05:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3102</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3102</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3489 - Nababur Simple-User-Management-System Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3489
-<br>
-<strong>Published : </strong> April 10, 2025, 2:15 a.m. | 6 hours, 5 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Nababur Simple-User-Management-System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /register.php. The manipulation of the argument name/username leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 04:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3489</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3489</guid>
-    </item>
-    <item>
-      <title>CVE-2024-58136 - Yii 2 Behavior Array Key Attachment Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-58136
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an __class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025.
-<br>
-<strong>Severity:</strong> 9.0 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-58136</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58136</guid>
-    </item>
-    <item>
-      <title>CVE-2025-22471 - Dell PowerScale OneFS Integer Overflow Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-22471
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.1, contains an integer overflow or wraparound vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to denial of service.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-22471</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22471</guid>
-    </item>
-    <item>
-      <title>CVE-2025-23378 - Dell PowerScale OneFS Directory Listing Information Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-23378
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.0, contains an exposure of information through directory listing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to information disclosure.
-<br>
-<strong>Severity:</strong> 3.3 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-23378</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23378</guid>
-    </item>
-    <item>
-      <title>CVE-2025-26330 - Dell PowerScale OneFS Local Privilege Escalation Authorization Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26330
-<br>
-<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 3 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.1, contains an incorrect authorization vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability to access the cluster with previous privileges of a disabled user account.
-<br>
-<strong>Severity:</strong> 7.0 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26330</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26330</guid>
-    </item>
-    <item>
-      <title>CVE-2025-26479 - Dell PowerScale OneFS Out-of-Bounds Write Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26479
-<br>
-<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 3 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.0, contains an out-of-bounds write vulnerability. An attacker could potentially exploit this vulnerability in NFS workflows, leading to data integrity issues.
-<br>
-<strong>Severity:</strong> 3.1 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26479</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26479</guid>
-    </item>
-    <item>
-      <title>CVE-2025-26480 - Dell PowerScale OneFS Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26480
-<br>
-<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 3 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.5.0.0 through 9.10.0.0, contains an uncontrolled resource consumption vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to denial of service.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26480</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26480</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27690 - Dell PowerScale OneFS Default Password Vulnerability (Remote Authentication Bypass)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27690
-<br>
-<strong>Published : </strong> April 10, 2025, 3:15 a.m. | 3 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.5.0.0 through 9.10.1.0, contains a use of default password vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to the takeover of a high privileged user account.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27690</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27690</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29989 - Dell Client Platform BIOS Denial of Service (DoS) Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-58136
-<br>
-<strong>Published : </strong> April 10, 2025, 2:15 a.m. | 4 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an __class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025.
-<br>
-<strong>Severity:</strong> 9.0 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-58136</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58136</guid>
-    </item>
-    <item>
-      <title>CVE-2025-22471 - Dell PowerScale OneFS Integer Overflow Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-22471
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.1, contains an integer overflow or wraparound vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to denial of service.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-22471</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22471</guid>
-    </item>
-    <item>
-      <title>CVE-2025-23378 - Dell PowerScale OneFS Directory Listing Information Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-23378
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 9 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.0, contains an exposure of information through directory listing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to information disclosure.
-<br>
-<strong>Severity:</strong> 3.3 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-23378</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23378</guid>
-    </item>
-    <item>
-      <title>CVE-2025-26330 - Dell PowerScale OneFS Local Privilege Escalation Authorization Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26330
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 7 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.1, contains an incorrect authorization vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability to access the cluster with previous privileges of a disabled user account.
-<br>
-<strong>Severity:</strong> 7.0 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26330</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26330</guid>
-    </item>
-    <item>
-      <title>CVE-2025-26479 - Dell PowerScale OneFS Out-of-Bounds Write Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26479
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 7 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.4.0.0 through 9.10.0.0, contains an out-of-bounds write vulnerability. An attacker could potentially exploit this vulnerability in NFS workflows, leading to data integrity issues.
-<br>
-<strong>Severity:</strong> 3.1 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26479</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26479</guid>
-    </item>
-    <item>
-      <title>CVE-2025-26480 - Dell PowerScale OneFS Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26480
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 7 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Dell PowerScale OneFS, versions 9.5.0.0 through 9.10.0.0, contains an uncontrolled resource consumption vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to denial of service.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26480</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26480</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27690 - Dell PowerScale OneFS Default Password Vulnerability (Remote Authentication Bypass)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27690
-<br>
-<strong>Published : </strong> April 9, 2025, 11:15 p.m. | 7 hours, 4 minutes ago
 <br>
 <strong>Description : </strong>Dell PowerScale OneFS, versions 9.5.0.0 through 9.10.1.0, contains a use of default password vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to the takeover of a high privileged user account.
 <br>
@@ -1230,243 +1393,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-30652</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-30652</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2632 - NI LabVIEW CPU Info Disclosure and Code Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2632
-<br>
-<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 6 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>Out of bounds write vulnerability due to improper bounds checking in NI LabVIEW reading CPU info from cache that may result in information disclosure or arbitrary code execution.  Successful exploitation requires an attacker to get a user to open a specially crafted VI.  This vulnerability affects NI LabVIEW 2025 Q1 and prior versions.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2632</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2632</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30644 - Juniper Networks Junos OS Flexible PIC Concentrator Remote Code Execution and Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30644
-<br>
-<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 6 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>A Heap-based Buffer Overflow vulnerability in the flexible PIC concentrator (FPC) of Juniper Networks Junos OS on EX2300, EX3400, EX4100, EX4300, EX4300MP, EX4400, EX4600, EX4650-48Y, and QFX5k Series allows an attacker to send a specific DHCP packet to the device, leading to an FPC crash and restart, resulting in a Denial of Service (DoS). Continued receipt and processing of this packet will create a sustained Denial of Service (DoS) condition.
-
-Under a rare timing scenario outside the attacker's control, memory corruption may be observed when DHCP Option 82 is enabled, leading to an FPC crash and affecting packet forwarding. Due to the nature of the heap-based overflow, exploitation of this vulnerability could also lead to remote code execution within the FPC, resulting in complete control of the vulnerable component.
-This issue affects Junos OS on EX2300, EX3400, EX4100, EX4300, EX4300MP, EX4400, EX4600, EX4650-48Y, and QFX5k Series: 
-
-
-
-
-  *  All versions before 21.4R3-S9, 
-  *  from 22.2 before 22.2R3-S5, 
-  *  from 22.4 before 22.4R3-S5, 
-  *  from 23.2 before 23.2R2-S3, 
-  *  from 23.4 before 23.4R2-S3, 
-  *  from 24.2 before 24.2R2.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30644</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30644</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30645 - Juniper Networks Junos OS SRX Series NULL Pointer Dereference Denial of Service Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30645
-<br>
-<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 6 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>A NULL Pointer Dereference vulnerability in the flow daemon (flowd) of Juniper Networks Junos OS on SRX Series allows an attacker causing specific, valid control traffic to be sent out of a Dual-Stack (DS) Lite tunnel to crash the flowd process, resulting in a Denial of Service (DoS).  Continuous triggering of specific control traffic will create a sustained Denial of Service (DoS) condition.
-
-On all SRX platforms, when specific, valid control traffic needs to be sent out of a DS-Lite tunnel, a segmentation fault occurs within the flowd process, resulting in a network outage until the flowd process restarts.
-
-This issue affects Junos OS on SRX Series: 
-  *  All versions before 21.2R3-S9, 
-  *  from 21.4 before 21.4R3-S9, 
-  *  from 22.2 before 22.2R3-S5, 
-  *  from 22.4 before 22.4R3-S6, 
-  *  from 23.2 before 23.2R2-S3, 
-  *  from 23.4 before 23.4R2.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30645</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30645</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30646 - Juniper Networks Junos OS and Junos OS Evolved LLDP Signed to Unsigned Conversion Error Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30646
-<br>
-<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 6 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>A Signed to Unsigned Conversion Error vulnerability in the Layer 2 Control Protocol daemon (l2cpd) of Juniper Networks Junos OS and Juniper Networks Junos OS Evolved allows an unauthenticated adjacent attacker sending a specifically malformed LLDP TLV to cause the l2cpd process to crash and restart, causing a Denial of Service (DoS).  Continued receipt and processing of this packet will create a sustained Denial of Service (DoS) condition.
-
-When an LLDP telemetry subscription is active, receipt of a specifically malformed LLDP TLV causes the l2cpd process to crash and restart.
-
-
-
-This issue affects:
-
-Junos OS: 
-
-
-  *  All versions before 21.2R3-S9, 
-  *  from 21.4 before 21.4R3-S10, 
-  *  from 22.2 before 22.2R3-S6, 
-  *  from 22.4 before 22.4R3-S6, 
-  *  from 23.2 before 23.2R2-S3, 
-  *  from 23.4 before 23.4R2-S4, 
-  *  from 24.2 before 24.2R2; 
-
-
-
-
-Junos OS Evolved: 
-
-
-
-  *  All versions before 21.4R3-S10-EVO,
-  *  from 22.2-EVO before 22.2R3-S6-EVO, 
-  *  from 22.4-EVO before 22.4R3-S6-EVO, 
-  *  from 23.2-EVO before 23.2R2-S3-EVO, 
-  *  from 23.4-EVO before 23.4R2-S4-EVO, 
-  *  from 24.2-EVO before 24.2R2-EVO.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30646</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30646</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30647 - Juniper Networks Junos OS MX Series Memory Leak DoS Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30647
-<br>
-<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 6 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>A Missing Release of Memory after Effective Lifetime vulnerability in the packet forwarding engine (PFE) of Juniper Networks Junos OS on MX Series allows an unauthenticated adjacent attacker to cause a Denial-of-Service (DoS).
-
-In a subscriber management scenario, login/logout activity triggers a memory leak, and the leaked memory gradually increments and eventually results in a crash. 
-   
-           user@host> show chassis fpc
-                                       Temp    CPU Utilization (%)   CPU Utilization (%)   Memory      Utilization (%)
-                      Slot State       (C)     Total   Interrupt      1min   5min  15min    DRAM (MB)  Heap     Buffer
-
-                      2  Online         36        10          0          9      8      9         32768       26          0
-                                                                                                     
-
-This issue affects Junos OS on MX Series: 
-  *  All versions before 21.2R3-S9
-  *  from 21.4 before 21.4R3-S10
-  *  from 22.2 before 22.2R3-S6
-  *  from 22.4 before 22.4R3-S5
-  *  from 23.2 before 23.2R2-S3
-  *  from 23.4 before 23.4R2-S3
-  *  from 24.2 before 24.2R2.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30647</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30647</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30648 - Juniper Junos OS Juniper DHCP Daemon Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30648
-<br>
-<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 6 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>An Improper Input Validation vulnerability in the Juniper DHCP Daemon (jdhcpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, adjacent attacker to cause the jdhcpd process to crash resulting in a Denial of Service (DoS).
-
-When a specifically malformed DHCP packet is received from a DHCP client, the jdhcpd process crashes, which will lead to the unavailability of the DHCP service and thereby resulting in a sustained DoS. The DHCP process will restart automatically to recover the service.
-
-This issue will occur when dhcp-security is enabled. 
-This issue affects Junos OS: 
-
-
-
-  *  All versions before 21.2R3-S9, 
-  *  from 21.4 before 21.4R3-S10, 
-  *  from 22.2 before 22.2R3-S6, 
-  *  from 22.4 before 22.4R3-S6, 
-  *  from 23.2 before 23.2R2-S3, 
-  *  from 23.4 before 23.4R2-S4, 
-  *  from 24.2 before 24.2R2; 
-
-
-
-
-Junos OS Evolved:   *  from 22.4 before 22.4R3-S6-EVO, 
-  *  from 23.2 before 23.2R2-S3-EVO, 
-  *  from 23.4 before 23.4R2-S4-EVO, 
-  *  from 24.2 before 24.2R2-EVO.
-
-
-
-
-.
-<br>
-<strong>Severity:</strong> 7.4 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30648</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30648</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30649 - "Juniper Networks Junos OS syslog stream TCP transport Improper Input Validation allows CPU Denial of Service"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30649
-<br>
-<strong>Published : </strong> April 9, 2025, 8:15 p.m. | 6 hours, 43 minutes ago
-<br>
-<strong>Description : </strong>An Improper Input Validation vulnerability in the syslog stream TCP transport of Juniper Networks Junos OS on MX240, MX480 and MX960 devices with MX-SPC3 Security Services Card allows an unauthenticated, network-based attacker, to send specific spoofed packets to cause a CPU Denial of Service (DoS) to the MX-SPC3 SPUs.
-
-Continued receipt and processing of these specific packets will sustain the DoS condition.
-
-This issue affects Junos OS:  *  All versions before 22.2R3-S6,
-  *  from 22.4 before 22.4R3-S4,
-  *  from 23.2 before 23.2R2-S3,
-  *  from 23.4 before 23.4R2-S4,
-  *  from 24.2 before 24.2R1-S2, 24.2R2
-
-
-An indicator of compromise will indicate the SPC3 SPUs utilization has spiked.
-
-
-For example: 
-   user@device> show services service-sets summary
-                     Service sets                                                                               CPU
-  Interface          configured       Bytes used             Session bytes used        Policy bytes used        utilization
-  "interface"          1              "bytes" (percent%)     "sessions" ("percent"%)   "bytes" ("percent"%)     99.97 % OVLD  <<<<<< look for high CPU usage
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Apr 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30649</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30649</guid>
     </item>
     <item>
       <title>CVE-2025-2519 - Sreamit WordPress Arbitrary File Download Vulnerability</title>
