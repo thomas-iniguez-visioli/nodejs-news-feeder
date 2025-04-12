@@ -8,18 +8,35 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 12 Apr 2025 00:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Apr 2025 04:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-2269 - 10Web Photo Gallery by 10Web Reflected Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2269
+<br>
+<strong>Published : </strong> April 12, 2025, 12:15 a.m. | 2 hours, 13 minutes ago
+<br>
+<strong>Description : </strong>The Photo Gallery by 10Web – Mobile-Friendly Image Gallery plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘image_id’ parameter in all versions up to, and including, 1.8.34 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick an administrative user into performing an action such as clicking on a link.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 12 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2269</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2269</guid>
+    </item>
+    <item>
       <title>CVE-2025-0129 - Prisma Access Browser: Cross-Site Scripting (XSS)</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0129
 <br>
-<strong>Published : </strong> April 11, 2025, 11:15 p.m. | 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 11:15 p.m. | 3 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Prisma Access Browser: Inappropriate control behavior in Prisma Access Browser
 <br>
@@ -36,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-11679
 <br>
-<strong>Published : </strong> April 11, 2025, 7:15 p.m. | 4 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 7:15 p.m. | 7 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>An input validation weakness was reported in the TpmSetup module for some legacy System x server products that could allow a local attacker with elevated privileges to read the contents of memory.
 <br>
@@ -53,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0119
 <br>
-<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 5 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 8 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>A command injection vulnerability in the Palo Alto Networks Cortex XDR® Broker VM allows an authenticated user to execute arbitrary OS commands with root privileges on the host operating system running Broker VM.
 <br>
@@ -70,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0123
 <br>
-<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 5 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 8 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the Palo Alto Networks PAN-OS® software enables unlicensed administrators to view clear-text data captured using the  packet capture feature https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-admin/monitoring/take-packet-captures/take-a-custom-packet-capture  in decrypted HTTP/2 data streams traversing network interfaces on the firewall. HTTP/1.1 data streams are not impacted.
 
@@ -95,7 +112,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32067
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Growth Experiments Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Growth Experiments Extension: from 1.39 through 1.43.
 <br>
@@ -112,7 +129,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32068
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Incorrect Authorization vulnerability in The Wikimedia Foundation Mediawiki - OAuth Extension allows Authentication Bypass.This issue affects Mediawiki - OAuth Extension: from 1.39 through 1.43.
 <br>
@@ -129,7 +146,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32069
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Wikibase Media Info Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Wikibase Media Info Extension: from 1.39 through 1.43.
 <br>
@@ -146,7 +163,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32070
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - AJAX Poll Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - AJAX Poll Extension: from 1.39 through 1.43.
 <br>
@@ -163,7 +180,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32071
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Wikidata Extension allows Cross-Site Scripting (XSS) from widthheight message via ImageHandler::getDimensionsString()This issue affects Mediawiki - Wikidata Extension: from 1.39 through 1.43.
 <br>
@@ -180,7 +197,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32072
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Encoding or Escaping of Output vulnerability in The Wikimedia Foundation Mediawiki Core - Feed Utils allows WebView Injection.This issue affects Mediawiki Core - Feed Utils: from 1.39 through 1.43.
 <br>
@@ -197,7 +214,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32073
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - HTML Tags allows Cross-Site Scripting (XSS).This issue affects Mediawiki - HTML Tags: from 1.39 through 1.43.
 <br>
@@ -214,7 +231,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32074
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Encoding or Escaping of Output vulnerability in The Wikimedia Foundation Mediawiki - Confirm Account Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Confirm Account Extension: from 1.39 through 1.43.
 <br>
@@ -231,7 +248,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32075
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Tabs Extension allows Code Injection.This issue affects Mediawiki - Tabs Extension: from 1.39 through 1.43.
 <br>
@@ -248,7 +265,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32076
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Visual Data Extension allows HTTP DoS.This issue affects Mediawiki - Visual Data Extension: from 1.39 through 1.43.
 <br>
@@ -265,7 +282,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32077
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Extension:SimpleCalendar allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Extension:SimpleCalendar: from 1.39 through 1.43.
 <br>
@@ -282,7 +299,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32078
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Encoding or Escaping of Output vulnerability in The Wikimedia Foundation Mediawiki - Version Compare Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Version Compare Extension: from 1.39 through 1.43.
 <br>
@@ -299,7 +316,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32079
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - GrowthExperiments allows HTTP DoS.This issue affects Mediawiki - GrowthExperiments: from 1.39 through 1.43.
 <br>
@@ -316,7 +333,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32080
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in The Wikimedia Foundation Mediawiki - Mobile Frontend Extension allows Shared Resource Manipulation.This issue affects Mediawiki - Mobile Frontend Extension: from 1.39 through 1.43.
 <br>
@@ -333,7 +350,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32367
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 6 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 9 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>The Oz Forensics face recognition application before 4.0.8 late 2023 allows PII retrieval via /statistic/list Insecure Direct Object Reference. NOTE: the number 4.0.8 was used for both the unpatched and patched versions.
 <br>
@@ -350,7 +367,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31354
 <br>
-<strong>Published : </strong> April 11, 2025, 4:15 p.m. | 7 hours, 23 minutes ago
+<strong>Published : </strong> April 11, 2025, 4:15 p.m. | 10 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Subnet Solutions PowerSYSTEM Center's SMTPS notification service can be affected by importing an EC certificate with crafted F2m parameters, which can lead to excessive CPU consumption during the evaluation of the curve parameters.
 <br>
@@ -367,7 +384,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31935
 <br>
-<strong>Published : </strong> April 11, 2025, 4:15 p.m. | 7 hours, 23 minutes ago
+<strong>Published : </strong> April 11, 2025, 4:15 p.m. | 10 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Subnet Solutions 
 
@@ -382,28 +399,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-31935</guid>
     </item>
     <item>
-      <title>CVE-2023-42977 - Apple iOS/iPadOS Sandbox Escape Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2023-42977
-<br>
-<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 8 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>A path handling issue was addressed with improved validation. This issue is fixed in iOS 17 and iPadOS 17, macOS Sonoma 14. An app may be able to break out of its sandbox.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2023-42977</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2023-42977</guid>
-    </item>
-    <item>
       <title>CVE-2023-42981 - Apple macOS File Processing Denial-of-Service and Information Disclosure Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-42981
 <br>
-<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 8 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 11 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Processing a file may lead to a denial-of-service or potentially disclose memory contents. This issue is fixed in macOS 14. The issue was addressed with improved checks.
 <br>
@@ -420,7 +420,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-42982
 <br>
-<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 8 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 11 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Processing a file may lead to a denial-of-service or potentially disclose memory contents. This issue is fixed in macOS 14. The issue was addressed with improved checks.
 <br>
@@ -437,7 +437,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-42983
 <br>
-<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 8 hours, 22 minutes ago
+<strong>Published : </strong> April 11, 2025, 3:15 p.m. | 11 hours, 13 minutes ago
 <br>
 <strong>Description : </strong>Processing a file may lead to a denial-of-service or potentially disclose memory contents. This issue is fixed in macOS 14. The issue was addressed with improved checks.
 <br>
