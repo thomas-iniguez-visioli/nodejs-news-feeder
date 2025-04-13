@@ -8,18 +8,37 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 12 Apr 2025 12:17:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Apr 2025 04:42:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-2814 - "Verisign Crypt::CBC Insecure Random Number Generation Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2814
+<br>
+<strong>Published : </strong> April 13, 2025, 12:15 a.m. | 3 hours, 57 minutes ago
+<br>
+<strong>Description : </strong>Crypt::CBC versions between 1.21 and 3.04 for Perl may use the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.
+
+This issue affects operating systems where "/dev/urandom'" is unavailable.  In that case, Crypt::CBC will fallback to use the insecure rand() function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 13 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2814</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2814</guid>
+    </item>
+    <item>
       <title>CVE-2025-1455 - WordPress Royal Elementor Stored Cross-Site Scripting Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1455
 <br>
-<strong>Published : </strong> April 12, 2025, 9:15 a.m. | 2 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 9:15 a.m. | 18 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The Royal Elementor Addons and Templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Woo Grid widget in all versions up to, and including, 1.7.1012 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -36,7 +55,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1456
 <br>
-<strong>Published : </strong> April 12, 2025, 9:15 a.m. | 2 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 9:15 a.m. | 18 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The Royal Elementor Addons and Templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the `widgetGrid`, `widgetCountDown`, and `widgetInstagramFeed` methods in all versions up to, and including, 1.7.1012 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -53,7 +72,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13337
 <br>
-<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 4 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 20 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The Clearfy Cache – WordPress optimization plugin, Minify HTML, CSS & JS, Defer plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.3.2. This is due to missing or incorrect nonce validation on the 'setup-wbcr_clearfy' page. This makes it possible for unauthenticated attackers to update the plugins settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -70,7 +89,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13338
 <br>
-<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 4 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 20 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The Clearfy Cache – WordPress optimization plugin, Minify HTML, CSS & JS, Defer plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.3.1. This is due to missing or incorrect nonce validation on the wclearfy_cache_delete functionality . This makes it possible for unauthenticated attackers to clear the cache via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -87,7 +106,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3276
 <br>
-<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 4 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 20 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The SKT Blocks – Gutenberg based Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Post Carousel block in all versions up to, and including, 1.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -104,7 +123,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3282
 <br>
-<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 4 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 20 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The User Registration & Membership – Custom Registration Form, Login Form, and User Profile plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 4.1.3 via the user_registration_membership_register_member() due to missing validation on the 'membership_id' user controlled key. This makes it possible for unauthenticated attackers to update any user's membership to any other active or non-active membership type.
 <br>
@@ -121,7 +140,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3292
 <br>
-<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 4 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 20 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The User Registration & Membership – Custom Registration Form, Login Form, and User Profile plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 4.1.3 via the user_registration_update_profile_details() due to missing validation on the 'user_id' user controlled key. This makes it possible for unauthenticated attackers to update other user's passwords, if they have access to the user ID and email.
 <br>
@@ -138,7 +157,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3418
 <br>
-<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 4 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 7:15 a.m. | 20 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The WPC Admin Columns plugin for WordPress is vulnerable to privilege escalation in versions 2.0.6 to 2.1.0. This is due to the plugin not properly restricting user meta values that can be updated through the ajax_edit_save() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update their role to that of an administrator.
 <br>
@@ -155,7 +174,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2871
 <br>
-<strong>Published : </strong> April 12, 2025, 4:15 a.m. | 7 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 4:15 a.m. | 23 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>The WordPress Mega Menu – QuadMenu plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.2.0. This is due to missing or incorrect nonce validation on the ajax_dismiss_notice() function. This makes it possible for unauthenticated attackers to update any user meta to a value of one, including wp_capabilities which could result in a privilege deescalation of an administrator, via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -172,7 +191,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2841
 <br>
-<strong>Published : </strong> April 12, 2025, 3:15 a.m. | 8 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 3:15 a.m. | 1 day ago
 <br>
 <strong>Description : </strong>The Cart66 Cloud plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.3.7 through the publicly accessible phpinfo.php script. This makes it possible for unauthenticated attackers to view potentially sensitive information contained in the exposed file.
 <br>
@@ -189,7 +208,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2881
 <br>
-<strong>Published : </strong> April 12, 2025, 3:15 a.m. | 8 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 3:15 a.m. | 1 day ago
 <br>
 <strong>Description : </strong>The Developer Toolbar plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.0.3 through the publicly accessible phpinfo.php script. This makes it possible for unauthenticated attackers to view potentially sensitive information contained in the exposed file.
 <br>
@@ -206,7 +225,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29803
 <br>
-<strong>Published : </strong> April 12, 2025, 2:15 a.m. | 9 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 2:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>Uncontrolled search path element in Visual Studio Tools for Applications and SQL Server Management Studio allows an authorized attacker to elevate privileges locally.
 <br>
@@ -223,7 +242,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29834
 <br>
-<strong>Published : </strong> April 12, 2025, 2:15 a.m. | 9 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 2:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>Out-of-bounds read in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
 <br>
@@ -240,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32726
 <br>
-<strong>Published : </strong> April 12, 2025, 2:15 a.m. | 9 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 2:15 a.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>Improper access control in Visual Studio Code allows an authorized attacker to elevate privileges locally.
 <br>
@@ -257,7 +276,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2269
 <br>
-<strong>Published : </strong> April 12, 2025, 12:15 a.m. | 11 hours, 52 minutes ago
+<strong>Published : </strong> April 12, 2025, 12:15 a.m. | 1 day, 3 hours ago
 <br>
 <strong>Description : </strong>The Photo Gallery by 10Web – Mobile-Friendly Image Gallery plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘image_id’ parameter in all versions up to, and including, 1.8.34 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick an administrative user into performing an action such as clicking on a link.
 <br>
@@ -274,7 +293,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0129
 <br>
-<strong>Published : </strong> April 11, 2025, 11:15 p.m. | 12 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 11:15 p.m. | 1 day, 4 hours ago
 <br>
 <strong>Description : </strong>Prisma Access Browser: Inappropriate control behavior in Prisma Access Browser
 <br>
@@ -291,7 +310,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-11679
 <br>
-<strong>Published : </strong> April 11, 2025, 7:15 p.m. | 16 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 7:15 p.m. | 1 day, 8 hours ago
 <br>
 <strong>Description : </strong>An input validation weakness was reported in the TpmSetup module for some legacy System x server products that could allow a local attacker with elevated privileges to read the contents of memory.
 <br>
@@ -308,7 +327,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0119
 <br>
-<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 17 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 1 day, 9 hours ago
 <br>
 <strong>Description : </strong>A command injection vulnerability in the Palo Alto Networks Cortex XDR® Broker VM allows an authenticated user to execute arbitrary OS commands with root privileges on the host operating system running Broker VM.
 <br>
@@ -325,7 +344,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0123
 <br>
-<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 17 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 6:15 p.m. | 1 day, 9 hours ago
 <br>
 <strong>Description : </strong>A vulnerability in the Palo Alto Networks PAN-OS® software enables unlicensed administrators to view clear-text data captured using the  packet capture feature https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-admin/monitoring/take-packet-captures/take-a-custom-packet-capture  in decrypted HTTP/2 data streams traversing network interfaces on the firewall. HTTP/1.1 data streams are not impacted.
 
@@ -346,28 +365,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-0123</guid>
     </item>
     <item>
-      <title>CVE-2025-32076 - Wikimedia Mediawiki Visual Data Extension HTTP DoS Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32076
-<br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 18 hours, 52 minutes ago
-<br>
-<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Visual Data Extension allows HTTP DoS.This issue affects Mediawiki - Visual Data Extension: from 1.39 through 1.43.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32076</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32076</guid>
-    </item>
-    <item>
       <title>CVE-2025-32077 - WikiMedia SimpleCalendar XSS</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32077
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 18 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 1 day, 10 hours ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Extension:SimpleCalendar allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Extension:SimpleCalendar: from 1.39 through 1.43.
 <br>
@@ -384,7 +386,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32078
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 18 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 1 day, 10 hours ago
 <br>
 <strong>Description : </strong>Improper Encoding or Escaping of Output vulnerability in The Wikimedia Foundation Mediawiki - Version Compare Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Version Compare Extension: from 1.39 through 1.43.
 <br>
@@ -401,7 +403,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32079
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 18 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 1 day, 10 hours ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - GrowthExperiments allows HTTP DoS.This issue affects Mediawiki - GrowthExperiments: from 1.39 through 1.43.
 <br>
@@ -418,7 +420,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32080
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 18 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 1 day, 10 hours ago
 <br>
 <strong>Description : </strong>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in The Wikimedia Foundation Mediawiki - Mobile Frontend Extension allows Shared Resource Manipulation.This issue affects Mediawiki - Mobile Frontend Extension: from 1.39 through 1.43.
 <br>
@@ -435,7 +437,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32367
 <br>
-<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 18 hours, 52 minutes ago
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 1 day, 10 hours ago
 <br>
 <strong>Description : </strong>The Oz Forensics face recognition application before 4.0.8 late 2023 allows PII retrieval via /statistic/list Insecure Direct Object Reference. NOTE: the number 4.0.8 was used for both the unpatched and patched versions.
 <br>
@@ -446,6 +448,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-32367</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-32367</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32076 - Wikimedia Mediawiki Visual Data Extension HTTP DoS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32076
+<br>
+<strong>Published : </strong> April 11, 2025, 5:15 p.m. | 18 hours, 52 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in The Wikimedia Foundation Mediawiki - Visual Data Extension allows HTTP DoS.This issue affects Mediawiki - Visual Data Extension: from 1.39 through 1.43.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 11 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32076</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32076</guid>
     </item>
     <item>
       <title>CVE-2025-32067 - Wikimedia Mediawiki Growth Experiments XSS</title>
