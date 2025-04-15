@@ -8,18 +8,264 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 14 Apr 2025 22:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 00:52:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-31490 - AutoGPT SSRF via DNS Rebinding</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31490
+<br>
+<strong>Published : </strong> April 14, 2025, 11:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>AutoGPT is a platform that allows users to create, deploy, and manage continuous artificial intelligence agents that automate complex workflows. Prior to 0.6.1, AutoGPT allows SSRF due to DNS Rebinding in requests wrapper. AutoGPT uses a wrapper around the requests python library, located in autogpt_platform/backend/backend/util/request.py. In this wrapper, redirects are specifically NOT followed for the first request. If the wrapper is used with allow_redirects set to True (which is the default), any redirect is not followed by the initial request, but rather re-requested by the wrapper using the new location. However, there is a fundamental flaw in manually re-requesting the new location: it does not account for security-sensitive headers which should not be sent cross-origin, such as the Authorization and Proxy-Authorization header, and cookies. For example in autogpt_platform/backend/backend/blocks/github/_api.py, an Authorization header is set when retrieving data from the GitHub API. However, if GitHub suffers from an open redirect vulnerability (such as the made-up example of https://api.github.com/repos/{owner}/{repo}/issues/comments/{comment_id}/../../../../../redirect/?url=https://joshua.hu/), and the script can be coerced into visiting it with the Authorization header, the GitHub credentials in the Authorization header will be leaked. All SSRF protections are bypassable; it could allow querying local services, or other previously blocked addresses. Depends on the situation. This vulnerability is fixed in 0.6.1.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31490</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31490</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3593 - ZHENFENG13 My-Blog-layui Unrestricted File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3593
+<br>
+<strong>Published : </strong> April 14, 2025, 11:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability was found in ZHENFENG13/code-projects My-Blog-layui 1.0. It has been declared as critical. This vulnerability affects the function Upload of the file /admin/upload/authorImg/. The manipulation of the argument File leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3593</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3593</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3590 - Adianti Framework Remote Deserialization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3590
+<br>
+<strong>Published : </strong> April 14, 2025, 10:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in Adianti Framework up to 8.0 and classified as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to deserialization. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 8.1 is able to address this issue. It is recommended to upgrade the affected component.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3590</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3590</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3591 - ZHENFENG13/My-Blog-layui Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3591
+<br>
+<strong>Published : </strong> April 14, 2025, 10:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability was found in ZHENFENG13/code-projects My-Blog-layui 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file /admin/v1/blog/edit. The manipulation leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Multiple parameters might be affected. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3591</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3591</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3592 - ZHENFENG13 My-Blog-layui Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3592
+<br>
+<strong>Published : </strong> April 14, 2025, 10:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability was found in ZHENFENG13/code-projects My-Blog-layui 1.0. It has been classified as problematic. This affects an unknown part of the file /admin/v1/link/edit. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Multiple parameters might be affected. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3592</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3592</guid>
+    </item>
+    <item>
+      <title>CVE-2022-43840 - IBM Aspera Console XPath Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-43840
+<br>
+<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 3 hours ago
+<br>
+<strong>Description : </strong>IBM Aspera Console 3.4.0 through 3.4.4
+
+is vulnerable to an XPath injection vulnerability, which could allow an authenticated attacker to exfiltrate sensitive application data and/or determine the structure of the XML document.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-43840</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-43840</guid>
+    </item>
+    <item>
+      <title>CVE-2022-43847 - IBM Aspera Console HTTP Header Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-43847
+<br>
+<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 3 hours ago
+<br>
+<strong>Description : </strong>IBM Aspera Console 3.4.0 through 3.4.4 
+
+is vulnerable to HTTP header injection, caused by improper validation of input by the HOST headers. This could allow an attacker to conduct various attacks against the vulnerable system, including cross-site scripting, cache poisoning or session hijacking.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-43847</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-43847</guid>
+    </item>
+    <item>
+      <title>CVE-2022-43850 - IBM Aspera Console Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-43850
+<br>
+<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 3 hours ago
+<br>
+<strong>Description : </strong>IBM Aspera Console 3.4.0 through 3.4.4
+
+is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-43850</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-43850</guid>
+    </item>
+    <item>
+      <title>CVE-2022-43851 - IBM Aspera Console Cryptographic Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-43851
+<br>
+<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 3 hours ago
+<br>
+<strong>Description : </strong>IBM Aspera Console 3.4.0 through 3.4.4
+
+uses weaker than expected cryptographic algorithms that could allow an attacker to decrypt highly sensitive information.
+<br>
+<strong>Severity:</strong> 5.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-43851</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-43851</guid>
+    </item>
+    <item>
+      <title>CVE-2022-43852 - IBM Aspera Console Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-43852
+<br>
+<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 3 hours ago
+<br>
+<strong>Description : </strong>IBM Aspera Console 3.4.0 through 3.4.4 could disclose sensitive information in HTTP headers that could be used in further attacks against the system.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-43852</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-43852</guid>
+    </item>
+    <item>
+      <title>CVE-2023-27272 - IBM Aspera Console Password Reuse Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-27272
+<br>
+<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 3 hours ago
+<br>
+<strong>Description : </strong>IBM Aspera Console 3.4.0 through 3.4.4 allows passwords to be reused when a new user logs into the system.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-27272</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-27272</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3588 - "JSONschema2pojo JSON File Handler Stack-Based Buffer Overflow"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3588
+<br>
+<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 3 hours ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in joelittlejohn jsonschema2pojo 1.2.2. This issue affects the function apply of the file org/jsonschema2pojo/rules/SchemaRule.java of the component JSON File Handler. The manipulation leads to stack-based buffer overflow. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3588</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3588</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3589 - SourceCodester Music Class Enrollment System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3589
+<br>
+<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 3 hours ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in SourceCodester Music Class Enrollment System 1.0. Affected is an unknown function of the file /manage_class.php. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3589</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3589</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3587 - ZeroWdd/Code-Projects StudentManager Remote Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3587
+<br>
+<strong>Published : </strong> April 14, 2025, 8:15 p.m. | 4 hours ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in ZeroWdd/code-projects studentmanager 1.0. This vulnerability affects unknown code of the file /getTeacherList. The manipulation leads to improper authorization. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3587</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3587</guid>
+    </item>
+    <item>
       <title>CVE-2025-1782 - HylaFAX Enterprise Web Interface and AvantFAX File Inclusion Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1782
 <br>
-<strong>Published : </strong> April 14, 2025, 7:15 p.m. | 1 hour ago
+<strong>Published : </strong> April 14, 2025, 7:15 p.m. | 5 hours ago
 <br>
 <strong>Description : </strong>In HylaFAX Enterprise Web Interface and AvantFAX, the language form element is not properly sanitized 
 before being used and can be misused to include an arbitrary file in the
@@ -39,7 +285,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3585
 <br>
-<strong>Published : </strong> April 14, 2025, 6:15 p.m. | 2 hours ago
+<strong>Published : </strong> April 14, 2025, 6:15 p.m. | 6 hours ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in westboy CicadasCMS 1.0. This affects an unknown part of the file /upload/ of the component JSP Parser. The manipulation of the argument File leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -56,7 +302,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29720
 <br>
-<strong>Published : </strong> April 14, 2025, 5:15 p.m. | 3 hours ago
+<strong>Published : </strong> April 14, 2025, 5:15 p.m. | 7 hours ago
 <br>
 <strong>Description : </strong>Dify v1.0 was discovered to contain a Server-Side Request Forgery (SSRF) via the component controllers.console.remote_files.RemoteFileUploadApi.
 <br>
@@ -73,7 +319,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3277
 <br>
-<strong>Published : </strong> April 14, 2025, 5:15 p.m. | 3 hours ago
+<strong>Published : </strong> April 14, 2025, 5:15 p.m. | 7 hours ago
 <br>
 <strong>Description : </strong>An integer overflow can be triggered in SQLite’s `concat_ws()` function. The resulting, truncated integer is then used to allocate a buffer. When SQLite then writes the resulting string to the buffer, it uses the original, untruncated size and thus a wild Heap Buffer overflow of size ~4GB can be triggered. This can result in arbitrary code execution.
 <br>
@@ -90,7 +336,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22371
 <br>
-<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 4 hours ago
+<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 8 hours ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in SicommNet BASEC (SaaS Service) login page allows an unauthenticated remote attacker to Bypass Authentication and execute arbitrary SQL commands. This issue at least affects BASEC for the date of 14 Dec 2021 onwards. It is very likely that this vulnerability has been present in the solution before that.
 
@@ -109,7 +355,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22372
 <br>
-<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 4 hours ago
+<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 8 hours ago
 <br>
 <strong>Description : </strong>Insufficiently Protected Credentials vulnerability in SicommNet BASEC on SaaS allows Password Recovery.
 Passwords are either stored in plain text using reversible encryption, allowing an attacker with sufficient privileges to extract plain text passwords easily.
@@ -129,7 +375,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22373
 <br>
-<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 4 hours ago
+<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 8 hours ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in SicommNet BASEC on SaaS allows Reflected XSS, XSS Through HTTP Query Strings, Rendering of Arbitrary HTML and alternation of CSS Styles
 This issue affects BASEC: from 14 Dec 2021.
@@ -147,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2572
 <br>
-<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 4 hours ago
+<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 8 hours ago
 <br>
 <strong>Description : </strong>In WhatsUp Gold versions released before 2024.0.3, a 
 
@@ -168,7 +414,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32931
 <br>
-<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 4 hours ago
+<strong>Published : </strong> April 14, 2025, 4:15 p.m. | 8 hours ago
 <br>
 <strong>Description : </strong>DevDojo Voyager 1.4.0 through 1.8.0, when Laravel 8 or later is used, allows authenticated administrators to execute arbitrary OS commands via a specific php artisan command.
 <br>
@@ -181,181 +427,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-32931</guid>
     </item>
     <item>
-      <title>CVE-2024-49825 - IBM Robotic Process Automation Session Impersonation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-49825
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>IBM Robotic Process Automation and Robotic Process Automation for Cloud Pak 21.0.0 through 21.0.7.20 and 23.0.0 through 23.0.20 does not invalidate session after a logout which could allow an authenticated user to impersonate another user on the system.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-49825</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-49825</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2160 - Pega Platform Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2160
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>Pega Platform versions 8.4.3 to Infinity 24.2.1 are affected by an XSS issue with Mashup
-<br>
-<strong>Severity:</strong> 8.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2160</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2160</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2161 - Pega Platform Mashup Cross-Site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2161
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>Pega Platform versions 7.2.1 to Infinity 24.2.1 are affected by an XSS issue with Mashup
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2161</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2161</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2424 - Mattermost File Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2424
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>Mattermost versions 10.5.x <= 10.5.1, 9.11.x <= 9.11.9 fail to check if a file has been deleted when creating a bookmark which allows an attacker who knows the IDs of deleted files to obtain metadata of the files via bookmark creation.
-<br>
-<strong>Severity:</strong> 3.1 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2424</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2424</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2475 - Mattermost Bot Conversion Cache Invalidation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2475
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>Mattermost versions 10.5.x <= 10.5.1, 10.4.x <= 10.4.3, 9.11.x <= 9.11.9 fail to invalidate the cache when a user account is converted to a bot which allows an attacker to login to the bot exactly one time via normal credentials.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2475</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2475</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32909 - Libsoup NULL Pointer Dereference Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32909
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>A flaw was found in libsoup. SoupContentSniffer may be vulnerable to a NULL pointer dereference in the sniff_mp4 function. The HTTP server may cause the libsoup client to crash.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32909</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32909</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32910 - "Libsoup NULL Pointer Dereference Authentication Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32910
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>A flaw was found in libsoup, where soup_auth_digest_authenticate() is vulnerable to a NULL pointer dereference. This issue may cause the libsoup client to crash.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32910</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32910</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32912 - "Libsoup HTTP Server NULL Pointer Dereference Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32912
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>A flaw was found in libsoup, where SoupAuthDigest is vulnerable to a NULL pointer dereference. The HTTP server may cause the libsoup client to crash.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32912</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32912</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32914 - Apache Libsoup Out-of-Bounds Read Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32914
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>A flaw was found in libsoup, where the soup_multipart_new_from_message() function is vulnerable to an out-of-bounds read. This flaw allows a malicious HTTP client to induce the libsoup server to read out of bounds.
-<br>
-<strong>Severity:</strong> 7.4 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32914</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32914</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32930 - Cisco Unknown Vulnerability Type</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32930
-<br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
-<br>
-<strong>Description : </strong>Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32930</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32930</guid>
-    </item>
-    <item>
       <title>CVE-2025-3570 - JamesZBL/code-projects db-hospital-drug Cross Site Scripting Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3570
 <br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
+<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 9 hours ago
 <br>
 <strong>Description : </strong>A vulnerability was found in JamesZBL/code-projects db-hospital-drug 1.0. It has been classified as problematic. This affects the function Save of the file ContentController.java. The manipulation of the argument content leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -372,7 +448,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3571
 <br>
-<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 5 hours ago
+<strong>Published : </strong> April 14, 2025, 3:15 p.m. | 9 hours ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Fannuo Enterprise Content Management System 凡诺企业网站管理系统 1.1/4.0. It has been declared as critical. This vulnerability affects unknown code of the file admin/cms_chip.php. The manipulation of the argument del leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -383,74 +459,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 14 Apr 2025 15:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-3571</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3571</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32908 - Libsoup HTTP/2 Server Pseudo-Header Validation DoS Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32908
-<br>
-<strong>Published : </strong> April 14, 2025, 2:15 p.m. | 6 hours ago
-<br>
-<strong>Description : </strong>A flaw was found in libsoup. The HTTP/2 server in libsoup may not fully validate the values of pseudo-headers :scheme, :authority, and :path, which may allow a user to cause a denial of service (DoS).
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32908</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32908</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32913 - Libsoup NULL Pointer Dereference Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32913
-<br>
-<strong>Published : </strong> April 14, 2025, 2:15 p.m. | 6 hours ago
-<br>
-<strong>Description : </strong>A flaw was found in libsoup, where the soup_message_headers_get_content_disposition() function is vulnerable to a NULL pointer dereference. This flaw allows a malicious HTTP peer to crash a libsoup client or server that uses this function.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32913</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32913</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3568 - Webkul Krayin CRM SVG File Handler Cross Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3568
-<br>
-<strong>Published : </strong> April 14, 2025, 2:15 p.m. | 6 hours ago
-<br>
-<strong>Description : </strong>A vulnerability has been found in Webkul Krayin CRM up to 2.1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /admin/settings/users/edit/ of the component SVG File Handler. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor prepares a fix for the next major release and explains that he does not think therefore that this should qualify for a CVE.
-<br>
-<strong>Severity:</strong> 3.5 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3568</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3568</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3569 - "JamesZBL/code-projects db-hospital-drug Remote Code Execution via Improper Authorization"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3569
-<br>
-<strong>Published : </strong> April 14, 2025, 2:15 p.m. | 6 hours ago
-<br>
-<strong>Description : </strong>A vulnerability was found in JamesZBL/code-projects db-hospital-drug 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file ShiroConfig.java. The manipulation leads to improper authorization. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Apr 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3569</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3569</guid>
     </item>
     <item>
       <title>CVE-2025-3543 - H3C Magic NX Series HTTP POST Request Handler Command Injection Vulnerability</title>
