@@ -179,6 +179,631 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-32102 - CrushFTP SSRF Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32102
+<br>
+<strong>Published : </strong> April 15, 2025, 1:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>CrushFTP 9.x and 10.x through 10.8.4 and 11.x through 11.3.1 allows SSRF via the host and port parameters in a command=telnetSocket request to the /WebInterface/function/ URI.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32102">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32103 - CrushFTP SMB Directory Traversal Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32103
+<br>
+<strong>Published : </strong> April 15, 2025, 1:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>CrushFTP 9.x and 10.x through 10.8.4 and 11.x through 11.3.1 allows directory traversal via the /WebInterface/function/ URI to read files accessible by SMB at UNC share pathnames, bypassing SecurityManager restrictions.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32103">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32944 - PeerTube Denial of Service (DoS) via Uncaught Exception in Archive Import
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32944
+<br>
+<strong>Published : </strong> April 15, 2025, 1:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>The vulnerability allows any authenticated user to cause the PeerTube server to stop functioning in a persistent manner.  If user import is enabled (which is the default setting), any registered user can upload an archive for importing. The code uses the yauzl library for reading the archive. If the yauzl library encounters a filename that is considered illegal, it raises an exception that is uncaught by PeerTube, leading to a crash which repeats infinitely on startup.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32944">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32945 - PeerTube Cross-Site Playlist Manipulation
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32945
+<br>
+<strong>Published : </strong> April 15, 2025, 1:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>The vulnerability allows an existing user to add playlists to a different user’s channel using the PeerTube REST API. The vulnerable code sets the owner of the new playlist to be the user who performed the request, and then sets the associated channel to the channel ID supplied by the request, without checking if it belongs to the user.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32945">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32946 - Mastodon Playlist Hijacking Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32946
+<br>
+<strong>Published : </strong> April 15, 2025, 1:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>This vulnerability allows any attacker to add playlists to a different user’s channel using the ActivityPub protocol. The vulnerable code sets the owner of the new playlist to be the user who performed the request, and then sets the associated channel to the channel ID supplied by the request, without checking if it belongs to the user.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32946">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-3608 - Firefox NSHttpTransaction Memory Corruption Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-3608
+<br>
+<strong>Published : </strong> April 15, 2025, 1:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A race condition existed in nsHttpTransaction that could have been exploited to cause memory corruption, potentially leading to an exploitable condition. This vulnerability affects Firefox < 137.0.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3608">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26744 - JetBlog Cross-Site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26744
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound JetBlog allows DOM-Based XSS. This issue affects JetBlog: from n/a through 2.4.3.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26744">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26745 - Elementor Addon Cross-site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26745
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in RSTheme RS Elements Elementor Addon allows Stored XSS. This issue affects RS Elements Elementor Addon: from n/a through 1.1.5.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26745">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26889 - Hockeydata LOS PHP Remote File Inclusion
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26889
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in NotFound hockeydata LOS allows PHP Local File Inclusion. This issue affects hockeydata LOS: from n/a through 1.2.4.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26889">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26894 - NotFound Coming Soon Maintenance Mode PHP Remote File Inclusion Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26894
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in NotFound Coming Soon, Maintenance Mode allows PHP Local File Inclusion. This issue affects Coming Soon, Maintenance Mode: from n/a through 1.1.1.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26894">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26942 - JetTricks Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26942
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in NotFound JetTricks allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects JetTricks: from n/a through 1.5.1.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26942">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26944 - JetPopup Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26944
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in NotFound JetPopup allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects JetPopup: from n/a through 2.0.11.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26944">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26954 - ZooEffect Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26954
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in 1pluginjquery ZooEffect allows Reflected XSS. This issue affects ZooEffect: from n/a through 1.11.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26954">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26955 - VW Themes Industrial Lite Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26955
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in VW Themes Industrial Lite allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Industrial Lite: from n/a through 1.0.8.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26955">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26958 - JetBlog Missing Authorization
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26958
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in NotFound JetBlog allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects JetBlog: from n/a through 2.4.3.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26958">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26959 - Quý Lê 91 Administrator Z Missing Authorization Privilege Escalation
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26959
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in Quý Lê 91 Administrator Z allows Privilege Escalation. This issue affects Administrator Z: from n/a through 2025.03.24.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26959">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26982 - Eric-Oliver Mächler DSGVO Youtube Cross-site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26982
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Eric-Oliver Mächler DSGVO Youtube allows DOM-Based XSS. This issue affects DSGVO Youtube: from n/a through 1.5.1.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26982">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26990 - Royal Elementor Addons SSRF
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26990
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Server-Side Request Forgery (SSRF) vulnerability in WP Royal Royal Elementor Addons allows Server Side Request Forgery. This issue affects Royal Elementor Addons: from n/a through 1.7.1006.
+<br>
+<strong>Severity:</strong> 4.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26990">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-26992 - Fatcatapps Landing Page Cat Cross-site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-26992
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in fatcatapps Landing Page Cat allows Reflected XSS. This issue affects Landing Page Cat: from n/a through 1.7.8.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-26992">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-30962 - NotFound FS Poster Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-30962
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound FS Poster allows Reflected XSS. This issue affects FS Poster: from n/a through 6.5.8.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-30962">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-30964 - EPC Photography SSRF Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-30964
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Server-Side Request Forgery (SSRF) vulnerability in EPC Photography. This issue affects Photography: from n/a through 7.5.2.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-30964">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-30965 - WPJobBoard CSRF
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-30965
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in NotFound WPJobBoard allows Cross Site Request Forgery. This issue affects WPJobBoard: from n/a through n/a.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-30965">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-30985 - GNUCommerce NotFound Object Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-30985
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Deserialization of Untrusted Data vulnerability in NotFound GNUCommerce allows Object Injection. This issue affects GNUCommerce: from n/a through 1.5.4.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-30985">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-31011 - ReichertBrothers SimplyRETS Real Estate IDX Cross-site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-31011
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in ReichertBrothers SimplyRETS Real Estate IDX allows Reflected XSS. This issue affects SimplyRETS Real Estate IDX: from n/a through 3.0.3.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-31011">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32929 - UKR Solution Barcode Generator for WooCommerce Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32929
+<br>
+<strong>Published : </strong> April 15, 2025, 12:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in Dmitry V. (CEO of "UKR Solution") Barcode Generator for WooCommerce allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Barcode Generator for WooCommerce: from n/a through 2.0.4.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Tue, 15 Apr 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32929">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-1688 - Milestone XProtect Installer Password Reset Vulnerability
                         </h3>
                         <p>
@@ -1012,36 +1637,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            Fuite de données chez Hertz
-                        </h3>
-                        <p>nom, coordonnées, date de naissance, permis de conduire, carte de crédit, passeport</p>
-                            <p class="feed-time">
-                                Tue Apr 15 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Hertz-2025-04-15">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Hertz
-                        </h3>
-                        <p>nom, coordonnées, date de naissance, permis de conduire, carte de crédit, passeport</p>
-                            <p class="feed-time">
-                                Tue Apr 15 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Hertz-2025-04-15">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
                             CVE-2025-31490 - AutoGPT SSRF via DNS Rebinding
                         </h3>
                         <p>
@@ -1159,31 +1754,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Mon, 14 Apr 2025 22:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3591">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-3589 - SourceCodester Music Class Enrollment System SQL Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-3589
-<br>
-<strong>Published : </strong> April 14, 2025, 9:15 p.m. | 7 hours ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, was found in SourceCodester Music Class Enrollment System 1.0. Affected is an unknown function of the file /manage_class.php. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 14 Apr 2025 21:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3589">
                                 read more
                             </a>
                     </article>
