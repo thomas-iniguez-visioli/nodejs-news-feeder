@@ -179,23 +179,29 @@
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39573 - Teastudio.pl WP Posts Carousel Stored Cross-site Scripting Vulnerability
+                            CVE-2025-22117 - VMware ice Use-After-Free Buffer Overflow
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39573
+<strong>CVE ID : </strong>CVE-2025-22117
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in teastudio.pl WP Posts Carousel allows Stored XSS. This issue affects WP Posts Carousel: from n/a through 1.3.10.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ice: fix using untrusted value of pkt_len in ice_vc_fdir_parse_raw()
+
+Fix using the untrusted value of proto->raw.pkt_len in function
+ice_vc_fdir_parse_raw() by verifying if it does not exceed the
+VIRTCHNL_MAX_SIZE_RAW_PACKET value.
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39573">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22117">
                                 read more
                             </a>
                     </article>
@@ -204,23 +210,28 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39574 - UIUX Lab Uix Shortcodes Cross-site Scripting
+                            CVE-2025-22118 - Ice Out-of-Bounds Access Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39574
+<strong>CVE ID : </strong>CVE-2025-22118
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in UIUX Lab Uix Shortcodes allows Stored XSS. This issue affects Uix Shortcodes: from n/a through 2.0.4.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ice: validate queue quanta parameters to prevent OOB access
+
+Add queue wraparound prevention in quanta configuration.
+Ensure end_qid does not overflow by validating start_qid and num_queues.
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39574">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22118">
                                 read more
                             </a>
                     </article>
@@ -229,23 +240,81 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39575 - WPSight WPCasa Cross-site Scripting (XSS)
+                            CVE-2025-22119 - Linux Kernel: cfg80211 WiFi Wiphy Work Lock Uninitialized Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39575
+<strong>CVE ID : </strong>CVE-2025-22119
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPSight WPCasa allows Stored XSS. This issue affects WPCasa: from n/a through 1.3.2.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: cfg80211: init wiphy_work before allocating rfkill fails
+
+syzbort reported a uninitialize wiphy_work_lock in cfg80211_dev_free. [1]
+
+After rfkill allocation fails, the wiphy release process will be performed,
+which will cause cfg80211_dev_free to access the uninitialized wiphy_work
+related data.
+
+Move the initialization of wiphy_work to before rfkill initialization to
+avoid this issue.
+
+[1]
+INFO: trying to register non-static key.
+The code is fine but needs lockdep annotation, or maybe
+you didn't initialize this object before use?
+turning off the locking correctness validator.
+CPU: 0 UID: 0 PID: 5935 Comm: syz-executor550 Not tainted 6.14.0-rc6-syzkaller-00103-g4003c9e78778 #0
+Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.16.3-debian-1.16.3-2~bpo12+1 04/01/2014
+Call Trace:
+ <TASK>
+ __dump_stack lib/dump_stack.c:94 [inline]
+ dump_stack_lvl+0x116/0x1f0 lib/dump_stack.c:120
+ assign_lock_key kernel/locking/lockdep.c:983 [inline]
+ register_lock_class+0xc39/0x1240 kernel/locking/lockdep.c:1297
+ __lock_acquire+0x135/0x3c40 kernel/locking/lockdep.c:5103
+ lock_acquire.part.0+0x11b/0x380 kernel/locking/lockdep.c:5851
+ __raw_spin_lock_irqsave include/linux/spinlock_api_smp.h:110 [inline]
+ _raw_spin_lock_irqsave+0x3a/0x60 kernel/locking/spinlock.c:162
+ cfg80211_dev_free+0x30/0x3d0 net/wireless/core.c:1196
+ device_release+0xa1/0x240 drivers/base/core.c:2568
+ kobject_cleanup lib/kobject.c:689 [inline]
+ kobject_release lib/kobject.c:720 [inline]
+ kref_put include/linux/kref.h:65 [inline]
+ kobject_put+0x1e4/0x5a0 lib/kobject.c:737
+ put_device+0x1f/0x30 drivers/base/core.c:3774
+ wiphy_free net/wireless/core.c:1224 [inline]
+ wiphy_new_nm+0x1c1f/0x2160 net/wireless/core.c:562
+ ieee80211_alloc_hw_nm+0x1b7a/0x2260 net/mac80211/main.c:835
+ mac80211_hwsim_new_radio+0x1d6/0x54e0 drivers/net/wireless/virtual/mac80211_hwsim.c:5185
+ hwsim_new_radio_nl+0xb42/0x12b0 drivers/net/wireless/virtual/mac80211_hwsim.c:6242
+ genl_family_rcv_msg_doit+0x202/0x2f0 net/netlink/genetlink.c:1115
+ genl_family_rcv_msg net/netlink/genetlink.c:1195 [inline]
+ genl_rcv_msg+0x565/0x800 net/netlink/genetlink.c:1210
+ netlink_rcv_skb+0x16b/0x440 net/netlink/af_netlink.c:2533
+ genl_rcv+0x28/0x40 net/netlink/genetlink.c:1219
+ netlink_unicast_kernel net/netlink/af_netlink.c:1312 [inline]
+ netlink_unicast+0x53c/0x7f0 net/netlink/af_netlink.c:1338
+ netlink_sendmsg+0x8b8/0xd70 net/netlink/af_netlink.c:1882
+ sock_sendmsg_nosec net/socket.c:718 [inline]
+ __sock_sendmsg net/socket.c:733 [inline]
+ ____sys_sendmsg+0xaaf/0xc90 net/socket.c:2573
+ ___sys_sendmsg+0x135/0x1e0 net/socket.c:2627
+ __sys_sendmsg+0x16e/0x220 net/socket.c:2659
+ do_syscall_x64 arch/x86/entry/common.c:52 [inline]
+ do_syscall_64+0xcd/0x250 arch/x86/entry/common.c:83
+
+Close: https://syzkaller.appspot.com/bug?extid=aaf0488c83d1d5f4f029
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39575">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22119">
                                 read more
                             </a>
                     </article>
@@ -254,23 +323,50 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39576 - WPAdverts Cross-site Scripting (XSS)
+                            CVE-2025-22120 - &#34;EXT4-fs Linux Kernel Hung Task Vulnerability&#34;
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39576
+<strong>CVE ID : </strong>CVE-2025-22120
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Greg Winiarski WPAdverts allows Stored XSS. This issue affects WPAdverts: from n/a through 2.2.1.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ext4: goto right label 'out_mmap_sem' in ext4_setattr()
+
+Otherwise, if ext4_inode_attach_jinode() fails, a hung task will
+happen because filemap_invalidate_unlock() isn't called to unlock
+mapping->invalidate_lock. Like this:
+
+EXT4-fs error (device sda) in ext4_setattr:5557: Out of memory
+INFO: task fsstress:374 blocked for more than 122 seconds.
+      Not tainted 6.14.0-rc1-next-20250206-xfstests-dirty #726
+"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+task:fsstress state:D stack:0     pid:374   tgid:374   ppid:373
+                                  task_flags:0x440140 flags:0x00000000
+Call Trace:
+ <TASK>
+ __schedule+0x2c9/0x7f0
+ schedule+0x27/0xa0
+ schedule_preempt_disabled+0x15/0x30
+ rwsem_down_read_slowpath+0x278/0x4c0
+ down_read+0x59/0xb0
+ page_cache_ra_unbounded+0x65/0x1b0
+ filemap_get_pages+0x124/0x3e0
+ filemap_read+0x114/0x3d0
+ vfs_read+0x297/0x360
+ ksys_read+0x6c/0xe0
+ do_syscall_64+0x4b/0x110
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39576">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22120">
                                 read more
                             </a>
                     </article>
@@ -279,23 +375,70 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39577 - PropertyHive Cross-site Scripting
+                            CVE-2025-22121 - Linux Kernel ext4 Use-After-Free Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39577
+<strong>CVE ID : </strong>CVE-2025-22121
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Property Hive PropertyHive allows Stored XSS. This issue affects PropertyHive: from n/a through 2.1.2.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ext4: fix out-of-bound read in ext4_xattr_inode_dec_ref_all()
+
+There's issue as follows:
+BUG: KASAN: use-after-free in ext4_xattr_inode_dec_ref_all+0x6ff/0x790
+Read of size 4 at addr ffff88807b003000 by task syz-executor.0/15172
+
+CPU: 3 PID: 15172 Comm: syz-executor.0
+Call Trace:
+ __dump_stack lib/dump_stack.c:82 [inline]
+ dump_stack+0xbe/0xfd lib/dump_stack.c:123
+ print_address_description.constprop.0+0x1e/0x280 mm/kasan/report.c:400
+ __kasan_report.cold+0x6c/0x84 mm/kasan/report.c:560
+ kasan_report+0x3a/0x50 mm/kasan/report.c:585
+ ext4_xattr_inode_dec_ref_all+0x6ff/0x790 fs/ext4/xattr.c:1137
+ ext4_xattr_delete_inode+0x4c7/0xda0 fs/ext4/xattr.c:2896
+ ext4_evict_inode+0xb3b/0x1670 fs/ext4/inode.c:323
+ evict+0x39f/0x880 fs/inode.c:622
+ iput_final fs/inode.c:1746 [inline]
+ iput fs/inode.c:1772 [inline]
+ iput+0x525/0x6c0 fs/inode.c:1758
+ ext4_orphan_cleanup fs/ext4/super.c:3298 [inline]
+ ext4_fill_super+0x8c57/0xba40 fs/ext4/super.c:5300
+ mount_bdev+0x355/0x410 fs/super.c:1446
+ legacy_get_tree+0xfe/0x220 fs/fs_context.c:611
+ vfs_get_tree+0x8d/0x2f0 fs/super.c:1576
+ do_new_mount fs/namespace.c:2983 [inline]
+ path_mount+0x119a/0x1ad0 fs/namespace.c:3316
+ do_mount+0xfc/0x110 fs/namespace.c:3329
+ __do_sys_mount fs/namespace.c:3540 [inline]
+ __se_sys_mount+0x219/0x2e0 fs/namespace.c:3514
+ do_syscall_64+0x33/0x40 arch/x86/entry/common.c:46
+ entry_SYSCALL_64_after_hwframe+0x67/0xd1
+
+Memory state around the buggy address:
+ ffff88807b002f00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ ffff88807b002f80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+>ffff88807b003000: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+                   ^
+ ffff88807b003080: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ ffff88807b003100: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+
+Above issue happens as ext4_xattr_delete_inode() isn't check xattr
+is valid if xattr is in inode.
+To solve above issue call xattr_check_inode() check if xattr if valid
+in inode. In fact, we can directly verify in ext4_iget_extra_inode(),
+so that there is no divergent verification.
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39577">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22121">
                                 read more
                             </a>
                     </article>
@@ -304,23 +447,32 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39578 - CyberChimps Responsive Blocks Cross-site Scripting
+                            CVE-2025-22122 - Linux Kernel Block Buffer Overflow Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39578
+<strong>CVE ID : </strong>CVE-2025-22122
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CyberChimps Responsive Blocks allows Stored XSS. This issue affects Responsive Blocks: from n/a through 2.0.2.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+block: fix adding folio to bio
+
+>4GB folio is possible on some ARCHs, such as aarch64, 16GB hugepage
+is supported, then 'offset' of folio can't be held in 'unsigned int',
+cause warning in bio_add_folio_nofail() and IO failure.
+
+Fix it by adjusting 'page' & trimming 'offset' so that `->bi_offset` won't
+be overflow, and folio can be added to bio successfully.
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39578">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22122">
                                 read more
                             </a>
                     </article>
@@ -329,23 +481,72 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39579 - WP Swings Membership For WooCommerce Cross-site Scripting
+                            CVE-2025-22123 - Linux F2FS Uninitialized Pointer Access Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39579
+<strong>CVE ID : </strong>CVE-2025-22123
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WP Swings Membership For WooCommerce allows DOM-Based XSS. This issue affects Membership For WooCommerce: from n/a through 2.8.0.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+f2fs: fix to avoid accessing uninitialized curseg
+
+syzbot reports a f2fs bug as below:
+
+F2FS-fs (loop3): Stopped filesystem due to reason: 7
+kworker/u8:7: attempt to access beyond end of device
+BUG: unable to handle page fault for address: ffffed1604ea3dfa
+RIP: 0010:get_ckpt_valid_blocks fs/f2fs/segment.h:361 [inline]
+RIP: 0010:has_curseg_enough_space fs/f2fs/segment.h:570 [inline]
+RIP: 0010:__get_secs_required fs/f2fs/segment.h:620 [inline]
+RIP: 0010:has_not_enough_free_secs fs/f2fs/segment.h:633 [inline]
+RIP: 0010:has_enough_free_secs+0x575/0x1660 fs/f2fs/segment.h:649
+ <TASK>
+ f2fs_is_checkpoint_ready fs/f2fs/segment.h:671 [inline]
+ f2fs_write_inode+0x425/0x540 fs/f2fs/inode.c:791
+ write_inode fs/fs-writeback.c:1525 [inline]
+ __writeback_single_inode+0x708/0x10d0 fs/fs-writeback.c:1745
+ writeback_sb_inodes+0x820/0x1360 fs/fs-writeback.c:1976
+ wb_writeback+0x413/0xb80 fs/fs-writeback.c:2156
+ wb_do_writeback fs/fs-writeback.c:2303 [inline]
+ wb_workfn+0x410/0x1080 fs/fs-writeback.c:2343
+ process_one_work kernel/workqueue.c:3236 [inline]
+ process_scheduled_works+0xa66/0x1840 kernel/workqueue.c:3317
+ worker_thread+0x870/0xd30 kernel/workqueue.c:3398
+ kthread+0x7a9/0x920 kernel/kthread.c:464
+ ret_from_fork+0x4b/0x80 arch/x86/kernel/process.c:148
+ ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:244
+
+Commit 8b10d3653735 ("f2fs: introduce FAULT_NO_SEGMENT") allows to trigger
+no free segment fault in allocator, then it will update curseg->segno to
+NULL_SEGNO, though, CP_ERROR_FLAG has been set, f2fs_write_inode() missed
+to check the flag, and access invalid curseg->segno directly in below call
+path, then resulting in panic:
+
+- f2fs_write_inode
+ - f2fs_is_checkpoint_ready
+  - has_enough_free_secs
+   - has_not_enough_free_secs
+    - __get_secs_required
+     - has_curseg_enough_space
+      - get_ckpt_valid_blocks
+      : access invalid curseg->segno
+
+To avoid this issue, let's:
+- check CP_ERROR_FLAG flag in prior to f2fs_is_checkpoint_ready() in
+f2fs_write_inode().
+- in has_curseg_enough_space(), save curseg->segno into a temp variable,
+and verify its validation before use.
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39579">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22123">
                                 read more
                             </a>
                     </article>
@@ -354,23 +555,45 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39581 - Themifyme Themify Stored Cross-site Scripting Vulnerability
+                            CVE-2025-22124 - Linux Kernel Clustermd Memory Corruption Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39581
+<strong>CVE ID : </strong>CVE-2025-22124
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in themifyme Themify Shortcodes allows Stored XSS. This issue affects Themify Shortcodes: from n/a through 2.1.3.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+md/md-bitmap: fix wrong bitmap_limit for clustermd when write sb
+
+In clustermd, separate write-intent-bitmaps are used for each cluster
+node:
+
+0                    4k                     8k                    12k
+-------------------------------------------------------------------
+| idle                | md super            | bm super [0] + bits |
+| bm bits[0, contd]   | bm super[1] + bits  | bm bits[1, contd]   |
+| bm super[2] + bits  | bm bits [2, contd]  | bm super[3] + bits  |
+| bm bits [3, contd]  |                     |                     |
+
+So in node 1, pg_index in __write_sb_page() could equal to
+bitmap->storage.file_pages. Then bitmap_limit will be calculated to
+0. md_super_write() will be called with 0 size.
+That means the first 4k sb area of node 1 will never be updated
+through filemap_write_page().
+This bug causes hang of mdadm/clustermd_tests/01r1_Grow_resize.
+
+Here use (pg_index % bitmap->storage.file_pages) to make calculation
+of bitmap_limit correct.
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39581">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22124">
                                 read more
                             </a>
                     </article>
@@ -379,23 +602,39 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39582 - Passionate Programmer Peter WP Data Access Cross-Site Scripting
+                            CVE-2025-22125 - &#34;Linux MD RAID: Ignored IO Flags Vulnerability&#34;
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39582
+<strong>CVE ID : </strong>CVE-2025-22125
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Passionate Programmer Peter WP Data Access allows DOM-Based XSS. This issue affects WP Data Access: from n/a through 5.5.36.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+md/raid1,raid10: don't ignore IO flags
+
+If blk-wbt is enabled by default, it's found that raid write performance
+is quite bad because all IO are throttled by wbt of underlying disks,
+due to flag REQ_IDLE is ignored. And turns out this behaviour exist since
+blk-wbt is introduced.
+
+Other than REQ_IDLE, other flags should not be ignored as well, for
+example REQ_META can be set for filesystems, clearing it can cause priority
+reverse problems; And REQ_NOWAIT should not be cleared as well, because
+io will wait instead of failing directly in underlying disks.
+
+Fix those problems by keep IO flags from master bio.
+
+Fises: f51d46d0e7cb ("md: add support for REQ_NOWAIT")
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39582">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22125">
                                 read more
                             </a>
                     </article>
@@ -404,23 +643,55 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39584 - Themewinter Eventin PHP RFI
+                            CVE-2025-22126 - Linux Kernel MD Device UAF Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39584
+<strong>CVE ID : </strong>CVE-2025-22126
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Themewinter Eventin allows PHP Local File Inclusion. This issue affects Eventin: from n/a through 4.0.25.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+md: fix mddev uaf while iterating all_mddevs list
+
+While iterating all_mddevs list from md_notify_reboot() and md_exit(),
+list_for_each_entry_safe is used, and this can race with deletint the
+next mddev, causing UAF:
+
+t1:
+spin_lock
+//list_for_each_entry_safe(mddev, n, ...)
+ mddev_get(mddev1)
+ // assume mddev2 is the next entry
+ spin_unlock
+            t2:
+            //remove mddev2
+            ...
+            mddev_free
+            spin_lock
+            list_del
+            spin_unlock
+            kfree(mddev2)
+ mddev_put(mddev1)
+ spin_lock
+ //continue dereference mddev2->all_mddevs
+
+The old helper for_each_mddev() actually grab the reference of mddev2
+while holding the lock, to prevent from being freed. This problem can be
+fixed the same way, however, the code will be complex.
+
+Hence switch to use list_for_each_entry, in this case mddev_put() can free
+the mddev1 and it's not safe as well. Refer to md_seq_show(), also factor
+out a helper mddev_put_locked() to fix this problem.
 <br>
-<strong>Severity:</strong> 7.5 | HIGH
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39584">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22126">
                                 read more
                             </a>
                     </article>
@@ -429,23 +700,70 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39585 - Themefic Travelfic Toolkit Stored Cross-site Scripting Vulnerability
+                            CVE-2025-22127 - F2FS Compression Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39585
+<strong>CVE ID : </strong>CVE-2025-22127
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Themefic Travelfic Toolkit allows Stored XSS. This issue affects Travelfic Toolkit: from n/a through 1.2.1.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+f2fs: fix potential deadloop in prepare_compress_overwrite()
+
+Jan Prusakowski reported a kernel hang issue as below:
+
+When running xfstests on linux-next kernel (6.14.0-rc3, 6.12) I
+encountered a problem in generic/475 test where fsstress process
+gets blocked in __f2fs_write_data_pages() and the test hangs.
+The options I used are:
+
+MKFS_OPTIONS  -- -O compression -O extra_attr -O project_quota -O quota /dev/vdc
+MOUNT_OPTIONS -- -o acl,user_xattr -o discard,compress_extension=* /dev/vdc /vdc
+
+INFO: task kworker/u8:0:11 blocked for more than 122 seconds.
+      Not tainted 6.14.0-rc3-xfstests-lockdep #1
+"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+task:kworker/u8:0    state:D stack:0     pid:11    tgid:11    ppid:2      task_flags:0x4208160 flags:0x00004000
+Workqueue: writeback wb_workfn (flush-253:0)
+Call Trace:
+ <TASK>
+ __schedule+0x309/0x8e0
+ schedule+0x3a/0x100
+ schedule_preempt_disabled+0x15/0x30
+ __mutex_lock+0x59a/0xdb0
+ __f2fs_write_data_pages+0x3ac/0x400
+ do_writepages+0xe8/0x290
+ __writeback_single_inode+0x5c/0x360
+ writeback_sb_inodes+0x22f/0x570
+ wb_writeback+0xb0/0x410
+ wb_do_writeback+0x47/0x2f0
+ wb_workfn+0x5a/0x1c0
+ process_one_work+0x223/0x5b0
+ worker_thread+0x1d5/0x3c0
+ kthread+0xfd/0x230
+ ret_from_fork+0x31/0x50
+ ret_from_fork_asm+0x1a/0x30
+ </TASK>
+
+The root cause is: once generic/475 starts toload error table to dm
+device, f2fs_prepare_compress_overwrite() will loop reading compressed
+cluster pages due to IO error, meanwhile it has held .writepages lock,
+it can block all other writeback tasks.
+
+Let's fix this issue w/ below changes:
+- add f2fs_handle_page_eio() in prepare_compress_overwrite() to
+detect IO error.
+- detect cp_error earler in f2fs_read_multi_pages().
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39585">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22127">
                                 read more
                             </a>
                     </article>
@@ -454,23 +772,44 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39589 - WPDeveloper Essential Addons for Elementor Information Disclosure
+                            CVE-2025-22128 - &#34;Linux Kernel ath12k WiFi Shared IRQ Affinity Hint Vulnerability&#34;
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39589
+<strong>CVE ID : </strong>CVE-2025-22128
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in WPDeveloper Essential Addons for Elementor allows Retrieve Embedded Sensitive Data. This issue affects Essential Addons for Elementor: from n/a through 6.1.9.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: ath12k: Clear affinity hint before calling ath12k_pci_free_irq() in error path
+
+If a shared IRQ is used by the driver due to platform limitation, then the
+IRQ affinity hint is set right after the allocation of IRQ vectors in
+ath12k_pci_msi_alloc(). This does no harm unless one of the functions
+requesting the IRQ fails and attempt to free the IRQ.
+
+This may end up with a warning from the IRQ core that is expecting the
+affinity hint to be cleared before freeing the IRQ:
+
+kernel/irq/manage.c:
+
+	/* make sure affinity_hint is cleaned up */
+	if (WARN_ON_ONCE(desc->affinity_hint))
+		desc->affinity_hint = NULL;
+
+So to fix this issue, clear the IRQ affinity hint before calling
+ath12k_pci_free_irq() in the error path. The affinity will be cleared once
+again further down the error path due to code organization, but that does
+no harm.
 <br>
-<strong>Severity:</strong> 4.3 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39589">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-22128">
                                 read more
                             </a>
                     </article>
@@ -479,23 +818,48 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39590 - Elementor WPDeveloper Essential Addons Stored XSS
+                            CVE-2025-23129 - &#34;Qualcomm Atheros WiFi Kernel IRQ Affinity Hint Clearing Vulnerability&#34;
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39590
+<strong>CVE ID : </strong>CVE-2025-23129
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPDeveloper Essential Addons for Elementor allows Stored XSS. This issue affects Essential Addons for Elementor: from n/a through 6.1.9.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: ath11k: Clear affinity hint before calling ath11k_pcic_free_irq() in error path
+
+If a shared IRQ is used by the driver due to platform limitation, then the
+IRQ affinity hint is set right after the allocation of IRQ vectors in
+ath11k_pci_alloc_msi(). This does no harm unless one of the functions
+requesting the IRQ fails and attempt to free the IRQ. This results in the
+below warning:
+
+WARNING: CPU: 7 PID: 349 at kernel/irq/manage.c:1929 free_irq+0x278/0x29c
+Call trace:
+ free_irq+0x278/0x29c
+ ath11k_pcic_free_irq+0x70/0x10c [ath11k]
+ ath11k_pci_probe+0x800/0x820 [ath11k_pci]
+ local_pci_probe+0x40/0xbc
+
+The warning is due to not clearing the affinity hint before freeing the
+IRQs.
+
+So to fix this issue, clear the IRQ affinity hint before calling
+ath11k_pcic_free_irq() in the error path. The affinity will be cleared once
+again further down the error path due to code organization, but that does
+no harm.
+
+Tested-on: QCA6390 hw2.0 PCI WLAN.HST.1.0.1-05266-QCAHSTSWPLZ_V2_TO_X86-1
 <br>
-<strong>Severity:</strong> 6.5 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39590">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23129">
                                 read more
                             </a>
                     </article>
@@ -504,23 +868,58 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39591 - WP Shuffle WP Subscription Forms Missing Authorization Vulnerability
+                            CVE-2025-23130 - F2FS Linux Kernel Pinfile Allocation Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39591
+<strong>CVE ID : </strong>CVE-2025-23130
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Missing Authorization vulnerability in WP Shuffle WP Subscription Forms allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects WP Subscription Forms: from n/a through 1.2.3.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+f2fs: fix to avoid panic once fallocation fails for pinfile
+
+syzbot reports a f2fs bug as below:
+
+------------[ cut here ]------------
+kernel BUG at fs/f2fs/segment.c:2746!
+CPU: 0 UID: 0 PID: 5323 Comm: syz.0.0 Not tainted 6.13.0-rc2-syzkaller-00018-g7cb1b4663150 #0
+RIP: 0010:get_new_segment fs/f2fs/segment.c:2746 [inline]
+RIP: 0010:new_curseg+0x1f52/0x1f70 fs/f2fs/segment.c:2876
+Call Trace:
+ <TASK>
+ __allocate_new_segment+0x1ce/0x940 fs/f2fs/segment.c:3210
+ f2fs_allocate_new_section fs/f2fs/segment.c:3224 [inline]
+ f2fs_allocate_pinning_section+0xfa/0x4e0 fs/f2fs/segment.c:3238
+ f2fs_expand_inode_data+0x696/0xca0 fs/f2fs/file.c:1830
+ f2fs_fallocate+0x537/0xa10 fs/f2fs/file.c:1940
+ vfs_fallocate+0x569/0x6e0 fs/open.c:327
+ do_vfs_ioctl+0x258c/0x2e40 fs/ioctl.c:885
+ __do_sys_ioctl fs/ioctl.c:904 [inline]
+ __se_sys_ioctl+0x80/0x170 fs/ioctl.c:892
+ do_syscall_x64 arch/x86/entry/common.c:52 [inline]
+ do_syscall_64+0xf3/0x230 arch/x86/entry/common.c:83
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+
+Concurrent pinfile allocation may run out of free section, result in
+panic in get_new_segment(), let's expand pin_sem lock coverage to
+include f2fs_gc(), so that we can make sure to reclaim enough free
+space for following allocation.
+
+In addition, do below changes to enhance error path handling:
+- call f2fs_bug_on() only in non-pinfile allocation path in
+get_new_segment().
+- call reset_curseg_fields() to reset all fields of curseg in
+new_curseg()
 <br>
-<strong>Severity:</strong> 5.4 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39591">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23130">
                                 read more
                             </a>
                     </article>
@@ -529,23 +928,38 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39592 - WP Shuffle Subscribe to Unlock Lite PHP RFI
+                            CVE-2025-23131 - &#34;IBM DLM null pointer dereference vulnerability&#34;
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39592
+<strong>CVE ID : </strong>CVE-2025-23131
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in WP Shuffle Subscribe to Unlock Lite allows PHP Local File Inclusion. This issue affects Subscribe to Unlock Lite: from n/a through 1.3.0.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+dlm: prevent NPD when writing a positive value to event_done
+
+do_uevent returns the value written to event_done. In case it is a
+positive value, new_lockspace would undo all the work, and lockspace
+would not be set. __dlm_new_lockspace, however, would treat that
+positive value as a success due to commit 8511a2728ab8 ("dlm: fix use
+count with multiple joins").
+
+Down the line, device_create_lockspace would pass that NULL lockspace to
+dlm_find_lockspace_local, leading to a NULL pointer dereference.
+
+Treating such positive values as successes prevents the problem. Given
+this has been broken for so long, this is unlikely to break userspace
+expectations.
 <br>
-<strong>Severity:</strong> 7.5 | HIGH
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39592">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23131">
                                 read more
                             </a>
                     </article>
@@ -554,23 +968,75 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39593 - EverAccounting CSRF Vulnerability
+                            CVE-2025-23132 - F2FS Linux Kernel Quota Writeback Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39593
+<strong>CVE ID : </strong>CVE-2025-23132
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in EverAccounting Ever Accounting allows Cross Site Request Forgery. This issue affects Ever Accounting: from n/a through 2.1.5.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+f2fs: quota: fix to avoid warning in dquot_writeback_dquots()
+
+F2FS-fs (dm-59): checkpoint=enable has some unwritten data.
+
+------------[ cut here ]------------
+WARNING: CPU: 6 PID: 8013 at fs/quota/dquot.c:691 dquot_writeback_dquots+0x2fc/0x308
+pc : dquot_writeback_dquots+0x2fc/0x308
+lr : f2fs_quota_sync+0xcc/0x1c4
+Call trace:
+dquot_writeback_dquots+0x2fc/0x308
+f2fs_quota_sync+0xcc/0x1c4
+f2fs_write_checkpoint+0x3d4/0x9b0
+f2fs_issue_checkpoint+0x1bc/0x2c0
+f2fs_sync_fs+0x54/0x150
+f2fs_do_sync_file+0x2f8/0x814
+__f2fs_ioctl+0x1960/0x3244
+f2fs_ioctl+0x54/0xe0
+__arm64_sys_ioctl+0xa8/0xe4
+invoke_syscall+0x58/0x114
+
+checkpoint and f2fs_remount may race as below, resulting triggering warning
+in dquot_writeback_dquots().
+
+atomic write                                    remount
+                                                - do_remount
+                                                 - down_write(&sb->s_umount);
+                                                  - f2fs_remount
+- ioctl
+ - f2fs_do_sync_file
+  - f2fs_sync_fs
+   - f2fs_write_checkpoint
+    - block_operations
+     - locked = down_read_trylock(&sbi->sb->s_umount)
+       : fail to lock due to the write lock was held by remount
+                                                 - up_write(&sb->s_umount);
+     - f2fs_quota_sync
+      - dquot_writeback_dquots
+       - WARN_ON_ONCE(!rwsem_is_locked(&sb->s_umount))
+       : trigger warning because s_umount lock was unlocked by remount
+
+If checkpoint comes from mount/umount/remount/freeze/quotactl, caller of
+checkpoint has already held s_umount lock, calling dquot_writeback_dquots()
+in the context should be safe.
+
+So let's record task to sbi->umount_lock_holder, so that checkpoint can
+know whether the lock has held in the context or not by checking current
+w/ it.
+
+In addition, in order to not misrepresent caller of checkpoint, we should
+not allow to trigger async checkpoint for those callers: mount/umount/remount/
+freeze/quotactl.
 <br>
-<strong>Severity:</strong> 4.3 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39593">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23132">
                                 read more
                             </a>
                     </article>
@@ -579,23 +1045,56 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39597 - Arthur Yarwood Fast eBay Listings Open Redirect Vulnerability
+                            CVE-2025-23133 - Ath11k Linux Kernel Out-of-Bounds Write Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39597
+<strong>CVE ID : </strong>CVE-2025-23133
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Arthur Yarwood Fast eBay Listings allows Phishing. This issue affects Fast eBay Listings: from n/a through 2.12.15.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: ath11k: update channel list in reg notifier instead reg worker
+
+Currently when ath11k gets a new channel list, it will be processed
+according to the following steps:
+1. update new channel list to cfg80211 and queue reg_work.
+2. cfg80211 handles new channel list during reg_work.
+3. update cfg80211's handled channel list to firmware by
+ath11k_reg_update_chan_list().
+
+But ath11k will immediately execute step 3 after reg_work is just
+queued. Since step 2 is asynchronous, cfg80211 may not have completed
+handling the new channel list, which may leading to an out-of-bounds
+write error:
+BUG: KASAN: slab-out-of-bounds in ath11k_reg_update_chan_list
+Call Trace:
+    ath11k_reg_update_chan_list+0xbfe/0xfe0 [ath11k]
+    kfree+0x109/0x3a0
+    ath11k_regd_update+0x1cf/0x350 [ath11k]
+    ath11k_regd_update_work+0x14/0x20 [ath11k]
+    process_one_work+0xe35/0x14c0
+
+Should ensure step 2 is completely done before executing step 3. Thus
+Wen raised patch[1]. When flag NL80211_REGDOM_SET_BY_DRIVER is set,
+cfg80211 will notify ath11k after step 2 is done.
+
+So enable the flag NL80211_REGDOM_SET_BY_DRIVER then cfg80211 will
+notify ath11k after step 2 is done. At this time, there will be no
+KASAN bug during the execution of the step 3.
+
+[1] https://patchwork.kernel.org/project/linux-wireless/patch/20230201065313.27203-1-quic_wgong@quicinc.com/
+
+Tested-on: WCN6855 hw2.0 PCI WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3
 <br>
-<strong>Severity:</strong> 4.7 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39597">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23133">
                                 read more
                             </a>
                     </article>
@@ -604,23 +1103,37 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39598 - Quý Lê 91 Administrator Z Path Traversal Vulnerability
+                            CVE-2025-23134 - ALSA Timer Mutex Deadlock Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39598
+<strong>CVE ID : </strong>CVE-2025-23134
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Path Traversal vulnerability in Quý Lê 91 Administrator Z allows Path Traversal. This issue affects Administrator Z: from n/a through 2025.03.28.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ALSA: timer: Don't take register_mutex with copy_from/to_user()
+
+The infamous mmap_lock taken in copy_from/to_user() can be often
+problematic when it's called inside another mutex, as they might lead
+to deadlocks.
+
+In the case of ALSA timer code, the bad pattern is with
+guard(mutex)(&register_mutex) that covers copy_from/to_user() -- which
+was mistakenly introduced at converting to guard(), and it had been
+carefully worked around in the past.
+
+This patch fixes those pieces simply by moving copy_from/to_user() out
+of the register mutex lock again.
 <br>
-<strong>Severity:</strong> 4.9 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39598">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23134">
                                 read more
                             </a>
                     </article>
@@ -629,23 +1142,61 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39599 - Webilia Inc. Listdom Open Redirect Vulnerability
+                            CVE-2025-23135 - RISC-V KVM AIA Exit Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39599
+<strong>CVE ID : </strong>CVE-2025-23135
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Webilia Inc. Listdom allows Phishing. This issue affects Listdom: from n/a through 4.0.0.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+RISC-V: KVM: Teardown riscv specific bits after kvm_exit
+
+During a module removal, kvm_exit invokes arch specific disable
+call which disables AIA. However, we invoke aia_exit before kvm_exit
+resulting in the following warning. KVM kernel module can't be inserted
+afterwards due to inconsistent state of IRQ.
+
+[25469.031389] percpu IRQ 31 still enabled on CPU0!
+[25469.031732] WARNING: CPU: 3 PID: 943 at kernel/irq/manage.c:2476 __free_percpu_irq+0xa2/0x150
+[25469.031804] Modules linked in: kvm(-)
+[25469.031848] CPU: 3 UID: 0 PID: 943 Comm: rmmod Not tainted 6.14.0-rc5-06947-g91c763118f47-dirty #2
+[25469.031905] Hardware name: riscv-virtio,qemu (DT)
+[25469.031928] epc : __free_percpu_irq+0xa2/0x150
+[25469.031976]  ra : __free_percpu_irq+0xa2/0x150
+[25469.032197] epc : ffffffff8007db1e ra : ffffffff8007db1e sp : ff2000000088bd50
+[25469.032241]  gp : ffffffff8131cef8 tp : ff60000080b96400 t0 : ff2000000088baf8
+[25469.032285]  t1 : fffffffffffffffc t2 : 5249207570637265 s0 : ff2000000088bd90
+[25469.032329]  s1 : ff60000098b21080 a0 : 037d527a15eb4f00 a1 : 037d527a15eb4f00
+[25469.032372]  a2 : 0000000000000023 a3 : 0000000000000001 a4 : ffffffff8122dbf8
+[25469.032410]  a5 : 0000000000000fff a6 : 0000000000000000 a7 : ffffffff8122dc10
+[25469.032448]  s2 : ff60000080c22eb0 s3 : 0000000200000022 s4 : 000000000000001f
+[25469.032488]  s5 : ff60000080c22e00 s6 : ffffffff80c351c0 s7 : 0000000000000000
+[25469.032582]  s8 : 0000000000000003 s9 : 000055556b7fb490 s10: 00007ffff0e12fa0
+[25469.032621]  s11: 00007ffff0e13e9a t3 : ffffffff81354ac7 t4 : ffffffff81354ac7
+[25469.032664]  t5 : ffffffff81354ac8 t6 : ffffffff81354ac7
+[25469.032698] status: 0000000200000100 badaddr: ffffffff8007db1e cause: 0000000000000003
+[25469.032738] [<ffffffff8007db1e>] __free_percpu_irq+0xa2/0x150
+[25469.032797] [<ffffffff8007dbfc>] free_percpu_irq+0x30/0x5e
+[25469.032856] [<ffffffff013a57dc>] kvm_riscv_aia_exit+0x40/0x42 [kvm]
+[25469.033947] [<ffffffff013b4e82>] cleanup_module+0x10/0x32 [kvm]
+[25469.035300] [<ffffffff8009b150>] __riscv_sys_delete_module+0x18e/0x1fc
+[25469.035374] [<ffffffff8000c1ca>] syscall_handler+0x3a/0x46
+[25469.035456] [<ffffffff809ec9a4>] do_trap_ecall_u+0x72/0x134
+[25469.035536] [<ffffffff809f5e18>] handle_exception+0x148/0x156
+
+Invoke aia_exit and other arch specific cleanup functions after kvm_exit
+so that disable gets a chance to be called first before exit.
 <br>
-<strong>Severity:</strong> 4.7 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39599">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23135">
                                 read more
                             </a>
                     </article>
@@ -654,23 +1205,37 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39600 - WooCommerce QuickBooks CRM Perks CSRF
+                            CVE-2025-23136 - Linux Kernel Thermal Driver NULL Pointer Dereference Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39600
+<strong>CVE ID : </strong>CVE-2025-23136
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in CRM Perks Integration for WooCommerce and QuickBooks allows Cross Site Request Forgery. This issue affects Integration for WooCommerce and QuickBooks: from n/a through 1.3.1.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+thermal: int340x: Add NULL check for adev
+
+Not all devices have an ACPI companion fwnode, so adev might be NULL.
+This is similar to the commit cd2fd6eab480
+("platform/x86: int3472: Check for adev == NULL").
+
+Add a check for adev not being set and return -ENODEV in that case to
+avoid a possible NULL pointer deref in int3402_thermal_probe().
+
+Note, under the same directory, int3400_thermal_probe() has such a
+check.
+
+[ rjw: Subject edit, added Fixes: ]
 <br>
-<strong>Severity:</strong> 4.3 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39600">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23136">
                                 read more
                             </a>
                     </article>
@@ -679,23 +1244,27 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39601 - WPFactory Custom CSS, JS  PHP CSRF Remote Code Inclusion
+                            CVE-2025-23137 - &#34;AMD cpufreq NULL Pointer Dereference Vulnerability&#34;
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39601
+<strong>CVE ID : </strong>CVE-2025-23137
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in WPFactory Custom CSS, JS & PHP allows Remote Code Inclusion. This issue affects Custom CSS, JS & PHP: from n/a through 2.4.1.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+cpufreq/amd-pstate: Add missing NULL ptr check in amd_pstate_update
+
+Check if policy is NULL before dereferencing it in amd_pstate_update.
 <br>
-<strong>Severity:</strong> 9.6 | CRITICAL
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39601">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23137">
                                 read more
                             </a>
                     </article>
@@ -704,23 +1273,39 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-39602 - WooCommerce Product Table Lite Missing Authorization Vulnerability
+                            CVE-2025-23138 - Linux Kernel Pipe Buffer Underflow Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-39602
+<strong>CVE ID : </strong>CVE-2025-23138
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 31 minutes ago
 <br>
-<strong>Description : </strong>Missing Authorization vulnerability in WC Product Table WooCommerce Product Table Lite allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects WooCommerce Product Table Lite: from n/a through 3.9.5.
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+watch_queue: fix pipe accounting mismatch
+
+Currently, watch_queue_set_size() modifies the pipe buffers charged to
+user->pipe_bufs without updating the pipe->nr_accounted on the pipe
+itself, due to the if (!pipe_has_watch_queue()) test in
+pipe_resize_ring(). This means that when the pipe is ultimately freed,
+we decrement user->pipe_bufs by something other than what than we had
+charged to it, potentially leading to an underflow. This in turn can
+cause subsequent too_many_pipe_buffers_soft() tests to fail with -EPERM.
+
+To remedy this, explicitly account for the pipe usage in
+watch_queue_set_size() to match the number set via account_pipe_buffers()
+
+(It's unclear why watch_queue_set_size() does not update nr_accounted;
+it may be due to intentional overprovisioning in watch_queue_set_size()?)
 <br>
-<strong>Severity:</strong> 4.3 | MEDIUM
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39602">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-23138">
                                 read more
                             </a>
                     </article>
@@ -729,23 +1314,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-3689 - PHPGurukul Men Salon Management System SQL Injection Vulnerability
+                            CVE-2025-3694 - SourceCodester Web-based Pharmacy Product Management System SQL Injection Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-3689
+<strong>CVE ID : </strong>CVE-2025-3694
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 30 minutes ago
 <br>
-<strong>Description : </strong>A vulnerability has been found in PHPGurukul Men Salon Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/edit-customer-detailed.php. The manipulation of the argument editid leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<strong>Description : </strong>A vulnerability classified as critical has been found in SourceCodester Web-based Pharmacy Product Management System 1.0. This affects an unknown part of the component Login Handler. The manipulation of the argument login_email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
 <strong>Severity:</strong> 7.3 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3689">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3694">
                                 read more
                             </a>
                     </article>
@@ -754,23 +1339,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-3690 - PHPGurukul Men Salon Management System SQL Injection Vulnerability
+                            CVE-2025-3696 - SourceCodester Web-based Pharmacy Product Management System SQL Injection Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-3690
+<strong>CVE ID : </strong>CVE-2025-3696
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 30 minutes ago
 <br>
-<strong>Description : </strong>A vulnerability was found in PHPGurukul Men Salon Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/edit-services.php. The manipulation of the argument cost leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<strong>Description : </strong>A vulnerability classified as critical was found in SourceCodester Web-based Pharmacy Product Management System 1.0. This vulnerability affects unknown code of the file /search/search_stock. php. The manipulation of the argument Name leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
-<strong>Severity:</strong> 7.3 | HIGH
+<strong>Severity:</strong> 6.3 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3690">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3696">
                                 read more
                             </a>
                     </article>
@@ -779,23 +1364,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-3691 - Mirweiye Seven Bears Library CMS SSRF
+                            CVE-2025-3697 - SourceCodester Web-based Pharmacy Product Management System SQL Injection Vulnerability
                         </h3>
                         <p>
-<strong>CVE ID : </strong>CVE-2025-3691
+<strong>CVE ID : </strong>CVE-2025-3697
 <br>
-<strong>Published : </strong> April 16, 2025, 1:15 p.m. | 47 minutes ago
+<strong>Published : </strong> April 16, 2025, 3:16 p.m. | 30 minutes ago
 <br>
-<strong>Description : </strong>A vulnerability was found in mirweiye Seven Bears Library CMS 2023. It has been classified as problematic. Affected is an unknown function of the component Add Link Handler. The manipulation leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in SourceCodester Web-based Pharmacy Product Management System 1.0. This issue affects some unknown processing of the file /edit-product.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
-<strong>Severity:</strong> 2.7 | LOW
+<strong>Severity:</strong> 6.3 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Wed, 16 Apr 2025 13:15:00 GMT
+                                Wed, 16 Apr 2025 15:16:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3691">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3697">
                                 read more
                             </a>
                     </article>
@@ -804,9 +1389,9 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            Publication des traductions anglaises des guides sur la remédiation d’incidents
+                            L’ANSSI publie ses guides sur la remédiation d’incidents en anglais
                         </h3>
-                        <p><span class="field field--name-title field--type-string field--label-hidden">Publication des traductions anglaises des guides sur la remédiation d’incidents</span>
+                        <p><span class="field field--name-title field--type-string field--label-hidden">L’ANSSI publie ses guides sur la remédiation d’incidents en anglais</span>
 
             <div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><picture class="image-banniere"><source media="(max-width:766px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_767_400/public/image/actu_web_corpus_remediation_EN.png?h=74aa4f64&itok=rQLU6EwY"></source><source media="(min-width:768px) and (max-width:999px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1200_350/public/image/actu_web_corpus_remediation_EN.png?h=74aa4f64&itok=H3ZCW9eb"></source><source media="(min-width:1000px) and (max-width:1200px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1200_250/public/image/actu_web_corpus_remediation_EN.png?h=74aa4f64&itok=WT_zLwk9"></source><source media="(min-width:1201px)" srcset="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_1920_328/public/image/actu_web_corpus_remediation_EN.png?h=74aa4f64&itok=-GZ0HbbN"></source><img src="https://cyber.gouv.fr/sites/default/files/styles/contenu_image_banniere_767_400/public/image/actu_web_corpus_remediation_EN.png?h=74aa4f64&itok=rQLU6EwY" /></picture></div>
       <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span>anssiadm</span></span>
@@ -838,7 +1423,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                             <p class="feed-time">
                                 Wed, 16 Apr 2025 12:39:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cyber.gouv.fr/actualites/publication-des-traductions-anglaises-des-guides-sur-la-remediation-dincidents">
+                            <a class="feed-link" href="https://cyber.gouv.fr/actualites/lanssi-publie-ses-guides-sur-la-remediation-dincidents-en-anglais">
                                 read more
                             </a>
                     </article>
