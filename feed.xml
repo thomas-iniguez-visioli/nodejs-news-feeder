@@ -8,371 +8,504 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 17 Apr 2025 18:14:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Apr 2025 20:11:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
-      <title>CVE-2022-26323 - OpenText Operations Bridge Manager/UCMDB Privilege Escalation Vulnerability</title>
+      <title>CVE-2020-36789 - Linux Kernel CAN Network Stack NULL Pointer Dereference Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2022-26323
+<strong>CVE ID : </strong>CVE-2020-36789
 <br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 7 minutes ago
 <br>
-<strong>Description : </strong>Incorrect Use of Privileged APIs vulnerability in OpenText™ Operations Bridge Manager, OpenText™ Operations Bridge Suite (Containerized), OpenText™ UCMDB ( Classic and Containerized) allows Privilege Escalation. 
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
-The vulnerability could allow authenticated attackers to elevate user privileges. This issue affects Operations Bridge Manager: through 2021.05; Operations Bridge Suite (Containerized): through 2021.05; UCMDB ( Classic and Containerized): through 2021.05.
+can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+
+If a driver calls can_get_echo_skb() during a hardware IRQ (which is often, but
+not always, the case), the 'WARN_ON(in_irq)' in
+net/core/skbuff.c#skb_release_head_state() might be triggered, under network
+congestion circumstances, together with the potential risk of a NULL pointer
+dereference.
+
+The root cause of this issue is the call to kfree_skb() instead of
+dev_kfree_skb_irq() in net/core/dev.c#enqueue_to_backlog().
+
+This patch prevents the skb to be freed within the call to netif_rx() by
+incrementing its reference count with skb_get(). The skb is finally freed by
+one of the in-irq-context safe functions: dev_consume_skb_any() or
+dev_kfree_skb_any(). The "any" version is used because some drivers might call
+can_get_echo_skb() in a normal context.
+
+The reason for this issue to occur is that initially, in the core network
+stack, loopback skb were not supposed to be received in hardware IRQ context.
+The CAN stack is an exeption.
+
+This bug was previously reported back in 2017 in [1] but the proposed patch
+never got accepted.
+
+While [1] directly modifies net/core/dev.c, we try to propose here a
+smoother modification local to CAN network stack (the assumption
+behind is that only CAN devices are affected by this issue).
+
+[1] http://lore.kernel.org/r/57a3ffb6-3309-3ad5-5a34-e93c3fe3614d@cetitec.com
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2022-26323</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2022-26323</guid>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2020-36789</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2020-36789</guid>
     </item>
     <item>
-      <title>CVE-2025-25234 - Omnissa UAG CORS Bypass Vulnerability</title>
+      <title>CVE-2021-47668 - Linux Kernel CAN: Use After Free</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-25234
+<strong>CVE ID : </strong>CVE-2021-47668
 <br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 7 minutes ago
 <br>
-<strong>Description : </strong>Omnissa UAG contains a Cross-Origin Resource Sharing (CORS) bypass vulnerability. A malicious actor with network access to UAG may be able to bypass administrator-configured CORS restrictions to gain access to sensitive networks.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-25234</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-25234</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29040 - Dlink DIR 832 Memory Corruption Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29040
-<br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
-<br>
-<strong>Description : </strong>An issue in dlink DIR 832x 240802 allows a remote attacker to execute arbitrary code via the target_addr key value and the function 0x41737c
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+can: dev: can_restart: fix use after free bug
+
+After calling netif_rx_ni(skb), dereferencing skb is unsafe.
+Especially, the can_frame cf which aliases skb memory is accessed
+after the netif_rx_ni() in:
+      stats->rx_bytes += cf->len;
+
+Reordering the lines solves the issue.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29040</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29040</guid>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-47668</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-47668</guid>
     </item>
     <item>
-      <title>CVE-2025-29041 - D-Link DIR 832 Buffer Overflow Vulnerability</title>
+      <title>CVE-2021-47669 - Linux Kernel - CAN vxcan Use After Free</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29041
+<strong>CVE ID : </strong>CVE-2021-47669
 <br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 7 minutes ago
 <br>
-<strong>Description : </strong>An issue in dlink DIR 832x 240802 allows a remote attacker to execute arbitrary code via the target_addr key value and the function 0x41710c
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+can: vxcan: vxcan_xmit: fix use after free bug
+
+After calling netif_rx_ni(skb), dereferencing skb is unsafe.
+Especially, the canfd_frame cfd which aliases skb memory is accessed
+after the netif_rx_ni().
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29041</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29041</guid>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-47669</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-47669</guid>
     </item>
     <item>
-      <title>CVE-2025-29044 - Netgear R61 Router Buffer Overflow Remote Code Execution</title>
+      <title>CVE-2021-47670 - Linux Kernel Can: Use After Free Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29044
+<strong>CVE ID : </strong>CVE-2021-47670
 <br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 7 minutes ago
 <br>
-<strong>Description : </strong>Buffer Overflow vulnerability in Netgear- R61 router V1.0.1.28 allows a remote attacker to execute arbitrary code via the QUERY_STRING key value
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+can: peak_usb: fix use after free bugs
+
+After calling peak_usb_netif_rx_ni(skb), dereferencing skb is unsafe.
+Especially, the can_frame cf which aliases skb memory is accessed
+after the peak_usb_netif_rx_ni().
+
+Reordering the lines solves the issue.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29044</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29044</guid>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-47670</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-47670</guid>
     </item>
     <item>
-      <title>CVE-2025-29045 - ALFA_CAMPRO-co Buffer Overflow Remote Code Execution</title>
+      <title>CVE-2021-47671 - Canal (CAN) Linux Kernel Memory Leak Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29045
+<strong>CVE ID : </strong>CVE-2021-47671
 <br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 7 minutes ago
 <br>
-<strong>Description : </strong>Buffer Overflow vulnerability in ALFA_CAMPRO-co-2.29 allows a remote attacker to execute arbitrary code via the newap_text_0 key value
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+can: etas_es58x: es58x_rx_err_msg(): fix memory leak in error path
+
+In es58x_rx_err_msg(), if can->do_set_mode() fails, the function
+directly returns without calling netif_rx(skb). This means that the
+skb previously allocated by alloc_can_err_skb() is not freed. In other
+terms, this is a memory leak.
+
+This patch simply removes the return statement in the error branch and
+let the function continue.
+
+Issue was found with GCC -fanalyzer, please follow the link below for
+details.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29045</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29045</guid>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-47671</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-47671</guid>
     </item>
     <item>
-      <title>CVE-2025-29046 - ALFA CAMPRO Router Buffer Overflow Vulnerability</title>
+      <title>CVE-2024-53924 - Pycel Excel Formula Execution Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29046
+<strong>CVE ID : </strong>CVE-2024-53924
 <br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 7 minutes ago
 <br>
-<strong>Description : </strong>Buffer Overflow vulnerability inALFA WiFi CampPro router ALFA_CAMPRO-co-2.29 allows a remote attacker to execute arbitrary code via the GAPSMinute3 key value
+<strong>Description : </strong>Pycel through 1.0b30, when operating on an untrusted spreadsheet, allows code execution via a crafted formula in a cell, such as one beginning with the =IF(A1=200, eval("__import__('os').system( substring.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29046</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29046</guid>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-53924</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-53924</guid>
     </item>
     <item>
-      <title>CVE-2025-29047 - ALFA WiFi CampPro Router Buffer Overflow Vulnerability</title>
+      <title>CVE-2024-55211 - Think Router Tk-Rt-Wr135G Authentication Bypass</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29047
+<strong>CVE ID : </strong>CVE-2024-55211
 <br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 7 minutes ago
 <br>
-<strong>Description : </strong>Buffer Overflow vulnerability inALFA WiFi CampPro router ALFA_CAMPRO-co-2.29 allows a remote attacker to execute arbitrary code via the hiddenIndex in the function StorageEditUser
+<strong>Description : </strong>An issue in Think Router Tk-Rt-Wr135G V3.0.2-X000 allows attackers to bypass authentication via a crafted cookie.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29047</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29047</guid>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-55211</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-55211</guid>
     </item>
     <item>
-      <title>CVE-2025-3651 - "Apple Work Desktop for Mac Command Injection Vulnerability"</title>
+      <title>CVE-2025-25454 - Tenda AC10 Buffer Overflow Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3651
+<strong>CVE ID : </strong>CVE-2025-25454
 <br>
-<strong>Published : </strong> April 17, 2025, 3:15 p.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
 <br>
-<strong>Description : </strong>Improper Verification of Source of a Communication Channel in Work Desktop for Mac versions below 10.8.2.33 allows attackers to execute arbitrary commands via unauthorized access to the Agent service.
+<strong>Description : </strong>Tenda AC10 V4.0si_V16.03.10.20 is vulnerable to Buffer Overflow in AdvSetMacMtuWan via wanSpeed2.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3651</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3651</guid>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-25454</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-25454</guid>
     </item>
     <item>
-      <title>CVE-2025-29015 - Code Astro Internet Banking System Cross Site Scripting (XSS)</title>
+      <title>CVE-2025-25455 - Tenda AC10 Buffer Overflow Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29015
+<strong>CVE ID : </strong>CVE-2025-25455
 <br>
-<strong>Published : </strong> April 17, 2025, 2:15 p.m. | 2 hours, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
 <br>
-<strong>Description : </strong>Code Astro Internet Banking System 2.0.0 is vulnerable to Cross Site Scripting (XSS) via the name parameter in /admin/pages_account.php.
+<strong>Description : </strong>Tenda AC10 V4.0si_V16.03.10.20 is vulnerable to Buffer Overflow in AdvSetMacMtuWan via wanMTU2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-25455</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-25455</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26268 - DragonflyDB Redis Command Injection Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26268
+<br>
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>DragonflyDB Dragonfly before 1.27.0 allows authenticated users to cause a denial of service (daemon crash) via a crafted Redis command. The validity of the scan cursor was not checked.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26268</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26268</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26269 - DragonflyDB Lua Library Integer Overflow Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26269
+<br>
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>DragonflyDB Dragonfly through 1.28.2 allows authenticated users to cause a denial of service (daemon crash) via a Lua library command that references a large negative integer.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26269</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26269</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28009 - Dietiqa App SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28009
+<br>
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>A SQL Injection vulnerability exists in the `u` parameter of the progress-body-weight.php endpoint of Dietiqa App v1.0.20.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28009</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28009</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28101 - FlaskBlog File Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28101
+<br>
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>An arbitrary file deletion vulnerability in the /post/{postTitle} component of flaskBlog v2.6.1 allows attackers to delete article titles created by other users via supplying a crafted POST request.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28101</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28101</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29722 - Commercify CSRF Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29722
+<br>
+<strong>Published : </strong> April 17, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>A CSRF vulnerability in Commercify v1.0 allows remote attackers to perform unauthorized actions on behalf of authenticated users. The issue exists due to missing CSRF protection on sensitive endpoints.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29722</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29722</guid>
+    </item>
+    <item>
+      <title>CVE-2024-40124 - Pydio Core Cross Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-40124
+<br>
+<strong>Published : </strong> April 17, 2025, 5:15 p.m. | 2 hours, 7 minutes ago
+<br>
+<strong>Description : </strong>Pydio Core <= 8.2.5 is vulnerable to Cross Site Scripting (XSS) via the New URL Bookmark feature.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-40124</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-40124</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29039 - Dlink DIR 832x Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29039
+<br>
+<strong>Published : </strong> April 17, 2025, 5:15 p.m. | 2 hours, 7 minutes ago
+<br>
+<strong>Description : </strong>An issue in dlink DIR 832x 240802 allows a remote attacker to execute arbitrary code via the function 0x41dda8
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29039</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29039</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29180 - FOXCMS Blind SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29180
+<br>
+<strong>Published : </strong> April 17, 2025, 5:15 p.m. | 2 hours, 7 minutes ago
+<br>
+<strong>Description : </strong>In FOXCMS <=1.25, the installdb.php file has a time - based blind SQL injection vulnerability. The url_prefix, domain, and my_website POST parameters are directly concatenated into SQL statements without filtering.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29180</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29180</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29181 - FOXCMS SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29181
+<br>
+<strong>Published : </strong> April 17, 2025, 5:15 p.m. | 2 hours, 7 minutes ago
+<br>
+<strong>Description : </strong>FOXCMS <= V1.25 is vulnerable to SQL Injection via $param['title'] in /admin/util/Field.php.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29181</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29181</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29661 - Litepubl CMS Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29661
+<br>
+<strong>Published : </strong> April 17, 2025, 5:15 p.m. | 2 hours, 7 minutes ago
+<br>
+<strong>Description : </strong>Litepubl CMS <= 7.0.9 is vulnerable to RCE in admin/service/run.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29661</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29661</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29662 - LandChat Remote Code Execution (RCE)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29662
+<br>
+<strong>Published : </strong> April 17, 2025, 5:15 p.m. | 2 hours, 7 minutes ago
+<br>
+<strong>Description : </strong>A RCE vulnerability in the core application in LandChat 3.25.12.18 allows an unauthenticated attacker to execute system code via remote network access.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29662</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29662</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2947 - IBM i Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2947
+<br>
+<strong>Published : </strong> April 17, 2025, 5:15 p.m. | 2 hours, 7 minutes ago
+<br>
+<strong>Description : </strong>IBM i 7.6 
+
+contains a privilege escalation vulnerability due to incorrect profile swapping in an OS command.  A malicious actor can use the command to elevate privileges to gain root access to the host operating system.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2947</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2947</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32415 - Libxml2 Heap-Based Buffer Underflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32415
+<br>
+<strong>Published : </strong> April 17, 2025, 5:15 p.m. | 2 hours, 7 minutes ago
+<br>
+<strong>Description : </strong>In libxml2 before 2.13.8 and 2.14.x before 2.14.2, xmlSchemaIDCFillNodeTables in xmlschemas.c has a heap-based buffer under-read. To exploit this, a crafted XML document must be validated against an XML schema with certain identity constraints, or a crafted XML schema must be used.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32415</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32415</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43014 - JetBrains Toolbox App SSH Plugin Unauthenticated Remote Command Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43014
+<br>
+<strong>Published : </strong> April 17, 2025, 4:16 p.m. | 3 hours, 6 minutes ago
+<br>
+<strong>Description : </strong>In JetBrains Toolbox App before 2.6 the SSH plugin established connections without sufficient user confirmation
 <br>
 <strong>Severity:</strong> 6.1 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29015</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29015</guid>
+      <pubDate>Thu, 17 Apr 2025 16:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43014</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43014</guid>
     </item>
     <item>
-      <title>CVE-2025-3760 - Liferay Portal Stored Cross-Site Scripting (XSS)</title>
+      <title>CVE-2025-43015 - JetBrains RubyMine Remote Port Overwrite</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3760
+<strong>CVE ID : </strong>CVE-2025-43015
 <br>
-<strong>Published : </strong> April 17, 2025, 1:15 p.m. | 3 hours, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 4:16 p.m. | 3 hours, 6 minutes ago
 <br>
-<strong>Description : </strong>A stored cross-site scripting (XSS) vulnerability exists with radio button type custom fields in Liferay Portal 7.2.0 through 7.4.3.129, and Liferay DXP 2024.Q4.1 through 2024.Q4.7, 2024.Q3.1 through 2024.Q3.9, 2024.Q2.0 through 2024.Q2.13, 2024.Q1.1 through 2024.Q1.12, 2023.Q4.0 through 2023.Q4.10, 2023.Q3.1 through 2023.Q3.10, 7.4 GA through update 92, 7.3 GA through update 36, and 7.2 GA through fix pack 20 allows remote authenticated attackers to inject malicious JavaScript into a page.
+<strong>Description : </strong>In JetBrains RubyMine before 2025.1 remote Interpreter overwrote ports to listen on all interfaces
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 8.3 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3760</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3760</guid>
+      <pubDate>Thu, 17 Apr 2025 16:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43015</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43015</guid>
     </item>
     <item>
-      <title>CVE-2025-26477 - Dell ECS Improper Input Validation Code Execution Vulnerability</title>
+      <title>CVE-2025-43013 - JetBrains Toolbox App SSH Authentication Unencrypted Credential Transmission Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26477
+<strong>CVE ID : </strong>CVE-2025-43013
 <br>
-<strong>Published : </strong> April 17, 2025, 12:15 p.m. | 4 hours, 2 minutes ago
+<strong>Published : </strong> April 17, 2025, 4:15 p.m. | 3 hours, 6 minutes ago
 <br>
-<strong>Description : </strong>Dell ECS version 3.8.1.4 and prior contain an Improper Input Validation vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Code execution.
+<strong>Description : </strong>In JetBrains Toolbox App before 2.6 unencrypted credential transmission during SSH authentication was possible
 <br>
-<strong>Severity:</strong> 4.3 | MEDIUM
+<strong>Severity:</strong> 6.9 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26477</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26477</guid>
-    </item>
-    <item>
-      <title>CVE-2025-26478 - Dell ECS Certificate Validation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-26478
-<br>
-<strong>Published : </strong> April 17, 2025, 12:15 p.m. | 4 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>Dell ECS version 3.8.1.4 and prior contain an Improper Certificate Validation vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Information disclosure.
-<br>
-<strong>Severity:</strong> 3.1 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-26478</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26478</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3453 - WordPress Password Protect Sensitive Information Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3453
-<br>
-<strong>Published : </strong> April 17, 2025, 12:15 p.m. | 4 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>The Password Protected – Password Protect your WordPress Site, Pages, & WooCommerce Products – Restrict Content, Protect WooCommerce Category and more plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.7.7 via the 'password_protected_cookie' function. This makes it possible for unauthenticated attackers to extract sensitive data including all protected site content if the 'Use Transient' setting is enabled.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3453</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3453</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3479 - Forminator Forms - WordPress Stripe Payment Intent Order Replay Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3479
-<br>
-<strong>Published : </strong> April 17, 2025, 12:15 p.m. | 4 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to Order Replay in all versions up to, and including, 1.42.0 via the 'handle_stripe_single' function due to insufficient validation on a user controlled key. This makes it possible for unauthenticated attackers to reuse a single Stripe PaymentIntent for multiple transactions. Only the first transaction is processed via Stripe, but the plugin sends a successful email message for each transaction, which may trick an administrator into fulfilling each order.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3479</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3479</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3487 - Forminator Forms - WordPress Stored Cross-Site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3487
-<br>
-<strong>Published : </strong> April 17, 2025, 12:15 p.m. | 4 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘limit’ parameter in all versions up to, and including, 1.42.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3487</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3487</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29931 - "TeleControl Server Basic Remote DoS Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29931
-<br>
-<strong>Published : </strong> April 17, 2025, 11:15 a.m. | 5 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability has been identified in TeleControl Server Basic (All versions < V3.1.2.2). The affected product does not properly validate a length field in a serialized message which it uses to determine the amount of memory to be allocated for deserialization. This could allow an unauthenticated remote attacker to cause the application to allocate exhaustive amounts of memory and subsequently create a partial denial of service condition.
-Successful exploitation is only possible in redundant Telecontrol Server Basic setups and only if the connection between the redundant servers has been disrupted.
-<br>
-<strong>Severity:</strong> 3.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29931</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29931</guid>
-    </item>
-    <item>
-      <title>CVE-2025-1532 - Phoneservice Code Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-1532
-<br>
-<strong>Published : </strong> April 17, 2025, 10:15 a.m. | 6 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>Phoneservice module is affected by code injection vulnerability, successful exploitation of this vulnerability may affect service confidentiality and integrity.
-<br>
-<strong>Severity:</strong> 8.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 10:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-1532</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1532</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2188 - GameCenter Whitelist Mechanism Bypass Remote Code Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2188
-<br>
-<strong>Published : </strong> April 17, 2025, 10:15 a.m. | 6 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>There is a whitelist mechanism bypass in GameCenter ,successful exploitation of this vulnerability may affect service confidentiality and integrity.
-<br>
-<strong>Severity:</strong> 8.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 10:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2188</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2188</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2197 - "Mozilla Browser Type Confusion RCE"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2197
-<br>
-<strong>Published : </strong> April 17, 2025, 10:15 a.m. | 6 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>Browser is affected by type confusion vulnerability, successful exploitation of this vulnerability may affect service availability.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 10:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2197</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2197</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3615 - "Fluent Forms WordPress Stored Cross-Site Scripting"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3615
-<br>
-<strong>Published : </strong> April 17, 2025, 8:15 a.m. | 8 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>The Fluent Forms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the form-submission.js script in all versions up to, and including, 6.0.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3615</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3615</guid>
+      <pubDate>Thu, 17 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43013</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43013</guid>
     </item>
     <item>
       <title>Etat de la menace informatique sur le secteur des transports urbains</title>
@@ -412,74 +545,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 17 Apr 2025 07:37:00 GMT</pubDate>
       <link>https://cyber.gouv.fr/actualites/etat-de-la-menace-informatique-sur-le-secteur-des-transports-urbains</link>
       <guid>77760 at https://cyber.gouv.fr</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2903 - Google Cloud Platform OS Login SSH Authentication Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2903
-<br>
-<strong>Published : </strong> April 17, 2025, 7:15 a.m. | 9 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>An attacker with knowledge of creating user accounts during VM deployment on Google Cloud Platform (GCP) using the OS Login feature, can login via SSH gaining command-line control of the operating system. This allows an attacker to gain access to sensitive data stored on the VM, install malicious software, and disrupt or disable the functionality of the VM.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 07:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2903</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2903</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3113 - Continuous Compliance Internal Database Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3113
-<br>
-<strong>Published : </strong> April 17, 2025, 7:15 a.m. | 9 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>A valid, authenticated user with sufficient privileges and who is aware of Continuous Compliance’s internal database configurations can leverage the application’s built-in Connector functionality to access Continuous Compliance’s internal database. This allows the user to explore the internal database schema and export its data, including the properties of Connecters and Rule Sets.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 07:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3113</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3113</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3294 - WordPress WP Editor Remote File Write Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3294
-<br>
-<strong>Published : </strong> April 17, 2025, 6:15 a.m. | 10 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>The WP Editor plugin for WordPress is vulnerable to arbitrary file update due to missing file path validation in all versions up to, and including, 1.2.9.1. This makes it possible for authenticated attackers, with Administrator-level access and above, to overwrite arbitrary files on the affected site's server which may make remote code execution possible assuming the files can be written to by the web server.
-<br>
-<strong>Severity:</strong> 7.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3294</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3294</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3295 - WordPress WP Editor Arbitrary File Read Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3295
-<br>
-<strong>Published : </strong> April 17, 2025, 6:15 a.m. | 10 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>The WP Editor plugin for WordPress is vulnerable to arbitrary file read in all versions up to, and including, 1.2.9.1. This makes it possible for authenticated attackers, with Administrator-level access and above, to read arbitrary files on the affected site's server which may reveal sensitive information.
-<br>
-<strong>Severity:</strong> 4.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 17 Apr 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3295</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3295</guid>
     </item>
     <item>
       <title>L’ANSSI publie ses guides sur la remédiation d’incidents en anglais</title>
