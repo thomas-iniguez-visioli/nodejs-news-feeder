@@ -8,18 +8,103 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 17 Apr 2025 04:13:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Apr 2025 06:15:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-31338 - Wisdom Master Pro Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31338
+<br>
+<strong>Published : </strong> April 17, 2025, 3:15 a.m. | 1 hour, 20 minutes ago
+<br>
+<strong>Description : </strong>A missing authorization vulnerability in the retrieve teacher Information function of Wisdom Master Pro versions 5.0 through 5.2 allows remote attackers to obtain partial user data by accessing the API functionality.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31338</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31338</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31339 - Wisdom Master Pro File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31339
+<br>
+<strong>Published : </strong> April 17, 2025, 3:15 a.m. | 1 hour, 20 minutes ago
+<br>
+<strong>Description : </strong>An unrestricted upload of file with dangerous type vulnerability in the course management function of Wisdom Master Pro versions 5.0 through 5.2 allows remote authenticated users to craft a malicious file.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31339</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31339</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31340 - Wisdom Master Pro File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31340
+<br>
+<strong>Published : </strong> April 17, 2025, 3:15 a.m. | 1 hour, 20 minutes ago
+<br>
+<strong>Description : </strong>A improper control of filename for include/require statement in PHP program vulnerability in the retrieve course Information function of Wisdom Master Pro versions 5.0 through 5.2 allows remote attackers to perform arbitrary system commands by running a malicious file.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31340</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31340</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43715 - NSIS Local Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43715
+<br>
+<strong>Published : </strong> April 17, 2025, 3:15 a.m. | 1 hour, 20 minutes ago
+<br>
+<strong>Description : </strong>Nullsoft Scriptable Install System (NSIS) before 3.11 on Windows allows local users to escalate privileges to SYSTEM during an installation, because the temporary plugins directory is created under %WINDIR%\temp and unprivileged users can place a crafted executable file by winning a race condition. This occurs because EW_CREATEDIR does not always set the CreateRestrictedDirectory error flag.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43715</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43715</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43717 - PEAR HTTP_Request2 File Include Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43717
+<br>
+<strong>Published : </strong> April 17, 2025, 3:15 a.m. | 1 hour, 20 minutes ago
+<br>
+<strong>Description : </strong>In PEAR HTTP_Request2 before 2.7.0, multiple files in the tests directory, notably tests/_network/getparameters.php and tests/_network/postparameters.php, reflect any GET or POST parameters, leading to XSS.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43717</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43717</guid>
+    </item>
+    <item>
       <title>CVE-2025-1290 - Google ChromeOS Virtio Transport Use-After-Free Kernel Code Execution</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1290
 <br>
-<strong>Published : </strong> April 17, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> April 17, 2025, 1:15 a.m. | 3 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>A race condition Use-After-Free vulnerability exists in the virtio_transport_space_update function within the Kernel 5.4 on ChromeOS. Concurrent allocation and freeing of the virtio_vsock_sock structure 
 during an AF_VSOCK connect syscall can occur before a worker thread accesses it resulting in a dangling pointer and potential kernel code execution.
@@ -37,7 +122,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43708
 <br>
-<strong>Published : </strong> April 17, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> April 17, 2025, 1:15 a.m. | 3 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>VisiCut 2.1 allows stack consumption via an XML document with nested set elements, as demonstrated by a java.util.HashMap StackOverflowError when reference='../../../set/set[2]' is used, aka an "insecure deserialization" issue.
 <br>
@@ -54,7 +139,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0756
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Overview 
 
@@ -111,7 +196,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0757
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Overview
 
@@ -168,7 +253,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0758
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Overview 
 
@@ -205,7 +290,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1566
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>DNS Leak in Native System VPN in Google ChromeOS Dev Channel on ChromeOS 129.0.6668.36 allows network observers to expose plaintext DNS queries via failure to properly tunnel DNS traffic during VPN state transitions.
 <br>
@@ -222,7 +307,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1568
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Access Control Vulnerability in Gerrit chromiumos project configuration in Google ChromeOS 131.0.6778.268 allows an attacker with a registered Gerrit account to inject malicious code into ChromeOS projects and potentially achieve Remote Code Execution and Denial of Service  via editing trusted pipelines by insufficient access controls and misconfigurations in Gerrit's project.config.
 <br>
@@ -239,7 +324,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1704
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>ComponentInstaller Modification in ComponentInstaller in Google ChromeOS 124.0.6367.34 on Chromebooks allows enrolled users with local access to unenroll devices 
 and intercept device management requests via loading components from the unencrypted stateful partition.
@@ -257,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24907
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Overview 
 
@@ -314,7 +399,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24908
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Overview 
 
@@ -371,7 +456,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24909
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Overview 
 
@@ -428,7 +513,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24910
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Overview 
 
@@ -485,7 +570,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24911
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Overview 
 
@@ -542,7 +627,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2073
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Out-of-Bounds Read in ip_set_bitmap_ip.c in Google ChromeOS Kernel Versions 6.1, 5.15, 5.10, 5.4, 4.19. on All devices where Termina is used allows an attacker with CAP_NET_ADMIN privileges to cause memory corruption and potentially escalate privileges via crafted ipset commands.
 <br>
@@ -559,7 +644,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2400
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
@@ -576,7 +661,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43704
 <br>
-<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> April 16, 2025, 11:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Arctera/Veritas Data Insight before 7.1.2 can send cleartext credentials when configured to use HTTP Basic Authentication to a Dell Isilon OneFS server.
 <br>
@@ -589,79 +674,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-43704</guid>
     </item>
     <item>
-      <title>CVE-2025-25230 - Omnissa Horizon Client Windows Local Privilege Escalation</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-25230
-<br>
-<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 4 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>Omnissa Horizon Client for Windows contains an LPE Vulnerability. A malicious actor with local access where Horizon Client for Windows is installed may be able to elevate privileges.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Apr 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-25230</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-25230</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31478 - Zulip Unauthenticated Account Creation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31478
-<br>
-<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 4 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>Zulip is an open-source team collaboration tool. Zulip supports a configuration where account creation is limited solely by being able to authenticate with a single-sign on authentication backend, meaning the organization places no restrictions on email address domains or invitations being required to join, but has disabled the EmailAuthBackend that is used for email/password authentication. A bug in the Zulip server means that it is possible to create an account in such organizations, without having an account with the configured SSO authentication backend. This issue is patched in version 10.2. A workaround includes requiring invitations to join the organization prevents the vulnerability from being accessed.
-<br>
-<strong>Severity:</strong> 8.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Apr 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31478</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31478</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32433 - Erlang/OTP SSH Server Unauthenticated Remote Code Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32433
-<br>
-<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 4 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
-<br>
-<strong>Severity:</strong> 10.0 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Apr 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32433</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32433</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32783 - XWiki Platform Cross-Site Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32783
-<br>
-<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 4 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>XWiki Platform is a generic wiki platform. A vulnerability in versions from 5.0 to 16.7.1 affects users with Message Stream enabled and a wiki configured as closed from selecting "Prevent unregistered users to view pages" in the Administrations Rights. The vulnerability is that any message sent in a subwiki to "everyone" is actually sent to the farm: any visitor of the main wiki will be able to see that message through the Dashboard, even if the subwiki is configured to be private. This issue will not be patched as Message Stream has been deprecated in XWiki 16.8.0RC1 and is not maintained anymore. A workaround for this issue involves keeping Message Stream disabled by default. It's advised to keep it disabled from Administration > Social > Message Stream.
-<br>
-<strong>Severity:</strong> 4.7 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Apr 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32783</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32783</guid>
-    </item>
-    <item>
       <title>CVE-2025-32787 - SoftEtherVPN NULL Dereference Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32787
 <br>
-<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 4 hours, 2 minutes ago
+<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 6 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>SoftEtherVPN is a an open-source cross-platform multi-protocol VPN Program. Versions 5.02.5184 to 5.02.5187 are vulnerable to NULL dereference in `DeleteIPv6DefaultRouterInRA` called by `StorePacket`. Before dereferencing, `DeleteIPv6DefaultRouterInRA` does not account for `ParsePacket` returning NULL, resulting in the program crashing. A patched version does not exist at this time.
 <br>
@@ -678,7 +695,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32789
 <br>
-<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 4 hours, 2 minutes ago
+<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 6 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>EspoCRM is an Open Source Customer Relationship Management software. Prior to version 9.0.7, users can be sorted by their password hash. This flaw allows an attacker to make assumptions about the hash values of other users stored in the password column of the user table, based on the results of the sorted list of users. Although unlikely, if an attacker knows the hash value of their password, they can change the password and repeat the sorting until the other user's password hash is fully revealed. This issue is patched in version 9.0.7.
 <br>
@@ -695,7 +712,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32791
 <br>
-<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 4 hours, 2 minutes ago
+<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 6 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>The Backstage Scaffolder plugin houses types and utilities for building scaffolder-related modules. A vulnerability in the Backstage permission plugin backend allows callers to extract some information about the conditional decisions returned by the permission policy installed in the permission backend. If the permission system is not in use or if the installed permission policy does not use conditional decisions, there is no impact. This issue has been patched in version 0.6.0 of the permissions backend. A workaround includes having administrators of the permission policies ensure that they are crafted in such a way that conditional decisions do not contain any sensitive information.
 <br>
@@ -712,7 +729,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43703
 <br>
-<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 4 hours, 2 minutes ago
+<strong>Published : </strong> April 16, 2025, 10:15 p.m. | 6 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in Ankitects Anki through 25.02. A crafted shared deck can result in attacker-controlled access to the internal API (even though the attacker has no knowledge of an API key) through approaches such as scripts or the SRC attribute of an IMG element. NOTE: this issue exists because of an incomplete fix for CVE-2024-32484.
 <br>
@@ -723,23 +740,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 16 Apr 2025 22:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-43703</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-43703</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3730 - PyTorch Denial of Service Vulnerability in torch.nn.functional.ctc_loss</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3730
-<br>
-<strong>Published : </strong> April 16, 2025, 9:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as problematic, was found in PyTorch 2.6.0. Affected is the function torch.nn.functional.ctc_loss of the file aten/src/ATen/native/LossCTC.cpp. The manipulation leads to denial of service. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The name of the patch is 46fc5d8e360127361211cb237d5f9eef0223e567. It is recommended to apply a patch to fix this issue.
-<br>
-<strong>Severity:</strong> 3.3 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3730</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3730</guid>
     </item>
     <item>
       <title>L’ANSSI publie ses guides sur la remédiation d’incidents en anglais</title>
