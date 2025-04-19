@@ -8,22 +8,141 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 19 Apr 2025 08:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 14:08:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3800 - Oracle WCMS SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3800
+<br>
+<strong>Published : </strong> April 19, 2025, 12:15 p.m. | 1 hour, 36 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in WCMS 11 and classified as critical. Affected by this vulnerability is an unknown functionality of the file app/controllers/AnonymousController.php. The manipulation of the argument mobile_phone leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3800</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3800</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3799 - WordPress CMS SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3799
+<br>
+<strong>Published : </strong> April 19, 2025, 11:15 a.m. | 2 hours, 35 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in WCMS 11. Affected is an unknown function of the file app/controllers/AnonymousController.php. The manipulation of the argument email/username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3799</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3799</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3661 - WordPress SB Chart Block Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3661
+<br>
+<strong>Published : </strong> April 19, 2025, 10:15 a.m. | 3 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>The SB Chart block plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘className’ parameter in all versions up to, and including, 1.2.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3661</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3661</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3798 - Apache WCMS Unrestricted File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3798
+<br>
+<strong>Published : </strong> April 19, 2025, 10:15 a.m. | 3 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in WCMS 11. This issue affects the function sub of the file app/admin/AdvadminController.php of the component Advertisement Image Handler. The manipulation leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3798</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3798</guid>
+    </item>
+    <item>
+      <title>CVE-2021-4455 - "Wordpress Smart Product Review Plugin File Upload Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2021-4455
+<br>
+<strong>Published : </strong> April 19, 2025, 8:15 a.m. | 5 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>The Wordpress Plugin Smart Product Review plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in all versions up to, and including, 1.0.4. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-4455</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-4455</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3404 - "WordPress Download Manager Arbitrary File Deletion Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3404
+<br>
+<strong>Published : </strong> April 19, 2025, 8:15 a.m. | 5 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>The Download Manager plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the savePackage function in all versions up to, and including, 3.3.12. This makes it possible for authenticated attackers, with Author-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3404</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3404</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3797 - SeaCMS SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3797
+<br>
+<strong>Published : </strong> April 19, 2025, 7:15 a.m. | 6 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in SeaCMS up to 13.3. This vulnerability affects unknown code of the file /admin_topic.php?action=delall. The manipulation of the argument e_id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3797</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3797</guid>
+    </item>
+    <item>
       <title>CVE-2024-13926 - WordPress WP-Syntax Regular Expression Denial of Service (DoS)</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13926
 <br>
-<strong>Published : </strong> April 19, 2025, 6:15 a.m. | 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 6:15 a.m. | 7 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The WP-Syntax WordPress plugin through 1.2 does not properly handle input, allowing an attacker to create a post containing a large number of tags, thereby exploiting a catastrophic backtracking issue in the regular expression processing to cause a DoS.
 <br>
-<strong>Severity:</strong> 9.8 | CRITICAL
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -36,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2111
 <br>
-<strong>Published : </strong> April 19, 2025, 6:15 a.m. | 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 6:15 a.m. | 7 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Insert Headers And Footers plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.1.1. This is due to missing or incorrect nonce validation on the 'custom_plugin_set_option' function. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site. The 'WPBRIGADE_SDK__DEV_MODE' constant must be set to 'true' to exploit the vulnerability.
 <br>
@@ -53,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3809
 <br>
-<strong>Published : </strong> April 19, 2025, 6:15 a.m. | 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 6:15 a.m. | 7 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Debug Log Manager plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the auto-refresh debug log in all versions up to, and including, 2.3.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -70,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3103
 <br>
-<strong>Published : </strong> April 19, 2025, 5:15 a.m. | 1 hour, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 5:15 a.m. | 8 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>The CLEVER - HTML5 Radio Player With History - Shoutcast and Icecast - Elementor Widget Addon plugin for WordPress is vulnerable to arbitrary file read due to insufficient file path validation in the 'history.php' file in all versions up to, and including, 2.4. This makes it possible for unauthenticated attackers to read arbitrary files on the affected site's server, which may contain sensitive information including database credentials. The vulnerability was partially patched in version 2.4.
 <br>
@@ -87,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1093
 <br>
-<strong>Published : </strong> April 19, 2025, 4:15 a.m. | 2 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 4:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The AIHub theme for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the generate_image function in all versions up to, and including, 1.3.7. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 <br>
@@ -104,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1457
 <br>
-<strong>Published : </strong> April 19, 2025, 4:15 a.m. | 2 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 4:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Element Pack Addons for Elementor – Free Templates and Widgets for Your WordPress Websites plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Wrapper Link, Countdown and Gallery widgets in all versions up to, and including, 5.10.28 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -121,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3275
 <br>
-<strong>Published : </strong> April 19, 2025, 4:15 a.m. | 2 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 4:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Themesflat Addons For Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the TF E Slider widget in all versions up to, and including, 2.2.5 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -132,6 +251,193 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 19 Apr 2025 04:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-3275</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3275</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3278 - "UrbanGo Membership Plugin Privilege Escalation Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3278
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>The UrbanGo Membership plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 1.0.4. This is due to the plugin allowing users who are registering new accounts to set their own role or by supplying 'user_register_role' field. This makes it possible for unauthenticated attackers to gain elevated privileges by creating an account with the administrator role.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3278</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3278</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3284 - WordPress User Registration  Membership CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3284
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>The User Registration & Membership – Custom Registration Form, Login Form, and User Profile plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 5.1.3. This is due to missing or incorrect nonce validation on the user_registration_pro_delete_account() function. This makes it possible for unauthenticated attackers to force delete users, including administrators, via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3284</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3284</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43893 - Apache HTTP Server Cross-Site Request Forgery (CSRF)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43893
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43893</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43893</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43894 - Apache HTTP Server Cross-Site Request Forgery</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43894
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43894</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43894</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43895 - Apache Struts Command Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43895
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43895</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43895</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43896 - Apache HTTP Server SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43896
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43896</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43896</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43897 - Apache HTTP Server Cross-Site Request Forgery</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43897
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43897</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43897</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43898 - Apache HTTP Server Unvalidated User Input</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43898
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43898</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43898</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43899 - Apache Apache Struts Command Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43899
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43899</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43899</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43900 - Apache HTTP Server Unvalidated User Input</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43900
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43900</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43900</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43901 - Apache HTTP Server Unvalidated User Input</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43901
+<br>
+<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 10 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43901</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43901</guid>
     </item>
     <item>
       <title>CVE-2025-2010 - JobWP WordPress SQL Injection Vulnerability</title>
@@ -149,193 +455,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2010</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2010</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3278 - "UrbanGo Membership Plugin Privilege Escalation Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3278
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>The UrbanGo Membership plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 1.0.4. This is due to the plugin allowing users who are registering new accounts to set their own role or by supplying 'user_register_role' field. This makes it possible for unauthenticated attackers to gain elevated privileges by creating an account with the administrator role.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3278</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3278</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3284 - WordPress User Registration  Membership CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3284
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>The User Registration & Membership – Custom Registration Form, Login Form, and User Profile plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 5.1.3. This is due to missing or incorrect nonce validation on the user_registration_pro_delete_account() function. This makes it possible for unauthenticated attackers to force delete users, including administrators, via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3284</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3284</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43893 - Apache HTTP Server Cross-Site Request Forgery (CSRF)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43893
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43893</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43893</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43894 - Apache HTTP Server Cross-Site Request Forgery</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43894
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43894</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43894</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43895 - Apache Struts Command Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43895
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43895</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43895</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43896 - Apache HTTP Server SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43896
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43896</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43896</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43897 - Apache HTTP Server Cross-Site Request Forgery</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43897
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43897</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43897</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43898 - Apache HTTP Server Unvalidated User Input</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43898
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43898</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43898</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43899 - Apache Apache Struts Command Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43899
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 8.7 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43899</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43899</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43900 - Apache HTTP Server Unvalidated User Input</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43900
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43900</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43900</guid>
-    </item>
-    <item>
-      <title>CVE-2025-43901 - Apache HTTP Server Unvalidated User Input</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43901
-<br>
-<strong>Published : </strong> April 19, 2025, 3:15 a.m. | 3 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43901</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43901</guid>
     </item>
     <item>
       <title>CVE-2024-53591 - Seclore Brute Force Authentication Bypass</title>
@@ -357,26 +476,26 @@ Visit the link for more details, such as CVSS details, affected products, timeli
     <item>
       <title>CVE-2025-29058 - Qimou CMS Remote Code Execution Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29058
+<strong>CVE ID : </strong>CVE-2025-43903
 <br>
-<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 9 hours, 27 minutes ago
+<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 13 hours, 28 minutes ago
 <br>
-<strong>Description : </strong>An issue in Qimou CMS v.3.34.0 allows a remote attacker to execute arbitrary code via the upgrade.php component.
+<strong>Description : </strong>NSSCryptoSignBackend.cc in Poppler before 25.04.0 does not verify the adbe.pkcs7.sha1 signatures on documents, resulting in potential signature forgeries.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 4.3 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
       <pubDate>Fri, 18 Apr 2025 21:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29058</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29058</guid>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43903</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43903</guid>
     </item>
     <item>
-      <title>CVE-2025-32953 - Z80pack GitHub Token Exposure</title>
+      <title>CVE-2024-53591 - Seclore Brute Force Authentication Bypass</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32953
 <br>
-<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 9 hours, 27 minutes ago
+<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 12 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>z80pack is a mature emulator of multiple platforms with 8080 and Z80 CPU. In version 1.38 and prior, the `makefile-ubuntu.yml` workflow file uses `actions/upload-artifact@v4` to upload the `z80pack-ubuntu` artifact. This artifact is a zip of the current directory, which includes the automatically generated `.git/config` file containing the run's GITHUB_TOKEN. Seeing as the artifact can be downloaded prior to the end of the workflow, there is a few seconds where an attacker can extract the token from the artifact and use it with the Github API to push malicious code or rewrite release commits in your repository. This issue has been fixed in commit bd95916.
 <br>
@@ -393,7 +512,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3796
 <br>
-<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 9 hours, 27 minutes ago
+<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 12 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in PHPGurukul Men Salon Management System 1.0. This affects an unknown part of the file /admin/contact-us.php. The manipulation of the argument pagetitle/pagedes/email/mobnumber/timing leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -410,7 +529,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43903
 <br>
-<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 9 hours, 27 minutes ago
+<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 12 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>NSSCryptoSignBackend.cc in Poppler before 25.04.0 does not verify the adbe.pkcs7.sha1 signatures on documents, resulting in potential signature forgeries.
 <br>
@@ -421,6 +540,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 18 Apr 2025 21:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-43903</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-43903</guid>
+    </item>
+    <item>
+      <title>CVE-2024-53591 - Seclore Brute Force Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-53591
+<br>
+<strong>Published : </strong> April 18, 2025, 9:15 p.m. | 9 hours, 27 minutes ago
+<br>
+<strong>Description : </strong>An issue in the login page of Seclore v3.27.5.0 allows attackers to bypass authentication via a brute force attack.
+<br>
+<strong>Severity:</strong> 2.6 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 18 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-53591</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-53591</guid>
     </item>
     <item>
       <title>CVE-2025-3795 - "DaiCuo SEO Optimization Settings Section Cross-Site Scripting Vulnerability"</title>
