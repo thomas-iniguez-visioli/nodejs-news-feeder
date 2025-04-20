@@ -89,9 +89,6 @@ https://cyber.gouv.fr/actualites/le-centre-de-certification-de-lanssi-emet-ses-p
 https://cyber.gouv.fr/actualites/lanssi-publie-son-rapport-dactivite-2024
 https://cyber.gouv.fr/actualites/lanssi-publie-ses-guides-sur-la-remediation-dincidents-en-anglais
 https://cyber.gouv.fr/actualites/etat-de-la-menace-informatique-sur-le-secteur-des-transports-urbains
-https://cvefeed.io/vuln/detail/CVE-2025-2111
-https://cvefeed.io/vuln/detail/CVE-2025-3809
-https://cvefeed.io/vuln/detail/CVE-2025-3797
 https://cvefeed.io/vuln/detail/CVE-2021-4455
 https://cvefeed.io/vuln/detail/CVE-2025-3404
 https://cvefeed.io/vuln/detail/CVE-2025-3661
@@ -114,6 +111,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-3819
 https://cvefeed.io/vuln/detail/CVE-2022-47111
 https://cvefeed.io/vuln/detail/CVE-2022-47112
 https://cvefeed.io/vuln/detail/CVE-2025-3820
+https://cvefeed.io/vuln/detail/CVE-2023-26819
+https://cvefeed.io/vuln/detail/CVE-2023-30421
+https://cvefeed.io/vuln/detail/CVE-2025-43918
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/numeum-campus-cyber-cyber4tomorrowfr-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
@@ -1039,9 +1039,6 @@ Le centre de certification de l’ANSSI émet ses premiers certificats EUCC
 L'ANSSI publie son rapport d'activité 2024
 L’ANSSI publie ses guides sur la remédiation d’incidents en anglais
 Etat de la menace informatique sur le secteur des transports urbains
-CVE-2025-2111 - WordPress Insert Headers And Footers CSRF
-CVE-2025-3809 - WordPress Debug Log Manager Stored Cross-Site Scripting
-CVE-2025-3797 - SeaCMS SQL Injection Vulnerability
 CVE-2021-4455 - "Wordpress Smart Product Review Plugin File Upload Vulnerability"
 CVE-2025-3404 - "WordPress Download Manager Arbitrary File Deletion Vulnerability"
 CVE-2025-3661 - WordPress SB Chart Block Stored Cross-Site Scripting Vulnerability
@@ -1064,6 +1061,9 @@ CVE-2025-3819 - PHPGurukul Men Salon Management System SQL Injection Vulnerabili
 CVE-2022-47111 - 7-Zip XZ File Format Parsing Vulnerability
 CVE-2022-47112 - 7-Zip XZ File Format Parsing Vulnerability
 CVE-2025-3820 - Tenda W12 and i24 Remote Stack-Based Buffer Overflow
+CVE-2023-26819 - cJSON Denial of Service (DoS)
+CVE-2023-30421 - Mjson strtod Denial of Service (DoS)
+CVE-2025-43918 - SSL.com Domain Validation Email Spoofing Vulnerability
 Cybersécurité : Numeum et le Campus Cyber lancent la plateforme Cyber4Tomorrow.fr et signent un partenariat avec Cybermalveillance.gouv.fr pour une cybersécurité durable et inclusive
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
@@ -1084,7 +1084,10 @@ Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
 Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ annoncent la signature drsquo;une convention pour intégrer lrsquo;offre de service drsquo;assistance des CSIRT territoriaux néo-aquitain et d’Occitanie dans le 17Cyber, guichet unique face à la cybermalveillance
 Lettres drsquo;information
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
+CVE-2025-3797 - SeaCMS SQL Injection Vulnerability
 CVE-2024-13926 - WordPress WP-Syntax Regular Expression Denial of Service (DoS)
+CVE-2025-2111 - WordPress Insert Headers And Footers CSRF
+CVE-2025-3809 - WordPress Debug Log Manager Stored Cross-Site Scripting
 CVE-2025-3103 - Elementor CLEVER WordPress File Read Vulnerability
 CVE-2025-1093 - WordPress AIHub Theme Remote Code Execution File Upload Vulnerability
 CVE-2025-1457 - Elementor Element Pack Addons Stored Cross-Site Scripting Vulnerability
