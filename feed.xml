@@ -8,18 +8,358 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sun, 20 Apr 2025 12:17:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Apr 2025 04:14:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-43970 - GoBGP MRT Length Validation Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43970
+<br>
+<strong>Published : </strong> April 21, 2025, 1:15 a.m. | 2 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in GoBGP before 3.35.0. pkg/packet/mrt/mrt.go does not properly check the input length, e.g., by ensuring that there are 12 bytes or 36 bytes (depending on the address family).
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43970</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43970</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43971 - GoBGP Zero-Value Software Version Len Panic</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43971
+<br>
+<strong>Published : </strong> April 21, 2025, 1:15 a.m. | 2 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in GoBGP before 3.35.0. pkg/packet/bgp/bgp.go allows attackers to cause a panic via a zero value for softwareVersionLen.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43971</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43971</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43972 - GoBGP FlowSpec Parser Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43972
+<br>
+<strong>Published : </strong> April 21, 2025, 1:15 a.m. | 2 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in GoBGP before 3.35.0. An attacker can cause a crash in the pkg/packet/bgp/bgp.go flowspec parser by sending fewer than 20 bytes in a certain context.
+<br>
+<strong>Severity:</strong> 6.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43972</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43972</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43973 - GoBGP Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43973
+<br>
+<strong>Published : </strong> April 21, 2025, 1:15 a.m. | 2 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in GoBGP before 3.35.0. pkg/packet/rtr/rtr.go does not verify that the input length corresponds to a situation in which all bytes are available for an RTR message.
+<br>
+<strong>Severity:</strong> 6.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43973</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43973</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43961 - Fujifilm LibRaw Out-of-Bounds Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43961
+<br>
+<strong>Published : </strong> April 21, 2025, 12:15 a.m. | 3 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>In LibRaw before 0.21.4, metadata/tiff.cpp has an out-of-bounds read in the Fujifilm 0xf00c tag parser.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43961</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43961</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43962 - LibRaw Out-of-Bounds Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43962
+<br>
+<strong>Published : </strong> April 21, 2025, 12:15 a.m. | 3 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>In LibRaw before 0.21.4, phase_one_correct in decoders/load_mfbacks.cpp has out-of-bounds reads for tag 0x412 processing, related to large w0 or w1 values or the frac and mult calculations.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43962</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43962</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43963 - LibRaw Out-of-Bounds Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43963
+<br>
+<strong>Published : </strong> April 21, 2025, 12:15 a.m. | 3 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>In LibRaw before 0.21.4, phase_one_correct in decoders/load_mfbacks.cpp allows out-of-buffer access because split_col and split_row values are not checked in 0x041f tag processing.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43963</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43963</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43964 - LibRaw Unvalidated Memory Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43964
+<br>
+<strong>Published : </strong> April 21, 2025, 12:15 a.m. | 3 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>In LibRaw before 0.21.4, tag 0x412 processing in phase_one_correct in decoders/load_mfbacks.cpp does not enforce minimum w0 and w1 values.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43964</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43964</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43966 - Libheif NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43966
+<br>
+<strong>Published : </strong> April 21, 2025, 12:15 a.m. | 3 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>libheif before 1.19.6 has a NULL pointer dereference in ImageItem_iden in image-items/iden.cc.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43966</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43966</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43967 - Libheif NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43967
+<br>
+<strong>Published : </strong> April 21, 2025, 12:15 a.m. | 3 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>libheif before 1.19.6 has a NULL pointer dereference in ImageItem_Grid::get_decoder in image-items/grid.cc because a grid image can reference a nonexistent image item.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43967</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43967</guid>
+    </item>
+    <item>
+      <title>CVE-2020-36844 - KnowBe4 Security Awareness Training Reflective Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2020-36844
+<br>
+<strong>Published : </strong> April 20, 2025, 10:15 p.m. | 5 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>The KnowBe4 Security Awareness Training application before 2020-01-10 allows reflected XSS. The response has a SCRIPT element that sets window.location.href to a JavaScript URL.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2020-36844</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2020-36844</guid>
+    </item>
+    <item>
+      <title>CVE-2020-36845 - KnowBe4 Security Awareness Training Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2020-36845
+<br>
+<strong>Published : </strong> April 20, 2025, 10:15 p.m. | 5 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>The KnowBe4 Security Awareness Training application before 2020-01-10 contains a redirect function that does not validate the destination URL before redirecting. The response has a SCRIPT element that sets window.location.href to an arbitrary https URL.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2020-36845</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2020-36845</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43955 - Convertigo TwsCachedXPathAPI Commons-JXPath API Deserialization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43955
+<br>
+<strong>Published : </strong> April 20, 2025, 8:15 p.m. | 7 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>TwsCachedXPathAPI in Convertigo through 8.3.4 does not restrict the use of commons-jxpath APIs.
+<br>
+<strong>Severity:</strong> 2.2 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43955</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43955</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43954 - QMarkdown Quasar-ui-QMarkdown Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43954
+<br>
+<strong>Published : </strong> April 20, 2025, 7:15 p.m. | 8 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>QMarkdown (aka quasar-ui-qmarkdown) before 2.0.5 allows XSS via headers even when when no-html is set.
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43954</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43954</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3830 - Kuangstudy KuangSimpleBBS Unrestricted File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3830
+<br>
+<strong>Published : </strong> April 20, 2025, 5:15 p.m. | 10 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in kuangstudy KuangSimpleBBS 1.0. It has been declared as critical. Affected by this vulnerability is the function fileUpload of the file src/main/java/com/kuang/controller/QuestionController.java. The manipulation of the argument editormd-image-file leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3830</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3830</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3828 - PHPGurukul Men Salon Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3828
+<br>
+<strong>Published : </strong> April 20, 2025, 4:15 p.m. | 11 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Men Salon Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/view-appointment.php?viewid=11. The manipulation of the argument remark leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3828</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3828</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3829 - PHPGurukul Men Salon Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3829
+<br>
+<strong>Published : </strong> April 20, 2025, 4:15 p.m. | 11 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Men Salon Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /admin/sales-reports-detail.php. The manipulation of the argument fromdate/todate leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3829</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3829</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3827 - PHPGurukul Men Salon Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3827
+<br>
+<strong>Published : </strong> April 20, 2025, 3:15 p.m. | 12 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in PHPGurukul Men Salon Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/forgot-password.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3827</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3827</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3826 - SourceCodester Web-based Pharmacy Product Management System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3826
+<br>
+<strong>Published : </strong> April 20, 2025, 1:15 p.m. | 14 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, was found in SourceCodester Web-based Pharmacy Product Management System 1.0. This affects an unknown part of the file add-supplier.php. The manipulation of the argument txtsupplier_name/txtaddress leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3826</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3826</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3825 - SourceCodester Web-based Pharmacy Product Management System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3825
+<br>
+<strong>Published : </strong> April 20, 2025, 12:15 p.m. | 15 hours, 18 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in SourceCodester Web-based Pharmacy Product Management System 1.0. Affected by this issue is some unknown functionality of the file add-category.php. The manipulation of the argument txtcategory_name leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3825</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3825</guid>
+    </item>
+    <item>
       <title>CVE-2025-3823 - SourceCodester Web-based Pharmacy Product Management System Cross-Site Scripting Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3823
 <br>
-<strong>Published : </strong> April 20, 2025, 11:15 a.m. | 27 minutes ago
+<strong>Published : </strong> April 20, 2025, 11:15 a.m. | 16 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in SourceCodester Web-based Pharmacy Product Management System 1.0. Affected is an unknown function of the file add-stock.php. The manipulation of the argument txttotalcost/txtproductID/txtprice/txtexpirydate leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3824
 <br>
-<strong>Published : </strong> April 20, 2025, 11:15 a.m. | 27 minutes ago
+<strong>Published : </strong> April 20, 2025, 11:15 a.m. | 16 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in SourceCodester Web-based Pharmacy Product Management System 1.0. Affected by this vulnerability is an unknown functionality of the file add-product.php. The manipulation of the argument txtprice/txtproduct_name leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3822
 <br>
-<strong>Published : </strong> April 20, 2025, 7:15 a.m. | 4 hours, 27 minutes ago
+<strong>Published : </strong> April 20, 2025, 7:15 a.m. | 20 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in SourceCodester Web-based Pharmacy Product Management System 1.0. It has been rated as problematic. This issue affects some unknown processing of the file changepassword.php. The manipulation of the argument txtconfirm_password/txtnew_password/txtold_password leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -70,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3821
 <br>
-<strong>Published : </strong> April 20, 2025, 4:15 a.m. | 7 hours, 27 minutes ago
+<strong>Published : </strong> April 20, 2025, 4:15 a.m. | 23 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in SourceCodester Web-based Pharmacy Product Management System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file add-admin.php. The manipulation of the argument txtpassword/txtfullname/txtemail leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -83,28 +423,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3821</guid>
     </item>
     <item>
-      <title>CVE-2025-43928 - Infodraw Media Relay Service File Reading Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-43928
-<br>
-<strong>Published : </strong> April 20, 2025, 3:15 a.m. | 8 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>In Infodraw Media Relay Service (MRS) 7.1.0.0, the MRS web server (on port 12654) allows reading arbitrary files via ../ directory traversal in the username field. Reading ServerParameters.xml may reveal administrator credentials in cleartext or with MD5 hashing.
-<br>
-<strong>Severity:</strong> 5.8 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sun, 20 Apr 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-43928</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43928</guid>
-    </item>
-    <item>
       <title>CVE-2025-43929 - Kitty Open Actions Local File Execution Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43929
 <br>
-<strong>Published : </strong> April 20, 2025, 3:15 a.m. | 8 hours, 27 minutes ago
+<strong>Published : </strong> April 20, 2025, 3:15 a.m. | 1 day ago
 <br>
 <strong>Description : </strong>open_actions.py in kitty before 0.41.0 does not ask for user confirmation before running a local executable file that may have been linked from an untrusted document (e.g., a document opened in KDE ghostwriter).
 <br>
@@ -117,11 +440,28 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-43929</guid>
     </item>
     <item>
+      <title>CVE-2025-43928 - Infodraw Media Relay Service File Reading Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43928
+<br>
+<strong>Published : </strong> April 20, 2025, 3:15 a.m. | 20 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>In Infodraw Media Relay Service (MRS) 7.1.0.0, the MRS web server (on port 12654) allows reading arbitrary files via ../ directory traversal in the username field. Reading ServerParameters.xml may reveal administrator credentials in cleartext or with MD5 hashing.
+<br>
+<strong>Severity:</strong> 5.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 20 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43928</guid>
+    </item>
+    <item>
       <title>CVE-2025-43919 - cPanel WHM GNU Mailman File Traversal Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43919
 <br>
-<strong>Published : </strong> April 20, 2025, 1:15 a.m. | 10 hours, 27 minutes ago
+<strong>Published : </strong> April 20, 2025, 1:15 a.m. | 22 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to read arbitrary files via ../ directory traversal at /mailman/private/mailman (aka the private archive authentication endpoint) via the username parameter.
 <br>
@@ -138,7 +478,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43920
 <br>
-<strong>Published : </strong> April 20, 2025, 1:15 a.m. | 10 hours, 27 minutes ago
+<strong>Published : </strong> April 20, 2025, 1:15 a.m. | 22 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to execute arbitrary OS commands via shell metacharacters in an email Subject line.
 <br>
@@ -155,7 +495,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43921
 <br>
-<strong>Published : </strong> April 20, 2025, 1:15 a.m. | 10 hours, 27 minutes ago
+<strong>Published : </strong> April 20, 2025, 1:15 a.m. | 22 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to create lists via the /mailman/create endpoint.
 <br>
@@ -172,7 +512,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-26819
 <br>
-<strong>Published : </strong> April 19, 2025, 10:15 p.m. | 13 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 10:15 p.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>cJSON 1.7.15 might allow a denial of service via a crafted JSON document such as {"a": true, "b": [ null,9999999999999999999999999999999999999999999999912345678901234567]}.
 <br>
@@ -189,7 +529,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-30421
 <br>
-<strong>Published : </strong> April 19, 2025, 10:15 p.m. | 13 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 10:15 p.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>mystrtod in mjson 1.2.7 requires more than a billion iterations during processing of certain digit strings such as 8891110122900e913013935755114.
 <br>
@@ -206,7 +546,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43918
 <br>
-<strong>Published : </strong> April 19, 2025, 10:15 p.m. | 13 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 10:15 p.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>SSL.com before 2025-04-19, when domain validation method 3.2.2.4.14 is used, processes certificate requests such that a trusted TLS certificate may be issued for the domain name of a requester's email address, even when the requester does not otherwise establish administrative control of that domain.
 <br>
@@ -223,7 +563,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2022-47111
 <br>
-<strong>Published : </strong> April 19, 2025, 9:15 p.m. | 14 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 9:15 p.m. | 1 day, 2 hours ago
 <br>
 <strong>Description : </strong>7-Zip 22.01 does not report an error for certain invalid xz files, involving block flags and reserved bits. Some later versions are unaffected.
 <br>
@@ -240,7 +580,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2022-47112
 <br>
-<strong>Published : </strong> April 19, 2025, 9:15 p.m. | 14 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 9:15 p.m. | 1 day, 2 hours ago
 <br>
 <strong>Description : </strong>7-Zip 22.01 does not report an error for certain invalid xz files, involving stream flags and reserved bits. Some later versions are unaffected.
 <br>
@@ -257,7 +597,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3820
 <br>
-<strong>Published : </strong> April 19, 2025, 9:15 p.m. | 14 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 9:15 p.m. | 1 day, 2 hours ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Tenda W12 and i24 3.0.0.4(2887)/3.0.0.5(3644) and classified as critical. Affected by this issue is the function cgiSysUplinkCheckSet of the file /bin/httpd. The manipulation of the argument hostIp1/hostIp2 leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -274,7 +614,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3818
 <br>
-<strong>Published : </strong> April 19, 2025, 8:15 p.m. | 15 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 8:15 p.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in webpy web.py 0.70. Affected is the function PostgresDB._process_insert_query of the file web/db.py. The manipulation of the argument seqname leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -291,7 +631,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3819
 <br>
-<strong>Published : </strong> April 19, 2025, 8:15 p.m. | 15 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 8:15 p.m. | 1 day, 1 hour ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in PHPGurukul Men Salon Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/search-appointment.php. The manipulation of the argument searchdata leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -304,28 +644,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3819</guid>
     </item>
     <item>
-      <title>CVE-2025-3817 - SourceCodester Online Eyewear Shop SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3817
-<br>
-<strong>Published : </strong> April 19, 2025, 7:15 p.m. | 16 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in SourceCodester Online Eyewear Shop 1.0. This issue affects some unknown processing of the file /oews/classes/Master.php?f=delete_stock. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3817</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3817</guid>
-    </item>
-    <item>
       <title>CVE-2025-43917 - Pritunl Client Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43917
 <br>
-<strong>Published : </strong> April 19, 2025, 7:15 p.m. | 16 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 7:15 p.m. | 1 day ago
 <br>
 <strong>Description : </strong>In Pritunl Client before 1.3.4220.57, an administrator with access to /Applications can escalate privileges after uninstalling the product. Specifically, an administrator can insert a new file at the pathname of the removed pritunl-service file. This file then is executed by a LaunchDaemon as root.
 <br>
@@ -338,11 +661,28 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-43917</guid>
     </item>
     <item>
+      <title>CVE-2025-3817 - SourceCodester Online Eyewear Shop SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3817
+<br>
+<strong>Published : </strong> April 19, 2025, 7:15 p.m. | 22 hours, 27 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in SourceCodester Online Eyewear Shop 1.0. This issue affects some unknown processing of the file /oews/classes/Master.php?f=delete_stock. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3817</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3817</guid>
+    </item>
+    <item>
       <title>CVE-2025-3808 - Zhenfeng13 My-BBS Cross-Site Request Forgery Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3808
 <br>
-<strong>Published : </strong> April 19, 2025, 6:15 p.m. | 17 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 6:15 p.m. | 21 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in zhenfeng13 My-BBS 1.0 and classified as problematic. This vulnerability affects unknown code. The manipulation leads to cross-site request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Multiple endpoints might be affected.
 <br>
@@ -359,7 +699,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3816
 <br>
-<strong>Published : </strong> April 19, 2025, 6:15 p.m. | 17 hours, 27 minutes ago
+<strong>Published : </strong> April 19, 2025, 6:15 p.m. | 21 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in westboy CicadasCMS 2.0. This vulnerability affects unknown code of the file /system/schedule/save of the component Scheduled Task Handler. The manipulation leads to os command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -370,6 +710,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 19 Apr 2025 18:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-3816</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3816</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3807 - Zhenfeng13 My-BBS Unrestricted File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3807
+<br>
+<strong>Published : </strong> April 19, 2025, 5:15 p.m. | 22 hours, 36 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in zhenfeng13 My-BBS 1.0. This affects the function Upload of the file src/main/java/com/my/bbs/controller/common/UploadController.java of the component Endpoint. The manipulation leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3807</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3807</guid>
     </item>
     <item>
       <title>CVE-2025-3806 - Dazhouda Lcms Cross Site Scripting Vulnerability</title>
@@ -387,23 +744,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 19 Apr 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-3806</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3806</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3807 - Zhenfeng13 My-BBS Unrestricted File Upload Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3807
-<br>
-<strong>Published : </strong> April 19, 2025, 5:15 p.m. | 18 hours, 27 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, was found in zhenfeng13 My-BBS 1.0. This affects the function Upload of the file src/main/java/com/my/bbs/controller/common/UploadController.java of the component Endpoint. The manipulation leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Apr 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3807</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3807</guid>
     </item>
     <item>
       <title>CVE-2025-3804 - Thautwarm VSCode-Diana Jinja2 Template Handler Injection Vulnerability</title>
