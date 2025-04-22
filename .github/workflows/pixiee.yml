@@ -9,7 +9,7 @@ on:
     types: [opened, reopened, update,synchronize]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   pixee_fix:
