@@ -8,14 +8,439 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 22 Apr 2025 18:14:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Apr 2025 20:11:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
-      <title>CVE-2025-27907 - IBM WebSphere Application Server SSRF Vulnerability</title>
+      <title>CVE-2024-53568 - Volmarg Personal Management System Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-53568
+<br>
+<strong>Published : </strong> April 22, 2025, 7:15 p.m. | 23 minutes ago
+<br>
+<strong>Description : </strong>A stored cross-site scripting (XSS) vulnerability in the Image Upload section of Volmarg Personal Management System v1.4.65 allows authenticated attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the tag parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-53568</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-53568</guid>
+    </item>
+    <item>
+      <title>CVE-2024-53569 - Volmarg Personal Management System Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-53569
+<br>
+<strong>Published : </strong> April 22, 2025, 7:15 p.m. | 23 minutes ago
+<br>
+<strong>Description : </strong>A stored cross-site scripting (XSS) vulnerability in the New Goal Creation section of Volmarg Personal Management System v1.4.65 allows authenticated attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the description parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-53569</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-53569</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23253 - NVIDIA NvContainer OpenSSL Hard-Coded Constant DLL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23253
+<br>
+<strong>Published : </strong> April 22, 2025, 7:15 p.m. | 23 minutes ago
+<br>
+<strong>Description : </strong>NVIDIA NvContainer service for Windows contains a vulnerability in its usage of OpenSSL, where an attacker could exploit a hard-coded constant issue by copying a malicious DLL in a hard-coded path. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, or data tampering.
+<br>
+<strong>Severity:</strong> 2.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23253</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23253</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29621 - RosarioSIS Content Spoofing Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29621
+<br>
+<strong>Published : </strong> April 22, 2025, 7:15 p.m. | 23 minutes ago
+<br>
+<strong>Description : </strong>Francois Jacquet RosarioSIS v12.0.0 was discovered to contain a content spoofing vulnerability in the Theme configuration under the My Preferences module. This vulnerability allows attackers to manipulate application settings.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29621</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29621</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31327 - SAP Field Logistics Manage Logistics Data Tampering Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31327
+<br>
+<strong>Published : </strong> April 22, 2025, 7:15 p.m. | 23 minutes ago
+<br>
+<strong>Description : </strong>SAP Field Logistics Manage Logistics application OData meta-data property is vulnerable to data tampering, due to which certain fields could be externally modified by an attacker causing low impact on integrity of the application. Confidentiality and availability are not impacted.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31327</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31327</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31328 - SAP Learning Solution CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31328
+<br>
+<strong>Published : </strong> April 22, 2025, 7:15 p.m. | 23 minutes ago
+<br>
+<strong>Description : </strong>SAP Learning Solution is vulnerable to Cross-Site Request Forgery (CSRF), allowing an attacker to trick authenticated user into sending unintended requests to the server. GET-based OData function is named in a way that it violates the expected behaviour. This issue could impact both the confidentiality and integrity of the application without affecting the availability.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31328</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31328</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32952 - Jmix File Size Limitation Dos</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32952
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>Jmix is a set of libraries and tools to speed up Spring Boot data-centric application development. In versions 1.0.0 to 1.6.1 and 2.0.0 to 2.3.4, the local file storage implementation does not restrict the size of uploaded files. An attacker could exploit this by uploading excessively large files, potentially causing the server to run out of space and return HTTP 500 error, resulting in a denial of service. This issue has been patched in versions 1.6.2 and 2.4.0. A workaround is provided on the Jmix documentation website.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32952</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32952</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32959 - CUBA Platform Denial of Service File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32959
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>CUBA Platform is a high level framework for enterprise applications development. Prior to version 7.2.23, the local file storage implementation does not restrict the size of uploaded files. An attacker could exploit this by uploading excessively large files, potentially causing the server to run out of space and return HTTP 500 error, resulting in a denial of service. This issue has been patched in version 7.2.23. A workaround is provided on the Jmix documentation website.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32959</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32959</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32960 - CUBA REST API Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32960
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>The CUBA REST API add-on performs operations on data and entities. Prior to version 7.2.7, the input parameter, which consists of a file path and name, can be manipulated to return the Content-Type header with text/html if the name part ends with .html. This could allow malicious JavaScript code to be executed in the browser. For a successful attack, a malicious file needs to be uploaded beforehand. This issue has been patched in version 7.2.7. A workaround is provided on the Jmix documentation website.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32960</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32960</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32961 - Cuba JPA Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32961
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>The Cuba JPA web API enables loading and saving any entities defined in the application data model by sending simple HTTP requests. Prior to version 1.1.1, the input parameter, which consists of a file path and name, can be manipulated to return the Content-Type header with text/html if the name part ends with .html. This could allow malicious JavaScript code to be executed in the browser. For a successful attack, a malicious file needs to be uploaded beforehand. This issue has been patched in version 1.1.1. A workaround is provided on the Jmix documentation website.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32961</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32961</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32963 - MinIO Operator STS Unauthenticated Kubernetes API Server Impersonation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32963
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>MinIO Operator STS is a native IAM Authentication for Kubernetes. Prior to version 7.1.0, if no audiences are provided for the `spec.audiences` field, the default will be of the Kubernetes apiserver. Without scoping, it can be replayed to other internal systems, which may unintentionally trust it. This issue has been patched in version 7.1.0.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32963</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32963</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32964 - ManageWiki Extension Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32964
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>ManageWiki is a MediaWiki extension allowing users to manage wikis. Prior to commit 00bebea, when enabling a conflicting extension, a restricted extension would be automatically disabled even if the user did not hold the ManageWiki-restricted right. This issue has been patched in commit 00bebea. A workaround involves ensuring that any extensions requiring specific permissions in `$wgManageWikiExtensions` also require the same permissions for managing any conflicting extensions.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32964</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32964</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43946 - TCPWave DDI Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43946
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>TCPWave DDI 11.34P1C2 allows Remote Code Execution via Unrestricted File Upload (combined with Path Traversal).
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43946</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43946</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43947 - Codemers KLIMS Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43947
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>Codemers KLIMS 1.6.DEV lacks a proper access control mechanism, allowing a normal KLIMS user to perform all the actions that an admin can perform, such as modifying the configuration, creating a user, uploading files, etc.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43947</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43947</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43948 - Codemers KLIMS Python Code Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43948
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>Codemers KLIMS 1.6.DEV allows Python code injection. A user can provide Python code as an input value for a parameter or qualifier (such as for sorting), which will get executed on the server side.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43948</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43948</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43949 - MuM MapEdit SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43949
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>MuM (aka Mensch und Maschine) MapEdit (aka mapedit-web) 24.2.3 is vulnerable to SQL Injection that allows an attacker to execute malicious SQL statements that control a web application's database server.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43949</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43949</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43950 - "Microsoft DPMAdirektPro DLL Hijacking Privilege Escalation Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43950
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>DPMAdirektPro 4.1.5 is vulnerable to DLL Hijacking. It happens by placing a malicious DLL in a directory (in the absence of a legitimate DLL), which is then loaded by the application instead of the legitimate DLL. This causes the malicious DLL to load with the same privileges as the application, thus causing a privilege escalation.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43950</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43950</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43951 - LabVantage Local File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43951
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>LabVantage before LV 8.8.0.13 HF6 allows local file inclusion. Authenticated users can retrieve arbitrary files from the environment via the objectname request parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43951</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43951</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43952 - Mettler Toledo FreeWeight.Net Web Reports Viewer Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43952
+<br>
+<strong>Published : </strong> April 22, 2025, 6:16 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>A cross-site scripting (reflected XSS) vulnerability was found in Mettler Toledo FreeWeight.Net Web Reports Viewer 8.4.0 (440). It allows an attacker to inject malicious scripts via the IW_SessionID_ parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43952</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43952</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28036 - TOTOLINK A950RG Remote Command Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28036
+<br>
+<strong>Published : </strong> April 22, 2025, 6:15 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK A950RG V4.1.2cu.5161_B20200903 was found to contain a pre-auth remote command execution vulnerability in the setNoticeCfg function through the NoticeUrl parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28036</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28036</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28038 - TOTOLINK EX1200T Remote Command Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28038
+<br>
+<strong>Published : </strong> April 22, 2025, 6:15 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK EX1200T V4.1.2cu.5232_B20210713 was found to contain a pre-auth remote command execution vulnerability in the setWebWlanIdx function through the webWlanIdx parameter.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28038</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28038</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28039 - TOTOLINK EX1200T Remote Command Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28039
+<br>
+<strong>Published : </strong> April 22, 2025, 6:15 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK EX1200T V4.1.2cu.5232_B20210713 was found to contain a pre-auth remote command execution vulnerability in the setUpgradeFW function through the FileName parameter.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28039</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28039</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32788 - OctoPrint Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32788
+<br>
+<strong>Published : </strong> April 22, 2025, 6:15 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>OctoPrint provides a web interface for controlling consumer 3D printers. In versions up to and including 1.10.3, OctoPrint has a vulnerability that allows an attacker to bypass the login redirect and directly access the rendered HTML of certain frontend pages. The primary risk lies in potential future modifications to the codebase that might incorrectly rely on the vulnerable internal functions for authentication checks, leading to security vulnerabilities. This issue has been patched in version 1.11.0.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32788</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32788</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32950 - Jmix File Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32950
+<br>
+<strong>Published : </strong> April 22, 2025, 6:15 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>Jmix is a set of libraries and tools to speed up Spring Boot data-centric application development. In versions 1.0.0 to 1.6.1 and 2.0.0 to 2.3.4, attackers could manipulate the FileRef parameter to access files on the system where the Jmix application is deployed, provided the application server has the necessary permissions. This can be accomplished either by modifying the FileRef directly in the database or by supplying a harmful value in the fileRef parameter of the `/files` endpoint of the generic REST API. This issue has been patched in versions 1.6.2 and 2.4.0. A workaround is provided on the Jmix documentation website.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32950</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32950</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32951 - Jmix HTML Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32951
+<br>
+<strong>Published : </strong> April 22, 2025, 6:15 p.m. | 1 hour, 22 minutes ago
+<br>
+<strong>Description : </strong>Jmix is a set of libraries and tools to speed up Spring Boot data-centric application development. In versions 1.0.0 to 1.6.1 and 2.0.0 to 2.3.4, the input parameter, which consists of a file path and name, can be manipulated to return the Content-Type header with text/html if the name part ends with .html. This could allow malicious JavaScript code to be executed in the browser. For a successful attack, a malicious file needs to be uploaded beforehand. This issue has been patched in versions 1.6.2 and 2.4.0. A workaround is provided on the Jmix documentation website.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32951</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32951</guid>
+    </item>
+    <item>
+      <title>CVE-2024-11299 - Memberpress WordPress Sensitive Information Exposure</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27907
 <br>
