@@ -8,18 +8,86 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 21 Apr 2025 22:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Apr 2025 00:51:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3846 - Markparticle WebServer SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3846
+<br>
+<strong>Published : </strong> April 21, 2025, 11:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in markparticle WebServer up to 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file code/http/httprequest.cpp of the component Registration. The manipulation of the argument username/password leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3846</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3846</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3847 - Markparticle WebServer SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3847
+<br>
+<strong>Published : </strong> April 21, 2025, 11:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in markparticle WebServer up to 1.0. This affects an unknown part of the file code/http/httprequest.cpp of the component Login. The manipulation of the argument username/password leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3847</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3847</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3843 - Panhainan DS-Java CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3843
+<br>
+<strong>Published : </strong> April 21, 2025, 10:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in panhainan DS-Java 1.0. It has been classified as problematic. Affected is an unknown function. The manipulation leads to cross-site request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3843</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3843</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3845 - Markparticle WebServer Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3845
+<br>
+<strong>Published : </strong> April 21, 2025, 10:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in markparticle WebServer up to 1.0. It has been declared as critical. Affected by this vulnerability is the function Buffer::HasWritten of the file code/buffer/buffer.cpp. The manipulation of the argument writePos_ leads to buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3845</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3845</guid>
+    </item>
+    <item>
       <title>CVE-2025-32955 - Harden-Runner Docker Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32955
 <br>
-<strong>Published : </strong> April 21, 2025, 9:15 p.m. | 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 9:15 p.m. | 2 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Harden-Runner is a CI/CD security agent that works like an EDR for GitHub Actions runners. Versions from 0.12.0 to before 2.12.0 are vulnerable to `disable-sudo` bypass. Harden-Runner includes a policy option `disable-sudo` to prevent the GitHub Actions runner user from using sudo. This is implemented by removing the runner user from the sudoers file. However, this control can be bypassed as the runner user, being part of the docker group, can interact with the Docker daemon to launch privileged containers or access the host filesystem. This allows the attacker to regain root access or restore the sudoers file, effectively bypassing the restriction. This issue has been patched in version 2.12.0.
 <br>
@@ -36,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32956
 <br>
-<strong>Published : </strong> April 21, 2025, 9:15 p.m. | 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 9:15 p.m. | 2 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>ManageWiki is a MediaWiki extension allowing users to manage wikis. Versions before commit f504ed8, are vulnerable to SQL injection when renaming a namespace in Special:ManageWiki/namespaces when using a page prefix (namespace name, which is the current namespace you are renaming) with an injection payload. This issue has been patched in commit f504ed8. A workaround for this vulnerability involves setting `$wgManageWiki['namespaces'] = false;`.
 <br>
@@ -53,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32958
 <br>
-<strong>Published : </strong> April 21, 2025, 9:15 p.m. | 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 9:15 p.m. | 2 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Adept is a language for general purpose programming. Prior to commit a1a41b7, the remoteBuild.yml workflow file uses actions/upload-artifact@v4 to upload the mac-standalone artifact. This artifact is a zip of the current directory, which includes the automatically generated .git/config file containing the run's GITHUB_TOKEN. Seeing as the artifact can be downloaded prior to the end of the workflow, there is a few seconds where an attacker can extract the token from the artifact and use it with the Github API to push malicious code or rewrite release commits in the AdeptLanguage/Adept repository. This issue has been patched in commit a1a41b7.
 <br>
@@ -70,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3842
 <br>
-<strong>Published : </strong> April 21, 2025, 9:15 p.m. | 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 9:15 p.m. | 2 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in panhainan DS-Java 1.0 and classified as critical. This issue affects the function uploadUserPic.action of the file src/com/phn/action/FileUpload.java. The manipulation of the argument fileUpload leads to code injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -87,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3841
 <br>
-<strong>Published : </strong> April 21, 2025, 8:15 p.m. | 1 hour, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 8:15 p.m. | 3 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in wix-incubator jam up to e87a6fd85cf8fb5ff37b62b2d68f917219d07ae9. This affects an unknown part of the file jam.py of the component Jinja2 Template Handler. The manipulation of the argument config['template'] leads to improper neutralization of special elements used in a template engine. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available.
 <br>
@@ -104,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-57394
 <br>
-<strong>Published : </strong> April 21, 2025, 6:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 6:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>The quarantine - restore function in Qi-ANXIN Tianqing Endpoint Security Management System v10.0 allows user to restore a malicious file to an arbitrary file path. Attackers can write malicious DLL to system path and perform privilege escalation by leveraging Windows DLL hijacking vulnerabilities.
 <br>
@@ -121,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27086
 <br>
-<strong>Published : </strong> April 21, 2025, 6:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 6:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the HPE Performance Cluster Manager (HPCM) GUI could allow an attacker to bypass authentication.
 <br>
@@ -138,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28103
 <br>
-<strong>Published : </strong> April 21, 2025, 6:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 6:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Incorrect access control in laskBlog v2.6.1 allows attackers to arbitrarily delete user accounts via a crafted request.
 <br>
@@ -155,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28104
 <br>
-<strong>Published : </strong> April 21, 2025, 6:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 6:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Incorrect access control in laskBlog v2.6.1 allows attackers to access all usernames via a crafted input.
 <br>
@@ -172,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23174
 <br>
-<strong>Published : </strong> April 21, 2025, 5:15 p.m. | 4 hours, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 5:15 p.m. | 6 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>CWE-200: Exposure of Sensitive Information to an Unauthorized Actor
 <br>
@@ -189,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28099
 <br>
-<strong>Published : </strong> April 21, 2025, 5:15 p.m. | 4 hours, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 5:15 p.m. | 6 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>opencms V2.3 is vulnerable to Arbitrary file read in src/main/webapp/view/admin/document/dataPage.jsp,
 <br>
@@ -206,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28102
 <br>
-<strong>Published : </strong> April 21, 2025, 5:15 p.m. | 4 hours, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 5:15 p.m. | 6 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>A cross-site scripting (XSS) vulnerability in flaskBlog v2.6.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the postContent parameter at /createpost.
 <br>
@@ -223,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29446
 <br>
-<strong>Published : </strong> April 21, 2025, 5:15 p.m. | 4 hours, 19 minutes ago
+<strong>Published : </strong> April 21, 2025, 5:15 p.m. | 6 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>open-webui v0.5.16 is vulnerable to SSRF in routers/ollama.py in function verify_connection.
 <br>
@@ -240,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-12543
 <br>
-<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 5 hours, 18 minutes ago
+<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 7 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>User Enumeration and Data Integrity in Barcode functionality in OpenText Content Management versions 24.3-25.1on Windows and Linux allows a malicous authenticated attacker to potentially alter barcode attributes.
 <br>
@@ -257,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28367
 <br>
-<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 5 hours, 18 minutes ago
+<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 7 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>mojoPortal <=2.9.0.1 is vulnerable to Directory Traversal via BetterImageGallery API Controller - ImageHandler Action. An attacker can exploit this vulnerability to access the Web.Config file and obtain the MachineKey.
 <br>
@@ -274,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32431
 <br>
-<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 5 hours, 18 minutes ago
+<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 7 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>Traefik (pronounced traffic) is an HTTP reverse proxy and load balancer. In versions prior to 2.11.24, 3.3.6, and 3.4.0-rc2. There is a potential vulnerability in Traefik managing the requests using a PathPrefix, Path or PathRegex matcher. When Traefik is configured to route the requests to a backend using a matcher based on the path, if the URL contains a /../ in its path, it’s possible to target a backend, exposed using another router, by-passing the middlewares chain. This issue has been patched in versions 2.11.24, 3.3.6, and 3.4.0-rc2. A workaround involves adding a `PathRegexp` rule to the matcher to prevent matching a route with a `/../` in the path.
 <br>
@@ -291,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32793
 <br>
-<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 5 hours, 18 minutes ago
+<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 7 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>Cilium is a networking, observability, and security solution with an eBPF-based dataplane. Versions 1.15.0 to 1.15.15, 1.16.0 to 1.16.8, and 1.17.0 to 1.17.2, are vulnerable when using Wireguard transparent encryption in a Cilium cluster, packets that originate from a terminating endpoint can leave the source node without encryption due to a race condition in how traffic is processed by Cilium. This issue has been patched in versions 1.15.16, 1.16.9, and 1.17.3. There are no workarounds available for this issue.
 <br>
@@ -308,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3857
 <br>
-<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 5 hours, 18 minutes ago
+<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 7 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>When reading binary Ion data through Amazon.IonDotnet using the RawBinaryReader class, Amazon.IonDotnet does not check the number of bytes read from the underlying stream while deserializing the binary format. If the Ion data is malformed or truncated, this triggers an infinite loop condition that could potentially result in a denial of service. Users should upgrade to Amazon.IonDotnet version 1.3.1 and ensure any forked or derivative code is patched to incorporate the new fixes.
 <br>
@@ -325,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43922
 <br>
-<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 5 hours, 18 minutes ago
+<strong>Published : </strong> April 21, 2025, 4:15 p.m. | 7 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>The FileWave Windows client before 16.0.0, in some non-default configurations, allows an unprivileged local user to escalate privileges to SYSTEM.
 <br>
@@ -338,45 +406,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-43922</guid>
     </item>
     <item>
-      <title>CVE-2025-29659 - Yi IOT XY-3820 Remote Command Execution Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29659
-<br>
-<strong>Published : </strong> April 21, 2025, 3:16 p.m. | 6 hours, 18 minutes ago
-<br>
-<strong>Description : </strong>Yi IOT XY-3820 6.0.24.10 is vulnerable to Remote Command Execution via the "cmd_listen" function located in the "cmd" binary.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 21 Apr 2025 15:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29659</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29659</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29660 - Yi IOT XY-3820 Remote Code Execution Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29660
-<br>
-<strong>Published : </strong> April 21, 2025, 3:16 p.m. | 6 hours, 18 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability exists in the daemon process of the Yi IOT XY-3820 v6.0.24.10, which exposes a TCP service on port 6789. This service lacks proper input validation, allowing attackers to execute arbitrary scripts present on the device by sending specially crafted TCP requests using directory traversal techniques.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 21 Apr 2025 15:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29660</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29660</guid>
-    </item>
-    <item>
       <title>CVE-2025-2298 - Dremio Software File Deletion Authorization Bypass</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2298
 <br>
-<strong>Published : </strong> April 21, 2025, 3:16 p.m. | 6 hours, 18 minutes ago
+<strong>Published : </strong> April 21, 2025, 3:16 p.m. | 8 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>An improper authorization vulnerability in Dremio Software allows authenticated users to delete arbitrary files that the system has access to, including system files and files stored in remote locations such as S3, Azure Blob Storage, and local filesystems. This vulnerability exists due to insufficient access controls on an API endpoint, enabling any authenticated user to specify and delete files outside their intended scope. Exploiting this flaw could lead to data loss, denial of service (DoS), and potential escalation of impact depending on the deleted files.
 
@@ -427,7 +461,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2517
 <br>
-<strong>Published : </strong> April 21, 2025, 3:16 p.m. | 6 hours, 18 minutes ago
+<strong>Published : </strong> April 21, 2025, 3:16 p.m. | 8 hours, 18 minutes ago
 <br>
 <strong>Description : </strong>Reference to Expired Domain Vulnerability in OpenText™ ArcSight Enterprise Security Manager.
 <br>
@@ -440,7 +474,41 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2517</guid>
     </item>
     <item>
-      <title>CVE-2025-28121 - Code-Projects Online Exam Mastering System XSS Vulnerability</title>
+      <title>CVE-2025-29659 - Yi IOT XY-3820 Remote Command Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29659
+<br>
+<strong>Published : </strong> April 21, 2025, 3:16 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Yi IOT XY-3820 6.0.24.10 is vulnerable to Remote Command Execution via the "cmd_listen" function located in the "cmd" binary.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29659</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29659</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29660 - Yi IOT XY-3820 Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29660
+<br>
+<strong>Published : </strong> April 21, 2025, 3:16 p.m. | 2 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability exists in the daemon process of the Yi IOT XY-3820 v6.0.24.10, which exposes a TCP service on port 6789. This service lacks proper input validation, allowing attackers to execute arbitrary scripts present on the device by sending specially crafted TCP requests using directory traversal techniques.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 21 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29660</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29660</guid>
+    </item>
+    <item>
+      <title>CVE-2024-12862 - OpenText Content Server Unauthorized Deletion</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28121
 <br>
