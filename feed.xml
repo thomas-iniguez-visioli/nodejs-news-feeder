@@ -8,18 +8,222 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 23 Apr 2025 14:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 18:15:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-47829 - "Pnpm MD5 Path Shortening Collision Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-47829
+<br>
+<strong>Published : </strong> April 23, 2025, 4:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>pnpm is a package manager. Prior to version 10.0.0, the path shortening function uses the md5 function as a path shortening compression function, and if a collision occurs, it will result in the same storage path for two different libraries. Although the real names are under the package name /node_modoules/, there are no version numbers for the libraries they refer to. This issue has been patched in version 10.0.0.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-47829</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-47829</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21605 - Redis Unauthenticated Output Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21605
+<br>
+<strong>Published : </strong> April 23, 2025, 4:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>Redis is an open source, in-memory database that persists on disk. In versions starting at 2.6 and prior to 7.4.3, An unauthenticated client can cause unlimited growth of output buffers, until the server runs out of memory or is killed. By default, the Redis configuration does not limit the output buffer of normal clients (see client-output-buffer-limit). Therefore, the output buffer can grow unlimitedly over time. As a result, the service is exhausted and the memory is unavailable. When password authentication is enabled on the Redis server, but no password is provided, the client can still cause the output buffer to grow from "NOAUTH" responses until the system will run out of memory. This issue has been patched in version 7.4.3. An additional workaround to mitigate this problem without patching the redis-server executable is to block access to prevent unauthenticated users from connecting to Redis. This can be done in different ways. Either using network access control tools like firewalls, iptables, security groups, etc, or enabling TLS and requiring users to authenticate using client side certificates.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21605</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21605</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32966 - DataEase Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32966
+<br>
+<strong>Published : </strong> April 23, 2025, 4:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>DataEase is an open-source BI tool alternative to Tableau. Prior to version 2.10.8, authenticated users can complete RCE through the backend JDBC link. This issue has been patched in version 2.10.8.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32966</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32966</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32968 - XWiki Blind SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32968
+<br>
+<strong>Published : </strong> April 23, 2025, 4:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 1.6-milestone-1 to before 15.10.16, 16.4.6, and 16.10.1, it is possible for a user with SCRIPT right to escape from the HQL execution context and perform a blind SQL injection to execute arbitrary SQL statements on the database backend. Depending on the used database backend, the attacker may be able to not only obtain confidential information such as password hashes from the database, but also execute UPDATE/INSERT/DELETE queries. This issue has been patched in versions 16.10.1, 16.4.6 and 15.10.16. There is no known workaround, other than upgrading XWiki. The protection added to this REST API is the same as the one used to validate complete select queries, making it more consistent. However, while the script API always had this protection for complete queries, it's important to note that it's a very strict protection and some valid, but complex, queries might suddenly require the author to have programming right.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32968</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32968</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32969 - XWiki Blind SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32969
+<br>
+<strong>Published : </strong> April 23, 2025, 4:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 1.8 and prior to 15.10.16, 16.4.6, and 16.10.1, it is possible for a remote unauthenticated user to escape from the HQL execution context and perform a blind SQL injection to execute arbitrary SQL statements on the database backend, including when "Prevent unregistered users from viewing pages, regardless of the page rights" and "Prevent unregistered users from editing pages, regardless of the page rights" options are enabled. Depending on the used database backend, the attacker may be able to not only obtain confidential information such as password hashes from the database, but also execute UPDATE/INSERT/DELETE queries. This issue has been patched in versions 16.10.1, 16.4.6 and 15.10.16. There is no known workaround, other than upgrading XWiki.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32969</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32969</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45429 - Tenda ac9 Stack Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45429
+<br>
+<strong>Published : </strong> April 23, 2025, 4:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>In the Tenda ac9 v1.0 router with firmware V15.03.05.14_multi, there is a stack overflow vulnerability in /goform/WifiWpsStart, which may lead to remote arbitrary code execution.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45429</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45429</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46394 - BusyBox Tar Terminal Escape Sequence File Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46394
+<br>
+<strong>Published : </strong> April 23, 2025, 4:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
+<br>
+<strong>Severity:</strong> 3.2 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46394</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46394</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43965 - ImageMagick MIFF Image Depth Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43965
+<br>
+<strong>Published : </strong> April 23, 2025, 3:16 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>In MIFF image processing in ImageMagick before 7.1.1-44, image depth is mishandled after SetQuantumFormat is used.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43965</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43965</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45427 - Tenda AC9 Stack Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45427
+<br>
+<strong>Published : </strong> April 23, 2025, 3:16 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>In Tenda AC9 v1.0 with firmware V15.03.05.14_multi, the security parameter of /goform/WifiBasicSet has a stack overflow vulnerability, which can lead to remote arbitrary code execution.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45427</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45427</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45428 - Tenda AC9 Stack Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45428
+<br>
+<strong>Published : </strong> April 23, 2025, 3:16 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>In Tenda ac9 v1.0 with firmware V15.03.05.14_multi, the rebootTime parameter of /goform/SetSysAutoRebbotCfg has a stack overflow vulnerability, which can lead to remote arbitrary code execution.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45428</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45428</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46393 - ImageMagick Multispectral Packet Size Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46393
+<br>
+<strong>Published : </strong> April 23, 2025, 3:16 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>In multispectral MIFF image processing in ImageMagick before 7.1.1-44, packet_size is mishandled (related to the rendering of all channels in an arbitrary order).
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46393</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46393</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43716 - Ivanti LANDesk Management Gateway Directory Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43716
+<br>
+<strong>Published : </strong> April 23, 2025, 2:15 p.m. | 2 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A directory traversal vulnerability exists in Ivanti LANDesk Management Gateway through 4.2-1.9. By appending %3F.php to the URI of the /client/index.php endpoint, an attacker can bypass access controls and gain unauthorized access to various endpoints such as /client/index.php%3F.php/gsb/firewall.php within the management web panel, potentially exposing sensitive device information. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+<br>
+<strong>Severity:</strong> 5.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 23 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43716</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43716</guid>
+    </item>
+    <item>
       <title>CVE-2025-2703 - "Jira XY Chart Plugin DOM XSS"</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2703
 <br>
-<strong>Published : </strong> April 23, 2025, 12:15 p.m. | 1 hour, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 12:15 p.m. | 4 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>The built-in XY Chart plugin is vulnerable to a DOM XSS vulnerability. 
 
@@ -38,7 +242,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-42600
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 2 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 5 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>This vulnerability exists in Meon KYC solutions due to missing restrictions on the number of incorrect One-Time Password (OTP) attempts through certain API endpoints of login process. A remote attacker could exploit this vulnerability by performing a brute force attack on OTP, which could lead to gain unauthorized access to other user accounts.
 <br>
@@ -55,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-42601
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 2 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 5 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>This vulnerability exists in Meon KYC solutions due to insufficient server-side validation of the Captcha in certain API endpoints. A remote attacker could exploit this vulnerability by intercepting the request and removing the Captcha parameter leading to bypassing the Captcha verification mechanism.
 <br>
@@ -72,7 +276,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-42602
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 2 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 5 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>This vulnerability exists in Meon KYC solutions due to improper handling of access and refresh tokens in certain API endpoints of authentication process. A remote attacker could exploit this vulnerability by intercepting and manipulating the responses through API request body leading to unauthorized access of other user accounts.
 <br>
@@ -89,7 +293,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-42603
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 2 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 5 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>This vulnerability exists in the Meon KYC solutions due to transmission of sensitive data in plain text within the response payloads of certain API endpoints. An authenticated remote attacker could exploit this vulnerability by intercepting API response that contains unencrypted sensitive information belonging to other users.
 
@@ -108,7 +312,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-42604
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 2 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 5 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>This vulnerability exists in Meon KYC solutions due to debug mode is enabled in certain API endpoints. A remote attacker could exploit this vulnerability by accessing certain unauthorized API endpoints leading to detailed error messages as response leading to disclosure of system related information.
 <br>
@@ -125,7 +329,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-42605
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 2 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 a.m. | 5 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>This vulnerability exists in Meon Bidding Solutions due to improper authorization controls on certain API endpoints for the initiation, modification, or cancellation operations. An authenticated remote attacker could exploit this vulnerability by manipulating parameter in the API request body to gain unauthorized access to other user accounts.
 
@@ -144,7 +348,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-10306
 <br>
-<strong>Published : </strong> April 23, 2025, 10:15 a.m. | 3 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 10:15 a.m. | 6 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in mod_proxy_cluster. The issue is that the <Directory> directive should be replaced by the <Location> directive as the former does not restrict IP/host access as `Require ip IP_ADDRESS` would suggest. This means that anyone with access to the host might send MCMP requests that may result in adding/removing/updating nodes for the balancing. However, this host should not be accessible to the public network as it does not serve the general traffic.
 <br>
@@ -161,7 +365,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1054
 <br>
-<strong>Published : </strong> April 23, 2025, 10:15 a.m. | 3 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 10:15 a.m. | 6 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>The UiCore Elements – Free Elementor widgets and templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the UI Counter, UI Icon Box, UI Testimonial Slider, UI Testimonial Grid, and UI Testimonial Carousel widgets in all versions up to, and including, 1.0.16 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -178,7 +382,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2595
 <br>
-<strong>Published : </strong> April 23, 2025, 8:15 a.m. | 5 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 8:15 a.m. | 8 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>An unauthenticated remote attacker can bypass the user management in CODESYS Visualization and read visualization template files or static elements by means of forced browsing.
 <br>
@@ -195,7 +399,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3529
 <br>
-<strong>Published : </strong> April 23, 2025, 8:15 a.m. | 5 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 8:15 a.m. | 8 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>The WordPress Simple Shopping Cart plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 5.1.2 via the 'file_url' parameter. This makes it possible for unauthenticated attackers to view potentially sensitive information and download a digital product without paying for it.
 <br>
@@ -212,7 +416,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3530
 <br>
-<strong>Published : </strong> April 23, 2025, 8:15 a.m. | 5 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 8:15 a.m. | 8 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>The WordPress Simple Shopping Cart plugin for WordPress is vulnerable to product price manipulation in all versions up to, and including, 5.1.2. This is due to a logic flaw involving the inconsistent use of parameters during the cart addition process. The plugin uses the parameter 'product_tmp_two' for computing a security hash against price tampering while using 'wspsc_product' to display the product, allowing an unauthenticated attacker to substitute details from a cheaper product and bypass payment for a more expensive item.
 <br>
@@ -229,7 +433,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0618
 <br>
-<strong>Published : </strong> April 23, 2025, 7:15 a.m. | 6 hours, 47 minutes ago
+<strong>Published : </strong> April 23, 2025, 7:15 a.m. | 9 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>A malicious third party could invoke a persistent denial of service vulnerability in FireEye EDR agent by sending a specially-crafted tamper protection event to the HX service to trigger an exception. This exception will prevent any further tamper protection events from being processed, even after a reboot of HX.
 <br>
