@@ -8,18 +8,52 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 24 Apr 2025 20:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Apr 2025 22:10:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-43859 - Apache h11 Chunked-Coding Request Smuggling Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43859
+<br>
+<strong>Published : </strong> April 24, 2025, 7:15 p.m. | 58 minutes ago
+<br>
+<strong>Description : </strong>h11 is a Python implementation of HTTP/1.1. Prior to version 0.16.0, a leniency in h11's parsing of line terminators in chunked-coding message bodies can lead to request smuggling vulnerabilities under certain conditions. This issue has been patched in version 0.16.0. Since exploitation requires the combination of buggy h11 with a buggy (reverse) proxy, fixing either component is sufficient to mitigate this issue.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43859</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43859</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43858 - YouTubeDLSharp Windows Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43858
+<br>
+<strong>Published : </strong> April 24, 2025, 6:15 p.m. | 1 hour, 58 minutes ago
+<br>
+<strong>Description : </strong>YoutubeDLSharp is a wrapper for the command-line video downloaders youtube-dl and yt-dlp. In versions starting from 1.0.0-beta4 and prior to 1.1.2, an unsafe conversion of arguments allows the injection of a malicious commands when starting `yt-dlp` from a commands prompt running on Windows OS with the `UseWindowsEncodingWorkaround` value defined to true (default behavior). If a user is using built-in methods from the YoutubeDL.cs file, the value is true by default and a user cannot disable it from these methods. This issue has been patched in version 1.1.2.
+<br>
+<strong>Severity:</strong> 9.2 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43858</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43858</guid>
+    </item>
+    <item>
       <title>CVE-2023-37534 - HCL Leap URI Protocol Whitelist Bypass Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-37534
 <br>
-<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Insufficient URI protocol whitelist in HCL Leap
 allows script injection through query parameters.
@@ -37,7 +71,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-45720
 <br>
-<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Insufficient default configuration in HCL Leap
 allows anonymous access to directory information.
@@ -55,7 +89,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-30113
 <br>
-<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Insufficient sanitization policy in HCL Leap
 allows client-side script injection in the deployed application through the
@@ -74,7 +108,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-30114
 <br>
-<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Insufficient sanitization in HCL Leap allows
 client-side script injection in the authoring environment.
@@ -92,7 +126,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-30147
 <br>
-<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Multiple vectors in HCL Leap allow client-side
 script injection in the authoring environment and deployed applications.
@@ -110,7 +144,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31324
 <br>
-<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 5:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.
 <br>
@@ -123,45 +157,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-31324</guid>
     </item>
     <item>
-      <title>CVE-2025-46519 - Michael Revellin-Clerc Media Library Downloader Missing Authorization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-46519
-<br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in Michael Revellin-Clerc Media Library Downloader allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Media Library Downloader: from n/a through 1.3.1.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 24 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-46519</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46519</guid>
-    </item>
-    <item>
-      <title>CVE-2025-46520 - Alphasis Related Posts CSRF Stored XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-46520
-<br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in alphasis Related Posts via Taxonomies allows Stored XSS. This issue affects Related Posts via Taxonomies: from n/a through 1.0.1.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 24 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-46520</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46520</guid>
-    </item>
-    <item>
       <title>CVE-2025-46521 - Silver Muru WS Force Stored Cross-site Scripting</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46521
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Silver Muru WS Force Login Page allows Stored XSS. This issue affects WS Force Login Page: from n/a through 3.0.3.
 <br>
@@ -178,7 +178,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46522
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Billy Bryant Tabs allows Stored XSS. This issue affects Tabs: from n/a through 4.0.3.
 <br>
@@ -195,7 +195,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46523
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in devignstudiosltd COVID-19 (Coronavirus) Update Your Customers allows Stored XSS. This issue affects COVID-19 (Coronavirus) Update Your Customers: from n/a through 1.5.1.
 <br>
@@ -212,7 +212,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46524
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in stesvis WP Filter Post Category allows Stored XSS. This issue affects WP Filter Post Category: from n/a through 2.1.4.
 <br>
@@ -229,7 +229,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46525
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in msmitley WP Cookie Consent allows Stored XSS. This issue affects WP Cookie Consent: from n/a through 1.0.
 <br>
@@ -246,7 +246,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46528
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Steve Availability Calendar allows Stored XSS. This issue affects Availability Calendar: from n/a through 0.2.4.
 <br>
@@ -263,7 +263,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46529
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in StressFree Sites Business Contact Widget allows Stored XSS. This issue affects Business Contact Widget: from n/a through 2.7.0.
 <br>
@@ -280,7 +280,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46530
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in HuangYe WuDeng Hacklog Remote Attachment allows Stored XSS. This issue affects Hacklog Remote Attachment: from n/a through 1.3.2.
 <br>
@@ -297,7 +297,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46531
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Server-Side Request Forgery (SSRF) vulnerability in Ankur Vishwakarma WP AVCL Automation Helper (formerly WPFlyLeads) allows Server Side Request Forgery. This issue affects WP AVCL Automation Helper (formerly WPFlyLeads): from n/a through 3.4.
 <br>
@@ -314,7 +314,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46532
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Haris Zulfiqar Tooltip allows DOM-Based XSS. This issue affects Tooltip: from n/a through 1.0.1.
 <br>
@@ -331,7 +331,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46533
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in wpdrift.no Landing pages and Domain aliases for WordPress allows Stored XSS. This issue affects Landing pages and Domain aliases for WordPress: from n/a through 0.8.
 <br>
@@ -348,7 +348,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46534
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in DanielRiera Image Style Hover allows DOM-Based XSS. This issue affects Image Style Hover: from n/a through 1.0.6.
 <br>
@@ -365,7 +365,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46536
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in RichardHarrison Carousel-of-post-images allows DOM-Based XSS. This issue affects Carousel-of-post-images: from n/a through 1.07.
 <br>
@@ -382,7 +382,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46538
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in webplanetsoft Inline Text Popup allows DOM-Based XSS. This issue affects Inline Text Popup: from n/a through 1.0.0.
 <br>
@@ -399,7 +399,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46540
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Chris Mok GNA Search Shortcode allows Stored XSS. This issue affects GNA Search Shortcode: from n/a through 0.9.5.
 <br>
@@ -416,7 +416,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46541
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in elrata_ WP-reCAPTCHA-bp allows Stored XSS. This issue affects WP-reCAPTCHA-bp: from n/a through 4.1.
 <br>
@@ -433,7 +433,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46542
 <br>
-<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> April 24, 2025, 4:15 p.m. | 3 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in ThemeXpert Xpert Tab allows Stored XSS. This issue affects Xpert Tab: from n/a through 1.3.
 <br>
