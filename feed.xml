@@ -8,18 +8,188 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 24 Apr 2025 04:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Apr 2025 06:15:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3435 - Mang Board WP Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3435
+<br>
+<strong>Published : </strong> April 24, 2025, 4:15 a.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>The Mang Board WP plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the board_header and board_footer parameters in all versions up to, and including, 1.8.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+<br>
+<strong>Severity:</strong> 4.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3435</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3435</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1976 - Brocade Fabric OS Root Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1976
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Brocade Fabric OS versions starting with 9.1.0 have root access removed, however, a local user with admin privilege can potentially execute arbitrary code with full root privileges on Fabric OS versions 9.1.0 through 9.1.1d6.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1976</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1976</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46374 - Apache HTTP Server Cross-Site Request Forgery</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46374
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46374</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46374</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46375 - Apache Struts Deserialization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46375
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46375</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46375</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46376 - Cisco Webex Meeting Server Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46376
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46376</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46376</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46377 - Apache HTTP Server Arbitrary File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46377
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46377</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46377</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46378 - Apache HTTP Server Unvalidated User Input</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46378
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46378</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46378</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46379 - Apache Web Server Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46379
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46379</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46379</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46380 - Apache HTTP Server Unvalidated User Input</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46380
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46380</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46380</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46381 - Apache HTTP Server Command Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46381
+<br>
+<strong>Published : </strong> April 24, 2025, 3:15 a.m. | 2 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46381</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46381</guid>
+    </item>
+    <item>
       <title>CVE-2025-46417 - Apache Picklescan SSL Exfiltration Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46417
 <br>
-<strong>Published : </strong> April 24, 2025, 1:15 a.m. | 58 minutes ago
+<strong>Published : </strong> April 24, 2025, 1:15 a.m. | 4 hours, 21 minutes ago
 <br>
 <strong>Description : </strong>The unsafe globals in Picklescan before 0.0.25 do not include ssl. Consequently, ssl.get_server_certificate can exfiltrate data via DNS after deserialization.
 <br>
@@ -36,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46419
 <br>
-<strong>Published : </strong> April 24, 2025, 1:15 a.m. | 58 minutes ago
+<strong>Published : </strong> April 24, 2025, 1:15 a.m. | 4 hours, 21 minutes ago
 <br>
 <strong>Description : </strong>Westermo WeOS 5 through 5.23.0 allows a reboot via a malformed ESP packet.
 <br>
@@ -53,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27580
 <br>
-<strong>Published : </strong> April 24, 2025, 12:15 a.m. | 1 hour, 58 minutes ago
+<strong>Published : </strong> April 24, 2025, 12:15 a.m. | 5 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>NIH BRICS (aka Biomedical Research Informatics Computing System) through 14.0.0-67 generates predictable tokens (that depend on username, time, and the fixed 7Dl9#dj- string) and thus allows unauthenticated users with a Common Access Card (CAC) to escalate privileges and compromise any account, including administrators.
 <br>
@@ -70,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27581
 <br>
-<strong>Published : </strong> April 24, 2025, 12:15 a.m. | 1 hour, 58 minutes ago
+<strong>Published : </strong> April 24, 2025, 12:15 a.m. | 5 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>NIH BRICS (aka Biomedical Research Informatics Computing System) through 14.0.0-67 allows users who lack the InET role to access the InET module via direct requests to known endpoints.
 <br>
@@ -87,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-22351
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 p.m. | 2 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 p.m. | 6 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>IBM InfoSphere Information 11.7 Server does not invalidate session after logout which could allow an authenticated user to impersonate another user on the system.
 <br>
@@ -104,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25045
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 p.m. | 2 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 p.m. | 6 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>IBM InfoSphere Information 11.7 Server authenticated user to obtain sensitive information when a detailed technical error message is returned in a request.  This information could be used in further attacks against the system.
 <br>
@@ -121,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25046
 <br>
-<strong>Published : </strong> April 23, 2025, 11:15 p.m. | 2 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 11:15 p.m. | 6 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>IBM InfoSphere Information Server 11.7 DataStage Flow Designer 
 
@@ -140,7 +310,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46397
 <br>
-<strong>Published : </strong> April 23, 2025, 9:15 p.m. | 4 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 9:15 p.m. | 8 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>Stack-overflow in fig2dev in version 3.2.9a allows an attacker possible code execution via local input manipulation via bezier_spline function.
 <br>
@@ -157,7 +327,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46398
 <br>
-<strong>Published : </strong> April 23, 2025, 9:15 p.m. | 4 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 9:15 p.m. | 8 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>Stack-overflow in fig2dev in version 3.2.9a allows an attacker possible code execution via local input manipulation via read_objects function.
 <br>
@@ -174,7 +344,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46399
 <br>
-<strong>Published : </strong> April 23, 2025, 9:15 p.m. | 4 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 9:15 p.m. | 8 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>Segmentation fault in fig2dev in version 3.2.9a allows an attacker to availability via local input manipulation via genge_itp_spline function.
 <br>
@@ -191,7 +361,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46400
 <br>
-<strong>Published : </strong> April 23, 2025, 9:15 p.m. | 4 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 9:15 p.m. | 8 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>Segmentation fault in fig2dev in version 3.2.9a allows an attacker to availability via local input manipulation via read_arcobject function.
 <br>
@@ -208,7 +378,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28169
 <br>
-<strong>Published : </strong> April 23, 2025, 8:15 p.m. | 5 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 8:15 p.m. | 9 hours, 21 minutes ago
 <br>
 <strong>Description : </strong>BYD QIN PLUS DM-i Dilink OS v3.0_13.1.7.2204050.1 to v3.0_13.1.7.2312290.1_0 was discovered to cend broadcasts to the manufacturer's cloud server unencrypted, allowing attackers to execute a man-in-the-middle attack.
 <br>
@@ -225,7 +395,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32818
 <br>
-<strong>Published : </strong> April 23, 2025, 8:15 p.m. | 5 hours, 58 minutes ago
+<strong>Published : </strong> April 23, 2025, 8:15 p.m. | 9 hours, 21 minutes ago
 <br>
 <strong>Description : </strong>A Null Pointer Dereference vulnerability in the SonicOS SSLVPN Virtual office interface allows a remote, unauthenticated attacker to crash the firewall, potentially leading to a Denial-of-Service (DoS) condition.
 <br>
@@ -242,7 +412,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3673
 <br>
-<strong>Published : </strong> April 23, 2025, 7:16 p.m. | 6 hours, 57 minutes ago
+<strong>Published : </strong> April 23, 2025, 7:16 p.m. | 10 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs:  CVE-2023-3092.. Reason: This candidate is a reservation duplicate of CVE-2023-3092. Notes: All CVE users should reference  CVE-2023-3092. instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
 <br>
@@ -259,7 +429,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-58251
 <br>
-<strong>Published : </strong> April 23, 2025, 6:16 p.m. | 7 hours, 57 minutes ago
+<strong>Published : </strong> April 23, 2025, 6:16 p.m. | 11 hours, 21 minutes ago
 <br>
 <strong>Description : </strong>In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
 <br>
