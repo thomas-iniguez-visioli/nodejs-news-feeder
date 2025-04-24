@@ -8,12 +8,444 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 24 Apr 2025 10:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Apr 2025 12:20:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2021-47662 - F5 Networks HTTPS DoS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2021-47662
+<br>
+<strong>Published : </strong> April 24, 2025, 10:15 a.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Due to missing authorization an unauthenticated remote attacker can cause a DoS attack by connecting via HTTPS and triggering the shutdown button.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-47662</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-47662</guid>
+    </item>
+    <item>
+      <title>CVE-2021-47663 - Apache Solr JSON Web Tokens Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2021-47663
+<br>
+<strong>Published : </strong> April 24, 2025, 10:15 a.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Due to improper JSON Web Tokens implementation an unauthenticated remote attacker can guess a valid session ID and therefore impersonate a user to gain full access.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-47663</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-47663</guid>
+    </item>
+    <item>
+      <title>CVE-2021-47664 - Cisco Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2021-47664
+<br>
+<strong>Published : </strong> April 24, 2025, 10:15 a.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Due to improper authentication mechanism an unauthenticated remote attacker can enumerate valid usernames.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-47664</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-47664</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3872 - Centreon centreon-web SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3872
+<br>
+<strong>Published : </strong> April 24, 2025, 10:15 a.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Centreon centreon-web (User configuration form modules) allows SQL Injection.
+
+
+A user with high privileges is able to become administrator by intercepting the contact form request and altering its payload.
+
+
+
+This issue affects Centreon: from 22.10.0 before 22.10.28, from 23.04.0 before 23.04.25, from 23.10.0 before 23.10.20, from 24.04.0 before 24.04.10, from 24.10.0 before 24.10.4.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3872</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3872</guid>
+    </item>
+    <item>
+      <title>CVE-2024-13307 - Reales WP Real Estate WordPress Theme Unauthenticated File Deletion and Authorization Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13307
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Reales WP - Real Estate WordPress Theme theme for WordPress is vulnerable to unauthorized modification and loss of data due to a missing capability check on the 'reales_delete_file', 'reales_delete_file_plans', 'reales_add_to_favourites', and 'reales_remove_from_favourites' functions in all versions up to, and including, 2.1.2. This makes it possible for unauthenticated attackers to delete arbitrary attachments, and add or remove favorite property listings for any user.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13307</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13307</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1284 - Woocommerce Automatic Order Printing Insecure Direct Object Reference</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1284
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Woocommerce Automatic Order Printing | ( Formerly WooCommerce Google Cloud Print) plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 4.1 via the xc_woo_printer_preview AJAX action due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with Subscriber-level access and above, to view other user's invoices and orders which can contain sensitive information.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1284</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1284</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2543 - WordPress Advanced Accordion Gutenberg Block Stored Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2543
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Advanced Accordion Gutenberg Block plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 5.0.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2543</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2543</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2579 - Lottie Player WordPress Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2579
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Lottie Player plugin for WordPress is vulnerable to Stored Cross-Site Scripting via File uploads in all versions up to, and including, 1.1.8 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the uploaded file.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2579</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2579</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3058 - Xelion Webchat WordPress Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3058
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Xelion Webchat plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the xwc_save_settings() function in all versions up to, and including, 9.1.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3058</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3058</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3065 - Apache Database Toolset Remote File Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3065
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Database Toolset plugin is vulnerable to arbitrary file deletion due to insufficient file path validation in a function in all versions up to, and including, 1.8.4. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3065</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3065</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3101 - WordPress Configurator Theme Core Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3101
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Configurator Theme Core plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 1.4.7. This is due to the plugin not properly validating user meta fields prior to updating them in the database. This makes it possible for authenticated attackers, with Subscriber-level access and above, to change escalate their privileges to Administrator.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3101</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3101</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3280 - ELEX WooCommerce Advanced Bulk Edit Products, Prices  Attributes SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3280
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The ELEX WooCommerce Advanced Bulk Edit Products, Prices & Attributes plugin for WordPress is vulnerable to SQL Injection via the 'attribute_value_filter' parameter in all versions up to, and including, 1.4.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3280</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3280</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3300 - "WordPress WPMasterToolKit Directory Traversal Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3300
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The WPMasterToolKit (WPMTK) – All in one plugin plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 2.5.2. This makes it possible for authenticated attackers, with Administrator-level access and above, to read and modify the contents of arbitrary files on the server, which can contain sensitive information.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3300</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3300</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3603 - Flynax Bridge for WordPress Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3603
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Flynax Bridge plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 2.2.0. This is due to the plugin not properly validating a user's identity prior to updating their details like password. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3603</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3603</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3604 - Flynax Bridge WordPress Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3604
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Flynax Bridge plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 2.2.0. This is due to the plugin not properly validating a user's identity prior to updating their details like email. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3604</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3604</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3607 - WordPress Frontend Login and Registration Blocks Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3607
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Frontend Login and Registration Blocks plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.7. This is due to the plugin not properly validating a user's identity prior to updating a password. This makes it possible for authenticated attackers, with Subscriber-level access and above, to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3607</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3607</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3776 - WordPress TargetSMS Plugin Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3776
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the 'targetvr_ajax_handler' function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo().
+<br>
+<strong>Severity:</strong> 8.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3776</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3776</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3793 - Buddypress WordPress Force Password Change Plugin Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3793
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The Buddypress Force Password Change plugin for WordPress is vulnerable to authenticated account takeover due to the plugin not properly validating a user's identity prior to updating their password through the 'bp_force_password_ajax' function in all versions up to, and including, 0.1. This makes it possible for authenticated attackers, with subscriber-level access and above and under certain prerequisites, to change arbitrary user's passwords, including administrators, and leverage that to gain access to their accounts.
+<br>
+<strong>Severity:</strong> 4.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3793</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3793</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3832 - "FuseDesk WordPress Stored Cross-Site Scripting Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3832
+<br>
+<strong>Published : </strong> April 24, 2025, 9:15 a.m. | 2 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The FuseDesk plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘successredirect’ parameter in all versions up to, and including, 6.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3832</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3832</guid>
+    </item>
+    <item>
+      <title>CVE-2024-12244 - GitLab EE Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-12244
+<br>
+<strong>Published : </strong> April 24, 2025, 8:15 a.m. | 3 hours, 59 minutes ago
+<br>
+<strong>Description : </strong>An issue has been discovered in access controls could allow users to view certain restricted project information even when related features are disabled in GitLab EE, affecting all versions from 17.7 prior to 17.9.7, 17.10 prior to 17.10.5, and 17.11 prior to 17.11.1.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-12244</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-12244</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0639 - GitLab CE/EE Service Availability Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0639
+<br>
+<strong>Published : </strong> April 24, 2025, 8:15 a.m. | 3 hours, 59 minutes ago
+<br>
+<strong>Description : </strong>An issue has been discovered affecting service availability via issue preview in GitLab CE/EE affecting all versions from 16.7 before 17.9.7, 17.10 before 17.10.5, and 17.11 before 17.11.1.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0639</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0639</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1908 - GitLab Information Disclosure and Session Hijacking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1908
+<br>
+<strong>Published : </strong> April 24, 2025, 8:15 a.m. | 3 hours, 59 minutes ago
+<br>
+<strong>Description : </strong>An issue has been discovered in GitLab EE/CE that could allow an attacker to track users' browsing activities, potentially leading to full account take-over, affecting all versions from 16.6 before 17.9.7, 17.10 before 17.10.5, and 17.11 before 17.11.1.
+<br>
+<strong>Severity:</strong> 7.7 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1908</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1908</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3761 - My Tickets - WordPress Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3761
+<br>
+<strong>Published : </strong> April 24, 2025, 7:15 a.m. | 4 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>The My Tickets – Accessible Event Ticketing plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.0.16. This is due to the mt_save_profile() function not appropriately restricting access to unauthorized users to update roles. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update their role to that of an administrator.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3761</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3761</guid>
+    </item>
+    <item>
+      <title>CVE-2025-41395 - Mattermost Denial of Service (DoS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-41395
+<br>
+<strong>Published : </strong> April 24, 2025, 7:15 a.m. | 4 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.5.x <= 10.5.0, 9.11.x <= 9.11.10 fail to properly validate the props used by the RetrospectivePost custom post type in the Playbooks plugin, which allows an attacker to create a specially crafted post with maliciously crafted props and cause a denial of service (DoS) of the web app for all users.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-41395</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-41395</guid>
+    </item>
+    <item>
+      <title>CVE-2025-41423 - Mattermost Playbooks API Permission Validation Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-41423
+<br>
+<strong>Published : </strong> April 24, 2025, 7:15 a.m. | 4 hours, 58 minutes ago
+<br>
+<strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.5.x <= 10.5.0, 9.11.x <= 9.11.10 fail to properly validate permissions for the API endpoint /plugins/playbooks/api/v0/signal/keywords/ignore-thread, allowing any user or attacker to delete posts containing actions created by the Playbooks bot, even without channel access or appropriate permissions.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 24 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-41423</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-41423</guid>
+    </item>
     <item>
       <title>CVE-2025-32730 - i-PRO Co., Ltd. Surveillance Cameras and Recorders Cryptographic Key Hard-Coded Authentication Bypass</title>
       <description><![CDATA[<p>
@@ -47,57 +479,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 24 Apr 2025 07:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-35965</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-35965</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3761 - My Tickets - WordPress Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3761
-<br>
-<strong>Published : </strong> April 24, 2025, 7:15 a.m. | 56 minutes ago
-<br>
-<strong>Description : </strong>The My Tickets – Accessible Event Ticketing plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.0.16. This is due to the mt_save_profile() function not appropriately restricting access to unauthorized users to update roles. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update their role to that of an administrator.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 24 Apr 2025 07:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3761</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3761</guid>
-    </item>
-    <item>
-      <title>CVE-2025-41395 - Mattermost Denial of Service (DoS) Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-41395
-<br>
-<strong>Published : </strong> April 24, 2025, 7:15 a.m. | 56 minutes ago
-<br>
-<strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.5.x <= 10.5.0, 9.11.x <= 9.11.10 fail to properly validate the props used by the RetrospectivePost custom post type in the Playbooks plugin, which allows an attacker to create a specially crafted post with maliciously crafted props and cause a denial of service (DoS) of the web app for all users.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 24 Apr 2025 07:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-41395</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-41395</guid>
-    </item>
-    <item>
-      <title>CVE-2025-41423 - Mattermost Playbooks API Permission Validation Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-41423
-<br>
-<strong>Published : </strong> April 24, 2025, 7:15 a.m. | 56 minutes ago
-<br>
-<strong>Description : </strong>Mattermost versions 10.4.x <= 10.4.2, 10.5.x <= 10.5.0, 9.11.x <= 9.11.10 fail to properly validate permissions for the API endpoint /plugins/playbooks/api/v0/signal/keywords/ignore-thread, allowing any user or attacker to delete posts containing actions created by the Playbooks bot, even without channel access or appropriate permissions.
-<br>
-<strong>Severity:</strong> 3.1 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 24 Apr 2025 07:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-41423</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-41423</guid>
     </item>
     <item>
       <title>CVE-2025-1453 - WordPress Category Posts Widget Stored Cross-Site Scripting Vulnerability</title>
