@@ -8,167 +8,436 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 25 Apr 2025 16:13:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Apr 2025 18:14:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
-      <title>CVE-2024-57375 - Andamiro Pump It Up Bluetooth Denial of Service Vulnerability</title>
+      <title>CVE-2021-32601 - Apache Struts Deserialization Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-57375
+<strong>CVE ID : </strong>CVE-2021-32601
 <br>
-<strong>Published : </strong> April 25, 2025, 2:15 p.m. | 20 minutes ago
+<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 21 minutes ago
 <br>
-<strong>Description : </strong>Andamiro Pump It Up 20th Anniversary (aka Double X or XX/2019) 1.00.0-2.08.3 allows a physically proximate attacker to cause a denial of service (application crash) via certain deselect actions.
-<br>
-<strong>Severity:</strong> 2.4 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-57375</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-57375</guid>
-    </item>
-    <item>
-      <title>CVE-2025-28354 - Entrust Corp Printer Manager Directory Traversal</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-28354
-<br>
-<strong>Published : </strong> April 25, 2025, 2:15 p.m. | 20 minutes ago
-<br>
-<strong>Description : </strong>An issue in the Printer Manager Systm of Entrust Corp Printer Manager D3.18.4-3 and below allows attackers to execute a directory traversal via a crafted POST request.
+<strong>Description : </strong>Rejected reason: Not used
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-28354</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28354</guid>
+      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-32601</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-32601</guid>
     </item>
     <item>
-      <title>CVE-2025-3634 - Moodle Authentication Bypass</title>
+      <title>CVE-2024-56156 - Halo File Type Validation Bypass Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3634
+<strong>CVE ID : </strong>CVE-2024-56156
 <br>
-<strong>Published : </strong> April 25, 2025, 2:15 p.m. | 20 minutes ago
+<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 21 minutes ago
 <br>
-<strong>Description : </strong>A security vulnerability was discovered in Moodle that allows students to enroll themselves in courses without completing all the necessary safety checks. Specifically, users can sign up for courses prematurely, even if they haven't finished two-step verification processes.
+<strong>Description : </strong>Halo is an open source website building tool. Prior to version 2.20.13, a vulnerability in Halo allows attackers to bypass file type validation controls. This bypass enables the upload of malicious files including executables and HTML files, which can lead to stored cross-site scripting attacks and potential remote code execution under certain circumstances. This issue has been patched in version 2.20.13.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-56156</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-56156</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2068 - FileZ Open Redirect Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2068
+<br>
+<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 21 minutes ago
+<br>
+<strong>Description : </strong>An open redirect vulnerability was reported in the FileZ client that could allow information disclosure if a crafted url is visited by a local user.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2068</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2068</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2069 - FileZ Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2069
+<br>
+<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 21 minutes ago
+<br>
+<strong>Description : </strong>A cross-site scripting vulnerability was reported in the FileZ client that could allow execution of code if a crafted url is visited by a local user.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2069</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2069</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2070 - "FileZ XML Parsing Denial of Service"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2070
+<br>
+<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 21 minutes ago
+<br>
+<strong>Description : </strong>An improper XML parsing vulnerability was reported in the FileZ client that could allow arbitrary file reads on the system if a crafted url is visited by a local user.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2070</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2070</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3928 - Commvault Web Server Remote Webshell Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3928
+<br>
+<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 21 minutes ago
+<br>
+<strong>Description : </strong>Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: "Webservers can be compromised through bad actors creating and executing webshells." Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3928</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3625 - Moodle Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3625
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>A security vulnerability was discovered in Moodle that can allow hackers to gain access to sensitive information about students and prevent them from logging into their accounts, even after they had completed two-factor authentication (2FA).
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3625</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3625</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3627 - Moodle Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3627
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>A security vulnerability was discovered in Moodle that allows some users to access sensitive information about other students before they finish verifying their identities using two-factor authentication (2FA).
 <br>
 <strong>Severity:</strong> 4.3 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3634</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3634</guid>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3627</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3627</guid>
     </item>
     <item>
-      <title>CVE-2024-6198 - "TP-Link Modem Lighttpd SNORE Stack Buffer Overflow Vulnerability"</title>
+      <title>CVE-2025-3628 - Moodle Anonymous Assignment De-Anonymization Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-6198
+<strong>CVE ID : </strong>CVE-2025-3628
 <br>
-<strong>Published : </strong> April 25, 2025, 1:15 p.m. | 1 hour, 20 minutes ago
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
 <br>
-<strong>Description : </strong>The device exposes a web interface on ports TCP/3030 and TCP/9882. This web service runs lighttpd, which implements the “SNORE” interface. This interface is affected by a stack buffer overflow vulnerability due to insecure path parsing. An attacker
-with access to the LAN network interface could use a specially crafted HTTP request to exploit a buffer overflow on the modem.
+<strong>Description : </strong>A flaw has was found in Moodle where anonymous assignment submissions can be de-anonymized via search, revealing student identities.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3628</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3628</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3635 - Moodle CSRF Tour Duplicating Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3635
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>A security vulnerability was discovered in Moodle that allows anyone to duplicate existing tours without needing to log in due to a lack of protection against cross-site request forgery (CSRF) attacks.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3635</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3635</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3636 - Moodle RSS Feed Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3636
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in Moodle. This vulnerability allows unauthorized users to access and view RSS feeds due to insufficient capability checks.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3636</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3636</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3637 - Moodle CSRF Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3637
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>A security vulnerability was found in Moodle where confidential information that prevents cross-site request forgery (CSRF) attacks was shared publicly through the site's URL. This vulnerability occurred specifically on two types of pages within the mod_data module: edit and delete pages.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3637</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3637</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3638 - Moodle CSRF in Brickfield Tool</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3638
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in Moodle. The analysis request action in the Brickfield tool did not include the necessary token to prevent a Cross-site request forgery (CSRF) risk.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-6198</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-6198</guid>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3638</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3638</guid>
     </item>
     <item>
-      <title>CVE-2024-6199 - "Huawei Modem DDNS Buffer Overflow Vulnerability"</title>
+      <title>CVE-2025-3640 - Moodle Information Disclosure Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-6199
+<strong>CVE ID : </strong>CVE-2025-3640
 <br>
-<strong>Published : </strong> April 25, 2025, 1:15 p.m. | 1 hour, 20 minutes ago
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
 <br>
-<strong>Description : </strong>An unauthenticated attacker on the WAN interface, with the ability to intercept Dynamic DNS (DDNS) traffic between DDNS services and the modem, could manipulate specific responses to include code that forces a buffer overflow on the modem.
-
-Customers that have not enabled Dynamic DNS on their modem are not vulnerable.
+<strong>Description : </strong>A flaw was found in Moodle. Insufficient capability checks made it possible for a user enrolled in a course to access some details, such as the full name and profile image URL, of other users they did not have permission to access.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 4.3 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 13:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-6199</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-6199</guid>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3640</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3640</guid>
     </item>
     <item>
-      <title>CVE-2024-11917 - Xing and Google Vulnerability: Authentication Bypass in JobSearch WP Job Board Plugin</title>
+      <title>CVE-2025-3641 - Moodle Dropbox Repository Remote Code Execution Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-11917
+<strong>CVE ID : </strong>CVE-2025-3641
 <br>
-<strong>Published : </strong> April 25, 2025, 12:15 p.m. | 2 hours, 20 minutes ago
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
 <br>
-<strong>Description : </strong>The JobSearch WP Job Board plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 2.8.8. This is due to improper configurations in the 'jobsearch_xing_response_data_callback', 'set_access_tokes', and 'google_callback' functions. This makes it possible for unauthenticated attackers to log in as the first connected Xing user, or any connected Xing user if the Xing id is known. It is also possible for unauthenticated attackers to log in as the first connected Google user if the user has logged in, without subsequently logging out, in thirty days. The vulnerability was partially patched in version 2.8.4.
+<strong>Description : </strong>A flaw was found in Moodle. A remote code execution risk was identified in the Moodle LMS Dropbox repository. By default, this was only available to teachers and managers on sites with the Dropbox repository enabled.
 <br>
-<strong>Severity:</strong> 8.1 | HIGH
+<strong>Severity:</strong> 8.8 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-11917</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-11917</guid>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3641</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3641</guid>
     </item>
     <item>
-      <title>CVE-2025-2470 - Nextend Social Login WordPress Plugin Privilege Escalation Vulnerability</title>
+      <title>CVE-2025-3642 - Moodle EQUELLA Remote Code Execution Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2470
+<strong>CVE ID : </strong>CVE-2025-3642
 <br>
-<strong>Published : </strong> April 25, 2025, 12:15 p.m. | 2 hours, 20 minutes ago
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
 <br>
-<strong>Description : </strong>The Service Finder Bookings plugin for WordPress, used by the Service Finder - Directory and Job Board WordPress Theme, is vulnerable to privilege escalation in all versions up to, and including, 5.1. This is due to a lack of restriction on user role in the 'nsl_registration_store_extra_input' function. This makes it possible for unauthenticated attackers to register an account on the site with an arbitrary role, including Administrator, when registering via a social login. The Nextend Social Login plugin must be installed and configured to exploit the vulnerability.
+<strong>Description : </strong>A flaw was found in Moodle. A remote code execution risk was identified in the Moodle LMS EQUELLA repository. By default, this was only available to teachers and managers on sites with the EQUELLA repository enabled.
 <br>
-<strong>Severity:</strong> 9.8 | CRITICAL
+<strong>Severity:</strong> 8.8 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2470</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2470</guid>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3642</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3642</guid>
     </item>
     <item>
-      <title>CVE-2025-2986 - IBM Maximo Asset Management Stored Cross-Site Scripting Vulnerability</title>
+      <title>CVE-2025-3643 - Moodle Reflected Cross-site Scripting Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2986
+<strong>CVE ID : </strong>CVE-2025-3643
 <br>
-<strong>Published : </strong> April 25, 2025, 12:15 p.m. | 2 hours, 20 minutes ago
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
 <br>
-<strong>Description : </strong>IBM Maximo Asset Management 7.6.1.3 is vulnerable to stored cross-site scripting. This vulnerability allows a privileged user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
+<strong>Description : </strong>A flaw was found in Moodle. The return URL in the policy tool required additional sanitizing to prevent a reflected Cross-site scripting (XSS) risk.
 <br>
-<strong>Severity:</strong> 5.5 | MEDIUM
+<strong>Severity:</strong> 5.4 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2986</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2986</guid>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3643</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3643</guid>
     </item>
     <item>
-      <title>CVE-2025-3912 - WordPress WS Form LITE Unauthorized Data Access Vulnerability</title>
+      <title>CVE-2025-3644 - Moodle Course Section Deletion Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3912
+<strong>CVE ID : </strong>CVE-2025-3644
 <br>
-<strong>Published : </strong> April 25, 2025, 12:15 p.m. | 2 hours, 20 minutes ago
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
 <br>
-<strong>Description : </strong>The WS Form LITE – Drag & Drop Contact Form Builder for WordPress plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'get_config' function in all versions up to, and including, 1.10.35. This makes it possible for unauthenticated attackers to read the value of the plugin's settings, including API keys for integrated services.
+<strong>Description : </strong>A flaw was found in Moodle. Additional checks were required to prevent users from deleting course sections they did not have permission to modify.
 <br>
-<strong>Severity:</strong> 5.3 | MEDIUM
+<strong>Severity:</strong> 4.3 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3912</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3912</guid>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3644</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3644</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3645 - Moodle Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3645
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in Moodle. Insufficient capability checks in a messaging web service allowed users to view other users' names and online statuses.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3645</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3645</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3647 - Moodle Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3647
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>A flaw was discovered in Moodle. Additional checks were required to ensure that users can only access cohort data they are authorized to retrieve.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3647</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3647</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43016 - JetBrains Rider Unvalidated Archive Unpacking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43016
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>In JetBrains Rider before 2025.1.2 custom archive unpacker allowed arbitrary file overwrite during remote debug session
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43016</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43016</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43862 - Dify APP Orchestration Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43862
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>Dify is an open-source LLM app development platform. Prior to version 0.6.12, a normal user is able to access and modify APP orchestration, even though the web UI of APP orchestration is not presented for a normal user. This access control flaw allows non-admin users to make unauthorized access and changes on the APPSs. This issue has been patched in version 0.6.12. A workaround for this vulnerability involves updating the the access control mechanisms to enforce stricter user role permissions and implementing role-based access controls (RBAC) to ensure that only users with admin privileges can access Orchestration of the APPs.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43862</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43862</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46432 - JetBrains TeamCity Base64 Credentials Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46432
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>In JetBrains TeamCity before 2025.03.1 base64-encoded credentials could be exposed in build logs
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46432</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46432</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46433 - JetBrains TeamCity Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46433
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>In JetBrains TeamCity before 2025.03.1 improper path validation in loggingPreset parameter was possible
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46433</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46433</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46618 - JetBrains TeamCity Stored XSS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46618
+<br>
+<strong>Published : </strong> April 25, 2025, 3:15 p.m. | 1 hour, 21 minutes ago
+<br>
+<strong>Description : </strong>In JetBrains TeamCity before 2025.03.1 stored XSS was possible on Data Directory tab
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46618</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46618</guid>
     </item>
     <item>
       <title>CVE-2025-1565 - WordPress Mayosis Core Plugin Arbitrary File Read Vulnerability</title>
