@@ -8,18 +8,154 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 26 Apr 2025 08:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 10:10:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-2811 - "GL.iNet Router Regular Expression Complexity Inefficient Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2811
+<br>
+<strong>Published : </strong> April 26, 2025, 7:15 a.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability was found in GL.iNet GL-A1300 Slate Plus, GL-AR300M16 Shadow, GL-AR300M Shadow, GL-AR750 Creta, GL-AR750S-EXT Slate, GL-AX1800 Flint, GL-AXT1800 Slate AX, GL-B1300 Convexa-B, GL-B3000 Marble, GL-BE3600 Slate 7, GL-E750, GL-E750V2 Mudi, GL-MT300N-V2 Mango, GL-MT1300 Beryl, GL-MT2500 Brume 2, GL-MT3000 Beryl AX, GL-MT6000 Flint 2, GL-SFT1200 Opal, GL-X300B Collie, GL-X750 Spitz, GL-X3000 Spitz AX, GL-XE300 Puli and GL-XE3000 Puli AX 4.x. It has been declared as problematic. This vulnerability affects unknown code of the component API. The manipulation leads to inefficient regular expression complexity. It is recommended to upgrade the affected component.
+<br>
+<strong>Severity:</strong> 5.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 26 Apr 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2811</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2811</guid>
+    </item>
+    <item>
+      <title>CVE-2025-1458 - Elementor Element Pack Addons Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1458
+<br>
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Element Pack Addons for Elementor – Free Templates and Widgets for Your WordPress Websites plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several widgets like Dual Button, Creative Button, Image Stack and more in all versions up to, and including, 5.10.29 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 26 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1458</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1458</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2105 - Jupiter X Core WordPress PHP Object Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2105
+<br>
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Jupiter X Core plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 4.8.11 via deserialization of untrusted input from the 'file' parameter of the 'raven_download_file' function. This makes it possible for attackers to inject a PHP Object through a PHAR file. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present. This vulnerability may be exploited by unauthenticated attackers when a form is present on the site with the file download action, and the ability to upload files is also present. Otherwise, this would be considered exploitable by Contributor-level users and above, because they could create the form needed to successfully exploit this.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 26 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2105</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2105</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2907 - WordPress Order Delivery Date Plugin Authentication Bypass and CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2907
+<br>
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Order Delivery Date WordPress plugin before 12.3.1 does not have authorization and CSRF checks when importing settings. Furthermore it also lacks proper checks to only update options relevant to the Order Delivery Date WordPress plugin before 12.3.1. This leads to attackers being able to modify the default_user_role to administrator and users_can_register, allowing them to register as an administrator of the site for complete site takeover.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 26 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2907</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2907</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3491 - WordPress Add Custom Page Template PHP Code Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3491
+<br>
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Add custom page template plugin for WordPress is vulnerable to PHP Code Injection leading to Remote Code Execution in all versions up to, and including, 2.0.1 via the 'acpt_validate_setting' function. This is due to insufficient sanitization of the 'template_name' parameter. This makes it possible for authenticated attackers, with Administrator-level access and above, to execute code on the server.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 26 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3491</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3491</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3906 - Eduzz WooCommerce Unauthorized Data Modification Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3906
+<br>
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Integração entre Eduzz e Woocommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'wep_opcoes' function in all versions up to, and including, 1.7.5. This makes it possible for authenticated attackers, with Subscriber-level access and above, to edit the default registration role within the plugin's registration flow to Administrator, which allows any user to create an Administrator account.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 26 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3906</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3906</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3914 - Airtable Aeropage Sync for WordPress Unauthenticated Arbitrary File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3914
+<br>
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Aeropage Sync for Airtable plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'aeropage_media_downloader' function in all versions up to, and including, 3.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 26 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3914</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3914</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3915 - Airtable Aeropage Sync for WordPress Unauthorized Data Deletion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3915
+<br>
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Aeropage Sync for Airtable plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the 'aeropageDeletePost' function in all versions up to, and including, 3.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary posts.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 26 Apr 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3915</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3915</guid>
+    </item>
+    <item>
       <title>CVE-2024-13808 - Xpro Elementor Addons - Pro WordPress Remote Code Execution Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13808
 <br>
-<strong>Published : </strong> April 26, 2025, 5:15 a.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> April 26, 2025, 5:15 a.m. | 3 hours ago
 <br>
 <strong>Description : </strong>The Xpro Elementor Addons - Pro plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.4.9 via the custom PHP widget. This is due to their only being client side controls when determining who can access the widget. This makes it possible for authenticated attackers, with Contributor-level access and above, to execute code on the server.
 <br>
@@ -36,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2801
 <br>
-<strong>Published : </strong> April 26, 2025, 4:15 a.m. | 2 hours, 2 minutes ago
+<strong>Published : </strong> April 26, 2025, 4:15 a.m. | 4 hours ago
 <br>
 <strong>Description : </strong>The The Create custom forms for WordPress with a smart form plugin for smart businesses plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.2.4. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
 <br>
@@ -53,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32979
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>NETSCOUT nGeniusONE before 6.4.0 b2350 allows Arbitrary File Creation by authenticated users.
 <br>
@@ -70,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32980
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>NETSCOUT nGeniusONE before 6.4.0 b2350 has a Weak Sudo Configuration.
 <br>
@@ -87,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32981
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>NETSCOUT nGeniusONE before 6.4.0 b2350 allows local users to leverage Insecure Permissions for the nGeniusCLI File.
 <br>
@@ -104,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32982
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>NETSCOUT nGeniusONE before 6.4.0 b2350 has a Broken Authorization Schema for the report module.
 <br>
@@ -121,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32983
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>NETSCOUT nGeniusONE before 6.4.0 b2350 allows Technical Information Disclosure via a Stack Trace.
 <br>
@@ -138,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32984
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>NETSCOUT nGeniusONE before 6.4.0 b2350 allows Stored Cross-Site Scripting (XSS) via a certain POST parameter.
 <br>
@@ -155,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32985
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>NETSCOUT nGeniusONE before 6.4.0 b2350 has Hardcoded Credentials that can be obtained from JAR files.
 <br>
@@ -172,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32986
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>NETSCOUT nGeniusONE before 6.4.0 b2350 has a Sensitive File Accessible Without Proper Authentication to an endpoint.
 <br>
@@ -189,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46333
 <br>
-<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 9 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 9:15 p.m. | 11 hours ago
 <br>
 <strong>Description : </strong>z2d is a pure Zig 2D graphics library. In version 0.6.0, when writing from one surface to another using `z2d.compositor.StrideCompositor.run`, the source surface can be completely out-of-bounds on the x-axis (but not on the y-axis) by way of a negative offset. This results in an overflow of the value controlling the length of the stride. In non-safe optimization modes (consumers compiling with `ReleaseFast` or `ReleaseSmall`), this could potentially lead to invalid memory accesses or corruption. This issue is patched in version 0.6.1.
 <br>
@@ -206,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28128
 <br>
-<strong>Published : </strong> April 25, 2025, 8:15 p.m. | 10 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 8:15 p.m. | 12 hours ago
 <br>
 <strong>Description : </strong>An issue in Mytel Telecom Online Account System v1.0 allows attackers to bypass the OTP verification process via a crafted request.
 <br>
@@ -223,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3935
 <br>
-<strong>Published : </strong> April 25, 2025, 7:15 p.m. | 11 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 7:15 p.m. | 13 hours ago
 <br>
 <strong>Description : </strong>ScreenConnect versions 25.2.3 and earlier versions may be susceptible to a ViewState code injection attack. ASP.NET Web Forms use ViewState to preserve page and control state, with data encoded using Base64 protected by machine keys. 
 It is important to note that to obtain these machine keys, privileged system level access must be obtained. 
@@ -249,7 +385,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-30152
 <br>
-<strong>Published : </strong> April 25, 2025, 6:15 p.m. | 12 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 6:15 p.m. | 14 hours ago
 <br>
 <strong>Description : </strong>HCL SX v21 is affected by usage of a weak cryptographic algorithm.  An attacker could exploit this weakness to gain access to sensitive information, modify data, or other impacts.
 <br>
@@ -266,7 +402,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-25775
 <br>
-<strong>Published : </strong> April 25, 2025, 5:15 p.m. | 13 hours, 2 minutes ago
+<strong>Published : </strong> April 25, 2025, 5:15 p.m. | 15 hours ago
 <br>
 <strong>Description : </strong>Codeastro Bus Ticket Booking System v1.0 is vulnerable to SQL injection via the kodetiket parameter in /BusTicket-CI/tiket/cekorder.
 <br>
@@ -277,6 +413,40 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 25 Apr 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-25775</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-25775</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2070 - "FileZ XML Parsing Denial of Service"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2070
+<br>
+<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 16 hours ago
+<br>
+<strong>Description : </strong>An improper XML parsing vulnerability was reported in the FileZ client that could allow arbitrary file reads on the system if a crafted url is visited by a local user.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2070</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2070</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3928 - Commvault Web Server Remote Webshell Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3928
+<br>
+<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 16 hours ago
+<br>
+<strong>Description : </strong>Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: "Webservers can be compromised through bad actors creating and executing webshells." Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3928</guid>
     </item>
     <item>
       <title>CVE-2021-32601 - Apache Struts Deserialization Vulnerability</title>
@@ -345,40 +515,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2069</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2069</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2070 - "FileZ XML Parsing Denial of Service"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2070
-<br>
-<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 14 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>An improper XML parsing vulnerability was reported in the FileZ client that could allow arbitrary file reads on the system if a crafted url is visited by a local user.
-<br>
-<strong>Severity:</strong> 5.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2070</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2070</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3928 - Commvault Web Server Remote Webshell Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3928
-<br>
-<strong>Published : </strong> April 25, 2025, 4:15 p.m. | 14 hours, 2 minutes ago
-<br>
-<strong>Description : </strong>Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: "Webservers can be compromised through bad actors creating and executing webshells." Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 25 Apr 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3928</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3928</guid>
     </item>
     <item>
       <title>CVE-2025-43862 - Dify APP Orchestration Privilege Escalation Vulnerability</title>
