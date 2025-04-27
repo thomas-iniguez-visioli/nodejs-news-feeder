@@ -8,18 +8,103 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sun, 27 Apr 2025 00:55:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 03:03:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3955 - "Codeprojects Patient Record Management System SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3955
+<br>
+<strong>Published : </strong> April 27, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in codeprojects Patient Record Management System 1.0. This affects an unknown part of the file /edit_rpatient.php.php. The manipulation of the argument id/lastname leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 27 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3955</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3955</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46672 - NASA CryptoLib Crypto Function Status Validation Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46672
+<br>
+<strong>Published : </strong> April 27, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<br>
+<strong>Description : </strong>NASA CryptoLib before 1.3.2 does not check the OTAR crypto function returned status, potentially leading to spacecraft hijacking.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 27 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46672</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46672</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46673 - NASA CryptoLib SDLS Protocol Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46673
+<br>
+<strong>Published : </strong> April 27, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<br>
+<strong>Description : </strong>NASA CryptoLib before 1.3.2 does not check whether the SA is in an operational state before use, possibly leading to a bypass of the Space Data Link Security protocol (SDLS).
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 27 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46673</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46673</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46674 - NASA CryptoLib Cryptographic Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46674
+<br>
+<strong>Published : </strong> April 27, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<br>
+<strong>Description : </strong>NASA CryptoLib before 1.3.2 uses Extended Procedures that are a Work in Progress (not intended for use during flight), potentially leading to a keystream oracle.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 27 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46674</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46674</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46675 - NASA CryptoLib Cryptographic Key State Validation Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46675
+<br>
+<strong>Published : </strong> April 27, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<br>
+<strong>Description : </strong>In NASA CryptoLib before 1.3.2, the key state is not checked before use, potentially leading to spacecraft hijacking.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 27 Apr 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46675</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46675</guid>
+    </item>
+    <item>
       <title>CVE-2025-3954 - ChurchCRM Referer Handler Server-Side Request Forgery Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3954
 <br>
-<strong>Published : </strong> April 26, 2025, 10:15 p.m. | 1 hour, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 10:15 p.m. | 4 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in ChurchCRM 5.16.0. Affected by this issue is some unknown functionality of the component Referer Handler. The manipulation leads to server-side request forgery. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -36,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46656
 <br>
-<strong>Published : </strong> April 26, 2025, 10:15 p.m. | 1 hour, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 10:15 p.m. | 4 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>python-markdownify (aka markdownify) before 0.14.1 allows large headline prefixes such as <h9999999> in addition to <h1> through <h6>. This causes memory consumption.
 <br>
@@ -53,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46653
 <br>
-<strong>Published : </strong> April 26, 2025, 9:15 p.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 9:15 p.m. | 5 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>Formidable (aka node-formidable) 2.1.0 through 3.x before 3.5.3 relies on hexoid to prevent guessing of filenames for untrusted executable content; however, hexoid is documented as not "cryptographically secure." (Also, there is a scenario in which only the last two characters of a hexoid string need to be guessed, but this is not often relevant.) NOTE: this does not imply that, in a typical use case, attackers will be able to exploit any hexoid behavior to upload and execute their own content.
 <br>
@@ -70,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46654
 <br>
-<strong>Published : </strong> April 26, 2025, 9:15 p.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 9:15 p.m. | 5 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>CodiMD through 2.2.0 has a CSP-based protection mechanism against XSS through uploaded JavaScript content, but it can be bypassed by uploading a .html file that references an uploaded .js file.
 <br>
@@ -87,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46655
 <br>
-<strong>Published : </strong> April 26, 2025, 9:15 p.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 9:15 p.m. | 5 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>CodiMD through 2.5.4 has a CSP-based protection mechanism against XSS through uploaded SVG documents containing JavaScript, but it can be bypassed in certain cases of different-origin file storage, such as AWS S3. NOTE: it can be considered a user error if AWS is employed for hosting untrusted JavaScript content, but the selected architecture within AWS does not have components that are able to insert Content-Security-Policy headers.
 <br>
@@ -104,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46652
 <br>
-<strong>Published : </strong> April 26, 2025, 6:15 p.m. | 5 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 6:15 p.m. | 8 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>In IZArc through 4.5, there is a Mark-of-the-Web Bypass Vulnerability. When a user performs an extraction from an archive file that bears Mark-of-the-Web, Mark-of-the-Web is not propagated to the extracted files.
 <br>
@@ -121,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-53636
 <br>
-<strong>Published : </strong> April 26, 2025, 3:15 p.m. | 8 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 3:15 p.m. | 11 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>An arbitrary file upload vulnerability via writefile.php of Serosoft Academia Student Information System (SIS) EagleR-1.0.118 allows attackers to execute arbitrary code via ../ in the filePath parameter.
 <br>
@@ -138,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46646
 <br>
-<strong>Published : </strong> April 26, 2025, 3:15 p.m. | 8 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 3:15 p.m. | 11 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>In Artifex Ghostscript before 10.05.0, decode_utf8 in base/gp_utf8.c mishandles overlong UTF-8 encoding. NOTE: this issue exists because of an incomplete fix for CVE-2024-46954.
 <br>
@@ -155,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13812
 <br>
-<strong>Published : </strong> April 26, 2025, 9:15 a.m. | 14 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 9:15 a.m. | 17 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The The Anps Theme plugin plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.1.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
 <br>
@@ -172,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2101
 <br>
-<strong>Published : </strong> April 26, 2025, 9:15 a.m. | 14 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 9:15 a.m. | 17 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The Edumall theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.2.4 via the 'template' parameter of the 'edumall_lazy_load_template' AJAX action. This makes it possible for unauthenticated attackers to include and execute arbitrary PHP files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where PHP files can be uploaded and included.
 <br>
@@ -189,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2850
 <br>
-<strong>Published : </strong> April 26, 2025, 8:15 a.m. | 15 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 8:15 a.m. | 18 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in GL.iNet GL-A1300 Slate Plus, GL-AR300M16 Shadow, GL-AR300M Shadow, GL-AR750 Creta, GL-AR750S-EXT Slate, GL-AX1800 Flint, GL-AXT1800 Slate AX, GL-B1300 Convexa-B, GL-B3000 Marble, GL-BE3600 Slate 7, GL-E750, GL-E750V2 Mudi, GL-MT300N-V2 Mango, GL-MT1300 Beryl, GL-MT2500 Brume 2, GL-MT3000 Beryl AX, GL-MT6000 Flint 2, GL-SFT1200 Opal, GL-X300B Collie, GL-X750 Spitz, GL-X3000 Spitz AX, GL-XE300 Puli and GL-XE3000 Puli AX 4.x. It has been rated as problematic. This issue affects some unknown processing of the component Download Interface. The manipulation leads to improper authorization. It is recommended to upgrade the affected component.
 <br>
@@ -206,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2851
 <br>
-<strong>Published : </strong> April 26, 2025, 8:15 a.m. | 15 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 8:15 a.m. | 18 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in GL.iNet GL-A1300 Slate Plus, GL-AR300M16 Shadow, GL-AR300M Shadow, GL-AR750 Creta, GL-AR750S-EXT Slate, GL-AX1800 Flint, GL-AXT1800 Slate AX, GL-B1300 Convexa-B, GL-B3000 Marble, GL-BE3600 Slate 7, GL-E750, GL-E750V2 Mudi, GL-MT300N-V2 Mango, GL-MT1300 Beryl, GL-MT2500 Brume 2, GL-MT3000 Beryl AX, GL-MT6000 Flint 2, GL-SFT1200 Opal, GL-X300B Collie, GL-X750 Spitz, GL-X3000 Spitz AX, GL-XE300 Puli and GL-XE3000 Puli AX 4.x. Affected is an unknown function of the file plugins.so of the component RPC Handler. The manipulation leads to buffer overflow. It is recommended to upgrade the affected component.
 <br>
@@ -223,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2811
 <br>
-<strong>Published : </strong> April 26, 2025, 7:15 a.m. | 16 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 7:15 a.m. | 19 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in GL.iNet GL-A1300 Slate Plus, GL-AR300M16 Shadow, GL-AR300M Shadow, GL-AR750 Creta, GL-AR750S-EXT Slate, GL-AX1800 Flint, GL-AXT1800 Slate AX, GL-B1300 Convexa-B, GL-B3000 Marble, GL-BE3600 Slate 7, GL-E750, GL-E750V2 Mudi, GL-MT300N-V2 Mango, GL-MT1300 Beryl, GL-MT2500 Brume 2, GL-MT3000 Beryl AX, GL-MT6000 Flint 2, GL-SFT1200 Opal, GL-X300B Collie, GL-X750 Spitz, GL-X3000 Spitz AX, GL-XE300 Puli and GL-XE3000 Puli AX 4.x. It has been declared as problematic. This vulnerability affects unknown code of the component API. The manipulation leads to inefficient regular expression complexity. It is recommended to upgrade the affected component.
 <br>
@@ -240,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1458
 <br>
-<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 17 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 20 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>The Element Pack Addons for Elementor – Free Templates and Widgets for Your WordPress Websites plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several widgets like Dual Button, Creative Button, Image Stack and more in all versions up to, and including, 5.10.29 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -257,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2105
 <br>
-<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 17 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 20 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The Jupiter X Core plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 4.8.11 via deserialization of untrusted input from the 'file' parameter of the 'raven_download_file' function. This makes it possible for attackers to inject a PHP Object through a PHAR file. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present. This vulnerability may be exploited by unauthenticated attackers when a form is present on the site with the file download action, and the ability to upload files is also present. Otherwise, this would be considered exploitable by Contributor-level users and above, because they could create the form needed to successfully exploit this.
 <br>
@@ -274,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2907
 <br>
-<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 17 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 20 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The Order Delivery Date WordPress plugin before 12.3.1 does not have authorization and CSRF checks when importing settings. Furthermore it also lacks proper checks to only update options relevant to the Order Delivery Date WordPress plugin before 12.3.1. This leads to attackers being able to modify the default_user_role to administrator and users_can_register, allowing them to register as an administrator of the site for complete site takeover.
 <br>
@@ -291,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3491
 <br>
-<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 17 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 20 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The Add custom page template plugin for WordPress is vulnerable to PHP Code Injection leading to Remote Code Execution in all versions up to, and including, 2.0.1 via the 'acpt_validate_setting' function. This is due to insufficient sanitization of the 'template_name' parameter. This makes it possible for authenticated attackers, with Administrator-level access and above, to execute code on the server.
 <br>
@@ -308,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3906
 <br>
-<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 17 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 20 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The Integração entre Eduzz e Woocommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'wep_opcoes' function in all versions up to, and including, 1.7.5. This makes it possible for authenticated attackers, with Subscriber-level access and above, to edit the default registration role within the plugin's registration flow to Administrator, which allows any user to create an Administrator account.
 <br>
@@ -325,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3914
 <br>
-<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 17 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 20 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The Aeropage Sync for Airtable plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'aeropage_media_downloader' function in all versions up to, and including, 3.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
 <br>
@@ -342,7 +427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3915
 <br>
-<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 17 hours, 29 minutes ago
+<strong>Published : </strong> April 26, 2025, 6:15 a.m. | 20 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The Aeropage Sync for Airtable plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the 'aeropageDeletePost' function in all versions up to, and including, 3.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary posts.
 <br>
