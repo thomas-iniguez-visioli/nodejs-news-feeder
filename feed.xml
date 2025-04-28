@@ -8,18 +8,336 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 28 Apr 2025 20:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Apr 2025 22:10:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-10635 - Enterprise Protection S/MIME Attachment Defense Improper Input Validation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-10635
+<br>
+<strong>Published : </strong> April 28, 2025, 9:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>Enterprise Protection contains an improper input validation vulnerability in attachment defense that allows an unauthenticated remote attacker to bypass attachment scanning security policy by sending a malicious S/MIME attachment with an opaque signature. When opened by a recipient in a downstream email client, the malicious attachment could cause partial loss of integrity and confidentiality to their system.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-10635</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-10635</guid>
+    </item>
+    <item>
+      <title>CVE-2024-11922 - Fortra GoAnywhere Email Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-11922
+<br>
+<strong>Published : </strong> April 28, 2025, 9:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>Missing input validation in certain features of the Web Client of Fortra's GoAnywhere prior to version 7.8.0 allows an attacker with permission to trigger emails to insert arbitrary HTML or JavaScript into an email.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-11922</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-11922</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0049 - GoAnywhere Directory Traversal Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0049
+<br>
+<strong>Published : </strong> April 28, 2025, 9:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>When a Web User without Create permission on subfolders attempts to upload a file to a non-existent directory, the error message includes the absolute server path which may allow Fuzzing for application mapping.
+This issue affects GoAnywhere: before 7.8.0.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0049</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0049</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4037 - Code-Projects ATM Banking Business Logic Error</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4037
+<br>
+<strong>Published : </strong> April 28, 2025, 9:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects ATM Banking 1.0. It has been classified as critical. Affected is the function moneyDeposit/moneyWithdraw. The manipulation leads to business logic errors. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4037</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4037</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4038 - Code-projects Train Ticket Reservation System Stack-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4038
+<br>
+<strong>Published : </strong> April 28, 2025, 9:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Train Ticket Reservation System 1.0. It has been declared as critical. Affected by this vulnerability is the function Reservation of the component Ticket Reservation. The manipulation of the argument Name leads to stack-based buffer overflow. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4038</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4038</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31650 - Apache Tomcat HTTP Priority Header Memory Leak DoS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31650
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Improper Input Validation vulnerability in Apache Tomcat. Incorrect error handling for some invalid HTTP priority headers resulted in incomplete clean-up of the failed request which created a memory leak. A large number of such requests could trigger an OutOfMemoryException resulting in a denial of service.
+
+This issue affects Apache Tomcat: from 9.0.76 through 9.0.102, from 10.1.10 through 10.1.39, from 11.0.0-M2 through 11.0.5.
+
+Users are recommended to upgrade to version 9.0.104, 10.1.40 or 11.0.6 which fix the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31650</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31650</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31651 - Apache Tomcat Improper Neutralization of Escape, Meta, or Control Sequences</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31651
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Escape, Meta, or Control Sequences vulnerability in Apache Tomcat. For a subset of unlikely rewrite rule configurations, it was possible 
+for a specially crafted request to bypass some rewrite rules. If those 
+rewrite rules effectively enforced security constraints, those 
+constraints could be bypassed.
+
+This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.5, from 10.1.0-M1 through 10.1.39, from 9.0.0.M1 through 9.0.102.
+
+Users are recommended to upgrade to version [FIXED_VERSION], which fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31651</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31651</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34491 - GFI MailEssentials .NET Deserialization Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34491
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>GFI MailEssentials prior to version 21.8 is vulnerable to a .NET deserialization issue. A remote and authenticated attacker can execute arbitrary code by sending crafted serialized .NET when joining to a Multi-Server setup.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34491</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34491</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3224 - Docker Desktop for Windows Elevation of Privilege Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3224
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the update process of Docker Desktop for Windows versions prior to 4.41.0 could allow a local, low-privileged attacker to escalate privileges to SYSTEM. During an update, Docker Desktop attempts to delete files and subdirectories under the path C:\ProgramData\Docker\config with high privileges. However, this directory often does not exist by default, and C:\ProgramData\ allows normal users to create new directories. By creating a malicious Docker\config folder structure at this location, an attacker can force the privileged update process to delete or manipulate arbitrary system files, leading to Elevation of Privilege.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3224</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3224</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45947 - PhpGurukul Online Banquet Booking System Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45947
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>An issue in phpgurukul Online Banquet Booking System V1.2 allows an attacker to execute arbitrary code via the /obbs/change-password.php file of the My Account - Change Password component
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45947</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45947</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45949 - PHPGurukul User Registration  Login and User Management System Session Hijacking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45949
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A critical vulnerability was found in PHPGurukul User Registration & Login and User Management System V3.3 in the /loginsystem/change-password.php file of the user panel - Change Password component. Improper handling of session data allows a Session Hijacking attack, exploitable remotely and leading to account takeover.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45949</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45949</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45953 - PHPGurukul Hostel Management System Session Hijacking</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45953
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Hostel Management System 2.1 in the /hostel/change-password.php file of the user panel - Change Password component. Improper handling of session data allows a Session Hijacking attack, exploitable remotely
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45953</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45953</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4034 - Projectworlds Online Examination System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4034
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in projectworlds Online Examination System 1.0. Affected by this vulnerability is an unknown functionality of the file /inser_doc_process.php. The manipulation of the argument Doc_ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4034</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4034</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4036 - Apache Novel Remote Code Execution via Improper Access Control</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4036
+<br>
+<strong>Published : </strong> April 28, 2025, 8:15 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in 201206030 Novel 3.5.0 and classified as critical. This issue affects the function updateBookChapter of the file src/main/java/io/github/xxyopen/novel/controller/author/AuthorController.java of the component Chapter Handler. The manipulation leads to improper access controls. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4036</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4036</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34489 - GFI MailEssentials Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34489
+<br>
+<strong>Published : </strong> April 28, 2025, 7:15 p.m. | 2 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>GFI MailEssentials prior to version 21.8 is vulnerable to a local privilege escalation issue. A local attacker can escalate to NT Authority/SYSTEM by sending a crafted serialized payload to a .NET Remoting Service.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34489</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34489</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34490 - GFI MailEssentials XXE Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34490
+<br>
+<strong>Published : </strong> April 28, 2025, 7:15 p.m. | 2 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>GFI MailEssentials prior to version 21.8 is vulnerable to an XML External Entity (XXE) issue. An authenticated and remote attacker can send crafted HTTP requests to read arbitrary system files.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34490</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34490</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4032 - InclusionAI AWorld Os Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4032
+<br>
+<strong>Published : </strong> April 28, 2025, 7:15 p.m. | 2 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in inclusionAI AWorld up to 8c257626e648d98d793dd9a1a950c2af4dd84c4e. It has been rated as critical. This issue affects the function subprocess.run/subprocess.Popen of the file AWorld/aworld/virtual_environments/terminals/shell_tool.py. The manipulation leads to os command injection. The attack may be initiated remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4032</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4032</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4033 - PHPGurukul Nipah Virus Testing Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4033
+<br>
+<strong>Published : </strong> April 28, 2025, 7:15 p.m. | 2 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in PHPGurukul Nipah Virus Testing Management System 1.0. Affected is an unknown function of the file /patient-search-report.php. The manipulation of the argument searchdata leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4033</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4033</guid>
+    </item>
+    <item>
       <title>CVE-2024-12706 - OpenText Digital Asset Management SQL Injection</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-12706
 <br>
-<strong>Published : </strong> April 28, 2025, 6:15 p.m. | 26 minutes ago
+<strong>Published : </strong> April 28, 2025, 6:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in OpenText™ Digital Asset Management. T
 
@@ -40,7 +358,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4030
 <br>
-<strong>Published : </strong> April 28, 2025, 6:15 p.m. | 26 minutes ago
+<strong>Published : </strong> April 28, 2025, 6:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul COVID19 Testing Management System 1.0. It has been classified as critical. This affects an unknown part of the file /search-report-result.php. The manipulation of the argument serachdata leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -57,7 +375,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4031
 <br>
-<strong>Published : </strong> April 28, 2025, 6:15 p.m. | 26 minutes ago
+<strong>Published : </strong> April 28, 2025, 6:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Pre-School Enrollment System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/aboutus.php. The manipulation of the argument pagetitle leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -74,7 +392,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-42404
 <br>
-<strong>Published : </strong> April 28, 2025, 5:15 p.m. | 1 hour, 26 minutes ago
+<strong>Published : </strong> April 28, 2025, 5:15 p.m. | 4 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>OneVision Workspace before WS23.1 SR1 (build w31.040) allows arbitrary Java EL execution.
 <br>
@@ -91,7 +409,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-32499
 <br>
-<strong>Published : </strong> April 28, 2025, 5:15 p.m. | 1 hour, 26 minutes ago
+<strong>Published : </strong> April 28, 2025, 5:15 p.m. | 4 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Newforma Project Center Server through 2023.3.0.32259 allows remote code execution because .NET Remoting is exposed.
 <br>
@@ -108,7 +426,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4028
 <br>
-<strong>Published : </strong> April 28, 2025, 5:15 p.m. | 1 hour, 26 minutes ago
+<strong>Published : </strong> April 28, 2025, 5:15 p.m. | 4 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in PHPGurukul COVID19 Testing Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /profile.php. The manipulation of the argument mobilenumber leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
 <br>
@@ -125,7 +443,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4029
 <br>
-<strong>Published : </strong> April 28, 2025, 5:15 p.m. | 1 hour, 26 minutes ago
+<strong>Published : </strong> April 28, 2025, 5:15 p.m. | 4 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Personal Diary Management System 1.0 and classified as critical. Affected by this issue is the function addrecord of the component New Record Handler. The manipulation of the argument filename leads to stack-based buffer overflow. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used.
 <br>
