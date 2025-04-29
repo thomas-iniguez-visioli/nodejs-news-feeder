@@ -8,12 +8,440 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 29 Apr 2025 14:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Apr 2025 16:13:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-4065 - ScriptAndTools Online-Travling-System Remote Improper Access Control Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4065
+<br>
+<strong>Published : </strong> April 29, 2025, 3:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in ScriptAndTools Online-Travling-System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/addadvertisement.php. The manipulation leads to improper access controls. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4065</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4065</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4066 - ScriptAndTools Online-Travling-System Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4066
+<br>
+<strong>Published : </strong> April 29, 2025, 3:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in ScriptAndTools Online-Travling-System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /admin/addpackage.php. The manipulation leads to improper access controls. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4066</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4066</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4067 - ScriptAndTools Online-Travling-System Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4067
+<br>
+<strong>Published : </strong> April 29, 2025, 3:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in ScriptAndTools Online-Travling-System 1.0. Affected is an unknown function of the file /admin/viewpackage.php. The manipulation leads to improper access controls. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4067</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4067</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2817 - Mozilla Firefox System File Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2817
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>Mozilla Firefox's update mechanism allowed a medium-integrity user process to interfere with the SYSTEM-level updater by manipulating the file-locking behavior. By injecting code into the user-privileged process, an attacker could bypass intended access controls, allowing SYSTEM-level file operations on paths controlled by a non-privileged user and enabling privilege escalation. This vulnerability affects Firefox < 138, Firefox ESR < 128.10, Firefox ESR < 115.23, Thunderbird < 138, and Thunderbird ESR < 128.10.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2817</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2817</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3301 - Marvell Series 2 DPA Vulnerability: ECDH and EdDSA Countermeasures Missing</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3301
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>DPA countermeasures are unavailable for ECDH key agreement and EdDSA signing operations on Curve25519 and Curve448 on all Series 2 modules and SoCs due to a lack of hardware and software support. A successful DPA attack may result in exposure of confidential information. The best practice is to use the impacted crypto curves and operations with ephemeral keys to reduce the number of DPA traces that can be collected.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3301</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3301</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4062 - Apache Code-Projects Theater Seat Booking System Stack-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4062
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in code-projects Theater Seat Booking System 1.0 and classified as critical. Affected by this vulnerability is the function cancel. The manipulation of the argument cancelcustomername leads to stack-based buffer overflow. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4062</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4062</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4063 - Code-projects Student Information Management System Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4063
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Student Information Management System 1.0 and classified as critical. Affected by this issue is the function cancel. The manipulation of the argument first_name/last_name leads to stack-based buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4063</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4063</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4064 - ScriptAndTools Online-Travling-System Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4064
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in ScriptAndTools Online-Travling-System 1.0. It has been classified as critical. This affects an unknown part of the file /admin/viewenquiry.php. The manipulation leads to improper access controls. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4064</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4064</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4082 - Mozilla Firefox WebGL Out-of-Bounds Read RCE</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4082
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>Modification of specific WebGL shader attributes could trigger an out-of-bounds read, which, when chained with other vulnerabilities, could be used to escalate privileges.
+*This bug only affects Firefox for macOS. Other versions of Firefox are unaffected.* This vulnerability affects Firefox < 138, Firefox ESR < 128.10, Firefox ESR < 115.23, Thunderbird < 138, and Thunderbird ESR < 128.10.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4082</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4082</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4083 - Firefox JavaScript URI Isolation Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4083
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>A process isolation vulnerability in Firefox stemmed from improper handling of javascript: URIs, which could allow content to execute in the top-level document's process instead of the intended frame, potentially enabling a sandbox escape. This vulnerability affects Firefox < 138, Firefox ESR < 128.10, Firefox ESR < 115.23, Thunderbird < 138, and Thunderbird ESR < 128.10.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4083</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4083</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4084 - "Firefox/Thunderbird Escaping Vulnerability (Local Code Execution)"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4084
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>Due to insufficient escaping of the special characters in the "copy as cURL" feature, an attacker could trick a user into using this command, potentially leading to local code execution on the user's system.
+*This bug only affects Firefox for Windows. Other versions of Firefox are unaffected.* This vulnerability affects Firefox ESR < 128.10, Firefox ESR < 115.23, and Thunderbird ESR < 128.10.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4084</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4084</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4085 - Firefox UITour Actor Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4085
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>An attacker with control over a content process could potentially leverage the privileged UITour actor to leak sensitive information or escalate privileges. This vulnerability affects Firefox < 138 and Thunderbird < 138.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4085</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4085</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4086 - Mozilla Firefox and Thunderbird File Extension Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4086
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>A specially crafted filename containing a large number of encoded newline characters could obscure the file's extension when displayed in the download dialog.
+*This bug only affects Firefox for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox < 138 and Thunderbird < 138.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4086</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4086</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4087 - "Firefox XPath Parsing Memory Corruption Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4087
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was identified in Firefox where XPath parsing could trigger undefined behavior due to missing null checks during attribute access. This could lead to out-of-bounds read access and potentially, memory corruption. This vulnerability affects Firefox < 138, Firefox ESR < 128.10, Thunderbird < 138, and Thunderbird ESR < 128.10.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4087</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4087</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4088 - "Firefox Storage Access API Cross-Site Request Forgery Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4088
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>A security vulnerability in Firefox allowed malicious sites to use redirects to send credentialed requests to arbitrary endpoints on any site that had invoked the Storage Access API. This enabled potential Cross-Site Request Forgery attacks across origins. This vulnerability affects Firefox < 138 and Thunderbird < 138.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4088</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4088</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4089 - Mozilla Firefox/Thunderbird Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4089
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>Due to insufficient escaping of special characters in the "copy as cURL" feature, an attacker could trick a user into using this command, potentially leading to local code execution on the user's system. This vulnerability affects Firefox < 138 and Thunderbird < 138.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4089</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4089</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4090 - "Mozilla Firefox Android and Thunderbird Information Disclosure"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4090
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability existed in Firefox for Android where potentially sensitive library locations were logged via Logcat. This vulnerability affects Firefox < 138 and Thunderbird < 138.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4090</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4090</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4091 - Mozilla Firefox and Thunderbird Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4091
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>Memory safety bugs present in Firefox 137, Thunderbird 137, Firefox ESR 128.9, and Thunderbird 128.9. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 138, Firefox ESR < 128.10, Thunderbird < 138, and Thunderbird ESR < 128.10.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4091</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4091</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4092 - Firefox Memory Corruption Arbitrary Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4092
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>Memory safety bugs present in Firefox 137 and Thunderbird 137. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 138 and Thunderbird < 138.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4092</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4092</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4093 - "Firefox ESR and Thunderbird Memory Corruption Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4093
+<br>
+<strong>Published : </strong> April 29, 2025, 2:15 p.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>Memory safety bug present in Firefox ESR 128.9, and Thunderbird 128.9. This bug showed evidence of memory corruption and we presume that with enough effort this could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 128.10 and Thunderbird ESR < 128.10.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4093</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4093</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4035 - Libsoup Cookie Domain Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4035
+<br>
+<strong>Published : </strong> April 29, 2025, 1:15 p.m. | 2 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in libsoup. When handling cookies, libsoup clients mistakenly allow cookies to be set for public suffix domains if the domain contains at least two components and includes an uppercase character. This bypasses public suffix protections and could allow a malicious website to set cookies for domains it does not own, potentially leading to integrity issues such as session fixation.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4035</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4035</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4060 - PHPGurukul Notice Board System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4060
+<br>
+<strong>Published : </strong> April 29, 2025, 1:15 p.m. | 2 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in PHPGurukul Notice Board System 1.0. This issue affects some unknown processing of the file /category.php. The manipulation of the argument catname leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4060</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4060</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4061 - Code-projects Clothing Store Management System Stack-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4061
+<br>
+<strong>Published : </strong> April 29, 2025, 1:15 p.m. | 2 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Clothing Store Management System up to 1.0. Affected is the function add_item. The manipulation of the argument st.productname leads to stack-based buffer overflow. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4061</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4061</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4058 - Projectworlds Online Examination System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4058
+<br>
+<strong>Published : </strong> April 29, 2025, 12:15 p.m. | 3 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in Projectworlds Online Examination System 1.0. This affects an unknown part of the file /Bloodgroop_process.php. The manipulation of the argument Pat_BloodGroup1 leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4058</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4058</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4059 - Code-projects Prison Management System Stack-Based Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4059
+<br>
+<strong>Published : </strong> April 29, 2025, 12:15 p.m. | 3 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in code-projects Prison Management System 1.0. This vulnerability affects the function addrecord of the component Prison_Mgmt_Sys. The manipulation of the argument filename leads to stack-based buffer overflow. An attack has to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4059</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4059</guid>
+    </item>
     <item>
       <title>CVE-2025-3452 - SecuPress Free WordPress Security Plugin Unauthorized Plugin Installation Vulnerability</title>
       <description><![CDATA[<p>
