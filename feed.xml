@@ -8,12 +8,444 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 29 Apr 2025 18:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Apr 2025 20:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-3911 - Docker Desktop Environment Variable Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3911
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>Recording of environment variables, configured for running containers, in Docker Desktop application logs could lead to unintentional disclosure of sensitive information such as api keys, passwords, etc.
+
+A malicious actor with read access to these logs could obtain sensitive credentials information and further use it to gain unauthorized access to other systems. Starting with version 4.41.0, Docker Desktop no longer logs environment variables set by the user.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3911</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3911</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46347 - YesWiki Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46347
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>YesWiki is a wiki system written in PHP. Prior to version 4.5.4, YesWiki vulnerable to remote code execution. An arbitrary file write can be used to write a file with a PHP extension, which then can be browsed to in order to execute arbitrary code on the server, resulting in a full compromise of the server. This could potentially be performed unwittingly by a user. This issue has been patched in version 4.5.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46347</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46347</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46349 - YesWiki Reflected Cross-Site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46349
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>YesWiki is a wiki system written in PHP. Prior to version 4.5.4, YesWiki is vulnerable to reflected XSS in the file upload form. This vulnerability allows any malicious unauthenticated user to create a link that can be clicked on by the victim to perform arbitrary actions. This issue has been patched in version 4.5.4.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46349</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46349</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46350 - YesWiki Reflected Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46350
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>YesWiki is a wiki system written in PHP. Prior to version 4.5.4, an attacker can use a reflected cross-site scripting attack to steal cookies from an authenticated user by having them click on a malicious link. Stolen cookies allow the attacker to take over the user’s session. This vulnerability may also allow attackers to deface the website or embed malicious content. This issue has been patched in version 4.5.4.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46350</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46350</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4074 - PHPGurukul Curfew e-Pass Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4074
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Curfew e-Pass Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/pass-bwdates-report.php. The manipulation of the argument fromdate/todate leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4074</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4074</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4075 - VMSMan Cross Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4075
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in VMSMan up to 20250416. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /login.php. The manipulation of the argument Email with the input "><script>alert(1)</script> leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4075</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4075</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4076 - LB-LINK BL-AC3600 Password Handler Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4076
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in LB-LINK BL-AC3600 up to 1.0.22. This affects the function easy_uci_set_option_string_0 of the file /cgi-bin/lighttpd.cgi of the component Password Handler. The manipulation of the argument routepwd leads to command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4076</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4076</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4077 - Code-projects School Billing System Stack-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4077
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in code-projects School Billing System 1.0. This vulnerability affects the function searchrec. The manipulation of the argument Name leads to stack-based buffer overflow. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4077</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4077</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4095 - Docker Desktop MacOS Registry Access Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4095
+<br>
+<strong>Published : </strong> April 29, 2025, 6:15 p.m. | 44 minutes ago
+<br>
+<strong>Description : </strong>Registry Access Management (RAM) is a security feature allowing administrators to restrict access for their developers to only allowed registries. When a MacOS configuration profile is used to enforce organization sign-in, the RAM policies are not being applied, which would allow Docker Desktop users to pull down unapproved, and potentially malicious images from any registry.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4095</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4095</guid>
+    </item>
+    <item>
+      <title>CVE-2025-0716 - AngularJS SVG Image Content Spoofing</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0716
+<br>
+<strong>Published : </strong> April 29, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>Improper sanitization of the value of the 'href' and 'xlink:href' attributes in '<image>' SVG elements in AngularJS allows attackers to bypass common image source restrictions. This can lead to a form of  Content Spoofing https://owasp.org/www-community/attacks/Content_Spoofing  and also negatively affect the application's performance and behavior by using too large or slow-to-load images.
+
+This issue affects all versions of AngularJS.
+
+Note:
+The AngularJS project is End-of-Life and will not receive any updates to address this issue. For more information see  here https://docs.angularjs.org/misc/version-support-status .
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0716</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0716</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23180 - Apache HTTP Server Unprivileged Process Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23180
+<br>
+<strong>Published : </strong> April 29, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>CWE-250: Execution with Unnecessary Privileges
+<br>
+<strong>Severity:</strong> 8.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23180</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23180</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23181 - Apache Tomcat Unprivileged Command Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23181
+<br>
+<strong>Published : </strong> April 29, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>CWE-250: Execution with Unnecessary Privileges
+<br>
+<strong>Severity:</strong> 8.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23181</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23181</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45956 - Sourcecodester Computer Laboratory Management System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45956
+<br>
+<strong>Published : </strong> April 29, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>A SQL injection vulnerability in manage_damage.php in Sourcecodester Computer Laboratory Management System v1.0 allows an authenticated attacker to execute arbitrary SQL commands via the "id" parameter
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45956</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45956</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4072 - PHPGurukul Online Nurse Hiring System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4072
+<br>
+<strong>Published : </strong> April 29, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Online Nurse Hiring System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/edit-nurse.php. The manipulation leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Multiple parameters might be affected.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4072</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4072</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4073 - PHPGurukul Student Record System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4073
+<br>
+<strong>Published : </strong> April 29, 2025, 5:15 p.m. | 1 hour, 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Student Record System 3.20. It has been classified as critical. Affected is an unknown function of the file /change-password.php. The manipulation of the argument currentpassword leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4073</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4073</guid>
+    </item>
+    <item>
+      <title>CVE-2025-40615 - Bookgy Reflected Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40615
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>Reflected Cross-Site Scripting (XSS) vulnerability in Bookgy. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending a malicious URL through the "TEXTO" parameter in /api/api_ajustes.php.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40615</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40615</guid>
+    </item>
+    <item>
+      <title>CVE-2025-40616 - Bookgy Reflected XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40616
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>Reflected Cross-Site Scripting (XSS) vulnerability in Bookgy. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending a malicious URL through the "IDRESERVA" parameter in /bkg_imprimir_comprobante.php.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40616</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40616</guid>
+    </item>
+    <item>
+      <title>CVE-2025-40617 - Bookgy SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40617
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>SQL injection vulnerability in Bookgy. This vulnerability could allow an attacker to retrieve, create, update and delete databases by sending an HTTP request through the "IDTIPO", "IDPISTA" and "IDSOCIO" parameters in /bkg_seleccionar_hora_ajax.php.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40617</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40617</guid>
+    </item>
+    <item>
+      <title>CVE-2025-40618 - Bookgy SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40618
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>SQL injection vulnerability in Bookgy. This vulnerability could allow an attacker to retrieve, create, update and delete databases by sending an HTTP request through the "IDRESERVA"  parameter in /bkg_imprimir_comprobante.php
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40618</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40618</guid>
+    </item>
+    <item>
+      <title>CVE-2025-40619 - Bookgy Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40619
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>Bookgy does not provide for proper authorisation control in multiple areas of the application. This deficiency could allow a malicious actor, without authentication, to reach private areas and/or areas intended for other roles.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40619</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40619</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46346 - YesWiki Stored Cross-Site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46346
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>YesWiki is a wiki system written in PHP. Prior to version 4.5.4, a stored cross-site scripting (XSS) vulnerability was discovered in the application’s comments feature. This issue allows a malicious actor to inject JavaScript payloads that are stored and later executed in the browser of any user viewing the affected comment. The XSS occurs because the application fails to properly sanitize or encode user input submitted to the comments. Notably, the application sanitizes or does not allow execution of `<script>` tags, but does not account for payloads obfuscated using JavaScript block comments like `/* JavaScriptPayload */`. This issue has been patched in version 4.5.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46346</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46346</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4068 - Code-projects Simple Movie Ticket Booking System Stack-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4068
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in code-projects Simple Movie Ticket Booking System 1.0. Affected by this vulnerability is the function changeprize. The manipulation of the argument prize leads to stack-based buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4068</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4068</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4069 - Code-projects Product Management System Stack-Based Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4069
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Product Management System 1.0. Affected by this issue is the function add_item. The manipulation of the argument st.productname leads to stack-based buffer overflow. An attack has to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4069</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4069</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4070 - PHPGurukul Rail Pass Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4070
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Rail Pass Management System 1.0. This affects an unknown part of the file /admin/changeimage.php. The manipulation of the argument editid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4070</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4070</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4071 - PHPGurukul COVID19 Testing Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4071
+<br>
+<strong>Published : </strong> April 29, 2025, 4:15 p.m. | 2 hours, 44 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in PHPGurukul COVID19 Testing Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /test-details.php. The manipulation of the argument Status leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 29 Apr 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4071</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4071</guid>
+    </item>
     <item>
       <title>CVE-2025-4065 - ScriptAndTools Online-Travling-System Remote Improper Access Control Vulnerability</title>
       <description><![CDATA[<p>
