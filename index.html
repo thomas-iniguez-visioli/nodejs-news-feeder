@@ -179,12 +179,262 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-27134 - Joplin Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-27134
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. Prior to version 3.3.3, a privilege escalation vulnerability exists in the Joplin server, allowing non-admin users to exploit the API endpoint `PATCH /api/users/:id` to set the `is_admin` field to 1. The vulnerability allows malicious low-privileged users to perform administrative actions without proper authorization. This issue has been patched in version 3.3.3.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-27134">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-27409 - Joplin Server Path Traversal Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-27409
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. Prior to version 3.3.3, path traversal is possible in Joplin Server if static file path starts with `css/pluginAssets` or `js/pluginAssets`. The `findLocalFile` function in the `default route` calls `localFileFromUrl` to check for special `pluginAssets` paths. If the function returns a path, the result is returned directly, without checking for path traversal. The vulnerability allows attackers to read files outside the intended directories. This issue has been patched in version 3.3.3.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-27409">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32376 - Discourse DM Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32376
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>Discourse is an open-source discussion platform. Prior to versions 3.4.3 on the stable branch and 3.5.0.beta3 on the beta branch, the users limit for a DM can be bypassed, thus giving the ability to potentially create a DM with every user from a site in it. This issue has been patched in stable version 3.4.3 and beta version 3.5.0.beta3.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32376">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32970 - XWiki Open Redirect Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32970
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 13.5-rc-1 to before 15.10.13, from 16.0.0-rc-1 to before 16.4.4, and from 16.5.0-rc-1 to before 16.8.0, an open redirect vulnerability in the HTML conversion request filter allows attackers to construct URLs on an XWiki instance that redirects to any URL. This issue has been patched in versions 15.10.13, 16.4.4, and 16.8.0.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32970">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32971 - XWiki Solr Script Service Privilege Escalation
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32971
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 4.5.1 to before 15.10.13, from 16.0.0-rc-1 to before 16.4.4, and from 16.5.0-rc-1 to before 16.8.0-rc-1, the Solr script service doesn't take dropped programming rights into account. The Solr script service that is accessible in XWiki's scripting API normally requires programming rights to be called. Due to using the wrong API for checking rights, it doesn't take the fact into account that programming rights might have been dropped by calling `$xcontext.dropPermissions()`. If some code relies on this for the safety of executing Velocity code with the wrong author context, this could allow a user with script rights to either cause a high load by indexing documents or to temporarily remove documents from the search index. This issue has been patched in versions 15.10.13, 16.4.4, and 16.8.0-rc-1.
+<br>
+<strong>Severity:</strong> 3.8 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32971">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32972 - XWiki LESS Compiler Script Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32972
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 6.1-milestone-1 to before 15.10.12, from 16.0.0-rc-1 to before 16.4.3, and from 16.5.0-rc-1 to before 16.8.0-rc-1, the script API of the LESS compiler in XWiki is incorrectly checking for rights when calling the cache cleaning API, making it possible to clean the cache without having programming right. The only impact of this is a slowdown in XWiki execution as the caches are re-filled. As this vulnerability requires script right to exploit, and script right already allows unlimited execution of scripts, the additional impact due to this vulnerability is low. This issue has been patched in versions 15.10.12, 16.4.3, and 16.8.0-rc-1.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32972">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32973 - XWiki Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32973
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 15.9-rc-1 to before 15.10.12, from 16.0.0-rc-1 to before 16.4.3, and from 16.5.0-rc-1 to before 16.8.0-rc-1, when a user with programming rights edits a document in XWiki that was last edited by a user without programming rights and contains an XWiki.ComponentClass, there is no warning that this will grant programming rights to this object. An attacker who created such a malicious object could use this to gain programming rights on the wiki. For this, the attacker needs to have edit rights on at least one page to place this object and then get an admin user to edit that document. This issue has been patched in versions 15.10.12, 16.4.3, and 16.8.0-rc-1.
+<br>
+<strong>Severity:</strong> 9.0 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32973">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-32974 - XWiki Cross-Site Scripting (XSS) and Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-32974
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 15.9-rc-1 to before 15.10.8 and from 16.0.0-rc-1 to before 16.2.0, the required rights analysis doesn't consider TextAreas with default content type. When editing a page, XWiki warns since version 15.9 when there is content on the page like a script macro that would gain more rights due to the editing. This analysis doesn't consider certain kinds of properties, allowing a user to put malicious scripts in there that will be executed after a user with script, admin, or programming rights edited the page. Such a malicious script could impact the confidentiality, integrity and availability of the whole XWiki installation. This issue has been patched in versions 15.10.8 and 16.2.0.
+<br>
+<strong>Severity:</strong> 9.0 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32974">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-46342 - Kyverno Namespace Selector Bypass Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-46342
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>Kyverno is a policy engine designed for cloud native platform engineering teams. Prior to versions 1.13.5 and 1.14.0, it may happen that policy rules using namespace selector(s) in their match statements are mistakenly not applied during admission review request processing due to a missing error propagation in function `GetNamespaceSelectorsFromNamespaceLister` in `pkg/utils/engine/labels.go`. As a consequence, security-critical mutations and validations are bypassed, potentially allowing attackers with K8s API access to perform malicious operations. This issue has been patched in versions 1.13.5 and 1.14.0.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-46342">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4122 - Netgear JWNR2000 Command Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4122
+<br>
+<strong>Published : </strong> April 30, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Netgear JWNR2000v2 1.0.0.11. It has been rated as critical. Affected by this issue is the function sub_435E04. The manipulation of the argument host leads to command injection. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 15:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4122">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-45009 - PHPGurukul Park Ticketing Management System HTML Injection
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45009
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A HTML Injection vulnerability was discovered in the normal-search.php file of PHPGurukul Park Ticketing Management System v2.0. This vulnerability allows remote attackers to execute arbitrary code via the searchdata parameter.
 <br>
@@ -209,7 +459,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45010
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A HTML Injection vulnerability was discovered in the normal-bwdates-reports-details.php file of PHPGurukul Park Ticketing Management System v2.0. This vulnerability allows remote attackers to execute arbitrary code via the fromdate and todate POST request parameters.
 <br>
@@ -234,7 +484,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45011
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A HTML Injection vulnerability was discovered in the foreigner-search.php file of PHPGurukul Park Ticketing Management System v2.0. This vulnerability allows remote attackers to execute arbitrary code via the searchdata POST request parameter.
 <br>
@@ -259,7 +509,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45015
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A Cross-Site Scripting (XSS) vulnerability was discovered in the foreigner-bwdates-reports-details.php file of PHPGurukul Park Ticketing Management System v2.0. The vulnerability allows remote attackers to inject arbitrary JavaScript code via the fromdate and todate parameters.
 <br>
@@ -284,7 +534,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45017
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability was discovered in edit-ticket.php of PHPGurukul Park Ticketing Management System v2.0. This vulnerability allows remote attackers to execute arbitrary code via the tprice POST request parameter.
 <br>
@@ -309,7 +559,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45018
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A SQL Injection vulnerability was discovered in the foreigner-bwdates-reports-details.php file of PHPGurukul Park Ticketing Management System v2.0. This vulnerability allows remote attackers to execute arbitrary SQL code via the todate parameter.
 <br>
@@ -334,7 +584,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45019
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability was discovered in /add-foreigners-ticket.php file of PHPGurukul Park Ticketing Management System v2.0. This vulnerability allows remote attackers to execute arbitrary code via the cprice POST request parameter.
 <br>
@@ -359,7 +609,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45021
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A SQL Injection vulnerability was identified in the admin/edit-directory.php file of the PHPGurukul Directory Management System v2.0. Attackers can exploit this vulnerability via the email parameter in a POST request to execute arbitrary SQL commands.
 <br>
@@ -384,7 +634,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4118
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in Weitong Mall 1.0.0. This affects an unknown part of the file /historyList of the component Product History Handler. The manipulation of the argument isDelete with the input 1 leads to improper access controls. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -409,7 +659,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4119
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in Weitong Mall 1.0.0. This vulnerability affects unknown code of the file /queryTotal of the component Product Statistics Handler. The manipulation of the argument isDelete with the input 1 leads to improper access controls. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -434,7 +684,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4120
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Netgear JWNR2000v2 1.0.0.11. It has been classified as critical. Affected is the function sub_4238E8. The manipulation of the argument host leads to buffer overflow. It is possible to launch the attack remotely. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -459,7 +709,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4121
 <br>
-<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 18 minutes ago
+<strong>Published : </strong> April 30, 2025, 2:15 p.m. | 2 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Netgear JWNR2000v2 1.0.0.11. It has been declared as critical. Affected by this vulnerability is the function cmd_wireless. The manipulation of the argument host leads to command injection. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -471,6 +721,81 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 30 Apr 2025 14:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4121">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4115 - Netgear JWNR2000v2 Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4115
+<br>
+<strong>Published : </strong> April 30, 2025, 1:15 p.m. | 3 hours, 8 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in Netgear JWNR2000v2 1.0.0.11. Affected by this vulnerability is the function default_version_is_new. The manipulation of the argument host leads to buffer overflow. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4115">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4116 - Netgear JWNR2000 Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4116
+<br>
+<strong>Published : </strong> April 30, 2025, 1:15 p.m. | 3 hours, 8 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Netgear JWNR2000v2 1.0.0.11. Affected by this issue is the function get_cur_lang_ver. The manipulation of the argument host leads to buffer overflow. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4116">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4117 - Netgear JWNR2000 Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4117
+<br>
+<strong>Published : </strong> April 30, 2025, 1:15 p.m. | 3 hours, 8 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Netgear JWNR2000v2 1.0.0.11. This affects the function sub_41A914. The manipulation of the argument host leads to buffer overflow. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4117">
                                 read more
                             </a>
                     </article>
@@ -571,81 +896,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 30 Apr 2025 13:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-45020">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4115 - Netgear JWNR2000v2 Buffer Overflow Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4115
-<br>
-<strong>Published : </strong> April 30, 2025, 1:15 p.m. | 1 hour, 18 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability classified as critical was found in Netgear JWNR2000v2 1.0.0.11. Affected by this vulnerability is the function default_version_is_new. The manipulation of the argument host leads to buffer overflow. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Apr 2025 13:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4115">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4116 - Netgear JWNR2000 Buffer Overflow Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4116
-<br>
-<strong>Published : </strong> April 30, 2025, 1:15 p.m. | 1 hour, 18 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Netgear JWNR2000v2 1.0.0.11. Affected by this issue is the function get_cur_lang_ver. The manipulation of the argument host leads to buffer overflow. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Apr 2025 13:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4116">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4117 - Netgear JWNR2000 Buffer Overflow Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4117
-<br>
-<strong>Published : </strong> April 30, 2025, 1:15 p.m. | 1 hour, 18 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Netgear JWNR2000v2 1.0.0.11. This affects the function sub_41A914. The manipulation of the argument host leads to buffer overflow. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Apr 2025 13:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4117">
                                 read more
                             </a>
                     </article>
