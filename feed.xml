@@ -8,12 +8,450 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 30 Apr 2025 20:11:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 22:10:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2024-13943 - Tesla Model S Iris Modem Sandbox Escape Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-13943
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>Tesla Model S Iris Modem QCMAP_ConnectionManager Improper Input Validation Sandbox Escape Vulnerability. This vulnerability allows local attackers to escape the sandbox on affected affected Tesla Model S vehicles. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.
+
+The specific flaw exists within the QCMAP_ConnectionManager component. An attacker can abuse the service to assign LAN addresses to the WWAN. An attacker can leverage this vulnerability to access network services that were only intended to be exposed to the internal LAN. Was ZDI-CAN-23199.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-13943</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-13943</guid>
+    </item>
+    <item>
+      <title>CVE-2024-6029 - Tesla Model S Iris Modem Firewall Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-6029
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>Tesla Model S Iris Modem Race Condition Firewall Bypass Vulnerability. This vulnerability allows network-adjacent attackers to bypass the firewall on the Iris modem in affected Tesla Model S vehicles. Authentication is not required to exploit this vulnerability.
+ 
+The specific flaw exists within the firewall service. The issue results from a failure to obtain the xtables lock. An attacker can leverage this vulnerability to bypass firewall rules. Was ZDI-CAN-23197.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-6029</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-6029</guid>
+    </item>
+    <item>
+      <title>CVE-2024-6030 - Tesla Model S oFono Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-6030
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>Tesla Model S oFono Unnecessary Privileges Sandbox Escape Vulnerability. This vulnerability allows local attackers to escape the sandbox on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code within the sandbox on the target system in order to exploit this vulnerability.
+ 
+The specific flaw exists within the oFono process. The process allows an attacker to modify interfaces. An attacker can leverage this vulnerability to bypass the iptables network sandbox. Was ZDI-CAN-23200.
+<br>
+<strong>Severity:</strong> 7.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-6030</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-6030</guid>
+    </item>
+    <item>
+      <title>CVE-2024-6031 - Tesla Model S oFono AT Command Heap Buffer Overflow Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-6031
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>Tesla Model S oFono AT Command Heap-based Buffer Overflow Code Execution Vulnerability. This vulnerability allows local attackers to execute arbitrary code on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code on the target modem in order to exploit this vulnerability.
+ 
+The specific flaw exists within the parsing of responses from AT commands. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Was ZDI-CAN-23198.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-6031</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-6031</guid>
+    </item>
+    <item>
+      <title>CVE-2024-6032 - Tesla Model S Iris Modem Command Injection Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-6032
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>Tesla Model S Iris Modem ql_atfwd Command Injection Code Execution Vulnerability. This vulnerability allows local attackers to execute arbitrary code on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code on the target system in order to exploit this vulnerability.
+ 
+The specific flaw exists within the ql_atfwd process. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code on the target modem in the context of root. Was ZDI-CAN-23201.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-6032</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-6032</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27611 - Base-x Unvalidated User Input Address Manipulation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27611
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>base-x is a base encoder and decoder of any given alphabet using bitcoin style leading zero compression. Versions 4.0.0, 5.0.0, and all prior to 3.0.11, are vulnerable to attackers potentially deceiving users into sending funds to an unintended address. This issue has been patched in versions 3.0.11, 4.0.1, and 5.0.1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27611</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27611</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2082 - Tesla Model 3 VCSEC Integer Overflow Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2082
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>Tesla Model 3 VCSEC Integer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Tesla Model 3 vehicles. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the VCSEC module. By manipulating the certificate response sent from the Tire Pressure Monitoring System (TPMS), an attacker can trigger an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the VCSEC module and send arbitrary messages to the vehicle CAN bus. Was ZDI-CAN-23800.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2082</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2082</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4136 - Weitong Mall Remote Unauthorized Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4136
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 19 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Weitong Mall 1.0.0. It has been classified as critical. This affects an unknown part of the component Sale Endpoint. The manipulation of the argument ID leads to improper authorization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4136</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4136</guid>
+    </item>
+    <item>
+      <title>CVE-2024-47784 - ANC Software Password Change Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-47784
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>Unverified Password Change for ANC software that allows an authenticated attacker to bypass the old Password check in the password change form via a web HMI
+This issue affects ANC software version 1.1.4 and earlier.
+<br>
+<strong>Severity:</strong> 2.6 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-47784</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-47784</guid>
+    </item>
+    <item>
+      <title>CVE-2024-9876 - ABB ANC/ANC-L/ANC-mini Data Tampering Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-9876
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>: Modification of Assumed-Immutable Data (MAID) vulnerability in ABB ANC, ABB ANC-L, ABB ANC-mini.This issue affects ANC: through 1.1.4; ANC-L: through 1.1.4; ANC-mini: through 1.1.4.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-9876</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-9876</guid>
+    </item>
+    <item>
+      <title>CVE-2024-9877 - ABB ANC, ANC-L, ANC-mini GET Request Method With Sensitive Query Strings Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-9877
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>: Use of GET Request Method With Sensitive Query Strings vulnerability in ABB ANC, ABB ANC-L, ABB ANC-mini.This issue affects ANC: through 1.1.4; ANC-L: through 1.1.4; ANC-mini: through 1.1.4.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-9877</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-9877</guid>
+    </item>
+    <item>
+      <title>CVE-2025-24887 - OpenCTI Allow/Deny List Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-24887
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>OpenCTI is an open-source cyber threat intelligence platform. In versions starting from 6.4.8 to before 6.4.10, the allow/deny lists can be bypassed, allowing a user to change attributes that are intended to be unmodifiable by the user. It is possible to toggle the `external` flag on/off and change the own token value for a user. It is also possible to edit attributes that are not in the allow list, such as `otp_qr` and `otp_activated`. If external users exist in the OpenCTI setup and the information about these users identities is sensitive, the above vulnerabilities can be used to enumerate existing user accounts as a standard low privileged user. This issue has been patched in version 6.4.10.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-24887</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-24887</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2170 - SMA1000 Appliance SSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2170
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>A Server-side request forgery (SSRF) vulnerability has been identified in the SMA1000 Appliance Work Place interface, which in specific conditions could potentially enable a remote unauthenticated attacker to cause the appliance to make requests to an unintended location.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2170</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2170</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32777 - Kubernetes Volcano Denial of Service and Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32777
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>Volcano is a Kubernetes-native batch scheduling system. Prior to versions 1.11.2, 1.10.2, 1.9.1, 1.11.0-network-topology-preview.3, and 1.12.0-alpha.2, attacker compromise of either the Elastic service or the extender plugin can cause denial of service of the scheduler. This is a privilege escalation, because Volcano users may run their Elastic service and extender plugins in separate pods or nodes from the scheduler. In the Kubernetes security model, node isolation is a security boundary, and as such an attacker is able to cross that boundary in Volcano's case if they have compromised either the vulnerable services or the pod/node in which they are deployed. The scheduler will become unavailable to other users and workloads in the cluster. The scheduler will either crash with an unrecoverable OOM panic or freeze while consuming excessive amounts of memory. This issue has been patched in versions 1.11.2, 1.10.2, 1.9.1, 1.11.0-network-topology-preview.3, and 1.12.0-alpha.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32777</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32777</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46331 - OpenFGA Authorization Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46331
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>OpenFGA is a high-performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar. OpenFGA v1.8.10 to v1.3.6 (Helm chart <= openfga-0.2.28, docker <= v.1.8.10) are vulnerable to authorization bypass when certain Check and ListObject calls are executed. This issue has been patched in version 1.8.11.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46331</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46331</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46554 - XWiki Unauthenticated Attachment Metadata Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46554
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 18 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 1.8.1 to before 14.10.22, from 15.0-rc-1 to before 15.10.12, from 16.0.0-rc-1 to before 16.4.3, and from 16.5.0-rc-1 to before 16.7.0, anyone can access the metadata of any attachment in the wiki using the wiki attachment REST endpoint. There is no filtering for the results depending on current user rights, meaning an unauthenticated user could exploit this even in a private wiki. This issue has been patched in versions 14.10.22, 15.10.12, 16.4.3, and 16.7.0.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46554</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46554</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46557 - XWiki Authentication Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46557
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 18 minutes ago
+<br>
+<strong>Description : </strong>XWiki is a generic wiki platform. In versions starting from 15.3-rc-1 to before 15.10.14, from 16.0.0-rc-1 to before 16.4.6, and from 16.5.0-rc-1 to before 16.10.0-rc-1, a user who can access pages located in the XWiki space (by default, anyone) can access the page XWiki.Authentication.Administration and (unless an authenticator is set in xwiki.cfg) switch to another installed authenticator. Note that, by default, there is only one authenticator available (Standard XWiki Authenticator). So, if no authenticator extension was installed, it's not really possible to do anything for an attacker. Also, in most cases, if an SSO authenticator is installed and utilized (like OIDC or LDAP for example), the worst an attacker can do is break authentication by switching back to the standard authenticator (that's because it's impossible to login to a user which does not have a stored password, and that's usually what SSO authenticator produce). This issue has been patched in versions 15.10.14, 16.4.6, and 16.10.0-rc-1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46557</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46557</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46558 - XWiki Contrib Markdown XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46558
+<br>
+<strong>Published : </strong> April 30, 2025, 7:15 p.m. | 1 hour, 18 minutes ago
+<br>
+<strong>Description : </strong>XWiki Contrib's Syntax Markdown allows importing Markdown content into wiki pages and creating wiki content in Markdown. In versions starting from 8.2 to before 8.9, the Markdown syntax is vulnerable to cross-site scripting (XSS) through HTML. In particular, using Markdown syntax, it's possible for any user to embed Javascript code that will then be executed on the browser of any other user visiting either the document or the comment that contains it. In the instance that this code is executed by a user with admins or programming rights, this issue compromises the confidentiality, integrity and availability of the whole XWiki installation. This issue has been patched in version 8.9.
+<br>
+<strong>Severity:</strong> 9.0 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46558</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46558</guid>
+    </item>
+    <item>
+      <title>CVE-2025-39413 - David Gwyer Simple Sitemap Missing Authorization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-39413
+<br>
+<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 2 hours, 19 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in David Gwyer Simple Sitemap – Create a Responsive HTML Sitemap.This issue affects Simple Sitemap – Create a Responsive HTML Sitemap: from n/a through 3.5.14.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-39413</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-39413</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3269 - Red Hat Linux Remote Command Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3269
+<br>
+<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 2 hours, 19 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Red Hat Product Security has come to the conclusion that this CVE is not needed.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3269</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3269</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44192 - SourceCodester Simple Barangay Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44192
+<br>
+<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 2 hours, 19 minutes ago
+<br>
+<strong>Description : </strong>SourceCodester Simple Barangay Management System v1.0 has a SQL injection vulnerability in /barangay_management/admin/?page=view_clearance.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44192</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44192</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44193 - SourceCodester Simple Barangay Management System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44193
+<br>
+<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 2 hours, 19 minutes ago
+<br>
+<strong>Description : </strong>SourceCodester Simple Barangay Management System v1.0 has a SQL injection vulnerability in /barangay_management/admin/?page=view_complaint.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44193</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44193</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44194 - SourceCodester Simple Barangay Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44194
+<br>
+<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 2 hours, 19 minutes ago
+<br>
+<strong>Description : </strong>SourceCodester Simple Barangay Management System v1.0 has a SQL injection vulnerability in /barangay_management/admin/?page=view_household.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44194</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44194</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46619 - Couchbase Server File Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46619
+<br>
+<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 2 hours, 19 minutes ago
+<br>
+<strong>Description : </strong>A security issue has been discovered in Couchbase Server before 7.6.4 and fixed in v.7.6.4 and v.7.2.7 for Windows that could allow unauthorized access to sensitive files. Depending on the level of privileges, this vulnerability may grant access to files such as /etc/passwd or /etc/shadow.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46619</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46619</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4135 - Netgear WG302v2 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4135
+<br>
+<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 2 hours, 19 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Netgear WG302v2 up to 5.2.9 and classified as critical. Affected by this issue is the function ui_get_input_value. The manipulation of the argument host leads to command injection. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4135</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4135</guid>
+    </item>
     <item>
       <title>CVE-2025-21416 - Azure Virtual Desktop Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
@@ -149,125 +587,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-33074</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-33074</guid>
-    </item>
-    <item>
-      <title>CVE-2025-39413 - David Gwyer Simple Sitemap Missing Authorization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-39413
-<br>
-<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 23 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in David Gwyer Simple Sitemap – Create a Responsive HTML Sitemap.This issue affects Simple Sitemap – Create a Responsive HTML Sitemap: from n/a through 3.5.14.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-39413</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-39413</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3269 - Red Hat Linux Remote Command Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3269
-<br>
-<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 23 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Red Hat Product Security has come to the conclusion that this CVE is not needed.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3269</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3269</guid>
-    </item>
-    <item>
-      <title>CVE-2025-44192 - SourceCodester Simple Barangay Management System SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-44192
-<br>
-<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 23 minutes ago
-<br>
-<strong>Description : </strong>SourceCodester Simple Barangay Management System v1.0 has a SQL injection vulnerability in /barangay_management/admin/?page=view_clearance.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-44192</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44192</guid>
-    </item>
-    <item>
-      <title>CVE-2025-44193 - SourceCodester Simple Barangay Management System SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-44193
-<br>
-<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 23 minutes ago
-<br>
-<strong>Description : </strong>SourceCodester Simple Barangay Management System v1.0 has a SQL injection vulnerability in /barangay_management/admin/?page=view_complaint.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-44193</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44193</guid>
-    </item>
-    <item>
-      <title>CVE-2025-44194 - SourceCodester Simple Barangay Management System SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-44194
-<br>
-<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 23 minutes ago
-<br>
-<strong>Description : </strong>SourceCodester Simple Barangay Management System v1.0 has a SQL injection vulnerability in /barangay_management/admin/?page=view_household.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-44194</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44194</guid>
-    </item>
-    <item>
-      <title>CVE-2025-46619 - Couchbase Server File Access Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-46619
-<br>
-<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 23 minutes ago
-<br>
-<strong>Description : </strong>A security issue has been discovered in Couchbase Server before 7.6.4 and fixed in v.7.6.4 and v.7.2.7 for Windows that could allow unauthorized access to sensitive files. Depending on the level of privileges, this vulnerability may grant access to files such as /etc/passwd or /etc/shadow.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-46619</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46619</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4135 - Netgear WG302v2 Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4135
-<br>
-<strong>Published : </strong> April 30, 2025, 6:15 p.m. | 23 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Netgear WG302v2 up to 5.2.9 and classified as critical. Affected by this issue is the function ui_get_input_value. The manipulation of the argument host leads to command injection. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 30 Apr 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4135</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4135</guid>
     </item>
     <item>
       <title>CVE-2025-3599 - Symantec Endpoint Protection ERASER Engine Elevation of Privilege Vulnerability</title>
