@@ -8,12 +8,854 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 01 May 2025 16:13:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 18:14:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2022-49911 - Linux kernel netfilter ipset Memory Allocation Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49911
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+netfilter: ipset: enforce documented limit to prevent allocating huge memory
+
+Daniel Xu reported that the hash:net,iface type of the ipset subsystem does
+not limit adding the same network with different interfaces to a set, which
+can lead to huge memory usage or allocation failure.
+
+The quick reproducer is
+
+$ ipset create ACL.IN.ALL_PERMIT hash:net,iface hashsize 1048576 timeout 0
+$ for i in $(seq 0 100); do /sbin/ipset add ACL.IN.ALL_PERMIT 0.0.0.0/0,kaf_$i timeout 0 -exist; done
+
+The backtrace when vmalloc fails:
+
+        [Tue Oct 25 00:13:08 2022] ipset: vmalloc error: size 1073741848, exceeds total pages
+        <...>
+        [Tue Oct 25 00:13:08 2022] Call Trace:
+        [Tue Oct 25 00:13:08 2022]  <TASK>
+        [Tue Oct 25 00:13:08 2022]  dump_stack_lvl+0x48/0x60
+        [Tue Oct 25 00:13:08 2022]  warn_alloc+0x155/0x180
+        [Tue Oct 25 00:13:08 2022]  __vmalloc_node_range+0x72a/0x760
+        [Tue Oct 25 00:13:08 2022]  ? hash_netiface4_add+0x7c0/0xb20
+        [Tue Oct 25 00:13:08 2022]  ? __kmalloc_large_node+0x4a/0x90
+        [Tue Oct 25 00:13:08 2022]  kvmalloc_node+0xa6/0xd0
+        [Tue Oct 25 00:13:08 2022]  ? hash_netiface4_resize+0x99/0x710
+        <...>
+
+The fix is to enforce the limit documented in the ipset(8) manpage:
+
+>  The internal restriction of the hash:net,iface set type is that the same
+>  network prefix cannot be stored with more than 64 different interfaces
+>  in a single set.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49911</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49911</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49912 - Linux Btrfs Ulist Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49912
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: fix ulist leaks in error paths of qgroup self tests
+
+In the test_no_shared_qgroup() and test_multiple_refs() qgroup self tests,
+if we fail to add the tree ref, remove the extent item or remove the
+extent ref, we are returning from the test function without freeing the
+"old_roots" ulist that was allocated by the previous calls to
+btrfs_find_all_roots(). Fix that by calling ulist_free() before returning.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49912</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49912</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49913 - Linux Btrfs Inode List Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49913
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: fix inode list leak during backref walking at find_parent_nodes()
+
+During backref walking, at find_parent_nodes(), if we are dealing with a
+data extent and we get an error while resolving the indirect backrefs, at
+resolve_indirect_refs(), or in the while loop that iterates over the refs
+in the direct refs rbtree, we end up leaking the inode lists attached to
+the direct refs we have in the direct refs rbtree that were not yet added
+to the refs ulist passed as argument to find_parent_nodes(). Since they
+were not yet added to the refs ulist and prelim_release() does not free
+the lists, on error the caller can only free the lists attached to the
+refs that were added to the refs ulist, all the remaining refs get their
+inode lists never freed, therefore leaking their memory.
+
+Fix this by having prelim_release() always free any attached inode list
+to each ref found in the rbtree, and have find_parent_nodes() set the
+ref's inode list to NULL once it transfers ownership of the inode list
+to a ref added to the refs ulist passed to find_parent_nodes().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49913</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49913</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49914 - "Btrfs inode list leak vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49914
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: fix inode list leak during backref walking at resolve_indirect_refs()
+
+During backref walking, at resolve_indirect_refs(), if we get an error
+we jump to the 'out' label and call ulist_free() on the 'parents' ulist,
+which frees all the elements in the ulist - however that does not free
+any inode lists that may be attached to elements, through the 'aux' field
+of a ulist node, so we end up leaking lists if we have any attached to
+the unodes.
+
+Fix this by calling free_leaf_list() instead of ulist_free() when we exit
+from resolve_indirect_refs(). The static function free_leaf_list() is
+moved up for this to be possible and it's slightly simplified by removing
+unnecessary code.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49914</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49914</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49915 - Linux kernel mISDN driver Memory Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49915
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+mISDN: fix possible memory leak in mISDN_register_device()
+
+Afer commit 1fa5ae857bb1 ("driver core: get rid of struct device's
+bus_id string array"), the name of device is allocated dynamically,
+add put_device() to give up the reference, so that the name can be
+freed in kobject_cleanup() when the refcount is 0.
+
+Set device class before put_device() to avoid null release() function
+WARN message in device_release().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49915</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49915</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49916 - Linux Rose NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49916
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+rose: Fix NULL pointer dereference in rose_send_frame()
+
+The syzkaller reported an issue:
+
+KASAN: null-ptr-deref in range [0x0000000000000380-0x0000000000000387]
+CPU: 0 PID: 4069 Comm: kworker/0:15 Not tainted 6.0.0-syzkaller-02734-g0326074ff465 #0
+Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 09/22/2022
+Workqueue: rcu_gp srcu_invoke_callbacks
+RIP: 0010:rose_send_frame+0x1dd/0x2f0 net/rose/rose_link.c:101
+Call Trace:
+ <IRQ>
+ rose_transmit_clear_request+0x1d5/0x290 net/rose/rose_link.c:255
+ rose_rx_call_request+0x4c0/0x1bc0 net/rose/af_rose.c:1009
+ rose_loopback_timer+0x19e/0x590 net/rose/rose_loopback.c:111
+ call_timer_fn+0x1a0/0x6b0 kernel/time/timer.c:1474
+ expire_timers kernel/time/timer.c:1519 [inline]
+ __run_timers.part.0+0x674/0xa80 kernel/time/timer.c:1790
+ __run_timers kernel/time/timer.c:1768 [inline]
+ run_timer_softirq+0xb3/0x1d0 kernel/time/timer.c:1803
+ __do_softirq+0x1d0/0x9c8 kernel/softirq.c:571
+ [...]
+ </IRQ>
+
+It triggers NULL pointer dereference when 'neigh->dev->dev_addr' is
+called in the rose_send_frame(). It's the first occurrence of the
+`neigh` is in rose_loopback_timer() as `rose_loopback_neigh', and
+the 'dev' in 'rose_loopback_neigh' is initialized sa nullptr.
+
+It had been fixed by commit 3b3fd068c56e3fbea30090859216a368398e39bf
+("rose: Fix Null pointer dereference in rose_send_frame()") ever.
+But it's introduced by commit 3c53cd65dece47dd1f9d3a809f32e59d1d87b2b8
+("rose: check NULL rose_loopback_neigh->loopback") again.
+
+We fix it by add NULL check in rose_transmit_clear_request(). When
+the 'dev' in 'neigh' is NULL, we don't reply the request and just
+clear it.
+
+syzkaller don't provide repro, and I provide a syz repro like:
+r0 = syz_init_net_socket$bt_sco(0x1f, 0x5, 0x2)
+ioctl$sock_inet_SIOCSIFFLAGS(r0, 0x8914, &(0x7f0000000180)={'rose0\x00', 0x201})
+r1 = syz_init_net_socket$rose(0xb, 0x5, 0x0)
+bind$rose(r1, &(0x7f00000000c0)=@full={0xb, @dev, @null, 0x0, [@null, @null, @netrom, @netrom, @default, @null]}, 0x40)
+connect$rose(r1, &(0x7f0000000240)=@short={0xb, @dev={0xbb, 0xbb, 0xbb, 0x1, 0x0}, @remote={0xcc, 0xcc, 0xcc, 0xcc, 0xcc, 0xcc, 0x1}, 0x1, @netrom={0xbb, 0xbb, 0xbb, 0xbb, 0xbb, 0x0, 0x0}}, 0x1c)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49916</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49916</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49917 - Linux Kernel ipvs Proc Entry Removal Warning</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49917
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ipvs: fix WARNING in ip_vs_app_net_cleanup()
+
+During the initialization of ip_vs_app_net_init(), if file ip_vs_app
+fails to be created, the initialization is successful by default.
+Therefore, the ip_vs_app file doesn't be found during the remove in
+ip_vs_app_net_cleanup(). It will cause WRNING.
+
+The following is the stack information:
+name 'ip_vs_app'
+WARNING: CPU: 1 PID: 9 at fs/proc/generic.c:712 remove_proc_entry+0x389/0x460
+Modules linked in:
+Workqueue: netns cleanup_net
+RIP: 0010:remove_proc_entry+0x389/0x460
+Call Trace:
+<TASK>
+ops_exit_list+0x125/0x170
+cleanup_net+0x4ea/0xb00
+process_one_work+0x9bf/0x1710
+worker_thread+0x665/0x1080
+kthread+0x2e4/0x3a0
+ret_from_fork+0x1f/0x30
+</TASK>
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49917</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49917</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49918 - Linux Kernel ipvs proc_entry Double Free</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49918
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ipvs: fix WARNING in __ip_vs_cleanup_batch()
+
+During the initialization of ip_vs_conn_net_init(), if file ip_vs_conn
+or ip_vs_conn_sync fails to be created, the initialization is successful
+by default. Therefore, the ip_vs_conn or ip_vs_conn_sync file doesn't
+be found during the remove.
+
+The following is the stack information:
+name 'ip_vs_conn_sync'
+WARNING: CPU: 3 PID: 9 at fs/proc/generic.c:712
+remove_proc_entry+0x389/0x460
+Modules linked in:
+Workqueue: netns cleanup_net
+RIP: 0010:remove_proc_entry+0x389/0x460
+Call Trace:
+<TASK>
+__ip_vs_cleanup_batch+0x7d/0x120
+ops_exit_list+0x125/0x170
+cleanup_net+0x4ea/0xb00
+process_one_work+0x9bf/0x1710
+worker_thread+0x665/0x1080
+kthread+0x2e4/0x3a0
+ret_from_fork+0x1f/0x30
+</TASK>
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49918</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49918</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49919 - Netfilter NF Tables Use-After-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49919
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+netfilter: nf_tables: release flow rule object from commit path
+
+No need to postpone this to the commit release path, since no packets
+are walking over this object, this is accessed from control plane only.
+This helped uncovered UAF triggered by races with the netlink notifier.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49919</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49919</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49920 - Linux kernel Netfilter Netlink Notifier Race Condition</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49920
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+netfilter: nf_tables: netlink notifier might race to release objects
+
+commit release path is invoked via call_rcu and it runs lockless to
+release the objects after rcu grace period. The netlink notifier handler
+might win race to remove objects that the transaction context is still
+referencing from the commit release path.
+
+Call rcu_barrier() to ensure pending rcu callbacks run to completion
+if the list of transactions to be destroyed is not empty.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49920</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49920</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49921 - Linux Kernel Net Scheduler Use After Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49921
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: sched: Fix use after free in red_enqueue()
+
+We can't use "skb" again after passing it to qdisc_enqueue().  This is
+basically identical to commit 2f09707d0c97 ("sch_sfb: Also store skb
+len before calling child enqueue").
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49921</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49921</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49922 - Linux Kernel NFC Driver Memory Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49922
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+nfc: nfcmrvl: Fix potential memory leak in nfcmrvl_i2c_nci_send()
+
+nfcmrvl_i2c_nci_send() will be called by nfcmrvl_nci_send(), and skb
+should be freed in nfcmrvl_i2c_nci_send(). However, nfcmrvl_nci_send()
+will only free skb when i2c_master_send() return >=0, which means skb
+will memleak when i2c_master_send() failed. Free skb no matter whether
+i2c_master_send() succeeds.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49922</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49922</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49923 - Linux Kernel NXP NCI Memory Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49923
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+nfc: nxp-nci: Fix potential memory leak in nxp_nci_send()
+
+nxp_nci_send() will call nxp_nci_i2c_write(), and only free skb when
+nxp_nci_i2c_write() failed. However, even if the nxp_nci_i2c_write()
+run succeeds, the skb will not be freed in nxp_nci_i2c_write(). As the
+result, the skb will memleak. nxp_nci_send() should also free the skb
+when nxp_nci_i2c_write() succeeds.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49923</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49923</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49924 - Linux Kernel NFC FDP Memory Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49924
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+nfc: fdp: Fix potential memory leak in fdp_nci_send()
+
+fdp_nci_send() will call fdp_nci_i2c_write that will not free skb in
+the function. As a result, when fdp_nci_i2c_write() finished, the skb
+will memleak. fdp_nci_send() should free skb after fdp_nci_i2c_write()
+finished.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49924</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49924</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49925 - "Linux RDMA Core Null Pointer Dereference Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49925
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+RDMA/core: Fix null-ptr-deref in ib_core_cleanup()
+
+KASAN reported a null-ptr-deref error:
+
+  KASAN: null-ptr-deref in range [0x0000000000000118-0x000000000000011f]
+  CPU: 1 PID: 379
+  Hardware name: QEMU Standard PC (i440FX + PIIX, 1996)
+  RIP: 0010:destroy_workqueue+0x2f/0x740
+  RSP: 0018:ffff888016137df8 EFLAGS: 00000202
+  ...
+  Call Trace:
+   ib_core_cleanup+0xa/0xa1 [ib_core]
+   __do_sys_delete_module.constprop.0+0x34f/0x5b0
+   do_syscall_64+0x3a/0x90
+   entry_SYSCALL_64_after_hwframe+0x63/0xcd
+  RIP: 0033:0x7fa1a0d221b7
+  ...
+
+It is because the fail of roce_gid_mgmt_init() is ignored:
+
+ ib_core_init()
+   roce_gid_mgmt_init()
+     gid_cache_wq = alloc_ordered_workqueue # fail
+ ...
+ ib_core_cleanup()
+   roce_gid_mgmt_cleanup()
+     destroy_workqueue(gid_cache_wq)
+     # destroy an unallocated wq
+
+Fix this by catching the fail of roce_gid_mgmt_init() in ib_core_init().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49925</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49925</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49926 - Linux kernel - DSA Loop Memory Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49926
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: dsa: Fix possible memory leaks in dsa_loop_init()
+
+kmemleak reported memory leaks in dsa_loop_init():
+
+kmemleak: 12 new suspected memory leaks
+
+unreferenced object 0xffff8880138ce000 (size 2048):
+  comm "modprobe", pid 390, jiffies 4295040478 (age 238.976s)
+  backtrace:
+    [<000000006a94f1d5>] kmalloc_trace+0x26/0x60
+    [<00000000a9c44622>] phy_device_create+0x5d/0x970
+    [<00000000d0ee2afc>] get_phy_device+0xf3/0x2b0
+    [<00000000dca0c71f>] __fixed_phy_register.part.0+0x92/0x4e0
+    [<000000008a834798>] fixed_phy_register+0x84/0xb0
+    [<0000000055223fcb>] dsa_loop_init+0xa9/0x116 [dsa_loop]
+    ...
+
+There are two reasons for memleak in dsa_loop_init().
+
+First, fixed_phy_register() create and register phy_device:
+
+fixed_phy_register()
+  get_phy_device()
+    phy_device_create() # freed by phy_device_free()
+  phy_device_register() # freed by phy_device_remove()
+
+But fixed_phy_unregister() only calls phy_device_remove().
+So the memory allocated in phy_device_create() is leaked.
+
+Second, when mdio_driver_register() fail in dsa_loop_init(),
+it just returns and there is no cleanup for phydevs.
+
+Fix the problems by catching the error of mdio_driver_register()
+in dsa_loop_init(), then calling both fixed_phy_unregister() and
+phy_device_free() to release phydevs.
+Also add a function for phydevs cleanup to avoid duplacate.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49926</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49926</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49927 - Linux NFS kmemleak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49927
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+nfs4: Fix kmemleak when allocate slot failed
+
+If one of the slot allocate failed, should cleanup all the other
+allocated slots, otherwise, the allocated slots will leak:
+
+  unreferenced object 0xffff8881115aa100 (size 64):
+    comm ""mount.nfs"", pid 679, jiffies 4294744957 (age 115.037s)
+    hex dump (first 32 bytes):
+      00 cc 19 73 81 88 ff ff 00 a0 5a 11 81 88 ff ff  ...s......Z.....
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+    backtrace:
+      [<000000007a4c434a>] nfs4_find_or_create_slot+0x8e/0x130
+      [<000000005472a39c>] nfs4_realloc_slot_table+0x23f/0x270
+      [<00000000cd8ca0eb>] nfs40_init_client+0x4a/0x90
+      [<00000000128486db>] nfs4_init_client+0xce/0x270
+      [<000000008d2cacad>] nfs4_set_client+0x1a2/0x2b0
+      [<000000000e593b52>] nfs4_create_server+0x300/0x5f0
+      [<00000000e4425dd2>] nfs4_try_get_tree+0x65/0x110
+      [<00000000d3a6176f>] vfs_get_tree+0x41/0xf0
+      [<0000000016b5ad4c>] path_mount+0x9b3/0xdd0
+      [<00000000494cae71>] __x64_sys_mount+0x190/0x1d0
+      [<000000005d56bdec>] do_syscall_64+0x35/0x80
+      [<00000000687c9ae4>] entry_SYSCALL_64_after_hwframe+0x46/0xb0
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49927</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49927</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49928 - Linux Kernel SUNRPC Null Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49928
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+SUNRPC: Fix null-ptr-deref when xps sysfs alloc failed
+
+There is a null-ptr-deref when xps sysfs alloc failed:
+  BUG: KASAN: null-ptr-deref in sysfs_do_create_link_sd+0x40/0xd0
+  Read of size 8 at addr 0000000000000030 by task gssproxy/457
+
+  CPU: 5 PID: 457 Comm: gssproxy Not tainted 6.0.0-09040-g02357b27ee03 #9
+  Call Trace:
+   <TASK>
+   dump_stack_lvl+0x34/0x44
+   kasan_report+0xa3/0x120
+   sysfs_do_create_link_sd+0x40/0xd0
+   rpc_sysfs_client_setup+0x161/0x1b0
+   rpc_new_client+0x3fc/0x6e0
+   rpc_create_xprt+0x71/0x220
+   rpc_create+0x1d4/0x350
+   gssp_rpc_create+0xc3/0x160
+   set_gssp_clnt+0xbc/0x140
+   write_gssp+0x116/0x1a0
+   proc_reg_write+0xd6/0x130
+   vfs_write+0x177/0x690
+   ksys_write+0xb9/0x150
+   do_syscall_64+0x35/0x80
+   entry_SYSCALL_64_after_hwframe+0x46/0xb0
+
+When the xprt_switch sysfs alloc failed, should not add xprt and
+switch sysfs to it, otherwise, maybe null-ptr-deref; also initialize
+the 'xps_sysfs' to NULL to avoid oops when destroy it.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49928</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49929 - "RDMA rxe Memory Reference Count Leak Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49929
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+RDMA/rxe: Fix mr leak in RESPST_ERR_RNR
+
+rxe_recheck_mr() will increase mr's ref_cnt, so we should call rxe_put(mr)
+to drop mr's ref_cnt in RESPST_ERR_RNR to avoid below warning:
+
+  WARNING: CPU: 0 PID: 4156 at drivers/infiniband/sw/rxe/rxe_pool.c:259 __rxe_cleanup+0x1df/0x240 [rdma_rxe]
+...
+  Call Trace:
+   rxe_dereg_mr+0x4c/0x60 [rdma_rxe]
+   ib_dereg_mr_user+0xa8/0x200 [ib_core]
+   ib_mr_pool_destroy+0x77/0xb0 [ib_core]
+   nvme_rdma_destroy_queue_ib+0x89/0x240 [nvme_rdma]
+   nvme_rdma_free_queue+0x40/0x50 [nvme_rdma]
+   nvme_rdma_teardown_io_queues.part.0+0xc3/0x120 [nvme_rdma]
+   nvme_rdma_error_recovery_work+0x4d/0xf0 [nvme_rdma]
+   process_one_work+0x582/0xa40
+   ? pwq_dec_nr_in_flight+0x100/0x100
+   ? rwlock_bug.part.0+0x60/0x60
+   worker_thread+0x2a9/0x700
+   ? process_one_work+0xa40/0xa40
+   kthread+0x168/0x1a0
+   ? kthread_complete_and_exit+0x20/0x20
+   ret_from_fork+0x22/0x30
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49929</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49929</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49930 - Hewlett Packard Enterprise RDMA NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49930
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+RDMA/hns: Fix NULL pointer problem in free_mr_init()
+
+Lock grab occurs in a concurrent scenario, resulting in stepping on a NULL
+pointer.  It should be init mutex_init() first before use the lock.
+
+  Unable to handle kernel NULL pointer dereference at virtual address 0000000000000000
+  Call trace:
+   __mutex_lock.constprop.0+0xd0/0x5c0
+   __mutex_lock_slowpath+0x1c/0x2c
+   mutex_lock+0x44/0x50
+   free_mr_send_cmd_to_hw+0x7c/0x1c0 [hns_roce_hw_v2]
+   hns_roce_v2_dereg_mr+0x30/0x40 [hns_roce_hw_v2]
+   hns_roce_dereg_mr+0x4c/0x130 [hns_roce_hw_v2]
+   ib_dereg_mr_user+0x54/0x124
+   uverbs_free_mr+0x24/0x30
+   destroy_hw_idr_uobject+0x38/0x74
+   uverbs_destroy_uobject+0x48/0x1c4
+   uobj_destroy+0x74/0xcc
+   ib_uverbs_cmd_verbs+0x368/0xbb0
+   ib_uverbs_ioctl+0xec/0x1a4
+   __arm64_sys_ioctl+0xb4/0x100
+   invoke_syscall+0x50/0x120
+   el0_svc_common.constprop.0+0x58/0x190
+   do_el0_svc+0x30/0x90
+   el0_svc+0x2c/0xb4
+   el0t_64_sync_handler+0x1a4/0x1b0
+   el0t_64_sync+0x19c/0x1a0
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49930</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49930</guid>
+    </item>
+    <item>
+      <title>CVE-2022-49931 - IBM HFI1 Null Pointer Dereference</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-49931
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+IB/hfi1: Correctly move list in sc_disable()
+
+Commit 13bac861952a ("IB/hfi1: Fix abba locking issue with sc_disable()")
+incorrectly tries to move a list from one list head to another.  The
+result is a kernel crash.
+
+The crash is triggered when a link goes down and there are waiters for a
+send to complete.  The following signature is seen:
+
+  BUG: kernel NULL pointer dereference, address: 0000000000000030
+  [...]
+  Call Trace:
+   sc_disable+0x1ba/0x240 [hfi1]
+   pio_freeze+0x3d/0x60 [hfi1]
+   handle_freeze+0x27/0x1b0 [hfi1]
+   process_one_work+0x1b0/0x380
+   ? process_one_work+0x380/0x380
+   worker_thread+0x30/0x360
+   ? process_one_work+0x380/0x380
+   kthread+0xd7/0x100
+   ? kthread_complete_and_exit+0x20/0x20
+   ret_from_fork+0x1f/0x30
+
+The fix is to use the correct call to move the list.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-49931</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-49931</guid>
+    </item>
+    <item>
+      <title>CVE-2025-23246 - NVIDIA vGPU Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-23246
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>NVIDIA vGPU software for Windows and Linux contains a vulnerability in the Virtual GPU Manager (vGPU plugin), where it allows a guest to consume uncontrolled resources. A successful exploit of this vulnerability might lead to denial of service.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-23246</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-23246</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44836 - TOTOLINK CPE CP900 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44836
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK CPE CP900 V6.3c.1144_B20190715 was discovered to contain a command injection vulnerability in the setApRebootScheCfg function via the hour or minute parameters. This vulnerability allows attackers to execute arbitrary commands via a crafted request.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44836</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44836</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44837 - Totolink CPE CP900 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44837
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK CPE CP900 V6.3c.1144_B20190715 was discovered to contain a command injection vulnerability in the CloudSrvUserdataVersionCheck function via the url or magicid parameters. This vulnerability allows attackers to execute arbitrary commands via a crafted request.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44837</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44837</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44838 - TOTOLINK CPE CP900 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44838
+<br>
+<strong>Published : </strong> May 1, 2025, 3:16 p.m. | 1 hour, 8 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK CPE CP900 V6.3c.1144_B20190715 was discovered to contain a command injection vulnerability in the setUploadUserData function via the FileName parameter. This vulnerability allows attackers to execute arbitrary commands via a crafted request.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 01 May 2025 15:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44838</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44838</guid>
+    </item>
     <item>
       <title>CVE-2025-37773 - "virtiofs NULL Source Name Check Vulnerability"</title>
       <description><![CDATA[<p>
