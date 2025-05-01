@@ -179,12 +179,161 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-4146 - Netgear EX6200 Remote Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4146
+<br>
+<strong>Published : </strong> May 1, 2025, 2:15 a.m. | 20 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Netgear EX6200 1.0.3.94. Affected is the function sub_41940. The manipulation of the argument host leads to buffer overflow. It is possible to launch the attack remotely. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 01 May 2025 02:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4146">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4147 - Netgear EX6200 Remote Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4147
+<br>
+<strong>Published : </strong> May 1, 2025, 2:15 a.m. | 20 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in Netgear EX6200 1.0.3.94 and classified as critical. Affected by this vulnerability is the function sub_47F7C. The manipulation of the argument host leads to buffer overflow. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 01 May 2025 02:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4147">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4143 - Cloudflare Workers-OAuth-Provider OAuth Redirect URI Validation Bypass
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4143
+<br>
+<strong>Published : </strong> May 1, 2025, 1:15 a.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>The OAuth implementation in workers-oauth-provider that is part of  MCP framework https://github.com/cloudflare/workers-mcp , did not correctly validate that redirect_uri was on the allowed list of redirect URIs for the given client registration.
+
+Fixed in:  https://github.com/cloudflare/workers-oauth-provider/pull/26 https://github.com/cloudflare/workers-oauth-provider/pull/26 
+
+Impact:
+
+ 
+
+Under certain circumstances (see below), if a victim had previously authorized with a server built on workers-oath-provider, and an attacker could later trick the victim into visiting a malicious web site, then attacker could potentially steal the victim's credentials to the same OAuth server and subsequently impersonate them.
+
+In order for the attack to be possible, the OAuth server's authorized callback must be designed to auto-approve authorizations that appear to come from an OAuth client that the victim has authorized previously. The authorization flow is not implemented by workers-oauth-provider; it is up to the application built on top to decide whether to implement such automatic re-authorization. However, many applications do implement such logic.
+
+Note: It is a basic, well-known requirement that OAuth servers should verify that the redirect URI is among the allowed list for the client, both during the authorization flow and subsequently when exchanging the authorization code for an access token. workers-oauth-provider implemented only the latter check, not the former. Unfortunately, the former is the much more important check. Readers who are familiar with OAuth may recognize that failing to check redirect URIs against the allowed list is a well-known, basic mistake, covered extensively in the RFC and elsewhere. The author of this library would like everyone to know that he was, in fact, well-aware of this requirement, thought about it a lot while designing the library, and then, somehow, forgot to actually make sure the check was in the code. That is, it's not that he didn't know what he was doing, it's that he knew what he was doing but flubbed it.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 01 May 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4143">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4144 - Cloudflare Workers-Oauth-Provider PKCE Bypass
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4144
+<br>
+<strong>Published : </strong> May 1, 2025, 1:15 a.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>PKCE was implemented in the OAuth implementation in workers-oauth-provider that is part of  MCP framework https://github.com/cloudflare/workers-mcp . However, it was found that an attacker could cause the check to be skipped.
+
+
+Fixed in:
+
+ 
+
+ https://github.com/cloudflare/workers-oauth-provider/pull/27 https://github.com/cloudflare/workers-oauth-provider/pull/27 
+
+
+Impact: 
+
+PKCE is a defense-in-depth mechanism against certain kinds of attacks and was an optional extension in OAuth 2.0 which became required in the OAuth 2.1 draft. (Note that the MCP specification requires OAuth 2.1.). This bug completely bypasses PKCE protection.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 01 May 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4144">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4145 - Netgear EX6200 Remote Buffer Overflow
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4145
+<br>
+<strong>Published : </strong> May 1, 2025, 1:15 a.m. | 1 hour, 19 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Netgear EX6200 1.0.3.94. This issue affects the function sub_3D0BC. The manipulation of the argument host leads to buffer overflow. The attack may be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 01 May 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4145">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-4142 - Netgear EX6200 Remote Buffer Overflow Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4142
 <br>
-<strong>Published : </strong> April 30, 2025, 11:16 p.m. | 1 hour, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 11:16 p.m. | 3 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in Netgear EX6200 1.0.3.94 and classified as critical. This vulnerability affects the function sub_3C8EC. The manipulation of the argument host leads to buffer overflow. The attack can be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -209,7 +358,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2022-42450
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Improper sanitization of SVG files in HCL Domino Volt allows client-side script injection in deployed applications.
 <br>
@@ -234,7 +383,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2023-37517
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Missing "no cache" headers in HCL Leap permits sensitive data to be cached.
 <br>
@@ -259,7 +408,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2023-37535
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Insufficient URI protocol whitelist in HCL Domino Volt and Domino Leap
 allow script injection through query parameters.
@@ -285,7 +434,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2023-45721
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Insufficient default configuration in HCL Leap
 allows anonymous access to directory information.
@@ -311,7 +460,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2023-4533
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Red Hat Product Security has come to the conclusion that this CVE is not needed. It was assigned as a duplicate of CVE-2023-52440
 <br>
@@ -336,7 +485,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-30115
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Insufficient sanitization policy in HCL Leap
 allows client-side script injection in the deployed application through the
@@ -363,7 +512,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-30145
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Multiple vectors in HCL Domino Volt and Domino Leap allow client-side
 script injection in the authoring environment and deployed applications.
@@ -389,7 +538,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-30146
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>Improper access control of endpoint in HCL Domino Leap
 allows certain admin users to import applications from the
@@ -416,7 +565,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4140
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Netgear EX6120 1.0.3.94. Affected by this issue is the function sub_30394. The manipulation of the argument host leads to buffer overflow. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -441,7 +590,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4141
 <br>
-<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 2 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 10:15 p.m. | 4 hours, 20 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in Netgear EX6200 1.0.3.94. This affects the function sub_3C03C. The manipulation of the argument host leads to buffer overflow. It is possible to initiate the attack remotely. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -466,7 +615,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2022-27562
 <br>
-<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Unsafe default file type filter policy in HCL Domino Volt allows upload of .html file and execution of unsafe JavaScript in deployed applications.
 <br>
@@ -491,7 +640,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2022-42449
 <br>
-<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>Unsafe default file type filter policy in HCL Domino Volt allows upload of .html file and execution of unsafe JavaScript in deployed applications
 <br>
@@ -516,7 +665,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-24132
 <br>
-<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination.
 <br>
@@ -541,7 +690,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-30422
 <br>
-<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>A buffer overflow was addressed with improved input validation. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination.
 <br>
@@ -566,7 +715,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4139
 <br>
-<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 3 hours, 19 minutes ago
+<strong>Published : </strong> April 30, 2025, 9:15 p.m. | 5 hours, 19 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in Netgear EX6120 1.0.0.68. Affected by this vulnerability is the function fwAcosCgiInbound. The manipulation of the argument host leads to buffer overflow. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -578,6 +727,110 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 30 Apr 2025 21:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4139">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2024-6032 - Tesla Model S Iris Modem Command Injection Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2024-6032
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 6 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Tesla Model S Iris Modem ql_atfwd Command Injection Code Execution Vulnerability. This vulnerability allows local attackers to execute arbitrary code on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code on the target system in order to exploit this vulnerability.
+ 
+The specific flaw exists within the ql_atfwd process. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code on the target modem in the context of root. Was ZDI-CAN-23201.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-6032">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-27611 - Base-x Unvalidated User Input Address Manipulation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-27611
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 6 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>base-x is a base encoder and decoder of any given alphabet using bitcoin style leading zero compression. Versions 4.0.0, 5.0.0, and all prior to 3.0.11, are vulnerable to attackers potentially deceiving users into sending funds to an unintended address. This issue has been patched in versions 3.0.11, 4.0.1, and 5.0.1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-27611">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-2082 - Tesla Model 3 VCSEC Integer Overflow Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-2082
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 6 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>Tesla Model 3 VCSEC Integer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Tesla Model 3 vehicles. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the VCSEC module. By manipulating the certificate response sent from the Tire Pressure Monitoring System (TPMS), an attacker can trigger an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the VCSEC module and send arbitrary messages to the vehicle CAN bus. Was ZDI-CAN-23800.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2082">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4136 - Weitong Mall Remote Unauthorized Access Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4136
+<br>
+<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 6 hours, 20 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Weitong Mall 1.0.0. It has been classified as critical. This affects an unknown part of the component Sale Endpoint. The manipulation of the argument ID leads to improper authorization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Apr 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4136">
                                 read more
                             </a>
                     </article>
@@ -686,110 +939,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 30 Apr 2025 20:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-6031">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2024-6032 - Tesla Model S Iris Modem Command Injection Code Execution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2024-6032
-<br>
-<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 4 hours, 19 minutes ago
-<br>
-<strong>Description : </strong>Tesla Model S Iris Modem ql_atfwd Command Injection Code Execution Vulnerability. This vulnerability allows local attackers to execute arbitrary code on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code on the target system in order to exploit this vulnerability.
- 
-The specific flaw exists within the ql_atfwd process. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code on the target modem in the context of root. Was ZDI-CAN-23201.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Apr 2025 20:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-6032">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-27611 - Base-x Unvalidated User Input Address Manipulation Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-27611
-<br>
-<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 4 hours, 19 minutes ago
-<br>
-<strong>Description : </strong>base-x is a base encoder and decoder of any given alphabet using bitcoin style leading zero compression. Versions 4.0.0, 5.0.0, and all prior to 3.0.11, are vulnerable to attackers potentially deceiving users into sending funds to an unintended address. This issue has been patched in versions 3.0.11, 4.0.1, and 5.0.1.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Apr 2025 20:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-27611">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-2082 - Tesla Model 3 VCSEC Integer Overflow Remote Code Execution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-2082
-<br>
-<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 4 hours, 19 minutes ago
-<br>
-<strong>Description : </strong>Tesla Model 3 VCSEC Integer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Tesla Model 3 vehicles. Authentication is not required to exploit this vulnerability.
-
-The specific flaw exists within the VCSEC module. By manipulating the certificate response sent from the Tire Pressure Monitoring System (TPMS), an attacker can trigger an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the VCSEC module and send arbitrary messages to the vehicle CAN bus. Was ZDI-CAN-23800.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Apr 2025 20:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2082">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4136 - Weitong Mall Remote Unauthorized Access Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4136
-<br>
-<strong>Published : </strong> April 30, 2025, 8:15 p.m. | 4 hours, 19 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Weitong Mall 1.0.0. It has been classified as critical. This affects an unknown part of the component Sale Endpoint. The manipulation of the argument ID leads to improper authorization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Apr 2025 20:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4136">
                                 read more
                             </a>
                     </article>
