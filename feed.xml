@@ -8,12 +8,1129 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 02 May 2025 16:13:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 18:14:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2023-53121 - Linux Kernel TCP Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53121
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+tcp: tcp_make_synack() can be called from process context
+
+tcp_rtx_synack() now could be called in process context as explained in
+0a375c822497 ("tcp: tcp_rtx_synack() can be called from process
+context").
+
+tcp_rtx_synack() might call tcp_make_synack(), which will touch per-CPU
+variables with preemption enabled. This causes the following BUG:
+
+    BUG: using __this_cpu_add() in preemptible [00000000] code: ThriftIO1/5464
+    caller is tcp_make_synack+0x841/0xac0
+    Call Trace:
+     <TASK>
+     dump_stack_lvl+0x10d/0x1a0
+     check_preemption_disabled+0x104/0x110
+     tcp_make_synack+0x841/0xac0
+     tcp_v6_send_synack+0x5c/0x450
+     tcp_rtx_synack+0xeb/0x1f0
+     inet_rtx_syn_ack+0x34/0x60
+     tcp_check_req+0x3af/0x9e0
+     tcp_rcv_state_process+0x59b/0x2030
+     tcp_v6_do_rcv+0x5f5/0x700
+     release_sock+0x3a/0xf0
+     tcp_sendmsg+0x33/0x40
+     ____sys_sendmsg+0x2f2/0x490
+     __sys_sendmsg+0x184/0x230
+     do_syscall_64+0x3d/0x90
+
+Avoid calling __TCP_INC_STATS() with will touch per-cpu variables. Use
+TCP_INC_STATS() which is safe to be called from context switch.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53121</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53121</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53122 - RISC-V SiFive Errata Patching Mutex Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53122
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+RISC-V: fix taking the text_mutex twice during sifive errata patching
+
+Chris pointed out that some bonehead, *cough* me *cough*, added two
+mutex_locks() to the SiFive errata patching. The second was meant to
+have been a mutex_unlock().
+
+This results in errors such as
+
+Unable to handle kernel NULL pointer dereference at virtual address 0000000000000030
+Oops [#1]
+Modules linked in:
+CPU: 0 PID: 0 Comm: swapper Not tainted
+6.2.0-rc1-starlight-00079-g9493e6f3ce02 #229
+Hardware name: BeagleV Starlight Beta (DT)
+epc : __schedule+0x42/0x500
+ ra : schedule+0x46/0xce
+epc : ffffffff8065957c ra : ffffffff80659a80 sp : ffffffff81203c80
+ gp : ffffffff812d50a0 tp : ffffffff8120db40 t0 : ffffffff81203d68
+ t1 : 0000000000000001 t2 : 4c45203a76637369 s0 : ffffffff81203cf0
+ s1 : ffffffff8120db40 a0 : 0000000000000000 a1 : ffffffff81213958
+ a2 : ffffffff81213958 a3 : 0000000000000000 a4 : 0000000000000000
+ a5 : ffffffff80a1bd00 a6 : 0000000000000000 a7 : 0000000052464e43
+ s2 : ffffffff8120db41 s3 : ffffffff80a1ad00 s4 : 0000000000000000
+ s5 : 0000000000000002 s6 : ffffffff81213938 s7 : 0000000000000000
+ s8 : 0000000000000000 s9 : 0000000000000001 s10: ffffffff812d7204
+ s11: ffffffff80d3c920 t3 : 0000000000000001 t4 : ffffffff812e6dd7
+ t5 : ffffffff812e6dd8 t6 : ffffffff81203bb8
+status: 0000000200000100 badaddr: 0000000000000030 cause: 000000000000000d
+[<ffffffff80659a80>] schedule+0x46/0xce
+[<ffffffff80659dce>] schedule_preempt_disabled+0x16/0x28
+[<ffffffff8065ae0c>] __mutex_lock.constprop.0+0x3fe/0x652
+[<ffffffff8065b138>] __mutex_lock_slowpath+0xe/0x16
+[<ffffffff8065b182>] mutex_lock+0x42/0x4c
+[<ffffffff8000ad94>] sifive_errata_patch_func+0xf6/0x18c
+[<ffffffff80002b92>] _apply_alternatives+0x74/0x76
+[<ffffffff80802ee8>] apply_boot_alternatives+0x3c/0xfa
+[<ffffffff80803cb0>] setup_arch+0x60c/0x640
+[<ffffffff80800926>] start_kernel+0x8e/0x99c
+---[ end trace 0000000000000000 ]---
+
+[Palmer: pick up Geert's bug report from the thread]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53122</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53122</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53123 - Linux Kernel PCI s390 Use-After-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53123
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+PCI: s390: Fix use-after-free of PCI resources with per-function hotplug
+
+On s390 PCI functions may be hotplugged individually even when they
+belong to a multi-function device. In particular on an SR-IOV device VFs
+may be removed and later re-added.
+
+In commit a50297cf8235 ("s390/pci: separate zbus creation from
+scanning") it was missed however that struct pci_bus and struct
+zpci_bus's resource list retained a reference to the PCI functions MMIO
+resources even though those resources are released and freed on
+hot-unplug. These stale resources may subsequently be claimed when the
+PCI function re-appears resulting in use-after-free.
+
+One idea of fixing this use-after-free in s390 specific code that was
+investigated was to simply keep resources around from the moment a PCI
+function first appeared until the whole virtual PCI bus created for
+a multi-function device disappears. The problem with this however is
+that due to the requirement of artificial MMIO addreesses (address
+cookies) extra logic is then needed to keep the address cookies
+compatible on re-plug. At the same time the MMIO resources semantically
+belong to the PCI function so tying their lifecycle to the function
+seems more logical.
+
+Instead a simpler approach is to remove the resources of an individually
+hot-unplugged PCI function from the PCI bus's resource list while
+keeping the resources of other PCI functions on the PCI bus untouched.
+
+This is done by introducing pci_bus_remove_resource() to remove an
+individual resource. Similarly the resource also needs to be removed
+from the struct zpci_bus's resource list. It turns out however, that
+there is really no need to add the MMIO resources to the struct
+zpci_bus's resource list at all and instead we can simply use the
+zpci_bar_struct's resource pointer directly.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53123</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53123</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53124 - MPT3SAS NULL Pointer Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53124
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: mpt3sas: Fix NULL pointer access in mpt3sas_transport_port_add()
+
+Port is allocated by sas_port_alloc_num() and rphy is allocated by either
+sas_end_device_alloc() or sas_expander_alloc(), all of which may return
+NULL. So we need to check the rphy to avoid possible NULL pointer access.
+
+If sas_rphy_add() returned with failure, rphy is set to NULL. We would
+access the rphy in the following lines which would also result NULL pointer
+access.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53124</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53124</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53125 - "Linux Kernel SMSc75xx Network Stack Buffer Overflow"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53125
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: usb: smsc75xx: Limit packet length to skb->len
+
+Packet length retrieved from skb data may be larger than
+the actual socket buffer length (up to 9026 bytes). In such
+case the cloned skb passed up the network stack will leak
+kernel memory contents.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53125</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53125</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53126 - Linux Kernel SCSI MPI3MR Memory Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53126
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: mpi3mr: Fix sas_hba.phy memory leak in mpi3mr_remove()
+
+Free mrioc->sas_hba.phy at .remove.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53126</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53126</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53127 - Linux Kernel SCSI MPI3MR Resource Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53127
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: mpi3mr: Fix expander node leak in mpi3mr_remove()
+
+Add a missing resource clean up in .remove.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53127</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53127</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53128 - "IBM Storage Media Initiator (MPI) 3.0.x Memory Leak Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53128
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: mpi3mr: Fix throttle_groups memory leak
+
+Add a missing kfree().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53128</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53128</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53129 - Linux Kernel - ext4 Directory Rename Deadlock Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53129
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ext4: Fix deadlock during directory rename
+
+As lockdep properly warns, we should not be locking i_rwsem while having
+transactions started as the proper lock ordering used by all directory
+handling operations is i_rwsem -> transaction start. Fix the lock
+ordering by moving the locking of the directory earlier in
+ext4_rename().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53129</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53129</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53130 - Linux Kernel Block Device Exclusivity Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53130
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+block: fix wrong mode for blkdev_put() from disk_scan_partitions()
+
+If disk_scan_partitions() is called with 'FMODE_EXCL',
+blkdev_get_by_dev() will be called without 'FMODE_EXCL', however, follow
+blkdev_put() is still called with 'FMODE_EXCL', which will cause
+'bd_holders' counter to leak.
+
+Fix the problem by using the right mode for blkdev_put().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53130</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53130</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53131 - SunRPC Thread Shutdown Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53131
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+SUNRPC: Fix a server shutdown leak
+
+Fix a race where kthread_stop() may prevent the threadfn from ever getting
+called.  If that happens the svc_rqst will not be cleaned up.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53131</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53131</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53132 - "Mellanox MPI3MR Linux Kernel Memory Leak"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53132
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: mpi3mr: Fix mpi3mr_hba_port memory leak in mpi3mr_remove()
+
+Free mpi3mr_hba_port at .remove.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53132</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53132</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53133 - Apache Linux bpf Infinite Loop Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53133
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bpf, sockmap: Fix an infinite loop error when len is 0 in tcp_bpf_recvmsg_parser()
+
+When the buffer length of the recvmsg system call is 0, we got the
+flollowing soft lockup problem:
+
+watchdog: BUG: soft lockup - CPU#3 stuck for 27s! [a.out:6149]
+CPU: 3 PID: 6149 Comm: a.out Kdump: loaded Not tainted 6.2.0+ #30
+Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.15.0-1 04/01/2014
+RIP: 0010:remove_wait_queue+0xb/0xc0
+Code: 5e 41 5f c3 cc cc cc cc 0f 1f 80 00 00 00 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 f3 0f 1e fa 0f 1f 44 00 00 41 57 <41> 56 41 55 41 54 55 48 89 fd 53 48 89 f3 4c 8d 6b 18 4c 8d 73 20
+RSP: 0018:ffff88811b5978b8 EFLAGS: 00000246
+RAX: 0000000000000000 RBX: ffff88811a7d3780 RCX: ffffffffb7a4d768
+RDX: dffffc0000000000 RSI: ffff88811b597908 RDI: ffff888115408040
+RBP: 1ffff110236b2f1b R08: 0000000000000000 R09: ffff88811a7d37e7
+R10: ffffed10234fa6fc R11: 0000000000000001 R12: ffff88811179b800
+R13: 0000000000000001 R14: ffff88811a7d38a8 R15: ffff88811a7d37e0
+FS:  00007f6fb5398740(0000) GS:ffff888237180000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 0000000020000000 CR3: 000000010b6ba002 CR4: 0000000000370ee0
+DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+Call Trace:
+ <TASK>
+ tcp_msg_wait_data+0x279/0x2f0
+ tcp_bpf_recvmsg_parser+0x3c6/0x490
+ inet_recvmsg+0x280/0x290
+ sock_recvmsg+0xfc/0x120
+ ____sys_recvmsg+0x160/0x3d0
+ ___sys_recvmsg+0xf0/0x180
+ __sys_recvmsg+0xea/0x1a0
+ do_syscall_64+0x3f/0x90
+ entry_SYSCALL_64_after_hwframe+0x72/0xdc
+
+The logic in tcp_bpf_recvmsg_parser is as follows:
+
+msg_bytes_ready:
+	copied = sk_msg_recvmsg(sk, psock, msg, len, flags);
+	if (!copied) {
+		wait data;
+		goto msg_bytes_ready;
+	}
+
+In this case, "copied" always is 0, the infinite loop occurs.
+
+According to the Linux system call man page, 0 should be returned in this
+case. Therefore, in tcp_bpf_recvmsg_parser(), if the length is 0, directly
+return. Also modify several other functions with the same problem.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53133</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53133</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53134 - "Broadcom bnxt_en Linux kernel Memory Allocation Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53134
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bnxt_en: Avoid order-5 memory allocation for TPA data
+
+The driver needs to keep track of all the possible concurrent TPA (GRO/LRO)
+completions on the aggregation ring.  On P5 chips, the maximum number
+of concurrent TPA is 256 and the amount of memory we allocate is order-5
+on systems using 4K pages.  Memory allocation failure has been reported:
+
+NetworkManager: page allocation failure: order:5, mode:0x40dc0(GFP_KERNEL|__GFP_COMP|__GFP_ZERO), nodemask=(null),cpuset=/,mems_allowed=0-1
+CPU: 15 PID: 2995 Comm: NetworkManager Kdump: loaded Not tainted 5.10.156 #1
+Hardware name: Dell Inc. PowerEdge R660/0M1CC5, BIOS 0.2.25 08/12/2022
+Call Trace:
+ dump_stack+0x57/0x6e
+ warn_alloc.cold.120+0x7b/0xdd
+ ? _cond_resched+0x15/0x30
+ ? __alloc_pages_direct_compact+0x15f/0x170
+ __alloc_pages_slowpath.constprop.108+0xc58/0xc70
+ __alloc_pages_nodemask+0x2d0/0x300
+ kmalloc_order+0x24/0xe0
+ kmalloc_order_trace+0x19/0x80
+ bnxt_alloc_mem+0x1150/0x15c0 [bnxt_en]
+ ? bnxt_get_func_stat_ctxs+0x13/0x60 [bnxt_en]
+ __bnxt_open_nic+0x12e/0x780 [bnxt_en]
+ bnxt_open+0x10b/0x240 [bnxt_en]
+ __dev_open+0xe9/0x180
+ __dev_change_flags+0x1af/0x220
+ dev_change_flags+0x21/0x60
+ do_setlink+0x35c/0x1100
+
+Instead of allocating this big chunk of memory and dividing it up for the
+concurrent TPA instances, allocate each small chunk separately for each
+TPA instance.  This will reduce it to order-0 allocations.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53134</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53134</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53135 - Riscv Linux Kernel Stack Out-of-Bounds Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53135
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+riscv: Use READ_ONCE_NOCHECK in imprecise unwinding stack mode
+
+When CONFIG_FRAME_POINTER is unset, the stack unwinding function
+walk_stackframe randomly reads the stack and then, when KASAN is enabled,
+it can lead to the following backtrace:
+
+[    0.000000] ==================================================================
+[    0.000000] BUG: KASAN: stack-out-of-bounds in walk_stackframe+0xa6/0x11a
+[    0.000000] Read of size 8 at addr ffffffff81807c40 by task swapper/0
+[    0.000000]
+[    0.000000] CPU: 0 PID: 0 Comm: swapper Not tainted 6.2.0-12919-g24203e6db61f #43
+[    0.000000] Hardware name: riscv-virtio,qemu (DT)
+[    0.000000] Call Trace:
+[    0.000000] [<ffffffff80007ba8>] walk_stackframe+0x0/0x11a
+[    0.000000] [<ffffffff80099ecc>] init_param_lock+0x26/0x2a
+[    0.000000] [<ffffffff80007c4a>] walk_stackframe+0xa2/0x11a
+[    0.000000] [<ffffffff80c49c80>] dump_stack_lvl+0x22/0x36
+[    0.000000] [<ffffffff80c3783e>] print_report+0x198/0x4a8
+[    0.000000] [<ffffffff80099ecc>] init_param_lock+0x26/0x2a
+[    0.000000] [<ffffffff80007c4a>] walk_stackframe+0xa2/0x11a
+[    0.000000] [<ffffffff8015f68a>] kasan_report+0x9a/0xc8
+[    0.000000] [<ffffffff80007c4a>] walk_stackframe+0xa2/0x11a
+[    0.000000] [<ffffffff80007c4a>] walk_stackframe+0xa2/0x11a
+[    0.000000] [<ffffffff8006e99c>] desc_make_final+0x80/0x84
+[    0.000000] [<ffffffff8009a04e>] stack_trace_save+0x88/0xa6
+[    0.000000] [<ffffffff80099fc2>] filter_irq_stacks+0x72/0x76
+[    0.000000] [<ffffffff8006b95e>] devkmsg_read+0x32a/0x32e
+[    0.000000] [<ffffffff8015ec16>] kasan_save_stack+0x28/0x52
+[    0.000000] [<ffffffff8006e998>] desc_make_final+0x7c/0x84
+[    0.000000] [<ffffffff8009a04a>] stack_trace_save+0x84/0xa6
+[    0.000000] [<ffffffff8015ec52>] kasan_set_track+0x12/0x20
+[    0.000000] [<ffffffff8015f22e>] __kasan_slab_alloc+0x58/0x5e
+[    0.000000] [<ffffffff8015e7ea>] __kmem_cache_create+0x21e/0x39a
+[    0.000000] [<ffffffff80e133ac>] create_boot_cache+0x70/0x9c
+[    0.000000] [<ffffffff80e17ab2>] kmem_cache_init+0x6c/0x11e
+[    0.000000] [<ffffffff80e00fd6>] mm_init+0xd8/0xfe
+[    0.000000] [<ffffffff80e011d8>] start_kernel+0x190/0x3ca
+[    0.000000]
+[    0.000000] The buggy address belongs to stack of task swapper/0
+[    0.000000]  and is located at offset 0 in frame:
+[    0.000000]  stack_trace_save+0x0/0xa6
+[    0.000000]
+[    0.000000] This frame has 1 object:
+[    0.000000]  [32, 56) 'c'
+[    0.000000]
+[    0.000000] The buggy address belongs to the physical page:
+[    0.000000] page:(____ptrval____) refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x81a07
+[    0.000000] flags: 0x1000(reserved|zone=0)
+[    0.000000] raw: 0000000000001000 ff600003f1e3d150 ff600003f1e3d150 0000000000000000
+[    0.000000] raw: 0000000000000000 0000000000000000 00000001ffffffff
+[    0.000000] page dumped because: kasan: bad access detected
+[    0.000000]
+[    0.000000] Memory state around the buggy address:
+[    0.000000]  ffffffff81807b00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[    0.000000]  ffffffff81807b80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[    0.000000] >ffffffff81807c00: 00 00 00 00 00 00 00 00 f1 f1 f1 f1 00 00 00 f3
+[    0.000000]                                            ^
+[    0.000000]  ffffffff81807c80: f3 f3 f3 f3 00 00 00 00 00 00 00 00 00 00 00 00
+[    0.000000]  ffffffff81807d00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[    0.000000] ==================================================================
+
+Fix that by using READ_ONCE_NOCHECK when reading the stack in imprecise
+mode.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53135</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53135</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53136 - Linux af_unix Struct PID Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53136
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+af_unix: fix struct pid leaks in OOB support
+
+syzbot reported struct pid leak [1].
+
+Issue is that queue_oob() calls maybe_add_creds() which potentially
+holds a reference on a pid.
+
+But skb->destructor is not set (either directly or by calling
+unix_scm_to_skb())
+
+This means that subsequent kfree_skb() or consume_skb() would leak
+this reference.
+
+In this fix, I chose to fully support scm even for the OOB message.
+
+[1]
+BUG: memory leak
+unreferenced object 0xffff8881053e7f80 (size 128):
+comm "syz-executor242", pid 5066, jiffies 4294946079 (age 13.220s)
+hex dump (first 32 bytes):
+01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+backtrace:
+[<ffffffff812ae26a>] alloc_pid+0x6a/0x560 kernel/pid.c:180
+[<ffffffff812718df>] copy_process+0x169f/0x26c0 kernel/fork.c:2285
+[<ffffffff81272b37>] kernel_clone+0xf7/0x610 kernel/fork.c:2684
+[<ffffffff812730cc>] __do_sys_clone+0x7c/0xb0 kernel/fork.c:2825
+[<ffffffff849ad699>] do_syscall_x64 arch/x86/entry/common.c:50 [inline]
+[<ffffffff849ad699>] do_syscall_64+0x39/0xb0 arch/x86/entry/common.c:80
+[<ffffffff84a0008b>] entry_SYSCALL_64_after_hwframe+0x63/0xcd
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53136</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53136</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53137 - Linux Kernel Ext4 Directory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53137
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ext4: Fix possible corruption when moving a directory
+
+When we are renaming a directory to a different directory, we need to
+update '..' entry in the moved directory. However nothing prevents moved
+directory from being modified and even converted from the inline format
+to the normal format. When such race happens the rename code gets
+confused and we crash. Fix the problem by locking the moved directory.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53137</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53137</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53138 - Cisco CAIF Use-After-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53138
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: caif: Fix use-after-free in cfusbl_device_notify()
+
+syzbot reported use-after-free in cfusbl_device_notify() [1].  This
+causes a stack trace like below:
+
+BUG: KASAN: use-after-free in cfusbl_device_notify+0x7c9/0x870 net/caif/caif_usb.c:138
+Read of size 8 at addr ffff88807ac4e6f0 by task kworker/u4:6/1214
+
+CPU: 0 PID: 1214 Comm: kworker/u4:6 Not tainted 5.19.0-rc3-syzkaller-00146-g92f20ff72066 #0
+Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/01/2011
+Workqueue: netns cleanup_net
+Call Trace:
+ <TASK>
+ __dump_stack lib/dump_stack.c:88 [inline]
+ dump_stack_lvl+0xcd/0x134 lib/dump_stack.c:106
+ print_address_description.constprop.0.cold+0xeb/0x467 mm/kasan/report.c:313
+ print_report mm/kasan/report.c:429 [inline]
+ kasan_report.cold+0xf4/0x1c6 mm/kasan/report.c:491
+ cfusbl_device_notify+0x7c9/0x870 net/caif/caif_usb.c:138
+ notifier_call_chain+0xb5/0x200 kernel/notifier.c:87
+ call_netdevice_notifiers_info+0xb5/0x130 net/core/dev.c:1945
+ call_netdevice_notifiers_extack net/core/dev.c:1983 [inline]
+ call_netdevice_notifiers net/core/dev.c:1997 [inline]
+ netdev_wait_allrefs_any net/core/dev.c:10227 [inline]
+ netdev_run_todo+0xbc0/0x10f0 net/core/dev.c:10341
+ default_device_exit_batch+0x44e/0x590 net/core/dev.c:11334
+ ops_exit_list+0x125/0x170 net/core/net_namespace.c:167
+ cleanup_net+0x4ea/0xb00 net/core/net_namespace.c:594
+ process_one_work+0x996/0x1610 kernel/workqueue.c:2289
+ worker_thread+0x665/0x1080 kernel/workqueue.c:2436
+ kthread+0x2e9/0x3a0 kernel/kthread.c:376
+ ret_from_fork+0x1f/0x30 arch/x86/entry/entry_64.S:302
+ </TASK>
+
+When unregistering a net device, unregister_netdevice_many_notify()
+sets the device's reg_state to NETREG_UNREGISTERING, calls notifiers
+with NETDEV_UNREGISTER, and adds the device to the todo list.
+
+Later on, devices in the todo list are processed by netdev_run_todo().
+netdev_run_todo() waits devices' reference count become 1 while
+rebdoadcasting NETDEV_UNREGISTER notification.
+
+When cfusbl_device_notify() is called with NETDEV_UNREGISTER multiple
+times, the parent device might be freed.  This could cause UAF.
+Processing NETDEV_UNREGISTER multiple times also causes inbalance of
+reference count for the module.
+
+This patch fixes the issue by accepting only first NETDEV_UNREGISTER
+notification.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53138</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53138</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53139 - Linux Kernel NFC fdp Null Pointer Dereference</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53139
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+nfc: fdp: add null check of devm_kmalloc_array in fdp_nci_i2c_read_device_properties
+
+devm_kmalloc_array may fails, *fw_vsc_cfg might be null and cause
+out-of-bounds write in device_property_read_u8_array later.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53139</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53139</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53140 - "Linux Kernel SCSI Core /proc/scsi Directory Removal Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53140
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: core: Remove the /proc/scsi/${proc_name} directory earlier
+
+Remove the /proc/scsi/${proc_name} directory earlier to fix a race
+condition between unloading and reloading kernel modules. This fixes a bug
+introduced in 2009 by commit 77c019768f06 ("[SCSI] fix /proc memory leak in
+the SCSI core").
+
+Fix the following kernel warning:
+
+proc_dir_entry 'scsi/scsi_debug' already registered
+WARNING: CPU: 19 PID: 27986 at fs/proc/generic.c:376 proc_register+0x27d/0x2e0
+Call Trace:
+ proc_mkdir+0xb5/0xe0
+ scsi_proc_hostdir_add+0xb5/0x170
+ scsi_host_alloc+0x683/0x6c0
+ sdebug_driver_probe+0x6b/0x2d0 [scsi_debug]
+ really_probe+0x159/0x540
+ __driver_probe_device+0xdc/0x230
+ driver_probe_device+0x4f/0x120
+ __device_attach_driver+0xef/0x180
+ bus_for_each_drv+0xe5/0x130
+ __device_attach+0x127/0x290
+ device_initial_probe+0x17/0x20
+ bus_probe_device+0x110/0x130
+ device_add+0x673/0xc80
+ device_register+0x1e/0x30
+ sdebug_add_host_helper+0x1a7/0x3b0 [scsi_debug]
+ scsi_debug_init+0x64f/0x1000 [scsi_debug]
+ do_one_initcall+0xd7/0x470
+ do_init_module+0xe7/0x330
+ load_module+0x122a/0x12c0
+ __do_sys_finit_module+0x124/0x1a0
+ __x64_sys_finit_module+0x46/0x50
+ do_syscall_64+0x38/0x80
+ entry_SYSCALL_64_after_hwframe+0x46/0xb0
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53140</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53140</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53141 - Intel Ila Netlink Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53141
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ila: do not generate empty messages in ila_xlat_nl_cmd_get_mapping()
+
+ila_xlat_nl_cmd_get_mapping() generates an empty skb,
+triggerring a recent sanity check [1].
+
+Instead, return an error code, so that user space
+can get it.
+
+[1]
+skb_assert_len
+WARNING: CPU: 0 PID: 5923 at include/linux/skbuff.h:2527 skb_assert_len include/linux/skbuff.h:2527 [inline]
+WARNING: CPU: 0 PID: 5923 at include/linux/skbuff.h:2527 __dev_queue_xmit+0x1bc0/0x3488 net/core/dev.c:4156
+Modules linked in:
+CPU: 0 PID: 5923 Comm: syz-executor269 Not tainted 6.2.0-syzkaller-18300-g2ebd1fbb946d #0
+Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/21/2023
+pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+pc : skb_assert_len include/linux/skbuff.h:2527 [inline]
+pc : __dev_queue_xmit+0x1bc0/0x3488 net/core/dev.c:4156
+lr : skb_assert_len include/linux/skbuff.h:2527 [inline]
+lr : __dev_queue_xmit+0x1bc0/0x3488 net/core/dev.c:4156
+sp : ffff80001e0d6c40
+x29: ffff80001e0d6e60 x28: dfff800000000000 x27: ffff0000c86328c0
+x26: dfff800000000000 x25: ffff0000c8632990 x24: ffff0000c8632a00
+x23: 0000000000000000 x22: 1fffe000190c6542 x21: ffff0000c8632a10
+x20: ffff0000c8632a00 x19: ffff80001856e000 x18: ffff80001e0d5fc0
+x17: 0000000000000000 x16: ffff80001235d16c x15: 0000000000000000
+x14: 0000000000000000 x13: 0000000000000001 x12: 0000000000000001
+x11: ff80800008353a30 x10: 0000000000000000 x9 : 21567eaf25bfb600
+x8 : 21567eaf25bfb600 x7 : 0000000000000001 x6 : 0000000000000001
+x5 : ffff80001e0d6558 x4 : ffff800015c74760 x3 : ffff800008596744
+x2 : 0000000000000001 x1 : 0000000100000000 x0 : 000000000000000e
+Call trace:
+skb_assert_len include/linux/skbuff.h:2527 [inline]
+__dev_queue_xmit+0x1bc0/0x3488 net/core/dev.c:4156
+dev_queue_xmit include/linux/netdevice.h:3033 [inline]
+__netlink_deliver_tap_skb net/netlink/af_netlink.c:307 [inline]
+__netlink_deliver_tap+0x45c/0x6f8 net/netlink/af_netlink.c:325
+netlink_deliver_tap+0xf4/0x174 net/netlink/af_netlink.c:338
+__netlink_sendskb net/netlink/af_netlink.c:1283 [inline]
+netlink_sendskb+0x6c/0x154 net/netlink/af_netlink.c:1292
+netlink_unicast+0x334/0x8d4 net/netlink/af_netlink.c:1380
+nlmsg_unicast include/net/netlink.h:1099 [inline]
+genlmsg_unicast include/net/genetlink.h:433 [inline]
+genlmsg_reply include/net/genetlink.h:443 [inline]
+ila_xlat_nl_cmd_get_mapping+0x620/0x7d0 net/ipv6/ila/ila_xlat.c:493
+genl_family_rcv_msg_doit net/netlink/genetlink.c:968 [inline]
+genl_family_rcv_msg net/netlink/genetlink.c:1048 [inline]
+genl_rcv_msg+0x938/0xc1c net/netlink/genetlink.c:1065
+netlink_rcv_skb+0x214/0x3c4 net/netlink/af_netlink.c:2574
+genl_rcv+0x38/0x50 net/netlink/genetlink.c:1076
+netlink_unicast_kernel net/netlink/af_netlink.c:1339 [inline]
+netlink_unicast+0x660/0x8d4 net/netlink/af_netlink.c:1365
+netlink_sendmsg+0x800/0xae0 net/netlink/af_netlink.c:1942
+sock_sendmsg_nosec net/socket.c:714 [inline]
+sock_sendmsg net/socket.c:734 [inline]
+____sys_sendmsg+0x558/0x844 net/socket.c:2479
+___sys_sendmsg net/socket.c:2533 [inline]
+__sys_sendmsg+0x26c/0x33c net/socket.c:2562
+__do_sys_sendmsg net/socket.c:2571 [inline]
+__se_sys_sendmsg net/socket.c:2569 [inline]
+__arm64_sys_sendmsg+0x80/0x94 net/socket.c:2569
+__invoke_syscall arch/arm64/kernel/syscall.c:38 [inline]
+invoke_syscall+0x98/0x2c0 arch/arm64/kernel/syscall.c:52
+el0_svc_common+0x138/0x258 arch/arm64/kernel/syscall.c:142
+do_el0_svc+0x64/0x198 arch/arm64/kernel/syscall.c:193
+el0_svc+0x58/0x168 arch/arm64/kernel/entry-common.c:637
+el0t_64_sync_handler+0x84/0xf0 arch/arm64/kernel/entry-common.c:655
+el0t_64_sync+0x190/0x194 arch/arm64/kernel/entry.S:591
+irq event stamp: 136484
+hardirqs last enabled at (136483): [<ffff800008350244>] __up_console_sem+0x60/0xb4 kernel/printk/printk.c:345
+hardirqs last disabled at (136484): [<ffff800012358d60>] el1_dbg+0x24/0x80 arch/arm64/kernel/entry-common.c:405
+softirqs last enabled at (136418): [<ffff800008020ea8>] softirq_ha
+---truncated---
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53141</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53141</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53142 - "Ice: Buffer Overflow in ice_get_module_eeprom()"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53142
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ice: copy last block omitted in ice_get_module_eeprom()
+
+ice_get_module_eeprom() is broken since commit e9c9692c8a81 ("ice:
+Reimplement module reads used by ethtool") In this refactor,
+ice_get_module_eeprom() reads the eeprom in blocks of size 8.
+But the condition that should protect the buffer overflow
+ignores the last block. The last block always contains zeros.
+
+Bug uncovered by ethtool upstream commit 9538f384b535
+("netlink: eeprom: Defer page requests to individual parsers")
+After this commit, ethtool reads a block with length = 1;
+to read the SFF-8024 identifier value.
+
+unpatched driver:
+$ ethtool -m enp65s0f0np0 offset 0x90 length 8
+Offset          Values
+------          ------
+0x0090:         00 00 00 00 00 00 00 00
+$ ethtool -m enp65s0f0np0 offset 0x90 length 12
+Offset          Values
+------          ------
+0x0090:         00 00 01 a0 4d 65 6c 6c 00 00 00 00
+$
+
+$ ethtool -m enp65s0f0np0
+Offset          Values
+------          ------
+0x0000:         11 06 06 00 00 00 00 00 00 00 00 00 00 00 00 00
+0x0010:         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0x0020:         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0x0030:         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0x0040:         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0x0050:         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0x0060:         00 00 00 00 00 00 00 00 00 00 00 00 00 01 08 00
+0x0070:         00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+patched driver:
+$ ethtool -m enp65s0f0np0 offset 0x90 length 8
+Offset          Values
+------          ------
+0x0090:         00 00 01 a0 4d 65 6c 6c
+$ ethtool -m enp65s0f0np0 offset 0x90 length 12
+Offset          Values
+------          ------
+0x0090:         00 00 01 a0 4d 65 6c 6c 61 6e 6f 78
+$ ethtool -m enp65s0f0np0
+    Identifier                                : 0x11 (QSFP28)
+    Extended identifier                       : 0x00
+    Extended identifier description           : 1.5W max. Power consumption
+    Extended identifier description           : No CDR in TX, No CDR in RX
+    Extended identifier description           : High Power Class (> 3.5 W) not enabled
+    Connector                                 : 0x23 (No separable connector)
+    Transceiver codes                         : 0x88 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+    Transceiver type                          : 40G Ethernet: 40G Base-CR4
+    Transceiver type                          : 25G Ethernet: 25G Base-CR CA-N
+    Encoding                                  : 0x05 (64B/66B)
+    BR, Nominal                               : 25500Mbps
+    Rate identifier                           : 0x00
+    Length (SMF,km)                           : 0km
+    Length (OM3 50um)                         : 0m
+    Length (OM2 50um)                         : 0m
+    Length (OM1 62.5um)                       : 0m
+    Length (Copper or Active cable)           : 1m
+    Transmitter technology                    : 0xa0 (Copper cable unequalized)
+    Attenuation at 2.5GHz                     : 4db
+    Attenuation at 5.0GHz                     : 5db
+    Attenuation at 7.0GHz                     : 7db
+    Attenuation at 12.9GHz                    : 10db
+    ........
+    ....
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53142</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53142</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53143 - "Ext4 Linux Kernel Off-by-One Error in fsmap Handling"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53143
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ext4: fix another off-by-one fsmap error on 1k block filesystems
+
+Apparently syzbot figured out that issuing this FSMAP call:
+
+struct fsmap_head cmd = {
+	.fmh_count	= ...;
+	.fmh_keys	= {
+		{ .fmr_device = /* ext4 dev */, .fmr_physical = 0, },
+		{ .fmr_device = /* ext4 dev */, .fmr_physical = 0, },
+	},
+...
+};
+ret = ioctl(fd, FS_IOC_GETFSMAP, &cmd);
+
+Produces this crash if the underlying filesystem is a 1k-block ext4
+filesystem:
+
+kernel BUG at fs/ext4/ext4.h:3331!
+invalid opcode: 0000 [#1] PREEMPT SMP
+CPU: 3 PID: 3227965 Comm: xfs_io Tainted: G        W  O       6.2.0-rc8-achx
+Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.15.0-1 04/01/2014
+RIP: 0010:ext4_mb_load_buddy_gfp+0x47c/0x570 [ext4]
+RSP: 0018:ffffc90007c03998 EFLAGS: 00010246
+RAX: ffff888004978000 RBX: ffffc90007c03a20 RCX: ffff888041618000
+RDX: 0000000000000000 RSI: 00000000000005a4 RDI: ffffffffa0c99b11
+RBP: ffff888012330000 R08: ffffffffa0c2b7d0 R09: 0000000000000400
+R10: ffffc90007c03950 R11: 0000000000000000 R12: 0000000000000001
+R13: 00000000ffffffff R14: 0000000000000c40 R15: ffff88802678c398
+FS:  00007fdf2020c880(0000) GS:ffff88807e100000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 00007ffd318a5fe8 CR3: 000000007f80f001 CR4: 00000000001706e0
+Call Trace:
+ <TASK>
+ ext4_mballoc_query_range+0x4b/0x210 [ext4 dfa189daddffe8fecd3cdfd00564e0f265a8ab80]
+ ext4_getfsmap_datadev+0x713/0x890 [ext4 dfa189daddffe8fecd3cdfd00564e0f265a8ab80]
+ ext4_getfsmap+0x2b7/0x330 [ext4 dfa189daddffe8fecd3cdfd00564e0f265a8ab80]
+ ext4_ioc_getfsmap+0x153/0x2b0 [ext4 dfa189daddffe8fecd3cdfd00564e0f265a8ab80]
+ __ext4_ioctl+0x2a7/0x17e0 [ext4 dfa189daddffe8fecd3cdfd00564e0f265a8ab80]
+ __x64_sys_ioctl+0x82/0xa0
+ do_syscall_64+0x2b/0x80
+ entry_SYSCALL_64_after_hwframe+0x46/0xb0
+RIP: 0033:0x7fdf20558aff
+RSP: 002b:00007ffd318a9e30 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+RAX: ffffffffffffffda RBX: 00000000000200c0 RCX: 00007fdf20558aff
+RDX: 00007fdf1feb2010 RSI: 00000000c0c0583b RDI: 0000000000000003
+RBP: 00005625c0634be0 R08: 00005625c0634c40 R09: 0000000000000001
+R10: 0000000000000000 R11: 0000000000000246 R12: 00007fdf1feb2010
+R13: 00005625be70d994 R14: 0000000000000800 R15: 0000000000000000
+
+For GETFSMAP calls, the caller selects a physical block device by
+writing its block number into fsmap_head.fmh_keys[01].fmr_device.
+To query mappings for a subrange of the device, the starting byte of the
+range is written to fsmap_head.fmh_keys[0].fmr_physical and the last
+byte of the range goes in fsmap_head.fmh_keys[1].fmr_physical.
+
+IOWs, to query what mappings overlap with bytes 3-14 of /dev/sda, you'd
+set the inputs as follows:
+
+	fmh_keys[0] = { .fmr_device = major(8, 0), .fmr_physical = 3},
+	fmh_keys[1] = { .fmr_device = major(8, 0), .fmr_physical = 14},
+
+Which would return you whatever is mapped in the 12 bytes starting at
+physical offset 3.
+
+The crash is due to insufficient range validation of keys[1] in
+ext4_getfsmap_datadev.  On 1k-block filesystems, block 0 is not part of
+the filesystem, which means that s_first_data_block is nonzero.
+ext4_get_group_no_and_offset subtracts this quantity from the blocknr
+argument before cracking it into a group number and a block number
+within a group.  IOWs, block group 0 spans blocks 1-8192 (1-based)
+instead of 0-8191 (0-based) like what happens with larger blocksizes.
+
+The net result of this encoding is that blocknr < s_first_data_block is
+not a valid input to this function.  The end_fsb variable is set from
+the keys that are copied from userspace, which means that in the above
+example, its value is zero.  That leads to an underflow here:
+
+	blocknr = blocknr - le32_to_cpu(es->s_first_data_block);
+
+The division then operates on -1:
+
+	offset = do_div(blocknr, EXT4_BLOCKS_PER_GROUP(sb)) >>
+		EXT4_SB(sb)->s_cluster_bits;
+
+Leaving an impossibly large group number (2^32-1) in blocknr.
+ext4_getfsmap_check_keys checked that keys[0
+---truncated---
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53143</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53143</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53144 - Linux Kernel erofs LZMA HIGHMEM NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53144
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+erofs: fix wrong kunmap when using LZMA on HIGHMEM platforms
+
+As the call trace shown, the root cause is kunmap incorrect pages:
+
+ BUG: kernel NULL pointer dereference, address: 00000000
+ CPU: 1 PID: 40 Comm: kworker/u5:0 Not tainted 6.2.0-rc5 #4
+ Workqueue: erofs_worker z_erofs_decompressqueue_work
+ EIP: z_erofs_lzma_decompress+0x34b/0x8ac
+  z_erofs_decompress+0x12/0x14
+  z_erofs_decompress_queue+0x7e7/0xb1c
+  z_erofs_decompressqueue_work+0x32/0x60
+  process_one_work+0x24b/0x4d8
+  ? process_one_work+0x1a4/0x4d8
+  worker_thread+0x14c/0x3fc
+  kthread+0xe6/0x10c
+  ? rescuer_thread+0x358/0x358
+  ? kthread_complete_and_exit+0x18/0x18
+  ret_from_fork+0x1c/0x28
+ ---[ end trace 0000000000000000 ]---
+
+The bug is trivial and should be fixed now.  It has no impact on
+!HIGHMEM platforms.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53144</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53144</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4210 - Casdoor SCIM User Creation Endpoint Authorization Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4210
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in Casdoor up to 1.811.0. This vulnerability affects the function HandleScim of the file controllers/scim.go of the component SCIM User Creation Endpoint. The manipulation leads to authorization bypass. The attack can be initiated remotely. Upgrading to version 1.812.0 is able to address this issue. The name of the patch is 3d12ac8dc2282369296c3386815c00a06c6a92fe. It is recommended to upgrade the affected component.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4210</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4210</guid>
+    </item>
     <item>
       <title>CVE-2025-2605 - Honeywell MB-Secure OS Command Injection Vulnerability</title>
       <description><![CDATA[<p>
