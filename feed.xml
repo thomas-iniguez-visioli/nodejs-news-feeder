@@ -8,18 +8,52 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 02 May 2025 20:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 22:10:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-58253 - Obfstr Crate Invalid UTF-8 Conversion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-58253
+<br>
+<strong>Published : </strong> May 2, 2025, 8:15 p.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>In the obfstr crate before 0.4.4 for Rust, the obfstr! argument type is not restricted to string slices, leading to invalid UTF-8 conversion that produces an invalid value.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-58253</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-58253</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4214 - PHPGuruku Online DJ Booking Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4214
+<br>
+<strong>Published : </strong> May 2, 2025, 8:15 p.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGuruku Online DJ Booking Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/booking-bwdates-reports-details.php. The manipulation of the argument fromdate leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4214</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4214</guid>
+    </item>
+    <item>
       <title>CVE-2025-4213 - PHPGurukul Online Birth Certificate System SQL Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4213
 <br>
-<strong>Published : </strong> May 2, 2025, 6:15 p.m. | 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 6:15 p.m. | 2 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in PHPGurukul Online Birth Certificate System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/search.php. The manipulation of the argument searchdata leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3879
 <br>
-<strong>Published : </strong> May 2, 2025, 5:15 p.m. | 1 hour, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 5:15 p.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>Vault Community, Vault Enterprise (“Vault”) Azure Auth method did not correctly validate the claims in the Azure-issued token, resulting in the potential bypass of the bound_locations parameter on login. Fixed in Vault Community Edition 1.19.1 and Vault Enterprise 1.19.1, 1.18.7, 1.17.14, 1.16.18.
 <br>
@@ -53,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45800
 <br>
-<strong>Published : </strong> May 2, 2025, 5:15 p.m. | 1 hour, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 5:15 p.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK A950RG V4.1.2cu.5204_B20210112 contains a command execution vulnerability in the setDeviceName interface of the /lib/cste_modules/global.so library, specifically in the processing of the deviceMac parameter.
 <br>
@@ -70,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46332
 <br>
-<strong>Published : </strong> May 2, 2025, 5:15 p.m. | 1 hour, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 5:15 p.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>Flags SDK is an open-source feature flags toolkit for Next.js and SvelteKit. Impacted versions include flags from 3.2.0 and prior and @vercel/flags from 3.1.1 and prior as certain circumstances allows a bad actor with detailed knowledge of the vulnerability to list all flags returned by the flags discovery endpoint (.well-known/vercel/flags). This vulnerability allows for information disclosure, where a bad actor could gain access to a list of all feature flags exposed through the flags discovery endpoint, including the flag names, flag descriptions, available options and their labels (e.g. true, false), and default flag values. This issue has been patched in flags@4.0.0, users of flags and @vercel/flags should also migrate to flags@4.0.0.
 <br>
@@ -83,56 +117,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-46332</guid>
     </item>
     <item>
-      <title>CVE-2023-53125 - "Linux Kernel SMSc75xx Network Stack Buffer Overflow"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2023-53125
-<br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-net: usb: smsc75xx: Limit packet length to skb->len
-
-Packet length retrieved from skb data may be larger than
-the actual socket buffer length (up to 9026 bytes). In such
-case the cloned skb passed up the network stack will leak
-kernel memory contents.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2023-53125</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53125</guid>
-    </item>
-    <item>
-      <title>CVE-2023-53126 - Linux Kernel SCSI MPI3MR Memory Leak</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2023-53126
-<br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-scsi: mpi3mr: Fix sas_hba.phy memory leak in mpi3mr_remove()
-
-Free mrioc->sas_hba.phy at .remove.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2023-53126</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53126</guid>
-    </item>
-    <item>
       <title>CVE-2023-53127 - Linux Kernel SCSI MPI3MR Resource Leak Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53127
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -153,7 +142,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53128
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -174,7 +163,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53129
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -199,7 +188,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53130
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -225,7 +214,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53131
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -247,7 +236,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53132
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -268,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53133
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -333,7 +322,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53134
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -382,7 +371,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53135
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -463,7 +452,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53136
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -511,7 +500,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53137
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -536,7 +525,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53138
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -603,7 +592,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53139
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -625,7 +614,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53140
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -678,7 +667,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53141
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -769,7 +758,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53142
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -857,7 +846,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53143
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -962,7 +951,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-53144
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1002,7 +991,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4210
 <br>
-<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in Casdoor up to 1.811.0. This vulnerability affects the function HandleScim of the file controllers/scim.go of the component SCIM User Creation Endpoint. The manipulation leads to authorization bypass. The attack can be initiated remotely. Upgrading to version 1.812.0 is able to address this issue. The name of the patch is 3d12ac8dc2282369296c3386815c00a06c6a92fe. It is recommended to upgrade the affected component.
 <br>
@@ -1013,6 +1002,51 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4210</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4210</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53125 - "Linux Kernel SMSc75xx Network Stack Buffer Overflow"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53125
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: usb: smsc75xx: Limit packet length to skb->len
+
+Packet length retrieved from skb data may be larger than
+the actual socket buffer length (up to 9026 bytes). In such
+case the cloned skb passed up the network stack will leak
+kernel memory contents.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53125</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53125</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53126 - Linux Kernel SCSI MPI3MR Memory Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53126
+<br>
+<strong>Published : </strong> May 2, 2025, 4:15 p.m. | 2 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: mpi3mr: Fix sas_hba.phy memory leak in mpi3mr_remove()
+
+Free mrioc->sas_hba.phy at .remove.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 02 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53126</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53126</guid>
     </item>
     <item>
       <title>CVE-2023-53121 - Linux Kernel TCP Information Disclosure Vulnerability</title>
