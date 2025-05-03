@@ -179,12 +179,125 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-37799 - vmxnet3 Linux Kernel Malformed Packet Sizing Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37799
+<br>
+<strong>Published : </strong> May 3, 2025, 12:15 p.m. | 36 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+vmxnet3: Fix malformed packet sizing in vmxnet3_process_xdp
+
+vmxnet3 driver's XDP handling is buggy for packet sizes using ring0 (that
+is, packet sizes between 128 - 3k bytes).
+
+We noticed MTU-related connectivity issues with Cilium's service load-
+balancing in case of vmxnet3 as NIC underneath. A simple curl to a HTTP
+backend service where the XDP LB was doing IPIP encap led to overly large
+packet sizes but only for *some* of the packets (e.g. HTTP GET request)
+while others (e.g. the prior TCP 3WHS) looked completely fine on the wire.
+
+In fact, the pcap recording on the backend node actually revealed that the
+node with the XDP LB was leaking uninitialized kernel data onto the wire
+for the affected packets, for example, while the packets should have been
+152 bytes their actual size was 1482 bytes, so the remainder after 152 bytes
+was padded with whatever other data was in that page at the time (e.g. we
+saw user/payload data from prior processed packets).
+
+We only noticed this through an MTU issue, e.g. when the XDP LB node and
+the backend node both had the same MTU (e.g. 1500) then the curl request
+got dropped on the backend node's NIC given the packet was too large even
+though the IPIP-encapped packet normally would never even come close to
+the MTU limit. Lowering the MTU on the XDP LB (e.g. 1480) allowed to let
+the curl request succeed (which also indicates that the kernel ignored the
+padding, and thus the issue wasn't very user-visible).
+
+Commit e127ce7699c1 ("vmxnet3: Fix missing reserved tailroom") was too eager
+to also switch xdp_prepare_buff() from rcd->len to rbi->len. It really needs
+to stick to rcd->len which is the actual packet length from the descriptor.
+The latter we also feed into vmxnet3_process_xdp_small(), by the way, and
+it indicates the correct length needed to initialize the xdp->{data,data_end}
+parts. For e127ce7699c1 ("vmxnet3: Fix missing reserved tailroom") the
+relevant part was adapting xdp_init_buff() to address the warning given the
+xdp_data_hard_end() depends on xdp->frame_sz. With that fixed, traffic on
+the wire looks good again.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Sat, 03 May 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37799">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2024-58135 - Mojolicious Weak HMAC Session Secret Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2024-58135
+<br>
+<strong>Published : </strong> May 3, 2025, 11:15 a.m. | 1 hour, 36 minutes ago
+<br>
+<strong>Description : </strong>Mojolicious versions from 7.28 through 9.39 for Perl may generate weak HMAC session secrets.
+
+When creating a default app with the "mojo generate app" tool, a weak secret is written to the application's configuration file using the insecure rand() function, and used for authenticating and protecting the integrity of the application's sessions. This may allow an attacker to brute force the application's session keys.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Sat, 03 May 2025 11:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-58135">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4226 - PHPGurukul Cyber Cafe Management System SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4226
+<br>
+<strong>Published : </strong> May 3, 2025, 11:15 a.m. | 1 hour, 36 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in PHPGurukul Cyber Cafe Management System 1.0. This affects an unknown part of the file /add-computer.php. The manipulation of the argument compname leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Sat, 03 May 2025 11:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4226">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-3815 - WordPress SurveyJS Stored Cross-Site Scripting
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3815
 <br>
-<strong>Published : </strong> May 3, 2025, 8:15 a.m. | 2 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 8:15 a.m. | 4 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The SurveyJS plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘id’ parameter in all versions up to, and including, 1.12.32 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -209,7 +322,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-13738
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The The Motors - Car Dealer, Rental & Listing WordPress theme theme for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 5.6.65. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
 
@@ -236,7 +349,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3779
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Personizely plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘widgetId’ parameter in all versions up to, and including, 0.10 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -261,7 +374,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3918
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Job Listings plugin for WordPress is vulnerable to Privilege Escalation due to improper authorization within the register_action() function in versions 0.1 to 0.1.1. The plugin’s registration handler reads the client-supplied $_POST['user_role'] and passes it directly to wp_insert_user() without restricting to a safe set of roles.  This makes it possible for unauthenticated attackers to elevate their privileges to that of an administrator.
 <br>
@@ -286,7 +399,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-47229
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>libpspp-core.a in GNU PSPP through 2.0.1 allows attackers to cause a denial of service (var_set_leave_quiet assertion failure and application exit) via crafted input data, such as data that triggers a call from src/data/dictionary.c code into src/data/variable.c code.
 <br>
@@ -311,7 +424,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4168
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Subpage List plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'subpages' shortcode in all versions up to, and including, 1.3.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -336,7 +449,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4170
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Xavin&#039;s Review Ratings plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'xrr' shortcode in all versions up to, and including, 1.4.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -361,7 +474,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4172
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The VerticalResponse Newsletter Widget plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'verticalresponse' shortcode in all versions up to, and including, 1.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -386,7 +499,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4188
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Advanced Reorder Image Text Slider plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0. This is due to missing or incorrect nonce validation on the 'reorder-simple-image-text-slider-setting' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -411,7 +524,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4198
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Alink Tap plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.3.1. This is due to missing or incorrect nonce validation on the 'alink-tap' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -436,7 +549,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4199
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Abundatrade Plugin plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.8.02. This is due to missing or incorrect nonce validation on the 'abundatrade' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -461,7 +574,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4222
 <br>
-<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 7 hours, 10 minutes ago
+<strong>Published : </strong> May 3, 2025, 3:15 a.m. | 9 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>The Database Toolset plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.8.4 via backup files stored in a publicly accessible location. This makes it possible for unauthenticated attackers to extract sensitive data from database backup files. An index file is present, so a brute force attack would need to be successful in order to compromise any data.
 <br>
@@ -486,7 +599,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46723
 <br>
-<strong>Published : </strong> May 2, 2025, 11:15 p.m. | 11 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 11:15 p.m. | 13 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>OpenVM is a performant and modular zkVM framework built for customization and extensibility. In version 1.0.0, OpenVM is vulnerable to overflow through byte decomposition of pc in AUIPC chip. A typo results in the highest limb of pc being range checked to 8-bits instead of 6-bits. This results in the if statement never being triggered because the enumeration gives i=0,1,2, when instead the enumeration should give i=1,2,3, leaving pc_limbs[3] range checked to 8-bits instead of 6-bits. This leads to a vulnerability where the pc_limbs decomposition differs from the true pc, which means a malicious prover can make the destination register take a different value than the AUIPC instruction dictates, by making the decomposition overflow the BabyBear field. This issue has been patched in version 1.1.0.
 <br>
@@ -511,7 +624,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2022-21546
 <br>
-<strong>Published : </strong> May 2, 2025, 10:15 p.m. | 12 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 10:15 p.m. | 14 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>In newer version of the SBC specs, we have a NDOB bit that indicates there is no data buffer that gets written out. If this bit is set using commands like "sg_write_same --ndob" we will crash in target_core_iblock/file's execute_write_same handlers when we go to access the se_cmd->t_data_sg because its NULL. CVSS 3.1 Base Score 7.7 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H).
 <br>
@@ -536,7 +649,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-55069
 <br>
-<strong>Published : </strong> May 2, 2025, 10:15 p.m. | 12 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 10:15 p.m. | 14 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>ffmpeg 7.1 is vulnerable to Null Pointer Dereference in function iamf_read_header in /libavformat/iamfdec.c.
 <br>
@@ -561,7 +674,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-21572
 <br>
-<strong>Published : </strong> May 2, 2025, 10:15 p.m. | 12 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 10:15 p.m. | 14 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>OpenGrok 1.13.25 has a reflected Cross-Site Scripting (XSS) issue when producing the history view page. This happens through improper handling of path segments. The application reflects unsanitized user input into the HTML output.
 <br>
@@ -586,7 +699,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-0782
 <br>
-<strong>Published : </strong> May 2, 2025, 9:15 p.m. | 13 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 9:15 p.m. | 15 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the S3 bucket configuration for h2oai/h2o-3 allows public write access to the 'h2o-release' bucket. This issue affects all versions and could enable an attacker to overwrite any file in the bucket. As users download binary files such as JARs from this bucket, this vulnerability could lead to remote code execution (RCE) on any user who uses the application. Additionally, an attacker could modify the documentation to include malicious download links.
 <br>
@@ -611,7 +724,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-47226
 <br>
-<strong>Published : </strong> May 2, 2025, 9:15 p.m. | 13 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 9:15 p.m. | 15 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>Grokability Snipe-IT before 8.1.0 has incorrect authorization for accessing asset information.
 <br>
@@ -636,7 +749,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4215
 <br>
-<strong>Published : </strong> May 2, 2025, 9:15 p.m. | 13 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 9:15 p.m. | 15 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in gorhill uBlock Origin up to 1.63.3b16. It has been classified as problematic. Affected is the function currentStateChanged of the file src/js/1p-filters.js of the component UI. The manipulation leads to inefficient regular expression complexity. It is possible to launch the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 1.63.3b17 is able to address this issue. The patch is identified as eaedaf5b10d2f7857c6b77fbf7d4a80681d4d46c. It is recommended to upgrade the affected component.
 <br>
@@ -661,7 +774,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4218
 <br>
-<strong>Published : </strong> May 2, 2025, 9:15 p.m. | 13 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 9:15 p.m. | 15 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in handrew browserpilot up to 0.2.51. It has been declared as critical. Affected by this vulnerability is the function GPTSeleniumAgent of the file browserpilot/browserpilot/agents/gpt_selenium_agent.py. The manipulation of the argument instructions leads to code injection. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
 <br>
@@ -686,7 +799,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-58253
 <br>
-<strong>Published : </strong> May 2, 2025, 8:15 p.m. | 14 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 8:15 p.m. | 16 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>In the obfstr crate before 0.4.4 for Rust, the obfstr! argument type is not restricted to string slices, leading to invalid UTF-8 conversion that produces an invalid value.
 <br>
@@ -711,7 +824,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4214
 <br>
-<strong>Published : </strong> May 2, 2025, 8:15 p.m. | 14 hours, 10 minutes ago
+<strong>Published : </strong> May 2, 2025, 8:15 p.m. | 16 hours, 36 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGuruku Online DJ Booking Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/booking-bwdates-reports-details.php. The manipulation of the argument fromdate leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
 <br>
