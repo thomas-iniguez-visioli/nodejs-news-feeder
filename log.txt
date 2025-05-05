@@ -92,14 +92,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-
 https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
-https://cvefeed.io/vuln/detail/CVE-2025-4273
-https://cvefeed.io/vuln/detail/CVE-2025-20665
-https://cvefeed.io/vuln/detail/CVE-2025-20666
-https://cvefeed.io/vuln/detail/CVE-2025-20667
-https://cvefeed.io/vuln/detail/CVE-2025-20668
-https://cvefeed.io/vuln/detail/CVE-2025-20670
-https://cvefeed.io/vuln/detail/CVE-2025-20671
-https://cvefeed.io/vuln/detail/CVE-2025-4259
 https://cvefeed.io/vuln/detail/CVE-2025-4260
 https://cvefeed.io/vuln/detail/CVE-2025-4261
 https://cvefeed.io/vuln/detail/CVE-2025-4262
@@ -117,6 +109,14 @@ https://cvefeed.io/vuln/detail/CVE-2025-4271
 https://cvefeed.io/vuln/detail/CVE-2025-2905
 https://cvefeed.io/vuln/detail/CVE-2025-4272
 https://cvefeed.io/vuln/detail/CVE-2025-2545
+https://cvefeed.io/vuln/detail/CVE-2025-28168
+https://cvefeed.io/vuln/detail/CVE-2025-45751
+https://cvefeed.io/vuln/detail/CVE-2025-47268
+https://cvefeed.io/vuln/detail/CVE-2025-4316
+https://cvefeed.io/vuln/detail/CVE-2024-58098
+https://cvefeed.io/vuln/detail/CVE-2024-58100
+https://cvefeed.io/vuln/detail/CVE-2024-58237
+https://cvefeed.io/vuln/detail/CVE-2025-47240
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/numeum-campus-cyber-cyber4tomorrowfr-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
@@ -2090,14 +2090,6 @@ Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 Bilan du volet cybersécurité de France Relance : un défi réussi 
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
-CVE-2025-4273 - Intel UEFI Secure Boot Signature Validation Bypass
-CVE-2025-20665 - Samsung Android SELinux Policy Missing Disclosure Vulnerability
-CVE-2025-20666 - "Modem Rogue Base Station Denial of Service Vulnerability"
-CVE-2025-20667 - Oracle Modem Information Disclosure Remote Vulnerability
-CVE-2025-20668 - "OpenSSH SCP Out-of-Bounds Write Privilege Escalation Vulnerability"
-CVE-2025-20670 - Huawei Modem Certificate Validation Bypass Remote Information Disclosure Vulnerability
-CVE-2025-20671 - Thermal Out-of-Bounds Write Privilege Escalation Vulnerability
-CVE-2025-4259 - Newbee-Mall Unrestricted File Upload Vulnerability
 CVE-2025-4260 - Zhangyanbo2007 Youkefu Deserialization Vulnerability
 CVE-2025-4261 - GAIR-NLP Factool Code Injection Vulnerability
 CVE-2025-4262 - "PHPGurukul Online DJ Booking Management System SQL Injection Vulnerability"
@@ -2115,6 +2107,14 @@ CVE-2025-4271 - TOTOLINK A720R CGI Argument Injection Information Disclosure
 CVE-2025-2905 - WSO2 API Manager XXE File Disclosure and Denial of Service Vulnerability
 CVE-2025-4272 - Mechrevo Control Console DLL Search Path Vulnerability
 CVE-2025-2545 - "Best Practical Solutions, LLC Request Tracker Triple DES Encryption Weakness"
+CVE-2025-28168 - Outsystems Unrestricted File Upload Vulnerability
+CVE-2025-45751 - SourceCodester Web Based Pharmacy Product Management System Cross Site Scripting (XSS)
+CVE-2025-47268 - iputils Ping Denial of Service (DoS) Vulnerability
+CVE-2025-4316 - "Devolutions Server PAM Unauthorized Self-Approval"
+CVE-2024-58098 - Linux Kernel BPF Packet Pointer Invalidation Vulnerability
+CVE-2024-58100 - Linux Kernel bpf Changes_pkt_data Property Vulnerability
+CVE-2024-58237 - Linux Kernel BPF Packet Pointer Invalidation Vulnerability
+CVE-2025-47240 - Apache Unverified Vulnerability
 Cybersécurité : Numeum et le Campus Cyber lancent la plateforme Cyber4Tomorrow.fr et signent un partenariat avec Cybermalveillance.gouv.fr pour une cybersécurité durable et inclusive
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
@@ -2135,6 +2135,14 @@ Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
 Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ annoncent la signature drsquo;une convention pour intégrer lrsquo;offre de service drsquo;assistance des CSIRT territoriaux néo-aquitain et d’Occitanie dans le 17Cyber, guichet unique face à la cybermalveillance
 Lettres drsquo;information
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
+CVE-2025-20665 - Samsung Android SELinux Policy Missing Disclosure Vulnerability
+CVE-2025-20666 - "Modem Rogue Base Station Denial of Service Vulnerability"
+CVE-2025-20667 - Oracle Modem Information Disclosure Remote Vulnerability
+CVE-2025-20668 - "OpenSSH SCP Out-of-Bounds Write Privilege Escalation Vulnerability"
+CVE-2025-20670 - Huawei Modem Certificate Validation Bypass Remote Information Disclosure Vulnerability
+CVE-2025-20671 - Thermal Out-of-Bounds Write Privilege Escalation Vulnerability
+CVE-2025-4259 - Newbee-Mall Unrestricted File Upload Vulnerability
+CVE-2025-4273 - Intel UEFI Secure Boot Signature Validation Bypass
 CVE-2025-4258 - Zhangyanbo2007 Youkefu Unrestricted File Upload Vulnerability
 CVE-2025-4257 - SeaCMS Cross Site Scripting Vulnerability
 CVE-2025-4256 - SeaCMS Cross-Site Scripting (XSS)
