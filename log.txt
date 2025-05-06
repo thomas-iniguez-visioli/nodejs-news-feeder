@@ -92,9 +92,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-
 https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
-https://cvefeed.io/vuln/detail/CVE-2025-4305
-https://cvefeed.io/vuln/detail/CVE-2025-3609
-https://cvefeed.io/vuln/detail/CVE-2025-3610
 https://cvefeed.io/vuln/detail/CVE-2025-4306
 https://cvefeed.io/vuln/detail/CVE-2025-4307
 https://cvefeed.io/vuln/detail/CVE-2025-4308
@@ -117,6 +114,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-4313
 https://cvefeed.io/vuln/detail/CVE-2025-4314
 https://cvefeed.io/vuln/detail/CVE-2025-4323
 https://cvefeed.io/vuln/detail/CVE-2025-4337
+https://cvefeed.io/vuln/detail/CVE-2025-4324
+https://cvefeed.io/vuln/detail/CVE-2025-4325
+https://cvefeed.io/vuln/detail/CVE-2025-4326
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/numeum-campus-cyber-cyber4tomorrowfr-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
@@ -137,14 +137,33 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activ
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territoriaux-17cyber
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
+https://cvefeed.io/vuln/detail/CVE-2025-2802
+https://cvefeed.io/vuln/detail/CVE-2025-4313
+https://cvefeed.io/vuln/detail/CVE-2025-4314
+https://cvefeed.io/vuln/detail/CVE-2025-4323
+https://cvefeed.io/vuln/detail/CVE-2025-4337
+https://cvefeed.io/vuln/detail/CVE-2023-46716
+https://cvefeed.io/vuln/detail/CVE-2025-47296
+https://cvefeed.io/vuln/detail/CVE-2025-47297
+https://cvefeed.io/vuln/detail/CVE-2025-47298
+https://cvefeed.io/vuln/detail/CVE-2025-47299
+https://cvefeed.io/vuln/detail/CVE-2025-47300
+https://cvefeed.io/vuln/detail/CVE-2025-47301
+https://cvefeed.io/vuln/detail/CVE-2025-47302
+https://cvefeed.io/vuln/detail/CVE-2025-47303
+https://cvefeed.io/vuln/detail/CVE-2025-4309
+https://cvefeed.io/vuln/detail/CVE-2025-4310
+https://cvefeed.io/vuln/detail/CVE-2025-4311
+https://cvefeed.io/vuln/detail/CVE-2025-4312
+https://cvefeed.io/vuln/detail/CVE-2021-43069
 https://cvefeed.io/vuln/detail/CVE-2025-3609
 https://cvefeed.io/vuln/detail/CVE-2025-3610
 https://cvefeed.io/vuln/detail/CVE-2025-4306
 https://cvefeed.io/vuln/detail/CVE-2025-4307
 https://cvefeed.io/vuln/detail/CVE-2025-4308
+https://cvefeed.io/vuln/detail/CVE-2025-4305
 https://cvefeed.io/vuln/detail/CVE-2024-39442
 https://cvefeed.io/vuln/detail/CVE-2025-4304
-https://cvefeed.io/vuln/detail/CVE-2025-4305
 https://cvefeed.io/vuln/detail/CVE-2025-2509
 https://cvefeed.io/vuln/detail/CVE-2025-46728
 https://cvefeed.io/vuln/detail/CVE-2025-4301
@@ -2171,9 +2190,6 @@ Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 Bilan du volet cybersécurité de France Relance : un défi réussi 
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
-CVE-2025-4305 - Kefaming Mayi Unrestricted File Upload Vulnerability
-CVE-2025-3609 - Reales WP STPT Unauthorized User Registration Vulnerability
-CVE-2025-3610 - Reales WP STPT Privilege Escalation and Account Takeover Vulnerability in WordPress
 CVE-2025-4306 - PHPGurukul Nipah Virus Testing Management System SQL Injection
 CVE-2025-4307 - PHPGurukul Art Gallery Management System SQL Injection Vulnerability
 CVE-2025-4308 - PHPGurukul Art Gallery Management System SQL Injection Vulnerability
@@ -2196,6 +2212,9 @@ CVE-2025-4313 - SourceCodester Advanced Web Store SQL Injection Vulnerability
 CVE-2025-4314 - SourceCodester Advanced Web Store SQL Injection Vulnerability
 CVE-2025-4323 - Apache MRCMS Cross Site Scripting Vulnerability
 CVE-2025-4337 - "WordPress AHAthat Plugin CSRF Vulnerability"
+CVE-2025-4324 - MRCMS Cross Site Scripting Vulnerability
+CVE-2025-4325 - MRCMS Cross-Site Scripting Vulnerability
+CVE-2025-4326 - MRCMS Cross-Site Scripting Vulnerability
 Cybersécurité : Numeum et le Campus Cyber lancent la plateforme Cyber4Tomorrow.fr et signent un partenariat avec Cybermalveillance.gouv.fr pour une cybersécurité durable et inclusive
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
@@ -2216,6 +2235,9 @@ Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
 Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ annoncent la signature drsquo;une convention pour intégrer lrsquo;offre de service drsquo;assistance des CSIRT territoriaux néo-aquitain et d’Occitanie dans le 17Cyber, guichet unique face à la cybermalveillance
 Lettres drsquo;information
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
+CVE-2025-3609 - Reales WP STPT Unauthorized User Registration Vulnerability
+CVE-2025-3610 - Reales WP STPT Privilege Escalation and Account Takeover Vulnerability in WordPress
+CVE-2025-4305 - Kefaming Mayi Unrestricted File Upload Vulnerability
 CVE-2024-39442 - Sprd SSense Service Missing Permission Check Vulnerability
 CVE-2025-4304 - PHPGurukul Cyber Cafe Management System SQL Injection
 CVE-2025-2509 - ChromeOS Virglrenderer Out-of-Bounds Read VM Escape
