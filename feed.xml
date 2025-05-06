@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 06 May 2025 18:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 20:12:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30165
 <br>
-<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>vLLM is an inference and serving engine for large language models. In a multi-node vLLM deployment using the V0 engine, vLLM uses ZeroMQ for some multi-node communication purposes. The secondary vLLM hosts open a `SUB` ZeroMQ socket and connect to an `XPUB` socket on the primary vLLM host. When data is received on this `SUB` socket, it is deserialized with `pickle`. This is unsafe, as it can be abused to execute code on a remote machine. Since the vulnerability exists in a client that connects to the primary vLLM host, this vulnerability serves as an escalation point. If the primary vLLM host is compromised, this vulnerability could be used to compromise the rest of the hosts in the vLLM deployment. Attackers could also use other means to exploit the vulnerability without requiring access to the primary vLLM host. One example would be the use of ARP cache poisoning to redirect traffic to a malicious endpoint used to deliver a payload with arbitrary code to execute on the target machine. Note that this issue only affects the V0 engine, which has been off by default since v0.8.0. Further, the issue only applies to a deployment using tensor parallelism across multiple hosts, which we do not expect to be a common deployment pattern. Since V0 is has been off by default since v0.8.0 and the fix is fairly invasive, the maintainers of vLLM have decided not to fix this issue. Instead, the maintainers recommend that users ensure their environment is on a secure network in case this pattern is in use. The V1 engine is not affected by this issue.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32022
 <br>
-<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>Finit provides fast init for Linux systems. Finit's urandom plugin has a heap buffer overwrite vulnerability at boot which leads to it overwriting other parts of the heap, possibly causing random instabilities and undefined behavior. The urandom plugin is enabled by default, so this bug affects everyone using Finit 4.2 or later that do not explicitly disable the plugin at build time. This bug is fixed in Finit 4.12. Those who cannot upgrade or backport the fix to urandom.c are strongly recommended to disable the plugin in the call to the `configure` script.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45250
 <br>
-<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>MrDoc v0.95 and before is vulnerable to Server-Side Request Forgery (SSRF) in the validate_url function of the app_doc/utils.py file.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46735
 <br>
-<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>Terraform WinDNS Provider allows users to manage their Windows DNS server resources through Terraform. A security issue has been found in Terraform WinDNS Provider before version `1.0.5`. The `windns_record` resource did not sanitize the input variables. This could lead to authenticated command injection in the underlyding powershell command prompt. Version 1.0.5 contains a fix for the issue.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46736
 <br>
-<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>Umbraco is a free and open source .NET content management system. Prior to versions 10.8.10 and 13.8.1, based on an analysis of the timing of post login API responses, it's possible to determine whether an account exists. The issue is patched in versions 10.8.10 and 13.8.1. No known workarounds are available.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4041
 <br>
-<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:16 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>In Optigo Networks ONS NC600 versions 4.2.1-084 through 4.7.2-330, an attacker could connect with the device's ssh server and utilize the system's components to perform OS command executions.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-33770
 <br>
-<strong>Published : </strong> May 6, 2025, 5:15 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:15 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>Real Estate Management System v1.0 was discovered to contain a SQL injection vulnerability via the message parameter at /contact.php.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22476
 <br>
-<strong>Published : </strong> May 6, 2025, 5:15 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:15 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>Dell Storage Center - Dell Storage Manager, version(s) 20.1.20, contain(s) an Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability. A low privileged attacker with adjacent network access could potentially exploit this vulnerability, leading to Remote execution.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-26262
 <br>
-<strong>Published : </strong> May 6, 2025, 5:15 p.m. | 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 5:15 p.m. | 1 hour, 11 minutes ago
 <br>
 <strong>Description : </strong>An issue in the component /internals/functions of R-fx Networks Linux Malware Detect v1.6.5 allows attackers to escalate privileges and execute arbitrary code via supplying a file that contains a crafted filename.
 <br>
@@ -180,7 +180,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22477
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>Dell Storage Center - Dell Storage Manager, version(s) 20.1.20, contain(s) an Improper Authentication vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Elevation of privileges.
 <br>
@@ -197,7 +197,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22478
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>Dell Storage Center - Dell Storage Manager, version(s) 20.1.20, contain(s) an Improper Restriction of XML External Entity Reference vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Information disclosure and Information tampering.
 <br>
@@ -214,7 +214,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22479
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>Dell Storage Center - Dell Storage Manager, version(s) 20.0.21, contain(s) an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Script injection.
 <br>
@@ -231,7 +231,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23379
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>Dell Storage Center - Dell Storage Manager, version(s) 21.0.20, contain(s) an Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Script injection.
 <br>
@@ -248,7 +248,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45487
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>Linksys E5600 v1.1.0.26 was discovered to contain a command injection vulnerability in the runtime.InternetConnection function.
 <br>
@@ -265,7 +265,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45488
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>Linksys E5600 v1.1.0.26 was discovered to contain a command injection vulnerability in the runtime.ddnsStatus DynDNS function via the mailex parameter.
 <br>
@@ -282,7 +282,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45489
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>Linksys E5600 v1.1.0.26 was discovered to contain a command injection vulnerability in the runtime.ddnsStatus DynDNS function via the hostname parameter.
 <br>
@@ -299,7 +299,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45490
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>Linksys E5600 v1.1.0.26 was discovered to contain a command injection vulnerability in the runtime.ddnsStatus DynDNS function via the password parameter.
 <br>
@@ -316,7 +316,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45491
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>Linksys E5600 v1.1.0.26 was discovered to contain a command injection vulnerability in the runtime.ddnsStatus DynDNS function via the username parameter.
 <br>
@@ -333,7 +333,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45492
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>Netgear EX8000 V1.0.0.126 is vulnerable to Command Injection via the Iface parameter in the action_wireless function.
 <br>
@@ -350,7 +350,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4363
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in itsourcecode Gym Management System 1.0. This issue affects some unknown processing of the file /ajax.php?action=end_membership. The manipulation of the argument rid leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -367,7 +367,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4368
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in Tenda AC8 16.03.34.06. Affected is the function formGetRouterStatus of the file /goform/MtuSetMacWan. The manipulation of the argument shareSpeed leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -384,7 +384,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4384
 <br>
-<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 1 hour, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 4:15 p.m. | 2 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>The MQTT add-on of PcVue fails to verify that a remote device’s certificate has not already expired or has not yet become valid. This allows malicious devices to present certificates that are not rejected properly.
 
@@ -403,7 +403,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4362
 <br>
-<strong>Published : </strong> May 6, 2025, 3:16 p.m. | 2 hours, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 3:16 p.m. | 3 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in itsourcecode Gym Management System 1.0. This vulnerability affects unknown code of the file /ajax.php?action=save_membership. The manipulation of the argument member_id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -420,7 +420,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4373
 <br>
-<strong>Published : </strong> May 6, 2025, 3:16 p.m. | 2 hours, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 3:16 p.m. | 3 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.
 <br>
@@ -437,7 +437,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4374
 <br>
-<strong>Published : </strong> May 6, 2025, 3:16 p.m. | 2 hours, 36 minutes ago
+<strong>Published : </strong> May 6, 2025, 3:16 p.m. | 3 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in Quay. When an organization acts as a proxy cache, and a user or robot pulls an image that hasn't been mirrored yet, they are granted "Admin" permissions on the newly created repository.
 <br>
