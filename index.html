@@ -184,7 +184,7 @@
                         <p>
 <strong>CVE ID : </strong>CVE-2025-26168
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 1 hour, 37 minutes ago
 <br>
 <strong>Description : </strong>IXON VPN Client before 1.4.4 on Linux and macOS allows Local Privilege Escalation to root because there is code execution from a configuration file that can be controlled by a low-privileged user. There is a race condition in which a temporary configuration file, in a world-writable directory, can be overwritten.
 <br>
@@ -209,7 +209,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-26169
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 1 hour, 37 minutes ago
 <br>
 <strong>Description : </strong>IXON VPN Client before 1.4.4 on Windows allows Local Privilege Escalation to SYSTEM because there is code execution from a configuration file that can be controlled by a low-privileged user. There is a race condition in which a temporary configuration file, in a world-writable directory, can be overwritten.
 <br>
@@ -234,7 +234,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-29746
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 1 hour, 37 minutes ago
 <br>
 <strong>Description : </strong>Cross Site Scripting vulnerability in Koillection v.1.6.10 allows a remote attacker to escalate privileges via the collection, Wishlist and album components
 <br>
@@ -259,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-30147
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 1 hour, 37 minutes ago
 <br>
 <strong>Description : </strong>Besu Native contains scripts and tooling that is used to build and package the native libraries used by the Ethereum client Hyperledger Besu. Besu 24.7.1 through 25.2.2, corresponding to besu-native versions 0.9.0 through 1.2.1, have a potential consensus bug for the precompiles ALTBN128_ADD (0x06), ALTBN128_MUL (0x07), and ALTBN128_PAIRING (0x08). These precompiles were reimplemented in besu-native using gnark-crypto's bn254 implementation, as the former implementation used a library which was no longer maintained and not sufficiently performant. The new gnark implementation was initially added in version 0.9.0 of besu-native but was not utilized by Besu until version 0.9.2 in Besu 24.7.1. The issue is that there are EC points which may be crafted which are in the correct subgroup but are not on the curve and the besu-native gnark implementation was relying on subgroup checks to perform point-on-curve checks as well. The version of gnark-crypto used at the time did not do this check when performing subgroup checks. The result is that it was possible for Besu to give an incorrect result and fall out of consensus when executing one of these precompiles against a specially crafted input point. Additionally, homogenous Besu-only networks can potentially enshrine invalid state which would be incorrect and difficult to process with patched versions of besu which handle these calls correctly. The underlying defect has been patched in besu-native release 1.3.0. The fixed version of Besu is version 25.3.0. As a workaround for versions of Besu with the problem, the native precompile for altbn128 may be disabled in favor of the pure-java implementation. The pure java implementation is significantly slower, but does not have this consensus issue.
 <br>
@@ -284,7 +284,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3272
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 1 hour, 37 minutes ago
 <br>
 <strong>Description : </strong>Incorrect Authorization vulnerability in OpenText™ Operations Bridge Manager. 
 
@@ -313,7 +313,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3476
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 1 hour, 37 minutes ago
 <br>
 <strong>Description : </strong>Incorrect Authorization vulnerability in OpenText™ Operations Bridge Manager. The vulnerability could allows privilege escalation by authenticated users.This issue affects Operations Bridge Manager: 2023.05, 23.4, 24.2, 24.4.
 <br>
@@ -338,7 +338,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45388
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 1 hour, 37 minutes ago
 <br>
 <strong>Description : </strong>Wagtail CMS 6.4.1 is vulnerable to a Stored Cross-Site Scripting (XSS) in the document upload functionality. Attackers can inject malicious code inside a PDF file. When a user clicks the document in the CMS interface, the payload executes.
 <br>
@@ -363,7 +363,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45514
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 1 hour, 37 minutes ago
 <br>
 <strong>Description : </strong>Tenda FH451 V1.0.0.9 has a stack overflow vulnerability in the function.frmL7ImForm.
 <br>
@@ -388,7 +388,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20199
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the CLI of Cisco IOS XE Software could allow an authenticated, local attacker with privilege level 15 to elevate privileges to root on the underlying operating system of an affected device.
 
@@ -417,7 +417,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20200
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the CLI of Cisco IOS XE Software could allow an authenticated, local attacker with privilege level 15 to elevate privileges to root on the underlying operating system of an affected device.
 
@@ -446,7 +446,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20201
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the CLI of Cisco IOS XE Software could allow an authenticated, local attacker with privilege level 15 to elevate privileges to root on the underlying operating system of an affected device.
 
@@ -475,7 +475,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20202
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in Cisco IOS XE Wireless Controller Software could allow an unauthenticated, adjacent attacker to cause a denial of service (DoS) condition on an affected device.
 
@@ -502,7 +502,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20210
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the management API of Cisco Catalyst Center, formerly Cisco DNA Center, could allow an unauthenticated, remote attacker to read and modify the outgoing proxy configuration settings.
 
@@ -529,7 +529,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20213
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the CLI of Cisco Catalyst SD-WAN Manager, formerly Cisco SD-WAN vManage, could allow an authenticated, local attacker to overwrite arbitrary files on the local file system of an affected device. To exploit this vulnerability, the attacker must have valid read-only credentials with CLI access on the affected system.
 
@@ -556,7 +556,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20214
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the Network Configuration Access Control Module (NACM) of Cisco IOS XE Software could allow an authenticated, remote attacker to obtain unauthorized read access to configuration or operational data.
 
@@ -585,7 +585,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20216
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the web interface of Cisco Catalyst SD-WAN Manager, formerly Cisco SD-WAN vManage, could allow an unauthenticated, remote attacker to inject HTML into the browser of an authenticated user.
 
@@ -612,7 +612,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20221
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the packet filtering features of Cisco IOS XE SD-WAN Software could allow an unauthenticated, remote attacker to bypass Layer 3 and Layer 4 traffic filters. 
 
@@ -639,7 +639,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20223
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in Cisco Catalyst Center, formerly Cisco DNA Center, could allow an authenticated, remote attacker to read and modify data in a repository that belongs to an internal service of an affected device.
 
@@ -666,7 +666,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-32819
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in SMA100 allows a remote authenticated attacker with SSLVPN user privileges to bypass the path traversal checks and delete an arbitrary file potentially resulting in a reboot to factory default settings.
 <br>
@@ -691,7 +691,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-32820
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in SMA100 allows a remote authenticated attacker with SSLVPN user privileges can inject a path traversal sequence to make any directory on the SMA appliance writable.
 <br>
@@ -716,7 +716,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-32821
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in SMA100 allows a remote authenticated attacker with SSLVPN admin privileges can with admin privileges can inject shell command arguments to upload a file on the appliance.
 <br>
@@ -741,7 +741,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46824
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>The Discourse Code Review Plugin allows users to review GitHub commits on Discourse. Prior to commit eed3a80, an attacker can execute arbitrary JavaScript on users' browsers by posting links to malicious GitHub commits. This problem is patched in commit eed3a80 of the discourse-code-review plugin. As a workaround, one may disable the plugin.
 <br>
@@ -766,7 +766,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46828
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>WeGIA is a web manager for charitable institutions.  An unauthenticated SQL Injection vulnerability was identified in versions up to and including 3.3.0 in the endpoint `/html/socio/sistema/get_socios.php`, specifically in the query parameter. This issue allows attackers to inject and execute arbitrary SQL statements against the application's underlying database. As a result, it may lead to data exfiltration, authentication bypass, or complete database compromise. Version 3.3.1 fixes the issue.
 <br>
@@ -791,7 +791,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-47203
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>dbclient in Dropbear SSH before 2025.88 allows command injection via an untrusted hostname argument, because a shell is used.
 <br>
@@ -816,7 +816,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-47423
 <br>
-<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 7, 2025, 6:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>Personal Weather Station Dashboard 12_lts allows unauthenticated remote attackers to read arbitrary files via ../ directory traversal in the test parameter to /others/_test.php, as demonstrated by reading the server's private SSL key in cleartext.
 <br>
