@@ -8,12 +8,444 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 07 May 2025 10:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 11:56:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-33093 - IBM Sterling Partner Engagement Manager Exposed JWT Secret Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-33093
+<br>
+<strong>Published : </strong> May 7, 2025, 11:15 a.m. | 39 minutes ago
+<br>
+<strong>Description : </strong>IBM Sterling Partner Engagement Manager 6.1.0, 6.2.0, 6.2.2 JWT secret is stored in public Helm Charts and is not stored as a Kubernetes secret.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-33093</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-33093</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4104 - WordPress Frontend Dashboard Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4104
+<br>
+<strong>Published : </strong> May 7, 2025, 10:15 a.m. | 1 hour, 40 minutes ago
+<br>
+<strong>Description : </strong>The Frontend Dashboard plugin for WordPress is vulnerable to Privilege Escalation due to a missing capability check on the fed_wp_ajax_fed_login_form_post() function in versions 1.0 to 2.2.6. This makes it possible for unauthenticated attackers to reset the administrator’s email and password, and elevate their privileges to that of an administrator.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4104</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4104</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20960 - CocktailBarService Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20960
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper handling of insufficient permission in CocktailBarService prior to SMR May-2025 Release 1 allows local attackers to use the privileged api.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20960</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20960</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20961 - Sepunion Service Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20961
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper handling of insufficient permission or privileges in sepunion service prior to SMR May-2025 Release 1 allows local privileged attackers to access files with system privilege.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20961</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20961</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20962 - Samsung S Pen Gesture Service Position Tracking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20962
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper handling of insufficient permission in SpenGesture service prior to SMR May-2025 Release 1 allows local attackers to track the S Pen position.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20962</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20962</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20963 - Symantec Antivirus Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20963
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Out-of-bounds write in memory initialization in libsavsvc.so prior to SMR May-2025 Release 1 allows local attackers to write out-of-bounds memory.
+<br>
+<strong>Severity:</strong> 6.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20963</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20963</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20964 - Apache Libsavsrv Out-of-Bounds Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20964
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Out-of-bounds write in parsing media files in libsavsvc.so prior to SMR May-2025 Release 1 allows local attackers to write out-of-bounds memory.
+<br>
+<strong>Severity:</strong> 6.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20964</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20964</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20965 - Samsung Bixby Unauthenticated Data Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20965
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper handling of insufficient permission in Bixby wakeup prior to version 2.3.74.8 allows local attackers to access sensitive data.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20965</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20965</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20966 - Samsung Gallery Access Control Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20966
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper access control in Samsung Gallery prior to version 14.5.10.3 in Global Android 13, 14.5.09.3 in China Android 13, and 15.5.04.5 in Android 14 allows physical attackers to access data across multiple user profiles.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20966</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20966</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20967 - Samsung Gallery File Access Vulnerability (Privilege Escalation)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20967
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper access control in Samsung Gallery prior to version 14.5.10.3 in Global Android 13, 14.5.09.3 in China Android 13, and 15.5.04.5 in Android 14 allows attackers to read and write arbitrary file with the privilege of Samsung Gallery.
+<br>
+<strong>Severity:</strong> 5.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20967</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20967</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20968 - Samsung Gallery Unauthenticated Remote Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20968
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper access control in Samsung Gallery prior to version 14.5.10.3 in Global Android 13, 14.5.09.3 in China Android 13, and 15.5.04.5 in Android 14 allows remote attackers to access data and perform internal operations within Samsung Gallery.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20968</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20968</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20969 - Samsung Gallery Input Validation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20969
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper input validation in Samsung Gallery prior to version 14.5.10.3 in Global Android 13, 14.5.09.3 in China Android 13, and 15.5.04.5 in Android 14 allows local attackers to access data within Samsung Gallery.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20969</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20969</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20970 - Bixby Vision Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20970
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper access control in Bixby Vision prior to version 3.8.1 in Android 13, 3.8.3 in Android 14, 3.8.21 in Android 15 allows local attackers to access image files with Bixby Vision privilege.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20970</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20970</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20971 - Samsung Flow Input Validation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20971
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper input validation in Samsung Flow prior to version 4.9.17.6 allows local attackers to access data within Samsung Flow.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20971</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20971</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20972 - Samsung Flow Intent Verification Vulnerability (Information Exposure)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20972
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper verification of intent by broadcast receiver in Samsung Flow prior to version 4.9.17.6 allows local attackers to modify Samsung Flow configuration.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20972</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20972</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20973 - Android Secure Folder Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20973
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper authentication in Secure Folder prior to version 1.8.12.0 in Android 13, and 1.9.21.00 in Android 14 allows physical attackers to reset the lock type of Secure Folder.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20973</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20973</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20974 - Android PackageInstallerCN Permission Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20974
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper handling of insufficient permission in PackageInstallerCN prior to version 15.0.11.0 allows local attacker to bypass user interaction for requested installation.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20974</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20974</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20975 - AODService Android Activity Hijacking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20975
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper Export of Android Application Components in AODService prior to version 8.8.28.12 allows local attackers to launch arbitrary activity with systemui privilege.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20975</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20975</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20976 - Samsung Notes Out-of-Bounds Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20976
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Out-of-bounds read in applying binary of text content in Samsung Notes prior to version 4.4.29.23 allows attackers to read out-of-bounds memory.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20976</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20976</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20977 - Samsung Notes Implicit Intent Information Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20977
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Use of implicit intent for sensitive communication in translation in Samsung Notes prior to version 4.4.29.23 allows local attackers to get sensitive information. User interaction is required for triggering this vulnerability.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20977</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20977</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20978 - PENUP Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20978
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper access control in PENUP prior to version 3.9.19.32 allows local attackers to access files with PENUP privilege.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20978</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20978</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20979 - Android libsavscmn Out-of-Bounds Write Arbitrary Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20979
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Out-of-bounds write in libsavscmn prior to Android 15 allows local attackers to execute arbitrary code.
+<br>
+<strong>Severity:</strong> 8.4 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20979</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20979</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20980 - Android libsavscmn Out-of-Bounds Write</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20980
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Out-of-bounds write in libsavscmn prior to Android 15 allows local attackers to cause memory corruption.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20980</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20980</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27533 - Apache ActiveMQ Memory Allocation with Excessive Size Value Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27533
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Memory Allocation with Excessive Size Value vulnerability in Apache ActiveMQ.
+
+During unmarshalling of OpenWire commands the size value of buffers was not properly validated which could lead to excessive memory allocation and be exploited to cause a denial of service (DoS) by depleting process memory, thereby affecting applications and services that rely on the availability of the ActiveMQ broker when not using mutual TLS connections.
+This issue affects Apache ActiveMQ: from 6.0.0 before 6.1.6, from 5.18.0 before 5.18.7, from 5.17.0 before 5.17.7, before 5.16.8. ActiveMQ 5.19.0 is not affected.
+
+Users are recommended to upgrade to version 6.1.6+, 5.19.0+,  5.18.7+, 5.17.7, or 5.16.8 or which fixes the issue.
+
+Existing users may implement mutual TLS to mitigate the risk on affected brokers.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27533</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27533</guid>
+    </item>
+    <item>
+      <title>CVE-2025-39361 - WProyal Royal Elementor Addons Cross-site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-39361
+<br>
+<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 2 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WProyal Royal Elementor Addons allows Stored XSS.This issue affects Royal Elementor Addons: from n/a through 1.7.1017.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-39361</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-39361</guid>
+    </item>
     <item>
       <title>CVE-2025-20958 - UnifiedWFC Wireless Fingerprinting Information Disclosure</title>
       <description><![CDATA[<p>
@@ -47,404 +479,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-20959</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-20959</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20960 - CocktailBarService Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20960
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper handling of insufficient permission in CocktailBarService prior to SMR May-2025 Release 1 allows local attackers to use the privileged api.
-<br>
-<strong>Severity:</strong> 4.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20960</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20960</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20961 - Sepunion Service Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20961
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper handling of insufficient permission or privileges in sepunion service prior to SMR May-2025 Release 1 allows local privileged attackers to access files with system privilege.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20961</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20961</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20962 - Samsung S Pen Gesture Service Position Tracking Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20962
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper handling of insufficient permission in SpenGesture service prior to SMR May-2025 Release 1 allows local attackers to track the S Pen position.
-<br>
-<strong>Severity:</strong> 4.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20962</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20962</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20963 - Symantec Antivirus Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20963
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Out-of-bounds write in memory initialization in libsavsvc.so prior to SMR May-2025 Release 1 allows local attackers to write out-of-bounds memory.
-<br>
-<strong>Severity:</strong> 6.6 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20963</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20963</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20964 - Apache Libsavsrv Out-of-Bounds Write Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20964
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Out-of-bounds write in parsing media files in libsavsvc.so prior to SMR May-2025 Release 1 allows local attackers to write out-of-bounds memory.
-<br>
-<strong>Severity:</strong> 6.6 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20964</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20964</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20965 - Samsung Bixby Unauthenticated Data Access Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20965
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper handling of insufficient permission in Bixby wakeup prior to version 2.3.74.8 allows local attackers to access sensitive data.
-<br>
-<strong>Severity:</strong> 6.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20965</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20965</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20966 - Samsung Gallery Access Control Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20966
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper access control in Samsung Gallery prior to version 14.5.10.3 in Global Android 13, 14.5.09.3 in China Android 13, and 15.5.04.5 in Android 14 allows physical attackers to access data across multiple user profiles.
-<br>
-<strong>Severity:</strong> 4.6 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20966</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20966</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20967 - Samsung Gallery File Access Vulnerability (Privilege Escalation)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20967
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper access control in Samsung Gallery prior to version 14.5.10.3 in Global Android 13, 14.5.09.3 in China Android 13, and 15.5.04.5 in Android 14 allows attackers to read and write arbitrary file with the privilege of Samsung Gallery.
-<br>
-<strong>Severity:</strong> 5.1 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20967</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20967</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20968 - Samsung Gallery Unauthenticated Remote Code Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20968
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper access control in Samsung Gallery prior to version 14.5.10.3 in Global Android 13, 14.5.09.3 in China Android 13, and 15.5.04.5 in Android 14 allows remote attackers to access data and perform internal operations within Samsung Gallery.
-<br>
-<strong>Severity:</strong> 7.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20968</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20968</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20969 - Samsung Gallery Input Validation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20969
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper input validation in Samsung Gallery prior to version 14.5.10.3 in Global Android 13, 14.5.09.3 in China Android 13, and 15.5.04.5 in Android 14 allows local attackers to access data within Samsung Gallery.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20969</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20969</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20970 - Bixby Vision Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20970
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper access control in Bixby Vision prior to version 3.8.1 in Android 13, 3.8.3 in Android 14, 3.8.21 in Android 15 allows local attackers to access image files with Bixby Vision privilege.
-<br>
-<strong>Severity:</strong> 6.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20970</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20970</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20971 - Samsung Flow Input Validation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20971
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper input validation in Samsung Flow prior to version 4.9.17.6 allows local attackers to access data within Samsung Flow.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20971</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20971</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20972 - Samsung Flow Intent Verification Vulnerability (Information Exposure)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20972
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper verification of intent by broadcast receiver in Samsung Flow prior to version 4.9.17.6 allows local attackers to modify Samsung Flow configuration.
-<br>
-<strong>Severity:</strong> 6.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20972</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20972</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20973 - Android Secure Folder Authentication Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20973
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper authentication in Secure Folder prior to version 1.8.12.0 in Android 13, and 1.9.21.00 in Android 14 allows physical attackers to reset the lock type of Secure Folder.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20973</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20973</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20974 - Android PackageInstallerCN Permission Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20974
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper handling of insufficient permission in PackageInstallerCN prior to version 15.0.11.0 allows local attacker to bypass user interaction for requested installation.
-<br>
-<strong>Severity:</strong> 6.1 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20974</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20974</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20975 - AODService Android Activity Hijacking Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20975
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper Export of Android Application Components in AODService prior to version 8.8.28.12 allows local attackers to launch arbitrary activity with systemui privilege.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20975</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20975</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20976 - Samsung Notes Out-of-Bounds Read Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20976
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Out-of-bounds read in applying binary of text content in Samsung Notes prior to version 4.4.29.23 allows attackers to read out-of-bounds memory.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20976</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20976</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20977 - Samsung Notes Implicit Intent Information Leak Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20977
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Use of implicit intent for sensitive communication in translation in Samsung Notes prior to version 4.4.29.23 allows local attackers to get sensitive information. User interaction is required for triggering this vulnerability.
-<br>
-<strong>Severity:</strong> 3.3 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20977</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20977</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20978 - PENUP Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20978
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper access control in PENUP prior to version 3.9.19.32 allows local attackers to access files with PENUP privilege.
-<br>
-<strong>Severity:</strong> 6.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20978</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20978</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20979 - Android libsavscmn Out-of-Bounds Write Arbitrary Code Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20979
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Out-of-bounds write in libsavscmn prior to Android 15 allows local attackers to execute arbitrary code.
-<br>
-<strong>Severity:</strong> 8.4 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20979</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20979</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20980 - Android libsavscmn Out-of-Bounds Write</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-20980
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Out-of-bounds write in libsavscmn prior to Android 15 allows local attackers to cause memory corruption.
-<br>
-<strong>Severity:</strong> 4.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-20980</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20980</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27533 - Apache ActiveMQ Memory Allocation with Excessive Size Value Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27533
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Memory Allocation with Excessive Size Value vulnerability in Apache ActiveMQ.
-
-During unmarshalling of OpenWire commands the size value of buffers was not properly validated which could lead to excessive memory allocation and be exploited to cause a denial of service (DoS) by depleting process memory, thereby affecting applications and services that rely on the availability of the ActiveMQ broker when not using mutual TLS connections.
-This issue affects Apache ActiveMQ: from 6.0.0 before 6.1.6, from 5.18.0 before 5.18.7, from 5.17.0 before 5.17.7, before 5.16.8. ActiveMQ 5.19.0 is not affected.
-
-Users are recommended to upgrade to version 6.1.6+, 5.19.0+,  5.18.7+, 5.17.7, or 5.16.8 or which fixes the issue.
-
-Existing users may implement mutual TLS to mitigate the risk on affected brokers.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27533</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27533</guid>
-    </item>
-    <item>
-      <title>CVE-2025-39361 - WProyal Royal Elementor Addons Cross-site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-39361
-<br>
-<strong>Published : </strong> May 7, 2025, 9:15 a.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WProyal Royal Elementor Addons allows Stored XSS.This issue affects Royal Elementor Addons: from n/a through 1.7.1017.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 07 May 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-39361</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-39361</guid>
     </item>
     <item>
       <title>CVE-2025-3766 - WordPress Login Lockdown  Protection Unauthorized Nonce Access Vulnerability</title>
