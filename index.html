@@ -309,7 +309,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3758
 <br>
-<strong>Published : </strong> May 8, 2025, 10:15 a.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>WF2220 exposes endpoint /cgi-bin-igd/netcore_get.cgi that returns configuration of the device to unauthorized users. Returned configuration includes cleartext password.
 The vendor was contacted early about this disclosure but did not respond in any way.
@@ -335,7 +335,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3759
 <br>
-<strong>Published : </strong> May 8, 2025, 10:15 a.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>Endpoint /cgi-bin-igd/netcore_set.cgi which is used for changing device configuration is accessible without authentication. This poses a significant security threat allowing for e.g: administrator account hijacking or AP password changing.
 The vendor was contacted early about this disclosure but did not respond in any way.
@@ -361,7 +361,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-41450
 <br>
-<strong>Published : </strong> May 8, 2025, 10:15 a.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 10:15 a.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>Improper Authentication vulnerability in Danfoss AKSM8xxA Series.This issue affects Danfoss AK-SM 8xxA Series prior to version 4.2
 <br>
@@ -386,7 +386,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1252
 <br>
-<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 2 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Heap-based Buffer Overflow vulnerability in RTI Connext Professional (Core Libraries) allows Overflow Variables and Tags.This issue affects Connext Professional: from 7.4.0 before 7.5.0, from 7.0.0 before 7.3.0.7, from 4.4 before 6.1.2.23.
 <br>
@@ -411,7 +411,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1253
 <br>
-<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 2 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in RTI Connext Professional (Core Libraries) allows Overflow Variables and Tags.This issue affects Connext Professional: from 7.4.0 before 7.5.0, from 7.0.0 before 7.3.0.7, from 4.5 before 6.1.2.23.
 <br>
@@ -436,7 +436,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1254
 <br>
-<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 2 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Out-of-bounds Read, Out-of-bounds Write vulnerability in RTI Connext Professional (Core Libraries) allows Overread Buffers, Overflow Buffers.This issue affects Connext Professional: from 7.4.0 before 7.5.0, from 7.0.0 before 7.3.0.7, from 6.0.0 before 6.1.2.23.
 <br>
@@ -461,7 +461,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-40846
 <br>
-<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 2 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation, the returnUrl parameter in Account Security Settings lacks proper input validation, allowing attackers to redirect users to malicious websites (Open Redirect) and inject JavaScript code to perform cross site scripting attack.
 
@@ -483,12 +483,245 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-37818 - LoongArch Linux Kernel Invalid PMD Pointer Dereference Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37818
+<br>
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+LoongArch: Return NULL from huge_pte_offset() for invalid PMD
+
+LoongArch's huge_pte_offset() currently returns a pointer to a PMD slot
+even if the underlying entry points to invalid_pte_table (indicating no
+mapping). Callers like smaps_hugetlb_range() fetch this invalid entry
+value (the address of invalid_pte_table) via this pointer.
+
+The generic is_swap_pte() check then incorrectly identifies this address
+as a swap entry on LoongArch, because it satisfies the "!pte_present()
+&& !pte_none()" conditions. This misinterpretation, combined with a
+coincidental match by is_migration_entry() on the address bits, leads to
+kernel crashes in pfn_swap_entry_to_page().
+
+Fix this at the architecture level by modifying huge_pte_offset() to
+check the PMD entry's content using pmd_none() before returning. If the
+entry is invalid (i.e., it points to invalid_pte_table), return NULL
+instead of the pointer to the slot.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 08 May 2025 07:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37818">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-37819 - &#34;Linux Kernel GICv2m Use After Free Vulnerability in irqchip&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37819
+<br>
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+irqchip/gic-v2m: Prevent use after free of gicv2m_get_fwnode()
+
+With ACPI in place, gicv2m_get_fwnode() is registered with the pci
+subsystem as pci_msi_get_fwnode_cb(), which may get invoked at runtime
+during a PCI host bridge probe. But, the call back is wrongly marked as
+__init, causing it to be freed, while being registered with the PCI
+subsystem and could trigger:
+
+ Unable to handle kernel paging request at virtual address ffff8000816c0400
+  gicv2m_get_fwnode+0x0/0x58 (P)
+  pci_set_bus_msi_domain+0x74/0x88
+  pci_register_host_bridge+0x194/0x548
+
+This is easily reproducible on a Juno board with ACPI boot.
+
+Retain the function for later use.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 08 May 2025 07:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37819">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-37820 - Xen-netfront NULL Pointer Dereference and Memory Leak Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37820
+<br>
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+xen-netfront: handle NULL returned by xdp_convert_buff_to_frame()
+
+The function xdp_convert_buff_to_frame() may return NULL if it fails
+to correctly convert the XDP buffer into an XDP frame due to memory
+constraints, internal errors, or invalid data. Failing to check for NULL
+may lead to a NULL pointer dereference if the result is used later in
+processing, potentially causing crashes, data corruption, or undefined
+behavior.
+
+On XDP redirect failure, the associated page must be released explicitly
+if it was previously retained via get_page(). Failing to do so may result
+in a memory leak, as the pages reference count is not decremented.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 08 May 2025 07:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37820">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-37821 - Linux Kernel Sched Eevdf Crash
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37821
+<br>
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+sched/eevdf: Fix se->slice being set to U64_MAX and resulting crash
+
+There is a code path in dequeue_entities() that can set the slice of a
+sched_entity to U64_MAX, which sometimes results in a crash.
+
+The offending case is when dequeue_entities() is called to dequeue a
+delayed group entity, and then the entity's parent's dequeue is delayed.
+In that case:
+
+1. In the if (entity_is_task(se)) else block at the beginning of
+   dequeue_entities(), slice is set to
+   cfs_rq_min_slice(group_cfs_rq(se)). If the entity was delayed, then
+   it has no queued tasks, so cfs_rq_min_slice() returns U64_MAX.
+2. The first for_each_sched_entity() loop dequeues the entity.
+3. If the entity was its parent's only child, then the next iteration
+   tries to dequeue the parent.
+4. If the parent's dequeue needs to be delayed, then it breaks from the
+   first for_each_sched_entity() loop _without updating slice_.
+5. The second for_each_sched_entity() loop sets the parent's ->slice to
+   the saved slice, which is still U64_MAX.
+
+This throws off subsequent calculations with potentially catastrophic
+results. A manifestation we saw in production was:
+
+6. In update_entity_lag(), se->slice is used to calculate limit, which
+   ends up as a huge negative number.
+7. limit is used in se->vlag = clamp(vlag, -limit, limit). Because limit
+   is negative, vlag > limit, so se->vlag is set to the same huge
+   negative number.
+8. In place_entity(), se->vlag is scaled, which overflows and results in
+   another huge (positive or negative) number.
+9. The adjusted lag is subtracted from se->vruntime, which increases or
+   decreases se->vruntime by a huge number.
+10. pick_eevdf() calls entity_eligible()/vruntime_eligible(), which
+    incorrectly returns false because the vruntime is so far from the
+    other vruntimes on the queue, causing the
+    (vruntime - cfs_rq->min_vruntime) * load calulation to overflow.
+11. Nothing appears to be eligible, so pick_eevdf() returns NULL.
+12. pick_next_entity() tries to dereference the return value of
+    pick_eevdf() and crashes.
+
+Dumping the cfs_rq states from the core dumps with drgn showed tell-tale
+huge vruntime ranges and bogus vlag values, and I also traced se->slice
+being set to U64_MAX on live systems (which was usually "benign" since
+the rest of the runqueue needed to be in a particular state to crash).
+
+Fix it in dequeue_entities() by always setting slice from the first
+non-empty cfs_rq.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 08 May 2025 07:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37821">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-37822 - RISC-V Linux Kernel Uprobes Fence Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37822
+<br>
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+riscv: uprobes: Add missing fence.i after building the XOL buffer
+
+The XOL (execute out-of-line) buffer is used to single-step the
+replaced instruction(s) for uprobes. The RISC-V port was missing a
+proper fence.i (i$ flushing) after constructing the XOL buffer, which
+can result in incorrect execution of stale/broken instructions.
+
+This was found running the BPF selftests "test_progs:
+uprobe_autoattach, attach_probe" on the Spacemit K1/X60, where the
+uprobes tests randomly blew up.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 08 May 2025 07:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37822">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-37823 - Linux Kernel Net-Sched HFSC Use-After-Free Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37823
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -518,7 +751,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37824
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -623,7 +856,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37825
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -663,7 +896,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37826
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -697,7 +930,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37827
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -820,7 +1053,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37828
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -863,7 +1096,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37829
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -894,7 +1127,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37830
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -927,7 +1160,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37831
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -958,7 +1191,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37832
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1002,7 +1235,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37833
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1080,7 +1313,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37834
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1169,7 +1402,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4127
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 5 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The WP SEO Structured Data Schema plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘Price Range’ parameter in all versions up to, and including, 2.7.11 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts that will execute whenever an administrator accesses the plugin settings page.
 <br>
@@ -1181,239 +1414,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Thu, 08 May 2025 07:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4127">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-37818 - LoongArch Linux Kernel Invalid PMD Pointer Dereference Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-37818
-<br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 21 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-LoongArch: Return NULL from huge_pte_offset() for invalid PMD
-
-LoongArch's huge_pte_offset() currently returns a pointer to a PMD slot
-even if the underlying entry points to invalid_pte_table (indicating no
-mapping). Callers like smaps_hugetlb_range() fetch this invalid entry
-value (the address of invalid_pte_table) via this pointer.
-
-The generic is_swap_pte() check then incorrectly identifies this address
-as a swap entry on LoongArch, because it satisfies the "!pte_present()
-&& !pte_none()" conditions. This misinterpretation, combined with a
-coincidental match by is_migration_entry() on the address bits, leads to
-kernel crashes in pfn_swap_entry_to_page().
-
-Fix this at the architecture level by modifying huge_pte_offset() to
-check the PMD entry's content using pmd_none() before returning. If the
-entry is invalid (i.e., it points to invalid_pte_table), return NULL
-instead of the pointer to the slot.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 08 May 2025 07:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37818">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-37819 - &#34;Linux Kernel GICv2m Use After Free Vulnerability in irqchip&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-37819
-<br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 21 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-irqchip/gic-v2m: Prevent use after free of gicv2m_get_fwnode()
-
-With ACPI in place, gicv2m_get_fwnode() is registered with the pci
-subsystem as pci_msi_get_fwnode_cb(), which may get invoked at runtime
-during a PCI host bridge probe. But, the call back is wrongly marked as
-__init, causing it to be freed, while being registered with the PCI
-subsystem and could trigger:
-
- Unable to handle kernel paging request at virtual address ffff8000816c0400
-  gicv2m_get_fwnode+0x0/0x58 (P)
-  pci_set_bus_msi_domain+0x74/0x88
-  pci_register_host_bridge+0x194/0x548
-
-This is easily reproducible on a Juno board with ACPI boot.
-
-Retain the function for later use.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 08 May 2025 07:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37819">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-37820 - Xen-netfront NULL Pointer Dereference and Memory Leak Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-37820
-<br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 21 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-xen-netfront: handle NULL returned by xdp_convert_buff_to_frame()
-
-The function xdp_convert_buff_to_frame() may return NULL if it fails
-to correctly convert the XDP buffer into an XDP frame due to memory
-constraints, internal errors, or invalid data. Failing to check for NULL
-may lead to a NULL pointer dereference if the result is used later in
-processing, potentially causing crashes, data corruption, or undefined
-behavior.
-
-On XDP redirect failure, the associated page must be released explicitly
-if it was previously retained via get_page(). Failing to do so may result
-in a memory leak, as the pages reference count is not decremented.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 08 May 2025 07:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37820">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-37821 - Linux Kernel Sched Eevdf Crash
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-37821
-<br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 21 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-sched/eevdf: Fix se->slice being set to U64_MAX and resulting crash
-
-There is a code path in dequeue_entities() that can set the slice of a
-sched_entity to U64_MAX, which sometimes results in a crash.
-
-The offending case is when dequeue_entities() is called to dequeue a
-delayed group entity, and then the entity's parent's dequeue is delayed.
-In that case:
-
-1. In the if (entity_is_task(se)) else block at the beginning of
-   dequeue_entities(), slice is set to
-   cfs_rq_min_slice(group_cfs_rq(se)). If the entity was delayed, then
-   it has no queued tasks, so cfs_rq_min_slice() returns U64_MAX.
-2. The first for_each_sched_entity() loop dequeues the entity.
-3. If the entity was its parent's only child, then the next iteration
-   tries to dequeue the parent.
-4. If the parent's dequeue needs to be delayed, then it breaks from the
-   first for_each_sched_entity() loop _without updating slice_.
-5. The second for_each_sched_entity() loop sets the parent's ->slice to
-   the saved slice, which is still U64_MAX.
-
-This throws off subsequent calculations with potentially catastrophic
-results. A manifestation we saw in production was:
-
-6. In update_entity_lag(), se->slice is used to calculate limit, which
-   ends up as a huge negative number.
-7. limit is used in se->vlag = clamp(vlag, -limit, limit). Because limit
-   is negative, vlag > limit, so se->vlag is set to the same huge
-   negative number.
-8. In place_entity(), se->vlag is scaled, which overflows and results in
-   another huge (positive or negative) number.
-9. The adjusted lag is subtracted from se->vruntime, which increases or
-   decreases se->vruntime by a huge number.
-10. pick_eevdf() calls entity_eligible()/vruntime_eligible(), which
-    incorrectly returns false because the vruntime is so far from the
-    other vruntimes on the queue, causing the
-    (vruntime - cfs_rq->min_vruntime) * load calulation to overflow.
-11. Nothing appears to be eligible, so pick_eevdf() returns NULL.
-12. pick_next_entity() tries to dereference the return value of
-    pick_eevdf() and crashes.
-
-Dumping the cfs_rq states from the core dumps with drgn showed tell-tale
-huge vruntime ranges and bogus vlag values, and I also traced se->slice
-being set to U64_MAX on live systems (which was usually "benign" since
-the rest of the runqueue needed to be in a particular state to crash).
-
-Fix it in dequeue_entities() by always setting slice from the first
-non-empty cfs_rq.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 08 May 2025 07:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37821">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-37822 - RISC-V Linux Kernel Uprobes Fence Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-37822
-<br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 4 hours, 21 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-riscv: uprobes: Add missing fence.i after building the XOL buffer
-
-The XOL (execute out-of-line) buffer is used to single-step the
-replaced instruction(s) for uprobes. The RISC-V port was missing a
-proper fence.i (i$ flushing) after constructing the XOL buffer, which
-can result in incorrect execution of stale/broken instructions.
-
-This was found running the BPF selftests "test_progs:
-uprobe_autoattach, attach_probe" on the Spacemit K1/X60, where the
-uprobes tests randomly blew up.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 08 May 2025 07:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37822">
                                 read more
                             </a>
                     </article>
