@@ -184,7 +184,7 @@
                         <p>
 <strong>CVE ID : </strong>CVE-2024-55651
 <br>
-<strong>Published : </strong> May 8, 2025, 12:15 a.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 12:15 a.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>i-Educar is free, fully online school management software. Version 2.9 of the application fails to properly validate and sanitize user supplied input, leading to a stored cross-site scripting vulnerability that resides within the user type (Tipo de Usuário) input field. Through this attacker vector a malicious user might be able to retrieve information belonging to another user, which may lead to sensitive information leakage or other malicious actions. As of time of publication, no patched versions are known to exist.
 <br>
@@ -209,7 +209,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-0936
 <br>
-<strong>Published : </strong> May 7, 2025, 11:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> May 7, 2025, 11:15 p.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>On affected platforms running Arista EOS with a gNMI transport enabled, running the gNOI File TransferToRemote RPC with credentials for a remote server may cause these remote-server credentials to be logged or accounted on the local EOS device or possibly on other remote accounting servers (i.e. TACACS, RADIUS, etc).
 <br>
@@ -234,7 +234,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-32441
 <br>
-<strong>Published : </strong> May 7, 2025, 11:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> May 7, 2025, 11:15 p.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>Rack is a modular Ruby web server interface. Prior to version 2.2.14, when using the `Rack::Session::Pool` middleware, simultaneous rack requests can restore a deleted rack session, which allows the unauthenticated user to occupy that session. Rack session middleware prepares the session at the beginning of request, then saves is back to the store with possible changes applied by host rack application. This way the session becomes to be a subject of race conditions in general sense over concurrent rack requests. When using the `Rack::Session::Pool` middleware, and provided the attacker can acquire a session cookie (already a major issue), the session may be restored if the attacker can trigger a long running request (within that same session) adjacent to the user logging out, in order to retain illicit access even after a user has attempted to logout. Version 2.2.14 contains a patch for the issue. Some other mitigations are available. Either ensure the application invalidates sessions atomically by marking them as logged out e.g., using a `logged_out` flag, instead of deleting them, and check this flag on every request to prevent reuse; or implement a custom session store that tracks session invalidation timestamps and refuses to accept session data if the session was invalidated after the request began.
 <br>
@@ -259,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-35939
 <br>
-<strong>Published : </strong> May 7, 2025, 11:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> May 7, 2025, 11:15 p.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>Craft CMS stores arbitrary content provided by unauthenticated users in session files. This content could be accessed and executed, possibly using an independent vulnerability. Craft CMS redirects requests that require authentication to the login page and generates a session file on the server at `/var/lib/php/sessions`. Such session files are named `sess_[session_value]`, where `[session_value]` is provided to the client in a `Set-Cookie` response header. Craft CMS stores the return URL requested by the client without sanitizing parameters. Consequently, an unauthenticated client can introduce arbitrary values, such as PHP code, to a known local file location on the server. Craft CMS versions 5.7.5 and 4.15.3 have been released to address this issue.
 <br>
@@ -284,7 +284,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46727
 <br>
-<strong>Published : </strong> May 7, 2025, 11:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> May 7, 2025, 11:15 p.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>Rack is a modular Ruby web server interface. Prior to versions 2.2.14, 3.0.16, and 3.1.14, `Rack::QueryParser` parses query strings and `application/x-www-form-urlencoded` bodies into Ruby data structures without imposing any limit on the number of parameters, allowing attackers to send requests with extremely large numbers of parameters. The vulnerability arises because `Rack::QueryParser` iterates over each `&`-separated key-value pair and adds it to a Hash without enforcing an upper bound on the total number of parameters. This allows an attacker to send a single request containing hundreds of thousands (or more) of parameters, which consumes excessive memory and CPU during parsing. An attacker can trigger denial of service by sending specifically crafted HTTP requests, which can cause memory exhaustion or pin CPU resources, stalling or crashing the Rack server. This results in full service disruption until the affected worker is restarted. Versions 2.2.14, 3.0.16, and 3.1.14 fix the issue. Some other mitigations are available. One may use middleware to enforce a maximum query string size or parameter count, or employ a reverse proxy (such as Nginx) to limit request sizes and reject oversized query strings or bodies. Limiting request body sizes and query string lengths at the web server or CDN level is an effective mitigation.
 <br>
@@ -309,7 +309,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2023-7303
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in q2apro q2apro-on-site-notifications up to 1.4.6. This affects the function process_request of the file q2apro-onsitenotifications-page.php. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. Upgrading to version 1.4.8 is able to address this issue. The patch is named 0ca85ca02f8aceb661e9b71fd229c45d388ea5b5. It is recommended to upgrade the affected component.
 <br>
@@ -334,7 +334,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-11953
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been removed to prevent accidental usage.
 <br>
@@ -359,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31644
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When running in Appliance mode, a command injection vulnerability exists in an undisclosed iControl REST and BIG-IP TMOS Shell (tmsh) command which may allow an authenticated attacker with administrator role privileges to execute arbitrary system commands. A successful exploit can allow the attacker to cross a security boundary.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 <br>
@@ -384,7 +384,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-35995
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When a BIG-IP PEM system is licensed with URL categorization, and the URL categorization policy or an iRule with the urlcat command is enabled on a virtual server, undisclosed requests can cause the Traffic Management Microkernel (TMM) to terminate. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 <br>
@@ -409,7 +409,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-36504
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When a BIG-IP HTTP/2 httprouter profile is configured on a virtual server, undisclosed responses can cause an increase in memory resource utilization.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 <br>
@@ -434,7 +434,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-36525
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When a BIG-IP APM virtual server is configured to use a PingAccess profile, undisclosed requests can cause TMM to terminate. 
 
@@ -462,7 +462,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-36546
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>On an F5OS system, if the root user had previously configured the system to allow login via SSH key-based authentication, and then enabled Appliance Mode; access via SSH key-based authentication is still allowed. For an attacker to exploit this vulnerability they must obtain the root user's SSH private key.  
 
@@ -489,7 +489,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-36557
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When an HTTP profile with the Enforce RFC Compliance option is configured on a virtual server, undisclosed requests can cause the Traffic Management Microkernel (TMM) to terminate. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 <br>
@@ -514,7 +514,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-41399
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When a Stream Control Transmission Protocol (SCTP) profile is configured on a virtual server, undisclosed requests can cause an increase in memory resource utilization. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 <br>
@@ -539,7 +539,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-41414
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When HTTP/2 client and server profile is configured on a virtual server, undisclosed requests can cause TMM to terminate. 
 
@@ -569,7 +569,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-41431
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When connection mirroring is configured on a virtual server, undisclosed requests can cause the Traffic Management Microkernel (TMM) to terminate in the standby BIG-IP systems in a traffic group. 
 
@@ -597,7 +597,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-41433
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When a Session Initiation Protocol (SIP) message routing framework (MRF) application layer gateway (ALG) profile is configured on a Message Routing virtual server, undisclosed requests can cause the Traffic Management Microkernel (TMM) to terminate.
 
@@ -627,7 +627,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-43878
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When running in Appliance mode, an authenticated attacker assigned the Administrator or Resource Administrator role may be able to bypass Appliance mode restrictions utilizing system diagnostics tcpdump command utility on a F5OS-C/A system. 
 
@@ -656,7 +656,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46265
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>On F5OS, an improper authorization vulnerability exists where remotely authenticated users (LDAP, RADIUS, TACACS+) may be authorized with higher privilege F5OS roles. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 <br>
@@ -681,7 +681,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46821
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Envoy is a cloud-native edge/middle/service proxy. Prior to versions 1.34.1, 1.33.3, 1.32.6, and 1.31.8, Envoy's URI template matcher incorrectly excludes the `*` character from a set of valid characters in the URI path. As a result URI path containing the `*` character will not match a URI template expressions. This can result in bypass of RBAC rules when configured using the `uri_template` permissions. This vulnerability is fixed in Envoy versions v1.34.1, v1.33.3, v1.32.6, v1.31.8. As a workaround, configure additional RBAC permissions using `url_path` with `safe_regex` expression.
 <br>
@@ -706,7 +706,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46826
 <br>
-<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 4 hours, 38 minutes ago
+<strong>Published : </strong> May 7, 2025, 10:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>insa-auth is an authentication server for INSA Rouen. A minor issue allowed third-party websites to access the server's secondary authentication bridge, potentially revealing basic student information (name and number). However, the issue posed minimal risk, was never exploited, and had limited impact. A fix was implemented promptly on May 3, 2025.
 <br>
@@ -731,7 +731,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-31177
 <br>
-<strong>Published : </strong> May 7, 2025, 9:16 p.m. | 5 hours, 37 minutes ago
+<strong>Published : </strong> May 7, 2025, 9:16 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>gnuplot is affected by a heap buffer overflow at function utf8_copy_one.
 <br>
@@ -756,7 +756,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-3925
 <br>
-<strong>Published : </strong> May 7, 2025, 9:16 p.m. | 5 hours, 37 minutes ago
+<strong>Published : </strong> May 7, 2025, 9:16 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>BrightSign players running BrightSign OS series 4 prior to v8.5.53.1 or 
 series 5 prior to v9.0.166 contain an execution with unnecessary 
@@ -784,7 +784,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4043
 <br>
-<strong>Published : </strong> May 7, 2025, 9:16 p.m. | 5 hours, 37 minutes ago
+<strong>Published : </strong> May 7, 2025, 9:16 p.m. | 4 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>An admin user can gain unauthorized write access to the /etc/rc.local file on the device, which is executed on a system boot.
 <br>
@@ -809,7 +809,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45514
 <br>
-<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 7 hours, 37 minutes ago
+<strong>Published : </strong> May 7, 2025, 7:16 p.m. | 6 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>Tenda FH451 V1.0.0.9 has a stack overflow vulnerability in the function.frmL7ImForm.
 <br>
