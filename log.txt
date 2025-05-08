@@ -92,9 +92,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-
 https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
-https://cvefeed.io/vuln/detail/CVE-2025-37815
-https://cvefeed.io/vuln/detail/CVE-2025-37816
-https://cvefeed.io/vuln/detail/CVE-2025-37817
 https://cvefeed.io/vuln/detail/CVE-2025-37818
 https://cvefeed.io/vuln/detail/CVE-2025-37819
 https://cvefeed.io/vuln/detail/CVE-2025-37820
@@ -117,6 +114,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-1252
 https://cvefeed.io/vuln/detail/CVE-2025-1253
 https://cvefeed.io/vuln/detail/CVE-2025-1254
 https://cvefeed.io/vuln/detail/CVE-2025-40846
+https://cvefeed.io/vuln/detail/CVE-2025-3758
+https://cvefeed.io/vuln/detail/CVE-2025-3759
+https://cvefeed.io/vuln/detail/CVE-2025-41450
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -137,10 +137,10 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territo
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/2024-violations-donnees-personnelles
-https://cvefeed.io/vuln/detail/CVE-2025-37811
-https://cvefeed.io/vuln/detail/CVE-2025-37812
-https://cvefeed.io/vuln/detail/CVE-2025-37813
-https://cvefeed.io/vuln/detail/CVE-2025-37814
+https://cvefeed.io/vuln/detail/CVE-2025-1252
+https://cvefeed.io/vuln/detail/CVE-2025-1253
+https://cvefeed.io/vuln/detail/CVE-2025-1254
+https://cvefeed.io/vuln/detail/CVE-2025-40846
 https://cvefeed.io/vuln/detail/CVE-2025-37815
 https://cvefeed.io/vuln/detail/CVE-2025-37816
 https://cvefeed.io/vuln/detail/CVE-2025-37817
@@ -162,6 +162,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-37832
 https://cvefeed.io/vuln/detail/CVE-2025-37833
 https://cvefeed.io/vuln/detail/CVE-2025-37834
 https://cvefeed.io/vuln/detail/CVE-2025-4127
+https://cvefeed.io/vuln/detail/CVE-2025-37811
+https://cvefeed.io/vuln/detail/CVE-2025-37812
+https://cvefeed.io/vuln/detail/CVE-2025-37813
+https://cvefeed.io/vuln/detail/CVE-2025-37814
 https://cvefeed.io/vuln/detail/CVE-2024-13793
 https://cvefeed.io/vuln/detail/CVE-2025-32873
 https://cvefeed.io/vuln/detail/CVE-2024-55651
@@ -2455,9 +2459,6 @@ Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 Bilan du volet cybersécurité de France Relance : un défi réussi 
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
-CVE-2025-37815 - "Microchip PCI1xxxx Linux Kernel IRQ Handler Registration Vulnerability"
-CVE-2025-37816 - Linux Kernel Mei VSC Buffer Overflow Vulnerability
-CVE-2025-37817 - Linux kernel Double Free in Chameleon Driver
 CVE-2025-37818 - LoongArch Linux Kernel Invalid PMD Pointer Dereference Vulnerability
 CVE-2025-37819 - "Linux Kernel GICv2m Use After Free Vulnerability in irqchip"
 CVE-2025-37820 - Xen-netfront NULL Pointer Dereference and Memory Leak Vulnerability
@@ -2482,6 +2483,9 @@ CVE-2025-1252 - RTI Connext Professional Heap-based Buffer Overflow Vulnerabilit
 CVE-2025-1253 - RTI Connext Professional Classic Buffer Overflow
 CVE-2025-1254 - RTI Connext Professional Core Libraries Out-of-bounds Read/Write Vulnerability
 CVE-2025-40846 - Halo Open Redirect and Cross Site Scripting Vulnerability
+CVE-2025-3758 - WF2220 Information Disclosure in Western Digital Router
+CVE-2025-3759 - Netgear IGD Unauthenticated Configuration Change Vulnerability
+CVE-2025-41450 - Danfoss AK-SM 8xxA Series Authentication Bypass
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -2502,6 +2506,9 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Lettres drsquo;information
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
+CVE-2025-37815 - "Microchip PCI1xxxx Linux Kernel IRQ Handler Registration Vulnerability"
+CVE-2025-37816 - Linux Kernel Mei VSC Buffer Overflow Vulnerability
+CVE-2025-37817 - Linux kernel Double Free in Chameleon Driver
 CVE-2025-37811 - "Qualcomm Chipidea USB Driver Null Pointer Dereference"
 CVE-2025-37812 - Linux Kernel USB cdns3 NCM Gadget Deadlock
 CVE-2025-37813 - Etron USB XHCI Invalid Pointer Dereference Vulnerability
