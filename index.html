@@ -261,7 +261,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1252
 <br>
-<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 1 hour, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 1 hour, 13 minutes ago
 <br>
 <strong>Description : </strong>Heap-based Buffer Overflow vulnerability in RTI Connext Professional (Core Libraries) allows Overflow Variables and Tags.This issue affects Connext Professional: from 7.4.0 before 7.5.0, from 7.0.0 before 7.3.0.7, from 4.4 before 6.1.2.23.
 <br>
@@ -286,7 +286,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1253
 <br>
-<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 1 hour, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 1 hour, 13 minutes ago
 <br>
 <strong>Description : </strong>Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in RTI Connext Professional (Core Libraries) allows Overflow Variables and Tags.This issue affects Connext Professional: from 7.4.0 before 7.5.0, from 7.0.0 before 7.3.0.7, from 4.5 before 6.1.2.23.
 <br>
@@ -311,7 +311,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1254
 <br>
-<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 1 hour, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 1 hour, 13 minutes ago
 <br>
 <strong>Description : </strong>Out-of-bounds Read, Out-of-bounds Write vulnerability in RTI Connext Professional (Core Libraries) allows Overread Buffers, Overflow Buffers.This issue affects Connext Professional: from 7.4.0 before 7.5.0, from 7.0.0 before 7.3.0.7, from 6.0.0 before 6.1.2.23.
 <br>
@@ -336,7 +336,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-40846
 <br>
-<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 1 hour, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 9:15 a.m. | 1 hour, 13 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation, the returnUrl parameter in Account Security Settings lacks proper input validation, allowing attackers to redirect users to malicious websites (Open Redirect) and inject JavaScript code to perform cross site scripting attack.
 
@@ -358,12 +358,135 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-37815 - &#34;Microchip PCI1xxxx Linux Kernel IRQ Handler Registration Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37815
+<br>
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+misc: microchip: pci1xxxx: Fix Kernel panic during IRQ handler registration
+
+Resolve kernel panic while accessing IRQ handler associated with the
+generated IRQ. This is done by acquiring the spinlock and storing the
+current interrupt state before handling the interrupt request using
+generic_handle_irq.
+
+A previous fix patch was submitted where 'generic_handle_irq' was
+replaced with 'handle_nested_irq'. However, this change also causes
+the kernel panic where after determining which GPIO triggered the
+interrupt and attempting to call handle_nested_irq with the mapped
+IRQ number, leads to a failure in locating the registered handler.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 08 May 2025 07:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37815">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-37816 - Linux Kernel Mei VSC Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37816
+<br>
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+mei: vsc: Fix fortify-panic caused by invalid counted_by() use
+
+gcc 15 honors the __counted_by(len) attribute on vsc_tp_packet.buf[]
+and the vsc-tp.c code is using this in a wrong way. len does not contain
+the available size in the buffer, it contains the actual packet length
+*without* the crc. So as soon as vsc_tp_xfer() tries to add the crc to
+buf[] the fortify-panic handler gets triggered:
+
+[   80.842193] memcpy: detected buffer overflow: 4 byte write of buffer size 0
+[   80.842243] WARNING: CPU: 4 PID: 272 at lib/string_helpers.c:1032 __fortify_report+0x45/0x50
+...
+[   80.843175]  __fortify_panic+0x9/0xb
+[   80.843186]  vsc_tp_xfer.cold+0x67/0x67 [mei_vsc_hw]
+[   80.843210]  ? seqcount_lockdep_reader_access.constprop.0+0x82/0x90
+[   80.843229]  ? lockdep_hardirqs_on+0x7c/0x110
+[   80.843250]  mei_vsc_hw_start+0x98/0x120 [mei_vsc]
+[   80.843270]  mei_reset+0x11d/0x420 [mei]
+
+The easiest fix would be to just drop the counted-by but with the exception
+of the ack buffer in vsc_tp_xfer_helper() which only contains enough room
+for the packet-header, all other uses of vsc_tp_packet always use a buffer
+of VSC_TP_MAX_XFER_SIZE bytes for the packet.
+
+Instead of just dropping the counted-by, split the vsc_tp_packet struct
+definition into a header and a full-packet definition and use a fixed
+size buf[] in the packet definition, this way fortify-source buffer
+overrun checking still works when enabled.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 08 May 2025 07:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37816">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-37817 - Linux kernel Double Free in Chameleon Driver
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-37817
+<br>
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+mcb: fix a double free bug in chameleon_parse_gdd()
+
+In chameleon_parse_gdd(), if mcb_device_register() fails, 'mdev'
+would be released in mcb_device_register() via put_device().
+Thus, goto 'err' label and free 'mdev' again causes a double free.
+Just return if mcb_device_register() fails.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 08 May 2025 07:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37817">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-37818 - LoongArch Linux Kernel Invalid PMD Pointer Dereference Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37818
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -406,7 +529,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37819
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -448,7 +571,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37820
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -486,7 +609,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37821
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -560,7 +683,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37822
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -596,7 +719,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37823
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -626,7 +749,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37824
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -731,7 +854,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37825
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -771,7 +894,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37826
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -805,7 +928,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37827
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -928,7 +1051,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37828
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -971,7 +1094,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37829
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1002,7 +1125,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37830
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1035,7 +1158,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37831
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1066,7 +1189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37832
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1110,7 +1233,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37833
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1188,7 +1311,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-37834
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1277,7 +1400,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4127
 <br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 38 minutes ago
+<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 3 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>The WP SEO Structured Data Schema plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘Price Range’ parameter in all versions up to, and including, 2.7.11 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts that will execute whenever an administrator accesses the plugin settings page.
 <br>
@@ -1289,129 +1412,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Thu, 08 May 2025 07:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4127">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-37815 - &#34;Microchip PCI1xxxx Linux Kernel IRQ Handler Registration Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-37815
-<br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 2 hours, 40 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-misc: microchip: pci1xxxx: Fix Kernel panic during IRQ handler registration
-
-Resolve kernel panic while accessing IRQ handler associated with the
-generated IRQ. This is done by acquiring the spinlock and storing the
-current interrupt state before handling the interrupt request using
-generic_handle_irq.
-
-A previous fix patch was submitted where 'generic_handle_irq' was
-replaced with 'handle_nested_irq'. However, this change also causes
-the kernel panic where after determining which GPIO triggered the
-interrupt and attempting to call handle_nested_irq with the mapped
-IRQ number, leads to a failure in locating the registered handler.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 08 May 2025 07:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37815">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-37816 - Linux Kernel Mei VSC Buffer Overflow Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-37816
-<br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 2 hours, 40 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-mei: vsc: Fix fortify-panic caused by invalid counted_by() use
-
-gcc 15 honors the __counted_by(len) attribute on vsc_tp_packet.buf[]
-and the vsc-tp.c code is using this in a wrong way. len does not contain
-the available size in the buffer, it contains the actual packet length
-*without* the crc. So as soon as vsc_tp_xfer() tries to add the crc to
-buf[] the fortify-panic handler gets triggered:
-
-[   80.842193] memcpy: detected buffer overflow: 4 byte write of buffer size 0
-[   80.842243] WARNING: CPU: 4 PID: 272 at lib/string_helpers.c:1032 __fortify_report+0x45/0x50
-...
-[   80.843175]  __fortify_panic+0x9/0xb
-[   80.843186]  vsc_tp_xfer.cold+0x67/0x67 [mei_vsc_hw]
-[   80.843210]  ? seqcount_lockdep_reader_access.constprop.0+0x82/0x90
-[   80.843229]  ? lockdep_hardirqs_on+0x7c/0x110
-[   80.843250]  mei_vsc_hw_start+0x98/0x120 [mei_vsc]
-[   80.843270]  mei_reset+0x11d/0x420 [mei]
-
-The easiest fix would be to just drop the counted-by but with the exception
-of the ack buffer in vsc_tp_xfer_helper() which only contains enough room
-for the packet-header, all other uses of vsc_tp_packet always use a buffer
-of VSC_TP_MAX_XFER_SIZE bytes for the packet.
-
-Instead of just dropping the counted-by, split the vsc_tp_packet struct
-definition into a header and a full-packet definition and use a fixed
-size buf[] in the packet definition, this way fortify-source buffer
-overrun checking still works when enabled.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 08 May 2025 07:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37816">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-37817 - Linux kernel Double Free in Chameleon Driver
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-37817
-<br>
-<strong>Published : </strong> May 8, 2025, 7:15 a.m. | 2 hours, 40 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-mcb: fix a double free bug in chameleon_parse_gdd()
-
-In chameleon_parse_gdd(), if mcb_device_register() fails, 'mdev'
-would be released in mcb_device_register() via put_device().
-Thus, goto 'err' label and free 'mdev' again causes a double free.
-Just return if mcb_device_register() fails.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 08 May 2025 07:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-37817">
                                 read more
                             </a>
                     </article>
