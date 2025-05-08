@@ -92,11 +92,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-
 https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
-https://cvefeed.io/vuln/detail/CVE-2025-3862
-https://cvefeed.io/vuln/detail/CVE-2025-4208
-https://cvefeed.io/vuln/detail/CVE-2024-6648
-https://cvefeed.io/vuln/detail/CVE-2025-47729
-https://cvefeed.io/vuln/detail/CVE-2025-47730
 https://cvefeed.io/vuln/detail/CVE-2025-45818
 https://cvefeed.io/vuln/detail/CVE-2025-45819
 https://cvefeed.io/vuln/detail/CVE-2025-45820
@@ -117,6 +112,11 @@ https://cvefeed.io/vuln/detail/CVE-2025-4132
 https://cvefeed.io/vuln/detail/CVE-2025-26845
 https://cvefeed.io/vuln/detail/CVE-2025-26847
 https://cvefeed.io/vuln/detail/CVE-2025-44021
+https://cvefeed.io/vuln/detail/CVE-2024-13009
+https://cvefeed.io/vuln/detail/CVE-2025-1948
+https://cvefeed.io/vuln/detail/CVE-2025-30101
+https://cvefeed.io/vuln/detail/CVE-2025-30102
+https://cvefeed.io/vuln/detail/CVE-2025-4098
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -2495,11 +2495,6 @@ Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 Bilan du volet cybersécurité de France Relance : un défi réussi 
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
-CVE-2025-3862 - Contest Gallery WordPress Stored Cross-Site Scripting Vulnerability
-CVE-2025-4208 - NEX-Forms PHP Code Execution Vulnerability
-CVE-2024-6648 - AP Page Builder Path Traversal RCE
-CVE-2025-47729 - TeleMessage End-to-End Encryption Vulnerability
-CVE-2025-47730 - TeleMessage API Authentication Token Disclosure
 CVE-2025-45818 - Slims Senayan Library Management Systems SQL Injection Vulnerability
 CVE-2025-45819 - Slims Senayan Library Management Systems SQL Injection
 CVE-2025-45820 - Slims Senayan Library Management Systems SQL Injection Vulnerability
@@ -2520,6 +2515,11 @@ CVE-2025-4132 - Rapid7 Corporate Website Open Redirect Vulnerability
 CVE-2025-26845 - Znuny Eval Injection Vulnerability
 CVE-2025-26847 - Znuny Support Bundle Password Exposure Vulnerability
 CVE-2025-44021 - OpenStack Ironic Unintended File Writing Vulnerability
+CVE-2024-13009 - Eclipse Jetty Gzip Buffer Release Vulnerability
+CVE-2025-1948 - Jetty HTTP/2 Buffer Overflow
+CVE-2025-30101 - Dell PowerScale OneFS TOCTOU Race Condition Vulnerability
+CVE-2025-30102 - Dell PowerScale OneFS Out-of-Bounds Write Vulnerability
+CVE-2025-4098 - Horner Automation Cscape Out-of-Bounds Read Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -2540,11 +2540,11 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Lettres drsquo;information
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
-CVE-2024-13009 - Eclipse Jetty Gzip Buffer Release Vulnerability
-CVE-2025-1948 - Jetty HTTP/2 Buffer Overflow
-CVE-2025-30101 - Dell PowerScale OneFS TOCTOU Race Condition Vulnerability
-CVE-2025-30102 - Dell PowerScale OneFS Out-of-Bounds Write Vulnerability
-CVE-2025-4098 - Horner Automation Cscape Out-of-Bounds Read Vulnerability
+CVE-2025-47729 - TeleMessage End-to-End Encryption Vulnerability
+CVE-2025-47730 - TeleMessage API Authentication Token Disclosure
+CVE-2024-6648 - AP Page Builder Path Traversal RCE
+CVE-2025-3862 - Contest Gallery WordPress Stored Cross-Site Scripting Vulnerability
+CVE-2025-4208 - NEX-Forms PHP Code Execution Vulnerability
 CVE-2025-2806 - TagDiv Composer WordPress Reflected Cross-Site Scripting
 CVE-2025-3468 - NEX-Forms Stored Cross-Site Scripting Vulnerability
 CVE-2025-3506 - Checkmk Unauthenticated File Access Vulnerability
