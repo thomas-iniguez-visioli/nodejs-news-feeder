@@ -92,10 +92,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-
 https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
-https://cvefeed.io/vuln/detail/CVE-2025-29746
-https://cvefeed.io/vuln/detail/CVE-2025-30147
-https://cvefeed.io/vuln/detail/CVE-2025-3272
-https://cvefeed.io/vuln/detail/CVE-2025-3476
 https://cvefeed.io/vuln/detail/CVE-2025-45388
 https://cvefeed.io/vuln/detail/CVE-2025-45514
 https://cvefeed.io/vuln/detail/CVE-2025-31177
@@ -117,6 +113,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-43878
 https://cvefeed.io/vuln/detail/CVE-2025-46265
 https://cvefeed.io/vuln/detail/CVE-2025-46821
 https://cvefeed.io/vuln/detail/CVE-2025-46826
+https://cvefeed.io/vuln/detail/CVE-2025-0936
+https://cvefeed.io/vuln/detail/CVE-2025-32441
+https://cvefeed.io/vuln/detail/CVE-2025-35939
+https://cvefeed.io/vuln/detail/CVE-2025-46727
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -137,17 +137,33 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territo
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/2024-violations-donnees-personnelles
+https://cvefeed.io/vuln/detail/CVE-2023-7303
+https://cvefeed.io/vuln/detail/CVE-2024-11953
+https://cvefeed.io/vuln/detail/CVE-2025-31644
+https://cvefeed.io/vuln/detail/CVE-2025-35995
+https://cvefeed.io/vuln/detail/CVE-2025-36504
+https://cvefeed.io/vuln/detail/CVE-2025-36525
+https://cvefeed.io/vuln/detail/CVE-2025-36546
+https://cvefeed.io/vuln/detail/CVE-2025-36557
+https://cvefeed.io/vuln/detail/CVE-2025-41399
+https://cvefeed.io/vuln/detail/CVE-2025-41414
+https://cvefeed.io/vuln/detail/CVE-2025-41431
+https://cvefeed.io/vuln/detail/CVE-2025-41433
+https://cvefeed.io/vuln/detail/CVE-2025-43878
+https://cvefeed.io/vuln/detail/CVE-2025-46265
+https://cvefeed.io/vuln/detail/CVE-2025-46821
+https://cvefeed.io/vuln/detail/CVE-2025-46826
 https://cvefeed.io/vuln/detail/CVE-2025-31177
 https://cvefeed.io/vuln/detail/CVE-2025-3925
 https://cvefeed.io/vuln/detail/CVE-2025-4043
-https://cvefeed.io/vuln/detail/CVE-2025-26168
-https://cvefeed.io/vuln/detail/CVE-2025-26169
 https://cvefeed.io/vuln/detail/CVE-2025-29746
 https://cvefeed.io/vuln/detail/CVE-2025-30147
 https://cvefeed.io/vuln/detail/CVE-2025-3272
 https://cvefeed.io/vuln/detail/CVE-2025-3476
 https://cvefeed.io/vuln/detail/CVE-2025-45388
 https://cvefeed.io/vuln/detail/CVE-2025-45514
+https://cvefeed.io/vuln/detail/CVE-2025-26168
+https://cvefeed.io/vuln/detail/CVE-2025-26169
 https://cvefeed.io/vuln/detail/CVE-2025-20202
 https://cvefeed.io/vuln/detail/CVE-2025-20210
 https://cvefeed.io/vuln/detail/CVE-2025-20213
@@ -2407,10 +2423,6 @@ Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 Bilan du volet cybersécurité de France Relance : un défi réussi 
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
-CVE-2025-29746 - Koillection Cross Site Scripting (XSS)
-CVE-2025-30147 - Hyperledger Besu EC Point Crafting Vulnerability
-CVE-2025-3272 - OpenText Operations Bridge Manager Password Change Bypass
-CVE-2025-3476 - OpenText Operations Bridge Manager Authorization Bypass
 CVE-2025-45388 - Wagtail CMS Stored XSS
 CVE-2025-45514 - Tenda FH451 Stack Overflow Vulnerability
 CVE-2025-31177 - Gnuplot Heap Buffer Overflow Vulnerability
@@ -2432,6 +2444,10 @@ CVE-2025-43878 - F5OS-C/A Appliance Mode Bypass Vulnerability
 CVE-2025-46265 - F5OS Improper Authorization Vulnerability
 CVE-2025-46821 - Envoy URI Template Path Matching Bypass Vulnerability
 CVE-2025-46826 - INSA Rouen insa-auth Information Disclosure
+CVE-2025-0936 - Arista EOS gNMI Remote Credentials Disclosure
+CVE-2025-32441 - Rack Session Pool Session Hijacking Vulnerability
+CVE-2025-35939 - Craft CMS Unauthenticated Session File Injection Vulnerability
+CVE-2025-46727 - Rack Denial of Service (DoS) Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -2452,6 +2468,10 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Lettres drsquo;information
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
+CVE-2025-29746 - Koillection Cross Site Scripting (XSS)
+CVE-2025-30147 - Hyperledger Besu EC Point Crafting Vulnerability
+CVE-2025-3272 - OpenText Operations Bridge Manager Password Change Bypass
+CVE-2025-3476 - OpenText Operations Bridge Manager Authorization Bypass
 CVE-2025-26168 - IXON VPN Client Local Privilege Escalation
 CVE-2025-26169 - IXON VPN Client Local Privilege Escalation Remote Code Execution
 CVE-2025-20202 - Cisco IOS XE Wireless Controller Software CDP Neighbor Report Denial of Service Vulnerability
