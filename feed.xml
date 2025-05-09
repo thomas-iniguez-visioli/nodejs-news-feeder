@@ -8,18 +8,120 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 09 May 2025 03:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 04:00:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3810 - WordPress WPBookit Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3810
+<br>
+<strong>Published : </strong> May 9, 2025, 3:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>The WPBookit plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.2. This is due to the plugin not properly validating a user's identity prior to updating their details like password and email through the edit_profile_data() function. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses and passwords, including administrators, and leverage that to gain access to their account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3810</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3810</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3811 - WordPress WPBookit Privilege Escalation Account Takeover Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3811
+<br>
+<strong>Published : </strong> May 9, 2025, 3:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>The WPBookit plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.2. This is due to the plugin not properly validating a user's identity prior to updating their details like email through the edit_newdata_customer_callback() function. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3811</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3811</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4434 - WordPress Remote Images Grabber Plugin Reflected Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4434
+<br>
+<strong>Published : </strong> May 9, 2025, 3:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>The Remote Images Grabber plugin for WordPress is vulnerable to Reflected Cross-Site Scripting in all versions up to, and including, 0.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4434</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4434</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4453 - D-Link DIR-619L Remote Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4453
+<br>
+<strong>Published : </strong> May 9, 2025, 3:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in D-Link DIR-619L 2.04B04. It has been classified as critical. This affects the function formSysCmd. The manipulation of the argument sysCmd leads to command injection. It is possible to initiate the attack remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4453</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4453</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4454 - D-Link DIR-619L Wake_on_Lan Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4454
+<br>
+<strong>Published : </strong> May 9, 2025, 3:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in D-Link DIR-619L 2.04B04. It has been declared as critical. This vulnerability affects the function wake_on_lan. The manipulation of the argument mac leads to command injection. The attack can be initiated remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4454</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4454</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4455 - Patch My PC Home Updater DLL Search Path Manipulation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4455
+<br>
+<strong>Published : </strong> May 9, 2025, 3:15 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Patch My PC Home Updater up to 5.1.3.0. It has been rated as critical. This issue affects some unknown processing in the library advapi32.dll/BCrypt.dll/comctl32.dll/crypt32.dll/dwmapi.dll/gdi32.dll/gdiplus.dll/imm32.dll/iphlpapi.dll/kernel32.dll/mscms.dll/msctf.dll/ntdll.dll/ole32.dll/oleaut32.dll/PresentationNative_cor3.dll/secur32.dll/shcore.dll/shell32.dll/sspicli.dll/System.IO. The manipulation leads to uncontrolled search path. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4455</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4455</guid>
+    </item>
+    <item>
       <title>CVE-2025-4452 - D-Link DIR-619L Buffer Overflow Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4452
 <br>
-<strong>Published : </strong> May 9, 2025, 2:15 a.m. | 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 2:15 a.m. | 1 hour, 23 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in D-Link DIR-619L 2.04B04 and classified as critical. Affected by this issue is the function formSetWizard2. The manipulation of the argument curTime leads to buffer overflow. The attack may be launched remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -36,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4448
 <br>
-<strong>Published : </strong> May 9, 2025, 1:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 1:15 a.m. | 2 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in D-Link DIR-619L 2.04B04. This vulnerability affects the function formEasySetupWizard. The manipulation of the argument curTime leads to buffer overflow. The attack can be initiated remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -53,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4449
 <br>
-<strong>Published : </strong> May 9, 2025, 1:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 1:15 a.m. | 2 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in D-Link DIR-619L 2.04B04. This issue affects the function formEasySetupWizard3. The manipulation of the argument wan_connected leads to buffer overflow. The attack may be initiated remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -70,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4450
 <br>
-<strong>Published : </strong> May 9, 2025, 1:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 1:15 a.m. | 2 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in D-Link DIR-619L 2.04B04. Affected is the function formSetEasy_Wizard. The manipulation of the argument curTime leads to buffer overflow. It is possible to launch the attack remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -87,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4451
 <br>
-<strong>Published : </strong> May 9, 2025, 1:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 1:15 a.m. | 2 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in D-Link DIR-619L 2.04B04 and classified as critical. Affected by this vulnerability is the function formSetWAN_Wizard52. The manipulation of the argument curTime leads to buffer overflow. The attack can be launched remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -104,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4442
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 a.m. | 3 hours, 23 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in D-Link DIR-605L 2.13B01. It has been declared as critical. This vulnerability affects the function formSetWAN_Wizard55. The manipulation of the argument curTime leads to buffer overflow. The attack can be initiated remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -121,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4443
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 a.m. | 3 hours, 23 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in D-Link DIR-605L 2.13B01. It has been rated as critical. This issue affects the function sub_454F2C. The manipulation of the argument sysCmd leads to command injection. The attack may be initiated remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -138,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4445
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 a.m. | 3 hours, 23 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in D-Link DIR-605L 2.13B01. Affected is the function wake_on_lan. The manipulation of the argument mac leads to command injection. It is possible to launch the attack remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -155,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4446
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 a.m. | 2 hours, 15 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 a.m. | 3 hours, 23 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in H3C GR-5400AX up to 100R008 and classified as critical. This vulnerability affects the function Edit_List_SSID of the file /goform/aspForm. The manipulation of the argument param leads to buffer overflow. The attack needs to be approached within the local network.
 <br>
@@ -166,6 +268,178 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 09 May 2025 00:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4446</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4446</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29813 - Microsoft Visual Studio Pipeline Job Token Elevation of Privilege Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29813
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>An elevation of privilege vulnerability exists when Visual Studio improperly handles pipeline job tokens. An attacker who successfully exploited this vulnerability could extend their access to a project.
+To exploit this vulnerability, an attacker would first have to have access to the project and swap the short-term token for a long-term one.
+The update addresses the vulnerability by correcting how the Visual Studio updater handles these tokens.
+<br>
+<strong>Severity:</strong> 10.0 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29813</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29813</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29827 - Azure Automation Unprivileged Elevation of Privilege</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29827
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper Authorization in Azure Automation allows an authorized attacker to elevate privileges over a network.
+<br>
+<strong>Severity:</strong> 9.9 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29827</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29827</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29972 - Azure SSRF Spoofing Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29972
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Server-Side Request Forgery (SSRF) in Azure allows an authorized attacker to perform spoofing over a network.
+<br>
+<strong>Severity:</strong> 9.9 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29972</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29972</guid>
+    </item>
+    <item>
+      <title>CVE-2025-31946 - Pixmeo OsiriX MD Local Use After Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-31946
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Pixmeo OsiriX MD  is vulnerable to a local use after free scenario, which could allow an attacker to locally import a crafted DICOM file and cause memory corruption or a system crash.
+<br>
+<strong>Severity:</strong> 6.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-31946</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31946</guid>
+    </item>
+    <item>
+      <title>CVE-2025-33072 - Azure Azure Network Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-33072
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Improper access control in Azure allows an unauthorized attacker to disclose information over a network.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-33072</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-33072</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47732 - Microsoft Dataverse Remote Code Execution (RCE)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47732
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Microsoft Dataverse Remote Code Execution Vulnerability
+<br>
+<strong>Severity:</strong> 8.7 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47732</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47732</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47733 - Microsoft Power Apps SSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47733
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Server-Side Request Forgery (SSRF) in Microsoft Power Apps allows an unauthorized attacker to disclose information over a network
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47733</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47733</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4107 - Microsoft Windows SMB Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4107
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4107</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4107</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4440 - H3C GR-1800AX Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4440
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in H3C GR-1800AX up to 100R008 and classified as critical. Affected by this issue is the function EnableIpv6 of the file /goform/aspForm. The manipulation of the argument param leads to buffer overflow. Access to the local network is required for this attack to succeed. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 8.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4440</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4440</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4441 - D-Link DIR-605L Remote Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4441
+<br>
+<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 4 hours, 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in D-Link DIR-605L 2.13B01. It has been classified as critical. This affects the function formSetWAN_Wizard534. The manipulation of the argument curTime leads to buffer overflow. It is possible to initiate the attack remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4441</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4441</guid>
     </item>
     <item>
       <title>CVE-2025-27578 - Pixmeo OsiriX MD Denial-of-Service Use-After-Free Vulnerability</title>
@@ -200,178 +474,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-27720</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-27720</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29813 - Microsoft Visual Studio Pipeline Job Token Elevation of Privilege Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29813
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>An elevation of privilege vulnerability exists when Visual Studio improperly handles pipeline job tokens. An attacker who successfully exploited this vulnerability could extend their access to a project.
-To exploit this vulnerability, an attacker would first have to have access to the project and swap the short-term token for a long-term one.
-The update addresses the vulnerability by correcting how the Visual Studio updater handles these tokens.
-<br>
-<strong>Severity:</strong> 10.0 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29813</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29813</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29827 - Azure Automation Unprivileged Elevation of Privilege</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29827
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Improper Authorization in Azure Automation allows an authorized attacker to elevate privileges over a network.
-<br>
-<strong>Severity:</strong> 9.9 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29827</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29827</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29972 - Azure SSRF Spoofing Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29972
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Server-Side Request Forgery (SSRF) in Azure allows an authorized attacker to perform spoofing over a network.
-<br>
-<strong>Severity:</strong> 9.9 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29972</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29972</guid>
-    </item>
-    <item>
-      <title>CVE-2025-31946 - Pixmeo OsiriX MD Local Use After Free Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-31946
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Pixmeo OsiriX MD  is vulnerable to a local use after free scenario, which could allow an attacker to locally import a crafted DICOM file and cause memory corruption or a system crash.
-<br>
-<strong>Severity:</strong> 6.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-31946</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-31946</guid>
-    </item>
-    <item>
-      <title>CVE-2025-33072 - Azure Azure Network Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-33072
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Improper access control in Azure allows an unauthorized attacker to disclose information over a network.
-<br>
-<strong>Severity:</strong> 8.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-33072</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-33072</guid>
-    </item>
-    <item>
-      <title>CVE-2025-47732 - Microsoft Dataverse Remote Code Execution (RCE)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-47732
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Microsoft Dataverse Remote Code Execution Vulnerability
-<br>
-<strong>Severity:</strong> 8.7 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-47732</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47732</guid>
-    </item>
-    <item>
-      <title>CVE-2025-47733 - Microsoft Power Apps SSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-47733
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Server-Side Request Forgery (SSRF) in Microsoft Power Apps allows an unauthorized attacker to disclose information over a network
-<br>
-<strong>Severity:</strong> 9.1 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-47733</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47733</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4107 - Microsoft Windows SMB Remote Code Execution Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4107
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4107</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4107</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4440 - H3C GR-1800AX Buffer Overflow Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4440
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in H3C GR-1800AX up to 100R008 and classified as critical. Affected by this issue is the function EnableIpv6 of the file /goform/aspForm. The manipulation of the argument param leads to buffer overflow. Access to the local network is required for this attack to succeed. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 8.0 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4440</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4440</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4441 - D-Link DIR-605L Remote Buffer Overflow Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4441
-<br>
-<strong>Published : </strong> May 8, 2025, 11:15 p.m. | 3 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in D-Link DIR-605L 2.13B01. It has been classified as critical. This affects the function formSetWAN_Wizard534. The manipulation of the argument curTime leads to buffer overflow. It is possible to initiate the attack remotely. The vendor was contacted early about this disclosure. This vulnerability only affects products that are no longer supported by the maintainer.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 08 May 2025 23:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4441</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4441</guid>
     </item>
     <item>
       <title>CVE-2025-1329 - IBM CICS TX DNS Rebinding Vulnerability</title>
