@@ -8,18 +8,35 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 09 May 2025 15:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 16:21:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-45887 - Yifang CMS SSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45887
+<br>
+<strong>Published : </strong> May 9, 2025, 3:15 p.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>Yifang CMS v2.0.2 is vulnerable to Server-Side Request Forgery (SSRF) in /api/file/getRemoteContent.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45887</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45887</guid>
+    </item>
+    <item>
       <title>CVE-2024-11861 - EnerSys AMPA Remote Command Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-11861
 <br>
-<strong>Published : </strong> May 9, 2025, 2:15 p.m. | 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 2:15 p.m. | 1 hour, 46 minutes ago
 <br>
 <strong>Description : </strong>EnerSys AMPA 22.09 and prior versions are vulnerable to command injection leading to privileged remote shell access.
 <br>
@@ -36,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-12442
 <br>
-<strong>Published : </strong> May 9, 2025, 2:15 p.m. | 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 2:15 p.m. | 1 hour, 46 minutes ago
 <br>
 <strong>Description : </strong>EnerSys AMPA versions 24.04 through 24.16, inclusive, are vulnerable to command injection leading to privileged remote shell access.
 <br>
@@ -53,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45885
 <br>
-<strong>Published : </strong> May 9, 2025, 2:15 p.m. | 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 2:15 p.m. | 1 hour, 46 minutes ago
 <br>
 <strong>Description : </strong>PHPGURUKUL Vehicle Parking Management System v1.13 is vulnerable to SQL injection in the /vpms/users/login.php file. Attackers can inject malicious code from the parameter 'emailcont' and use it directly in SQL queries.
 <br>
@@ -70,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1087
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 3 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>Kong Insomnia Desktop Application before 11.0.2 contains a template injection vulnerability that allows attackers to execute arbitrary code. The vulnerability exists due to insufficient validation of user-supplied input when processing template strings, which can lead to arbitrary JavaScript execution in the context of the application.
 <br>
@@ -87,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3528
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 3 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in the Mirror Registry. The quay-app container shipped as part of the Mirror Registry for OpenShift has write access to the `/etc/passwd`. This flaw allows a malicious actor with access to the container to modify the passwd file and elevate their privileges to the root user within that pod.
 <br>
@@ -104,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3897
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 3 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>The EUCookieLaw plugin for WordPress is vulnerable to Arbitrary File Read in all versions up to, and including, 2.7.2 via the 'file_get_contents' function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information. The vulnerability can only be exploited if a caching plugin such as W3 Total Cache is installed and activated.
 <br>
@@ -121,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4206
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 3 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>The WordPress CRM, Email & Marketing Automation for WordPress | Award Winner — Groundhogg plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the 'process_export_delete' and 'process_import_delete' functions in all versions up to, and including, 4.1.1.2. This makes it possible for authenticated attackers, with Administrator-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
 <br>
@@ -138,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4382
 <br>
-<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 12:15 p.m. | 3 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in systems utilizing LUKS-encrypted disks with GRUB configured for TPM-based auto-decryption. When GRUB is set to automatically decrypt disks using keys stored in the TPM, it reads the decryption key into system memory. If an attacker with physical access can corrupt the underlying filesystem superblock, GRUB will fail to locate a valid filesystem and enter rescue mode. At this point, the disk is already decrypted, and the decryption key remains loaded in system memory. This scenario may allow an attacker with physical access to access the unencrypted data without any further authentication, thereby compromising data confidentiality. Furthermore, the ability to force this state through filesystem corruption also presents a data integrity concern.
 <br>
@@ -155,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46392
 <br>
-<strong>Published : </strong> May 9, 2025, 10:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 10:15 a.m. | 5 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>Uncontrolled Resource Consumption vulnerability in Apache Commons Configuration 1.x.
 
@@ -177,7 +194,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3949
 <br>
-<strong>Published : </strong> May 9, 2025, 9:15 a.m. | 5 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 9:15 a.m. | 6 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>The Website Builder by SeedProd — Theme Builder, Landing Page Builder, Coming Soon Page, Maintenance Mode plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'seedprod_lite_get_revisisons' function in all versions up to, and including, 6.18.15. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the content of arbitrary landing page revisions.
 <br>
@@ -194,7 +211,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4403
 <br>
-<strong>Published : </strong> May 9, 2025, 9:15 a.m. | 5 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 9:15 a.m. | 6 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>The Drag and Drop Multiple File Upload for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads in all versions up to, and including, 1.1.6 due to accepting a user‐supplied supported_type string and the uploaded filename without enforcing real extension or MIME checks within the upload() function. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 <br>
@@ -211,7 +228,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4471
 <br>
-<strong>Published : </strong> May 9, 2025, 8:15 a.m. | 6 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 8:15 a.m. | 7 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Jewelery Store Management system 1.0. Affected by this issue is some unknown functionality of the component Search Item View. The manipulation of the argument str2 leads to stack-based buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
 <br>
@@ -228,7 +245,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4472
 <br>
-<strong>Published : </strong> May 9, 2025, 8:15 a.m. | 6 hours, 39 minutes ago
+<strong>Published : </strong> May 9, 2025, 8:15 a.m. | 7 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Departmental Store Management System 1.0. It has been classified as critical. Affected is the function bill. The manipulation of the argument Item Code leads to stack-based buffer overflow. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.
 <br>
@@ -239,6 +256,255 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 09 May 2025 08:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4472</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4472</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37885 - KVM Linux Kernel MSI Route Handling Use-After-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37885
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+KVM: x86: Reset IRTE to host control if *new* route isn't postable
+
+Restore an IRTE back to host control (remapped or posted MSI mode) if the
+*new* GSI route prevents posting the IRQ directly to a vCPU, regardless of
+the GSI routing type.  Updating the IRTE if and only if the new GSI is an
+MSI results in KVM leaving an IRTE posting to a vCPU.
+
+The dangling IRTE can result in interrupts being incorrectly delivered to
+the guest, and in the worst case scenario can result in use-after-free,
+e.g. if the VM is torn down, but the underlying host IRQ isn't freed.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37885</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37885</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37886 - Linux Kernel PDS Core Use-After-Free Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37886
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+pds_core: make wait_context part of q_info
+
+Make the wait_context a full part of the q_info struct rather
+than a stack variable that goes away after pdsc_adminq_post()
+is done so that the context is still available after the wait
+loop has given up.
+
+There was a case where a slow development firmware caused
+the adminq request to time out, but then later the FW finally
+finished the request and sent the interrupt.  The handler tried
+to complete_all() the completion context that had been created
+on the stack in pdsc_adminq_post() but no longer existed.
+This caused bad pointer usage, kernel crashes, and much wailing
+and gnashing of teeth.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37886</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37886</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37887 - Linux Kernel PDS_CORE Devlink Command Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37887
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+pds_core: handle unsupported PDS_CORE_CMD_FW_CONTROL result
+
+If the FW doesn't support the PDS_CORE_CMD_FW_CONTROL command
+the driver might at the least print garbage and at the worst
+crash when the user runs the "devlink dev info" devlink command.
+
+This happens because the stack variable fw_list is not 0
+initialized which results in fw_list.num_fw_slots being a
+garbage value from the stack.  Then the driver tries to access
+fw_list.fw_names[i] with i >= ARRAY_SIZE and runs off the end
+of the array.
+
+Fix this by initializing the fw_list and by not failing
+completely if the devcmd fails because other useful information
+is printed via devlink dev info even if the devcmd fails.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37887</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37887</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37888 - Intel Mellanox Linux Null Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37888
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net/mlx5: Fix null-ptr-deref in mlx5_create_{inner_,}ttc_table()
+
+Add NULL check for mlx5_get_flow_namespace() returns in
+mlx5_create_inner_ttc_table() and mlx5_create_ttc_table() to prevent
+NULL pointer dereference.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37888</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37888</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37889 - XEN PCI MSI NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37889
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+PCI/MSI: Handle the NOMASK flag correctly for all PCI/MSI backends
+
+The conversion of the XEN specific global variable pci_msi_ignore_mask to a
+MSI domain flag, missed the facts that:
+
+    1) Legacy architectures do not provide a interrupt domain
+    2) Parent MSI domains do not necessarily have a domain info attached
+   
+Both cases result in an unconditional NULL pointer dereference. This was
+unfortunatly missed in review and testing revealed it late.
+
+Cure this by using the existing pci_msi_domain_supports() helper, which
+handles all possible cases correctly.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37889</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37889</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3455 - WordPress 1 Click Migration Plugin Remote File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3455
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>The 1 Click WordPress Migration Plugin – 100% FREE for a limited time plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'start_restore' function in all versions up to, and including, 2.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3455</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3455</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3605 - WordPress Frontend Login and Registration Blocks Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3605
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>The Frontend Login and Registration Blocks plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.7. This is due to the plugin not properly validating a user's identity prior to updating their details like email via the flr_blocks_user_settings_handle_ajax_callback() function. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3605</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3605</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4467 - SourceCodester Online Student Clearance System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4467
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Online Student Clearance System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/edit-admin.php. The manipulation of the argument txtfullname/txtemail/cmddesignation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4467</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4467</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4468 - SourceCodester Online Student Clearance System File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4468
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Online Student Clearance System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /edit-photo.php. The manipulation of the argument userImage leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4468</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4468</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4469 - SourceCodester Online Student Clearance System Cross Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4469
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in SourceCodester Online Student Clearance System 1.0. Affected is an unknown function of the file /admin/add-admin.php. The manipulation of the argument Username leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4469</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4469</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4470 - SourceCodester Online Student Clearance System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4470
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 8 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic was found in SourceCodester Online Student Clearance System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/add-student.php. The manipulation of the argument Fullname leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4470</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4470</guid>
     </item>
     <item>
       <title>CVE-2025-37884 - Linux Kernel BPF Event Mutex Deadlock</title>
@@ -281,255 +547,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-37884</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-37884</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37885 - KVM Linux Kernel MSI Route Handling Use-After-Free Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37885
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-KVM: x86: Reset IRTE to host control if *new* route isn't postable
-
-Restore an IRTE back to host control (remapped or posted MSI mode) if the
-*new* GSI route prevents posting the IRQ directly to a vCPU, regardless of
-the GSI routing type.  Updating the IRTE if and only if the new GSI is an
-MSI results in KVM leaving an IRTE posting to a vCPU.
-
-The dangling IRTE can result in interrupts being incorrectly delivered to
-the guest, and in the worst case scenario can result in use-after-free,
-e.g. if the VM is torn down, but the underlying host IRQ isn't freed.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37885</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37885</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37886 - Linux Kernel PDS Core Use-After-Free Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37886
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-pds_core: make wait_context part of q_info
-
-Make the wait_context a full part of the q_info struct rather
-than a stack variable that goes away after pdsc_adminq_post()
-is done so that the context is still available after the wait
-loop has given up.
-
-There was a case where a slow development firmware caused
-the adminq request to time out, but then later the FW finally
-finished the request and sent the interrupt.  The handler tried
-to complete_all() the completion context that had been created
-on the stack in pdsc_adminq_post() but no longer existed.
-This caused bad pointer usage, kernel crashes, and much wailing
-and gnashing of teeth.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37886</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37886</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37887 - Linux Kernel PDS_CORE Devlink Command Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37887
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-pds_core: handle unsupported PDS_CORE_CMD_FW_CONTROL result
-
-If the FW doesn't support the PDS_CORE_CMD_FW_CONTROL command
-the driver might at the least print garbage and at the worst
-crash when the user runs the "devlink dev info" devlink command.
-
-This happens because the stack variable fw_list is not 0
-initialized which results in fw_list.num_fw_slots being a
-garbage value from the stack.  Then the driver tries to access
-fw_list.fw_names[i] with i >= ARRAY_SIZE and runs off the end
-of the array.
-
-Fix this by initializing the fw_list and by not failing
-completely if the devcmd fails because other useful information
-is printed via devlink dev info even if the devcmd fails.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37887</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37887</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37888 - Intel Mellanox Linux Null Pointer Dereference Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37888
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-net/mlx5: Fix null-ptr-deref in mlx5_create_{inner_,}ttc_table()
-
-Add NULL check for mlx5_get_flow_namespace() returns in
-mlx5_create_inner_ttc_table() and mlx5_create_ttc_table() to prevent
-NULL pointer dereference.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37888</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37888</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37889 - XEN PCI MSI NULL Pointer Dereference Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37889
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-PCI/MSI: Handle the NOMASK flag correctly for all PCI/MSI backends
-
-The conversion of the XEN specific global variable pci_msi_ignore_mask to a
-MSI domain flag, missed the facts that:
-
-    1) Legacy architectures do not provide a interrupt domain
-    2) Parent MSI domains do not necessarily have a domain info attached
-   
-Both cases result in an unconditional NULL pointer dereference. This was
-unfortunatly missed in review and testing revealed it late.
-
-Cure this by using the existing pci_msi_domain_supports() helper, which
-handles all possible cases correctly.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37889</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37889</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3455 - WordPress 1 Click Migration Plugin Remote File Upload Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3455
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>The 1 Click WordPress Migration Plugin – 100% FREE for a limited time plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'start_restore' function in all versions up to, and including, 2.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3455</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3455</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3605 - WordPress Frontend Login and Registration Blocks Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3605
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>The Frontend Login and Registration Blocks plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.7. This is due to the plugin not properly validating a user's identity prior to updating their details like email via the flr_blocks_user_settings_handle_ajax_callback() function. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3605</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3605</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4467 - SourceCodester Online Student Clearance System SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4467
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in SourceCodester Online Student Clearance System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/edit-admin.php. The manipulation of the argument txtfullname/txtemail/cmddesignation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4467</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4467</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4468 - SourceCodester Online Student Clearance System File Upload Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4468
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in SourceCodester Online Student Clearance System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /edit-photo.php. The manipulation of the argument userImage leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4468</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4468</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4469 - SourceCodester Online Student Clearance System Cross Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4469
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability classified as problematic has been found in SourceCodester Online Student Clearance System 1.0. Affected is an unknown function of the file /admin/add-admin.php. The manipulation of the argument Username leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 2.4 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4469</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4469</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4470 - SourceCodester Online Student Clearance System Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4470
-<br>
-<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 7 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability classified as problematic was found in SourceCodester Online Student Clearance System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/add-student.php. The manipulation of the argument Fullname leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
-<br>
-<strong>Severity:</strong> 2.4 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4470</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4470</guid>
     </item>
     <item>
       <title>CVE-2025-37881 - Aspeed USB Gadget NULL Pointer Dereference</title>
