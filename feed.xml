@@ -8,12 +8,808 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 09 May 2025 07:38:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 07:50:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-37871 - Linux Kernel NFSd Deadlock Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37871
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+nfsd: decrease sc_count directly if fail to queue dl_recall
+
+A deadlock warning occurred when invoking nfs4_put_stid following a failed
+dl_recall queue operation:
+            T1                            T2
+                                nfs4_laundromat
+                                 nfs4_get_client_reaplist
+                                  nfs4_anylock_blockers
+__break_lease
+ spin_lock // ctx->flc_lock
+                                   spin_lock // clp->cl_lock
+                                   nfs4_lockowner_has_blockers
+                                    locks_owner_has_blockers
+                                     spin_lock // flctx->flc_lock
+ nfsd_break_deleg_cb
+  nfsd_break_one_deleg
+   nfs4_put_stid
+    refcount_dec_and_lock
+     spin_lock // clp->cl_lock
+
+When a file is opened, an nfs4_delegation is allocated with sc_count
+initialized to 1, and the file_lease holds a reference to the delegation.
+The file_lease is then associated with the file through kernel_setlease.
+
+The disassociation is performed in nfsd4_delegreturn via the following
+call chain:
+nfsd4_delegreturn --> destroy_delegation --> destroy_unhashed_deleg -->
+nfs4_unlock_deleg_lease --> kernel_setlease --> generic_delete_lease
+The corresponding sc_count reference will be released after this
+disassociation.
+
+Since nfsd_break_one_deleg executes while holding the flc_lock, the
+disassociation process becomes blocked when attempting to acquire flc_lock
+in generic_delete_lease. This means:
+1) sc_count in nfsd_break_one_deleg will not be decremented to 0;
+2) The nfs4_put_stid called by nfsd_break_one_deleg will not attempt to
+acquire cl_lock;
+3) Consequently, no deadlock condition is created.
+
+Given that sc_count in nfsd_break_one_deleg remains non-zero, we can
+safely perform refcount_dec on sc_count directly. This approach
+effectively avoids triggering deadlock warnings.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37871</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37871</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37872 - NetXtreme Gigabit Ethernet (TXGBE) Memory Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37872
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: txgbe: fix memory leak in txgbe_probe() error path
+
+When txgbe_sw_init() is called, memory is allocated for wx->rss_key
+in wx_init_rss_key(). However, in txgbe_probe() function, the subsequent
+error paths after txgbe_sw_init() don't free the rss_key. Fix that by
+freeing it in error path along with wx->mac_table.
+
+Also change the label to which execution jumps when txgbe_sw_init()
+fails, because otherwise, it could lead to a double free for rss_key,
+when the mac_table allocation fails in wx_sw_init().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37872</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37872</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37873 - "bnxt Ethernet Driver DMA Mapping Error Crash Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37873
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+eth: bnxt: fix missing ring index trim on error path
+
+Commit under Fixes converted tx_prod to be free running but missed
+masking it on the Tx error path. This crashes on error conditions,
+for example when DMA mapping fails.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37873</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37873</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37874 - "Netgear BE Wireless Driver Memory Leak"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37874
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: ngbe: fix memory leak in ngbe_probe() error path
+
+When ngbe_sw_init() is called, memory is allocated for wx->rss_key
+in wx_init_rss_key(). However, in ngbe_probe() function, the subsequent
+error paths after ngbe_sw_init() don't free the rss_key. Fix that by
+freeing it in error path along with wx->mac_table.
+
+Also change the label to which execution jumps when ngbe_sw_init()
+fails, because otherwise, it could lead to a double free for rss_key,
+when the mac_table allocation fails in wx_sw_init().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37874</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37874</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37875 - "Ionic Gigabit Controller (igc) PTM Trigger Logic Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37875
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+igc: fix PTM cycle trigger logic
+
+Writing to clear the PTM status 'valid' bit while the PTM cycle is
+triggered results in unreliable PTM operation. To fix this, clear the
+PTM 'trigger' and status after each PTM transaction.
+
+The issue can be reproduced with the following:
+
+$ sudo phc2sys -R 1000 -O 0 -i tsn0 -m
+
+Note: 1000 Hz (-R 1000) is unrealistically large, but provides a way to
+quickly reproduce the issue.
+
+PHC2SYS exits with:
+
+"ioctl PTP_OFFSET_PRECISE: Connection timed out" when the PTM transaction
+  fails
+
+This patch also fixes a hang in igc_probe() when loading the igc
+driver in the kdump kernel on systems supporting PTM.
+
+The igc driver running in the base kernel enables PTM trigger in
+igc_probe().  Therefore the driver is always in PTM trigger mode,
+except in brief periods when manually triggering a PTM cycle.
+
+When a crash occurs, the NIC is reset while PTM trigger is enabled.
+Due to a hardware problem, the NIC is subsequently in a bad busmaster
+state and doesn't handle register reads/writes.  When running
+igc_probe() in the kdump kernel, the first register access to a NIC
+register hangs driver probing and ultimately breaks kdump.
+
+With this patch, igc has PTM trigger disabled most of the time,
+and the trigger is only enabled for very brief (10 - 100 us) periods
+when manually triggering a PTM cycle.  Chances that a crash occurs
+during a PTM trigger are not 0, but extremely reduced.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37875</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37875</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37876 - Linux NetFS NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37876
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+netfs: Only create /proc/fs/netfs with CONFIG_PROC_FS
+
+When testing a special config:
+
+CONFIG_NETFS_SUPPORTS=y
+CONFIG_PROC_FS=n
+
+The system crashes with something like:
+
+[    3.766197] ------------[ cut here ]------------
+[    3.766484] kernel BUG at mm/mempool.c:560!
+[    3.766789] Oops: invalid opcode: 0000 [#1] SMP NOPTI
+[    3.767123] CPU: 0 UID: 0 PID: 1 Comm: swapper/0 Tainted: G        W
+[    3.767777] Tainted: [W]=WARN
+[    3.767968] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996),
+[    3.768523] RIP: 0010:mempool_alloc_slab.cold+0x17/0x19
+[    3.768847] Code: 50 fe ff 58 5b 5d 41 5c 41 5d 41 5e 41 5f e9 93 95 13 00
+[    3.769977] RSP: 0018:ffffc90000013998 EFLAGS: 00010286
+[    3.770315] RAX: 000000000000002f RBX: ffff888100ba8640 RCX: 0000000000000000
+[    3.770749] RDX: 0000000000000000 RSI: 0000000000000003 RDI: 00000000ffffffff
+[    3.771217] RBP: 0000000000092880 R08: 0000000000000000 R09: ffffc90000013828
+[    3.771664] R10: 0000000000000001 R11: 00000000ffffffea R12: 0000000000092cc0
+[    3.772117] R13: 0000000000000400 R14: ffff8881004b1620 R15: ffffea0004ef7e40
+[    3.772554] FS:  0000000000000000(0000) GS:ffff8881b5f3c000(0000) knlGS:0000000000000000
+[    3.773061] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    3.773443] CR2: ffffffff830901b4 CR3: 0000000004296001 CR4: 0000000000770ef0
+[    3.773884] PKRU: 55555554
+[    3.774058] Call Trace:
+[    3.774232]  <TASK>
+[    3.774371]  mempool_alloc_noprof+0x6a/0x190
+[    3.774649]  ? _printk+0x57/0x80
+[    3.774862]  netfs_alloc_request+0x85/0x2ce
+[    3.775147]  netfs_readahead+0x28/0x170
+[    3.775395]  read_pages+0x6c/0x350
+[    3.775623]  ? srso_alias_return_thunk+0x5/0xfbef5
+[    3.775928]  page_cache_ra_unbounded+0x1bd/0x2a0
+[    3.776247]  filemap_get_pages+0x139/0x970
+[    3.776510]  ? srso_alias_return_thunk+0x5/0xfbef5
+[    3.776820]  filemap_read+0xf9/0x580
+[    3.777054]  ? srso_alias_return_thunk+0x5/0xfbef5
+[    3.777368]  ? srso_alias_return_thunk+0x5/0xfbef5
+[    3.777674]  ? find_held_lock+0x32/0x90
+[    3.777929]  ? netfs_start_io_read+0x19/0x70
+[    3.778221]  ? netfs_start_io_read+0x19/0x70
+[    3.778489]  ? srso_alias_return_thunk+0x5/0xfbef5
+[    3.778800]  ? lock_acquired+0x1e6/0x450
+[    3.779054]  ? srso_alias_return_thunk+0x5/0xfbef5
+[    3.779379]  netfs_buffered_read_iter+0x57/0x80
+[    3.779670]  __kernel_read+0x158/0x2c0
+[    3.779927]  bprm_execve+0x300/0x7a0
+[    3.780185]  kernel_execve+0x10c/0x140
+[    3.780423]  ? __pfx_kernel_init+0x10/0x10
+[    3.780690]  kernel_init+0xd5/0x150
+[    3.780910]  ret_from_fork+0x2d/0x50
+[    3.781156]  ? __pfx_kernel_init+0x10/0x10
+[    3.781414]  ret_from_fork_asm+0x1a/0x30
+[    3.781677]  </TASK>
+[    3.781823] Modules linked in:
+[    3.782065] ---[ end trace 0000000000000000 ]---
+
+This is caused by the following error path in netfs_init():
+
+        if (!proc_mkdir("fs/netfs", NULL))
+                goto error_proc;
+
+Fix this by adding ifdef in netfs_main(), so that /proc/fs/netfs is only
+created with CONFIG_PROC_FS.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37876</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37876</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37877 - Linux Kernel IOMMU DMA Cleanup Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37877
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+iommu: Clear iommu-dma ops on cleanup
+
+If iommu_device_register() encounters an error, it can end up tearing
+down already-configured groups and default domains, however this
+currently still leaves devices hooked up to iommu-dma (and even
+historically the behaviour in this area was at best inconsistent across
+architectures/drivers...) Although in the case that an IOMMU is present
+whose driver has failed to probe, users cannot necessarily expect DMA to
+work anyway, it's still arguable that we should do our best to put
+things back as if the IOMMU driver was never there at all, and certainly
+the potential for crashing in iommu-dma itself is undesirable. Make sure
+we clean up the dev->dma_iommu flag along with everything else.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37877</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37877</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37878 - Linux Kernel Perf Core Context Assignment Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37878
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+perf/core: Fix WARN_ON(!ctx) in __free_event() for partial init
+
+Move the get_ctx(child_ctx) call and the child_event->ctx assignment to
+occur immediately after the child event is allocated. Ensure that
+child_event->ctx is non-NULL before any subsequent error path within
+inherit_event calls free_event(), satisfying the assumptions of the
+cleanup code.
+
+Details:
+
+There's no clear Fixes tag, because this bug is a side-effect of
+multiple interacting commits over time (up to 15 years old), not
+a single regression.
+
+The code initially incremented refcount then assigned context
+immediately after the child_event was created. Later, an early
+validity check for child_event was added before the
+refcount/assignment. Even later, a WARN_ON_ONCE() cleanup check was
+added, assuming event->ctx is valid if the pmu_ctx is valid.
+The problem is that the WARN_ON_ONCE() could trigger after the initial
+check passed but before child_event->ctx was assigned, violating its
+precondition. The solution is to assign child_event->ctx right after
+its initial validation. This ensures the context exists for any
+subsequent checks or cleanup routines, resolving the WARN_ON_ONCE().
+
+To resolve it, defer the refcount update and child_event->ctx assignment
+directly after child_event->pmu_ctx is set but before checking if the
+parent event is orphaned. The cleanup routine depends on
+event->pmu_ctx being non-NULL before it verifies event->ctx is
+non-NULL. This also maintains the author's original intent of passing
+in child_ctx to find_get_pmu_context before its refcount/assignment.
+
+[ mingo: Expanded the changelog from another email by Gabriel Shahrouzi. ]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37878</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37878</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37879 - "Linux 9p Client Signed Integer Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37879
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+9p/net: fix improper handling of bogus negative read/write replies
+
+In p9_client_write() and p9_client_read_once(), if the server
+incorrectly replies with success but a negative write/read count then we
+would consider written (negative) <= rsize (positive) because both
+variables were signed.
+
+Make variables unsigned to avoid this problem.
+
+The reproducer linked below now fails with the following error instead
+of a null pointer deref:
+9pnet: bogus RWRITE count (4294967295 > 3)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37879</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37879</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37880 - Linux um Time-Travel Scheduling Vulnerability (Deadlock)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37880
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+um: work around sched_yield not yielding in time-travel mode
+
+sched_yield by a userspace may not actually cause scheduling in
+time-travel mode as no time has passed. In the case seen it appears to
+be a badly implemented userspace spinlock in ASAN. Unfortunately, with
+time-travel it causes an extreme slowdown or even deadlock depending on
+the kernel configuration (CONFIG_UML_MAX_USERSPACE_ITERATIONS).
+
+Work around it by accounting time to the process whenever it executes a
+sched_yield syscall.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37880</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37880</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37881 - Aspeed USB Gadget NULL Pointer Dereference</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37881
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+usb: gadget: aspeed: Add NULL pointer check in ast_vhub_init_dev()
+
+The variable d->name, returned by devm_kasprintf(), could be NULL.
+A pointer check is added to prevent potential NULL pointer dereference.
+This is similar to the fix in commit 3027e7b15b02
+("ice: Fix some null pointer dereference issues in ice_ptp.c").
+
+This issue is found by our static analysis tool
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37881</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37881</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37882 - Linux Kernel USB xHCI Isochronous Ring Handling Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37882
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+usb: xhci: Fix isochronous Ring Underrun/Overrun event handling
+
+The TRB pointer of these events points at enqueue at the time of error
+occurrence on xHCI 1.1+ HCs or it's NULL on older ones. By the time we
+are handling the event, a new TD may be queued at this ring position.
+
+I can trigger this race by rising interrupt moderation to increase IRQ
+handling delay. Similar delay may occur naturally due to system load.
+
+If this ever happens after a Missed Service Error, missed TDs will be
+skipped and the new TD processed as if it matched the event. It could
+be given back prematurely, risking data loss or buffer UAF by the xHC.
+
+Don't complete TDs on xrun events and don't warn if queued TDs don't
+match the event's TRB pointer, which can be NULL or a link/no-op TRB.
+Don't warn if there are no queued TDs at all.
+
+Now that it's safe, also handle xrun events if the skip flag is clear.
+This ensures completion of any TD stuck in 'error mid TD' state right
+before the xrun event, which could happen if a driver submits a finite
+number of URBs to a buggy HC and then an error occurs on the last TD.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37882</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37882</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37883 - IBM s390 Linux Kernel Null Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37883
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+s390/sclp: Add check for get_zeroed_page()
+
+Add check for the return value of get_zeroed_page() in
+sclp_console_init() to prevent null pointer dereference.
+Furthermore, to solve the memory leak caused by the loop
+allocation, add a free helper to do the free job.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37883</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37883</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37884 - Linux Kernel BPF Event Mutex Deadlock</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37884
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bpf: Fix deadlock between rcu_tasks_trace and event_mutex.
+
+Fix the following deadlock:
+CPU A
+_free_event()
+  perf_kprobe_destroy()
+    mutex_lock(&event_mutex)
+      perf_trace_event_unreg()
+        synchronize_rcu_tasks_trace()
+
+There are several paths where _free_event() grabs event_mutex
+and calls sync_rcu_tasks_trace. Above is one such case.
+
+CPU B
+bpf_prog_test_run_syscall()
+  rcu_read_lock_trace()
+    bpf_prog_run_pin_on_cpu()
+      bpf_prog_load()
+        bpf_tracing_func_proto()
+          trace_set_clr_event()
+            mutex_lock(&event_mutex)
+
+Delegate trace_set_clr_event() to workqueue to avoid
+such lock dependency.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37884</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37884</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37885 - KVM Linux Kernel MSI Route Handling Use-After-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37885
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+KVM: x86: Reset IRTE to host control if *new* route isn't postable
+
+Restore an IRTE back to host control (remapped or posted MSI mode) if the
+*new* GSI route prevents posting the IRQ directly to a vCPU, regardless of
+the GSI routing type.  Updating the IRTE if and only if the new GSI is an
+MSI results in KVM leaving an IRTE posting to a vCPU.
+
+The dangling IRTE can result in interrupts being incorrectly delivered to
+the guest, and in the worst case scenario can result in use-after-free,
+e.g. if the VM is torn down, but the underlying host IRQ isn't freed.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37885</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37885</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37886 - Linux Kernel PDS Core Use-After-Free Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37886
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+pds_core: make wait_context part of q_info
+
+Make the wait_context a full part of the q_info struct rather
+than a stack variable that goes away after pdsc_adminq_post()
+is done so that the context is still available after the wait
+loop has given up.
+
+There was a case where a slow development firmware caused
+the adminq request to time out, but then later the FW finally
+finished the request and sent the interrupt.  The handler tried
+to complete_all() the completion context that had been created
+on the stack in pdsc_adminq_post() but no longer existed.
+This caused bad pointer usage, kernel crashes, and much wailing
+and gnashing of teeth.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37886</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37886</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37887 - Linux Kernel PDS_CORE Devlink Command Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37887
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+pds_core: handle unsupported PDS_CORE_CMD_FW_CONTROL result
+
+If the FW doesn't support the PDS_CORE_CMD_FW_CONTROL command
+the driver might at the least print garbage and at the worst
+crash when the user runs the "devlink dev info" devlink command.
+
+This happens because the stack variable fw_list is not 0
+initialized which results in fw_list.num_fw_slots being a
+garbage value from the stack.  Then the driver tries to access
+fw_list.fw_names[i] with i >= ARRAY_SIZE and runs off the end
+of the array.
+
+Fix this by initializing the fw_list and by not failing
+completely if the devcmd fails because other useful information
+is printed via devlink dev info even if the devcmd fails.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37887</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37887</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37888 - Intel Mellanox Linux Null Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37888
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net/mlx5: Fix null-ptr-deref in mlx5_create_{inner_,}ttc_table()
+
+Add NULL check for mlx5_get_flow_namespace() returns in
+mlx5_create_inner_ttc_table() and mlx5_create_ttc_table() to prevent
+NULL pointer dereference.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37888</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37888</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37889 - XEN PCI MSI NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37889
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+PCI/MSI: Handle the NOMASK flag correctly for all PCI/MSI backends
+
+The conversion of the XEN specific global variable pci_msi_ignore_mask to a
+MSI domain flag, missed the facts that:
+
+    1) Legacy architectures do not provide a interrupt domain
+    2) Parent MSI domains do not necessarily have a domain info attached
+   
+Both cases result in an unconditional NULL pointer dereference. This was
+unfortunatly missed in review and testing revealed it late.
+
+Cure this by using the existing pci_msi_domain_supports() helper, which
+handles all possible cases correctly.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37889</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37889</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3455 - WordPress 1 Click Migration Plugin Remote File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3455
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>The 1 Click WordPress Migration Plugin – 100% FREE for a limited time plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'start_restore' function in all versions up to, and including, 2.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3455</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3455</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3605 - WordPress Frontend Login and Registration Blocks Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3605
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>The Frontend Login and Registration Blocks plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.7. This is due to the plugin not properly validating a user's identity prior to updating their details like email via the flr_blocks_user_settings_handle_ajax_callback() function. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3605</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3605</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4467 - SourceCodester Online Student Clearance System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4467
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Online Student Clearance System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/edit-admin.php. The manipulation of the argument txtfullname/txtemail/cmddesignation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4467</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4467</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4468 - SourceCodester Online Student Clearance System File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4468
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in SourceCodester Online Student Clearance System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /edit-photo.php. The manipulation of the argument userImage leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4468</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4468</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4469 - SourceCodester Online Student Clearance System Cross Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4469
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in SourceCodester Online Student Clearance System 1.0. Affected is an unknown function of the file /admin/add-admin.php. The manipulation of the argument Username leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4469</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4469</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4470 - SourceCodester Online Student Clearance System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4470
+<br>
+<strong>Published : </strong> May 9, 2025, 7:16 a.m. | 22 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic was found in SourceCodester Online Student Clearance System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/add-student.php. The manipulation of the argument Fullname leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 09 May 2025 07:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4470</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4470</guid>
+    </item>
     <item>
       <title>CVE-2025-3462 - ASUS DriverHub HTTP Request Validation Bypass</title>
       <description><![CDATA[<p>
