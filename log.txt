@@ -92,11 +92,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-
 https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
-https://cvefeed.io/vuln/detail/CVE-2025-46717
-https://cvefeed.io/vuln/detail/CVE-2025-46718
-https://cvefeed.io/vuln/detail/CVE-2025-47274
-https://cvefeed.io/vuln/detail/CVE-2025-44022
-https://cvefeed.io/vuln/detail/CVE-2025-44830
 https://cvefeed.io/vuln/detail/CVE-2025-46737
 https://cvefeed.io/vuln/detail/CVE-2025-46738
 https://cvefeed.io/vuln/detail/CVE-2025-47578
@@ -117,6 +112,11 @@ https://cvefeed.io/vuln/detail/CVE-2025-46750
 https://cvefeed.io/vuln/detail/CVE-2023-34732
 https://cvefeed.io/vuln/detail/CVE-2025-44175
 https://cvefeed.io/vuln/detail/CVE-2025-44176
+https://cvefeed.io/vuln/detail/CVE-2024-4981
+https://cvefeed.io/vuln/detail/CVE-2024-4982
+https://cvefeed.io/vuln/detail/CVE-2024-55466
+https://cvefeed.io/vuln/detail/CVE-2025-47682
+https://cvefeed.io/vuln/detail/CVE-2025-1079
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -2778,11 +2778,6 @@ Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 Bilan du volet cybersécurité de France Relance : un défi réussi 
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
-CVE-2025-46717 - "Sudo-rs Path Traversal Information Disclosure"
-CVE-2025-46718 - "sudo-rs Sudo Privilege Listing Vulnerability"
-CVE-2025-47274 - ToolHive Inadvertent Secrets Storage Vulnerability
-CVE-2025-44022 - Vvveb CMS Remote Code Execution
-CVE-2025-44830 - EngineerCMS SQL Injection
 CVE-2025-46737 - Cisco SEL Cross-Origin Resource Sharing (CORS) Vulnerability
 CVE-2025-46738 - Apache SEL arbitrary code execution vulnerability
 CVE-2025-47578 - Twitter Follow Button Cross-site Scripting Vulnerability
@@ -2803,6 +2798,11 @@ CVE-2025-46750 - SELogic BIOS Password Bypass Vulnerability
 CVE-2023-34732 - Flytxt NEON-dX Password Brute Force Vulnerability
 CVE-2025-44175 - "Tenda AC10 Buffer Overflow Vulnerability"
 CVE-2025-44176 - Tenda FH451 Unauthenticated Remote Code Execution Vulnerability
+CVE-2024-4981 - Pagure Git Repository Symbolic Link Exfiltration
+CVE-2024-4982 - Pagure Git Directory Traversal Vulnerability
+CVE-2024-55466 - ThingsBoard Image Gallery Remote Code Execution
+CVE-2025-47682 - Cozy Vision Technologies Pvt. Ltd. SMS Alert Order Notifications – WooCommerce SQL Injection
+CVE-2025-1079 - Google Web Designer Unvalidated Symbolic Link Resolution Remote Code Execution Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -2823,10 +2823,11 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Lettres drsquo;information
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
-CVE-2024-4981 - Pagure Git Repository Symbolic Link Exfiltration
-CVE-2024-4982 - Pagure Git Directory Traversal Vulnerability
-CVE-2024-55466 - ThingsBoard Image Gallery Remote Code Execution
-CVE-2025-47682 - Cozy Vision Technologies Pvt. Ltd. SMS Alert Order Notifications – WooCommerce SQL Injection
+CVE-2025-44022 - Vvveb CMS Remote Code Execution
+CVE-2025-44830 - EngineerCMS SQL Injection
+CVE-2025-46717 - "Sudo-rs Path Traversal Information Disclosure"
+CVE-2025-46718 - "sudo-rs Sudo Privilege Listing Vulnerability"
+CVE-2025-47274 - ToolHive Inadvertent Secrets Storage Vulnerability
 CVE-2025-46610 - Artec EMA Mail CSRF Vulnerability
 CVE-2025-46611 - ARTEC EMA Mail Cross Site Scripting Vulnerability
 CVE-2024-56523 - Radware Cloud Web Application Firewall (WAF) HTTP Request Smuggling
