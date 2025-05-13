@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 13 May 2025 17:41:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 May 2025 17:50:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-46506
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>NetAlertX 23.01.14 through 24.x before 24.10.12 allows unauthenticated command injection via settings update because function=savesettings lacks an authentication requirement, as exploited in the wild in May 2025. This is related to settings.php and util.php.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-48766
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>NetAlertX 24.7.18 before 24.10.12 allows unauthenticated file reading because an HTTP client can ignore a redirect, and because of factors related to strpos and directory traversal, as exploited in the wild in May 2025. This is related to components/logs.php.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-56526
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in OXID eShop before 7. CMS pages in combination with Smarty may display user information if a CMS page contains a Smarty syntax error.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22462
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>An authentication bypass in Ivanti Neurons for ITSM (on-prem only) before 2023.4, 2024.2 and 2024.3 with the May 2025 Security Patch allows a remote unauthenticated attacker to gain administrative access to the system.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28055
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>upset-gal-web v7.1.0 /api/music/v1/cover.ts contains an arbitrary file read vulnerabilit
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28056
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>rebuild v3.9.0 through v3.9.3 has a SQL injection vulnerability in /admin/admin-cli/exec component.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30207
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>Kirby is an open-source content management system. A vulnerability in versions prior to 3.9.8.3, 3.10.1.2, and 4.7.1 affects all Kirby setups that use PHP's built-in server. Such setups are commonly only used during local development. Sites that use other server software (such as Apache, nginx or Caddy) are not affected. A missing path traversal check allowed attackers to navigate all files on the server that were accessible to the PHP process, including files outside of the Kirby installation. The vulnerable implementation delegated all existing files to PHP, including existing files outside of the document root. This leads to a different response that allows attackers to determine whether the requested file exists. Because Kirby's router only delegates such requests to PHP and does not load or execute them, contents of the files were not exposed as PHP treats requests to files outside of the document root as invalid. The problem has been patched in Kirby 3.9.8.3, Kirby 3.10.1.2, and Kirby 4.7.1. In all of the mentioned releases, the maintainers of Kirby have updated the router to check if existing static files are within the document root. Requests to files outside the document root are treated as page requests of the error page and will no longer allow to determine whether the file exists or not.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-31493
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>Kirby is an open-source content management system. A vulnerability in versions prior to 3.9.8.3, 3.10.1.2, and 4.7.1 affects all Kirby sites that use the `collection()` helper or `$kirby->collection()` method with a dynamic collection name (such as a collection name that depends on request or user data). Sites that only use fixed calls to the `collection()` helper/`$kirby->collection()` method (i.e. calls with a simple string for the collection name) are *not* affected. A missing path traversal check allowed attackers to navigate and access all files on the server that were accessible to the PHP process, including files outside of the collections root or even outside of the Kirby installation. PHP code within such files was executed. Such attacks first require an attack vector in the site code that is caused by dynamic collection names, such as `collection('tags-' . get('tags'))`. It generally also requires knowledge of the site structure and the server's file system by the attacker, although it can be possible to find vulnerable setups through automated methods such as fuzzing. In a vulnerable setup, this could cause damage to the confidentiality and integrity of the server. The problem has been patched in Kirby 3.9.8.3, Kirby 3.10.1.2, and Kirby 4.7.1. In all of the mentioned releases, the maintainers of Kirby have added a check for the collection path that ensures that the resulting path is contained within the configured collections root. Collection paths that point outside of the collections root will not be loaded.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45857
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>EDIMAX CV7428NS v1.20 was discovered to contain a remote code execution (RCE) vulnerability via the command parameter in the mp function.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45858
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK A3002R v4.0.0-B20230531.1404 was discovered to contain a command injection vulnerability via the FUN_00459fdc function.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46721
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>nosurf is cross-site request forgery (CSRF) protection middleware for Go. A vulnerability in versions prior to 1.2.0 allows an attacker who controls content on the target site, or on a subdomain of the target site (either via XSS, or otherwise) to bypass CSRF checks and issue requests on user's behalf. Due to misuse of the Go `net/http` library, nosurf categorizes all incoming requests as plain-text HTTP requests, in which case the `Referer` header is not checked to have the same origin as the target webpage. If the attacker has control over HTML contents on either the target website (e.g. `example.com`), or on a website hosted on a subdomain of the target (e.g. `attacker.example.com`), they will also be able to manipulate cookies set for the target website. By acquiring the secret CSRF token from the cookie, or overriding the cookie with a new token known to the attacker, `attacker.example.com` is able to craft cross-site requests to `example.com`. A patch for the issue was released in nosurf 1.2.0. In lieu of upgrading to a patched version of nosurf, users may additionally use another HTTP middleware to ensure that a non-safe HTTP request is coming from the same origin (e.g. by requiring a `Sec-Fetch-Site: same-origin` header in the request).
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47204
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in post.php in bootstrap-multiselect (aka Bootstrap Multiselect) 1.1.2. A PHP script in the source code echoes arbitrary POST data. If a developer adopts this structure wholesale in a live application, it could create a Reflective Cross-Site Scripting (XSS) vulnerability exploitable through Cross-Site Request Forgery (CSRF).
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47276
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>Actualizer is a single shell script solution to allow developers and embedded engineers to create Debian operating systems (OS). Prior to version 1.2.0, Actualizer uses OpenSSL's  "-passwd" function, which uses SHA512 instead of a more suitable password hasher like Yescript/Argon2i. All Actualizer users building a full Debian Operating System are affected. Users should upgrade to version 1.2.0 of Actualizer. Existing OS deployment requires manual password changes against the alpha and root accounts. The change will deploy's Debian's yescript overriding the older SHA512 hash created by OpenSSL. As a workaround, users need to reset both `root` and "Alpha" users' passwords.
 <br>
@@ -240,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47278
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>Flask is a web server gateway interface (WSGI) web application framework. In Flask 3.1.0, the way fallback key configuration was handled resulted in the last fallback key being used for signing, rather than the current signing key. Signing is provided by the `itsdangerous` library. A list of keys can be passed, and it expects the last (top) key in the list to be the most recent key, and uses that for signing. Flask was incorrectly constructing that list in reverse, passing the signing key first. Sites that have opted-in to use key rotation by setting `SECRET_KEY_FALLBACKS` care likely to unexpectedly be signing their sessions with stale keys, and their transition to fresher keys will be impeded. Sessions are still signed, so this would not cause any sort of data integrity loss. Version 3.1.1 contains a patch for the issue.
 <br>
@@ -257,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4427
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>An authentication bypass in the API component of Ivanti Endpoint Manager Mobile 12.5.0.0 and prior allows attackers to access protected resources without proper credentials via the API.
 <br>
@@ -274,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4428
 <br>
-<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 49 minutes ago
+<strong>Published : </strong> May 13, 2025, 4:15 p.m. | 42 minutes ago
 <br>
 <strong>Description : </strong>Remote Code Execution in API component in Ivanti Endpoint Manager Mobile 12.5.0.0 and prior on unspecified platforms allows authenticated attackers to execute arbitrary code via crafted API requests.
 <br>
@@ -291,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-28057
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>owl-admin v3.2.2~ to v4.10.2 is vulnerable to SQL Injection in /admin-api/system/admin_menus/save_order.
 <br>
@@ -308,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30159
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>Kirby is an open-source content management system. A vulnerability in versions prior to 3.9.8.3, 3.10.1.2, and 4.7.1 affects all Kirby sites that use the `snippet()` helper or `$kirby->snippet()` method with a dynamic snippet name (such as a snippet name that depends on request or user data). Sites that only use fixed calls to the `snippet()` helper/`$kirby->snippet()` method (i.e. calls with a simple string for the snippet name) are *not* affected. A missing path traversal check allowed attackers to navigate and access all files on the server that were accessible to the PHP process, including files outside of the snippets root or even outside of the Kirby installation. PHP code within such files was executed. Such attacks first require an attack vector in the site code that is caused by dynamic snippet names, such as `snippet('tags-' . get('tags'))`. It generally also requires knowledge of the site structure and the server's file system by the attacker, although it can be possible to find vulnerable setups through automated methods such as fuzzing. In a vulnerable setup, this could cause damage to the confidentiality and integrity of the server. The problem has been patched in Kirby 3.9.8.3, Kirby 3.10.1.2, and Kirby 4.7.1. In all of the mentioned releases, Kirby maintainers have added a check for the snippet path that ensures that the resulting path is contained within the configured snippets root. Snippet paths that point outside of the snippets root will not be loaded.
 <br>
@@ -325,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32756
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>A stack-based buffer overflow vulnerability [CWE-121] in Fortinet FortiVoice versions 7.2.0, 7.0.0 through 7.0.6, 6.4.0 through 6.4.10, FortiRecorder versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.5, 6.4.0 through 6.4.5, FortiMail versions 7.6.0 through 7.6.2, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.8, FortiNDR versions 7.6.0, 7.4.0 through 7.4.7, 7.2.0 through 7.2.4, 7.0.0 through 7.0.6, FortiCamera versions 2.1.0 through 2.1.3, 2.0 all versions, 1.1 all versions, allows a remote unauthenticated attacker to execute arbitrary code or commands via sending HTTP requests with specially crafted hash cookie.
 <br>
@@ -342,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44039
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>CP-XR-DE21-S -4G Router Firmware version 1.031.022 was discovered to contain insecure protections for its UART console. This vulnerability allows local attackers to connect to the UART port via a serial connection, read all boot sequence, and revealing internal system details and sensitive information without any authentication.
 <br>
@@ -359,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44831
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>EngineerCMS v1.02 through v2.0.5 has a SQL injection vulnerability in the /project/addproject interface.
 <br>
@@ -376,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45859
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK A3002R v4.0.0-B20230531.1404 was discovered to contain a buffer overflow via the bandstr parameter in the formMapDelDevice interface.
 <br>
@@ -393,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45864
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK A3002R v4.0.0-B20230531.1404 was discovered to contain a buffer overflow via the addrPoolStart parameter in the formDhcpv6s interface.
 <br>
@@ -410,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45866
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK A3002R v4.0.0-B20230531.1404 was discovered to contain a buffer overflow via the addrPoolEnd parameter in the formDhcpv6s interface.
 <br>
@@ -427,7 +427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45867
 <br>
-<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 48 minutes ago
+<strong>Published : </strong> May 13, 2025, 3:15 p.m. | 1 hour, 41 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK A3002R v4.0.0-B20230531.1404 was discovered to contain a buffer overflow via the static_dns1 parameter in the formIpv6Setup interface.
 <br>
