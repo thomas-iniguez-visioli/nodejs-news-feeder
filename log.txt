@@ -92,8 +92,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-
 https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
-https://cvefeed.io/vuln/detail/CVE-2025-32469
-https://cvefeed.io/vuln/detail/CVE-2025-33024
 https://cvefeed.io/vuln/detail/CVE-2025-33025
 https://cvefeed.io/vuln/detail/CVE-2025-40555
 https://cvefeed.io/vuln/detail/CVE-2025-40556
@@ -117,6 +115,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-4647
 https://cvefeed.io/vuln/detail/CVE-2025-4648
 https://cvefeed.io/vuln/detail/CVE-2025-32917
 https://cvefeed.io/vuln/detail/CVE-2025-4649
+https://cvefeed.io/vuln/detail/CVE-2024-36340
+https://cvefeed.io/vuln/detail/CVE-2024-42446
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -2873,8 +2873,6 @@ Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 Bilan du volet cybersécurité de France Relance : un défi réussi 
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
-CVE-2025-32469 - RUGGEDCOM ROX Command Injection Vulnerability
-CVE-2025-33024 - RUGGEDCOM ROX Command Injection Vulnerability
 CVE-2025-33025 - RUGGEDCOM ROX Command Injection Vulnerability
 CVE-2025-40555 - APOGEE PXC+TALON TC Series BACnet Broadcast Storm Denial of Service Vulnerability
 CVE-2025-40556 - "BACnet ATEC Denial of Service Vulnerability"
@@ -2898,6 +2896,8 @@ CVE-2025-4647 - Centreon Web Cross-Site Scripting (XSS)
 CVE-2025-4648 - Centreon Web Reflected Cross-Site Scripting (XSS)
 CVE-2025-32917 - Checkmk Java Home Privilege Escalation
 CVE-2025-4649 - Centreon Web Privilege Escalation Vulnerability
+CVE-2024-36340 - AMD uProf File Deletion/Disclosure Junction Point Vulnerability
+CVE-2024-42446 - APTIOV BIOS TOCTOU Race Condition Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -2918,6 +2918,8 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-32469 - RUGGEDCOM ROX Command Injection Vulnerability
+CVE-2025-33024 - RUGGEDCOM ROX Command Injection Vulnerability
 CVE-2025-31930 - Schneider Electric Modbus Remote Control Vulnerability
 CVE-2025-32454 - Siemens Teamcenter Visualization Out-of-Bounds Read Vulnerability
 CVE-2025-27696 - Apache Superset Unauthorized Data Takeover Vulnerability
