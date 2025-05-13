@@ -8,18 +8,86 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 13 May 2025 20:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 May 2025 20:41:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-3744 - Nomad Sentinel Policy Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3744
+<br>
+<strong>Published : </strong> May 13, 2025, 7:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Nomad Enterprise (“Nomad”) jobs using the policy override option are bypassing the mandatory sentinel policies. This vulnerability, identified as CVE-2025-3744, is fixed in Nomad Enterprise 1.10.1, 1.9.9, and 1.8.13.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3744</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3744</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45746 - ZKT ZKBio CVSecurity Hardcoded JWT Secret Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45746
+<br>
+<strong>Published : </strong> May 13, 2025, 7:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>In ZKT ZKBio CVSecurity 6.4.1_R an unauthenticated attacker can craft JWT token using the hardcoded secret to authenticate to the service console.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45746</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45746</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45861 - TOTOLINK A3002R Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45861
+<br>
+<strong>Published : </strong> May 13, 2025, 7:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK A3002R v4.0.0-B20230531.1404 was discovered to contain a buffer overflow via the routername parameter in the formDnsv6 interface.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45861</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45861</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45865 - TOTOLINK A3002R DNS Server Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45865
+<br>
+<strong>Published : </strong> May 13, 2025, 7:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK A3002R v4.0.0-B20230531.1404 was discovered to contain a buffer overflow via the dnsaddr parameter in the formDhcpv6s interface.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45865</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45865</guid>
+    </item>
+    <item>
       <title>CVE-2023-31358 - AMD Manageability API DLL Hijacking Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-31358
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 42 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>A DLL hijacking vulnerability in the AMD Manageability API could allow an attacker to achieve privilege escalation, potentially resulting in arbitrary code execution.
 <br>
@@ -36,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-31359
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 42 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Incorrect default permissions in the AMD Manageability API could allow an attacker to achieve privilege escalation, potentially resulting in arbitrary code execution.
 <br>
@@ -53,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27197
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 42 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Lightroom Desktop versions 8.2 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -70,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30322
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Substance3D - Painter versions 11.0 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -87,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30324
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Photoshop Desktop versions 26.5, 25.12.2 and earlier are affected by an Integer Underflow (Wrap or Wraparound) vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -104,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30325
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Photoshop Desktop versions 26.5, 25.12.2 and earlier are affected by an Integer Overflow or Wraparound vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -121,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30326
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Photoshop Desktop versions 26.5, 25.12.2 and earlier are affected by an Access of Uninitialized Pointer vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -138,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30328
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Animate versions 24.0.8, 23.0.11 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -155,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30329
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Animate versions 24.0.8, 23.0.11 and earlier are affected by a NULL Pointer Dereference vulnerability that could lead to application denial-of-service. An attacker could exploit this vulnerability to crash the application, causing disruption of service. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -172,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30330
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Illustrator versions 29.3, 28.7.5 and earlier are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -189,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43545
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Bridge versions 15.0.3, 14.1.6 and earlier are affected by an Access of Uninitialized Pointer vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -206,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43546
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Bridge versions 15.0.3, 14.1.6 and earlier are affected by an Integer Underflow (Wrap or Wraparound) vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -223,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43547
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Bridge versions 15.0.3, 14.1.6 and earlier are affected by an Integer Overflow or Wraparound vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -240,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43555
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Animate versions 24.0.8, 23.0.11 and earlier are affected by an Integer Underflow (Wrap or Wraparound) vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -257,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43556
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Animate versions 24.0.8, 23.0.11 and earlier are affected by an Integer Overflow or Wraparound vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -274,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43557
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Animate versions 24.0.8, 23.0.11 and earlier are affected by an Access of Uninitialized Pointer vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -291,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4660
 <br>
-<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 13, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>A remote code execution vulnerability exists in the Windows agent component of SecureConnector due to improper access controls on a named pipe. The pipe is accessible to the Everyone group and does not restrict remote connections, allowing any network-based attacker to connect without authentication. By interacting with this pipe, an attacker can redirect the agent to communicate with a rogue server that can issue commands via the SecureConnector Agent. 
 
@@ -306,6 +374,74 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 13 May 2025 18:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4660</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4660</guid>
+    </item>
+    <item>
+      <title>CVE-2025-32709 - "Windows Ancillary Function Driver for WinSock Use-After-Free Privilege Escalation Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-32709
+<br>
+<strong>Published : </strong> May 13, 2025, 5:16 p.m. | 3 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-32709</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32709</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3757 - OpenPubkey Invalid JWS Signature Verification</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3757
+<br>
+<strong>Published : </strong> May 13, 2025, 5:16 p.m. | 3 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>Versions of OpenPubkey library prior to 0.10.0  contained a vulnerability that would allow a specially crafted JWS to bypass signature verification.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3757</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3757</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47280 - Umbraco Forms Email Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47280
+<br>
+<strong>Published : </strong> May 13, 2025, 5:16 p.m. | 3 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>Umbraco Forms is a form builder that integrates with the Umbraco content management system. Starting in the 7.x branch and prior to versions 13.4.2 and 15.1.2, the 'Send email' workflow does not HTML encode the user-provided field values in the sent email message, making any form with this workflow configured vulnerable, as it allows sending the message from a trusted system and address, potentially bypassing spam and email client security systems. This issue affects all (supported) versions Umbraco Forms and is patched in 13.4.2 and 15.1.2. Unpatched or unsupported versions can workaround this issue by using the `Send email with template (Razor)` workflow instead or writing a custom workflow type. To avoid accidentally using the vulnerable workflow again, the `SendEmail` workflow type can be removed using a composer available in the GitHub Security Advisory for this vulnerability.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47280</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47280</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4658 - OpenPubkey/OPKSSH JWS Signature Verification Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4658
+<br>
+<strong>Published : </strong> May 13, 2025, 5:16 p.m. | 3 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>Versions of OpenPubkey library prior to 0.10.0  contained a vulnerability that would allow a specially crafted JWS to bypass signature verification. As OPKSSH depends on the OpenPubkey library for authentication, this vulnerability in OpenPubkey also applies to OPKSSH versions prior to 0.5.0 and would allow an attacker to bypass OPKSSH authentication.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4658</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4658</guid>
     </item>
     <item>
       <title>CVE-2025-32704 - Microsoft Office Excel Buffer Over-read Remote Code Execution Vulnerability</title>
@@ -374,74 +510,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-32707</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-32707</guid>
-    </item>
-    <item>
-      <title>CVE-2025-32709 - "Windows Ancillary Function Driver for WinSock Use-After-Free Privilege Escalation Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-32709
-<br>
-<strong>Published : </strong> May 13, 2025, 5:16 p.m. | 1 hour, 41 minutes ago
-<br>
-<strong>Description : </strong>Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-32709</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-32709</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3757 - OpenPubkey Invalid JWS Signature Verification</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3757
-<br>
-<strong>Published : </strong> May 13, 2025, 5:16 p.m. | 1 hour, 41 minutes ago
-<br>
-<strong>Description : </strong>Versions of OpenPubkey library prior to 0.10.0  contained a vulnerability that would allow a specially crafted JWS to bypass signature verification.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3757</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3757</guid>
-    </item>
-    <item>
-      <title>CVE-2025-47280 - Umbraco Forms Email Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-47280
-<br>
-<strong>Published : </strong> May 13, 2025, 5:16 p.m. | 1 hour, 41 minutes ago
-<br>
-<strong>Description : </strong>Umbraco Forms is a form builder that integrates with the Umbraco content management system. Starting in the 7.x branch and prior to versions 13.4.2 and 15.1.2, the 'Send email' workflow does not HTML encode the user-provided field values in the sent email message, making any form with this workflow configured vulnerable, as it allows sending the message from a trusted system and address, potentially bypassing spam and email client security systems. This issue affects all (supported) versions Umbraco Forms and is patched in 13.4.2 and 15.1.2. Unpatched or unsupported versions can workaround this issue by using the `Send email with template (Razor)` workflow instead or writing a custom workflow type. To avoid accidentally using the vulnerable workflow again, the `SendEmail` workflow type can be removed using a composer available in the GitHub Security Advisory for this vulnerability.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-47280</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47280</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4658 - OpenPubkey/OPKSSH JWS Signature Verification Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4658
-<br>
-<strong>Published : </strong> May 13, 2025, 5:16 p.m. | 1 hour, 41 minutes ago
-<br>
-<strong>Description : </strong>Versions of OpenPubkey library prior to 0.10.0  contained a vulnerability that would allow a specially crafted JWS to bypass signature verification. As OPKSSH depends on the OpenPubkey library for authentication, this vulnerability in OpenPubkey also applies to OPKSSH versions prior to 0.5.0 and would allow an attacker to bypass OPKSSH authentication.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 13 May 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4658</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4658</guid>
     </item>
     <item>
       <title>CVE-2025-30378 - Microsoft Office SharePoint Deserialization Code Execution Vulnerability</title>
