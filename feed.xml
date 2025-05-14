@@ -8,18 +8,149 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 14 May 2025 11:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 12:36:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-26795 - Apache IoTDB JDBC Driver Information Exposure and Log Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26795
+<br>
+<strong>Published : </strong> May 14, 2025, 11:16 a.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>Exposure of Sensitive Information to an Unauthorized Actor, Insertion of Sensitive Information into Log File vulnerability in Apache IoTDB JDBC driver.
+
+This issue affects iotdb-jdbc: from 0.10.0 through 1.3.3, from 2.0.1-beta before 2.0.2.
+
+Users are recommended to upgrade to version 2.0.2 and 1.3.4, which fix the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 14 May 2025 11:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26795</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26795</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26864 - Apache IoTDB OpenIdAuthorizer Sensitive Information Exposure and Tampering</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26864
+<br>
+<strong>Published : </strong> May 14, 2025, 11:16 a.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>Exposure of Sensitive Information to an Unauthorized Actor, Insertion of Sensitive Information into Log File vulnerability in the OpenIdAuthorizer of Apache IoTDB.
+
+This issue affects Apache IoTDB: from 0.10.0 through 1.3.3, from 2.0.1-beta before 2.0.2.
+
+Users are recommended to upgrade to version 1.3.4 and 2.0.2, which fix the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 14 May 2025 11:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26864</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26864</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3833 - Zohocorp ManageEngine ADSelfService Plus SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3833
+<br>
+<strong>Published : </strong> May 14, 2025, 11:16 a.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>Zohocorp ManageEngine ADSelfService Plus versions 6513 and prior are vulnerable to authenticated SQL injection in the MFA reports.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 14 May 2025 11:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3833</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3833</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3834 - Zohocorp ManageEngine ADAudit Plus SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3834
+<br>
+<strong>Published : </strong> May 14, 2025, 11:16 a.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>Zohocorp ManageEngine ADAudit Plus versions 8510 and prior are vulnerable to authenticated SQL injection in the OU History report.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 14 May 2025 11:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3834</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3834</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47292 - Cap Collectif Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47292
+<br>
+<strong>Published : </strong> May 14, 2025, 11:16 a.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>Cap Collectif is an online decision making platform that integrates several tools. Before commit 812f2a7d271b76deab1175bdaf2be0b8102dd198, the `DebateAlternateArgumentsResolver` deserializes a `Cursor`, allowing any classes and which can be controlled by unauthenticated user. Exploitation of this vulnerability can lead to Remote Code Execution. The vulnerability is fixed in commit 812f2a7d271b76deab1175bdaf2be0b8102dd198.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 14 May 2025 11:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47292</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47292</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4430 - EZD RP File Manipulation Remote Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4430
+<br>
+<strong>Published : </strong> May 14, 2025, 11:16 a.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>Unauthorized access to "/api/Token/gettoken" endpoint in EZD RP allows file manipulation.This issue affects EZD RP in versions before 20.19 (published on 22nd August 2024).
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 14 May 2025 11:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4430</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4430</guid>
+    </item>
+    <item>
+      <title>CVE-2024-24780 - Apache IoTDB Untrusted URI Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-24780
+<br>
+<strong>Published : </strong> May 14, 2025, 11:15 a.m. | 1 hour, 7 minutes ago
+<br>
+<strong>Description : </strong>Remote Code Execution with untrusted URI of UDF vulnerability in Apache IoTDB. The attacker who has privilege to create UDF can register malicious function from untrusted URI.
+
+This issue affects Apache IoTDB: from 1.0.0 before 1.3.4.
+
+Users are recommended to upgrade to version 1.3.4, which fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 14 May 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-24780</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-24780</guid>
+    </item>
+    <item>
       <title>CVE-2024-13940 - Ninja Forms Webhooks SSRF Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13940
 <br>
-<strong>Published : </strong> May 14, 2025, 9:15 a.m. | 1 hour, 38 minutes ago
+<strong>Published : </strong> May 14, 2025, 9:15 a.m. | 3 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>The Ninja Forms Webhooks plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 3.0.7 via the form webhook functionality. This makes it possible for authenticated attackers, with Administrator-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.
 <br>
@@ -36,7 +167,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-8988
 <br>
-<strong>Published : </strong> May 14, 2025, 9:15 a.m. | 1 hour, 38 minutes ago
+<strong>Published : </strong> May 14, 2025, 9:15 a.m. | 3 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>The PeepSo Core: File Uploads plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 6.4.6.0 via the file_download REST API endpoint due to missing validation on a user controlled key. This makes it possible for unauthenticated attackers to download files uploaded by others users and expose potentially sensitive information.
 <br>
@@ -53,7 +184,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2875
 <br>
-<strong>Published : </strong> May 14, 2025, 9:15 a.m. | 1 hour, 38 minutes ago
+<strong>Published : </strong> May 14, 2025, 9:15 a.m. | 3 hours, 8 minutes ago
 <br>
 <strong>Description : </strong>CWE-610: Externally Controlled Reference to a Resource in Another Sphere vulnerability exists that could
 cause a loss of confidentiality when an unauthenticated attacker manipulates controller’s webserver URL to
@@ -72,7 +203,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-52290
 <br>
-<strong>Published : </strong> May 14, 2025, 8:15 a.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> May 14, 2025, 8:15 a.m. | 4 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>LF Edge eKuiper is a lightweight internet of things (IoT) data analytics and stream processing engine. Prior to version 2.1.0 user with rights to modificate the service (e.g. kuiperUser role) can inject a cross-site scripting payload into Connection Configuration key `Name` (`confKey`) parameter. After this setup, when any user with access to this service (e.g. admin) tries to delete this key, a payload acts in the victim's browser. Version 2.1.0 fixes the issue.
 <br>
@@ -89,7 +220,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-0020
 <br>
-<strong>Published : </strong> May 14, 2025, 8:15 a.m. | 2 hours, 38 minutes ago
+<strong>Published : </strong> May 14, 2025, 8:15 a.m. | 4 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Violation of Secure Design Principles, Hidden Functionality, Incorrect Provision of Specified Functionality vulnerability in ArcGIS (Authentication) allows Privilege Abuse, Manipulating Hidden Fields, Configuration/Environment Manipulation.
 
@@ -157,7 +288,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47891
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -174,7 +305,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47892
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -191,7 +322,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47893
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -208,7 +339,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47894
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -225,7 +356,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47895
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -242,7 +373,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47896
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -259,7 +390,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47897
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -276,7 +407,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47898
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -293,7 +424,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47899
 <br>
-<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 6 hours, 37 minutes ago
+<strong>Published : </strong> May 14, 2025, 4:16 a.m. | 8 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: Not used
 <br>
@@ -310,7 +441,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3623
 <br>
-<strong>Published : </strong> May 14, 2025, 3:15 a.m. | 7 hours, 38 minutes ago
+<strong>Published : </strong> May 14, 2025, 3:15 a.m. | 9 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>The Uncanny Automator plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 6.4.0.1 via deserialization of untrusted input in the automator_api_decode_message() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject a PHP Object. The additional presence of a POP chain allows attackers to delete arbitrary files.
 <br>
@@ -327,7 +458,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4520
 <br>
-<strong>Published : </strong> May 14, 2025, 3:15 a.m. | 7 hours, 38 minutes ago
+<strong>Published : </strong> May 14, 2025, 3:15 a.m. | 9 hours, 7 minutes ago
 <br>
 <strong>Description : </strong>The Uncanny Automator plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on multiple AJAX functions in versions up to, and including, 6.4.0.2. This makes it possible for authenticated attackers, with subscriber-level permissions or above to update plugin settings.
 <br>
@@ -338,6 +469,40 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 14 May 2025 03:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4520</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4520</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47905 - Varnish Cache HTTP/1 Chunk Boundary CRLF Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47905
+<br>
+<strong>Published : </strong> May 13, 2025, 10:15 p.m. | 14 hours, 8 minutes ago
+<br>
+<strong>Description : </strong>Varnish Cache before 7.6.3 and 7.7 before 7.7.1, and Varnish Enterprise before 6.0.13r14, allow client-side desync via HTTP/1 requests, because the product incorrectly permits CRLF to be skipped to delimit chunk boundaries.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47905</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47905</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4574 - Crossbeam-channel Rust Crate Double-Free Error</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4574
+<br>
+<strong>Published : </strong> May 13, 2025, 10:15 p.m. | 14 hours, 8 minutes ago
+<br>
+<strong>Description : </strong>In crossbeam-channel rust crate, the internal `Channel` type's `Drop` method has a race condition which could, in some circumstances, lead to a double-free that could result in memory corruption.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 13 May 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4574</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4574</guid>
     </item>
     <item>
       <title>CVE-2025-26646 - Microsoft .NET Path Traversal Spoofing</title>
@@ -355,40 +520,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 13 May 2025 22:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-26646</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-26646</guid>
-    </item>
-    <item>
-      <title>CVE-2025-47905 - Varnish Cache HTTP/1 Chunk Boundary CRLF Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-47905
-<br>
-<strong>Published : </strong> May 13, 2025, 10:15 p.m. | 12 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>Varnish Cache before 7.6.3 and 7.7 before 7.7.1, and Varnish Enterprise before 6.0.13r14, allow client-side desync via HTTP/1 requests, because the product incorrectly permits CRLF to be skipped to delimit chunk boundaries.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 13 May 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-47905</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47905</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4574 - Crossbeam-channel Rust Crate Double-Free Error</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4574
-<br>
-<strong>Published : </strong> May 13, 2025, 10:15 p.m. | 12 hours, 38 minutes ago
-<br>
-<strong>Description : </strong>In crossbeam-channel rust crate, the internal `Channel` type's `Drop` method has a race condition which could, in some circumstances, lead to a double-free that could result in memory corruption.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 13 May 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4574</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4574</guid>
     </item>
     <item>
       <title>CVE-2025-43568 - Substance3D Use After Free Vulnerability</title>
