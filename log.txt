@@ -94,17 +94,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-
 https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
-https://cvefeed.io/vuln/detail/CVE-2025-30315
-https://cvefeed.io/vuln/detail/CVE-2025-30316
-https://cvefeed.io/vuln/detail/CVE-2025-43548
-https://cvefeed.io/vuln/detail/CVE-2025-43549
-https://cvefeed.io/vuln/detail/CVE-2025-43551
-https://cvefeed.io/vuln/detail/CVE-2025-43553
-https://cvefeed.io/vuln/detail/CVE-2025-43554
-https://cvefeed.io/vuln/detail/CVE-2025-43559
-https://cvefeed.io/vuln/detail/CVE-2025-43560
-https://cvefeed.io/vuln/detail/CVE-2025-43561
-https://cvefeed.io/vuln/detail/CVE-2025-43562
 https://cvefeed.io/vuln/detail/CVE-2025-43563
 https://cvefeed.io/vuln/detail/CVE-2025-43564
 https://cvefeed.io/vuln/detail/CVE-2025-43565
@@ -119,6 +108,17 @@ https://cvefeed.io/vuln/detail/CVE-2025-4668
 https://cvefeed.io/vuln/detail/CVE-2025-26646
 https://cvefeed.io/vuln/detail/CVE-2025-47905
 https://cvefeed.io/vuln/detail/CVE-2025-4574
+https://cvefeed.io/vuln/detail/CVE-2025-3623
+https://cvefeed.io/vuln/detail/CVE-2025-4520
+https://cvefeed.io/vuln/detail/CVE-2025-47891
+https://cvefeed.io/vuln/detail/CVE-2025-47892
+https://cvefeed.io/vuln/detail/CVE-2025-47893
+https://cvefeed.io/vuln/detail/CVE-2025-47894
+https://cvefeed.io/vuln/detail/CVE-2025-47895
+https://cvefeed.io/vuln/detail/CVE-2025-47896
+https://cvefeed.io/vuln/detail/CVE-2025-47897
+https://cvefeed.io/vuln/detail/CVE-2025-47898
+https://cvefeed.io/vuln/detail/CVE-2025-47899
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -2984,17 +2984,6 @@ Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 Bilan du volet cybersécurité de France Relance : un défi réussi 
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
-CVE-2025-30315 - Adobe Connect Stored XSS Vulnerability
-CVE-2025-30316 - Adobe Connect Stored Cross-Site Scripting Vulnerability
-CVE-2025-43548 - Dimension Out-of-Bounds Write Vulnerability
-CVE-2025-43549 - Substance3D Use After Free Arbitrary Code Execution Vulnerability
-CVE-2025-43551 - Substance3D Stager Out-of-Bounds Read Vulnerability
-CVE-2025-43553 - Substance3D Modeler Uncontrolled Search Path Element Vulnerability
-CVE-2025-43554 - Substance3D Modeler - Out-of-Bounds Write Arbitrary Code Execution Vulnerability
-CVE-2025-43559 - ColdFusion Code Injection Vulnerability
-CVE-2025-43560 - ColdFusion Arbitrary Code Execution Vulnerability
-CVE-2025-43561 - ColdFusion Incorrect Authorization Code Execution Vulnerability
-CVE-2025-43562 - ColdFusion OS Command Injection
 CVE-2025-43563 - Adobe ColdFusion File System Read Improper Access Control
 CVE-2025-43564 - Adobe ColdFusion File System Read Authorization Bypass
 CVE-2025-43565 - ColdFusion Incorrect Authorization Arbitrary Code Execution
@@ -3009,6 +2998,17 @@ CVE-2025-4668 - Apache HTTP Server Deserialization Vulnerability
 CVE-2025-26646 - Microsoft .NET Path Traversal Spoofing
 CVE-2025-47905 - Varnish Cache HTTP/1 Chunk Boundary CRLF Injection
 CVE-2025-4574 - Crossbeam-channel Rust Crate Double-Free Error
+CVE-2025-3623 - WordPress Uncanny Automator PHP Object Injection Vulnerability
+CVE-2025-4520 - Uncanny Automator WordPress Unauthorized Data Modification Vulnerability
+CVE-2025-47891 - Apache Struts Command Injection
+CVE-2025-47892 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-47893 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-47894 - Apache HTTP Server CSRF
+CVE-2025-47895 - Apache HTTP Server Authentication Bypass
+CVE-2025-47896 - VMware Remote Code Execution
+CVE-2025-47897 - Apache HTTP Server Remote Code Execution
+CVE-2025-47898 - Apache HTTP Server Authentication Bypass
+CVE-2025-47899 - Apache HTTP Server Unvalidated User Input
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -3029,6 +3029,17 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-30315 - Adobe Connect Stored XSS Vulnerability
+CVE-2025-30316 - Adobe Connect Stored Cross-Site Scripting Vulnerability
+CVE-2025-43548 - Dimension Out-of-Bounds Write Vulnerability
+CVE-2025-43549 - Substance3D Use After Free Arbitrary Code Execution Vulnerability
+CVE-2025-43551 - Substance3D Stager Out-of-Bounds Read Vulnerability
+CVE-2025-43553 - Substance3D Modeler Uncontrolled Search Path Element Vulnerability
+CVE-2025-43554 - Substance3D Modeler - Out-of-Bounds Write Arbitrary Code Execution Vulnerability
+CVE-2025-43559 - ColdFusion Code Injection Vulnerability
+CVE-2025-43560 - ColdFusion Arbitrary Code Execution Vulnerability
+CVE-2025-43561 - ColdFusion Incorrect Authorization Code Execution Vulnerability
+CVE-2025-43562 - ColdFusion OS Command Injection
 CVE-2025-24308 - Intel Server D50DNP/M50FCP UEFI Firmware Escalation of Privilege Vulnerability
 CVE-2025-24495 - Intel Core Ultra Processors Branch Prediction Unit Information Disclosure Vulnerability
 CVE-2025-30314 - Adobe Connect Stored XSS
