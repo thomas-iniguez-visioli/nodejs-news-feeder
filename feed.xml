@@ -8,18 +8,154 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 15 May 2025 18:49:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 19:14:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-43853 - "WAMR Symlink Following Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43853
+<br>
+<strong>Published : </strong> May 15, 2025, 6:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>The WebAssembly Micro Runtime's (WAMR) iwasm package is the executable binary built with WAMR VMcore which supports WebAssembly System Interface (WASI) and command line interface. Anyone running WAMR up to and including version 2.2.0 or WAMR built with libc-uvwasi on Windows is affected by a symlink following vulnerability. On WAMR running in Windows, creating a symlink pointing outside of the preopened directory and subsequently opening it with create flag will create a file on host outside of the sandbox. If the symlink points to an existing host file, it's also possible to open it and read its content. Version 2.3.0 fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43853</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43853</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44110 - FluxBB Cross-Site Scripting (XSS) in Forum Description Field</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44110
+<br>
+<strong>Published : </strong> May 15, 2025, 6:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>FluxBB 1.5.11 is vulnerable to Cross Site Scripting (XSS) in via the Forum Description Field in admin_forums.php.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44110</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44110</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47279 - Undici SSL Certificate Invalid Memory Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47279
+<br>
+<strong>Published : </strong> May 15, 2025, 6:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>Undici is an HTTP/1.1 client for Node.js. Prior to versions 5.29.0, 6.21.2, and 7.5.0, applications that use undici to implement a webhook-like system are vulnerable. If the attacker set up a server with an invalid certificate, and they can force the application to call the webhook repeatedly, then they can cause a memory leak. This has been patched in versions 5.29.0, 6.21.2, and 7.5.0. As a workaound, avoid calling a webhook repeatedly if the webhook fails.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47279</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47279</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47285 - Vyper Ethereum Virtual Machine Side-Effect Evaluation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47285
+<br>
+<strong>Published : </strong> May 15, 2025, 6:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>Vyper is the Pythonic Programming Language for the Ethereum Virtual Machine. In versions up to and including 0.4.2rc1, `concat()` may skip evaluation of side effects when the length of an argument is zero. This is due to a fastpath in the implementation which skips evaluation of argument expressions when their length is zero. In practice, it would be very unusual in user code to construct zero-length bytestrings using an expression with side-effects, since zero-length bytestrings are typically constructed with the empty literal `b""`; the only way to construct an empty bytestring which has side effects would be with the ternary operator introduced in v0.3.8, e.g. `b"" if self.do_some_side_effect() else b""`. The fix is available in pull request 4644 and expected to be part of the 0.4.2 release. As a workaround, don't have side effects in expressions which construct zero-length bytestrings.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47285</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47285</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47774 - Vyper Uninitialized Side Effect Elision in Slice Builtin</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47774
+<br>
+<strong>Published : </strong> May 15, 2025, 6:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>Vyper is the Pythonic Programming Language for the Ethereum Virtual Machine. In versions up to and including 0.4.2rc1, the `slice()` builtin can elide side effects when the output length is 0, and the source bytestring is a builtin (`msg.data` or `<address>.code`). The reason is that for these source locations, the check that `length >= 1` is skipped. The result is that a 0-length bytestring constructed with slice can be passed to `make_byte_array_copier`, which elides evaluation of its source argument when the max length is 0. The impact is that side effects in the `start` argument may be elided when the `length` argument is 0, e.g. `slice(msg.data, self.do_side_effect(), 0)`. The fix in pull request 4645 disallows any invocation of `slice()` with length 0, including for the ad hoc locations discussed in this advisory. The fix is expected to be part of version 0.4.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47774</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47774</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4709 - Campcodes Sales and Inventory System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4709
+<br>
+<strong>Published : </strong> May 15, 2025, 6:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in Campcodes Sales and Inventory System 1.0. Affected by this vulnerability is an unknown functionality of the file /pages/transaction_del.php. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4709</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4709</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4710 - Campcodes Sales and Inventory System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4710
+<br>
+<strong>Published : </strong> May 15, 2025, 6:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Campcodes Sales and Inventory System 1.0. Affected by this issue is some unknown functionality of the file /pages/transaction.php. The manipulation of the argument cid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4710</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4710</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4711 - Campcodes Sales and Inventory System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4711
+<br>
+<strong>Published : </strong> May 15, 2025, 6:15 p.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Campcodes Sales and Inventory System 1.0. This affects an unknown part of the file /pages/stockin_add.php. The manipulation of the argument prod_name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4711</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4711</guid>
+    </item>
+    <item>
       <title>CVE-2025-1647 - Bootstrap Cross-Site Scripting (XSS)</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1647
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Bootstrap allows Cross-Site Scripting (XSS).This issue affects Bootstrap: from 3.4.1 before 4.0.0.
 <br>
@@ -36,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30417
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>There is a memory corruption vulnerability due to an out of bounds write in Library!DecodeBase64() when using the SymbolEditor in NI Circuit Design Suite.  This vulnerability may result in information disclosure or arbitrary code execution.  Successful exploitation requires an attacker to get a user to open a specially crafted .sym file. This vulnerability affects NI Circuit Design Suite 14.3.0 and prior versions.
 <br>
@@ -53,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30418
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>There is a memory corruption vulnerability due to an out of bounds write in CheckPins() when using the SymbolEditor in NI Circuit Design Suite.  This vulnerability may result in information disclosure or arbitrary code execution. Successful exploitation requires an attacker to get a user to open a specially crafted .sym file. This vulnerability affects NI Circuit Design Suite 14.3.0 and prior versions.
 <br>
@@ -70,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30419
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>There is a memory corruption vulnerability due to an out of bounds read in GetSymbolBorderRectSize() when using the SymbolEditor in NI Circuit Design Suite.  This vulnerability may result in information disclosure or arbitrary code execution. Successful exploitation requires an attacker to get a user to open a specially crafted .sym file. This vulnerability affects NI Circuit Design Suite 14.3.0 and prior versions.
 <br>
@@ -87,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30420
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>There is a memory corruption vulnerability due to an out of bounds read in Bitmap::InternalDraw() when using the SymbolEditor in NI Circuit Design Suite.  This vulnerability may result in information disclosure or arbitrary code execution. Successful exploitation requires an attacker to get a user to open a specially crafted .sym file. This vulnerability affects NI Circuit Design Suite 14.3.0 and prior versions.
 <br>
@@ -104,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30421
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>There is a memory corruption vulnerability due to a stack-based buffer overflow in DrObjectStorage::XML_Serialize() when using the SymbolEditor in NI Circuit Design Suite.  This vulnerability may result in information disclosure or arbitrary code execution. Successful exploitation requires an attacker to get a user to open a specially crafted .sym file. This vulnerability affects NI Circuit Design Suite 14.3.0 and prior versions.
 <br>
@@ -121,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47580
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>Missing Authorization vulnerability in Rustaurius Front End Users allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Front End Users: from n/a through 3.2.32.
 <br>
@@ -138,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4706
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in projectworlds Online Examination System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /Procedure3b_yearwiseVisit.php. The manipulation of the argument Visit_year leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -155,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4707
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Campcodes Sales and Inventory System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /pages/transaction_add.php. The manipulation of the argument prod_name leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -172,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4708
 <br>
-<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> May 15, 2025, 5:15 p.m. | 1 hour, 40 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in Campcodes Sales and Inventory System 1.0. Affected is an unknown function of the file /pages/sales_add.php. The manipulation of the argument discount leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -183,6 +319,125 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 15 May 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4708</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4708</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2570 - Mattermost System Console System Manager Access Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2570
+<br>
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Mattermost versions 10.5.x <= 10.5.3, 9.11.x <= 9.11.11 fail to check `RestrictSystemAdmin` setting if user doesn't have access to `ExperimentalSettings` which allows a System Manager to access `ExperimentSettings` when `RestrictSystemAdmin` is true via System Console.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2570</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2570</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3440 - IBM Security Guardium Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3440
+<br>
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>IBM Security Guardium 11.5 is vulnerable to stored cross-site scripting. This vulnerability allows a privileged user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3440</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3440</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48050 - Apache DOMPurify Directory Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48050
+<br>
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>In DOMPurify through 3.2.5 before 6bc6d60, scripts/server.js does not ensure that a pathname is located under the current working directory.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48050</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48050</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48051 - Lila Lichess DOM XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48051
+<br>
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>powertip.ts in Lila (for Lichess) before ab0beaf allows XSS in some applications because of an innerHTML usage pattern in which text is extracted from a DOM node and interpreted as HTML.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48051</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48051</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4703 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4703
+<br>
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in PHPGurukul Vehicle Parking Management System 1.13 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/admin-profile.php. The manipulation of the argument contactnumber leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4703</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4703</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4704 - PHPGurukul Vehicle Parking Management System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4704
+<br>
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Vehicle Parking Management System 1.13 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/edit-category.php. The manipulation of the argument editid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4704</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4704</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4705 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4705
+<br>
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Vehicle Parking Management System 1.13. It has been classified as critical. This affects an unknown part of the file /admin/view-incomingvehicle-detail.php. The manipulation of the argument viewid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4705</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4705</guid>
     </item>
     <item>
       <title>CVE-2024-52877 - InsydeH2O VariableRuntimeDxe Buffer Over-Read</title>
@@ -268,125 +523,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-2527</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-2527</guid>
-    </item>
-    <item>
-      <title>CVE-2025-2570 - Mattermost System Console System Manager Access Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-2570
-<br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
-<br>
-<strong>Description : </strong>Mattermost versions 10.5.x <= 10.5.3, 9.11.x <= 9.11.11 fail to check `RestrictSystemAdmin` setting if user doesn't have access to `ExperimentalSettings` which allows a System Manager to access `ExperimentSettings` when `RestrictSystemAdmin` is true via System Console.
-<br>
-<strong>Severity:</strong> 2.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-2570</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2570</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3440 - IBM Security Guardium Stored Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3440
-<br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
-<br>
-<strong>Description : </strong>IBM Security Guardium 11.5 is vulnerable to stored cross-site scripting. This vulnerability allows a privileged user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3440</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3440</guid>
-    </item>
-    <item>
-      <title>CVE-2025-48050 - Apache DOMPurify Directory Traversal</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-48050
-<br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
-<br>
-<strong>Description : </strong>In DOMPurify through 3.2.5 before 6bc6d60, scripts/server.js does not ensure that a pathname is located under the current working directory.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-48050</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48050</guid>
-    </item>
-    <item>
-      <title>CVE-2025-48051 - Lila Lichess DOM XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-48051
-<br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
-<br>
-<strong>Description : </strong>powertip.ts in Lila (for Lichess) before ab0beaf allows XSS in some applications because of an innerHTML usage pattern in which text is extracted from a DOM node and interpreted as HTML.
-<br>
-<strong>Severity:</strong> 4.7 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-48051</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48051</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4703 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4703
-<br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability has been found in PHPGurukul Vehicle Parking Management System 1.13 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/admin-profile.php. The manipulation of the argument contactnumber leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4703</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4703</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4704 - PHPGurukul Vehicle Parking Management System SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4704
-<br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in PHPGurukul Vehicle Parking Management System 1.13 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/edit-category.php. The manipulation of the argument editid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4704</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4704</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4705 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4705
-<br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in PHPGurukul Vehicle Parking Management System 1.13. It has been classified as critical. This affects an unknown part of the file /admin/view-incomingvehicle-detail.php. The manipulation of the argument viewid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 15 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4705</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4705</guid>
     </item>
     <item>
       <title>CVE-2025-44185 - SourceCodester Best Employee Management System CSRF Vulnerability</title>
