@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 15 May 2025 17:16:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 17:40:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-52877
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in Insyde InsydeH2O kernel 5.2 before version 05.29.50, kernel 5.3 before version 05.38.50, kernel 5.4 before version 05.46.50, kernel 5.5 before version 05.54.50, kernel 5.6 before version 05.61.50, and kernel 5.7 before version 05.70.50. In VariableRuntimeDxe driver, callback function SmmCreateVariableLockList () calls CreateVariableLockListInSmm (). In CreateVariableLockListInSmm (), it uses StrSize () to get variable name size and it could lead to a buffer over-read.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-52878
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in Insyde InsydeH2O kernel 5.2 before version 05.29.50, kernel 5.3 before version 05.38.50, kernel 5.4 before version 05.46.50, kernel 5.5 before version 05.54.50, kernel 5.6 before version 05.61.50, and kernel 5.7 before version 05.70.50. In VariableRuntimeDxe driver, VariableServicesSetVariable () can be called by gRT_>SetVariable () or the SmmSetSensitiveVariable () or SmmInternalSetVariable () from SMM. In VariableServicesSetVariable (), it uses StrSize () to get variable name size, uses StrLen () to get variable name length and uses StrCmp () to compare strings. These actions may cause a buffer over-read.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-52879
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in Insyde InsydeH2O kernel 5.2 before version 05.29.50, kernel 5.3 before version 05.38.50, kernel 5.4 before version 05.46.50, kernel 5.5 before version 05.54.50, kernel 5.6 before version 05.61.50, and kernel 5.7 before version 05.70.50. In VariableRuntimeDxe driver, SmmUpdateVariablePropertySmi () is a SMM callback function and it uses StrCmp () to compare variable names. This action may cause a buffer over-read.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-52880
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in Insyde InsydeH2O kernel 5.2 before version 05.29.50, kernel 5.3 before version 05.38.50, kernel 5.4 before version 05.46.50, kernel 5.5 before version 05.54.50, kernel 5.6 before version 05.61.50, and kernel 5.7 before version 05.70.50. In VariableRuntimeDxe driver, SecureBootHandler uses DataSize and VariableNameSize when determining if the data or name are in the buffer, but these are supplied by the caller and therefore cannot be trusted.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2527
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>Mattermost versions 10.5.x <= 10.5.2, 9.11.x <= 9.11.11 failed to properly verify a user's permissions when accessing groups, which allows an attacker to view group information via an API request.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2570
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>Mattermost versions 10.5.x <= 10.5.3, 9.11.x <= 9.11.11 fail to check `RestrictSystemAdmin` setting if user doesn't have access to `ExperimentalSettings` which allows a System Manager to access `ExperimentSettings` when `RestrictSystemAdmin` is true via System Console.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3440
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>IBM Security Guardium 11.5 is vulnerable to stored cross-site scripting. This vulnerability allows a privileged user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48050
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>In DOMPurify through 3.2.5 before 6bc6d60, scripts/server.js does not ensure that a pathname is located under the current working directory.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48051
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>powertip.ts in Lila (for Lichess) before ab0beaf allows XSS in some applications because of an innerHTML usage pattern in which text is extracted from a DOM node and interpreted as HTML.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4703
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in PHPGurukul Vehicle Parking Management System 1.13 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/admin-profile.php. The manipulation of the argument contactnumber leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4704
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Vehicle Parking Management System 1.13 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/edit-category.php. The manipulation of the argument editid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4705
 <br>
-<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 4:15 p.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Vehicle Parking Management System 1.13. It has been classified as critical. This affects an unknown part of the file /admin/view-incomingvehicle-detail.php. The manipulation of the argument viewid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44185
 <br>
-<strong>Published : </strong> May 15, 2025, 3:16 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 15, 2025, 3:16 p.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>SourceCodester Best Employee Management System V1.0 is vulnerable to Cross Site Request Forgery (CSRF) in /admin/change_pass.php via the password parameter.
 <br>
@@ -240,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46053
 <br>
-<strong>Published : </strong> May 15, 2025, 3:16 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 15, 2025, 3:16 p.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>A SQL Injection vulnerability in WebERP v4.15.2 allows attackers to execute arbitrary SQL commands and extract sensitive data by injecting a crafted payload into the ReportID and ReplaceReportID parameters within a POST request to /reportwriter/admin/ReportCreator.php
 <br>
@@ -257,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4701
 <br>
-<strong>Published : </strong> May 15, 2025, 3:16 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 15, 2025, 3:16 p.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in VITA-MLLM Freeze-Omni up to 20250421. This issue affects the function torch.load of the file models/utils.py. The manipulation of the argument path leads to deserialization. It is possible to launch the attack on the local host.
 <br>
@@ -274,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4702
 <br>
-<strong>Published : </strong> May 15, 2025, 3:16 p.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> May 15, 2025, 3:16 p.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Vehicle Parking Management System 1.13. Affected is an unknown function of the file /admin/add-category.php. The manipulation of the argument catename leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -291,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44180
 <br>
-<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>Phpgurukul Vehicle Record Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in /edit-brand.php?bid={brandId}.
 <br>
@@ -308,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44181
 <br>
-<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>Phpgurukul Vehicle Record Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in /admin/add-brand.php via the brandname parameter.
 <br>
@@ -325,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44182
 <br>
-<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>Phpgurukul Vehicle Record Management System v1.0 is vulnerable to Cross Site Scripting (XSS) via the vehiclename, modelnumber, regnumber, vehiclesubtype, chasisnum, enginenumber' in the /admin/edit-vehicle.php component. This allows attackers to execute arbitrary code.
 <br>
@@ -342,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44183
 <br>
-<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>Phpgurukul Vehicle Record Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in /admin/profile.php via the name, email, and mobile parameters.
 <br>
@@ -359,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46052
 <br>
-<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>An error-based SQL Injection (SQLi) vulnerability in WebERP v4.15.2 allows attackers to execute arbitrary SQL command and extract sensitive data by injecting a crafted payload into the DEL form field in a POST request to /StockCounts.php
 <br>
@@ -376,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4516
 <br>
-<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
 <br>
@@ -393,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4698
 <br>
-<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in PHPGurukul Directory Management System 2.0. This affects an unknown part of the file /admin/forget-password.php. The manipulation of the argument email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -410,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4699
 <br>
-<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 41 minutes ago
+<strong>Published : </strong> May 15, 2025, 2:15 p.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in PHPGurukul Apartment Visitors Management System 1.0. This vulnerability affects unknown code of the file /admin/visitors-form.php. The manipulation of the argument Category leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -427,7 +427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4697
 <br>
-<strong>Published : </strong> May 15, 2025, 1:16 p.m. | 3 hours, 40 minutes ago
+<strong>Published : </strong> May 15, 2025, 1:16 p.m. | 3 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Directory Management System 2.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /admin/edit-directory.php. The manipulation of the argument editid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
