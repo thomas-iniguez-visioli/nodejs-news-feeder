@@ -94,10 +94,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-29686
-https://cvefeed.io/vuln/detail/CVE-2025-29688
-https://cvefeed.io/vuln/detail/CVE-2025-29689
-https://cvefeed.io/vuln/detail/CVE-2025-29690
 https://cvefeed.io/vuln/detail/CVE-2025-29691
 https://cvefeed.io/vuln/detail/CVE-2024-45067
 https://cvefeed.io/vuln/detail/CVE-2025-32421
@@ -119,6 +115,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-27525
 https://cvefeed.io/vuln/detail/CVE-2025-4737
 https://cvefeed.io/vuln/detail/CVE-2025-32002
 https://cvefeed.io/vuln/detail/CVE-2025-32738
+https://cvefeed.io/vuln/detail/CVE-2025-31947
+https://cvefeed.io/vuln/detail/CVE-2025-3446
+https://cvefeed.io/vuln/detail/CVE-2025-4564
+https://cvefeed.io/vuln/detail/CVE-2025-4762
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -3111,10 +3111,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-29686 - OA System Cross-Site Scripting (XSS)
-CVE-2025-29688 - "OA System XSS Vulnerability"
-CVE-2025-29689 - OA System Cross-Site Scripting (XSS)
-CVE-2025-29690 - OA System Cross-Site Scripting (XSS)
 CVE-2025-29691 - OA System XSS
 CVE-2024-45067 - Intel Gaudi Privilege Escalation
 CVE-2025-32421 - Next.js Race Condition Page Prop Exposure
@@ -3136,6 +3132,10 @@ CVE-2025-27525 - Hitachi JP1/IT Desktop Management 2 - Smart Device Manager Wind
 CVE-2025-4737 - Vivo Voice Assistant SSL/TLS Weakness
 CVE-2025-32002 - I-O DATA HDL-T Series OS Command Injection
 CVE-2025-32738 - IO DATA HDL-T Series Authentication Bypass
+CVE-2025-31947 - Mattermost LDAP Account Lock Bypass Vulnerability
+CVE-2025-3446 - Mattermost Permission Bypass Vulnerability
+CVE-2025-4564 - TicketBAI Facturas para WooCommerce File Deletion Vulnerability (Arbitrary File Deletion)
+CVE-2025-4762 - eSigna eSignaViewer IDOR
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -3156,6 +3156,10 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-29686 - OA System Cross-Site Scripting (XSS)
+CVE-2025-29688 - "OA System XSS Vulnerability"
+CVE-2025-29689 - OA System Cross-Site Scripting (XSS)
+CVE-2025-29690 - OA System Cross-Site Scripting (XSS)
 CVE-2025-47888 - Jenkins DingTalk Plugin SSL/TLS Certificate Validation Bypass Vulnerability
 CVE-2025-47889 - Jenkins WSO2 Oauth Plugin Authentication Bypass Vulnerability
 CVE-2025-47884 - Jenkins OpenID Connect Provider Plugin Authentication Bypass
