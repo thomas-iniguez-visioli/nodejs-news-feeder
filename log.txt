@@ -94,13 +94,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-4824
-https://cvefeed.io/vuln/detail/CVE-2025-4825
-https://cvefeed.io/vuln/detail/CVE-2025-4826
-https://cvefeed.io/vuln/detail/CVE-2024-13613
-https://cvefeed.io/vuln/detail/CVE-2025-3527
-https://cvefeed.io/vuln/detail/CVE-2025-3888
-https://cvefeed.io/vuln/detail/CVE-2025-4669
 https://cvefeed.io/vuln/detail/CVE-2025-48187
 https://cvefeed.io/vuln/detail/CVE-2025-4101
 https://cvefeed.io/vuln/detail/CVE-2025-4827
@@ -119,6 +112,13 @@ https://cvefeed.io/vuln/detail/CVE-2024-13964
 https://cvefeed.io/vuln/detail/CVE-2024-13965
 https://cvefeed.io/vuln/detail/CVE-2025-4835
 https://cvefeed.io/vuln/detail/CVE-2025-4836
+https://cvefeed.io/vuln/detail/CVE-2025-4837
+https://cvefeed.io/vuln/detail/CVE-2025-4838
+https://cvefeed.io/vuln/detail/CVE-2025-4839
+https://cvefeed.io/vuln/detail/CVE-2025-4918
+https://cvefeed.io/vuln/detail/CVE-2025-4919
+https://cvefeed.io/vuln/detail/CVE-2025-4920
+https://cvefeed.io/vuln/detail/CVE-2025-4921
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -163,8 +163,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-3527
 https://cvefeed.io/vuln/detail/CVE-2025-3888
 https://cvefeed.io/vuln/detail/CVE-2025-4669
 https://cvefeed.io/vuln/detail/CVE-2025-4826
-https://cvefeed.io/vuln/detail/CVE-2025-4825
 https://cvefeed.io/vuln/detail/CVE-2025-4824
+https://cvefeed.io/vuln/detail/CVE-2025-4825
 https://cvefeed.io/vuln/detail/CVE-2025-4610
 https://cvefeed.io/vuln/detail/CVE-2025-4823
 https://cvefeed.io/vuln/detail/CVE-2025-4391
@@ -3361,13 +3361,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-4824 - TOTOLINK A702R, A3002R, A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
-CVE-2025-4825 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow
-CVE-2025-4826 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
-CVE-2024-13613 - Wise Chat WordPress Sensitive Information Exposure
-CVE-2025-3527 - WordPress EventON Pro Stored Cross-Site Scripting (XSS)
-CVE-2025-3888 - "Jupiter X Core Stored Cross-Site Scripting Vulnerability"
-CVE-2025-4669 - WordPress Booking Calendar Stored Cross-Site Scripting (XSS) Vulnerability
 CVE-2025-48187 - RAGFlow Authentication Bypass
 CVE-2025-4101 - MultiVendorX WooCommerce Multivendor Marketplace Solutions Unauthenticated Data Deletion Vulnerability
 CVE-2025-4827 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow
@@ -3388,6 +3381,13 @@ Apache Struts Remote Code Execution
 CVE-2024-13965 - Apache HTTP Server SQL Injection
 CVE-2025-4835 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
 CVE-2025-4836 - Projectworlds Life Insurance Management System SQL Injection
+CVE-2025-4837 - Projectworlds Student Project Allocation System SQL Injection Vulnerability
+CVE-2025-4838 - Kanwangzjm Funiture Open Redirect Vulnerability
+CVE-2025-4839 - Itwanger Paicoding Cross-Domain Policy Vulnerability
+CVE-2025-4918 - Firefox ESR JavaScript Promise Out-of-Bounds Access
+CVE-2025-4919 - Mozilla Firefox Out-of-Bounds JavaScript Vulnerability
+CVE-2025-4920 - Mozilla Firefox Promise Object Out-of-Bounds Read/Write Vulnerability
+CVE-2025-4921 - Firefox JavaScript Out-of-Bounds Access Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -3408,7 +3408,13 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
-CVE-2025-4837 - Projectworlds Student Project Allocation System SQL Injection Vulnerability
+CVE-2024-13613 - Wise Chat WordPress Sensitive Information Exposure
+CVE-2025-3527 - WordPress EventON Pro Stored Cross-Site Scripting (XSS)
+CVE-2025-3888 - "Jupiter X Core Stored Cross-Site Scripting Vulnerability"
+CVE-2025-4669 - WordPress Booking Calendar Stored Cross-Site Scripting (XSS) Vulnerability
+CVE-2025-4826 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
+CVE-2025-4824 - TOTOLINK A702R, A3002R, A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
+CVE-2025-4825 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow
 CVE-2025-4610 - WordPress WP-Members Membership Plugin Stored Cross-Site Scripting Vulnerability
 CVE-2025-4823 - TOTOLINK HTTP POST Request Handler Buffer Overflow Vulnerability
 CVE-2025-4391 - WordPress Echo RSS Feed Post Generator Arbitrary File Upload Vulnerability
