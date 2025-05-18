@@ -94,11 +94,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-4833
-https://cvefeed.io/vuln/detail/CVE-2025-47945
-https://cvefeed.io/vuln/detail/CVE-2025-47948
-https://cvefeed.io/vuln/detail/CVE-2025-4834
-https://cvefeed.io/vuln/detail/CVE-2024-13964
 https://cvefeed.io/vuln/detail/CVE-2024-13965
 https://cvefeed.io/vuln/detail/CVE-2025-4835
 https://cvefeed.io/vuln/detail/CVE-2025-4836
@@ -119,6 +114,11 @@ https://cvefeed.io/vuln/detail/CVE-2025-4847
 https://cvefeed.io/vuln/detail/CVE-2025-4848
 https://cvefeed.io/vuln/detail/CVE-2025-4849
 https://cvefeed.io/vuln/detail/CVE-2025-4850
+https://cvefeed.io/vuln/detail/CVE-2025-4851
+https://cvefeed.io/vuln/detail/CVE-2025-4852
+https://cvefeed.io/vuln/detail/CVE-2025-4858
+https://cvefeed.io/vuln/detail/CVE-2025-4859
+https://cvefeed.io/vuln/detail/CVE-2025-4860
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -3380,13 +3380,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-4833 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
-CVE-2025-47945 - Donetick Weak Default JWT Signing Secret in Donetick Task Management App
-CVE-2025-47948 - Cocotais Bot Privileged Command Injection
-CVE-2025-4834 - TOTOLINK A702R, A3002R, A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
-CVE-2024-13964 - Here is a title for the vulnerability:
-
-Apache Struts Remote Code Execution
 CVE-2024-13965 - Apache HTTP Server SQL Injection
 CVE-2025-4835 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
 CVE-2025-4836 - Projectworlds Life Insurance Management System SQL Injection
@@ -3407,6 +3400,11 @@ CVE-2025-4847 - FreeFloat FTP Server Buffer Overflow Vulnerability
 CVE-2025-4848 - FreeFloat FTP Server Buffer Overflow Vulnerability
 CVE-2025-4849 - TOTOLINK N300RH Command Injection Vulnerability
 CVE-2025-4850 - TOTOLINK N300RH Command Injection Vulnerability
+CVE-2025-4851 - TOTOLINK N300RH Command Injection Vulnerability
+CVE-2025-4852 - TOTOLINK A3002R Cross-Site Scripting Vulnerability
+CVE-2025-4858 - D-Link ARP Spoofing Prevention Page Cross-Site Scripting Vulnerability
+CVE-2025-4859 - D-Link DAP-2695 Cross-Site Scripting in MAC Bypass Settings Page
+CVE-2025-4860 - D-Link DAP-2695 DHCPS Cross-Site Scripting Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -3427,9 +3425,13 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
-CVE-2025-4851 - TOTOLINK N300RH Command Injection Vulnerability
-CVE-2025-4852 - TOTOLINK A3002R Cross-Site Scripting Vulnerability
-CVE-2025-4858 - D-Link ARP Spoofing Prevention Page Cross-Site Scripting Vulnerability
+CVE-2024-13964 - Here is a title for the vulnerability:
+
+Apache Struts Remote Code Execution
+CVE-2025-47945 - Donetick Weak Default JWT Signing Secret in Donetick Task Management App
+CVE-2025-47948 - Cocotais Bot Privileged Command Injection
+CVE-2025-4834 - TOTOLINK A702R, A3002R, A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
+CVE-2025-4833 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
 CVE-2025-4831 - TOTOLINK HTTP POST Request Handler Buffer Overflow Vulnerability
 CVE-2025-4832 - TOTOLINK HTTP POST Request Handler Buffer Overflow Vulnerability
 CVE-2025-4830 - TOTOLINK A702R/A3002R/A3002RU HTTP POST Request Handler Buffer Overflow Vulnerability
