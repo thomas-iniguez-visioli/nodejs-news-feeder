@@ -8,18 +8,52 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 19 May 2025 04:48:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 05:18:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-4909 - SourceCodester Client Database Management System Directory Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4909
+<br>
+<strong>Published : </strong> May 19, 2025, 4:15 a.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in SourceCodester Client Database Management System 1.0. This vulnerability affects unknown code. The manipulation leads to exposure of information through directory listing. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 19 May 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4909</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4909</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4910 - PHPGurukul Zoo Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4910
+<br>
+<strong>Published : </strong> May 19, 2025, 4:15 a.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in PHPGurukul Zoo Management System 2.1. This issue affects some unknown processing of the file /admin/edit-animal-details.php. The manipulation of the argument aname leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 19 May 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4910</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4910</guid>
+    </item>
+    <item>
       <title>CVE-2025-4906 - "PHPGurukul Notice Board System SQL Injection Vulnerability"</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4906
 <br>
-<strong>Published : </strong> May 19, 2025, 3:15 a.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> May 19, 2025, 3:15 a.m. | 1 hour, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Notice Board System 1.0. It has been classified as critical. Affected is an unknown function of the file /login.php. The manipulation of the argument Username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4907
 <br>
-<strong>Published : </strong> May 19, 2025, 3:15 a.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> May 19, 2025, 3:15 a.m. | 1 hour, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Daily Expense Tracker System 1.1. It has been rated as critical. Affected by this issue is some unknown functionality of the file /forgot-password.php. The manipulation of the argument email leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4908
 <br>
-<strong>Published : </strong> May 19, 2025, 3:15 a.m. | 1 hour, 2 minutes ago
+<strong>Published : </strong> May 19, 2025, 3:15 a.m. | 1 hour, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in PHPGurukul Daily Expense Tracker System 1.1. This affects an unknown part of the file /expense-datewise-reports-detailed.php. The manipulation of the argument fromdate/todate leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -70,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23122
 <br>
-<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 2 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>In Node.js, the `ReadFileUtf8` internal binding leaks memory due to a corrupted pointer in `uv_fs_s.file`: a UTF-16 path buffer is allocated but subsequently overwritten when the file descriptor is set. This results in an unrecoverable memory leak on every call. Repeated use can cause unbounded memory growth, leading to a denial of service.
 
@@ -90,7 +124,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23123
 <br>
-<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 2 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A malicious actor with access to the management network could execute a remote code execution (RCE) by exploiting a heap buffer overflow vulnerability in the UniFi Protect Cameras (Version 4.75.43 and earlier) firmware.
 <br>
@@ -107,7 +141,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23164
 <br>
-<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 2 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A misconfigured access token mechanism in the Unifi Protect Application (Version 5.3.41 and earlier) could permit the recipient of a "Share Livestream" link to maintain access to the corresponding livestream subsequent to such link becoming disabled.
 <br>
@@ -124,7 +158,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23165
 <br>
-<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 2 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>In Node.js, the `ReadFileUtf8` internal binding leaks memory due to a corrupted pointer in `uv_fs_s.file`: a UTF-16 path buffer is allocated but subsequently overwritten when the file descriptor is set. This results in an unrecoverable memory leak on every call. Repeated use can cause unbounded memory growth, leading to a denial of service.
 
@@ -144,7 +178,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23166
 <br>
-<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 2 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>The C++ method SignTraits::DeriveBits() may incorrectly call ThrowException() based on user-supplied inputs when executing in a background thread, crashing the Node.js process. Such cryptographic operations are commonly applied to untrusted inputs. Thus, this mechanism potentially allows an adversary to remotely crash a Node.js runtime.
 <br>
@@ -161,7 +195,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23167
 <br>
-<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 2 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A flaw in Node.js 20's HTTP parser allows improper termination of HTTP/1 headers using `\r\n\rX` instead of the required `\r\n\r\n`.
 This inconsistency enables request smuggling, allowing attackers to bypass proxy-based access controls and submit unauthorized requests.
@@ -184,7 +218,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4905
 <br>
-<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 2:15 a.m. | 2 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in iop-apl-uw basestation3 up to 3.0.4 and classified as problematic. This issue affects the function load_qc_pickl of the file basestation3/QC.py. The manipulation of the argument qc_file leads to deserialization. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The code maintainer tagged the issue as closed. But there is no new commit nor release in the GitHub repository available so far.
 <br>
@@ -201,7 +235,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4902
 <br>
-<strong>Published : </strong> May 19, 2025, 1:15 a.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 1:15 a.m. | 3 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in D-Link DI-7003GV2 24.04.18D1 R(68125). Affected by this issue is the function sub_48F4F0 of the file /H5/versionupdate.data. The manipulation leads to information disclosure. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -218,7 +252,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4903
 <br>
-<strong>Published : </strong> May 19, 2025, 1:15 a.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 1:15 a.m. | 3 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in D-Link DI-7003GV2 24.04.18D1 R(68125). This affects the function sub_41F4F0 of the file /H5/webgl.asp?tggl_port=0&remote_management=0&http_passwd=game&exec_service=admin-restart. The manipulation leads to unverified password change. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -235,7 +269,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4904
 <br>
-<strong>Published : </strong> May 19, 2025, 1:15 a.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 1:15 a.m. | 3 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in D-Link DI-7003GV2 24.04.18D1 R(68125) and classified as problematic. This vulnerability affects the function sub_41F0FC of the file /H5/webgl.data. The manipulation leads to information disclosure. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -252,7 +286,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4901
 <br>
-<strong>Published : </strong> May 19, 2025, 12:15 a.m. | 2 hours, 33 minutes ago
+<strong>Published : </strong> May 19, 2025, 12:15 a.m. | 4 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in D-Link DI-7003GV2 24.04.18D1 R(68125). Affected by this vulnerability is the function sub_41E304 of the file /H5/state_view.data of the component HTTP Endpoint. The manipulation leads to information disclosure. The attack can only be done within the local network. The exploit has been disclosed to the public and may be used.
 <br>
@@ -269,7 +303,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4899
 <br>
-<strong>Published : </strong> May 18, 2025, 11:15 p.m. | 3 hours, 33 minutes ago
+<strong>Published : </strong> May 18, 2025, 11:15 p.m. | 5 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Campcodes Sales and Inventory System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /pages/transaction_update.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -286,7 +320,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4900
 <br>
-<strong>Published : </strong> May 18, 2025, 11:15 p.m. | 3 hours, 33 minutes ago
+<strong>Published : </strong> May 18, 2025, 11:15 p.m. | 5 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in Campcodes Sales and Inventory System 1.0. Affected is an unknown function of the file /pages/payment.php. The manipulation of the argument cid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -303,7 +337,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4897
 <br>
-<strong>Published : </strong> May 18, 2025, 10:15 p.m. | 4 hours, 33 minutes ago
+<strong>Published : </strong> May 18, 2025, 10:15 p.m. | 6 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Tenda A15 15.13.07.09/15.13.07.13. It has been classified as critical. This affects an unknown part of the file /goform/multimodalAdd of the component HTTP POST Request Handler. The manipulation leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -320,7 +354,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4898
 <br>
-<strong>Published : </strong> May 18, 2025, 10:15 p.m. | 4 hours, 33 minutes ago
+<strong>Published : </strong> May 18, 2025, 10:15 p.m. | 6 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in SourceCodester Student Result Management System 1.0. It has been declared as critical. This vulnerability affects the function unlink of the file update_system.php of the component Logo File Handler. The manipulation of the argument old_logo leads to path traversal. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -337,7 +371,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4895
 <br>
-<strong>Published : </strong> May 18, 2025, 9:15 p.m. | 5 hours, 33 minutes ago
+<strong>Published : </strong> May 18, 2025, 9:15 p.m. | 7 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in SourceCodester Doctors Appointment System 1.0. This issue affects some unknown processing of the file /admin/delete-session.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -354,7 +388,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4896
 <br>
-<strong>Published : </strong> May 18, 2025, 9:15 p.m. | 5 hours, 33 minutes ago
+<strong>Published : </strong> May 18, 2025, 9:15 p.m. | 7 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Tenda AC10 16.03.10.13 and classified as critical. Affected by this issue is some unknown functionality of the file /goform/UserCongratulationsExec. The manipulation of the argument getuid leads to buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -371,7 +405,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4893
 <br>
-<strong>Published : </strong> May 18, 2025, 8:15 p.m. | 6 hours, 33 minutes ago
+<strong>Published : </strong> May 18, 2025, 8:15 p.m. | 8 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in jammy928 CoinExchange_CryptoExchange_Java up to 8adf508b996020d3efbeeb2473d7235bd01436fa. This affects the function uploadLocalImage of the file /CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java of the component File Upload Endpoint. The manipulation of the argument filename leads to path traversal. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable.
 <br>
@@ -388,7 +422,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4894
 <br>
-<strong>Published : </strong> May 18, 2025, 8:15 p.m. | 6 hours, 33 minutes ago
+<strong>Published : </strong> May 18, 2025, 8:15 p.m. | 8 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in calmkart Django-sso-server up to 057247929a94ffc358788a37ab99e391379a4d15. This vulnerability affects the function gen_rsa_keys of the file common/crypto.py. The manipulation leads to inadequate encryption strength. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available.
 <br>
@@ -399,6 +433,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sun, 18 May 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4894</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4894</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4892 - "Code-projects Police Station Management System Stack-Based Buffer Overflow Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4892
+<br>
+<strong>Published : </strong> May 18, 2025, 7:15 p.m. | 9 hours, 33 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Police Station Management System 1.0. It has been declared as critical. Affected by this vulnerability is the function criminal::remove of the file source.cpp of the component Delete Record. The manipulation of the argument No leads to stack-based buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 18 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4892</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4892</guid>
     </item>
     <item>
       <title>CVE-2025-4891 - Apache Code-projects Police Station Management System Buffer Overflow Vulnerability</title>
@@ -416,23 +467,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sun, 18 May 2025 19:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4891</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4891</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4892 - "Code-projects Police Station Management System Stack-Based Buffer Overflow Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4892
-<br>
-<strong>Published : </strong> May 18, 2025, 7:15 p.m. | 7 hours, 33 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Police Station Management System 1.0. It has been declared as critical. Affected by this vulnerability is the function criminal::remove of the file source.cpp of the component Delete Record. The manipulation of the argument No leads to stack-based buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sun, 18 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4892</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4892</guid>
     </item>
     <item>
       <title>CVE-2025-4889 - Code-projects Tourism Management System Buffer Overflow Vulnerability in User Registration Component</title>
