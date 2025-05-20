@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 20 May 2025 15:53:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 16:23:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-53359
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>An issue in Zalo v23.09.01 allows attackers to obtain sensitive user information via a crafted GET request.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45862
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK A3002R v4.0.0-B20230531.1404 was discovered to contain a buffer overflow via the interfacenameds parameter in the formDhcpv6s interface.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47936
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>TYPO3 is an open source, PHP based web content management system. In versions on the 12.x branch prior to 12.4.31 LTS and the 13.x branch prior to 13.4.2 LTS, Webhooks are inherently vulnerable to Cross-Site Request Forgery (CSRF), which can be exploited by adversaries to target internal resources (e.g., localhost or other services on the local network). While this is not a vulnerability in TYPO3 itself, it may enable attackers to blindly access systems that would otherwise be inaccessible. An administrator-level backend user account is required to exploit this vulnerability. Users should update to TYPO3 version 12.4.31 LTS or 13.4.12 LTS to fix the problem.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47937
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>TYPO3 is an open source, PHP based web content management system. Starting in version 9.0.0 and prior to versions 9.5.51 ELTS, 10.4.50 ELTS, 11.5.44 ELTS, 12.4.31 LTS, and 13.4.12 LTS, when performing a database query involving multiple tables through the database abstraction layer (DBAL), frontend user permissions are only applied via `FrontendGroupRestriction` to the first table. As a result, data from additional tables included in the same query may be unintentionally exposed to unauthorized users. Users should update to TYPO3 version 9.5.51 ELTS, 10.4.50 ELTS, 11.5.44 ELTS, 12.4.31 LTS, or 13.4.12 LTS to fix the problem.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47938
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>TYPO3 is an open source, PHP based web content management system. Starting in version 9.0.0 and prior to versions 9.5.51 ELTS, 10.4.50 ELTS, 11.5.44 ELTS, 12.4.31 LTS, and 13.4.12 LTS, the backend user management interface allows password changes without requiring the current password. When an administrator updates their own account or modifies other user accounts via the admin interface, the current password is not requested for verification. This behavior may lower the protection against unauthorized access in scenarios where an admin session is hijacked or left unattended, as it enables password changes without additional authentication. Users should update to TYPO3 version 9.5.51 ELTS, 10.4.50 ELTS, 11.5.44 ELTS, 12.4.31 LTS, or 13.4.12 LTS to fix the problem.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47939
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>TYPO3 is an open source, PHP based web content management system. By design, the file management module in TYPO3’s backend user interface has historically allowed the upload of any file type, with the exception of those that are directly executable in a web server context. This lack of restriction means it is possible to upload files that may be considered potentially harmful, such as executable binaries (e.g., `.exe` files), or files with inconsistent file extensions and MIME types (for example, a file incorrectly named with a `.png` extension but actually carrying the MIME type `application/zip`) starting in version 9.0.0 and prior to versions 9.5.51 ELTS, 10.4.50 ELTS, 11.5.44 ELTS, 12.4.31 LTS, and 13.4.12 LTS. Although such files are not directly executable through the web server, their presence can introduce indirect risks. For example, third-party services such as antivirus scanners or malware detection systems might flag or block access to the website for end users if suspicious files are found. This could negatively affect the availability or reputation of the site. Users should update to TYPO3 version 9.5.51 ELTS, 10.4.50 ELTS, 11.5.44 ELTS, 12.4.31 LTS, or 13.4.12 LTS to fix the problem.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47940
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>TYPO3 is an open source, PHP based web content management system. Starting in version 10.0.0 and prior to versions 10.4.50 ELTS, 11.5.44 ELTS, 12.4.31 LTS, and 13.4.12 LTS, administrator-level backend users without system maintainer privileges can escalate their privileges and gain system maintainer access. Exploiting this vulnerability requires a valid administrator account. Users should update to TYPO3 version 10.4.50 ELTS, 11.5.44 ELTS, 12.4.31 LTS, or 13.4.12 LTS to fix the problem.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47941
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>TYPO3 is an open source, PHP based web content management system. In versions on the 12.x branch prior to 12.4.31 LTS and the 13.x branch prior to 13.4.2 LTS, the multifactor authentication (MFA) dialog presented during backend login can be bypassed due to insufficient enforcement of access restrictions on all backend routes. Successful exploitation requires valid backend user credentials, as MFA can only be bypassed after successful authentication. Users should update to TYPO3 version 12.4.31 LTS or 13.4.12 LTS to fix the problem.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4980
 <br>
-<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 2:15 p.m. | 34 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in Netgear DGND3700 1.1.00.15_1.00.15NA and classified as problematic. This vulnerability affects unknown code of the file /currentsetting.htm of the component mini_http. The manipulation leads to information disclosure. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Other products might be affected as well. The vendor was contacted early about this disclosure.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40635
 <br>
-<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 34 minutes ago
 <br>
 <strong>Description : </strong>SQL injection vulnerability in Comerzzia Backoffice: Sales Orchestrator 3.0.15. This vulnerability allows an attacker to retrieve, create, update and delete databases via the ‘uidActivity’, ‘codCompany’ and ‘uidInstance’ parameters of the ‘/comerzzia/login’ endpoint.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41229
 <br>
-<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 34 minutes ago
 <br>
 <strong>Description : </strong>VMware Cloud Foundation contains a directory traversal vulnerability. A malicious actor with network access to port 443 on VMware Cloud Foundation may exploit this issue to access certain internal services.
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41230
 <br>
-<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 34 minutes ago
 <br>
 <strong>Description : </strong>VMware Cloud Foundation contains an information disclosure vulnerability. A malicious actor with network access to port 443 on VMware Cloud Foundation may exploit this issue to gain access to sensitive information.
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41231
 <br>
-<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 34 minutes ago
 <br>
 <strong>Description : </strong>VMware Cloud Foundation contains a missing authorisation vulnerability. A malicious actor with access to VMware Cloud Foundation appliance may be able to perform certain unauthorised actions and access limited sensitive information.
 <br>
@@ -240,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4977
 <br>
-<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 34 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in Netgear DGND3700 1.1.00.15_1.00.15NA. Affected by this issue is some unknown functionality of the file /BRS_top.html. The manipulation leads to information disclosure. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other products might be affected as well. The vendor was contacted early about this disclosure.
 <br>
@@ -257,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4978
 <br>
-<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 1:15 p.m. | 1 hour, 34 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as very critical, was found in Netgear DGND3700 1.1.00.15_1.00.15NA. This affects an unknown part of the file /BRS_top.html of the component Basic Authentication. The manipulation leads to improper authentication. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Other products might be affected as well. The vendor was contacted early about this disclosure.
 <br>
@@ -274,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30193
 <br>
-<strong>Published : </strong> May 20, 2025, 12:15 p.m. | 2 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 12:15 p.m. | 2 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>In some circumstances, when DNSdist is configured to allow an unlimited number of queries on a single, incoming TCP connection from a client, an attacker can cause a denial of service by crafting a TCP exchange that triggers an exhaustion of the stack and a crash of DNSdist, causing a denial of service.
 
@@ -297,7 +297,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37892
 <br>
-<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 3 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -322,7 +322,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40633
 <br>
-<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 3 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>A Stored Cross-Site Scripting (XSS) vulnerability has been found in 
 Koibox for versions prior to e8cbce2. This vulnerability allows an 
@@ -343,7 +343,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40634
 <br>
-<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 3 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Stack-based buffer overflow vulnerability in the 'conn-indicator' binary running as root on the TP-Link Archer AX50 router, in firmware versions prior to 1.0.15 build 241203 rel61480. This vulnerability allows an attacker to execute arbitrary code on the device over LAN and WAN networks.
 <br>
@@ -360,7 +360,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4951
 <br>
-<strong>Published : </strong> May 20, 2025, 9:15 a.m. | 5 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 9:15 a.m. | 5 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Editions of Rapid7 AppSpider Pro before version 7.5.018 is vulnerable to a stored cross-site scripting vulnerability in the "ScanName" field.
 Despite the application preventing the inclusion of special characters within the "ScanName" field, this could be bypassed by modifying the configuration file directly.
@@ -380,7 +380,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-5878
 <br>
-<strong>Published : </strong> May 20, 2025, 8:15 a.m. | 6 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 8:15 a.m. | 6 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Multiple plugins for WordPress are vulnerable to Stored Cross-Site Scripting via the plugin's bundled SimpleLightbox JavaScript library (version 2.1.5) in various versions due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -397,11 +397,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2929
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 a.m. | 8 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 a.m. | 8 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>The Order Delivery Date WordPress plugin before 12.4.0 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 7.1 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -414,7 +414,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4322
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 a.m. | 8 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 a.m. | 8 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>The Motors theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 5.6.67. This is due to the theme not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user passwords, including those of administrators, and leverage that to gain access to their account.
 <br>
@@ -425,6 +425,43 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 20 May 2025 06:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4322</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4322</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3079 - HP Officejet and LaserJet Printer Passback Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3079
+<br>
+<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 14 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>A passback vulnerability which relates to office/small office multifunction printers and laser printers.
+<br>
+<strong>Severity:</strong> 8.7 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3079</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3079</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4971 - Broadcom Automic Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4971
+<br>
+<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 14 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>Broadcom Automic
+Automation Agent Unix versions <
+24.3.0 HF4 and < 21.0.13 HF1 allow low privileged users who have execution
+rights on the agent executable to escalate their privileges.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4971</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4971</guid>
     </item>
     <item>
       <title>CVE-2025-3078 - "Xerox Printer Passback Vulnerability"</title>
@@ -442,43 +479,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 20 May 2025 00:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-3078</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-3078</guid>
-    </item>
-    <item>
-      <title>CVE-2025-3079 - HP Officejet and LaserJet Printer Passback Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-3079
-<br>
-<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 14 hours, 3 minutes ago
-<br>
-<strong>Description : </strong>A passback vulnerability which relates to office/small office multifunction printers and laser printers.
-<br>
-<strong>Severity:</strong> 8.7 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 00:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-3079</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3079</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4971 - Broadcom Automic Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4971
-<br>
-<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 14 hours, 3 minutes ago
-<br>
-<strong>Description : </strong>Broadcom Automic
-Automation Agent Unix versions <
-24.3.0 HF4 and < 21.0.13 HF1 allow low privileged users who have execution
-rights on the agent executable to escalate their privileges.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 00:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4971</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4971</guid>
     </item>
     <item>
       <title>CVE-2025-1308 - Apache PX Backup Sensitive Information Disclosure</title>
