@@ -94,9 +94,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-48391
-https://cvefeed.io/vuln/detail/CVE-2025-4364
-https://cvefeed.io/vuln/detail/CVE-2025-47290
 https://cvefeed.io/vuln/detail/CVE-2025-4996
 https://cvefeed.io/vuln/detail/CVE-2025-44881
 https://cvefeed.io/vuln/detail/CVE-2025-44884
@@ -119,6 +116,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-44898
 https://cvefeed.io/vuln/detail/CVE-2025-4998
 https://cvefeed.io/vuln/detail/CVE-2025-4999
 https://cvefeed.io/vuln/detail/CVE-2025-5000
+https://cvefeed.io/vuln/detail/CVE-2025-5001
+https://cvefeed.io/vuln/detail/CVE-2025-5002
+https://cvefeed.io/vuln/detail/CVE-2025-5003
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -139,6 +139,17 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territo
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/2024-violations-donnees-personnelles
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
+https://cvefeed.io/vuln/detail/CVE-2025-44880
+https://cvefeed.io/vuln/detail/CVE-2025-44882
+https://cvefeed.io/vuln/detail/CVE-2025-44883
+https://cvefeed.io/vuln/detail/CVE-2025-44891
+https://cvefeed.io/vuln/detail/CVE-2025-44894
+https://cvefeed.io/vuln/detail/CVE-2025-44896
+https://cvefeed.io/vuln/detail/CVE-2025-44897
+https://cvefeed.io/vuln/detail/CVE-2025-44898
+https://cvefeed.io/vuln/detail/CVE-2025-4998
+https://cvefeed.io/vuln/detail/CVE-2025-4999
+https://cvefeed.io/vuln/detail/CVE-2025-5000
 https://cvefeed.io/vuln/detail/CVE-2025-44881
 https://cvefeed.io/vuln/detail/CVE-2025-44884
 https://cvefeed.io/vuln/detail/CVE-2025-44885
@@ -151,6 +162,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-48056
 https://cvefeed.io/vuln/detail/CVE-2025-4997
 https://cvefeed.io/vuln/detail/CVE-2025-47290
 https://cvefeed.io/vuln/detail/CVE-2025-4996
+https://cvefeed.io/vuln/detail/CVE-2025-48391
+https://cvefeed.io/vuln/detail/CVE-2025-4364
 https://cvefeed.io/vuln/detail/CVE-2025-22157
 https://cvefeed.io/vuln/detail/CVE-2025-37983
 https://cvefeed.io/vuln/detail/CVE-2025-37984
@@ -169,8 +182,6 @@ https://cvefeed.io/vuln/detail/CVE-2025-47851
 https://cvefeed.io/vuln/detail/CVE-2025-47852
 https://cvefeed.io/vuln/detail/CVE-2025-47853
 https://cvefeed.io/vuln/detail/CVE-2025-47854
-https://cvefeed.io/vuln/detail/CVE-2025-48391
-https://cvefeed.io/vuln/detail/CVE-2025-4364
 https://cvefeed.io/vuln/detail/CVE-2025-37981
 https://cvefeed.io/vuln/detail/CVE-2025-37982
 https://cvefeed.io/vuln/detail/CVE-2025-44084
@@ -3735,9 +3746,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-48391 - JetBrains YouTrack Unauthenticated Issue Deletion Vulnerability
-CVE-2025-4364 - Apache HTTP Server Information Disclosure
-CVE-2025-47290 - Containerd TOCTOU File System Manipulation Vulnerability
 CVE-2025-4996 - Intelbras RF 301K Cross-Site Scripting Vulnerability
 CVE-2025-44881 - Wavlink WL-WN579A3 Command Injection Vulnerability
 CVE-2025-44884 - D-Link FW-WGS-804HPT Stack Overflow Vulnerability
@@ -3760,6 +3768,9 @@ CVE-2025-44898 - Fortinet Wireless Access Point Stack Overflow Vulnerability
 CVE-2025-4998 - H3C Magic R200G HTTP POST Request Handler Denial of Service Vulnerability
 CVE-2025-4999 - Linksys FGW3000 HTTP POST Request Handler Command Injection Vulnerability
 CVE-2025-5000 - "Linksys FGW3000 HTTP POST Request Handler Command Injection Vulnerability"
+CVE-2025-5001 - GNU PSPP calloc Integer Overflow Vulnerability
+CVE-2025-5002 - SourceCodester Client Database Management System SQL Injection Vulnerability
+CVE-2025-5003 - Projectworlds Online Time Table Generator SQL Injection Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -3780,6 +3791,9 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-47290 - Containerd TOCTOU File System Manipulation Vulnerability
+CVE-2025-48391 - JetBrains YouTrack Unauthenticated Issue Deletion Vulnerability
+CVE-2025-4364 - Apache HTTP Server Information Disclosure
 CVE-2025-22157 - Atlassian Jira Privilege Escalation Vulnerability
 CVE-2025-37983 - Linux kernel qibfs Dentry Leak
 CVE-2025-37984 - Linux Kernel ECDsa Integer Overflow Vulnerability
