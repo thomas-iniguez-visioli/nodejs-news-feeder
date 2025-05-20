@@ -8,18 +8,52 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 20 May 2025 19:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 20:20:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-47290 - Containerd TOCTOU File System Manipulation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47290
+<br>
+<strong>Published : </strong> May 20, 2025, 7:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>containerd is a container runtime. A time-of-check to time-of-use (TOCTOU) vulnerability was found in containerd v2.1.0. While unpacking an image during an image pull, specially crafted container images could arbitrarily modify the host file system. The only affected version of containerd is 2.1.0.  Other versions of containerd are not affected. This bug has been fixed in containerd 2.1.1. Users should update to this version to resolve the issue. As a workaround, ensure that only trusted images are used and that only trusted users have permissions to import images.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47290</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47290</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4996 - Intelbras RF 301K Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4996
+<br>
+<strong>Published : </strong> May 20, 2025, 7:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in Intelbras RF 301K 1.1.5. This issue affects some unknown processing of the component Add Static IP. The manipulation of the argument Description leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4996</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4996</guid>
+    </item>
+    <item>
       <title>CVE-2025-22157 - Atlassian Jira Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-22157
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>This High severity PrivEsc (Privilege Escalation) vulnerability was introduced in versions:
 
@@ -64,7 +98,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37983
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -89,7 +123,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37984
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -121,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37985
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -143,7 +177,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37986
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -166,7 +200,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37987
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -203,7 +237,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37988
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -271,7 +305,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37989
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -308,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37990
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -340,7 +374,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37991
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -406,7 +440,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46724
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Langroid is a Python framework to build large language model (LLM)-powered applications. Prior to version 0.53.15, `TableChatAgent` uses `pandas eval()`. If fed by untrusted user input, like the case of a public-facing LLM application, it may be vulnerable to code injection. Langroid 0.53.15 sanitizes input to `TableChatAgent` by default to tackle the most common attack vectors, and added several warnings about the risky behavior in the project documentation.
 <br>
@@ -423,7 +457,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46725
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Langroid is a Python framework to build large language model (LLM)-powered applications. Prior to version 0.53.15, `LanceDocChatAgent` uses pandas eval() through `compute_from_docs()`. As a result, an attacker may be able to make the agent run malicious commands through `QueryPlan.dataframe_calc]`) compromising the host system. Langroid 0.53.15 sanitizes input to the affected function by default to tackle the most common attack vectors, and added several warnings about the risky behavior in the project documentation.
 <br>
@@ -440,7 +474,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47277
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>vLLM, an inference and serving engine for large language models (LLMs), has an issue in versions 0.6.5 through 0.8.4 that ONLY impacts environments using the `PyNcclPipe` KV cache transfer integration with the V0 engine. No other configurations are affected. vLLM supports the use of the `PyNcclPipe` class to establish a peer-to-peer communication domain for data transmission between distributed nodes. The GPU-side KV-Cache transmission is implemented through the `PyNcclCommunicator` class, while CPU-side control message passing is handled via the `send_obj` and `recv_obj` methods on the CPU side.​ The intention was that this interface should only be exposed to a private network using the IP address specified by the `--kv-ip` CLI parameter. The vLLM documentation covers how this must be limited to a secured network. The default and intentional behavior from PyTorch is that the `TCPStore` interface listens on ALL interfaces, regardless of what IP address is provided. The IP address given was only used as a client-side address to use. vLLM was fixed to use a workaround to force the `TCPStore` instance to bind its socket to a specified private interface. As of version 0.8.5, vLLM limits the `TCPStore` socket to the private interface as configured.
 <br>
@@ -457,7 +491,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47850
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains YouTrack before 2025.1.74704 restricted attachments could become visible after issue cloning
 <br>
@@ -474,7 +508,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47851
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains TeamCity before 2025.03.2 stored XSS via GitHub Checks Webhook was possible
 <br>
@@ -491,7 +525,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47852
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains TeamCity before 2025.03.2 stored XSS via YouTrack integration was possible
 <br>
@@ -508,7 +542,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47853
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains TeamCity before 2025.03.2 stored XSS via Jira integration was possible
 <br>
@@ -525,7 +559,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47854
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains TeamCity before 2025.03.2 open redirect was possible on editing VCS Root page
 <br>
@@ -542,7 +576,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48391
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains YouTrack before 2025.1.76253 deletion of issues was possible due to missing permission checks in API
 <br>
@@ -559,7 +593,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4364
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 33 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>The affected products could allow an unauthenticated attacker to access system information that could enable further access to sensitive files and obtain administrative credentials.
 <br>
@@ -570,6 +604,74 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4364</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4364</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37981 - SmartPQi Linux Kernel Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37981
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 3 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: smartpqi: Use is_kdump_kernel() to check for kdump
+
+The smartpqi driver checks the reset_devices variable to determine
+whether special adjustments need to be made for kdump. This has the
+effect that after a regular kexec reboot, some driver parameters such as
+max_transfer_size are much lower than usual. More importantly, kexec
+reboot tests have revealed memory corruption caused by the driver log
+being written to system memory after a kexec.
+
+Fix this by testing is_kdump_kernel() rather than reset_devices where
+appropriate.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37981</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37981</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37982 - "Qualcomm Atheros Linux Kernel Memory Leak"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37982
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 3 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: wl1251: fix memory leak in wl1251_tx_work
+
+The skb dequeued from tx_queue is lost when wl1251_ps_elp_wakeup fails
+with a -ETIMEDOUT error. Fix that by queueing the skb back to tx_queue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37982</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37982</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44084 - D-Link DI-8100 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44084
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 3 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>D-link DI-8100 16.07.26A1 is vulnerable to Command Injection. An attacker can exploit this vulnerability by crafting specific HTTP requests, triggering the command execution flaw and gaining the highest privilege shell access to the firmware system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44084</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44084</guid>
     </item>
     <item>
       <title>CVE-2025-37979 - Qualcomm ASoC qcom Linux Kernel Buffer Overflow</title>
@@ -625,74 +727,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-37980</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-37980</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37981 - SmartPQi Linux Kernel Memory Corruption Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37981
-<br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-scsi: smartpqi: Use is_kdump_kernel() to check for kdump
-
-The smartpqi driver checks the reset_devices variable to determine
-whether special adjustments need to be made for kdump. This has the
-effect that after a regular kexec reboot, some driver parameters such as
-max_transfer_size are much lower than usual. More importantly, kexec
-reboot tests have revealed memory corruption caused by the driver log
-being written to system memory after a kexec.
-
-Fix this by testing is_kdump_kernel() rather than reset_devices where
-appropriate.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37981</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37981</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37982 - "Qualcomm Atheros Linux Kernel Memory Leak"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37982
-<br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-wifi: wl1251: fix memory leak in wl1251_tx_work
-
-The skb dequeued from tx_queue is lost when wl1251_ps_elp_wakeup fails
-with a -ETIMEDOUT error. Fix that by queueing the skb back to tx_queue.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37982</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37982</guid>
-    </item>
-    <item>
-      <title>CVE-2025-44084 - D-Link DI-8100 Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-44084
-<br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>D-link DI-8100 16.07.26A1 is vulnerable to Command Injection. An attacker can exploit this vulnerability by crafting specific HTTP requests, triggering the command execution flaw and gaining the highest privilege shell access to the firmware system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-44084</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44084</guid>
     </item>
     <item>
       <title>CVE-2025-37965 - AMD Display FPU Invalid Context Use-After-Free</title>
