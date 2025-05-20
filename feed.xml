@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 20 May 2025 19:27:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 19:39:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -572,129 +572,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4364</guid>
     </item>
     <item>
-      <title>CVE-2025-37979 - Qualcomm ASoC qcom Linux Kernel Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37979
-<br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-ASoC: qcom: Fix sc7280 lpass potential buffer overflow
-
-Case values introduced in commit
-5f78e1fb7a3e ("ASoC: qcom: Add driver support for audioreach solution")
-cause out of bounds access in arrays of sc7280 driver data (e.g. in case
-of RX_CODEC_DMA_RX_0 in sc7280_snd_hw_params()).
-
-Redefine LPASS_MAX_PORTS to consider the maximum possible port id for
-q6dsp as sc7280 driver utilizes some of those values.
-
-Found by Linux Verification Center (linuxtesting.org) with SVACE.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37979</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37979</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37980 - Linux Kernel Block Driver Resource Leak Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37980
-<br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-block: fix resource leak in blk_register_queue() error path
-
-When registering a queue fails after blk_mq_sysfs_register() is
-successful but the function later encounters an error, we need
-to clean up the blk_mq_sysfs resources.
-
-Add the missing blk_mq_sysfs_unregister() call in the error path
-to properly clean up these resources and prevent a memory leak.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37980</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37980</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37981 - SmartPQi Linux Kernel Memory Corruption Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37981
-<br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-scsi: smartpqi: Use is_kdump_kernel() to check for kdump
-
-The smartpqi driver checks the reset_devices variable to determine
-whether special adjustments need to be made for kdump. This has the
-effect that after a regular kexec reboot, some driver parameters such as
-max_transfer_size are much lower than usual. More importantly, kexec
-reboot tests have revealed memory corruption caused by the driver log
-being written to system memory after a kexec.
-
-Fix this by testing is_kdump_kernel() rather than reset_devices where
-appropriate.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37981</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37981</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37982 - "Qualcomm Atheros Linux Kernel Memory Leak"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37982
-<br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-wifi: wl1251: fix memory leak in wl1251_tx_work
-
-The skb dequeued from tx_queue is lost when wl1251_ps_elp_wakeup fails
-with a -ETIMEDOUT error. Fix that by queueing the skb back to tx_queue.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37982</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37982</guid>
-    </item>
-    <item>
-      <title>CVE-2025-44084 - D-Link DI-8100 Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-44084
-<br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>D-link DI-8100 16.07.26A1 is vulnerable to Command Injection. An attacker can exploit this vulnerability by crafting specific HTTP requests, triggering the command execution flaw and gaining the highest privilege shell access to the firmware system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-44084</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44084</guid>
-    </item>
-    <item>
       <title>CVE-2025-37965 - AMD Display FPU Invalid Context Use-After-Free</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37965
@@ -1086,6 +963,129 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-37978</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-37978</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37979 - Qualcomm ASoC qcom Linux Kernel Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37979
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ASoC: qcom: Fix sc7280 lpass potential buffer overflow
+
+Case values introduced in commit
+5f78e1fb7a3e ("ASoC: qcom: Add driver support for audioreach solution")
+cause out of bounds access in arrays of sc7280 driver data (e.g. in case
+of RX_CODEC_DMA_RX_0 in sc7280_snd_hw_params()).
+
+Redefine LPASS_MAX_PORTS to consider the maximum possible port id for
+q6dsp as sc7280 driver utilizes some of those values.
+
+Found by Linux Verification Center (linuxtesting.org) with SVACE.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37979</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37979</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37980 - Linux Kernel Block Driver Resource Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37980
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+block: fix resource leak in blk_register_queue() error path
+
+When registering a queue fails after blk_mq_sysfs_register() is
+successful but the function later encounters an error, we need
+to clean up the blk_mq_sysfs resources.
+
+Add the missing blk_mq_sysfs_unregister() call in the error path
+to properly clean up these resources and prevent a memory leak.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37980</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37980</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37981 - SmartPQi Linux Kernel Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37981
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: smartpqi: Use is_kdump_kernel() to check for kdump
+
+The smartpqi driver checks the reset_devices variable to determine
+whether special adjustments need to be made for kdump. This has the
+effect that after a regular kexec reboot, some driver parameters such as
+max_transfer_size are much lower than usual. More importantly, kexec
+reboot tests have revealed memory corruption caused by the driver log
+being written to system memory after a kexec.
+
+Fix this by testing is_kdump_kernel() rather than reset_devices where
+appropriate.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37981</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37981</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37982 - "Qualcomm Atheros Linux Kernel Memory Leak"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37982
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: wl1251: fix memory leak in wl1251_tx_work
+
+The skb dequeued from tx_queue is lost when wl1251_ps_elp_wakeup fails
+with a -ETIMEDOUT error. Fix that by queueing the skb back to tx_queue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37982</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37982</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44084 - D-Link DI-8100 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44084
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>D-link DI-8100 16.07.26A1 is vulnerable to Command Injection. An attacker can exploit this vulnerability by crafting specific HTTP requests, triggering the command execution flaw and gaining the highest privilege shell access to the firmware system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44084</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44084</guid>
     </item>
     <item>
       <title>CVE-2025-37964 - Linux Kernel: Intel X86 TLB Flush Inadvertent Skipping Vulnerability</title>
