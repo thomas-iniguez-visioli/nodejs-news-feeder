@@ -8,18 +8,41 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 20 May 2025 13:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 13:48:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-30193 - DNSdist TCP Stack Exhaustion Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30193
+<br>
+<strong>Published : </strong> May 20, 2025, 12:15 p.m. | 33 minutes ago
+<br>
+<strong>Description : </strong>In some circumstances, when DNSdist is configured to allow an unlimited number of queries on a single, incoming TCP connection from a client, an attacker can cause a denial of service by crafting a TCP exchange that triggers an exhaustion of the stack and a crash of DNSdist, causing a denial of service.
+
+The remedy is: upgrade to the patched 1.9.10 version.
+
+A workaround is to restrict the maximum number of queries on incoming TCP connections to a safe value, like 50, via the setMaxTCPQueriesPerConnection setting.
+
+We would like to thank Renaud Allard for bringing this issue to our attention.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30193</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30193</guid>
+    </item>
+    <item>
       <title>CVE-2025-37892 - Linux Kernel MTD INFTL Buffer Overflow</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37892
 <br>
-<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 1 hour, 33 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -44,7 +67,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40633
 <br>
-<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 1 hour, 33 minutes ago
 <br>
 <strong>Description : </strong>A Stored Cross-Site Scripting (XSS) vulnerability has been found in 
 Koibox for versions prior to e8cbce2. This vulnerability allows an 
@@ -65,7 +88,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40634
 <br>
-<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 1 hour, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 11:15 a.m. | 1 hour, 33 minutes ago
 <br>
 <strong>Description : </strong>Stack-based buffer overflow vulnerability in the 'conn-indicator' binary running as root on the TP-Link Archer AX50 router, in firmware versions prior to 1.0.15 build 241203 rel61480. This vulnerability allows an attacker to execute arbitrary code on the device over LAN and WAN networks.
 <br>
@@ -82,7 +105,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4951
 <br>
-<strong>Published : </strong> May 20, 2025, 9:15 a.m. | 3 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 9:15 a.m. | 3 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Editions of Rapid7 AppSpider Pro before version 7.5.018 is vulnerable to a stored cross-site scripting vulnerability in the "ScanName" field.
 Despite the application preventing the inclusion of special characters within the "ScanName" field, this could be bypassed by modifying the configuration file directly.
@@ -102,7 +125,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-5878
 <br>
-<strong>Published : </strong> May 20, 2025, 8:15 a.m. | 4 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 8:15 a.m. | 4 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Multiple plugins for WordPress are vulnerable to Stored Cross-Site Scripting via the plugin's bundled SimpleLightbox JavaScript library (version 2.1.5) in various versions due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -119,7 +142,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2929
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 a.m. | 6 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 a.m. | 6 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>The Order Delivery Date WordPress plugin before 12.4.0 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin
 <br>
@@ -136,7 +159,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4322
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 a.m. | 6 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 a.m. | 6 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>The Motors theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 5.6.67. This is due to the theme not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user passwords, including those of administrators, and leverage that to gain access to their account.
 <br>
@@ -153,7 +176,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3078
 <br>
-<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 12 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 12 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A passback vulnerability which relates to production printers and office multifunction printers.
 <br>
@@ -170,7 +193,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3079
 <br>
-<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 12 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 12 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A passback vulnerability which relates to office/small office multifunction printers and laser printers.
 <br>
@@ -187,7 +210,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4971
 <br>
-<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 12 hours, 3 minutes ago
+<strong>Published : </strong> May 20, 2025, 12:15 a.m. | 12 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Broadcom Automic
 Automation Agent Unix versions <
@@ -207,7 +230,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1308
 <br>
-<strong>Published : </strong> May 19, 2025, 10:15 p.m. | 14 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 10:15 p.m. | 14 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability exists in PX Backup whereby sensitive information may be logged under specific conditions.
 <br>
@@ -224,7 +247,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3223
 <br>
-<strong>Published : </strong> May 19, 2025, 9:15 p.m. | 15 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 9:15 p.m. | 15 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in GE Vernova WorkstationST on Windows (EGD Configuration Server modules) allows Path Traversal.This issue affects WorkstationST: WorkstationST V07.10.10C and earlier.
 <br>
@@ -241,7 +264,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48340
 <br>
-<strong>Published : </strong> May 19, 2025, 9:15 p.m. | 15 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 9:15 p.m. | 15 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Danny Vink User Profile Meta Manager allows Privilege Escalation.This issue affects User Profile Meta Manager: from n/a through 1.02.
 <br>
@@ -254,28 +277,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-48340</guid>
     </item>
     <item>
-      <title>CVE-2025-39386 - Mojoomla Hospital Management System SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-39386
-<br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in mojoomla Hospital Management System allows SQL Injection.This issue affects Hospital Management System: from n/a through 47.0(20-11-2023).
-<br>
-<strong>Severity:</strong> 9.3 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 19 May 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-39386</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-39386</guid>
-    </item>
-    <item>
       <title>CVE-2025-39389 - Solid Plugins AnalyticsWP SQL Injection</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-39389
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Solid Plugins AnalyticsWP allows SQL Injection.This issue affects AnalyticsWP: from n/a through 2.1.2.
 <br>
@@ -292,7 +298,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-39392
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in mojoomla WPAMS allows Reflected XSS.This issue affects WPAMS: from n/a through 44.0 (17-08-2023).
 <br>
@@ -309,7 +315,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-39393
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in mojoomla Hospital Management System allows Reflected XSS.This issue affects Hospital Management System: from n/a through 47.0 (20-11-2023).
 <br>
@@ -326,7 +332,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-39395
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in mojoomla WPAMS allows SQL Injection.This issue affects WPAMS: from n/a through 44.0 (17-08-2023).
 <br>
@@ -343,7 +349,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-39401
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Unrestricted Upload of File with Dangerous Type vulnerability in mojoomla WPAMS allows Upload a Web Shell to a Web Server.This issue affects WPAMS: from n/a through 44.0 (17-08-2023).
 <br>
@@ -360,7 +366,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-39402
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Unrestricted Upload of File with Dangerous Type vulnerability in mojoomla WPAMS allows Upload a Web Shell to a Web Server.This issue affects WPAMS: from n/a through 44.0 (17-08-2023).
 <br>
@@ -377,7 +383,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46441
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Path Traversal: '.../...//' vulnerability in ctltwp Section Widget allows Path Traversal.This issue affects Section Widget: from n/a through 3.3.1.
 <br>
@@ -394,7 +400,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47935
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Multer is a node.js middleware for handling `multipart/form-data`. Versions prior to 2.0.0 are vulnerable to a resource exhaustion and memory leak issue due to improper stream handling. When the HTTP request stream emits an error, the internal `busboy` stream is not closed, violating Node.js stream safety guidance. This leads to unclosed streams accumulating over time, consuming memory and file descriptors. Under sustained or repeated failure conditions, this can result in denial of service, requiring manual server restarts to recover. All users of Multer handling file uploads are potentially impacted. Users should upgrade to 2.0.0 to receive a patch. No known workarounds are available.
 <br>
@@ -411,7 +417,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47944
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Multer is a node.js middleware for handling `multipart/form-data`. A vulnerability that is present starting in version 1.4.4-lts.1 and prior to version 2.0.0 allows an attacker to trigger a Denial of Service (DoS) by sending a malformed multi-part upload request. This request causes an unhandled exception, leading to a crash of the process. Users should upgrade to version 2.0.0 to receive a patch. No known workarounds are available.
 <br>
@@ -428,7 +434,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47946
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>Symfony UX is an initiative and set of libraries to integrate JavaScript tools into applications. Prior to version 2.25.1, rendering `{{ attributes }}` or using any method that returns a `ComponentAttributes` instance (e.g. `only()`, `defaults()`, `without()`) ouputs attribute values directly without escaping. If these values are unsafe (e.g. contain user input), this can lead to HTML attribute injection and XSS vulnerabilities. The issue is fixed in version `2.25.1` of `symfony/ux-twig-component` Those who use `symfony/ux-live-component` must also update it to `2.25.1` to benefit from the fix, as it reuses the `ComponentAttributes` class internally. As a workaround, avoid rendering `{{ attributes }}` or derived objects directly if it may contain untrusted values.
 Instead, use `{{ attributes.render('name') }}` for safe output of individual attributes.
@@ -446,7 +452,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47949
 <br>
-<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 33 minutes ago
 <br>
 <strong>Description : </strong>samlify is a Node.js library for SAML single sign-on. A Signature Wrapping attack has been found in samlify prior to version 2.10.0, allowing an attacker to forge a SAML Response to authenticate as any user. An attacker would need a signed XML document by the identity provider. Version 2.10.0 fixes the issue.
 <br>
@@ -457,6 +463,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 19 May 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-47949</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-47949</guid>
+    </item>
+    <item>
+      <title>CVE-2025-39386 - Mojoomla Hospital Management System SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-39386
+<br>
+<strong>Published : </strong> May 19, 2025, 8:15 p.m. | 16 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in mojoomla Hospital Management System allows SQL Injection.This issue affects Hospital Management System: from n/a through 47.0(20-11-2023).
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 19 May 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-39386</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-39386</guid>
     </item>
     <item>
       <title>CVE-2025-39366 - Rocket Apps wProject Privilege Escalation Vulnerability</title>
