@@ -8,12 +8,691 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 20 May 2025 18:26:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 18:50:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-37965 - AMD Display FPU Invalid Context Use-After-Free</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37965
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+drm/amd/display: Fix invalid context error in dml helper
+
+[Why]
+"BUG: sleeping function called from invalid context" error.
+after:
+"drm/amd/display: Protect FPU in dml2_validate()/dml21_validate()"
+
+The populate_dml_plane_cfg_from_plane_state() uses the GFP_KERNEL flag
+for memory allocation, which shouldn't be used in atomic contexts.
+
+The allocation is needed only for using another helper function
+get_scaler_data_for_plane().
+
+[How]
+Modify helpers to pass a pointer to scaler_data within existing context,
+eliminating the need for dynamic memory allocation/deallocation
+and copying.
+
+(cherry picked from commit bd3e84bc98f81b44f2c43936bdadc3241d654259)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37965</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37965</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37966 - RISC-V Linux PR_SET_TAGGED_ADDR_CTRL Kernel Crash Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37966
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+riscv: Fix kernel crash due to PR_SET_TAGGED_ADDR_CTRL
+
+When userspace does PR_SET_TAGGED_ADDR_CTRL, but Supm extension is not
+available, the kernel crashes:
+
+Oops - illegal instruction [#1]
+    [snip]
+epc : set_tagged_addr_ctrl+0x112/0x15a
+ ra : set_tagged_addr_ctrl+0x74/0x15a
+epc : ffffffff80011ace ra : ffffffff80011a30 sp : ffffffc60039be10
+    [snip]
+status: 0000000200000120 badaddr: 0000000010a79073 cause: 0000000000000002
+    set_tagged_addr_ctrl+0x112/0x15a
+    __riscv_sys_prctl+0x352/0x73c
+    do_trap_ecall_u+0x17c/0x20c
+    andle_exception+0x150/0x15c
+
+Fix it by checking if Supm is available.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37966</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37966</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37967 - Linux Kernel USB Type-C UCSI DisplayPort Deadlock Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37967
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+usb: typec: ucsi: displayport: Fix deadlock
+
+This patch introduces the ucsi_con_mutex_lock / ucsi_con_mutex_unlock
+functions to the UCSI driver. ucsi_con_mutex_lock ensures the connector
+mutex is only locked if a connection is established and the partner pointer
+is valid. This resolves a deadlock scenario where
+ucsi_displayport_remove_partner holds con->mutex waiting for
+dp_altmode_work to complete while dp_altmode_work attempts to acquire it.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37967</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37967</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37968 - Linux Kernel IIO Light Opt3001 Deadlock Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37968
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+iio: light: opt3001: fix deadlock due to concurrent flag access
+
+The threaded IRQ function in this driver is reading the flag twice: once to
+lock a mutex and once to unlock it. Even though the code setting the flag
+is designed to prevent it, there are subtle cases where the flag could be
+true at the mutex_lock stage and false at the mutex_unlock stage. This
+results in the mutex not being unlocked, resulting in a deadlock.
+
+Fix it by making the opt3001_irq() code generally more robust, reading the
+flag into a variable and using the variable value at both stages.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37968</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37968</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37969 - Linux Kernel: st_lsm6dsx Infinite Loop Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37969
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_tagged_fifo
+
+Prevent st_lsm6dsx_read_tagged_fifo from falling in an infinite loop in
+case pattern_len is equal to zero and the device FIFO is not empty.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37969</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37969</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37970 - Linux Kernel IIO IMU st_lsm6dsx Infinite Loop Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37970
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_fifo
+
+Prevent st_lsm6dsx_read_fifo from falling in an infinite loop in case
+pattern_len is equal to zero and the device FIFO is not empty.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37970</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37970</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37971 - Raspberry Pi bcm2835-camera Null Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37971
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+staging: bcm2835-camera: Initialise dev in v4l2_dev
+
+Commit 42a2f6664e18 ("staging: vc04_services: Move global g_state to
+vchiq_state") changed mmal_init to pass dev->v4l2_dev.dev to
+vchiq_mmal_init, however nothing iniitialised dev->v4l2_dev, so we got
+a NULL pointer dereference.
+
+Set dev->v4l2_dev.dev during bcm2835_mmal_probe. The device pointer
+could be passed into v4l2_device_register to set it, however that also
+has other effects that would need additional changes.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37971</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37971</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37972 - Mediatek Linux Kernel Null Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37972
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+Input: mtk-pmic-keys - fix possible null pointer dereference
+
+In mtk_pmic_keys_probe, the regs parameter is only set if the button is
+parsed in the device tree. However, on hardware where the button is left
+floating, that node will most likely be removed not to enable that
+input. In that case the code will try to dereference a null pointer.
+
+Let's use the regs struct instead as it is defined for all supported
+platforms. Note that it is ok setting the key reg even if that latter is
+disabled as the interrupt won't be enabled anyway.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37972</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37972</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37973 - Cisco Wireless Out-of-Bounds Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37973
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: cfg80211: fix out-of-bounds access during multi-link element defragmentation
+
+Currently during the multi-link element defragmentation process, the
+multi-link element length added to the total IEs length when calculating
+the length of remaining IEs after the multi-link element in
+cfg80211_defrag_mle(). This could lead to out-of-bounds access if the
+multi-link element or its corresponding fragment elements are the last
+elements in the IEs buffer.
+
+To address this issue, correctly calculate the remaining IEs length by
+deducting the multi-link element end offset from total IEs end offset.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37973</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37973</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37974 - Linux kernel s390 PCI Missing Check Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37974
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+s390/pci: Fix missing check for zpci_create_device() error return
+
+The zpci_create_device() function returns an error pointer that needs to
+be checked before dereferencing it as a struct zpci_dev pointer. Add the
+missing check in __clp_add() where it was missed when adding the
+scan_list in the fixed commit. Simply not adding the device to the scan
+list results in the previous behavior.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37974</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37974</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37975 - RISC-V Module Out-of-Bounds Relocation Access</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37975
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+riscv: module: Fix out-of-bounds relocation access
+
+The current code allows rel[j] to access one element past the end of the
+relocation section. Simplify to num_relocations which is equivalent to
+the existing size expression.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37975</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37975</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37976 - "Qualcomm ath12k WiFi Destination Ring Entry Fetch Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37976
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: ath12k: Fix invalid entry fetch in ath12k_dp_mon_srng_process
+
+[ Upstream commit 63fdc4509bcf483e79548de6bc08bf3c8e504bb3 ]
+
+Currently, ath12k_dp_mon_srng_process uses ath12k_hal_srng_src_get_next_entry
+to fetch the next entry from the destination ring. This is incorrect because
+ath12k_hal_srng_src_get_next_entry is intended for source rings, not destination
+rings. This leads to invalid entry fetches, causing potential data corruption or
+crashes due to accessing incorrect memory locations. This happens because the
+source ring and destination ring have different handling mechanisms and using
+the wrong function results in incorrect pointer arithmetic and ring management.
+
+To fix this issue, replace the call to ath12k_hal_srng_src_get_next_entry with
+ath12k_hal_srng_dst_get_next_entry in ath12k_dp_mon_srng_process. This ensures
+that the correct function is used for fetching entries from the destination
+ring, preventing invalid memory accesses.
+
+Tested-on: QCN9274 hw2.0 PCI WLAN.WBE.1.3.1-00173-QCAHKSWPL_SILICONZ-1
+Tested-on: WCN7850 hw2.0 WLAN.HMT.1.0.c5-00481-QCAHMTSWPL_V1.0_V2.0_SILICONZ-3
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37976</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37976</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37977 - Samsung UFS DMA Coherent Property Vulnerability (Information Disclosure)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37977
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: ufs: exynos: Disable iocc if dma-coherent property isn't set
+
+If dma-coherent property isn't set then descriptors are non-cacheable
+and the iocc shareability bits should be disabled. Without this UFS can
+end up in an incompatible configuration and suffer from random cache
+related stability issues.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37977</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37977</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37978 - Linux Kernel Block Integrity Oops</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37978
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+block: integrity: Do not call set_page_dirty_lock()
+
+Placing multiple protection information buffers inside the same page
+can lead to oopses because set_page_dirty_lock() can't be called from
+interrupt context.
+
+Since a protection information buffer is not backed by a file there is
+no point in setting its page dirty, there is nothing to synchronize.
+Drop the call to set_page_dirty_lock() and remove the last argument to
+bio_integrity_unpin_bvec().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37978</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37978</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37979 - Qualcomm ASoC qcom Linux Kernel Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37979
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ASoC: qcom: Fix sc7280 lpass potential buffer overflow
+
+Case values introduced in commit
+5f78e1fb7a3e ("ASoC: qcom: Add driver support for audioreach solution")
+cause out of bounds access in arrays of sc7280 driver data (e.g. in case
+of RX_CODEC_DMA_RX_0 in sc7280_snd_hw_params()).
+
+Redefine LPASS_MAX_PORTS to consider the maximum possible port id for
+q6dsp as sc7280 driver utilizes some of those values.
+
+Found by Linux Verification Center (linuxtesting.org) with SVACE.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37979</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37979</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37980 - Linux Kernel Block Driver Resource Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37980
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+block: fix resource leak in blk_register_queue() error path
+
+When registering a queue fails after blk_mq_sysfs_register() is
+successful but the function later encounters an error, we need
+to clean up the blk_mq_sysfs resources.
+
+Add the missing blk_mq_sysfs_unregister() call in the error path
+to properly clean up these resources and prevent a memory leak.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37980</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37980</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37981 - SmartPQi Linux Kernel Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37981
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: smartpqi: Use is_kdump_kernel() to check for kdump
+
+The smartpqi driver checks the reset_devices variable to determine
+whether special adjustments need to be made for kdump. This has the
+effect that after a regular kexec reboot, some driver parameters such as
+max_transfer_size are much lower than usual. More importantly, kexec
+reboot tests have revealed memory corruption caused by the driver log
+being written to system memory after a kexec.
+
+Fix this by testing is_kdump_kernel() rather than reset_devices where
+appropriate.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37981</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37981</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37982 - "Qualcomm Atheros Linux Kernel Memory Leak"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37982
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: wl1251: fix memory leak in wl1251_tx_work
+
+The skb dequeued from tx_queue is lost when wl1251_ps_elp_wakeup fails
+with a -ETIMEDOUT error. Fix that by queueing the skb back to tx_queue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37982</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37982</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44084 - D-Link DI-8100 Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44084
+<br>
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>D-link DI-8100 16.07.26A1 is vulnerable to Command Injection. An attacker can exploit this vulnerability by crafting specific HTTP requests, triggering the command execution flaw and gaining the highest privilege shell access to the firmware system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44084</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44084</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37964 - Linux Kernel: Intel X86 TLB Flush Inadvertent Skipping Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37964
+<br>
+<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+x86/mm: Eliminate window where TLB flushes may be inadvertently skipped
+
+tl;dr: There is a window in the mm switching code where the new CR3 is
+set and the CPU should be getting TLB flushes for the new mm.  But
+should_flush_tlb() has a bug and suppresses the flush.  Fix it by
+widening the window where should_flush_tlb() sends an IPI.
+
+Long Version:
+
+=== History ===
+
+There were a few things leading up to this.
+
+First, updating mm_cpumask() was observed to be too expensive, so it was
+made lazier.  But being lazy caused too many unnecessary IPIs to CPUs
+due to the now-lazy mm_cpumask().  So code was added to cull
+mm_cpumask() periodically[2].  But that culling was a bit too aggressive
+and skipped sending TLB flushes to CPUs that need them.  So here we are
+again.
+
+=== Problem ===
+
+The too-aggressive code in should_flush_tlb() strikes in this window:
+
+	// Turn on IPIs for this CPU/mm combination, but only
+	// if should_flush_tlb() agrees:
+	cpumask_set_cpu(cpu, mm_cpumask(next));
+
+	next_tlb_gen = atomic64_read(&next->context.tlb_gen);
+	choose_new_asid(next, next_tlb_gen, &new_asid, &need_flush);
+	load_new_mm_cr3(need_flush);
+	// ^ After 'need_flush' is set to false, IPIs *MUST*
+	// be sent to this CPU and not be ignored.
+
+        this_cpu_write(cpu_tlbstate.loaded_mm, next);
+	// ^ Not until this point does should_flush_tlb()
+	// become true!
+
+should_flush_tlb() will suppress TLB flushes between load_new_mm_cr3()
+and writing to 'loaded_mm', which is a window where they should not be
+suppressed.  Whoops.
+
+=== Solution ===
+
+Thankfully, the fuzzy "just about to write CR3" window is already marked
+with loaded_mm==LOADED_MM_SWITCHING.  Simply checking for that state in
+should_flush_tlb() is sufficient to ensure that the CPU is targeted with
+an IPI.
+
+This will cause more TLB flush IPIs.  But the window is relatively small
+and I do not expect this to cause any kind of measurable performance
+impact.
+
+Update the comment where LOADED_MM_SWITCHING is written since it grew
+yet another user.
+
+Peter Z also raised a concern that should_flush_tlb() might not observe
+'loaded_mm' and 'is_lazy' in the same order that switch_mm_irqs_off()
+writes them.  Add a barrier to ensure that they are observed in the
+order they are written.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37964</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37964</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48014 - Apache Directory LDAP Authentication Password Guessing Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48014
+<br>
+<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>Password guessing limits could be bypassed when using LDAP authentication.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48014</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48014</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48015 - Apache Stratosphere Authentication Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48015
+<br>
+<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>Failed login response could be different depending on whether the username was local or central.
+<br>
+<strong>Severity:</strong> 3.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48015</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48015</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48016 - Cisco OpenFlow Discovery Protocol Resource Exhaustion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48016
+<br>
+<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>OpenFlow discovery protocol can exhaust resources because it is not rate limited
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48016</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48016</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48017 - Apache Circuit File Upload Path Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48017
+<br>
+<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>Improper limitation of pathname in Circuit Provisioning and File Import applications allows modification and uploading of files
+<br>
+<strong>Severity:</strong> 9.0 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48017</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48017</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48018 - Adobe ColdFusion Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48018
+<br>
+<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>An authenticated user can modify application state data.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48018</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48018</guid>
+    </item>
     <item>
       <title>CVE-2025-37945 - Linux Kernel: Phylink-Controlled PHY State Machine Not Stopped on Suspend and Started on Resume</title>
       <description><![CDATA[<p>
@@ -866,169 +1545,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-37963</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-37963</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37964 - Linux Kernel: Intel X86 TLB Flush Inadvertent Skipping Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37964
-<br>
-<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 34 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-x86/mm: Eliminate window where TLB flushes may be inadvertently skipped
-
-tl;dr: There is a window in the mm switching code where the new CR3 is
-set and the CPU should be getting TLB flushes for the new mm.  But
-should_flush_tlb() has a bug and suppresses the flush.  Fix it by
-widening the window where should_flush_tlb() sends an IPI.
-
-Long Version:
-
-=== History ===
-
-There were a few things leading up to this.
-
-First, updating mm_cpumask() was observed to be too expensive, so it was
-made lazier.  But being lazy caused too many unnecessary IPIs to CPUs
-due to the now-lazy mm_cpumask().  So code was added to cull
-mm_cpumask() periodically[2].  But that culling was a bit too aggressive
-and skipped sending TLB flushes to CPUs that need them.  So here we are
-again.
-
-=== Problem ===
-
-The too-aggressive code in should_flush_tlb() strikes in this window:
-
-	// Turn on IPIs for this CPU/mm combination, but only
-	// if should_flush_tlb() agrees:
-	cpumask_set_cpu(cpu, mm_cpumask(next));
-
-	next_tlb_gen = atomic64_read(&next->context.tlb_gen);
-	choose_new_asid(next, next_tlb_gen, &new_asid, &need_flush);
-	load_new_mm_cr3(need_flush);
-	// ^ After 'need_flush' is set to false, IPIs *MUST*
-	// be sent to this CPU and not be ignored.
-
-        this_cpu_write(cpu_tlbstate.loaded_mm, next);
-	// ^ Not until this point does should_flush_tlb()
-	// become true!
-
-should_flush_tlb() will suppress TLB flushes between load_new_mm_cr3()
-and writing to 'loaded_mm', which is a window where they should not be
-suppressed.  Whoops.
-
-=== Solution ===
-
-Thankfully, the fuzzy "just about to write CR3" window is already marked
-with loaded_mm==LOADED_MM_SWITCHING.  Simply checking for that state in
-should_flush_tlb() is sufficient to ensure that the CPU is targeted with
-an IPI.
-
-This will cause more TLB flush IPIs.  But the window is relatively small
-and I do not expect this to cause any kind of measurable performance
-impact.
-
-Update the comment where LOADED_MM_SWITCHING is written since it grew
-yet another user.
-
-Peter Z also raised a concern that should_flush_tlb() might not observe
-'loaded_mm' and 'is_lazy' in the same order that switch_mm_irqs_off()
-writes them.  Add a barrier to ensure that they are observed in the
-order they are written.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37964</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37964</guid>
-    </item>
-    <item>
-      <title>CVE-2025-48014 - Apache Directory LDAP Authentication Password Guessing Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-48014
-<br>
-<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 34 minutes ago
-<br>
-<strong>Description : </strong>Password guessing limits could be bypassed when using LDAP authentication.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-48014</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48014</guid>
-    </item>
-    <item>
-      <title>CVE-2025-48015 - Apache Stratosphere Authentication Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-48015
-<br>
-<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 34 minutes ago
-<br>
-<strong>Description : </strong>Failed login response could be different depending on whether the username was local or central.
-<br>
-<strong>Severity:</strong> 3.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-48015</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48015</guid>
-    </item>
-    <item>
-      <title>CVE-2025-48016 - Cisco OpenFlow Discovery Protocol Resource Exhaustion Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-48016
-<br>
-<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 34 minutes ago
-<br>
-<strong>Description : </strong>OpenFlow discovery protocol can exhaust resources because it is not rate limited
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-48016</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48016</guid>
-    </item>
-    <item>
-      <title>CVE-2025-48017 - Apache Circuit File Upload Path Traversal</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-48017
-<br>
-<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 34 minutes ago
-<br>
-<strong>Description : </strong>Improper limitation of pathname in Circuit Provisioning and File Import applications allows modification and uploading of files
-<br>
-<strong>Severity:</strong> 9.0 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-48017</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48017</guid>
-    </item>
-    <item>
-      <title>CVE-2025-48018 - Adobe ColdFusion Cross-Site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-48018
-<br>
-<strong>Published : </strong> May 20, 2025, 4:15 p.m. | 34 minutes ago
-<br>
-<strong>Description : </strong>An authenticated user can modify application state data.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-48018</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48018</guid>
     </item>
     <item>
       <title>CVE-2025-26086 - RSI Queue Management System Blind SQL Injection</title>
