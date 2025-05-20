@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 20 May 2025 21:17:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 21:39:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47290
 <br>
-<strong>Published : </strong> May 20, 2025, 7:15 p.m. | 1 hour, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 7:15 p.m. | 1 hour, 3 minutes ago
 <br>
 <strong>Description : </strong>containerd is a container runtime. A time-of-check to time-of-use (TOCTOU) vulnerability was found in containerd v2.1.0. While unpacking an image during an image pull, specially crafted container images could arbitrarily modify the host file system. The only affected version of containerd is 2.1.0.  Other versions of containerd are not affected. This bug has been fixed in containerd 2.1.1. Users should update to this version to resolve the issue. As a workaround, ensure that only trusted images are used and that only trusted users have permissions to import images.
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4996
 <br>
-<strong>Published : </strong> May 20, 2025, 7:15 p.m. | 1 hour, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 7:15 p.m. | 1 hour, 3 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in Intelbras RF 301K 1.1.5. This issue affects some unknown processing of the component Add Static IP. The manipulation of the argument Description leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure.
 <br>
@@ -219,11 +219,263 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4996</guid>
     </item>
     <item>
+      <title>CVE-2025-22157 - Atlassian Jira Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22157
+<br>
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>This High severity PrivEsc (Privilege Escalation) vulnerability was introduced in versions:
+
+9.12.0, 10.3.0, 10.4.0, and 10.5.0 of Jira Core Data Center and Server
+
+5.12.0, 10.3.0, 10.4.0, and 10.5.0 of Jira Service Management Data Center and Server
+
+This PrivEsc (Privilege Escalation) vulnerability, with a CVSS Score of 7.2, allows an attacker to perform actions as a higher-privileged user. 
+
+Atlassian recommends that Jira Core Data Center and Server and Jira Service Management Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:
+
+Jira Core Data Center and Server 9.12: Upgrade to a release greater than or equal to 9.12.20
+
+Jira Service Management Data Center and Server 5.12: Upgrade to a release greater than or equal to 5.12.20
+
+Jira Core Data Center 10.3: Upgrade to a release greater than or equal to 10.3.5
+
+Jira Service Management Data Center 10.3: Upgrade to a release greater than or equal to 10.3.5
+
+Jira Core Data Center 10.4: Upgrade to a release greater than or equal to 10.6.0
+
+Jira Service Management Data Center 10.4: Upgrade to a release greater than or equal to 10.6.0
+
+Jira Core Data Center 10.5: Upgrade to a release greater than or equal to 10.5.1
+
+Jira Service Management Data Center 10.5: Upgrade to a release greater than or equal to 10.5.1
+
+See the release notes. You can download the latest version of Jira Core Data Center and Jira Service Management Data Center from the download center. 
+
+This vulnerability was reported via our Atlassian (Internal) program.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22157</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22157</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37983 - Linux kernel qibfs Dentry Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37983
+<br>
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+qibfs: fix _another_ leak
+
+failure to allocate inode => leaked dentry...
+
+this one had been there since the initial merge; to be fair,
+if we are that far OOM, the odds of failing at that particular
+allocation are low...
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37983</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37983</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37984 - Linux Kernel ECDsa Integer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37984
+<br>
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+crypto: ecdsa - Harden against integer overflows in DIV_ROUND_UP()
+
+Herbert notes that DIV_ROUND_UP() may overflow unnecessarily if an ecdsa
+implementation's ->key_size() callback returns an unusually large value.
+Herbert instead suggests (for a division by 8):
+
+  X / 8 + !!(X & 7)
+
+Based on this formula, introduce a generic DIV_ROUND_UP_POW2() macro and
+use it in lieu of DIV_ROUND_UP() for ->key_size() return values.
+
+Additionally, use the macro in ecc_digits_from_bytes(), whose "nbytes"
+parameter is a ->key_size() return value in some instances, or a
+user-specified ASN.1 length in the case of ecdsa_get_signature_rs().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37984</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37984</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37985 - Linux Kernel USB Wdm Wwan Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37985
+<br>
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+USB: wdm: close race between wdm_open and wdm_wwan_port_stop
+
+Clearing WDM_WWAN_IN_USE must be the last action or
+we can open a chardev whose URBs are still poisoned
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37985</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37985</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37986 - "USB Type-C: Invalid Pointer Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37986
+<br>
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+usb: typec: class: Invalidate USB device pointers on partner unregistration
+
+To avoid using invalid USB device pointers after a Type-C partner
+disconnects, this patch clears the pointers upon partner unregistration.
+This ensures a clean state for future connections.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37986</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37986</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37987 - Linux PDS Core AdminQ Overflow/Stuck Condition Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37987
+<br>
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+pds_core: Prevent possible adminq overflow/stuck condition
+
+The pds_core's adminq is protected by the adminq_lock, which prevents
+more than 1 command to be posted onto it at any one time. This makes it
+so the client drivers cannot simultaneously post adminq commands.
+However, the completions happen in a different context, which means
+multiple adminq commands can be posted sequentially and all waiting
+on completion.
+
+On the FW side, the backing adminq request queue is only 16 entries
+long and the retry mechanism and/or overflow/stuck prevention is
+lacking. This can cause the adminq to get stuck, so commands are no
+longer processed and completions are no longer sent by the FW.
+
+As an initial fix, prevent more than 16 outstanding adminq commands so
+there's no way to cause the adminq from getting stuck. This works
+because the backing adminq request queue will never have more than 16
+pending adminq commands, so it will never overflow. This is done by
+reducing the adminq depth to 16.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37987</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37987</guid>
+    </item>
+    <item>
+      <title>CVE-2025-37988 - Apache Linux Kernel Mount Namespace Locking races</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-37988
+<br>
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+fix a couple of races in MNT_TREE_BENEATH handling by do_move_mount()
+
+Normally do_lock_mount(path, _) is locking a mountpoint pinned by
+*path and at the time when matching unlock_mount() unlocks that
+location it is still pinned by the same thing.
+
+Unfortunately, for 'beneath' case it's no longer that simple -
+the object being locked is not the one *path points to.  It's the
+mountpoint of path->mnt.  The thing is, without sufficient locking
+->mnt_parent may change under us and none of the locks are held
+at that point.  The rules are
+	* mount_lock stabilizes m->mnt_parent for any mount m.
+	* namespace_sem stabilizes m->mnt_parent, provided that
+m is mounted.
+	* if either of the above holds and refcount of m is positive,
+we are guaranteed the same for refcount of m->mnt_parent.
+
+namespace_sem nests inside inode_lock(), so do_lock_mount() has
+to take inode_lock() before grabbing namespace_sem.  It does
+recheck that path->mnt is still mounted in the same place after
+getting namespace_sem, and it does take care to pin the dentry.
+It is needed, since otherwise we might end up with racing mount --move
+(or umount) happening while we were getting locks; in that case
+dentry would no longer be a mountpoint and could've been evicted
+on memory pressure along with its inode - not something you want
+when grabbing lock on that inode.
+
+However, pinning a dentry is not enough - the matching mount is
+also pinned only by the fact that path->mnt is mounted on top it
+and at that point we are not holding any locks whatsoever, so
+the same kind of races could end up with all references to
+that mount gone just as we are about to enter inode_lock().
+If that happens, we are left with filesystem being shut down while
+we are holding a dentry reference on it; results are not pretty.
+
+What we need to do is grab both dentry and mount at the same time;
+that makes inode_lock() safe *and* avoids the problem with fs getting
+shut down under us.  After taking namespace_sem we verify that
+path->mnt is still mounted (which stabilizes its ->mnt_parent) and
+check that it's still mounted at the same place.  From that point
+on to the matching namespace_unlock() we are guaranteed that
+mount/dentry pair we'd grabbed are also pinned by being the mountpoint
+of path->mnt, so we can quietly drop both the dentry reference (as
+the current code does) and mnt one - it's OK to do under namespace_sem,
+since we are not dropping the final refs.
+
+That solves the problem on do_lock_mount() side; unlock_mount()
+also has one, since dentry is guaranteed to stay pinned only until
+the namespace_unlock().  That's easy to fix - just have inode_unlock()
+done earlier, while it's still pinned by mp->m_dentry.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-37988</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37988</guid>
+    </item>
+    <item>
       <title>CVE-2025-37989 - Linux Kernel Phy LED Trigger Memory Leak Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37989
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -260,7 +512,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37990
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -292,7 +544,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37991
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -358,7 +610,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46724
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Langroid is a Python framework to build large language model (LLM)-powered applications. Prior to version 0.53.15, `TableChatAgent` uses `pandas eval()`. If fed by untrusted user input, like the case of a public-facing LLM application, it may be vulnerable to code injection. Langroid 0.53.15 sanitizes input to `TableChatAgent` by default to tackle the most common attack vectors, and added several warnings about the risky behavior in the project documentation.
 <br>
@@ -375,7 +627,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46725
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>Langroid is a Python framework to build large language model (LLM)-powered applications. Prior to version 0.53.15, `LanceDocChatAgent` uses pandas eval() through `compute_from_docs()`. As a result, an attacker may be able to make the agent run malicious commands through `QueryPlan.dataframe_calc]`) compromising the host system. Langroid 0.53.15 sanitizes input to the affected function by default to tackle the most common attack vectors, and added several warnings about the risky behavior in the project documentation.
 <br>
@@ -392,7 +644,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47277
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>vLLM, an inference and serving engine for large language models (LLMs), has an issue in versions 0.6.5 through 0.8.4 that ONLY impacts environments using the `PyNcclPipe` KV cache transfer integration with the V0 engine. No other configurations are affected. vLLM supports the use of the `PyNcclPipe` class to establish a peer-to-peer communication domain for data transmission between distributed nodes. The GPU-side KV-Cache transmission is implemented through the `PyNcclCommunicator` class, while CPU-side control message passing is handled via the `send_obj` and `recv_obj` methods on the CPU side.​ The intention was that this interface should only be exposed to a private network using the IP address specified by the `--kv-ip` CLI parameter. The vLLM documentation covers how this must be limited to a secured network. The default and intentional behavior from PyTorch is that the `TCPStore` interface listens on ALL interfaces, regardless of what IP address is provided. The IP address given was only used as a client-side address to use. vLLM was fixed to use a workaround to force the `TCPStore` instance to bind its socket to a specified private interface. As of version 0.8.5, vLLM limits the `TCPStore` socket to the private interface as configured.
 <br>
@@ -409,7 +661,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47850
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains YouTrack before 2025.1.74704 restricted attachments could become visible after issue cloning
 <br>
@@ -426,7 +678,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47851
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains TeamCity before 2025.03.2 stored XSS via GitHub Checks Webhook was possible
 <br>
@@ -443,7 +695,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47852
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains TeamCity before 2025.03.2 stored XSS via YouTrack integration was possible
 <br>
@@ -460,7 +712,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47853
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains TeamCity before 2025.03.2 stored XSS via Jira integration was possible
 <br>
@@ -477,7 +729,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47854
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains TeamCity before 2025.03.2 open redirect was possible on editing VCS Root page
 <br>
@@ -494,7 +746,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48391
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains YouTrack before 2025.1.76253 deletion of issues was possible due to missing permission checks in API
 <br>
@@ -511,7 +763,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4364
 <br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 34 minutes ago
+<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 2 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>The affected products could allow an unauthenticated attacker to access system information that could enable further access to sensitive files and obtain administrative credentials.
 <br>
@@ -524,263 +776,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4364</guid>
     </item>
     <item>
-      <title>CVE-2025-22157 - Atlassian Jira Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-22157
-<br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>This High severity PrivEsc (Privilege Escalation) vulnerability was introduced in versions:
-
-9.12.0, 10.3.0, 10.4.0, and 10.5.0 of Jira Core Data Center and Server
-
-5.12.0, 10.3.0, 10.4.0, and 10.5.0 of Jira Service Management Data Center and Server
-
-This PrivEsc (Privilege Escalation) vulnerability, with a CVSS Score of 7.2, allows an attacker to perform actions as a higher-privileged user. 
-
-Atlassian recommends that Jira Core Data Center and Server and Jira Service Management Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:
-
-Jira Core Data Center and Server 9.12: Upgrade to a release greater than or equal to 9.12.20
-
-Jira Service Management Data Center and Server 5.12: Upgrade to a release greater than or equal to 5.12.20
-
-Jira Core Data Center 10.3: Upgrade to a release greater than or equal to 10.3.5
-
-Jira Service Management Data Center 10.3: Upgrade to a release greater than or equal to 10.3.5
-
-Jira Core Data Center 10.4: Upgrade to a release greater than or equal to 10.6.0
-
-Jira Service Management Data Center 10.4: Upgrade to a release greater than or equal to 10.6.0
-
-Jira Core Data Center 10.5: Upgrade to a release greater than or equal to 10.5.1
-
-Jira Service Management Data Center 10.5: Upgrade to a release greater than or equal to 10.5.1
-
-See the release notes. You can download the latest version of Jira Core Data Center and Jira Service Management Data Center from the download center. 
-
-This vulnerability was reported via our Atlassian (Internal) program.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-22157</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22157</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37983 - Linux kernel qibfs Dentry Leak</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37983
-<br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-qibfs: fix _another_ leak
-
-failure to allocate inode => leaked dentry...
-
-this one had been there since the initial merge; to be fair,
-if we are that far OOM, the odds of failing at that particular
-allocation are low...
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37983</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37983</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37984 - Linux Kernel ECDsa Integer Overflow Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37984
-<br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-crypto: ecdsa - Harden against integer overflows in DIV_ROUND_UP()
-
-Herbert notes that DIV_ROUND_UP() may overflow unnecessarily if an ecdsa
-implementation's ->key_size() callback returns an unusually large value.
-Herbert instead suggests (for a division by 8):
-
-  X / 8 + !!(X & 7)
-
-Based on this formula, introduce a generic DIV_ROUND_UP_POW2() macro and
-use it in lieu of DIV_ROUND_UP() for ->key_size() return values.
-
-Additionally, use the macro in ecc_digits_from_bytes(), whose "nbytes"
-parameter is a ->key_size() return value in some instances, or a
-user-specified ASN.1 length in the case of ecdsa_get_signature_rs().
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37984</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37984</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37985 - Linux Kernel USB Wdm Wwan Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37985
-<br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-USB: wdm: close race between wdm_open and wdm_wwan_port_stop
-
-Clearing WDM_WWAN_IN_USE must be the last action or
-we can open a chardev whose URBs are still poisoned
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37985</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37985</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37986 - "USB Type-C: Invalid Pointer Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37986
-<br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-usb: typec: class: Invalidate USB device pointers on partner unregistration
-
-To avoid using invalid USB device pointers after a Type-C partner
-disconnects, this patch clears the pointers upon partner unregistration.
-This ensures a clean state for future connections.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37986</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37986</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37987 - Linux PDS Core AdminQ Overflow/Stuck Condition Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37987
-<br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-pds_core: Prevent possible adminq overflow/stuck condition
-
-The pds_core's adminq is protected by the adminq_lock, which prevents
-more than 1 command to be posted onto it at any one time. This makes it
-so the client drivers cannot simultaneously post adminq commands.
-However, the completions happen in a different context, which means
-multiple adminq commands can be posted sequentially and all waiting
-on completion.
-
-On the FW side, the backing adminq request queue is only 16 entries
-long and the retry mechanism and/or overflow/stuck prevention is
-lacking. This can cause the adminq to get stuck, so commands are no
-longer processed and completions are no longer sent by the FW.
-
-As an initial fix, prevent more than 16 outstanding adminq commands so
-there's no way to cause the adminq from getting stuck. This works
-because the backing adminq request queue will never have more than 16
-pending adminq commands, so it will never overflow. This is done by
-reducing the adminq depth to 16.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37987</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37987</guid>
-    </item>
-    <item>
-      <title>CVE-2025-37988 - Apache Linux Kernel Mount Namespace Locking races</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-37988
-<br>
-<strong>Published : </strong> May 20, 2025, 6:15 p.m. | 1 hour, 33 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-fix a couple of races in MNT_TREE_BENEATH handling by do_move_mount()
-
-Normally do_lock_mount(path, _) is locking a mountpoint pinned by
-*path and at the time when matching unlock_mount() unlocks that
-location it is still pinned by the same thing.
-
-Unfortunately, for 'beneath' case it's no longer that simple -
-the object being locked is not the one *path points to.  It's the
-mountpoint of path->mnt.  The thing is, without sufficient locking
-->mnt_parent may change under us and none of the locks are held
-at that point.  The rules are
-	* mount_lock stabilizes m->mnt_parent for any mount m.
-	* namespace_sem stabilizes m->mnt_parent, provided that
-m is mounted.
-	* if either of the above holds and refcount of m is positive,
-we are guaranteed the same for refcount of m->mnt_parent.
-
-namespace_sem nests inside inode_lock(), so do_lock_mount() has
-to take inode_lock() before grabbing namespace_sem.  It does
-recheck that path->mnt is still mounted in the same place after
-getting namespace_sem, and it does take care to pin the dentry.
-It is needed, since otherwise we might end up with racing mount --move
-(or umount) happening while we were getting locks; in that case
-dentry would no longer be a mountpoint and could've been evicted
-on memory pressure along with its inode - not something you want
-when grabbing lock on that inode.
-
-However, pinning a dentry is not enough - the matching mount is
-also pinned only by the fact that path->mnt is mounted on top it
-and at that point we are not holding any locks whatsoever, so
-the same kind of races could end up with all references to
-that mount gone just as we are about to enter inode_lock().
-If that happens, we are left with filesystem being shut down while
-we are holding a dentry reference on it; results are not pretty.
-
-What we need to do is grab both dentry and mount at the same time;
-that makes inode_lock() safe *and* avoids the problem with fs getting
-shut down under us.  After taking namespace_sem we verify that
-path->mnt is still mounted (which stabilizes its ->mnt_parent) and
-check that it's still mounted at the same place.  From that point
-on to the matching namespace_unlock() we are guaranteed that
-mount/dentry pair we'd grabbed are also pinned by being the mountpoint
-of path->mnt, so we can quietly drop both the dentry reference (as
-the current code does) and mnt one - it's OK to do under namespace_sem,
-since we are not dropping the final refs.
-
-That solves the problem on do_lock_mount() side; unlock_mount()
-also has one, since dentry is guaranteed to stay pinned only until
-the namespace_unlock().  That's easy to fix - just have inode_unlock()
-done earlier, while it's still pinned by mp->m_dentry.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 20 May 2025 18:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-37988</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-37988</guid>
-    </item>
-    <item>
       <title>CVE-2025-37981 - SmartPQi Linux Kernel Memory Corruption Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37981
 <br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 3 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -809,7 +809,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-37982
 <br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 3 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -831,7 +831,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44084
 <br>
-<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> May 20, 2025, 5:15 p.m. | 3 hours, 3 minutes ago
 <br>
 <strong>Description : </strong>D-link DI-8100 16.07.26A1 is vulnerable to Command Injection. An attacker can exploit this vulnerability by crafting specific HTTP requests, triggering the command execution flaw and gaining the highest privilege shell access to the firmware system.
 <br>
