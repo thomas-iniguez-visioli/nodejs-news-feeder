@@ -8,12 +8,457 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 21 May 2025 18:26:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 18:49:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-0372 - HYPR Passwordless Windows Race Condition Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0372
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') vulnerability in HYPR Passwordless on Windows allows Privilege Escalation.This issue affects HYPR Passwordless: before 10.1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0372</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0372</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20112 - Cisco Unified Communications and Contact Center Solutions Root Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20112
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in multiple Cisco Unified Communications and Contact Center Solutions products could allow an authenticated, local attacker to elevate privileges to root on an affected device.
+
+This vulnerability is due to excessive permissions that have been assigned to system commands.&nbsp;An attacker could exploit this vulnerability by executing crafted commands on the underlying operating system. A successful exploit could allow the attacker to escape the restricted shell and gain root privileges on the underlying operating system of an affected device. To successfully exploit this vulnerability, an attacker would need administrative access to the ESXi hypervisor.
+<br>
+<strong>Severity:</strong> 5.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20112</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20112</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20113 - Cisco Unified Intelligence Center Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20113
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in Cisco Unified Intelligence Center could allow an authenticated, remote attacker to elevate privileges to Administrator for a limited set of functions on an affected system.
+
+This vulnerability is due to insufficient server-side validation of user-supplied parameters in API or HTTP requests. An attacker could exploit this vulnerability by submitting a crafted API or HTTP request to an affected system. A successful exploit could allow the attacker to access, modify, or delete data beyond the sphere of their intended access level, including obtaining potentially sensitive information stored in the system.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20113</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20113</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20114 - Cisco Unified Intelligence Center Insecure Direct Object Reference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20114
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the API of Cisco Unified Intelligence Center could allow an authenticated, remote attacker to perform a horizontal privilege escalation attack on an affected system.
+
+This vulnerability is due to insufficient validation of user-supplied parameters in API requests. An attacker could exploit this vulnerability by submitting crafted API requests to an affected system to execute an insecure direct object reference attack. A successful exploit could allow the attacker to access specific data that is associated with different users on the affected system.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20114</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20114</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20152 - Cisco ISE RADIUS Message Processing Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20152
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the RADIUS message processing feature of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.
+
+This vulnerability is due to improper handling of certain RADIUS requests. An attacker could exploit this vulnerability by sending a specific authentication request to a network access device (NAD) that uses Cisco ISE for authentication, authorization, and accounting (AAA). A successful exploit could allow the attacker to cause Cisco ISE to reload.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20152</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20152</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20242 - Cisco Cloud Connect CCE Authentication Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20242
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the Cloud Connect component of Cisco Unified Contact Center Enterprise (CCE) could allow an unauthenticated, remote attacker to read and modify data on an affected device.
+ This vulnerability is due to a lack of proper authentication controls. An attacker could exploit this vulnerability by sending crafted TCP data to a specific port on an affected device. A successful exploit could allow the attacker to read or modify data on the affected device.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20242</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20242</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20246 - Cisco Webex Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20246
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in Cisco Webex could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack.
+ A vulnerability is due to improper filtering of user-supplied input. An attacker could exploit this vulnerability by persuading a user to follow a malicious link. A successful exploit could allow the attacker to conduct a cross-site scripting attack against the targeted user.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20246</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20246</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20247 - Cisco Webex Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20247
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in Cisco Webex could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack.
+ A vulnerability is due to improper filtering of user-supplied input. An attacker could exploit this vulnerability by persuading a user to follow a malicious link. A successful exploit could allow the attacker to conduct a cross-site scripting attack against the targeted user.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20247</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20247</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20250 - "Cisco Webex Cross-Site Scripting Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20250
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in Cisco Webex could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack.
+ A vulnerability is due to improper filtering of user-supplied input. An attacker could exploit this vulnerability by persuading a user to follow a malicious link. A successful exploit could allow the attacker to conduct a cross-site scripting attack against the targeted user.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20250</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20250</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20255 - Cisco Webex Meetings HTTP Cache Poisoning Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20255
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in client join services of Cisco Webex Meetings could allow an unauthenticated, remote attacker to manipulate cached HTTP responses within the meeting join service.
+ This vulnerability is due to improper handling of malicious HTTP requests to the affected service. An attacker could exploit this vulnerability by manipulating stored HTTP responses within the service, also known as HTTP cache poisoning. A successful exploit could allow the attacker to cause the Webex Meetings service to return incorrect HTTP responses to clients.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20255</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20255</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20256 - Cisco Secure Network Analytics Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20256
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 4 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the web-based management interface of Cisco Secure Network Analytics Manager and Cisco Secure Network Analytics Virtual Manager could allow an authenticated, remote attacker with valid administrative credentials to execute arbitrary commands as root on the underlying operating system.
+
+This vulnerability is due to insufficient input validation in specific fields of the web-based management interface. An attacker with valid administrative credentials could exploit this vulnerability by sending crafted input to an affected device. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with root privileges.&nbsp;
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20256</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20256</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20257 - Cisco Secure Network Analytics Manager/Cisco Secure Network Analytics Virtual Manager API Insufficient Authorization Vulnerability (Authentication Bypass)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20257
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in an API subsystem of Cisco Secure Network Analytics Manager and Cisco Secure Network Analytics Virtual Manager could allow an authenticated, remote attacker with low privileges to generate fraudulent findings that are used to generate alarms and alerts on an affected product.
+
+Thi vulnerability is due to insufficient authorization enforcement on a specific API. An attacker could exploit this vulnerability by authenticating as a low-privileged user and performing API calls with crafted input. A successful exploit could allow the attacker to obfuscate legitimate findings in analytics reports or create false indications with alarms and alerts on an affected device.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20257</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20257</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20258 - Cisco Duo Email Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20258
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the self-service portal of Cisco Duo could allow an unauthenticated, remote attacker to inject arbitrary commands into emails that are sent by the service.
+ This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by injecting arbitrary commands into a portion of an email that is sent by the service. A successful exploit could allow the attacker to send emails that contain malicious content to unsuspecting users.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20258</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20258</guid>
+    </item>
+    <item>
+      <title>CVE-2025-20267 - Cisco Identity Services Engine (ISE) Cross-Site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-20267
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to conduct cross-site scripting (XSS) attacks against a user of the interface.
+
+This vulnerability is due to insufficient validation of user-supplied input by the web-based management interface of an affected system. An attacker could exploit this vulnerability by injecting malicious code into specific pages of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information. To exploit this vulnerability, the attacker must have valid administrative credentials.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-20267</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-20267</guid>
+    </item>
+    <item>
+      <title>CVE-2025-25539 - Vasco v3 Local File Inclusion Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-25539
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Local File Inclusion vulnerability in Vasco v3.14and before allows a remote attacker to obtain sensitive information via help menu.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-25539</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-25539</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45754 - SeedDMS Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45754
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>A stored cross-site scripting (XSS) vulnerability exists in SeedDMS 6.0.32. This vulnerability allows an attacker to inject malicious JavaScript payloads by creating a document with an XSS payload as the document name.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45754</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45754</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48009 - Drupal Single Content Sync Missing Authorization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48009
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in Drupal Single Content Sync allows Functionality Misuse.This issue affects Single Content Sync: from 0.0.0 before 1.4.12.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48009</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48009</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48010 - Drupal One Time Password Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48010
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Authentication Bypass Using an Alternate Path or Channel vulnerability in Drupal One Time Password allows Functionality Bypass.This issue affects One Time Password: from 0.0.0 before 1.3.0.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48010</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48010</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48011 - Drupal One Time Password Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48011
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Authentication Bypass Using an Alternate Path or Channel vulnerability in Drupal One Time Password allows Functionality Bypass.This issue affects One Time Password: from 0.0.0 before 1.3.0.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48011</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48011</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48012 - Drupal One Time Password Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48012
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Authentication Bypass by Capture-replay vulnerability in Drupal One Time Password allows Remote Services with Stolen Credentials.This issue affects One Time Password: from 0.0.0 before 1.3.0.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48012</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48012</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4415 - Piwik PRO Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4415
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Drupal Piwik PRO allows Cross-Site Scripting (XSS).This issue affects Piwik PRO: from 0.0.0 before 1.3.2.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4415</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4415</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4416 - Drupal Events Log Track Unrestricted Resource Allocation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4416
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>Allocation of Resources Without Limits or Throttling vulnerability in Drupal Events Log Track allows Excessive Allocation.This issue affects Events Log Track: from 0.0.0 before 3.1.11, from 4.0.0 before 4.0.2.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4416</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4416</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5030 - Ackites KillWxapkg os Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5030
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Ackites KillWxapkg up to 2.4.1. It has been declared as critical. This vulnerability affects the function processFile of the file internal/unpack/unpack.go of the component wxapkg File Parser. The manipulation leads to os command injection. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5030</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5030</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5031 - Ackites KillWxapkg wxapkg File Decompression Handler Resource Consumption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5031
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Ackites KillWxapkg up to 2.4.1. It has been rated as problematic. This issue affects some unknown processing of the component wxapkg File Decompression Handler. The manipulation leads to resource consumption. The attack may be initiated remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5031</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5031</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5032 - Campcodes Online Shopping Portal SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5032
+<br>
+<strong>Published : </strong> May 21, 2025, 5:15 p.m. | 1 hour, 3 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in Campcodes Online Shopping Portal 1.0. Affected is an unknown function of the file /admin/edit-category.php. The manipulation of the argument Category leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5032</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5032</guid>
+    </item>
     <item>
       <title>CVE-2025-27997 - Blizzard Battle.net Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
