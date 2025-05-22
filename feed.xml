@@ -8,18 +8,91 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 22 May 2025 10:54:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 May 2025 11:16:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-9544 - MapSVG WordPress Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-9544
+<br>
+<strong>Published : </strong> May 22, 2025, 10:15 a.m. | 34 minutes ago
+<br>
+<strong>Description : </strong>The MapSVG plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 8.6.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-9544</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-9544</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4280 - Poedit for MacOS Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4280
+<br>
+<strong>Published : </strong> May 22, 2025, 10:15 a.m. | 34 minutes ago
+<br>
+<strong>Description : </strong>MacOS version of Poedit bundles a Python interpreter that inherits the Transparency, Consent, and Control (TCC) permissions
+granted by the user to the main application bundle. An attacker with local user access can
+invoke this interpreter with arbitrary commands or scripts, leveraging the
+application's previously granted TCC permissions to access user's files in privacy-protected folders without triggering user prompts. Accessing other resources beyond previously granted TCC permissions will prompt the user for approval in the name of Poedit, potentially disguising attacker's malicious intent.
+
+This issue has been fixed in 3.6.3 version of Poedit.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4280</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4280</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4405 - WordPress Hot Random Image Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4405
+<br>
+<strong>Published : </strong> May 22, 2025, 10:15 a.m. | 34 minutes ago
+<br>
+<strong>Description : </strong>The Hot Random Image plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘link’ parameter in all versions up to, and including, 1.9.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4405</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4405</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4419 - WordPress Hot Random Image Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4419
+<br>
+<strong>Published : </strong> May 22, 2025, 10:15 a.m. | 34 minutes ago
+<br>
+<strong>Description : </strong>The Hot Random Image plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 1.9.2 via the 'path' parameter. This makes it possible for authenticated attackers, with Contributor-level access and above, to access arbitrary images with allowed extensions, outside of the originally intended directory.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4419</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4419</guid>
+    </item>
+    <item>
       <title>CVE-2025-4123 - Grafana Cross-Site Scripting (XSS) via Client Path Traversal and Open Redirect</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4123
 <br>
-<strong>Published : </strong> May 22, 2025, 8:15 a.m. | 2 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 8:15 a.m. | 2 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>A cross-site scripting (XSS) vulnerability exists in Grafana caused by combining a client path traversal and open redirect. This allows attackers to redirect users to a website that hosts a frontend plugin that will execute arbitrary JavaScript. This vulnerability does not require editor permissions and if anonymous access is enabled, the XSS will work. If the Grafana Image Renderer plugin is installed, it is possible to exploit the open redirect to achieve a full read SSRF.
 
@@ -38,7 +111,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4133
 <br>
-<strong>Published : </strong> May 22, 2025, 6:15 a.m. | 4 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 6:15 a.m. | 4 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>The Blog2Social: Social Media Auto Post & Scheduler WordPress plugin before 8.4.0 does not escape the title of posts when outputting them in a dashboard, which could allow users with the contributor role to perform Cross-Site Scripting attacks.
 <br>
@@ -55,7 +128,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5062
 <br>
-<strong>Published : </strong> May 22, 2025, 4:16 a.m. | 6 hours, 3 minutes ago
+<strong>Published : </strong> May 22, 2025, 4:16 a.m. | 6 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>The WooCommerce plugin for WordPress is vulnerable to PostMessage-Based Cross-Site Scripting via the 'customize-store' page in all versions up to, and including, 9.4.2 due to insufficient input sanitization and output escaping on PostMessage data. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
 <br>
@@ -72,7 +145,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2759
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>GStreamer Incorrect Permission Assignment Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of GStreamer. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.
 
@@ -91,7 +164,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3480
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>MedDream WEB DICOM Viewer Cleartext Transmission of Credentials Information Disclosure Vulnerability. This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of MedDream WEB DICOM Viewer. Authentication is not required to exploit this vulnerability.
 
@@ -110,7 +183,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3481
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>MedDream PACS Server DICOM File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of MedDream PACS Server. Authentication is not required to exploit this vulnerability.
 
@@ -129,7 +202,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3482
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>MedDream PACS Server DICOM File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of MedDream PACS Server. Authentication is not required to exploit this vulnerability.
 
@@ -148,7 +221,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3483
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>MedDream PACS Server DICOM File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of MedDream PACS Server. Authentication is not required to exploit this vulnerability.
 
@@ -167,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3484
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>MedDream PACS Server DICOM File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of MedDream PACS Server. Authentication is not required to exploit this vulnerability.
 
@@ -186,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3486
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Allegra isZipEntryValide Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Allegra. Authentication is required to exploit this vulnerability.
 
@@ -205,7 +278,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3881
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>eCharge Hardy Barth cPH2 check_req.php ntp Command Injection Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of eCharge Hardy Barth cPH2 charging stations. Authentication is not required to exploit this vulnerability.
 
@@ -224,7 +297,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3882
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>eCharge Hardy Barth cPH2 nwcheckexec.php dest Command Injection Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of eCharge Hardy Barth cPH2 charging stations. Authentication is not required to exploit this vulnerability.
 
@@ -243,7 +316,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3883
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>eCharge Hardy Barth cPH2 index.php Command Injection Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of eCharge Hardy Barth cPH2 charging stations. Authentication is not required to exploit this vulnerability.
 
@@ -262,7 +335,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3884
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Cloudera Hue Ace Editor Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Cloudera Hue. Authentication is not required to exploit this vulnerability.
 
@@ -281,7 +354,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3885
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Harman Becker MGU21 Bluetooth Improper Input Validation Denial-of-Service Vulnerability. This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Harman Becker MGU21 devices. Authentication is not required to exploit this vulnerability.
 
@@ -300,7 +373,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3887
 <br>
-<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 1:15 a.m. | 9 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>GStreamer H265 Codec Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.
 
@@ -319,7 +392,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-34025
 <br>
-<strong>Published : </strong> May 21, 2025, 11:15 p.m. | 11 hours, 4 minutes ago
+<strong>Published : </strong> May 21, 2025, 11:15 p.m. | 11 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>The Versa Concerto SD-WAN orchestration platform is vulnerable to an privileges escalation and container escape vulnerability caused by unsafe default mounting of host binary paths that allow the container to modify host paths. The escape can be used to trigger remote code execution or direct host access depending on the host operating system configuration.This issue is known to affect Concerto from 12.1.2 through 12.2.0. Additional versions may be vulnerable.
 <br>
@@ -336,7 +409,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5059
 <br>
-<strong>Published : </strong> May 21, 2025, 11:15 p.m. | 11 hours, 4 minutes ago
+<strong>Published : </strong> May 21, 2025, 11:15 p.m. | 11 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in Campcodes Online Shopping Portal 1.0. This affects an unknown part of the file /admin/edit-subcategory.php. The manipulation of the argument productimage1/productimage2/productimage3 leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -347,6 +420,57 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 21 May 2025 23:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-5059</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-5059</guid>
+    </item>
+    <item>
+      <title>CVE-2025-48070 - Plane UserSerializer Account Takeover Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-48070
+<br>
+<strong>Published : </strong> May 21, 2025, 10:15 p.m. | 12 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>Plane is open-source project management software. Versions prior to 0.23 have insecure permissions in UserSerializer that allows users to change fields that are meant to be read-only, such as email. This can lead to account takeover when chained with another vulnerability such as cross-site scripting (XSS). Version 0.23 fixes the issue.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-48070</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48070</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5056 - Campcodes Online Shopping Portal SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5056
+<br>
+<strong>Published : </strong> May 21, 2025, 10:15 p.m. | 12 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Campcodes Online Shopping Portal 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/edit-products.php. The manipulation of the argument Category leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5056</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5056</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5057 - Campcodes Online Shopping Portal SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5057
+<br>
+<strong>Published : </strong> May 21, 2025, 10:15 p.m. | 12 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Campcodes Online Shopping Portal 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /admin/insert-product.php. The manipulation of the argument Category leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 21 May 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5057</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5057</guid>
     </item>
     <item>
       <title>CVE-2025-34026 - Versa Concerto Traefik Reverse Proxy Authentication Bypass</title>
@@ -415,57 +539,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 21 May 2025 22:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-47947</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-47947</guid>
-    </item>
-    <item>
-      <title>CVE-2025-48070 - Plane UserSerializer Account Takeover Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-48070
-<br>
-<strong>Published : </strong> May 21, 2025, 10:15 p.m. | 12 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>Plane is open-source project management software. Versions prior to 0.23 have insecure permissions in UserSerializer that allows users to change fields that are meant to be read-only, such as email. This can lead to account takeover when chained with another vulnerability such as cross-site scripting (XSS). Version 0.23 fixes the issue.
-<br>
-<strong>Severity:</strong> 3.5 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 21 May 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-48070</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-48070</guid>
-    </item>
-    <item>
-      <title>CVE-2025-5056 - Campcodes Online Shopping Portal SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-5056
-<br>
-<strong>Published : </strong> May 21, 2025, 10:15 p.m. | 12 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Campcodes Online Shopping Portal 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/edit-products.php. The manipulation of the argument Category leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 21 May 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-5056</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5056</guid>
-    </item>
-    <item>
-      <title>CVE-2025-5057 - Campcodes Online Shopping Portal SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-5057
-<br>
-<strong>Published : </strong> May 21, 2025, 10:15 p.m. | 12 hours, 4 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Campcodes Online Shopping Portal 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /admin/insert-product.php. The manipulation of the argument Category leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 21 May 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-5057</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5057</guid>
     </item>
     <item>
       <title>CVE-2025-5053 - FreeFloat FTP Server MDIR Command Handler Buffer Overflow</title>
