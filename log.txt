@@ -94,7 +94,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2024-48848
 https://cvefeed.io/vuln/detail/CVE-2024-51552
 https://cvefeed.io/vuln/detail/CVE-2024-51553
 https://cvefeed.io/vuln/detail/CVE-2024-6914
@@ -119,6 +118,7 @@ https://cvefeed.io/vuln/detail/CVE-2025-5100
 https://cvefeed.io/vuln/detail/CVE-2025-48701
 https://cvefeed.io/vuln/detail/CVE-2025-48708
 https://cvefeed.io/vuln/detail/CVE-2025-4594
+https://cvefeed.io/vuln/detail/CVE-2025-48695
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -139,6 +139,9 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territo
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/2024-violations-donnees-personnelles
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
+https://cvefeed.io/vuln/detail/CVE-2025-48701
+https://cvefeed.io/vuln/detail/CVE-2025-48708
+https://cvefeed.io/vuln/detail/CVE-2025-4594
 https://cvefeed.io/vuln/detail/CVE-2025-5098
 https://cvefeed.io/vuln/detail/CVE-2025-5099
 https://cvefeed.io/vuln/detail/CVE-2025-5100
@@ -155,15 +158,15 @@ https://cvefeed.io/vuln/detail/CVE-2025-48373
 https://cvefeed.io/vuln/detail/CVE-2025-48374
 https://cvefeed.io/vuln/detail/CVE-2003-5004
 https://cvefeed.io/vuln/detail/CVE-2024-5962
-https://cvefeed.io/vuln/detail/CVE-2024-41197
-https://cvefeed.io/vuln/detail/CVE-2024-41198
-https://cvefeed.io/vuln/detail/CVE-2024-41199
 https://cvefeed.io/vuln/detail/CVE-2024-48848
 https://cvefeed.io/vuln/detail/CVE-2024-51552
 https://cvefeed.io/vuln/detail/CVE-2024-51553
 https://cvefeed.io/vuln/detail/CVE-2024-6914
 https://cvefeed.io/vuln/detail/CVE-2024-7103
 https://cvefeed.io/vuln/detail/CVE-2024-7487
+https://cvefeed.io/vuln/detail/CVE-2024-41197
+https://cvefeed.io/vuln/detail/CVE-2024-41198
+https://cvefeed.io/vuln/detail/CVE-2024-41199
 https://cvefeed.io/vuln/detail/CVE-2024-40462
 https://cvefeed.io/vuln/detail/CVE-2024-41195
 https://cvefeed.io/vuln/detail/CVE-2024-41196
@@ -3991,7 +3994,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2024-48848 - Aspect Disk Overutilization Vulnerability
 CVE-2024-51552 - ASPECT Password Weakness
 CVE-2024-51553 - ASPECT Predictable Filename Information Disclosure Vulnerability
 CVE-2024-6914 - WSO2 SOAP Unauthorized Account Takeover Vulnerability
@@ -4016,6 +4018,7 @@ CVE-2025-5100 - Apache Commons IO Double-Free Vulnerability
 CVE-2025-48701 - OpenDCIM SQL Injection Vulnerability
 CVE-2025-48708 - Artifex Ghostscript Argument Injection Vulnerability
 CVE-2025-4594 - WordPress Tournamatch Stored Cross-Site Scripting Vulnerability
+CVE-2025-48695 - CyberDAVA Privilege Escalation Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -4036,6 +4039,7 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2024-48848 - Aspect Disk Overutilization Vulnerability
 CVE-2024-41197 - Ocuco Innovation INVCLIENT.EXE Remote Authentication Bypass Privilege Escalation
 CVE-2024-41198 - Ocuco Innovation REPORTS.EXE Remote Authentication Bypass and Privilege Escalation Vulnerability
 CVE-2024-41199 - Ocuco Innovation JOBMANAGER.EXE Authentication Bypass Privilege Escalation Vulnerability
