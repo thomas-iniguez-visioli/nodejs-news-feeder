@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 23 May 2025 06:49:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 07:17:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48708
 <br>
-<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 2 hours, 4 minutes ago
+<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 2 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript through 10.05.0 lacks argument sanitization for the # case.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4594
 <br>
-<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 2 hours, 4 minutes ago
+<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 2 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>The Tournamatch plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'trn-ladder-registration-button' shortcode in all versions up to, and including, 4.6.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -242,7 +242,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47181
 <br>
-<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 8 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 8 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>Improper link resolution before file access ('link following') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.
 <br>
@@ -259,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4975
 <br>
-<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 8 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 8 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>When a notification relating to low battery appears for a user with whom the device has been shared, tapping the notification grants full access to the power settings of that device.
 <br>
@@ -276,7 +276,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48372
 <br>
-<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 9 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>Schule is open-source school management system software. The generateOTP() function generates a 4-digit numeric One-Time Password (OTP). Prior to version 1.0.1, even if a secure random number generator is used, the short length and limited range (1000–9999) results in only 9000 possible combinations. This small keyspace makes the OTP highly vulnerable to brute-force attacks, especially in the absence of strong rate-limiting or lockout mechanisms. Version 1.0.1 fixes the issue.
 <br>
@@ -293,7 +293,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48373
 <br>
-<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 9 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>Schule is open-source school management system software. The application relies on client-side JavaScript (index.js) to redirect users to different panels based on their role. Prior to version 1.0.1, this implementation poses a serious security risk because it assumes that the value of data.role is trustworthy on the client side. Attackers can manipulate JavaScript in the browser (e.g., via browser dev tools or intercepting API responses) and set data.role to any arbitrary value (e.g., "admin"), gaining unauthorized access to restricted areas of the application.
 <br>
@@ -310,7 +310,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48374
 <br>
-<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 9 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 9 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>zot is ancontainer image/artifact registry based on the Open Container Initiative Distribution Specification. Prior to version 2.1.3 (corresponding to pseudoversion 1.4.4-0.20250522160828-8a99a3ed231f), when using Keycloak as an oidc provider, the clientsecret gets printed into the container stdout logs for an example at container startup. Version 2.1.3 (corresponding to pseudoversion 1.4.4-0.20250522160828-8a99a3ed231f) fixes the issue.
 <br>
@@ -363,7 +363,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-51552
 <br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>Weak password storage vulnerabilities exist in ASPECT if administrator credentials become compromisedThis issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.
 <br>
@@ -380,7 +380,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-51553
 <br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>Predictable filename vulnerabilities in ASPECT may expose sensitive information to a potential attacker if administrator credentials become compromisedThis issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.
 <br>
@@ -397,7 +397,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-6914
 <br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>An incorrect authorization vulnerability exists in multiple WSO2 products due to a business logic flaw in the account recovery-related SOAP admin service. A malicious actor can exploit this vulnerability to reset the password of any user account, leading to a complete account takeover, including accounts with elevated privileges.
 
@@ -416,7 +416,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-7103
 <br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>A reflected cross-site scripting (XSS) vulnerability exists in the sub-organization login flow of WSO2 Identity Server 7.0.0 due to improper input validation. A malicious actor can exploit this vulnerability to inject arbitrary JavaScript into the login flow, potentially leading to UI modifications, redirections to malicious websites, or data exfiltration from the browser.
 
@@ -435,7 +435,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-7487
 <br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 4 minutes ago
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 11 hours, 5 minutes ago
 <br>
 <strong>Description : </strong>An improper authentication vulnerability exists in WSO2 Identity Server 7.0.0 due to an implementation flaw that allows app-native authentication to be bypassed when an invalid object is passed.
 
