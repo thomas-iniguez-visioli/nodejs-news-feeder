@@ -8,18 +8,105 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 23 May 2025 01:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 02:57:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-5098 - PrinterShare Gmail Token Capture Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5098
+<br>
+<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>PrinterShare Android application allows the capture of Gmail authentication tokens that can be reused to access a user's Gmail account without proper authorization.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 23 May 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5098</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5098</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5099 - Adobe PDF Out of Bounds Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5099
+<br>
+<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>An Out of Bounds Write occurs when the native library attempts PDF rendering, which can be exploited to achieve memory corruption and potentially arbitrary code execution.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 23 May 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5099</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5099</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5100 - Apache Commons IO Double-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5100
+<br>
+<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>A double-free condition occurs during the cleanup of temporary image files, which can be exploited to achieve memory corruption and potentially arbitrary code execution.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 23 May 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5100</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5100</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2394 - Ecovacs Home Android and iOS Mobile Apps Stored XSS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2394
+<br>
+<strong>Published : </strong> May 23, 2025, 1:15 a.m. | 1 hour, 41 minutes ago
+<br>
+<strong>Description : </strong>Ecovacs Home Android and iOS Mobile Applications up to version 3.3.0 contained embedded access keys and secrets for Alibaba Object Storage Service (OSS), leading to sensitive data disclosure.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 23 May 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2394</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2394</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4692 - ABUP Cloud Update Platform JWT Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4692
+<br>
+<strong>Published : </strong> May 23, 2025, 12:15 a.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Actors can use a maliciously crafted JavaScript object notation (JSON) web token (JWT) to perform privilege escalation by submitting the malicious JWT to a vulnerable method exposed on the cloud platform. If the exploit is successful, the user can escalate privileges to access any device managed by the 
+
+ABUP Cloud Update Platform.
+<br>
+<strong>Severity:</strong> 6.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 23 May 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4692</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4692</guid>
+    </item>
+    <item>
       <title>CVE-2025-48371 - OpenFGA Authorization Bypass Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48371
 <br>
-<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>OpenFGA is an authorization/permission engine. OpenFGA versions 1.8.0 through 1.8.12 (corresponding to Helm chart openfga-0.2.16 through openfga-0.2.30 and docker 1.8.0 through 1.8.12) are vulnerable to authorization bypass when certain Check and ListObject calls are executed. Users are affected under four specific conditions: First, calling Check API or ListObjects with an authorization model that has a relationship directly assignable by both type bound public access and userset; second, there are check or list object queries with contextual tuples for the relationship that can be directly assignable by both type bound public access and userset; third, those contextual tuples’s user field is an userset; and finally, type bound public access tuples are not assigned to the relationship. Users should upgrade to version 1.8.13 to receive a patch. The upgrade is backwards compatible.
 <br>
@@ -36,7 +123,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4338
 <br>
-<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Lantronix Device installer is vulnerable to XML external entity (XXE) attacks in configuration files read from the network device. An attacker could obtain credentials, access these network devices, and modify their configurations. An attacker may also gain access to the host running the Device Installer software or the password hash of the user running the application.
 <br>
@@ -53,7 +140,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4562
 <br>
-<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
@@ -70,7 +157,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4642
 <br>
-<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 3 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
@@ -87,7 +174,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47181
 <br>
-<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 2 hours, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 4 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Improper link resolution before file access ('link following') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.
 <br>
@@ -104,7 +191,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4975
 <br>
-<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 2 hours, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 4 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>When a notification relating to low battery appears for a user with whom the device has been shared, tapping the notification grants full access to the power settings of that device.
 <br>
@@ -121,7 +208,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48372
 <br>
-<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 5 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Schule is open-source school management system software. The generateOTP() function generates a 4-digit numeric One-Time Password (OTP). Prior to version 1.0.1, even if a secure random number generator is used, the short length and limited range (1000–9999) results in only 9000 possible combinations. This small keyspace makes the OTP highly vulnerable to brute-force attacks, especially in the absence of strong rate-limiting or lockout mechanisms. Version 1.0.1 fixes the issue.
 <br>
@@ -138,7 +225,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48373
 <br>
-<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 5 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Schule is open-source school management system software. The application relies on client-side JavaScript (index.js) to redirect users to different panels based on their role. Prior to version 1.0.1, this implementation poses a serious security risk because it assumes that the value of data.role is trustworthy on the client side. Attackers can manipulate JavaScript in the browser (e.g., via browser dev tools or intercepting API responses) and set data.role to any arbitrary value (e.g., "admin"), gaining unauthorized access to restricted areas of the application.
 <br>
@@ -155,7 +242,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48374
 <br>
-<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 9:15 p.m. | 5 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>zot is ancontainer image/artifact registry based on the Open Container Initiative Distribution Specification. Prior to version 2.1.3 (corresponding to pseudoversion 1.4.4-0.20250522160828-8a99a3ed231f), when using Keycloak as an oidc provider, the clientsecret gets printed into the container stdout logs for an example at container startup. Version 2.1.3 (corresponding to pseudoversion 1.4.4-0.20250522160828-8a99a3ed231f) fixes the issue.
 <br>
@@ -172,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2003-5004
 <br>
-<strong>Published : </strong> May 22, 2025, 8:15 p.m. | 4 hours, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 8:15 p.m. | 6 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been removed to prevent accidental usage.
 <br>
@@ -189,7 +276,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-5962
 <br>
-<strong>Published : </strong> May 22, 2025, 8:15 p.m. | 4 hours, 1 minute ago
+<strong>Published : </strong> May 22, 2025, 8:15 p.m. | 6 hours, 41 minutes ago
 <br>
 <strong>Description : </strong>A reflected cross-site scripting (XSS) vulnerability exists in the authentication endpoint of multiple WSO2 products due to missing output encoding of user-supplied input. A malicious actor can exploit this vulnerability to inject arbitrary JavaScript into the authentication flow, potentially leading to UI modifications, redirections to malicious websites, or data exfiltration from the browser.
 
@@ -202,6 +289,165 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 22 May 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2024-5962</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2024-5962</guid>
+    </item>
+    <item>
+      <title>CVE-2024-41197 - Ocuco Innovation INVCLIENT.EXE Remote Authentication Bypass Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-41197
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>An issue in Ocuco Innovation - INVCLIENT.EXE v2.10.24.5 allows attackers to bypass authentication and escalate privileges to Administrator via a crafted TCP packet.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41197</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41197</guid>
+    </item>
+    <item>
+      <title>CVE-2024-41198 - Ocuco Innovation REPORTS.EXE Remote Authentication Bypass and Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-41198
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>An issue in Ocuco Innovation - REPORTS.EXE v2.10.24.13 allows attackers to bypass authentication and escalate privileges to Administrator via a crafted TCP packet.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41198</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41198</guid>
+    </item>
+    <item>
+      <title>CVE-2024-41199 - Ocuco Innovation JOBMANAGER.EXE Authentication Bypass Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-41199
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>An issue in Ocuco Innovation - JOBMANAGER.EXE v2.10.24.16 allows attackers to bypass authentication and escalate privileges to Administrator via a crafted TCP packet.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-41199</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41199</guid>
+    </item>
+    <item>
+      <title>CVE-2024-48848 - Aspect Disk Overutilization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-48848
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Large content vulnerabilities are present in ASPECT exposing a device to disk overutilization on a system if administrator credentials become compromisedThis issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-48848</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-48848</guid>
+    </item>
+    <item>
+      <title>CVE-2024-51552 - ASPECT Password Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-51552
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Weak password storage vulnerabilities exist in ASPECT if administrator credentials become compromisedThis issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.
+<br>
+<strong>Severity:</strong> 6.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-51552</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-51552</guid>
+    </item>
+    <item>
+      <title>CVE-2024-51553 - ASPECT Predictable Filename Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-51553
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Predictable filename vulnerabilities in ASPECT may expose sensitive information to a potential attacker if administrator credentials become compromisedThis issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-51553</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-51553</guid>
+    </item>
+    <item>
+      <title>CVE-2024-6914 - WSO2 SOAP Unauthorized Account Takeover Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-6914
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>An incorrect authorization vulnerability exists in multiple WSO2 products due to a business logic flaw in the account recovery-related SOAP admin service. A malicious actor can exploit this vulnerability to reset the password of any user account, leading to a complete account takeover, including accounts with elevated privileges.
+
+This vulnerability is exploitable only through the account recovery SOAP admin services exposed via the "/services" context path in affected products. The impact may be reduced if access to these endpoints has been restricted based on the "Security Guidelines for Production Deployment" by disabling exposure to untrusted networks.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-6914</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-6914</guid>
+    </item>
+    <item>
+      <title>CVE-2024-7103 - WSO2 Identity Server Reflected XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-7103
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>A reflected cross-site scripting (XSS) vulnerability exists in the sub-organization login flow of WSO2 Identity Server 7.0.0 due to improper input validation. A malicious actor can exploit this vulnerability to inject arbitrary JavaScript into the login flow, potentially leading to UI modifications, redirections to malicious websites, or data exfiltration from the browser.
+
+While this issue could allow an attacker to manipulate the user’s browser, session-related sensitive cookies remain protected with the httpOnly flag, preventing session hijacking.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-7103</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-7103</guid>
+    </item>
+    <item>
+      <title>CVE-2024-7487 - WSO2 Identity Server Bypass Authentication Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-7487
+<br>
+<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>An improper authentication vulnerability exists in WSO2 Identity Server 7.0.0 due to an implementation flaw that allows app-native authentication to be bypassed when an invalid object is passed.
+
+Exploitation of this vulnerability could enable malicious actors to circumvent the client verification mechanism, compromising the integrity of the authentication process.
+<br>
+<strong>Severity:</strong> 5.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-7487</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-7487</guid>
     </item>
     <item>
       <title>CVE-2024-40460 - Ocuco Innovation Privilege Escalation Vulnerability</title>
@@ -287,165 +533,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2024-41196</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2024-41196</guid>
-    </item>
-    <item>
-      <title>CVE-2024-41197 - Ocuco Innovation INVCLIENT.EXE Remote Authentication Bypass Privilege Escalation</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-41197
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>An issue in Ocuco Innovation - INVCLIENT.EXE v2.10.24.5 allows attackers to bypass authentication and escalate privileges to Administrator via a crafted TCP packet.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-41197</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41197</guid>
-    </item>
-    <item>
-      <title>CVE-2024-41198 - Ocuco Innovation REPORTS.EXE Remote Authentication Bypass and Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-41198
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>An issue in Ocuco Innovation - REPORTS.EXE v2.10.24.13 allows attackers to bypass authentication and escalate privileges to Administrator via a crafted TCP packet.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-41198</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41198</guid>
-    </item>
-    <item>
-      <title>CVE-2024-41199 - Ocuco Innovation JOBMANAGER.EXE Authentication Bypass Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-41199
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>An issue in Ocuco Innovation - JOBMANAGER.EXE v2.10.24.16 allows attackers to bypass authentication and escalate privileges to Administrator via a crafted TCP packet.
-<br>
-<strong>Severity:</strong> 7.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-41199</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-41199</guid>
-    </item>
-    <item>
-      <title>CVE-2024-48848 - Aspect Disk Overutilization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-48848
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Large content vulnerabilities are present in ASPECT exposing a device to disk overutilization on a system if administrator credentials become compromisedThis issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-48848</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-48848</guid>
-    </item>
-    <item>
-      <title>CVE-2024-51552 - ASPECT Password Weakness</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-51552
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Weak password storage vulnerabilities exist in ASPECT if administrator credentials become compromisedThis issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.
-<br>
-<strong>Severity:</strong> 6.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-51552</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-51552</guid>
-    </item>
-    <item>
-      <title>CVE-2024-51553 - ASPECT Predictable Filename Information Disclosure Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-51553
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Predictable filename vulnerabilities in ASPECT may expose sensitive information to a potential attacker if administrator credentials become compromisedThis issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-51553</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-51553</guid>
-    </item>
-    <item>
-      <title>CVE-2024-6914 - WSO2 SOAP Unauthorized Account Takeover Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-6914
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>An incorrect authorization vulnerability exists in multiple WSO2 products due to a business logic flaw in the account recovery-related SOAP admin service. A malicious actor can exploit this vulnerability to reset the password of any user account, leading to a complete account takeover, including accounts with elevated privileges.
-
-This vulnerability is exploitable only through the account recovery SOAP admin services exposed via the "/services" context path in affected products. The impact may be reduced if access to these endpoints has been restricted based on the "Security Guidelines for Production Deployment" by disabling exposure to untrusted networks.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-6914</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-6914</guid>
-    </item>
-    <item>
-      <title>CVE-2024-7103 - WSO2 Identity Server Reflected XSS</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-7103
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>A reflected cross-site scripting (XSS) vulnerability exists in the sub-organization login flow of WSO2 Identity Server 7.0.0 due to improper input validation. A malicious actor can exploit this vulnerability to inject arbitrary JavaScript into the login flow, potentially leading to UI modifications, redirections to malicious websites, or data exfiltration from the browser.
-
-While this issue could allow an attacker to manipulate the user’s browser, session-related sensitive cookies remain protected with the httpOnly flag, preventing session hijacking.
-<br>
-<strong>Severity:</strong> 4.6 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-7103</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-7103</guid>
-    </item>
-    <item>
-      <title>CVE-2024-7487 - WSO2 Identity Server Bypass Authentication Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2024-7487
-<br>
-<strong>Published : </strong> May 22, 2025, 7:15 p.m. | 5 hours, 1 minute ago
-<br>
-<strong>Description : </strong>An improper authentication vulnerability exists in WSO2 Identity Server 7.0.0 due to an implementation flaw that allows app-native authentication to be bypassed when an invalid object is passed.
-
-Exploitation of this vulnerability could enable malicious actors to circumvent the client verification mechanism, compromising the integrity of the authentication process.
-<br>
-<strong>Severity:</strong> 5.8 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2024-7487</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2024-7487</guid>
     </item>
     <item>
       <title>CVE-2024-13955 - Aspect SQL Injection Vulnerability</title>
