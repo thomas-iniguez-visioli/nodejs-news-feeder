@@ -8,18 +8,52 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 23 May 2025 13:17:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 13:45:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-5105 - "Tozed ZLT W51 Heap Memory Corruption"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5105
+<br>
+<strong>Published : </strong> May 23, 2025, 12:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in TOZED ZLT W51 up to 1.4.2 and classified as critical. Affected by this issue is some unknown functionality of the component Service Port 7777. The manipulation leads to improper clearing of heap memory before release. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 23 May 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5105</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5105</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5106 - Fujian Kelixun Filename Handler Os Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5106
+<br>
+<strong>Published : </strong> May 23, 2025, 12:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Fujian Kelixun 1.0. It has been classified as critical. This affects an unknown part of the file /app/fax/fax_view.php of the component Filename Handler. The manipulation of the argument fax_file leads to os command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 23 May 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5106</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5106</guid>
+    </item>
+    <item>
       <title>CVE-2025-36527 - Zohocorp ManageEngine ADAudit Plus SQL Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-36527
 <br>
-<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 47 minutes ago
 <br>
 <strong>Description : </strong>Zohocorp ManageEngine ADAudit Plus versions below 8511 are vulnerable to SQL injection while exporting reports.
 <br>
@@ -36,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3893
 <br>
-<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 47 minutes ago
 <br>
 <strong>Description : </strong>While editing pages managed by MegaBIP a user with high privileges is prompted to give a reasoning for performing this action. Input provided by the the user is not sanitized, leading to SQL Injection vulnerability. 
 Version 5.20 of MegaBIP fixes this issue.
@@ -54,7 +88,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3894
 <br>
-<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 47 minutes ago
 <br>
 <strong>Description : </strong>Text editor embedded into MegaBIP software does not neutralize user input allowing Stored XSS attacks on other users. In order to use the editor high privileges are required.  
 Version 5.20 of MegaBIP fixes this issue.
@@ -72,7 +106,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3895
 <br>
-<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 47 minutes ago
 <br>
 <strong>Description : </strong>Token used for resetting passwords in MegaBIP software are generated using a small space of random values combined with a queryable value.
  It allows an unauthenticated attacker who know user login names to brute force these tokens and change account passwords (including these belonging to administrators). 
@@ -91,7 +125,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41407
 <br>
-<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 11:15 a.m. | 1 hour, 47 minutes ago
 <br>
 <strong>Description : </strong>Zohocorp ManageEngine ADAudit Plus versions below 8511 are vulnerable to SQL injection in the OU History report.
 <br>
@@ -108,7 +142,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-13945
 <br>
-<strong>Published : </strong> May 23, 2025, 10:15 a.m. | 2 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 10:15 a.m. | 2 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Stored Absolute Path Traversal vulnerabilities in ASPECT could expose sensitive data 
 if administrator credentials become compromised.
@@ -128,7 +162,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4379
 <br>
-<strong>Published : </strong> May 23, 2025, 10:15 a.m. | 2 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 10:15 a.m. | 2 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>DobryCMS in versions 2.* and lower is vulnerable to Reflected Cross-Site Scripting (XSS). Improper input validation in szukaj parameter allows arbitrary JavaScript to be executed on victim's browser when specially crafted URL is opened.
 
@@ -147,7 +181,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47149
 <br>
-<strong>Published : </strong> May 23, 2025, 9:15 a.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 9:15 a.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>The optional feature 'Anti-Virus & Sandbox' of i-FILTER contains an issue with improper pattern file validation. If exploited, the product may treat an unauthorized pattern file as an authorized. If the product uses a specially crafted pattern file, information in the server where the product is running may be retrieved, and/or cause a denial of service (DoS) condition.
 <br>
@@ -164,7 +198,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5096
 <br>
-<strong>Published : </strong> May 23, 2025, 9:15 a.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 9:15 a.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>The TablePress plugin for WordPress is vulnerable to DOM-Based Stored Cross-Site Scripting via the 'data-caption', 'data-s-content-padding', 'data-s-title', and 'data-footer' data-attributes in all versions up to, and including, 3.1.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -181,7 +215,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48695
 <br>
-<strong>Published : </strong> May 23, 2025, 5:15 a.m. | 7 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 5:15 a.m. | 7 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in CyberDAVA before 1.1.20. A privilege escalation vulnerability allows a low-privileged user to escalate their privilege by abusing the following API due to the lack of access control: /api/v2/users/user/<user id>/role/ROLE/<Target role> (admin access can be achieved).
 <br>
@@ -198,7 +232,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48701
 <br>
-<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 8 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 8 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>openDCIM through 23.04 allows SQL injection in people_depts.php because prepared statements are not used.
 <br>
@@ -215,7 +249,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48708
 <br>
-<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 8 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 8 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript through 10.05.0 lacks argument sanitization for the # case.
 <br>
@@ -232,7 +266,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4594
 <br>
-<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 8 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 4:15 a.m. | 8 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>The Tournamatch plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'trn-ladder-registration-button' shortcode in all versions up to, and including, 4.6.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -249,7 +283,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5098
 <br>
-<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 10 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 10 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>PrinterShare Android application allows the capture of Gmail authentication tokens that can be reused to access a user's Gmail account without proper authorization.
 <br>
@@ -266,7 +300,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5099
 <br>
-<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 10 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 10 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>An Out of Bounds Write occurs when the native library attempts PDF rendering, which can be exploited to achieve memory corruption and potentially arbitrary code execution.
 <br>
@@ -283,7 +317,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5100
 <br>
-<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 10 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 2:15 a.m. | 10 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A double-free condition occurs during the cleanup of temporary image files, which can be exploited to achieve memory corruption and potentially arbitrary code execution.
 <br>
@@ -300,7 +334,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2394
 <br>
-<strong>Published : </strong> May 23, 2025, 1:15 a.m. | 11 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 1:15 a.m. | 11 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Ecovacs Home Android and iOS Mobile Applications up to version 3.3.0 contained embedded access keys and secrets for Alibaba Object Storage Service (OSS), leading to sensitive data disclosure.
 <br>
@@ -317,7 +351,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4692
 <br>
-<strong>Published : </strong> May 23, 2025, 12:15 a.m. | 12 hours, 5 minutes ago
+<strong>Published : </strong> May 23, 2025, 12:15 a.m. | 12 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Actors can use a maliciously crafted JavaScript object notation (JSON) web token (JWT) to perform privilege escalation by submitting the malicious JWT to a vulnerable method exposed on the cloud platform. If the exploit is successful, the user can escalate privileges to access any device managed by the 
 
@@ -336,7 +370,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48371
 <br>
-<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 13 hours, 5 minutes ago
+<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 13 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>OpenFGA is an authorization/permission engine. OpenFGA versions 1.8.0 through 1.8.12 (corresponding to Helm chart openfga-0.2.16 through openfga-0.2.30 and docker 1.8.0 through 1.8.12) are vulnerable to authorization bypass when certain Check and ListObject calls are executed. Users are affected under four specific conditions: First, calling Check API or ListObjects with an authorization model that has a relationship directly assignable by both type bound public access and userset; second, there are check or list object queries with contextual tuples for the relationship that can be directly assignable by both type bound public access and userset; third, those contextual tuples’s user field is an userset; and finally, type bound public access tuples are not assigned to the relationship. Users should upgrade to version 1.8.13 to receive a patch. The upgrade is backwards compatible.
 <br>
@@ -353,7 +387,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4338
 <br>
-<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 13 hours, 5 minutes ago
+<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 13 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Lantronix Device installer is vulnerable to XML external entity (XXE) attacks in configuration files read from the network device. An attacker could obtain credentials, access these network devices, and modify their configurations. An attacker may also gain access to the host running the Device Installer software or the password hash of the user running the application.
 <br>
@@ -370,7 +404,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4562
 <br>
-<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 13 hours, 5 minutes ago
+<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 13 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
@@ -387,7 +421,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4642
 <br>
-<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 13 hours, 5 minutes ago
+<strong>Published : </strong> May 22, 2025, 11:15 p.m. | 13 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
@@ -398,6 +432,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 22 May 2025 23:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4642</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4642</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4975 - Samsung Device Power Settings Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4975
+<br>
+<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 14 hours, 47 minutes ago
+<br>
+<strong>Description : </strong>When a notification relating to low battery appears for a user with whom the device has been shared, tapping the notification grants full access to the power settings of that device.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 22 May 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4975</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4975</guid>
     </item>
     <item>
       <title>CVE-2025-47181 - Microsoft Edge Link Following Privilege Escalation Vulnerability</title>
@@ -415,23 +466,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 22 May 2025 22:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-47181</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-47181</guid>
-    </item>
-    <item>
-      <title>CVE-2025-4975 - Samsung Device Power Settings Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-4975
-<br>
-<strong>Published : </strong> May 22, 2025, 10:15 p.m. | 14 hours, 5 minutes ago
-<br>
-<strong>Description : </strong>When a notification relating to low battery appears for a user with whom the device has been shared, tapping the notification grants full access to the power settings of that device.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 22 May 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-4975</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4975</guid>
     </item>
     <item>
       <title>CVE-2025-48374 - Zot Keycloak Client Secret Disclosure</title>
