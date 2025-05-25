@@ -94,8 +94,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2024-13427
-https://cvefeed.io/vuln/detail/CVE-2025-3869
 https://cvefeed.io/vuln/detail/CVE-2025-48751
 https://cvefeed.io/vuln/detail/CVE-2025-48752
 https://cvefeed.io/vuln/detail/CVE-2025-48753
@@ -119,6 +117,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-5132
 https://cvefeed.io/vuln/detail/CVE-2025-5133
 https://cvefeed.io/vuln/detail/CVE-2025-5134
 https://cvefeed.io/vuln/detail/CVE-2025-5135
+https://cvefeed.io/vuln/detail/CVE-2025-5136
+https://cvefeed.io/vuln/detail/CVE-2025-5137
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -139,6 +139,7 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territo
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/2024-violations-donnees-personnelles
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
+https://cvefeed.io/vuln/detail/CVE-2025-5135
 https://cvefeed.io/vuln/detail/CVE-2025-5133
 https://cvefeed.io/vuln/detail/CVE-2025-5134
 https://cvefeed.io/vuln/detail/CVE-2025-5131
@@ -4091,8 +4092,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2024-13427 - WordPress Pagelayer Stored Cross-Site Scripting
-CVE-2025-3869 - WordPress 4stats Plugin CSRF Vulnerability
 CVE-2025-48751 - Apache Process_Lock Data Race
 CVE-2025-48752 - Apache Process-Sync Pthread Mutex Unlock Vulnerability
 CVE-2025-48753 - "Anode SpinLock Data Race Vulnerability"
@@ -4116,6 +4115,8 @@ CVE-2025-5132 - Tmall Demo Cross-Site Request Forgery Vulnerability
 CVE-2025-5133 - Tmall Demo Cross-Site Scripting Vulnerability
 CVE-2025-5134 - Tmall Demo Cross-Site Scripting Vulnerability
 CVE-2025-5135 - Tmall Demo Cross-Site Scripting Vulnerability
+CVE-2025-5136 - Tmall Payment Identifier Handler Insecure Randomness Remote Vulnerability
+CVE-2025-5137 - DedeCMS Distant Code Injection Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -4136,6 +4137,8 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2024-13427 - WordPress Pagelayer Stored Cross-Site Scripting
+CVE-2025-3869 - WordPress 4stats Plugin CSRF Vulnerability
 CVE-2025-5119 - Emlog Pro SQL Injection Vulnerability
 CVE-2025-48740 - StrangeBee TheHive CSRF
 CVE-2025-48741 - StrangeBee TheHive Broken Access Control Vulnerability
