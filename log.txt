@@ -94,8 +94,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-5147
-https://cvefeed.io/vuln/detail/CVE-2025-5148
 https://cvefeed.io/vuln/detail/CVE-2025-5149
 https://cvefeed.io/vuln/detail/CVE-2025-5150
 https://cvefeed.io/vuln/detail/CVE-2025-5151
@@ -119,6 +117,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-5167
 https://cvefeed.io/vuln/detail/CVE-2025-5168
 https://cvefeed.io/vuln/detail/CVE-2025-5169
 https://cvefeed.io/vuln/detail/CVE-2025-5170
+https://cvefeed.io/vuln/detail/CVE-2025-5171
+https://cvefeed.io/vuln/detail/CVE-2025-5172
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -139,6 +139,8 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territo
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/2024-violations-donnees-personnelles
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
+https://cvefeed.io/vuln/detail/CVE-2025-5169
+https://cvefeed.io/vuln/detail/CVE-2025-5170
 https://cvefeed.io/vuln/detail/CVE-2025-5166
 https://cvefeed.io/vuln/detail/CVE-2025-5167
 https://cvefeed.io/vuln/detail/CVE-2025-5168
@@ -4122,8 +4124,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-5147 - Netcore NBR1005GPEV2, NBR200V2, B6V2 Command Injection Vulnerability
-CVE-2025-5148 - FunAudioLLM InspireMusic Pickle Data Handler Deserialization Vulnerability
 CVE-2025-5149 - WCMS Remote Authentication Bypass
 CVE-2025-5150 - "Docarray Web API Prototype Pollution Vulnerability"
 CVE-2025-5151 - Defog-ai Introspect Code Injection Vulnerability
@@ -4147,6 +4147,8 @@ CVE-2025-5167 - Assimp Out-of-Bounds Read Vulnerability
 CVE-2025-5168 - Assimp Out-of-Bounds Read Vulnerability
 CVE-2025-5169 - Assimp MDLImporter Out-of-Bounds Read Vulnerability
 CVE-2025-5170 - LliSoft MTA Maita Training System SQL Injection Vulnerability
+CVE-2025-5171 - LliSoft MTA Maita Training System Unrestricted File Upload Vulnerability
+CVE-2025-5172 - Econtrata SQL Injection Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -4167,6 +4169,8 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-5147 - Netcore NBR1005GPEV2, NBR200V2, B6V2 Command Injection Vulnerability
+CVE-2025-5148 - FunAudioLLM InspireMusic Pickle Data Handler Deserialization Vulnerability
 CVE-2025-5146 - Netcore Routerd HTTP Header Handler Command Injection Vulnerability
 CVE-2025-5145 - Netcore Query String Handler Remote Command Injection Vulnerability
 CVE-2025-5140 - Seeyon Zhiyuan OA Web Application System Server-Side Request Forgery Vulnerability
