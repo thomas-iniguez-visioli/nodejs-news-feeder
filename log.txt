@@ -95,15 +95,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-45529
-https://cvefeed.io/vuln/detail/CVE-2025-46173
-https://cvefeed.io/vuln/detail/CVE-2025-5063
-https://cvefeed.io/vuln/detail/CVE-2025-5064
-https://cvefeed.io/vuln/detail/CVE-2025-5065
-https://cvefeed.io/vuln/detail/CVE-2025-5066
-https://cvefeed.io/vuln/detail/CVE-2025-5067
-https://cvefeed.io/vuln/detail/CVE-2025-5198
-https://cvefeed.io/vuln/detail/CVE-2025-5222
 https://cvefeed.io/vuln/detail/CVE-2025-5278
 https://cvefeed.io/vuln/detail/CVE-2025-5279
 https://cvefeed.io/vuln/detail/CVE-2025-5280
@@ -120,6 +111,15 @@ https://cvefeed.io/vuln/detail/CVE-2025-2826
 https://cvefeed.io/vuln/detail/CVE-2025-25025
 https://cvefeed.io/vuln/detail/CVE-2025-25026
 https://cvefeed.io/vuln/detail/CVE-2025-25029
+https://cvefeed.io/vuln/detail/CVE-2023-41839
+https://cvefeed.io/vuln/detail/CVE-2025-48841
+https://cvefeed.io/vuln/detail/CVE-2025-48842
+https://cvefeed.io/vuln/detail/CVE-2025-48843
+https://cvefeed.io/vuln/detail/CVE-2025-48844
+https://cvefeed.io/vuln/detail/CVE-2025-48845
+https://cvefeed.io/vuln/detail/CVE-2025-48846
+https://cvefeed.io/vuln/detail/CVE-2025-48847
+https://cvefeed.io/vuln/detail/CVE-2025-48848
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -4296,15 +4296,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-45529 - SSCMS File Read Vulnerability
-CVE-2025-46173 - Code-Projects Online Exam Mastering System Cross Site Scripting (XSS)
-CVE-2025-5063 - Google Chrome Use After Free in Compositing Vulnerability
-CVE-2025-5064 - Google Chrome Background Fetch API Cross-Origin Data Leak Vulnerability
-CVE-2025-5065 - Google Chrome FileSystemAccess API UI Spoofing Vulnerability
-CVE-2025-5066 - Google Chrome Android Messages UI Spoofing
-CVE-2025-5067 - Inappropriate implementation in Tab Strip in Googl
-CVE-2025-5198 - Stackrox XSS Vulnerability in Role Object Name
-CVE-2025-5222 - ICU Buffer Overflow Vulnerability
 CVE-2025-5278 - "GNU Coreutils Sort Utility Heap Buffer Under-Read Vulnerability"
 CVE-2025-5279 - Amazon Redshift Python Connector AzureOAuth2CredentialsProvider SSL Certificate Validation Bypass
 CVE-2025-5280 - Google Chrome V8 Out-of-Bounds Heap Corruption Vulnerability
@@ -4321,6 +4312,15 @@ CVE-2025-2826 - Arista EOS Ingress ACL Enforcement Vulnerability
 CVE-2025-25025 - IBM Security Guardium Information Disclosure Vulnerability
 CVE-2025-25026 - IBM Security Guardium Authentication Bypass Vulnerability
 CVE-2025-25029 - IBM Security Guardium File Download Privilege Escalation
+CVE-2023-41839 - Apache Struts Unvalidated Redirect to Malicious Site
+CVE-2025-48841 - Apache HTTP Server Authentication Bypass
+CVE-2025-48842 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-48843 - Apache Struts Deserialization Vulnerability
+CVE-2025-48844 - QNAP NAS Denial of Service
+CVE-2025-48845 - Apache HTTP Server Authentication Bypass
+CVE-2025-48846 - VMware Remote Code Execution
+CVE-2025-48847 - Dropbox Unvalidated Redirect
+CVE-2025-48848 - Citrix NetScaler HTTP Request Smuggling
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -4341,6 +4341,15 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-5063 - Google Chrome Use After Free in Compositing Vulnerability
+CVE-2025-5064 - Google Chrome Background Fetch API Cross-Origin Data Leak Vulnerability
+CVE-2025-5065 - Google Chrome FileSystemAccess API UI Spoofing Vulnerability
+CVE-2025-5066 - Google Chrome Android Messages UI Spoofing
+CVE-2025-5067 - Inappropriate implementation in Tab Strip in Googl
+CVE-2025-5198 - Stackrox XSS Vulnerability in Role Object Name
+CVE-2025-5222 - ICU Buffer Overflow Vulnerability
+CVE-2025-46173 - Code-Projects Online Exam Mastering System Cross Site Scripting (XSS)
+CVE-2025-45529 - SSCMS File Read Vulnerability
 CVE-2024-13966 - ZKTeco BioTime Default Password Authentication Bypass
 CVE-2025-2872 - Apache HTTP Server Remote Code Execution Vulnerability
 CVE-2025-5252 - PHPGurukul News Portal Project SQL Injection Vulnerability
