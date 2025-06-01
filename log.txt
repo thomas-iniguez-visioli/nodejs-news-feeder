@@ -95,6 +95,8 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
+https://cvefeed.io/vuln/detail/CVE-2025-5379
+https://cvefeed.io/vuln/detail/CVE-2025-5380
 https://cvefeed.io/vuln/detail/CVE-2025-5381
 https://cvefeed.io/vuln/detail/CVE-2025-5383
 https://cvefeed.io/vuln/detail/CVE-2025-5384
@@ -118,8 +120,6 @@ https://cvefeed.io/vuln/detail/CVE-2025-5404
 https://cvefeed.io/vuln/detail/CVE-2025-5405
 https://cvefeed.io/vuln/detail/CVE-2025-5406
 https://cvefeed.io/vuln/detail/CVE-2025-5407
-https://cvefeed.io/vuln/detail/CVE-2025-5408
-https://cvefeed.io/vuln/detail/CVE-2025-5409
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -4669,6 +4669,8 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
+CVE-2025-5379 - NuCom NC-WR744G Console Application Hard-Coded Credentials Remote Vulnerability
+CVE-2025-5380 - Ashinigit XueShengZhuSu Image File Upload Remote Path Traversal Vulnerability
 CVE-2025-5381 - Yifang CMS Path Traversal Vulnerability
 CVE-2025-5383 - Yifang CMS Article Management Module Cross-Site Scripting Vulnerability
 CVE-2025-5384 - JeeWMS SQL Injection Vulnerability
@@ -4692,8 +4694,6 @@ CVE-2025-5404 - Chaitak-Gorai Blogbook GET Parameter Handler Denial of Service V
 CVE-2025-5405 - Chaitak-Gorai Blogbook Cross Site Scripting Vulnerability
 CVE-2025-5406 - "Chaitak-Gorai Blogbook Unrestricted File Upload Vulnerability"
 CVE-2025-5407 - "Chaitak-Gorai Blogbook Cross-Site Scripting Vulnerability"
-CVE-2025-5408 - WAVLINK QUANTUM D2G, QUANTUM D3G, WL-WN530G3A, WL-WN530HG3, WL-WN532A3 and WL-WN576K1 HTTP POST Request Handler Buffer Overflow
-CVE-2025-5409 - Mist Community Edition API Token Handler Remote Improper Access Control Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -4714,8 +4714,8 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
-CVE-2025-5379 - NuCom NC-WR744G Console Application Hard-Coded Credentials Remote Vulnerability
-CVE-2025-5380 - Ashinigit XueShengZhuSu Image File Upload Remote Path Traversal Vulnerability
+CVE-2025-5408 - WAVLINK QUANTUM D2G, QUANTUM D3G, WL-WN530G3A, WL-WN530HG3, WL-WN532A3 and WL-WN576K1 HTTP POST Request Handler Buffer Overflow
+CVE-2025-5409 - Mist Community Edition API Token Handler Remote Improper Access Control Vulnerability
 CVE-2025-5378 - Astun Technology iShare Maps Cross-Site Scripting Vulnerability
 CVE-2025-5377 - "Astun Technology iShare Maps Cross-Site Scripting Vulnerability"
 CVE-2025-4857 - WordPress Newsletters Plugin Local File Inclusion Vulnerability
