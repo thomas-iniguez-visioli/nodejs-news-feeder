@@ -95,9 +95,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-5424
-https://cvefeed.io/vuln/detail/CVE-2025-5425
-https://cvefeed.io/vuln/detail/CVE-2025-5426
 https://cvefeed.io/vuln/detail/CVE-2024-11857
 https://cvefeed.io/vuln/detail/CVE-2025-5427
 https://cvefeed.io/vuln/detail/CVE-2025-5428
@@ -120,6 +117,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-0358
 https://cvefeed.io/vuln/detail/CVE-2025-5113
 https://cvefeed.io/vuln/detail/CVE-2025-5435
 https://cvefeed.io/vuln/detail/CVE-2025-5436
+https://cvefeed.io/vuln/detail/CVE-2025-5437
+https://cvefeed.io/vuln/detail/CVE-2025-5438
+https://cvefeed.io/vuln/detail/CVE-2025-5455
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -4708,9 +4708,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-5424 - Juzaweb CMS Remote File Access Control Vulnerability
-CVE-2025-5425 - Juzaweb CMS Theme Editor Page Remote Code Execution Vulnerability
-CVE-2025-5426 - Juzaweb CMS Menu Page Remote Access Control Vulnerability
 CVE-2024-11857 - Realtek Bluetooth HCI Adaptor Link Following Privilege Escalation
 CVE-2025-5427 - Juzaweb CMS Permalinks Page Remote Access Control Bypass Vulnerability
 CVE-2025-5428 - Juzaweb CMS Remote Improper Access Controls Vulnerability
@@ -4733,6 +4730,9 @@ CVE-2025-0358 - Axis VAPIX Device Configuration Privilege Escalation Vulnerabili
 CVE-2025-5113 - Diviotec Professional Series Web Interface Command Injection
 CVE-2025-5435 - Marwal Infotech CMS SQL Injection Vulnerability
 CVE-2025-5436 - Multilaser Sirius RE016 Information Disclosure Remote Vulnerability
+CVE-2025-5437 - Multilaser Sirius RE016 MLT1.0 CGI Password Change Handler Remote Authentication Bypass Vulnerability
+CVE-2025-5438 - Linksys WPS Command Injection Vulnerability
+CVE-2025-5455 - Qt Denial of Service Vulnerability in qDecodeDataUrl Function
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -4753,6 +4753,9 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-5424 - Juzaweb CMS Remote File Access Control Vulnerability
+CVE-2025-5425 - Juzaweb CMS Theme Editor Page Remote Code Execution Vulnerability
+CVE-2025-5426 - Juzaweb CMS Menu Page Remote Access Control Vulnerability
 CVE-2025-20673 - "Netgear Wireless LAN STA Driver Denial of Service Vulnerability"
 CVE-2025-20674 - Aruba Wlan AP Driver Privilege Escalation Vulnerability
 CVE-2025-20675 - Aruba WLAN STA Driver Uncaught Exception Vulnerability (Denial of Service)
