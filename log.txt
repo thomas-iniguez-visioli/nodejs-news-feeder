@@ -95,10 +95,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2024-11857
-https://cvefeed.io/vuln/detail/CVE-2025-5427
-https://cvefeed.io/vuln/detail/CVE-2025-5428
-https://cvefeed.io/vuln/detail/CVE-2025-25179
 https://cvefeed.io/vuln/detail/CVE-2025-49112
 https://cvefeed.io/vuln/detail/CVE-2025-49113
 https://cvefeed.io/vuln/detail/CVE-2025-5429
@@ -120,6 +116,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-5436
 https://cvefeed.io/vuln/detail/CVE-2025-5437
 https://cvefeed.io/vuln/detail/CVE-2025-5438
 https://cvefeed.io/vuln/detail/CVE-2025-5455
+https://cvefeed.io/vuln/detail/CVE-2025-1750
+https://cvefeed.io/vuln/detail/CVE-2025-3260
+https://cvefeed.io/vuln/detail/CVE-2025-5439
+https://cvefeed.io/vuln/detail/CVE-2025-5440
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -4711,10 +4711,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2024-11857 - Realtek Bluetooth HCI Adaptor Link Following Privilege Escalation
-CVE-2025-5427 - Juzaweb CMS Permalinks Page Remote Access Control Bypass Vulnerability
-CVE-2025-5428 - Juzaweb CMS Remote Improper Access Controls Vulnerability
-CVE-2025-25179 - Citrix XenServer GPU Escalation of Privilege
 CVE-2025-49112 - Valkey TCP/IP Stack Integer Underflow Vulnerability
 CVE-2025-49113 - Roundcube Webmail PHP Object Deserialization Vulnerability
 CVE-2025-5429 - Juzaweb CMS Remote Improper Access Control Vulnerability
@@ -4736,6 +4732,10 @@ CVE-2025-5436 - Multilaser Sirius RE016 Information Disclosure Remote Vulnerabil
 CVE-2025-5437 - Multilaser Sirius RE016 MLT1.0 CGI Password Change Handler Remote Authentication Bypass Vulnerability
 CVE-2025-5438 - Linksys WPS Command Injection Vulnerability
 CVE-2025-5455 - Qt Denial of Service Vulnerability in qDecodeDataUrl Function
+CVE-2025-1750 - DuckDBVectorStore SQL Injection Remote Code Execution
+CVE-2025-3260 - Grafana Dashboard Permission Bypass Vulnerability
+CVE-2025-5439 - "Linksys RE6500/RE6250/RE6300/RE6350/RE7000/RE9000 Facebook Like Command Injection Vulnerability"
+CVE-2025-5440 - Linksys RE6500/RE6250/RE6300/RE6350/RE7000/RE9000 NTP Os Command Injection Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -4756,6 +4756,10 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-25179 - Citrix XenServer GPU Escalation of Privilege
+CVE-2024-11857 - Realtek Bluetooth HCI Adaptor Link Following Privilege Escalation
+CVE-2025-5427 - Juzaweb CMS Permalinks Page Remote Access Control Bypass Vulnerability
+CVE-2025-5428 - Juzaweb CMS Remote Improper Access Controls Vulnerability
 CVE-2025-5424 - Juzaweb CMS Remote File Access Control Vulnerability
 CVE-2025-5425 - Juzaweb CMS Theme Editor Page Remote Code Execution Vulnerability
 CVE-2025-5426 - Juzaweb CMS Menu Page Remote Access Control Vulnerability
