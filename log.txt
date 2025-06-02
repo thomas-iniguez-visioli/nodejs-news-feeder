@@ -95,16 +95,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-5389
-https://cvefeed.io/vuln/detail/CVE-2025-5390
-https://cvefeed.io/vuln/detail/CVE-2025-5400
-https://cvefeed.io/vuln/detail/CVE-2025-1499
-https://cvefeed.io/vuln/detail/CVE-2025-25044
-https://cvefeed.io/vuln/detail/CVE-2025-2896
-https://cvefeed.io/vuln/detail/CVE-2025-33004
-https://cvefeed.io/vuln/detail/CVE-2025-33005
-https://cvefeed.io/vuln/detail/CVE-2025-5401
-https://cvefeed.io/vuln/detail/CVE-2025-40908
 https://cvefeed.io/vuln/detail/CVE-2025-5402
 https://cvefeed.io/vuln/detail/CVE-2025-5403
 https://cvefeed.io/vuln/detail/CVE-2025-5404
@@ -120,6 +110,16 @@ https://cvefeed.io/vuln/detail/CVE-2025-5420
 https://cvefeed.io/vuln/detail/CVE-2025-5421
 https://cvefeed.io/vuln/detail/CVE-2025-5422
 https://cvefeed.io/vuln/detail/CVE-2025-5423
+https://cvefeed.io/vuln/detail/CVE-2025-20672
+https://cvefeed.io/vuln/detail/CVE-2025-20673
+https://cvefeed.io/vuln/detail/CVE-2025-20674
+https://cvefeed.io/vuln/detail/CVE-2025-20675
+https://cvefeed.io/vuln/detail/CVE-2025-20676
+https://cvefeed.io/vuln/detail/CVE-2025-20677
+https://cvefeed.io/vuln/detail/CVE-2025-20678
+https://cvefeed.io/vuln/detail/CVE-2025-5424
+https://cvefeed.io/vuln/detail/CVE-2025-5425
+https://cvefeed.io/vuln/detail/CVE-2025-5426
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
@@ -4676,16 +4676,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-5389 - JeeWMS Improper Access Controls Remote Vulnerability
-CVE-2025-5390 - JeeWMS File Handler Improper Access Control Remote Vulnerability
-CVE-2025-5400 - "Chaitak-Gorai Blogbook SQL Injection Vulnerability"
-CVE-2025-1499 - IBM InfoSphere Information Server Cleartext Database Credential Exposure
-CVE-2025-25044 - IBM Planning Analytics Cross-Site Scripting Vulnerability
-CVE-2025-2896 - IBM Planning Analytics Cross-Site Scripting Vulnerability
-CVE-2025-33004 - IBM Planning Analytics Local File Deletion Vulnerability
-CVE-2025-33005 - IBM Planning Analytics Session Impersonation Vulnerability
-CVE-2025-5401 - Chaitak-Gorai Blogbook SQL Injection
-CVE-2025-40908 - LibYAML YAML File Modification Vulnerability
 CVE-2025-5402 - Chaitak-Gorai Blogbook SQL Injection Vulnerability in GET Parameter Handler
 CVE-2025-5403 - Chaitak-Gorai Blogbook SQL Injection Vulnerability
 CVE-2025-5404 - Chaitak-Gorai Blogbook GET Parameter Handler Denial of Service Vulnerability
@@ -4701,6 +4691,16 @@ CVE-2025-5420 - Juzaweb CMS Cross Site Scripting Vulnerability
 CVE-2025-5421 - Juzaweb CMS Plugin Editor Page Remote Improper Access Control Vulnerability
 CVE-2025-5422 - "Juzaweb CMS Remote Unauthenticated Access Control Bypass"
 CVE-2025-5423 - Juzaweb CMS Remote Code Execution Vulnerability
+CVE-2025-20672 - Intel Bluetooth Out-of-Bounds Write Vulnerability
+CVE-2025-20673 - "Netgear Wireless LAN STA Driver Denial of Service Vulnerability"
+CVE-2025-20674 - Aruba Wlan AP Driver Privilege Escalation Vulnerability
+CVE-2025-20675 - Aruba WLAN STA Driver Uncaught Exception Vulnerability (Denial of Service)
+CVE-2025-20676 - Aruba WLAN STA Driver Denial of Service Vulnerability
+CVE-2025-20677 - "Qualcomm Bluetooth Local Denial of Service Vulnerability"
+CVE-2025-20678 - "Openmind IMS Denial of Service Vulnerability"
+CVE-2025-5424 - Juzaweb CMS Remote File Access Control Vulnerability
+CVE-2025-5425 - Juzaweb CMS Theme Editor Page Remote Code Execution Vulnerability
+CVE-2025-5426 - Juzaweb CMS Menu Page Remote Access Control Vulnerability
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
@@ -4721,6 +4721,16 @@ Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ ann
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
+CVE-2025-40908 - LibYAML YAML File Modification Vulnerability
+CVE-2025-5401 - Chaitak-Gorai Blogbook SQL Injection
+CVE-2025-1499 - IBM InfoSphere Information Server Cleartext Database Credential Exposure
+CVE-2025-25044 - IBM Planning Analytics Cross-Site Scripting Vulnerability
+CVE-2025-2896 - IBM Planning Analytics Cross-Site Scripting Vulnerability
+CVE-2025-33004 - IBM Planning Analytics Local File Deletion Vulnerability
+CVE-2025-33005 - IBM Planning Analytics Session Impersonation Vulnerability
+CVE-2025-5400 - "Chaitak-Gorai Blogbook SQL Injection Vulnerability"
+CVE-2025-5389 - JeeWMS Improper Access Controls Remote Vulnerability
+CVE-2025-5390 - JeeWMS File Handler Improper Access Control Remote Vulnerability
 CVE-2025-5387 - JeeWMS File Handler Improper Access Controls Remote Vulnerability
 CVE-2025-5388 - JeeWMS SQL Injection Vulnerability
 CVE-2025-5385 - JeeWMS Path Traversal Vulnerability
