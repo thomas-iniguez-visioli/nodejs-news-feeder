@@ -95,9 +95,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-48994
-https://cvefeed.io/vuln/detail/CVE-2025-48995
-https://cvefeed.io/vuln/detail/CVE-2025-5036
 https://cvefeed.io/vuln/detail/CVE-2025-20297
 https://cvefeed.io/vuln/detail/CVE-2025-20298
 https://cvefeed.io/vuln/detail/CVE-2025-23104
@@ -120,6 +117,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-49163
 https://cvefeed.io/vuln/detail/CVE-2025-49164
 https://cvefeed.io/vuln/detail/CVE-2025-5068
 https://cvefeed.io/vuln/detail/CVE-2025-5419
+https://cvefeed.io/vuln/detail/CVE-2025-2939
+https://cvefeed.io/vuln/detail/CVE-2025-4047
+https://cvefeed.io/vuln/detail/CVE-2025-4224
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-campagne-de-messages-frauduleux-usurpant-lidentite-de-cybermalveillance-gouv-fr-202412
@@ -4795,9 +4795,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-48994 - SignXML Algorithm Confusion Vulnerability
-CVE-2025-48995 - SignXML Timing Attack HMAC Leak
-CVE-2025-5036 - Autodesk Revit Use-After-Free Vulnerability
 CVE-2025-20297 - Splunk Cross-Site Scripting (XSS)
 CVE-2025-20298 - Splunk Universal Forwarder Windows Privilege Escalation Vulnerability
 CVE-2025-23104 - Samsung Mobile Processor Exynos Use-After-Free Privilege Escalation Vulnerability
@@ -4820,6 +4817,9 @@ CVE-2025-49163 - Arris VIP1113 Boot Image Injection Vulnerability
 CVE-2025-49164 - Arris VIP1113 TV Set-Top Box Firmware Decryption Key Disclosure
 CVE-2025-5068 - Google Chrome Blink Use-After-Free Vulnerability
 CVE-2025-5419 - Google Chrome Heap Corruption Vulnerability
+CVE-2025-2939 - WordPress Ninja Tables PHP Object Injection
+CVE-2025-4047 - WordPress Broken Link Checker Unauthorized Data Access Vulnerability
+CVE-2025-4224 - WordPress wpForo Advanced Attachments Stored Cross-Site Scripting Vulnerability
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
 Alerte : campagne de messages drsquo;escroquerie à lrsquo;indemnisation usurpant l’identité de Cybermalveillance.gouv.fr
@@ -4840,6 +4840,9 @@ Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
 Professionnels : quelles sont les cybermenaces les plus fréquentes en 2024 ?
+CVE-2025-48994 - SignXML Algorithm Confusion Vulnerability
+CVE-2025-48995 - SignXML Timing Attack HMAC Leak
+CVE-2025-5036 - Autodesk Revit Use-After-Free Vulnerability
 CVE-2024-1440 - WSO2 Open Redirection Vulnerability
 CVE-2024-3509 - WSO2 Management Console Stored XSS
 CVE-2024-7073 - WSO2 SOAP SSRF Attack Vector
