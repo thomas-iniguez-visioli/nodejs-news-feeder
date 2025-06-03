@@ -95,10 +95,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2024-53013
-https://cvefeed.io/vuln/detail/CVE-2024-53015
-https://cvefeed.io/vuln/detail/CVE-2024-53016
-https://cvefeed.io/vuln/detail/CVE-2024-53017
 https://cvefeed.io/vuln/detail/CVE-2024-53018
 https://cvefeed.io/vuln/detail/CVE-2024-53019
 https://cvefeed.io/vuln/detail/CVE-2024-53020
@@ -120,7 +116,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-4567
 https://cvefeed.io/vuln/detail/CVE-2025-21479
 https://cvefeed.io/vuln/detail/CVE-2025-41428
 https://cvefeed.io/vuln/detail/CVE-2025-46355
-https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
+https://cvefeed.io/vuln/detail/CVE-2025-1725
+https://cvefeed.io/vuln/detail/CVE-2025-4420
+https://cvefeed.io/vuln/detail/CVE-2025-5103
+https://cvefeed.io/vuln/detail/CVE-2025-5116
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-campagne-de-messages-frauduleux-usurpant-lidentite-de-cybermalveillance-gouv-fr-202412
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lancement-17cyber
@@ -139,6 +138,7 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cyb
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/2024-violations-donnees-personnelles
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/top-10-cybermenaces-professionnels-2024
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/rancongiciels-ransomwares
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/rancongiciel-ransomware-particuliers
 https://cvefeed.io/vuln/detail/CVE-2025-41428
 https://cvefeed.io/vuln/detail/CVE-2025-46355
@@ -4724,6 +4724,7 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lancement-17c
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries
 https://bonjourlafuite.eu.org/#Deloitte-2024-12-04
 https://bonjourlafuite.eu.org/#Chambres d’agriculture-2024-11-21
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cp-etude-2024-cybersecurite-collectivites
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/violation-de-donnees-personnelles-free-202410
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagne-nationale-2024-tv-medias
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/numeum-campus-cyber-cyber4tomorrowfr-cybermalveillancegouvfr
@@ -4826,10 +4827,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2024-53013 - Google Android Audio Call Registration Buffer Overflow
-CVE-2024-53015 - Apache VFS Filesystem Buffer Overflow
-CVE-2024-53016 - Canon Camera Off-Path Memory Corruption Vulnerability
-CVE-2024-53017 - Citrix ADC Integer Overflow Vulnerability
 CVE-2024-53018 - Cisco IOS Memory Corruption Vulnerability
 CVE-2024-53019 - Cisco RTP Information Disclosure Vulnerability
 CVE-2024-53020 - Apache Tomcat RTP Information Disclosure Vulnerability
@@ -4851,7 +4848,10 @@ CVE-2025-4567 - WordPress Post Slider Cross-Site Scripting Vulnerability
 CVE-2025-21479 - NVIDIA GPU Unauthenticated Command Execution Vulnerability
 CVE-2025-41428 - TimeWorks Path Traversal Vulnerability
 CVE-2025-46355 - PC Time Tracer Elevation of Privilege Vulnerability
-Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
+CVE-2025-1725 - WordPress Bit File Manager Stored Cross-Site Scripting Vulnerability
+CVE-2025-4420 - Vayu Blocks Stored Cross-Site Scripting (XSS) in WordPress
+CVE-2025-5103 - WooCommerce Ultimate Gift Cards SQL Injection Vulnerability
+CVE-2025-5116 - WordPress WP Plugin Info Card Stored Cross-Site Scripting
 Alerte : campagne de messages drsquo;escroquerie à lrsquo;indemnisation usurpant l’identité de Cybermalveillance.gouv.fr
 Soldes drsquo;hiver : 7 conseils pour éviter les cyber-arnaques
 17Cyber, le nouveau réflexe d’assistance en ligne pour toutes les victimes de cybermalveillance
@@ -4870,7 +4870,12 @@ Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
 2024, une année marquée par un nombre record de violations de données personnelles
 Lettres drsquo;information
 Professionnels : quelles sont les cybermenaces les plus fréquentes en 2024 ?
+Rançongiciel ou ransomware : que faire si votre organisation est victime d’une attaque ?
 Rançongiciel ou ransomware, que faire ? (particuliers)
+CVE-2024-53013 - Google Android Audio Call Registration Buffer Overflow
+CVE-2024-53015 - Apache VFS Filesystem Buffer Overflow
+CVE-2024-53016 - Canon Camera Off-Path Memory Corruption Vulnerability
+CVE-2024-53017 - Citrix ADC Integer Overflow Vulnerability
 CVE-2024-53010 - VMware ESXi Memory Corruption Vulnerability
 CVE-2025-4797 - "Golo - City Travel Guide WordPress Theme Privilege Escalation via Account Takeover"
 CVE-2025-4224 - WordPress wpForo Advanced Attachments Stored Cross-Site Scripting Vulnerability
@@ -9395,6 +9400,7 @@ L’ANSSI publie son plan stratégique 2025-2027
 L’ANSSI publie son état de la menace sur le cloud computing 
 Sommet pour l’action sur l’intelligence artificielle : retour sur les travaux de l’ANSSI
 L’algorithme HAETAE lauréat de la compétition coréenne de cryptographie post-quantique
+Cybermalveillance.gouv.fr publie sa 3e étude sur la maturité cyber des collectivités et souligne une prise en compte des risques insuffisante  – La frontière s’accentue entre les petites collectivités et celles de plus de 1 000 habitants –
 Violation de données personnelles de lrsquo;opérateur Free : situation, risques et recommandations
 Campagne nationale 2024 TV-médias de sensibilisation à la cybersécurité
 Cybersécurité : Numeum et le Campus Cyber lancent la plateforme Cyber4Tomorrow.fr et signent un partenariat avec Cybermalveillance.gouv.fr pour une cybersécurité durable et inclusive
