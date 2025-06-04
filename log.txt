@@ -117,19 +117,6 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-inf
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/top-10-cybermenaces-professionnels-2024
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/rancongiciels-ransomwares
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/rancongiciel-ransomware-particuliers
-https://cvefeed.io/vuln/detail/CVE-2025-5521
-https://cvefeed.io/vuln/detail/CVE-2025-5522
-https://cvefeed.io/vuln/detail/CVE-2025-23097
-https://cvefeed.io/vuln/detail/CVE-2025-23098
-https://cvefeed.io/vuln/detail/CVE-2025-23100
-https://cvefeed.io/vuln/detail/CVE-2025-35036
-https://cvefeed.io/vuln/detail/CVE-2025-5523
-https://cvefeed.io/vuln/detail/CVE-2025-5525
-https://cvefeed.io/vuln/detail/CVE-2025-48951
-https://cvefeed.io/vuln/detail/CVE-2025-48999
-https://cvefeed.io/vuln/detail/CVE-2025-49000
-https://cvefeed.io/vuln/detail/CVE-2025-49001
-https://cvefeed.io/vuln/detail/CVE-2025-49002
 https://cvefeed.io/vuln/detail/CVE-2025-5527
 https://cvefeed.io/vuln/detail/CVE-2025-5542
 https://cvefeed.io/vuln/detail/CVE-2025-24015
@@ -142,6 +129,19 @@ https://cvefeed.io/vuln/detail/CVE-2025-5548
 https://cvefeed.io/vuln/detail/CVE-2025-5549
 https://cvefeed.io/vuln/detail/CVE-2025-5550
 https://cvefeed.io/vuln/detail/CVE-2025-5551
+https://cvefeed.io/vuln/detail/CVE-2025-49202
+https://cvefeed.io/vuln/detail/CVE-2025-49203
+https://cvefeed.io/vuln/detail/CVE-2025-49204
+https://cvefeed.io/vuln/detail/CVE-2025-49205
+https://cvefeed.io/vuln/detail/CVE-2025-49206
+https://cvefeed.io/vuln/detail/CVE-2025-49207
+https://cvefeed.io/vuln/detail/CVE-2025-49208
+https://cvefeed.io/vuln/detail/CVE-2025-49209
+https://cvefeed.io/vuln/detail/CVE-2025-49210
+https://cvefeed.io/vuln/detail/CVE-2025-49223
+https://cvefeed.io/vuln/detail/CVE-2025-5552
+https://cvefeed.io/vuln/detail/CVE-2025-5553
+https://cvefeed.io/vuln/detail/CVE-2025-5554
 https://cvefeed.io/vuln/detail/CVE-2025-5551
 https://cvefeed.io/vuln/detail/CVE-2025-5548
 https://cvefeed.io/vuln/detail/CVE-2025-5549
@@ -4942,19 +4942,6 @@ Lettres drsquo;information
 Professionnels : quelles sont les cybermenaces les plus fréquentes en 2024 ?
 Rançongiciel ou ransomware : que faire si votre organisation est victime d’une attaque ?
 Rançongiciel ou ransomware, que faire ? (particuliers)
-CVE-2025-5521 - WuKongOpenSource WukongCRM Cross-Site Request Forgery Vulnerability
-CVE-2025-5522 - Jack0240 魏 bskms 蓝天幼儿园管理系统 Unauthenticated Remote Authorization Bypass Vulnerability
-CVE-2025-23097 - Samsung Mobile Processor Exynos 1380 Out-of-Bounds Write Vulnerability
-CVE-2025-23098 - Samsung Mobile Processor Exynos Use-After-Free Privilege Escalation
-CVE-2025-23100 - Samsung Exynos NULL Check Denial of Service Vulnerability
-CVE-2025-35036 - Apache Hibernate Expression Language Injection Vulnerability
-CVE-2025-5523 - Enilu Web-Flash Cross-Site Scripting Vulnerability
-CVE-2025-5525 - "Jrohy Trojan LogChan os Command Injection Vulnerability"
-CVE-2025-48951 - Auth0-PHP Insecure Cookie Deserialization Vulnerability
-CVE-2025-48999 - DataEase SQL Injection Vulnerability
-CVE-2025-49000 - InvenTree Label-Sheet Plugin Denial of Service Vulnerability
-CVE-2025-49001 - DataEase JWT Token Forgery Vulnerability
-CVE-2025-49002 - DataEase Case Insensitive Patch Bypass Vulnerability
 CVE-2025-5527 - Tenda RX3 Stack-Based Buffer Overflow Vulnerability
 CVE-2025-5542 - TOTOLINK X2000R Cross-Site Scripting Vulnerability in Virtual Server Page
 CVE-2025-24015 - Deno AES-GCM Authentication Tag Validation Bypass
@@ -4967,6 +4954,32 @@ CVE-2025-5548 - FreeFloat FTP Server NOOP Command Handler Buffer Overflow Vulner
 CVE-2025-5549 - FreeFloat FTP Server PASV Command Handler Buffer Overflow
 CVE-2025-5550 - FreeFloat FTP Server PBSZ Command Handler Buffer Overflow Vulnerability
 CVE-2025-5551 - FreeFloat FTP Server Buffer Overflow Vulnerability
+CVE-2025-49202 - Apache HTTP Server Deserialization Vulnerability
+CVE-2025-49203 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-49204 - Apache HTTP Server Unvalidated User Input
+CVE-2025-49205 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-49206 - Apache HTTP Server Unvalidated User Input
+CVE-2025-49207 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-49208 - Apache HTTP Server Unauthenticated Remote Code Execution
+CVE-2025-49209 - Apache HTTP Server Unvalidated User Input
+CVE-2025-49210 - Apache HTTP Server Unvalidated User Input
+CVE-2025-49223 - Billboard.js Prototype Pollution Vulnerability
+CVE-2025-5552 - ChestnutCMS Groovy Deserialization Remote Vulnerability
+CVE-2025-5553 - PHPGurukul Rail Pass Management System SQL Injection
+CVE-2025-5554 - PHPGurukul Rail Pass Management System SQL Injection Vulnerability
+CVE-2025-48951 - Auth0-PHP Insecure Cookie Deserialization Vulnerability
+CVE-2025-48999 - DataEase SQL Injection Vulnerability
+CVE-2025-49000 - InvenTree Label-Sheet Plugin Denial of Service Vulnerability
+CVE-2025-49001 - DataEase JWT Token Forgery Vulnerability
+CVE-2025-49002 - DataEase Case Insensitive Patch Bypass Vulnerability
+CVE-2025-23097 - Samsung Mobile Processor Exynos 1380 Out-of-Bounds Write Vulnerability
+CVE-2025-23098 - Samsung Mobile Processor Exynos Use-After-Free Privilege Escalation
+CVE-2025-23100 - Samsung Exynos NULL Check Denial of Service Vulnerability
+CVE-2025-35036 - Apache Hibernate Expression Language Injection Vulnerability
+CVE-2025-5523 - Enilu Web-Flash Cross-Site Scripting Vulnerability
+CVE-2025-5525 - "Jrohy Trojan LogChan os Command Injection Vulnerability"
+CVE-2025-5521 - WuKongOpenSource WukongCRM Cross-Site Request Forgery Vulnerability
+CVE-2025-5522 - Jack0240 魏 bskms 蓝天幼儿园管理系统 Unauthenticated Remote Authorization Bypass Vulnerability
 CVE-2025-48998 - DataEase Arbitrary File Deserialization
 CVE-2025-48950 - MaxKB Sandbox Directory Permission Bypass Vulnerability
 CVE-2025-48953 - Umbraco File Upload Extension Bypass Vulnerability
