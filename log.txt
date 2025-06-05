@@ -97,14 +97,6 @@ https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-
 https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
-https://cvefeed.io/vuln/detail/CVE-2025-5612
-https://cvefeed.io/vuln/detail/CVE-2025-5613
-https://cvefeed.io/vuln/detail/CVE-2025-5614
-https://cvefeed.io/vuln/detail/CVE-2025-5615
-https://cvefeed.io/vuln/detail/CVE-2025-5690
-https://cvefeed.io/vuln/detail/CVE-2025-49007
-https://cvefeed.io/vuln/detail/CVE-2025-5616
-https://cvefeed.io/vuln/detail/CVE-2025-5617
 https://cvefeed.io/vuln/detail/CVE-2025-5618
 https://cvefeed.io/vuln/detail/CVE-2025-5619
 https://cvefeed.io/vuln/detail/CVE-2025-5620
@@ -122,6 +114,14 @@ https://cvefeed.io/vuln/detail/CVE-2025-49466
 https://cvefeed.io/vuln/detail/CVE-2025-5629
 https://cvefeed.io/vuln/detail/CVE-2025-5630
 https://cvefeed.io/vuln/detail/CVE-2025-5631
+https://cvefeed.io/vuln/detail/CVE-2025-5632
+https://cvefeed.io/vuln/detail/CVE-2025-5633
+https://cvefeed.io/vuln/detail/CVE-2025-5634
+https://cvefeed.io/vuln/detail/CVE-2025-5635
+https://cvefeed.io/vuln/detail/CVE-2025-1793
+https://cvefeed.io/vuln/detail/CVE-2025-5636
+https://cvefeed.io/vuln/detail/CVE-2025-5637
+https://cvefeed.io/vuln/detail/CVE-2025-5638
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/module-assistance-17cyber
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/17cyber-kit-communication
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
@@ -168,10 +168,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-5616
 https://cvefeed.io/vuln/detail/CVE-2025-5617
 https://cvefeed.io/vuln/detail/CVE-2025-5618
 https://cvefeed.io/vuln/detail/CVE-2025-5619
-https://cvefeed.io/vuln/detail/CVE-2025-5690
 https://cvefeed.io/vuln/detail/CVE-2025-5613
 https://cvefeed.io/vuln/detail/CVE-2025-5614
 https://cvefeed.io/vuln/detail/CVE-2025-5615
+https://cvefeed.io/vuln/detail/CVE-2025-5690
 https://cvefeed.io/vuln/detail/CVE-2025-5612
 https://cvefeed.io/vuln/detail/CVE-2025-46341
 https://cvefeed.io/vuln/detail/CVE-2025-48947
@@ -5080,14 +5080,6 @@ Bilan du volet cybersécurité de France Relance : un défi réussi
 Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
-CVE-2025-5612 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
-CVE-2025-5613 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
-CVE-2025-5614 - PHPGurukul Online Fire Reporting System SQL Injection
-CVE-2025-5615 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
-CVE-2025-5690 - PostgreSQL Anonymizer Mask Data Read Bypass
-CVE-2025-49007 - Apache Rack Denial of Service Vulnerability
-CVE-2025-5616 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
-CVE-2025-5617 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
 CVE-2025-5618 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
 CVE-2025-5619 - Tenda CH22 Stack-Based Buffer Overflow Vulnerability
 CVE-2025-5620 - D-Link DIR-816 OS Command Injection Vulnerability
@@ -5105,6 +5097,14 @@ CVE-2025-49466 - AERC Directory Traversal Vulnerability
 CVE-2025-5629 - Tenda AC10 HTTP Handler PPTP Server Buffer Overflow Vulnerability
 CVE-2025-5630 - D-Link DIR-816 Remote Stack-Based Buffer Overflow Vulnerability
 CVE-2025-5631 - Content Management System and News-Buzz SQL Injection Vulnerability
+CVE-2025-5632 - Content-Management-System News-Buzz SQL Injection Vulnerability
+CVE-2025-5633 - Content Management System and News-Buzz SQL Injection Vulnerability
+CVE-2025-5634 - PCMan FTP Server NOOP Command Handler Buffer Overflow
+CVE-2025-5635 - PCMan FTP Server PLS Command Handler Buffer Overflow Vulnerability
+CVE-2025-1793 - AWS Run-llama SQL Injection Vulnerability
+CVE-2025-5636 - PCMan FTP Server Buffer Overflow Vulnerability
+CVE-2025-5637 - PCMan FTP Server SYSTEM Command Handler Buffer Overflow Vulnerability
+CVE-2025-5638 - PHPGurukul Notice Board System SQL Injection Vulnerability
 Cybermalveillance.gouv.fr vous propose d’adopter le module 17Cyber
 17Cyber : kit de communication
 L’association ECTI rejoint Cybermalveillance.gouv.fr
@@ -5125,10 +5125,14 @@ Rançongiciel ou ransomware, que faire ? (particuliers)
 Cybermois 2025 : kit de communication
 « Histoire de Cyber » : engagez-vous pour le Cybermois 2025
 Cybermois 2025
-CVE-2025-5632 - Content-Management-System News-Buzz SQL Injection Vulnerability
-CVE-2025-5633 - Content Management System and News-Buzz SQL Injection Vulnerability
-CVE-2025-5634 - PCMan FTP Server NOOP Command Handler Buffer Overflow
-CVE-2025-5635 - PCMan FTP Server PLS Command Handler Buffer Overflow Vulnerability
+CVE-2025-49007 - Apache Rack Denial of Service Vulnerability
+CVE-2025-5616 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
+CVE-2025-5617 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
+CVE-2025-5613 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
+CVE-2025-5614 - PHPGurukul Online Fire Reporting System SQL Injection
+CVE-2025-5615 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
+CVE-2025-5690 - PostgreSQL Anonymizer Mask Data Read Bypass
+CVE-2025-5612 - PHPGurukul Online Fire Reporting System SQL Injection Vulnerability
 CVE-2025-46341 - FreshRSS HTTP Auth Header Impersonation Vulnerability
 CVE-2025-48947 - Auth0 Next.js SDK Cache-Control Header Missing Vulnerability
 CVE-2025-5610 - CodeAstro Real Estate Management System SQL Injection Vulnerability
