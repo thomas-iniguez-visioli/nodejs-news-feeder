@@ -97,6 +97,8 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
 https://cyber.gouv.fr/actualites/retrouvez-lanssi-lors-de-vivatechnology-2025
+https://cvefeed.io/vuln/detail/CVE-2025-3485
+https://cvefeed.io/vuln/detail/CVE-2025-5473
 https://cvefeed.io/vuln/detail/CVE-2025-5474
 https://cvefeed.io/vuln/detail/CVE-2025-5480
 https://cvefeed.io/vuln/detail/CVE-2025-5481
@@ -120,8 +122,6 @@ https://cvefeed.io/vuln/detail/CVE-2025-49619
 https://cvefeed.io/vuln/detail/CVE-2025-5836
 https://cvefeed.io/vuln/detail/CVE-2025-5837
 https://cvefeed.io/vuln/detail/CVE-2025-5838
-https://cvefeed.io/vuln/detail/CVE-2025-5839
-https://cvefeed.io/vuln/detail/CVE-2025-5840
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
@@ -5353,6 +5353,8 @@ Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
 Retrouvez l’ANSSI lors de VivaTechnology 2025 !
+CVE-2025-3485 - Allegra ExtractFileFromZip Directory Traversal Remote Code Execution Vulnerability
+CVE-2025-5473 - GIMP ICO File Parsing Integer Overflow Remote Code Execution Vulnerability
 CVE-2025-5474 - 2BrightSparks SyncBackFree Link Following Local Privilege Escalation Vulnerability
 CVE-2025-5480 - Action1 OpenSSL Privilege Escalation Vulnerability
 CVE-2025-5481 - Sante DICOM Viewer Pro DCM File Parsing Remote Code Execution Vulnerability
@@ -5376,8 +5378,6 @@ CVE-2025-49619 - Skyvern Jinja Runtime Leak
 CVE-2025-5836 - Tenda AC9 Command Injection Vulnerability
 CVE-2025-5837 - PHPGurukul Employee Record Management System SQL Injection
 CVE-2025-5838 - PHPGurukul Employee Record Management System SQL Injection Vulnerability
-CVE-2025-5839 - Tenda AC9 POST Request Handler Buffer Overflow Vulnerability
-CVE-2025-5840 - SourceCodester Client Database Management System Unrestricted File Upload Vulnerability
 L’association ECTI rejoint Cybermalveillance.gouv.fr
 Alerte Cyber : Failles de sécurité critiques dans les produits Microsoft
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
@@ -5398,8 +5398,8 @@ Cybermois 2025
 Soldes drsquo;été : 7 conseils pour éviter les cyber-arnaques
 Lettres drsquo;information
 Retour sur le webinaire « Comment se faire labelliser ExpertCyber ? »
-CVE-2025-3485 - Allegra ExtractFileFromZip Directory Traversal Remote Code Execution Vulnerability
-CVE-2025-5473 - GIMP ICO File Parsing Integer Overflow Remote Code Execution Vulnerability
+CVE-2025-5839 - Tenda AC9 POST Request Handler Buffer Overflow Vulnerability
+CVE-2025-5840 - SourceCodester Client Database Management System Unrestricted File Upload Vulnerability
 CVE-2025-2766 - 70mai A510 Default Password Authentication Bypass
 CVE-2025-5790 - TOTOLINK X15 Buffer Overflow Vulnerability
 CVE-2025-5792 - TOTOLINK EX1200T HTTP POST Request Handler Buffer Overflow Vulnerability
