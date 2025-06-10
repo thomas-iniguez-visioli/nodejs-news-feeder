@@ -97,9 +97,6 @@ https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve
 https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
 https://cyber.gouv.fr/actualites/retrouvez-lanssi-lors-de-vivatechnology-2025
-https://cvefeed.io/vuln/detail/CVE-2025-42988
-https://cvefeed.io/vuln/detail/CVE-2025-42989
-https://cvefeed.io/vuln/detail/CVE-2025-42990
 https://cvefeed.io/vuln/detail/CVE-2025-42991
 https://cvefeed.io/vuln/detail/CVE-2025-42993
 https://cvefeed.io/vuln/detail/CVE-2025-42994
@@ -122,6 +119,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-5934
 https://cvefeed.io/vuln/detail/CVE-2025-3076
 https://cvefeed.io/vuln/detail/CVE-2025-5935
 https://cvefeed.io/vuln/detail/CVE-2025-5952
+https://cvefeed.io/vuln/detail/CVE-2025-1041
+https://cvefeed.io/vuln/detail/CVE-2025-4840
+https://cvefeed.io/vuln/detail/CVE-2025-4954
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
@@ -142,17 +142,19 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cybermois-202
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/webinaire-expertcyber
+https://cvefeed.io/vuln/detail/CVE-2025-3076
+https://cvefeed.io/vuln/detail/CVE-2025-5935
+https://cvefeed.io/vuln/detail/CVE-2025-5952
+https://cvefeed.io/vuln/detail/CVE-2025-4387
+https://cvefeed.io/vuln/detail/CVE-2025-4601
+https://cvefeed.io/vuln/detail/CVE-2025-5912
+https://cvefeed.io/vuln/detail/CVE-2025-5913
+https://cvefeed.io/vuln/detail/CVE-2025-5925
+https://cvefeed.io/vuln/detail/CVE-2025-5934
 https://cvefeed.io/vuln/detail/CVE-2024-55595
 https://cvefeed.io/vuln/detail/CVE-2025-5910
 https://cvefeed.io/vuln/detail/CVE-2025-5911
 https://cvefeed.io/vuln/detail/CVE-2025-5909
-https://cvefeed.io/vuln/detail/CVE-2025-23192
-https://cvefeed.io/vuln/detail/CVE-2025-31325
-https://cvefeed.io/vuln/detail/CVE-2025-42977
-https://cvefeed.io/vuln/detail/CVE-2025-42982
-https://cvefeed.io/vuln/detail/CVE-2025-42983
-https://cvefeed.io/vuln/detail/CVE-2025-42984
-https://cvefeed.io/vuln/detail/CVE-2025-42987
 https://cvefeed.io/vuln/detail/CVE-2025-42988
 https://cvefeed.io/vuln/detail/CVE-2025-42989
 https://cvefeed.io/vuln/detail/CVE-2025-42990
@@ -165,6 +167,13 @@ https://cvefeed.io/vuln/detail/CVE-2025-42998
 https://cvefeed.io/vuln/detail/CVE-2025-5906
 https://cvefeed.io/vuln/detail/CVE-2025-5907
 https://cvefeed.io/vuln/detail/CVE-2025-5908
+https://cvefeed.io/vuln/detail/CVE-2025-23192
+https://cvefeed.io/vuln/detail/CVE-2025-31325
+https://cvefeed.io/vuln/detail/CVE-2025-42977
+https://cvefeed.io/vuln/detail/CVE-2025-42982
+https://cvefeed.io/vuln/detail/CVE-2025-42983
+https://cvefeed.io/vuln/detail/CVE-2025-42984
+https://cvefeed.io/vuln/detail/CVE-2025-42987
 https://cvefeed.io/vuln/detail/CVE-2025-5904
 https://cvefeed.io/vuln/detail/CVE-2025-5905
 https://cvefeed.io/vuln/detail/CVE-2025-0036
@@ -5541,9 +5550,6 @@ Le France Cybersecurity challenge s'achève
 The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
 Retrouvez l’ANSSI lors de VivaTechnology 2025 !
-CVE-2025-42988 - SAP Business Objects Business Intelligence Platform Information Disclosure
-CVE-2025-42989 - Apache HTTP Server Authentication Bypass Privilege Escalation
-CVE-2025-42990 - SAPUI5 Cross-Site Scripting (XSS)
 CVE-2025-42991 - SAP S/4HANA Bank Account Application Authorization Bypass
 CVE-2025-42993 - SAP S/4HANA Unauthorized Event Consumption and Code Execution Vulnerability
 CVE-2025-42994 - SAP MDM Server Denial of Service (DoS) Vulnerability
@@ -5566,6 +5572,9 @@ CVE-2025-5934 - Netgear EX3700 Stack-Based Buffer Overflow Vulnerability
 CVE-2025-3076 - Elementor Website Builder Pro - Stored Cross-Site Scripting Vulnerability
 CVE-2025-5935 - Open5GS AMF/MME Denial of Service Vulnerability
 CVE-2025-5952 - Zend.To OS Command Injection
+CVE-2025-1041 - Avaya Call Management System Remote Command Injection
+CVE-2025-4840 - Inprosysmedia Likes Dislikes Post SQL Injection Vulnerability
+CVE-2025-4954 - Axle Demo Importer WordPress File Upload Vulnerability
 L’association ECTI rejoint Cybermalveillance.gouv.fr
 Alerte Cyber : Failles de sécurité critiques dans les produits Microsoft
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
@@ -5586,6 +5595,9 @@ Cybermois 2025
 Soldes drsquo;été : 7 conseils pour éviter les cyber-arnaques
 Lettres drsquo;information
 Retour sur le webinaire « Comment se faire labelliser ExpertCyber ? »
+CVE-2025-42988 - SAP Business Objects Business Intelligence Platform Information Disclosure
+CVE-2025-42989 - Apache HTTP Server Authentication Bypass Privilege Escalation
+CVE-2025-42990 - SAPUI5 Cross-Site Scripting (XSS)
 CVE-2025-23192 - SAP BusinessObjects Business Intelligence BI Workspace Cross-Site Scripting (XSS)
 CVE-2025-31325 - SAP NetWeaver Cross-Site Scripting Vulnerability
 CVE-2025-42977 - SAP NetWeaver Visual Composer Directory Traversal Vulnerability
