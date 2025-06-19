@@ -97,8 +97,6 @@ https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
 https://cyber.gouv.fr/actualites/retrouvez-lanssi-lors-de-vivatechnology-2025
 https://cyber.gouv.fr/actualites/publication-de-la-4e-edition-de-lobservatoire-des-metiers-2025
-https://cvefeed.io/vuln/detail/CVE-2025-45661
-https://cvefeed.io/vuln/detail/CVE-2025-45784
 https://cvefeed.io/vuln/detail/CVE-2025-46157
 https://cvefeed.io/vuln/detail/CVE-2025-49015
 https://cvefeed.io/vuln/detail/CVE-2025-45786
@@ -122,6 +120,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-29646
 https://cvefeed.io/vuln/detail/CVE-2025-6191
 https://cvefeed.io/vuln/detail/CVE-2025-6192
 https://cvefeed.io/vuln/detail/CVE-2025-26199
+https://cvefeed.io/vuln/detail/CVE-2025-49590
+https://cvefeed.io/vuln/detail/CVE-2025-49591
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
@@ -165,10 +165,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-4821
 https://cvefeed.io/vuln/detail/CVE-2025-45786
 https://cvefeed.io/vuln/detail/CVE-2025-46109
 https://cvefeed.io/vuln/detail/CVE-2025-6240
-https://cvefeed.io/vuln/detail/CVE-2025-46157
-https://cvefeed.io/vuln/detail/CVE-2025-49015
 https://cvefeed.io/vuln/detail/CVE-2025-45661
 https://cvefeed.io/vuln/detail/CVE-2025-45784
+https://cvefeed.io/vuln/detail/CVE-2025-46157
+https://cvefeed.io/vuln/detail/CVE-2025-49015
 https://cvefeed.io/vuln/detail/CVE-2025-6220
 https://cvefeed.io/vuln/detail/CVE-2022-50231
 https://cvefeed.io/vuln/detail/CVE-2022-50232
@@ -6326,8 +6326,6 @@ The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
 Retrouvez l’ANSSI lors de VivaTechnology 2025 !
 Publication de la 4e édition de l’Observatoire des métiers 2025
-CVE-2025-45661 - miniTCG XSS
-CVE-2025-45784 - D-Link DPH-400S/SE VoIP Phone Hardcoded Credentials Vulnerability
 CVE-2025-46157 - EfroTech Time Trax Remote Code Execution Vulnerability
 CVE-2025-49015 - "Couchbase .NET SDK TLS Hostname Verification Weakness"
 CVE-2025-45786 - Real Estate Management XSS
@@ -6351,6 +6349,8 @@ CVE-2025-29646 - Open5GS UPF Denial of Service Vulnerability
 CVE-2025-6191 - Google Chrome V8 Integer Overflow Vulnerability
 CVE-2025-6192 - Google Chrome Use After Free in Metrics
 CVE-2025-26199 - CloudClassroom Password Injection Vulnerability
+CVE-2025-49590 - CryptPad Link Bouncer JavaScript URI Bypass XSS
+CVE-2025-49591 - CryptPad Two-Factor Authentication Path Parameter Bypass
 L’association ECTI rejoint Cybermalveillance.gouv.fr
 Alerte Cyber : Failles de sécurité critiques dans les produits Microsoft
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
@@ -6371,8 +6371,8 @@ Cybermois 2025
 Soldes drsquo;été : 7 conseils pour éviter les cyber-arnaques
 Lettres drsquo;information
 Retour sur le webinaire « Comment se faire labelliser ExpertCyber ? »
-CVE-2025-49590 - CryptPad Link Bouncer JavaScript URI Bypass XSS
-CVE-2025-49591 - CryptPad Two-Factor Authentication Path Parameter Bypass
+CVE-2025-45661 - miniTCG XSS
+CVE-2025-45784 - D-Link DPH-400S/SE VoIP Phone Hardcoded Credentials Vulnerability
 CVE-2025-6220 - "Ultra Addons for Contact Form 7 Arbitrary File Upload Vulnerability"
 CVE-2022-50231 - Huawei Crypto Poly1305 Arm64 Out-of-Bounds Read Vulnerability
 CVE-2022-50232 - Linux Kernel ARM64 UXN Set Vulnerability
