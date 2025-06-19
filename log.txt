@@ -97,12 +97,6 @@ https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
 https://cyber.gouv.fr/actualites/retrouvez-lanssi-lors-de-vivatechnology-2025
 https://cyber.gouv.fr/actualites/publication-de-la-4e-edition-de-lobservatoire-des-metiers-2025
-https://cvefeed.io/vuln/detail/CVE-2025-50182
-https://cvefeed.io/vuln/detail/CVE-2025-4661
-https://cvefeed.io/vuln/detail/CVE-2025-50183
-https://cvefeed.io/vuln/detail/CVE-2025-52467
-https://cvefeed.io/vuln/detail/CVE-2025-6201
-https://cvefeed.io/vuln/detail/CVE-2025-4367
 https://cvefeed.io/vuln/detail/CVE-2025-4479
 https://cvefeed.io/vuln/detail/CVE-2025-50201
 https://cvefeed.io/vuln/detail/CVE-2025-52474
@@ -122,6 +116,12 @@ https://cvefeed.io/vuln/detail/CVE-2025-6266
 https://cvefeed.io/vuln/detail/CVE-2025-4738
 https://cvefeed.io/vuln/detail/CVE-2024-24916
 https://cvefeed.io/vuln/detail/CVE-2025-6267
+https://cvefeed.io/vuln/detail/CVE-2025-48886
+https://cvefeed.io/vuln/detail/CVE-2025-49014
+https://cvefeed.io/vuln/detail/CVE-2025-6268
+https://cvefeed.io/vuln/detail/CVE-2006-2192
+https://cvefeed.io/vuln/detail/CVE-2025-52464
+https://cvefeed.io/vuln/detail/CVE-2025-6269
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
@@ -165,10 +165,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-4367
 https://cvefeed.io/vuln/detail/CVE-2025-4479
 https://cvefeed.io/vuln/detail/CVE-2025-50201
 https://cvefeed.io/vuln/detail/CVE-2025-52474
-https://cvefeed.io/vuln/detail/CVE-2025-52467
-https://cvefeed.io/vuln/detail/CVE-2025-6201
 https://cvefeed.io/vuln/detail/CVE-2025-4661
 https://cvefeed.io/vuln/detail/CVE-2025-50183
+https://cvefeed.io/vuln/detail/CVE-2025-52467
+https://cvefeed.io/vuln/detail/CVE-2025-6201
 https://cvefeed.io/vuln/detail/CVE-2025-50182
 https://cvefeed.io/vuln/detail/CVE-2025-50181
 https://cvefeed.io/vuln/detail/CVE-2025-24291
@@ -6367,12 +6367,6 @@ The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
 Retrouvez l’ANSSI lors de VivaTechnology 2025 !
 Publication de la 4e édition de l’Observatoire des métiers 2025
-CVE-2025-50182 - "urllib3 Browser Redirect Handling Vulnerability"
-CVE-2025-4661 - Brocade Fabric OS Path Transversal Privilege Escalation Vulnerability
-CVE-2025-50183 - OpenList Frontend Stored XSS Vulnerability
-CVE-2025-52467 - PostgreSQL Agentic Interface GitHub Token Exfiltration Vulnerability
-CVE-2025-6201 - WooCommerce Pixel Manager Stored Cross-Site Scripting
-CVE-2025-4367 - WordPress Download Manager Stored Cross-Site Scripting Vulnerability
 CVE-2025-4479 - ElementsKit Elementor Addons and Templates WordPress Stored Cross-Site Scripting
 CVE-2025-50201 - WeGIA Web Manager OS Command Injection Vulnerability
 CVE-2025-52474 - WeGIA Web Manager SQL Injection Vulnerability
@@ -6392,6 +6386,12 @@ CVE-2025-6266 - FLIR AX8 Unrestricted File Upload Vulnerability
 CVE-2025-4738 - Yirmibes Software MY ERP SQL Injection
 CVE-2024-24916 - Adobe Installer DLL Loading Vulnerability
 CVE-2025-6267 - Zhilink ADP Application Developer Platform SQL Injection Vulnerability
+CVE-2025-48886 - Cardano Hydra L1 Event Finality Vulnerability
+CVE-2025-49014 - jq Heap Use After Free Vulnerability
+CVE-2025-6268 - Luna Imaging Cross Site Scripting Vulnerability
+CVE-2006-2192 - CVE-2022-0001: Cisco Webex Meeting Server Integer Overflow Vulnerability
+CVE-2025-52464 - Meshtastic Public/Private Key Duplications and Low-Entropy Generation Vulnerability
+CVE-2025-6269 - HDF5 Heap-Based Buffer Overflow Vulnerability
 L’association ECTI rejoint Cybermalveillance.gouv.fr
 Alerte Cyber : Failles de sécurité critiques dans les produits Microsoft
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
@@ -6412,9 +6412,12 @@ Cybermois 2025
 Soldes drsquo;été : 7 conseils pour éviter les cyber-arnaques
 Lettres drsquo;information
 Retour sur le webinaire « Comment se faire labelliser ExpertCyber ? »
-CVE-2025-48886 - Cardano Hydra L1 Event Finality Vulnerability
-CVE-2025-49014 - jq Heap Use After Free Vulnerability
-CVE-2025-6268 - Luna Imaging Cross Site Scripting Vulnerability
+CVE-2025-4367 - WordPress Download Manager Stored Cross-Site Scripting Vulnerability
+CVE-2025-4661 - Brocade Fabric OS Path Transversal Privilege Escalation Vulnerability
+CVE-2025-50183 - OpenList Frontend Stored XSS Vulnerability
+CVE-2025-52467 - PostgreSQL Agentic Interface GitHub Token Exfiltration Vulnerability
+CVE-2025-6201 - WooCommerce Pixel Manager Stored Cross-Site Scripting
+CVE-2025-50182 - "urllib3 Browser Redirect Handling Vulnerability"
 CVE-2025-50181 - "Open Redirect Vulnerability in urllib3"
 CVE-2025-24291 - "Versa Networks Director Java Argument Injection Vulnerability"
 CVE-2025-24288 - Versa Networks Default Credentials Exposé
