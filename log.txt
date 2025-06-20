@@ -97,14 +97,6 @@ https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award
 https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
 https://cyber.gouv.fr/actualites/retrouvez-lanssi-lors-de-vivatechnology-2025
 https://cyber.gouv.fr/actualites/publication-de-la-4e-edition-de-lobservatoire-des-metiers-2025
-https://cvefeed.io/vuln/detail/CVE-2025-48058
-https://cvefeed.io/vuln/detail/CVE-2025-49715
-https://cvefeed.io/vuln/detail/CVE-2025-6288
-https://cvefeed.io/vuln/detail/CVE-2025-6291
-https://cvefeed.io/vuln/detail/CVE-2025-6292
-https://cvefeed.io/vuln/detail/CVE-2025-6293
-https://cvefeed.io/vuln/detail/CVE-2025-6294
-https://cvefeed.io/vuln/detail/CVE-2025-6295
 https://cvefeed.io/vuln/detail/CVE-2025-6296
 https://cvefeed.io/vuln/detail/CVE-2025-6264
 https://cvefeed.io/vuln/detail/CVE-2025-6299
@@ -122,6 +114,14 @@ https://cvefeed.io/vuln/detail/CVE-2025-6310
 https://cvefeed.io/vuln/detail/CVE-2025-5125
 https://cvefeed.io/vuln/detail/CVE-2025-6311
 https://cvefeed.io/vuln/detail/CVE-2025-6312
+https://cvefeed.io/vuln/detail/CVE-2025-50054
+https://cvefeed.io/vuln/detail/CVE-2025-6313
+https://cvefeed.io/vuln/detail/CVE-2025-6314
+https://cvefeed.io/vuln/detail/CVE-2025-6315
+https://cvefeed.io/vuln/detail/CVE-2025-6316
+https://cvefeed.io/vuln/detail/CVE-2025-6317
+https://cvefeed.io/vuln/detail/CVE-2025-6318
+https://cvefeed.io/vuln/detail/CVE-2025-6319
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
@@ -165,13 +165,13 @@ https://cvefeed.io/vuln/detail/CVE-2025-6302
 https://cvefeed.io/vuln/detail/CVE-2025-6303
 https://cvefeed.io/vuln/detail/CVE-2025-6295
 https://cvefeed.io/vuln/detail/CVE-2025-6296
-https://cvefeed.io/vuln/detail/CVE-2025-6293
-https://cvefeed.io/vuln/detail/CVE-2025-6294
 https://cvefeed.io/vuln/detail/CVE-2025-48058
 https://cvefeed.io/vuln/detail/CVE-2025-49715
 https://cvefeed.io/vuln/detail/CVE-2025-6288
 https://cvefeed.io/vuln/detail/CVE-2025-6291
 https://cvefeed.io/vuln/detail/CVE-2025-6292
+https://cvefeed.io/vuln/detail/CVE-2025-6293
+https://cvefeed.io/vuln/detail/CVE-2025-6294
 https://cvefeed.io/vuln/detail/CVE-2025-47771
 https://cvefeed.io/vuln/detail/CVE-2025-6287
 https://cvefeed.io/vuln/detail/CVE-2025-6286
@@ -6425,14 +6425,6 @@ The syzygy distinguisher élu best paper award
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields
 Retrouvez l’ANSSI lors de VivaTechnology 2025 !
 Publication de la 4e édition de l’Observatoire des métiers 2025
-CVE-2025-48058 - PowSyBl Regular Expression Denial of Service (ReDoS)
-CVE-2025-49715 - Dynamics 365 Information Disclosure Vulnerability
-CVE-2025-6288 - PHPGurukul Bus Pass Management System Cross Site Scripting (XSS)
-CVE-2025-6291 - D-Link DIR-825 HTTP POST Request Handler Stack-Based Buffer Overflow Vulnerability
-CVE-2025-6292 - D-Link DIR-825 HTTP POST Request Handler Stack-Based Buffer Overflow Vulnerability
-CVE-2025-6293 - Code-projects Hostel Management System SQL Injection
-CVE-2025-6294 - Code-projects Hostel Management System SQL Injection Vulnerability
-CVE-2025-6295 - Code-projects Hostel Management System SQL Injection
 CVE-2025-6296 - Apache Hostel Management System SQL Injection
 CVE-2025-6264 - Velociraptor Unauthorized Artifact Collection and Execution Vulnerability
 CVE-2025-6299 - TOTOLINK N150RT Os Command Injection Vulnerability
@@ -6450,6 +6442,14 @@ CVE-2025-6310 - PHPGurukul Emergency Ambulance Hiring Portal SQL Injection Vulne
 CVE-2025-5125 - Owl WordPress Custom Post Carousels Featherlight Unsanitized Attribute Vulnerability
 CVE-2025-6311 - Campcodes Sales and Inventory System SQL Injection Vulnerability
 CVE-2025-6312 - Campcodes Sales and Inventory System SQL Injection Vulnerability
+CVE-2025-50054 - OpenVPN Buffer Overflow
+CVE-2025-6313 - Campcodes Sales and Inventory System SQL Injection Vulnerability
+CVE-2025-6314 - Campcodes Sales and Inventory System SQL Injection Vulnerability
+CVE-2025-6315 - "Code-projects Online Shoe Store SQL Injection Vulnerability"
+CVE-2025-6316 - Code-projects Online Shoe Store SQL Injection Vulnerability
+CVE-2025-6317 - Code-projects Online Shoe Store SQL Injection Vulnerability
+CVE-2025-6318 - PHPGurukul Pre-School Enrollment System SQL Injection Vulnerability
+CVE-2025-6319 - PHPGurukul Pre-School Enrollment System SQL Injection Vulnerability
 L’association ECTI rejoint Cybermalveillance.gouv.fr
 Alerte Cyber : Failles de sécurité critiques dans les produits Microsoft
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
@@ -6470,11 +6470,14 @@ Cybermois 2025
 Soldes drsquo;été : 7 conseils pour éviter les cyber-arnaques
 Lettres drsquo;information
 Retour sur le webinaire « Comment se faire labelliser ExpertCyber ? »
-CVE-2025-50054 - OpenVPN Buffer Overflow
-CVE-2025-6313 - Campcodes Sales and Inventory System SQL Injection Vulnerability
-CVE-2025-6314 - Campcodes Sales and Inventory System SQL Injection Vulnerability
-CVE-2025-6315 - "Code-projects Online Shoe Store SQL Injection Vulnerability"
-CVE-2025-6316 - Code-projects Online Shoe Store SQL Injection Vulnerability
+CVE-2025-6295 - Code-projects Hostel Management System SQL Injection
+CVE-2025-48058 - PowSyBl Regular Expression Denial of Service (ReDoS)
+CVE-2025-49715 - Dynamics 365 Information Disclosure Vulnerability
+CVE-2025-6288 - PHPGurukul Bus Pass Management System Cross Site Scripting (XSS)
+CVE-2025-6291 - D-Link DIR-825 HTTP POST Request Handler Stack-Based Buffer Overflow Vulnerability
+CVE-2025-6292 - D-Link DIR-825 HTTP POST Request Handler Stack-Based Buffer Overflow Vulnerability
+CVE-2025-6293 - Code-projects Hostel Management System SQL Injection
+CVE-2025-6294 - Code-projects Hostel Management System SQL Injection Vulnerability
 CVE-2025-47771 - PowSyBl SparseMatrix Deserialization Privilege Escalation Vulnerability
 CVE-2025-6287 - PHPGurukul COVID19 Testing Management System Cross Site Scripting Vulnerability
 CVE-2025-6286 - PHPGurukul COVID19 Testing Management System Open Redirect Vulnerability
