@@ -8,12 +8,439 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 27 Jun 2025 13:47:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 14:17:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-40910 - Apache Net::IP::LPM Leading Zero IP Address Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40910
+<br>
+<strong>Published : </strong> June 27, 2025, 1:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Net::IP::LPM version 1.10 for Perl does not properly consider leading zero characters in IP CIDR address strings, which could allow attackers to bypass access control that is based on IP addresses.
+
+Leading zeros are used to indicate octal numbers, which can confuse users who are intentionally using octal notation, as well as users who believe they are using decimal notation.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40910</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40910</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53018 - Lychee Server-Side Request Forgery (SSRF) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53018
+<br>
+<strong>Published : </strong> June 27, 2025, 1:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>Lychee is a free, open-source photo-management tool. Prior to version 6.6.13, a critical Server-Side Request Forgery (SSRF) vulnerability exists in the `/api/v2/Photo::fromUrl` endpoint. This flaw lets an attacker instruct the application’s backend to make HTTP requests to any URL they choose. Consequently, internal network resources—such as localhost services or cloud-provider metadata endpoints—become reachable. The endpoint takes a URL from the user and calls it server-side via fopen() without any safeguards. There is no IP address validation, nor are there any allow-list, timeout, or size restrictions. Because of this, attackers can point the application at internal targets. Using this flaw, an attacker can perform internal port scans or retrieve sensitive cloud metadata. Version 6.6.13 contains a patch for the issue.
+<br>
+<strong>Severity:</strong> 3.0 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53018</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53018</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6766 - Apache sfturing SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6766
+<br>
+<strong>Published : </strong> June 27, 2025, 1:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in sfturing hosp_order up to 627f426331da8086ce8fff2017d65b1ddef384f8. It has been declared as critical. This vulnerability affects the function getOfficeName of the file OfficeServiceImpl.java. The manipulation of the argument officesName leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6766</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6766</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6767 - Oracle SFTuring SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6767
+<br>
+<strong>Published : </strong> June 27, 2025, 1:15 p.m. | 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in sfturing hosp_order up to 627f426331da8086ce8fff2017d65b1ddef384f8. It has been rated as critical. This issue affects the function findDoctorByCondition of the file DoctorServiceImpl.java. The manipulation of the argument hospitalName leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6767</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6767</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52774 - Infility Global Cross-site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52774
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Infility Infility Global allows Reflected XSS. This issue affects Infility Global: from n/a through 2.12.7.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52774</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52774</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52778 - Michel xili-dictionary Cross-site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52778
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Michel - xiligroup dev xili-dictionary allows Reflected XSS. This issue affects xili-dictionary: from n/a through 2.12.5.2.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52778</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52778</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52799 - Designthemes LMS Cross-site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52799
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in designthemes LMS allows Reflected XSS. This issue affects LMS: from n/a through 9.1.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52799</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52799</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52808 - RealtyElite PHP RFI Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52808
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in real-web RealtyElite allows PHP Local File Inclusion. This issue affects RealtyElite: from n/a through 1.0.0.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52808</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52808</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52809 - John Russell National Weather Service Alerts PHP Local File Inclusion</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52809
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in John Russell National Weather Service Alerts allows PHP Local File Inclusion. This issue affects National Weather Service Alerts: from n/a through 1.3.5.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52809</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52809</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52810 - TMRW-studio Katerio Magazine Path Traversal PHP Local File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52810
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Path Traversal vulnerability in TMRW-studio Katerio - Magazine allows PHP Local File Inclusion. This issue affects Katerio - Magazine: from n/a through 1.5.1.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52810</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52810</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52811 - Creanncy Davenport Path Traversal PHP Local File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52811
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Path Traversal vulnerability in Creanncy Davenport - Versatile Blog and Magazine WordPress Theme allows PHP Local File Inclusion. This issue affects Davenport - Versatile Blog and Magazine WordPress Theme: from n/a through 1.3.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52811</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52811</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52812 - ApusWP Domnoo PHP Local File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52812
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in ApusWP Domnoo allows PHP Local File Inclusion. This issue affects Domnoo: from n/a through 1.49.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52812</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52812</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52814 - Ovatheme BRW PHP RFI Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52814
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in ovatheme BRW allows PHP Local File Inclusion. This issue affects BRW: from n/a through 1.7.9.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52814</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52814</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52815 - AncoraThemes CityGov PHP Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52815
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in AncoraThemes CityGov allows PHP Local File Inclusion. This issue affects CityGov: from n/a through 1.9.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52815</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52815</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52816 - Themehunk Zita PHP Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52816
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in themehunk Zita allows PHP Local File Inclusion. This issue affects Zita: from n/a through 1.6.5.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52816</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52816</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52817 - ZealousWeb Abandoned Contact Form 7 Missing Authorization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52817
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in ZealousWeb Abandoned Contact Form 7 allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Abandoned Contact Form 7: from n/a through 2.0.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52817</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52817</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52818 - Trusty Whistleblowing Missing Authorization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52818
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in Dejan Jasnic Trusty Whistleblowing allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Trusty Whistleblowing: from n/a through 1.5.2.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52818</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52818</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52824 - MDJM Mobile DJ Manager Missing Authorization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52824
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in MDJM Mobile DJ Manager allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Mobile DJ Manager: from n/a through 1.7.6.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52824</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52824</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52826 - UXPER Sala Object Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52826
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Deserialization of Untrusted Data vulnerability in uxper Sala allows Object Injection. This issue affects Sala: from n/a through 1.1.3.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52826</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52826</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52827 - UXPER Nuss Untrusted Data Deserialization Object Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52827
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Deserialization of Untrusted Data vulnerability in uxper Nuss allows Object Injection. This issue affects Nuss: from n/a through 1.3.3.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52827</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52827</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52829 - DirectIQ Email Marketing SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52829
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in DirectIQ DirectIQ Email Marketing allows SQL Injection. This issue affects DirectIQ Email Marketing: from n/a through 2.0.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52829</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52829</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52834 - Favethemes Homey SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52834
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in favethemes Homey allows SQL Injection. This issue affects Homey: from n/a through 2.4.5.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52834</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52834</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6762 - Diyhi BBS Server-Side Request Forgery (SSRF) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6762
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in diyhi bbs up to 6.8. This affects the function getUrl of the file /admin/login of the component HTTP Header Handler. The manipulation of the argument Host leads to server-side request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6762</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6762</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6763 - Comet System Web-based Management Interface Missing Authentication Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6763
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in Comet System T0510, T3510, T3511, T4511, T6640, T7511, T7611, P8510, P8552 and H3531 1.60. This vulnerability affects unknown code of the file /setupA.cfg of the component Web-based Management Interface. The manipulation leads to missing authentication. Access to the local network is required for this attack. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6763</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6763</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6765 - Intelbras InControl Remote File Permission Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6765
+<br>
+<strong>Published : </strong> June 27, 2025, 12:15 p.m. | 1 hour, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Intelbras InControl 2.21.60.9. This issue affects some unknown processing of the file /v1/operador/ of the component HTTP PUT Request Handler. The manipulation leads to permission issues. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 27 Jun 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6765</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6765</guid>
+    </item>
     <item>
       <title>CVE-2025-6761 - Kingdee Cloud-Starry-Sky Enterprise Edition Freemarker Engine Template Engine Injection Vulnerability</title>
       <description><![CDATA[<p>
