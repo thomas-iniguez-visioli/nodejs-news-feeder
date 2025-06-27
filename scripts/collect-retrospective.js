@@ -1,7 +1,5 @@
 import got from 'got'
 import ParseRss from 'rss-parser'
-
-
 import { parse } from 'node-html-parser';
 import * as https from 'node:https'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl } from '../utils/index.js'
@@ -24,7 +22,7 @@ const addfeed=async(url)=>{const t=await got(url).text()
 //console.log(t)
 const parser = new ParseRss()
 parser.parseString(t).then((parsedXml) => {
-  console.log(parsedXml.items)
+  //console.log(parsedXml.items)
   parsedXml.items.map((dat)=>{
     console.log(dat.title)
     console.log(dat.link)
