@@ -179,43 +179,23 @@
                     <hr>
                     <article>
                         <h3>
-                            
+                            CVE-2024-12827 - WordPress DWT Directory  Listing Theme Privilege Escalation Vulnerability
                         </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-15 to 2025-06-16</h1>
-<p>Reporting on 0 Issues from 0 authors, 10 Pull Requests from 3 authors, and 0 Discussions from 0 authors.</p>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>build(deps-dev): bump eslint from 9.27.0 to 9.29.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/295">#295</a>)</li>
-<li>build(deps): bump pinia from 3.0.2 to 3.0.3 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/292">#292</a>)</li>
-<li>build(deps): bump puppeteer from 24.8.2 to 24.10.1 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/290">#290</a>)</li>
-<li>build(deps): bump simple-git from 3.27.0 to 3.28.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/289">#289</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/288">#288</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>[Snyk] Upgrade puppeteer from 24.8.2 to 24.9.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/294">#294</a>)</li>
-<li>[Snyk] Upgrade eslint from 9.26.0 to 9.27.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/293">#293</a>)</li>
-</ul>
-<h4>Closed Pull Requests</h4>
-<ul>
-<li>build(deps-dev): bump eslint from 9.26.0 to 9.28.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/281">#281</a>)</li>
-</ul>
-<h3>retro-weekly</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/128">#128</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>update  (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/31">#31</a>)</li>
-</ul>
+                        <p>
+<strong>CVE ID : </strong>CVE-2024-12827
+<br>
+<strong>Published : </strong> June 27, 2025, 9:15 a.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>The DWT - Directory & Listing WordPress Theme theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 3.3.6. This is due to the plugin not properly checking for an empty token value prior to resetting a user's password through the dwt_listing_reset_password() function. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>
                             <p class="feed-time">
-                                Tue, 17 Jun 2025 00:00:00 GMT
+                                Fri, 27 Jun 2025 09:15:00 GMT
                             </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-16/">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-12827">
                                 read more
                             </a>
                     </article>
@@ -224,22 +204,62 @@
                     <hr>
                     <article>
                         <h3>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
+                            CVE-2025-2940 - WordPress Easy Data Table Builder SSRF
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-2940
+<br>
+<strong>Published : </strong> June 27, 2025, 9:15 a.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>The Ninja Tables – Easy Data Table Builder plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 5.0.18 via the args[url] parameter. This makes it possible for unauthenticated attackers to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 27 Jun 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2940">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4587 - WordPress A/B Testing Stored Cross-Site Scripting
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4587
+<br>
+<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 1 hour, 42 minutes ago
+<br>
+<strong>Description : </strong>The A/B Testing for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'ab-testing-for-wp/ab-test-block' block in all versions up to, and including, 1.18.2 due to insufficient input sanitization and output escaping on the 'id' parameter. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 27 Jun 2025 08:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4587">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-5306 - Pandora FMS Command Injection Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5306
 <br>
-<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 23 minutes ago
+<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Special Elements in the Netflow directory field may allow OS command injection. This issue affects Pandora FMS 774 through 778
 <br>
@@ -251,31 +271,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 27 Jun 2025 08:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-5306">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>vbcq-volley</code> from 2025-06-15 to 2025-06-16</h1>
-<p>Reporting on 0 Issues from 0 authors, 1 Pull Requests from 1 authors, and 0 Discussions from 0 authors.</p>
-<h3>git-win</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Bump got from 9.6.0 to 11.8.5 in the npm_and_yarn group across 1 directory (<a href="https://github.com/vbcq-volley/git-win/pull/2">#2</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Tue, 17 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-16/">
->>>>>>> 05b3704d (add thing)
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                                 read more
                             </a>
                     </article>
@@ -284,22 +279,12 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                             CVE-2025-5936 - WordPress VR Calendar CSRF
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5936
 <br>
-<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 23 minutes ago
+<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>The VR Calendar plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.4.7. This is due to missing or incorrect nonce validation on the syncCalendar() function. This makes it possible for unauthenticated attackers to trigger a calendar sync via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -311,61 +296,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 27 Jun 2025 08:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-5936">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-16 to 2025-06-17</h1>
-<p>Reporting on 0 Issues from 0 authors, 17 Pull Requests from 3 authors, and 0 Discussions from 0 authors.</p>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/299">#299</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/298">#298</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/297">#297</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/296">#296</a>)</li>
-<li>build(deps-dev): bump eslint from 9.27.0 to 9.29.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/295">#295</a>)</li>
-<li>[Snyk] Upgrade puppeteer from 24.8.2 to 24.9.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/294">#294</a>)</li>
-<li>[Snyk] Upgrade eslint from 9.26.0 to 9.27.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/293">#293</a>)</li>
-<li>build(deps): bump pinia from 3.0.2 to 3.0.3 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/292">#292</a>)</li>
-<li>build(deps-dev): bump rollup from 4.41.1 to 4.43.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/291">#291</a>)</li>
-<li>build(deps): bump puppeteer from 24.8.2 to 24.10.1 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/290">#290</a>)</li>
-<li>build(deps): bump simple-git from 3.27.0 to 3.28.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/289">#289</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/288">#288</a>)</li>
-<li>build(deps-dev): bump postcss from 8.4.35 to 8.4.36 in /src/themes/hexo-theme in the npm_and_yarn group across 1 directory (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/282">#282</a>)</li>
-<li>[Snyk] Upgrade vitest from 3.1.2 to 3.1.3 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/279">#279</a>)</li>
-</ul>
-<h4>Closed Pull Requests</h4>
-<ul>
-<li>build(deps-dev): bump eslint from 9.26.0 to 9.28.0 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/281">#281</a>)</li>
-</ul>
-<h3>retro-weekly</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/128">#128</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>update  (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/31">#31</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Wed, 18 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-17/">
->>>>>>> 05b3704d (add thing)
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                                 read more
                             </a>
                     </article>
@@ -374,22 +304,12 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                             CVE-2025-5940 - Osom Blocks - WordPress Stored Cross-Site Scripting
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5940
 <br>
-<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 23 minutes ago
+<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>The Osom Blocks – Custom Post Type listing block plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘class_name’ parameter in all versions up to, and including, 1.2.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -401,57 +321,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 27 Jun 2025 08:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-5940">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>vbcq-volley</code> from 2025-06-16 to 2025-06-17</h1>
-<p>Reporting on 0 Issues from 0 authors, 12 Pull Requests from 2 authors, and 5 Discussions from 1 authors.</p>
-<h3>temp</h3>
-<h4>Open Discussions</h4>
-<ul>
-<li>1.2.3 (<a href="https://github.com/vbcq-volley/temp/discussions/2751">#2751</a>)</li>
-<li>1.2.2 (<a href="https://github.com/vbcq-volley/temp/discussions/2748">#2748</a>)</li>
-<li>1.2.1 (<a href="https://github.com/vbcq-volley/temp/discussions/2745">#2745</a>)</li>
-<li>1.2.0 (<a href="https://github.com/vbcq-volley/temp/discussions/2742">#2742</a>)</li>
-<li>1.1.1 (<a href="https://github.com/vbcq-volley/temp/discussions/2739">#2739</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Merge main into dev (<a href="https://github.com/vbcq-volley/temp/pull/2750">#2750</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2749">#2749</a>)</li>
-<li>Merge main into dev (<a href="https://github.com/vbcq-volley/temp/pull/2747">#2747</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2746">#2746</a>)</li>
-<li>Merge main into dev (<a href="https://github.com/vbcq-volley/temp/pull/2744">#2744</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2743">#2743</a>)</li>
-<li>Merge main into dev (<a href="https://github.com/vbcq-volley/temp/pull/2741">#2741</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2740">#2740</a>)</li>
-<li>Merge main into dev (<a href="https://github.com/vbcq-volley/temp/pull/2738">#2738</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2737">#2737</a>)</li>
-</ul>
-<h3>git-win</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>Bump got from 11.8.5 to 14.4.7 in the npm_and_yarn group across 1 directory (<a href="https://github.com/vbcq-volley/git-win/pull/3">#3</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Bump got from 9.6.0 to 11.8.5 in the npm_and_yarn group across 1 directory (<a href="https://github.com/vbcq-volley/git-win/pull/2">#2</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Wed, 18 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-17/">
->>>>>>> 05b3704d (add thing)
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                                 read more
                             </a>
                     </article>
@@ -460,22 +329,12 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                             CVE-2025-6550 - Elementor Pack Stored Cross-Site Scripting Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6550
 <br>
-<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 23 minutes ago
+<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>The The Pack Elementor addon plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘slider_options’ parameter in all versions up to, and including, 2.1.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -487,52 +346,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 27 Jun 2025 08:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6550">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-17 to 2025-06-18</h1>
-<p>Reporting on 0 Issues from 0 authors, 8 Pull Requests from 3 authors, and 0 Discussions from 0 authors.</p>
-<h3>retro-weekly</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/130">#130</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/129">#129</a>)</li>
-</ul>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>build(deps-dev): bump postcss from 8.4.36 to 8.4.37 in /src/themes/hexo-theme in the npm_and_yarn group across 1 directory (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/302">#302</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/301">#301</a>)</li>
-<li>build(deps-dev): bump @rollup/plugin-commonjs from 28.0.3 to 28.0.5 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/300">#300</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/299">#299</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>update  (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/33">#33</a>)</li>
-<li>update (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/32">#32</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Thu, 19 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-18/">
->>>>>>> 05b3704d (add thing)
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                                 read more
                             </a>
                     </article>
@@ -541,22 +354,12 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                             CVE-2025-6688 - &#34;WordPress Simple Payment Authentication Bypass&#34;
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6688
 <br>
-<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 23 minutes ago
+<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>The Simple Payment plugin for WordPress is vulnerable to Authentication Bypass in versions 1.3.6 to 2.3.8. This is due to the plugin not properly verifying a user's identity prior to logging them in through the create_user() function. This makes it possible for unauthenticated attackers to log in as administrative users.
 <br>
@@ -568,62 +371,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 27 Jun 2025 08:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6688">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-18 to 2025-06-19</h1>
-<p>Reporting on 0 Issues from 0 authors, 12 Pull Requests from 3 authors, and 0 Discussions from 0 authors.</p>
-<h3>retro-weekly</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/131">#131</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/130">#130</a>)</li>
-</ul>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>(Semgrep) Fixed finding: "insecure-document-method" (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/304">#304</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>build(deps): bump brace-expansion from 1.1.11 to 1.1.12 in the npm_and_yarn group (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/303">#303</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/301">#301</a>)</li>
-<li>build(deps-dev): bump @rollup/plugin-commonjs from 28.0.3 to 28.0.5 (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/300">#300</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/299">#299</a>)</li>
-</ul>
-<h4>Closed Pull Requests</h4>
-<ul>
-<li>build(deps-dev): bump postcss from 8.4.36 to 8.4.37 in /src/themes/hexo-theme in the npm_and_yarn group across 1 directory (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/302">#302</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>chore(deps): bump simple-git from 3.27.0 to 3.28.0 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/36">#36</a>)</li>
-<li>chore(deps): bump hexo-auto-toc from 1.0.3 to 1.0.6 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/35">#35</a>)</li>
-<li>chore(deps): bump hexo-seo from 2.0.0 to 2.0.1 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/34">#34</a>)</li>
-</ul>
-<h4>Closed Pull Requests</h4>
-<ul>
-<li>chore(deps): bump source from <code>9de04a7</code> to <code>0fe609f</code> (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/37">#37</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Fri, 20 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-19/">
->>>>>>> 05b3704d (add thing)
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                                 read more
                             </a>
                     </article>
@@ -632,22 +379,12 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                             CVE-2025-6689 - &#34;FL3R Accessibility Suite Plugin Stored XSS Vulnerability&#34;
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6689
 <br>
-<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 23 minutes ago
+<strong>Published : </strong> June 27, 2025, 8:15 a.m. | 1 hour, 42 minutes ago
 <br>
 <strong>Description : </strong>The FL3R Accessibility Suite plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's fl3raccessibilitysuite shortcode in all versions up to, and including, 1.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -659,1836 +396,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 27 Jun 2025 08:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6689">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>vbcq-volley</code> from 2025-06-18 to 2025-06-19</h1>
-<p>Reporting on 0 Issues from 0 authors, 2 Pull Requests from 1 authors, and 1 Discussions from 1 authors.</p>
-<h3>temp</h3>
-<h4>Open Discussions</h4>
-<ul>
-<li>1.2.4 (<a href="https://github.com/vbcq-volley/temp/discussions/2755">#2755</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Merge main into dev (<a href="https://github.com/vbcq-volley/temp/pull/2754">#2754</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2753">#2753</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Fri, 20 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-19/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-19 to 2025-06-20</h1>
-<p>Reporting on 0 Issues from 0 authors, 9 Pull Requests from 4 authors, and 0 Discussions from 0 authors.</p>
-<h3>retro-weekly</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/132">#132</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/131">#131</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>chore(deps): bump hexo-auto-toc from 1.0.6 to 1.0.7 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/40">#40</a>)</li>
-<li>chore(deps): bump simple-git from 3.27.0 to 3.28.0 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/36">#36</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>[Snyk] Security upgrade hexo-seo from 2.0.0 to 2.0.1 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/38">#38</a>)</li>
-<li>chore(deps): bump hexo-auto-toc from 1.0.3 to 1.0.6 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/35">#35</a>)</li>
-</ul>
-<h4>Closed Pull Requests</h4>
-<ul>
-<li>chore(deps): bump source from <code>1624f72</code> to <code>0f874ba</code> (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/39">#39</a>)</li>
-<li>chore(deps): bump hexo-seo from 2.0.0 to 2.0.1 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/34">#34</a>)</li>
-</ul>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>(Semgrep) Fixed finding: "insecure-document-method" (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/304">#304</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Sat, 21 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-20/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>vbcq-volley</code> from 2025-06-19 to 2025-06-20</h1>
-<p>Reporting on 0 Issues from 0 authors, 2 Pull Requests from 1 authors, and 1 Discussions from 1 authors.</p>
-<h3>temp</h3>
-<h4>Open Discussions</h4>
-<ul>
-<li>1.3.0 (<a href="https://github.com/vbcq-volley/temp/discussions/2764">#2764</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Merge main into dev (<a href="https://github.com/vbcq-volley/temp/pull/2763">#2763</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2762">#2762</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Sat, 21 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-20/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-20 to 2025-06-21</h1>
-<p>Reporting on 0 Issues from 0 authors, 5 Pull Requests from 3 authors, and 0 Discussions from 0 authors.</p>
-<h3>retro-weekly</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/133">#133</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/132">#132</a>)</li>
-</ul>
-<h3>nodejs-news-feeder</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>[Snyk] Upgrade xml-formatter from 3.6.5 to 3.6.6 (<a href="https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/pull/1225">#1225</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>chore(deps): bump hexo-auto-toc from 1.0.6 to 1.0.7 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/40">#40</a>)</li>
-<li>chore(deps): bump simple-git from 3.27.0 to 3.28.0 (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/36">#36</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Sun, 22 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-21/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>vbcq-volley</code> from 2025-06-20 to 2025-06-21</h1>
-<p>Reporting on 0 Issues from 0 authors, 3 Pull Requests from 2 authors, and 1 Discussions from 1 authors.</p>
-<h3>temp</h3>
-<h4>Open Discussions</h4>
-<ul>
-<li>1.4.0 (<a href="https://github.com/vbcq-volley/temp/discussions/2787">#2787</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Merge main into dev (<a href="https://github.com/vbcq-volley/temp/pull/2786">#2786</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2785">#2785</a>)</li>
-</ul>
-<h3>git-win</h3>
-<h4>Closed Pull Requests</h4>
-<ul>
-<li>Bump got from 11.8.5 to 14.4.7 in the npm_and_yarn group across 1 directory (<a href="https://github.com/vbcq-volley/git-win/pull/3">#3</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Sun, 22 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-21/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-21 to 2025-06-22</h1>
-<p>Reporting on 0 Issues from 0 authors, 2 Pull Requests from 2 authors, and 0 Discussions from 0 authors.</p>
-<h3>retro-weekly</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/133">#133</a>)</li>
-</ul>
-<h3>nodejs-news-feeder</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>[Snyk] Upgrade xml-formatter from 3.6.5 to 3.6.6 (<a href="https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/pull/1225">#1225</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Mon, 23 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-22/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-22 to 2025-06-23</h1>
-<p>Reporting on 0 Issues from 0 authors, 1 Pull Requests from 1 authors, and 0 Discussions from 0 authors.</p>
-<h3>retro-weekly</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/134">#134</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Tue, 24 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-23/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-23 to 2025-06-24</h1>
-<p>Reporting on 0 Issues from 0 authors, 5 Pull Requests from 3 authors, and 0 Discussions from 0 authors.</p>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>build(deps-dev): bump the npm_and_yarn group across 1 directory with 2 updates (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/305">#305</a>)</li>
-</ul>
-<h3>retro-weekly</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/135">#135</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/134">#134</a>)</li>
-</ul>
-<h3>stable-diffusion-webui-amdgpu</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Fork Sync: Update from parent repository (<a href="https://github.com/thomas-iniguez-visioli/stable-diffusion-webui-amdgpu/pull/21">#21</a>)</li>
-</ul>
-<h3>nodejs-news-feeder</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>[Snyk] Upgrade xml-formatter from 3.6.5 to 3.6.6 (<a href="https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/pull/1225">#1225</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Wed, 25 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-24/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>vbcq-volley</code> from 2025-06-23 to 2025-06-24</h1>
-<p>Reporting on 0 Issues from 0 authors, 1 Pull Requests from 1 authors, and 0 Discussions from 0 authors.</p>
-<h3>temp</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Create dependabot.yml (<a href="https://github.com/vbcq-volley/temp/pull/2221">#2221</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Wed, 25 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-24/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-24 to 2025-06-25</h1>
-<p>Reporting on 0 Issues from 0 authors, 24 Pull Requests from 4 authors, and 0 Discussions from 0 authors.</p>
-<h3>retro-weekly</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/136">#136</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/135">#135</a>)</li>
-</ul>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/323">#323</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/322">#322</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/321">#321</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/320">#320</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/319">#319</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/318">#318</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/317">#317</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/316">#316</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/315">#315</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/314">#314</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/313">#313</a>)</li>
-<li>(Sonar) Fixed finding: ""RegExp.exec()" should be preferred over "String.match()"" (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/312">#312</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/311">#311</a>)</li>
-<li>(Sonar) Fixed finding: "Variables should be declared with "let" or "const"" (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/310">#310</a>)</li>
-<li>✨ (Sonar) Fixed finding: ""Array.prototype.sort()" and "Array.prototype.toSorted()" should use a compare function" (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/309">#309</a>)</li>
-<li>build(deps-dev): bump postcss from 8.4.37 to 8.4.38 in /themes/hexo-theme in the npm_and_yarn group across 1 directory (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/308">#308</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/307">#307</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/306">#306</a>)</li>
-<li>build(deps-dev): bump the npm_and_yarn group across 1 directory with 2 updates (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/305">#305</a>)</li>
-<li>(Semgrep) Fixed finding: "insecure-document-method" (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/304">#304</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>sync (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/41">#41</a>)</li>
-</ul>
-<h3>stable-diffusion-webui-amdgpu</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Fork Sync: Update from parent repository (<a href="https://github.com/thomas-iniguez-visioli/stable-diffusion-webui-amdgpu/pull/21">#21</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Thu, 26 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-25/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>vbcq-volley</code> from 2025-06-24 to 2025-06-25</h1>
-<p>Reporting on 0 Issues from 0 authors, 2 Pull Requests from 1 authors, and 2 Discussions from 1 authors.</p>
-<h3>temp</h3>
-<h4>Open Discussions</h4>
-<ul>
-<li>2.0.0 (<a href="https://github.com/vbcq-volley/temp/discussions/2863">#2863</a>)</li>
-<li>1.5.0 (<a href="https://github.com/vbcq-volley/temp/discussions/2854">#2854</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2860">#2860</a>)</li>
-<li>Dev (<a href="https://github.com/vbcq-volley/temp/pull/2853">#2853</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Thu, 26 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-25/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-25 to 2025-06-26</h1>
-<p>Reporting on 0 Issues from 0 authors, 13 Pull Requests from 3 authors, and 0 Discussions from 0 authors.</p>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/333">#333</a>)</li>
-<li>Potential fix for code scanning alert no. 179: Client-side URL redirect (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/330">#330</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/332">#332</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/331">#331</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/329">#329</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/328">#328</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/327">#327</a>)</li>
-<li>Potential fix for code scanning alert no. 116: Double escaping or unescaping (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/326">#326</a>)</li>
-<li>Potential fix for code scanning alert no. 123: Double escaping or unescaping (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/325">#325</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/324">#324</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/323">#323</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>chore(deps): bump source from <code>4b7db7e</code> to <code>61ce79f</code> (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/42">#42</a>)</li>
-</ul>
-<h3>retro-weekly</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/136">#136</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Fri, 27 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-26/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            
-                        </h3>
-                        <p><h1>Retrospective for <code>thomas-iniguez-visioli</code> from 2025-06-26 to 2025-06-27</h1>
-<p>Reporting on 0 Issues from 0 authors, 8 Pull Requests from 3 authors, and 0 Discussions from 0 authors.</p>
-<h3>portfolio</h3>
-<h4>Open Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/337">#337</a>)</li>
-</ul>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/336">#336</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/335">#335</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/334">#334</a>)</li>
-<li>Changes by create-pull-request action (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/333">#333</a>)</li>
-<li>Potential fix for code scanning alert no. 179: Client-side URL redirect (<a href="https://github.com/thomas-iniguez-visioli/portfolio/pull/330">#330</a>)</li>
-</ul>
-<h3>vbcq</h3>
-<h4>Closed Pull Requests</h4>
-<ul>
-<li>chore(deps): bump source from <code>e9dc991</code> to <code>535b2bb</code> (<a href="https://github.com/thomas-iniguez-visioli/vbcq/pull/43">#43</a>)</li>
-</ul>
-<h3>retro-weekly</h3>
-<h4>Merged Pull Requests</h4>
-<ul>
-<li>doc: generate weekly retro (<a href="https://github.com/thomas-iniguez-visioli/retro-weekly/pull/137">#137</a>)</li>
-</ul>
-</p>
-                            <p class="feed-time">
-                                Sat, 28 Jun 2025 00:00:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-27/">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Dailymotion
-                        </h3>
-                        <p>nom d'utilisateur, adresse email, Hachage des mots de passe</p>
-                            <p class="feed-time">
-                                Sat Oct 01 2016 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Dailymotion-2016-10-01">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Almerys, Viamedis
-                        </h3>
-                        <p>nom, prénom, date de naissance, numéro de sécurité sociale, nom de l’assureur de santé, contrat souscrit</p>
-                            <p class="feed-time">
-                                Tue Feb 06 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Almerys, Viamedis-2024-02-06">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez LDLC
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Fri Mar 01 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#LDLC-2024-03-01">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez France Travail
-                        </h3>
-                        <p>nom, prénom, numéro de sécurité sociale, adresse email, adresse postale, numéro de téléphone, identifiants France Travail</p>
-                            <p class="feed-time">
-                                Fri Mar 08 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#France Travail-2024-03-08">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Le Slip Français
-                        </h3>
-                        <p>nom, prénom, téléphones, adresse postale, adresse email, numéros de commandes</p>
-                            <p class="feed-time">
-                                Mon Apr 15 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Le Slip Français-2024-04-15">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Ticketmaster
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, numéro de téléphone, distorique des transactions, détails des commandes, informations bancaires (4 derniers numéros de la carte enregistrée et date d’expiration)</p>
-                            <p class="feed-time">
-                                Sun Apr 28 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Ticketmaster-2024-04-28">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Boulanger
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Sat Sep 07 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Boulanger-2024-09-07">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Cultura
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, numéro de téléphone, historique des commandes</p>
-                            <p class="feed-time">
-                                Tue Sep 10 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Cultura-2024-09-10">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Cybertek
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Thu Sep 12 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Cybertek-2024-09-12">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Assurance retraite
-                        </h3>
-                        <p>nom, prénom, adresse, numéro de Sécurité sociale, montant approximatif des ressources</p>
-                            <p class="feed-time">
-                                Fri Sep 13 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Assurance retraite-2024-09-13">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez RED by SFR
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, numéro de téléphone, IBAN, type de forfait, identifiant de la carte SIM, identifiant du smartphone</p>
-                            <p class="feed-time">
-                                Wed Sep 18 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#RED by SFR-2024-09-18">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Meilleurtaux
-                        </h3>
-                        <p>nom, prénom, date de naissance, pays de naissance, adresse postale, numéro de téléphone, situation professionnelle, situation familiale, revenus</p>
-                            <p class="feed-time">
-                                Mon Sep 30 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Meilleurtaux-2024-09-30">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Ornikar
-                        </h3>
-                        <p>nom, prénom, date de naissance, adresse email, adresse postale, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Thu Oct 24 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Ornikar-2024-10-24">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Free Mobile
-                        </h3>
-                        <p>nom, prénom, date de naissance, lieu de naissance, adresse email, adresse postale, identifiant abonné, type d’offre souscrite, date de souscription, abonnement actif ou non</p>
-                            <p class="feed-time">
-                                Fri Oct 25 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Free Mobile-2024-10-25">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Free
-                        </h3>
-                        <p>nom, prénom, date de naissance, lieu de naissance, adresse email, adresse postale, IBAN, identifiant abonné, type d’offre souscrite, date de souscription, abonnement actif ou non</p>
-                            <p class="feed-time">
-                                Fri Oct 25 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Free-2024-10-25">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Picard
-                        </h3>
-                        <p>nom, prénom, date de naissance, adresse email, adresse postale, numéro de téléphone, numéro de carte de fidélité, points de fidélité, bons de réduction, historique des commandes, tickets de caisse, liste d’achats, favoris d’achat</p>
-                            <p class="feed-time">
-                                Tue Nov 12 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Picard-2024-11-12">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Molotov
-                        </h3>
-                        <p>adresse email, nom, prénom, date de naissance</p>
-                            <p class="feed-time">
-                                Wed Nov 13 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Molotov-2024-11-13">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Huttopia
-                        </h3>
-                        <p>nom, prénom, adresse email</p>
-                            <p class="feed-time">
-                                Thu Nov 14 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Huttopia-2024-11-14">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Le Point
-                        </h3>
-                        <p>nom, adresse email, numéro de téléphone, adresse postale, date de naissance</p>
-                            <p class="feed-time">
-                                Mon Nov 18 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Le Point-2024-11-18">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Auchan
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, téléphone, composition familiale, date de naissance, numéro de carte de fidélité, montant de la cagnotte</p>
-                            <p class="feed-time">
-                                Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Auchan-2024-11-19">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Mediboard
-                        </h3>
-                        <p>nom, prénom, date de naissance et de décès, genre, numéro de téléphone, médecin traitant, prescriptions médicales, identifiant externe, historique des soins</p>
-                            <p class="feed-time">
-                                Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Mediboard-2024-11-19">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Direct Assurance
-                        </h3>
-                        <p>nom, adresse email, numéros de téléphone, IBAN</p>
-                            <p class="feed-time">
-                                Tue Nov 19 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Direct Assurance-2024-11-19">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Chambres d’agriculture
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Thu Nov 21 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Chambres d’agriculture-2024-11-21">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Companie de Transport Strasbourgeoise
-                        </h3>
-                        <p>inconnu</p>
-                            <p class="feed-time">
-                                Fri Nov 22 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Companie de Transport Strasbourgeoise-2024-11-22">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Banque de France
-                        </h3>
-                        <p>identité des employés, poste, salaire, identité des clients, comptes bancaires, historique, webmail, documents stratégiques, rapports financiers</p>
-                            <p class="feed-time">
-                                Sat Nov 23 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Banque de France-2024-11-23">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez SFR
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, code postal, ville, date de naissance, département de naissance, numéro de téléphone, 150 000 IBAN</p>
-                            <p class="feed-time">
-                                Sun Nov 24 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#SFR-2024-11-24">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez JVS
-                        </h3>
-                        <p>nom, prénom, adresse email, login, numéro de téléphone, collectivité</p>
-                            <p class="feed-time">
-                                Tue Nov 26 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#JVS-2024-11-26">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Ze Camping
-                        </h3>
-                        <p>nom, prénom, login, mot de passe hashé, date de naissance, téléphone, adresse postale</p>
-                            <p class="feed-time">
-                                Wed Nov 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Ze Camping-2024-11-27">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Norauto
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, numéro de téléphone, numéro de pièce d’identité</p>
-                            <p class="feed-time">
-                                Mon Dec 02 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Norauto-2024-12-02">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Guy Demarle
-                        </h3>
-                        <p>nom, prénom, adresse postale, adresse email, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Tue Dec 03 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Guy Demarle-2024-12-03">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Deloitte
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Wed Dec 04 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Deloitte-2024-12-04">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez LDLC
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Tue Dec 10 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#LDLC-2024-12-10">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Top Achat
-                        </h3>
-                        <p>nom, prénom, email, addresse</p>
-                            <p class="feed-time">
-                                Thu Dec 12 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Top Achat-2024-12-12">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Wakanim
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Wakanim-2024-12-20">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Sport 2000
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Sport 2000-2024-12-20">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Go Sport
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Go Sport-2024-12-20">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Electro Dépôt
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Fri Dec 20 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Electro Dépôt-2024-12-20">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Cyberhaven
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Wed Dec 25 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Cyberhaven-2024-12-25">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Peugeot
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Thu Dec 26 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Peugeot-2024-12-26">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Arsoé
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Fri Dec 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Arsoé-2024-12-27">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Volkswagen
-                        </h3>
-                        <p>données client, localisation</p>
-                            <p class="feed-time">
-                                Fri Dec 27 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Volkswagen-2024-12-27">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Atos
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Mon Dec 30 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Atos-2024-12-30">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Cogitis
-                        </h3>
-                        <p>
-               82Go 
-            </p>
-                            <p class="feed-time">
-                                Tue Dec 31 2024 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Cogitis-2024-12-31">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Kiabi
-                        </h3>
-                        <p>nom, prénom, date de naissance, IBAN</p>
-                            <p class="feed-time">
-                                Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Kiabi-2025-01-14">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Fédération Française de Roller Skateboard
-                        </h3>
-                        <p>nom, prénom, adresse email, adresse postale, date et lieu de naissance, numéro de téléphone, numéro de licence</p>
-                            <p class="feed-time">
-                                Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Fédération Française de Roller Skateboard-2025-01-14">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Fédération Française de Force
-                        </h3>
-                        <p>
-               64 512 comptes 
-            </p>
-                            <p class="feed-time">
-                                Tue Jan 14 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Fédération Française de Force-2025-01-14">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Fédération Française de tir à l&#39;arc
-                        </h3>
-                        <p>nom, prénom, sexe, date de naissance, adresse postale, téléphone, adresse email, photo de profil</p>
-                            <p class="feed-time">
-                                Mon Jan 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Fédération Française de tir à l&#39;arc-2025-01-20">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Fédération Française de la montagne et de l&#39;escalade
-                        </h3>
-                        <p>nom, prénom, sexe, date de naissance, adresse postale, téléphone, adresse email</p>
-                            <p class="feed-time">
-                                Thu Jan 23 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Fédération Française de la montagne et de l&#39;escalade-2025-01-23">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez E.Leclerc
-                        </h3>
-                        <p>nom, prénom, adresse email, identifiant d’accès, numéro de dossier, montant de prime, libellé de prestation</p>
-                            <p class="feed-time">
-                                Fri Jan 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#E.Leclerc-2025-01-24">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Fédération Française Montagne Escalade
-                        </h3>
-                        <p>nom, prénom, adresse postale, adresse email, identifiant, date de naissance, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Fri Jan 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Fédération Française Montagne Escalade-2025-01-24">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez AIDES
-                        </h3>
-                        <p>nom, prénom, date de naissance, adresse postale, téléphone, adresse email, IBAN, numéro de sécurité sociale, résultat d’examen de santé</p>
-                            <p class="feed-time">
-                                Mon Jan 27 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#AIDES-2025-01-27">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Espace-Recettes.fr Vorwerk
-                        </h3>
-                        <p>nom complet, adresse postale, adresse email, numéro de téléphone, données de préférence Thermomix</p>
-                            <p class="feed-time">
-                                Thu Feb 06 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Espace-Recettes.fr Vorwerk-2025-02-06">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez King Jouet
-                        </h3>
-                        <p>nom, prénom, email, numéro de téléphone, détail de la commande</p>
-                            <p class="feed-time">
-                                Tue Feb 11 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#King Jouet-2025-02-11">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Chronopost
-                        </h3>
-                        <p>nom, prénom, numéro de téléphone, adresse, signature</p>
-                            <p class="feed-time">
-                                Wed Feb 12 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Chronopost-2025-02-12">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Caisse des dépôts et des consignations
-                        </h3>
-                        <p>
-               70 000 personnes 
-            </p>
-                            <p class="feed-time">
-                                Wed Feb 12 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Caisse des dépôts et des consignations-2025-02-12">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Mutuelle des motards
-                        </h3>
-                        <p>nom, prénom, adresse email, numéro de téléphone, code postal</p>
-                            <p class="feed-time">
-                                Thu Feb 13 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Mutuelle des motards-2025-02-13">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Sport Découverte
-                        </h3>
-                        <p>nom, prénom, date de naissance, numéro de téléphone, adresse mail</p>
-                            <p class="feed-time">
-                                Mon Feb 17 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Sport Découverte-2025-02-17">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Service Départemental d&#39;Incendie et de Secours de la Vienne
-                        </h3>
-                        <p>login, mot de passe hashé, email</p>
-                            <p class="feed-time">
-                                Wed Feb 19 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Service Départemental d&#39;Incendie et de Secours de la Vienne-2025-02-19">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Fédération Française de Foot
-                        </h3>
-                        <p>nom, prénom, genre, date et lieu de naissance, nationalité, adresse postale, adresse email, numéro de téléphone, photo, copie du justificatif d’identité</p>
-                            <p class="feed-time">
-                                Fri Feb 21 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Fédération Française de Foot-2025-02-21">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Nord Emploi
-                        </h3>
-                        <p>nom, prénom, téléphone, adresse, n° allocataire, organisme référent, formulaire RSA & CAF, CV, date ouverture des droits, date de cessation d’inscription, notification projet personnalisé, modalité accompagnement, status analphabétisme, capacité à utiliser des outils informatiques, solution de garde d’enfant, soutien par un réseau professionnel, nombre de candidatures, vie professionnelle, expérience associative et professionnelle, formations, savoir-faire, métiers envisagés, centre d’intérêt, certification, langue, connaissance des outils bureautique, permis de conduire</p>
-                            <p class="feed-time">
-                                Wed Feb 26 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Nord Emploi-2025-02-26">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez École Nationale de la Sécurité
-                        </h3>
-                        <p>civilité, nom, prénom, date de naissance, adresse, téléphone, email, ville et payes de naissance, nationalité, numéro de sécurité sociale, numéro Pôle Emploi, numéro carte VTC, diplôme, niveau d’étude</p>
-                            <p class="feed-time">
-                                Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#École Nationale de la Sécurité-2025-02-28">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Zephir
-                        </h3>
-                        <p>nom, prénom, email, téléphone, IBAN</p>
-                            <p class="feed-time">
-                                Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Zephir-2025-02-28">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez EDF DPIH
-                        </h3>
-                        <p>plan d’intervention et de maintenance des centrales, résultats des contrôles et opérations de sécurité, identifiants des agents de maintenance</p>
-                            <p class="feed-time">
-                                Fri Feb 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#EDF DPIH-2025-02-28">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez La Poste
-                        </h3>
-                        <p>nom, prénom, email, adresse postale, année de naissance, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Tue Mar 04 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#La Poste-2025-03-04">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Côté Sushi
-                        </h3>
-                        <p>nom, prénom, date de naissance, coordonnées de contact, programme de fidélité</p>
-                            <p class="feed-time">
-                                Tue Mar 04 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Côté Sushi-2025-03-04">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez UTwin
-                        </h3>
-                        <p>identité, adresse email, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Wed Mar 05 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#UTwin-2025-03-05">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Laforêt
-                        </h3>
-                        <p>dossier locataire, pièces d’identité, RIB</p>
-                            <p class="feed-time">
-                                Thu Mar 13 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Laforêt-2025-03-13">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Direct Assurance
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Tue Mar 18 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Direct Assurance-2025-03-18">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Intersport
-                        </h3>
-                        <p>n° de transaction, n° de facture, n° de référence PayPal, code de transaction, date de début / date de fin de la transaction, transaction débitée ou créditée, montant brut de la transaction, n° de compte du payeur, pseudo de l’acheteur, adresse de livraison et de facturation, identifiant utilisateur, nom et prénom,, source de paiement, numéro de la carte de fidélité</p>
-                            <p class="feed-time">
-                                Thu Mar 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Intersport-2025-03-20">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Éclaireuses et Éclaireurs de France
-                        </h3>
-                        <p>nom, prénom, genre, date et lieu de naissance, adresse, profession, email, téléphone fixe et mobile</p>
-                            <p class="feed-time">
-                                Thu Mar 20 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Éclaireuses et Éclaireurs de France-2025-03-20">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Autosur Diagnosur
-                        </h3>
-                        <p>nom, prénom, adresse email et postale, numéro de téléphone, place d’immatriculation</p>
-                            <p class="feed-time">
-                                Mon Mar 24 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Autosur  Diagnosur-2025-03-24">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Cerballiance
-                        </h3>
-                        <p>nom, prénom, date de naissance, adresse postale, numéro de sécurité sociale, régime de mutuelle, caisse de mutuelle, date de fin de droit</p>
-                            <p class="feed-time">
-                                Tue Mar 25 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Cerballiance-2025-03-25">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Centrale Nantes
-                        </h3>
-                        <p>rapports & projets privés, login et hash des mots de passe utilisateurs, code sources, documents administratifs</p>
-                            <p class="feed-time">
-                                Wed Mar 26 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Centrale Nantes-2025-03-26">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Oracle Cloud
-                        </h3>
-                        <p>authentification LDAP, serveur SSO, clefs d’authentification</p>
-                            <p class="feed-time">
-                                Thu Mar 27 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Oracle Cloud-2025-03-27">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez MAIF BPCE
-                        </h3>
-                        <p>nom, genre, date de naissance, situation matrimoniale et professionnelle, adresse postale, adresse email, numéro de téléphone, revenus, patrimoine, numéro de sociétaire</p>
-                            <p class="feed-time">
-                                Fri Mar 28 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#MAIF  BPCE-2025-03-28">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Reporterre
-                        </h3>
-                        <p>nom, prénom, adresse courriel, adresse postale</p>
-                            <p class="feed-time">
-                                Tue Apr 01 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Reporterre-2025-04-01">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez UTWIN
-                        </h3>
-                        <p>identité, adresse email, numéro de téléphone</p>
-                            <p class="feed-time">
-                                Mon Apr 07 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#UTWIN-2025-04-07">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Harvest
-                        </h3>
-                        <p>gestion de patrimoine</p>
-                            <p class="feed-time">
-                                Fri Apr 11 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Harvest-2025-04-11">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Hertz
-                        </h3>
-                        <p>nom, coordonnées, date de naissance, permis de conduire, carte de crédit, passeport</p>
-                            <p class="feed-time">
-                                Tue Apr 15 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Hertz-2025-04-15">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Afflelou
-                        </h3>
-                        <p>nom, prénom, date de naissance, adresse postale, adresse email, numéro de téléphone, informations commerciales</p>
-                            <p class="feed-time">
-                                Tue Apr 15 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Afflelou-2025-04-15">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Indigo
-                        </h3>
-                        <p>adresse email, plaque d’immatriculation, nom, prénom, numéro de téléphone, adresse postale</p>
-                            <p class="feed-time">
-                                Fri Apr 18 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Indigo-2025-04-18">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Easy Cash
-                        </h3>
-                        <p>nom, prénom, date de naissance</p>
-                            <p class="feed-time">
-                                Tue Apr 22 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Easy Cash-2025-04-22">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Carrefour Mobile
-                        </h3>
-                        <p>numéro de téléphone, adresse email, mot de passe, adresse, numéro de passeport</p>
-                            <p class="feed-time">
-                                Thu Apr 24 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Carrefour Mobile-2025-04-24">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Cerballiance
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Wed Apr 30 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Cerballiance-2025-04-30">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Pulsy
-                        </h3>
-                        <p>nom, prénom, genre, date de naissance, commune de naissance, adresse postale, téléphone, email, données médicales, parcours de soin, date et lieux des hospitalisations</p>
-                            <p class="feed-time">
-                                Tue May 13 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Pulsy-2025-05-13">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Dior
-                        </h3>
-                        <p>
-                
-            </p>
-                            <p class="feed-time">
-                                Tue May 13 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Dior-2025-05-13">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Autosur
-                        </h3>
-                        <p>nom, prénom, adresse email et postale, numéro de téléphone, numéro de plaque d’immatriculation</p>
-                            <p class="feed-time">
-                                Mon May 26 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Autosur-2025-05-26">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Kaviari
-                        </h3>
-                        <p>nom, prénom, genre, date de naissance, adresse mail, adresse postale, numéro de téléphone, identifiant, mot de passe, numéro client, historique des commandes</p>
-                            <p class="feed-time">
-                                Tue Jun 03 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Kaviari-2025-06-03">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            Fuite de données chez Cartier
-                        </h3>
-                        <p>nom, adresse courriel, pays</p>
-                            <p class="feed-time">
-                                Tue Jun 03 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)
-                            </p>
-                            <a class="feed-link" href="https://bonjourlafuite.eu.org/#Cartier-2025-06-03">
->>>>>>> 05b3704d (add thing)
->>>>>>> 85ed2eb5 (Automated changes)
->>>>>>> 119075f5 (Automated changes)
->>>>>>> 9b966379 (Automated changes)
                                 read more
                             </a>
                     </article>
@@ -2502,7 +409,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-36529
 <br>
-<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 3 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>An OS command injection issue exists in multiple versions of TB-eye network recorders and AHD recorders. If this vulnerability is exploited, an arbitrary OS command may be executed by an attacker who is logging in to the device.
 <br>
@@ -2527,7 +434,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-41418
 <br>
-<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 3 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>Buffer Overflow vulnerability exists in multiple versions of TB-eye network recorders and AHD recorders. The CGI process may be terminated abnormally by processing  a specially crafted request.
 <br>
@@ -2552,7 +459,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5035
 <br>
-<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 3 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>The Firelight Lightbox WordPress plugin before 2.3.16 does not sanitise and escape title attributes before outputting them in the page, which could allow users with a role as low as contributors to perform stored Cross-Site Scripting attacks.
 <br>
@@ -2577,7 +484,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5093
 <br>
-<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 3 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>The Responsive Lightbox & Gallery WordPress plugin before 2.5.2 use the Swipebox library which does not validate and escape title attributes before outputting them back in a page/post where used, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
 <br>
@@ -2602,7 +509,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5194
 <br>
-<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 3 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>The WP Map Block  WordPress plugin before 2.0.3 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
 <br>
@@ -2627,7 +534,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5526
 <br>
-<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 6:15 a.m. | 3 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>The BuddyPress Docs WordPress plugin before 2.2.5 lacks proper access controls and allows a logged in user to view and download files belonging to another user
 <br>
@@ -2652,7 +559,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45737
 <br>
-<strong>Published : </strong> June 27, 2025, 5:15 a.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 5:15 a.m. | 4 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>An issue in NetEase (Hangzhou) Network Co., Ltd NeacSafe64 Driver before v1.0.0.8 allows attackers to escalate privileges via sending crafted IOCTL commands to the NeacSafe64.sys component.
 <br>
@@ -2677,7 +584,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6488
 <br>
-<strong>Published : </strong> June 27, 2025, 5:15 a.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 5:15 a.m. | 4 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>The isMobile plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘device’ parameter in all versions up to, and including, 1.1.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -2702,7 +609,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6753
 <br>
-<strong>Published : </strong> June 27, 2025, 5:15 a.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 5:15 a.m. | 4 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in huija bicycleSharingServer 1.0 and classified as critical. This issue affects the function selectAdminByNameLike of the file AdminController.java. The manipulation leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -2727,7 +634,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6752
 <br>
-<strong>Published : </strong> June 27, 2025, 4:16 a.m. | 3 hours, 39 minutes ago
+<strong>Published : </strong> June 27, 2025, 4:16 a.m. | 5 hours, 42 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in Linksys WRT1900ACS, EA7200, EA7450 and EA7500 up to 20250619 and classified as critical. This vulnerability affects the function SetDefaultConnectionService of the file /upnp/control/Layer3Forwarding of the component IGD. The manipulation of the argument NewDefaultConnectionService leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -2739,6 +646,156 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 27 Jun 2025 04:16:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6752">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53162 - Apache HTTP Server Denial of Service
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53162
+<br>
+<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 5 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 27 Jun 2025 04:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53162">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53163 - Apache HTTP Server Arbitrary File Download
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53163
+<br>
+<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 5 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 27 Jun 2025 04:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53163">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53164 - Apache HTTP Server Command Injection
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53164
+<br>
+<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 5 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 27 Jun 2025 04:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53164">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53165 - Apache HTTP Server Cross-Site Request Forgery
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53165
+<br>
+<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 5 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 27 Jun 2025 04:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53165">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53166 - Apache HTTP Server Cross-Site Scripting
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53166
+<br>
+<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 5 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 27 Jun 2025 04:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53166">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6751 - Linksys E8450 HTTP POST Request Handler Buffer Overflow
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6751
+<br>
+<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 5 hours, 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Linksys E8450 up to 1.2.00.360516. This affects the function set_device_language of the file portal.cgi of the component HTTP POST Request Handler. The manipulation of the argument dut_language leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 27 Jun 2025 04:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6751">
                                 read more
                             </a>
                     </article>
@@ -2848,7 +905,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <article>
                         <h3>
                             CVE-2025-53161 - VMware Network Policy
-
 Vulnerability: Denial of Service
                         </h3>
                         <p>
@@ -2866,156 +922,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 27 Jun 2025 04:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53161">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53162 - Apache HTTP Server Denial of Service
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53162
-<br>
-<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 3 hours, 39 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 27 Jun 2025 04:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53162">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53163 - Apache HTTP Server Arbitrary File Download
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53163
-<br>
-<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 3 hours, 39 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 27 Jun 2025 04:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53163">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53164 - Apache HTTP Server Command Injection
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53164
-<br>
-<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 3 hours, 39 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 27 Jun 2025 04:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53164">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53165 - Apache HTTP Server Cross-Site Request Forgery
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53165
-<br>
-<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 3 hours, 39 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 27 Jun 2025 04:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53165">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53166 - Apache HTTP Server Cross-Site Scripting
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53166
-<br>
-<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 3 hours, 39 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 27 Jun 2025 04:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53166">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-6751 - Linksys E8450 HTTP POST Request Handler Buffer Overflow
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-6751
-<br>
-<strong>Published : </strong> June 27, 2025, 4:15 a.m. | 3 hours, 39 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Linksys E8450 up to 1.2.00.360516. This affects the function set_device_language of the file portal.cgi of the component HTTP POST Request Handler. The manipulation of the argument dut_language leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 27 Jun 2025 04:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6751">
                                 read more
                             </a>
                     </article>
