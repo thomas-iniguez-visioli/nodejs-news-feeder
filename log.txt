@@ -117,8 +117,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-25/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-26/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-27/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-28/
-https://cvefeed.io/vuln/detail/CVE-2025-6816
-https://cvefeed.io/vuln/detail/CVE-2025-6817
 https://cvefeed.io/vuln/detail/CVE-2025-1991
 https://cvefeed.io/vuln/detail/CVE-2023-28902
 https://cvefeed.io/vuln/detail/CVE-2023-28903
@@ -142,6 +140,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-6823
 https://cvefeed.io/vuln/detail/CVE-2025-6824
 https://cvefeed.io/vuln/detail/CVE-2025-6825
 https://cvefeed.io/vuln/detail/CVE-2025-6826
+https://cvefeed.io/vuln/detail/CVE-2025-53391
+https://cvefeed.io/vuln/detail/CVE-2025-6827
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ecti-rejoint-cybermalveillancegouvfr
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
@@ -162,6 +162,8 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cybermois-202
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/webinaire-expertcyber
+https://cvefeed.io/vuln/detail/CVE-2025-6825
+https://cvefeed.io/vuln/detail/CVE-2025-6826
 https://cvefeed.io/vuln/detail/CVE-2025-6823
 https://cvefeed.io/vuln/detail/CVE-2025-6824
 https://cvefeed.io/vuln/detail/CVE-2025-32897
@@ -184,9 +186,9 @@ https://cvefeed.io/vuln/detail/CVE-2023-29113
 https://cvefeed.io/vuln/detail/CVE-2025-6818
 https://cvefeed.io/vuln/detail/CVE-2025-1991
 https://cvefeed.io/vuln/detail/CVE-2025-6817
+https://cvefeed.io/vuln/detail/CVE-2025-6816
 https://cvefeed.io/vuln/detail/CVE-2025-38086
 https://cvefeed.io/vuln/detail/CVE-2025-5937
-https://cvefeed.io/vuln/detail/CVE-2025-6816
 https://cvefeed.io/vuln/detail/CVE-2025-38084
 https://cvefeed.io/vuln/detail/CVE-2025-38085
 https://cvefeed.io/vuln/detail/CVE-2025-5304
@@ -511,8 +513,6 @@ Publication de la 4e édition de l’Observatoire des métiers 2025
 
 
 
-CVE-2025-6816 - HDF5 Heap-Based Buffer Overflow Vulnerability
-CVE-2025-6817 - HDF5 Resource Consumption Denial of Service
 CVE-2025-1991 - IBM Informix Dynamic Server Denial of Service Buffer Overflow
 CVE-2023-28902 - Skoda MIB3 Infotainment Unit Integer Underflow Denial-of-Service Vulnerability
 CVE-2023-28903 - MIB3 Infotainment Unit Integer Overflow Denial-of-Service
@@ -536,6 +536,8 @@ CVE-2025-6823 - Code-projects Inventory Management System SQL Injection Vulnerab
 CVE-2025-6824 - TOTOLINK X15 HTTP POST Request Handler Buffer Overflow
 CVE-2025-6825 - TOTOLINK A702R HTTP POST Request Handler Buffer Overflow Vulnerability
 CVE-2025-6826 - Payroll Management System SQL Injection Vulnerability
+CVE-2025-53391 - "Debian ZuluPolkit PolicyKit Privilege Escalation"
+CVE-2025-6827 - Code-Projects Inventory Management System SQL Injection Vulnerability
 L’association ECTI rejoint Cybermalveillance.gouv.fr
 Alerte Cyber : Failles de sécurité critiques dans les produits Microsoft
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
@@ -556,6 +558,8 @@ Cybermois 2025
 Soldes drsquo;été : 7 conseils pour éviter les cyber-arnaques
 Lettres drsquo;information
 Retour sur le webinaire « Comment se faire labelliser ExpertCyber ? »
+CVE-2025-6817 - HDF5 Resource Consumption Denial of Service
+CVE-2025-6816 - HDF5 Heap-Based Buffer Overflow Vulnerability
 CVE-2025-38086 - "NetChip Ch9200 Uninitialized Memory Access Vulnerability"
 CVE-2025-5937 - WordPress MicroPayments Fans Paysite CSRF Vulnerability
 CVE-2025-38084 - Linux Kernel Hugetlb Racy Protection Vulnerability
