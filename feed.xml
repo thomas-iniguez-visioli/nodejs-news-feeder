@@ -8,18 +8,69 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sun, 29 Jun 2025 06:26:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 06:50:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-6462 - WordPress EZ SQL Reports Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6462
+<br>
+<strong>Published : </strong> June 29, 2025, 5:15 a.m. | 39 minutes ago
+<br>
+<strong>Description : </strong>The EZ SQL Reports Shortcode Widget and DB Backup plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's SQLREPORT shortcode in all versions up to, and including, 5.25.11 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 29 Jun 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6462</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6462</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6845 - "Simple Forum SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6845
+<br>
+<strong>Published : </strong> June 29, 2025, 5:15 a.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Simple Forum 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /register1.php. The manipulation of the argument User leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 29 Jun 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6845</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6845</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6846 - "Code-Projects Simple Forum SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6846
+<br>
+<strong>Published : </strong> June 29, 2025, 5:15 a.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Simple Forum 1.0. This affects an unknown part of the file /forum_viewfile.php. The manipulation of the argument Name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 29 Jun 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6846</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6846</guid>
+    </item>
+    <item>
       <title>CVE-2025-6842 - Code-projects Product Inventory System SQL Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6842
 <br>
-<strong>Published : </strong> June 29, 2025, 4:15 a.m. | 19 minutes ago
+<strong>Published : </strong> June 29, 2025, 4:15 a.m. | 1 hour, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Product Inventory System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/edit_user.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6843
 <br>
-<strong>Published : </strong> June 29, 2025, 4:15 a.m. | 19 minutes ago
+<strong>Published : </strong> June 29, 2025, 4:15 a.m. | 1 hour, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Simple Photo Gallery 1.0. It has been classified as critical. Affected is an unknown function of the file /upload-photo.php. The manipulation of the argument file_img leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6844
 <br>
-<strong>Published : </strong> June 29, 2025, 4:15 a.m. | 19 minutes ago
+<strong>Published : </strong> June 29, 2025, 4:15 a.m. | 1 hour, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Simple Forum 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /signin.php. The manipulation of the argument User leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -70,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6840
 <br>
-<strong>Published : </strong> June 29, 2025, 3:15 a.m. | 1 hour, 20 minutes ago
+<strong>Published : </strong> June 29, 2025, 3:15 a.m. | 2 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Product Inventory System 1.0. This affects an unknown part of the file /index.php of the component Login. The manipulation of the argument Username leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -87,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6841
 <br>
-<strong>Published : </strong> June 29, 2025, 3:15 a.m. | 1 hour, 20 minutes ago
+<strong>Published : </strong> June 29, 2025, 3:15 a.m. | 2 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in code-projects Product Inventory System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/edit_product.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -104,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6839
 <br>
-<strong>Published : </strong> June 29, 2025, 2:15 a.m. | 2 hours, 20 minutes ago
+<strong>Published : </strong> June 29, 2025, 2:15 a.m. | 3 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Conjure Position Department Service Quality Evaluation System up to 1.0.11. Affected by this issue is the function eval of the file public/assets/less/bootstrap-less/mixins/head.php. The manipulation of the argument payload leads to backdoor. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -121,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6836
 <br>
-<strong>Published : </strong> June 29, 2025, 1:15 a.m. | 3 hours, 20 minutes ago
+<strong>Published : </strong> June 29, 2025, 1:15 a.m. | 4 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Library System 1.0. Affected is an unknown function of the file /profile.php. The manipulation of the argument phone leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
 <br>
@@ -138,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6837
 <br>
-<strong>Published : </strong> June 29, 2025, 1:15 a.m. | 3 hours, 20 minutes ago
+<strong>Published : </strong> June 29, 2025, 1:15 a.m. | 4 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in code-projects Library System 1.0. Affected by this vulnerability is an unknown functionality of the file /profile.php. The manipulation of the argument image leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -155,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6834
 <br>
-<strong>Published : </strong> June 29, 2025, 12:15 a.m. | 4 hours, 20 minutes ago
+<strong>Published : </strong> June 29, 2025, 12:15 a.m. | 5 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Inventory Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /php_action/editPayment.php. The manipulation of the argument orderId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -172,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6835
 <br>
-<strong>Published : </strong> June 29, 2025, 12:15 a.m. | 4 hours, 20 minutes ago
+<strong>Published : </strong> June 29, 2025, 12:15 a.m. | 5 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Library System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /student-issue-book.php. The manipulation of the argument reg leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -189,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53392
 <br>
-<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 5 hours, 20 minutes ago
+<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 6 hours, 39 minutes ago
 <br>
 <strong>Description : </strong>In Netgate pfSense CE 2.8.0, the "WebCfg - Diagnostics: Command" privilege allows reading arbitrary files via diag_command.php dlPath directory traversal. NOTE: the Supplier's perspective is that this is intended behavior for this privilege level, and that system administrators are informed through both the product documentation and UI.
 <br>
@@ -206,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53393
 <br>
-<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 5 hours, 20 minutes ago
+<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 6 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>In Akka through 2.10.6, akka-cluster-metrics uses Java serialization for cluster metrics.
 <br>
@@ -223,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5951
 <br>
-<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 5 hours, 20 minutes ago
+<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 6 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
@@ -240,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6828
 <br>
-<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 5 hours, 20 minutes ago
+<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 6 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in code-projects Inventory Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /orders.php. The manipulation of the argument i leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -257,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6829
 <br>
-<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 5 hours, 20 minutes ago
+<strong>Published : </strong> June 28, 2025, 11:15 p.m. | 6 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in aaluoxiang oa_system up to c3a08168c144f27256a90838492c713f55f1b207 and classified as critical. This issue affects the function outAddress of the component External Address Book Handler. The manipulation leads to sql injection. The attack may be initiated remotely. This product does not use versioning. This is why information about affected and unaffected releases are unavailable.
 <br>
@@ -274,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53391
 <br>
-<strong>Published : </strong> June 28, 2025, 10:15 p.m. | 6 hours, 20 minutes ago
+<strong>Published : </strong> June 28, 2025, 10:15 p.m. | 7 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>The Debian zuluPolkit/CMakeLists.txt file for zuluCrypt through the zulucrypt_6.2.0-1 package has insecure PolicyKit allow_any/allow_inactive/allow_active settings that allow a local user to escalate their privileges to root.
 <br>
@@ -291,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6827
 <br>
-<strong>Published : </strong> June 28, 2025, 10:15 p.m. | 6 hours, 19 minutes ago
+<strong>Published : </strong> June 28, 2025, 10:15 p.m. | 7 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Inventory Management System 1.0. This affects an unknown part of the file /php_action/editOrder.php. The manipulation leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -308,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6825
 <br>
-<strong>Published : </strong> June 28, 2025, 9:15 p.m. | 7 hours, 19 minutes ago
+<strong>Published : </strong> June 28, 2025, 9:15 p.m. | 8 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in TOTOLINK A702R up to 4.0.0-B20230721.1521. Affected by this vulnerability is an unknown functionality of the file /boafrm/formWlSiteSurvey of the component HTTP POST Request Handler. The manipulation of the argument submit-url leads to buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -325,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6826
 <br>
-<strong>Published : </strong> June 28, 2025, 9:15 p.m. | 7 hours, 19 minutes ago
+<strong>Published : </strong> June 28, 2025, 9:15 p.m. | 8 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Payroll Management System 1.0. Affected by this issue is some unknown functionality of the file /Payroll_Management_System/ajax.php?action=save_department. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -342,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6823
 <br>
-<strong>Published : </strong> June 28, 2025, 8:15 p.m. | 8 hours, 20 minutes ago
+<strong>Published : </strong> June 28, 2025, 8:15 p.m. | 9 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Inventory Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /php_action/editProduct.php. The manipulation of the argument editProductName leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -359,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6824
 <br>
-<strong>Published : </strong> June 28, 2025, 8:15 p.m. | 8 hours, 20 minutes ago
+<strong>Published : </strong> June 28, 2025, 8:15 p.m. | 9 hours, 38 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in TOTOLINK X15 up to 1.0.0-B20230714.1105. Affected is an unknown function of the file /boafrm/formParentControl of the component HTTP POST Request Handler. The manipulation of the argument submit-url leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -370,6 +421,23 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 28 Jun 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-6824</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-6824</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6822 - Code-projects Inventory Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6822
+<br>
+<strong>Published : </strong> June 28, 2025, 7:15 p.m. | 10 hours, 38 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Inventory Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /php_action/removeProduct.php. The manipulation of the argument productId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 28 Jun 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6822</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6822</guid>
     </item>
     <item>
       <title>CVE-2025-32897 - Apache Seata (incubating) Untrusted Data Deserialization Vulnerability</title>
@@ -392,23 +460,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 28 Jun 2025 19:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-32897</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-32897</guid>
-    </item>
-    <item>
-      <title>CVE-2025-6822 - Code-projects Inventory Management System SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-6822
-<br>
-<strong>Published : </strong> June 28, 2025, 7:15 p.m. | 9 hours, 20 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Inventory Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /php_action/removeProduct.php. The manipulation of the argument productId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 28 Jun 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-6822</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6822</guid>
     </item>
     <item>
       <title>CVE-2025-6820 - Code-projects Inventory Management System SQL Injection Vulnerability</title>
