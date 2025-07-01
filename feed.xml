@@ -8,18 +8,171 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 01 Jul 2025 01:46:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 03:38:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-46992 - Electron ASAR Integrity Bypass on Windows</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-46992
+<br>
+<strong>Published : </strong> July 1, 2025, 2:15 a.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>Electron is an open source framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. From versions 30.0.0-alpha.1 to before 30.0.5 and 31.0.0-alpha.1 to before 31.0.0-beta.1, Electron is vulnerable to an ASAR Integrity bypass. This only impacts apps that have the embeddedAsarIntegrityValidation and onlyLoadAppFromAsar fuses enabled. Apps without these fuses enabled are not impacted. This issue is specific to Windows, apps using these fuses on macOS are not impacted. Specifically this issue can only be exploited if the app is launched from a filesystem the attacker has write access too. i.e. the ability to edit files inside the .app bundle on macOS which these fuses are supposed to protect against. This issue has been patched in versions 30.0.5 and 31.0.0-beta.1. There are no workarounds for this issue.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-46992</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-46992</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53003 - Janssen Project IAM Unverified Scope Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53003
+<br>
+<strong>Published : </strong> July 1, 2025, 2:15 a.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>The Janssen Project is an open-source identity and access management (IAM) platform. Prior to version 1.8.0, the Config API returns results without scope verification. This has a large internal surface attack area that exposes all sorts of information from the IDP including clients, users, scripts ..etc. This issue has been patched in version 1.8.0. A workaround for this vulnerability involves users forking and building the config api, patching it in their system following commit 92eea4d.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53003</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53003</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53095 - Sunshine/Moonlight CSRF to RCE</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53095
+<br>
+<strong>Published : </strong> July 1, 2025, 2:15 a.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>Sunshine is a self-hosted game stream host for Moonlight. Prior to version 2025.628.4510, the web UI of Sunshine lacks protection against Cross-Site Request Forgery (CSRF) attacks. This vulnerability allows an attacker to craft a malicious web page that, when visited by an authenticated user, can trigger unintended actions within the Sunshine application on behalf of that user. Specifically, since the application does OS command execution by design, this issue can be exploited to abuse the "Command Preparations" feature, enabling an attacker to inject arbitrary commands that will be executed with Administrator privileges when an application is launched. This issue has been patched in version 2025.628.4510.
+<br>
+<strong>Severity:</strong> 9.6 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53095</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53095</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53096 - Moonlight Sunshine Clickjacking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53096
+<br>
+<strong>Published : </strong> July 1, 2025, 2:15 a.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>Sunshine is a self-hosted game stream host for Moonlight. Prior to version 2025.628.4510, the web UI of Sunshine lacks protection against Clickjacking attacks. This vulnerability allows an attacker to embed the Sunshine interface within a malicious website using an invisible or disguised iframe. If a user is tricked into interacting (one or multiple clicks) with the malicious page while authenticated, they may unknowingly perform actions within the Sunshine application without their consent. This issue has been patched in version 2025.628.4510.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53096</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53096</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6938 - "Code-projects Simple Pizza Ordering System SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6938
+<br>
+<strong>Published : </strong> July 1, 2025, 2:15 a.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Simple Pizza Ordering System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /editcus.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6938</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6938</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2141 - IBM System Storage Virtualization Engine Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2141
+<br>
+<strong>Published : </strong> July 1, 2025, 1:15 a.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>IBM System Storage Virtualization Engine TS7700 3957 VED R5.4 8.54.2.17, R6.0 8.60.0.115, 3948 VED R5.4 8.54.2.17, R6.0 8.60.0.115, and 3948 VEF R6.0 8.60.0.115 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2141</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2141</guid>
+    </item>
+    <item>
+      <title>CVE-2025-36056 - IBM System Storage Virtualization Engine TS7700 Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-36056
+<br>
+<strong>Published : </strong> July 1, 2025, 1:15 a.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>IBM System Storage Virtualization Engine TS7700 3957 VED R5.4 8.54.2.17, R6.0 8.60.0.115, 3948 VED R5.4 8.54.2.17, R6.0 8.60.0.115, and 3948 VEF R6.0 8.60.0.115 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-36056</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-36056</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53005 - DataEase PostgreSQL Data Source JDBC Connection Factory Argument Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53005
+<br>
+<strong>Published : </strong> July 1, 2025, 1:15 a.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>DataEase is an open source business intelligence and data visualization tool. Prior to version 2.10.11, there is a bypass vulnerability in Dataease's PostgreSQL Data Source JDBC Connection Parameters. The sslfactory and sslfactoryarg parameters could trigger a bypass vulnerability. This issue has been patched in version 2.10.11.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53005</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53005</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6937 - Code-projects Simple Pizza Ordering System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6937
+<br>
+<strong>Published : </strong> July 1, 2025, 1:15 a.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Simple Pizza Ordering System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /large.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 01 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6937</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6937</guid>
+    </item>
+    <item>
       <title>CVE-2025-6935 - Campcodes Sales and Inventory System SQL Injection</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6935
 <br>
-<strong>Published : </strong> July 1, 2025, 12:15 a.m. | 46 minutes ago
+<strong>Published : </strong> July 1, 2025, 12:15 a.m. | 2 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Campcodes Sales and Inventory System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /pages/payment_add.php. The manipulation of the argument cid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6936
 <br>
-<strong>Published : </strong> July 1, 2025, 12:15 a.m. | 46 minutes ago
+<strong>Published : </strong> July 1, 2025, 12:15 a.m. | 2 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Simple Pizza Ordering System 1.0. It has been classified as critical. This affects an unknown part of the file /addpro.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6931
 <br>
-<strong>Published : </strong> June 30, 2025, 11:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 11:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in D-Link DCS-6517 and DCS-7517 up to 2.02.0. Affected by this vulnerability is the function generate_pass_from_mac of the file /bin/httpd of the component Root Password Generation Handler. The manipulation leads to insufficient entropy. The attack can be launched remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -70,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6932
 <br>
-<strong>Published : </strong> June 30, 2025, 11:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 11:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in D-Link DCS-7517 up to 2.02.0. This affects the function g_F_n_GenPassForQlync of the file /bin/httpd of the component Qlync Password Generation Handler. The manipulation leads to use of hard-coded password. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -87,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6554
 <br>
-<strong>Published : </strong> June 30, 2025, 10:15 p.m. | 2 hours, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 10:15 p.m. | 4 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Type confusion in V8 in Google Chrome prior to 138.0.7204.96 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)
 <br>
@@ -104,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6930
 <br>
-<strong>Published : </strong> June 30, 2025, 10:15 p.m. | 2 hours, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 10:15 p.m. | 4 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in PHPGurukul Zoo Management System 2.1. Affected is an unknown function of the file /admin/manage-foreigners-ticket.php. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -121,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32462
 <br>
-<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 5 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Sudo before 1.9.17p1, when used with a sudoers file that specifies a host that is neither the current host nor ALL, allows listed users to execute commands on unintended machines.
 <br>
@@ -138,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32463
 <br>
-<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 5 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
 <br>
@@ -155,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49520
 <br>
-<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 5 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in Ansible Automation Platform’s EDA component where user-supplied Git URLs are passed unsanitized to the git ls-remote command. This vulnerability allows an authenticated attacker to inject arguments and execute arbitrary commands on the EDA worker. In Kubernetes/OpenShift environments, this can lead to service account token theft and cluster access.
 <br>
@@ -172,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49521
 <br>
-<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 5 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in the EDA component of the Ansible Automation Platform, where user-supplied Git branch or refspec values are evaluated as Jinja2 templates. This vulnerability allows authenticated users to inject expressions that execute commands or access sensitive files on the EDA worker. In OpenShift, it can lead to service account token theft.
 <br>
@@ -189,9 +342,9 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53004
 <br>
-<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 5 hours, 48 minutes ago
 <br>
-<strong>Description : </strong>DataEase is an open source business intelligence and data visualization tool. Prior to version 2.10.11, the sslfactory and sslfactoryarg parameters could trigger a bypass vulnerability. This issue has been patched in version 2.10.11.
+<strong>Description : </strong>DataEase is an open source business intelligence and data visualization tool. Prior to version 2.10.11, there is a bypass vulnerability in Dataease's Redshift Data Source JDBC Connection Parameters. The sslfactory and sslfactoryarg parameters could trigger a bypass vulnerability. This issue has been patched in version 2.10.11.
 <br>
 <strong>Severity:</strong> 0.0 | NA
 <br>
@@ -206,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6929
 <br>
-<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> June 30, 2025, 9:15 p.m. | 5 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Zoo Management System 2.1. It has been rated as critical. This issue affects some unknown processing of the file /admin/view-normal-ticket.php. The manipulation of the argument viewid leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -217,6 +370,74 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 30 Jun 2025 21:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-6929</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-6929</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52901 - Apache File Browser JWT Session Leak Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52901
+<br>
+<strong>Published : </strong> June 30, 2025, 8:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit files. Prior to version 2.33.9, access tokens are used as GET parameters. The JSON Web Token (JWT) which is used as a session identifier will get leaked to anyone having access to the URLs accessed by the user. This will give an attacker full access to a user's account and, in consequence, to all sensitive files the user has access to. This issue has been patched in version 2.33.9.
+<br>
+<strong>Severity:</strong> 4.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52901</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52901</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52995 - File Browser Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52995
+<br>
+<strong>Published : </strong> June 30, 2025, 8:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit files. Prior to version 2.33.10, the implementation of the allowlist is erroneous, allowing a user to execute more shell commands than they are authorized for. The concrete impact of this vulnerability depends on the commands configured, and the binaries installed on the server or in the container image. Due to the missing separation of scopes on the OS-level, this could give an attacker access to all files managed the application, including the File Browser database. This issue has been patched in version 2.33.10.
+<br>
+<strong>Severity:</strong> 8.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52995</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52995</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52996 - Apache File Browser Unprotected File Sharing Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52996
+<br>
+<strong>Published : </strong> June 30, 2025, 8:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit files. In versions 2.32.0 and prior, the implementation of password protected links is error-prone, resulting in potential unprotected sharing of a file through a direct download link. This link can either be shared unknowingly by a user or discovered from various locations such as the browser history or the log of a proxy server used. At time of publication, no known patched versions are available.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52996</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52996</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52997 - Apache File Browser Authentication Brute-Force Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52997
+<br>
+<strong>Published : </strong> June 30, 2025, 8:15 p.m. | 6 hours, 48 minutes ago
+<br>
+<strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit files. Prior to version 2.34.1, a missing password policy and brute-force protection makes the authentication process insecure. Attackers could mount a brute-force attack to retrieve the passwords of all accounts in a given instance. This issue has been patched in version 2.34.1.
+<br>
+<strong>Severity:</strong> 5.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52997</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52997</guid>
     </item>
     <item>
       <title>CVE-2025-49493 - Akamai CloudTest XXE Injection Vulnerability</title>
@@ -251,74 +472,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-52491</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-52491</guid>
-    </item>
-    <item>
-      <title>CVE-2025-52901 - Apache File Browser JWT Session Leak Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-52901
-<br>
-<strong>Published : </strong> June 30, 2025, 8:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit files. Prior to version 2.33.9, access tokens are used as GET parameters. The JSON Web Token (JWT) which is used as a session identifier will get leaked to anyone having access to the URLs accessed by the user. This will give an attacker full access to a user's account and, in consequence, to all sensitive files the user has access to. This issue has been patched in version 2.33.9.
-<br>
-<strong>Severity:</strong> 4.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-52901</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52901</guid>
-    </item>
-    <item>
-      <title>CVE-2025-52995 - File Browser Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-52995
-<br>
-<strong>Published : </strong> June 30, 2025, 8:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit files. Prior to version 2.33.10, the implementation of the allowlist is erroneous, allowing a user to execute more shell commands than they are authorized for. The concrete impact of this vulnerability depends on the commands configured, and the binaries installed on the server or in the container image. Due to the missing separation of scopes on the OS-level, this could give an attacker access to all files managed the application, including the File Browser database. This issue has been patched in version 2.33.10.
-<br>
-<strong>Severity:</strong> 8.0 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-52995</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52995</guid>
-    </item>
-    <item>
-      <title>CVE-2025-52996 - Apache File Browser Unprotected File Sharing Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-52996
-<br>
-<strong>Published : </strong> June 30, 2025, 8:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit files. In versions 2.32.0 and prior, the implementation of password protected links is error-prone, resulting in potential unprotected sharing of a file through a direct download link. This link can either be shared unknowingly by a user or discovered from various locations such as the browser history or the log of a proxy server used. At time of publication, no known patched versions are available.
-<br>
-<strong>Severity:</strong> 3.1 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-52996</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52996</guid>
-    </item>
-    <item>
-      <title>CVE-2025-52997 - Apache File Browser Authentication Brute-Force Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-52997
-<br>
-<strong>Published : </strong> June 30, 2025, 8:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit files. Prior to version 2.34.1, a missing password policy and brute-force protection makes the authentication process insecure. Attackers could mount a brute-force attack to retrieve the passwords of all accounts in a given instance. This issue has been patched in version 2.34.1.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 30 Jun 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-52997</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52997</guid>
     </item>
     <item>
       <title>CVE-2025-36593 - Dell OpenManage Network Integration RADIUS Authentication Bypass</title>
