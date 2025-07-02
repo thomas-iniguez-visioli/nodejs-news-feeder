@@ -179,12 +179,375 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-38091 - AMD Display DRM False Positive Warning
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38091
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+drm/amd/display: check stream id dml21 wrapper to get plane_id
+
+[Why & How]
+Fix a false positive warning which occurs due to lack of correct checks
+when querying plane_id in DML21. This fixes the warning when performing a
+mode1 reset (cat /sys/kernel/debug/dri/1/amdgpu_gpu_recover):
+
+[   35.751250] WARNING: CPU: 11 PID: 326 at /tmp/amd.PHpyAl7v/amd/amdgpu/../display/dc/dml2/dml2_dc_resource_mgmt.c:91 dml2_map_dc_pipes+0x243d/0x3f40 [amdgpu]
+[   35.751434] Modules linked in: amdgpu(OE) amddrm_ttm_helper(OE) amdttm(OE) amddrm_buddy(OE) amdxcp(OE) amddrm_exec(OE) amd_sched(OE) amdkcl(OE) drm_suballoc_helper drm_ttm_helper ttm drm_display_helper cec rc_core i2c_algo_bit rfcomm qrtr cmac algif_hash algif_skcipher af_alg bnep amd_atl intel_rapl_msr intel_rapl_common snd_hda_codec_hdmi snd_hda_intel edac_mce_amd snd_intel_dspcfg snd_intel_sdw_acpi snd_hda_codec kvm_amd snd_hda_core snd_hwdep snd_pcm kvm snd_seq_midi snd_seq_midi_event snd_rawmidi crct10dif_pclmul polyval_clmulni polyval_generic btusb ghash_clmulni_intel sha256_ssse3 btrtl sha1_ssse3 snd_seq btintel aesni_intel btbcm btmtk snd_seq_device crypto_simd sunrpc cryptd bluetooth snd_timer ccp binfmt_misc rapl snd i2c_piix4 wmi_bmof gigabyte_wmi k10temp i2c_smbus soundcore gpio_amdpt mac_hid sch_fq_codel msr parport_pc ppdev lp parport efi_pstore nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igc ahci xhci_pci libahci xhci_pci_renesas video wmi
+[   35.751501] CPU: 11 UID: 0 PID: 326 Comm: kworker/u64:9 Tainted: G           OE      6.11.0-21-generic #21~24.04.1-Ubuntu
+[   35.751504] Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[   35.751505] Hardware name: Gigabyte Technology Co., Ltd. X670E AORUS PRO X/X670E AORUS PRO X, BIOS F30 05/22/2024
+[   35.751506] Workqueue: amdgpu-reset-dev amdgpu_debugfs_reset_work [amdgpu]
+[   35.751638] RIP: 0010:dml2_map_dc_pipes+0x243d/0x3f40 [amdgpu]
+[   35.751794] Code: 6d 0c 00 00 8b 84 24 88 00 00 00 41 3b 44 9c 20 0f 84 fc 07 00 00 48 83 c3 01 48 83 fb 06 75 b3 4c 8b 64 24 68 4c 8b 6c 24 40 <0f> 0b b8 06 00 00 00 49 8b 94 24 a0 49 00 00 89 c3 83 f8 07 0f 87
+[   35.751796] RSP: 0018:ffffbfa3805d7680 EFLAGS: 00010246
+[   35.751798] RAX: 0000000000010000 RBX: 0000000000000006 RCX: 0000000000000000
+[   35.751799] RDX: 0000000000000000 RSI: 0000000000000005 RDI: 0000000000000000
+[   35.751800] RBP: ffffbfa3805d78f0 R08: 0000000000000000 R09: 0000000000000000
+[   35.751801] R10: 0000000000000000 R11: 0000000000000000 R12: ffffbfa383249000
+[   35.751802] R13: ffffa0e68f280000 R14: ffffbfa383249658 R15: 0000000000000000
+[   35.751803] FS:  0000000000000000(0000) GS:ffffa0edbe580000(0000) knlGS:0000000000000000
+[   35.751804] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   35.751805] CR2: 00005d847ef96c58 CR3: 000000041de3e000 CR4: 0000000000f50ef0
+[   35.751806] PKRU: 55555554
+[   35.751807] Call Trace:
+[   35.751810]  <TASK>
+[   35.751816]  ? show_regs+0x6c/0x80
+[   35.751820]  ? __warn+0x88/0x140
+[   35.751822]  ? dml2_map_dc_pipes+0x243d/0x3f40 [amdgpu]
+[   35.751964]  ? report_bug+0x182/0x1b0
+[   35.751969]  ? handle_bug+0x6e/0xb0
+[   35.751972]  ? exc_invalid_op+0x18/0x80
+[   35.751974]  ? asm_exc_invalid_op+0x1b/0x20
+[   35.751978]  ? dml2_map_dc_pipes+0x243d/0x3f40 [amdgpu]
+[   35.752117]  ? math_pow+0x48/0xa0 [amdgpu]
+[   35.752256]  ? srso_alias_return_thunk+0x5/0xfbef5
+[   35.752260]  ? math_pow+0x48/0xa0 [amdgpu]
+[   35.752400]  ? srso_alias_return_thunk+0x5/0xfbef5
+[   35.752403]  ? math_pow+0x11/0xa0 [amdgpu]
+[   35.752524]  ? srso_alias_return_thunk+0x5/0xfbef5
+[   35.752526]  ? core_dcn4_mode_programming+0xe4d/0x20d0 [amdgpu]
+[   35.752663]  ? srso_alias_return_thunk+0x5/0xfbef5
+[   35.752669]  dml21_validate+0x3d4/0x980 [amdgpu]
+
+(cherry picked from commit f8ad62c0a93e5dd94243e10f1b742232e4d6411e)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38091">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38092 - Linux Kernel ksmbd Null Pointer Dereference Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38092
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ksmbd: use list_first_entry_or_null for opinfo_get_list()
+
+The list_first_entry() macro never returns NULL.  If the list is
+empty then it returns an invalid pointer.  Use list_first_entry_or_null()
+to check if the list is empty.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38092">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38093 - Qualcomm ARM64 GPU Temperature Control Vulnerability (Thermal Overload)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38093
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+arm64: dts: qcom: x1e80100: Add GPU cooling
+
+Unlike the CPU, the GPU does not throttle its speed automatically when it
+reaches high temperatures. With certain high GPU loads it is possible to
+reach the critical hardware shutdown temperature of 120°C, endangering the
+hardware and making it impossible to run certain applications.
+
+Set up GPU cooling similar to the ACPI tables, by throttling the GPU speed
+when reaching 95°C and polling every 200ms.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38093">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52891 - ModSecurity XML Tag Segmentation Fault Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52891
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. In versions 2.9.8 to before 2.9.11, an empty XML tag can cause a segmentation fault. If SecParseXmlIntoArgs is set to On or OnlyArgs, and the request type is application/xml, and at least one XML tag is empty (eg <foo></foo>), then a segmentation fault occurs. This issue has been patched in version 2.9.11. A workaround involves setting SecParseXmlIntoArgs to Off.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52891">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53006 - DataEase PostgreSQL/Redshift SSL Factory Parameter Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53006
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>DataEase is an open source business intelligence and data visualization tool. Prior to version 2.10.11, in both PostgreSQL and Redshift, apart from parameters like "socketfactory" and "socketfactoryarg", there are also "sslfactory" and "sslfactoryarg" with similar functionality. The difference lies in that "sslfactory" and related parameters need to be triggered after establishing the connection. Other similar parameters include "sslhostnameverifier", "sslpasswordcallback", and "authenticationPluginClassName". This issue has been patched in 2.10.11.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53006">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53108 - HomeBox Unauthenticated Attachment Manipulation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53108
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>HomeBox is a home inventory and organization system. Prior to 0.20.1, HomeBox contains a missing authorization check in the API endpoints responsible for updating and deleting inventory item attachments. This flaw allows authenticated users to perform unauthorized actions on inventory item attachments that they do not own. This issue could lead to unauthorized data manipulation or loss of critical inventory data. This issue has been patched in version 0.20.1. There are no workarounds, users must upgrade.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53108">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53109 - Filesystem Symlink File Access Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53109
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>Model Context Protocol Servers is a collection of reference implementations for the model context protocol (MCP). Versions of Filesystem prior to 0.6.4 or 2025.7.01 could allow access to unintended files via symlinks within allowed directories. Users are advised to upgrade to 0.6.4 or 2025.7.01 resolve.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53109">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53110 - Filesystem Model Context Protocol Servers Directory Traversal Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53110
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>Model Context Protocol Servers is a collection of reference implementations for the model context protocol (MCP). Versions of Filesystem prior to 0.6.4 or 2025.7.01 could allow access to unintended files in cases where the prefix matches an allowed directory. Users are advised to upgrade to 0.6.4 or 2025.7.01 resolve.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53110">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53492 - Wikimedia Foundation Mediawiki - MintyDocs Extension Stored Cross-site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53492
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - MintyDocs Extension allows Stored XSS.This issue affects Mediawiki - MintyDocs Extension: 1.39.X, 1.42.X, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53492">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53493 - Wikimedia Foundation Mediawiki - MintyDocs Extension Stored Cross-site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53493
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - MintyDocs Extension allows Stored XSS.This issue affects Mediawiki - MintyDocs Extension: 1.39.X, 1.42.X, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53493">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53494 - Wikimedia Foundation Mediawiki TwoColConflict Extension Stored XSS
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53494
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - TwoColConflict Extension allows Stored XSS.This issue affects Mediawiki - TwoColConflict Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53494">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6725 - Adobe Acrobat PdfViewer XSS Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6725
+<br>
+<strong>Published : </strong> July 2, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>In the PdfViewer component, a Cross-Site Scripting (XSS) vulnerability is possible if a specially-crafted document has already been loaded and the user engages with a tool that requires the DOM to be re-rendered.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 02 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6725">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-27026 - Infinera G42 WebGUI CLI Deactivation Privilege Escalation Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-27026
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>A missing double-check feature in the WebGUI for CLI deactivation in Infinera G42 
 version R6.1.3 allows an authenticated administrator to make other 
@@ -212,7 +575,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34057
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>An information disclosure vulnerability exists in Ruijie NBR series routers (known to affect NBR2000G, NBR1300G, and NBR1000 models) via the /WEB_VMS/LEVEL15/ endpoint. By crafting a specific POST request with modified Cookie headers and specially formatted parameters, an unauthenticated attacker can retrieve administrative account credentials in plaintext. This flaw allows direct disclosure of sensitive user data due to improper authentication checks and insecure backend logic.
 <br>
@@ -237,7 +600,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34067
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>An unauthenticated remote command execution vulnerability exists in the applyCT component of the Hikvision Integrated Security Management Platform due to the use of a vulnerable version of the Fastjson library. The endpoint /bic/ssoService/v1/applyCT deserializes untrusted user input, allowing an attacker to trigger Fastjson's auto-type feature to load arbitrary Java classes. By referencing a malicious class via an LDAP URL, an attacker can achieve remote code execution on the underlying system.
 <br>
@@ -262,7 +625,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34069
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>An authentication bypass vulnerability exists in GFI Kerio Control 9.4.5 due to insecure default proxy configuration and weak access control in the GFIAgent service. The non-transparent proxy on TCP port 3128 can be used to forward unauthenticated requests to internal services such as GFIAgent, bypassing firewall restrictions and exposing internal management endpoints. This enables unauthenticated attackers to access the GFIAgent service on ports 7995 and 7996, retrieve the appliance UUID, and issue administrative requests via the proxy. Exploitation results in full administrative access to the Kerio Control appliance.
 <br>
@@ -287,7 +650,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34070
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>A missing authentication vulnerability in the GFIAgent component of GFI Kerio Control 9.4.5 allows unauthenticated remote attackers to perform privileged operations. The GFIAgent service, responsible for integration with GFI AppManager, exposes HTTP services on ports 7995 and 7996 without proper authentication. The /proxy handler on port 7996 allows arbitrary forwarding to administrative endpoints when provided with an Appliance UUID, which itself can be retrieved from port 7995. This results in a complete authentication bypass, permitting access to sensitive administrative APIs.
 <br>
@@ -312,7 +675,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34071
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>A remote code execution vulnerability in GFI Kerio Control 9.4.5 allows attackers with administrative access to upload and execute arbitrary code through the firmware upgrade feature. The system upgrade mechanism accepts unsigned .img files, which can be modified to include malicious scripts within the upgrade.sh or disk image components. These modified upgrade images are not validated for authenticity or integrity, and are executed by the system post-upload, enabling root access.
 <br>
@@ -337,7 +700,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34072
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>A data exfiltration vulnerability exists in Anthropic’s deprecated Slack Model Context Protocol (MCP) Server via automatic link unfurling. When an AI agent using the Slack MCP Server processes untrusted data, it can be manipulated to generate messages containing attacker-crafted hyperlinks embedding sensitive data. Slack’s link preview bots (e.g., Slack-LinkExpanding, Slackbot, Slack-ImgProxy) will then issue outbound requests to the attacker-controlled URL, resulting in zero-click exfiltration of private data.
 <br>
@@ -362,7 +725,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34073
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>An unauthenticated command injection vulnerability exists in stamparm/maltrail (Maltrail) versions <=0.54. A remote attacker can execute arbitrary operating system commands via the username parameter in a POST request to the /login endpoint. This occurs due to unsafe handling of user-supplied input passed to subprocess.check_output() in core/http.py, allowing injection of shell metacharacters. Exploitation does not require authentication and commands are executed with the privileges of the Maltrail process.
 <br>
@@ -387,7 +750,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45029
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>WINSTAR WN572HP3 v230525 was discovered to contain a heap overflow via the CONTENT_LENGTH variable at /cgi-bin/upload.cgi.
 <br>
@@ -412,7 +775,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-49588
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and archive webpages. In version 2.10.2, the server accepts links of format file:///etc/passwd and doesn't do any validation before sending them to parsers and playwright, this can result in leak of other user's links (and in some cases it might be possible to leak environment secrets). This issue has been patched in version 2.10.3 which has not been made public at time of publication.
 <br>
@@ -437,7 +800,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53106
 <br>
-<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 2:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>Graylog is a free and open log management platform. In versions 6.2.0 to before 6.2.4 and 6.3.0-alpha.1 to before 6.3.0-rc.2, Graylog users can gain elevated privileges by creating and using API tokens for the local Administrator or any other user for whom the malicious user knows the ID. For the attack to succeed, the attacker needs a user account in Graylog. They can then proceed to issue hand-crafted requests to the Graylog REST API and exploit a weak permission check for token creation. This issue has been patched in versions 6.2.4 and 6.3.0-rc.2. A workaround involves disabling the respective configuration found in System > Configuration > Users > "Allow users to create personal access tokens".
 <br>
@@ -462,7 +825,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-35164
 <br>
-<strong>Published : </strong> July 2, 2025, 12:15 p.m. | 3 hours, 1 minute ago
+<strong>Published : </strong> July 2, 2025, 12:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The terminal emulator of Apache Guacamole 1.5.5 and older does not properly validate console codes received from servers via text-based protocols like SSH. If a malicious user has access to a text-based connection, a specially-crafted sequence of console codes could allow arbitrary code to be executed
 with the privileges of the running guacd process.
@@ -493,7 +856,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46647
 <br>
-<strong>Published : </strong> July 2, 2025, 12:15 p.m. | 3 hours ago
+<strong>Published : </strong> July 2, 2025, 12:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability of plugin openid-connect in Apache APISIX.
 
