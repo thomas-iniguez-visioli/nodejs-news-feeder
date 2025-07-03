@@ -184,7 +184,7 @@
                         <p>
 <strong>CVE ID : </strong>CVE-2024-9017
 <br>
-<strong>Published : </strong> July 3, 2025, 7:15 a.m. | 53 minutes ago
+<strong>Published : </strong> July 3, 2025, 7:15 a.m. | 16 minutes ago
 <br>
 <strong>Description : </strong>The PeepSo Core: Groups plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Group Description field in all versions up to, and including, 6.4.6.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -209,7 +209,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5944
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 a.m. | 2 hours, 53 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 a.m. | 2 hours, 16 minutes ago
 <br>
 <strong>Description : </strong>The Element Pack Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘data-caption’ attribute in all versions up to, and including, 8.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -234,7 +234,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34074
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>An authenticated remote code execution vulnerability exists in Lucee’s administrative interface due to insecure design in the scheduled task functionality. An administrator with access to /lucee/admin/web.cfm can configure a scheduled job to retrieve a remote .cfm file from an attacker-controlled server, which is written to the Lucee webroot and executed with the privileges of the Lucee service account. Because Lucee does not enforce integrity checks, path restrictions, or execution controls for scheduled task fetches, this feature can be abused to achieve arbitrary code execution. This issue is distinct from CVE-2024-55354.
 <br>
@@ -259,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34075
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>An authenticated virtual machine escape vulnerability exists in HashiCorp Vagrant when using the default synced folder configuration. By design, Vagrant automatically mounts the host system’s project directory into the guest VM under /vagrant (or C:\vagrant on Windows). This includes the Vagrantfile configuration file, which is a Ruby script evaluated by the host every time a vagrant command is executed in the project directory. If a low-privileged attacker obtains shell access to the guest VM, they can append arbitrary Ruby code to the mounted Vagrantfile. When a user on the host later runs any vagrant command, the injected code is executed on the host with that user’s privileges.
 
@@ -286,7 +286,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34076
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>An authenticated local file inclusion vulnerability exists in Microweber CMS versions <= 1.2.11 through misuse of the backup management API. Authenticated users can abuse the /api/BackupV2/upload and /api/BackupV2/download endpoints to read arbitrary files from the underlying filesystem. By specifying an absolute file path in the src parameter of the upload request, the server may relocate or delete the target file depending on the web service user’s privileges. The corresponding download endpoint can then be used to retrieve the file contents, effectively enabling local file disclosure. This behavior stems from insufficient validation of user-supplied paths and inadequate restrictions on file access and backup logic.
 <br>
@@ -311,7 +311,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34078
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>A local privilege escalation vulnerability exists in NSClient++ 0.5.2.35 when both the web interface and ExternalScripts features are enabled. The configuration file (nsclient.ini) stores the administrative password in plaintext and is readable by local users. By extracting this password, an attacker can authenticate to the NSClient++ web interface (typically accessible on port 8443) and abuse the ExternalScripts plugin to inject and execute arbitrary commands as SYSTEM by registering a custom script, saving the configuration, and triggering it via the API.
 
@@ -338,7 +338,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34079
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>An authenticated remote code execution vulnerability exists in NSClient++ version 0.5.2.35 when the web interface and ExternalScripts module are enabled. A remote attacker with the administrator password can authenticate to the web interface (default port 8443), inject arbitrary commands as external scripts via the /settings/query.json API, save the configuration, and trigger the script via the /query/{name} endpoint. The injected commands are executed with SYSTEM privileges, enabling full remote compromise.
 
@@ -365,7 +365,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34090
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>A security bypass vulnerability exists in Google Chrome AppBound cookie encryption mechanism due to insufficient validation of COM server paths during inter-process communication. A local low-privileged attacker can hijack the COM class identifier (CLSID) registration used by Chrome's elevation service and point it to a non-existent or malicious binary. When this hijack occurs, Chrome silently falls back to the legacy cookie encryption mechanism (protected only by user-DPAPI), thereby enabling cookie decryption by any user-context malware without SYSTEM-level access. This flaw bypasses the protections intended by the AppBound encryption design and allows cookie theft from Chromium-based browsers.
 
@@ -392,7 +392,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34091
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>A padding oracle vulnerability exists in Google Chrome’s AppBound cookie encryption mechanism due to observable decryption failure behavior in Windows Event Logs when handling malformed ciphertext in SYSTEM-DPAPI-encrypted blobs. A local attacker can repeatedly send malformed ciphertexts to the Chrome elevation service and distinguish between padding and MAC errors, enabling a padding oracle attack. This allows partial decryption of the SYSTEM-DPAPI layer and eventual recovery of the user-DPAPI encrypted cookie key, which is trivially decrypted by the attacker’s own context. This issue undermines the core purpose of AppBound Encryption by enabling low-privileged cookie theft through cryptographic misuse and verbose error feedback.
 
@@ -421,7 +421,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34092
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>A cookie encryption bypass vulnerability exists in Google Chrome’s AppBound mechanism due to weak path validation logic within the elevation service. When Chrome encrypts a cookie key, it records its own executable path as validation metadata. Later, when decrypting, the elevation service compares the requesting process’s path to this stored path. However, due to path canonicalization inconsistencies, an attacker can impersonate Chrome (e.g., by naming their binary chrome.exe and placing it in a similar path) and successfully retrieve the encrypted cookie key. This allows malicious processes to retrieve cookies intended to be restricted to the Chrome process only.
 
@@ -448,7 +448,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-43025
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>HP Universal Print Driver is potentially vulnerable to denial of service due to buffer overflow in versions of UPD 7.4 or older (e.g., v7.3.x, v7.2.x, v7.1.x, etc.).
 <br>
@@ -473,7 +473,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-52559
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Zulip is an open-source team chat application. From versions 2.0.0-rc1 to before 10.4 in Zulip Server, the /digest/ URL of a server shows a preview of what the email weekly digest would contain. This URL, though not the digest itself, contains a cross-site scripting (XSS) vulnerability in both topic names and channel names. This issue has been fixed in Zulip Server 10.4. A workaround for this issue involves denying access to /digest/.
 <br>
@@ -498,7 +498,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-52842
 <br>
-<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 8:15 p.m. | 11 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Laundry on Linux, MacOS allows Account Takeover. This issue affects Laundry: 2.3.0.
 <br>
@@ -523,7 +523,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45813
 <br>
-<strong>Published : </strong> July 2, 2025, 6:15 p.m. | 13 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 6:15 p.m. | 13 hours, 16 minutes ago
 <br>
 <strong>Description : </strong>ENENSYS IPGuard v2 2.10.0 was discovered to contain hardcoded credentials.
 <br>
@@ -548,7 +548,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-49713
 <br>
-<strong>Published : </strong> July 2, 2025, 6:15 p.m. | 13 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 6:15 p.m. | 13 hours, 16 minutes ago
 <br>
 <strong>Description : </strong>Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
 <br>
@@ -573,7 +573,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20307
 <br>
-<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the web-based management interface of Cisco BroadWorks Application Delivery Platform could allow an authenticated, remote attacker to to conduct cross-site scripting (XSS) attacks against a user of the interface.
 
@@ -600,7 +600,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-20309
 <br>
-<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to log in to an affected device using the root account, which has default, static credentials that cannot be changed or deleted.
 
@@ -627,7 +627,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45424
 <br>
-<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Incorrect access control in Xinference before v1.4.0 allows attackers to access the Web GUI without authentication.
 <br>
@@ -652,7 +652,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45814
 <br>
-<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Missing authentication checks in the query.fcgi endpoint of NS3000 v8.1.1.125110 , v7.2.8.124852 , and v7.x and NS2000 v7.02.08 allows attackers to execute a session hijacking attack.
 <br>
@@ -677,7 +677,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-52841
 <br>
-<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 5:15 p.m. | 14 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Laundry on Linux, MacOS allows to perform an Account Takeover. This issue affects Laundry: 2.3.0.
 <br>
@@ -702,7 +702,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-52886
 <br>
-<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Poppler is a PDF rendering library. Versions prior to 25.06.0 use `std::atomic_int` for reference counting. Because `std::atomic_int` is only 32 bits, it is possible to overflow the reference count and trigger a use-after-free. Version 25.06.0 patches the issue.
 <br>
@@ -727,7 +727,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53358
 <br>
-<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>kotaemon is an open-source RAG-based tool for document comprehension. From versions 0.10.6 and prior, in libs/ktem/ktem/index/file/ui.py, the index_fn method accepts both URLs and local file paths without validation. The pipeline streams these paths directly and stores them, enabling attackers to traverse directories (e.g. ../../../../../.env) and exfiltrate sensitive files. This issue has been patched via commit 37cdc28, in version 0.10.7 which has not been made public at time of publication.
 <br>
@@ -752,7 +752,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53359
 <br>
-<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>ethereum is a common ethereum structs for Rust. Prior to ethereum crate v0.18.0, signature malleability (according to EIP-2) was only checked for "legacy" transactions, but not for EIP-2930, EIP-1559 and EIP-7702 transactions. This is a specification deviation. The signature malleability itself is not a security issue and not as high of a risk if the ethereum crate is used on a single-implementation blockchain. This issue has been patched in version v0.18.0. A workaround for this issue involves manually checking transaction malleability outside of the crate, however upgrading is recommended.
 <br>
@@ -777,7 +777,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6942
 <br>
-<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>The distributed engine versions 8.4.39.0 and earlier of Secret Server versions 11.7.49 and earlier can be exploited during an initial authorization event that would allow an attacker to impersonate another distributed engine.
 <br>
@@ -802,7 +802,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6943
 <br>
-<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 53 minutes ago
+<strong>Published : </strong> July 2, 2025, 4:15 p.m. | 15 hours, 15 minutes ago
 <br>
 <strong>Description : </strong>Secret Server version 11.7 and earlier is vulnerable to a SQL report creation vulnerability that allows an administrator to gain access to restricted tables.
 <br>
