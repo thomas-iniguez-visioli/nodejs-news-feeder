@@ -179,6 +179,1301 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2024-5647 - WordPress Magnific Popups Stored Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2024-5647
+<br>
+<strong>Published : </strong> July 3, 2025, 10:15 a.m. | 1 hour, 28 minutes ago
+<br>
+<strong>Description : </strong>Multiple plugins for WordPress are vulnerable to Stored Cross-Site Scripting via the plugin's bundled Magnific Popups library (version 1.1.0) in various versions due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. NOTE: This vulnerability was fixed in the upstream library (Magnific Popups version 1.2.0) by disabling the loading of HTML within certain fields by default.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 10:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2024-5647">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-0885 - OpenText GroupWise Unauthorized Calendar Access Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-0885
+<br>
+<strong>Published : </strong> July 3, 2025, 10:15 a.m. | 1 hour, 28 minutes ago
+<br>
+<strong>Description : </strong>Incorrect Authorization vulnerability in OpenText™ GroupWise allows Exploiting Incorrectly Configured Access Control Security Levels.
+
+The vulnerability could allow unauthorized access to calendar items marked private.
+
+This issue affects GroupWise versions 7 through 17.5, 23.4, 24.1, 24.2, 24.3, 24.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 10:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-0885">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6587 - Docker Desktop Environment Variable Disclosure Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6587
+<br>
+<strong>Published : </strong> July 3, 2025, 10:15 a.m. | 1 hour, 28 minutes ago
+<br>
+<strong>Description : </strong>System environment variables are recorded in Docker Desktop diagnostic logs, when using shell auto-completion. This leads to unintentional disclosure of sensitive information such as api keys, passwords, etc. 
+A malicious actor with read access to these logs could obtain secrets and further use them to gain unauthorized access to other systems. Starting with version 4.43.0 Docker Desktop no longer logs system environment variables as part of diagnostics log collection.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 10:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6587">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38151 - Linux Kernel RDMA cma: Work Queue Corruption Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38151
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+RDMA/cma: Fix hang when cma_netevent_callback fails to queue_work
+
+The cited commit fixed a crash when cma_netevent_callback was called for
+a cma_id while work on that id from a previous call had not yet started.
+The work item was re-initialized in the second call, which corrupted the
+work item currently in the work queue.
+
+However, it left a problem when queue_work fails (because the item is
+still pending in the work queue from a previous call). In this case,
+cma_id_put (which is called in the work handler) is therefore not
+called. This results in a userspace process hang (zombie process).
+
+Fix this by calling cma_id_put() if queue_work fails.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38151">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38153 - Allegro USB Network AQC111 Uninitialized Memory Access Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38153
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+net: usb: aqc111: fix error handling of usbnet read calls
+
+Syzkaller, courtesy of syzbot, identified an error (see report [1]) in
+aqc111 driver, caused by incomplete sanitation of usb read calls'
+results. This problem is quite similar to the one fixed in commit
+920a9fa27e78 ("net: asix: add proper error handling of usb read errors").
+
+For instance, usbnet_read_cmd() may read fewer than 'size' bytes,
+even if the caller expected the full amount, and aqc111_read_cmd()
+will not check its result properly. As [1] shows, this may lead
+to MAC address in aqc111_bind() being only partly initialized,
+triggering KMSAN warnings.
+
+Fix the issue by verifying that the number of bytes read is
+as expected and not less.
+
+[1] Partial syzbot report:
+BUG: KMSAN: uninit-value in is_valid_ether_addr include/linux/etherdevice.h:208 [inline]
+BUG: KMSAN: uninit-value in usbnet_probe+0x2e57/0x4390 drivers/net/usb/usbnet.c:1830
+ is_valid_ether_addr include/linux/etherdevice.h:208 [inline]
+ usbnet_probe+0x2e57/0x4390 drivers/net/usb/usbnet.c:1830
+ usb_probe_interface+0xd01/0x1310 drivers/usb/core/driver.c:396
+ call_driver_probe drivers/base/dd.c:-1 [inline]
+ really_probe+0x4d1/0xd90 drivers/base/dd.c:658
+ __driver_probe_device+0x268/0x380 drivers/base/dd.c:800
+...
+
+Uninit was stored to memory at:
+ dev_addr_mod+0xb0/0x550 net/core/dev_addr_lists.c:582
+ __dev_addr_set include/linux/netdevice.h:4874 [inline]
+ eth_hw_addr_set include/linux/etherdevice.h:325 [inline]
+ aqc111_bind+0x35f/0x1150 drivers/net/usb/aqc111.c:717
+ usbnet_probe+0xbe6/0x4390 drivers/net/usb/usbnet.c:1772
+ usb_probe_interface+0xd01/0x1310 drivers/usb/core/driver.c:396
+...
+
+Uninit was stored to memory at:
+ ether_addr_copy include/linux/etherdevice.h:305 [inline]
+ aqc111_read_perm_mac drivers/net/usb/aqc111.c:663 [inline]
+ aqc111_bind+0x794/0x1150 drivers/net/usb/aqc111.c:713
+ usbnet_probe+0xbe6/0x4390 drivers/net/usb/usbnet.c:1772
+ usb_probe_interface+0xd01/0x1310 drivers/usb/core/driver.c:396
+ call_driver_probe drivers/base/dd.c:-1 [inline]
+...
+
+Local variable buf.i created at:
+ aqc111_read_perm_mac drivers/net/usb/aqc111.c:656 [inline]
+ aqc111_bind+0x221/0x1150 drivers/net/usb/aqc111.c:713
+ usbnet_probe+0xbe6/0x4390 drivers/net/usb/usbnet.c:1772
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38153">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38154 - Linux Kernel BPF Sockmap Use After Free Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38154
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bpf, sockmap: Avoid using sk_socket after free when sending
+
+The sk->sk_socket is not locked or referenced in backlog thread, and
+during the call to skb_send_sock(), there is a race condition with
+the release of sk_socket. All types of sockets(tcp/udp/unix/vsock)
+will be affected.
+
+Race conditions:
+'''
+CPU0                               CPU1
+
+backlog::skb_send_sock
+  sendmsg_unlocked
+    sock_sendmsg
+      sock_sendmsg_nosec
+                                   close(fd):
+                                     ...
+                                     ops->release() -> sock_map_close()
+                                     sk_socket->ops = NULL
+                                     free(socket)
+      sock->ops->sendmsg
+            ^
+            panic here
+'''
+
+The ref of psock become 0 after sock_map_close() executed.
+'''
+void sock_map_close()
+{
+    ...
+    if (likely(psock)) {
+    ...
+    // !! here we remove psock and the ref of psock become 0
+    sock_map_remove_links(sk, psock)
+    psock = sk_psock_get(sk);
+    if (unlikely(!psock))
+        goto no_psock; <=== Control jumps here via goto
+        ...
+        cancel_delayed_work_sync(&psock->work); <=== not executed
+        sk_psock_put(sk, psock);
+        ...
+}
+'''
+
+Based on the fact that we already wait for the workqueue to finish in
+sock_map_close() if psock is held, we simply increase the psock
+reference count to avoid race conditions.
+
+With this patch, if the backlog thread is running, sock_map_close() will
+wait for the backlog thread to complete and cancel all pending work.
+
+If no backlog running, any pending work that hasn't started by then will
+fail when invoked by sk_psock_get(), as the psock reference count have
+been zeroed, and sk_psock_drop() will cancel all jobs via
+cancel_delayed_work_sync().
+
+In summary, we require synchronization to coordinate the backlog thread
+and close() thread.
+
+The panic I catched:
+'''
+Workqueue: events sk_psock_backlog
+RIP: 0010:sock_sendmsg+0x21d/0x440
+RAX: 0000000000000000 RBX: ffffc9000521fad8 RCX: 0000000000000001
+...
+Call Trace:
+ <TASK>
+ ? die_addr+0x40/0xa0
+ ? exc_general_protection+0x14c/0x230
+ ? asm_exc_general_protection+0x26/0x30
+ ? sock_sendmsg+0x21d/0x440
+ ? sock_sendmsg+0x3e0/0x440
+ ? __pfx_sock_sendmsg+0x10/0x10
+ __skb_send_sock+0x543/0xb70
+ sk_psock_backlog+0x247/0xb80
+...
+'''
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38154">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38155 - &#34;Qualcomm Atheros mt76 Wireless Null Pointer Dereference Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38155
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: mt76: mt7915: Fix null-ptr-deref in mt7915_mmio_wed_init()
+
+devm_ioremap() returns NULL on error. Currently, mt7915_mmio_wed_init()
+does not check for this case, which results in a NULL pointer
+dereference.
+
+Prevent null pointer dereference in mt7915_mmio_wed_init().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38155">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38156 - Marvell MT7996 Null Pointer Dereference Vulnerability (WiFi)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38156
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: mt76: mt7996: Fix null-ptr-deref in mt7996_mmio_wed_init()
+
+devm_ioremap() returns NULL on error. Currently, mt7996_mmio_wed_init()
+does not check for this case, which results in a NULL pointer
+dereference.
+
+Prevent null pointer dereference in mt7996_mmio_wed_init()
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38156">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38157 - &#34;Qualcomm ath9k_htc USB WMI Out-of-Bounds Read/Write&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38157
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: ath9k_htc: Abort software beacon handling if disabled
+
+A malicious USB device can send a WMI_SWBA_EVENTID event from an
+ath9k_htc-managed device before beaconing has been enabled. This causes
+a device-by-zero error in the driver, leading to either a crash or an
+out of bounds read.
+
+Prevent this by aborting the handling in ath9k_htc_swba() if beacons are
+not enabled.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38157">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38158 - Hisi Acc VFio PCI DMA Address Error Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38158
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+hisi_acc_vfio_pci: fix XQE dma address error
+
+The dma addresses of EQE and AEQE are wrong after migration and
+results in guest kernel-mode encryption services  failure.
+Comparing the definition of hardware registers, we found that
+there was an error when the data read from the register was
+combined into an address. Therefore, the address combination
+sequence needs to be corrected.
+
+Even after fixing the above problem, we still have an issue
+where the Guest from an old kernel can get migrated to
+new kernel and may result in wrong data.
+
+In order to ensure that the address is correct after migration,
+if an old magic number is detected, the dma address needs to be
+updated.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38158">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38159 - &#34;RTW88 WiFi Out-of-Bounds Read&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38159
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: rtw88: fix the 'para' buffer size to avoid reading out of bounds
+
+Set the size to 6 instead of 2, since 'para' array is passed to
+'rtw_fw_bt_wifi_control(rtwdev, para[0], &para[1])', which reads
+5 bytes:
+
+void rtw_fw_bt_wifi_control(struct rtw_dev *rtwdev, u8 op_code, u8 *data)
+{
+    ...
+    SET_BT_WIFI_CONTROL_DATA1(h2c_pkt, *data);
+    SET_BT_WIFI_CONTROL_DATA2(h2c_pkt, *(data + 1));
+    ...
+    SET_BT_WIFI_CONTROL_DATA5(h2c_pkt, *(data + 4));
+
+Detected using the static analysis tool - Svace.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38159">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38160 - Raspberry Pi Linux Kernel NULL Pointer Dereference Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38160
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+clk: bcm: rpi: Add NULL check in raspberrypi_clk_register()
+
+devm_kasprintf() returns NULL when memory allocation fails. Currently,
+raspberrypi_clk_register() does not check for this case, which results
+in a NULL pointer dereference.
+
+Add NULL check after devm_kasprintf() to prevent this issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38160">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38161 - &#34;IBM Mellanox mlx5 RDMA Use-After-Free Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38161
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+RDMA/mlx5: Fix error flow upon firmware failure for RQ destruction
+
+Upon RQ destruction if the firmware command fails which is the
+last resource to be destroyed some SW resources were already cleaned
+regardless of the failure.
+
+Now properly rollback the object to its original state upon such failure.
+
+In order to avoid a use-after free in case someone tries to destroy the
+object again, which results in the following kernel trace:
+refcount_t: underflow; use-after-free.
+WARNING: CPU: 0 PID: 37589 at lib/refcount.c:28 refcount_warn_saturate+0xf4/0x148
+Modules linked in: rdma_ucm(OE) rdma_cm(OE) iw_cm(OE) ib_ipoib(OE) ib_cm(OE) ib_umad(OE) mlx5_ib(OE) rfkill mlx5_core(OE) mlxdevm(OE) ib_uverbs(OE) ib_core(OE) psample mlxfw(OE) mlx_compat(OE) macsec tls pci_hyperv_intf sunrpc vfat fat virtio_net net_failover failover fuse loop nfnetlink vsock_loopback vmw_vsock_virtio_transport_common vmw_vsock_vmci_transport vmw_vmci vsock xfs crct10dif_ce ghash_ce sha2_ce sha256_arm64 sha1_ce virtio_console virtio_gpu virtio_blk virtio_dma_buf virtio_mmio dm_mirror dm_region_hash dm_log dm_mod xpmem(OE)
+CPU: 0 UID: 0 PID: 37589 Comm: python3 Kdump: loaded Tainted: G           OE     -------  ---  6.12.0-54.el10.aarch64 #1
+Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+Hardware name: QEMU KVM Virtual Machine, BIOS 0.0.0 02/06/2015
+pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+pc : refcount_warn_saturate+0xf4/0x148
+lr : refcount_warn_saturate+0xf4/0x148
+sp : ffff80008b81b7e0
+x29: ffff80008b81b7e0 x28: ffff000133d51600 x27: 0000000000000001
+x26: 0000000000000000 x25: 00000000ffffffea x24: ffff00010ae80f00
+x23: ffff00010ae80f80 x22: ffff0000c66e5d08 x21: 0000000000000000
+x20: ffff0000c66e0000 x19: ffff00010ae80340 x18: 0000000000000006
+x17: 0000000000000000 x16: 0000000000000020 x15: ffff80008b81b37f
+x14: 0000000000000000 x13: 2e656572662d7265 x12: ffff80008283ef78
+x11: ffff80008257efd0 x10: ffff80008283efd0 x9 : ffff80008021ed90
+x8 : 0000000000000001 x7 : 00000000000bffe8 x6 : c0000000ffff7fff
+x5 : ffff0001fb8e3408 x4 : 0000000000000000 x3 : ffff800179993000
+x2 : 0000000000000000 x1 : 0000000000000000 x0 : ffff000133d51600
+Call trace:
+ refcount_warn_saturate+0xf4/0x148
+ mlx5_core_put_rsc+0x88/0xa0 [mlx5_ib]
+ mlx5_core_destroy_rq_tracked+0x64/0x98 [mlx5_ib]
+ mlx5_ib_destroy_wq+0x34/0x80 [mlx5_ib]
+ ib_destroy_wq_user+0x30/0xc0 [ib_core]
+ uverbs_free_wq+0x28/0x58 [ib_uverbs]
+ destroy_hw_idr_uobject+0x34/0x78 [ib_uverbs]
+ uverbs_destroy_uobject+0x48/0x240 [ib_uverbs]
+ __uverbs_cleanup_ufile+0xd4/0x1a8 [ib_uverbs]
+ uverbs_destroy_ufile_hw+0x48/0x120 [ib_uverbs]
+ ib_uverbs_close+0x2c/0x100 [ib_uverbs]
+ __fput+0xd8/0x2f0
+ __fput_sync+0x50/0x70
+ __arm64_sys_close+0x40/0x90
+ invoke_syscall.constprop.0+0x74/0xd0
+ do_el0_svc+0x48/0xe8
+ el0_svc+0x44/0x1d0
+ el0t_64_sync_handler+0x120/0x130
+ el0t_64_sync+0x1a4/0x1a8
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38161">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38162 - Linux Kernel Netfilter NFT Set Pipapo Integer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38162
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+netfilter: nft_set_pipapo: prevent overflow in lookup table allocation
+
+When calculating the lookup table size, ensure the following
+multiplication does not overflow:
+
+- desc->field_len[] maximum value is U8_MAX multiplied by
+  NFT_PIPAPO_GROUPS_PER_BYTE(f) that can be 2, worst case.
+- NFT_PIPAPO_BUCKETS(f->bb) is 2^8, worst case.
+- sizeof(unsigned long), from sizeof(*f->lt), lt in
+  struct nft_pipapo_field.
+
+Then, use check_mul_overflow() to multiply by bucket size and then use
+check_add_overflow() to the alignment for avx2 (if needed). Finally, add
+lt_size_check_overflow() helper and use it to consolidate this.
+
+While at it, replace leftover allocation using the GFP_KERNEL to
+GFP_KERNEL_ACCOUNT for consistency, in pipapo_resize().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38162">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38163 - &#34;F2FS Sanity Check Denial of Service&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38163
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+f2fs: fix to do sanity check on sbi->total_valid_block_count
+
+syzbot reported a f2fs bug as below:
+
+------------[ cut here ]------------
+kernel BUG at fs/f2fs/f2fs.h:2521!
+RIP: 0010:dec_valid_block_count+0x3b2/0x3c0 fs/f2fs/f2fs.h:2521
+Call Trace:
+ f2fs_truncate_data_blocks_range+0xc8c/0x11a0 fs/f2fs/file.c:695
+ truncate_dnode+0x417/0x740 fs/f2fs/node.c:973
+ truncate_nodes+0x3ec/0xf50 fs/f2fs/node.c:1014
+ f2fs_truncate_inode_blocks+0x8e3/0x1370 fs/f2fs/node.c:1197
+ f2fs_do_truncate_blocks+0x840/0x12b0 fs/f2fs/file.c:810
+ f2fs_truncate_blocks+0x10d/0x300 fs/f2fs/file.c:838
+ f2fs_truncate+0x417/0x720 fs/f2fs/file.c:888
+ f2fs_setattr+0xc4f/0x12f0 fs/f2fs/file.c:1112
+ notify_change+0xbca/0xe90 fs/attr.c:552
+ do_truncate+0x222/0x310 fs/open.c:65
+ handle_truncate fs/namei.c:3466 [inline]
+ do_open fs/namei.c:3849 [inline]
+ path_openat+0x2e4f/0x35d0 fs/namei.c:4004
+ do_filp_open+0x284/0x4e0 fs/namei.c:4031
+ do_sys_openat2+0x12b/0x1d0 fs/open.c:1429
+ do_sys_open fs/open.c:1444 [inline]
+ __do_sys_creat fs/open.c:1522 [inline]
+ __se_sys_creat fs/open.c:1516 [inline]
+ __x64_sys_creat+0x124/0x170 fs/open.c:1516
+ do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
+ do_syscall_64+0xf3/0x230 arch/x86/entry/syscall_64.c:94
+
+The reason is: in fuzzed image, sbi->total_valid_block_count is
+inconsistent w/ mapped blocks indexed by inode, so, we should
+not trigger panic for such case, instead, let's print log and
+set fsck flag.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38163">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38164 - VirtualBox F2FS Inconsistent Segment Type
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38164
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+f2fs: zone: fix to avoid inconsistence in between SIT and SSA
+
+w/ below testcase, it will cause inconsistence in between SIT and SSA.
+
+create_null_blk 512 2 1024 1024
+mkfs.f2fs -m /dev/nullb0
+mount /dev/nullb0 /mnt/f2fs/
+touch /mnt/f2fs/file
+f2fs_io pinfile set /mnt/f2fs/file
+fallocate -l 4GiB /mnt/f2fs/file
+
+F2FS-fs (nullb0): Inconsistent segment (0) type [1, 0] in SSA and SIT
+CPU: 5 UID: 0 PID: 2398 Comm: fallocate Tainted: G           O       6.13.0-rc1 #84
+Tainted: [O]=OOT_MODULE
+Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Call Trace:
+ <TASK>
+ dump_stack_lvl+0xb3/0xd0
+ dump_stack+0x14/0x20
+ f2fs_handle_critical_error+0x18c/0x220 [f2fs]
+ f2fs_stop_checkpoint+0x38/0x50 [f2fs]
+ do_garbage_collect+0x674/0x6e0 [f2fs]
+ f2fs_gc_range+0x12b/0x230 [f2fs]
+ f2fs_allocate_pinning_section+0x5c/0x150 [f2fs]
+ f2fs_expand_inode_data+0x1cc/0x3c0 [f2fs]
+ f2fs_fallocate+0x3c3/0x410 [f2fs]
+ vfs_fallocate+0x15f/0x4b0
+ __x64_sys_fallocate+0x4a/0x80
+ x64_sys_call+0x15e8/0x1b80
+ do_syscall_64+0x68/0x130
+ entry_SYSCALL_64_after_hwframe+0x67/0x6f
+RIP: 0033:0x7f9dba5197ca
+F2FS-fs (nullb0): Stopped filesystem due to reason: 4
+
+The reason is f2fs_gc_range() may try to migrate block in curseg, however,
+its SSA block is not uptodate due to the last summary block data is still
+in cache of curseg.
+
+In this patch, we add a condition in f2fs_gc_range() to check whether
+section is opened or not, and skip block migration for opened section.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38164">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38165 - Linux BPF Sockmap Panic Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38165
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bpf, sockmap: Fix panic when calling skb_linearize
+
+The panic can be reproduced by executing the command:
+./bench sockmap -c 2 -p 1 -a --rx-verdict-ingress --rx-strp 100000
+
+Then a kernel panic was captured:
+'''
+[  657.460555] kernel BUG at net/core/skbuff.c:2178!
+[  657.462680] Tainted: [W]=WARN
+[  657.463287] Workqueue: events sk_psock_backlog
+...
+[  657.469610]  <TASK>
+[  657.469738]  ? die+0x36/0x90
+[  657.469916]  ? do_trap+0x1d0/0x270
+[  657.470118]  ? pskb_expand_head+0x612/0xf40
+[  657.470376]  ? pskb_expand_head+0x612/0xf40
+[  657.470620]  ? do_error_trap+0xa3/0x170
+[  657.470846]  ? pskb_expand_head+0x612/0xf40
+[  657.471092]  ? handle_invalid_op+0x2c/0x40
+[  657.471335]  ? pskb_expand_head+0x612/0xf40
+[  657.471579]  ? exc_invalid_op+0x2d/0x40
+[  657.471805]  ? asm_exc_invalid_op+0x1a/0x20
+[  657.472052]  ? pskb_expand_head+0xd1/0xf40
+[  657.472292]  ? pskb_expand_head+0x612/0xf40
+[  657.472540]  ? lock_acquire+0x18f/0x4e0
+[  657.472766]  ? find_held_lock+0x2d/0x110
+[  657.472999]  ? __pfx_pskb_expand_head+0x10/0x10
+[  657.473263]  ? __kmalloc_cache_noprof+0x5b/0x470
+[  657.473537]  ? __pfx___lock_release.isra.0+0x10/0x10
+[  657.473826]  __pskb_pull_tail+0xfd/0x1d20
+[  657.474062]  ? __kasan_slab_alloc+0x4e/0x90
+[  657.474707]  sk_psock_skb_ingress_enqueue+0x3bf/0x510
+[  657.475392]  ? __kasan_kmalloc+0xaa/0xb0
+[  657.476010]  sk_psock_backlog+0x5cf/0xd70
+[  657.476637]  process_one_work+0x858/0x1a20
+'''
+
+The panic originates from the assertion BUG_ON(skb_shared(skb)) in
+skb_linearize(). A previous commit(see Fixes tag) introduced skb_get()
+to avoid race conditions between skb operations in the backlog and skb
+release in the recvmsg path. However, this caused the panic to always
+occur when skb_linearize is executed.
+
+The "--rx-strp 100000" parameter forces the RX path to use the strparser
+module which aggregates data until it reaches 100KB before calling sockmap
+logic. The 100KB payload exceeds MAX_MSG_FRAGS, triggering skb_linearize.
+
+To fix this issue, just move skb_get into sk_psock_skb_ingress_enqueue.
+
+'''
+sk_psock_backlog:
+    sk_psock_handle_skb
+       skb_get(skb) <== we move it into 'sk_psock_skb_ingress_enqueue'
+       sk_psock_skb_ingress____________
+                                       ↓
+                                       |
+                                       | → sk_psock_skb_ingress_self
+                                       |      sk_psock_skb_ingress_enqueue
+sk_psock_verdict_apply_________________↑          skb_linearize
+'''
+
+Note that for verdict_apply path, the skb_get operation is unnecessary so
+we add 'take_ref' param to control it's behavior.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38165">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38166 - Linux Kernel BPF ktls Panic Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38166
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bpf: fix ktls panic with sockmap
+
+[ 2172.936997] ------------[ cut here ]------------
+[ 2172.936999] kernel BUG at lib/iov_iter.c:629!
+......
+[ 2172.944996] PKRU: 55555554
+[ 2172.945155] Call Trace:
+[ 2172.945299]  <TASK>
+[ 2172.945428]  ? die+0x36/0x90
+[ 2172.945601]  ? do_trap+0xdd/0x100
+[ 2172.945795]  ? iov_iter_revert+0x178/0x180
+[ 2172.946031]  ? iov_iter_revert+0x178/0x180
+[ 2172.946267]  ? do_error_trap+0x7d/0x110
+[ 2172.946499]  ? iov_iter_revert+0x178/0x180
+[ 2172.946736]  ? exc_invalid_op+0x50/0x70
+[ 2172.946961]  ? iov_iter_revert+0x178/0x180
+[ 2172.947197]  ? asm_exc_invalid_op+0x1a/0x20
+[ 2172.947446]  ? iov_iter_revert+0x178/0x180
+[ 2172.947683]  ? iov_iter_revert+0x5c/0x180
+[ 2172.947913]  tls_sw_sendmsg_locked.isra.0+0x794/0x840
+[ 2172.948206]  tls_sw_sendmsg+0x52/0x80
+[ 2172.948420]  ? inet_sendmsg+0x1f/0x70
+[ 2172.948634]  __sys_sendto+0x1cd/0x200
+[ 2172.948848]  ? find_held_lock+0x2b/0x80
+[ 2172.949072]  ? syscall_trace_enter+0x140/0x270
+[ 2172.949330]  ? __lock_release.isra.0+0x5e/0x170
+[ 2172.949595]  ? find_held_lock+0x2b/0x80
+[ 2172.949817]  ? syscall_trace_enter+0x140/0x270
+[ 2172.950211]  ? lockdep_hardirqs_on_prepare+0xda/0x190
+[ 2172.950632]  ? ktime_get_coarse_real_ts64+0xc2/0xd0
+[ 2172.951036]  __x64_sys_sendto+0x24/0x30
+[ 2172.951382]  do_syscall_64+0x90/0x170
+......
+
+After calling bpf_exec_tx_verdict(), the size of msg_pl->sg may increase,
+e.g., when the BPF program executes bpf_msg_push_data().
+
+If the BPF program sets cork_bytes and sg.size is smaller than cork_bytes,
+it will return -ENOSPC and attempt to roll back to the non-zero copy
+logic. However, during rollback, msg->msg_iter is reset, but since
+msg_pl->sg.size has been increased, subsequent executions will exceed the
+actual size of msg_iter.
+'''
+iov_iter_revert(&msg->msg_iter, msg_pl->sg.size - orig_size);
+'''
+
+The changes in this commit are based on the following considerations:
+
+1. When cork_bytes is set, rolling back to non-zero copy logic is
+pointless and can directly go to zero-copy logic.
+
+2. We can not calculate the correct number of bytes to revert msg_iter.
+
+Assume the original data is "abcdefgh" (8 bytes), and after 3 pushes
+by the BPF program, it becomes 11-byte data: "abc?de?fgh?".
+Then, we set cork_bytes to 6, which means the first 6 bytes have been
+processed, and the remaining 5 bytes "?fgh?" will be cached until the
+length meets the cork_bytes requirement.
+
+However, some data in "?fgh?" is not within 'sg->msg_iter'
+(but in msg_pl instead), especially the data "?" we pushed.
+
+So it doesn't seem as simple as just reverting through an offset of
+msg_iter.
+
+3. For non-TLS sockets in tcp_bpf_sendmsg, when a "cork" situation occurs,
+the user-space send() doesn't return an error, and the returned length is
+the same as the input length parameter, even if some data is cached.
+
+Additionally, I saw that the current non-zero-copy logic for handling
+corking is written as:
+'''
+line 1177
+else if (ret != -EAGAIN) {
+	if (ret == -ENOSPC)
+		ret = 0;
+	goto send_end;
+'''
+
+So it's ok to just return 'copied' without error when a "cork" situation
+occurs.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38166">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38167 - &#34;NTFS3 Linux Kernel Null Pointer Dereference Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38167
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+fs/ntfs3: handle hdr_first_de() return value
+
+The hdr_first_de() function returns a pointer to a struct NTFS_DE. This
+pointer may be NULL. To handle the NULL error effectively, it is important
+to implement an error handler. This will help manage potential errors
+consistently.
+
+Additionally, error handling for the return value already exists at other
+points where this function is called.
+
+Found by Linux Verification Center (linuxtesting.org) with SVACE.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38167">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38168 - &#34;ARM-NI Linux Kernel Perf PMU Unregister Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38168
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+perf: arm-ni: Unregister PMUs on probe failure
+
+When a resource allocation fails in one clock domain of an NI device,
+we need to properly roll back all previously registered perf PMUs in
+other clock domains of the same device.
+
+Otherwise, it can lead to kernel panics.
+
+Calling arm_ni_init+0x0/0xff8 [arm_ni] @ 2374
+arm-ni ARMHCB70:00: Failed to request PMU region 0x1f3c13000
+arm-ni ARMHCB70:00: probe with driver arm-ni failed with error -16
+list_add corruption: next->prev should be prev (fffffd01e9698a18),
+but was 0000000000000000. (next=ffff10001a0decc8).
+pstate: 6340009 (nZCv daif +PAN -UAO +TCO +DIT -SSBS BTYPE=--)
+pc : list_add_valid_or_report+0x7c/0xb8
+lr : list_add_valid_or_report+0x7c/0xb8
+Call trace:
+ __list_add_valid_or_report+0x7c/0xb8
+ perf_pmu_register+0x22c/0x3a0
+ arm_ni_probe+0x554/0x70c [arm_ni]
+ platform_probe+0x70/0xe8
+ really_probe+0xc6/0x4d8
+ driver_probe_device+0x48/0x170
+ __driver_attach+0x8e/0x1c0
+ bus_for_each_dev+0x64/0xf0
+ driver_add+0x138/0x260
+ bus_add_driver+0x68/0x138
+ __platform_driver_register+0x2c/0x40
+ arm_ni_init+0x14/0x2a [arm_ni]
+ do_init_module+0x36/0x298
+---[ end trace 0000000000000000 ]---
+Kernel panic - not syncing: Oops - BUG: Fatal exception
+SMP: stopping secondary CPUs
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38168">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38169 - Linux Kernel ARM64 FPSIMD State Clobbering Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38169
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+arm64/fpsimd: Avoid clobbering kernel FPSIMD state with SMSTOP
+
+On system with SME, a thread's kernel FPSIMD state may be erroneously
+clobbered during a context switch immediately after that state is
+restored. Systems without SME are unaffected.
+
+If the CPU happens to be in streaming SVE mode before a context switch
+to a thread with kernel FPSIMD state, fpsimd_thread_switch() will
+restore the kernel FPSIMD state using fpsimd_load_kernel_state() while
+the CPU is still in streaming SVE mode. When fpsimd_thread_switch()
+subsequently calls fpsimd_flush_cpu_state(), this will execute an
+SMSTOP, causing an exit from streaming SVE mode. The exit from
+streaming SVE mode will cause the hardware to reset a number of
+FPSIMD/SVE/SME registers, clobbering the FPSIMD state.
+
+Fix this by calling fpsimd_flush_cpu_state() before restoring the kernel
+FPSIMD state.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38169">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38170 - Linux kernel - arm64 FPSIMD SME Trap Handling Stale CPU State Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38170
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+arm64/fpsimd: Discard stale CPU state when handling SME traps
+
+The logic for handling SME traps manipulates saved FPSIMD/SVE/SME state
+incorrectly, and a race with preemption can result in a task having
+TIF_SME set and TIF_FOREIGN_FPSTATE clear even though the live CPU state
+is stale (e.g. with SME traps enabled). This can result in warnings from
+do_sme_acc() where SME traps are not expected while TIF_SME is set:
+
+|        /* With TIF_SME userspace shouldn't generate any traps */
+|        if (test_and_set_thread_flag(TIF_SME))
+|                WARN_ON(1);
+
+This is very similar to the SVE issue we fixed in commit:
+
+  751ecf6afd6568ad ("arm64/sve: Discard stale CPU state when handling SVE traps")
+
+The race can occur when the SME trap handler is preempted before and
+after manipulating the saved FPSIMD/SVE/SME state, starting and ending on
+the same CPU, e.g.
+
+| void do_sme_acc(unsigned long esr, struct pt_regs *regs)
+| {
+|         // Trap on CPU 0 with TIF_SME clear, SME traps enabled
+|         // task->fpsimd_cpu is 0.
+|         // per_cpu_ptr(&fpsimd_last_state, 0) is task.
+|
+|         ...
+|
+|         // Preempted; migrated from CPU 0 to CPU 1.
+|         // TIF_FOREIGN_FPSTATE is set.
+|
+|         get_cpu_fpsimd_context();
+|
+|         /* With TIF_SME userspace shouldn't generate any traps */
+|         if (test_and_set_thread_flag(TIF_SME))
+|                 WARN_ON(1);
+|
+|         if (!test_thread_flag(TIF_FOREIGN_FPSTATE)) {
+|                 unsigned long vq_minus_one =
+|                         sve_vq_from_vl(task_get_sme_vl(current)) - 1;
+|                 sme_set_vq(vq_minus_one);
+|
+|                 fpsimd_bind_task_to_cpu();
+|         }
+|
+|         put_cpu_fpsimd_context();
+|
+|         // Preempted; migrated from CPU 1 to CPU 0.
+|         // task->fpsimd_cpu is still 0
+|         // If per_cpu_ptr(&fpsimd_last_state, 0) is still task then:
+|         // - Stale HW state is reused (with SME traps enabled)
+|         // - TIF_FOREIGN_FPSTATE is cleared
+|         // - A return to userspace skips HW state restore
+| }
+
+Fix the case where the state is not live and TIF_FOREIGN_FPSTATE is set
+by calling fpsimd_flush_task_state() to detach from the saved CPU
+state. This ensures that a subsequent context switch will not reuse the
+stale CPU state, and will instead set TIF_FOREIGN_FPSTATE, forcing the
+new state to be reloaded from memory prior to a return to userspace.
+
+Note: this was originallly posted as [1].
+
+[ Rutland: rewrite commit message ]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38170">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38171 - Linux Power Supply Driver Max77705 Workqueue Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38171
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+power: supply: max77705: Fix workqueue error handling in probe
+
+The create_singlethread_workqueue() doesn't return error pointers, it
+returns NULL.  Also cleanup the workqueue on the error paths.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38171">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38172 - &#34;Linux EROFS UAF Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38172
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+erofs: avoid using multiple devices with different type
+
+For multiple devices, both primary and extra devices should be the
+same type. `erofs_init_device` has already guaranteed that if the
+primary is a file-backed device, extra devices should also be
+regular files.
+
+However, if the primary is a block device while the extra device
+is a file-backed device, `erofs_init_device` will get an ENOTBLK,
+which is not treated as an error in `erofs_fc_get_tree`, and that
+leads to an UAF:
+
+  erofs_fc_get_tree
+    get_tree_bdev_flags(erofs_fc_fill_super)
+      erofs_read_superblock
+        erofs_init_device  // sbi->dif0 is not inited yet,
+                           // return -ENOTBLK
+      deactivate_locked_super
+        free(sbi)
+    if (err is -ENOTBLK)
+      sbi->dif0.file = filp_open()  // sbi UAF
+
+So if -ENOTBLK is hitted in `erofs_init_device`, it means the
+primary device must be a block device, and the extra device
+is not a block device. The error can be converted to -EINVAL.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38172">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38173 - Marvell CESA Zero-Length SKCipher Request Buffer Overflow
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38173
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 2 hours, 28 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+crypto: marvell/cesa - Handle zero-length skcipher requests
+
+Do not access random memory for zero-length skcipher requests.
+Just return 0.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38173">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-38148 - Linux Kernel net: phy: mscc Memory Leak
                         </h3>
                         <p>
@@ -312,1221 +1607,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Thu, 03 Jul 2025 09:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38150">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38151 - Linux Kernel RDMA cma: Work Queue Corruption Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38151
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-RDMA/cma: Fix hang when cma_netevent_callback fails to queue_work
-
-The cited commit fixed a crash when cma_netevent_callback was called for
-a cma_id while work on that id from a previous call had not yet started.
-The work item was re-initialized in the second call, which corrupted the
-work item currently in the work queue.
-
-However, it left a problem when queue_work fails (because the item is
-still pending in the work queue from a previous call). In this case,
-cma_id_put (which is called in the work handler) is therefore not
-called. This results in a userspace process hang (zombie process).
-
-Fix this by calling cma_id_put() if queue_work fails.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38151">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38153 - Allegro USB Network AQC111 Uninitialized Memory Access Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38153
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-net: usb: aqc111: fix error handling of usbnet read calls
-
-Syzkaller, courtesy of syzbot, identified an error (see report [1]) in
-aqc111 driver, caused by incomplete sanitation of usb read calls'
-results. This problem is quite similar to the one fixed in commit
-920a9fa27e78 ("net: asix: add proper error handling of usb read errors").
-
-For instance, usbnet_read_cmd() may read fewer than 'size' bytes,
-even if the caller expected the full amount, and aqc111_read_cmd()
-will not check its result properly. As [1] shows, this may lead
-to MAC address in aqc111_bind() being only partly initialized,
-triggering KMSAN warnings.
-
-Fix the issue by verifying that the number of bytes read is
-as expected and not less.
-
-[1] Partial syzbot report:
-BUG: KMSAN: uninit-value in is_valid_ether_addr include/linux/etherdevice.h:208 [inline]
-BUG: KMSAN: uninit-value in usbnet_probe+0x2e57/0x4390 drivers/net/usb/usbnet.c:1830
- is_valid_ether_addr include/linux/etherdevice.h:208 [inline]
- usbnet_probe+0x2e57/0x4390 drivers/net/usb/usbnet.c:1830
- usb_probe_interface+0xd01/0x1310 drivers/usb/core/driver.c:396
- call_driver_probe drivers/base/dd.c:-1 [inline]
- really_probe+0x4d1/0xd90 drivers/base/dd.c:658
- __driver_probe_device+0x268/0x380 drivers/base/dd.c:800
-...
-
-Uninit was stored to memory at:
- dev_addr_mod+0xb0/0x550 net/core/dev_addr_lists.c:582
- __dev_addr_set include/linux/netdevice.h:4874 [inline]
- eth_hw_addr_set include/linux/etherdevice.h:325 [inline]
- aqc111_bind+0x35f/0x1150 drivers/net/usb/aqc111.c:717
- usbnet_probe+0xbe6/0x4390 drivers/net/usb/usbnet.c:1772
- usb_probe_interface+0xd01/0x1310 drivers/usb/core/driver.c:396
-...
-
-Uninit was stored to memory at:
- ether_addr_copy include/linux/etherdevice.h:305 [inline]
- aqc111_read_perm_mac drivers/net/usb/aqc111.c:663 [inline]
- aqc111_bind+0x794/0x1150 drivers/net/usb/aqc111.c:713
- usbnet_probe+0xbe6/0x4390 drivers/net/usb/usbnet.c:1772
- usb_probe_interface+0xd01/0x1310 drivers/usb/core/driver.c:396
- call_driver_probe drivers/base/dd.c:-1 [inline]
-...
-
-Local variable buf.i created at:
- aqc111_read_perm_mac drivers/net/usb/aqc111.c:656 [inline]
- aqc111_bind+0x221/0x1150 drivers/net/usb/aqc111.c:713
- usbnet_probe+0xbe6/0x4390 drivers/net/usb/usbnet.c:1772
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38153">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38154 - Linux Kernel BPF Sockmap Use After Free Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38154
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-bpf, sockmap: Avoid using sk_socket after free when sending
-
-The sk->sk_socket is not locked or referenced in backlog thread, and
-during the call to skb_send_sock(), there is a race condition with
-the release of sk_socket. All types of sockets(tcp/udp/unix/vsock)
-will be affected.
-
-Race conditions:
-'''
-CPU0                               CPU1
-
-backlog::skb_send_sock
-  sendmsg_unlocked
-    sock_sendmsg
-      sock_sendmsg_nosec
-                                   close(fd):
-                                     ...
-                                     ops->release() -> sock_map_close()
-                                     sk_socket->ops = NULL
-                                     free(socket)
-      sock->ops->sendmsg
-            ^
-            panic here
-'''
-
-The ref of psock become 0 after sock_map_close() executed.
-'''
-void sock_map_close()
-{
-    ...
-    if (likely(psock)) {
-    ...
-    // !! here we remove psock and the ref of psock become 0
-    sock_map_remove_links(sk, psock)
-    psock = sk_psock_get(sk);
-    if (unlikely(!psock))
-        goto no_psock; <=== Control jumps here via goto
-        ...
-        cancel_delayed_work_sync(&psock->work); <=== not executed
-        sk_psock_put(sk, psock);
-        ...
-}
-'''
-
-Based on the fact that we already wait for the workqueue to finish in
-sock_map_close() if psock is held, we simply increase the psock
-reference count to avoid race conditions.
-
-With this patch, if the backlog thread is running, sock_map_close() will
-wait for the backlog thread to complete and cancel all pending work.
-
-If no backlog running, any pending work that hasn't started by then will
-fail when invoked by sk_psock_get(), as the psock reference count have
-been zeroed, and sk_psock_drop() will cancel all jobs via
-cancel_delayed_work_sync().
-
-In summary, we require synchronization to coordinate the backlog thread
-and close() thread.
-
-The panic I catched:
-'''
-Workqueue: events sk_psock_backlog
-RIP: 0010:sock_sendmsg+0x21d/0x440
-RAX: 0000000000000000 RBX: ffffc9000521fad8 RCX: 0000000000000001
-...
-Call Trace:
- <TASK>
- ? die_addr+0x40/0xa0
- ? exc_general_protection+0x14c/0x230
- ? asm_exc_general_protection+0x26/0x30
- ? sock_sendmsg+0x21d/0x440
- ? sock_sendmsg+0x3e0/0x440
- ? __pfx_sock_sendmsg+0x10/0x10
- __skb_send_sock+0x543/0xb70
- sk_psock_backlog+0x247/0xb80
-...
-'''
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38154">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38155 - &#34;Qualcomm Atheros mt76 Wireless Null Pointer Dereference Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38155
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-wifi: mt76: mt7915: Fix null-ptr-deref in mt7915_mmio_wed_init()
-
-devm_ioremap() returns NULL on error. Currently, mt7915_mmio_wed_init()
-does not check for this case, which results in a NULL pointer
-dereference.
-
-Prevent null pointer dereference in mt7915_mmio_wed_init().
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38155">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38156 - Marvell MT7996 Null Pointer Dereference Vulnerability (WiFi)
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38156
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-wifi: mt76: mt7996: Fix null-ptr-deref in mt7996_mmio_wed_init()
-
-devm_ioremap() returns NULL on error. Currently, mt7996_mmio_wed_init()
-does not check for this case, which results in a NULL pointer
-dereference.
-
-Prevent null pointer dereference in mt7996_mmio_wed_init()
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38156">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38157 - &#34;Qualcomm ath9k_htc USB WMI Out-of-Bounds Read/Write&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38157
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-wifi: ath9k_htc: Abort software beacon handling if disabled
-
-A malicious USB device can send a WMI_SWBA_EVENTID event from an
-ath9k_htc-managed device before beaconing has been enabled. This causes
-a device-by-zero error in the driver, leading to either a crash or an
-out of bounds read.
-
-Prevent this by aborting the handling in ath9k_htc_swba() if beacons are
-not enabled.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38157">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38158 - Hisi Acc VFio PCI DMA Address Error Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38158
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-hisi_acc_vfio_pci: fix XQE dma address error
-
-The dma addresses of EQE and AEQE are wrong after migration and
-results in guest kernel-mode encryption services  failure.
-Comparing the definition of hardware registers, we found that
-there was an error when the data read from the register was
-combined into an address. Therefore, the address combination
-sequence needs to be corrected.
-
-Even after fixing the above problem, we still have an issue
-where the Guest from an old kernel can get migrated to
-new kernel and may result in wrong data.
-
-In order to ensure that the address is correct after migration,
-if an old magic number is detected, the dma address needs to be
-updated.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38158">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38159 - &#34;RTW88 WiFi Out-of-Bounds Read&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38159
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-wifi: rtw88: fix the 'para' buffer size to avoid reading out of bounds
-
-Set the size to 6 instead of 2, since 'para' array is passed to
-'rtw_fw_bt_wifi_control(rtwdev, para[0], &para[1])', which reads
-5 bytes:
-
-void rtw_fw_bt_wifi_control(struct rtw_dev *rtwdev, u8 op_code, u8 *data)
-{
-    ...
-    SET_BT_WIFI_CONTROL_DATA1(h2c_pkt, *data);
-    SET_BT_WIFI_CONTROL_DATA2(h2c_pkt, *(data + 1));
-    ...
-    SET_BT_WIFI_CONTROL_DATA5(h2c_pkt, *(data + 4));
-
-Detected using the static analysis tool - Svace.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38159">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38160 - Raspberry Pi Linux Kernel NULL Pointer Dereference Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38160
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-clk: bcm: rpi: Add NULL check in raspberrypi_clk_register()
-
-devm_kasprintf() returns NULL when memory allocation fails. Currently,
-raspberrypi_clk_register() does not check for this case, which results
-in a NULL pointer dereference.
-
-Add NULL check after devm_kasprintf() to prevent this issue.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38160">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38161 - &#34;IBM Mellanox mlx5 RDMA Use-After-Free Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38161
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-RDMA/mlx5: Fix error flow upon firmware failure for RQ destruction
-
-Upon RQ destruction if the firmware command fails which is the
-last resource to be destroyed some SW resources were already cleaned
-regardless of the failure.
-
-Now properly rollback the object to its original state upon such failure.
-
-In order to avoid a use-after free in case someone tries to destroy the
-object again, which results in the following kernel trace:
-refcount_t: underflow; use-after-free.
-WARNING: CPU: 0 PID: 37589 at lib/refcount.c:28 refcount_warn_saturate+0xf4/0x148
-Modules linked in: rdma_ucm(OE) rdma_cm(OE) iw_cm(OE) ib_ipoib(OE) ib_cm(OE) ib_umad(OE) mlx5_ib(OE) rfkill mlx5_core(OE) mlxdevm(OE) ib_uverbs(OE) ib_core(OE) psample mlxfw(OE) mlx_compat(OE) macsec tls pci_hyperv_intf sunrpc vfat fat virtio_net net_failover failover fuse loop nfnetlink vsock_loopback vmw_vsock_virtio_transport_common vmw_vsock_vmci_transport vmw_vmci vsock xfs crct10dif_ce ghash_ce sha2_ce sha256_arm64 sha1_ce virtio_console virtio_gpu virtio_blk virtio_dma_buf virtio_mmio dm_mirror dm_region_hash dm_log dm_mod xpmem(OE)
-CPU: 0 UID: 0 PID: 37589 Comm: python3 Kdump: loaded Tainted: G           OE     -------  ---  6.12.0-54.el10.aarch64 #1
-Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
-Hardware name: QEMU KVM Virtual Machine, BIOS 0.0.0 02/06/2015
-pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
-pc : refcount_warn_saturate+0xf4/0x148
-lr : refcount_warn_saturate+0xf4/0x148
-sp : ffff80008b81b7e0
-x29: ffff80008b81b7e0 x28: ffff000133d51600 x27: 0000000000000001
-x26: 0000000000000000 x25: 00000000ffffffea x24: ffff00010ae80f00
-x23: ffff00010ae80f80 x22: ffff0000c66e5d08 x21: 0000000000000000
-x20: ffff0000c66e0000 x19: ffff00010ae80340 x18: 0000000000000006
-x17: 0000000000000000 x16: 0000000000000020 x15: ffff80008b81b37f
-x14: 0000000000000000 x13: 2e656572662d7265 x12: ffff80008283ef78
-x11: ffff80008257efd0 x10: ffff80008283efd0 x9 : ffff80008021ed90
-x8 : 0000000000000001 x7 : 00000000000bffe8 x6 : c0000000ffff7fff
-x5 : ffff0001fb8e3408 x4 : 0000000000000000 x3 : ffff800179993000
-x2 : 0000000000000000 x1 : 0000000000000000 x0 : ffff000133d51600
-Call trace:
- refcount_warn_saturate+0xf4/0x148
- mlx5_core_put_rsc+0x88/0xa0 [mlx5_ib]
- mlx5_core_destroy_rq_tracked+0x64/0x98 [mlx5_ib]
- mlx5_ib_destroy_wq+0x34/0x80 [mlx5_ib]
- ib_destroy_wq_user+0x30/0xc0 [ib_core]
- uverbs_free_wq+0x28/0x58 [ib_uverbs]
- destroy_hw_idr_uobject+0x34/0x78 [ib_uverbs]
- uverbs_destroy_uobject+0x48/0x240 [ib_uverbs]
- __uverbs_cleanup_ufile+0xd4/0x1a8 [ib_uverbs]
- uverbs_destroy_ufile_hw+0x48/0x120 [ib_uverbs]
- ib_uverbs_close+0x2c/0x100 [ib_uverbs]
- __fput+0xd8/0x2f0
- __fput_sync+0x50/0x70
- __arm64_sys_close+0x40/0x90
- invoke_syscall.constprop.0+0x74/0xd0
- do_el0_svc+0x48/0xe8
- el0_svc+0x44/0x1d0
- el0t_64_sync_handler+0x120/0x130
- el0t_64_sync+0x1a4/0x1a8
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38161">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38162 - Linux Kernel Netfilter NFT Set Pipapo Integer Overflow Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38162
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-netfilter: nft_set_pipapo: prevent overflow in lookup table allocation
-
-When calculating the lookup table size, ensure the following
-multiplication does not overflow:
-
-- desc->field_len[] maximum value is U8_MAX multiplied by
-  NFT_PIPAPO_GROUPS_PER_BYTE(f) that can be 2, worst case.
-- NFT_PIPAPO_BUCKETS(f->bb) is 2^8, worst case.
-- sizeof(unsigned long), from sizeof(*f->lt), lt in
-  struct nft_pipapo_field.
-
-Then, use check_mul_overflow() to multiply by bucket size and then use
-check_add_overflow() to the alignment for avx2 (if needed). Finally, add
-lt_size_check_overflow() helper and use it to consolidate this.
-
-While at it, replace leftover allocation using the GFP_KERNEL to
-GFP_KERNEL_ACCOUNT for consistency, in pipapo_resize().
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38162">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38163 - &#34;F2FS Sanity Check Denial of Service&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38163
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-f2fs: fix to do sanity check on sbi->total_valid_block_count
-
-syzbot reported a f2fs bug as below:
-
-------------[ cut here ]------------
-kernel BUG at fs/f2fs/f2fs.h:2521!
-RIP: 0010:dec_valid_block_count+0x3b2/0x3c0 fs/f2fs/f2fs.h:2521
-Call Trace:
- f2fs_truncate_data_blocks_range+0xc8c/0x11a0 fs/f2fs/file.c:695
- truncate_dnode+0x417/0x740 fs/f2fs/node.c:973
- truncate_nodes+0x3ec/0xf50 fs/f2fs/node.c:1014
- f2fs_truncate_inode_blocks+0x8e3/0x1370 fs/f2fs/node.c:1197
- f2fs_do_truncate_blocks+0x840/0x12b0 fs/f2fs/file.c:810
- f2fs_truncate_blocks+0x10d/0x300 fs/f2fs/file.c:838
- f2fs_truncate+0x417/0x720 fs/f2fs/file.c:888
- f2fs_setattr+0xc4f/0x12f0 fs/f2fs/file.c:1112
- notify_change+0xbca/0xe90 fs/attr.c:552
- do_truncate+0x222/0x310 fs/open.c:65
- handle_truncate fs/namei.c:3466 [inline]
- do_open fs/namei.c:3849 [inline]
- path_openat+0x2e4f/0x35d0 fs/namei.c:4004
- do_filp_open+0x284/0x4e0 fs/namei.c:4031
- do_sys_openat2+0x12b/0x1d0 fs/open.c:1429
- do_sys_open fs/open.c:1444 [inline]
- __do_sys_creat fs/open.c:1522 [inline]
- __se_sys_creat fs/open.c:1516 [inline]
- __x64_sys_creat+0x124/0x170 fs/open.c:1516
- do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
- do_syscall_64+0xf3/0x230 arch/x86/entry/syscall_64.c:94
-
-The reason is: in fuzzed image, sbi->total_valid_block_count is
-inconsistent w/ mapped blocks indexed by inode, so, we should
-not trigger panic for such case, instead, let's print log and
-set fsck flag.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38163">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38164 - VirtualBox F2FS Inconsistent Segment Type
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38164
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-f2fs: zone: fix to avoid inconsistence in between SIT and SSA
-
-w/ below testcase, it will cause inconsistence in between SIT and SSA.
-
-create_null_blk 512 2 1024 1024
-mkfs.f2fs -m /dev/nullb0
-mount /dev/nullb0 /mnt/f2fs/
-touch /mnt/f2fs/file
-f2fs_io pinfile set /mnt/f2fs/file
-fallocate -l 4GiB /mnt/f2fs/file
-
-F2FS-fs (nullb0): Inconsistent segment (0) type [1, 0] in SSA and SIT
-CPU: 5 UID: 0 PID: 2398 Comm: fallocate Tainted: G           O       6.13.0-rc1 #84
-Tainted: [O]=OOT_MODULE
-Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
-Call Trace:
- <TASK>
- dump_stack_lvl+0xb3/0xd0
- dump_stack+0x14/0x20
- f2fs_handle_critical_error+0x18c/0x220 [f2fs]
- f2fs_stop_checkpoint+0x38/0x50 [f2fs]
- do_garbage_collect+0x674/0x6e0 [f2fs]
- f2fs_gc_range+0x12b/0x230 [f2fs]
- f2fs_allocate_pinning_section+0x5c/0x150 [f2fs]
- f2fs_expand_inode_data+0x1cc/0x3c0 [f2fs]
- f2fs_fallocate+0x3c3/0x410 [f2fs]
- vfs_fallocate+0x15f/0x4b0
- __x64_sys_fallocate+0x4a/0x80
- x64_sys_call+0x15e8/0x1b80
- do_syscall_64+0x68/0x130
- entry_SYSCALL_64_after_hwframe+0x67/0x6f
-RIP: 0033:0x7f9dba5197ca
-F2FS-fs (nullb0): Stopped filesystem due to reason: 4
-
-The reason is f2fs_gc_range() may try to migrate block in curseg, however,
-its SSA block is not uptodate due to the last summary block data is still
-in cache of curseg.
-
-In this patch, we add a condition in f2fs_gc_range() to check whether
-section is opened or not, and skip block migration for opened section.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38164">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38165 - Linux BPF Sockmap Panic Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38165
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-bpf, sockmap: Fix panic when calling skb_linearize
-
-The panic can be reproduced by executing the command:
-./bench sockmap -c 2 -p 1 -a --rx-verdict-ingress --rx-strp 100000
-
-Then a kernel panic was captured:
-'''
-[  657.460555] kernel BUG at net/core/skbuff.c:2178!
-[  657.462680] Tainted: [W]=WARN
-[  657.463287] Workqueue: events sk_psock_backlog
-...
-[  657.469610]  <TASK>
-[  657.469738]  ? die+0x36/0x90
-[  657.469916]  ? do_trap+0x1d0/0x270
-[  657.470118]  ? pskb_expand_head+0x612/0xf40
-[  657.470376]  ? pskb_expand_head+0x612/0xf40
-[  657.470620]  ? do_error_trap+0xa3/0x170
-[  657.470846]  ? pskb_expand_head+0x612/0xf40
-[  657.471092]  ? handle_invalid_op+0x2c/0x40
-[  657.471335]  ? pskb_expand_head+0x612/0xf40
-[  657.471579]  ? exc_invalid_op+0x2d/0x40
-[  657.471805]  ? asm_exc_invalid_op+0x1a/0x20
-[  657.472052]  ? pskb_expand_head+0xd1/0xf40
-[  657.472292]  ? pskb_expand_head+0x612/0xf40
-[  657.472540]  ? lock_acquire+0x18f/0x4e0
-[  657.472766]  ? find_held_lock+0x2d/0x110
-[  657.472999]  ? __pfx_pskb_expand_head+0x10/0x10
-[  657.473263]  ? __kmalloc_cache_noprof+0x5b/0x470
-[  657.473537]  ? __pfx___lock_release.isra.0+0x10/0x10
-[  657.473826]  __pskb_pull_tail+0xfd/0x1d20
-[  657.474062]  ? __kasan_slab_alloc+0x4e/0x90
-[  657.474707]  sk_psock_skb_ingress_enqueue+0x3bf/0x510
-[  657.475392]  ? __kasan_kmalloc+0xaa/0xb0
-[  657.476010]  sk_psock_backlog+0x5cf/0xd70
-[  657.476637]  process_one_work+0x858/0x1a20
-'''
-
-The panic originates from the assertion BUG_ON(skb_shared(skb)) in
-skb_linearize(). A previous commit(see Fixes tag) introduced skb_get()
-to avoid race conditions between skb operations in the backlog and skb
-release in the recvmsg path. However, this caused the panic to always
-occur when skb_linearize is executed.
-
-The "--rx-strp 100000" parameter forces the RX path to use the strparser
-module which aggregates data until it reaches 100KB before calling sockmap
-logic. The 100KB payload exceeds MAX_MSG_FRAGS, triggering skb_linearize.
-
-To fix this issue, just move skb_get into sk_psock_skb_ingress_enqueue.
-
-'''
-sk_psock_backlog:
-    sk_psock_handle_skb
-       skb_get(skb) <== we move it into 'sk_psock_skb_ingress_enqueue'
-       sk_psock_skb_ingress____________
-                                       ↓
-                                       |
-                                       | → sk_psock_skb_ingress_self
-                                       |      sk_psock_skb_ingress_enqueue
-sk_psock_verdict_apply_________________↑          skb_linearize
-'''
-
-Note that for verdict_apply path, the skb_get operation is unnecessary so
-we add 'take_ref' param to control it's behavior.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38165">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38166 - Linux Kernel BPF ktls Panic Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38166
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-bpf: fix ktls panic with sockmap
-
-[ 2172.936997] ------------[ cut here ]------------
-[ 2172.936999] kernel BUG at lib/iov_iter.c:629!
-......
-[ 2172.944996] PKRU: 55555554
-[ 2172.945155] Call Trace:
-[ 2172.945299]  <TASK>
-[ 2172.945428]  ? die+0x36/0x90
-[ 2172.945601]  ? do_trap+0xdd/0x100
-[ 2172.945795]  ? iov_iter_revert+0x178/0x180
-[ 2172.946031]  ? iov_iter_revert+0x178/0x180
-[ 2172.946267]  ? do_error_trap+0x7d/0x110
-[ 2172.946499]  ? iov_iter_revert+0x178/0x180
-[ 2172.946736]  ? exc_invalid_op+0x50/0x70
-[ 2172.946961]  ? iov_iter_revert+0x178/0x180
-[ 2172.947197]  ? asm_exc_invalid_op+0x1a/0x20
-[ 2172.947446]  ? iov_iter_revert+0x178/0x180
-[ 2172.947683]  ? iov_iter_revert+0x5c/0x180
-[ 2172.947913]  tls_sw_sendmsg_locked.isra.0+0x794/0x840
-[ 2172.948206]  tls_sw_sendmsg+0x52/0x80
-[ 2172.948420]  ? inet_sendmsg+0x1f/0x70
-[ 2172.948634]  __sys_sendto+0x1cd/0x200
-[ 2172.948848]  ? find_held_lock+0x2b/0x80
-[ 2172.949072]  ? syscall_trace_enter+0x140/0x270
-[ 2172.949330]  ? __lock_release.isra.0+0x5e/0x170
-[ 2172.949595]  ? find_held_lock+0x2b/0x80
-[ 2172.949817]  ? syscall_trace_enter+0x140/0x270
-[ 2172.950211]  ? lockdep_hardirqs_on_prepare+0xda/0x190
-[ 2172.950632]  ? ktime_get_coarse_real_ts64+0xc2/0xd0
-[ 2172.951036]  __x64_sys_sendto+0x24/0x30
-[ 2172.951382]  do_syscall_64+0x90/0x170
-......
-
-After calling bpf_exec_tx_verdict(), the size of msg_pl->sg may increase,
-e.g., when the BPF program executes bpf_msg_push_data().
-
-If the BPF program sets cork_bytes and sg.size is smaller than cork_bytes,
-it will return -ENOSPC and attempt to roll back to the non-zero copy
-logic. However, during rollback, msg->msg_iter is reset, but since
-msg_pl->sg.size has been increased, subsequent executions will exceed the
-actual size of msg_iter.
-'''
-iov_iter_revert(&msg->msg_iter, msg_pl->sg.size - orig_size);
-'''
-
-The changes in this commit are based on the following considerations:
-
-1. When cork_bytes is set, rolling back to non-zero copy logic is
-pointless and can directly go to zero-copy logic.
-
-2. We can not calculate the correct number of bytes to revert msg_iter.
-
-Assume the original data is "abcdefgh" (8 bytes), and after 3 pushes
-by the BPF program, it becomes 11-byte data: "abc?de?fgh?".
-Then, we set cork_bytes to 6, which means the first 6 bytes have been
-processed, and the remaining 5 bytes "?fgh?" will be cached until the
-length meets the cork_bytes requirement.
-
-However, some data in "?fgh?" is not within 'sg->msg_iter'
-(but in msg_pl instead), especially the data "?" we pushed.
-
-So it doesn't seem as simple as just reverting through an offset of
-msg_iter.
-
-3. For non-TLS sockets in tcp_bpf_sendmsg, when a "cork" situation occurs,
-the user-space send() doesn't return an error, and the returned length is
-the same as the input length parameter, even if some data is cached.
-
-Additionally, I saw that the current non-zero-copy logic for handling
-corking is written as:
-'''
-line 1177
-else if (ret != -EAGAIN) {
-	if (ret == -ENOSPC)
-		ret = 0;
-	goto send_end;
-'''
-
-So it's ok to just return 'copied' without error when a "cork" situation
-occurs.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38166">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38167 - &#34;NTFS3 Linux Kernel Null Pointer Dereference Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38167
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-fs/ntfs3: handle hdr_first_de() return value
-
-The hdr_first_de() function returns a pointer to a struct NTFS_DE. This
-pointer may be NULL. To handle the NULL error effectively, it is important
-to implement an error handler. This will help manage potential errors
-consistently.
-
-Additionally, error handling for the return value already exists at other
-points where this function is called.
-
-Found by Linux Verification Center (linuxtesting.org) with SVACE.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38167">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38168 - &#34;ARM-NI Linux Kernel Perf PMU Unregister Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38168
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-perf: arm-ni: Unregister PMUs on probe failure
-
-When a resource allocation fails in one clock domain of an NI device,
-we need to properly roll back all previously registered perf PMUs in
-other clock domains of the same device.
-
-Otherwise, it can lead to kernel panics.
-
-Calling arm_ni_init+0x0/0xff8 [arm_ni] @ 2374
-arm-ni ARMHCB70:00: Failed to request PMU region 0x1f3c13000
-arm-ni ARMHCB70:00: probe with driver arm-ni failed with error -16
-list_add corruption: next->prev should be prev (fffffd01e9698a18),
-but was 0000000000000000. (next=ffff10001a0decc8).
-pstate: 6340009 (nZCv daif +PAN -UAO +TCO +DIT -SSBS BTYPE=--)
-pc : list_add_valid_or_report+0x7c/0xb8
-lr : list_add_valid_or_report+0x7c/0xb8
-Call trace:
- __list_add_valid_or_report+0x7c/0xb8
- perf_pmu_register+0x22c/0x3a0
- arm_ni_probe+0x554/0x70c [arm_ni]
- platform_probe+0x70/0xe8
- really_probe+0xc6/0x4d8
- driver_probe_device+0x48/0x170
- __driver_attach+0x8e/0x1c0
- bus_for_each_dev+0x64/0xf0
- driver_add+0x138/0x260
- bus_add_driver+0x68/0x138
- __platform_driver_register+0x2c/0x40
- arm_ni_init+0x14/0x2a [arm_ni]
- do_init_module+0x36/0x298
----[ end trace 0000000000000000 ]---
-Kernel panic - not syncing: Oops - BUG: Fatal exception
-SMP: stopping secondary CPUs
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38168">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38169 - Linux Kernel ARM64 FPSIMD State Clobbering Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38169
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-arm64/fpsimd: Avoid clobbering kernel FPSIMD state with SMSTOP
-
-On system with SME, a thread's kernel FPSIMD state may be erroneously
-clobbered during a context switch immediately after that state is
-restored. Systems without SME are unaffected.
-
-If the CPU happens to be in streaming SVE mode before a context switch
-to a thread with kernel FPSIMD state, fpsimd_thread_switch() will
-restore the kernel FPSIMD state using fpsimd_load_kernel_state() while
-the CPU is still in streaming SVE mode. When fpsimd_thread_switch()
-subsequently calls fpsimd_flush_cpu_state(), this will execute an
-SMSTOP, causing an exit from streaming SVE mode. The exit from
-streaming SVE mode will cause the hardware to reset a number of
-FPSIMD/SVE/SME registers, clobbering the FPSIMD state.
-
-Fix this by calling fpsimd_flush_cpu_state() before restoring the kernel
-FPSIMD state.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38169">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38170 - Linux kernel - arm64 FPSIMD SME Trap Handling Stale CPU State Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38170
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-arm64/fpsimd: Discard stale CPU state when handling SME traps
-
-The logic for handling SME traps manipulates saved FPSIMD/SVE/SME state
-incorrectly, and a race with preemption can result in a task having
-TIF_SME set and TIF_FOREIGN_FPSTATE clear even though the live CPU state
-is stale (e.g. with SME traps enabled). This can result in warnings from
-do_sme_acc() where SME traps are not expected while TIF_SME is set:
-
-|        /* With TIF_SME userspace shouldn't generate any traps */
-|        if (test_and_set_thread_flag(TIF_SME))
-|                WARN_ON(1);
-
-This is very similar to the SVE issue we fixed in commit:
-
-  751ecf6afd6568ad ("arm64/sve: Discard stale CPU state when handling SVE traps")
-
-The race can occur when the SME trap handler is preempted before and
-after manipulating the saved FPSIMD/SVE/SME state, starting and ending on
-the same CPU, e.g.
-
-| void do_sme_acc(unsigned long esr, struct pt_regs *regs)
-| {
-|         // Trap on CPU 0 with TIF_SME clear, SME traps enabled
-|         // task->fpsimd_cpu is 0.
-|         // per_cpu_ptr(&fpsimd_last_state, 0) is task.
-|
-|         ...
-|
-|         // Preempted; migrated from CPU 0 to CPU 1.
-|         // TIF_FOREIGN_FPSTATE is set.
-|
-|         get_cpu_fpsimd_context();
-|
-|         /* With TIF_SME userspace shouldn't generate any traps */
-|         if (test_and_set_thread_flag(TIF_SME))
-|                 WARN_ON(1);
-|
-|         if (!test_thread_flag(TIF_FOREIGN_FPSTATE)) {
-|                 unsigned long vq_minus_one =
-|                         sve_vq_from_vl(task_get_sme_vl(current)) - 1;
-|                 sme_set_vq(vq_minus_one);
-|
-|                 fpsimd_bind_task_to_cpu();
-|         }
-|
-|         put_cpu_fpsimd_context();
-|
-|         // Preempted; migrated from CPU 1 to CPU 0.
-|         // task->fpsimd_cpu is still 0
-|         // If per_cpu_ptr(&fpsimd_last_state, 0) is still task then:
-|         // - Stale HW state is reused (with SME traps enabled)
-|         // - TIF_FOREIGN_FPSTATE is cleared
-|         // - A return to userspace skips HW state restore
-| }
-
-Fix the case where the state is not live and TIF_FOREIGN_FPSTATE is set
-by calling fpsimd_flush_task_state() to detach from the saved CPU
-state. This ensures that a subsequent context switch will not reuse the
-stale CPU state, and will instead set TIF_FOREIGN_FPSTATE, forcing the
-new state to be reloaded from memory prior to a return to userspace.
-
-Note: this was originallly posted as [1].
-
-[ Rutland: rewrite commit message ]
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38170">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38171 - Linux Power Supply Driver Max77705 Workqueue Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38171
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-power: supply: max77705: Fix workqueue error handling in probe
-
-The create_singlethread_workqueue() doesn't return error pointers, it
-returns NULL.  Also cleanup the workqueue on the error paths.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38171">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38172 - &#34;Linux EROFS UAF Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38172
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-erofs: avoid using multiple devices with different type
-
-For multiple devices, both primary and extra devices should be the
-same type. `erofs_init_device` has already guaranteed that if the
-primary is a file-backed device, extra devices should also be
-regular files.
-
-However, if the primary is a block device while the extra device
-is a file-backed device, `erofs_init_device` will get an ENOTBLK,
-which is not treated as an error in `erofs_fc_get_tree`, and that
-leads to an UAF:
-
-  erofs_fc_get_tree
-    get_tree_bdev_flags(erofs_fc_fill_super)
-      erofs_read_superblock
-        erofs_init_device  // sbi->dif0 is not inited yet,
-                           // return -ENOTBLK
-      deactivate_locked_super
-        free(sbi)
-    if (err is -ENOTBLK)
-      sbi->dif0.file = filp_open()  // sbi UAF
-
-So if -ENOTBLK is hitted in `erofs_init_device`, it means the
-primary device must be a block device, and the extra device
-is not a block device. The error can be converted to -EINVAL.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38172">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38173 - Marvell CESA Zero-Length SKCipher Request Buffer Overflow
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38173
-<br>
-<strong>Published : </strong> July 3, 2025, 9:15 a.m. | 53 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-crypto: marvell/cesa - Handle zero-length skcipher requests
-
-Do not access random memory for zero-length skcipher requests.
-Just return 0.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38173">
                                 read more
                             </a>
                     </article>
