@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 03 Jul 2025 14:18:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 14:44:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2537
 <br>
-<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 57 minutes ago
 <br>
 <strong>Description : </strong>Multiple plugins for WordPress are vulnerable to Stored Cross-Site Scripting via the plugin's bundled ThickBox JavaScript library (version 3.1) in various versions due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2932
 <br>
-<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 57 minutes ago
 <br>
 <strong>Description : </strong>The JKDEVKIT plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the 'font_upload_handler' function in all versions up to, and including, 1.9.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). If WooCommerce is enabled, attackers will need Contributor-level access and above.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3702
 <br>
-<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 57 minutes ago
 <br>
 <strong>Description : </strong>Missing Authorization vulnerability in Melapress Melapress File Monitor allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Melapress File Monitor: from n/a before 2.2.0.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49032
 <br>
-<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 57 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in PublishPress Gutenberg Blocks allows Stored XSS.This issue affects Gutenberg Blocks: from n/a through 3.3.1.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49595
 <br>
-<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 57 minutes ago
 <br>
 <strong>Description : </strong>n8n is a workflow automation platform. Prior to version 1.99.0, there is a denial of Service vulnerability in /rest/binary-data endpoint when processing empty filesystem URIs (filesystem:// or filesystem-v2://). This allows authenticated attackers to cause service unavailability through malformed filesystem URI requests, effecting the /rest/binary-data endpoint and n8n.cloud instances (confirmed HTTP/2 524 timeout responses). Attackers can exploit this by sending GET requests with empty filesystem URIs (filesystem:// or filesystem-v2://) to the /rest/binary-data endpoint, causing resource exhaustion and service disruption. This issue has been patched in version 1.99.0.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49618
 <br>
-<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 1:15 p.m. | 57 minutes ago
 <br>
 <strong>Description : </strong>In Plesk Obsidian 18.0.69, unauthenticated requests to /login_up.php can reveal an AWS accessKeyId, secretAccessKey, region, and endpoint.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27447
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The web application is susceptible to cross-site-scripting attacks. An attacker can create a prepared URL, which injects JavaScript code into the website. The code is executed in the victimâ€™s browser when an authenticated administrator clicks the link.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27448
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The web application is susceptible to cross-site-scripting attacks. An attacker who can create new dashboards can inject JavaScript code into the dashboard name which will be executed when the website is loaded.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27449
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The MEAC300-FNADE4 does not implement sufficient measures to prevent multiple failed authentication attempts within a short time frame, making it susceptible to brute-force attacks.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27450
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The Secure attribute is missing on multiple cookies provided by the MEAC300-FNADE4. An attacker can trick a user to establish an unencrypted HTTP connection to the server and intercept the request containing the PHPSESSID cookie.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27451
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>For failed login attempts, the application returns different error messages depending on whether the login failed due to an incorrect password or a non-existing username. This allows an attacker to guess usernames until they find an existing one.
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27452
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The configuration of the Apache httpd webserver which serves the MEAC300-FNADE4 web application, is partly insecure. There are modules activated that are not required for the operation of the FNADE4 web application. The functionality of the some modules 
 
@@ -225,7 +225,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27453
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The HttpOnly flag is set to false on the PHPSESSION cookie. Therefore, the cookie can be accessed by other sources such as JavaScript.
 <br>
@@ -242,7 +242,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27454
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The application is vulnerable to cross-site request forgery. An attacker can trick a valid, logged in user into submitting a web request that they did not intend. The request uses the victim's browser's saved authorization to execute the request.
 <br>
@@ -259,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27455
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The web application is vulnerable to clickjacking attacks. The site can be embedded into another frame, allowing an attacker to trick a user into clicking on something different from what the user perceives, thus potentially revealing confidential information or allowing others to take control of their computer while clicking on seemingly innocuous objects.
 <br>
@@ -276,7 +276,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27456
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The SMB server's login mechanism does not implement sufficient measures to prevent multiple failed authentication attempts within a short time frame, making it susceptible to brute-force attacks.
 <br>
@@ -293,7 +293,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27457
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>All communication between the VNC server and client(s) is unencrypted. This allows an attacker to intercept the traffic and obtain sensitive data.
 <br>
@@ -310,7 +310,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27458
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The VNC authentication mechanism bases on a challenge-response system where both server and client use the same password for encryption. The challenge is sent from the server to the client, is encrypted by the client and sent back. The server does the same encryption locally and if the responses match it is prooven that the client knows the correct password. Since all VNC communication is unencrypted, an attacker can obtain the challenge and response and try to derive the password from this information.
 <br>
@@ -327,7 +327,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27459
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The VNC application stores its passwords encrypted within the registry but uses DES for encryption. As DES is broken, the original passwords can be recovered.
 <br>
@@ -344,7 +344,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27460
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>The hard drives of the device are not encrypted using a full volume encryption feature such as BitLocker. This allows an attacker with physical access to the device to use an alternative operating system to interact with the hard drives, completely circumventing the Windows login. The attacker can read from and write to all files on the hard drives.
 <br>
@@ -361,7 +361,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27461
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>During startup, the device automatically logs in the EPC2 Windows user without requesting a password.
 <br>
@@ -378,7 +378,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2540
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>Multiple plugins for WordPress are vulnerable to Stored Cross-Site Scripting via the plugin's bundled prettyPhoto library (version 3.1.6) in various versions due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -395,7 +395,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40722
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>Stored Cross-Site Scripting (XSS) vulnerability in versions prior to Flatboard 3.2.2 of Flatboard Pro, consisting of a stored XSS due to lack of proper validation of user input, through the replace parameter in /config.php/tags.
 <br>
@@ -412,7 +412,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40723
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>Stored Cross-Site Scripting (XSS) vulnerability in versions prior to Flatboard 3.2.2 of Flatboard Pro, consisting of a stored XSS due to lack of proper validation of user input, through the footer_text and announcement parameters in config.php.
 <br>
@@ -429,7 +429,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6563
 <br>
-<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 54 minutes ago
+<strong>Published : </strong> July 3, 2025, 12:15 p.m. | 1 hour, 57 minutes ago
 <br>
 <strong>Description : </strong>A cross-site scripting vulnerability is present in the hotspot of MikroTik's RouterOS on versions below 7.19.2. An attacker can inject the `javascript` protocol in the `dst` parameter. When the victim browses to the malicious URL and logs in, the XSS executes. The POST request used to login, can also be converted to a GET request, allowing an attacker to send a specifically crafted URL that automatically logs in the victim (into the attacker's account) and triggers the payload.
 <br>
