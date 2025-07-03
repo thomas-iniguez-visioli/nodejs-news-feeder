@@ -179,12 +179,346 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-49005 - Next.js App Router/Cache Poisoning Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-49005
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 p.m. | 54 minutes ago
+<br>
+<strong>Description : </strong>Next.js is a React framework for building full-stack web applications. In Next.js App Router from 15.3.0 to before 15.3.3 and Vercel CLI from 41.4.1 to 42.2.0, a cache poisoning vulnerability was found. The issue allowed page requests for HTML content to return a React Server Component (RSC) payload instead under certain conditions. When deployed to Vercel, this would only impact the browser cache, and would not lead to the CDN being poisoned. When self-hosted and deployed externally, this could lead to cache poisoning if the CDN does not properly distinguish between RSC / HTML in the cache keys. This issue has been resolved in Next.js 15.3.3.
+<br>
+<strong>Severity:</strong> 3.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 21:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-49005">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-49826 - Next.js Cache Poisoning DoS Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-49826
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 p.m. | 54 minutes ago
+<br>
+<strong>Description : </strong>Next.js is a React framework for building full-stack web applications. From versions 15.1.0 to before 15.1.8, a cache poisoning bug leading to a Denial of Service (DoS) condition was found in Next.js. This issue does not impact customers hosted on Vercel. Under certain conditions, this issue may allow a HTTP 204 response to be cached for static pages, leading to the 204 response being served to all users attempting to access the page. This issue has been addressed in version 15.1.8.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 21:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-49826">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53367 - DjVuLibre Out-of-Bounds Write and Read Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53367
+<br>
+<strong>Published : </strong> July 3, 2025, 9:15 p.m. | 54 minutes ago
+<br>
+<strong>Description : </strong>DjVuLibre is a GPL implementation of DjVu, a web-centric format for distributing documents and images. Prior to version 3.5.29, the MMRDecoder::scanruns method is affected by an OOB-write vulnerability, because it does not check that the xr pointer stays within the bounds of the allocated buffer. This can lead to writes beyond the allocated memory, resulting in a heap corruption condition. An out-of-bounds read with pr is also possible for the same reason. This issue has been patched in version 3.5.29.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 21:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53367">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34061 - PHPStudy Unauthenticated Remote Code Execution Backdoor
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34061
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>A backdoor in PHPStudy versions 2016 through 2018 allows unauthenticated remote attackers to execute arbitrary PHP code on affected installations. The backdoor listens for base64-encoded PHP payloads in the Accept-Charset HTTP header of incoming requests, decodes and executes the payload without proper validation. This leads to remote code execution as the web server user, compromising the affected system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34061">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34082 - IGEL OS Command Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34082
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>A command injection vulnerability exists in IGEL OS versions prior to 11.04.270 within the Secure Terminal and Secure Shadow services. The flaw arises due to improper input sanitization in the handling of specially crafted PROXYCMD commands on TCP ports 30022 and 5900. An unauthenticated attacker with network access to a vulnerable device can inject arbitrary commands, leading to remote code execution with elevated privileges.
+
+NOTE: IGEL OS v10.x has reached end-of-life (EOL) status.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34082">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34086 - Bolt CMS Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34086
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Bolt CMS versions 3.7.0 and earlier contain a chain of vulnerabilities that together allow an authenticated user to achieve remote code execution. A user with valid credentials can inject arbitrary PHP code into the displayname field of the user profile, which is rendered unsanitized in backend templates. The attacker can then list and rename cached session files via the /async/browse/cache/.sessions and /async/folder/rename endpoints. By renaming a .session file to a path under the publicly accessible /files/ directory with a .php extension, the attacker can turn the injected code into an executable web shell. Finally, the attacker triggers the payload via a crafted HTTP GET request to the rogue file.
+
+NOTE: The vendor announced that Bolt 3 reached end-of-life after 31 December 2021.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34086">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34087 - Pi-hole Command Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34087
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>An authenticated command injection vulnerability exists in Pi-hole versions up to 3.3. When adding a domain to the allowlist via the web interface, the domain parameter is not properly sanitized, allowing an attacker to append OS commands to the domain string. These commands are executed on the underlying operating system with the privileges of the Pi-hole service user.
+
+
+
+
+This behavior was present in the legacy AdminLTE interface and has since been patched in later versions.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34087">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34088 - Pandora FMS Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34088
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>An authenticated remote code execution vulnerability exists in Pandora FMS version 7.0NG and earlier. The net_tools.php functionality allows authenticated users to execute arbitrary OS commands via the select_ips parameter when performing network tools operations, such as pinging. This occurs because user input is not properly sanitized before being passed to system commands, enabling command injection.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34088">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34089 - Aexol Studio Remote for Mac Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34089
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated remote code execution vulnerability exists in Remote for Mac, a macOS remote control utility developed by Aexol Studio, in versions up to and including 2025.7. When the application is configured with authentication disabled (i.e., the "Allow unknown devices" option is enabled), the /api/executeScript endpoint is exposed without access control. This allows unauthenticated remote attackers to inject arbitrary AppleScript payloads via the X-Script HTTP header, resulting in code execution using do shell script. Successful exploitation grants attackers the ability to run arbitrary commands on the macOS host with the privileges of the Remote for Mac background process.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34089">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52554 - n8n Unauthorized Execution Stop Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52554
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>n8n is a workflow automation platform. Prior to version 1.99.1, an authorization vulnerability was discovered in the /rest/executions/:id/stop endpoint of n8n. An authenticated user can stop workflow executions that they do not own or that have not been shared with them, leading to potential business disruption. This issue has been patched in version 1.99.1. A workaround involves restricting access to the /rest/executions/:id/stop endpoint via reverse proxy or API gateway.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52554">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53368 - Citizen MediaWiki XSS Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53368
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Citizen is a MediaWiki skin that makes extensions part of the cohesive experience. From versions 1.9.4 to before 3.4.0, page descriptions are inserted into raw HTML without proper sanitization by the Citizen skin when using the old search bar. Any user with page editing privileges can insert cross-site scripting (XSS) payloads into the DOM for other users who are searching for specific pages. This issue has been patched in version 3.4.0.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53368">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53369 - MediaWiki Short Description Cross-Site Scripting
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53369
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Short Description is a MediaWiki extension that provides local short description support. In version 4.0.0, short descriptions are not properly sanitized before being inserted as HTML using mw.util.addSubtitle, allowing any user to insert arbitrary HTML into the DOM by editing a page. This issue has been patched in version 4.0.1.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53369">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53370 - Citizen MediaWiki Cross-Site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53370
+<br>
+<strong>Published : </strong> July 3, 2025, 8:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Citizen is a MediaWiki skin that makes extensions part of the cohesive experience. From versions 1.9.4 to before 3.4.0, short descriptions set via the ShortDescription extension are inserted as raw HTML by the Citizen skin, allowing any user to insert arbitrary HTML into the DOM by editing a page. This issue has been patched in version 3.4.0.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53370">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-23968 - WPCenter AiBud WP Unrestricted File Upload RCE
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-23968
 <br>
-<strong>Published : </strong> July 3, 2025, 7:15 p.m. | 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 7:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Unrestricted Upload of File with Dangerous Type vulnerability in WPCenter AiBud WP allows Upload a Web Shell to a Web Server.This issue affects AiBud WP: from n/a through 1.8.5.
 <br>
@@ -209,7 +543,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45809
 <br>
-<strong>Published : </strong> July 3, 2025, 7:15 p.m. | 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 7:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>BerriAI litellm v1.65.4 was discovered to contain a SQL injection vulnerability via the /key/block endpoint.
 <br>
@@ -229,37 +563,12 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-48939 - Tarteaucitron.js Script Element Property Clobbering Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-48939
-<br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
-<br>
-<strong>Description : </strong>tarteaucitron.js is a compliant and accessible cookie banner. Prior to version 1.22.0, a vulnerability was identified in tarteaucitron.js where document.currentScript was accessed without verifying that it referenced an actual <script> element. If an attacker injected an HTML element, it could clobber the document.currentScript property. This causes the script to resolve incorrectly to an element instead of the <script> tag, leading to unexpected behavior or failure to load the script path correctly. This issue arises because in some browser environments, named DOM elements become properties on the global document object. An attacker with control over the HTML could exploit this to change the CDN domain of tarteaucitron. This issue has been patched in version 1.22.0.
-<br>
-<strong>Severity:</strong> 4.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 03 Jul 2025 17:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-48939">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
                             CVE-2025-49846 - Wire iOS Unauthenticated System Log Disclosure
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-49846
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>wire-ios is an iOS client for the Wire secure messaging application. From Wire iOS 3.111.1 to before 3.124.1, messages that were visible in the view port have been logged to the iOS system logs in clear text. Wire application logs created and managed by the application itself were not affected, especially not the logs users can export and send to Wire support. The iOS logs can only be accessed if someone had (physical) access to the underlying unlocked device. The issue manifested itself by calling canOpenUrl() and passing an invalid URL object. When iOS then performs the check and fails, it logs the contents to the system log. This is not documented behaviour. Wire released an emergency fix with version 3.124.1. As a workaround, users can reset their iOS device to remove the offending logs. Since Wire cannot access or modify iOS system logs, there's no other workaround other than a reset.
 <br>
@@ -284,7 +593,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53489
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - GoogleDocs4MW Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - GoogleDocs4MW Extension: from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
 <br>
@@ -309,7 +618,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53500
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - MassEditRegex Extension allows Stored XSS.This issue affects Mediawiki - MassEditRegex Extension: from 1.39.X before 1.39.12, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
 <br>
@@ -334,7 +643,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53501
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Improper Access Control vulnerability in Wikimedia Foundation Mediawiki - Scribunto Extension allows : Accessing Functionality Not Properly Constrained by Authorization.This issue affects Mediawiki - Scribunto Extension: from 1.39.X before 1.39.12, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
 <br>
@@ -359,7 +668,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53502
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Improper Input Validation vulnerability in Wikimedia Foundation Mediawiki - FeaturedFeeds Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - FeaturedFeeds Extension: 1.39.X, 1.42.X, 1.43.X.
 <br>
@@ -384,7 +693,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6071
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Use of Hard-coded Cryptographic Key vulnerability in ABB RMC-100, ABB RMC-100 LITE.
 
@@ -413,7 +722,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6072
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Stack-based Buffer Overflow vulnerability in ABB RMC-100, ABB RMC-100 LITE.
 
@@ -444,7 +753,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6073
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Stack-based Buffer Overflow vulnerability in ABB RMC-100, ABB RMC-100 LITE.
 
@@ -479,7 +788,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6074
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Use of Hard-coded Cryptographic Key vulnerability in ABB RMC-100, ABB RMC-100 LITE.
 
@@ -512,7 +821,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6926
 <br>
-<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 4 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>Improper Authentication vulnerability in Wikimedia Foundation Mediawiki - CentralAuth Extension allows : Bypass Authentication.This issue affects Mediawiki - CentralAuth Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
 <br>
@@ -524,6 +833,31 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Thu, 03 Jul 2025 17:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6926">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-48939 - Tarteaucitron.js Script Element Property Clobbering Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-48939
+<br>
+<strong>Published : </strong> July 3, 2025, 5:15 p.m. | 2 hours, 35 minutes ago
+<br>
+<strong>Description : </strong>tarteaucitron.js is a compliant and accessible cookie banner. Prior to version 1.22.0, a vulnerability was identified in tarteaucitron.js where document.currentScript was accessed without verifying that it referenced an actual <script> element. If an attacker injected an HTML element, it could clobber the document.currentScript property. This causes the script to resolve incorrectly to an element instead of the <script> tag, leading to unexpected behavior or failure to load the script path correctly. This issue arises because in some browser environments, named DOM elements become properties on the global document object. An attacker with control over the HTML could exploit this to change the CDN domain of tarteaucitron. This issue has been patched in version 1.22.0.
+<br>
+<strong>Severity:</strong> 4.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 03 Jul 2025 17:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-48939">
                                 read more
                             </a>
                     </article>
