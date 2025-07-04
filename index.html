@@ -179,6 +179,643 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-38177 - Linux Kernel - Sch_hfsc Idempotent Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38177
+<br>
+<strong>Published : </strong> July 4, 2025, 1:15 p.m. | 56 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+sch_hfsc: make hfsc_qlen_notify() idempotent
+
+hfsc_qlen_notify() is not idempotent either and not friendly
+to its callers, like fq_codel_dequeue(). Let's make it idempotent
+to ease qdisc_tree_reduce_backlog() callers' life:
+
+1. update_vf() decreases cl->cl_nactive, so we can check whether it is
+non-zero before calling it.
+
+2. eltree_remove() always removes RB node cl->el_node, but we can use
+   RB_EMPTY_NODE() + RB_CLEAR_NODE() to make it safe.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38177">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-48172 - SumatraPDF CHMLib Heap-Based Buffer Overflow
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-48172
+<br>
+<strong>Published : </strong> July 4, 2025, 1:15 p.m. | 56 minutes ago
+<br>
+<strong>Description : </strong>CHMLib through 2bef8d0, as used in SumatraPDF and other products, has a chm_lib.c _chm_decompress_block integer overflow. There is a resultant heap-based buffer overflow in _chm_fetch_bytes.
+<br>
+<strong>Severity:</strong> 5.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-48172">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-49809 - MTR Sudo Execution Hijacking Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-49809
+<br>
+<strong>Published : </strong> July 4, 2025, 1:15 p.m. | 56 minutes ago
+<br>
+<strong>Description : </strong>mtr through 0.95, in certain privileged contexts, mishandles execution of a program specified by the MTR_PACKET environment variable. NOTE: mtr on macOS may often have Sudo rules, as an indirect consequence of Homebrew not installing setuid binaries.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-49809">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7061 - Intelbras InControl CSV Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7061
+<br>
+<strong>Published : </strong> July 4, 2025, 1:15 p.m. | 56 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Intelbras InControl up to 2.21.60.9. It has been declared as problematic. This vulnerability affects unknown code of the file /v1/operador/. The manipulation leads to csv injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7061">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-49866 - Nikel Beautiful Cookie Consent Banner Cross-site Scripting
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-49866
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Nikel Beautiful Cookie Consent Banner allows Reflected XSS. This issue affects Beautiful Cookie Consent Banner: from n/a through 4.6.1.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-49866">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-49867 - InspiryThemes RealHomes Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-49867
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Incorrect Privilege Assignment vulnerability in InspiryThemes RealHomes allows Privilege Escalation. This issue affects RealHomes: from n/a through 4.4.0.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-49867">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-49870 - Cozmoslabs Paid Member Subscriptions SQL Injection
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-49870
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Cozmoslabs Paid Member Subscriptions allows SQL Injection. This issue affects Paid Member Subscriptions: from n/a through 2.15.1.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-49870">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4414 - CMSMasters Content Composer Remote File Inclusion Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4414
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in cmsmasters CMSMasters Content Composer allows PHP Local File Inclusion. This issue affects CMSMasters Content Composer: from n/a through n/a.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4414">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-50032 - Paytiko for WooCommerce Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-50032
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in Paytiko - Payment Orchestration Platform Paytiko for WooCommerce allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Paytiko for WooCommerce: from n/a through 1.3.14.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-50032">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-50039 - VG WORT METIS Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-50039
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in vgwort VG WORT METIS allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects VG WORT METIS: from n/a through 2.0.0.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-50039">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52718 - Bearsthemes Alone Code Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52718
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Generation of Code ('Code Injection') vulnerability in Bearsthemes Alone allows Remote Code Inclusion. This issue affects Alone: from n/a through 7.8.2.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52718">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52776 - Thanhtungtnt Video List Manager Cross-site Scripting
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52776
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in thanhtungtnt Video List Manager allows Stored XSS. This issue affects Video List Manager: from n/a through 1.7.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52776">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52796 - WordPress WP-Recall Cross-site Scripting
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52796
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in tggfref WP-Recall allows Reflected XSS. This issue affects WP-Recall: from n/a through 16.26.14.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52796">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52798 - Eyecix JobSearch Cross-site Scripting
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52798
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in eyecix JobSearch allows Reflected XSS. This issue affects JobSearch: from n/a through 2.9.0.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52798">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52805 - Leyka Path Traversal PHP Local File Inclusion Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52805
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Path Traversal vulnerability in VaultDweller Leyka allows PHP Local File Inclusion. This issue affects Leyka: from n/a through 3.31.9.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52805">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52807 - ApusWP Kossy PHP Remote File Inclusion Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52807
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in ApusWP Kossy - Minimalist eCommerce WordPress Theme allows PHP Local File Inclusion. This issue affects Kossy - Minimalist eCommerce WordPress Theme: from n/a through 1.45.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52807">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52813 - MobiLoud Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52813
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in pietro MobiLoud allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects MobiLoud: from n/a through 4.6.5.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52813">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52828 - Designthemes Red Art Java Deserialization Object Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52828
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Deserialization of Untrusted Data vulnerability in designthemes Red Art allows Object Injection. This issue affects Red Art: from n/a through 3.7.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52828">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52830 - bSecure Universal Checkout SQL Injection
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52830
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in bsecuretech bSecure &#8211; Your Universal Checkout allows Blind SQL Injection. This issue affects bSecure &#8211; Your Universal Checkout: from n/a through 1.7.9.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52830">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52831 - Thanhtungtnt Video List Manager SQL Injection
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52831
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in thanhtungtnt Video List Manager allows SQL Injection. This issue affects Video List Manager: from n/a through 1.7.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52831">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52832 - &#34;WPO-HR NGG Smart Image Search SQL Injection&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52832
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in wpo-HR NGG Smart Image Search allows SQL Injection. This issue affects NGG Smart Image Search: from n/a through 3.4.1.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52832">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52833 - Designthemes LMS SQL Injection
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52833
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in designthemes LMS allows SQL Injection. This issue affects LMS: from n/a through 9.1.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52833">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6056 - Ergon Informatik AG Airlock IAM Information Disclosure
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6056
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Timing difference in password reset in Ergon Informatik AG's Airlock IAM 7.7.9, 8.0.8, 8.1.7, 8.2.4 and 8.3.1 allows unauthenticated attackers to enumerate usernames.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6056">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6740 - Contact Form 7 Stored Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6740
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>The Contact Form 7 Database Addon plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘tmpD’ parameter in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6740">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7066 - Jirafeau MIME Type Bypass Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7066
+<br>
+<strong>Published : </strong> July 4, 2025, 12:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>Jirafeau normally prevents browser preview for text files due to the possibility that for example SVG and HTML documents could be exploited for cross site scripting. This was done by storing the MIME type of a file and allowing only browser preview for MIME types beginning with image (except for image/svg+xml, see CVE-2022-30110 and CVE-2024-12326), video and audio. However, it was possible to bypass this check by sending a manipulated MIME type containing a comma and an other MIME type like text/html (for example image/png,text/html). Browsers see multiple MIME types and text/html would takes precedence, allowing a possible attacker to do a cross-site scripting attack. The check for MIME types was enhanced to prevent a browser preview when the stored MIME type contains a comma.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7066">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-38174 - &#34;Thunderbolt: Double Dequeue Vulnerability&#34;
                         </h3>
                         <p>
