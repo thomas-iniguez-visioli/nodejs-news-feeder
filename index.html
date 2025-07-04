@@ -179,12 +179,62 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-53481 - WikiMedia Mediawiki IPInfo Extension Uncontrolled Resource Consumption DoS
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53481
+<br>
+<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 1 hour, 37 minutes ago
+<br>
+<strong>Description : </strong>Uncontrolled Resource Consumption vulnerability in Wikimedia Foundation Mediawiki - IPInfo Extension allows Excessive Allocation.This issue affects Mediawiki - IPInfo Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53481">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53482 - Wikimedia Foundation Mediawiki - IPInfo Extension Cross-Site Scripting (XSS) Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53482
+<br>
+<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 1 hour, 37 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - IPInfo Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - IPInfo Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53482">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-49600 - MbedTLS LMS Signature Forgery Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-49600
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In MbedTLS 3.3.0 before 3.6.4, mbedtls_lms_verify may accept invalid signatures if hash computation fails and internal errors go unchecked, enabling LMS (Leighton-Micali Signature) forgery in a fault scenario. Specifically, unchecked return values in mbedtls_lms_verify allow an attacker (who can induce a hardware hash accelerator fault) to bypass LMS signature verification by reusing stale stack data, resulting in acceptance of an invalid signature. In mbedtls_lms_verify, the return values of the internal Merkle tree functions create_merkle_leaf_value and create_merkle_internal_value are not checked. These functions return an integer that indicates whether the call succeeded or not. If a failure occurs, the output buffer (Tc_candidate_root_node) may remain uninitialized, and the result of the signature verification is unpredictable. When the software implementation of SHA-256 is used, these functions will not fail. However, with hardware-accelerated hashing, an attacker could use fault injection against the accelerator to bypass verification.
 <br>
@@ -209,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-49601
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In MbedTLS 3.3.0 before 3.6.4, mbedtls_lms_import_public_key does not check that the input buffer is at least 4 bytes before reading a 32-bit field, allowing a possible out-of-bounds read on truncated input. Specifically, an out-of-bounds read in mbedtls_lms_import_public_key allows context-dependent attackers to trigger a crash or limited adjacent-memory disclosure by supplying a truncated LMS (Leighton-Micali Signature) public-key buffer under four bytes. An LMS public key starts with a 4-byte type indicator. The function mbedtls_lms_import_public_key reads this type indicator before validating the size of its input.
 <br>
@@ -234,7 +284,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-52496
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>Mbed TLS before 3.6.4 has a race condition in AESNI detection if certain compiler optimizations occur. An attacker may be able to extract an AES key from a multithreaded program, or perform a GCM forgery.
 <br>
@@ -259,7 +309,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-52497
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>Mbed TLS before 3.6.4 has a PEM parsing one-byte heap-based buffer underflow, in mbedtls_pem_read_buffer and two mbedtls_pk_parse functions, via untrusted PEM input.
 <br>
@@ -279,132 +329,12 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-38215 - Linux Kernel fbdev Null-Pointer Dereference Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38215
-<br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-fbdev: Fix do_register_framebuffer to prevent null-ptr-deref in fb_videomode_to_var
-
-If fb_add_videomode() in do_register_framebuffer() fails to allocate
-memory for fb_videomode, it will later lead to a null-ptr dereference in
-fb_videomode_to_var(), as the fb_info is registered while not having the
-mode in modelist that is expected to be there, i.e. the one that is
-described in fb_info->var.
-
-================================================================
-general protection fault, probably for non-canonical address 0xdffffc0000000001: 0000 [#1] PREEMPT SMP KASAN NOPTI
-KASAN: null-ptr-deref in range [0x0000000000000008-0x000000000000000f]
-CPU: 1 PID: 30371 Comm: syz-executor.1 Not tainted 5.10.226-syzkaller #0
-Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.12.0-1 04/01/2014
-RIP: 0010:fb_videomode_to_var+0x24/0x610 drivers/video/fbdev/core/modedb.c:901
-Call Trace:
- display_to_var+0x3a/0x7c0 drivers/video/fbdev/core/fbcon.c:929
- fbcon_resize+0x3e2/0x8f0 drivers/video/fbdev/core/fbcon.c:2071
- resize_screen drivers/tty/vt/vt.c:1176 [inline]
- vc_do_resize+0x53a/0x1170 drivers/tty/vt/vt.c:1263
- fbcon_modechanged+0x3ac/0x6e0 drivers/video/fbdev/core/fbcon.c:2720
- fbcon_update_vcs+0x43/0x60 drivers/video/fbdev/core/fbcon.c:2776
- do_fb_ioctl+0x6d2/0x740 drivers/video/fbdev/core/fbmem.c:1128
- fb_ioctl+0xe7/0x150 drivers/video/fbdev/core/fbmem.c:1203
- vfs_ioctl fs/ioctl.c:48 [inline]
- __do_sys_ioctl fs/ioctl.c:753 [inline]
- __se_sys_ioctl fs/ioctl.c:739 [inline]
- __x64_sys_ioctl+0x19a/0x210 fs/ioctl.c:739
- do_syscall_64+0x33/0x40 arch/x86/entry/common.c:46
- entry_SYSCALL_64_after_hwframe+0x67/0xd1
-================================================================
-
-Even though fbcon_init() checks beforehand if fb_match_mode() in
-var_to_display() fails, it can not prevent the panic because fbcon_init()
-does not return error code. Considering this and the comment in the code
-about fb_match_mode() returning NULL - "This should not happen" - it is
-better to prevent registering the fb_info if its mode was not set
-successfully. Also move fb_add_videomode() closer to the beginning of
-do_register_framebuffer() to avoid having to do the cleanup on fail.
-
-Found by Linux Verification Center (linuxtesting.org) with Syzkaller.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 04 Jul 2025 14:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38215">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38216 - &#34;Apple IOMMU VT-d Device Aliasing Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38216
-<br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-iommu/vt-d: Restore context entry setup order for aliased devices
-
-Commit 2031c469f816 ("iommu/vt-d: Add support for static identity domain")
-changed the context entry setup during domain attachment from a
-set-and-check policy to a clear-and-reset approach. This inadvertently
-introduced a regression affecting PCI aliased devices behind PCIe-to-PCI
-bridges.
-
-Specifically, keyboard and touchpad stopped working on several Apple
-Macbooks with below messages:
-
- kernel: platform pxa2xx-spi.3: Adding to iommu group 20
- kernel: input: Apple SPI Keyboard as
- /devices/pci0000:00/0000:00:1e.3/pxa2xx-spi.3/spi_master/spi2/spi-APP000D:00/input/input0
- kernel: DMAR: DRHD: handling fault status reg 3
- kernel: DMAR: [DMA Read NO_PASID] Request device [00:1e.3] fault addr
- 0xffffa000 [fault reason 0x06] PTE Read access is not set
- kernel: DMAR: DRHD: handling fault status reg 3
- kernel: DMAR: [DMA Read NO_PASID] Request device [00:1e.3] fault addr
- 0xffffa000 [fault reason 0x06] PTE Read access is not set
- kernel: applespi spi-APP000D:00: Error writing to device: 01 0e 00 00
- kernel: DMAR: DRHD: handling fault status reg 3
- kernel: DMAR: [DMA Read NO_PASID] Request device [00:1e.3] fault addr
- 0xffffa000 [fault reason 0x06] PTE Read access is not set
- kernel: DMAR: DRHD: handling fault status reg 3
- kernel: applespi spi-APP000D:00: Error writing to device: 01 0e 00 00
-
-Fix this by restoring the previous context setup order.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 04 Jul 2025 14:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38216">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
                             CVE-2025-38217 - Linux Kernel hwmon ftsteutates Time-of-Check to Time-of-Use (TOCTOU) Race Condition
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38217
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -454,7 +384,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38218
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -520,7 +450,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38219
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -595,7 +525,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38220
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -652,7 +582,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38221
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -736,7 +666,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38222
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -833,7 +763,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38223
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -927,7 +857,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38224
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -998,7 +928,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38225
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1030,7 +960,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38226
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1088,7 +1018,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38227
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1189,7 +1119,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38228
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1219,7 +1149,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38229
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1278,7 +1208,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38230
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1343,7 +1273,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38231
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1383,7 +1313,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38232
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1497,7 +1427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38233
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1557,7 +1487,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38234
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1699,7 +1629,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-46733
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>OP-TEE is a Trusted Execution Environment (TEE) designed as companion to a non-secure Linux kernel running on Arm; Cortex-A cores using the TrustZone technology. In version 4.5.0, using a specially crafted tee-supplicant binary running in REE userspace, an attacker can trigger a panic in a TA that uses the libutee Secure Storage API. Many functions in libutee, specifically those which make up the Secure Storage API, will panic if a system call returns an unexpected return code. This behavior is mandated by the TEE Internal Core API specification. However, in OP-TEE’s implementation, return codes of secure storage operations are passed through unsanitized from the REE tee-supplicant, through the Linux kernel tee-driver, through the OP-TEE kernel, back to libutee. Thus, an attacker with access to REE userspace, and the ability to stop tee-supplicant and replace it with their own process (generally trivial for a root user, and depending on the way permissions are set up, potentially available even to less privileged users) can run a malicious tee-supplicant process that responds to storage requests with unexpected response codes, triggering a panic in the requesting TA. This is particularly dangerous for TAs built with `TA_FLAG_SINGLE_INSTANCE` (corresponding to `gpd.ta.singleInstance` and `TA_FLAG_INSTANCE_KEEP_ALIVE` (corresponding to `gpd.ta.keepAlive`). The behavior of these TAs may depend on memory that is preserved between sessions, and the ability of an attacker to panic the TA and reload it with a clean memory space can compromise the behavior of those TAs. A critical example of this is the optee_ftpm TA. It uses the kept alive memory to hold PCR values, which crucially must be non-resettable. An attacker who can trigger a panic in the fTPM TA can reset the PCRs, and then extend them PCRs with whatever they choose, falsifying boot measurements, accessing sealed data, and potentially more. The impact of this issue depends significantly on the behavior of affected TAs. For some, it could manifest as a denial of service, while for others, like the fTPM TA, it can result in the disclosure of sensitive data. Anyone running the fTPM TA is affected, but similar attacks may be possible on other TAs that leverage the Secure Storage API. A fix is available in commit 941a58d78c99c4754fbd4ec3079ec9e1d596af8f.
 <br>
@@ -1711,6 +1641,126 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 04 Jul 2025 14:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-46733">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38215 - Linux Kernel fbdev Null-Pointer Dereference Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38215
+<br>
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+fbdev: Fix do_register_framebuffer to prevent null-ptr-deref in fb_videomode_to_var
+
+If fb_add_videomode() in do_register_framebuffer() fails to allocate
+memory for fb_videomode, it will later lead to a null-ptr dereference in
+fb_videomode_to_var(), as the fb_info is registered while not having the
+mode in modelist that is expected to be there, i.e. the one that is
+described in fb_info->var.
+
+================================================================
+general protection fault, probably for non-canonical address 0xdffffc0000000001: 0000 [#1] PREEMPT SMP KASAN NOPTI
+KASAN: null-ptr-deref in range [0x0000000000000008-0x000000000000000f]
+CPU: 1 PID: 30371 Comm: syz-executor.1 Not tainted 5.10.226-syzkaller #0
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.12.0-1 04/01/2014
+RIP: 0010:fb_videomode_to_var+0x24/0x610 drivers/video/fbdev/core/modedb.c:901
+Call Trace:
+ display_to_var+0x3a/0x7c0 drivers/video/fbdev/core/fbcon.c:929
+ fbcon_resize+0x3e2/0x8f0 drivers/video/fbdev/core/fbcon.c:2071
+ resize_screen drivers/tty/vt/vt.c:1176 [inline]
+ vc_do_resize+0x53a/0x1170 drivers/tty/vt/vt.c:1263
+ fbcon_modechanged+0x3ac/0x6e0 drivers/video/fbdev/core/fbcon.c:2720
+ fbcon_update_vcs+0x43/0x60 drivers/video/fbdev/core/fbcon.c:2776
+ do_fb_ioctl+0x6d2/0x740 drivers/video/fbdev/core/fbmem.c:1128
+ fb_ioctl+0xe7/0x150 drivers/video/fbdev/core/fbmem.c:1203
+ vfs_ioctl fs/ioctl.c:48 [inline]
+ __do_sys_ioctl fs/ioctl.c:753 [inline]
+ __se_sys_ioctl fs/ioctl.c:739 [inline]
+ __x64_sys_ioctl+0x19a/0x210 fs/ioctl.c:739
+ do_syscall_64+0x33/0x40 arch/x86/entry/common.c:46
+ entry_SYSCALL_64_after_hwframe+0x67/0xd1
+================================================================
+
+Even though fbcon_init() checks beforehand if fb_match_mode() in
+var_to_display() fails, it can not prevent the panic because fbcon_init()
+does not return error code. Considering this and the comment in the code
+about fb_match_mode() returning NULL - "This should not happen" - it is
+better to prevent registering the fb_info if its mode was not set
+successfully. Also move fb_add_videomode() closer to the beginning of
+do_register_framebuffer() to avoid having to do the cleanup on fail.
+
+Found by Linux Verification Center (linuxtesting.org) with Syzkaller.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38215">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38216 - &#34;Apple IOMMU VT-d Device Aliasing Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38216
+<br>
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 1 hour, 56 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+iommu/vt-d: Restore context entry setup order for aliased devices
+
+Commit 2031c469f816 ("iommu/vt-d: Add support for static identity domain")
+changed the context entry setup during domain attachment from a
+set-and-check policy to a clear-and-reset approach. This inadvertently
+introduced a regression affecting PCI aliased devices behind PCIe-to-PCI
+bridges.
+
+Specifically, keyboard and touchpad stopped working on several Apple
+Macbooks with below messages:
+
+ kernel: platform pxa2xx-spi.3: Adding to iommu group 20
+ kernel: input: Apple SPI Keyboard as
+ /devices/pci0000:00/0000:00:1e.3/pxa2xx-spi.3/spi_master/spi2/spi-APP000D:00/input/input0
+ kernel: DMAR: DRHD: handling fault status reg 3
+ kernel: DMAR: [DMA Read NO_PASID] Request device [00:1e.3] fault addr
+ 0xffffa000 [fault reason 0x06] PTE Read access is not set
+ kernel: DMAR: DRHD: handling fault status reg 3
+ kernel: DMAR: [DMA Read NO_PASID] Request device [00:1e.3] fault addr
+ 0xffffa000 [fault reason 0x06] PTE Read access is not set
+ kernel: applespi spi-APP000D:00: Error writing to device: 01 0e 00 00
+ kernel: DMAR: DRHD: handling fault status reg 3
+ kernel: DMAR: [DMA Read NO_PASID] Request device [00:1e.3] fault addr
+ 0xffffa000 [fault reason 0x06] PTE Read access is not set
+ kernel: DMAR: DRHD: handling fault status reg 3
+ kernel: applespi spi-APP000D:00: Error writing to device: 01 0e 00 00
+
+Fix this by restoring the previous context setup order.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 04 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38216">
                                 read more
                             </a>
                     </article>
