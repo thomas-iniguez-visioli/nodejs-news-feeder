@@ -8,12 +8,597 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 04 Jul 2025 11:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jul 2025 12:37:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-38174 - "Thunderbolt: Double Dequeue Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38174
+<br>
+<strong>Published : </strong> July 4, 2025, 11:15 a.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+thunderbolt: Do not double dequeue a configuration request
+
+Some of our devices crash in tb_cfg_request_dequeue():
+
+ general protection fault, probably for non-canonical address 0xdead000000000122
+
+ CPU: 6 PID: 91007 Comm: kworker/6:2 Tainted: G U W 6.6.65
+ RIP: 0010:tb_cfg_request_dequeue+0x2d/0xa0
+ Call Trace:
+ <TASK>
+ ? tb_cfg_request_dequeue+0x2d/0xa0
+ tb_cfg_request_work+0x33/0x80
+ worker_thread+0x386/0x8f0
+ kthread+0xed/0x110
+ ret_from_fork+0x38/0x50
+ ret_from_fork_asm+0x1b/0x30
+
+The circumstances are unclear, however, the theory is that
+tb_cfg_request_work() can be scheduled twice for a request:
+first time via frame.callback from ring_work() and second
+time from tb_cfg_request().  Both times kworkers will execute
+tb_cfg_request_dequeue(), which results in double list_del()
+from the ctl->request_queue (the list poison deference hints
+at it: 0xdead000000000122).
+
+Do not dequeue requests that don't have TB_CFG_REQUEST_ACTIVE
+bit set.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38174</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38174</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38175 - Linux Kernel Binder UAF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38175
+<br>
+<strong>Published : </strong> July 4, 2025, 11:15 a.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+binder: fix yet another UAF in binder_devices
+
+Commit e77aff5528a18 ("binderfs: fix use-after-free in binder_devices")
+addressed a use-after-free where devices could be released without first
+being removed from the binder_devices list. However, there is a similar
+path in binder_free_proc() that was missed:
+
+  ==================================================================
+  BUG: KASAN: slab-use-after-free in binder_remove_device+0xd4/0x100
+  Write of size 8 at addr ffff0000c773b900 by task umount/467
+  CPU: 12 UID: 0 PID: 467 Comm: umount Not tainted 6.15.0-rc7-00138-g57483a362741 #9 PREEMPT
+  Hardware name: linux,dummy-virt (DT)
+  Call trace:
+   binder_remove_device+0xd4/0x100
+   binderfs_evict_inode+0x230/0x2f0
+   evict+0x25c/0x5dc
+   iput+0x304/0x480
+   dentry_unlink_inode+0x208/0x46c
+   __dentry_kill+0x154/0x530
+   [...]
+
+  Allocated by task 463:
+   __kmalloc_cache_noprof+0x13c/0x324
+   binderfs_binder_device_create.isra.0+0x138/0xa60
+   binder_ctl_ioctl+0x1ac/0x230
+  [...]
+
+  Freed by task 215:
+   kfree+0x184/0x31c
+   binder_proc_dec_tmpref+0x33c/0x4ac
+   binder_deferred_func+0xc10/0x1108
+   process_one_work+0x520/0xba4
+  [...]
+  ==================================================================
+
+Call binder_remove_device() within binder_free_proc() to ensure the
+device is removed from the binder_devices list before being kfreed.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38175</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38175</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38176 - Linux Binder Use-After-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38176
+<br>
+<strong>Published : </strong> July 4, 2025, 11:15 a.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+binder: fix use-after-free in binderfs_evict_inode()
+
+Running 'stress-ng --binderfs 16 --timeout 300' under KASAN-enabled
+kernel, I've noticed the following:
+
+BUG: KASAN: slab-use-after-free in binderfs_evict_inode+0x1de/0x2d0
+Write of size 8 at addr ffff88807379bc08 by task stress-ng-binde/1699
+
+CPU: 0 UID: 0 PID: 1699 Comm: stress-ng-binde Not tainted 6.14.0-rc7-g586de92313fc-dirty #13
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-3.fc41 04/01/2014
+Call Trace:
+ <TASK>
+ dump_stack_lvl+0x1c2/0x2a0
+ ? __pfx_dump_stack_lvl+0x10/0x10
+ ? __pfx__printk+0x10/0x10
+ ? __pfx_lock_release+0x10/0x10
+ ? __virt_addr_valid+0x18c/0x540
+ ? __virt_addr_valid+0x469/0x540
+ print_report+0x155/0x840
+ ? __virt_addr_valid+0x18c/0x540
+ ? __virt_addr_valid+0x469/0x540
+ ? __phys_addr+0xba/0x170
+ ? binderfs_evict_inode+0x1de/0x2d0
+ kasan_report+0x147/0x180
+ ? binderfs_evict_inode+0x1de/0x2d0
+ binderfs_evict_inode+0x1de/0x2d0
+ ? __pfx_binderfs_evict_inode+0x10/0x10
+ evict+0x524/0x9f0
+ ? __pfx_lock_release+0x10/0x10
+ ? __pfx_evict+0x10/0x10
+ ? do_raw_spin_unlock+0x4d/0x210
+ ? _raw_spin_unlock+0x28/0x50
+ ? iput+0x697/0x9b0
+ __dentry_kill+0x209/0x660
+ ? shrink_kill+0x8d/0x2c0
+ shrink_kill+0xa9/0x2c0
+ shrink_dentry_list+0x2e0/0x5e0
+ shrink_dcache_parent+0xa2/0x2c0
+ ? __pfx_shrink_dcache_parent+0x10/0x10
+ ? __pfx_lock_release+0x10/0x10
+ ? __pfx_do_raw_spin_lock+0x10/0x10
+ do_one_tree+0x23/0xe0
+ shrink_dcache_for_umount+0xa0/0x170
+ generic_shutdown_super+0x67/0x390
+ kill_litter_super+0x76/0xb0
+ binderfs_kill_super+0x44/0x90
+ deactivate_locked_super+0xb9/0x130
+ cleanup_mnt+0x422/0x4c0
+ ? lockdep_hardirqs_on+0x9d/0x150
+ task_work_run+0x1d2/0x260
+ ? __pfx_task_work_run+0x10/0x10
+ resume_user_mode_work+0x52/0x60
+ syscall_exit_to_user_mode+0x9a/0x120
+ do_syscall_64+0x103/0x210
+ ? asm_sysvec_apic_timer_interrupt+0x1a/0x20
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+RIP: 0033:0xcac57b
+Code: c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 40 00 f3 0f 1e fa 31 f6 e9 05 00 00 00 0f 1f 44 00 00 f3 0f 1e fa b8
+RSP: 002b:00007ffecf4226a8 EFLAGS: 00000246 ORIG_RAX: 00000000000000a6
+RAX: 0000000000000000 RBX: 00007ffecf422720 RCX: 0000000000cac57b
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: 00007ffecf422850
+RBP: 00007ffecf422850 R08: 0000000028d06ab1 R09: 7fffffffffffffff
+R10: 3fffffffffffffff R11: 0000000000000246 R12: 00007ffecf422718
+R13: 00007ffecf422710 R14: 00007f478f87b658 R15: 00007ffecf422830
+ </TASK>
+
+Allocated by task 1705:
+ kasan_save_track+0x3e/0x80
+ __kasan_kmalloc+0x8f/0xa0
+ __kmalloc_cache_noprof+0x213/0x3e0
+ binderfs_binder_device_create+0x183/0xa80
+ binder_ctl_ioctl+0x138/0x190
+ __x64_sys_ioctl+0x120/0x1b0
+ do_syscall_64+0xf6/0x210
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+
+Freed by task 1705:
+ kasan_save_track+0x3e/0x80
+ kasan_save_free_info+0x46/0x50
+ __kasan_slab_free+0x62/0x70
+ kfree+0x194/0x440
+ evict+0x524/0x9f0
+ do_unlinkat+0x390/0x5b0
+ __x64_sys_unlink+0x47/0x50
+ do_syscall_64+0xf6/0x210
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+
+This 'stress-ng' workload causes the concurrent deletions from
+'binder_devices' and so requires full-featured synchronization
+to prevent list corruption.
+
+I've found this issue independently but pretty sure that syzbot did
+the same, so Reported-by: and Closes: should be applicable here as well.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38176</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38176</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7060 - Monitorr Remote File Inclusion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7060
+<br>
+<strong>Published : </strong> July 4, 2025, 11:15 a.m. | 42 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Monitorr up to 1.7.6m. It has been classified as problematic. This affects an unknown part of the file assets/config/_installation/mkdbajax.php of the component Installer. The manipulation of the argument datadir leads to improper input validation. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 4.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7060</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7060</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5920 - WordPress Password Protected Posts Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5920
+<br>
+<strong>Published : </strong> July 4, 2025, 10:15 a.m. | 1 hour, 43 minutes ago
+<br>
+<strong>Description : </strong>The Sharable Password Protected Posts before version 1.1.1 allows access to password protected posts by providing a secret key in a GET parameter. However, the key is exposed by the REST API.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5920</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5920</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27358 - mndpsingh287 Frontend File Manager Basic XSS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27358
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in mndpsingh287 Frontend File Manager allows Code Injection. This issue affects Frontend File Manager: from n/a through 23.2.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27358</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27358</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28951 - CreedAlly Bulk Featured Image Unrestricted File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28951
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Unrestricted Upload of File with Dangerous Type vulnerability in CreedAlly Bulk Featured Image allows Upload a Web Shell to a Web Server. This issue affects Bulk Featured Image: from n/a through 1.2.1.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28951</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28951</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28957 - OwnerRez Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28957
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in OwnerRez OwnerRez allows Stored XSS. This issue affects OwnerRez: from n/a through 1.2.1.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28957</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28957</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28963 - "URL Shortener Server-Side Request Forgery"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28963
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Server-Side Request Forgery (SSRF) vulnerability in Md Yeasin Ul Haider URL Shortener allows Server Side Request Forgery. This issue affects URL Shortener: from n/a through 3.0.7.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28963</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28963</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28967 - Steve Truman Contact People LITE SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28967
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Steve Truman Contact Us page - Contact people LITE allows SQL Injection. This issue affects Contact Us page - Contact people LITE: from n/a through 3.7.4.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28967</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28967</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28969 - Cybio Gallery Widget SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28969
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in cybio Gallery Widget allows SQL Injection. This issue affects Gallery Widget: from n/a through 1.2.1.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28969</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28969</guid>
+    </item>
+    <item>
+      <title>CVE-2025-28971 - CWD Web Designer Easy Elements Hider Cross-site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-28971
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CWD Web Designer Easy Elements Hider allows Stored XSS. This issue affects Easy Elements Hider: from n/a through 2.0.
+<br>
+<strong>Severity:</strong> 5.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-28971</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28971</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29001 - ZoomIt WooCommerce Shop Page Builder Missing Authorization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29001
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in ZoomIt WooCommerce Shop Page Builder allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects WooCommerce Shop Page Builder: from n/a through 2.27.7.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29001</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29001</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29007 - LMSACE Connect Missing Authorization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29007
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in LMSACE LMSACE Connect allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects LMSACE Connect: from n/a through 3.4.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29007</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29007</guid>
+    </item>
+    <item>
+      <title>CVE-2025-29012 - Kamleshyadav CF7 Mailchimp Add-on Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-29012
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in kamleshyadav CF7 7 Mailchimp Add-on allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects CF7 7 Mailchimp Add-on: from n/a through 2.2.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-29012</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29012</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30929 - Amazon Web Services (AWS) fluXtore Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30929
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in amazewp fluXtore allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects fluXtore: from n/a through 1.6.0.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30929</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30929</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30943 - Aakif Kadiwala Posts Slider Shortcode Cross-site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30943
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Aakif Kadiwala Posts Slider Shortcode allows DOM-Based XSS. This issue affects Posts Slider Shortcode: from n/a through 1.0.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30943</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30943</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30947 - Gopiplus Cool Fade Popup SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30947
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in gopiplus Cool fade popup allows Blind SQL Injection. This issue affects Cool fade popup: from n/a through 10.1.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30947</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30947</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30969 - Gopiplus iFrame Images Gallery SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30969
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in gopiplus iFrame Images Gallery allows SQL Injection. This issue affects iFrame Images Gallery: from n/a through 9.0.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30969</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30969</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30979 - Gopiplus Pixelating image slideshow gallery SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30979
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in gopiplus Pixelating image slideshow gallery allows SQL Injection. This issue affects Pixelating image slideshow gallery: from n/a through 8.0.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30979</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30979</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30983 - Gopiplus Card Flip Image Slideshow Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30983
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in gopiplus Card flip image slideshow allows DOM-Based XSS. This issue affects Card flip image slideshow: from n/a through 1.5.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30983</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30983</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53566 - Osama.esh WP Visitor Statistics Cross-site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53566
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in osama.esh WP Visitor Statistics (Real Time Traffic) allows Stored XSS. This issue affects WP Visitor Statistics (Real Time Traffic): from n/a through 7.8.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53566</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53566</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53568 - Tony Zeoli Radio Station CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53568
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Tony Zeoli Radio Station allows Cross Site Request Forgery. This issue affects Radio Station: from n/a through 2.5.12.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53568</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53568</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53569 - Trust Payments Gateway for WooCommerce CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53569
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Trust Payments Trust Payments Gateway for WooCommerce (JavaScript Library) allows Cross Site Request Forgery. This issue affects Trust Payments Gateway for WooCommerce (JavaScript Library): from n/a through 1.3.6.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53569</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53569</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5351 - LibSSH Double Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5351
+<br>
+<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 2 hours, 43 minutes ago
+<br>
+<strong>Description : </strong>A flaw was found in the key export functionality of libssh. The issue occurs in the internal function responsible for converting cryptographic keys into serialized formats. During error handling, a memory structure is freed but not cleared, leading to a potential double free issue if an additional failure occurs later in the function. This condition may result in heap corruption or application instability in low-memory scenarios, posing a risk to system reliability where key export operations are performed.
+<br>
+<strong>Severity:</strong> 4.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5351</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5351</guid>
+    </item>
     <item>
       <title>CVE-2025-24748 - LambertGroup All In One Slider Responsive SQL Injection</title>
       <description><![CDATA[<p>
@@ -98,346 +683,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-27326</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-27326</guid>
-    </item>
-    <item>
-      <title>CVE-2025-27358 - mndpsingh287 Frontend File Manager Basic XSS Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-27358
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 41 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in mndpsingh287 Frontend File Manager allows Code Injection. This issue affects Frontend File Manager: from n/a through 23.2.
-<br>
-<strong>Severity:</strong> 4.6 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-27358</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27358</guid>
-    </item>
-    <item>
-      <title>CVE-2025-28951 - CreedAlly Bulk Featured Image Unrestricted File Upload Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-28951
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 41 minutes ago
-<br>
-<strong>Description : </strong>Unrestricted Upload of File with Dangerous Type vulnerability in CreedAlly Bulk Featured Image allows Upload a Web Shell to a Web Server. This issue affects Bulk Featured Image: from n/a through 1.2.1.
-<br>
-<strong>Severity:</strong> 9.1 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-28951</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28951</guid>
-    </item>
-    <item>
-      <title>CVE-2025-28957 - OwnerRez Cross-Site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-28957
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 41 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in OwnerRez OwnerRez allows Stored XSS. This issue affects OwnerRez: from n/a through 1.2.1.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-28957</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28957</guid>
-    </item>
-    <item>
-      <title>CVE-2025-28963 - "URL Shortener Server-Side Request Forgery"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-28963
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 41 minutes ago
-<br>
-<strong>Description : </strong>Server-Side Request Forgery (SSRF) vulnerability in Md Yeasin Ul Haider URL Shortener allows Server Side Request Forgery. This issue affects URL Shortener: from n/a through 3.0.7.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-28963</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28963</guid>
-    </item>
-    <item>
-      <title>CVE-2025-28967 - Steve Truman Contact People LITE SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-28967
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 41 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Steve Truman Contact Us page - Contact people LITE allows SQL Injection. This issue affects Contact Us page - Contact people LITE: from n/a through 3.7.4.
-<br>
-<strong>Severity:</strong> 8.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-28967</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28967</guid>
-    </item>
-    <item>
-      <title>CVE-2025-28969 - Cybio Gallery Widget SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-28969
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 41 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in cybio Gallery Widget allows SQL Injection. This issue affects Gallery Widget: from n/a through 1.2.1.
-<br>
-<strong>Severity:</strong> 8.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-28969</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28969</guid>
-    </item>
-    <item>
-      <title>CVE-2025-28971 - CWD Web Designer Easy Elements Hider Cross-site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-28971
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 41 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CWD Web Designer Easy Elements Hider allows Stored XSS. This issue affects Easy Elements Hider: from n/a through 2.0.
-<br>
-<strong>Severity:</strong> 5.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-28971</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-28971</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29001 - ZoomIt WooCommerce Shop Page Builder Missing Authorization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29001
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in ZoomIt WooCommerce Shop Page Builder allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects WooCommerce Shop Page Builder: from n/a through 2.27.7.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29001</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29001</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29007 - LMSACE Connect Missing Authorization Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29007
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in LMSACE LMSACE Connect allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects LMSACE Connect: from n/a through 3.4.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29007</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29007</guid>
-    </item>
-    <item>
-      <title>CVE-2025-29012 - Kamleshyadav CF7 Mailchimp Add-on Authorization Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-29012
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in kamleshyadav CF7 7 Mailchimp Add-on allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects CF7 7 Mailchimp Add-on: from n/a through 2.2.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-29012</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-29012</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30929 - Amazon Web Services (AWS) fluXtore Authorization Bypass</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30929
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in amazewp fluXtore allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects fluXtore: from n/a through 1.6.0.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30929</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30929</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30943 - Aakif Kadiwala Posts Slider Shortcode Cross-site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30943
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Aakif Kadiwala Posts Slider Shortcode allows DOM-Based XSS. This issue affects Posts Slider Shortcode: from n/a through 1.0.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30943</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30943</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30947 - Gopiplus Cool Fade Popup SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30947
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in gopiplus Cool fade popup allows Blind SQL Injection. This issue affects Cool fade popup: from n/a through 10.1.
-<br>
-<strong>Severity:</strong> 8.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30947</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30947</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30969 - Gopiplus iFrame Images Gallery SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30969
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in gopiplus iFrame Images Gallery allows SQL Injection. This issue affects iFrame Images Gallery: from n/a through 9.0.
-<br>
-<strong>Severity:</strong> 8.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30969</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30969</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30979 - Gopiplus Pixelating image slideshow gallery SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30979
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in gopiplus Pixelating image slideshow gallery allows SQL Injection. This issue affects Pixelating image slideshow gallery: from n/a through 8.0.
-<br>
-<strong>Severity:</strong> 8.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30979</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30979</guid>
-    </item>
-    <item>
-      <title>CVE-2025-30983 - Gopiplus Card Flip Image Slideshow Cross-Site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-30983
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in gopiplus Card flip image slideshow allows DOM-Based XSS. This issue affects Card flip image slideshow: from n/a through 1.5.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-30983</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30983</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53566 - Osama.esh WP Visitor Statistics Cross-site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53566
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in osama.esh WP Visitor Statistics (Real Time Traffic) allows Stored XSS. This issue affects WP Visitor Statistics (Real Time Traffic): from n/a through 7.8.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53566</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53566</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53568 - Tony Zeoli Radio Station CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53568
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Tony Zeoli Radio Station allows Cross Site Request Forgery. This issue affects Radio Station: from n/a through 2.5.12.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53568</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53568</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53569 - Trust Payments Gateway for WooCommerce CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53569
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>Cross-Site Request Forgery (CSRF) vulnerability in Trust Payments Trust Payments Gateway for WooCommerce (JavaScript Library) allows Cross Site Request Forgery. This issue affects Trust Payments Gateway for WooCommerce (JavaScript Library): from n/a through 1.3.6.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53569</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53569</guid>
-    </item>
-    <item>
-      <title>CVE-2025-5351 - LibSSH Double Free Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-5351
-<br>
-<strong>Published : </strong> July 4, 2025, 9:15 a.m. | 40 minutes ago
-<br>
-<strong>Description : </strong>A flaw was found in the key export functionality of libssh. The issue occurs in the internal function responsible for converting cryptographic keys into serialized formats. During error handling, a memory structure is freed but not cleared, leading to a potential double free issue if an additional failure occurs later in the function. This condition may result in heap corruption or application instability in low-memory scenarios, posing a risk to system reliability where key export operations are performed.
-<br>
-<strong>Severity:</strong> 4.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-5351</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5351</guid>
     </item>
     <item>
       <title>CVE-2024-11937 - Elementor Premium Addons Stored Cross-Site Scripting Vulnerability</title>
