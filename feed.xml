@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 04 Jul 2025 18:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jul 2025 18:48:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53481
 <br>
-<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 1 hour, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 1 hour, 58 minutes ago
 <br>
 <strong>Description : </strong>Uncontrolled Resource Consumption vulnerability in Wikimedia Foundation Mediawiki - IPInfo Extension allows Excessive Allocation.This issue affects Mediawiki - IPInfo Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53482
 <br>
-<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 1 hour, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 1 hour, 58 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - IPInfo Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - IPInfo Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49600
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>In MbedTLS 3.3.0 before 3.6.4, mbedtls_lms_verify may accept invalid signatures if hash computation fails and internal errors go unchecked, enabling LMS (Leighton-Micali Signature) forgery in a fault scenario. Specifically, unchecked return values in mbedtls_lms_verify allow an attacker (who can induce a hardware hash accelerator fault) to bypass LMS signature verification by reusing stale stack data, resulting in acceptance of an invalid signature. In mbedtls_lms_verify, the return values of the internal Merkle tree functions create_merkle_leaf_value and create_merkle_internal_value are not checked. These functions return an integer that indicates whether the call succeeded or not. If a failure occurs, the output buffer (Tc_candidate_root_node) may remain uninitialized, and the result of the signature verification is unpredictable. When the software implementation of SHA-256 is used, these functions will not fail. However, with hardware-accelerated hashing, an attacker could use fault injection against the accelerator to bypass verification.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49601
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>In MbedTLS 3.3.0 before 3.6.4, mbedtls_lms_import_public_key does not check that the input buffer is at least 4 bytes before reading a 32-bit field, allowing a possible out-of-bounds read on truncated input. Specifically, an out-of-bounds read in mbedtls_lms_import_public_key allows context-dependent attackers to trigger a crash or limited adjacent-memory disclosure by supplying a truncated LMS (Leighton-Micali Signature) public-key buffer under four bytes. An LMS public key starts with a 4-byte type indicator. The function mbedtls_lms_import_public_key reads this type indicator before validating the size of its input.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52496
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Mbed TLS before 3.6.4 has a race condition in AESNI detection if certain compiler optimizations occur. An attacker may be able to extract an AES key from a multithreaded program, or perform a GCM forgery.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52497
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 2 hours, 58 minutes ago
 <br>
 <strong>Description : </strong>Mbed TLS before 3.6.4 has a PEM parsing one-byte heap-based buffer underflow, in mbedtls_pem_read_buffer and two mbedtls_pk_parse functions, via untrusted PEM input.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38217
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -163,7 +163,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38218
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -221,7 +221,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38219
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -288,7 +288,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38220
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -337,7 +337,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38221
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -413,7 +413,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38222
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -502,7 +502,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38223
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -588,7 +588,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38224
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -651,7 +651,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38225
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -675,7 +675,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38226
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -725,7 +725,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38227
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -818,7 +818,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38228
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -840,7 +840,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38229
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -891,7 +891,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38230
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -948,7 +948,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38231
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -980,7 +980,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38232
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1086,7 +1086,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38233
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1138,7 +1138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38234
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1272,7 +1272,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46733
 <br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 37 minutes ago
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 3 hours, 57 minutes ago
 <br>
 <strong>Description : </strong>OP-TEE is a Trusted Execution Environment (TEE) designed as companion to a non-secure Linux kernel running on Arm; Cortex-A cores using the TrustZone technology. In version 4.5.0, using a specially crafted tee-supplicant binary running in REE userspace, an attacker can trigger a panic in a TA that uses the libutee Secure Storage API. Many functions in libutee, specifically those which make up the Secure Storage API, will panic if a system call returns an unexpected return code. This behavior is mandated by the TEE Internal Core API specification. However, in OP-TEE’s implementation, return codes of secure storage operations are passed through unsanitized from the REE tee-supplicant, through the Linux kernel tee-driver, through the OP-TEE kernel, back to libutee. Thus, an attacker with access to REE userspace, and the ability to stop tee-supplicant and replace it with their own process (generally trivial for a root user, and depending on the way permissions are set up, potentially available even to less privileged users) can run a malicious tee-supplicant process that responds to storage requests with unexpected response codes, triggering a panic in the requesting TA. This is particularly dangerous for TAs built with `TA_FLAG_SINGLE_INSTANCE` (corresponding to `gpd.ta.singleInstance` and `TA_FLAG_INSTANCE_KEEP_ALIVE` (corresponding to `gpd.ta.keepAlive`). The behavior of these TAs may depend on memory that is preserved between sessions, and the ability of an attacker to panic the TA and reload it with a clean memory space can compromise the behavior of those TAs. A critical example of this is the optee_ftpm TA. It uses the kept alive memory to hold PCR values, which crucially must be non-resettable. An attacker who can trigger a panic in the fTPM TA can reset the PCRs, and then extend them PCRs with whatever they choose, falsifying boot measurements, accessing sealed data, and potentially more. The impact of this issue depends significantly on the behavior of affected TAs. For some, it could manifest as a denial of service, while for others, like the fTPM TA, it can result in the disclosure of sensitive data. Anyone running the fTPM TA is affected, but similar attacks may be possible on other TAs that leverage the Secure Storage API. A fix is available in commit 941a58d78c99c4754fbd4ec3079ec9e1d596af8f.
 <br>
