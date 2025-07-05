@@ -8,18 +8,103 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 05 Jul 2025 01:24:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jul 2025 02:57:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-53603 - Alinto SOPE SOGo NULL Pointer Dereference</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53603
+<br>
+<strong>Published : </strong> July 5, 2025, 1:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>In Alinto SOPE SOGo 2.0.2 through 5.12.2, sope-core/NGExtensions/NGHashMap.m allows a NULL pointer dereference and SOGo crash via a request in which a parameter in the query string is a duplicate of a parameter in the POST body.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53603</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53603</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53604 - Apache Web-Push Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53604
+<br>
+<strong>Published : </strong> July 5, 2025, 1:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>The web-push crate before 0.10.3 for Rust allows a denial of service (memory consumption) in the built-in clients via a large integer in a Content-Length header.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53604</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53604</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53605 - Google Protobuf Rust Crate Uncontrolled Recursion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53605
+<br>
+<strong>Published : </strong> July 5, 2025, 1:15 a.m. | 37 minutes ago
+<br>
+<strong>Description : </strong>The protobuf crate before 3.7.2 for Rust allows uncontrolled recursion in the protobuf::coded_input_stream::CodedInputStream::skip_group parsing of unknown fields in untrusted input.
+<br>
+<strong>Severity:</strong> 5.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53605</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53605</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26850 - Quest KACE Systems Management Appliance Local Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26850
+<br>
+<strong>Published : </strong> July 5, 2025, 12:15 a.m. | 1 hour, 37 minutes ago
+<br>
+<strong>Description : </strong>The agent in Quest KACE Systems Management Appliance (SMA) before 14.0.97 and 14.1.x before 14.1.19 potentially allows privilege escalation on managed systems.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Jul 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26850</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26850</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43711 - Tunnelblick Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43711
+<br>
+<strong>Published : </strong> July 5, 2025, 12:15 a.m. | 1 hour, 37 minutes ago
+<br>
+<strong>Description : </strong>Tunnelblick 3.5beta06 before 7.0, when incompletely uninstalled, allows attackers to execute arbitrary code as root (upon the next boot) by dragging a crafted Tunnelblick.app file into /Applications.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 05 Jul 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43711</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43711</guid>
+    </item>
+    <item>
       <title>CVE-2025-48952 - NetAlertX SHA-256 Magic Hash Login Bypass Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48952
 <br>
-<strong>Published : </strong> July 4, 2025, 11:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 11:15 p.m. | 2 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>NetAlertX is a network, presence scanner, and alert framework. Prior to version 25.6.7, a vulnerability in the authentication logic allows users to bypass password verification using SHA-256 magic hashes, due to loose comparison in PHP. In vulnerable versions of the application, a password comparison is performed using the `==` operator at line 40 in front/index.php. This introduces a security issue where specially crafted "magic hash" values that evaluate to true in a loose comparison can bypass authentication. Because of the use of `==` instead of the strict `===`, different strings that begin with 0e and are followed by only digits can be interpreted as scientific notation (i.e., zero) and treated as equal. This issue falls under the Login Bypass vulnerability class. Users with certain "weird" passwords that produce magic hashes are particularly affected. Services relying on this logic are at risk of unauthorized access. Version 25.6.7 fixes the vulnerability.
 <br>
@@ -36,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53365
 <br>
-<strong>Published : </strong> July 4, 2025, 10:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 10:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>The MCP Python SDK, called `mcp` on PyPI, is a Python implementation of the Model Context Protocol (MCP). Prior to version 1.10.0, if a client deliberately triggers an exception after establishing a streamable HTTP session, this can lead to an uncaught ClosedResourceError on the server side, causing the server to crash and requiring a restart to restore service. Impact may vary depending on the deployment conditions, and presence of infrastructure-level resilience measures. Version 1.10.0 contains a patch for the issue.
 <br>
@@ -53,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53366
 <br>
-<strong>Published : </strong> July 4, 2025, 10:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 10:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>The MCP Python SDK, called `mcp` on PyPI, is a Python implementation of the Model Context Protocol (MCP). Prior to version 1.9.4, a validation error in the MCP SDK can cause an unhandled exception when processing malformed requests, resulting in service unavailability (500 errors) until manually restarted. Impact may vary depending on the deployment conditions, and presence of infrastructure-level resilience measures. Version 1.9.4 contains a patch for the issue.
 <br>
@@ -70,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7070
 <br>
-<strong>Published : </strong> July 4, 2025, 10:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 10:15 p.m. | 3 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in IROAD Dashcam Q9 up to 20250624 and classified as problematic. Affected by this vulnerability is an unknown functionality of the component MFA Pairing Request Handler. The manipulation leads to allocation of resources. The attack needs to be done within the local network. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -87,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53602
 <br>
-<strong>Published : </strong> July 4, 2025, 9:15 p.m. | 2 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 9:15 p.m. | 4 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>Zipkin through 3.5.1 has a /heapdump endpoint (associated with the use of Spring Boot Actuator), a similar issue to CVE-2025-48927.
 <br>
@@ -104,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7068
 <br>
-<strong>Published : </strong> July 4, 2025, 9:15 p.m. | 2 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 9:15 p.m. | 4 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in HDF5 1.14.6. This issue affects the function H5FL__malloc of the file src/H5FL.c. The manipulation leads to memory leak. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.
 <br>
@@ -121,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7069
 <br>
-<strong>Published : </strong> July 4, 2025, 9:15 p.m. | 2 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 9:15 p.m. | 4 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in HDF5 1.14.6. Affected is the function H5FS__sect_link_size of the file src/H5FSsection.c. The manipulation leads to heap-based buffer overflow. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.
 <br>
@@ -138,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53483
 <br>
-<strong>Published : </strong> July 4, 2025, 6:15 p.m. | 5 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 6:15 p.m. | 7 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>ArchivePage.php, UnarchivePage.php, and VoterEligibilityPage#executeClear() do not validate request methods or CSRF tokens, allowing attackers to trigger sensitive actions if an admin visits a malicious site.
 
@@ -160,7 +245,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53484
 <br>
-<strong>Published : </strong> July 4, 2025, 6:15 p.m. | 5 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 6:15 p.m. | 7 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>User-controlled inputs are improperly escaped in:
 
@@ -206,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53485
 <br>
-<strong>Published : </strong> July 4, 2025, 6:15 p.m. | 5 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 6:15 p.m. | 7 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>SetTranslationHandler.php does not validate that the user is an election admin, allowing any (even unauthenticated) user to change election-related translation text. While partially broken in newer MediaWiki versions, the check is still missing.
 
@@ -228,7 +313,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7067
 <br>
-<strong>Published : </strong> July 4, 2025, 6:15 p.m. | 5 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 6:15 p.m. | 7 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in HDF5 1.14.6. This vulnerability affects the function H5FS__sinfo_serialize_node_cb of the file src/H5FScache.c. The manipulation leads to heap-based buffer overflow. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used.
 <br>
@@ -245,7 +330,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53481
 <br>
-<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 7 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 9 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>Uncontrolled Resource Consumption vulnerability in Wikimedia Foundation Mediawiki - IPInfo Extension allows Excessive Allocation.This issue affects Mediawiki - IPInfo Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
 <br>
@@ -262,7 +347,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53482
 <br>
-<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 7 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 4:15 p.m. | 9 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - IPInfo Extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - IPInfo Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
 <br>
@@ -279,7 +364,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49600
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 8 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 10 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In MbedTLS 3.3.0 before 3.6.4, mbedtls_lms_verify may accept invalid signatures if hash computation fails and internal errors go unchecked, enabling LMS (Leighton-Micali Signature) forgery in a fault scenario. Specifically, unchecked return values in mbedtls_lms_verify allow an attacker (who can induce a hardware hash accelerator fault) to bypass LMS signature verification by reusing stale stack data, resulting in acceptance of an invalid signature. In mbedtls_lms_verify, the return values of the internal Merkle tree functions create_merkle_leaf_value and create_merkle_internal_value are not checked. These functions return an integer that indicates whether the call succeeded or not. If a failure occurs, the output buffer (Tc_candidate_root_node) may remain uninitialized, and the result of the signature verification is unpredictable. When the software implementation of SHA-256 is used, these functions will not fail. However, with hardware-accelerated hashing, an attacker could use fault injection against the accelerator to bypass verification.
 <br>
@@ -296,7 +381,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49601
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 8 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 10 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>In MbedTLS 3.3.0 before 3.6.4, mbedtls_lms_import_public_key does not check that the input buffer is at least 4 bytes before reading a 32-bit field, allowing a possible out-of-bounds read on truncated input. Specifically, an out-of-bounds read in mbedtls_lms_import_public_key allows context-dependent attackers to trigger a crash or limited adjacent-memory disclosure by supplying a truncated LMS (Leighton-Micali Signature) public-key buffer under four bytes. An LMS public key starts with a 4-byte type indicator. The function mbedtls_lms_import_public_key reads this type indicator before validating the size of its input.
 <br>
@@ -313,7 +398,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52496
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 8 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 10 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>Mbed TLS before 3.6.4 has a race condition in AESNI detection if certain compiler optimizations occur. An attacker may be able to extract an AES key from a multithreaded program, or perform a GCM forgery.
 <br>
@@ -330,7 +415,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52497
 <br>
-<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 8 hours, 46 minutes ago
+<strong>Published : </strong> July 4, 2025, 3:15 p.m. | 10 hours, 37 minutes ago
 <br>
 <strong>Description : </strong>Mbed TLS before 3.6.4 has a PEM parsing one-byte heap-based buffer underflow, in mbedtls_pem_read_buffer and two mbedtls_pk_parse functions, via untrusted PEM input.
 <br>
@@ -341,6 +426,209 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 04 Jul 2025 15:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-52497</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-52497</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38233 - Linux kernel Powerpc64 Ftrace Livepatching R15 Clobbered Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38233
+<br>
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 11 hours, 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+powerpc64/ftrace: fix clobbered r15 during livepatching
+
+While r15 is clobbered always with PPC_FTRACE_OUT_OF_LINE, it is
+not restored in livepatch sequence leading to not so obvious fails
+like below:
+
+  BUG: Unable to handle kernel data access on write at 0xc0000000000f9078
+  Faulting instruction address: 0xc0000000018ff958
+  Oops: Kernel access of bad area, sig: 11 [#1]
+  ...
+  NIP:  c0000000018ff958 LR: c0000000018ff930 CTR: c0000000009c0790
+  REGS: c00000005f2e7790 TRAP: 0300   Tainted: G              K      (6.14.0+)
+  MSR:  8000000000009033 <SF,EE,ME,IR,DR,RI,LE>  CR: 2822880b  XER: 20040000
+  CFAR: c0000000008addc0 DAR: c0000000000f9078 DSISR: 0a000000 IRQMASK: 1
+  GPR00: c0000000018f2584 c00000005f2e7a30 c00000000280a900 c000000017ffa488
+  GPR04: 0000000000000008 0000000000000000 c0000000018f24fc 000000000000000d
+  GPR08: fffffffffffe0000 000000000000000d 0000000000000000 0000000000008000
+  GPR12: c0000000009c0790 c000000017ffa480 c00000005f2e7c78 c0000000000f9070
+  GPR16: c00000005f2e7c90 0000000000000000 0000000000000000 0000000000000000
+  GPR20: 0000000000000000 c00000005f3efa80 c00000005f2e7c60 c00000005f2e7c88
+  GPR24: c00000005f2e7c60 0000000000000001 c0000000000f9078 0000000000000000
+  GPR28: 00007fff97960000 c000000017ffa480 0000000000000000 c0000000000f9078
+  ...
+  Call Trace:
+    check_heap_object+0x34/0x390 (unreliable)
+  __mutex_unlock_slowpath.isra.0+0xe4/0x230
+  seq_read_iter+0x430/0xa90
+  proc_reg_read_iter+0xa4/0x200
+  vfs_read+0x41c/0x510
+  ksys_read+0xa4/0x190
+  system_call_exception+0x1d0/0x440
+  system_call_vectored_common+0x15c/0x2ec
+
+Fix it by restoring r15 always.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38233</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38233</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38234 - Linux Kernel Sched/rt: Push Rt Task Race Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38234
+<br>
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 11 hours, 37 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+sched/rt: Fix race in push_rt_task
+
+Overview
+========
+When a CPU chooses to call push_rt_task and picks a task to push to
+another CPU's runqueue then it will call find_lock_lowest_rq method
+which would take a double lock on both CPUs' runqueues. If one of the
+locks aren't readily available, it may lead to dropping the current
+runqueue lock and reacquiring both the locks at once. During this window
+it is possible that the task is already migrated and is running on some
+other CPU. These cases are already handled. However, if the task is
+migrated and has already been executed and another CPU is now trying to
+wake it up (ttwu) such that it is queued again on the runqeue
+(on_rq is 1) and also if the task was run by the same CPU, then the
+current checks will pass even though the task was migrated out and is no
+longer in the pushable tasks list.
+
+Crashes
+=======
+This bug resulted in quite a few flavors of crashes triggering kernel
+panics with various crash signatures such as assert failures, page
+faults, null pointer dereferences, and queue corruption errors all
+coming from scheduler itself.
+
+Some of the crashes:
+-> kernel BUG at kernel/sched/rt.c:1616! BUG_ON(idx >= MAX_RT_PRIO)
+   Call Trace:
+   ? __die_body+0x1a/0x60
+   ? die+0x2a/0x50
+   ? do_trap+0x85/0x100
+   ? pick_next_task_rt+0x6e/0x1d0
+   ? do_error_trap+0x64/0xa0
+   ? pick_next_task_rt+0x6e/0x1d0
+   ? exc_invalid_op+0x4c/0x60
+   ? pick_next_task_rt+0x6e/0x1d0
+   ? asm_exc_invalid_op+0x12/0x20
+   ? pick_next_task_rt+0x6e/0x1d0
+   __schedule+0x5cb/0x790
+   ? update_ts_time_stats+0x55/0x70
+   schedule_idle+0x1e/0x40
+   do_idle+0x15e/0x200
+   cpu_startup_entry+0x19/0x20
+   start_secondary+0x117/0x160
+   secondary_startup_64_no_verify+0xb0/0xbb
+
+-> BUG: kernel NULL pointer dereference, address: 00000000000000c0
+   Call Trace:
+   ? __die_body+0x1a/0x60
+   ? no_context+0x183/0x350
+   ? __warn+0x8a/0xe0
+   ? exc_page_fault+0x3d6/0x520
+   ? asm_exc_page_fault+0x1e/0x30
+   ? pick_next_task_rt+0xb5/0x1d0
+   ? pick_next_task_rt+0x8c/0x1d0
+   __schedule+0x583/0x7e0
+   ? update_ts_time_stats+0x55/0x70
+   schedule_idle+0x1e/0x40
+   do_idle+0x15e/0x200
+   cpu_startup_entry+0x19/0x20
+   start_secondary+0x117/0x160
+   secondary_startup_64_no_verify+0xb0/0xbb
+
+-> BUG: unable to handle page fault for address: ffff9464daea5900
+   kernel BUG at kernel/sched/rt.c:1861! BUG_ON(rq->cpu != task_cpu(p))
+
+-> kernel BUG at kernel/sched/rt.c:1055! BUG_ON(!rq->nr_running)
+   Call Trace:
+   ? __die_body+0x1a/0x60
+   ? die+0x2a/0x50
+   ? do_trap+0x85/0x100
+   ? dequeue_top_rt_rq+0xa2/0xb0
+   ? do_error_trap+0x64/0xa0
+   ? dequeue_top_rt_rq+0xa2/0xb0
+   ? exc_invalid_op+0x4c/0x60
+   ? dequeue_top_rt_rq+0xa2/0xb0
+   ? asm_exc_invalid_op+0x12/0x20
+   ? dequeue_top_rt_rq+0xa2/0xb0
+   dequeue_rt_entity+0x1f/0x70
+   dequeue_task_rt+0x2d/0x70
+   __schedule+0x1a8/0x7e0
+   ? blk_finish_plug+0x25/0x40
+   schedule+0x3c/0xb0
+   futex_wait_queue_me+0xb6/0x120
+   futex_wait+0xd9/0x240
+   do_futex+0x344/0xa90
+   ? get_mm_exe_file+0x30/0x60
+   ? audit_exe_compare+0x58/0x70
+   ? audit_filter_rules.constprop.26+0x65e/0x1220
+   __x64_sys_futex+0x148/0x1f0
+   do_syscall_64+0x30/0x80
+   entry_SYSCALL_64_after_hwframe+0x62/0xc7
+
+-> BUG: unable to handle page fault for address: ffff8cf3608bc2c0
+   Call Trace:
+   ? __die_body+0x1a/0x60
+   ? no_context+0x183/0x350
+   ? spurious_kernel_fault+0x171/0x1c0
+   ? exc_page_fault+0x3b6/0x520
+   ? plist_check_list+0x15/0x40
+   ? plist_check_list+0x2e/0x40
+   ? asm_exc_page_fault+0x1e/0x30
+   ? _cond_resched+0x15/0x30
+   ? futex_wait_queue_me+0xc8/0x120
+   ? futex_wait+0xd9/0x240
+   ? try_to_wake_up+0x1b8/0x490
+   ? futex_wake+0x78/0x160
+   ? do_futex+0xcd/0xa90
+   ? plist_check_list+0x15/0x40
+   ? plist_check_list+0x2e/0x40
+   ? plist_del+0x6a/0xd0
+   ? plist_check_list+0x15/0x40
+   ? plist_check_list+0x2e/0x40
+   ? dequeue_pushable_task+0x20/0x70
+   ? __schedule+0x382/0x7e0
+   ? asm_sysvec_reschedule_i
+---truncated---
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38234</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38234</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46733 - OP-TEE Secure Storage API Panic Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46733
+<br>
+<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 11 hours, 37 minutes ago
+<br>
+<strong>Description : </strong>OP-TEE is a Trusted Execution Environment (TEE) designed as companion to a non-secure Linux kernel running on Arm; Cortex-A cores using the TrustZone technology. In version 4.5.0, using a specially crafted tee-supplicant binary running in REE userspace, an attacker can trigger a panic in a TA that uses the libutee Secure Storage API. Many functions in libutee, specifically those which make up the Secure Storage API, will panic if a system call returns an unexpected return code. This behavior is mandated by the TEE Internal Core API specification. However, in OP-TEE’s implementation, return codes of secure storage operations are passed through unsanitized from the REE tee-supplicant, through the Linux kernel tee-driver, through the OP-TEE kernel, back to libutee. Thus, an attacker with access to REE userspace, and the ability to stop tee-supplicant and replace it with their own process (generally trivial for a root user, and depending on the way permissions are set up, potentially available even to less privileged users) can run a malicious tee-supplicant process that responds to storage requests with unexpected response codes, triggering a panic in the requesting TA. This is particularly dangerous for TAs built with `TA_FLAG_SINGLE_INSTANCE` (corresponding to `gpd.ta.singleInstance` and `TA_FLAG_INSTANCE_KEEP_ALIVE` (corresponding to `gpd.ta.keepAlive`). The behavior of these TAs may depend on memory that is preserved between sessions, and the ability of an attacker to panic the TA and reload it with a clean memory space can compromise the behavior of those TAs. A critical example of this is the optee_ftpm TA. It uses the kept alive memory to hold PCR values, which crucially must be non-resettable. An attacker who can trigger a panic in the fTPM TA can reset the PCRs, and then extend them PCRs with whatever they choose, falsifying boot measurements, accessing sealed data, and potentially more. The impact of this issue depends significantly on the behavior of affected TAs. For some, it could manifest as a denial of service, while for others, like the fTPM TA, it can result in the disclosure of sensitive data. Anyone running the fTPM TA is affected, but similar attacks may be possible on other TAs that leverage the Secure Storage API. A fix is available in commit 941a58d78c99c4754fbd4ec3079ec9e1d596af8f.
+<br>
+<strong>Severity:</strong> 7.9 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 04 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46733</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46733</guid>
     </item>
     <item>
       <title>CVE-2025-38228 - Imagination Media Linux Kernel Memory Leak</title>
@@ -609,209 +897,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 04 Jul 2025 14:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-38232</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-38232</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38233 - Linux kernel Powerpc64 Ftrace Livepatching R15 Clobbered Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38233
-<br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 9 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-powerpc64/ftrace: fix clobbered r15 during livepatching
-
-While r15 is clobbered always with PPC_FTRACE_OUT_OF_LINE, it is
-not restored in livepatch sequence leading to not so obvious fails
-like below:
-
-  BUG: Unable to handle kernel data access on write at 0xc0000000000f9078
-  Faulting instruction address: 0xc0000000018ff958
-  Oops: Kernel access of bad area, sig: 11 [#1]
-  ...
-  NIP:  c0000000018ff958 LR: c0000000018ff930 CTR: c0000000009c0790
-  REGS: c00000005f2e7790 TRAP: 0300   Tainted: G              K      (6.14.0+)
-  MSR:  8000000000009033 <SF,EE,ME,IR,DR,RI,LE>  CR: 2822880b  XER: 20040000
-  CFAR: c0000000008addc0 DAR: c0000000000f9078 DSISR: 0a000000 IRQMASK: 1
-  GPR00: c0000000018f2584 c00000005f2e7a30 c00000000280a900 c000000017ffa488
-  GPR04: 0000000000000008 0000000000000000 c0000000018f24fc 000000000000000d
-  GPR08: fffffffffffe0000 000000000000000d 0000000000000000 0000000000008000
-  GPR12: c0000000009c0790 c000000017ffa480 c00000005f2e7c78 c0000000000f9070
-  GPR16: c00000005f2e7c90 0000000000000000 0000000000000000 0000000000000000
-  GPR20: 0000000000000000 c00000005f3efa80 c00000005f2e7c60 c00000005f2e7c88
-  GPR24: c00000005f2e7c60 0000000000000001 c0000000000f9078 0000000000000000
-  GPR28: 00007fff97960000 c000000017ffa480 0000000000000000 c0000000000f9078
-  ...
-  Call Trace:
-    check_heap_object+0x34/0x390 (unreliable)
-  __mutex_unlock_slowpath.isra.0+0xe4/0x230
-  seq_read_iter+0x430/0xa90
-  proc_reg_read_iter+0xa4/0x200
-  vfs_read+0x41c/0x510
-  ksys_read+0xa4/0x190
-  system_call_exception+0x1d0/0x440
-  system_call_vectored_common+0x15c/0x2ec
-
-Fix it by restoring r15 always.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38233</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38233</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38234 - Linux Kernel Sched/rt: Push Rt Task Race Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38234
-<br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 9 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-sched/rt: Fix race in push_rt_task
-
-Overview
-========
-When a CPU chooses to call push_rt_task and picks a task to push to
-another CPU's runqueue then it will call find_lock_lowest_rq method
-which would take a double lock on both CPUs' runqueues. If one of the
-locks aren't readily available, it may lead to dropping the current
-runqueue lock and reacquiring both the locks at once. During this window
-it is possible that the task is already migrated and is running on some
-other CPU. These cases are already handled. However, if the task is
-migrated and has already been executed and another CPU is now trying to
-wake it up (ttwu) such that it is queued again on the runqeue
-(on_rq is 1) and also if the task was run by the same CPU, then the
-current checks will pass even though the task was migrated out and is no
-longer in the pushable tasks list.
-
-Crashes
-=======
-This bug resulted in quite a few flavors of crashes triggering kernel
-panics with various crash signatures such as assert failures, page
-faults, null pointer dereferences, and queue corruption errors all
-coming from scheduler itself.
-
-Some of the crashes:
--> kernel BUG at kernel/sched/rt.c:1616! BUG_ON(idx >= MAX_RT_PRIO)
-   Call Trace:
-   ? __die_body+0x1a/0x60
-   ? die+0x2a/0x50
-   ? do_trap+0x85/0x100
-   ? pick_next_task_rt+0x6e/0x1d0
-   ? do_error_trap+0x64/0xa0
-   ? pick_next_task_rt+0x6e/0x1d0
-   ? exc_invalid_op+0x4c/0x60
-   ? pick_next_task_rt+0x6e/0x1d0
-   ? asm_exc_invalid_op+0x12/0x20
-   ? pick_next_task_rt+0x6e/0x1d0
-   __schedule+0x5cb/0x790
-   ? update_ts_time_stats+0x55/0x70
-   schedule_idle+0x1e/0x40
-   do_idle+0x15e/0x200
-   cpu_startup_entry+0x19/0x20
-   start_secondary+0x117/0x160
-   secondary_startup_64_no_verify+0xb0/0xbb
-
--> BUG: kernel NULL pointer dereference, address: 00000000000000c0
-   Call Trace:
-   ? __die_body+0x1a/0x60
-   ? no_context+0x183/0x350
-   ? __warn+0x8a/0xe0
-   ? exc_page_fault+0x3d6/0x520
-   ? asm_exc_page_fault+0x1e/0x30
-   ? pick_next_task_rt+0xb5/0x1d0
-   ? pick_next_task_rt+0x8c/0x1d0
-   __schedule+0x583/0x7e0
-   ? update_ts_time_stats+0x55/0x70
-   schedule_idle+0x1e/0x40
-   do_idle+0x15e/0x200
-   cpu_startup_entry+0x19/0x20
-   start_secondary+0x117/0x160
-   secondary_startup_64_no_verify+0xb0/0xbb
-
--> BUG: unable to handle page fault for address: ffff9464daea5900
-   kernel BUG at kernel/sched/rt.c:1861! BUG_ON(rq->cpu != task_cpu(p))
-
--> kernel BUG at kernel/sched/rt.c:1055! BUG_ON(!rq->nr_running)
-   Call Trace:
-   ? __die_body+0x1a/0x60
-   ? die+0x2a/0x50
-   ? do_trap+0x85/0x100
-   ? dequeue_top_rt_rq+0xa2/0xb0
-   ? do_error_trap+0x64/0xa0
-   ? dequeue_top_rt_rq+0xa2/0xb0
-   ? exc_invalid_op+0x4c/0x60
-   ? dequeue_top_rt_rq+0xa2/0xb0
-   ? asm_exc_invalid_op+0x12/0x20
-   ? dequeue_top_rt_rq+0xa2/0xb0
-   dequeue_rt_entity+0x1f/0x70
-   dequeue_task_rt+0x2d/0x70
-   __schedule+0x1a8/0x7e0
-   ? blk_finish_plug+0x25/0x40
-   schedule+0x3c/0xb0
-   futex_wait_queue_me+0xb6/0x120
-   futex_wait+0xd9/0x240
-   do_futex+0x344/0xa90
-   ? get_mm_exe_file+0x30/0x60
-   ? audit_exe_compare+0x58/0x70
-   ? audit_filter_rules.constprop.26+0x65e/0x1220
-   __x64_sys_futex+0x148/0x1f0
-   do_syscall_64+0x30/0x80
-   entry_SYSCALL_64_after_hwframe+0x62/0xc7
-
--> BUG: unable to handle page fault for address: ffff8cf3608bc2c0
-   Call Trace:
-   ? __die_body+0x1a/0x60
-   ? no_context+0x183/0x350
-   ? spurious_kernel_fault+0x171/0x1c0
-   ? exc_page_fault+0x3b6/0x520
-   ? plist_check_list+0x15/0x40
-   ? plist_check_list+0x2e/0x40
-   ? asm_exc_page_fault+0x1e/0x30
-   ? _cond_resched+0x15/0x30
-   ? futex_wait_queue_me+0xc8/0x120
-   ? futex_wait+0xd9/0x240
-   ? try_to_wake_up+0x1b8/0x490
-   ? futex_wake+0x78/0x160
-   ? do_futex+0xcd/0xa90
-   ? plist_check_list+0x15/0x40
-   ? plist_check_list+0x2e/0x40
-   ? plist_del+0x6a/0xd0
-   ? plist_check_list+0x15/0x40
-   ? plist_check_list+0x2e/0x40
-   ? dequeue_pushable_task+0x20/0x70
-   ? __schedule+0x382/0x7e0
-   ? asm_sysvec_reschedule_i
----truncated---
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38234</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38234</guid>
-    </item>
-    <item>
-      <title>CVE-2025-46733 - OP-TEE Secure Storage API Panic Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-46733
-<br>
-<strong>Published : </strong> July 4, 2025, 2:15 p.m. | 9 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>OP-TEE is a Trusted Execution Environment (TEE) designed as companion to a non-secure Linux kernel running on Arm; Cortex-A cores using the TrustZone technology. In version 4.5.0, using a specially crafted tee-supplicant binary running in REE userspace, an attacker can trigger a panic in a TA that uses the libutee Secure Storage API. Many functions in libutee, specifically those which make up the Secure Storage API, will panic if a system call returns an unexpected return code. This behavior is mandated by the TEE Internal Core API specification. However, in OP-TEE’s implementation, return codes of secure storage operations are passed through unsanitized from the REE tee-supplicant, through the Linux kernel tee-driver, through the OP-TEE kernel, back to libutee. Thus, an attacker with access to REE userspace, and the ability to stop tee-supplicant and replace it with their own process (generally trivial for a root user, and depending on the way permissions are set up, potentially available even to less privileged users) can run a malicious tee-supplicant process that responds to storage requests with unexpected response codes, triggering a panic in the requesting TA. This is particularly dangerous for TAs built with `TA_FLAG_SINGLE_INSTANCE` (corresponding to `gpd.ta.singleInstance` and `TA_FLAG_INSTANCE_KEEP_ALIVE` (corresponding to `gpd.ta.keepAlive`). The behavior of these TAs may depend on memory that is preserved between sessions, and the ability of an attacker to panic the TA and reload it with a clean memory space can compromise the behavior of those TAs. A critical example of this is the optee_ftpm TA. It uses the kept alive memory to hold PCR values, which crucially must be non-resettable. An attacker who can trigger a panic in the fTPM TA can reset the PCRs, and then extend them PCRs with whatever they choose, falsifying boot measurements, accessing sealed data, and potentially more. The impact of this issue depends significantly on the behavior of affected TAs. For some, it could manifest as a denial of service, while for others, like the fTPM TA, it can result in the disclosure of sensitive data. Anyone running the fTPM TA is affected, but similar attacks may be possible on other TAs that leverage the Secure Storage API. A fix is available in commit 941a58d78c99c4754fbd4ec3079ec9e1d596af8f.
-<br>
-<strong>Severity:</strong> 7.9 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 04 Jul 2025 14:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-46733</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46733</guid>
     </item>
     <item>
       <title>CVE-2025-38224 - Kvaser PCIEFD Linux Kernel Slab Out-of-Bounds Write</title>
