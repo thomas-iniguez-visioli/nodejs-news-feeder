@@ -8,12 +8,477 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 07 Jul 2025 15:53:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jul 2025 16:24:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-5987 - Libssh ChaCha20 Cipher Context Initialization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5987
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A flaw was found in libssh when using the ChaCha20 cipher with the OpenSSL library. If an attacker manages to exhaust the heap space, this error is not detected and may lead to libssh using a partially initialized cipher context. This occurs because the OpenSSL error code returned aliases with the SSH_OK code, resulting in libssh not properly detecting the error returned by the OpenSSL library. This issue can lead to undefined behavior, including compromised data confidentiality and integrity or crashes.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5987</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5987</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6663 - GStreamer H266 Codec Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6663
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>GStreamer H266 Codec Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.
+
+The specific flaw exists within the parsing of H266 sei messages. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-27381.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6663</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6663</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6711 - MongoDB Server Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6711
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>An issue has been identified in MongoDB Server where unredacted queries may inadvertently appear in server logs when certain error conditions are encountered. This issue affects MongoDB Server v8.0 versions prior to 8.0.5, MongoDB Server v7.0 versions prior to 7.0.18 and MongoDB Server v6.0 versions prior to 6.0.21.
+<br>
+<strong>Severity:</strong> 4.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6711</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6711</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6712 - MongoDB Server Memory Consumption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6712
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>MongoDB Server may be susceptible to disruption caused by high memory usage, potentially leading to server crash. This condition is linked to inefficiencies in memory management related to internal operations. In scenarios where certain internal processes persist longer than anticipated, memory consumption can increase, potentially impacting server stability and availability. This issue affects MongoDB Server v8.0 versions prior to 8.0.10
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6712</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6712</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6713 - MongoDB Server Unauthorized Data Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6713
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>An unauthorized user may leverage a specially crafted aggregation pipeline to access data without proper authorization due to improper handling of the $mergeCursors stage in MongoDB Server. This may lead to access to data without further authorisation. This issue affects MongoDB Server MongoDB Server v8.0 versions prior to 8.0.7, MongoDB Server v7.0 versions prior to 7.0.20 and MongoDB Server v6.0 versions prior to 6.0.22
+<br>
+<strong>Severity:</strong> 7.7 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6713</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6713</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6714 - MongoDB Mongos Unresponsive Connections Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6714
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>MongoDB Server's mongos component can become unresponsive to new connections due to incorrect handling of incomplete data. This affects MongoDB when configured with load balancer support. This issue affects MongoDB Server v6.0 prior to 6.0.23, MongoDB Server v7.0 prior to 7.0.20 and MongoDB Server v8.0 prior to 8.0.9
+
+Required Configuration:
+
+This affects MongoDB sharded clusters when configured with load balancer support for mongos using HAProxy on specified ports.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6714</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6714</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6793 - Marvell QConvergeConsole QLogicDownloadImpl Directory Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6793
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole QLogicDownloadImpl Directory Traversal Arbitrary File Deletion and Information Disclosure Vulnerability. This vulnerability allows remote attackers to delete arbitrary files and disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the QLogicDownloadImpl class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files and disclose information in the context of SYSTEM. Was ZDI-CAN-24912.
+<br>
+<strong>Severity:</strong> 9.4 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6793</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6793</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6794 - Marvell QConvergeConsole Directory Traversal Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6794
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole saveAsText Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the saveAsText method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-24913.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6794</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6794</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6795 - Marvell QConvergeConsole Directory Traversal Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6795
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole getFileUploadSize Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the getFileUploadSize method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24914.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6795</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6795</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6796 - Marvell QConvergeConsole Directory Traversal Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6796
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole getAppFileBytes Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the getAppFileBytes method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24916.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6796</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6796</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6797 - Marvell QConvergeConsole Directory Traversal Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6797
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole getFileUploadBytes Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the getFileUploadBytes method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24917.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6797</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6797</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6798 - Marvell QConvergeConsole Directory Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6798
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole deleteAppFile Directory Traversal Arbitrary File Deletion Vulnerability. This vulnerability allows remote attackers to delete arbitrary files on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the deleteAppFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM. Was ZDI-CAN-24918.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6798</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6798</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6799 - Marvell QConvergeConsole Directory Traversal Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6799
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole getFileUploadBytes Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the getFileUploadBytes method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24919.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6799</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6799</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6800 - Marvell QConvergeConsole Directory Traversal Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6800
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole restoreESwitchConfig Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the restoreESwitchConfig method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24920.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6800</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6800</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6801 - Marvell QConvergeConsole Directory Traversal Arbitrary File Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6801
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole saveNICParamsToFile Directory Traversal Arbitrary File Write Vulnerability. This vulnerability allows remote attackers to create arbitrary files on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the saveNICParamsToFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to write files in the context of SYSTEM. Was ZDI-CAN-24921.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6801</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6801</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6802 - Marvell QConvergeConsole Unrestricted File Upload Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6802
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole getFileFromURL Unrestricted File Upload Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the getFileFromURL method. The issue results from the lack of proper validation of user-supplied data, which can allow the upload of arbitrary files. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-24922.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6802</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6802</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6803 - Marvell QConvergeConsole Directory Traversal Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6803
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole compressDriverFiles Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the compressDriverFiles method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24923.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6803</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6803</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6804 - Marvell QConvergeConsole Directory Traversal Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6804
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole compressFirmwareDumpFiles Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the compressFirmwareDumpFiles method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24924.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6804</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6804</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6805 - Marvell QConvergeConsole Directory Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6805
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole deleteEventLogFile Directory Traversal Arbitrary File Deletion Vulnerability. This vulnerability allows remote attackers to delete arbitrary files on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the deleteEventLogFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM. Was ZDI-CAN-24925.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6805</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6805</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6806 - Marvell QConvergeConsole Directory Traversal File Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6806
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole decryptFile Directory Traversal Arbitrary File Write Vulnerability. This vulnerability allows remote attackers to create arbitrary files on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the decryptFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to write files in the context of SYSTEM. Was ZDI-CAN-24979.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6806</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6806</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6807 - Marvell QConvergeConsole Directory Traversal Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6807
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole getDriverTmpPath Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the getDriverTmpPath method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24980.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6807</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6807</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6810 - Mescius ActiveReports.NET Deserialization Remote Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6810
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Mescius ActiveReports.NET ReadValue Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Mescius ActiveReports.NET. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.
+
+The specific flaw exists within the implementation of the ReadValue method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25246.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6810</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6810</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6811 - Mescius ActiveReports.NET TypeResolutionService Deserialization Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6811
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Mescius ActiveReports.NET TypeResolutionService Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Mescius ActiveReports.NET. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.
+
+The specific flaw exists within the TypeResolutionService class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25397.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6811</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6811</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7132 - Campcodes Payroll Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7132
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Campcodes Payroll Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /ajax.php?action=save_payroll. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7132</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7132</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7133 - CodeAstro Online Movie Ticket Booking System Cross-Site Request Forgery Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7133
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in CodeAstro Online Movie Ticket Booking System 1.0. This affects an unknown part. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 07 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7133</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7133</guid>
+    </item>
     <item>
       <title>CVE-2025-6209 - Run-llama Llama Index Path Traversal Vulnerability</title>
       <description><![CDATA[<p>
