@@ -605,212 +605,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-53374 - Dokploy Information Disclosure Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53374
-<br>
-<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Dokploy is a self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases. An authenticated low-privileged account can retrieve detailed profile information about another users in the same organization by directly invoking user.one. The response discloses personally-identifiable information (PII) such as e-mail address, role, two-factor status, organization ID, and various account flags. The fix will be available in the v0.23.7.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53374">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53375 - Dokploy File Access Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53375
-<br>
-<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Dokploy is a self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases. An authenticated attacker can read any file that the Traefik process user can access (e.g., /etc/passwd, application source, environment variable files containing credentials and secrets). This may lead to full compromise of other services or lateral movement. This vulnerability is fixed in 0.23.7.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53375">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53376 - Dokploy Docker Command Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53376
-<br>
-<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>Dokploy is a self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases. An authenticated, low-privileged user can run arbitrary OS commands on the Dokploy host. The tRPC procedure
-docker.getContainersByAppNameMatch interpolates the attacker-supplied appName value into a Docker CLI call without sanitisation, enabling command injection under the Dokploy service account. This vulnerability is fixed in 0.23.7.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53376">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53487 - Mediawiki ApprovedRevs Stored XSS
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53487
-<br>
-<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 2 hours, 1 minute ago
-<br>
-<strong>Description : </strong>The ApprovedRevs extension for MediaWiki is vulnerable to stored XSS in multiple locations where system messages are inserted into raw HTML without proper escaping. Attackers can exploit this by injecting JavaScript payloads via the uselang=x-xss language override, which causes crafted message keys to be rendered unescaped.
-
-
-
-
-This issue affects Mediawiki - ApprovedRevs extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53487">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7057 - Wikimedia Foundation Mediawiki Quiz Extension Stored XSS Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7057
-<br>
-<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - Quiz Extension allows Stored XSS.This issue affects Mediawiki - Quiz Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7057">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7134 - Campcodes Online Recruitment Management System SQL Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7134
-<br>
-<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>A vulnerability classified as critical was found in Campcodes Online Recruitment Management System 1.0. This vulnerability affects unknown code of the file /admin/ajax.php?action=delete_application. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7134">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7135 - Campcodes Online Recruitment Management System SQL Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7135
-<br>
-<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Campcodes Online Recruitment Management System 1.0. This issue affects some unknown processing of the file /admin/ajax.php?action=save_vacancy. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7135">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7259 - MongoDB Server Duplicate _id Field Denial of Service
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7259
-<br>
-<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 2 hours ago
-<br>
-<strong>Description : </strong>An authorized user can issue queries with duplicate _id fields, that leads to unexpected behavior in MongoDB Server, which may result to crash. This issue can only be triggered by authorized users and cause Denial of Service. This issue affects MongoDB Server v8.1 version 8.1.0.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7259">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
                             CVE-2025-26780 - &#34;Samsung Exynos Denial of Service (DoS) Vulnerability&#34;
                         </h3>
                         <p>
@@ -1078,6 +872,370 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Mon, 07 Jul 2025 16:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53373">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53374 - Dokploy Information Disclosure Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53374
+<br>
+<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>Dokploy is a self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases. An authenticated low-privileged account can retrieve detailed profile information about another users in the same organization by directly invoking user.one. The response discloses personally-identifiable information (PII) such as e-mail address, role, two-factor status, organization ID, and various account flags. The fix will be available in the v0.23.7.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53374">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53375 - Dokploy File Access Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53375
+<br>
+<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>Dokploy is a self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases. An authenticated attacker can read any file that the Traefik process user can access (e.g., /etc/passwd, application source, environment variable files containing credentials and secrets). This may lead to full compromise of other services or lateral movement. This vulnerability is fixed in 0.23.7.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53375">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53376 - Dokploy Docker Command Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53376
+<br>
+<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>Dokploy is a self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases. An authenticated, low-privileged user can run arbitrary OS commands on the Dokploy host. The tRPC procedure
+docker.getContainersByAppNameMatch interpolates the attacker-supplied appName value into a Docker CLI call without sanitisation, enabling command injection under the Dokploy service account. This vulnerability is fixed in 0.23.7.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53376">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53487 - Mediawiki ApprovedRevs Stored XSS
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53487
+<br>
+<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>The ApprovedRevs extension for MediaWiki is vulnerable to stored XSS in multiple locations where system messages are inserted into raw HTML without proper escaping. Attackers can exploit this by injecting JavaScript payloads via the uselang=x-xss language override, which causes crafted message keys to be rendered unescaped.
+
+
+
+
+This issue affects Mediawiki - ApprovedRevs extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53487">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7057 - Wikimedia Foundation Mediawiki Quiz Extension Stored XSS Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7057
+<br>
+<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - Quiz Extension allows Stored XSS.This issue affects Mediawiki - Quiz Extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7057">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7134 - Campcodes Online Recruitment Management System SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7134
+<br>
+<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in Campcodes Online Recruitment Management System 1.0. This vulnerability affects unknown code of the file /admin/ajax.php?action=delete_application. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7134">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7135 - Campcodes Online Recruitment Management System SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7135
+<br>
+<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Campcodes Online Recruitment Management System 1.0. This issue affects some unknown processing of the file /admin/ajax.php?action=save_vacancy. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7135">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7259 - MongoDB Server Duplicate _id Field Denial of Service
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7259
+<br>
+<strong>Published : </strong> July 7, 2025, 4:15 p.m. | 38 minutes ago
+<br>
+<strong>Description : </strong>An authorized user can issue queries with duplicate _id fields, that leads to unexpected behavior in MongoDB Server, which may result to crash. This issue can only be triggered by authorized users and cause Denial of Service. This issue affects MongoDB Server v8.1 version 8.1.0.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7259">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6806 - Marvell QConvergeConsole Directory Traversal File Write Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6806
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour, 38 minutes ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole decryptFile Directory Traversal Arbitrary File Write Vulnerability. This vulnerability allows remote attackers to create arbitrary files on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the decryptFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to write files in the context of SYSTEM. Was ZDI-CAN-24979.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6806">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6807 - Marvell QConvergeConsole Directory Traversal Information Disclosure
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6807
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour, 38 minutes ago
+<br>
+<strong>Description : </strong>Marvell QConvergeConsole getDriverTmpPath Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the implementation of the getDriverTmpPath method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24980.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6807">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6810 - Mescius ActiveReports.NET Deserialization Remote Code Execution
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6810
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour, 38 minutes ago
+<br>
+<strong>Description : </strong>Mescius ActiveReports.NET ReadValue Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Mescius ActiveReports.NET. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.
+
+The specific flaw exists within the implementation of the ReadValue method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25246.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6810">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6811 - Mescius ActiveReports.NET TypeResolutionService Deserialization Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6811
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour, 38 minutes ago
+<br>
+<strong>Description : </strong>Mescius ActiveReports.NET TypeResolutionService Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Mescius ActiveReports.NET. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.
+
+The specific flaw exists within the TypeResolutionService class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25397.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6811">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7132 - Campcodes Payroll Management System SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7132
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour, 38 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Campcodes Payroll Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /ajax.php?action=save_payroll. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7132">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7133 - CodeAstro Online Movie Ticket Booking System Cross-Site Request Forgery Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7133
+<br>
+<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 1 hour, 38 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in CodeAstro Online Movie Ticket Booking System 1.0. This affects an unknown part. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Mon, 07 Jul 2025 15:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7133">
                                 read more
                             </a>
                     </article>
@@ -1585,164 +1743,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Mon, 07 Jul 2025 15:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6805">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-6806 - Marvell QConvergeConsole Directory Traversal File Write Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-6806
-<br>
-<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Marvell QConvergeConsole decryptFile Directory Traversal Arbitrary File Write Vulnerability. This vulnerability allows remote attackers to create arbitrary files on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
-
-The specific flaw exists within the implementation of the decryptFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to write files in the context of SYSTEM. Was ZDI-CAN-24979.
-<br>
-<strong>Severity:</strong> 8.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 15:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6806">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-6807 - Marvell QConvergeConsole Directory Traversal Information Disclosure
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-6807
-<br>
-<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Marvell QConvergeConsole getDriverTmpPath Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.
-
-The specific flaw exists within the implementation of the getDriverTmpPath method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Was ZDI-CAN-24980.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 15:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6807">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-6810 - Mescius ActiveReports.NET Deserialization Remote Code Execution
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-6810
-<br>
-<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Mescius ActiveReports.NET ReadValue Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Mescius ActiveReports.NET. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.
-
-The specific flaw exists within the implementation of the ReadValue method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25246.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 15:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6810">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-6811 - Mescius ActiveReports.NET TypeResolutionService Deserialization Remote Code Execution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-6811
-<br>
-<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>Mescius ActiveReports.NET TypeResolutionService Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Mescius ActiveReports.NET. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.
-
-The specific flaw exists within the TypeResolutionService class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25397.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 15:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6811">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7132 - Campcodes Payroll Management System SQL Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7132
-<br>
-<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Campcodes Payroll Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /ajax.php?action=save_payroll. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 15:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7132">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7133 - CodeAstro Online Movie Ticket Booking System Cross-Site Request Forgery Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7133
-<br>
-<strong>Published : </strong> July 7, 2025, 3:15 p.m. | 39 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability classified as problematic has been found in CodeAstro Online Movie Ticket Booking System 1.0. This affects an unknown part. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Mon, 07 Jul 2025 15:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7133">
                                 read more
                             </a>
                     </article>
