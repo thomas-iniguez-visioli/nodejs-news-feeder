@@ -8,12 +8,461 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 08 Jul 2025 18:52:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 19:15:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-0928 - Juju Unauthorized Agent Binary Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-0928
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>In Juju versions prior to 3.6.8 and 2.9.52, any authenticated controller user was allowed to upload arbitrary agent binaries to any model or to the controller itself, without verifying model membership or requiring explicit permissions. This enabled the distribution of poisoned binaries to new or upgraded machines, potentially resulting in remote code execution.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-0928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-0928</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30312 - Dimension File Parsing Out-of-Bounds Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30312
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>Dimension versions 4.1.2 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30312</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30312</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47135 - Dimension File Handler Out-of-Bounds Read Vulnerability (ASLR Bypass)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47135
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>Dimension versions 4.1.2 and earlier are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47135</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47135</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4663 - Brocade Fabric OS SSH Session Termination DoS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4663
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>An Improper Check for Unusual or 
+Exceptional Conditions vulnerability in Brocade Fabric OS before 9.2.2.a
+ could allow an authenticated, network-based attacker to cause a 
+Denial-of-Service (DoS).
+The
+ vulnerability is encountered when supportsave is invoked remotely, 
+using ssh command or SANnav inline ssh, and the corresponding ssh 
+session is terminated with Control C (^c ) before supportsave 
+completion.
+This issue affects Brocade Fabric OS 9.0.0 through 9.2.2
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4663</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4663</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53479 - Mediawiki CheckUser Reflected Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53479
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>The CheckUser extension’s Special:CheckUser interface is vulnerable to reflected XSS via the rev-deleted-user message. This message is rendered without proper escaping, making it possible to inject JavaScript through the uselang=x-xss language override mechanism.
+
+
+
+
+This issue affects Mediawiki - CheckUser extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53479</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53479</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7188 - Code-projects Chat System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7188
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in code-projects Chat System 1.0. Affected by this vulnerability is an unknown functionality of the file /user/addmember.php. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7188</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7188</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7189 - Code-projects Chat System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7189
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Chat System 1.0. Affected by this issue is some unknown functionality of the file /user/send_message.php. The manipulation of the argument msg leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7189</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7189</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7362 - Mediawiki MsUpload Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7362
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>The MsUpload extension for MediaWiki is vulnerable to stored XSS via the msu-continue system message, which is inserted into the DOM without proper sanitization. The vulnerability occurs in the file upload UI when the same filename is uploaded twice.
+
+
+
+
+This issue affects Mediawiki - MsUpload extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7362</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7362</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7363 - MediaWiki TitleIcon Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7363
+<br>
+<strong>Published : </strong> July 8, 2025, 6:15 p.m. | 48 minutes ago
+<br>
+<strong>Description : </strong>The TitleIcon extension for MediaWiki is vulnerable to stored XSS through the #titleicon_unicode parser function. User input passed to this function is wrapped in an HtmlArmor object without sanitization and rendered directly into the page header, allowing attackers to inject arbitrary JavaScript.
+
+
+
+
+This issue affects Mediawiki - TitleIcon extension: from 1.39.X before 1.39.13, from 1.42.X before 1.42.7, from 1.43.X before 1.43.2.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7363</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7363</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49732 - Microsoft Graphics Component Heap-Based Buffer Overflow Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49732
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Heap-based buffer overflow in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49732</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49732</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49733 - Windows Win32K ICOMP Use-After-Free Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49733
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Use after free in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49733</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49733</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49735 - "Microsoft Windows KPSSVC Use-After-Free Code Execution Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49735
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Use after free in Windows KDC Proxy Service (KPSSVC) allows an unauthorized attacker to execute code over a network.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49735</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49735</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49737 - Microsoft Teams Privilege Escalation Race Condition</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49737
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Teams allows an authorized attacker to elevate privileges locally.
+<br>
+<strong>Severity:</strong> 7.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49737</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49737</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49738 - Microsoft PC Manager Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49738
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Improper link resolution before file access ('link following') in Microsoft PC Manager allows an authorized attacker to elevate privileges locally.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49738</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49738</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49739 - Visual Studio Link Following Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49739
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Improper link resolution before file access ('link following') in Visual Studio allows an unauthorized attacker to elevate privileges over a network.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49739</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49739</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49740 - Microsoft Windows SmartScreen Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49740
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Protection mechanism failure in Windows SmartScreen allows an unauthorized attacker to bypass a security feature over a network.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49740</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49740</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49742 - Microsoft Graphics Component Integer Overflow Remote Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49742
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Integer overflow or wraparound in Microsoft Graphics Component allows an authorized attacker to execute code locally.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49742</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49742</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49744 - Microsoft Graphics Component Heap Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49744
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Heap-based buffer overflow in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally.
+<br>
+<strong>Severity:</strong> 7.0 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49744</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49744</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49753 - Windows Routing and Remote Access Service (RRAS) Heap Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49753
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Heap-based buffer overflow in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to execute code over a network.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49753</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49753</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49756 - Microsoft Office Developer Platform Cryptographic Algorithm Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49756
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>Use of a broken or risky cryptographic algorithm in Office Developer Platform allows an authorized attacker to bypass a security feature locally.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49756</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49756</guid>
+    </item>
+    <item>
+      <title>CVE-2025-49760 - Microsoft Windows Storage Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-49760
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>External control of file name or path in Windows Storage allows an authorized attacker to perform spoofing over a network.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-49760</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49760</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53512 - Juju Controller Debug Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53512
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>The /log endpoint on a Juju controller lacked sufficient authorization checks, allowing unauthorized users to access debug messages that could contain sensitive information.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53512</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53512</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53513 - Juju Charm Zip Slip Unauthorized Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53513
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>The /charms endpoint on a Juju controller lacked sufficient authorization checks, allowing any user with an account on the controller to upload a charm. Uploading a malicious charm that exploits a Zip Slip vulnerability could allow an attacker to gain access to a machine running a unit through the affected charm.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53513</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53513</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7186 - "Code-projects Chat System SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7186
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Chat System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /user/fetch_chat.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7186</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7186</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7187 - Code-Projects Chat System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7187
+<br>
+<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 1 hour, 48 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Chat System 1.0. Affected is an unknown function of the file /user/fetch_member.php. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7187</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7187</guid>
+    </item>
     <item>
       <title>CVE-2025-49723 - Windows StateRepository API Authorization Bypass</title>
       <description><![CDATA[<p>
@@ -149,278 +598,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-49731</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-49731</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49732 - Microsoft Graphics Component Heap-Based Buffer Overflow Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49732
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Heap-based buffer overflow in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49732</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49732</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49733 - Windows Win32K ICOMP Use-After-Free Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49733
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Use after free in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49733</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49733</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49735 - "Microsoft Windows KPSSVC Use-After-Free Code Execution Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49735
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Use after free in Windows KDC Proxy Service (KPSSVC) allows an unauthorized attacker to execute code over a network.
-<br>
-<strong>Severity:</strong> 8.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49735</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49735</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49737 - Microsoft Teams Privilege Escalation Race Condition</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49737
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Teams allows an authorized attacker to elevate privileges locally.
-<br>
-<strong>Severity:</strong> 7.0 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49737</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49737</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49738 - Microsoft PC Manager Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49738
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Improper link resolution before file access ('link following') in Microsoft PC Manager allows an authorized attacker to elevate privileges locally.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49738</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49738</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49739 - Visual Studio Link Following Privilege Escalation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49739
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Improper link resolution before file access ('link following') in Visual Studio allows an unauthorized attacker to elevate privileges over a network.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49739</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49739</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49740 - Microsoft Windows SmartScreen Bypass Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49740
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Protection mechanism failure in Windows SmartScreen allows an unauthorized attacker to bypass a security feature over a network.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49740</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49740</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49742 - Microsoft Graphics Component Integer Overflow Remote Code Execution</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49742
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Integer overflow or wraparound in Microsoft Graphics Component allows an authorized attacker to execute code locally.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49742</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49742</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49744 - Microsoft Graphics Component Heap Buffer Overflow Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49744
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Heap-based buffer overflow in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally.
-<br>
-<strong>Severity:</strong> 7.0 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49744</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49744</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49753 - Windows Routing and Remote Access Service (RRAS) Heap Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49753
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Heap-based buffer overflow in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to execute code over a network.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49753</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49753</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49756 - Microsoft Office Developer Platform Cryptographic Algorithm Bypass Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49756
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>Use of a broken or risky cryptographic algorithm in Office Developer Platform allows an authorized attacker to bypass a security feature locally.
-<br>
-<strong>Severity:</strong> 3.3 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49756</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49756</guid>
-    </item>
-    <item>
-      <title>CVE-2025-49760 - Microsoft Windows Storage Path Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-49760
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>External control of file name or path in Windows Storage allows an authorized attacker to perform spoofing over a network.
-<br>
-<strong>Severity:</strong> 3.5 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-49760</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-49760</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53512 - Juju Controller Debug Information Disclosure Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53512
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>The /log endpoint on a Juju controller lacked sufficient authorization checks, allowing unauthorized users to access debug messages that could contain sensitive information.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53512</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53512</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53513 - Juju Charm Zip Slip Unauthorized Upload Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53513
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>The /charms endpoint on a Juju controller lacked sufficient authorization checks, allowing any user with an account on the controller to upload a charm. Uploading a malicious charm that exploits a Zip Slip vulnerability could allow an attacker to gain access to a machine running a unit through the affected charm.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53513</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53513</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7186 - "Code-projects Chat System SQL Injection Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7186
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Chat System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /user/fetch_chat.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7186</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7186</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7187 - Code-Projects Chat System SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7187
-<br>
-<strong>Published : </strong> July 8, 2025, 5:16 p.m. | 31 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Chat System 1.0. Affected is an unknown function of the file /user/fetch_member.php. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 08 Jul 2025 17:16:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7187</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7187</guid>
     </item>
     <item>
       <title>CVE-2025-49722 - Windows Print Spooler Unauthenticated Denial of Service</title>
