@@ -8,12 +8,437 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 08 Jul 2025 01:37:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 03:11:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-42959 - Apache HMAC Reuse Replay Attack</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42959
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>An unauthenticated attacker may exploit a scenario where a Hashed Message Authentication Code (HMAC) credential, extracted from a system missing specific security patches, is reused in a replay attack against a different system. Even if the target system is fully patched, successful exploitation could result in complete system compromise, affecting confidentiality, integrity, and availability.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42959</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42959</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42960 - SAP Business Warehouse and SAP BW/4HANA BEx Tools Authorization Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42960
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP Business Warehouse and SAP BW/4HANA BEx Tools allow an authenticated attacker to gain higher access levels than intended by exploiting improper authorization checks. This could potentially impact data integrity by allowing deletion of user table entries.�It has no impact on the confidentiality and availability of the application.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42960</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42960</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42961 - SAP NetWeaver Application Server for ABAP Permissive Access Configuration Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42961
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>Due to a missing authorization check in SAP NetWeaver Application server for ABAP, an authenticated user with high privileges could exploit the insufficient validation of user permissions to access sensitive database tables. By leveraging overly permissive access configurations, unauthorized reading of critical data is possible, resulting in a significant impact on the confidentiality of the information stored. However, the integrity and availability of the system remain unaffected.
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42961</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42961</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42962 - SAP Business Warehouse Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42962
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP Business Warehouse (Business Explorer Web) allows an attacker to create a malicious link. If an authenticated user clicks on this link, the injected script gets executed within the scope of victim�s browser. This potentially leads to an impact on confidentiality and integrity. Availability is not impacted.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42962</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42962</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42963 - SAP NetWeaver Application Server for Java Java Object Deserialization Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42963
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>A critical vulnerability in SAP NetWeaver Application server for Java Log Viewer enables authenticated administrator users to exploit unsafe Java object deserialization. Successful exploitation can lead to full operating system compromise, granting attackers complete control over the affected system. This results in a severe impact on the confidentiality, integrity, and availability of the application and host environment.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42963</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42963</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42964 - SAP NetWeaver Enterprise Portal Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42964
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP NetWeaver Enterprise Portal Administration is vulnerable when a privileged user can upload untrusted or malicious content which, when deserialized, could potentially lead to a compromise of confidentiality, integrity, and availability of the host system.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42964</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42964</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42965 - SAP CMC Information Disclosure Network Discovery Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42965
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP CMC Promotion Management allows an authenticated attacker to enumerate internal network systems by submitting crafted requests during job source configuration. By analysing response times for various IP addresses and ports, the attacker can infer valid network endpoints. Successful exploitation may lead to information disclosure. This vulnerability does not impact the integrity or availability of the application.
+<br>
+<strong>Severity:</strong> 4.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42965</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42965</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42966 - SAP NetWeaver Java Deserialization Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42966
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP NetWeaver XML Data Archiving Service allows an authenticated attacker with administrative privileges to exploit an insecure Java deserialization vulnerability by sending a specially crafted serialized Java object. This could lead to high impact on confidentiality, integrity, and availability of the application.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42966</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42966</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42967 - SAP S/4HANA and SAP SCM Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42967
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP S/4HANA and SAP SCM Characteristic Propagation has remote code execution vulnerability. This allows an attacker with high privileges to create a new report with his own code potentially gaining full control of the affected SAP system causing high impact on confidentiality, integrity, and availability of the application.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42967</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42967</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42968 - SAP NetWeaver Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42968
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP NetWeaver allows an authenticated non-administrative user to call the remote-enabled function module which could grants access to non-sensitive information about the SAP system and OS without requiring any specific knowledge or controlled conditions. This leads to a low impact on confidentiality with no effect on integrity or availability of the application.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42968</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42968</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42969 - SAP NetWeaver Application Server ABAP and ABAP Platform Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42969
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP NetWeaver Application Server ABAP and ABAP Platform allows an unauthenticated attacker to inject a malicious script into a dynamically crafted URL. The victim, when tricked into clicking on this crafted URL unknowingly executes the malicious payload in their browser. On successful exploitation, the attacker can access or modify sensitive information within the scope of victim's web browser, with no impact on availability of the application.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42969</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42969</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42970 - SAPCAR Directory Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42970
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAPCAR improperly sanitizes the file paths while extracting SAPCAR archives. Due to this, an attacker could craft a malicious SAPCAR archive containing directory traversal sequences. When a high privileged victim extracts this malicious archive, it is then processed by SAPCAR on their system, causing files to be extracted outside the intended directory and overwriting files in arbitrary locations. This vulnerability has a high impact on the integrity and availability of the application with no impact on confidentiality.
+<br>
+<strong>Severity:</strong> 5.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42970</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42970</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42971 - SAPCAR Out-of-Bounds Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42971
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>A memory corruption vulnerability exists in SAPCAR allowing an attacker to craft malicious SAPCAR archives. When a high privileged victim extracts this malicious archive, it gets processed by SAPCAR on their system, resulting in out-of-bounds memory read and write. This could lead to file extraction and file overwrite outside the intended directories. This vulnerability has low impact on the confidentiality, integrity and availability of the application.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42971</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42971</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42973 - SAP Data Services Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42973
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>Due to a Cross-Site Scripting vulnerability in SAP Data Services Management Console, an authenticated attacker could exploit the search functionality associated with DQ job status reports. By intercepting requests, malicious script can be injected and subsequently executed when a user loads the affected page. This results in a limited impact on the confidentiality and integrity of user session information, while availability remains unaffected.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42973</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42973</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42974 - SAP Function Module Remote Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42974
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>Due to missing authorization check, an attacker authenticated as a non-administrative user could call a remote-enabled function module. This could enable access to information normally restricted, resulting in low impact on confidentiality. There is no impact on integrity or availability.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42974</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42974</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42978 - SAP NetWeaver Application Server Java TLS Hostname Validation Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42978
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>The widely used component that establishes outbound TLS connections in SAP NetWeaver Application Server Java does not reliably match the hostname that is used for the connection against the wildcard hostname defined in the received certificate of remote TLS server. This might lead to the outbound connection being established to a possibly malicious remote TLS server and hence disclose information. Integrity and Availability are not impacted.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42978</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42978</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42979 - SAP GUI for Windows Credentials Obfuscation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42979
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>The GuiXT application, which is integrated with SAP GUI for Windows, uses obfuscation algorithms instead of secure symmetric ciphers for storing the credentials of an RFC user on the client PC. This leads to a high impact on confidentiality because any attacker who gains access to the user hive of this user�s windows registry could recreate the original password. There is no impact on integrity or availability of the application
+<br>
+<strong>Severity:</strong> 5.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42979</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42979</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42980 - SAP NetWeaver Enterprise Portal Deserialization Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42980
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAP NetWeaver Enterprise Portal Federated Portal Network is vulnerable when a privileged user can upload untrusted or malicious content which, when deserialized, could potentially lead to a compromise of confidentiality, integrity, and availability of the host system.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42980</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42980</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42981 - SAP NetWeaver Application Server ABAP Open Redirect Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42981
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>Due to an open redirect vulnerability in SAP NetWeaver Application Server ABAP, an unauthenticated attacker could craft a URL link embedding a malicious script at a location not properly sanitized. When a victim clicks on this link, the script executes within the victim's browser, redirecting them to a site controlled by the attacker. This allows the attacker to access and/or modify restricted information related to the web client. While the vulnerability poses no impact on data availability, it presents a considerable risk to confidentiality and integrity.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42981</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42981</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42985 - SAP BusinessObjects Content Administrator Workbench Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42985
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>Due to insufficient sanitization in the SAP BusinessObjects Content Administrator Workbench, attackers could craft malicious URLs and execute scripts in a victim�s browser. This could potentially lead to the exposure or modification of web client data, resulting in low impact on confidentiality and integrity, with no impact on application availability.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42985</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42985</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42986 - SAP BASIS Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42986
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>Due to a missing authorization check in an obsolete RFC enabled function module in SAP BASIS, an authenticated low-privileged attacker could call a Remote Function Call (RFC), potentially accessing restricted system information. This results in low impact on confidentiality, with no impact on integrity or availability of the application.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42986</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42986</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42992 - SAPCAR Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-42992
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAPCAR allows an attacker logged in with high privileges to create a malicious SAR archive in SAPCAR. This could enable the attacker to exploit critical files and directory permissions without breaking signature validation, resulting in potential privilege escalation. This has high impact on integrity, but low impact on confidentiality and availability of the system.
+<br>
+<strong>Severity:</strong> 6.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-42992</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-42992</guid>
+    </item>
+    <item>
+      <title>CVE-2025-43001 - SAPCAR Privilege Escalation Directory Traversal</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-43001
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>SAPCAR allows an attacker logged in with high privileges to override the permissions of the current and parent directories of the user or process extracting the archive, leading to privilege escalation. On successful exploitation, an attacker could modify the critical files by tampering with signed archives without breaking the signature, but it has a low impact on the confidentiality and availability of the system.
+<br>
+<strong>Severity:</strong> 6.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-43001</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-43001</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7154 - TOTOLINK N200RE OS Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7154
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in TOTOLINK N200RE 9.3.5u.6095_B20200916/9.3.5u.6139_B20201216. Affected by this issue is the function sub_41A0F8 of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument Hostname leads to os command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7154</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7154</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7155 - PHPGurukul Online Notes Sharing System Cookie Handler SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7155
+<br>
+<strong>Published : </strong> July 8, 2025, 1:15 a.m. | 1 hour, 1 minute ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Online Notes Sharing System 1.0. This affects an unknown part of the file /Dashboard of the component Cookie Handler. The manipulation of the argument sessionid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The original researcher disclosure suspects an XPath Injection vulnerability; however, the provided attack payload appears to be characteristic of an SQL Injection attack.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 08 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7155</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7155</guid>
+    </item>
     <item>
       <title>CVE-2025-7150 - Campcodes Advanced Online Voting System SQL Injection</title>
       <description><![CDATA[<p>
