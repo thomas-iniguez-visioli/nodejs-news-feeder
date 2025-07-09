@@ -8,69 +8,35 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 09 Jul 2025 14:18:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jul 2025 14:45:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
-      <title>CVE-2025-38239 - Megaraid SAS Array Index Out-of-Bounds Vulnerability</title>
+      <title>CVE-2025-6514 - MCP-remote OS Command Injection Vulnerability</title>
       <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38239
+<strong>CVE ID : </strong>CVE-2025-6514
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 p.m. | 1 hour, 22 minutes ago
 <br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-scsi: megaraid_sas: Fix invalid node index
-
-On a system with DRAM interleave enabled, out-of-bound access is
-detected:
-
-megaraid_sas 0000:3f:00.0: requested/available msix 128/128 poll_queue 0
-------------[ cut here ]------------
-UBSAN: array-index-out-of-bounds in ./arch/x86/include/asm/topology.h:72:28
-index -1 is out of range for type 'cpumask *[1024]'
-dump_stack_lvl+0x5d/0x80
-ubsan_epilogue+0x5/0x2b
-__ubsan_handle_out_of_bounds.cold+0x46/0x4b
-megasas_alloc_irq_vectors+0x149/0x190 [megaraid_sas]
-megasas_probe_one.cold+0xa4d/0x189c [megaraid_sas]
-local_pci_probe+0x42/0x90
-pci_device_probe+0xdc/0x290
-really_probe+0xdb/0x340
-__driver_probe_device+0x78/0x110
-driver_probe_device+0x1f/0xa0
-__driver_attach+0xba/0x1c0
-bus_for_each_dev+0x8b/0xe0
-bus_add_driver+0x142/0x220
-driver_register+0x72/0xd0
-megasas_init+0xdf/0xff0 [megaraid_sas]
-do_one_initcall+0x57/0x310
-do_init_module+0x90/0x250
-init_module_from_file+0x85/0xc0
-idempotent_init_module+0x114/0x310
-__x64_sys_finit_module+0x65/0xc0
-do_syscall_64+0x82/0x170
-entry_SYSCALL_64_after_hwframe+0x76/0x7e
-
-Fix it accordingly.
+<strong>Description : </strong>mcp-remote is exposed to OS command injection when connecting to untrusted MCP servers due to crafted input from the authorization_endpoint response URL
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 9.6 | CRITICAL
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38239</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38239</guid>
+      <pubDate>Wed, 09 Jul 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6514</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6514</guid>
     </item>
     <item>
       <title>CVE-2025-38241 - Red Hat Linux Kernel ZRAM Soft Lockup Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38241
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -159,7 +125,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38242
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -268,7 +234,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38243
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -298,7 +264,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38244
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -406,7 +372,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38245
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -489,7 +455,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38246
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -577,7 +543,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38247
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -603,7 +569,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38248
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -713,7 +679,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38249
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -744,7 +710,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38250
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -846,7 +812,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38251
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -871,7 +837,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38252
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -907,7 +873,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38253
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -939,7 +905,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38254
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -969,7 +935,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38255
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1022,7 +988,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38256
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1068,7 +1034,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38257
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1102,7 +1068,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38258
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1127,7 +1093,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38259
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1155,7 +1121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38260
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1254,7 +1220,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38261
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1342,7 +1308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38262
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1391,7 +1357,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38263
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1501,7 +1467,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38264
 <br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -1518,6 +1484,57 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-38264</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-38264</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38239 - Megaraid SAS Array Index Out-of-Bounds Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38239
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 1 hour, 15 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+scsi: megaraid_sas: Fix invalid node index
+
+On a system with DRAM interleave enabled, out-of-bound access is
+detected:
+
+megaraid_sas 0000:3f:00.0: requested/available msix 128/128 poll_queue 0
+------------[ cut here ]------------
+UBSAN: array-index-out-of-bounds in ./arch/x86/include/asm/topology.h:72:28
+index -1 is out of range for type 'cpumask *[1024]'
+dump_stack_lvl+0x5d/0x80
+ubsan_epilogue+0x5/0x2b
+__ubsan_handle_out_of_bounds.cold+0x46/0x4b
+megasas_alloc_irq_vectors+0x149/0x190 [megaraid_sas]
+megasas_probe_one.cold+0xa4d/0x189c [megaraid_sas]
+local_pci_probe+0x42/0x90
+pci_device_probe+0xdc/0x290
+really_probe+0xdb/0x340
+__driver_probe_device+0x78/0x110
+driver_probe_device+0x1f/0xa0
+__driver_attach+0xba/0x1c0
+bus_for_each_dev+0x8b/0xe0
+bus_add_driver+0x142/0x220
+driver_register+0x72/0xd0
+megasas_init+0xdf/0xff0 [megaraid_sas]
+do_one_initcall+0x57/0x310
+do_init_module+0x90/0x250
+init_module_from_file+0x85/0xc0
+idempotent_init_module+0x114/0x310
+__x64_sys_finit_module+0x65/0xc0
+do_syscall_64+0x82/0x170
+entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+Fix it accordingly.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38239</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38239</guid>
     </item>
     <item>
       <title>CVE-2025-27027 - Radiflow iSAP Smart Collector Rbash Bypass Vulnerability</title>
