@@ -8,18 +8,115 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 09 Jul 2025 15:56:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jul 2025 16:26:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-1112 - IBM OpenPages with Watson Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1112
+<br>
+<strong>Published : </strong> July 9, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>IBM OpenPages with Watson 8.3 and 9.0 could allow an authenticated user to obtain sensitive information that should only be available to privileged users.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1112</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1112</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2670 - IBM OpenPages Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2670
+<br>
+<strong>Published : </strong> July 9, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>IBM OpenPages 9.0 is vulnerable to information disclosure of sensitive information due to a weaker than expected security for certain REST end points related to workflow feature of OpenPages. An authenticated user is able to obtain certain information about Workflow related configuration and internal state.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2670</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2670</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52364 - Tenda CP3 Pro Telnet Insecure Permissions Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52364
+<br>
+<strong>Published : </strong> July 9, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>Insecure Permissions vulnerability in Tenda CP3 Pro Firmware V22.5.4.93 allows the telnet service (telnetd) by default at boot via the initialization script /etc/init.d/eth.sh. This allows remote attackers to connect to the device s shell over the network, potentially without authentication if default or weak credentials are present
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52364</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52364</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53546 - GitHub Folo GitHub Token Exfiltration Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53546
+<br>
+<strong>Published : </strong> July 9, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>Folo organizes feeds content into one timeline. Using pull_request_target on .github/workflows/auto-fix-lint-format-commit.yml can be exploited by attackers, since untrusted code can be executed having full access to secrets (from the base repo). By exploiting the vulnerability is possible to exfiltrate GITHUB_TOKEN which has high privileges. GITHUB_TOKEN can be used to completely overtake the repo since the token has content write privileges. This vulnerability is fixed in commit 585c6a591440cd39f92374230ac5d65d7dd23d6a.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53546</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53546</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7204 - ConnectWise PSA: Unauthenticated Password Hash Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7204
+<br>
+<strong>Published : </strong> July 9, 2025, 3:15 p.m. | 50 minutes ago
+<br>
+<strong>Description : </strong>In ConnectWise PSA versions older than 2025.9, a
+vulnerability exists where authenticated users could gain access to sensitive
+user information. Specific API requests were found to return an overly verbose
+user object, which included encrypted password hashes for other users.
+Authenticated users could then retrieve these hashes. 
+
+
+
+An
+attacker or privileged user could then use these exposed hashes to conduct
+offline brute-force or dictionary attacks. Such attacks could lead to
+credential compromise, allowing unauthorized access to accounts, and
+potentially privilege escalation within the system.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7204</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7204</guid>
+    </item>
+    <item>
       <title>CVE-2025-6514 - MCP-remote OS Command Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6514
 <br>
-<strong>Published : </strong> July 9, 2025, 1:15 p.m. | 1 hour, 22 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 p.m. | 2 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>mcp-remote is exposed to OS command injection when connecting to untrusted MCP servers due to crafted input from the authorization_endpoint response URL
 <br>
@@ -30,6 +127,1041 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 09 Jul 2025 13:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-6514</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-6514</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38246 - "Broadcom bnxt Enet XDP Redirect List Corruption Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38246
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bnxt: properly flush XDP redirect lists
+
+We encountered following crash when testing a XDP_REDIRECT feature
+in production:
+
+[56251.579676] list_add corruption. next->prev should be prev (ffff93120dd40f30), but was ffffb301ef3a6740. (next=ffff93120dd
+40f30).
+[56251.601413] ------------[ cut here ]------------
+[56251.611357] kernel BUG at lib/list_debug.c:29!
+[56251.621082] Oops: invalid opcode: 0000 [#1] PREEMPT SMP NOPTI
+[56251.632073] CPU: 111 UID: 0 PID: 0 Comm: swapper/111 Kdump: loaded Tainted: P           O       6.12.33-cloudflare-2025.6.
+3 #1
+[56251.653155] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE
+[56251.663877] Hardware name: MiTAC GC68B-B8032-G11P6-GPU/S8032GM-HE-CFR, BIOS V7.020.B10-sig 01/22/2025
+[56251.682626] RIP: 0010:__list_add_valid_or_report+0x4b/0xa0
+[56251.693203] Code: 0e 48 c7 c7 68 e7 d9 97 e8 42 16 fe ff 0f 0b 48 8b 52 08 48 39 c2 74 14 48 89 f1 48 c7 c7 90 e7 d9 97 48
+ 89 c6 e8 25 16 fe ff <0f> 0b 4c 8b 02 49 39 f0 74 14 48 89 d1 48 c7 c7 e8 e7 d9 97 4c 89
+[56251.725811] RSP: 0018:ffff93120dd40b80 EFLAGS: 00010246
+[56251.736094] RAX: 0000000000000075 RBX: ffffb301e6bba9d8 RCX: 0000000000000000
+[56251.748260] RDX: 0000000000000000 RSI: ffff9149afda0b80 RDI: ffff9149afda0b80
+[56251.760349] RBP: ffff9131e49c8000 R08: 0000000000000000 R09: ffff93120dd40a18
+[56251.772382] R10: ffff9159cf2ce1a8 R11: 0000000000000003 R12: ffff911a80850000
+[56251.784364] R13: ffff93120fbc7000 R14: 0000000000000010 R15: ffff9139e7510e40
+[56251.796278] FS:  0000000000000000(0000) GS:ffff9149afd80000(0000) knlGS:0000000000000000
+[56251.809133] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[56251.819561] CR2: 00007f5e85e6f300 CR3: 00000038b85e2006 CR4: 0000000000770ef0
+[56251.831365] PKRU: 55555554
+[56251.838653] Call Trace:
+[56251.845560]  <IRQ>
+[56251.851943]  cpu_map_enqueue.cold+0x5/0xa
+[56251.860243]  xdp_do_redirect+0x2d9/0x480
+[56251.868388]  bnxt_rx_xdp+0x1d8/0x4c0 [bnxt_en]
+[56251.877028]  bnxt_rx_pkt+0x5f7/0x19b0 [bnxt_en]
+[56251.885665]  ? cpu_max_write+0x1e/0x100
+[56251.893510]  ? srso_alias_return_thunk+0x5/0xfbef5
+[56251.902276]  __bnxt_poll_work+0x190/0x340 [bnxt_en]
+[56251.911058]  bnxt_poll+0xab/0x1b0 [bnxt_en]
+[56251.919041]  ? srso_alias_return_thunk+0x5/0xfbef5
+[56251.927568]  ? srso_alias_return_thunk+0x5/0xfbef5
+[56251.935958]  ? srso_alias_return_thunk+0x5/0xfbef5
+[56251.944250]  __napi_poll+0x2b/0x160
+[56251.951155]  bpf_trampoline_6442548651+0x79/0x123
+[56251.959262]  __napi_poll+0x5/0x160
+[56251.966037]  net_rx_action+0x3d2/0x880
+[56251.973133]  ? srso_alias_return_thunk+0x5/0xfbef5
+[56251.981265]  ? srso_alias_return_thunk+0x5/0xfbef5
+[56251.989262]  ? __hrtimer_run_queues+0x162/0x2a0
+[56251.996967]  ? srso_alias_return_thunk+0x5/0xfbef5
+[56252.004875]  ? srso_alias_return_thunk+0x5/0xfbef5
+[56252.012673]  ? bnxt_msix+0x62/0x70 [bnxt_en]
+[56252.019903]  handle_softirqs+0xcf/0x270
+[56252.026650]  irq_exit_rcu+0x67/0x90
+[56252.032933]  common_interrupt+0x85/0xa0
+[56252.039498]  </IRQ>
+[56252.044246]  <TASK>
+[56252.048935]  asm_common_interrupt+0x26/0x40
+[56252.055727] RIP: 0010:cpuidle_enter_state+0xb8/0x420
+[56252.063305] Code: dc 01 00 00 e8 f9 79 3b ff e8 64 f7 ff ff 49 89 c5 0f 1f 44 00 00 31 ff e8 a5 32 3a ff 45 84 ff 0f 85 ae
+ 01 00 00 fb 45 85 f6 <0f> 88 88 01 00 00 48 8b 04 24 49 63 ce 4c 89 ea 48 6b f1 68 48 29
+[56252.088911] RSP: 0018:ffff93120c97fe98 EFLAGS: 00000202
+[56252.096912] RAX: ffff9149afd80000 RBX: ffff9141d3a72800 RCX: 0000000000000000
+[56252.106844] RDX: 00003329176c6b98 RSI: ffffffe36db3fdc7 RDI: 0000000000000000
+[56252.116733] RBP: 0000000000000002 R08: 0000000000000002 R09: 000000000000004e
+[56252.126652] R10: ffff9149afdb30c4 R11: 071c71c71c71c71c R12: ffffffff985ff860
+[56252.136637] R13: 00003329176c6b98 R14: 0000000000000002 R15: 0000000000000000
+[56252.146667]  ? cpuidle_enter_state+0xab/0x420
+[56252.153909]  cpuidle_enter+0x2d/0x40
+[56252.160360]  do_idle+0x176/0x1c0
+[56252.166456
+---truncated---
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38246</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38246</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38247 - "Linux Kernel User Namespace and Mnt Idmap Leak"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38247
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+userns and mnt_idmap leak in open_tree_attr(2)
+
+Once want_mount_setattr() has returned a positive, it does require
+finish_mount_kattr() to release ->mnt_userns.  Failing do_mount_setattr()
+does not change that.
+
+As the result, we can end up leaking userns and possibly mnt_idmap as
+well.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38247</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38247</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38248 - Linux Kernel Bridge Use-After-Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38248
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bridge: mcast: Fix use-after-free during router port configuration
+
+The bridge maintains a global list of ports behind which a multicast
+router resides. The list is consulted during forwarding to ensure
+multicast packets are forwarded to these ports even if the ports are not
+member in the matching MDB entry.
+
+When per-VLAN multicast snooping is enabled, the per-port multicast
+context is disabled on each port and the port is removed from the global
+router port list:
+
+ # ip link add name br1 up type bridge vlan_filtering 1 mcast_snooping 1
+ # ip link add name dummy1 up master br1 type dummy
+ # ip link set dev dummy1 type bridge_slave mcast_router 2
+ $ bridge -d mdb show | grep router
+ router ports on br1: dummy1
+ # ip link set dev br1 type bridge mcast_vlan_snooping 1
+ $ bridge -d mdb show | grep router
+
+However, the port can be re-added to the global list even when per-VLAN
+multicast snooping is enabled:
+
+ # ip link set dev dummy1 type bridge_slave mcast_router 0
+ # ip link set dev dummy1 type bridge_slave mcast_router 2
+ $ bridge -d mdb show | grep router
+ router ports on br1: dummy1
+
+Since commit 4b30ae9adb04 ("net: bridge: mcast: re-implement
+br_multicast_{enable, disable}_port functions"), when per-VLAN multicast
+snooping is enabled, multicast disablement on a port will disable the
+per-{port, VLAN} multicast contexts and not the per-port one. As a
+result, a port will remain in the global router port list even after it
+is deleted. This will lead to a use-after-free [1] when the list is
+traversed (when adding a new port to the list, for example):
+
+ # ip link del dev dummy1
+ # ip link add name dummy2 up master br1 type dummy
+ # ip link set dev dummy2 type bridge_slave mcast_router 2
+
+Similarly, stale entries can also be found in the per-VLAN router port
+list. When per-VLAN multicast snooping is disabled, the per-{port, VLAN}
+contexts are disabled on each port and the port is removed from the
+per-VLAN router port list:
+
+ # ip link add name br1 up type bridge vlan_filtering 1 mcast_snooping 1 mcast_vlan_snooping 1
+ # ip link add name dummy1 up master br1 type dummy
+ # bridge vlan add vid 2 dev dummy1
+ # bridge vlan global set vid 2 dev br1 mcast_snooping 1
+ # bridge vlan set vid 2 dev dummy1 mcast_router 2
+ $ bridge vlan global show dev br1 vid 2 | grep router
+       router ports: dummy1
+ # ip link set dev br1 type bridge mcast_vlan_snooping 0
+ $ bridge vlan global show dev br1 vid 2 | grep router
+
+However, the port can be re-added to the per-VLAN list even when
+per-VLAN multicast snooping is disabled:
+
+ # bridge vlan set vid 2 dev dummy1 mcast_router 0
+ # bridge vlan set vid 2 dev dummy1 mcast_router 2
+ $ bridge vlan global show dev br1 vid 2 | grep router
+       router ports: dummy1
+
+When the VLAN is deleted from the port, the per-{port, VLAN} multicast
+context will not be disabled since multicast snooping is not enabled
+on the VLAN. As a result, the port will remain in the per-VLAN router
+port list even after it is no longer member in the VLAN. This will lead
+to a use-after-free [2] when the list is traversed (when adding a new
+port to the list, for example):
+
+ # ip link add name dummy2 up master br1 type dummy
+ # bridge vlan add vid 2 dev dummy2
+ # bridge vlan del vid 2 dev dummy1
+ # bridge vlan set vid 2 dev dummy2 mcast_router 2
+
+Fix these issues by removing the port from the relevant (global or
+per-VLAN) router port list in br_multicast_port_ctx_deinit(). The
+function is invoked during port deletion with the per-port multicast
+context and during VLAN deletion with the per-{port, VLAN} multicast
+context.
+
+Note that deleting the multicast router timer is not enough as it only
+takes care of the temporary multicast router states (1 or 3) and not the
+permanent one (2).
+
+[1]
+BUG: KASAN: slab-out-of-bounds in br_multicast_add_router.part.0+0x3f1/0x560
+Write of size 8 at addr ffff888004a67328 by task ip/384
+[...]
+Call Trace:
+ <TASK>
+ dump_stack
+---truncated---
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38248</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38248</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38249 - ALSA USB Audio Out-of-Bounds Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38249
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ALSA: usb-audio: Fix out-of-bounds read in snd_usb_get_audioformat_uac3()
+
+In snd_usb_get_audioformat_uac3(), the length value returned from
+snd_usb_ctl_msg() is used directly for memory allocation without
+validation. This length is controlled by the USB device.
+
+The allocated buffer is cast to a uac3_cluster_header_descriptor
+and its fields are accessed without verifying that the buffer
+is large enough. If the device returns a smaller than expected
+length, this leads to an out-of-bounds read.
+
+Add a length check to ensure the buffer is large enough for
+uac3_cluster_header_descriptor.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38249</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38249</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38250 - "Bluetooth hci_core Use-After-Free Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38250
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+Bluetooth: hci_core: Fix use-after-free in vhci_flush()
+
+syzbot reported use-after-free in vhci_flush() without repro. [0]
+
+From the splat, a thread close()d a vhci file descriptor while
+its device was being used by iotcl() on another thread.
+
+Once the last fd refcnt is released, vhci_release() calls
+hci_unregister_dev(), hci_free_dev(), and kfree() for struct
+vhci_data, which is set to hci_dev->dev->driver_data.
+
+The problem is that there is no synchronisation after unlinking
+hdev from hci_dev_list in hci_unregister_dev().  There might be
+another thread still accessing the hdev which was fetched before
+the unlink operation.
+
+We can use SRCU for such synchronisation.
+
+Let's run hci_dev_reset() under SRCU and wait for its completion
+in hci_unregister_dev().
+
+Another option would be to restore hci_dev->destruct(), which was
+removed in commit 587ae086f6e4 ("Bluetooth: Remove unused
+hci-destruct cb").  However, this would not be a good solution, as
+we should not run hci_unregister_dev() while there are in-flight
+ioctl() requests, which could lead to another data-race KCSAN splat.
+
+Note that other drivers seem to have the same problem, for exmaple,
+virtbt_remove().
+
+[0]:
+BUG: KASAN: slab-use-after-free in skb_queue_empty_lockless include/linux/skbuff.h:1891 [inline]
+BUG: KASAN: slab-use-after-free in skb_queue_purge_reason+0x99/0x360 net/core/skbuff.c:3937
+Read of size 8 at addr ffff88807cb8d858 by task syz.1.219/6718
+
+CPU: 1 UID: 0 PID: 6718 Comm: syz.1.219 Not tainted 6.16.0-rc1-syzkaller-00196-g08207f42d3ff #0 PREEMPT(full)
+Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/07/2025
+Call Trace:
+ <TASK>
+ dump_stack_lvl+0x189/0x250 lib/dump_stack.c:120
+ print_address_description mm/kasan/report.c:408 [inline]
+ print_report+0xd2/0x2b0 mm/kasan/report.c:521
+ kasan_report+0x118/0x150 mm/kasan/report.c:634
+ skb_queue_empty_lockless include/linux/skbuff.h:1891 [inline]
+ skb_queue_purge_reason+0x99/0x360 net/core/skbuff.c:3937
+ skb_queue_purge include/linux/skbuff.h:3368 [inline]
+ vhci_flush+0x44/0x50 drivers/bluetooth/hci_vhci.c:69
+ hci_dev_do_reset net/bluetooth/hci_core.c:552 [inline]
+ hci_dev_reset+0x420/0x5c0 net/bluetooth/hci_core.c:592
+ sock_do_ioctl+0xd9/0x300 net/socket.c:1190
+ sock_ioctl+0x576/0x790 net/socket.c:1311
+ vfs_ioctl fs/ioctl.c:51 [inline]
+ __do_sys_ioctl fs/ioctl.c:907 [inline]
+ __se_sys_ioctl+0xf9/0x170 fs/ioctl.c:893
+ do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
+ do_syscall_64+0xfa/0x3b0 arch/x86/entry/syscall_64.c:94
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+RIP: 0033:0x7fcf5b98e929
+Code: ff ff c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 40 00 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 a8 ff ff ff f7 d8 64 89 01 48
+RSP: 002b:00007fcf5c7b9038 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+RAX: ffffffffffffffda RBX: 00007fcf5bbb6160 RCX: 00007fcf5b98e929
+RDX: 0000000000000000 RSI: 00000000400448cb RDI: 0000000000000009
+RBP: 00007fcf5ba10b39 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+R13: 0000000000000000 R14: 00007fcf5bbb6160 R15: 00007ffd6353d528
+ </TASK>
+
+Allocated by task 6535:
+ kasan_save_stack mm/kasan/common.c:47 [inline]
+ kasan_save_track+0x3e/0x80 mm/kasan/common.c:68
+ poison_kmalloc_redzone mm/kasan/common.c:377 [inline]
+ __kasan_kmalloc+0x93/0xb0 mm/kasan/common.c:394
+ kasan_kmalloc include/linux/kasan.h:260 [inline]
+ __kmalloc_cache_noprof+0x230/0x3d0 mm/slub.c:4359
+ kmalloc_noprof include/linux/slab.h:905 [inline]
+ kzalloc_noprof include/linux/slab.h:1039 [inline]
+ vhci_open+0x57/0x360 drivers/bluetooth/hci_vhci.c:635
+ misc_open+0x2bc/0x330 drivers/char/misc.c:161
+ chrdev_open+0x4c9/0x5e0 fs/char_dev.c:414
+ do_dentry_open+0xdf0/0x1970 fs/open.c:964
+ vfs_open+0x3b/0x340 fs/open.c:1094
+ do_open fs/namei.c:3887 [inline]
+ path_openat+0x2ee5/0x3830 fs/name
+---truncated---
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38250</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38250</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38251 - Linux ATM Clip NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38251
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+atm: clip: prevent NULL deref in clip_push()
+
+Blamed commit missed that vcc_destroy_socket() calls
+clip_push() with a NULL skb.
+
+If clip_devs is NULL, clip_push() then crashes when reading
+skb->truesize.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38251</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38251</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38252 - Linux Kernel CXL Driver - Unvalidated Assumption Handler</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38252
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+cxl/ras: Fix CPER handler device confusion
+
+By inspection, cxl_cper_handle_prot_err() is making a series of fragile
+assumptions that can lead to crashes:
+
+1/ It assumes that endpoints identified in the record are a CXL-type-3
+   device, nothing guarantees that.
+
+2/ It assumes that the device is bound to the cxl_pci driver, nothing
+   guarantees that.
+
+3/ Minor, it holds the device lock over the switch-port tracing for no
+   reason as the trace is 100% generated from data in the record.
+
+Correct those by checking that the PCIe endpoint parents a cxl_memdev
+before assuming the format of the driver data, and move the lock to where
+it is required. Consequently this also makes the implementation ready for
+CXL accelerators that are not bound to cxl_pci.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38252</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38252</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38253 - Wacom HID Linux Kernel Crash Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38253
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+HID: wacom: fix crash in wacom_aes_battery_handler()
+
+Commit fd2a9b29dc9c ("HID: wacom: Remove AES power_supply after extended
+inactivity") introduced wacom_aes_battery_handler() which is scheduled
+as a delayed work (aes_battery_work).
+
+In wacom_remove(), aes_battery_work is not canceled. Consequently, if
+the device is removed while aes_battery_work is still pending, then hard
+crashes or "Oops: general protection fault..." are experienced when
+wacom_aes_battery_handler() is finally called. E.g., this happens with
+built-in USB devices after resume from hibernate when aes_battery_work
+was still pending at the time of hibernation.
+
+So, take care to cancel aes_battery_work in wacom_remove().
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38253</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38253</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38254 - AMD Linux Kernel EDID Handling Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38254
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+drm/amd/display: Add sanity checks for drm_edid_raw()
+
+When EDID is retrieved via drm_edid_raw(), it doesn't guarantee to
+return proper EDID bytes the caller wants: it may be either NULL (that
+leads to an Oops) or with too long bytes over the fixed size raw_edid
+array (that may lead to memory corruption).  The latter was reported
+actually when connected with a bad adapter.
+
+Add sanity checks for drm_edid_raw() to address the above corner
+cases, and return EDID_BAD_INPUT accordingly.
+
+(cherry picked from commit 648d3f4d209725d51900d6a3ed46b7b600140cdf)
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38254</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38254</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38255 - Linux Kernel null_blk Configfs Null Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38255
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+lib/group_cpus: fix NULL pointer dereference from group_cpus_evenly()
+
+While testing null_blk with configfs, echo 0 > poll_queues will trigger
+following panic:
+
+BUG: kernel NULL pointer dereference, address: 0000000000000010
+Oops: Oops: 0000 [#1] SMP NOPTI
+CPU: 27 UID: 0 PID: 920 Comm: bash Not tainted 6.15.0-02023-gadbdb95c8696-dirty #1238 PREEMPT(undef)
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.1-2.fc37 04/01/2014
+RIP: 0010:__bitmap_or+0x48/0x70
+Call Trace:
+ <TASK>
+ __group_cpus_evenly+0x822/0x8c0
+ group_cpus_evenly+0x2d9/0x490
+ blk_mq_map_queues+0x1e/0x110
+ null_map_queues+0xc9/0x170 [null_blk]
+ blk_mq_update_queue_map+0xdb/0x160
+ blk_mq_update_nr_hw_queues+0x22b/0x560
+ nullb_update_nr_hw_queues+0x71/0xf0 [null_blk]
+ nullb_device_poll_queues_store+0xa4/0x130 [null_blk]
+ configfs_write_iter+0x109/0x1d0
+ vfs_write+0x26e/0x6f0
+ ksys_write+0x79/0x180
+ __x64_sys_write+0x1d/0x30
+ x64_sys_call+0x45c4/0x45f0
+ do_syscall_64+0xa5/0x240
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+Root cause is that numgrps is set to 0, and ZERO_SIZE_PTR is returned from
+kcalloc(), and later ZERO_SIZE_PTR will be deferenced.
+
+Fix the problem by checking numgrps first in group_cpus_evenly(), and
+return NULL directly if numgrps is zero.
+
+[yukuai3@huawei.com: also fix the non-SMP version]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38255</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38255</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38256 - Linux Kernel io_uring Folio Unpinning Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38256
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+io_uring/rsrc: fix folio unpinning
+
+syzbot complains about an unmapping failure:
+
+[  108.070381][   T14] kernel BUG at mm/gup.c:71!
+[  108.070502][   T14] Internal error: Oops - BUG: 00000000f2000800 [#1]  SMP
+[  108.123672][   T14] Hardware name: QEMU KVM Virtual Machine, BIOS edk2-20250221-8.fc42 02/21/2025
+[  108.127458][   T14] Workqueue: iou_exit io_ring_exit_work
+[  108.174205][   T14] Call trace:
+[  108.175649][   T14]  sanity_check_pinned_pages+0x7cc/0x7d0 (P)
+[  108.178138][   T14]  unpin_user_page+0x80/0x10c
+[  108.180189][   T14]  io_release_ubuf+0x84/0xf8
+[  108.182196][   T14]  io_free_rsrc_node+0x250/0x57c
+[  108.184345][   T14]  io_rsrc_data_free+0x148/0x298
+[  108.186493][   T14]  io_sqe_buffers_unregister+0x84/0xa0
+[  108.188991][   T14]  io_ring_ctx_free+0x48/0x480
+[  108.191057][   T14]  io_ring_exit_work+0x764/0x7d8
+[  108.193207][   T14]  process_one_work+0x7e8/0x155c
+[  108.195431][   T14]  worker_thread+0x958/0xed8
+[  108.197561][   T14]  kthread+0x5fc/0x75c
+[  108.199362][   T14]  ret_from_fork+0x10/0x20
+
+We can pin a tail page of a folio, but then io_uring will try to unpin
+the head page of the folio. While it should be fine in terms of keeping
+the page actually alive, mm folks say it's wrong and triggers a debug
+warning. Use unpin_user_folio() instead of unpin_user_page*.
+
+[axboe: adapt to current tree, massage commit message]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38256</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38256</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38257 - IBM s390 Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38257
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+s390/pkey: Prevent overflow in size calculation for memdup_user()
+
+Number of apqn target list entries contained in 'nr_apqns' variable is
+determined by userspace via an ioctl call so the result of the product in
+calculation of size passed to memdup_user() may overflow.
+
+In this case the actual size of the allocated area and the value
+describing it won't be in sync leading to various types of unpredictable
+behaviour later.
+
+Use a proper memdup_array_user() helper which returns an error if an
+overflow is detected. Note that it is different from when nr_apqns is
+initially zero - that case is considered valid and should be handled in
+subsequent pkey_handler implementations.
+
+Found by Linux Verification Center (linuxtesting.org).
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38257</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38257</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38258 - Linux Kernel Memcg Path Memory Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38258
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+mm/damon/sysfs-schemes: free old damon_sysfs_scheme_filter->memcg_path on write
+
+memcg_path_store() assigns a newly allocated memory buffer to
+filter->memcg_path, without deallocating the previously allocated and
+assigned memory buffer.  As a result, users can leak kernel memory by
+continuously writing a data to memcg_path DAMOS sysfs file.  Fix the leak
+by deallocating the previously set memory buffer.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38258</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38258</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38259 - Linux Kernel ASoC Wcd9335 Regulator Leaks Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38259
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ASoC: codecs: wcd9335: Fix missing free of regulator supplies
+
+Driver gets and enables all regulator supplies in probe path
+(wcd9335_parse_dt() and wcd9335_power_on_reset()), but does not cleanup
+in final error paths and in unbind (missing remove() callback).  This
+leads to leaked memory and unbalanced regulator enable count during
+probe errors or unbind.
+
+Fix this by converting entire code into devm_regulator_bulk_get_enable()
+which also greatly simplifies the code.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38259</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38259</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38260 - Linux Btrfs rescue=ibadroots null pointer dereference vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38260
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: handle csum tree error with rescue=ibadroots correctly
+
+[BUG]
+There is syzbot based reproducer that can crash the kernel, with the
+following call trace: (With some debug output added)
+
+ DEBUG: rescue=ibadroots parsed
+ BTRFS: device fsid 14d642db-7b15-43e4-81e6-4b8fac6a25f8 devid 1 transid 8 /dev/loop0 (7:0) scanned by repro (1010)
+ BTRFS info (device loop0): first mount of filesystem 14d642db-7b15-43e4-81e6-4b8fac6a25f8
+ BTRFS info (device loop0): using blake2b (blake2b-256-generic) checksum algorithm
+ BTRFS info (device loop0): using free-space-tree
+ BTRFS warning (device loop0): checksum verify failed on logical 5312512 mirror 1 wanted 0xb043382657aede36608fd3386d6b001692ff406164733d94e2d9a180412c6003 found 0x810ceb2bacb7f0f9eb2bf3b2b15c02af867cb35ad450898169f3b1f0bd818651 level 0
+ DEBUG: read tree root path failed for tree csum, ret=-5
+ BTRFS warning (device loop0): checksum verify failed on logical 5328896 mirror 1 wanted 0x51be4e8b303da58e6340226815b70e3a93592dac3f30dd510c7517454de8567a found 0x51be4e8b303da58e634022a315b70e3a93592dac3f30dd510c7517454de8567a level 0
+ BTRFS warning (device loop0): checksum verify failed on logical 5292032 mirror 1 wanted 0x1924ccd683be9efc2fa98582ef58760e3848e9043db8649ee382681e220cdee4 found 0x0cb6184f6e8799d9f8cb335dccd1d1832da1071d12290dab3b85b587ecacca6e level 0
+ process 'repro' launched './file2' with NULL argv: empty string added
+ DEBUG: no csum root, idatacsums=0 ibadroots=134217728
+ Oops: general protection fault, probably for non-canonical address 0xdffffc0000000041: 0000 [#1] SMP KASAN NOPTI
+ KASAN: null-ptr-deref in range [0x0000000000000208-0x000000000000020f]
+ CPU: 5 UID: 0 PID: 1010 Comm: repro Tainted: G           OE       6.15.0-custom+ #249 PREEMPT(full)
+ Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS unknown 02/02/2022
+ RIP: 0010:btrfs_lookup_csum+0x93/0x3d0 [btrfs]
+ Call Trace:
+  <TASK>
+  btrfs_lookup_bio_sums+0x47a/0xdf0 [btrfs]
+  btrfs_submit_bbio+0x43e/0x1a80 [btrfs]
+  submit_one_bio+0xde/0x160 [btrfs]
+  btrfs_readahead+0x498/0x6a0 [btrfs]
+  read_pages+0x1c3/0xb20
+  page_cache_ra_order+0x4b5/0xc20
+  filemap_get_pages+0x2d3/0x19e0
+  filemap_read+0x314/0xde0
+  __kernel_read+0x35b/0x900
+  bprm_execve+0x62e/0x1140
+  do_execveat_common.isra.0+0x3fc/0x520
+  __x64_sys_execveat+0xdc/0x130
+  do_syscall_64+0x54/0x1d0
+  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+ ---[ end trace 0000000000000000 ]---
+
+[CAUSE]
+Firstly the fs has a corrupted csum tree root, thus to mount the fs we
+have to go "ro,rescue=ibadroots" mount option.
+
+Normally with that mount option, a bad csum tree root should set
+BTRFS_FS_STATE_NO_DATA_CSUMS flag, so that any future data read will
+ignore csum search.
+
+But in this particular case, we have the following call trace that
+caused NULL csum root, but not setting BTRFS_FS_STATE_NO_DATA_CSUMS:
+
+load_global_roots_objectid():
+
+		ret = btrfs_search_slot();
+		/* Succeeded */
+		btrfs_item_key_to_cpu()
+		found = true;
+		/* We found the root item for csum tree. */
+		root = read_tree_root_path();
+		if (IS_ERR(root)) {
+			if (!btrfs_test_opt(fs_info, IGNOREBADROOTS))
+			/*
+			 * Since we have rescue=ibadroots mount option,
+			 * @ret is still 0.
+			 */
+			break;
+	if (!found || ret) {
+		/* @found is true, @ret is 0, error handling for csum
+		 * tree is skipped.
+		 */
+	}
+
+This means we completely skipped to set BTRFS_FS_STATE_NO_DATA_CSUMS if
+the csum tree is corrupted, which results unexpected later csum lookup.
+
+[FIX]
+If read_tree_root_path() failed, always populate @ret to the error
+number.
+
+As at the end of the function, we need @ret to determine if we need to
+do the extra error handling for csum tree.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38260</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38260</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38261 - Linux RISC-V SR_SUM Status Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38261
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+riscv: save the SR_SUM status over switches
+
+When threads/tasks are switched we need to ensure the old execution's
+SR_SUM state is saved and the new thread has the old SR_SUM state
+restored.
+
+The issue was seen under heavy load especially with the syz-stress tool
+running, with crashes as follows in schedule_tail:
+
+Unable to handle kernel access to user memory without uaccess routines
+at virtual address 000000002749f0d0
+Oops [#1]
+Modules linked in:
+CPU: 1 PID: 4875 Comm: syz-executor.0 Not tainted
+5.12.0-rc2-syzkaller-00467-g0d7588ab9ef9 #0
+Hardware name: riscv-virtio,qemu (DT)
+epc : schedule_tail+0x72/0xb2 kernel/sched/core.c:4264
+ ra : task_pid_vnr include/linux/sched.h:1421 [inline]
+ ra : schedule_tail+0x70/0xb2 kernel/sched/core.c:4264
+epc : ffffffe00008c8b0 ra : ffffffe00008c8ae sp : ffffffe025d17ec0
+ gp : ffffffe005d25378 tp : ffffffe00f0d0000 t0 : 0000000000000000
+ t1 : 0000000000000001 t2 : 00000000000f4240 s0 : ffffffe025d17ee0
+ s1 : 000000002749f0d0 a0 : 000000000000002a a1 : 0000000000000003
+ a2 : 1ffffffc0cfac500 a3 : ffffffe0000c80cc a4 : 5ae9db91c19bbe00
+ a5 : 0000000000000000 a6 : 0000000000f00000 a7 : ffffffe000082eba
+ s2 : 0000000000040000 s3 : ffffffe00eef96c0 s4 : ffffffe022c77fe0
+ s5 : 0000000000004000 s6 : ffffffe067d74e00 s7 : ffffffe067d74850
+ s8 : ffffffe067d73e18 s9 : ffffffe067d74e00 s10: ffffffe00eef96e8
+ s11: 000000ae6cdf8368 t3 : 5ae9db91c19bbe00 t4 : ffffffc4043cafb2
+ t5 : ffffffc4043cafba t6 : 0000000000040000
+status: 0000000000000120 badaddr: 000000002749f0d0 cause:
+000000000000000f
+Call Trace:
+[<ffffffe00008c8b0>] schedule_tail+0x72/0xb2 kernel/sched/core.c:4264
+[<ffffffe000005570>] ret_from_exception+0x0/0x14
+Dumping ftrace buffer:
+   (ftrace buffer empty)
+---[ end trace b5f8f9231dc87dda ]---
+
+The issue comes from the put_user() in schedule_tail
+(kernel/sched/core.c) doing the following:
+
+asmlinkage __visible void schedule_tail(struct task_struct *prev)
+{
+...
+        if (current->set_child_tid)
+                put_user(task_pid_vnr(current), current->set_child_tid);
+...
+}
+
+the put_user() macro causes the code sequence to come out as follows:
+
+1:	__enable_user_access()
+2:	reg = task_pid_vnr(current);
+3:	*current->set_child_tid = reg;
+4:	__disable_user_access()
+
+The problem is that we may have a sleeping function as argument which
+could clear SR_SUM causing the panic above. This was fixed by
+evaluating the argument of the put_user() macro outside the user-enabled
+section in commit 285a76bb2cf5 ("riscv: evaluate put_user() arg before
+enabling user access")"
+
+In order for riscv to take advantage of unsafe_get/put_XXX() macros and
+to avoid the same issue we had with put_user() and sleeping functions we
+must ensure code flow can go through switch_to() from within a region of
+code with SR_SUM enabled and come back with SR_SUM still enabled. This
+patch addresses the problem allowing future work to enable full use of
+unsafe_get/put_XXX() macros without needing to take a CSR bit flip cost
+on every access. Make switch_to() save and restore SR_SUM.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38261</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38261</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38262 - Linux UARTlite Concurrency Race Null Pointer Dereference</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38262
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+tty: serial: uartlite: register uart driver in init
+
+When two instances of uart devices are probing, a concurrency race can
+occur. If one thread calls uart_register_driver function, which first
+allocates and assigns memory to 'uart_state' member of uart_driver
+structure, the other instance can bypass uart driver registration and
+call ulite_assign. This calls uart_add_one_port, which expects the uart
+driver to be fully initialized. This leads to a kernel panic due to a
+null pointer dereference:
+
+[    8.143581] BUG: kernel NULL pointer dereference, address: 00000000000002b8
+[    8.156982] #PF: supervisor write access in kernel mode
+[    8.156984] #PF: error_code(0x0002) - not-present page
+[    8.156986] PGD 0 P4D 0
+...
+[    8.180668] RIP: 0010:mutex_lock+0x19/0x30
+[    8.188624] Call Trace:
+[    8.188629]  ? __die_body.cold+0x1a/0x1f
+[    8.195260]  ? page_fault_oops+0x15c/0x290
+[    8.209183]  ? __irq_resolve_mapping+0x47/0x80
+[    8.209187]  ? exc_page_fault+0x64/0x140
+[    8.209190]  ? asm_exc_page_fault+0x22/0x30
+[    8.209196]  ? mutex_lock+0x19/0x30
+[    8.223116]  uart_add_one_port+0x60/0x440
+[    8.223122]  ? proc_tty_register_driver+0x43/0x50
+[    8.223126]  ? tty_register_driver+0x1ca/0x1e0
+[    8.246250]  ulite_probe+0x357/0x4b0 [uartlite]
+
+To prevent it, move uart driver registration in to init function. This
+will ensure that uart_driver is always registered when probe function
+is called.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38262</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38262</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38263 - Linux bcache NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38263
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+bcache: fix NULL pointer in cache_set_flush()
+
+1. LINE#1794 - LINE#1887 is some codes about function of
+   bch_cache_set_alloc().
+2. LINE#2078 - LINE#2142 is some codes about function of
+   register_cache_set().
+3. register_cache_set() will call bch_cache_set_alloc() in LINE#2098.
+
+ 1794 struct cache_set *bch_cache_set_alloc(struct cache_sb *sb)
+ 1795 {
+ ...
+ 1860         if (!(c->devices = kcalloc(c->nr_uuids, sizeof(void *), GFP_KERNEL)) ||
+ 1861             mempool_init_slab_pool(&c->search, 32, bch_search_cache) ||
+ 1862             mempool_init_kmalloc_pool(&c->bio_meta, 2,
+ 1863                                 sizeof(struct bbio) + sizeof(struct bio_vec) *
+ 1864                                 bucket_pages(c)) ||
+ 1865             mempool_init_kmalloc_pool(&c->fill_iter, 1, iter_size) ||
+ 1866             bioset_init(&c->bio_split, 4, offsetof(struct bbio, bio),
+ 1867                         BIOSET_NEED_BVECS|BIOSET_NEED_RESCUER) ||
+ 1868             !(c->uuids = alloc_bucket_pages(GFP_KERNEL, c)) ||
+ 1869             !(c->moving_gc_wq = alloc_workqueue("bcache_gc",
+ 1870                                                 WQ_MEM_RECLAIM, 0)) ||
+ 1871             bch_journal_alloc(c) ||
+ 1872             bch_btree_cache_alloc(c) ||
+ 1873             bch_open_buckets_alloc(c) ||
+ 1874             bch_bset_sort_state_init(&c->sort, ilog2(c->btree_pages)))
+ 1875                 goto err;
+                      ^^^^^^^^
+ 1876
+ ...
+ 1883         return c;
+ 1884 err:
+ 1885         bch_cache_set_unregister(c);
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 1886         return NULL;
+ 1887 }
+ ...
+ 2078 static const char *register_cache_set(struct cache *ca)
+ 2079 {
+ ...
+ 2098         c = bch_cache_set_alloc(&ca->sb);
+ 2099         if (!c)
+ 2100                 return err;
+                      ^^^^^^^^^^
+ ...
+ 2128         ca->set = c;
+ 2129         ca->set->cache[ca->sb.nr_this_dev] = ca;
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ...
+ 2138         return NULL;
+ 2139 err:
+ 2140         bch_cache_set_unregister(c);
+ 2141         return err;
+ 2142 }
+
+(1) If LINE#1860 - LINE#1874 is true, then do 'goto err'(LINE#1875) and
+    call bch_cache_set_unregister()(LINE#1885).
+(2) As (1) return NULL(LINE#1886), LINE#2098 - LINE#2100 would return.
+(3) As (2) has returned, LINE#2128 - LINE#2129 would do *not* give the
+    value to c->cache[], it means that c->cache[] is NULL.
+
+LINE#1624 - LINE#1665 is some codes about function of cache_set_flush().
+As (1), in LINE#1885 call
+bch_cache_set_unregister()
+---> bch_cache_set_stop()
+     ---> closure_queue()
+          -.-> cache_set_flush() (as below LINE#1624)
+
+ 1624 static void cache_set_flush(struct closure *cl)
+ 1625 {
+ ...
+ 1654         for_each_cache(ca, c, i)
+ 1655                 if (ca->alloc_thread)
+                          ^^
+ 1656                         kthread_stop(ca->alloc_thread);
+ ...
+ 1665 }
+
+(4) In LINE#1655 ca is NULL(see (3)) in cache_set_flush() then the
+    kernel crash occurred as below:
+[  846.712887] bcache: register_cache() error drbd6: cannot allocate memory
+[  846.713242] bcache: register_bcache() error : failed to register device
+[  846.713336] bcache: cache_set_free() Cache set 2f84bdc1-498a-4f2f-98a7-01946bf54287 unregistered
+[  846.713768] BUG: unable to handle kernel NULL pointer dereference at 00000000000009f8
+[  846.714790] PGD 0 P4D 0
+[  846.715129] Oops: 0000 [#1] SMP PTI
+[  846.715472] CPU: 19 PID: 5057 Comm: kworker/19:16 Kdump: loaded Tainted: G           OE    --------- -  - 4.18.0-147.5.1.el8_1.5es.3.x86_64 #1
+[  846.716082] Hardware name: ESPAN GI-25212/X11DPL-i, BIOS 2.1 06/15/2018
+[  846.716451] Workqueue: events cache_set_flush [bcache]
+[  846.716808] RIP: 0010:cache_set_flush+0xc9/0x1b0 [bcache]
+[  846.717155] Code: 00 4c 89 a5 b0 03 00 00 48 8b 85 68 f6 ff ff a8 08 0f 84 88 00 00 00 31 db 66 83 bd 3c f7 ff ff 00 48 8b 85 48 ff ff ff 74 28 <48> 8b b8 f8 09 00 0
+---truncated---
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38263</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38263</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38264 - NVIDIA nvme-tcp Request List Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38264
+<br>
+<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 4 hours, 50 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+nvme-tcp: sanitize request list handling
+
+Validate the request in nvme_tcp_handle_r2t() to ensure it's not part of
+any list, otherwise a malicious R2T PDU might inject a loop in request
+list processing.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38264</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38264</guid>
     </item>
     <item>
       <title>CVE-2025-38241 - Red Hat Linux Kernel ZRAM Soft Lockup Vulnerability</title>
@@ -449,1041 +1581,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-38245</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-38245</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38246 - "Broadcom bnxt Enet XDP Redirect List Corruption Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38246
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-bnxt: properly flush XDP redirect lists
-
-We encountered following crash when testing a XDP_REDIRECT feature
-in production:
-
-[56251.579676] list_add corruption. next->prev should be prev (ffff93120dd40f30), but was ffffb301ef3a6740. (next=ffff93120dd
-40f30).
-[56251.601413] ------------[ cut here ]------------
-[56251.611357] kernel BUG at lib/list_debug.c:29!
-[56251.621082] Oops: invalid opcode: 0000 [#1] PREEMPT SMP NOPTI
-[56251.632073] CPU: 111 UID: 0 PID: 0 Comm: swapper/111 Kdump: loaded Tainted: P           O       6.12.33-cloudflare-2025.6.
-3 #1
-[56251.653155] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE
-[56251.663877] Hardware name: MiTAC GC68B-B8032-G11P6-GPU/S8032GM-HE-CFR, BIOS V7.020.B10-sig 01/22/2025
-[56251.682626] RIP: 0010:__list_add_valid_or_report+0x4b/0xa0
-[56251.693203] Code: 0e 48 c7 c7 68 e7 d9 97 e8 42 16 fe ff 0f 0b 48 8b 52 08 48 39 c2 74 14 48 89 f1 48 c7 c7 90 e7 d9 97 48
- 89 c6 e8 25 16 fe ff <0f> 0b 4c 8b 02 49 39 f0 74 14 48 89 d1 48 c7 c7 e8 e7 d9 97 4c 89
-[56251.725811] RSP: 0018:ffff93120dd40b80 EFLAGS: 00010246
-[56251.736094] RAX: 0000000000000075 RBX: ffffb301e6bba9d8 RCX: 0000000000000000
-[56251.748260] RDX: 0000000000000000 RSI: ffff9149afda0b80 RDI: ffff9149afda0b80
-[56251.760349] RBP: ffff9131e49c8000 R08: 0000000000000000 R09: ffff93120dd40a18
-[56251.772382] R10: ffff9159cf2ce1a8 R11: 0000000000000003 R12: ffff911a80850000
-[56251.784364] R13: ffff93120fbc7000 R14: 0000000000000010 R15: ffff9139e7510e40
-[56251.796278] FS:  0000000000000000(0000) GS:ffff9149afd80000(0000) knlGS:0000000000000000
-[56251.809133] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
-[56251.819561] CR2: 00007f5e85e6f300 CR3: 00000038b85e2006 CR4: 0000000000770ef0
-[56251.831365] PKRU: 55555554
-[56251.838653] Call Trace:
-[56251.845560]  <IRQ>
-[56251.851943]  cpu_map_enqueue.cold+0x5/0xa
-[56251.860243]  xdp_do_redirect+0x2d9/0x480
-[56251.868388]  bnxt_rx_xdp+0x1d8/0x4c0 [bnxt_en]
-[56251.877028]  bnxt_rx_pkt+0x5f7/0x19b0 [bnxt_en]
-[56251.885665]  ? cpu_max_write+0x1e/0x100
-[56251.893510]  ? srso_alias_return_thunk+0x5/0xfbef5
-[56251.902276]  __bnxt_poll_work+0x190/0x340 [bnxt_en]
-[56251.911058]  bnxt_poll+0xab/0x1b0 [bnxt_en]
-[56251.919041]  ? srso_alias_return_thunk+0x5/0xfbef5
-[56251.927568]  ? srso_alias_return_thunk+0x5/0xfbef5
-[56251.935958]  ? srso_alias_return_thunk+0x5/0xfbef5
-[56251.944250]  __napi_poll+0x2b/0x160
-[56251.951155]  bpf_trampoline_6442548651+0x79/0x123
-[56251.959262]  __napi_poll+0x5/0x160
-[56251.966037]  net_rx_action+0x3d2/0x880
-[56251.973133]  ? srso_alias_return_thunk+0x5/0xfbef5
-[56251.981265]  ? srso_alias_return_thunk+0x5/0xfbef5
-[56251.989262]  ? __hrtimer_run_queues+0x162/0x2a0
-[56251.996967]  ? srso_alias_return_thunk+0x5/0xfbef5
-[56252.004875]  ? srso_alias_return_thunk+0x5/0xfbef5
-[56252.012673]  ? bnxt_msix+0x62/0x70 [bnxt_en]
-[56252.019903]  handle_softirqs+0xcf/0x270
-[56252.026650]  irq_exit_rcu+0x67/0x90
-[56252.032933]  common_interrupt+0x85/0xa0
-[56252.039498]  </IRQ>
-[56252.044246]  <TASK>
-[56252.048935]  asm_common_interrupt+0x26/0x40
-[56252.055727] RIP: 0010:cpuidle_enter_state+0xb8/0x420
-[56252.063305] Code: dc 01 00 00 e8 f9 79 3b ff e8 64 f7 ff ff 49 89 c5 0f 1f 44 00 00 31 ff e8 a5 32 3a ff 45 84 ff 0f 85 ae
- 01 00 00 fb 45 85 f6 <0f> 88 88 01 00 00 48 8b 04 24 49 63 ce 4c 89 ea 48 6b f1 68 48 29
-[56252.088911] RSP: 0018:ffff93120c97fe98 EFLAGS: 00000202
-[56252.096912] RAX: ffff9149afd80000 RBX: ffff9141d3a72800 RCX: 0000000000000000
-[56252.106844] RDX: 00003329176c6b98 RSI: ffffffe36db3fdc7 RDI: 0000000000000000
-[56252.116733] RBP: 0000000000000002 R08: 0000000000000002 R09: 000000000000004e
-[56252.126652] R10: ffff9149afdb30c4 R11: 071c71c71c71c71c R12: ffffffff985ff860
-[56252.136637] R13: 00003329176c6b98 R14: 0000000000000002 R15: 0000000000000000
-[56252.146667]  ? cpuidle_enter_state+0xab/0x420
-[56252.153909]  cpuidle_enter+0x2d/0x40
-[56252.160360]  do_idle+0x176/0x1c0
-[56252.166456
----truncated---
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38246</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38246</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38247 - "Linux Kernel User Namespace and Mnt Idmap Leak"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38247
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-userns and mnt_idmap leak in open_tree_attr(2)
-
-Once want_mount_setattr() has returned a positive, it does require
-finish_mount_kattr() to release ->mnt_userns.  Failing do_mount_setattr()
-does not change that.
-
-As the result, we can end up leaking userns and possibly mnt_idmap as
-well.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38247</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38247</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38248 - Linux Kernel Bridge Use-After-Free Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38248
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-bridge: mcast: Fix use-after-free during router port configuration
-
-The bridge maintains a global list of ports behind which a multicast
-router resides. The list is consulted during forwarding to ensure
-multicast packets are forwarded to these ports even if the ports are not
-member in the matching MDB entry.
-
-When per-VLAN multicast snooping is enabled, the per-port multicast
-context is disabled on each port and the port is removed from the global
-router port list:
-
- # ip link add name br1 up type bridge vlan_filtering 1 mcast_snooping 1
- # ip link add name dummy1 up master br1 type dummy
- # ip link set dev dummy1 type bridge_slave mcast_router 2
- $ bridge -d mdb show | grep router
- router ports on br1: dummy1
- # ip link set dev br1 type bridge mcast_vlan_snooping 1
- $ bridge -d mdb show | grep router
-
-However, the port can be re-added to the global list even when per-VLAN
-multicast snooping is enabled:
-
- # ip link set dev dummy1 type bridge_slave mcast_router 0
- # ip link set dev dummy1 type bridge_slave mcast_router 2
- $ bridge -d mdb show | grep router
- router ports on br1: dummy1
-
-Since commit 4b30ae9adb04 ("net: bridge: mcast: re-implement
-br_multicast_{enable, disable}_port functions"), when per-VLAN multicast
-snooping is enabled, multicast disablement on a port will disable the
-per-{port, VLAN} multicast contexts and not the per-port one. As a
-result, a port will remain in the global router port list even after it
-is deleted. This will lead to a use-after-free [1] when the list is
-traversed (when adding a new port to the list, for example):
-
- # ip link del dev dummy1
- # ip link add name dummy2 up master br1 type dummy
- # ip link set dev dummy2 type bridge_slave mcast_router 2
-
-Similarly, stale entries can also be found in the per-VLAN router port
-list. When per-VLAN multicast snooping is disabled, the per-{port, VLAN}
-contexts are disabled on each port and the port is removed from the
-per-VLAN router port list:
-
- # ip link add name br1 up type bridge vlan_filtering 1 mcast_snooping 1 mcast_vlan_snooping 1
- # ip link add name dummy1 up master br1 type dummy
- # bridge vlan add vid 2 dev dummy1
- # bridge vlan global set vid 2 dev br1 mcast_snooping 1
- # bridge vlan set vid 2 dev dummy1 mcast_router 2
- $ bridge vlan global show dev br1 vid 2 | grep router
-       router ports: dummy1
- # ip link set dev br1 type bridge mcast_vlan_snooping 0
- $ bridge vlan global show dev br1 vid 2 | grep router
-
-However, the port can be re-added to the per-VLAN list even when
-per-VLAN multicast snooping is disabled:
-
- # bridge vlan set vid 2 dev dummy1 mcast_router 0
- # bridge vlan set vid 2 dev dummy1 mcast_router 2
- $ bridge vlan global show dev br1 vid 2 | grep router
-       router ports: dummy1
-
-When the VLAN is deleted from the port, the per-{port, VLAN} multicast
-context will not be disabled since multicast snooping is not enabled
-on the VLAN. As a result, the port will remain in the per-VLAN router
-port list even after it is no longer member in the VLAN. This will lead
-to a use-after-free [2] when the list is traversed (when adding a new
-port to the list, for example):
-
- # ip link add name dummy2 up master br1 type dummy
- # bridge vlan add vid 2 dev dummy2
- # bridge vlan del vid 2 dev dummy1
- # bridge vlan set vid 2 dev dummy2 mcast_router 2
-
-Fix these issues by removing the port from the relevant (global or
-per-VLAN) router port list in br_multicast_port_ctx_deinit(). The
-function is invoked during port deletion with the per-port multicast
-context and during VLAN deletion with the per-{port, VLAN} multicast
-context.
-
-Note that deleting the multicast router timer is not enough as it only
-takes care of the temporary multicast router states (1 or 3) and not the
-permanent one (2).
-
-[1]
-BUG: KASAN: slab-out-of-bounds in br_multicast_add_router.part.0+0x3f1/0x560
-Write of size 8 at addr ffff888004a67328 by task ip/384
-[...]
-Call Trace:
- <TASK>
- dump_stack
----truncated---
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38248</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38248</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38249 - ALSA USB Audio Out-of-Bounds Read Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38249
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-ALSA: usb-audio: Fix out-of-bounds read in snd_usb_get_audioformat_uac3()
-
-In snd_usb_get_audioformat_uac3(), the length value returned from
-snd_usb_ctl_msg() is used directly for memory allocation without
-validation. This length is controlled by the USB device.
-
-The allocated buffer is cast to a uac3_cluster_header_descriptor
-and its fields are accessed without verifying that the buffer
-is large enough. If the device returns a smaller than expected
-length, this leads to an out-of-bounds read.
-
-Add a length check to ensure the buffer is large enough for
-uac3_cluster_header_descriptor.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38249</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38249</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38250 - "Bluetooth hci_core Use-After-Free Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38250
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-Bluetooth: hci_core: Fix use-after-free in vhci_flush()
-
-syzbot reported use-after-free in vhci_flush() without repro. [0]
-
-From the splat, a thread close()d a vhci file descriptor while
-its device was being used by iotcl() on another thread.
-
-Once the last fd refcnt is released, vhci_release() calls
-hci_unregister_dev(), hci_free_dev(), and kfree() for struct
-vhci_data, which is set to hci_dev->dev->driver_data.
-
-The problem is that there is no synchronisation after unlinking
-hdev from hci_dev_list in hci_unregister_dev().  There might be
-another thread still accessing the hdev which was fetched before
-the unlink operation.
-
-We can use SRCU for such synchronisation.
-
-Let's run hci_dev_reset() under SRCU and wait for its completion
-in hci_unregister_dev().
-
-Another option would be to restore hci_dev->destruct(), which was
-removed in commit 587ae086f6e4 ("Bluetooth: Remove unused
-hci-destruct cb").  However, this would not be a good solution, as
-we should not run hci_unregister_dev() while there are in-flight
-ioctl() requests, which could lead to another data-race KCSAN splat.
-
-Note that other drivers seem to have the same problem, for exmaple,
-virtbt_remove().
-
-[0]:
-BUG: KASAN: slab-use-after-free in skb_queue_empty_lockless include/linux/skbuff.h:1891 [inline]
-BUG: KASAN: slab-use-after-free in skb_queue_purge_reason+0x99/0x360 net/core/skbuff.c:3937
-Read of size 8 at addr ffff88807cb8d858 by task syz.1.219/6718
-
-CPU: 1 UID: 0 PID: 6718 Comm: syz.1.219 Not tainted 6.16.0-rc1-syzkaller-00196-g08207f42d3ff #0 PREEMPT(full)
-Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/07/2025
-Call Trace:
- <TASK>
- dump_stack_lvl+0x189/0x250 lib/dump_stack.c:120
- print_address_description mm/kasan/report.c:408 [inline]
- print_report+0xd2/0x2b0 mm/kasan/report.c:521
- kasan_report+0x118/0x150 mm/kasan/report.c:634
- skb_queue_empty_lockless include/linux/skbuff.h:1891 [inline]
- skb_queue_purge_reason+0x99/0x360 net/core/skbuff.c:3937
- skb_queue_purge include/linux/skbuff.h:3368 [inline]
- vhci_flush+0x44/0x50 drivers/bluetooth/hci_vhci.c:69
- hci_dev_do_reset net/bluetooth/hci_core.c:552 [inline]
- hci_dev_reset+0x420/0x5c0 net/bluetooth/hci_core.c:592
- sock_do_ioctl+0xd9/0x300 net/socket.c:1190
- sock_ioctl+0x576/0x790 net/socket.c:1311
- vfs_ioctl fs/ioctl.c:51 [inline]
- __do_sys_ioctl fs/ioctl.c:907 [inline]
- __se_sys_ioctl+0xf9/0x170 fs/ioctl.c:893
- do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
- do_syscall_64+0xfa/0x3b0 arch/x86/entry/syscall_64.c:94
- entry_SYSCALL_64_after_hwframe+0x77/0x7f
-RIP: 0033:0x7fcf5b98e929
-Code: ff ff c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 40 00 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 a8 ff ff ff f7 d8 64 89 01 48
-RSP: 002b:00007fcf5c7b9038 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
-RAX: ffffffffffffffda RBX: 00007fcf5bbb6160 RCX: 00007fcf5b98e929
-RDX: 0000000000000000 RSI: 00000000400448cb RDI: 0000000000000009
-RBP: 00007fcf5ba10b39 R08: 0000000000000000 R09: 0000000000000000
-R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
-R13: 0000000000000000 R14: 00007fcf5bbb6160 R15: 00007ffd6353d528
- </TASK>
-
-Allocated by task 6535:
- kasan_save_stack mm/kasan/common.c:47 [inline]
- kasan_save_track+0x3e/0x80 mm/kasan/common.c:68
- poison_kmalloc_redzone mm/kasan/common.c:377 [inline]
- __kasan_kmalloc+0x93/0xb0 mm/kasan/common.c:394
- kasan_kmalloc include/linux/kasan.h:260 [inline]
- __kmalloc_cache_noprof+0x230/0x3d0 mm/slub.c:4359
- kmalloc_noprof include/linux/slab.h:905 [inline]
- kzalloc_noprof include/linux/slab.h:1039 [inline]
- vhci_open+0x57/0x360 drivers/bluetooth/hci_vhci.c:635
- misc_open+0x2bc/0x330 drivers/char/misc.c:161
- chrdev_open+0x4c9/0x5e0 fs/char_dev.c:414
- do_dentry_open+0xdf0/0x1970 fs/open.c:964
- vfs_open+0x3b/0x340 fs/open.c:1094
- do_open fs/namei.c:3887 [inline]
- path_openat+0x2ee5/0x3830 fs/name
----truncated---
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38250</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38250</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38251 - Linux ATM Clip NULL Pointer Dereference Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38251
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-atm: clip: prevent NULL deref in clip_push()
-
-Blamed commit missed that vcc_destroy_socket() calls
-clip_push() with a NULL skb.
-
-If clip_devs is NULL, clip_push() then crashes when reading
-skb->truesize.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38251</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38251</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38252 - Linux Kernel CXL Driver - Unvalidated Assumption Handler</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38252
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-cxl/ras: Fix CPER handler device confusion
-
-By inspection, cxl_cper_handle_prot_err() is making a series of fragile
-assumptions that can lead to crashes:
-
-1/ It assumes that endpoints identified in the record are a CXL-type-3
-   device, nothing guarantees that.
-
-2/ It assumes that the device is bound to the cxl_pci driver, nothing
-   guarantees that.
-
-3/ Minor, it holds the device lock over the switch-port tracing for no
-   reason as the trace is 100% generated from data in the record.
-
-Correct those by checking that the PCIe endpoint parents a cxl_memdev
-before assuming the format of the driver data, and move the lock to where
-it is required. Consequently this also makes the implementation ready for
-CXL accelerators that are not bound to cxl_pci.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38252</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38252</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38253 - Wacom HID Linux Kernel Crash Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38253
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-HID: wacom: fix crash in wacom_aes_battery_handler()
-
-Commit fd2a9b29dc9c ("HID: wacom: Remove AES power_supply after extended
-inactivity") introduced wacom_aes_battery_handler() which is scheduled
-as a delayed work (aes_battery_work).
-
-In wacom_remove(), aes_battery_work is not canceled. Consequently, if
-the device is removed while aes_battery_work is still pending, then hard
-crashes or "Oops: general protection fault..." are experienced when
-wacom_aes_battery_handler() is finally called. E.g., this happens with
-built-in USB devices after resume from hibernate when aes_battery_work
-was still pending at the time of hibernation.
-
-So, take care to cancel aes_battery_work in wacom_remove().
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38253</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38253</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38254 - AMD Linux Kernel EDID Handling Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38254
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-drm/amd/display: Add sanity checks for drm_edid_raw()
-
-When EDID is retrieved via drm_edid_raw(), it doesn't guarantee to
-return proper EDID bytes the caller wants: it may be either NULL (that
-leads to an Oops) or with too long bytes over the fixed size raw_edid
-array (that may lead to memory corruption).  The latter was reported
-actually when connected with a bad adapter.
-
-Add sanity checks for drm_edid_raw() to address the above corner
-cases, and return EDID_BAD_INPUT accordingly.
-
-(cherry picked from commit 648d3f4d209725d51900d6a3ed46b7b600140cdf)
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38254</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38254</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38255 - Linux Kernel null_blk Configfs Null Pointer Dereference Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38255
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-lib/group_cpus: fix NULL pointer dereference from group_cpus_evenly()
-
-While testing null_blk with configfs, echo 0 > poll_queues will trigger
-following panic:
-
-BUG: kernel NULL pointer dereference, address: 0000000000000010
-Oops: Oops: 0000 [#1] SMP NOPTI
-CPU: 27 UID: 0 PID: 920 Comm: bash Not tainted 6.15.0-02023-gadbdb95c8696-dirty #1238 PREEMPT(undef)
-Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.1-2.fc37 04/01/2014
-RIP: 0010:__bitmap_or+0x48/0x70
-Call Trace:
- <TASK>
- __group_cpus_evenly+0x822/0x8c0
- group_cpus_evenly+0x2d9/0x490
- blk_mq_map_queues+0x1e/0x110
- null_map_queues+0xc9/0x170 [null_blk]
- blk_mq_update_queue_map+0xdb/0x160
- blk_mq_update_nr_hw_queues+0x22b/0x560
- nullb_update_nr_hw_queues+0x71/0xf0 [null_blk]
- nullb_device_poll_queues_store+0xa4/0x130 [null_blk]
- configfs_write_iter+0x109/0x1d0
- vfs_write+0x26e/0x6f0
- ksys_write+0x79/0x180
- __x64_sys_write+0x1d/0x30
- x64_sys_call+0x45c4/0x45f0
- do_syscall_64+0xa5/0x240
- entry_SYSCALL_64_after_hwframe+0x76/0x7e
-
-Root cause is that numgrps is set to 0, and ZERO_SIZE_PTR is returned from
-kcalloc(), and later ZERO_SIZE_PTR will be deferenced.
-
-Fix the problem by checking numgrps first in group_cpus_evenly(), and
-return NULL directly if numgrps is zero.
-
-[yukuai3@huawei.com: also fix the non-SMP version]
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38255</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38255</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38256 - Linux Kernel io_uring Folio Unpinning Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38256
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-io_uring/rsrc: fix folio unpinning
-
-syzbot complains about an unmapping failure:
-
-[  108.070381][   T14] kernel BUG at mm/gup.c:71!
-[  108.070502][   T14] Internal error: Oops - BUG: 00000000f2000800 [#1]  SMP
-[  108.123672][   T14] Hardware name: QEMU KVM Virtual Machine, BIOS edk2-20250221-8.fc42 02/21/2025
-[  108.127458][   T14] Workqueue: iou_exit io_ring_exit_work
-[  108.174205][   T14] Call trace:
-[  108.175649][   T14]  sanity_check_pinned_pages+0x7cc/0x7d0 (P)
-[  108.178138][   T14]  unpin_user_page+0x80/0x10c
-[  108.180189][   T14]  io_release_ubuf+0x84/0xf8
-[  108.182196][   T14]  io_free_rsrc_node+0x250/0x57c
-[  108.184345][   T14]  io_rsrc_data_free+0x148/0x298
-[  108.186493][   T14]  io_sqe_buffers_unregister+0x84/0xa0
-[  108.188991][   T14]  io_ring_ctx_free+0x48/0x480
-[  108.191057][   T14]  io_ring_exit_work+0x764/0x7d8
-[  108.193207][   T14]  process_one_work+0x7e8/0x155c
-[  108.195431][   T14]  worker_thread+0x958/0xed8
-[  108.197561][   T14]  kthread+0x5fc/0x75c
-[  108.199362][   T14]  ret_from_fork+0x10/0x20
-
-We can pin a tail page of a folio, but then io_uring will try to unpin
-the head page of the folio. While it should be fine in terms of keeping
-the page actually alive, mm folks say it's wrong and triggers a debug
-warning. Use unpin_user_folio() instead of unpin_user_page*.
-
-[axboe: adapt to current tree, massage commit message]
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38256</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38256</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38257 - IBM s390 Memory Corruption Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38257
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-s390/pkey: Prevent overflow in size calculation for memdup_user()
-
-Number of apqn target list entries contained in 'nr_apqns' variable is
-determined by userspace via an ioctl call so the result of the product in
-calculation of size passed to memdup_user() may overflow.
-
-In this case the actual size of the allocated area and the value
-describing it won't be in sync leading to various types of unpredictable
-behaviour later.
-
-Use a proper memdup_array_user() helper which returns an error if an
-overflow is detected. Note that it is different from when nr_apqns is
-initially zero - that case is considered valid and should be handled in
-subsequent pkey_handler implementations.
-
-Found by Linux Verification Center (linuxtesting.org).
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38257</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38257</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38258 - Linux Kernel Memcg Path Memory Leak</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38258
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-mm/damon/sysfs-schemes: free old damon_sysfs_scheme_filter->memcg_path on write
-
-memcg_path_store() assigns a newly allocated memory buffer to
-filter->memcg_path, without deallocating the previously allocated and
-assigned memory buffer.  As a result, users can leak kernel memory by
-continuously writing a data to memcg_path DAMOS sysfs file.  Fix the leak
-by deallocating the previously set memory buffer.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38258</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38258</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38259 - Linux Kernel ASoC Wcd9335 Regulator Leaks Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38259
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-ASoC: codecs: wcd9335: Fix missing free of regulator supplies
-
-Driver gets and enables all regulator supplies in probe path
-(wcd9335_parse_dt() and wcd9335_power_on_reset()), but does not cleanup
-in final error paths and in unbind (missing remove() callback).  This
-leads to leaked memory and unbalanced regulator enable count during
-probe errors or unbind.
-
-Fix this by converting entire code into devm_regulator_bulk_get_enable()
-which also greatly simplifies the code.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38259</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38259</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38260 - Linux Btrfs rescue=ibadroots null pointer dereference vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38260
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-btrfs: handle csum tree error with rescue=ibadroots correctly
-
-[BUG]
-There is syzbot based reproducer that can crash the kernel, with the
-following call trace: (With some debug output added)
-
- DEBUG: rescue=ibadroots parsed
- BTRFS: device fsid 14d642db-7b15-43e4-81e6-4b8fac6a25f8 devid 1 transid 8 /dev/loop0 (7:0) scanned by repro (1010)
- BTRFS info (device loop0): first mount of filesystem 14d642db-7b15-43e4-81e6-4b8fac6a25f8
- BTRFS info (device loop0): using blake2b (blake2b-256-generic) checksum algorithm
- BTRFS info (device loop0): using free-space-tree
- BTRFS warning (device loop0): checksum verify failed on logical 5312512 mirror 1 wanted 0xb043382657aede36608fd3386d6b001692ff406164733d94e2d9a180412c6003 found 0x810ceb2bacb7f0f9eb2bf3b2b15c02af867cb35ad450898169f3b1f0bd818651 level 0
- DEBUG: read tree root path failed for tree csum, ret=-5
- BTRFS warning (device loop0): checksum verify failed on logical 5328896 mirror 1 wanted 0x51be4e8b303da58e6340226815b70e3a93592dac3f30dd510c7517454de8567a found 0x51be4e8b303da58e634022a315b70e3a93592dac3f30dd510c7517454de8567a level 0
- BTRFS warning (device loop0): checksum verify failed on logical 5292032 mirror 1 wanted 0x1924ccd683be9efc2fa98582ef58760e3848e9043db8649ee382681e220cdee4 found 0x0cb6184f6e8799d9f8cb335dccd1d1832da1071d12290dab3b85b587ecacca6e level 0
- process 'repro' launched './file2' with NULL argv: empty string added
- DEBUG: no csum root, idatacsums=0 ibadroots=134217728
- Oops: general protection fault, probably for non-canonical address 0xdffffc0000000041: 0000 [#1] SMP KASAN NOPTI
- KASAN: null-ptr-deref in range [0x0000000000000208-0x000000000000020f]
- CPU: 5 UID: 0 PID: 1010 Comm: repro Tainted: G           OE       6.15.0-custom+ #249 PREEMPT(full)
- Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS unknown 02/02/2022
- RIP: 0010:btrfs_lookup_csum+0x93/0x3d0 [btrfs]
- Call Trace:
-  <TASK>
-  btrfs_lookup_bio_sums+0x47a/0xdf0 [btrfs]
-  btrfs_submit_bbio+0x43e/0x1a80 [btrfs]
-  submit_one_bio+0xde/0x160 [btrfs]
-  btrfs_readahead+0x498/0x6a0 [btrfs]
-  read_pages+0x1c3/0xb20
-  page_cache_ra_order+0x4b5/0xc20
-  filemap_get_pages+0x2d3/0x19e0
-  filemap_read+0x314/0xde0
-  __kernel_read+0x35b/0x900
-  bprm_execve+0x62e/0x1140
-  do_execveat_common.isra.0+0x3fc/0x520
-  __x64_sys_execveat+0xdc/0x130
-  do_syscall_64+0x54/0x1d0
-  entry_SYSCALL_64_after_hwframe+0x76/0x7e
- ---[ end trace 0000000000000000 ]---
-
-[CAUSE]
-Firstly the fs has a corrupted csum tree root, thus to mount the fs we
-have to go "ro,rescue=ibadroots" mount option.
-
-Normally with that mount option, a bad csum tree root should set
-BTRFS_FS_STATE_NO_DATA_CSUMS flag, so that any future data read will
-ignore csum search.
-
-But in this particular case, we have the following call trace that
-caused NULL csum root, but not setting BTRFS_FS_STATE_NO_DATA_CSUMS:
-
-load_global_roots_objectid():
-
-		ret = btrfs_search_slot();
-		/* Succeeded */
-		btrfs_item_key_to_cpu()
-		found = true;
-		/* We found the root item for csum tree. */
-		root = read_tree_root_path();
-		if (IS_ERR(root)) {
-			if (!btrfs_test_opt(fs_info, IGNOREBADROOTS))
-			/*
-			 * Since we have rescue=ibadroots mount option,
-			 * @ret is still 0.
-			 */
-			break;
-	if (!found || ret) {
-		/* @found is true, @ret is 0, error handling for csum
-		 * tree is skipped.
-		 */
-	}
-
-This means we completely skipped to set BTRFS_FS_STATE_NO_DATA_CSUMS if
-the csum tree is corrupted, which results unexpected later csum lookup.
-
-[FIX]
-If read_tree_root_path() failed, always populate @ret to the error
-number.
-
-As at the end of the function, we need @ret to determine if we need to
-do the extra error handling for csum tree.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38260</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38260</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38261 - Linux RISC-V SR_SUM Status Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38261
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-riscv: save the SR_SUM status over switches
-
-When threads/tasks are switched we need to ensure the old execution's
-SR_SUM state is saved and the new thread has the old SR_SUM state
-restored.
-
-The issue was seen under heavy load especially with the syz-stress tool
-running, with crashes as follows in schedule_tail:
-
-Unable to handle kernel access to user memory without uaccess routines
-at virtual address 000000002749f0d0
-Oops [#1]
-Modules linked in:
-CPU: 1 PID: 4875 Comm: syz-executor.0 Not tainted
-5.12.0-rc2-syzkaller-00467-g0d7588ab9ef9 #0
-Hardware name: riscv-virtio,qemu (DT)
-epc : schedule_tail+0x72/0xb2 kernel/sched/core.c:4264
- ra : task_pid_vnr include/linux/sched.h:1421 [inline]
- ra : schedule_tail+0x70/0xb2 kernel/sched/core.c:4264
-epc : ffffffe00008c8b0 ra : ffffffe00008c8ae sp : ffffffe025d17ec0
- gp : ffffffe005d25378 tp : ffffffe00f0d0000 t0 : 0000000000000000
- t1 : 0000000000000001 t2 : 00000000000f4240 s0 : ffffffe025d17ee0
- s1 : 000000002749f0d0 a0 : 000000000000002a a1 : 0000000000000003
- a2 : 1ffffffc0cfac500 a3 : ffffffe0000c80cc a4 : 5ae9db91c19bbe00
- a5 : 0000000000000000 a6 : 0000000000f00000 a7 : ffffffe000082eba
- s2 : 0000000000040000 s3 : ffffffe00eef96c0 s4 : ffffffe022c77fe0
- s5 : 0000000000004000 s6 : ffffffe067d74e00 s7 : ffffffe067d74850
- s8 : ffffffe067d73e18 s9 : ffffffe067d74e00 s10: ffffffe00eef96e8
- s11: 000000ae6cdf8368 t3 : 5ae9db91c19bbe00 t4 : ffffffc4043cafb2
- t5 : ffffffc4043cafba t6 : 0000000000040000
-status: 0000000000000120 badaddr: 000000002749f0d0 cause:
-000000000000000f
-Call Trace:
-[<ffffffe00008c8b0>] schedule_tail+0x72/0xb2 kernel/sched/core.c:4264
-[<ffffffe000005570>] ret_from_exception+0x0/0x14
-Dumping ftrace buffer:
-   (ftrace buffer empty)
----[ end trace b5f8f9231dc87dda ]---
-
-The issue comes from the put_user() in schedule_tail
-(kernel/sched/core.c) doing the following:
-
-asmlinkage __visible void schedule_tail(struct task_struct *prev)
-{
-...
-        if (current->set_child_tid)
-                put_user(task_pid_vnr(current), current->set_child_tid);
-...
-}
-
-the put_user() macro causes the code sequence to come out as follows:
-
-1:	__enable_user_access()
-2:	reg = task_pid_vnr(current);
-3:	*current->set_child_tid = reg;
-4:	__disable_user_access()
-
-The problem is that we may have a sleeping function as argument which
-could clear SR_SUM causing the panic above. This was fixed by
-evaluating the argument of the put_user() macro outside the user-enabled
-section in commit 285a76bb2cf5 ("riscv: evaluate put_user() arg before
-enabling user access")"
-
-In order for riscv to take advantage of unsafe_get/put_XXX() macros and
-to avoid the same issue we had with put_user() and sleeping functions we
-must ensure code flow can go through switch_to() from within a region of
-code with SR_SUM enabled and come back with SR_SUM still enabled. This
-patch addresses the problem allowing future work to enable full use of
-unsafe_get/put_XXX() macros without needing to take a CSR bit flip cost
-on every access. Make switch_to() save and restore SR_SUM.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38261</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38261</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38262 - Linux UARTlite Concurrency Race Null Pointer Dereference</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38262
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-tty: serial: uartlite: register uart driver in init
-
-When two instances of uart devices are probing, a concurrency race can
-occur. If one thread calls uart_register_driver function, which first
-allocates and assigns memory to 'uart_state' member of uart_driver
-structure, the other instance can bypass uart driver registration and
-call ulite_assign. This calls uart_add_one_port, which expects the uart
-driver to be fully initialized. This leads to a kernel panic due to a
-null pointer dereference:
-
-[    8.143581] BUG: kernel NULL pointer dereference, address: 00000000000002b8
-[    8.156982] #PF: supervisor write access in kernel mode
-[    8.156984] #PF: error_code(0x0002) - not-present page
-[    8.156986] PGD 0 P4D 0
-...
-[    8.180668] RIP: 0010:mutex_lock+0x19/0x30
-[    8.188624] Call Trace:
-[    8.188629]  ? __die_body.cold+0x1a/0x1f
-[    8.195260]  ? page_fault_oops+0x15c/0x290
-[    8.209183]  ? __irq_resolve_mapping+0x47/0x80
-[    8.209187]  ? exc_page_fault+0x64/0x140
-[    8.209190]  ? asm_exc_page_fault+0x22/0x30
-[    8.209196]  ? mutex_lock+0x19/0x30
-[    8.223116]  uart_add_one_port+0x60/0x440
-[    8.223122]  ? proc_tty_register_driver+0x43/0x50
-[    8.223126]  ? tty_register_driver+0x1ca/0x1e0
-[    8.246250]  ulite_probe+0x357/0x4b0 [uartlite]
-
-To prevent it, move uart driver registration in to init function. This
-will ensure that uart_driver is always registered when probe function
-is called.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38262</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38262</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38263 - Linux bcache NULL Pointer Dereference Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38263
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-bcache: fix NULL pointer in cache_set_flush()
-
-1. LINE#1794 - LINE#1887 is some codes about function of
-   bch_cache_set_alloc().
-2. LINE#2078 - LINE#2142 is some codes about function of
-   register_cache_set().
-3. register_cache_set() will call bch_cache_set_alloc() in LINE#2098.
-
- 1794 struct cache_set *bch_cache_set_alloc(struct cache_sb *sb)
- 1795 {
- ...
- 1860         if (!(c->devices = kcalloc(c->nr_uuids, sizeof(void *), GFP_KERNEL)) ||
- 1861             mempool_init_slab_pool(&c->search, 32, bch_search_cache) ||
- 1862             mempool_init_kmalloc_pool(&c->bio_meta, 2,
- 1863                                 sizeof(struct bbio) + sizeof(struct bio_vec) *
- 1864                                 bucket_pages(c)) ||
- 1865             mempool_init_kmalloc_pool(&c->fill_iter, 1, iter_size) ||
- 1866             bioset_init(&c->bio_split, 4, offsetof(struct bbio, bio),
- 1867                         BIOSET_NEED_BVECS|BIOSET_NEED_RESCUER) ||
- 1868             !(c->uuids = alloc_bucket_pages(GFP_KERNEL, c)) ||
- 1869             !(c->moving_gc_wq = alloc_workqueue("bcache_gc",
- 1870                                                 WQ_MEM_RECLAIM, 0)) ||
- 1871             bch_journal_alloc(c) ||
- 1872             bch_btree_cache_alloc(c) ||
- 1873             bch_open_buckets_alloc(c) ||
- 1874             bch_bset_sort_state_init(&c->sort, ilog2(c->btree_pages)))
- 1875                 goto err;
-                      ^^^^^^^^
- 1876
- ...
- 1883         return c;
- 1884 err:
- 1885         bch_cache_set_unregister(c);
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
- 1886         return NULL;
- 1887 }
- ...
- 2078 static const char *register_cache_set(struct cache *ca)
- 2079 {
- ...
- 2098         c = bch_cache_set_alloc(&ca->sb);
- 2099         if (!c)
- 2100                 return err;
-                      ^^^^^^^^^^
- ...
- 2128         ca->set = c;
- 2129         ca->set->cache[ca->sb.nr_this_dev] = ca;
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- ...
- 2138         return NULL;
- 2139 err:
- 2140         bch_cache_set_unregister(c);
- 2141         return err;
- 2142 }
-
-(1) If LINE#1860 - LINE#1874 is true, then do 'goto err'(LINE#1875) and
-    call bch_cache_set_unregister()(LINE#1885).
-(2) As (1) return NULL(LINE#1886), LINE#2098 - LINE#2100 would return.
-(3) As (2) has returned, LINE#2128 - LINE#2129 would do *not* give the
-    value to c->cache[], it means that c->cache[] is NULL.
-
-LINE#1624 - LINE#1665 is some codes about function of cache_set_flush().
-As (1), in LINE#1885 call
-bch_cache_set_unregister()
----> bch_cache_set_stop()
-     ---> closure_queue()
-          -.-> cache_set_flush() (as below LINE#1624)
-
- 1624 static void cache_set_flush(struct closure *cl)
- 1625 {
- ...
- 1654         for_each_cache(ca, c, i)
- 1655                 if (ca->alloc_thread)
-                          ^^
- 1656                         kthread_stop(ca->alloc_thread);
- ...
- 1665 }
-
-(4) In LINE#1655 ca is NULL(see (3)) in cache_set_flush() then the
-    kernel crash occurred as below:
-[  846.712887] bcache: register_cache() error drbd6: cannot allocate memory
-[  846.713242] bcache: register_bcache() error : failed to register device
-[  846.713336] bcache: cache_set_free() Cache set 2f84bdc1-498a-4f2f-98a7-01946bf54287 unregistered
-[  846.713768] BUG: unable to handle kernel NULL pointer dereference at 00000000000009f8
-[  846.714790] PGD 0 P4D 0
-[  846.715129] Oops: 0000 [#1] SMP PTI
-[  846.715472] CPU: 19 PID: 5057 Comm: kworker/19:16 Kdump: loaded Tainted: G           OE    --------- -  - 4.18.0-147.5.1.el8_1.5es.3.x86_64 #1
-[  846.716082] Hardware name: ESPAN GI-25212/X11DPL-i, BIOS 2.1 06/15/2018
-[  846.716451] Workqueue: events cache_set_flush [bcache]
-[  846.716808] RIP: 0010:cache_set_flush+0xc9/0x1b0 [bcache]
-[  846.717155] Code: 00 4c 89 a5 b0 03 00 00 48 8b 85 68 f6 ff ff a8 08 0f 84 88 00 00 00 31 db 66 83 bd 3c f7 ff ff 00 48 8b 85 48 ff ff ff 74 28 <48> 8b b8 f8 09 00 0
----truncated---
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38263</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38263</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38264 - NVIDIA nvme-tcp Request List Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38264
-<br>
-<strong>Published : </strong> July 9, 2025, 11:15 a.m. | 3 hours, 22 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-nvme-tcp: sanitize request list handling
-
-Validate the request in nvme_tcp_handle_r2t() to ensure it's not part of
-any list, otherwise a malicious R2T PDU might inject a loop in request
-list processing.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 11:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38264</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38264</guid>
     </item>
     <item>
       <title>CVE-2025-38239 - Megaraid SAS Array Index Out-of-Bounds Vulnerability</title>
