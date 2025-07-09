@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 09 Jul 2025 03:13:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jul 2025 04:02:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-34077
 <br>
-<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 14 minutes ago
 <br>
 <strong>Description : </strong>An authentication bypass vulnerability exists in the WordPress Pie Register plugin ≤ 3.7.1.4 that allows unauthenticated attackers to impersonate arbitrary users by submitting a crafted POST request to the login endpoint. By setting social_site=true and manipulating the user_id_social_site parameter, an attacker can generate a valid WordPress session cookie for any user ID, including administrators. Once authenticated, the attacker may exploit plugin upload functionality to install a malicious plugin containing arbitrary PHP code, resulting in remote code execution on the underlying server.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-34083
 <br>
-<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 14 minutes ago
 <br>
 <strong>Description : </strong>An unrestricted file upload vulnerability exists in the WordPress AIT CSV Import/Export plugin ≤ 3.0.3. The plugin exposes an upload handler at upload-handler.php that allows arbitrary file upload via a multipart/form-data POST request. This endpoint does not enforce authentication or content-type validation, enabling attackers to upload malicious PHP code directly to the server. Although the upload may produce an error related to CSV parsing, the malicious file is still saved under wp-content/uploads/ and remains executable. Notably, the plugin does not need to be active for exploitation to succeed.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-34084
 <br>
-<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 14 minutes ago
 <br>
 <strong>Description : </strong>An unauthenticated information disclosure vulnerability exists in the WordPress Total Upkeep plugin (also known as BoldGrid Backup) prior to version 1.14.10. The plugin exposes multiple endpoints that allow unauthenticated users to retrieve detailed server configuration (env-info.php) and discover backup metadata (restore-info.json). These backups, which may include full SQL database dumps, are accessible without authentication if their paths are known or guessed. The restore-info.json endpoint discloses the absolute filesystem path of the latest backup, which attackers can convert into a web-accessible URL under wp-content/uploads/ and download. Extracting the database archive may yield credential hashes from the wp_users table, facilitating offline password cracking or credential stuffing attacks.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-34085
 <br>
-<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 14 minutes ago
 <br>
 <strong>Description : </strong>An unrestricted file upload vulnerability in the WordPress Simple File List plugin prior to version 4.2.3 allows unauthenticated remote attackers to achieve remote code execution. The plugin's upload endpoint (ee-upload-engine.php) restricts file uploads based on extension, but lacks proper validation after file renaming. An attacker can first upload a PHP payload disguised as a .png file, then use the plugin’s ee-file-engine.php rename functionality to change the extension to .php. This bypasses upload restrictions and results in the uploaded payload being executable on the server.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7207
 <br>
-<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 14 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, was found in mruby up to 3.4.0-rc2. Affected is the function scope_new of the file mrbgems/mruby-compiler/core/codegen.c of the component nregs Handler. The manipulation leads to heap-based buffer overflow. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The name of the patch is 1fdd96104180cc0fb5d3cb086b05ab6458911bb9. It is recommended to apply a patch to fix this issue.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7208
 <br>
-<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 14 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in 9fans plan9port up to 9da5b44. It has been classified as critical. This affects the function edump in the library /src/plan9port/src/libsec/port/x509.c. The manipulation leads to heap-based buffer overflow. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available. The identifier of the patch is b3e06559475b0130a7a2fb56ac4d131d13d2012f. It is recommended to apply a patch to fix this issue.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7209
 <br>
-<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 1:15 a.m. | 1 hour, 14 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in 9fans plan9port up to 9da5b44 and classified as problematic. Affected by this vulnerability is the function value_decode in the library src/libsec/port/x509.c. The manipulation leads to null pointer dereference. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available. The identifier of the patch is deae8939583d83fd798fca97665e0e94656c3ee8. It is recommended to apply a patch to fix this issue.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3780
 <br>
-<strong>Published : </strong> July 9, 2025, 12:15 a.m. | 2 hours, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 12:15 a.m. | 2 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>The WCFM – Frontend Manager for WooCommerce along with Bookings Subscription Listings Compatible plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the wcfm_redirect_to_setup function in all versions up to, and including, 6.7.16. This makes it possible for unauthenticated attackers to view and modify the plugin settings, including payment details and API keys
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4828
 <br>
-<strong>Published : </strong> July 9, 2025, 12:15 a.m. | 2 hours, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 12:15 a.m. | 2 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>The Support Board plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the sb_file_delete function in all versions up to, and including, 3.8.0. This makes it possible for attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). An attacker can leverage CVE-2025-4855 vulnerability to exploit this vulnerability unauthenticated.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4855
 <br>
-<strong>Published : </strong> July 9, 2025, 12:15 a.m. | 2 hours, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 12:15 a.m. | 2 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>The Support Board plugin for WordPress is vulnerable to unauthorized access/modification/deletion of data due to use of hardcoded default secrets in the sb_encryption() function in all versions up to, and including, 3.8.0. This makes it possible for unauthenticated attackers to bypass authorization and execute arbitrary AJAX actions defined in the sb_ajax_execute() function. An attacker can use this vulnerability to exploit CVE-2025-4828 and various other functions unauthenticated.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7206
 <br>
-<strong>Published : </strong> July 9, 2025, 12:15 a.m. | 2 hours, 5 minutes ago
+<strong>Published : </strong> July 9, 2025, 12:15 a.m. | 2 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in D-Link DIR-825 2.10. This issue affects the function sub_410DDC of the file switch_language.cgi of the component httpd. The manipulation of the argument Language leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47122
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47123
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -240,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47124
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -257,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47125
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -274,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47126
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -291,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47127
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -308,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47128
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by an Integer Underflow (Wrap or Wraparound) vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -325,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47129
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -342,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47130
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by an Integer Underflow (Wrap or Wraparound) vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -359,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47131
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -376,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47132
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -393,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47133
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>Adobe Framemaker versions 2020.8, 2022.6 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 <br>
@@ -410,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7199
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Library System 1.0. This issue affects some unknown processing of the file /notapprove.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -427,7 +427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7200
 <br>
-<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 5 minutes ago
+<strong>Published : </strong> July 8, 2025, 11:15 p.m. | 3 hours, 14 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in krishna9772 Pharmacy Management System up to a2efc8442931ec9308f3b4cf4778e5701153f4e5. Affected is an unknown function of the file quantity_upd.php. The manipulation of the argument med_name/med_cat/ex_date leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available.
 <br>
