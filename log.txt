@@ -123,6 +123,7 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-28/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-29/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-30/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-02/
+https://cvefeed.io/vuln/detail/CVE-2025-53659
 https://cvefeed.io/vuln/detail/CVE-2025-53660
 https://cvefeed.io/vuln/detail/CVE-2025-53661
 https://cvefeed.io/vuln/detail/CVE-2025-53662
@@ -147,7 +148,6 @@ https://cvefeed.io/vuln/detail/CVE-2025-53743
 https://cvefeed.io/vuln/detail/CVE-2025-7381
 https://cvefeed.io/vuln/detail/CVE-2025-44525
 https://cvefeed.io/vuln/detail/CVE-2025-53645
-https://cvefeed.io/vuln/detail/CVE-2025-53548
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-les-produits-microsoft-202501
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
@@ -1620,6 +1620,7 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
+CVE-2025-53659 - Jenkins QMetry Test Management Plugin API Key Exposure
 CVE-2025-53660 - Jenkins QMetry Test Management Plugin Information Disclosure
 CVE-2025-53661 - Jenkins Testsigma Test Plan Run Plugin API Key Exposure Vulnerability
 CVE-2025-53662 - Jenkins IFTTT Build Notifier Plugin Authentication Bypass
@@ -1644,7 +1645,6 @@ CVE-2025-53743 - Jenkins Applitools Eyes Plugin API Key Disclosure
 CVE-2025-7381 - Apache PHP Information Disclosure
 CVE-2025-44525 - Texas Instruments CC2652RB LaunchPad SimpleLink CC13XX CC26XX SDK BLE Denial of Service Vulnerability
 CVE-2025-53645 - Zimbra Collaboration Suite Denial of Service Vulnerability
-CVE-2025-53548 - Clerk Webhook Signature Validation Bypass
 Alerte Cyber : Failles de sécurité critiques dans les produits Microsoft
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
@@ -1665,7 +1665,7 @@ Retour sur le webinaire « Comment se faire labelliser ExpertCyber ? »
 Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 ?
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
-CVE-2025-53659 - Jenkins QMetry Test Management Plugin API Key Exposure
+CVE-2025-53548 - Clerk Webhook Signature Validation Bypass
 CVE-2025-53657 - Jenkins ReadyAPI Functional Testing Plugin Information Disclosure
 CVE-2025-53658 - Jenkins Applitools Eyes Plugin Stored XSS
 CVE-2025-1112 - IBM OpenPages with Watson Information Disclosure Vulnerability
