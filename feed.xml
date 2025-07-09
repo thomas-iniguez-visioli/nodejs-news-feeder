@@ -8,18 +8,69 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 09 Jul 2025 20:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jul 2025 20:43:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2021-27961 - Evesys Reflected Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2021-27961
+<br>
+<strong>Published : </strong> July 9, 2025, 7:15 p.m. | 1 hour, 10 minutes ago
+<br>
+<strong>Description : </strong>evesys 7.1 (2152) through 8.0 (2202) allows Reflected XSS via the indexeva.php action parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2021-27961</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2021-27961</guid>
+    </item>
+    <item>
+      <title>CVE-2025-36599 - Dell PowerFlex Manager VM Log File Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-36599
+<br>
+<strong>Published : </strong> July 9, 2025, 7:15 p.m. | 1 hour, 10 minutes ago
+<br>
+<strong>Description : </strong>Dell PowerFlex Manager VM, versions prior to 4.6.2.1, contains an Insertion of Sensitive Information into Log File vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to the disclosure of certain user credentials. The attacker may be able to use the exposed credentials to access the system with privileges of the compromised account.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-36599</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-36599</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53620 - Builder.io Qwik City Denial of Service (DoS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53620
+<br>
+<strong>Published : </strong> July 9, 2025, 7:15 p.m. | 1 hour, 10 minutes ago
+<br>
+<strong>Description : </strong>@builder.io/qwik-city is the meta-framework for Qwik. When a Qwik Server Action QRL is executed it dynamically load the file containing the symbol. When an invalid qfunc is sent, the server does not handle the thrown error. The error then causes Node JS to exit. This vulnerability is fixed in 1.13.0.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53620</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53620</guid>
+    </item>
+    <item>
       <title>CVE-2025-53548 - Clerk Webhook Signature Validation Bypass</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53548
 <br>
-<strong>Published : </strong> July 9, 2025, 6:15 p.m. | 15 minutes ago
+<strong>Published : </strong> July 9, 2025, 6:15 p.m. | 2 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>Clerk helps developers build user management. Applications that use the verifyWebhook() helper to verify incoming Clerk webhooks are susceptible to accepting improperly signed webhook events. The issue was resolved in @clerk/backend 2.4.0.
 <br>
@@ -36,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44525
 <br>
-<strong>Published : </strong> July 9, 2025, 5:15 p.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> July 9, 2025, 5:15 p.m. | 3 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>Texas Instruments CC2652RB LaunchPad SimpleLink CC13XX CC26XX SDK 7.41.00.17 was discovered to utilize insufficient permission checks on critical fields within Bluetooth Low Energy (BLE) data packets. This issue allows attackers to cause a Denial of Service (DoS) via a crafted LL_Length_Req packet.
 <br>
@@ -53,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53645
 <br>
-<strong>Published : </strong> July 9, 2025, 5:15 p.m. | 1 hour, 15 minutes ago
+<strong>Published : </strong> July 9, 2025, 5:15 p.m. | 3 hours, 10 minutes ago
 <br>
 <strong>Description : </strong>Zimbra Collaboration Suite (ZCS) before 9.0.0 Patch 46, 10.0.x before 10.0.15, and 10.1.x before 10.1.9 is vulnerable to a denial of service condition due to improper handling of excessive, comma-separated path segments in both the Webmail interface and the Admin Console. An unauthenticated remote attacker can send specially crafted GET requests that trigger redundant processing and inflated responses. This leads to uncontrolled resource consumption, resulting in denial of service.
 <br>
@@ -64,6 +115,331 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 09 Jul 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-53645</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-53645</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53663 - Jenkins IBM Cloud DevOps Plugin Unencrypted Token Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53663
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins IBM Cloud DevOps Plugin 2.0.16 and earlier stores SonarQube authentication tokens unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53663</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53663</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53664 - Jenkins Apica Loadtest Plugin Unencrypted Authentication Token Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53664
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Apica Loadtest Plugin 1.10 and earlier stores Apica Loadtest LTP authentication tokens unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53664</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53664</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53665 - Jenkins Apica Loadtest Plugin Authentication Token Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53665
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Apica Loadtest Plugin 1.10 and earlier does not mask Apica Loadtest LTP authentication tokens displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53665</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53665</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53666 - Jenkins Dead Man's Snitch Plugin Unencrypted Token Storage</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53666
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Dead Man's Snitch Plugin 0.1 stores Dead Man's Snitch tokens unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53666</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53666</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53667 - Jenkins Dead Man's Snitch Plugin Token Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53667
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Dead Man's Snitch Plugin 0.1 does not mask Dead Man's Snitch tokens displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53667</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53667</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53668 - Jenkins VAddy Plugin Unencrypted API Auth Key Storage</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53668
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins VAddy Plugin 1.2.8 and earlier stores Vaddy API Auth Keys unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53668</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53668</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53669 - Jenkins VAddy Plugin Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53669
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins VAddy Plugin 1.2.8 and earlier does not mask Vaddy API Auth Keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53669</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53669</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53670 - Jenkins Nouvola DiveCloud Plugin Unencrypted Credentials Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53670
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Nouvola DiveCloud Plugin 1.08 and earlier stores DiveCloud API Keys and Credentials Encryption Keys unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53670</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53670</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53671 - Jenkins Nouvola DiveCloud Plugin Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53671
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Nouvola DiveCloud Plugin 1.08 and earlier does not mask DiveCloud API Keys and Credentials Encryption Keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53671</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53671</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53672 - Jenkins Kryptowire Plugin Unencrypted API Key Storage</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53672
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Kryptowire Plugin 0.2 and earlier stores the Kryptowire API key unencrypted in its global configuration file on the Jenkins controller, where it can be viewed by users with access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53672</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53672</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53673 - Jenkins Sensedia Api Platform tools Plugin Credentials Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53673
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Sensedia Api Platform tools Plugin 1.0 stores the Sensedia API Manager integration token unencrypted in its global configuration file on the Jenkins controller, where it can be viewed by users with access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53673</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53673</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53674 - Jenkins Sensedia Api Platform tools Plugin Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53674
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Sensedia Api Platform tools Plugin 1.0 does not mask the Sensedia API Manager integration token on the global configuration form, increasing the potential for attackers to observe and capture it.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53674</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53674</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53675 - Jenkins Warrior Framework Plugin Unencrypted Password Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53675
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Warrior Framework Plugin 1.2 and earlier stores passwords unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53675</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53675</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53676 - Jenkins Xooa Plugin Unencrypted Configuration File Storage</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53676
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Xooa Plugin 0.0.7 and earlier stores the Xooa Deployment Token unencrypted in its global configuration file on the Jenkins controller, where it can be viewed by users with access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53676</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53676</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53677 - Jenkins Xooa Plugin Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53677
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Xooa Plugin 0.0.7 and earlier does not mask the Xooa Deployment Token on the global configuration form, increasing the potential for attackers to observe and capture it.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53677</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53677</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53678 - Jenkins uTester Plugin JWT Token Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53678
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins User1st uTester Plugin 1.1 and earlier stores the uTester JWT token unencrypted in its global configuration file on the Jenkins controller, where it can be viewed by users with access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53678</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53678</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53742 - Jenkins Applitools Eyes Plugin API Key Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53742
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Applitools Eyes Plugin 1.16.5 and earlier stores Applitools API keys unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53742</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53742</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53743 - Jenkins Applitools Eyes Plugin API Key Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53743
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>Jenkins Applitools Eyes Plugin 1.16.5 and earlier does not mask Applitools API keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53743</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53743</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7381 - Apache PHP Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7381
+<br>
+<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 4 hours, 10 minutes ago
+<br>
+<strong>Description : </strong>ImpactThis is an information disclosure vulnerability originating from PHP's base image. This vulnerability exposes the PHP version through an X-Powered-By header, which attackers could exploit to fingerprint the server and identify potential weaknesses.
+
+WorkaroundsThe mitigation requires changing the expose_php variable from "On" to "Off" in the file located at /usr/local/etc/php/php.ini.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7381</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7381</guid>
     </item>
     <item>
       <title>CVE-2025-53660 - Jenkins QMetry Test Management Plugin Information Disclosure</title>
@@ -115,331 +491,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-53662</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-53662</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53663 - Jenkins IBM Cloud DevOps Plugin Unencrypted Token Storage Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53663
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins IBM Cloud DevOps Plugin 2.0.16 and earlier stores SonarQube authentication tokens unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53663</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53663</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53664 - Jenkins Apica Loadtest Plugin Unencrypted Authentication Token Storage Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53664
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Apica Loadtest Plugin 1.10 and earlier stores Apica Loadtest LTP authentication tokens unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53664</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53664</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53665 - Jenkins Apica Loadtest Plugin Authentication Token Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53665
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Apica Loadtest Plugin 1.10 and earlier does not mask Apica Loadtest LTP authentication tokens displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53665</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53665</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53666 - Jenkins Dead Man's Snitch Plugin Unencrypted Token Storage</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53666
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Dead Man's Snitch Plugin 0.1 stores Dead Man's Snitch tokens unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53666</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53666</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53667 - Jenkins Dead Man's Snitch Plugin Token Disclosure Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53667
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Dead Man's Snitch Plugin 0.1 does not mask Dead Man's Snitch tokens displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53667</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53667</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53668 - Jenkins VAddy Plugin Unencrypted API Auth Key Storage</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53668
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins VAddy Plugin 1.2.8 and earlier stores Vaddy API Auth Keys unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53668</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53668</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53669 - Jenkins VAddy Plugin Information Disclosure Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53669
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins VAddy Plugin 1.2.8 and earlier does not mask Vaddy API Auth Keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53669</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53669</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53670 - Jenkins Nouvola DiveCloud Plugin Unencrypted Credentials Storage Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53670
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Nouvola DiveCloud Plugin 1.08 and earlier stores DiveCloud API Keys and Credentials Encryption Keys unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53670</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53670</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53671 - Jenkins Nouvola DiveCloud Plugin Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53671
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Nouvola DiveCloud Plugin 1.08 and earlier does not mask DiveCloud API Keys and Credentials Encryption Keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53671</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53671</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53672 - Jenkins Kryptowire Plugin Unencrypted API Key Storage</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53672
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Kryptowire Plugin 0.2 and earlier stores the Kryptowire API key unencrypted in its global configuration file on the Jenkins controller, where it can be viewed by users with access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53672</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53672</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53673 - Jenkins Sensedia Api Platform tools Plugin Credentials Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53673
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Sensedia Api Platform tools Plugin 1.0 stores the Sensedia API Manager integration token unencrypted in its global configuration file on the Jenkins controller, where it can be viewed by users with access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53673</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53673</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53674 - Jenkins Sensedia Api Platform tools Plugin Information Disclosure Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53674
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Sensedia Api Platform tools Plugin 1.0 does not mask the Sensedia API Manager integration token on the global configuration form, increasing the potential for attackers to observe and capture it.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53674</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53674</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53675 - Jenkins Warrior Framework Plugin Unencrypted Password Storage Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53675
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Warrior Framework Plugin 1.2 and earlier stores passwords unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53675</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53675</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53676 - Jenkins Xooa Plugin Unencrypted Configuration File Storage</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53676
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Xooa Plugin 0.0.7 and earlier stores the Xooa Deployment Token unencrypted in its global configuration file on the Jenkins controller, where it can be viewed by users with access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53676</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53676</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53677 - Jenkins Xooa Plugin Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53677
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Xooa Plugin 0.0.7 and earlier does not mask the Xooa Deployment Token on the global configuration form, increasing the potential for attackers to observe and capture it.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53677</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53677</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53678 - Jenkins uTester Plugin JWT Token Storage Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53678
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins User1st uTester Plugin 1.1 and earlier stores the uTester JWT token unencrypted in its global configuration file on the Jenkins controller, where it can be viewed by users with access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53678</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53678</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53742 - Jenkins Applitools Eyes Plugin API Key Exposure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53742
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Applitools Eyes Plugin 1.16.5 and earlier stores Applitools API keys unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53742</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53742</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53743 - Jenkins Applitools Eyes Plugin API Key Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53743
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>Jenkins Applitools Eyes Plugin 1.16.5 and earlier does not mask Applitools API keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53743</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53743</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7381 - Apache PHP Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7381
-<br>
-<strong>Published : </strong> July 9, 2025, 4:15 p.m. | 2 hours, 15 minutes ago
-<br>
-<strong>Description : </strong>ImpactThis is an information disclosure vulnerability originating from PHP's base image. This vulnerability exposes the PHP version through an X-Powered-By header, which attackers could exploit to fingerprint the server and identify potential weaknesses.
-
-WorkaroundsThe mitigation requires changing the expose_php variable from "On" to "Off" in the file located at /usr/local/etc/php/php.ini.
-<br>
-<strong>Severity:</strong> 5.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 09 Jul 2025 16:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7381</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7381</guid>
     </item>
     <item>
       <title>CVE-2025-53659 - Jenkins QMetry Test Management Plugin API Key Exposure</title>
