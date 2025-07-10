@@ -125,10 +125,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-30/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-01/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-02/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-10/
-https://cvefeed.io/vuln/detail/CVE-2025-5022
-https://cvefeed.io/vuln/detail/CVE-2025-5023
-https://cvefeed.io/vuln/detail/CVE-2025-6168
-https://cvefeed.io/vuln/detail/CVE-2025-6948
 https://cvefeed.io/vuln/detail/CVE-2024-7650
 https://cvefeed.io/vuln/detail/CVE-2025-32990
 https://cvefeed.io/vuln/detail/CVE-2025-5037
@@ -150,6 +146,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-46835
 https://cvefeed.io/vuln/detail/CVE-2025-7365
 https://cvefeed.io/vuln/detail/CVE-2025-7370
 https://cvefeed.io/vuln/detail/CVE-2025-7408
+https://cvefeed.io/vuln/detail/CVE-2025-46788
+https://cvefeed.io/vuln/detail/CVE-2025-46789
+https://cvefeed.io/vuln/detail/CVE-2025-53364
+https://cvefeed.io/vuln/detail/CVE-2025-6395
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
@@ -1703,10 +1703,6 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
-CVE-2025-5022 - Mitsubishi Electric Corporation EcoGuideTAB PV-DR004J/PV-DR004JA Wi-Fi Password Derivation Vulnerability
-CVE-2025-5023 - Mitsubishi Electric Corporation EcoGuideTAB Photovoltaic System Monitor Hard-coded Credentials Backdoor
-CVE-2025-6168 - GitLab EE Group-level User Invitation Bypass Vulnerability
-CVE-2025-6948 - GitLab Cross-Site Scripting (XSS) Vulnerability
 CVE-2024-7650 - OpenText Directory Services Code Injection Vulnerability
 CVE-2025-32990 - GnuTLS Heap-Buffer-Overflow Vulnerability
 CVE-2025-5037 - Autodesk Revit Memory Corruption Vulnerability
@@ -1728,6 +1724,10 @@ CVE-2025-46835 - Git GUI Directory Traversal Write Permission Vulnerability
 CVE-2025-7365 - Keycloak Email Hijacking Vulnerability
 CVE-2025-7370 - Libsoup Cookie Parsing NULL Pointer Dereference Vulnerability
 CVE-2025-7408 - SourceCodester Zoo Management System Cross-Site Scripting Vulnerability
+CVE-2025-46788 - Zoom Workplace Certificate Validation Information Disclosure Vulnerability
+CVE-2025-46789 - Zoom Windows Buffer Overflow Denial of Service
+CVE-2025-53364 - Parse Server GraphQL API Unauthenticated Schema Introspection
+CVE-2025-6395 - GnuTLS NULL Pointer Dereference Vulnerability
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
@@ -1748,6 +1748,10 @@ Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
+CVE-2025-5022 - Mitsubishi Electric Corporation EcoGuideTAB PV-DR004J/PV-DR004JA Wi-Fi Password Derivation Vulnerability
+CVE-2025-5023 - Mitsubishi Electric Corporation EcoGuideTAB Photovoltaic System Monitor Hard-coded Credentials Backdoor
+CVE-2025-6168 - GitLab EE Group-level User Invitation Bypass Vulnerability
+CVE-2025-6948 - GitLab Cross-Site Scripting (XSS) Vulnerability
 CVE-2025-38335 - Linux Kernel gpio-keys Soft Lockup Vulnerability
 CVE-2025-38336 - VIA ata DMA Hard Hang Vulnerability
 CVE-2025-38337 - Linux Kernel jbd2 Null Pointer Dereference and Data Race Vulnerability
