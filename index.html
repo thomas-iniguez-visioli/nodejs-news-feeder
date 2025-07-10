@@ -179,12 +179,37 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-6211 - &#34;DocugamiReader MD5 Hash Collision Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6211
+<br>
+<strong>Published : </strong> July 10, 2025, 1:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the DocugamiReader class of the run-llama/llama_index repository, up to version 0.12.28, involves the use of MD5 hashing to generate IDs for document chunks. This approach leads to hash collisions when structurally distinct chunks contain identical text, resulting in one chunk overwriting another. This can cause loss of semantically or legally important document content, breakage of parent-child chunk hierarchies, and inaccurate or hallucinated responses in AI outputs. The issue is resolved in version 0.3.1.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 13:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6211">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-5037 - Autodesk Revit Memory Corruption Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5037
 <br>
-<strong>Published : </strong> July 10, 2025, 12:15 p.m. | 15 minutes ago
+<strong>Published : </strong> July 10, 2025, 12:15 p.m. | 2 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>A maliciously crafted RFA file, when parsed through Autodesk Revit, can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.
 <br>
@@ -209,7 +234,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-5040
 <br>
-<strong>Published : </strong> July 10, 2025, 12:15 p.m. | 15 minutes ago
+<strong>Published : </strong> July 10, 2025, 12:15 p.m. | 2 hours, 12 minutes ago
 <br>
 <strong>Description : </strong>A maliciously crafted RTE file, when parsed through Autodesk Revit, can force a Heap-Based Overflow vulnerability. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.
 <br>
@@ -249,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-7650
 <br>
-<strong>Published : </strong> July 10, 2025, 10:15 a.m. | 2 hours, 11 minutes ago
+<strong>Published : </strong> July 10, 2025, 10:15 a.m. | 4 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>Improper Control of Generation of Code ('Code Injection') vulnerability in OpenText™ Directory Services allows Remote Code Inclusion. The
 vulnerability could allow access to the system via script injection.This issue affects Directory Services: 23.4.
@@ -275,7 +300,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-32990
 <br>
-<strong>Published : </strong> July 10, 2025, 10:15 a.m. | 2 hours, 11 minutes ago
+<strong>Published : </strong> July 10, 2025, 10:15 a.m. | 4 hours, 11 minutes ago
 <br>
 <strong>Description : </strong>A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.
 <br>
@@ -287,6 +312,997 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Thu, 10 Jul 2025 10:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-32990">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38335 - Linux Kernel gpio-keys Soft Lockup Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38335
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+Input: gpio-keys - fix a sleep while atomic with PREEMPT_RT
+
+When enabling PREEMPT_RT, the gpio_keys_irq_timer() callback runs in
+hard irq context, but the input_event() takes a spin_lock, which isn't
+allowed there as it is converted to a rt_spin_lock().
+
+[ 4054.289999] BUG: sleeping function called from invalid context at kernel/locking/spinlock_rt.c:48
+[ 4054.290028] in_atomic(): 1, irqs_disabled(): 1, non_block: 0, pid: 0, name: swapper/0
+...
+[ 4054.290195]  __might_resched+0x13c/0x1f4
+[ 4054.290209]  rt_spin_lock+0x54/0x11c
+[ 4054.290219]  input_event+0x48/0x80
+[ 4054.290230]  gpio_keys_irq_timer+0x4c/0x78
+[ 4054.290243]  __hrtimer_run_queues+0x1a4/0x438
+[ 4054.290257]  hrtimer_interrupt+0xe4/0x240
+[ 4054.290269]  arch_timer_handler_phys+0x2c/0x44
+[ 4054.290283]  handle_percpu_devid_irq+0x8c/0x14c
+[ 4054.290297]  handle_irq_desc+0x40/0x58
+[ 4054.290307]  generic_handle_domain_irq+0x1c/0x28
+[ 4054.290316]  gic_handle_irq+0x44/0xcc
+
+Considering the gpio_keys_irq_isr() can run in any context, e.g. it can
+be threaded, it seems there's no point in requesting the timer isr to
+run in hard irq context.
+
+Relax the hrtimer not to use the hard context.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38335">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38336 - VIA ata DMA Hard Hang Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38336
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ata: pata_via: Force PIO for ATAPI devices on VT6415/VT6330
+
+The controller has a hardware bug that can hard hang the system when
+doing ATAPI DMAs without any trace of what happened. Depending on the
+device attached, it can also prevent the system from booting.
+
+In this case, the system hangs when reading the ATIP from optical media
+with cdrecord -vvv -atip on an _NEC DVD_RW ND-4571A 1-01 and an
+Optiarc DVD RW AD-7200A 1.06 attached to an ASRock 990FX Extreme 4,
+running at UDMA/33.
+
+The issue can be reproduced by running the same command with a cygwin
+build of cdrecord on WinXP, although it requires more attempts to cause
+it. The hang in that case is also resolved by forcing PIO. It doesn't
+appear that VIA has produced any drivers for that OS, thus no known
+workaround exists.
+
+HDDs attached to the controller do not suffer from any DMA issues.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38336">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38337 - Linux Kernel jbd2 Null Pointer Dereference and Data Race Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38337
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+jbd2: fix data-race and null-ptr-deref in jbd2_journal_dirty_metadata()
+
+Since handle->h_transaction may be a NULL pointer, so we should change it
+to call is_handle_aborted(handle) first before dereferencing it.
+
+And the following data-race was reported in my fuzzer:
+
+==================================================================
+BUG: KCSAN: data-race in jbd2_journal_dirty_metadata / jbd2_journal_dirty_metadata
+
+write to 0xffff888011024104 of 4 bytes by task 10881 on cpu 1:
+ jbd2_journal_dirty_metadata+0x2a5/0x770 fs/jbd2/transaction.c:1556
+ __ext4_handle_dirty_metadata+0xe7/0x4b0 fs/ext4/ext4_jbd2.c:358
+ ext4_do_update_inode fs/ext4/inode.c:5220 [inline]
+ ext4_mark_iloc_dirty+0x32c/0xd50 fs/ext4/inode.c:5869
+ __ext4_mark_inode_dirty+0xe1/0x450 fs/ext4/inode.c:6074
+ ext4_dirty_inode+0x98/0xc0 fs/ext4/inode.c:6103
+....
+
+read to 0xffff888011024104 of 4 bytes by task 10880 on cpu 0:
+ jbd2_journal_dirty_metadata+0xf2/0x770 fs/jbd2/transaction.c:1512
+ __ext4_handle_dirty_metadata+0xe7/0x4b0 fs/ext4/ext4_jbd2.c:358
+ ext4_do_update_inode fs/ext4/inode.c:5220 [inline]
+ ext4_mark_iloc_dirty+0x32c/0xd50 fs/ext4/inode.c:5869
+ __ext4_mark_inode_dirty+0xe1/0x450 fs/ext4/inode.c:6074
+ ext4_dirty_inode+0x98/0xc0 fs/ext4/inode.c:6103
+....
+
+value changed: 0x00000000 -> 0x00000001
+==================================================================
+
+This issue is caused by missing data-race annotation for jh->b_modified.
+Therefore, the missing annotation needs to be added.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38337">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38338 - &#34;NFS Linux Kernel Deadlock and Unlocked Folio Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38338
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+fs/nfs/read: fix double-unlock bug in nfs_return_empty_folio()
+
+Sometimes, when a file was read while it was being truncated by
+another NFS client, the kernel could deadlock because folio_unlock()
+was called twice, and the second call would XOR back the `PG_locked`
+flag.
+
+Most of the time (depending on the timing of the truncation), nobody
+notices the problem because folio_unlock() gets called three times,
+which flips `PG_locked` back off:
+
+ 1. vfs_read, nfs_read_folio, ... nfs_read_add_folio,
+    nfs_return_empty_folio
+ 2. vfs_read, nfs_read_folio, ... netfs_read_collection,
+    netfs_unlock_abandoned_read_pages
+ 3. vfs_read, ... nfs_do_read_folio, nfs_read_add_folio,
+    nfs_return_empty_folio
+
+The problem is that nfs_read_add_folio() is not supposed to unlock the
+folio if fscache is enabled, and a nfs_netfs_folio_unlock() check is
+missing in nfs_return_empty_folio().
+
+Rarely this leads to a warning in netfs_read_collection():
+
+ ------------[ cut here ]------------
+ R=0000031c: folio 10 is not locked
+ WARNING: CPU: 0 PID: 29 at fs/netfs/read_collect.c:133 netfs_read_collection+0x7c0/0xf00
+ [...]
+ Workqueue: events_unbound netfs_read_collection_worker
+ RIP: 0010:netfs_read_collection+0x7c0/0xf00
+ [...]
+ Call Trace:
+  <TASK>
+  netfs_read_collection_worker+0x67/0x80
+  process_one_work+0x12e/0x2c0
+  worker_thread+0x295/0x3a0
+
+Most of the time, however, processes just get stuck forever in
+folio_wait_bit_common(), waiting for `PG_locked` to disappear, which
+never happens because nobody is really holding the folio lock.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38338">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38339 - Linux Kernel PowerPC BPF Trampoline JIT Code Size Calculation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38339
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+powerpc/bpf: fix JIT code size calculation of bpf trampoline
+
+arch_bpf_trampoline_size() provides JIT size of the BPF trampoline
+before the buffer for JIT'ing it is allocated. The total number of
+instructions emitted for BPF trampoline JIT code depends on where
+the final image is located. So, the size arrived at with the dummy
+pass in arch_bpf_trampoline_size() can vary from the actual size
+needed in  arch_prepare_bpf_trampoline().  When the instructions
+accounted in  arch_bpf_trampoline_size() is less than the number of
+instructions emitted during the actual JIT compile of the trampoline,
+the below warning is produced:
+
+  WARNING: CPU: 8 PID: 204190 at arch/powerpc/net/bpf_jit_comp.c:981 __arch_prepare_bpf_trampoline.isra.0+0xd2c/0xdcc
+
+which is:
+
+  /* Make sure the trampoline generation logic doesn't overflow */
+  if (image && WARN_ON_ONCE(&image[ctx->idx] >
+  			(u32 *)rw_image_end - BPF_INSN_SAFETY)) {
+
+So, during the dummy pass, instead of providing some arbitrary image
+location, account for maximum possible instructions if and when there
+is a dependency with image location for JIT'ing.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38339">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38340 - &#34;Linux Firmware cs_dsp Out-of-Bounds Memory Read Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38340
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+firmware: cs_dsp: Fix OOB memory read access in KUnit test
+
+KASAN reported out of bounds access - cs_dsp_mock_bin_add_name_or_info(),
+because the source string length was rounded up to the allocation size.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38340">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38341 - Linux Kernel Eth fbnic Double Free Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38341
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+eth: fbnic: avoid double free when failing to DMA-map FW msg
+
+The semantics are that caller of fbnic_mbx_map_msg() retains
+the ownership of the message on error. All existing callers
+dutifully free the page.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38341">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38342 - Linux Kernel Out-of-Bounds Vulnerability in software_node_get_reference_args
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38342
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+software node: Correct a OOB check in software_node_get_reference_args()
+
+software_node_get_reference_args() wants to get @index-th element, so
+the property value requires at least '(index + 1) * sizeof(*ref)' bytes
+but that can not be guaranteed by current OOB check, and may cause OOB
+for malformed property.
+
+Fix by using as OOB check '((index + 1) * sizeof(*ref) > prop->length)'.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38342">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38343 - &#34;TP-Link MT76 WiFi Driver Multicast Broadcast RA Fragmentation Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38343
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: mt76: mt7996: drop fragments with multicast or broadcast RA
+
+IEEE 802.11 fragmentation can only be applied to unicast frames.
+Therefore, drop fragments with multicast or broadcast RA. This patch
+addresses vulnerabilities such as CVE-2020-26145.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38343">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38344 - Intel ACPI Cache Leak
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38344
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ACPICA: fix acpi parse and parseext cache leaks
+
+ACPICA commit 8829e70e1360c81e7a5a901b5d4f48330e021ea5
+
+I'm Seunghun Han, and I work for National Security Research Institute of
+South Korea.
+
+I have been doing a research on ACPI and found an ACPI cache leak in ACPI
+early abort cases.
+
+Boot log of ACPI cache leak is as follows:
+[    0.352414] ACPI: Added _OSI(Module Device)
+[    0.353182] ACPI: Added _OSI(Processor Device)
+[    0.353182] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.353182] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.356028] ACPI: Unable to start the ACPI Interpreter
+[    0.356799] ACPI Error: Could not remove SCI handler (20170303/evmisc-281)
+[    0.360215] kmem_cache_destroy Acpi-State: Slab cache still has objects
+[    0.360648] CPU: 0 PID: 1 Comm: swapper/0 Tainted: G        W
+4.12.0-rc4-next-20170608+ #10
+[    0.361273] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS
+virtual_box 12/01/2006
+[    0.361873] Call Trace:
+[    0.362243]  ? dump_stack+0x5c/0x81
+[    0.362591]  ? kmem_cache_destroy+0x1aa/0x1c0
+[    0.362944]  ? acpi_sleep_proc_init+0x27/0x27
+[    0.363296]  ? acpi_os_delete_cache+0xa/0x10
+[    0.363646]  ? acpi_ut_delete_caches+0x6d/0x7b
+[    0.364000]  ? acpi_terminate+0xa/0x14
+[    0.364000]  ? acpi_init+0x2af/0x34f
+[    0.364000]  ? __class_create+0x4c/0x80
+[    0.364000]  ? video_setup+0x7f/0x7f
+[    0.364000]  ? acpi_sleep_proc_init+0x27/0x27
+[    0.364000]  ? do_one_initcall+0x4e/0x1a0
+[    0.364000]  ? kernel_init_freeable+0x189/0x20a
+[    0.364000]  ? rest_init+0xc0/0xc0
+[    0.364000]  ? kernel_init+0xa/0x100
+[    0.364000]  ? ret_from_fork+0x25/0x30
+
+I analyzed this memory leak in detail. I found that “Acpi-State” cache and
+“Acpi-Parse” cache were merged because the size of cache objects was same
+slab cache size.
+
+I finally found “Acpi-Parse” cache and “Acpi-parse_ext” cache were leaked
+using SLAB_NEVER_MERGE flag in kmem_cache_create() function.
+
+Real ACPI cache leak point is as follows:
+[    0.360101] ACPI: Added _OSI(Module Device)
+[    0.360101] ACPI: Added _OSI(Processor Device)
+[    0.360101] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.361043] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.364016] ACPI: Unable to start the ACPI Interpreter
+[    0.365061] ACPI Error: Could not remove SCI handler (20170303/evmisc-281)
+[    0.368174] kmem_cache_destroy Acpi-Parse: Slab cache still has objects
+[    0.369332] CPU: 1 PID: 1 Comm: swapper/0 Tainted: G        W
+4.12.0-rc4-next-20170608+ #8
+[    0.371256] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS
+virtual_box 12/01/2006
+[    0.372000] Call Trace:
+[    0.372000]  ? dump_stack+0x5c/0x81
+[    0.372000]  ? kmem_cache_destroy+0x1aa/0x1c0
+[    0.372000]  ? acpi_sleep_proc_init+0x27/0x27
+[    0.372000]  ? acpi_os_delete_cache+0xa/0x10
+[    0.372000]  ? acpi_ut_delete_caches+0x56/0x7b
+[    0.372000]  ? acpi_terminate+0xa/0x14
+[    0.372000]  ? acpi_init+0x2af/0x34f
+[    0.372000]  ? __class_create+0x4c/0x80
+[    0.372000]  ? video_setup+0x7f/0x7f
+[    0.372000]  ? acpi_sleep_proc_init+0x27/0x27
+[    0.372000]  ? do_one_initcall+0x4e/0x1a0
+[    0.372000]  ? kernel_init_freeable+0x189/0x20a
+[    0.372000]  ? rest_init+0xc0/0xc0
+[    0.372000]  ? kernel_init+0xa/0x100
+[    0.372000]  ? ret_from_fork+0x25/0x30
+[    0.388039] kmem_cache_destroy Acpi-parse_ext: Slab cache still has objects
+[    0.389063] CPU: 1 PID: 1 Comm: swapper/0 Tainted: G        W
+4.12.0-rc4-next-20170608+ #8
+[    0.390557] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS
+virtual_box 12/01/2006
+[    0.392000] Call Trace:
+[    0.392000]  ? dump_stack+0x5c/0x81
+[    0.392000]  ? kmem_cache_destroy+0x1aa/0x1c0
+[    0.392000]  ? acpi_sleep_proc_init+0x27/0x27
+[    0.392000]  ? acpi_os_delete_cache+0xa/0x10
+[    0.392000]  ? acpi_ut_delete_caches+0x6d/0x7b
+[    0.392000]  ? acpi_terminate+0xa/0x14
+[    0.392000]  ? acpi_init+0x2af/0x3
+---truncated---
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38344">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38345 - &#34;Intel Virtual Box ACPICA Illegal I/O Port Address/Length Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38345
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ACPICA: fix acpi operand cache leak in dswstate.c
+
+ACPICA commit 987a3b5cf7175916e2a4b6ea5b8e70f830dfe732
+
+I found an ACPI cache leak in ACPI early termination and boot continuing case.
+
+When early termination occurs due to malicious ACPI table, Linux kernel
+terminates ACPI function and continues to boot process. While kernel terminates
+ACPI function, kmem_cache_destroy() reports Acpi-Operand cache leak.
+
+Boot log of ACPI operand cache leak is as follows:
+>[    0.585957] ACPI: Added _OSI(Module Device)
+>[    0.587218] ACPI: Added _OSI(Processor Device)
+>[    0.588530] ACPI: Added _OSI(3.0 _SCP Extensions)
+>[    0.589790] ACPI: Added _OSI(Processor Aggregator Device)
+>[    0.591534] ACPI Error: Illegal I/O port address/length above 64K: C806E00000004002/0x2 (20170303/hwvalid-155)
+>[    0.594351] ACPI Exception: AE_LIMIT, Unable to initialize fixed events (20170303/evevent-88)
+>[    0.597858] ACPI: Unable to start the ACPI Interpreter
+>[    0.599162] ACPI Error: Could not remove SCI handler (20170303/evmisc-281)
+>[    0.601836] kmem_cache_destroy Acpi-Operand: Slab cache still has objects
+>[    0.603556] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.12.0-rc5 #26
+>[    0.605159] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS virtual_box 12/01/2006
+>[    0.609177] Call Trace:
+>[    0.610063]  ? dump_stack+0x5c/0x81
+>[    0.611118]  ? kmem_cache_destroy+0x1aa/0x1c0
+>[    0.612632]  ? acpi_sleep_proc_init+0x27/0x27
+>[    0.613906]  ? acpi_os_delete_cache+0xa/0x10
+>[    0.617986]  ? acpi_ut_delete_caches+0x3f/0x7b
+>[    0.619293]  ? acpi_terminate+0xa/0x14
+>[    0.620394]  ? acpi_init+0x2af/0x34f
+>[    0.621616]  ? __class_create+0x4c/0x80
+>[    0.623412]  ? video_setup+0x7f/0x7f
+>[    0.624585]  ? acpi_sleep_proc_init+0x27/0x27
+>[    0.625861]  ? do_one_initcall+0x4e/0x1a0
+>[    0.627513]  ? kernel_init_freeable+0x19e/0x21f
+>[    0.628972]  ? rest_init+0x80/0x80
+>[    0.630043]  ? kernel_init+0xa/0x100
+>[    0.631084]  ? ret_from_fork+0x25/0x30
+>[    0.633343] vgaarb: loaded
+>[    0.635036] EDAC MC: Ver: 3.0.0
+>[    0.638601] PCI: Probing PCI hardware
+>[    0.639833] PCI host bridge to bus 0000:00
+>[    0.641031] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+> ... Continue to boot and log is omitted ...
+
+I analyzed this memory leak in detail and found acpi_ds_obj_stack_pop_and_
+delete() function miscalculated the top of the stack. acpi_ds_obj_stack_push()
+function uses walk_state->operand_index for start position of the top, but
+acpi_ds_obj_stack_pop_and_delete() function considers index 0 for it.
+Therefore, this causes acpi operand memory leak.
+
+This cache leak causes a security threat because an old kernel (<= 4.9) shows
+memory locations of kernel functions in stack dump. Some malicious users
+could use this information to neutralize kernel ASLR.
+
+I made a patch to fix ACPI operand cache leak.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38345">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38346 - Linux kernel ftrace UAF Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38346
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+ftrace: Fix UAF when lookup kallsym after ftrace disabled
+
+The following issue happens with a buggy module:
+
+BUG: unable to handle page fault for address: ffffffffc05d0218
+PGD 1bd66f067 P4D 1bd66f067 PUD 1bd671067 PMD 101808067 PTE 0
+Oops: Oops: 0000 [#1] SMP KASAN PTI
+Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS
+RIP: 0010:sized_strscpy+0x81/0x2f0
+RSP: 0018:ffff88812d76fa08 EFLAGS: 00010246
+RAX: 0000000000000000 RBX: ffffffffc0601010 RCX: dffffc0000000000
+RDX: 0000000000000038 RSI: dffffc0000000000 RDI: ffff88812608da2d
+RBP: 8080808080808080 R08: ffff88812608da2d R09: ffff88812608da68
+R10: ffff88812608d82d R11: ffff88812608d810 R12: 0000000000000038
+R13: ffff88812608da2d R14: ffffffffc05d0218 R15: fefefefefefefeff
+FS:  00007fef552de740(0000) GS:ffff8884251c7000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: ffffffffc05d0218 CR3: 00000001146f0000 CR4: 00000000000006f0
+DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+Call Trace:
+ <TASK>
+ ftrace_mod_get_kallsym+0x1ac/0x590
+ update_iter_mod+0x239/0x5b0
+ s_next+0x5b/0xa0
+ seq_read_iter+0x8c9/0x1070
+ seq_read+0x249/0x3b0
+ proc_reg_read+0x1b0/0x280
+ vfs_read+0x17f/0x920
+ ksys_read+0xf3/0x1c0
+ do_syscall_64+0x5f/0x2e0
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+The above issue may happen as follows:
+(1) Add kprobe tracepoint;
+(2) insmod test.ko;
+(3)  Module triggers ftrace disabled;
+(4) rmmod test.ko;
+(5) cat /proc/kallsyms; --> Will trigger UAF as test.ko already removed;
+ftrace_mod_get_kallsym()
+...
+strscpy(module_name, mod_map->mod->name, MODULE_NAME_LEN);
+...
+
+The problem is when a module triggers an issue with ftrace and
+sets ftrace_disable. The ftrace_disable is set when an anomaly is
+discovered and to prevent any more damage, ftrace stops all text
+modification. The issue that happened was that the ftrace_disable stops
+more than just the text modification.
+
+When a module is loaded, its init functions can also be traced. Because
+kallsyms deletes the init functions after a module has loaded, ftrace
+saves them when the module is loaded and function tracing is enabled. This
+allows the output of the function trace to show the init function names
+instead of just their raw memory addresses.
+
+When a module is removed, ftrace_release_mod() is called, and if
+ftrace_disable is set, it just returns without doing anything more. The
+problem here is that it leaves the mod_list still around and if kallsyms
+is called, it will call into this code and access the module memory that
+has already been freed as it will return:
+
+  strscpy(module_name, mod_map->mod->name, MODULE_NAME_LEN);
+
+Where the "mod" no longer exists and triggers a UAF bug.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38346">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38347 - F2FS Inline Data Corruption Denial of Service (DoS) Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38347
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+f2fs: fix to do sanity check on ino and xnid
+
+syzbot reported a f2fs bug as below:
+
+INFO: task syz-executor140:5308 blocked for more than 143 seconds.
+      Not tainted 6.14.0-rc7-syzkaller-00069-g81e4f8d68c66 #0
+"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+task:syz-executor140 state:D stack:24016 pid:5308  tgid:5308  ppid:5306   task_flags:0x400140 flags:0x00000006
+Call Trace:
+ <TASK>
+ context_switch kernel/sched/core.c:5378 [inline]
+ __schedule+0x190e/0x4c90 kernel/sched/core.c:6765
+ __schedule_loop kernel/sched/core.c:6842 [inline]
+ schedule+0x14b/0x320 kernel/sched/core.c:6857
+ io_schedule+0x8d/0x110 kernel/sched/core.c:7690
+ folio_wait_bit_common+0x839/0xee0 mm/filemap.c:1317
+ __folio_lock mm/filemap.c:1664 [inline]
+ folio_lock include/linux/pagemap.h:1163 [inline]
+ __filemap_get_folio+0x147/0xb40 mm/filemap.c:1917
+ pagecache_get_page+0x2c/0x130 mm/folio-compat.c:87
+ find_get_page_flags include/linux/pagemap.h:842 [inline]
+ f2fs_grab_cache_page+0x2b/0x320 fs/f2fs/f2fs.h:2776
+ __get_node_page+0x131/0x11b0 fs/f2fs/node.c:1463
+ read_xattr_block+0xfb/0x190 fs/f2fs/xattr.c:306
+ lookup_all_xattrs fs/f2fs/xattr.c:355 [inline]
+ f2fs_getxattr+0x676/0xf70 fs/f2fs/xattr.c:533
+ __f2fs_get_acl+0x52/0x870 fs/f2fs/acl.c:179
+ f2fs_acl_create fs/f2fs/acl.c:375 [inline]
+ f2fs_init_acl+0xd7/0x9b0 fs/f2fs/acl.c:418
+ f2fs_init_inode_metadata+0xa0f/0x1050 fs/f2fs/dir.c:539
+ f2fs_add_inline_entry+0x448/0x860 fs/f2fs/inline.c:666
+ f2fs_add_dentry+0xba/0x1e0 fs/f2fs/dir.c:765
+ f2fs_do_add_link+0x28c/0x3a0 fs/f2fs/dir.c:808
+ f2fs_add_link fs/f2fs/f2fs.h:3616 [inline]
+ f2fs_mknod+0x2e8/0x5b0 fs/f2fs/namei.c:766
+ vfs_mknod+0x36d/0x3b0 fs/namei.c:4191
+ unix_bind_bsd net/unix/af_unix.c:1286 [inline]
+ unix_bind+0x563/0xe30 net/unix/af_unix.c:1379
+ __sys_bind_socket net/socket.c:1817 [inline]
+ __sys_bind+0x1e4/0x290 net/socket.c:1848
+ __do_sys_bind net/socket.c:1853 [inline]
+ __se_sys_bind net/socket.c:1851 [inline]
+ __x64_sys_bind+0x7a/0x90 net/socket.c:1851
+ do_syscall_x64 arch/x86/entry/common.c:52 [inline]
+ do_syscall_64+0xf3/0x230 arch/x86/entry/common.c:83
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+
+Let's dump and check metadata of corrupted inode, it shows its xattr_nid
+is the same to its i_ino.
+
+dump.f2fs -i 3 chaseyu.img.raw
+i_xattr_nid                             [0x       3 : 3]
+
+So that, during mknod in the corrupted directory, it tries to get and
+lock inode page twice, result in deadlock.
+
+- f2fs_mknod
+ - f2fs_add_inline_entry
+  - f2fs_get_inode_page --- lock dir's inode page
+   - f2fs_init_acl
+    - f2fs_acl_create(dir,..)
+     - __f2fs_get_acl
+      - f2fs_getxattr
+       - lookup_all_xattrs
+        - __get_node_page --- try to lock dir's inode page
+
+In order to fix this, let's add sanity check on ino and xnid.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38347">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-38348 - &#34;Intersil p54 WiFi Interface Buffer Overflow Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-38348
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+wifi: p54: prevent buffer-overflow in p54_rx_eeprom_readback()
+
+Robert Morris reported:
+
+|If a malicious USB device pretends to be an Intersil p54 wifi
+|interface and generates an eeprom_readback message with a large
+|eeprom->v1.len, p54_rx_eeprom_readback() will copy data from the
+|message beyond the end of priv->eeprom.
+|
+|static void p54_rx_eeprom_readback(struct p54_common *priv,
+|                                   struct sk_buff *skb)
+|{
+|        struct p54_hdr *hdr = (struct p54_hdr *) skb->data;
+|        struct p54_eeprom_lm86 *eeprom = (struct p54_eeprom_lm86 *) hdr->data;
+|
+|        if (priv->fw_var >= 0x509) {
+|                memcpy(priv->eeprom, eeprom->v2.data,
+|                       le16_to_cpu(eeprom->v2.len));
+|        } else {
+|                memcpy(priv->eeprom, eeprom->v1.data,
+|                       le16_to_cpu(eeprom->v1.len));
+|        }
+| [...]
+
+The eeprom->v{1,2}.len is set by the driver in p54_download_eeprom().
+The device is supposed to provide the same length back to the driver.
+But yes, it's possible (like shown in the report) to alter the value
+to something that causes a crash/panic due to overrun.
+
+This patch addresses the issue by adding the size to the common device
+context, so p54_rx_eeprom_readback no longer relies on possibly tampered
+values... That said, it also checks if the "firmware" altered the value
+and no longer copies them.
+
+The one, small saving grace is: Before the driver tries to read the eeprom,
+it needs to upload >a< firmware. the vendor firmware has a proprietary
+license and as a reason, it is not present on most distributions by
+default.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38348">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-3396 - GitLab EE API Request Forgery Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-3396
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>An issue has been discovered in GitLab EE affecting all versions from 13.3 before 17.11.6, 18.0 before 18.0.4, and 18.1 before 18.1.2 that could have allowed authenticated project owners to bypass group-level forking restrictions by manipulating API requests.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3396">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4972 - GitLab EE Group Invitation Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4972
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>An issue has been discovered in GitLab EE affecting all versions from 18.0 before 18.0.4 and 18.1 before 18.1.2 that could have allowed authenticated users with invitation privileges to bypass group-level user invitation restrictions by manipulating group invitation functionality.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4972">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-5022 - Mitsubishi Electric Corporation EcoGuideTAB PV-DR004J/PV-DR004JA Wi-Fi Password Derivation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-5022
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>Weak Password Requirements vulnerability in Mitsubishi Electric Corporation photovoltaic system monitor “EcoGuideTAB” PV-DR004J all versions and PV-DR004JA all versions allows an attacker within the Wi-Fi communication range between the units of the product (measurement unit and display unit) to derive the password from the SSID. However, the product is not affected by this vulnerability when it remains unused for a certain period of time (default: 5 minutes) and enters the power-saving mode with the display unit's LCD screen turned off. The affected products discontinued in 2015, support ended in 2020.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-5022">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-5023 - Mitsubishi Electric Corporation EcoGuideTAB Photovoltaic System Monitor Hard-coded Credentials Backdoor
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-5023
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>Use of Hard-coded Credentials vulnerability in Mitsubishi Electric Corporation photovoltaic system monitor “EcoGuideTAB” PV-DR004J all versions and PV-DR004JA all versions allows an attacker within the Wi-Fi communication range between the units of the product (measurement unit and display unit) to disclose information such as generated power and electricity sold back to the grid stored in the product, tamper with or destroy stored or configured information in the product, or cause a Denial-of-Service (DoS) condition on the product, by using hardcoded user ID and password common to the product series obtained by exploiting CVE-2025-5022. However, the product is not affected by this vulnerability when it remains unused for a certain period of time (default: 5 minutes) and enters the power-saving mode with the display unit's LCD screen turned off. The affected products discontinued in 2015, support ended in 2020.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-5023">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6168 - GitLab EE Group-level User Invitation Bypass Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6168
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>An issue has been discovered in GitLab EE affecting all versions from 18.0 before 18.0.4 and 18.1 before 18.1.2 that could have allowed authenticated maintainers to bypass group-level user invitation restrictions by sending crafted API requests.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6168">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6948 - GitLab Cross-Site Scripting (XSS) Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-6948
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
+<br>
+<strong>Description : </strong>An issue has been discovered in GitLab CE/EE affecting all versions from 17.11 before 17.11.6, 18.0 before 18.0.4, and 18.1 before 18.1.2 that, under certain conditions, could have allowed a successful attacker to execute actions on behalf of users by injecting malicious content.
+<br>
+<strong>Severity:</strong> 8.7 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6948">
                                 read more
                             </a>
                     </article>
@@ -446,997 +1462,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Thu, 10 Jul 2025 09:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38334">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38335 - Linux Kernel gpio-keys Soft Lockup Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38335
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-Input: gpio-keys - fix a sleep while atomic with PREEMPT_RT
-
-When enabling PREEMPT_RT, the gpio_keys_irq_timer() callback runs in
-hard irq context, but the input_event() takes a spin_lock, which isn't
-allowed there as it is converted to a rt_spin_lock().
-
-[ 4054.289999] BUG: sleeping function called from invalid context at kernel/locking/spinlock_rt.c:48
-[ 4054.290028] in_atomic(): 1, irqs_disabled(): 1, non_block: 0, pid: 0, name: swapper/0
-...
-[ 4054.290195]  __might_resched+0x13c/0x1f4
-[ 4054.290209]  rt_spin_lock+0x54/0x11c
-[ 4054.290219]  input_event+0x48/0x80
-[ 4054.290230]  gpio_keys_irq_timer+0x4c/0x78
-[ 4054.290243]  __hrtimer_run_queues+0x1a4/0x438
-[ 4054.290257]  hrtimer_interrupt+0xe4/0x240
-[ 4054.290269]  arch_timer_handler_phys+0x2c/0x44
-[ 4054.290283]  handle_percpu_devid_irq+0x8c/0x14c
-[ 4054.290297]  handle_irq_desc+0x40/0x58
-[ 4054.290307]  generic_handle_domain_irq+0x1c/0x28
-[ 4054.290316]  gic_handle_irq+0x44/0xcc
-
-Considering the gpio_keys_irq_isr() can run in any context, e.g. it can
-be threaded, it seems there's no point in requesting the timer isr to
-run in hard irq context.
-
-Relax the hrtimer not to use the hard context.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38335">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38336 - VIA ata DMA Hard Hang Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38336
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-ata: pata_via: Force PIO for ATAPI devices on VT6415/VT6330
-
-The controller has a hardware bug that can hard hang the system when
-doing ATAPI DMAs without any trace of what happened. Depending on the
-device attached, it can also prevent the system from booting.
-
-In this case, the system hangs when reading the ATIP from optical media
-with cdrecord -vvv -atip on an _NEC DVD_RW ND-4571A 1-01 and an
-Optiarc DVD RW AD-7200A 1.06 attached to an ASRock 990FX Extreme 4,
-running at UDMA/33.
-
-The issue can be reproduced by running the same command with a cygwin
-build of cdrecord on WinXP, although it requires more attempts to cause
-it. The hang in that case is also resolved by forcing PIO. It doesn't
-appear that VIA has produced any drivers for that OS, thus no known
-workaround exists.
-
-HDDs attached to the controller do not suffer from any DMA issues.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38336">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38337 - Linux Kernel jbd2 Null Pointer Dereference and Data Race Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38337
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-jbd2: fix data-race and null-ptr-deref in jbd2_journal_dirty_metadata()
-
-Since handle->h_transaction may be a NULL pointer, so we should change it
-to call is_handle_aborted(handle) first before dereferencing it.
-
-And the following data-race was reported in my fuzzer:
-
-==================================================================
-BUG: KCSAN: data-race in jbd2_journal_dirty_metadata / jbd2_journal_dirty_metadata
-
-write to 0xffff888011024104 of 4 bytes by task 10881 on cpu 1:
- jbd2_journal_dirty_metadata+0x2a5/0x770 fs/jbd2/transaction.c:1556
- __ext4_handle_dirty_metadata+0xe7/0x4b0 fs/ext4/ext4_jbd2.c:358
- ext4_do_update_inode fs/ext4/inode.c:5220 [inline]
- ext4_mark_iloc_dirty+0x32c/0xd50 fs/ext4/inode.c:5869
- __ext4_mark_inode_dirty+0xe1/0x450 fs/ext4/inode.c:6074
- ext4_dirty_inode+0x98/0xc0 fs/ext4/inode.c:6103
-....
-
-read to 0xffff888011024104 of 4 bytes by task 10880 on cpu 0:
- jbd2_journal_dirty_metadata+0xf2/0x770 fs/jbd2/transaction.c:1512
- __ext4_handle_dirty_metadata+0xe7/0x4b0 fs/ext4/ext4_jbd2.c:358
- ext4_do_update_inode fs/ext4/inode.c:5220 [inline]
- ext4_mark_iloc_dirty+0x32c/0xd50 fs/ext4/inode.c:5869
- __ext4_mark_inode_dirty+0xe1/0x450 fs/ext4/inode.c:6074
- ext4_dirty_inode+0x98/0xc0 fs/ext4/inode.c:6103
-....
-
-value changed: 0x00000000 -> 0x00000001
-==================================================================
-
-This issue is caused by missing data-race annotation for jh->b_modified.
-Therefore, the missing annotation needs to be added.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38337">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38338 - &#34;NFS Linux Kernel Deadlock and Unlocked Folio Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38338
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-fs/nfs/read: fix double-unlock bug in nfs_return_empty_folio()
-
-Sometimes, when a file was read while it was being truncated by
-another NFS client, the kernel could deadlock because folio_unlock()
-was called twice, and the second call would XOR back the `PG_locked`
-flag.
-
-Most of the time (depending on the timing of the truncation), nobody
-notices the problem because folio_unlock() gets called three times,
-which flips `PG_locked` back off:
-
- 1. vfs_read, nfs_read_folio, ... nfs_read_add_folio,
-    nfs_return_empty_folio
- 2. vfs_read, nfs_read_folio, ... netfs_read_collection,
-    netfs_unlock_abandoned_read_pages
- 3. vfs_read, ... nfs_do_read_folio, nfs_read_add_folio,
-    nfs_return_empty_folio
-
-The problem is that nfs_read_add_folio() is not supposed to unlock the
-folio if fscache is enabled, and a nfs_netfs_folio_unlock() check is
-missing in nfs_return_empty_folio().
-
-Rarely this leads to a warning in netfs_read_collection():
-
- ------------[ cut here ]------------
- R=0000031c: folio 10 is not locked
- WARNING: CPU: 0 PID: 29 at fs/netfs/read_collect.c:133 netfs_read_collection+0x7c0/0xf00
- [...]
- Workqueue: events_unbound netfs_read_collection_worker
- RIP: 0010:netfs_read_collection+0x7c0/0xf00
- [...]
- Call Trace:
-  <TASK>
-  netfs_read_collection_worker+0x67/0x80
-  process_one_work+0x12e/0x2c0
-  worker_thread+0x295/0x3a0
-
-Most of the time, however, processes just get stuck forever in
-folio_wait_bit_common(), waiting for `PG_locked` to disappear, which
-never happens because nobody is really holding the folio lock.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38338">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38339 - Linux Kernel PowerPC BPF Trampoline JIT Code Size Calculation Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38339
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-powerpc/bpf: fix JIT code size calculation of bpf trampoline
-
-arch_bpf_trampoline_size() provides JIT size of the BPF trampoline
-before the buffer for JIT'ing it is allocated. The total number of
-instructions emitted for BPF trampoline JIT code depends on where
-the final image is located. So, the size arrived at with the dummy
-pass in arch_bpf_trampoline_size() can vary from the actual size
-needed in  arch_prepare_bpf_trampoline().  When the instructions
-accounted in  arch_bpf_trampoline_size() is less than the number of
-instructions emitted during the actual JIT compile of the trampoline,
-the below warning is produced:
-
-  WARNING: CPU: 8 PID: 204190 at arch/powerpc/net/bpf_jit_comp.c:981 __arch_prepare_bpf_trampoline.isra.0+0xd2c/0xdcc
-
-which is:
-
-  /* Make sure the trampoline generation logic doesn't overflow */
-  if (image && WARN_ON_ONCE(&image[ctx->idx] >
-  			(u32 *)rw_image_end - BPF_INSN_SAFETY)) {
-
-So, during the dummy pass, instead of providing some arbitrary image
-location, account for maximum possible instructions if and when there
-is a dependency with image location for JIT'ing.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38339">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38340 - &#34;Linux Firmware cs_dsp Out-of-Bounds Memory Read Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38340
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-firmware: cs_dsp: Fix OOB memory read access in KUnit test
-
-KASAN reported out of bounds access - cs_dsp_mock_bin_add_name_or_info(),
-because the source string length was rounded up to the allocation size.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38340">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38341 - Linux Kernel Eth fbnic Double Free Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38341
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-eth: fbnic: avoid double free when failing to DMA-map FW msg
-
-The semantics are that caller of fbnic_mbx_map_msg() retains
-the ownership of the message on error. All existing callers
-dutifully free the page.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38341">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38342 - Linux Kernel Out-of-Bounds Vulnerability in software_node_get_reference_args
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38342
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-software node: Correct a OOB check in software_node_get_reference_args()
-
-software_node_get_reference_args() wants to get @index-th element, so
-the property value requires at least '(index + 1) * sizeof(*ref)' bytes
-but that can not be guaranteed by current OOB check, and may cause OOB
-for malformed property.
-
-Fix by using as OOB check '((index + 1) * sizeof(*ref) > prop->length)'.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38342">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38343 - &#34;TP-Link MT76 WiFi Driver Multicast Broadcast RA Fragmentation Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38343
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-wifi: mt76: mt7996: drop fragments with multicast or broadcast RA
-
-IEEE 802.11 fragmentation can only be applied to unicast frames.
-Therefore, drop fragments with multicast or broadcast RA. This patch
-addresses vulnerabilities such as CVE-2020-26145.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38343">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38344 - Intel ACPI Cache Leak
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38344
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-ACPICA: fix acpi parse and parseext cache leaks
-
-ACPICA commit 8829e70e1360c81e7a5a901b5d4f48330e021ea5
-
-I'm Seunghun Han, and I work for National Security Research Institute of
-South Korea.
-
-I have been doing a research on ACPI and found an ACPI cache leak in ACPI
-early abort cases.
-
-Boot log of ACPI cache leak is as follows:
-[    0.352414] ACPI: Added _OSI(Module Device)
-[    0.353182] ACPI: Added _OSI(Processor Device)
-[    0.353182] ACPI: Added _OSI(3.0 _SCP Extensions)
-[    0.353182] ACPI: Added _OSI(Processor Aggregator Device)
-[    0.356028] ACPI: Unable to start the ACPI Interpreter
-[    0.356799] ACPI Error: Could not remove SCI handler (20170303/evmisc-281)
-[    0.360215] kmem_cache_destroy Acpi-State: Slab cache still has objects
-[    0.360648] CPU: 0 PID: 1 Comm: swapper/0 Tainted: G        W
-4.12.0-rc4-next-20170608+ #10
-[    0.361273] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS
-virtual_box 12/01/2006
-[    0.361873] Call Trace:
-[    0.362243]  ? dump_stack+0x5c/0x81
-[    0.362591]  ? kmem_cache_destroy+0x1aa/0x1c0
-[    0.362944]  ? acpi_sleep_proc_init+0x27/0x27
-[    0.363296]  ? acpi_os_delete_cache+0xa/0x10
-[    0.363646]  ? acpi_ut_delete_caches+0x6d/0x7b
-[    0.364000]  ? acpi_terminate+0xa/0x14
-[    0.364000]  ? acpi_init+0x2af/0x34f
-[    0.364000]  ? __class_create+0x4c/0x80
-[    0.364000]  ? video_setup+0x7f/0x7f
-[    0.364000]  ? acpi_sleep_proc_init+0x27/0x27
-[    0.364000]  ? do_one_initcall+0x4e/0x1a0
-[    0.364000]  ? kernel_init_freeable+0x189/0x20a
-[    0.364000]  ? rest_init+0xc0/0xc0
-[    0.364000]  ? kernel_init+0xa/0x100
-[    0.364000]  ? ret_from_fork+0x25/0x30
-
-I analyzed this memory leak in detail. I found that “Acpi-State” cache and
-“Acpi-Parse” cache were merged because the size of cache objects was same
-slab cache size.
-
-I finally found “Acpi-Parse” cache and “Acpi-parse_ext” cache were leaked
-using SLAB_NEVER_MERGE flag in kmem_cache_create() function.
-
-Real ACPI cache leak point is as follows:
-[    0.360101] ACPI: Added _OSI(Module Device)
-[    0.360101] ACPI: Added _OSI(Processor Device)
-[    0.360101] ACPI: Added _OSI(3.0 _SCP Extensions)
-[    0.361043] ACPI: Added _OSI(Processor Aggregator Device)
-[    0.364016] ACPI: Unable to start the ACPI Interpreter
-[    0.365061] ACPI Error: Could not remove SCI handler (20170303/evmisc-281)
-[    0.368174] kmem_cache_destroy Acpi-Parse: Slab cache still has objects
-[    0.369332] CPU: 1 PID: 1 Comm: swapper/0 Tainted: G        W
-4.12.0-rc4-next-20170608+ #8
-[    0.371256] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS
-virtual_box 12/01/2006
-[    0.372000] Call Trace:
-[    0.372000]  ? dump_stack+0x5c/0x81
-[    0.372000]  ? kmem_cache_destroy+0x1aa/0x1c0
-[    0.372000]  ? acpi_sleep_proc_init+0x27/0x27
-[    0.372000]  ? acpi_os_delete_cache+0xa/0x10
-[    0.372000]  ? acpi_ut_delete_caches+0x56/0x7b
-[    0.372000]  ? acpi_terminate+0xa/0x14
-[    0.372000]  ? acpi_init+0x2af/0x34f
-[    0.372000]  ? __class_create+0x4c/0x80
-[    0.372000]  ? video_setup+0x7f/0x7f
-[    0.372000]  ? acpi_sleep_proc_init+0x27/0x27
-[    0.372000]  ? do_one_initcall+0x4e/0x1a0
-[    0.372000]  ? kernel_init_freeable+0x189/0x20a
-[    0.372000]  ? rest_init+0xc0/0xc0
-[    0.372000]  ? kernel_init+0xa/0x100
-[    0.372000]  ? ret_from_fork+0x25/0x30
-[    0.388039] kmem_cache_destroy Acpi-parse_ext: Slab cache still has objects
-[    0.389063] CPU: 1 PID: 1 Comm: swapper/0 Tainted: G        W
-4.12.0-rc4-next-20170608+ #8
-[    0.390557] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS
-virtual_box 12/01/2006
-[    0.392000] Call Trace:
-[    0.392000]  ? dump_stack+0x5c/0x81
-[    0.392000]  ? kmem_cache_destroy+0x1aa/0x1c0
-[    0.392000]  ? acpi_sleep_proc_init+0x27/0x27
-[    0.392000]  ? acpi_os_delete_cache+0xa/0x10
-[    0.392000]  ? acpi_ut_delete_caches+0x6d/0x7b
-[    0.392000]  ? acpi_terminate+0xa/0x14
-[    0.392000]  ? acpi_init+0x2af/0x3
----truncated---
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38344">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38345 - &#34;Intel Virtual Box ACPICA Illegal I/O Port Address/Length Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38345
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-ACPICA: fix acpi operand cache leak in dswstate.c
-
-ACPICA commit 987a3b5cf7175916e2a4b6ea5b8e70f830dfe732
-
-I found an ACPI cache leak in ACPI early termination and boot continuing case.
-
-When early termination occurs due to malicious ACPI table, Linux kernel
-terminates ACPI function and continues to boot process. While kernel terminates
-ACPI function, kmem_cache_destroy() reports Acpi-Operand cache leak.
-
-Boot log of ACPI operand cache leak is as follows:
->[    0.585957] ACPI: Added _OSI(Module Device)
->[    0.587218] ACPI: Added _OSI(Processor Device)
->[    0.588530] ACPI: Added _OSI(3.0 _SCP Extensions)
->[    0.589790] ACPI: Added _OSI(Processor Aggregator Device)
->[    0.591534] ACPI Error: Illegal I/O port address/length above 64K: C806E00000004002/0x2 (20170303/hwvalid-155)
->[    0.594351] ACPI Exception: AE_LIMIT, Unable to initialize fixed events (20170303/evevent-88)
->[    0.597858] ACPI: Unable to start the ACPI Interpreter
->[    0.599162] ACPI Error: Could not remove SCI handler (20170303/evmisc-281)
->[    0.601836] kmem_cache_destroy Acpi-Operand: Slab cache still has objects
->[    0.603556] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.12.0-rc5 #26
->[    0.605159] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS virtual_box 12/01/2006
->[    0.609177] Call Trace:
->[    0.610063]  ? dump_stack+0x5c/0x81
->[    0.611118]  ? kmem_cache_destroy+0x1aa/0x1c0
->[    0.612632]  ? acpi_sleep_proc_init+0x27/0x27
->[    0.613906]  ? acpi_os_delete_cache+0xa/0x10
->[    0.617986]  ? acpi_ut_delete_caches+0x3f/0x7b
->[    0.619293]  ? acpi_terminate+0xa/0x14
->[    0.620394]  ? acpi_init+0x2af/0x34f
->[    0.621616]  ? __class_create+0x4c/0x80
->[    0.623412]  ? video_setup+0x7f/0x7f
->[    0.624585]  ? acpi_sleep_proc_init+0x27/0x27
->[    0.625861]  ? do_one_initcall+0x4e/0x1a0
->[    0.627513]  ? kernel_init_freeable+0x19e/0x21f
->[    0.628972]  ? rest_init+0x80/0x80
->[    0.630043]  ? kernel_init+0xa/0x100
->[    0.631084]  ? ret_from_fork+0x25/0x30
->[    0.633343] vgaarb: loaded
->[    0.635036] EDAC MC: Ver: 3.0.0
->[    0.638601] PCI: Probing PCI hardware
->[    0.639833] PCI host bridge to bus 0000:00
->[    0.641031] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
-> ... Continue to boot and log is omitted ...
-
-I analyzed this memory leak in detail and found acpi_ds_obj_stack_pop_and_
-delete() function miscalculated the top of the stack. acpi_ds_obj_stack_push()
-function uses walk_state->operand_index for start position of the top, but
-acpi_ds_obj_stack_pop_and_delete() function considers index 0 for it.
-Therefore, this causes acpi operand memory leak.
-
-This cache leak causes a security threat because an old kernel (<= 4.9) shows
-memory locations of kernel functions in stack dump. Some malicious users
-could use this information to neutralize kernel ASLR.
-
-I made a patch to fix ACPI operand cache leak.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38345">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38346 - Linux kernel ftrace UAF Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38346
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-ftrace: Fix UAF when lookup kallsym after ftrace disabled
-
-The following issue happens with a buggy module:
-
-BUG: unable to handle page fault for address: ffffffffc05d0218
-PGD 1bd66f067 P4D 1bd66f067 PUD 1bd671067 PMD 101808067 PTE 0
-Oops: Oops: 0000 [#1] SMP KASAN PTI
-Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
-Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS
-RIP: 0010:sized_strscpy+0x81/0x2f0
-RSP: 0018:ffff88812d76fa08 EFLAGS: 00010246
-RAX: 0000000000000000 RBX: ffffffffc0601010 RCX: dffffc0000000000
-RDX: 0000000000000038 RSI: dffffc0000000000 RDI: ffff88812608da2d
-RBP: 8080808080808080 R08: ffff88812608da2d R09: ffff88812608da68
-R10: ffff88812608d82d R11: ffff88812608d810 R12: 0000000000000038
-R13: ffff88812608da2d R14: ffffffffc05d0218 R15: fefefefefefefeff
-FS:  00007fef552de740(0000) GS:ffff8884251c7000(0000) knlGS:0000000000000000
-CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
-CR2: ffffffffc05d0218 CR3: 00000001146f0000 CR4: 00000000000006f0
-DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
-DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
-Call Trace:
- <TASK>
- ftrace_mod_get_kallsym+0x1ac/0x590
- update_iter_mod+0x239/0x5b0
- s_next+0x5b/0xa0
- seq_read_iter+0x8c9/0x1070
- seq_read+0x249/0x3b0
- proc_reg_read+0x1b0/0x280
- vfs_read+0x17f/0x920
- ksys_read+0xf3/0x1c0
- do_syscall_64+0x5f/0x2e0
- entry_SYSCALL_64_after_hwframe+0x76/0x7e
-
-The above issue may happen as follows:
-(1) Add kprobe tracepoint;
-(2) insmod test.ko;
-(3)  Module triggers ftrace disabled;
-(4) rmmod test.ko;
-(5) cat /proc/kallsyms; --> Will trigger UAF as test.ko already removed;
-ftrace_mod_get_kallsym()
-...
-strscpy(module_name, mod_map->mod->name, MODULE_NAME_LEN);
-...
-
-The problem is when a module triggers an issue with ftrace and
-sets ftrace_disable. The ftrace_disable is set when an anomaly is
-discovered and to prevent any more damage, ftrace stops all text
-modification. The issue that happened was that the ftrace_disable stops
-more than just the text modification.
-
-When a module is loaded, its init functions can also be traced. Because
-kallsyms deletes the init functions after a module has loaded, ftrace
-saves them when the module is loaded and function tracing is enabled. This
-allows the output of the function trace to show the init function names
-instead of just their raw memory addresses.
-
-When a module is removed, ftrace_release_mod() is called, and if
-ftrace_disable is set, it just returns without doing anything more. The
-problem here is that it leaves the mod_list still around and if kallsyms
-is called, it will call into this code and access the module memory that
-has already been freed as it will return:
-
-  strscpy(module_name, mod_map->mod->name, MODULE_NAME_LEN);
-
-Where the "mod" no longer exists and triggers a UAF bug.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38346">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38347 - F2FS Inline Data Corruption Denial of Service (DoS) Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38347
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-f2fs: fix to do sanity check on ino and xnid
-
-syzbot reported a f2fs bug as below:
-
-INFO: task syz-executor140:5308 blocked for more than 143 seconds.
-      Not tainted 6.14.0-rc7-syzkaller-00069-g81e4f8d68c66 #0
-"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
-task:syz-executor140 state:D stack:24016 pid:5308  tgid:5308  ppid:5306   task_flags:0x400140 flags:0x00000006
-Call Trace:
- <TASK>
- context_switch kernel/sched/core.c:5378 [inline]
- __schedule+0x190e/0x4c90 kernel/sched/core.c:6765
- __schedule_loop kernel/sched/core.c:6842 [inline]
- schedule+0x14b/0x320 kernel/sched/core.c:6857
- io_schedule+0x8d/0x110 kernel/sched/core.c:7690
- folio_wait_bit_common+0x839/0xee0 mm/filemap.c:1317
- __folio_lock mm/filemap.c:1664 [inline]
- folio_lock include/linux/pagemap.h:1163 [inline]
- __filemap_get_folio+0x147/0xb40 mm/filemap.c:1917
- pagecache_get_page+0x2c/0x130 mm/folio-compat.c:87
- find_get_page_flags include/linux/pagemap.h:842 [inline]
- f2fs_grab_cache_page+0x2b/0x320 fs/f2fs/f2fs.h:2776
- __get_node_page+0x131/0x11b0 fs/f2fs/node.c:1463
- read_xattr_block+0xfb/0x190 fs/f2fs/xattr.c:306
- lookup_all_xattrs fs/f2fs/xattr.c:355 [inline]
- f2fs_getxattr+0x676/0xf70 fs/f2fs/xattr.c:533
- __f2fs_get_acl+0x52/0x870 fs/f2fs/acl.c:179
- f2fs_acl_create fs/f2fs/acl.c:375 [inline]
- f2fs_init_acl+0xd7/0x9b0 fs/f2fs/acl.c:418
- f2fs_init_inode_metadata+0xa0f/0x1050 fs/f2fs/dir.c:539
- f2fs_add_inline_entry+0x448/0x860 fs/f2fs/inline.c:666
- f2fs_add_dentry+0xba/0x1e0 fs/f2fs/dir.c:765
- f2fs_do_add_link+0x28c/0x3a0 fs/f2fs/dir.c:808
- f2fs_add_link fs/f2fs/f2fs.h:3616 [inline]
- f2fs_mknod+0x2e8/0x5b0 fs/f2fs/namei.c:766
- vfs_mknod+0x36d/0x3b0 fs/namei.c:4191
- unix_bind_bsd net/unix/af_unix.c:1286 [inline]
- unix_bind+0x563/0xe30 net/unix/af_unix.c:1379
- __sys_bind_socket net/socket.c:1817 [inline]
- __sys_bind+0x1e4/0x290 net/socket.c:1848
- __do_sys_bind net/socket.c:1853 [inline]
- __se_sys_bind net/socket.c:1851 [inline]
- __x64_sys_bind+0x7a/0x90 net/socket.c:1851
- do_syscall_x64 arch/x86/entry/common.c:52 [inline]
- do_syscall_64+0xf3/0x230 arch/x86/entry/common.c:83
- entry_SYSCALL_64_after_hwframe+0x77/0x7f
-
-Let's dump and check metadata of corrupted inode, it shows its xattr_nid
-is the same to its i_ino.
-
-dump.f2fs -i 3 chaseyu.img.raw
-i_xattr_nid                             [0x       3 : 3]
-
-So that, during mknod in the corrupted directory, it tries to get and
-lock inode page twice, result in deadlock.
-
-- f2fs_mknod
- - f2fs_add_inline_entry
-  - f2fs_get_inode_page --- lock dir's inode page
-   - f2fs_init_acl
-    - f2fs_acl_create(dir,..)
-     - __f2fs_get_acl
-      - f2fs_getxattr
-       - lookup_all_xattrs
-        - __get_node_page --- try to lock dir's inode page
-
-In order to fix this, let's add sanity check on ino and xnid.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38347">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-38348 - &#34;Intersil p54 WiFi Interface Buffer Overflow Vulnerability&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-38348
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-wifi: p54: prevent buffer-overflow in p54_rx_eeprom_readback()
-
-Robert Morris reported:
-
-|If a malicious USB device pretends to be an Intersil p54 wifi
-|interface and generates an eeprom_readback message with a large
-|eeprom->v1.len, p54_rx_eeprom_readback() will copy data from the
-|message beyond the end of priv->eeprom.
-|
-|static void p54_rx_eeprom_readback(struct p54_common *priv,
-|                                   struct sk_buff *skb)
-|{
-|        struct p54_hdr *hdr = (struct p54_hdr *) skb->data;
-|        struct p54_eeprom_lm86 *eeprom = (struct p54_eeprom_lm86 *) hdr->data;
-|
-|        if (priv->fw_var >= 0x509) {
-|                memcpy(priv->eeprom, eeprom->v2.data,
-|                       le16_to_cpu(eeprom->v2.len));
-|        } else {
-|                memcpy(priv->eeprom, eeprom->v1.data,
-|                       le16_to_cpu(eeprom->v1.len));
-|        }
-| [...]
-
-The eeprom->v{1,2}.len is set by the driver in p54_download_eeprom().
-The device is supposed to provide the same length back to the driver.
-But yes, it's possible (like shown in the report) to alter the value
-to something that causes a crash/panic due to overrun.
-
-This patch addresses the issue by adding the size to the common device
-context, so p54_rx_eeprom_readback no longer relies on possibly tampered
-values... That said, it also checks if the "firmware" altered the value
-and no longer copies them.
-
-The one, small saving grace is: Before the driver tries to read the eeprom,
-it needs to upload >a< firmware. the vendor firmware has a proprietary
-license and as a reason, it is not present on most distributions by
-default.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-38348">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-3396 - GitLab EE API Request Forgery Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-3396
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>An issue has been discovered in GitLab EE affecting all versions from 13.3 before 17.11.6, 18.0 before 18.0.4, and 18.1 before 18.1.2 that could have allowed authenticated project owners to bypass group-level forking restrictions by manipulating API requests.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3396">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4972 - GitLab EE Group Invitation Privilege Escalation Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4972
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>An issue has been discovered in GitLab EE affecting all versions from 18.0 before 18.0.4 and 18.1 before 18.1.2 that could have allowed authenticated users with invitation privileges to bypass group-level user invitation restrictions by manipulating group invitation functionality.
-<br>
-<strong>Severity:</strong> 2.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4972">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-5022 - Mitsubishi Electric Corporation EcoGuideTAB PV-DR004J/PV-DR004JA Wi-Fi Password Derivation Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-5022
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>Weak Password Requirements vulnerability in Mitsubishi Electric Corporation photovoltaic system monitor “EcoGuideTAB” PV-DR004J all versions and PV-DR004JA all versions allows an attacker within the Wi-Fi communication range between the units of the product (measurement unit and display unit) to derive the password from the SSID. However, the product is not affected by this vulnerability when it remains unused for a certain period of time (default: 5 minutes) and enters the power-saving mode with the display unit's LCD screen turned off. The affected products discontinued in 2015, support ended in 2020.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-5022">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-5023 - Mitsubishi Electric Corporation EcoGuideTAB Photovoltaic System Monitor Hard-coded Credentials Backdoor
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-5023
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>Use of Hard-coded Credentials vulnerability in Mitsubishi Electric Corporation photovoltaic system monitor “EcoGuideTAB” PV-DR004J all versions and PV-DR004JA all versions allows an attacker within the Wi-Fi communication range between the units of the product (measurement unit and display unit) to disclose information such as generated power and electricity sold back to the grid stored in the product, tamper with or destroy stored or configured information in the product, or cause a Denial-of-Service (DoS) condition on the product, by using hardcoded user ID and password common to the product series obtained by exploiting CVE-2025-5022. However, the product is not affected by this vulnerability when it remains unused for a certain period of time (default: 5 minutes) and enters the power-saving mode with the display unit's LCD screen turned off. The affected products discontinued in 2015, support ended in 2020.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-5023">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-6168 - GitLab EE Group-level User Invitation Bypass Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-6168
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>An issue has been discovered in GitLab EE affecting all versions from 18.0 before 18.0.4 and 18.1 before 18.1.2 that could have allowed authenticated maintainers to bypass group-level user invitation restrictions by sending crafted API requests.
-<br>
-<strong>Severity:</strong> 2.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6168">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-6948 - GitLab Cross-Site Scripting (XSS) Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-6948
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 3 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>An issue has been discovered in GitLab CE/EE affecting all versions from 17.11 before 17.11.6, 18.0 before 18.0.4, and 18.1 before 18.1.2 that, under certain conditions, could have allowed a successful attacker to execute actions on behalf of users by injecting malicious content.
-<br>
-<strong>Severity:</strong> 8.7 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6948">
                                 read more
                             </a>
                     </article>
