@@ -8,12 +8,520 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 10 Jul 2025 22:43:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 22:55:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-2521 - Honeywell Experion PKS and OneWireless WDM Remote Code Execution Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2521
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>The Honeywell Experion PKS and OneWireless WDM contains a Memory Buffer vulnerability in the component Control Data Access (CDA). An attacker could potentially exploit this vulnerability, leading to an Overread Buffers, which could result in improper index validation against buffer borders leading to remote code execution.
+
+Honeywell recommends updating to the most recent version of Honeywell Experion PKS:
+
+520.2 TCU9 HF1 and 530.1 TCU3 HF1 and OneWireless: 322.5 and 331.1.
+
+
+The affected Experion PKS products are C300 PCNT02, C300 PCNT05, FIM4, FIM8, UOC, CN100, HCA, C300PM, and C200E.  The Experion PKS versions affected are from 520.1 through 520.2 TCU9 and from 530 through 530 TCU3.The OneWireless WDM affected versions are 322.1 through 322.4 and 330.1 through 330.3.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2521</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2521</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2522 - Honeywell Experion PKS and OneWireless WDM Sensitive Information Disclosure and Communication Channel Manipulation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2522
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>The Honeywell Experion PKS and OneWireless WDM 
+
+ contains Sensitive Information in Resource vulnerability in the component Control Data Access (CDA). An attacker could potentially exploit this vulnerability, leading to a Communication Channel Manipulation, which could result in buffer reuse which may cause incorrect system behavior.
+
+Honeywell also recommends updating to the most recent version of 
+
+Honeywell Experion PKS:520.2 TCU9 HF1 and 530.1 TCU3 HF1 and OneWireless: 322.5 and 331.1. 
+
+The affected Experion PKS products are 
+
+
+
+C300, FIM4, FIM8, UOC, CN100, HCA, C300PM, and C200E.  The Experion PKS versions affected are 520.1 before 
+
+520.2 TCU9 HF1 and 530 before 530 TCU3. The OneWireless WDM affected versions are 322.1 through 322.4 and 330.1 through 330.3.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2522</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2522</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2523 - "Honeywell Experion PKS and OneWireless WDM Integer Underflow Vulnerability Allows Remote Code Execution"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2523
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>The Honeywell Experion PKS 
+
+ and OneWireless WDM 
+
+contains an Integer Underflow 
+
+vulnerability 
+
+in the component Control Data Access (CDA). An attacker could potentially exploit this vulnerability, leading to a Communication Channel Manipulation, which could result in a failure during subtraction allowing remote code execution.
+
+
+
+Honeywell recommends updating to the most recent version of 
+
+Honeywell Experion PKS:520.2 TCU9 HF1 and 530.1 TCU3 HF1 and OneWireless: 322.5 and 331.1.
+
+
+
+The affected Experion PKS products are C300 PCNT02, C300 PCNT05, FIM4, FIM8, UOC, CN100, HCA, C300PM, and C200E.  The Experion PKS versions affected are from 520.1 through 520.2 TCU9 and from 530 through 530 TCU3. The OneWireless WDM affected versions are 322.1 through 322.4 and 330.1 through 330.3.
+<br>
+<strong>Severity:</strong> 9.4 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2523</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2523</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3946 - Honeywell Experion PKS and OneWireless WDM Remote Code Execution via Input Data Manipulation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3946
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>The Honeywell Experion PKS 
+
+and OneWireless WDM
+
+contains a Deployment of Wrong Handler
+
+ 
+
+vulnerability 
+
+in the component Control Data Access (CDA). An attacker could potentially exploit this vulnerability, leading to 
+
+Input Data Manipulation, 
+
+ which could result in incorrect handling of packets leading to remote code execution.
+
+
+
+Honeywell recommends updating to the most recent version of Honeywell Experion PKS:520.2 TCU9 HF1 and 530.1 TCU3 HF1 and OneWireless: 322.5 and 331.1.
+
+The affected Experion PKS products are C300 PCNT02, C300 PCNT05, FIM4, FIM8, UOC, CN100, HCA, C300PM, and C200E.  The Experion PKS versions affected are from 520.1 through 520.2 TCU9 and from 530 through 530 TCU3. The OneWireless WDM affected versions are 322.1 through 322.4 and 330.1 through 330.3.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3946</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3946</guid>
+    </item>
+    <item>
+      <title>CVE-2025-3947 - Honeywell Experion PKS Control Data Access Integer Underflow Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-3947
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>The Honeywell Experion PKS contains an Integer Underflow 
+
+vulnerability 
+
+in the component Control Data Access (CDA). An attacker could potentially exploit this vulnerability, leading to 
+
+Input Data Manipulation, which could result in improper integer data value checking during subtraction leading to a denial of service.
+
+
+
+Honeywell recommends updating to the most recent version of Honeywell Experion PKS:520.2 TCU9 HF1 and 530.1 TCU3 HF1.
+
+The affected Experion PKS products are C300 PCNT02, C300 PCNT05, FIM4, FIM8, UOC, CN100, HCA, C300PM, and C200E.  The Experion PKS versions affected are from 520.1 through 520.2 TCU9 and from 530 through 530 TCU3.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-3947</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-3947</guid>
+    </item>
+    <item>
+      <title>CVE-2025-4662 - Brocade SANnav Plaintext Passphrase Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-4662
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>Brocade SANnav before SANnav 2.4.0a logs plaintext passphrases in the Brocade SANnav host server audit logs while executing OpenSSL command using a passphrase from the command line or while providing the passphrase through a temporary file.
+
+These audit logs are the local server VM’s audit logs and are not controlled by SANnav. These logs are only visible to the server admin of the host server and are not visible to the SANnav admin or any SANnav user.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-4662</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-4662</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6390 - Brocade SANnav Password Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6390
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>Brocade SANnav before SANnav 2.4.0a logs passwords and pbe keys in the Brocade SANnav server audit logs after installation and under specific conditions. These audit logs are the local server VM’s audit logs and are not controlled by SANnav. These logs are only visible to the server admin of the host server and are not visible to the SANnav admin or any SANnav user.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6390</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6390</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7414 - Tenda O3V2 HTTPd Os Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7414
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in Tenda O3V2 1.0.0.12(3880). This vulnerability affects the function fromNetToolGet of the file /goform/setPingInfo of the component httpd. The manipulation of the argument domain leads to os command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7414</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7414</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7415 - Tenda O3V2 HTTPd Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7415
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 p.m. | 1 hour, 12 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Tenda O3V2 1.0.0.12(3880). This issue affects the function fromTraceroutGet of the file /goform/getTraceroute of the component httpd. The manipulation of the argument dest leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7415</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7415</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34098 - Riverbed SteelHead VCX Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34098
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>A path traversal vulnerability exists in Riverbed SteelHead VCX appliances (confirmed in VCX255U 9.6.0a) due to improper input validation in the log filtering functionality exposed via the management web interface. An authenticated attacker can exploit this flaw by submitting crafted filter expressions to the log_filter endpoint using the filterStr parameter. This input is processed by a backend parser that permits execution of file expansion syntax, allowing the attacker to retrieve arbitrary system files via the log viewing interface.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34098</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34098</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34099 - "VICIdial Command Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34099
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated command injection vulnerability exists in VICIdial versions 2.9 RC1 through 2.13 RC1, within the vicidial_sales_viewer.php component when password encryption is enabled (a non-default configuration). The application improperly passes the HTTP Basic Authentication password directly to a call to exec() without adequate sanitation. This allows remote attackers to inject and execute arbitrary operating system commands as the web server user.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34099</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34099</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34100 - BuilderEngine Unauthenticated Remote Code Execution via Unrestricted File Upload</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34100
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>An unrestricted file upload vulnerability exists in BuilderEngine 3.5.0 via the integration of the elFinder 2.0 file manager and its use of the jQuery File Upload plugin. The plugin fails to properly validate or restrict file types or locations during upload operations, allowing an attacker to upload a malicious .php file and subsequently execute arbitrary PHP code on the server under the context of the web server process. While the root vulnerability lies within the jQuery File Upload component, BuilderEngine’s improper integration and lack of access controls expose this functionality to unauthenticated users, resulting in full remote code execution.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34100</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34100</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34101 - Serviio Media Server Unauthenticated Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34101
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated command injection vulnerability exists in Serviio Media Server versions 1.4 through 1.8 on Windows, in the /rest/action API endpoint exposed by the console component (default port 23423). The checkStreamUrl method accepts a VIDEO parameter that is passed unsanitized to a call to cmd.exe, enabling arbitrary command execution under the privileges of the web server. No authentication is required to exploit this issue, as the REST API is exposed by default and lacks access controls.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34101</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34101</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34102 - "CryptoLog PHP Remote Code Execution via Chained SQL Injection and Command Injection"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34102
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>A remote code execution vulnerability exists in CryptoLog (PHP version, discontinued since 2009) due to a chained exploitation of SQL injection and command injection vulnerabilities. An unauthenticated attacker can gain shell access as the web server user by first exploiting a SQL injection flaw in login.php to bypass authentication, followed by command injection in logshares_ajax.php to execute arbitrary operating system commands.
+
+
+The login bypass is achieved by submitting crafted SQL via the user POST parameter. Once authenticated, the attacker can abuse the lsid POST parameter in the logshares_ajax.php endpoint to inject and execute a command using $(...) syntax, resulting in code execution under the web context.
+
+
+This exploitation path does not exist in the ASP.NET version of CryptoLog released since 2009.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34102</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34102</guid>
+    </item>
+    <item>
+      <title>CVE-2025-45662 - Mpgram Web XSS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-45662
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>A cross-site scripting (XSS) vulnerability in the component /master/login.php of mpgram-web commit 94baadb allows attackers to execute arbitrary Javascript in the context of a user's browser via a crafted payload.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-45662</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45662</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53506 - Apache Tomcat HTTP/2 Uncontrolled Resource Consumption Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53506
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>Uncontrolled Resource Consumption vulnerability in Apache Tomcat if an HTTP/2 client did not acknowledge the initial settings frame that reduces the maximum permitted concurrent streams.
+
+This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.8, from 10.1.0-M1 through 10.1.42, from 9.0.0.M1 through 9.0.106.
+
+Users are recommended to upgrade to version 11.0.9, 10.1.43 or 9.0.107, which fix the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53506</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53506</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53628 - cpp-httplib Unbounded Line Memory Allocation Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53628
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>cpp-httplib is a C++11 single-file header-only cross platform HTTP/HTTPS library. Prior to 0.20.1, cpp-httplib does not have a limit for a unique line, permitting an attacker to explore this to allocate memory arbitrarily. This vulnerability is fixed in 0.20.1. NOTE: This vulnerability is related to CVE-2025-53629.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53628</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53628</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53629 - cpp-httplib Chunked Request Memory Exhaustion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53629
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>cpp-httplib is a C++11 single-file header-only cross platform HTTP/HTTPS library. Prior to 0.23.0, incoming requests using Transfer-Encoding: chunked in the header can allocate memory arbitrarily in the server, potentially leading to its exhaustion. This vulnerability is fixed in 0.23.0. NOTE: This vulnerability is related to CVE-2025-53628.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53629</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53629</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53630 - LLama Integer Overflow Leads to Heap Out-of-Bounds Read/Write</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53630
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>llama.cpp is an inference of several LLM models in C/C++. Integer Overflow in the gguf_init_from_file_impl function in ggml/src/gguf.cpp can lead to Heap Out-of-Bounds Read/Write. This vulnerability is fixed in commit 26a48ad699d50b6268900062661bd22f3e792579.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53630</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53630</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53632 - Chall-Manager Zip Slip Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53632
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. When decoding a scenario (i.e. a zip archive), the path of the file to write is not checked, potentially leading to zip slips. Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 47d188f and shipped in v0.1.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53632</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53632</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53633 - Chall-Manager Zip Bomb Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53633
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. When decoding a scenario (i.e. a zip archive), the size of the decoded content is not checked, potentially leading to zip bombs decompression. Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 14042aa and shipped in v0.1.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53633</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53633</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53634 - Chall-Manager Unauthenticated HTTP Gateway Slow Loris Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53634
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. The HTTP Gateway processes headers, but with no timeout set. With a slow loris attack, an attacker could cause Denial of Service (DoS). Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 1385bd8 and shipped in v0.1.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53634</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53634</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7021 - OpenAI Operator SaaS Fullscreen API Spoofing and UI Redressing</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7021
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>Fullscreen API Spoofing and UI Redressing in the handling of Fullscreen API and UI rendering in OpenAI Operator SaaS on Web allows a remote attacker to capture sensitive user input (e.g., login credentials, email addresses) via displaying a deceptive fullscreen interface with overlaid fake browser controls and a distracting element (like a cookie consent screen) to obscure fullscreen notifications, tricking the user into interacting with the malicious site.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7021</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7021</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7412 - "Code-Projects Library System Unrestricted File Upload Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7412
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Library System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /user/student/profile.php. The manipulation of the argument image leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7412</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7412</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7413 - Code-projects Library System Unrestricted File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7413
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 2 hours, 12 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Library System 1.0. This affects an unknown part of the file /user/teacher/profile.php. The manipulation of the argument image leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7413</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7413</guid>
+    </item>
     <item>
       <title>CVE-2025-2520 - Honeywell Experion PKS Uninitialized Variable Denial of Service</title>
       <description><![CDATA[<p>
@@ -106,288 +614,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-34097</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-34097</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34098 - Riverbed SteelHead VCX Path Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34098
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>A path traversal vulnerability exists in Riverbed SteelHead VCX appliances (confirmed in VCX255U 9.6.0a) due to improper input validation in the log filtering functionality exposed via the management web interface. An authenticated attacker can exploit this flaw by submitting crafted filter expressions to the log_filter endpoint using the filterStr parameter. This input is processed by a backend parser that permits execution of file expansion syntax, allowing the attacker to retrieve arbitrary system files via the log viewing interface.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34098</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34098</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34099 - "VICIdial Command Injection Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34099
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>An unauthenticated command injection vulnerability exists in VICIdial versions 2.9 RC1 through 2.13 RC1, within the vicidial_sales_viewer.php component when password encryption is enabled (a non-default configuration). The application improperly passes the HTTP Basic Authentication password directly to a call to exec() without adequate sanitation. This allows remote attackers to inject and execute arbitrary operating system commands as the web server user.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34099</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34099</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34100 - BuilderEngine Unauthenticated Remote Code Execution via Unrestricted File Upload</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34100
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>An unrestricted file upload vulnerability exists in BuilderEngine 3.5.0 via the integration of the elFinder 2.0 file manager and its use of the jQuery File Upload plugin. The plugin fails to properly validate or restrict file types or locations during upload operations, allowing an attacker to upload a malicious .php file and subsequently execute arbitrary PHP code on the server under the context of the web server process. While the root vulnerability lies within the jQuery File Upload component, BuilderEngine’s improper integration and lack of access controls expose this functionality to unauthenticated users, resulting in full remote code execution.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34100</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34100</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34101 - Serviio Media Server Unauthenticated Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34101
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>An unauthenticated command injection vulnerability exists in Serviio Media Server versions 1.4 through 1.8 on Windows, in the /rest/action API endpoint exposed by the console component (default port 23423). The checkStreamUrl method accepts a VIDEO parameter that is passed unsanitized to a call to cmd.exe, enabling arbitrary command execution under the privileges of the web server. No authentication is required to exploit this issue, as the REST API is exposed by default and lacks access controls.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34101</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34101</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34102 - "CryptoLog PHP Remote Code Execution via Chained SQL Injection and Command Injection"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34102
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>A remote code execution vulnerability exists in CryptoLog (PHP version, discontinued since 2009) due to a chained exploitation of SQL injection and command injection vulnerabilities. An unauthenticated attacker can gain shell access as the web server user by first exploiting a SQL injection flaw in login.php to bypass authentication, followed by command injection in logshares_ajax.php to execute arbitrary operating system commands.
-
-
-The login bypass is achieved by submitting crafted SQL via the user POST parameter. Once authenticated, the attacker can abuse the lsid POST parameter in the logshares_ajax.php endpoint to inject and execute a command using $(...) syntax, resulting in code execution under the web context.
-
-
-This exploitation path does not exist in the ASP.NET version of CryptoLog released since 2009.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34102</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34102</guid>
-    </item>
-    <item>
-      <title>CVE-2025-45662 - Mpgram Web XSS Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-45662
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>A cross-site scripting (XSS) vulnerability in the component /master/login.php of mpgram-web commit 94baadb allows attackers to execute arbitrary Javascript in the context of a user's browser via a crafted payload.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-45662</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-45662</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53506 - Apache Tomcat HTTP/2 Uncontrolled Resource Consumption Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53506
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>Uncontrolled Resource Consumption vulnerability in Apache Tomcat if an HTTP/2 client did not acknowledge the initial settings frame that reduces the maximum permitted concurrent streams.
-
-This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.8, from 10.1.0-M1 through 10.1.42, from 9.0.0.M1 through 9.0.106.
-
-Users are recommended to upgrade to version 11.0.9, 10.1.43 or 9.0.107, which fix the issue.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53506</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53506</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53628 - cpp-httplib Unbounded Line Memory Allocation Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53628
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>cpp-httplib is a C++11 single-file header-only cross platform HTTP/HTTPS library. Prior to 0.20.1, cpp-httplib does not have a limit for a unique line, permitting an attacker to explore this to allocate memory arbitrarily. This vulnerability is fixed in 0.20.1. NOTE: This vulnerability is related to CVE-2025-53629.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53628</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53628</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53629 - cpp-httplib Chunked Request Memory Exhaustion Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53629
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>cpp-httplib is a C++11 single-file header-only cross platform HTTP/HTTPS library. Prior to 0.23.0, incoming requests using Transfer-Encoding: chunked in the header can allocate memory arbitrarily in the server, potentially leading to its exhaustion. This vulnerability is fixed in 0.23.0. NOTE: This vulnerability is related to CVE-2025-53628.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53629</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53629</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53630 - LLama Integer Overflow Leads to Heap Out-of-Bounds Read/Write</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53630
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>llama.cpp is an inference of several LLM models in C/C++. Integer Overflow in the gguf_init_from_file_impl function in ggml/src/gguf.cpp can lead to Heap Out-of-Bounds Read/Write. This vulnerability is fixed in commit 26a48ad699d50b6268900062661bd22f3e792579.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53630</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53630</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53632 - Chall-Manager Zip Slip Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53632
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. When decoding a scenario (i.e. a zip archive), the path of the file to write is not checked, potentially leading to zip slips. Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 47d188f and shipped in v0.1.4.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53632</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53632</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53633 - Chall-Manager Zip Bomb Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53633
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. When decoding a scenario (i.e. a zip archive), the size of the decoded content is not checked, potentially leading to zip bombs decompression. Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 14042aa and shipped in v0.1.4.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53633</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53633</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53634 - Chall-Manager Unauthenticated HTTP Gateway Slow Loris Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53634
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. The HTTP Gateway processes headers, but with no timeout set. With a slow loris attack, an attacker could cause Denial of Service (DoS). Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 1385bd8 and shipped in v0.1.4.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53634</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53634</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7021 - OpenAI Operator SaaS Fullscreen API Spoofing and UI Redressing</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7021
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>Fullscreen API Spoofing and UI Redressing in the handling of Fullscreen API and UI rendering in OpenAI Operator SaaS on Web allows a remote attacker to capture sensitive user input (e.g., login credentials, email addresses) via displaying a deceptive fullscreen interface with overlaid fake browser controls and a distracting element (like a cookie consent screen) to obscure fullscreen notifications, tricking the user into interacting with the malicious site.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7021</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7021</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7412 - "Code-Projects Library System Unrestricted File Upload Vulnerability"</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7412
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Library System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /user/student/profile.php. The manipulation of the argument image leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7412</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7412</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7413 - Code-projects Library System Unrestricted File Upload Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7413
-<br>
-<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Library System 1.0. This affects an unknown part of the file /user/teacher/profile.php. The manipulation of the argument image leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 20:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7413</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7413</guid>
     </item>
     <item>
       <title>CVE-2025-53625 - MediaWiki DynamicPageList3 Username Information Disclosure Vulnerability</title>
