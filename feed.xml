@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 10 Jul 2025 19:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 20:20:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53371
 <br>
-<strong>Published : </strong> July 10, 2025, 6:15 p.m. | 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 6:15 p.m. | 30 minutes ago
 <br>
 <strong>Description : </strong>DiscordNotifications is an extension for MediaWiki that sends notifications of actions in your Wiki to a Discord channel. DiscordNotifications allows sending requests via curl and file_get_contents to arbitrary URLs set via $wgDiscordIncomingWebhookUrl and $wgDiscordAdditionalIncomingWebhookUrls. This allows for DOS by causing the server to read large files. SSRF is also possible if there are internal unprotected APIs that can be accessed using HTTP POST requests, which could also possibly lead to RCE. This vulnerability is fixed in commit 1f20d850cbcce5b15951c7c6127b87b927a5415e.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-42516
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>HTTP response splitting in the core of Apache HTTP Server allows an attacker who can manipulate the Content-Type response headers of applications hosted or proxied by the server can split the HTTP response.
 
@@ -57,7 +57,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-43204
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>SSRF in Apache HTTP Server with mod_proxy loaded allows an attacker to send outbound proxy requests to a URL controlled by the attacker.  Requires an unlikely configuration where mod_headers is configured to modify the Content-Type request or response header with a value provided in the HTTP request.
 
@@ -76,7 +76,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-43394
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Server-Side Request Forgery (SSRF) in Apache HTTP Server on Windows allows to potentially leak NTLM hashes to a malicious server via 
 mod_rewrite or apache expressions that pass unvalidated request input.
@@ -101,7 +101,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-47252
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Insufficient escaping of user-supplied data in mod_ssl in Apache HTTP Server 2.4.63 and earlier allows an untrusted SSL/TLS client to insert escape characters into log files in some configurations.
 
@@ -120,7 +120,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23048
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>In some mod_ssl configurations on Apache HTTP Server 2.4.35 through to 2.4.63, an access control bypass by trusted clients is possible using TLS 1.3 session resumption.
 
@@ -139,7 +139,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27889
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Wing FTP Server before 7.4.4 does not properly validate and sanitize the url parameter of the downloadpass.html endpoint, allowing injection of an arbitrary link. If a user clicks a crafted link, this discloses a cleartext password to the attacker.
 <br>
@@ -156,7 +156,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47811
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>In Wing FTP Server through 7.4.4, the administrative web interface (listening by default on port 5466) runs as root or SYSTEM by default. The web application itself offers several legitimate ways to execute arbitrary system commands (i.e., through the web console or the task scheduler), and they are automatically executed in the highest possible privilege context. Because administrative users of the web interface are not necessarily also system administrators, one might argue that this is a privilege escalation. (If a privileged application role is not available to an attacker, CVE-2025-47812 can be leveraged.) NOTE: the vendor reportedly considers this behavior "fine to keep."
 <br>
@@ -173,7 +173,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47812
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>In Wing FTP Server before 7.4.4. the user and admin web interfaces mishandle '\0' bytes, ultimately allowing injection of arbitrary Lua code into user session files. This can be used to execute arbitrary system commands with the privileges of the FTP service (root or SYSTEM by default). This is thus a remote code execution vulnerability that guarantees a total server compromise. This is also exploitable via anonymous FTP accounts.
 <br>
@@ -190,7 +190,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47813
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>loginok.html in Wing FTP Server before 7.4.4 discloses the full local installation path of the application when using a long value in the UID cookie.
 <br>
@@ -207,7 +207,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49462
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Cross-site scripting in certain Zoom Clients  before version 6.4.5 may allow an authenticated user to conduct a disclosure of information via network access.
 <br>
@@ -224,7 +224,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49463
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Insufficient control flow management in certain Zoom Clients for iOS before version 6.4.5 may allow an unauthenticated user to conduct a disclosure of information via network access.
 <br>
@@ -241,7 +241,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49464
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Classic buffer overflow in certain Zoom Clients for Windows may allow an authorised user to conduct a denial of service via network access.
 <br>
@@ -258,7 +258,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49630
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>In certain proxy configurations, a denial of service attack against Apache HTTP Server versions 2.4.26 through to 2.4.63 can be triggered by untrusted clients causing an assertion in mod_proxy_http2.
 
@@ -277,7 +277,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-49812
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>In some mod_ssl configurations on Apache HTTP Server versions through to 2.4.63, an HTTP desynchronisation attack allows a man-in-the-middle attacker to hijack an HTTP session via a TLS upgrade.
 
@@ -296,7 +296,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53020
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Late Release of Memory after Effective Lifetime vulnerability in Apache HTTP Server.
 
@@ -317,7 +317,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7409
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Mobile Shop 1.0 and classified as critical. This issue affects some unknown processing of the file /LoginAsAdmin.php. The manipulation of the argument email leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -334,7 +334,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7410
 <br>
-<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects LifeStyle Store 1.0. It has been classified as critical. Affected is an unknown function of the file /cart_remove.php. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -351,7 +351,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46788
 <br>
-<strong>Published : </strong> July 10, 2025, 4:15 p.m. | 2 hours, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>Improper certificate validation in Zoom Workplace for Linux before version 6.4.13 may allow an unauthorized user to conduct an information disclosure via network access.
 <br>
@@ -368,7 +368,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46789
 <br>
-<strong>Published : </strong> July 10, 2025, 4:15 p.m. | 2 hours, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>Classic buffer overflow in certain Zoom Clients for Windows may allow an authorized user to conduct a denial of service via network access.
 <br>
@@ -385,7 +385,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53364
 <br>
-<strong>Published : </strong> July 10, 2025, 4:15 p.m. | 2 hours, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Starting in 5.3.0 and before 7.5.3 and 8.2.2, the Parse Server GraphQL API previously allowed public access to the GraphQL schema without requiring a session token or the master key. While schema introspection reveals only metadata and not actual data, this metadata can still expand the potential attack surface. This vulnerability is fixed in 7.5.3 and 8.2.2.
 <br>
@@ -402,7 +402,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6395
 <br>
-<strong>Published : </strong> July 10, 2025, 4:15 p.m. | 2 hours, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A NULL pointer dereference flaw was found in the GnuTLS software in _gnutls_figure_common_ciphersuite(). When it reads certain settings from a template file, it can allow an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial of service (DoS) that could crash the system.
 <br>
@@ -419,7 +419,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7365
 <br>
-<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 3 hours, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in Keycloak. When an authenticated attacker attempts to merge accounts with another existing account during an identity provider (IdP) login, the attacker will subsequently be prompted to "review profile" information. This vulnerability allows the attacker to modify their email address to match that of a victim's account, triggering a verification email sent to the victim's email address. The attacker's email address is not present in the verification email content, making it a potential phishing opportunity. If the victim clicks the verification link, the attacker can gain access to the victim's account.
 <br>
@@ -436,7 +436,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7370
 <br>
-<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 3 hours, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in libsoup. A NULL pointer dereference vulnerability occurs in libsoup's cookie parsing functionality. When processing a cookie without a domain parameter, the soup_cookie_jar_add_cookie() function will crash, resulting in a denial of service.
 <br>
@@ -453,7 +453,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7408
 <br>
-<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 3 hours, 23 minutes ago
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in SourceCodester Zoo Management System 1.0 and classified as problematic. This vulnerability affects unknown code of the file /admin/templates/animal_form_template.php. The manipulation of the argument msg leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
