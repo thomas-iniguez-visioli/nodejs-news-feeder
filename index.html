@@ -179,6 +179,656 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-2520 - Honeywell Experion PKS Uninitialized Variable Denial of Service
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-2520
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>The Honeywell Experion PKS contains an Uninitialized Variable in the common Epic Platform Analyzer (EPA) communications. An attacker could potentially exploit this vulnerability, leading to a Communication Channel Manipulation, which results in a dereferencing of an uninitialized pointer leading to a denial of service.
+
+
+
+Honeywell recommends updating to the most recent version of 
+
+Honeywell Experion PKS: 520.2 TCU9 HF1and 530.1 TCU3 HF1. The affected Experion PKS products are 
+
+C300 PCNT02, EHB, EHPM, ELMM, Classic ENIM, ETN, FIM4, FIM8, PGM, and RFIM.  The Experion PKS versions affected are from 520.1 through 520.2 TCU9 and from 530 through 530 TCU3.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2520">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34093 - Polycom HDX Series Telnet Command Shell Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34093
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>An authenticated command injection vulnerability exists in the Polycom HDX Series command shell interface accessible over Telnet. The lan traceroute command in the devcmds console accepts unsanitized input, allowing attackers to execute arbitrary system commands. By injecting shell metacharacters through the traceroute interface, an attacker can achieve remote code execution under the context of the root user. This flaw affects systems where Telnet access is enabled and either unauthenticated access is allowed or credentials are known.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34093">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34095 - Mako Server OS Command Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34095
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>An OS command injection vulnerability exists in Mako Server versions 2.5 and 2.6, specifically within the tutorial interface provided by the examples/save.lsp endpoint. An unauthenticated attacker can send a crafted PUT request containing arbitrary Lua os.execute() code, which is then persisted on disk and triggered via a subsequent GET request to examples/manage.lsp. This allows remote command execution on the underlying operating system, impacting both Windows and Unix-based deployments.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34095">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34096 - Easy File Sharing HTTP Server HTTP Stack Buffer Overflow
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34096
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A stack-based buffer overflow vulnerability exists in Easy File Sharing HTTP Server version 7.2. The flaw is triggered when a crafted POST request is sent to the /sendemail.ghp endpoint containing an overly long Email parameter. The application fails to properly validate the length of this field, resulting in a memory corruption condition. An unauthenticated remote attacker can exploit this to execute arbitrary code with the privileges of the server process.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34096">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34097 - ProcessMaker Unrestricted File Upload Vulnerability (Remote Code Execution)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34097
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>An unrestricted file upload vulnerability exists in ProcessMaker versions prior to 3.5.4 due to improper handling of uploaded plugin archives. An attacker with administrative privileges can upload a malicious .tar plugin file containing arbitrary PHP code. Upon installation, the plugin’s install() method is invoked, resulting in execution of attacker-supplied PHP code on the server with the privileges of the web server user. This vulnerability can be chained with CVE-2022-38577 — a privilege escalation flaw in the user profile page — to achieve full remote code execution from a low-privileged account.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34097">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34098 - Riverbed SteelHead VCX Path Traversal Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34098
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A path traversal vulnerability exists in Riverbed SteelHead VCX appliances (confirmed in VCX255U 9.6.0a) due to improper input validation in the log filtering functionality exposed via the management web interface. An authenticated attacker can exploit this flaw by submitting crafted filter expressions to the log_filter endpoint using the filterStr parameter. This input is processed by a backend parser that permits execution of file expansion syntax, allowing the attacker to retrieve arbitrary system files via the log viewing interface.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34098">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34099 - &#34;VICIdial Command Injection Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34099
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated command injection vulnerability exists in VICIdial versions 2.9 RC1 through 2.13 RC1, within the vicidial_sales_viewer.php component when password encryption is enabled (a non-default configuration). The application improperly passes the HTTP Basic Authentication password directly to a call to exec() without adequate sanitation. This allows remote attackers to inject and execute arbitrary operating system commands as the web server user.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34099">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34100 - BuilderEngine Unauthenticated Remote Code Execution via Unrestricted File Upload
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34100
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>An unrestricted file upload vulnerability exists in BuilderEngine 3.5.0 via the integration of the elFinder 2.0 file manager and its use of the jQuery File Upload plugin. The plugin fails to properly validate or restrict file types or locations during upload operations, allowing an attacker to upload a malicious .php file and subsequently execute arbitrary PHP code on the server under the context of the web server process. While the root vulnerability lies within the jQuery File Upload component, BuilderEngine’s improper integration and lack of access controls expose this functionality to unauthenticated users, resulting in full remote code execution.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34100">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34101 - Serviio Media Server Unauthenticated Command Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34101
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated command injection vulnerability exists in Serviio Media Server versions 1.4 through 1.8 on Windows, in the /rest/action API endpoint exposed by the console component (default port 23423). The checkStreamUrl method accepts a VIDEO parameter that is passed unsanitized to a call to cmd.exe, enabling arbitrary command execution under the privileges of the web server. No authentication is required to exploit this issue, as the REST API is exposed by default and lacks access controls.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34101">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-34102 - &#34;CryptoLog PHP Remote Code Execution via Chained SQL Injection and Command Injection&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-34102
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A remote code execution vulnerability exists in CryptoLog (PHP version, discontinued since 2009) due to a chained exploitation of SQL injection and command injection vulnerabilities. An unauthenticated attacker can gain shell access as the web server user by first exploiting a SQL injection flaw in login.php to bypass authentication, followed by command injection in logshares_ajax.php to execute arbitrary operating system commands.
+
+
+The login bypass is achieved by submitting crafted SQL via the user POST parameter. Once authenticated, the attacker can abuse the lsid POST parameter in the logshares_ajax.php endpoint to inject and execute a command using $(...) syntax, resulting in code execution under the web context.
+
+
+This exploitation path does not exist in the ASP.NET version of CryptoLog released since 2009.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-34102">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-45662 - Mpgram Web XSS Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-45662
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A cross-site scripting (XSS) vulnerability in the component /master/login.php of mpgram-web commit 94baadb allows attackers to execute arbitrary Javascript in the context of a user's browser via a crafted payload.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-45662">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53506 - Apache Tomcat HTTP/2 Uncontrolled Resource Consumption Denial of Service
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53506
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Uncontrolled Resource Consumption vulnerability in Apache Tomcat if an HTTP/2 client did not acknowledge the initial settings frame that reduces the maximum permitted concurrent streams.
+
+This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.8, from 10.1.0-M1 through 10.1.42, from 9.0.0.M1 through 9.0.106.
+
+Users are recommended to upgrade to version 11.0.9, 10.1.43 or 9.0.107, which fix the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53506">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53628 - cpp-httplib Unbounded Line Memory Allocation Buffer Overflow
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53628
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>cpp-httplib is a C++11 single-file header-only cross platform HTTP/HTTPS library. Prior to 0.20.1, cpp-httplib does not have a limit for a unique line, permitting an attacker to explore this to allocate memory arbitrarily. This vulnerability is fixed in 0.20.1. NOTE: This vulnerability is related to CVE-2025-53629.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53628">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53629 - cpp-httplib Chunked Request Memory Exhaustion Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53629
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>cpp-httplib is a C++11 single-file header-only cross platform HTTP/HTTPS library. Prior to 0.23.0, incoming requests using Transfer-Encoding: chunked in the header can allocate memory arbitrarily in the server, potentially leading to its exhaustion. This vulnerability is fixed in 0.23.0. NOTE: This vulnerability is related to CVE-2025-53628.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53629">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53630 - LLama Integer Overflow Leads to Heap Out-of-Bounds Read/Write
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53630
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>llama.cpp is an inference of several LLM models in C/C++. Integer Overflow in the gguf_init_from_file_impl function in ggml/src/gguf.cpp can lead to Heap Out-of-Bounds Read/Write. This vulnerability is fixed in commit 26a48ad699d50b6268900062661bd22f3e792579.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53630">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53632 - Chall-Manager Zip Slip Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53632
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. When decoding a scenario (i.e. a zip archive), the path of the file to write is not checked, potentially leading to zip slips. Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 47d188f and shipped in v0.1.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53632">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53633 - Chall-Manager Zip Bomb Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53633
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. When decoding a scenario (i.e. a zip archive), the size of the decoded content is not checked, potentially leading to zip bombs decompression. Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 14042aa and shipped in v0.1.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53633">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53634 - Chall-Manager Unauthenticated HTTP Gateway Slow Loris Denial of Service
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53634
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Chall-Manager is a platform-agnostic system able to start Challenges on Demand of a player. The HTTP Gateway processes headers, but with no timeout set. With a slow loris attack, an attacker could cause Denial of Service (DoS). Exploitation does not require authentication nor authorization, so anyone can exploit it. It should nonetheless not be exploitable as it is highly recommended to bury Chall-Manager deep within the infrastructure due to its large capabilities, so no users could reach the system. Patch has been implemented by commit 1385bd8 and shipped in v0.1.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53634">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7021 - OpenAI Operator SaaS Fullscreen API Spoofing and UI Redressing
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7021
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Fullscreen API Spoofing and UI Redressing in the handling of Fullscreen API and UI rendering in OpenAI Operator SaaS on Web allows a remote attacker to capture sensitive user input (e.g., login credentials, email addresses) via displaying a deceptive fullscreen interface with overlaid fake browser controls and a distracting element (like a cookie consent screen) to obscure fullscreen notifications, tricking the user into interacting with the malicious site.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7021">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7412 - &#34;Code-Projects Library System Unrestricted File Upload Vulnerability&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7412
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Library System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /user/student/profile.php. The manipulation of the argument image leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7412">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7413 - Code-projects Library System Unrestricted File Upload Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7413
+<br>
+<strong>Published : </strong> July 10, 2025, 8:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Library System 1.0. This affects an unknown part of the file /user/teacher/profile.php. The manipulation of the argument image leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 20:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7413">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53625 - MediaWiki DynamicPageList3 Username Information Disclosure Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53625
+<br>
+<strong>Published : </strong> July 10, 2025, 7:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>The DynamicPageList3 extension is a reporting tool for MediaWiki, listing category members and intersections with various formats and details. Several #dpl parameters can leak usernames that have been hidden using revision deletion, suppression, or the hideuser block flag. The vulnerability is fixed in 3.6.4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 19:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53625">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53626 - Pdfme Expression Evaluation Sandbox Escape and Prototype Pollution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53626
+<br>
+<strong>Published : </strong> July 10, 2025, 7:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>pdfme is a TypeScript-based PDF generator and React-based UI. The expression evaluation feature in pdfme 5.2.0 to 5.4.0 contains critical vulnerabilities allowing sandbox escape leading to XSS and prototype pollution attacks. This vulnerability is fixed in 5.4.1.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 19:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53626">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53709 - &#34;Apache Secure-Upload Token Validation Bypass, Privilege Escalation, and Information Disclosure Vulnerabilities&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53709
+<br>
+<strong>Published : </strong> July 10, 2025, 7:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>Secure-upload is a data submission service that validates single-use tokens when accepting submissions to channels. The service only installed on a small number of environments.
+
+Under specific circumstances, privileged users of secure-upload could have selected email templates not necessarily created for their enrollment when sending data upload requests.
+Authenticated and privileged users of one enrollment could have abused an endpoint to redirect existing submission channels to a dataset they control.
+An endpoint handling domain validation allowed unauthenticated users to enumerate existing enrollments.
+Finally, other endpoints allowed enumerating if a resource with a known RID exists across enrollments.
+
+The affected service has been patched with version 0.815.0 and automatically deployed to all Apollo-managed Foundry instances.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 19:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53709">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7411 - Code-projects LifeStyle Store SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7411
+<br>
+<strong>Published : </strong> July 10, 2025, 7:15 p.m. | 1 hour, 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects LifeStyle Store 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /success.php. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Thu, 10 Jul 2025 19:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7411">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-28243 - Alteryx Server HTML Injection Vulnerability
                         </h3>
                         <p>
@@ -481,113 +1131,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Thu, 10 Jul 2025 19:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53549">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53625 - MediaWiki DynamicPageList3 Username Information Disclosure Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53625
-<br>
-<strong>Published : </strong> July 10, 2025, 7:15 p.m. | 1 hour, 12 minutes ago
-<br>
-<strong>Description : </strong>The DynamicPageList3 extension is a reporting tool for MediaWiki, listing category members and intersections with various formats and details. Several #dpl parameters can leak usernames that have been hidden using revision deletion, suppression, or the hideuser block flag. The vulnerability is fixed in 3.6.4.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 19:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53625">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53626 - Pdfme Expression Evaluation Sandbox Escape and Prototype Pollution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53626
-<br>
-<strong>Published : </strong> July 10, 2025, 7:15 p.m. | 1 hour, 12 minutes ago
-<br>
-<strong>Description : </strong>pdfme is a TypeScript-based PDF generator and React-based UI. The expression evaluation feature in pdfme 5.2.0 to 5.4.0 contains critical vulnerabilities allowing sandbox escape leading to XSS and prototype pollution attacks. This vulnerability is fixed in 5.4.1.
-<br>
-<strong>Severity:</strong> 6.1 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 19:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53626">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53709 - &#34;Apache Secure-Upload Token Validation Bypass, Privilege Escalation, and Information Disclosure Vulnerabilities&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53709
-<br>
-<strong>Published : </strong> July 10, 2025, 7:15 p.m. | 1 hour, 12 minutes ago
-<br>
-<strong>Description : </strong>Secure-upload is a data submission service that validates single-use tokens when accepting submissions to channels. The service only installed on a small number of environments.
-
-Under specific circumstances, privileged users of secure-upload could have selected email templates not necessarily created for their enrollment when sending data upload requests.
-Authenticated and privileged users of one enrollment could have abused an endpoint to redirect existing submission channels to a dataset they control.
-An endpoint handling domain validation allowed unauthenticated users to enumerate existing enrollments.
-Finally, other endpoints allowed enumerating if a resource with a known RID exists across enrollments.
-
-The affected service has been patched with version 0.815.0 and automatically deployed to all Apollo-managed Foundry instances.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 19:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53709">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7411 - Code-projects LifeStyle Store SQL Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7411
-<br>
-<strong>Published : </strong> July 10, 2025, 7:15 p.m. | 1 hour, 12 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects LifeStyle Store 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /success.php. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Thu, 10 Jul 2025 19:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7411">
                                 read more
                             </a>
                     </article>
