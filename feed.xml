@@ -8,18 +8,290 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 10 Jul 2025 15:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 16:24:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-37524 - IBM Analytics Content Hub Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-37524
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>IBM Analytics Content Hub 2.0, 2.1, 2.2, and 2.3 could allow a remote attacker to obtain sensitive information when a detailed technical error message is returned in the browser.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-37524</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-37524</guid>
+    </item>
+    <item>
+      <title>CVE-2024-38327 - IBM Analytics Content Hub Exposed JavaScript Source Map Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-38327
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>IBM Analytics Content Hub 2.0, 2.1, 2.2, and 2.3 is vulnerable to information exposure and further attacks due to an exposed JavaScript source map which could assist an attacker to read and debug JavaScript used in the application's API.
+<br>
+<strong>Severity:</strong> 6.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-38327</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-38327</guid>
+    </item>
+    <item>
+      <title>CVE-2024-39752 - IBM Analytics Content Hub File Upload Vulnerability (Remote Code Execution)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-39752
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>IBM Analytics Content Hub 2.0, 2.1, 2.2, and 2.3 could be vulnerable to malicious file upload by not validating the type of file uploaded to Explore Content. Attackers can make use of this weakness and upload malicious executable files into the system, and it can be sent to victim for performing further attacks.
+<br>
+<strong>Severity:</strong> 6.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-39752</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-39752</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27613 - Gitk File Truncation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27613
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Gitk is a Tcl/Tk based Git history browser. Starting with 1.7.0, when a user clones an untrusted repository and runs gitk without additional command arguments, files for which the user has write permission can be created and truncated. The option Support per-file encoding must have been enabled before in Gitk's Preferences. This option is disabled by default. The same happens when Show origin of this line is used in the main window (regardless of whether Support per-file encoding is enabled or not). This vulnerability is fixed in 2.43.7, 2.44.4, 2.45.4, 2.46.4, 2.47.3, 2.48.2, 2.49.1, and 2.50.1.
+<br>
+<strong>Severity:</strong> 3.6 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27613</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27613</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27614 - Gitk Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27614
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Gitk is a Tcl/Tk based Git history browser. Starting with 2.41.0, a Git repository can be crafted in such a way that with some social engineering a user who has cloned the repository can be tricked into running any script (e.g., Bourne shell, Perl, Python, ...) supplied by the attacker by invoking gitk filename, where filename has a particular structure. The script is run with the privileges of the user. This vulnerability is fixed in 2.43.7, 2.44.4, 2.45.4, 2.46.4, 2.47.3, 2.48.2, 2.49.1, and 2.50.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27614</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27614</guid>
+    </item>
+    <item>
+      <title>CVE-2025-36090 - IBM Analytics Content Hub Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-36090
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>IBM Analytics Content Hub 2.0, 2.1, 2.2, and 2.3 could allow a remote attacker to obtain information about the application framework which could be used in reconnaissance to gather information for future attacks from a detailed technical error message.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-36090</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-36090</guid>
+    </item>
+    <item>
+      <title>CVE-2025-44251 - Ecovacs Deebot Wi-Fi Credential Transmission Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-44251
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Ecovacs Deebot T10 1.7.2 transmits Wi-Fi credentials in cleartext during the pairing process.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-44251</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-44251</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46334 - Git GUI Path Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46334
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Git GUI allows you to use the Git source control management tools via a GUI. A malicious repository can ship versions of sh.exe or typical textconv filter programs such as astextplain. Due to the unfortunate design of Tcl on Windows, the search path when looking for an executable always includes the current directory. The mentioned programs are invoked when the user selects Git Bash or Browse Files from the menu. This vulnerability is fixed in 2.43.7, 2.44.4, 2.45.4, 2.46.4, 2.47.3, 2.48.2, 2.49.1, and 2.50.1.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46334</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46334</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46835 - Git GUI Directory Traversal Write Permission Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46835
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>Git GUI allows you to use the Git source control management tools via a GUI. When a user clones an untrusted repository and is tricked into editing a file located in a maliciously named directory in the repository, then Git GUI can create and overwrite files for which the user has write permission. This vulnerability is fixed in 2.43.7, 2.44.4, 2.45.4, 2.46.4, 2.47.3, 2.48.2, 2.49.1, and 2.50.1.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46835</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46835</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7365 - Keycloak Email Hijacking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7365
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A flaw was found in Keycloak. When an authenticated attacker attempts to merge accounts with another existing account during an identity provider (IdP) login, the attacker will subsequently be prompted to "review profile" information. This vulnerability allows the attacker to modify their email address to match that of a victim's account, triggering a verification email sent to the victim's email address. The attacker's email address is not present in the verification email content, making it a potential phishing opportunity. If the victim clicks the verification link, the attacker can gain access to the victim's account.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7365</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7365</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7370 - Libsoup Cookie Parsing NULL Pointer Dereference Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7370
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A flaw was found in libsoup. A NULL pointer dereference vulnerability occurs in libsoup's cookie parsing functionality. When processing a cookie without a domain parameter, the soup_cookie_jar_add_cookie() function will crash, resulting in a denial of service.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7370</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7370</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7408 - SourceCodester Zoo Management System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7408
+<br>
+<strong>Published : </strong> July 10, 2025, 3:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in SourceCodester Zoo Management System 1.0 and classified as problematic. This vulnerability affects unknown code of the file /admin/templates/animal_form_template.php. The manipulation of the argument msg leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7408</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7408</guid>
+    </item>
+    <item>
+      <title>CVE-2024-36697 - Allworx System Software Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-36697
+<br>
+<strong>Published : </strong> July 10, 2025, 2:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A cross-site scripting (XSS) vulnerability in the Admin Login page of Allworx System Software v9.1.9.12 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the SessionID parameter at query.asp.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-36697</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-36697</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7407 - Netgear D6400 OS Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7407
+<br>
+<strong>Published : </strong> July 10, 2025, 2:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Netgear D6400 1.0.0.114. This affects an unknown part of the file diag.cgi. The manipulation of the argument host_name leads to os command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early and confirmed the existence of the vulnerability. They reacted very quickly, professional and kind. This vulnerability only affects products that are no longer supported by the maintainer.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7407</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7407</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7424 - "Libxslt Type Confusion Memory Corruption Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7424
+<br>
+<strong>Published : </strong> July 10, 2025, 2:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A flaw was found in the libxslt library. The same memory field, psvi, is used for both stylesheet and input data, which can lead to type confusion during XML transformations. This vulnerability allows an attacker to crash the application or corrupt memory. In some cases, it may lead to denial of service or unexpected behavior.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7424</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7424</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7425 - Libxslt Heap Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7425
+<br>
+<strong>Published : </strong> July 10, 2025, 2:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A flaw was found in libxslt where the attribute type, atype, flags are modified in a way that corrupts internal memory management. When XSLT functions, such as the key() process, result in tree fragments, this corruption prevents the proper cleanup of ID attributes. As a result, the system may access freed memory, causing crashes or enabling attackers to trigger heap corruption.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7425</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7425</guid>
+    </item>
+    <item>
       <title>CVE-2025-6211 - "DocugamiReader MD5 Hash Collision Vulnerability"</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6211
 <br>
-<strong>Published : </strong> July 10, 2025, 1:15 p.m. | 1 hour, 12 minutes ago
+<strong>Published : </strong> July 10, 2025, 1:15 p.m. | 3 hours ago
 <br>
 <strong>Description : </strong>A vulnerability in the DocugamiReader class of the run-llama/llama_index repository, up to version 0.12.28, involves the use of MD5 hashing to generate IDs for document chunks. This approach leads to hash collisions when structurally distinct chunks contain identical text, resulting in one chunk overwriting another. This can cause loss of semantically or legally important document content, breakage of parent-child chunk hierarchies, and inaccurate or hallucinated responses in AI outputs. The issue is resolved in version 0.3.1.
 <br>
@@ -36,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5037
 <br>
-<strong>Published : </strong> July 10, 2025, 12:15 p.m. | 2 hours, 12 minutes ago
+<strong>Published : </strong> July 10, 2025, 12:15 p.m. | 4 hours ago
 <br>
 <strong>Description : </strong>A maliciously crafted RFA file, when parsed through Autodesk Revit, can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.
 <br>
@@ -53,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5040
 <br>
-<strong>Published : </strong> July 10, 2025, 12:15 p.m. | 2 hours, 12 minutes ago
+<strong>Published : </strong> July 10, 2025, 12:15 p.m. | 4 hours ago
 <br>
 <strong>Description : </strong>A maliciously crafted RTE file, when parsed through Autodesk Revit, can force a Heap-Based Overflow vulnerability. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.
 <br>
@@ -77,7 +349,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-7650
 <br>
-<strong>Published : </strong> July 10, 2025, 10:15 a.m. | 4 hours, 11 minutes ago
+<strong>Published : </strong> July 10, 2025, 10:15 a.m. | 6 hours ago
 <br>
 <strong>Description : </strong>Improper Control of Generation of Code ('Code Injection') vulnerability in OpenText™ Directory Services allows Remote Code Inclusion. The
 vulnerability could allow access to the system via script injection.This issue affects Directory Services: 23.4.
@@ -95,7 +367,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32990
 <br>
-<strong>Published : </strong> July 10, 2025, 10:15 a.m. | 4 hours, 11 minutes ago
+<strong>Published : </strong> July 10, 2025, 10:15 a.m. | 6 hours ago
 <br>
 <strong>Description : </strong>A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.
 <br>
@@ -106,6 +378,74 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 10 Jul 2025 10:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-32990</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-32990</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5022 - Mitsubishi Electric Corporation EcoGuideTAB PV-DR004J/PV-DR004JA Wi-Fi Password Derivation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5022
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 7 hours ago
+<br>
+<strong>Description : </strong>Weak Password Requirements vulnerability in Mitsubishi Electric Corporation photovoltaic system monitor “EcoGuideTAB” PV-DR004J all versions and PV-DR004JA all versions allows an attacker within the Wi-Fi communication range between the units of the product (measurement unit and display unit) to derive the password from the SSID. However, the product is not affected by this vulnerability when it remains unused for a certain period of time (default: 5 minutes) and enters the power-saving mode with the display unit's LCD screen turned off. The affected products discontinued in 2015, support ended in 2020.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5022</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5022</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5023 - Mitsubishi Electric Corporation EcoGuideTAB Photovoltaic System Monitor Hard-coded Credentials Backdoor</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5023
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 7 hours ago
+<br>
+<strong>Description : </strong>Use of Hard-coded Credentials vulnerability in Mitsubishi Electric Corporation photovoltaic system monitor “EcoGuideTAB” PV-DR004J all versions and PV-DR004JA all versions allows an attacker within the Wi-Fi communication range between the units of the product (measurement unit and display unit) to disclose information such as generated power and electricity sold back to the grid stored in the product, tamper with or destroy stored or configured information in the product, or cause a Denial-of-Service (DoS) condition on the product, by using hardcoded user ID and password common to the product series obtained by exploiting CVE-2025-5022. However, the product is not affected by this vulnerability when it remains unused for a certain period of time (default: 5 minutes) and enters the power-saving mode with the display unit's LCD screen turned off. The affected products discontinued in 2015, support ended in 2020.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5023</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5023</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6168 - GitLab EE Group-level User Invitation Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6168
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 7 hours ago
+<br>
+<strong>Description : </strong>An issue has been discovered in GitLab EE affecting all versions from 18.0 before 18.0.4 and 18.1 before 18.1.2 that could have allowed authenticated maintainers to bypass group-level user invitation restrictions by sending crafted API requests.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6168</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6168</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6948 - GitLab Cross-Site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6948
+<br>
+<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 7 hours ago
+<br>
+<strong>Description : </strong>An issue has been discovered in GitLab CE/EE affecting all versions from 17.11 before 17.11.6, 18.0 before 18.0.4, and 18.1 before 18.1.2 that, under certain conditions, could have allowed a successful attacker to execute actions on behalf of users by injecting malicious content.
+<br>
+<strong>Severity:</strong> 8.7 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6948</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6948</guid>
     </item>
     <item>
       <title>CVE-2025-38335 - Linux Kernel gpio-keys Soft Lockup Vulnerability</title>
@@ -869,74 +1209,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-4972</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-4972</guid>
-    </item>
-    <item>
-      <title>CVE-2025-5022 - Mitsubishi Electric Corporation EcoGuideTAB PV-DR004J/PV-DR004JA Wi-Fi Password Derivation Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-5022
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>Weak Password Requirements vulnerability in Mitsubishi Electric Corporation photovoltaic system monitor “EcoGuideTAB” PV-DR004J all versions and PV-DR004JA all versions allows an attacker within the Wi-Fi communication range between the units of the product (measurement unit and display unit) to derive the password from the SSID. However, the product is not affected by this vulnerability when it remains unused for a certain period of time (default: 5 minutes) and enters the power-saving mode with the display unit's LCD screen turned off. The affected products discontinued in 2015, support ended in 2020.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-5022</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5022</guid>
-    </item>
-    <item>
-      <title>CVE-2025-5023 - Mitsubishi Electric Corporation EcoGuideTAB Photovoltaic System Monitor Hard-coded Credentials Backdoor</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-5023
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>Use of Hard-coded Credentials vulnerability in Mitsubishi Electric Corporation photovoltaic system monitor “EcoGuideTAB” PV-DR004J all versions and PV-DR004JA all versions allows an attacker within the Wi-Fi communication range between the units of the product (measurement unit and display unit) to disclose information such as generated power and electricity sold back to the grid stored in the product, tamper with or destroy stored or configured information in the product, or cause a Denial-of-Service (DoS) condition on the product, by using hardcoded user ID and password common to the product series obtained by exploiting CVE-2025-5022. However, the product is not affected by this vulnerability when it remains unused for a certain period of time (default: 5 minutes) and enters the power-saving mode with the display unit's LCD screen turned off. The affected products discontinued in 2015, support ended in 2020.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-5023</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5023</guid>
-    </item>
-    <item>
-      <title>CVE-2025-6168 - GitLab EE Group-level User Invitation Bypass Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-6168
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>An issue has been discovered in GitLab EE affecting all versions from 18.0 before 18.0.4 and 18.1 before 18.1.2 that could have allowed authenticated maintainers to bypass group-level user invitation restrictions by sending crafted API requests.
-<br>
-<strong>Severity:</strong> 2.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-6168</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6168</guid>
-    </item>
-    <item>
-      <title>CVE-2025-6948 - GitLab Cross-Site Scripting (XSS) Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-6948
-<br>
-<strong>Published : </strong> July 10, 2025, 9:15 a.m. | 5 hours, 11 minutes ago
-<br>
-<strong>Description : </strong>An issue has been discovered in GitLab CE/EE affecting all versions from 17.11 before 17.11.6, 18.0 before 18.0.4, and 18.1 before 18.1.2 that, under certain conditions, could have allowed a successful attacker to execute actions on behalf of users by injecting malicious content.
-<br>
-<strong>Severity:</strong> 8.7 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 10 Jul 2025 09:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-6948</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6948</guid>
     </item>
     <item>
       <title>CVE-2025-38332 - IBM lpfc String Buffer Overflow Vulnerability</title>
