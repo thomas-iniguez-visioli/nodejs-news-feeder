@@ -128,12 +128,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-30/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-01/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-02/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-10/
-https://cvefeed.io/vuln/detail/CVE-2025-53848
-https://cvefeed.io/vuln/detail/CVE-2025-53849
-https://cvefeed.io/vuln/detail/CVE-2025-53850
-https://cvefeed.io/vuln/detail/CVE-2025-53851
-https://cvefeed.io/vuln/detail/CVE-2025-53852
-https://cvefeed.io/vuln/detail/CVE-2025-7436
 https://cvefeed.io/vuln/detail/CVE-2025-7401
 https://cvefeed.io/vuln/detail/CVE-2025-2942
 https://cvefeed.io/vuln/detail/CVE-2025-30023
@@ -153,6 +147,12 @@ https://cvefeed.io/vuln/detail/CVE-2025-7442
 https://cvefeed.io/vuln/detail/CVE-2025-6438
 https://cvefeed.io/vuln/detail/CVE-2025-6838
 https://cvefeed.io/vuln/detail/CVE-2025-6851
+https://cvefeed.io/vuln/detail/CVE-2025-3933
+https://cvefeed.io/vuln/detail/CVE-2025-50121
+https://cvefeed.io/vuln/detail/CVE-2025-50122
+https://cvefeed.io/vuln/detail/CVE-2025-50123
+https://cvefeed.io/vuln/detail/CVE-2025-50124
+https://cvefeed.io/vuln/detail/CVE-2025-50125
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
@@ -1835,12 +1835,6 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
-CVE-2025-53848 - Apache HTTP Server Cross-Site Request Forgery
-CVE-2025-53849 - Apache HTTP Server Remote Code Execution
-CVE-2025-53850 - OpenVAS Scanner Not Used
-CVE-2025-53851 - "Apache Struts Unvalidated Deserialization"
-CVE-2025-53852 - Apache HTTP Server Remote Code Execution
-CVE-2025-7436 - Campcodes Online Recruitment Management System SQL Injection Vulnerability
 CVE-2025-7401 - WordPress Premium Age Verification/Restriction Remote File Read/Write Vulnerability
 CVE-2025-2942 - WordPress Order Delivery Date Information Disclosure Vulnerability
 CVE-2025-30023 - Apache Server Remote Code Execution Vulnerability
@@ -1860,6 +1854,12 @@ CVE-2025-7442 - "Wordpress Gym Management System SQL Injection Vulnerability"
 CVE-2025-6438 - Apache SOAP XML External Entity Reference Vulnerability
 CVE-2025-6838 - WordPress Broken Link Notifier CSV Injection Vulnerability
 CVE-2025-6851 - "WordPress Broken Link Notifier SSRF"
+CVE-2025-3933 - Hugging Face Transformers DonutProcessor ReDoS Vulnerability
+CVE-2025-50121 - Apache HTTP Server OS Command Injection
+CVE-2025-50122 - OpenSSH Root Password Discovery Vulnerability
+CVE-2025-50123 - Juniper Networks Code Injection Vulnerability
+CVE-2025-50124 - Apache Server Privilege Escalation Vulnerability
+CVE-2025-50125 - Apache Server-Side Request Forgery (SSRF) Remote Code Execution
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
@@ -1880,6 +1880,12 @@ Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
+CVE-2025-53848 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-53849 - Apache HTTP Server Remote Code Execution
+CVE-2025-53850 - OpenVAS Scanner Not Used
+CVE-2025-53851 - "Apache Struts Unvalidated Deserialization"
+CVE-2025-53852 - Apache HTTP Server Remote Code Execution
+CVE-2025-7436 - Campcodes Online Recruitment Management System SQL Injection Vulnerability
 CVE-2025-53864 - Connect2id Nimbus JOSE+JWT Denial of Service Recursive JSON Object Vulnerability
 CVE-2025-7435 - LiveHelperChat lhc-php-resque Extension Cross-Site Scripting Vulnerability
 CVE-2025-7434 - Tenda FH451 Stack-Based Buffer Overflow Vulnerability
