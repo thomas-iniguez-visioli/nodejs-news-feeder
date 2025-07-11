@@ -125,15 +125,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-30/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-01/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-02/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-10/
-https://cvefeed.io/vuln/detail/CVE-2025-34098
-https://cvefeed.io/vuln/detail/CVE-2025-34099
-https://cvefeed.io/vuln/detail/CVE-2025-34100
-https://cvefeed.io/vuln/detail/CVE-2025-34101
-https://cvefeed.io/vuln/detail/CVE-2025-34102
-https://cvefeed.io/vuln/detail/CVE-2025-45662
-https://cvefeed.io/vuln/detail/CVE-2025-53506
-https://cvefeed.io/vuln/detail/CVE-2025-53628
-https://cvefeed.io/vuln/detail/CVE-2025-53629
 https://cvefeed.io/vuln/detail/CVE-2025-53630
 https://cvefeed.io/vuln/detail/CVE-2025-53632
 https://cvefeed.io/vuln/detail/CVE-2025-53633
@@ -150,6 +141,15 @@ https://cvefeed.io/vuln/detail/CVE-2025-4662
 https://cvefeed.io/vuln/detail/CVE-2025-6390
 https://cvefeed.io/vuln/detail/CVE-2025-7414
 https://cvefeed.io/vuln/detail/CVE-2025-7415
+https://cvefeed.io/vuln/detail/CVE-2025-24798
+https://cvefeed.io/vuln/detail/CVE-2025-53637
+https://cvefeed.io/vuln/detail/CVE-2025-6392
+https://cvefeed.io/vuln/detail/CVE-2025-7416
+https://cvefeed.io/vuln/detail/CVE-2025-7417
+https://cvefeed.io/vuln/detail/CVE-2025-1727
+https://cvefeed.io/vuln/detail/CVE-2025-31267
+https://cvefeed.io/vuln/detail/CVE-2025-7418
+https://cvefeed.io/vuln/detail/CVE-2025-7419
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
@@ -1771,15 +1771,6 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
-CVE-2025-34098 - Riverbed SteelHead VCX Path Traversal Vulnerability
-CVE-2025-34099 - "VICIdial Command Injection Vulnerability"
-CVE-2025-34100 - BuilderEngine Unauthenticated Remote Code Execution via Unrestricted File Upload
-CVE-2025-34101 - Serviio Media Server Unauthenticated Command Injection Vulnerability
-CVE-2025-34102 - "CryptoLog PHP Remote Code Execution via Chained SQL Injection and Command Injection"
-CVE-2025-45662 - Mpgram Web XSS Vulnerability
-CVE-2025-53506 - Apache Tomcat HTTP/2 Uncontrolled Resource Consumption Denial of Service
-CVE-2025-53628 - cpp-httplib Unbounded Line Memory Allocation Buffer Overflow
-CVE-2025-53629 - cpp-httplib Chunked Request Memory Exhaustion Vulnerability
 CVE-2025-53630 - LLama Integer Overflow Leads to Heap Out-of-Bounds Read/Write
 CVE-2025-53632 - Chall-Manager Zip Slip Vulnerability
 CVE-2025-53633 - Chall-Manager Zip Bomb Vulnerability
@@ -1796,6 +1787,15 @@ CVE-2025-4662 - Brocade SANnav Plaintext Passphrase Disclosure
 CVE-2025-6390 - Brocade SANnav Password Storage Vulnerability
 CVE-2025-7414 - Tenda O3V2 HTTPd Os Command Injection Vulnerability
 CVE-2025-7415 - Tenda O3V2 HTTPd Command Injection Vulnerability
+CVE-2025-24798 - Meshtastic Route Crash Vulnerability (Denial of Service)
+CVE-2025-53637 - Meshtastic Code Injection Vulnerability
+CVE-2025-6392 - Brocade SANnav Clear Text Database Password Logging Vulnerability
+CVE-2025-7416 - Tenda O3V2 HTTPd Stack-Based Buffer Overflow Vulnerability
+CVE-2025-7417 - Tenda O3V2 HTTPd Stack-Based Buffer Overflow
+CVE-2025-1727 - Amtrak FRED Protocol BCH Checksum Vulnerability
+CVE-2025-31267 - Apple App Store Connect Physical Access Authentication Bypass
+CVE-2025-7418 - Tenda O3V2 HTTPd destIP Stack-Based Buffer Overflow
+CVE-2025-7419 - Tenda O3V2 HTTPd DestIP Stack-Based Buffer Overflow
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
@@ -1816,6 +1816,15 @@ Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
+CVE-2025-34098 - Riverbed SteelHead VCX Path Traversal Vulnerability
+CVE-2025-34099 - "VICIdial Command Injection Vulnerability"
+CVE-2025-34100 - BuilderEngine Unauthenticated Remote Code Execution via Unrestricted File Upload
+CVE-2025-34101 - Serviio Media Server Unauthenticated Command Injection Vulnerability
+CVE-2025-34102 - "CryptoLog PHP Remote Code Execution via Chained SQL Injection and Command Injection"
+CVE-2025-45662 - Mpgram Web XSS Vulnerability
+CVE-2025-53506 - Apache Tomcat HTTP/2 Uncontrolled Resource Consumption Denial of Service
+CVE-2025-53628 - cpp-httplib Unbounded Line Memory Allocation Buffer Overflow
+CVE-2025-53629 - cpp-httplib Chunked Request Memory Exhaustion Vulnerability
 CVE-2025-2520 - Honeywell Experion PKS Uninitialized Variable Denial of Service
 CVE-2025-34093 - Polycom HDX Series Telnet Command Shell Injection Vulnerability
 CVE-2025-34095 - Mako Server OS Command Injection Vulnerability
