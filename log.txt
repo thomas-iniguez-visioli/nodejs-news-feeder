@@ -129,8 +129,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-30/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-01/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-02/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-10/
-https://cvefeed.io/vuln/detail/CVE-2025-53875
-https://cvefeed.io/vuln/detail/CVE-2025-53876
 https://cvefeed.io/vuln/detail/CVE-2025-53877
 https://cvefeed.io/vuln/detail/CVE-2025-53878
 https://cvefeed.io/vuln/detail/CVE-2025-53879
@@ -154,6 +152,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-7468
 https://cvefeed.io/vuln/detail/CVE-2025-7504
 https://cvefeed.io/vuln/detail/CVE-2020-36847
 https://cvefeed.io/vuln/detail/CVE-2025-7518
+https://cvefeed.io/vuln/detail/CVE-2025-7469
+https://cvefeed.io/vuln/detail/CVE-2025-7470
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
@@ -1933,8 +1933,6 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
-CVE-2025-53875 - Apache HTTP Server Cross-Site Request Forgery
-CVE-2025-53876 - Apache HTTP Server Authentication Bypass
 CVE-2025-53877 - Apache Struts Command Injection
 CVE-2025-53878 - Apache HTTP Server Denial of Service
 CVE-2025-53879 - Apache Struts Deserialization Vulnerability
@@ -1958,6 +1956,8 @@ CVE-2025-7468 - "Tenda FH1201 HTTP POST Request Handler Buffer Overflow"
 CVE-2025-7504 - WordPress Friends Plugin PHP Object Injection Vulnerability
 CVE-2020-36847 - WordPress Simple-File-List Remote Code Execution Vulnerability
 CVE-2025-7518 - RSFirewall! WordPress Path Traversal Vulnerability
+CVE-2025-7469 - Campcodes Sales and Inventory System SQL Injection Vulnerability
+CVE-2025-7470 - Campcodes Sales and Inventory System Remote File Upload Vulnerability
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
@@ -1978,6 +1978,8 @@ Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
+CVE-2025-53875 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-53876 - Apache HTTP Server Authentication Bypass
 CVE-2025-53873 - Apache HTTP Server Unvalidated User Input
 CVE-2025-53874 - Apache HTTP Server Authentication Bypass
 CVE-2025-53871 - Apache HTTP Server Remote Command Execution
