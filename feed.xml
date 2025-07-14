@@ -8,18 +8,188 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 14 Jul 2025 14:47:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 15:21:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-7519 - Polkit XML Policy Parsing Out-of-Bounds Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7519
+<br>
+<strong>Published : </strong> July 14, 2025, 2:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A flaw was found in polkit. When processing an XML policy with 32 or more nested elements in depth, an out-of-bounds write can be triggered. This issue can lead to a crash or other unexpected behavior, and arbitrary code execution is not discarded. To exploit this flaw, a high-privilege account is needed as it's required to place the malicious policy file properly.
+<br>
+<strong>Severity:</strong> 6.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7519</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7519</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7607 - Apache Simple Shopping Cart SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7607
+<br>
+<strong>Published : </strong> July 14, 2025, 2:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Simple Shopping Cart 1.0. This issue affects some unknown processing of the file /Customers/save_order.php. The manipulation of the argument order_price leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7607</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7607</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7608 - Apache Code-projects Simple Shopping Cart SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7608
+<br>
+<strong>Published : </strong> July 14, 2025, 2:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Simple Shopping Cart 1.0. Affected is an unknown function of the file /userlogin.php. The manipulation of the argument user_email leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7608</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7608</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7609 - "Code-projects Simple Shopping Cart SQL Injection Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7609
+<br>
+<strong>Published : </strong> July 14, 2025, 2:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in code-projects Simple Shopping Cart 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /register.php. The manipulation of the argument ruser_email leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7609</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7609</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7610 - Apache Code-projects Electricity Billing System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7610
+<br>
+<strong>Published : </strong> July 14, 2025, 2:15 p.m. | 1 hour ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Electricity Billing System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /user/change_password.php. The manipulation of the argument new_password leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7610</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7610</guid>
+    </item>
+    <item>
+      <title>CVE-2025-27582 - One Identity Password Manager Local Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-27582
+<br>
+<strong>Published : </strong> July 14, 2025, 1:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>The Secure Password extension in One Identity Password Manager before 5.14.4 allows local privilege escalation. The issue arises from a flawed security hardening mechanism within the kiosk browser used to display the Password Self-Service site to end users. Specifically, the application attempts to restrict privileged actions by overriding the native window.print() function. However, this protection can be bypassed by an attacker who accesses the Password Self-Service site from the lock screen and navigates to an attacker-controlled webpage via the Help function. By hosting a crafted web page with JavaScript, the attacker can restore and invoke the window.print() function, launching a SYSTEM-privileged print dialog. From this dialog, the attacker can exploit standard Windows functionality - such as the Print to PDF or Add Printer wizard - to spawn a command prompt with SYSTEM privileges. Successful exploitation allows a local attacker (with access to a locked workstation) to gain SYSTEM-level privileges, granting full control over the affected device.
+<br>
+<strong>Severity:</strong> 7.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-27582</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-27582</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7603 - D-Link DI-8100 HTTP Request Handler Stack-Based Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7603
+<br>
+<strong>Published : </strong> July 14, 2025, 1:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability was found in D-Link DI-8100 16.07.26A1. It has been classified as critical. Affected is an unknown function of the file /jingx.asp of the component HTTP Request Handler. The manipulation leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7603</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7603</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7604 - PHPGurukul Hospital Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7604
+<br>
+<strong>Published : </strong> July 14, 2025, 1:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Hospital Management System 4.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /user-login.php. The manipulation of the argument Username leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7604</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7604</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7605 - AVL Rooms SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7605
+<br>
+<strong>Published : </strong> July 14, 2025, 1:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects AVL Rooms 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /profile.php. The manipulation of the argument first_name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7605</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7605</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7606 - AVL Rooms SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7606
+<br>
+<strong>Published : </strong> July 14, 2025, 1:15 p.m. | 2 hours ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects AVL Rooms 1.0. This affects an unknown part of the file /city.php. The manipulation of the argument city leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 13:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7606</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7606</guid>
+    </item>
+    <item>
       <title>CVE-2025-7599 - PHPGurukul Dairy Farm Shop Management System SQL Injection Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7599
 <br>
-<strong>Published : </strong> July 14, 2025, 12:15 p.m. | 1 hour ago
+<strong>Published : </strong> July 14, 2025, 12:15 p.m. | 3 hours, 1 minute ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in PHPGurukul Dairy Farm Shop Management System 1.3. Affected by this issue is some unknown functionality of the file /invoice.php. The manipulation of the argument del leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -36,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7600
 <br>
-<strong>Published : </strong> July 14, 2025, 12:15 p.m. | 1 hour ago
+<strong>Published : </strong> July 14, 2025, 12:15 p.m. | 3 hours ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Online Library Management System 3.0. This affects an unknown part of the file /admin/student-history.php. The manipulation of the argument stdid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7601
 <br>
-<strong>Published : </strong> July 14, 2025, 12:15 p.m. | 1 hour ago
+<strong>Published : </strong> July 14, 2025, 12:15 p.m. | 3 hours ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in PHPGurukul Online Library Management System 3.0 and classified as problematic. This vulnerability affects unknown code of the file /admin/student-history.php. The manipulation of the argument stdid leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -70,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7602
 <br>
-<strong>Published : </strong> July 14, 2025, 12:15 p.m. | 1 hour ago
+<strong>Published : </strong> July 14, 2025, 12:15 p.m. | 3 hours ago
 <br>
 <strong>Description : </strong>A vulnerability was found in D-Link DI-8100 16.07.26A1 and classified as critical. This issue affects some unknown processing of the file /arp_sys.asp of the component HTTP Request Handler. The manipulation leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -87,11 +257,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-51767
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>An authentication bypass vulnerability exists in HPE AutoPass License Server (APLS) prior to 9.17.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 7.3 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -104,11 +274,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-51768
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>An hsqldb-related remote code execution vulnerability exists in HPE AutoPass License Server (APLS) prior to 9.17.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 8.0 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -121,11 +291,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-51769
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>An information disclosure vulnerability exists in HPE AutoPass License Server (APLS) prior to 9.17.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 7.5 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -138,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-51770
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>An information disclosure vulnerability exists in HPE AutoPass License Server (APLS) prior to 9.17.
 <br>
@@ -155,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7595
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Job Diary 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /view-cad.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -172,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7596
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Tenda FH1205 2.0.0.7(775). It has been rated as critical. This issue affects the function formWifiExtraSet of the file /goform/WifiExtraSet. The manipulation of the argument wpapsk_crypto leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -189,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7597
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in Tenda AX1803 1.0.0.1. Affected is the function formSetMacFilterCfg of the file /goform/setMacFilterCfg. The manipulation of the argument deviceList leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -206,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7598
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in Tenda AX1803 1.0.0.1. Affected by this vulnerability is the function formSetWifiMacFilterCfg of the file /goform/setWifiFilterCfg. The manipulation of the argument deviceList leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -223,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7618
 <br>
-<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 2 hours ago
+<strong>Published : </strong> July 14, 2025, 11:15 a.m. | 4 hours, 1 minute ago
 <br>
 <strong>Description : </strong>A stored Cross-Site Scripting (XSS) vulnerability vulnerability was found in the File Explorer and Text Editor of ADM. An attacker could exploit this vulnerability to inject malicious scripts into the applications, which may then access cookies or other sensitive information retained by the browser and used with the affected applications.
 Affected products and versions include: from ADM 4.1.0 to ADM 4.3.3.RH61 as well as ADM 5.0.0.RIN1 and earlier, and Text Editor 1.0.0.r112 and earlier.
@@ -235,6 +405,40 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 14 Jul 2025 11:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-7618</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-7618</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7593 - Job Diary SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7593
+<br>
+<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 5 hours ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Job Diary 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /view-all.php. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7593</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7593</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7594 - Job Diary SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7594
+<br>
+<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 5 hours ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Job Diary 1.0. It has been classified as critical. This affects an unknown part of the file /view-emp.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7594</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7594</guid>
     </item>
     <item>
       <title>CVE-2024-26293 - Avid Nexis gSOAP Unauthenticated Path Traversal Vulnerability</title>
@@ -290,40 +494,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-7592</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-7592</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7593 - Job Diary SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7593
-<br>
-<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 3 hours ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Job Diary 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /view-all.php. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7593</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7593</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7594 - Job Diary SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7594
-<br>
-<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 3 hours ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Job Diary 1.0. It has been classified as critical. This affects an unknown part of the file /view-emp.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7594</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7594</guid>
     </item>
     <item>
       <title>CVE-2024-26292 - Avid NEXIS E-series, F-series, PRO+, SDA+: Authenticated Arbitrary File Deletion Vulnerability</title>
