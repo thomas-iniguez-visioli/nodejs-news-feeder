@@ -8,21 +8,110 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 14 Jul 2025 10:48:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 11:17:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-26293 - Avid Nexis gSOAP Unauthenticated Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-26293
+<br>
+<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 25 minutes ago
+<br>
+<strong>Description : </strong>The Avid Nexis Agent uses a vulnerable gSOAP
+version. An undocumented vulnerability impacting gSOAP v2.8 makes the application vulnerable to an Unauthenticated Path Traversal vulnerability.
+This issue affects Avid NEXIS E-series: before 2025.5.1; Avid NEXIS F-series: before 2025.5.1; Avid NEXIS PRO+: before 2025.5.1; System Director Appliance (SDA+): before 2025.5.1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-26293</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-26293</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53689 - Apache Jackrabbit XXE Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53689
+<br>
+<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 25 minutes ago
+<br>
+<strong>Description : </strong>Blind XXE Vulnerabilities in jackrabbit-spi-commons and jackrabbit-core in Apache Jackrabbit < 2.23.2 due to usage of an unsecured document build to load privileges.
+
+Users are recommended to upgrade to versions 2.20.17 (Java 8), 2.22.1 (Java 11) or 2.23.2 (Java 11, beta versions), which fix this issue. Earlier versions (up to 2.20.16) are not supported anymore, thus users should update to the respective supported version.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53689</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53689</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7592 - PHPGurukul Dairy Farm Shop Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7592
+<br>
+<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 25 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in PHPGurukul Dairy Farm Shop Management System 1.3 and classified as critical. Affected by this vulnerability is an unknown functionality of the file invoices.php. The manipulation of the argument del leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7592</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7592</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7593 - Job Diary SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7593
+<br>
+<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 25 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Job Diary 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /view-all.php. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7593</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7593</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7594 - Job Diary SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7594
+<br>
+<strong>Published : </strong> July 14, 2025, 10:15 a.m. | 25 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Job Diary 1.0. It has been classified as critical. This affects an unknown part of the file /view-emp.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7594</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7594</guid>
+    </item>
+    <item>
       <title>CVE-2024-26291 - Avid NEXIS Unauthenticated Arbitrary File Read Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-26291
 <br>
-<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 32 minutes ago
+<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 1 hour, 25 minutes ago
 <br>
-<strong>Description : </strong>The Application is vulnerable to an Unauthenticated Arbitrary File Read. This affects the
-Agent installed on Linux and Windows alike. The parameter filename does not validate the
+<strong>Description : </strong>An Unauthenticated Arbitrary File Read vulnerability affects the
+Agent when installed on a system. The parameter filename does not validate the
 path thus allowing users to read arbitrary files. As
 the application runs with the highest privileges (root/NT_AUTHORITY SYSTEM)
 by default attackers are able to obtain sensitive information.
@@ -42,11 +131,9 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-26292
 <br>
-<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 32 minutes ago
+<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 1 hour, 25 minutes ago
 <br>
-<strong>Description : </strong>The Application is vulnerable to an authenticated Arbitrary File Deletion. This affects the
-Agent installed on Linux and Windows alike. As the application runs with highest privileges (root/NT_AUTHORITY SYSTEM) by default attackers may use the vulnerability to delete critical files.
-
+<strong>Description : </strong>An authenticated Arbitrary File Deletion vulnerability enables an attacker to delete critical files.
 This issue affects Avid NEXIS E-series: before 2025.5.1; Avid NEXIS F-series: before 2025.5.1; Avid NEXIS PRO+: before 2025.5.1; System Director Appliance (SDA+): before 2025.5.1.
 <br>
 <strong>Severity:</strong> 0.0 | NA
@@ -62,7 +149,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24391
 <br>
-<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 32 minutes ago
+<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 1 hour, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the External Interface of OTRS allows conclusions to be drawn about the existence of user accounts through different HTTP response codes and messages. This enables an attacker to systematically identify valid email addresses.
 
@@ -88,7 +175,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7587
 <br>
-<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 32 minutes ago
+<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 1 hour, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Online Appointment Booking System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /cover.php. The manipulation of the argument uname/psw leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -105,7 +192,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7588
 <br>
-<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 32 minutes ago
+<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 1 hour, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in PHPGurukul Dairy Farm Shop Management System 1.3. This affects an unknown part of the file edit-product.php. The manipulation of the argument productname leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -122,7 +209,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7589
 <br>
-<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 32 minutes ago
+<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 1 hour, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in PHPGurukul Dairy Farm Shop Management System 1.3. This vulnerability affects unknown code of the file edit-company.php. The manipulation of the argument companyname leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -139,7 +226,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7590
 <br>
-<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 32 minutes ago
+<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 1 hour, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in PHPGurukul Dairy Farm Shop Management System 1.3. This issue affects some unknown processing of the file edit-category.php. The manipulation of the argument categorycode leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -156,7 +243,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7591
 <br>
-<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 32 minutes ago
+<strong>Published : </strong> July 14, 2025, 9:15 a.m. | 1 hour, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Dairy Farm Shop Management System 1.3. Affected is an unknown function of the file view-invoice.php. The manipulation of the argument invid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -173,7 +260,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7583
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 a.m. | 58 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 a.m. | 2 hours, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in PHPGurukul Online Fire Reporting System 1.2 and classified as critical. This vulnerability affects unknown code of the file /admin/all-requests.php. The manipulation of the argument teamid leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -190,7 +277,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7584
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 a.m. | 58 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 a.m. | 2 hours, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Online Fire Reporting System 1.2 and classified as critical. This issue affects some unknown processing of the file /admin/add-team.php. The manipulation of the argument teammember leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -207,7 +294,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7585
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 a.m. | 58 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 a.m. | 2 hours, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in PHPGurukul Online Fire Reporting System 1.2. It has been classified as critical. Affected is an unknown function of the file /admin/manage-site.php. The manipulation of the argument webtitle leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -224,7 +311,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7586
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 a.m. | 58 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 a.m. | 2 hours, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Tenda AC500 2.0.1.9(1307). It has been declared as critical. Affected by this vulnerability is the function formSetAPCfg of the file /goform/setWtpData. The manipulation of the argument radio_2g_1 leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -241,7 +328,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7579
 <br>
-<strong>Published : </strong> July 14, 2025, 7:15 a.m. | 1 hour, 58 minutes ago
+<strong>Published : </strong> July 14, 2025, 7:15 a.m. | 3 hours, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in chinese-poetry 0.1. It has been rated as problematic. This issue affects some unknown processing of the file rank/server.js. The manipulation leads to inefficient regular expression complexity. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -258,7 +345,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7580
 <br>
-<strong>Published : </strong> July 14, 2025, 7:15 a.m. | 1 hour, 58 minutes ago
+<strong>Published : </strong> July 14, 2025, 7:15 a.m. | 3 hours, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in code-projects Voting System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/positions_row.php. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -275,7 +362,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7581
 <br>
-<strong>Published : </strong> July 14, 2025, 7:15 a.m. | 1 hour, 58 minutes ago
+<strong>Published : </strong> July 14, 2025, 7:15 a.m. | 3 hours, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Voting System 1.0. Affected by this issue is some unknown functionality of the file /admin/positions_edit.php. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -292,7 +379,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7582
 <br>
-<strong>Published : </strong> July 14, 2025, 7:15 a.m. | 1 hour, 58 minutes ago
+<strong>Published : </strong> July 14, 2025, 7:15 a.m. | 3 hours, 25 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, was found in PHPGurukul Online Fire Reporting System 1.2. This affects an unknown part of the file /admin/assigned-requests.php. The manipulation of the argument teamid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -303,6 +390,74 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 14 Jul 2025 07:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-7582</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-7582</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7575 - Zavy86 WikiDocs Remote Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7575
+<br>
+<strong>Published : </strong> July 14, 2025, 6:15 a.m. | 4 hours, 25 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in Zavy86 WikiDocs up to 1.0.77 and classified as critical. Affected by this vulnerability is the function image_drop_upload_ajax/image_delete_ajax of the file submit.php. The manipulation leads to path traversal. The attack can be launched remotely. Upgrading to version 1.0.78 is able to address this issue. The identifier of the patch is 98ea9ee4a2052c4327f89d2f7688cc1b5749450d. It is recommended to upgrade the affected component.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7575</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7575</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7576 - Teledyne FLIR FB-Series and FH-Series Remote File Access Control Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7576
+<br>
+<strong>Published : </strong> July 14, 2025, 6:15 a.m. | 4 hours, 25 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Teledyne FLIR FB-Series O and FLIR FH-Series ID 1.3.2.16 and classified as critical. Affected by this issue is some unknown functionality of the file /priv/production/production.html of the component Production Tools. The manipulation leads to improper access controls. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7576</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7576</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7577 - Teledyne FLIR FB-Series/FLIR FH-Series Remote Hard-Coded Password Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7577
+<br>
+<strong>Published : </strong> July 14, 2025, 6:15 a.m. | 4 hours, 25 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Teledyne FLIR FB-Series O and FLIR FH-Series ID 1.3.2.16. It has been classified as problematic. This affects an unknown part. The manipulation leads to use of hard-coded password. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 3.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7577</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7577</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7578 - Teledyne FLIR FB-Series and FH-Series Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7578
+<br>
+<strong>Published : </strong> July 14, 2025, 6:15 a.m. | 4 hours, 25 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Teledyne FLIR FB-Series O and FLIR FH-Series ID 1.3.2.16. It has been declared as critical. This vulnerability affects the function sendCommand of the file runcmd.sh. The manipulation of the argument cmd leads to command injection. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The researcher highlights, that "[a]lthough this functionality is currently disabled due to server CGI configuration errors, it is essentially a 'time bomb' waiting to be activated". The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7578</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7578</guid>
     </item>
     <item>
       <title>CVE-2025-7380 - "ADM Stored Cross-Site Scripting Vulnerability"</title>
@@ -321,74 +476,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-7380</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-7380</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7575 - Zavy86 WikiDocs Remote Path Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7575
-<br>
-<strong>Published : </strong> July 14, 2025, 6:15 a.m. | 2 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability has been found in Zavy86 WikiDocs up to 1.0.77 and classified as critical. Affected by this vulnerability is the function image_drop_upload_ajax/image_delete_ajax of the file submit.php. The manipulation leads to path traversal. The attack can be launched remotely. Upgrading to version 1.0.78 is able to address this issue. The identifier of the patch is 98ea9ee4a2052c4327f89d2f7688cc1b5749450d. It is recommended to upgrade the affected component.
-<br>
-<strong>Severity:</strong> 4.7 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7575</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7575</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7576 - Teledyne FLIR FB-Series and FH-Series Remote File Access Control Bypass Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7576
-<br>
-<strong>Published : </strong> July 14, 2025, 6:15 a.m. | 2 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Teledyne FLIR FB-Series O and FLIR FH-Series ID 1.3.2.16 and classified as critical. Affected by this issue is some unknown functionality of the file /priv/production/production.html of the component Production Tools. The manipulation leads to improper access controls. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7576</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7576</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7577 - Teledyne FLIR FB-Series/FLIR FH-Series Remote Hard-Coded Password Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7577
-<br>
-<strong>Published : </strong> July 14, 2025, 6:15 a.m. | 2 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Teledyne FLIR FB-Series O and FLIR FH-Series ID 1.3.2.16. It has been classified as problematic. This affects an unknown part. The manipulation leads to use of hard-coded password. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 3.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7577</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7577</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7578 - Teledyne FLIR FB-Series and FH-Series Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7578
-<br>
-<strong>Published : </strong> July 14, 2025, 6:15 a.m. | 2 hours, 58 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Teledyne FLIR FB-Series O and FLIR FH-Series ID 1.3.2.16. It has been declared as critical. This vulnerability affects the function sendCommand of the file runcmd.sh. The manipulation of the argument cmd leads to command injection. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The researcher highlights, that "[a]lthough this functionality is currently disabled due to server CGI configuration errors, it is essentially a 'time bomb' waiting to be activated". The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 5.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 06:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7578</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7578</guid>
     </item>
     <item>
       <title>CVE-2025-29606 - Libp2p RSA Key DoS</title>
