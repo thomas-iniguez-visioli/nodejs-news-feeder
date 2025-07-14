@@ -137,18 +137,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-08/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-09/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-10/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-13/
-https://cvefeed.io/vuln/detail/CVE-2025-7517
-https://cvefeed.io/vuln/detail/CVE-2025-7520
-https://cvefeed.io/vuln/detail/CVE-2025-7521
-https://cvefeed.io/vuln/detail/CVE-2025-7522
-https://cvefeed.io/vuln/detail/CVE-2025-7523
-https://cvefeed.io/vuln/detail/CVE-2025-7012
-https://cvefeed.io/vuln/detail/CVE-2025-7524
-https://cvefeed.io/vuln/detail/CVE-2025-7525
-https://cvefeed.io/vuln/detail/CVE-2025-7527
-https://cvefeed.io/vuln/detail/CVE-2025-7528
-https://cvefeed.io/vuln/detail/CVE-2025-7529
-https://cvefeed.io/vuln/detail/CVE-2025-7530
 https://cvefeed.io/vuln/detail/CVE-2025-7531
 https://cvefeed.io/vuln/detail/CVE-2025-7532
 https://cvefeed.io/vuln/detail/CVE-2025-7533
@@ -162,6 +150,18 @@ https://cvefeed.io/vuln/detail/CVE-2025-7539
 https://cvefeed.io/vuln/detail/CVE-2025-7540
 https://cvefeed.io/vuln/detail/CVE-2025-7541
 https://cvefeed.io/vuln/detail/CVE-2025-7542
+https://cvefeed.io/vuln/detail/CVE-2024-58258
+https://cvefeed.io/vuln/detail/CVE-2025-6491
+https://cvefeed.io/vuln/detail/CVE-2025-7543
+https://cvefeed.io/vuln/detail/CVE-2025-7544
+https://cvefeed.io/vuln/detail/CVE-2025-7545
+https://cvefeed.io/vuln/detail/CVE-2025-7546
+https://cvefeed.io/vuln/detail/CVE-2025-1220
+https://cvefeed.io/vuln/detail/CVE-2025-1735
+https://cvefeed.io/vuln/detail/CVE-2025-7547
+https://cvefeed.io/vuln/detail/CVE-2025-7548
+https://cvefeed.io/vuln/detail/CVE-2025-7549
+https://cvefeed.io/vuln/detail/CVE-2025-7550
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
@@ -2017,18 +2017,6 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
-CVE-2025-7517 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
-CVE-2025-7520 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability
-CVE-2025-7521 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability
-CVE-2025-7522 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability
-CVE-2025-7523 - Jinher OA XXE Vulnerability
-CVE-2025-7012 - Cato Networks CatoClient Local Privilege Escalation Vulnerability
-CVE-2025-7524 - "TOTOLINK T6 HTTP POST Request Handler Command Injection Vulnerability"
-CVE-2025-7525 - TOTOLINK T6 HTTP POST Request Handler Command Injection Vulnerability
-CVE-2025-7527 - Tenda FH1202 Stack-Based Buffer Overflow Vulnerability
-CVE-2025-7528 - Tenda FH1202 Stack-Based Buffer Overflow Vulnerability
-CVE-2025-7529 - Tenda FH1202 Stack-Based Buffer Overflow Vulnerability
-CVE-2025-7530 - Tenda PPTPDClient Stack-Based Buffer Overflow Vulnerability
 CVE-2025-7531 - Tenda FH1202 PPTP Remote Stack Buffer Overflow Vulnerability
 CVE-2025-7532 - Tenda FH1202 Critical Stack-Based Buffer Overflow
 CVE-2025-7533 - "Code-projects Job Diary SQL Injection"
@@ -2042,6 +2030,18 @@ CVE-2025-7539 - Code-projects Online Appointment Booking System SQL Injection Vu
 CVE-2025-7540 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
 CVE-2025-7541 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
 CVE-2025-7542 - PHPGurukul User Registration  Login and User Management System SQL Injection Vulnerability
+CVE-2024-58258 - SugarCRM SSRF Vulnerability
+CVE-2025-6491 - Apache PHP SOAP XML Namespace Prefix Overflow Vulnerability
+CVE-2025-7543 - PHPGurukul User Registration  Login and User Management System SQL Injection Vulnerability
+CVE-2025-7544 - Tenda AC1206 Stack-Based Buffer Overflow Vulnerability
+CVE-2025-7545 - "GNU Binutils Heap-Based Buffer Overflow"
+CVE-2025-7546 - GNU Binutils Out-of-Bounds Write Vulnerability
+CVE-2025-1220 - Apache PHP Null Character Injection Vulnerability
+CVE-2025-1735 - Apache PHP PostgreSQL Unchecked Quoting Function Error
+CVE-2025-7547 - Campcodes Online Movie Theater Seat Reservation System Unrestricted File Upload Vulnerability
+CVE-2025-7548 - Tenda FH1201 Stack-Based Buffer Overflow Vulnerability
+CVE-2025-7549 - Tenda FH1201 Stack-Based Buffer Overflow Vulnerability
+CVE-2025-7550 - Tenda FH1201 Buffer Overflow Vulnerability
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
@@ -2062,12 +2062,18 @@ Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
-CVE-2024-58258 - SugarCRM SSRF Vulnerability
-CVE-2025-6491 - Apache PHP SOAP XML Namespace Prefix Overflow Vulnerability
-CVE-2025-7543 - PHPGurukul User Registration  Login and User Management System SQL Injection Vulnerability
-CVE-2025-7544 - Tenda AC1206 Stack-Based Buffer Overflow Vulnerability
-CVE-2025-7545 - "GNU Binutils Heap-Based Buffer Overflow"
-CVE-2025-7546 - GNU Binutils Out-of-Bounds Write Vulnerability
+CVE-2025-7530 - Tenda PPTPDClient Stack-Based Buffer Overflow Vulnerability
+CVE-2025-7528 - Tenda FH1202 Stack-Based Buffer Overflow Vulnerability
+CVE-2025-7529 - Tenda FH1202 Stack-Based Buffer Overflow Vulnerability
+CVE-2025-7527 - Tenda FH1202 Stack-Based Buffer Overflow Vulnerability
+CVE-2025-7525 - TOTOLINK T6 HTTP POST Request Handler Command Injection Vulnerability
+CVE-2025-7524 - "TOTOLINK T6 HTTP POST Request Handler Command Injection Vulnerability"
+CVE-2025-7012 - Cato Networks CatoClient Local Privilege Escalation Vulnerability
+CVE-2025-7522 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability
+CVE-2025-7523 - Jinher OA XXE Vulnerability
+CVE-2025-7521 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability
+CVE-2025-7517 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
+CVE-2025-7520 - PHPGurukul Vehicle Parking Management System SQL Injection Vulnerability
 CVE-2025-7515 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
 CVE-2025-7516 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
 CVE-2025-7514 - Modern Bag SQL Injection Vulnerability
