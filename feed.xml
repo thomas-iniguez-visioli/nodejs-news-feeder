@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 14 Jul 2025 22:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 23:18:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53015
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 1 hour, 32 minutes ago
 <br>
 <strong>Description : </strong>ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 7.1.2-0, infinite lines occur when writing during a specific XMP file conversion command. Version 7.1.2-0 fixes the issue.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53019
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 1 hour, 32 minutes ago
 <br>
 <strong>Description : </strong>ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 7.1.2-0 and 6.9.13-26, in ImageMagick's `magick stream` command, specifying multiple consecutive `%d` format specifiers in a filename template causes a memory leak. Versions 7.1.2-0 and 6.9.13-26 fix the issue.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53101
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 1 hour, 32 minutes ago
 <br>
 <strong>Description : </strong>ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 7.1.2-0 and 6.9.13-26, in ImageMagick's `magick mogrify` command, specifying multiple consecutive `%d` format specifiers in a filename template causes internal pointer arithmetic to generate an address below the beginning of the stack buffer, resulting in a stack overflow through `vsnprintf()`. Versions 7.1.2-0 and 6.9.13-26 fix the issue.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53623
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 1 hour, 32 minutes ago
 <br>
 <strong>Description : </strong>The Job Iteration API is an an extension for ActiveJob that make jobs interruptible and resumable Versions prior to 1.11.0 have an arbitrary code execution vulnerability in the `CsvEnumerator` class. This vulnerability can be exploited by an attacker to execute arbitrary commands on the system where the application is running, potentially leading to unauthorized access, data leakage, or complete system compromise. The issue is fixed in versions `1.11.0` and above. Users can mitigate the risk by avoiding the use of untrusted input in the `CsvEnumerator` class and ensuring that any file paths are properly sanitized and validated before being passed to the class methods. Users should avoid using the `count_of_rows_in_file` method with untrusted CSV filenames.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53639
 <br>
-<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 8:15 p.m. | 1 hour, 32 minutes ago
 <br>
 <strong>Description : </strong>MeterSphere is an open source continuous testing platform. Prior to version 3.6.5-lts, the sortField parameter in certain API endpoints is not properly validated or sanitized. An attacker can supply crafted input to inject and execute arbitrary SQL statements through the sorting functionality. This could result in modification or deletion of database contents, with a potential full compromise of the application’s database integrity and availability. Version 3.6.5-lts fixes the issue.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52363
 <br>
-<strong>Published : </strong> July 14, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 6:15 p.m. | 3 hours, 32 minutes ago
 <br>
 <strong>Description : </strong>Tenda CP3 Pro Firmware V22.5.4.93 contains a hardcoded root password hash in the /etc/passwd file and /etc/passwd-. An attacker with access to the firmware image can extract and attempt to crack the root password hash, potentially obtaining administrative access
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53014
 <br>
-<strong>Published : </strong> July 14, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 6:15 p.m. | 3 hours, 32 minutes ago
 <br>
 <strong>Description : </strong>ImageMagick is free and open-source software used for editing and manipulating digital images. Versions prior to 7.1.2-0 and 6.9.13-26 have a heap buffer overflow in the `InterpretImageFilename` function. The issue stems from an off-by-one error that causes out-of-bounds memory access when processing format strings containing consecutive percent signs (`%%`). Versions 7.1.2-0 and 6.9.13-26 fix the issue.
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7627
 <br>
-<strong>Published : </strong> July 14, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 6:15 p.m. | 3 hours, 32 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in YiJiuSmile kkFileViewOfficeEdit up to 5fbc57c48e8fe6c1b91e0e7995e2d59615f37abd and classified as critical. Affected by this issue is the function fileUpload of the file /fileUpload. The manipulation of the argument File leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available.
 <br>
@@ -240,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7628
 <br>
-<strong>Published : </strong> July 14, 2025, 6:15 p.m. | 2 hours, 45 minutes ago
+<strong>Published : </strong> July 14, 2025, 6:15 p.m. | 3 hours, 32 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in YiJiuSmile kkFileViewOfficeEdit up to 5fbc57c48e8fe6c1b91e0e7995e2d59615f37abd. It has been classified as critical. This affects the function deleteFile of the file /deleteFile. The manipulation of the argument fileName leads to path traversal. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available.
 <br>
@@ -251,6 +251,193 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 14 Jul 2025 18:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-7628</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-7628</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51652 - SemCms SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51652
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the pid parameter at SEMCMS_Categories.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51652</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51652</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51653 - SemCms SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51653
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the pid parameter at SEMCMS_ct.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51653</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51653</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51654 - SemCms SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51654
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the pid parameter at SEMCMS_Infocategories.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51654</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51654</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51655 - SemCms v5.0 was discovered to contain a SQL inject</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51655
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the pid parameter at SEMCMS_Quanxian.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51655</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51655</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51656 - SemCms SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51656
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the ID parameter at SEMCMS_Link.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51656</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51656</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51657 - SemCms SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51657
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the lgid parameter at SEMCMS_Link.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51657</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51657</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51658 - SemCms SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51658
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the ID parameter at SEMCMS_InquiryView.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51658</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51658</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51659 - SemCms SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51659
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the ID parameter at SEMCMS_Products.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51659</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51659</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51660 - SemCms SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51660
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the lgid parameter at SEMCMS_Products.php.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51660</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51660</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7625 - YiJiuSmile kkFileViewOfficeEdit Remote Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7625
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in YiJiuSmile kkFileViewOfficeEdit up to 5fbc57c48e8fe6c1b91e0e7995e2d59615f37abd. Affected is the function Download of the file /download. The manipulation of the argument url leads to path traversal. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7625</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7625</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7626 - YiJiuSmile kkFileViewOfficeEdit Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7626
+<br>
+<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 4 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in YiJiuSmile kkFileViewOfficeEdit up to 5fbc57c48e8fe6c1b91e0e7995e2d59615f37abd and classified as critical. Affected by this vulnerability is the function onlinePreview of the file /onlinePreview. The manipulation of the argument url leads to path traversal. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7626</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7626</guid>
     </item>
     <item>
       <title>CVE-2024-42646 - NanoMQ Denial of Service (DoS) Vulnerability</title>
@@ -336,193 +523,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-51651</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-51651</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51652 - SemCms SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51652
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the pid parameter at SEMCMS_Categories.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51652</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51652</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51653 - SemCms SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51653
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the pid parameter at SEMCMS_ct.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51653</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51653</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51654 - SemCms SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51654
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the pid parameter at SEMCMS_Infocategories.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51654</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51654</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51655 - SemCms v5.0 was discovered to contain a SQL inject</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51655
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the pid parameter at SEMCMS_Quanxian.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51655</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51655</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51656 - SemCms SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51656
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the ID parameter at SEMCMS_Link.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51656</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51656</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51657 - SemCms SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51657
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the lgid parameter at SEMCMS_Link.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51657</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51657</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51658 - SemCms SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51658
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the ID parameter at SEMCMS_InquiryView.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51658</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51658</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51659 - SemCms SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51659
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the ID parameter at SEMCMS_Products.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51659</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51659</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51660 - SemCms SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51660
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>SemCms v5.0 was discovered to contain a SQL injection vulnerability via the lgid parameter at SEMCMS_Products.php.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51660</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51660</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7625 - YiJiuSmile kkFileViewOfficeEdit Remote Path Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7625
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability, which was classified as critical, was found in YiJiuSmile kkFileViewOfficeEdit up to 5fbc57c48e8fe6c1b91e0e7995e2d59615f37abd. Affected is the function Download of the file /download. The manipulation of the argument url leads to path traversal. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7625</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7625</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7626 - YiJiuSmile kkFileViewOfficeEdit Path Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7626
-<br>
-<strong>Published : </strong> July 14, 2025, 5:15 p.m. | 3 hours, 45 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability has been found in YiJiuSmile kkFileViewOfficeEdit up to 5fbc57c48e8fe6c1b91e0e7995e2d59615f37abd and classified as critical. Affected by this vulnerability is the function onlinePreview of the file /onlinePreview. The manipulation of the argument url leads to path traversal. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable.
-<br>
-<strong>Severity:</strong> 4.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 14 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7626</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7626</guid>
     </item>
     <item>
       <title>CVE-2025-7615 - TOTOLINK T6 Command Injection Vulnerability</title>
