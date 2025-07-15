@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 15 Jul 2025 20:22:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jul 2025 20:44:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53826
 <br>
-<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 30 minutes ago
 <br>
 <strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename, and edit files. In version 2.39.0, File Browser’s authentication system issues long-lived JWT tokens that remain valid even after the user logs out. As of time of publication, no known patches exist.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53893
 <br>
-<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 30 minutes ago
 <br>
 <strong>Description : </strong>File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename, and edit files. In version 2.38.0, a Denial of Service (DoS) vulnerability exists in the file processing logic when reading a file on endpoint  `Filebrowser-Server-IP:PORT/files/{file-name}` . While the server correctly handles and stores uploaded files, it attempts to load the entire content into memory during read operations without size checks or resource limits. This allows an authenticated user to upload a large file and trigger uncontrolled memory consumption on read, potentially crashing the server and making it unresponsive. As of time of publication, no known patches are available.
 <br>
@@ -138,11 +138,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6558
 <br>
-<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 30 minutes ago
 <br>
 <strong>Description : </strong>Insufficient validation of untrusted input in ANGLE and GPU in Google Chrome prior to 138.0.7204.157 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)
 <br>
-<strong>Severity:</strong> 8.8 | HIGH
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -155,11 +155,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7656
 <br>
-<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 30 minutes ago
 <br>
 <strong>Description : </strong>Integer overflow in V8 in Google Chrome prior to 138.0.7204.157 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 <br>
-<strong>Severity:</strong> 8.8 | HIGH
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -172,11 +172,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7657
 <br>
-<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 6:15 p.m. | 30 minutes ago
 <br>
 <strong>Description : </strong>Use after free in WebRTC in Google Chrome prior to 138.0.7204.157 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 <br>
-<strong>Severity:</strong> 8.8 | HIGH
+<strong>Severity:</strong> 0.0 | NA
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-26186
 <br>
-<strong>Published : </strong> July 15, 2025, 5:15 p.m. | 2 hours, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>SQL Injection vulnerability in openSIS v.9.1 allows a remote attacker to execute arbitrary code via the id parameter in Ajax.php
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53895
 <br>
-<strong>Published : </strong> July 15, 2025, 5:15 p.m. | 2 hours, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>ZITADEL is an open source identity management system. Starting in version 2.53.0 and prior to versions 4.0.0-rc.2, 3.3.2, 2.71.13, and 2.70.14, vulnerability in ZITADEL's session management API allows any authenticated user to update a session if they know its ID, due to a missing permission check. This flaw enables session hijacking, allowing an attacker to impersonate another user and access sensitive resources. Versions prior to `2.53.0` are not affected, as they required the session token for updates. Versions 4.0.0-rc.2, 3.3.2, 2.71.13, and 2.70.14 fix the issue.
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53959
 <br>
-<strong>Published : </strong> July 15, 2025, 5:15 p.m. | 2 hours, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>In JetBrains YouTrack before 2025.2.86069, 
 2024.3.85077, 
@@ -242,7 +242,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-42650
 <br>
-<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>NanoMQ 0.17.5 was discovered to contain a segmentation fault via the component /nanomq/pub_handler.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted PUBLISH message.
 <br>
@@ -259,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50819
 <br>
-<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>Directory traversal vulnerability in beiyuouo arxiv-daily thru 2025-05-06 (commit fad168770b0e68aef3e5acfa16bb2e7a7765d687) when parsing the the topic.yml file in the generation logic in daily_arxiv.py.
 <br>
@@ -276,7 +276,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52080
 <br>
-<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>In Netgear XR300 V1.0.3.38_10.3.30, a stack-based buffer overflow vulnerability exists in the HTTPD service through the usb_device.cgi endpoint. The vulnerability occurs when processing POST requests containing the share_name parameter.
 <br>
@@ -293,7 +293,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52081
 <br>
-<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>In Netgear XR300 V1.0.3.38_10.3.30, a stack-based buffer overflow vulnerability exists in the HTTPD service through the usb_device.cgi endpoint. The vulnerability occurs when processing POST requests containing the usb_folder parameter.
 <br>
@@ -310,7 +310,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52082
 <br>
-<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 3 hours, 46 minutes ago
+<strong>Published : </strong> July 15, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>In Netgear XR300 V1.0.3.38_10.3.30, a stack-based buffer overflow exists in the HTTPD service through the usb_device.cgi endpoint. The vulnerability occurs when processing POST requests containing the read_access parameter.
 <br>
@@ -321,125 +321,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 15 Jul 2025 16:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-52082</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-52082</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53621 - DSpace XXE Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53621
-<br>
-<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>DSpace open source software is a repository application which provides durable access to digital resources. Two related XML External Entity (XXE) injection possibilities impact all versions of DSpace prior to 7.6.4, 8.2, and 9.1. External entities are not disabled when parsing XML files during import of an archive (in Simple Archive Format), either from command-line (`./dspace import` command) or from the "Batch Import (Zip)" user interface feature. External entities are also not explicitly disabled when parsing XML responses from some upstream services (ArXiv, Crossref, OpenAIRE, Creative Commons) used in import from external sources via the user interface or REST API. An XXE injection in these files may result in a connection being made to an attacker's site or a local path readable by the Tomcat user, with content potentially being injected into a metadata field. In the latter case, this may result in sensitive content disclosure, including retrieving arbitrary files or configurations from the server where DSpace is running. The Simple Archive Format (SAF) importer / Batch Import (Zip) is only usable by site administrators (from user interface / REST API) or system administrators (from command-line). Therefore, to exploit this vulnerability, the malicious payload would have to be provided by an attacker and trusted by an administrator, who would trigger the import. The fix is included in DSpace 7.6.4, 8.2, and 9.1. Please upgrade to one of these versions. For those who cannot upgrade immediately, it is possible to manually patch the DSpace backend. One may also apply some best practices, though the protection provided is not as complete as upgrading. Administrators must carefully inspect any SAF archives (they did not construct themselves) before importing. As necessary, affected external services can be disabled to mitigate the ability for payloads to be delivered via external service APIs.
-<br>
-<strong>Severity:</strong> 6.9 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53621</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53621</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53622 - DSpace Tomcat Path Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53622
-<br>
-<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>DSpace open source software is a repository application which provides durable access to digital resources. Prior to versions 7.6.4, 8.2, and 9.1, a path traversal vulnerability is possible during the import of an archive (in Simple Archive Format), either from command-line (`./dspace import` command) or from the "Batch Import (Zip)" user interface feature. An attacker may craft a malicious Simple Archive Format (SAF) package where the `contents` file references any system files (using relative traversal sequences) which are readable by the Tomcat user.  If such a package is imported, this will result in sensitive content disclose, including retrieving arbitrary files or configurations from the server where DSpace is running. The Simple Archive Format (SAF) importer / Batch Import (Zip) is only usable by site administrators (from user interface / REST API) or system administrators (from command-line). Therefore, to exploit this vulnerability, the malicious payload would have to be provided by an attacker and trusted by an administrator (who would trigger the import). The fix is included in DSpace 7.6.4, 8.2 and 9.1. For those who cannot upgrade immediately, it is possible to manually patch the DSpace backend. (No changes are necessary to the frontend.)  A pull request exists which can be used to patch systems running DSpace 7.6.x, 8.x or 9.0. Although it is not possible to fully protect the system via workarounds, one may can apply a best practice. Administrators must carefully inspect any SAF archives (they did not construct themselves) before importing, paying close attention to the `contents` file to validate it does not reference files outside of the SAF archives.
-<br>
-<strong>Severity:</strong> 5.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53622</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53622</guid>
-    </item>
-    <item>
-      <title>CVE-2025-6971 - SOLIDWORKS eDrawings After Free Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-6971
-<br>
-<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>Use After Free vulnerability exists in the CATPRODUCT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted CATPRODUCT file.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-6971</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6971</guid>
-    </item>
-    <item>
-      <title>CVE-2025-6972 - SOLIDWORKS eDrawings After Free Code Execution Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-6972
-<br>
-<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>Use After Free vulnerability exists in the CATPRODUCT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted CATPRODUCT file.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-6972</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6972</guid>
-    </item>
-    <item>
-      <title>CVE-2025-6973 - SOLIDWORKS eDrawings JT File After Free Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-6973
-<br>
-<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>Use After Free vulnerability exists in the JT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted JT file.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-6973</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6973</guid>
-    </item>
-    <item>
-      <title>CVE-2025-6974 - SOLIDWORKS eDrawings Uninitialized Variable Code Execution Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-6974
-<br>
-<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>Use of Uninitialized Variable vulnerability exists in the JT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted JT file.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-6974</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6974</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7042 - SOLIDWORKS eDrawings After Free Code Execution Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7042
-<br>
-<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 4 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>Use After Free vulnerability exists in the IPT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted IPT file.
-<br>
-<strong>Severity:</strong> 7.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7042</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7042</guid>
     </item>
     <item>
       <title>CVE-2025-33097 - IBM QRadar SIEM Cross-Site Scripting Vulnerability</title>
@@ -527,6 +408,125 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-52379</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-52379</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53621 - DSpace XXE Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53621
+<br>
+<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>DSpace open source software is a repository application which provides durable access to digital resources. Two related XML External Entity (XXE) injection possibilities impact all versions of DSpace prior to 7.6.4, 8.2, and 9.1. External entities are not disabled when parsing XML files during import of an archive (in Simple Archive Format), either from command-line (`./dspace import` command) or from the "Batch Import (Zip)" user interface feature. External entities are also not explicitly disabled when parsing XML responses from some upstream services (ArXiv, Crossref, OpenAIRE, Creative Commons) used in import from external sources via the user interface or REST API. An XXE injection in these files may result in a connection being made to an attacker's site or a local path readable by the Tomcat user, with content potentially being injected into a metadata field. In the latter case, this may result in sensitive content disclosure, including retrieving arbitrary files or configurations from the server where DSpace is running. The Simple Archive Format (SAF) importer / Batch Import (Zip) is only usable by site administrators (from user interface / REST API) or system administrators (from command-line). Therefore, to exploit this vulnerability, the malicious payload would have to be provided by an attacker and trusted by an administrator, who would trigger the import. The fix is included in DSpace 7.6.4, 8.2, and 9.1. Please upgrade to one of these versions. For those who cannot upgrade immediately, it is possible to manually patch the DSpace backend. One may also apply some best practices, though the protection provided is not as complete as upgrading. Administrators must carefully inspect any SAF archives (they did not construct themselves) before importing. As necessary, affected external services can be disabled to mitigate the ability for payloads to be delivered via external service APIs.
+<br>
+<strong>Severity:</strong> 6.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53621</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53621</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53622 - DSpace Tomcat Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53622
+<br>
+<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>DSpace open source software is a repository application which provides durable access to digital resources. Prior to versions 7.6.4, 8.2, and 9.1, a path traversal vulnerability is possible during the import of an archive (in Simple Archive Format), either from command-line (`./dspace import` command) or from the "Batch Import (Zip)" user interface feature. An attacker may craft a malicious Simple Archive Format (SAF) package where the `contents` file references any system files (using relative traversal sequences) which are readable by the Tomcat user.  If such a package is imported, this will result in sensitive content disclose, including retrieving arbitrary files or configurations from the server where DSpace is running. The Simple Archive Format (SAF) importer / Batch Import (Zip) is only usable by site administrators (from user interface / REST API) or system administrators (from command-line). Therefore, to exploit this vulnerability, the malicious payload would have to be provided by an attacker and trusted by an administrator (who would trigger the import). The fix is included in DSpace 7.6.4, 8.2 and 9.1. For those who cannot upgrade immediately, it is possible to manually patch the DSpace backend. (No changes are necessary to the frontend.)  A pull request exists which can be used to patch systems running DSpace 7.6.x, 8.x or 9.0. Although it is not possible to fully protect the system via workarounds, one may can apply a best practice. Administrators must carefully inspect any SAF archives (they did not construct themselves) before importing, paying close attention to the `contents` file to validate it does not reference files outside of the SAF archives.
+<br>
+<strong>Severity:</strong> 5.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53622</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53622</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6971 - SOLIDWORKS eDrawings After Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6971
+<br>
+<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>Use After Free vulnerability exists in the CATPRODUCT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted CATPRODUCT file.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6971</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6971</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6972 - SOLIDWORKS eDrawings After Free Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6972
+<br>
+<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>Use After Free vulnerability exists in the CATPRODUCT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted CATPRODUCT file.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6972</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6972</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6973 - SOLIDWORKS eDrawings JT File After Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6973
+<br>
+<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>Use After Free vulnerability exists in the JT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted JT file.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6973</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6973</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6974 - SOLIDWORKS eDrawings Uninitialized Variable Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6974
+<br>
+<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>Use of Uninitialized Variable vulnerability exists in the JT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted JT file.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6974</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6974</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7042 - SOLIDWORKS eDrawings After Free Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7042
+<br>
+<strong>Published : </strong> July 15, 2025, 3:15 p.m. | 3 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>Use After Free vulnerability exists in the IPT file reading procedure in SOLIDWORKS eDrawings on Release SOLIDWORKS Desktop 2025. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted IPT file.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 15 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7042</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7042</guid>
     </item>
     <item>
       <title>CVE-2025-0831 - SOLIDWORKS eDrawings JT File Out-Of-Bounds Read Arbitrary Code Execution</title>
