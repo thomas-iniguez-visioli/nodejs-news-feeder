@@ -137,11 +137,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-08/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-09/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-10/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-13/
-https://cvefeed.io/vuln/detail/CVE-2025-33097
-https://cvefeed.io/vuln/detail/CVE-2025-48795
-https://cvefeed.io/vuln/detail/CVE-2025-52377
-https://cvefeed.io/vuln/detail/CVE-2025-52378
-https://cvefeed.io/vuln/detail/CVE-2025-52379
 https://cvefeed.io/vuln/detail/CVE-2025-53621
 https://cvefeed.io/vuln/detail/CVE-2025-53622
 https://cvefeed.io/vuln/detail/CVE-2025-6971
@@ -162,6 +157,11 @@ https://cvefeed.io/vuln/detail/CVE-2025-53893
 https://cvefeed.io/vuln/detail/CVE-2025-6558
 https://cvefeed.io/vuln/detail/CVE-2025-7656
 https://cvefeed.io/vuln/detail/CVE-2025-7657
+https://cvefeed.io/vuln/detail/CVE-2025-41236
+https://cvefeed.io/vuln/detail/CVE-2025-41237
+https://cvefeed.io/vuln/detail/CVE-2025-41238
+https://cvefeed.io/vuln/detail/CVE-2025-41239
+https://cvefeed.io/vuln/detail/CVE-2025-53903
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
@@ -200,6 +200,11 @@ https://cvefeed.io/vuln/detail/CVE-2025-50819
 https://cvefeed.io/vuln/detail/CVE-2025-52080
 https://cvefeed.io/vuln/detail/CVE-2025-52081
 https://cvefeed.io/vuln/detail/CVE-2025-52082
+https://cvefeed.io/vuln/detail/CVE-2025-33097
+https://cvefeed.io/vuln/detail/CVE-2025-48795
+https://cvefeed.io/vuln/detail/CVE-2025-52377
+https://cvefeed.io/vuln/detail/CVE-2025-52378
+https://cvefeed.io/vuln/detail/CVE-2025-52379
 https://cvefeed.io/vuln/detail/CVE-2025-53621
 https://cvefeed.io/vuln/detail/CVE-2025-53622
 https://cvefeed.io/vuln/detail/CVE-2025-6971
@@ -207,11 +212,6 @@ https://cvefeed.io/vuln/detail/CVE-2025-6972
 https://cvefeed.io/vuln/detail/CVE-2025-6973
 https://cvefeed.io/vuln/detail/CVE-2025-6974
 https://cvefeed.io/vuln/detail/CVE-2025-7042
-https://cvefeed.io/vuln/detail/CVE-2025-33097
-https://cvefeed.io/vuln/detail/CVE-2025-48795
-https://cvefeed.io/vuln/detail/CVE-2025-52377
-https://cvefeed.io/vuln/detail/CVE-2025-52378
-https://cvefeed.io/vuln/detail/CVE-2025-52379
 https://cvefeed.io/vuln/detail/CVE-2025-0831
 https://cvefeed.io/vuln/detail/CVE-2025-30483
 https://cvefeed.io/vuln/detail/CVE-2025-52376
@@ -2215,11 +2215,6 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
-CVE-2025-33097 - IBM QRadar SIEM Cross-Site Scripting Vulnerability
-CVE-2025-48795 - Apache CXF Unencrypted Temporary File Log Exposure Denial of Service
-CVE-2025-52377 - Nexxt Solutions NCM-X1800 Mesh Router Command Injection Vulnerability
-CVE-2025-52378 - Nexxt Solutions NCM-X1800 Mesh Router Cross-Site Scripting (XSS)
-CVE-2025-52379 - Nexxt Solutions NCM-X1800 Mesh Router Remote Command Injection Vulnerability
 CVE-2025-53621 - DSpace XXE Injection Vulnerability
 CVE-2025-53622 - DSpace Tomcat Path Traversal Vulnerability
 CVE-2025-6971 - SOLIDWORKS eDrawings After Free Vulnerability
@@ -2240,6 +2235,11 @@ CVE-2025-53893 - Apache File Browser Denial of Service Vulnerability
 CVE-2025-6558 - Google Chrome ANGLE GPU Sandbox Escape Vulnerability
 CVE-2025-7656 - Google Chrome V8 Integer Overflow Heap Corruption
 CVE-2025-7657 - Google Chrome WebRTC Use-After-Free Vulnerability
+CVE-2025-41236 - VMware ESXi, Workstation, and Fusion VMXNET3 Integer Overflow Remote Code Execution
+CVE-2025-41237 - VMware ESXi, Workstation, and Fusion VMCI Integer Underflow Privilege Escalation Vulnerability
+CVE-2025-41238 - VMware ESXi, Workstation, and Fusion PVSCSI Heap-Overflow Privilege Escalation Vulnerability
+CVE-2025-41239 - VMware ESXi, Workstation, Fusion vSockets Uninitialised Memory Information Disclosure
+CVE-2025-53903 - Scratch Channel Cross-Site Scripting (XSS) Vulnerability
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
@@ -2260,11 +2260,11 @@ Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
-CVE-2025-41236 - VMware ESXi, Workstation, and Fusion VMXNET3 Integer Overflow Remote Code Execution
-CVE-2025-41237 - VMware ESXi, Workstation, and Fusion VMCI Integer Underflow Privilege Escalation Vulnerability
-CVE-2025-41238 - VMware ESXi, Workstation, and Fusion PVSCSI Heap-Overflow Privilege Escalation Vulnerability
-CVE-2025-41239 - VMware ESXi, Workstation, Fusion vSockets Uninitialised Memory Information Disclosure
-CVE-2025-53903 - Scratch Channel Cross-Site Scripting (XSS) Vulnerability
+CVE-2025-33097 - IBM QRadar SIEM Cross-Site Scripting Vulnerability
+CVE-2025-48795 - Apache CXF Unencrypted Temporary File Log Exposure Denial of Service
+CVE-2025-52377 - Nexxt Solutions NCM-X1800 Mesh Router Command Injection Vulnerability
+CVE-2025-52378 - Nexxt Solutions NCM-X1800 Mesh Router Cross-Site Scripting (XSS)
+CVE-2025-52379 - Nexxt Solutions NCM-X1800 Mesh Router Remote Command Injection Vulnerability
 CVE-2025-0831 - SOLIDWORKS eDrawings JT File Out-Of-Bounds Read Arbitrary Code Execution
 CVE-2025-30483 - Dell ECS Insertion of Sensitive Information into Log File Vulnerability
 CVE-2025-52376 - Nexxt Solutions NCM-X1800 Mesh Router Telnet Authentication Bypass
