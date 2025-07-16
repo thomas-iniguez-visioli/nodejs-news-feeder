@@ -8,18 +8,138 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 16 Jul 2025 10:21:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 10:48:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-22227 - Reactor Netty HTTP Client Credentials Leak</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-22227
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 a.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>In some specific scenarios with chained redirects, Reactor Netty HTTP client leaks credentials. In order for this to happen, the HTTP client must have been explicitly configured to follow redirects.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-22227</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-22227</guid>
+    </item>
+    <item>
+      <title>CVE-2025-40724 - Pharmacy POS PHP Script Stored Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40724
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 a.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>Stored Cross-Site Scripting (XSS) vulnerability in Pharmacy POS PHP Script. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending the victim a malicious URL using the u_medicine_name parameter in /edit_medicine.php. This vulnerability can be exploited to steal sensitive user data such as session cookies or to perform actions on behalf of the user.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40724</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40724</guid>
+    </item>
+    <item>
+      <title>CVE-2025-40985 - SCATI Vision Web SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40985
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 a.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>SQL injection vulnerability in SCATI Vision Web of SCATI Labs from version 4.8 to 7.2. This vulnerability allows an attacker to exfiltrate some data from the database via the ‘login’ parameter in the endpoint ‘/scatevision_web/index.php/loginForm’.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40985</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40985</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5284 - Elementor Addons - Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5284
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 a.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The Master Addons – Elementor Addons with White Label, Free Widgets, Hover Effects, Conditions, & Animations plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Custom JS extension in all versions up to, and including, 2.0.8.2 due to insufficient capability restriction, and insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5284</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5284</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6993 - WordPress WP Mail Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6993
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 a.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The Ultimate WP Mail plugin for WordPress is vulnerable to Privilege Escalation due to improper authorization within the get_email_log_details() AJAX handler in versions 1.0.17 to 1.3.6. The handler reads the client-supplied post_id and retrieves the corresponding email log post content (including the password-reset link), relying only on the ‘edit_posts’ capability without restricting to administrators or validating ownership. This makes it possible for authenticated attackers, with Contributor-level access and above, to harvest an admin’s reset link and elevate their privileges to administrator.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6993</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6993</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7035 - WordPress Media Library Assistant Stored XSS</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7035
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 a.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>The Media Library Assistant plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's mla_tag_cloud and mla_term_list shortcodes in all versions up to, and including, 3.26 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7035</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7035</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7699 - ADM EZ Sync Manager Unauthenticated File Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7699
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 a.m. | 31 minutes ago
+<br>
+<strong>Description : </strong>An improper access control vulnerability  was found in the EZ Sync Manager of ADM, which allows authenticated users to copy arbitrary files from the server file system into their own EZSync folder. The vulnerability is due to a lack of authorization checks on the file parameter of the HTTP request. Attackers can exploit this flaw to access files outside their authorized scope, provided the file has readable permissions for other users on the underlying OS. This can lead to unauthorized exposure of sensitive data.
+Affected products and versions include: from ADM 4.1.0 to ADM 4.3.3.RH61 as well as ADM 5.0.0.RIN1 and earlier.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7699</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7699</guid>
+    </item>
+    <item>
       <title>CVE-2025-27465 - Xen Hypercall Instruction Replay Vulnerability (Arithmetic Flag Handling)</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27465
 <br>
-<strong>Published : </strong> July 16, 2025, 9:15 a.m. | 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 9:15 a.m. | 1 hour, 31 minutes ago
 <br>
 <strong>Description : </strong>Certain instructions need intercepting and emulating by Xen.  In some
 cases Xen emulates the instruction by replaying it, using an executable
@@ -44,7 +164,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7703
 <br>
-<strong>Published : </strong> July 16, 2025, 9:15 a.m. | 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 9:15 a.m. | 1 hour, 31 minutes ago
 <br>
 <strong>Description : </strong>Authentication vulnerability in the mobile application（tech.palm.id）may lead to the risk of information leakage.
 <br>
@@ -61,7 +181,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52687
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>Successful exploitation of the vulnerability could allow an attacker with administrator credentials for the access point to inject malicious JavaScript into the payload of web traffics, potentially leading to session hijacking and denial-of-service (DoS).
 <br>
@@ -78,7 +198,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52688
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>Successful exploitation of the vulnerability could allow an attacker to inject commands with root privileges on the access point, potentially leading to the loss of confidentiality, integrity, availability, and full control of the access point.
 <br>
@@ -95,7 +215,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52689
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>Successful exploitation of the vulnerability could allow an unauthenticated attacker to obtain a valid session ID with administrator privileges by spoofing the login request, potentially allowing the attacker to modify the behaviour of the access point.
 <br>
@@ -112,7 +232,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52690
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>Successful exploitation of the vulnerability could allow an attacker to execute arbitrary commands as root, potentially leading to the loss of confidentiality, integrity, availability, and full control of the access point.
 <br>
@@ -129,7 +249,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5843
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Brandfolder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘id’ parameter in all versions up to, and including, 5.0.19 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -146,7 +266,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5845
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Affiliate Reviews plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘numColumns’ parameter in all versions up to, and including, 1.0.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -163,7 +283,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6043
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Malcure Malware Scanner — #1 Toolset for WordPress Malware Removal plugin for WordPress is vulnerable to Arbitrary File Deletion due to a missing capability check on the wpmr_delete_file() function in all versions up to, and including, 16.8. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary files making remote code execution possible. This is only exploitable when advanced mode is enabled on the site.
 <br>
@@ -180,7 +300,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6747
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Avada (Fusion) Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'fusion_map' shortcode in all versions up to, and including, 3.12.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -197,7 +317,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7359
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The Counter live visitors for WooCommerce plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the wcvisitor_get_block function in all versions up to, and including, 1.3.6. This makes it possible for unauthenticated attackers to delete arbitrary files on the server. NOTE: This particular vulnerability deletes all the files in a targeted arbitrary directory rather than a specified arbitrary file, which can lead to loss of data or a denial of service condition.
 <br>
@@ -214,7 +334,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7673
 <br>
-<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 2 hours, 28 minutes ago
+<strong>Published : </strong> July 16, 2025, 7:15 a.m. | 3 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>A buffer overflow vulnerability in the URL parser of the zhttpd web server in Zyxel VMG8825-T50K firmware versions prior to V5.50(ABOM.5)C0 could allow an unauthenticated attacker to cause denial-of-service (DoS) conditions and potentially execute arbitrary code by sending a specially crafted HTTP request.
 <br>
@@ -231,7 +351,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2799
 <br>
-<strong>Published : </strong> July 16, 2025, 6:15 a.m. | 3 hours, 29 minutes ago
+<strong>Published : </strong> July 16, 2025, 6:15 a.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The WP Event Manager – Events Calendar, Registrations, Sell Tickets with WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘tag-name’ parameter in all versions up to, and including, 3.1.49 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
 <br>
@@ -248,7 +368,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2800
 <br>
-<strong>Published : </strong> July 16, 2025, 6:15 a.m. | 3 hours, 28 minutes ago
+<strong>Published : </strong> July 16, 2025, 6:15 a.m. | 4 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The WP Event Manager – Events Calendar, Registrations, Sell Tickets with WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘organizer_name' parameter in all versions up to, and including, 3.1.50 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -265,7 +385,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53842
 <br>
-<strong>Published : </strong> July 16, 2025, 5:15 a.m. | 4 hours, 28 minutes ago
+<strong>Published : </strong> July 16, 2025, 5:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>Use of hard-coded credentials issue exists in ZWX-2000CSW2-HN prior to 0.3.19 and ZWX-2000CS2-HN firmware all versions. If this vulnerability is exploited, an attacker may tamper with the settings of the device by obtaining the credentials. This vulnerability is caused by an insufficient fix for CVE-2024-39838.
 <br>
@@ -282,7 +402,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6977
 <br>
-<strong>Published : </strong> July 16, 2025, 5:15 a.m. | 4 hours, 28 minutes ago
+<strong>Published : </strong> July 16, 2025, 5:15 a.m. | 5 hours, 31 minutes ago
 <br>
 <strong>Description : </strong>The ProfileGrid – User Profiles, Groups and Communities plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘pm_get_messenger_notification’ function in all versions up to, and including, 5.9.5.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a logged-in user into performing an action such as clicking on a link.
 <br>
@@ -293,6 +413,40 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 16 Jul 2025 05:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-6977</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-6977</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53957 - Apache HTTP Server Cross-Site Request Forgery</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53957
+<br>
+<strong>Published : </strong> July 16, 2025, 3:15 a.m. | 7 hours, 31 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53957</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53957</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53958 - Apache HTTP Server Cross-Site Request Forgery</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53958
+<br>
+<strong>Published : </strong> July 16, 2025, 3:15 a.m. | 7 hours, 31 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53958</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53958</guid>
     </item>
     <item>
       <title>CVE-2025-53952 - Apache HTTP Server Unvalidated User Input</title>
@@ -378,40 +532,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 16 Jul 2025 03:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-53956</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-53956</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53957 - Apache HTTP Server Cross-Site Request Forgery</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53957
-<br>
-<strong>Published : </strong> July 16, 2025, 3:15 a.m. | 6 hours, 29 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Jul 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53957</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53957</guid>
-    </item>
-    <item>
-      <title>CVE-2025-53958 - Apache HTTP Server Cross-Site Request Forgery</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-53958
-<br>
-<strong>Published : </strong> July 16, 2025, 3:15 a.m. | 6 hours, 29 minutes ago
-<br>
-<strong>Description : </strong>Rejected reason: Not used
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Jul 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-53958</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53958</guid>
     </item>
     <item>
       <title>CVE-2025-53906 - Vim Zip File Path Traversal Vulnerability</title>
