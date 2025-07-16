@@ -137,6 +137,8 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-08/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-09/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-10/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-13/
+https://cvefeed.io/vuln/detail/CVE-2025-53031
+https://cvefeed.io/vuln/detail/CVE-2025-53032
 https://cvefeed.io/vuln/detail/CVE-2025-30761
 https://cvefeed.io/vuln/detail/CVE-2025-49831
 https://cvefeed.io/vuln/detail/CVE-2025-49833
@@ -160,8 +162,6 @@ https://cvefeed.io/vuln/detail/CVE-2025-53957
 https://cvefeed.io/vuln/detail/CVE-2025-53958
 https://cvefeed.io/vuln/detail/CVE-2025-53842
 https://cvefeed.io/vuln/detail/CVE-2025-6977
-https://cvefeed.io/vuln/detail/CVE-2025-2799
-https://cvefeed.io/vuln/detail/CVE-2025-2800
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
@@ -2265,6 +2265,8 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
+CVE-2025-53031 - Oracle Financial Services Analytical Applications Infrastructure HTTP Unauthenticated Confidentiality Vulnerability
+CVE-2025-53032 - Oracle MySQL Server Optimizer DOS Vulnerability
 CVE-2025-30761 - Oracle Java SE, Oracle GraalVM Enterprise Edition Scripting Remote Code Execution Vulnerability
 CVE-2025-49831 - CyberArk Secrets Manager, Self-Hosted Man-in-the-Middle Attack
 CVE-2025-49833 - GPT-SoVITS-WebUI Command Injection Vulnerability
@@ -2288,8 +2290,6 @@ CVE-2025-53957 - Apache HTTP Server Cross-Site Request Forgery
 CVE-2025-53958 - Apache HTTP Server Cross-Site Request Forgery
 CVE-2025-53842 - ZWX-2000CSW2-HN and ZWX-2000CS2-HN Hard-Coded Credentials Vulnerability
 CVE-2025-6977 - ProfileGrid WordPress Reflected Cross-Site Scripting Vulnerability
-CVE-2025-2799 - WordPress Event Manager - Stored Cross-Site Scripting Vulnerability
-CVE-2025-2800 - "WordPress WP Event Manager Stored Cross-Site Scripting"
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
@@ -2310,8 +2310,8 @@ Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
-CVE-2025-53031 - Oracle Financial Services Analytical Applications Infrastructure HTTP Unauthenticated Confidentiality Vulnerability
-CVE-2025-53032 - Oracle MySQL Server Optimizer DOS Vulnerability
+CVE-2025-2799 - WordPress Event Manager - Stored Cross-Site Scripting Vulnerability
+CVE-2025-2800 - "WordPress WP Event Manager Stored Cross-Site Scripting"
 CVE-2025-53029 - Oracle VirtualBox Core Confidential Data Disclosure
 CVE-2025-53030 - Oracle VirtualBox Core Privilege Escalation Vulnerability
 CVE-2025-50108 - Oracle Hyperion Financial Reporting Workspace HTTP Unauthorized Access and Data Modification
