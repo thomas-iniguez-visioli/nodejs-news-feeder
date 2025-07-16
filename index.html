@@ -179,12 +179,248 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-3871 - Fortra GoAnywhere MFT Authentication Bypass Denial of Service
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-3871
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>Broken access control in Fortra's GoAnywhere MFT prior to 7.8.1 allows an attacker to create a denial of service situation when configured to use GoAnywhere One-Time Password (GOTP) email two-factor authentication (2FA) and the user has not set an email address. In this scenario, the attacker may enter the email address of a known user when prompted and the user will be disabled if that user has configured GOTP.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-3871">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-40776 - BIND Named Cache-Poisoning Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-40776
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>A `named` caching resolver that is configured to send ECS (EDNS Client Subnet) options may be vulnerable to a cache-poisoning attack.
+This issue affects BIND 9 versions 9.11.3-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.37-S1, and 9.20.9-S1 through 9.20.10-S1.
+<br>
+<strong>Severity:</strong> 8.6 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-40776">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-40913 - Net::Dropbear Integer Overflow in libtommath Library
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-40913
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>Net::Dropbear versions through 0.16 for Perl contains a dependency that may be susceptible to an integer overflow.
+
+Net::Dropbear embeds a version of the libtommath library that is susceptible to an integer overflow associated with CVE-2023-36328.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-40913">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-40918 - Apache::Authen::SASL::Perl DIGEST_MD5 CNonce Weak Randomness Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-40918
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>Authen::SASL::Perl::DIGEST_MD5 versions 2.04 through 2.1800 for Perl generates the cnonce insecurely.
+
+The cnonce (client nonce) is generated from an MD5 hash of the PID, the epoch time and the built-in rand function. The PID will come from a small set of numbers, and the epoch time may be guessed, if it is not leaked from the HTTP Date header. The built-in rand function is unsuitable for cryptographic usage.
+
+According to RFC 2831, "The cnonce-value is an opaque quoted string value provided by the client and used by both client and server to avoid chosen plaintext attacks, and to provide mutual authentication. The security of the implementation depends on a good choice. It is RECOMMENDED that it contain at least 64 bits of entropy."
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-40918">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-40919 - Apache::Authen::DigestMD5 Insecure cnonce Generation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-40919
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>Authen::DigestMD5 versions 0.01 through 0.02 for Perl generate the cnonce insecurely.
+
+The cnonce (client nonce) is generated from an MD5 hash of the PID, the epoch time and the built-in rand function. The PID will come from a small set of numbers, and the epoch time may be guessed, if it is not leaked from the HTTP Date header. The built-in rand function is unsuitable for cryptographic usage.
+
+According to RFC 2831, "The cnonce-value is an opaque quoted string value provided by the client and used by both client and server to avoid chosen plaintext attacks, and to provide mutual authentication. The security of the implementation depends on a good choice. It is RECOMMENDED that it contain at least 64 bits of entropy."
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-40919">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53840 - Icinga DB Web Information Disclosure
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53840
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>Icinga DB Web provides a graphical interface for Icinga monitoring. Starting in version 1.2.0 and prior to version 1.2.2, users with access to Icinga Dependency Views, are allowed to see hosts and services that they weren't meant to on the dependency map. However, the name of an object will not be revealed nor does this grant access to a host's or service's detail view. Please note that this only affects the restrictions `filter/hosts` and `filter/services`. `filter/objects` is not affected by this and restricts objects as it is supposed to. Version 1.2.2 applies these restrictions properly. As a workaround, one may downgrade to version 1.1.3.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53840">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53892 - Vue I18n DOM-based XSS Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53892
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>Vue I18n is the internationalization plugin for Vue.js. The escapeParameterHtml: true option in Vue I18n is designed to protect against HTML/script injection by escaping interpolated parameters. However, starting in version 9.0.0 and prior to versions 9.14.5, 10.0.8, and 11.1.0, this setting fails to prevent execution of certain tag-based payloads, such as <img src=x onerror=...>, if the interpolated value is inserted inside an HTML context using v-html. This may lead to a DOM-based XSS vulnerability, even when using escapeParameterHtml: true, if a translation string includes minor HTML and is rendered via v-html. Versions 9.14.5, 10.0.8, and 11.1.0 contain a fix for the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53892">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53923 - Emlog Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53923
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>Emlog is an open source website building system. A cross-site scripting (XSS) vulnerability in emlog before the pro-2.5.17 allows remote attackers to inject arbitrary web script or HTML via the keyword parameter. Due to lack of sanitization it is possible to inject HTML/JS code into keyword parameter. If one persuades an user into clicking into prepared link it is possible to execute any JS code in admin's browser. As of time of publication, no known patched versions exist.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53923">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53924 - Emlog Stored XSS Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53924
+<br>
+<strong>Published : </strong> July 16, 2025, 2:15 p.m. | 32 minutes ago
+<br>
+<strong>Description : </strong>Emlog is an open source website building system. A cross-site scripting (XSS) vulnerability in emlog before the pro-2.5.17 allows authenticated remote attackers to inject arbitrary web script or HTML via the siteurl parameter. It is possible to inject malicious code into siteurl parameter resulting in Stored XSS. When someone clicks on the link the malicious code is executed. As of time of publication, no known patched versions exist.
+<br>
+<strong>Severity:</strong> 6.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53924">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-34300 - Sawtooth Software Lighthouse Studio Template Injection
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-34300
 <br>
-<strong>Published : </strong> July 16, 2025, 1:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> July 16, 2025, 1:15 p.m. | 1 hour, 32 minutes ago
 <br>
 <strong>Description : </strong>A template injection vulnerability exists in Sawtooth Software’s Lighthouse Studio versions prior to 9.16.14 via the  ciwweb.pl http://ciwweb.pl/  Perl web application. Exploitation allows an unauthenticated attacker can execute arbitrary commands.
 <br>
@@ -209,7 +445,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-40923
 <br>
-<strong>Published : </strong> July 16, 2025, 1:15 p.m. | 1 hour, 8 minutes ago
+<strong>Published : </strong> July 16, 2025, 1:15 p.m. | 1 hour, 32 minutes ago
 <br>
 <strong>Description : </strong>Plack-Middleware-Session before version 0.35 for Perl generates session ids insecurely.
 
@@ -225,6 +461,366 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 16 Jul 2025 13:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-40923">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52714 - Shinetheme Traveler SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52714
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in shinetheme Traveler allows SQL Injection. This issue affects Traveler: from n/a through n/a.
+<br>
+<strong>Severity:</strong> 9.3 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52714">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52777 - Contact Form 7 Cross-site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52777
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in cmsMinds Pay with Contact Form 7 allows Reflected XSS. This issue affects Pay with Contact Form 7: from n/a through 1.0.4.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52777">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52779 - Karimmughal Dot HTML/PHP/XML Cross-site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52779
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in karimmughal Dot html,php,xml etc pages allows Reflected XSS. This issue affects Dot html,php,xml etc pages: from n/a through 1.0.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52779">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52786 - Kingdom Creation Media Folder Cross-site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52786
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kingdom Creation Media Folder allows Reflected XSS. This issue affects Media Folder: from n/a through 1.0.0.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52786">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52787 - EZiHosting Tennis Court Bookings Cross-site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52787
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in EZiHosting Tennis Court Bookings allows Reflected XSS. This issue affects Tennis Court Bookings: from n/a through 1.2.7.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52787">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52803 - UXper Sala Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52803
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in uxper Sala allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects Sala: from n/a through 1.1.3.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52803">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52804 - UXPER Nuss Missing Authorization Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52804
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Missing Authorization vulnerability in uxper Nuss allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects Nuss: from n/a through 1.3.3.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52804">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52819 - Pakkemx Pakke Envíos SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52819
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in pakkemx Pakke Envíos allows SQL Injection. This issue affects Pakke Envíos: from n/a through 1.0.2.
+<br>
+<strong>Severity:</strong> 8.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52819">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52836 - Unity Business Technology Pty Ltd The E-Commerce ERP Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52836
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>Incorrect Privilege Assignment vulnerability in Unity Business Technology Pty Ltd The E-Commerce ERP allows Privilege Escalation. This issue affects The E-Commerce ERP: from n/a through 2.1.1.3.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52836">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53754 - Digisol Router Hard-Coded Root Access Credentials Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53754
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to hard-coded Root Access Credentials in system configuration of the device firmware. An attacker with physical access could exploit this vulnerability by extracting the firmware and analyzing the binary data to obtain the stored root access credentials. 
+
+Successful exploitation of this vulnerability could allow the attacker to gain admin access to the targeted device.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53754">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53755 - Digisol DG-GR6821AC Router Unencrypted Firmware Credential Exposure
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53755
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to storage of credentials and PINS without encryption in the device firmware. An attacker with physical access could exploit this vulnerability by extracting the firmware and reverse engineer the binary data to access the unencrypted data stored in the firmware of targeted device.
+
+Successful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the network of the targeted device.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53755">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53756 - Digisol DG-GR6821AC Router Cleartext Credentials Exposure
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53756
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to cleartext transmission of credentials in its web management interface. A remote attacker could exploit this vulnerability by intercepting the network traffic and capturing cleartext credentials. 
+
+Successful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the targeted device.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53756">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53757 - Digisol Router HTTPOnly Flag Misconfiguration Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53757
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to misconfiguration of both Secure and HttpOnly flags on session cookies associated with the router web interface. A remote attacker could exploit this vulnerability by capturing the session cookies transmitted over an unsecure HTTP connection. 
+
+Successful exploitation of this vulnerability could allow the attacker to obtain sensitive information from the targeted device.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53757">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53758 - &#34;Digisol DG-GR6821AC Router Default Admin Credentials Disclosure&#34;
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53758
+<br>
+<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 32 minutes ago
+<br>
+<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to use of default admin credentials at its web management interface. An attacker with physical access could exploit this vulnerability by extracting the firmware and reverse engineer the binary data to access the hardcoded default credentials stored in the firmware of the targeted device.
+
+Successful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the targeted device.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 16 Jul 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53758">
                                 read more
                             </a>
                     </article>
@@ -450,366 +1046,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 16 Jul 2025 12:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-50028">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52714 - Shinetheme Traveler SQL Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52714
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in shinetheme Traveler allows SQL Injection. This issue affects Traveler: from n/a through n/a.
-<br>
-<strong>Severity:</strong> 9.3 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52714">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52777 - Contact Form 7 Cross-site Scripting (XSS)
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52777
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in cmsMinds Pay with Contact Form 7 allows Reflected XSS. This issue affects Pay with Contact Form 7: from n/a through 1.0.4.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52777">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52779 - Karimmughal Dot HTML/PHP/XML Cross-site Scripting (XSS)
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52779
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in karimmughal Dot html,php,xml etc pages allows Reflected XSS. This issue affects Dot html,php,xml etc pages: from n/a through 1.0.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52779">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52786 - Kingdom Creation Media Folder Cross-site Scripting Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52786
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kingdom Creation Media Folder allows Reflected XSS. This issue affects Media Folder: from n/a through 1.0.0.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52786">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52787 - EZiHosting Tennis Court Bookings Cross-site Scripting (XSS)
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52787
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in EZiHosting Tennis Court Bookings allows Reflected XSS. This issue affects Tennis Court Bookings: from n/a through 1.2.7.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52787">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52803 - UXper Sala Missing Authorization Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52803
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in uxper Sala allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects Sala: from n/a through 1.1.3.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52803">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52804 - UXPER Nuss Missing Authorization Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52804
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Missing Authorization vulnerability in uxper Nuss allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects Nuss: from n/a through 1.3.3.
-<br>
-<strong>Severity:</strong> 7.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52804">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52819 - Pakkemx Pakke Envíos SQL Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52819
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in pakkemx Pakke Envíos allows SQL Injection. This issue affects Pakke Envíos: from n/a through 1.0.2.
-<br>
-<strong>Severity:</strong> 8.5 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52819">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-52836 - Unity Business Technology Pty Ltd The E-Commerce ERP Privilege Escalation Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-52836
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>Incorrect Privilege Assignment vulnerability in Unity Business Technology Pty Ltd The E-Commerce ERP allows Privilege Escalation. This issue affects The E-Commerce ERP: from n/a through 2.1.1.3.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52836">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53754 - Digisol Router Hard-Coded Root Access Credentials Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53754
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to hard-coded Root Access Credentials in system configuration of the device firmware. An attacker with physical access could exploit this vulnerability by extracting the firmware and analyzing the binary data to obtain the stored root access credentials. 
-
-Successful exploitation of this vulnerability could allow the attacker to gain admin access to the targeted device.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53754">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53755 - Digisol DG-GR6821AC Router Unencrypted Firmware Credential Exposure
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53755
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to storage of credentials and PINS without encryption in the device firmware. An attacker with physical access could exploit this vulnerability by extracting the firmware and reverse engineer the binary data to access the unencrypted data stored in the firmware of targeted device.
-
-Successful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the network of the targeted device.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53755">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53756 - Digisol DG-GR6821AC Router Cleartext Credentials Exposure
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53756
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to cleartext transmission of credentials in its web management interface. A remote attacker could exploit this vulnerability by intercepting the network traffic and capturing cleartext credentials. 
-
-Successful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the targeted device.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53756">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53757 - Digisol Router HTTPOnly Flag Misconfiguration Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53757
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to misconfiguration of both Secure and HttpOnly flags on session cookies associated with the router web interface. A remote attacker could exploit this vulnerability by capturing the session cookies transmitted over an unsecure HTTP connection. 
-
-Successful exploitation of this vulnerability could allow the attacker to obtain sensitive information from the targeted device.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53757">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-53758 - &#34;Digisol DG-GR6821AC Router Default Admin Credentials Disclosure&#34;
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-53758
-<br>
-<strong>Published : </strong> July 16, 2025, 12:15 p.m. | 2 hours, 8 minutes ago
-<br>
-<strong>Description : </strong>This vulnerability exists in Digisol DG-GR6821AC Router due to use of default admin credentials at its web management interface. An attacker with physical access could exploit this vulnerability by extracting the firmware and reverse engineer the binary data to access the hardcoded default credentials stored in the firmware of the targeted device.
-
-Successful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the targeted device.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 16 Jul 2025 12:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53758">
                                 read more
                             </a>
                     </article>
