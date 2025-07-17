@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 17 Jul 2025 16:51:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 17:18:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47189
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Netwrix Directory Manager through 2025-05-01 allows XSS.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54058
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A SQL Injection vulnerability was identified in versions prior to 3.4.6 in the `idatendido_familiares` parameter of the `/html/funcionario/dependente_editarEndereco.php` endpoint. This vulnerability allows attacker to manipulate SQL queries and access sensitive database information, such as table names and sensitive data. Version 3.4.6 fixes the issue.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54060
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A SQL Injection vulnerability was identified in versions prior to 3.4.6 in the `idatendido_familiares` parameter of the `/html/funcionario/dependente_editarInfoPessoal.php` endpoint. This vulnerability allows attacker to manipulate SQL queries and access sensitive database information, such as table names and sensitive data. Version 3.4.6 fixes the issue.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54061
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A SQL Injection vulnerability was identified in versions prior to 3.4.6 in the `idatendido_familiares` parameter of the `/html/funcionario/dependente_editarDoc.php` endpoint. This vulnerability allows attacker to manipulate SQL queries and access sensitive database information, such as table names and sensitive data. Version 3.4.6 fixes the issue.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54062
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A SQL Injection vulnerability was identified in versions prior to 3.4.6 in the `/html/funcionario/profile_dependente.php` endpoint, specifically in the `id_dependente` parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. Version 3.4.6 fixes the issue.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54064
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Rucio is a software framework that provides functionality to organize, manage, and access large volumes of scientific data using customizable policies. The common Rucio helm-charts for the `rucio-server`, `rucio-ui`, and `rucio-webui` define the log format for the apache access log of these components. The `X-Rucio-Auth-Token`, which is part of each request header sent to Rucio, is part of this log format. Thus, each access log line potentially exposes the credentials (Internal Rucio token, or JWT in case of OIDC authentication) of the user. Due to the length of the token (Especially for a JWT) the tokens are often truncated, and thus not usable as credential; nevertheless, the (partial) credential should not be part of the logfile. The impact of this issue is amplified if the access logs are made available to a larger group of people than the instance administrators themselves. An updated release has been supplied for the `rucio-server`, `rucio-ui` and `rucio-webui` helm-chart. The change was also retrofitted for the currently supported Rucio LTS releases. The patched versions are rucio-server 37.0.2, 35.0.1, and 32.0.1; rucio-ui 37.0.4, 35.0.1, and 32.0.2; and rucio-webui 37.0.2, 35.1.1, and 32.0.1. As a workaround, one may update the `logFormat` variable and remove the `X-Rucio-Auth-Token`.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54066
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>DiracX-Web is a web application that provides an interface to interact with the DiracX services. Prior to version 0.1.0-a8, an attacker can forge a request that they can pass to redirect an authenticated user to another arbitrary website. In the login page, DiracX-Web has a `redirect` field which is the location where the server will redirect the user. This URI is not verified, and can be an arbitrary URI. Paired with a parameter pollution, an attacker can hide their malicious URI. This could be used for phishing, and extract new data (such as redirecting to a new "log in" page, and asking another time credentials). Version 0.1.0-a8 fixes this vulnerability.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-1713
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 2 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>When setting up interrupt remapping for legacy PCI(-X) devices,
 including PCI(-X) bridges, a lookup of the upstream bridge is required.
@@ -158,7 +158,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40924
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 2 hours, 10 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>Catalyst::Plugin::Session before version 0.44 for Perl generates session ids insecurely.
 
@@ -179,7 +179,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-51630
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 2 hours, 10 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK N350RT V9.3.5u.6139_B20201216 was discovered to contain a buffer overflow via the ePort parameter in the function setIpPortFilterRules.
 <br>
@@ -196,7 +196,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53909
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 2 hours, 10 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>mailcow: dockerized is an open source groupware/email suite based on docker. A Server-Side Template Injection (SSTI) vulnerability exists in versions prior to 2025-07 in the notification template system used by mailcow for sending quota and quarantine alerts. The template rendering engine allows template expressions that may be abused to execute code in certain contexts. The issue requires admin-level access to mailcow UI to configure templates, which are automatically rendered during normal system operation. Version 2025-07 contains a patch for the issue.
 <br>
@@ -213,7 +213,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53927
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 2 hours, 10 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>MaxKB is an open-source AI assistant for enterprise. Prior to version 2.0.0, the sandbox design rules can be bypassed because MaxKB only restricts the execution permissions of files in a specific directory. Therefore, an attacker can use the `shutil.copy2` method in Python to copy the command they want to execute to the executable directory. This bypasses directory restrictions and reverse shell. Version 2.0.0 fixes the issue.
 <br>
@@ -230,7 +230,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53928
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 2 hours, 10 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>MaxKB is an open-source AI assistant for enterprise. Prior to versions 1.10.9-lts and 2.0.0, a Remote Command Execution vulnerability exists in the MCP call. Versions 1.10.9-lts and 2.0.0 fix the issue.
 <br>
@@ -247,7 +247,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53941
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 2 hours, 10 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>Hollo is a federated single-user microblogging software designed to be federated through ActivityPub. Versions prior to 0.6.5 allow HTML form elements to be submitted, making the software vulnerable to HTML injection. Version 0.6.5 fixes the issue.
 <br>
@@ -264,7 +264,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53946
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 2 hours, 10 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A SQL Injection vulnerability was identified in versions prior to 3.4.5 in the `id_funcionario` parameter of the `/html/saude/profile_paciente.php` endpoint. This vulnerability allows attacker to manipulate SQL queries and access sensitive database information, such as table names and sensitive data. Version 3.4.5 fixes the issue.
 <br>
@@ -281,7 +281,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52933
 <br>
-<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 3 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: 3rd party vulnerability
 <br>
@@ -298,7 +298,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5344
 <br>
-<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 3 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Bluebird devices contain a pre-loaded kiosk application. This application exposes an unsecured service provider "com.bluebird.kiosk.launcher.IpartnerKioskRemoteService". A local attacker can bind to the AIDL-type service to modify device's global settings and wallpaper image.
 
@@ -317,7 +317,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5345
 <br>
-<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 3 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Bluebird devices contain a pre-loaded file manager application. This application exposes an unsecured service provider "com.bluebird.system.koreanpost.IsdcardRemoteService". A local attacker can bind to the AIDL-type service to copy and delete arbitrary files from device's storage with system-level permissions.
 
@@ -336,7 +336,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5346
 <br>
-<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 3 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Bluebird devices contain a pre-loaded barcode scanner application. This application exposes an unsecured broadcast receiver "kr.co.bluebird.android.bbsettings.BootReceiver". A local attacker can call the receiver to overwrite file containing ".json" keyword with default barcode config file. It is possible to overwrite file in any location due to lack of protection against path traversal in name of the file.
 
@@ -355,7 +355,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3415
 <br>
-<strong>Published : </strong> July 17, 2025, 11:15 a.m. | 5 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 11:15 a.m. | 4 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Grafana is an open-source platform for monitoring and observability. The Grafana Alerting DingDing integration was not properly protected and could be exposed to users with Viewer permission. 
 Fixed in versions 10.4.19+security-01, 11.2.10+security-01, 11.3.7+security-01, 11.4.5+security-01, 11.5.5+security-01, 11.6.2+security-01 and 12.0.1+security-01
@@ -373,7 +373,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4302
 <br>
-<strong>Published : </strong> July 17, 2025, 8:15 a.m. | 8 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 8:15 a.m. | 7 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>The Stop User Enumeration WordPress plugin before version 1.7.3 blocks REST API /wp-json/wp/v2/users/ requests for non-authorized users. However, this can be bypassed by URL-encoding the API path.
 <br>
@@ -390,7 +390,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7735
 <br>
-<strong>Published : </strong> July 17, 2025, 4:15 a.m. | 12 hours, 10 minutes ago
+<strong>Published : </strong> July 17, 2025, 4:15 a.m. | 11 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>The Hospital Information System developed by UNIMAX has a SQL Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary SQL commands to read database contents.
 <br>
@@ -407,7 +407,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7712
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 a.m. | 13 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 a.m. | 12 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>The Madara - Core plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the wp_manga_delete_zip() function in all versions up to, and including, 2.2.3. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
 <br>
@@ -424,7 +424,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7728
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 14 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 13 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in Scada-LTS up to 2.7.8.1. Affected is an unknown function of the file users.shtm. The manipulation of the argument Username leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this issue and confirmed that it will be fixed in the upcoming release 2.8.0.
 <br>
@@ -441,7 +441,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7729
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 14 hours, 11 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 13 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in Scada-LTS up to 2.7.8.1. Affected by this vulnerability is an unknown functionality of the file usersProfiles.shtm. The manipulation of the argument Username leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this issue and confirmed that it will be fixed in the upcoming release 2.8.0.
 <br>
