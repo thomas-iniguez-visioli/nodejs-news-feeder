@@ -8,18 +8,161 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 17 Jul 2025 14:46:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 15:21:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-1713 - Intel PCI Interrupt Remapping Deadlock Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-1713
+<br>
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 35 minutes ago
+<br>
+<strong>Description : </strong>When setting up interrupt remapping for legacy PCI(-X) devices,
+including PCI(-X) bridges, a lookup of the upstream bridge is required.
+This lookup, itself involving acquiring of a lock, is done in a context
+where acquiring that lock is unsafe.  This can lead to a deadlock.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-1713</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-1713</guid>
+    </item>
+    <item>
+      <title>CVE-2025-40924 - Catalyst::Plugin::Session Insecure Session ID Generation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-40924
+<br>
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 35 minutes ago
+<br>
+<strong>Description : </strong>Catalyst::Plugin::Session before version 0.44 for Perl generates session ids insecurely.
+
+The session id is generated from a (usually SHA-1) hash of a simple counter, the epoch time, the built-in rand function, the PID and the current Catalyst context. This information is of low entropy. The PID will come from a small set of numbers, and the epoch time may be guessed, if it is not leaked from the HTTP Date header. The built-in rand function is unsuitable for cryptographic usage.
+
+Predicable session ids could allow an attacker to gain access to systems.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-40924</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-40924</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51630 - TOTOLINK N350RT Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51630
+<br>
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 35 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK N350RT V9.3.5u.6139_B20201216 was discovered to contain a buffer overflow via the ePort parameter in the function setIpPortFilterRules.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51630</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51630</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53909 - Mailcow: Dockerized Server-Side Template Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53909
+<br>
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 35 minutes ago
+<br>
+<strong>Description : </strong>mailcow: dockerized is an open source groupware/email suite based on docker. A Server-Side Template Injection (SSTI) vulnerability exists in versions prior to 2025-07 in the notification template system used by mailcow for sending quota and quarantine alerts. The template rendering engine allows template expressions that may be abused to execute code in certain contexts. The issue requires admin-level access to mailcow UI to configure templates, which are automatically rendered during normal system operation. Version 2025-07 contains a patch for the issue.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53909</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53909</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53927 - MaxKB Directory Traversal (Command Execution)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53927
+<br>
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 35 minutes ago
+<br>
+<strong>Description : </strong>MaxKB is an open-source AI assistant for enterprise. Prior to version 2.0.0, the sandbox design rules can be bypassed because MaxKB only restricts the execution permissions of files in a specific directory. Therefore, an attacker can use the `shutil.copy2` method in Python to copy the command they want to execute to the executable directory. This bypasses directory restrictions and reverse shell. Version 2.0.0 fixes the issue.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53927</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53927</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53928 - MaxKB Remote Command Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53928
+<br>
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 35 minutes ago
+<br>
+<strong>Description : </strong>MaxKB is an open-source AI assistant for enterprise. Prior to versions 1.10.9-lts and 2.0.0, a Remote Command Execution vulnerability exists in the MCP call. Versions 1.10.9-lts and 2.0.0 fix the issue.
+<br>
+<strong>Severity:</strong> 4.6 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53928</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53941 - Hollo ActivityPub HTML Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53941
+<br>
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 35 minutes ago
+<br>
+<strong>Description : </strong>Hollo is a federated single-user microblogging software designed to be federated through ActivityPub. Versions prior to 0.6.5 allow HTML form elements to be submitted, making the software vulnerable to HTML injection. Version 0.6.5 fixes the issue.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53941</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53941</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53946 - WeGIA SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53946
+<br>
+<strong>Published : </strong> July 17, 2025, 2:15 p.m. | 35 minutes ago
+<br>
+<strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A SQL Injection vulnerability was identified in versions prior to 3.4.5 in the `id_funcionario` parameter of the `/html/saude/profile_paciente.php` endpoint. This vulnerability allows attacker to manipulate SQL queries and access sensitive database information, such as table names and sensitive data. Version 3.4.5 fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 17 Jul 2025 14:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53946</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53946</guid>
+    </item>
+    <item>
       <title>CVE-2025-52933 - Apache Struts XML External Entity (XXE) Injection</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52933
 <br>
-<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 1 hour, 35 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: 3rd party vulnerability
 <br>
@@ -36,7 +179,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5344
 <br>
-<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 1 hour, 35 minutes ago
 <br>
 <strong>Description : </strong>Bluebird devices contain a pre-loaded kiosk application. This application exposes an unsecured service provider "com.bluebird.kiosk.launcher.IpartnerKioskRemoteService". A local attacker can bind to the AIDL-type service to modify device's global settings and wallpaper image.
 
@@ -55,7 +198,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5345
 <br>
-<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 1 hour, 35 minutes ago
 <br>
 <strong>Description : </strong>Bluebird devices contain a pre-loaded file manager application. This application exposes an unsecured service provider "com.bluebird.system.koreanpost.IsdcardRemoteService". A local attacker can bind to the AIDL-type service to copy and delete arbitrary files from device's storage with system-level permissions.
 
@@ -74,7 +217,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5346
 <br>
-<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 17, 2025, 1:15 p.m. | 1 hour, 35 minutes ago
 <br>
 <strong>Description : </strong>Bluebird devices contain a pre-loaded barcode scanner application. This application exposes an unsecured broadcast receiver "kr.co.bluebird.android.bbsettings.BootReceiver". A local attacker can call the receiver to overwrite file containing ".json" keyword with default barcode config file. It is possible to overwrite file in any location due to lack of protection against path traversal in name of the file.
 
@@ -93,7 +236,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-3415
 <br>
-<strong>Published : </strong> July 17, 2025, 11:15 a.m. | 1 hour, 35 minutes ago
+<strong>Published : </strong> July 17, 2025, 11:15 a.m. | 3 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>Grafana is an open-source platform for monitoring and observability. The Grafana Alerting DingDing integration was not properly protected and could be exposed to users with Viewer permission. 
 Fixed in versions 10.4.19+security-01, 11.2.10+security-01, 11.3.7+security-01, 11.4.5+security-01, 11.5.5+security-01, 11.6.2+security-01 and 12.0.1+security-01
@@ -111,11 +254,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4302
 <br>
-<strong>Published : </strong> July 17, 2025, 8:15 a.m. | 4 hours, 35 minutes ago
+<strong>Published : </strong> July 17, 2025, 8:15 a.m. | 6 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>The Stop User Enumeration WordPress plugin before version 1.7.3 blocks REST API /wp-json/wp/v2/users/ requests for non-authorized users. However, this can be bypassed by URL-encoding the API path.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 5.3 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -128,7 +271,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7735
 <br>
-<strong>Published : </strong> July 17, 2025, 4:15 a.m. | 8 hours, 35 minutes ago
+<strong>Published : </strong> July 17, 2025, 4:15 a.m. | 10 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>The Hospital Information System developed by UNIMAX has a SQL Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary SQL commands to read database contents.
 <br>
@@ -145,7 +288,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7712
 <br>
-<strong>Published : </strong> July 17, 2025, 3:15 a.m. | 9 hours, 35 minutes ago
+<strong>Published : </strong> July 17, 2025, 3:15 a.m. | 11 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>The Madara - Core plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the wp_manga_delete_zip() function in all versions up to, and including, 2.2.3. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
 <br>
@@ -162,7 +305,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5396
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 10 hours, 35 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 12 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>The Bears Backup plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.0.0. This is due to the bbackup_ajax_handle() function not having a capability check, nor validating user supplied input passed directly to call_user_func(). This makes it possible for unauthenticated attackers to execute code on the server which can be leverage to inject backdoors or create new administrative user accounts to name a few things. On WordPress sites running the Alone theme versions 7.8.4 and older, this can be chained with CVE-2025-5394 to install the Bears Backup plugin and achieve the same impact.
 <br>
@@ -179,7 +322,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7728
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 10 hours, 35 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 12 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in Scada-LTS up to 2.7.8.1. Affected is an unknown function of the file users.shtm. The manipulation of the argument Username leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this issue and confirmed that it will be fixed in the upcoming release 2.8.0.
 <br>
@@ -196,7 +339,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7729
 <br>
-<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 10 hours, 35 minutes ago
+<strong>Published : </strong> July 17, 2025, 2:15 a.m. | 12 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic was found in Scada-LTS up to 2.7.8.1. Affected by this vulnerability is an unknown functionality of the file usersProfiles.shtm. The manipulation of the argument Username leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this issue and confirmed that it will be fixed in the upcoming release 2.8.0.
 <br>
@@ -213,7 +356,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-12498
 <br>
-<strong>Published : </strong> July 16, 2025, 11:15 p.m. | 13 hours, 35 minutes ago
+<strong>Published : </strong> July 16, 2025, 11:15 p.m. | 15 hours, 35 minutes ago
 <br>
 <strong>Description : </strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 <br>
@@ -224,6 +367,91 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 16 Jul 2025 23:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2024-12498</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2024-12498</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34127 - Achat UDP Stack-based Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34127
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 16 hours, 35 minutes ago
+<br>
+<strong>Description : </strong>A stack-based buffer overflow exists in Achat v0.150 in its default configuration. By sending a specially crafted message to the UDP port 9256, an attacker can overwrite the structured exception handler (SEH) due to insufficient bounds checking on user-supplied input leading to remote code execution.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34127</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34127</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34128 - X360 VideoPlayer Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34128
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 16 hours, 35 minutes ago
+<br>
+<strong>Description : </strong>A buffer overflow vulnerability exists in the X360 VideoPlayer ActiveX control (VideoPlayer.ocx) version 2.6 when handling overly long arguments to the ConvertFile() method. An attacker can exploit this vulnerability by supplying crafted input to cause memory corruption and execute arbitrary code within the context of the current process.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34128</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34128</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34129 - LILIN Digital Video Recorder (DVR) Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34129
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 16 hours, 35 minutes ago
+<br>
+<strong>Description : </strong>A command injection vulnerability exists in LILIN LILIN Digital Video Recorder (DVR) devices prior to firmware version 2.0b60_20200207 due to insufficient sanitization of the FTP and NTP Server fields in the service configuration. An attacker with access to the configuration interface can upload a malicious XML file with injected shell commands in these fields. Upon subsequent configuration syncs, these commands are executed with elevated privileges. This vulnerability was exploited in the wild by the Moobot botnets.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34129</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34129</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34130 - LILIN Digital Video Recorder (DVR) Unauthenticated Arbitrary File Read Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34130
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 16 hours, 35 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated arbitrary file read exists in LILIN Digital Video Recorder (DVR) devices prior to firmware version 2.0b60_20200207 via the /z/zbin/net_html.cgi endpoint. This vulnerability allows attackers to read sensitive configuration files, such as /zconf/service.xml, which can then be used to facilitate further attacks including command injection. The vulnerability has been exploited in the wild in conjunction with other issues by botnets like FBot and Moobot.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34130</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34130</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34132 - LILIN DVR Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34132
+<br>
+<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 16 hours, 35 minutes ago
+<br>
+<strong>Description : </strong>A command injection vulnerability exists in LILIN Digital Video Recorder (DVR) devices prior to firmware version 2.0b60_20200207 via the Server field in the NTPUpdate configuration. The web service at /z/zbin/dvr_box fails to properly sanitize input, allowing remote attackers to inject and execute arbitrary commands as root by supplying specially crafted XML data to the DVRPOST interface. 777
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34132</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34132</guid>
     </item>
     <item>
       <title>CVE-2025-34124 - Heroes of Might and Magic III Complete Buffer Overflow Vulnerability</title>
@@ -275,91 +503,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-34126</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-34126</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34127 - Achat UDP Stack-based Buffer Overflow</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34127
-<br>
-<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 14 hours, 35 minutes ago
-<br>
-<strong>Description : </strong>A stack-based buffer overflow exists in Achat v0.150 in its default configuration. By sending a specially crafted message to the UDP port 9256, an attacker can overwrite the structured exception handler (SEH) due to insufficient bounds checking on user-supplied input leading to remote code execution.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34127</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34127</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34128 - X360 VideoPlayer Buffer Overflow Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34128
-<br>
-<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 14 hours, 35 minutes ago
-<br>
-<strong>Description : </strong>A buffer overflow vulnerability exists in the X360 VideoPlayer ActiveX control (VideoPlayer.ocx) version 2.6 when handling overly long arguments to the ConvertFile() method. An attacker can exploit this vulnerability by supplying crafted input to cause memory corruption and execute arbitrary code within the context of the current process.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34128</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34128</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34129 - LILIN Digital Video Recorder (DVR) Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34129
-<br>
-<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 14 hours, 35 minutes ago
-<br>
-<strong>Description : </strong>A command injection vulnerability exists in LILIN LILIN Digital Video Recorder (DVR) devices prior to firmware version 2.0b60_20200207 due to insufficient sanitization of the FTP and NTP Server fields in the service configuration. An attacker with access to the configuration interface can upload a malicious XML file with injected shell commands in these fields. Upon subsequent configuration syncs, these commands are executed with elevated privileges. This vulnerability was exploited in the wild by the Moobot botnets.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34129</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34129</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34130 - LILIN Digital Video Recorder (DVR) Unauthenticated Arbitrary File Read Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34130
-<br>
-<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 14 hours, 35 minutes ago
-<br>
-<strong>Description : </strong>An unauthenticated arbitrary file read exists in LILIN Digital Video Recorder (DVR) devices prior to firmware version 2.0b60_20200207 via the /z/zbin/net_html.cgi endpoint. This vulnerability allows attackers to read sensitive configuration files, such as /zconf/service.xml, which can then be used to facilitate further attacks including command injection. The vulnerability has been exploited in the wild in conjunction with other issues by botnets like FBot and Moobot.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34130</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34130</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34132 - LILIN DVR Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-34132
-<br>
-<strong>Published : </strong> July 16, 2025, 10:15 p.m. | 14 hours, 35 minutes ago
-<br>
-<strong>Description : </strong>A command injection vulnerability exists in LILIN Digital Video Recorder (DVR) devices prior to firmware version 2.0b60_20200207 via the Server field in the NTPUpdate configuration. The web service at /z/zbin/dvr_box fails to properly sanitize input, allowing remote attackers to inject and execute arbitrary commands as root by supplying specially crafted XML data to the DVRPOST interface. 777
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Wed, 16 Jul 2025 22:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-34132</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34132</guid>
     </item>
     <item>
       <title>CVE-2025-34117 - Netcore/Netis Router Remote Code Execution Backdoor Vulnerability</title>
