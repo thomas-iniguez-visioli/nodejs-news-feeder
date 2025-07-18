@@ -179,12 +179,187 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-52164 - Agorum Core Password Storage Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52164
+<br>
+<strong>Published : </strong> July 18, 2025, 6:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Software GmbH Agorum core open v11.9.2 & v11.10.1 was discovered to store credentials in plaintext.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 18:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52164">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52166 - Agorum Core Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52166
+<br>
+<strong>Published : </strong> July 18, 2025, 6:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Incorrect access control in Software GmbH Agorum core open v11.9.2 & v11.10.1 allows authenticated attackers to escalate privileges to Administrator and access sensitive components and information.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 18:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52166">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52168 - Agorum Software GmbH Agorum Core File Access Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52168
+<br>
+<strong>Published : </strong> July 18, 2025, 6:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Incorrect access control in the dynawebservice component of agorum Software GmbH Agorum core open v11.9.2 & v11.10.1 allows unauthenticated attackers to access arbitrary files on the system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 18:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52168">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53901 - Wasmtime WASIp1 Denial-of-Service Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53901
+<br>
+<strong>Published : </strong> July 18, 2025, 6:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>Wasmtime is a runtime for WebAssembly. Prior to versions 24.0.4, 33.0.2, and 34.0.2, a bug in Wasmtime's implementation of the WASIp1 set of import functions can lead to a WebAssembly guest inducing a panic in the host (embedder). The specific bug is triggered by calling `path_open` after calling `fd_renumber` with either two equal argument values or a second argument being equal to a previously-closed file descriptor number value. The corrupt state introduced in `fd_renumber` will lead to the subsequent opening of a file descriptor to panic. This panic cannot introduce memory unsafety or allow WebAssembly to break outside of its sandbox, however. There is no possible heap corruption or memory unsafety from this panic. This bug is in the implementation of Wasmtime's `wasmtime-wasi` crate which provides an implementation of WASIp1. The bug requires a specially crafted call to `fd_renumber` in addition to the ability to open a subsequent file descriptor. Opening a second file descriptor is only possible when a preopened directory was provided to the guest, and this is common amongst embeddings. A panic in the host is considered a denial-of-service vector for WebAssembly embedders and is thus a security issue in Wasmtime. This bug does not affect WASIp2 and embedders using components. In accordance with Wasmtime's release process, patch releases are available as 24.0.4, 33.0.2, and 34.0.2. Users of other release of Wasmtime are recommended to move to a supported release of Wasmtime. Embedders who are using components or are not providing guest access to create more file descriptors (e.g. via a preopened filesystem directory) are not affected by this issue. Otherwise, there is no workaround at this time, and affected embeddings are recommended to update to a patched version which will not cause a panic in the host.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 18:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53901">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7795 - Tenda FH451 Stack-Based Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7795
+<br>
+<strong>Published : </strong> July 18, 2025, 6:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Tenda FH451 1.0.0.9. Affected by this issue is the function fromP2pListFilter of the file /goform/P2pListFilter. The manipulation of the argument page leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 18:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7795">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7796 - Tenda PPTPDClient Stack-Based Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7796
+<br>
+<strong>Published : </strong> July 18, 2025, 6:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Tenda FH451 1.0.0.9. This affects the function fromPptpUserAdd of the file /goform/PPTPDClient. The manipulation of the argument Username leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 18:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7796">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7797 - GPAC Dash Client Null Pointer Dereference Remote Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7797
+<br>
+<strong>Published : </strong> July 18, 2025, 6:15 p.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in GPAC up to 2.4. It has been rated as problematic. Affected by this issue is the function gf_dash_download_init_segment of the file src/media_tools/dash_client.c. The manipulation of the argument base_init_url leads to null pointer dereference. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The patch is identified as 153ea314b6b053db17164f8bc3c7e1e460938eaa. It is recommended to apply a patch to fix this issue.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 18:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7797">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-45156 - Splashin iOS Location Spoofing Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45156
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Splashin iOS v2.0 fails to enforce server-side interval restrictions for location updates for free-tier users.
 <br>
@@ -209,7 +384,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-45157
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Insecure permissions in Splashin iOS v2.0 allow unauthorized attackers to access location data for specific users.
 <br>
@@ -234,7 +409,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-47158
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Authentication bypass by assumed-immutable data in Azure DevOps allows an unauthorized attacker to elevate privileges over a network.
 <br>
@@ -259,7 +434,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-47995
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Weak authentication in Azure Machine Learning allows an authorized attacker to elevate privileges over a network.
 <br>
@@ -284,7 +459,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-49746
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Improper authorization in Azure Machine Learning allows an authorized attacker to elevate privileges over a network.
 <br>
@@ -309,7 +484,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-49747
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Missing authorization in Azure Machine Learning allows an authorized attacker to elevate privileges over a network.
 <br>
@@ -334,7 +509,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-50586
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>StudentManage v1.0 was discovered to contain Cross-Site Request Forgery (CSRF).
 <br>
@@ -359,7 +534,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-52162
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>agorum Software GmbH Agorum core open v11.9.2 & v11.10.1 was discovered to contain an XML External Entity (XXE) via the RSSReader endpoint. This vulnerability allows attackers to access sensitive data via providing a crafted XML input.
 <br>
@@ -384,7 +559,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53762
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Permissive list of allowed inputs in Microsoft Purview allows an authorized attacker to elevate privileges over a network.
 <br>
@@ -409,7 +584,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-7783
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>Use of Insufficiently Random Values vulnerability in form-data allows HTTP Parameter Pollution (HPP). This vulnerability is associated with program files lib/form_data.Js.
 
@@ -436,7 +611,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-7792
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Tenda FH451 1.0.0.9. It has been rated as critical. This issue affects the function formSafeEmailFilter of the file /goform/SafeEmailFilter. The manipulation of the argument page leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -461,7 +636,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-7793
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in Tenda FH451 1.0.0.9. Affected is the function formWebTypeLibrary of the file /goform/webtypelibrary. The manipulation of the argument webSiteId leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -486,7 +661,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-7794
 <br>
-<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> July 18, 2025, 5:15 p.m. | 1 hour, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in Tenda FH451 1.0.0.9. Affected by this vulnerability is the function fromNatStaticSetting of the file /goform/NatStaticSetting. The manipulation of the argument page leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -498,6 +673,131 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 18 Jul 2025 17:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7794">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-54078 - WeGIA Reflected Cross-Site Scripting (XSS)
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-54078
+<br>
+<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A Reflected Cross-Site Scripting (XSS) vulnerability was identified in versions prior to 3.4.6 in the `personalizacao_imagem.php` endpoint of the WeGIA application. This vulnerability allows attackers to inject malicious scripts in the `err` parameter. Version 3.4.6 fixes the issue.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54078">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-54079 - WeGIA SQL Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-54079
+<br>
+<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A SQL Injection vulnerability was identified in versions prior to 3.4.6 in the endpoint `/html/atendido/Profile_Atendido.php`, in the `idatendido` parameter. This vulnerability allow an authorized attacker to execute arbitrary SQL queries, allowing access to sensitive information. Version 3.4.6 fixes the issue.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54079">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7789 - Xuxueli xxl-job Password Hashing Weakness
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7789
+<br>
+<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Xuxueli xxl-job up to 3.1.1 and classified as problematic. Affected by this issue is the function makeToken of the file src/main/java/com/xxl/job/admin/controller/IndexController.java of the component Token Generation. The manipulation leads to password hash with insufficient computational effort. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7789">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7790 - D-Link DI-8100 HTTP Request Handler Stack-Based Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7790
+<br>
+<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in D-Link DI-8100 16.07.26A1. It has been classified as critical. This affects an unknown part of the file /menu_nat.asp of the component HTTP Request Handler. The manipulation of the argument out_addr/in_addr/out_port/proto leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7790">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-7791 - PHPGurukul Online Security Guards Hiring System Cross-Site Scripting Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-7791
+<br>
+<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 2 hours, 30 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Online Security Guards Hiring System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file /admin/search.php. The manipulation of the argument searchdata leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Fri, 18 Jul 2025 16:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7791">
                                 read more
                             </a>
                     </article>
@@ -673,131 +973,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Fri, 18 Jul 2025 16:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54077">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-54078 - WeGIA Reflected Cross-Site Scripting (XSS)
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-54078
-<br>
-<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
-<br>
-<strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A Reflected Cross-Site Scripting (XSS) vulnerability was identified in versions prior to 3.4.6 in the `personalizacao_imagem.php` endpoint of the WeGIA application. This vulnerability allows attackers to inject malicious scripts in the `err` parameter. Version 3.4.6 fixes the issue.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 18 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54078">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-54079 - WeGIA SQL Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-54079
-<br>
-<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
-<br>
-<strong>Description : </strong>WeGIA is an open source web manager with a focus on the Portuguese language and charitable institutions. A SQL Injection vulnerability was identified in versions prior to 3.4.6 in the endpoint `/html/atendido/Profile_Atendido.php`, in the `idatendido` parameter. This vulnerability allow an authorized attacker to execute arbitrary SQL queries, allowing access to sensitive information. Version 3.4.6 fixes the issue.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 18 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54079">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7789 - Xuxueli xxl-job Password Hashing Weakness
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7789
-<br>
-<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Xuxueli xxl-job up to 3.1.1 and classified as problematic. Affected by this issue is the function makeToken of the file src/main/java/com/xxl/job/admin/controller/IndexController.java of the component Token Generation. The manipulation leads to password hash with insufficient computational effort. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 3.7 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 18 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7789">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7790 - D-Link DI-8100 HTTP Request Handler Stack-Based Buffer Overflow Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7790
-<br>
-<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in D-Link DI-8100 16.07.26A1. It has been classified as critical. This affects an unknown part of the file /menu_nat.asp of the component HTTP Request Handler. The manipulation of the argument out_addr/in_addr/out_port/proto leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 18 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7790">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-7791 - PHPGurukul Online Security Guards Hiring System Cross-Site Scripting Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-7791
-<br>
-<strong>Published : </strong> July 18, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in PHPGurukul Online Security Guards Hiring System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file /admin/search.php. The manipulation of the argument searchdata leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 3.5 | LOW
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Fri, 18 Jul 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-7791">
                                 read more
                             </a>
                     </article>
