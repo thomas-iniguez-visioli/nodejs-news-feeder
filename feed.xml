@@ -8,18 +8,158 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sat, 19 Jul 2025 12:36:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jul 2025 13:18:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2015-10138 - "Work The Flow File Upload Plugin for WordPress Arbitrary File Upload Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2015-10138
+<br>
+<strong>Published : </strong> July 19, 2025, 12:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>The Work The Flow File Upload plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the jQuery-File-Upload-9.5.0 server and test files in versions up to, and including, 2.5.2. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2015-10138</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2015-10138</guid>
+    </item>
+    <item>
+      <title>CVE-2015-10139 - WPLMS WordPress Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2015-10139
+<br>
+<strong>Published : </strong> July 19, 2025, 12:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>The WPLMS theme for WordPress is vulnerable to Privilege Escalation in versions 1.5.2 to 1.8.4.1 via the 'wp_ajax_import_data' AJAX action. This makes it possible for authenticated attackers to change otherwise restricted settings and potentially create a new accessible admin account.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2015-10139</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2015-10139</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38351 - KVM Hyper-V Canonical GVA Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38351
+<br>
+<strong>Published : </strong> July 19, 2025, 12:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+KVM: x86/hyper-v: Skip non-canonical addresses during PV TLB flush
+
+In KVM guests with Hyper-V hypercalls enabled, the hypercalls
+HVCALL_FLUSH_VIRTUAL_ADDRESS_LIST and HVCALL_FLUSH_VIRTUAL_ADDRESS_LIST_EX
+allow a guest to request invalidation of portions of a virtual TLB.
+For this, the hypercall parameter includes a list of GVAs that are supposed
+to be invalidated.
+
+However, when non-canonical GVAs are passed, there is currently no
+filtering in place and they are eventually passed to checked invocations of
+INVVPID on Intel / INVLPGA on AMD.  While AMD's INVLPGA silently ignores
+non-canonical addresses (effectively a no-op), Intel's INVVPID explicitly
+signals VM-Fail and ultimately triggers the WARN_ONCE in invvpid_error():
+
+  invvpid failed: ext=0x0 vpid=1 gva=0xaaaaaaaaaaaaa000
+  WARNING: CPU: 6 PID: 326 at arch/x86/kvm/vmx/vmx.c:482
+  invvpid_error+0x91/0xa0 [kvm_intel]
+  Modules linked in: kvm_intel kvm 9pnet_virtio irqbypass fuse
+  CPU: 6 UID: 0 PID: 326 Comm: kvm-vm Not tainted 6.15.0 #14 PREEMPT(voluntary)
+  RIP: 0010:invvpid_error+0x91/0xa0 [kvm_intel]
+  Call Trace:
+    vmx_flush_tlb_gva+0x320/0x490 [kvm_intel]
+    kvm_hv_vcpu_flush_tlb+0x24f/0x4f0 [kvm]
+    kvm_arch_vcpu_ioctl_run+0x3013/0x5810 [kvm]
+
+Hyper-V documents that invalid GVAs (those that are beyond a partition's
+GVA space) are to be ignored.  While not completely clear whether this
+ruling also applies to non-canonical GVAs, it is likely fine to make that
+assumption, and manual testing on Azure confirms "real" Hyper-V interprets
+the specification in the same way.
+
+Skip non-canonical GVAs when processing the list of address to avoid
+tripping the INVVPID failure.  Alternatively, KVM could filter out "bad"
+GVAs before inserting into the FIFO, but practically speaking the only
+downside of pushing validation to the final processing is that doing so
+is suboptimal for the guest, and no well-behaved guest will request TLB
+flushes for non-canonical addresses.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38351</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38351</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7817 - PHPGurukul Apartment Visitors Management System Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7817
+<br>
+<strong>Published : </strong> July 19, 2025, 12:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in PHPGurukul Apartment Visitors Management System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /bwdates-reports.php of the component HTTP POST Request Handler. The manipulation of the argument visname leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7817</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7817</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7818 - PHPGurukul Apartment Visitors Management System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7818
+<br>
+<strong>Published : </strong> July 19, 2025, 12:15 p.m. | 40 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in PHPGurukul Apartment Visitors Management System 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file /category.php of the component HTTP POST Request Handler. The manipulation of the argument categoryname leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7818</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7818</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7816 - PHPGurukul Apartment Visitors Management System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7816
+<br>
+<strong>Published : </strong> July 19, 2025, 11:15 a.m. | 1 hour, 40 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, was found in PHPGurukul Apartment Visitors Management System 1.0. Affected is an unknown function of the file /visitor-detail.php of the component HTTP POST Request Handler. The manipulation of the argument visname leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7816</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7816</guid>
+    </item>
+    <item>
       <title>CVE-2012-10019 - WordPress Front End Editor Arbitrary File Upload Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2012-10019
 <br>
-<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The Front End Editor plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation via the upload.php file in versions before 2.3. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
 <br>
@@ -36,7 +176,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2015-10133
 <br>
-<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The Subscribe to Comments for WordPress is vulnerable to Local File Inclusion in versions up to, and including, 2.1.2 via the Path to header value. This allows authenticated attackers, with administrative privileges and above, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included. This same function can also be used to execute arbitrary PHP code.
 <br>
@@ -53,7 +193,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2015-10134
 <br>
-<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The Simple Backup plugin for WordPress is vulnerable to Arbitrary File Download in versions up to, and including, 2.7.10. via the download_backup_file function. This is due to a lack of capability checks and file type validation. This makes it possible for attackers to download sensitive files such as the wp-config.php file from the affected site.
 <br>
@@ -70,7 +210,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2015-10135
 <br>
-<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The WPshop 2 – E-Commerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the ajaxUpload function in versions before 1.3.9.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
 <br>
@@ -87,7 +227,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2015-10136
 <br>
-<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The GI-Media Library plugin for WordPress is vulnerable to Directory Traversal in versions before 3.0 via the 'fileid' parameter. This allows unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information.
 <br>
@@ -104,7 +244,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2016-15043
 <br>
-<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The WP Mobile Detector plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in resize.php file in versions up to, and including, 3.5. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
 <br>
@@ -121,7 +261,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7815
 <br>
-<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 10:15 a.m. | 2 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in PHPGurukul Apartment Visitors Management System 1.0. This issue affects some unknown processing of the file /manage-newvisitors.php of the component HTTP POST Request Handler. The manipulation of the argument visname leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
 <br>
@@ -138,7 +278,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6997
 <br>
-<strong>Published : </strong> July 19, 2025, 9:15 a.m. | 1 hour, 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 9:15 a.m. | 3 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The ThemeREX Addons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 2.35.1.1 due to insufficient input sanitization and output escaping. The plugin’s SVG rendering routine calls the trx_addons_get_svg_from_file() function on an unvalidated 'svg' parameter supplied via the shortcode or Elementor widget settings, then outputs it via the trx_addons_show_layout() function.  Because there is no check on the URL’s origin, scheme, or the SVG content itself, authenticated attackers, with Contributor-level access and above, can supply a remote SVG and inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
 <br>
@@ -155,7 +295,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38350
 <br>
-<strong>Published : </strong> July 19, 2025, 7:15 a.m. | 3 hours, 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 7:15 a.m. | 5 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -209,7 +349,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29757
 <br>
-<strong>Published : </strong> July 19, 2025, 6:15 a.m. | 4 hours, 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 6:15 a.m. | 6 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>An incorrect authorisation check in the the 'plant transfer' function of the Growatt cloud service allowed a malicous attacker with a valid account to transfer any plant into his/her account.
 <br>
@@ -226,7 +366,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6720
 <br>
-<strong>Published : </strong> July 19, 2025, 6:15 a.m. | 4 hours, 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 6:15 a.m. | 6 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The Vchasno Kasa plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the clear_all_log() function in all versions up to, and including, 1.0.3. This makes it possible for unauthenticated attackers to clear log files.
 <br>
@@ -243,7 +383,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6721
 <br>
-<strong>Published : </strong> July 19, 2025, 6:15 a.m. | 4 hours, 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 6:15 a.m. | 6 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The Vchasno Kasa plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the mrkv_vchasno_kasa_wc_do_metabox_action() function in all versions up to, and including, 1.0.3. This makes it possible for unauthenticated attackers to generate invoices for arbitrary orders.
 <br>
@@ -260,7 +400,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7696
 <br>
-<strong>Published : </strong> July 19, 2025, 5:15 a.m. | 5 hours, 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 5:15 a.m. | 7 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The Integration for Pipedrive and Contact Form 7, WPForms, Elementor, Ninja Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.2.3 via deserialization of untrusted input within the verify_field_val() function. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain in the Contact Form 7 plugin, which is likely to be used alongside, allows attackers to delete arbitrary files, leading to a denial of service or remote code execution when the wp-config.php file is deleted.
 <br>
@@ -277,7 +417,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7697
 <br>
-<strong>Published : </strong> July 19, 2025, 5:15 a.m. | 5 hours, 40 minutes ago
+<strong>Published : </strong> July 19, 2025, 5:15 a.m. | 7 hours, 40 minutes ago
 <br>
 <strong>Description : </strong>The Integration for Google Sheets and Contact Form 7, WPForms, Elementor, Ninja Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.1.1 via deserialization of untrusted input within the verify_field_val() function. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain in the Contact Form 7 plugin, which is likely to be used alongside, allows attackers to delete arbitrary files, leading to a denial of service or remote code execution when the wp-config.php file is deleted.
 <br>
@@ -288,6 +428,91 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 19 Jul 2025 05:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-7697</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-7697</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7653 - EPay.bg Payments Plugin for WordPress Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7653
+<br>
+<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 9 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>The EPay.bg Payments plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'epay' shortcode in all versions up to, and including, 0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7653</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7653</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7655 - WordPress Live Stream Badger Stored Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7655
+<br>
+<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 9 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>The Live Stream Badger plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'livestream' shortcode in all versions up to, and including, 1.4.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7655</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7655</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7658 - WordPress Temporarily Hidden Content Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7658
+<br>
+<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 9 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>The Temporarily Hidden Content plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'temphc-start' shortcode in all versions up to, and including, 1.0.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7658</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7658</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7661 - Martinus Stored Cross-Site Scripting (XSS) in WordPress Partnerský systém</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7661
+<br>
+<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 9 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>The Partnerský systém Martinus plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'martinus' shortcode in all versions up to, and including, 1.7.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7661</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7661</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7669 - Avishi WP PayPal Payment Button CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7669
+<br>
+<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 9 hours, 40 minutes ago
+<br>
+<strong>Description : </strong>The Avishi WP PayPal Payment Button plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.0. This is due to missing or incorrect nonce validation on the 'avishi-wp-paypal-payment-button/index.php' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7669</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7669</guid>
     </item>
     <item>
       <title>CVE-2025-52924 - One Identity OneLogin SQL Injection</title>
@@ -305,91 +530,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-52924</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-52924</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7653 - EPay.bg Payments Plugin for WordPress Stored Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7653
-<br>
-<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 7 hours, 40 minutes ago
-<br>
-<strong>Description : </strong>The EPay.bg Payments plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'epay' shortcode in all versions up to, and including, 0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7653</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7653</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7655 - WordPress Live Stream Badger Stored Cross-Site Scripting</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7655
-<br>
-<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 7 hours, 40 minutes ago
-<br>
-<strong>Description : </strong>The Live Stream Badger plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'livestream' shortcode in all versions up to, and including, 1.4.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7655</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7655</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7658 - WordPress Temporarily Hidden Content Stored Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7658
-<br>
-<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 7 hours, 40 minutes ago
-<br>
-<strong>Description : </strong>The Temporarily Hidden Content plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'temphc-start' shortcode in all versions up to, and including, 1.0.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7658</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7658</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7661 - Martinus Stored Cross-Site Scripting (XSS) in WordPress Partnerský systém</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7661
-<br>
-<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 7 hours, 40 minutes ago
-<br>
-<strong>Description : </strong>The Partnerský systém Martinus plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'martinus' shortcode in all versions up to, and including, 1.7.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-<br>
-<strong>Severity:</strong> 6.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7661</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7661</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7669 - Avishi WP PayPal Payment Button CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7669
-<br>
-<strong>Published : </strong> July 19, 2025, 3:15 a.m. | 7 hours, 40 minutes ago
-<br>
-<strong>Description : </strong>The Avishi WP PayPal Payment Button plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.0. This is due to missing or incorrect nonce validation on the 'avishi-wp-paypal-payment-button/index.php' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
-<br>
-<strong>Severity:</strong> 6.1 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Sat, 19 Jul 2025 03:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7669</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7669</guid>
     </item>
     <item>
       <title>CVE-2025-27209 - Node.js V8 HashDoS Vulnerability</title>
