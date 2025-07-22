@@ -8,12 +8,454 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 22 Jul 2025 10:49:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 11:16:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-46267 - Hidden functionality issue exists in WRC-BE36QS-B </title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46267
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>Hidden functionality issue exists in WRC-BE36QS-B and WRC-W701-B. If exploited, the product's hidden debug function may be enabled by a remote attacker who can log in to WebGUI.
+<br>
+<strong>Severity:</strong> 4.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46267</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46267</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53472 - WRC-BE36QS-B and WRC-W701-B contain an improper ne</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53472
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>WRC-BE36QS-B and WRC-W701-B contain an improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability in WebGUI. If exploited, an arbitrary OS command may be executed by a remote attacker who can log in to WebGUI.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53472</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53472</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6082 - The Birth Chart Compatibility plugin for WordPress</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6082
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>The Birth Chart Compatibility plugin for WordPress is vulnerable to Full Path Disclosure in all versions up to, and including, 2.0. This is due to insufficient protection against directly accessing the plugin's index.php file, which causes an error exposing the full path. This makes it possible for unauthenticated attackers to retrieve the full path of the web application, which can be used to aid other attacks. The information displayed is not useful on its own, and requires another vulnerability to be present for damage to an affected website.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6082</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6082</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6187 - The bSecure plugin for WordPress is vulnerable to </title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6187
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>The bSecure plugin for WordPress is vulnerable to Privilege Escalation due to missing authorization within its order_info REST endpoint in versions 1.3.7 through 1.7.9. The plugin registers the /webhook/v2/order_info/ route with a permission_callback that always returns true, effectively bypassing all authentication. This makes it possible for unauthenticated attackers who know any user’s email to obtain a valid login cookie and fully impersonate that account.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6187</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6187</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6213 - The Nginx Cache Purge Preload plugin for WordPress</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6213
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>The Nginx Cache Purge Preload plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.1.1 via the 'nppp_preload_cache_on_update' function. This is due to insufficient sanitization of the $_SERVER['HTTP_REFERERER'] parameter passed from the 'nppp_handle_fastcgi_cache_actions_admin_bar' function. This makes it possible for authenticated attackers, with Administrator-level access and above, to execute code on the server.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6213</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6213</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7427 - Uncontrolled Search Path Element in Arm Developmen</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7427
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>Uncontrolled Search Path Element in Arm Development Studio before 2025 may allow an attacker to perform a DLL hijacking attack. Successful exploitation could lead to local arbitrary code execution in the context of the user running Arm Development Studio.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7427</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7427</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7685 - The Like  Share My Site plugin for WordPress is v</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7685
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>The Like & Share My Site plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.2. This is due to missing or incorrect nonce validation on the 'lsms_admin' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7685</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7685</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7687 - The Latest Post Accordian Slider plugin for WordPr</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7687
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>The Latest Post Accordian Slider plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.3. This is due to missing or incorrect nonce validation on the 'lpaccordian' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7687</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7687</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7692 - The Orion Login with SMS plugin for WordPress is v</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7692
+<br>
+<strong>Published : </strong> July 22, 2025, 10:15 a.m. | 41 minutes ago
+<br>
+<strong>Description : </strong>The Orion Login with SMS plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.0.5. This is due to the olws_handle_verify_phone() function not utilizing a strong enough OTP value, exposing the hash needed to generate the OTP value, and no restrictions on the number of attempts to submit the code. This makes it possible for unauthenticated attackers to log in as other users, including administrators, if they have access to their phone number.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 10:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7692</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7692</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38352 - In the Linux kernel, the following vulnerability h</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38352
+<br>
+<strong>Published : </strong> July 22, 2025, 8:15 a.m. | 2 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()
+
+If an exiting non-autoreaping task has already passed exit_notify() and
+calls handle_posix_cpu_timers() from IRQ, it can be reaped by its parent
+or debugger right after unlock_task_sighand().
+
+If a concurrent posix_cpu_timer_del() runs at that moment, it won't be
+able to detect timer->it.cpu.firing != 0: cpu_timer_task_rcu() and/or
+lock_task_sighand() will fail.
+
+Add the tsk->exit_state check into run_posix_cpu_timers() to fix this.
+
+This fix is not needed if CONFIG_POSIX_CPU_TIMERS_TASK_WORK=y, because
+exit_task_work() is called before exit_notify(). But the check still
+makes sense, task_work_add(&tsk->posix_cputimers_work.work) will fail
+anyway in this case.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38352</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38352</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7645 - The Extensions For CF7 (Contact form 7 Database, C</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7645
+<br>
+<strong>Published : </strong> July 22, 2025, 7:15 a.m. | 3 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>The Extensions For CF7 (Contact form 7 Database, Conditional Fields and Redirection) plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the 'delete-file' field in all versions up to, and including, 3.2.8. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, when an administrator deletes the submission, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7645</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7645</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52580 - Insertion of sensitive information into log file i</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52580
+<br>
+<strong>Published : </strong> July 22, 2025, 5:15 a.m. | 5 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Insertion of sensitive information into log file issue exists in "region PAY" App for Android prior to 1.5.28. If exploited, sensitive user information may be exposed to an attacker who has access to the application logs.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52580</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52580</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6585 - The WP JobHunt plugin for WordPress is vulnerable </title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6585
+<br>
+<strong>Published : </strong> July 22, 2025, 5:15 a.m. | 5 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>The WP JobHunt plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 7.2 via the cs_remove_profile_callback() function due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete accounts of other users including admins.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6585</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6585</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7495 - The WP-Members Membership Plugin plugin for WordPr</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7495
+<br>
+<strong>Published : </strong> July 22, 2025, 5:15 a.m. | 5 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>The WP-Members Membership Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'wpmem_login_link' shortcode in all versions up to, and including, 3.5.4.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7495</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7495</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7644 - The Pixel Gallery Addons for Elementor – Easy Grid</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7644
+<br>
+<strong>Published : </strong> July 22, 2025, 5:15 a.m. | 5 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>The Pixel Gallery Addons for Elementor – Easy Grid, Creative Gallery, Drag and Drop Grid, Custom Grid Layout, Portfolio Gallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via URLs in all widgets in all versions up to, and including, 1.6.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+<br>
+<strong>Severity:</strong> 6.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 05:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7644</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7644</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7953 - A vulnerability, which was classified as problemat</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7953
+<br>
+<strong>Published : </strong> July 22, 2025, 4:15 a.m. | 6 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in Sanluan PublicCMS up to 5.202506.a. This issue affects some unknown processing of the file publiccms-parent/publiccms/src/main/webapp/resource/plugins/pdfjs/viewer.html. The manipulation of the argument File leads to open redirect. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The patch is named f1af17af004ca9345c6fe4d5936d87d008d26e75. It is recommended to apply a patch to fix this issue.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7953</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7953</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54357 - Rejected reason: Not used</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54357
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54357</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54357</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54358 - Rejected reason: Not used</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54358
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54358</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54358</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54359 - Rejected reason: Not used</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54359
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54359</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54359</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54360 - Rejected reason: Not used</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54360
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54360</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54360</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54361 - Rejected reason: Not used</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54361
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54361</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54361</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54362 - Rejected reason: Not used</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54362
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>Rejected reason: Not used
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54362</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54362</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7950 - A vulnerability was found in code-projects Public </title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7950
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Public Chat Room 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /login.php. The manipulation of the argument Username leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7950</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7950</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7951 - A vulnerability classified as problematic has been</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7951
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in code-projects Public Chat Room 1.0. This affects an unknown part of the file /send_message.php. The manipulation of the argument chat_msg/your_name leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7951</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7951</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7952 - A vulnerability classified as critical was found i</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7952
+<br>
+<strong>Published : </strong> July 22, 2025, 3:15 a.m. | 7 hours, 41 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in TOTOLINK T6 4.1.5cu.748. This vulnerability affects the function ckeckKeepAlive of the file wireless.so of the component MQTT Packet Handler. The manipulation leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Tue, 22 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7952</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7952</guid>
+    </item>
     <item>
       <title>CVE-2025-7945 - A vulnerability was found in D-Link DIR-513 up to </title>
       <description><![CDATA[<p>
