@@ -194,12 +194,266 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2010-10012 - Apache HTTP Server Path Traversal Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2010-10012
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>A path traversal vulnerability exists in httpdasm version 0.92, a lightweight Windows HTTP server, that allows unauthenticated attackers to read arbitrary files on the host system. By sending a specially crafted GET request containing a sequence of URL-encoded backslashes and directory traversal patterns, an attacker can escape the web root and access sensitive files outside of the intended directory.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2010-10012">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2015-10141 - Xdebug OS Command Injection
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2015-10141
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>An unauthenticated OS command injection vulnerability exists within Xdebug versions 2.5.5 and earlier, a PHP debugging extension developed by Derick Rethans. When remote debugging is enabled, Xdebug listens on port 9000 and accepts debugger protocol commands without authentication. An attacker can send a crafted eval command over this interface to execute arbitrary PHP code, which may invoke system-level functions such as system() or passthru(). This results in full compromise of the host under the privileges of the web server user.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2015-10141">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2016-15045 - Deepin lastore-daemon D-Bus Privilege Escalation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2016-15045
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>A local privilege escalation vulnerability exists in lastore-daemon, the system package manager daemon used in Deepin Linux (developed by Wuhan Deepin Technology Co., Ltd.). In versions 0.9.53-1 (Deepin 15.5) and 0.9.66-1 (Deepin 15.7), the D-Bus configuration permits any user in the sudo group to invoke the InstallPackage method without password authentication. By default, the first user created on Deepin is in the sudo group. An attacker with shell access can craft a .deb package containing a malicious post-install script and use dbus-send to install it via lastore-daemon, resulting in arbitrary code execution as root.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2016-15045">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2017-20198 - Apache DC/OS Docker Container Escalation
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2017-20198
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>The Marathon UI in DC/OS < 1.9.0 allows unauthenticated users to deploy arbitrary Docker containers. Due to improper restriction of volume mount configurations, attackers can deploy a container that mounts the host's root filesystem (/) with read/write privileges. When using a malicious Docker image, the attacker can write to /etc/cron.d/ on the host, achieving arbitrary code execution with root privileges. This impacts any system where the Docker daemon honors Marathon container configurations without policy enforcement.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2017-20198">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2018-25113 - Dicoogle PACS Web Server Path Traversal Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2018-25113
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>An unauthenticated path traversal vulnerability exists in Dicoogle PACS Web Server version 2.5.0 and possibly earlier. The vulnerability allows remote attackers to read arbitrary files on the underlying system by sending a crafted request to the /exportFile endpoint using the UID parameter. Successful exploitation can reveal sensitive files accessible by the web server user.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2018-25113">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2018-25114 - Apache osCommerce Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2018-25114
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>A remote code execution vulnerability exists within osCommerce Online Merchant version 2.3.4.1 due to insecure default configuration and missing authentication in the installer workflow. By default, the /install/ directory remains accessible after installation. An unauthenticated attacker can invoke install_4.php, submit crafted POST data, and inject arbitrary PHP code into the configure.php file. When the application later includes this file, the injected payload is executed, resulting in full server-side compromise.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2018-25114">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2022-4978 - Steppschuh Remote Control Server UDP Keystroke Injection RCE
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2022-4978
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>Remote Control Server, maintained by Steppschuh, 3.1.1.12 allows unauthenticated remote code execution when authentication is disabled, which is the default configuration. The server exposes a custom UDP-based control protocol that accepts remote keyboard input events without verification. An attacker on the same network can issue a sequence of keystroke commands to launch a system shell and execute arbitrary commands, resulting in full system compromise.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2022-4978">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-40599 - SonicWall SMA Arbitrary File Upload Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-40599
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>An authenticated arbitrary file upload vulnerability exists in the SMA 100 series web management interface. A remote attacker with administrative privileges can exploit this flaw to upload arbitrary files to the system, potentially leading to remote code execution.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-40599">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-46099 - Pluck CMS Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-46099
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>In Pluck CMS 4.7.20-dev, an authenticated attacker can upload or create a crafted PHP file under the albums module directory and access it via the module routing logic in albums.site.php, resulting in arbitrary command execution through a GET parameter.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-46099">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-54090 - Apache HTTP Server Rewrite Condition Evaluation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-54090
+<br>
+<strong>Published : </strong> 2025年7月23日14:15 | 52分 ago
+<br>
+<strong>Description : </strong>A bug in Apache HTTP Server 2.4.64 results in all "RewriteCond expr ..." tests evaluating as "true".
+
+
+
+Users are recommended to upgrade to version 2.4.65, which fixes the issue.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54090">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-4411 - Dataprom Informatics PACS-ACSS Cross-Site Scripting (XSS)
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4411
 <br>
-<strong>Published : </strong> July 23, 2025, 1:15 p.m. | 14 minutes ago
+<strong>Published : </strong> 2025年7月23日13:15 | 1時間, 52分 ago
 <br>
 <strong>Description : </strong>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Dataprom Informatics PACS-ACSS allows Cross-Site Scripting (XSS).This issue affects PACS-ACSS: before 16.05.2025.
 <br>
@@ -224,7 +478,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-12310
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>A vulnerability in Imprivata Enterprise Access Management (formerly Imprivata OneSign) allows bypassing the login screen of the shared kiosk workstation and allows unauthorized access to the underlying Windows system through the already logged-in autologon account due to insufficient handling of keyboard shortcuts.
 This issue affects Imprivata Enterprise Access Management versions 5.3 through 24.2.
@@ -250,7 +504,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-40682
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>IBM SmartCloud Analytics - Log Analysis 1.3.7.0, 1.3.7.1, 1.3.7.2, 1.3.8.0, 1.3.8.1, and 1.3.8.2 could allow a local user to cause a denial of service due to improper validation of specified type of input.
 <br>
@@ -275,7 +529,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-40686
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>IBM SmartCloud Analytics - Log Analysis 1.3.7.0, 1.3.7.1, 1.3.7.2, 1.3.8.0, 1.3.8.1, and 1.3.8.2 is vulnerable to HTTP header injection, caused by improper validation of input by the HOST headers. This could allow an attacker to conduct various attacks against the vulnerable system, including cross-site scripting, cache poisoning or session hijacking.
 <br>
@@ -300,7 +554,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-41750
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>IBM SmartCloud Analytics - Log Analysis 1.3.7.0, 1.3.7.1, 1.3.7.2, 1.3.8.0, 1.3.8.1, and 1.3.8.2 could allow a local, authenticated attacker to bypass client-side enforcement of security to manipulate data.
 <br>
@@ -325,7 +579,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2024-41751
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>IBM SmartCloud Analytics - Log Analysis 1.3.7.0, 1.3.7.1, 1.3.7.2, 1.3.8.0, 1.3.8.1, and 1.3.8.2 could allow a local, authenticated attacker to bypass client-side enforcement of security to manipulate data.
 <br>
@@ -350,7 +604,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-4296
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in HotelRunner B2B allows Forceful Browsing.This issue affects B2B: before 04.06.2025.
 <br>
@@ -375,7 +629,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-50127
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>A SQLi vulnerability in DJ-Flyer component 1.0-3.2 for Joomla was discovered. The issue allows privileged users to execute arbitrary SQL commands.
 <br>
@@ -400,7 +654,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-54294
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>A SQLi vulnerability in Komento component 4.0.0-4.0.7for Joomla was discovered. The issue allows unprivileged users to execute arbitrary SQL commands.
 <br>
@@ -425,7 +679,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-54295
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>A Reflected XSS vulnerability in DJ-Reviews component 1.0-1.3.6 for Joomla was discovered.
 <br>
@@ -450,7 +704,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-54296
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>A stored XSS vulnerability in ProFiles component 1.0-1.5.0 for Joomla was discovered.
 <br>
@@ -475,7 +729,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-54297
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日12:15 | 2時間, 52分 ago
 <br>
 <strong>Description : </strong>A stored XSS vulnerability in CComment component 5.0.0-6.1.14 for Joomla was discovered.
 <br>
@@ -500,7 +754,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-27930
 <br>
-<strong>Published : </strong> July 23, 2025, 11:15 a.m. | 2 hours, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日11:15 | 3時間, 52分 ago
 <br>
 <strong>Description : </strong>Zohocorp ManageEngine Applications Manager versions 176600 and prior are vulnerable to stored cross-site scripting in the File/Directory monitor.
 <br>
@@ -525,7 +779,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-53882
 <br>
-<strong>Published : </strong> July 23, 2025, 10:15 a.m. | 3 hours, 14 minutes ago
+<strong>Published : </strong> 2025年7月23日10:15 | 4時間, 52分 ago
 <br>
 <strong>Description : </strong>A Reliance on Untrusted Inputs in a Security Decision vulnerability in the logrotate configuration for openSUSEs mailman3 package allows potential escalation from mailman to rootThis issue affects openSUSE Tumbleweed: from ? before 3.3.10-2.1.
 <br>
@@ -537,6 +791,31 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 23 Jul 2025 10:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53882">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-41687 - Cisco u-link Management API Stack Buffer Overflow Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-41687
+<br>
+<strong>Published : </strong> 2025年7月23日9:15 | 5時間, 52分 ago
+<br>
+<strong>Description : </strong>An unauthenticated remote attacker may use a stack based buffer overflow in the u-link Management API to gain full access on the affected devices.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 23 Jul 2025 09:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-41687">
                                 read more
                             </a>
                     </article>
@@ -587,31 +866,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 23 Jul 2025 09:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-41684">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-41687 - Cisco u-link Management API Stack Buffer Overflow Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-41687
-<br>
-<strong>Published : </strong> July 23, 2025, 9:15 a.m. | 4 hours, 14 minutes ago
-<br>
-<strong>Description : </strong>An unauthenticated remote attacker may use a stack based buffer overflow in the u-link Management API to gain full access on the affected devices.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 23 Jul 2025 09:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-41687">
                                 read more
                             </a>
                     </article>
