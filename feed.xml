@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 23 Jul 2025 05:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 05:56:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-42947
 <br>
-<strong>Published : </strong> July 23, 2025, 4:15 a.m. | 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 4:15 a.m. | 43 minutes ago
 <br>
 <strong>Description : </strong>SAP FICA ODN framework allows a high privileged user to inject value inside the local variable which can then be executed by the application. An attacker could thereby control the behaviour of the application causing high impact on integrity, low impact on availability and no impact on confidentiality of the application.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5753
 <br>
-<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>The Valuation Calculator plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘link’ parameter in all versions up to, and including, 1.3.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5818
 <br>
-<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>The Featured Image Plus – Quick & Bulk Edit with Unsplash plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 1.6.4 via the fip_get_image_options() function. This makes it possible for authenticated attackers, with administrator-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6054
 <br>
-<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>The YANewsflash plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0.3. This is due to missing or incorrect nonce validation on the 'yanewsflash/yanewsflash.php' page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6190
 <br>
-<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>The Realty Portal – Agent plugin for WordPress is vulnerable to Privilege Escalation due to missing authorization within the rp_user_profile() AJAX handler in versions 0.1.0 through 0.3.9. The handler reads the client-supplied meta key and value pairs from $_POST and passes them directly to update_user_meta() without restricting to a safe whitelist. This makes it possible for authenticated attackers, with Subscriber-level access and above, to overwrite the wp_capabilities meta and grant themselves the administrator role.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6214
 <br>
-<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>The Omnishop plugin for WordPress is vulnerable to Cross-Site Request Forgery on its /users/delete REST route in all versions up to, and including, 1.0.9. The route’s permission_callback only verifies that the requester is logged in, but fails to require any nonce or other proof of intent. This makes it possible for unauthenticated attackers to delete arbitrary user accounts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6215
 <br>
-<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>The Omnishop plugin for WordPress is vulnerable to Unauthenticated Registration Bypass in all versions up to, and including, 1.0.9. Its /users/register endpoint is exposed to the public (permission_callback always returns true) and invokes wp_create_user() unconditionally,  ignoring the site’s users_can_register option and any nonce or CAPTCHA checks. This makes it possible for unauthenticated attackers to create arbitrary user accounts (customer) on sites where registrations should be closed.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6261
 <br>
-<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>The Fleetwire Fleet Management plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's fleetwire_list shortcode in all versions up to, and including, 1.0.19 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7722
 <br>
-<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 3:15 a.m. | 1 hour, 43 minutes ago
 <br>
 <strong>Description : </strong>The Social Streams plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 1.0.1. This is due to the plugin not properly validating a user's identity prior to updating their user meta information in the update_user_meta() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to change their user type to that of an administrator.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8060
 <br>
-<strong>Published : </strong> July 23, 2025, 2:15 a.m. | 2 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 2:15 a.m. | 2 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in Tenda AC23 16.03.07.52 and classified as critical. Affected by this vulnerability is the function sub_46C940 of the file /goform/setMacFilterCfg of the component httpd. The manipulation of the argument deviceList leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54120
 <br>
-<strong>Published : </strong> July 23, 2025, 1:15 a.m. | 3 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 1:15 a.m. | 3 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>PCL (Plain Craft Launcher) Community Edition is a Minecraft launcher. In PCL CE versions 2.12.0-beta.5 to 2.12.0-beta.9, the login credentials used during the third-party login process are accidentally recorded in the local log file. Although the log file is not automatically uploaded or shared, if the user manually sends the log file, there is a risk of leakage. This is fixed in version 2.12.0-beta.10.
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43483
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential security vulnerability has been
 identified in the Poly Clariti Manager for versions prior to 10.12.1. The
@@ -226,7 +226,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43484
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential reflected cross-site scripting vulnerability has been
 identified in the Poly Clariti Manager for versions prior to 10.12.1. The
@@ -246,7 +246,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43485
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential security
 vulnerability has been identified in the Poly Clariti Manager for versions
@@ -267,7 +267,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43486
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential stored cross-site scripting vulnerability has been
 identified in the Poly Clariti Manager for versions prior to 10.12.1. The
@@ -287,7 +287,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43487
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential privilege escalation through Sudo vulnerability has been identified in the Poly Clariti Manager for versions prior to 10.12.2. The firmware flaw does not properly implement access controls. HP has addressed the issue in the latest software update.
 <br>
@@ -304,7 +304,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43488
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential security vulnerability has been identified in the Poly Clariti Manager for versions prior to 10.12.2. The vulnerability could allow a bypass of the application's XSS filter by submitting untrusted characters. HP has addressed the issue in the latest software update.
 <br>
@@ -321,7 +321,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43489
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential security vulnerability has been identified in the Poly Clariti Manager for versions prior to 10.12.1. The vulnerability could deserialize untrusted data without validation. HP has addressed the issue in the latest software update.
 <br>
@@ -338,7 +338,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54139
 <br>
-<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 39 minutes ago
+<strong>Published : </strong> July 23, 2025, 12:15 a.m. | 4 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>HAX CMS allows users to manage their microsite universe with a NodeJS or PHP backend. In haxcms-nodejs versions 11.0.12 and below and in haxcms-php versions 11.0.7 and below, all pages within the HAX CMS application do not contain headers to prevent other websites from loading the site within an iframe. This applies to both the CMS and generated sites. An unauthenticated attacker can load the standalone login page or other sensitive functionality within an iframe, performing a UI redressing attack (clickjacking). This can be used to perform social engineering attacks to attempt to coerce users into performing unintended actions within the HAX CMS application. This is fixed in haxcms-nodejs version 11.0.13 and haxcms-php 11.0.8.
 <br>
@@ -355,7 +355,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43020
 <br>
-<strong>Published : </strong> July 22, 2025, 11:15 p.m. | 5 hours, 39 minutes ago
+<strong>Published : </strong> July 22, 2025, 11:15 p.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential command
 injection vulnerability has been identified in the Poly Clariti Manager for
@@ -375,7 +375,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43021
 <br>
-<strong>Published : </strong> July 22, 2025, 11:15 p.m. | 5 hours, 39 minutes ago
+<strong>Published : </strong> July 22, 2025, 11:15 p.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential security vulnerability has been identified in the Poly Clariti Manager for versions prior to 10.12.1. The vulnerability could allow the use and retrieval of the default password. HP has addressed the issue in the latest software update.
 <br>
@@ -392,7 +392,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43022
 <br>
-<strong>Published : </strong> July 22, 2025, 11:15 p.m. | 5 hours, 39 minutes ago
+<strong>Published : </strong> July 22, 2025, 11:15 p.m. | 5 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>A potential SQL injection vulnerability has been identified in the Poly
 Clariti Manager for versions prior to 10.12.1. The vulnerability could allow
@@ -412,7 +412,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7766
 <br>
-<strong>Published : </strong> July 22, 2025, 10:15 p.m. | 6 hours, 39 minutes ago
+<strong>Published : </strong> July 22, 2025, 10:15 p.m. | 6 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>Lantronix Provisioning Manager is vulnerable to XML external entity attacks in configuration files supplied by network devices, leading to unauthenticated remote code execution on hosts with Provisioning Manager installed.
 <br>
@@ -429,7 +429,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8010
 <br>
-<strong>Published : </strong> July 22, 2025, 10:15 p.m. | 6 hours, 39 minutes ago
+<strong>Published : </strong> July 22, 2025, 10:15 p.m. | 6 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>Type Confusion in V8 in Google Chrome prior to 138.0.7204.168 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 <br>
@@ -446,7 +446,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8011
 <br>
-<strong>Published : </strong> July 22, 2025, 10:15 p.m. | 6 hours, 39 minutes ago
+<strong>Published : </strong> July 22, 2025, 10:15 p.m. | 6 hours, 43 minutes ago
 <br>
 <strong>Description : </strong>Type Confusion in V8 in Google Chrome prior to 138.0.7204.168 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 <br>
