@@ -142,17 +142,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-11/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-12/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-13/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-22/
-https://cvefeed.io/vuln/detail/CVE-2025-8030
-https://cvefeed.io/vuln/detail/CVE-2025-8031
-https://cvefeed.io/vuln/detail/CVE-2025-8032
-https://cvefeed.io/vuln/detail/CVE-2025-8033
-https://cvefeed.io/vuln/detail/CVE-2025-8034
-https://cvefeed.io/vuln/detail/CVE-2025-8035
-https://cvefeed.io/vuln/detail/CVE-2025-8036
-https://cvefeed.io/vuln/detail/CVE-2025-8037
-https://cvefeed.io/vuln/detail/CVE-2025-8038
-https://cvefeed.io/vuln/detail/CVE-2025-8039
-https://cvefeed.io/vuln/detail/CVE-2025-8040
 https://cvefeed.io/vuln/detail/CVE-2025-8043
 https://cvefeed.io/vuln/detail/CVE-2025-8044
 https://cvefeed.io/vuln/detail/CVE-2025-41425
@@ -167,6 +156,17 @@ https://cvefeed.io/vuln/detail/CVE-2025-54141
 https://cvefeed.io/vuln/detail/CVE-2025-7766
 https://cvefeed.io/vuln/detail/CVE-2025-8010
 https://cvefeed.io/vuln/detail/CVE-2025-8011
+https://cvefeed.io/vuln/detail/CVE-2025-43020
+https://cvefeed.io/vuln/detail/CVE-2025-43021
+https://cvefeed.io/vuln/detail/CVE-2025-43022
+https://cvefeed.io/vuln/detail/CVE-2025-43483
+https://cvefeed.io/vuln/detail/CVE-2025-43484
+https://cvefeed.io/vuln/detail/CVE-2025-43485
+https://cvefeed.io/vuln/detail/CVE-2025-43486
+https://cvefeed.io/vuln/detail/CVE-2025-43487
+https://cvefeed.io/vuln/detail/CVE-2025-43488
+https://cvefeed.io/vuln/detail/CVE-2025-43489
+https://cvefeed.io/vuln/detail/CVE-2025-54139
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-produits-microsoft
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/prenezlaconfiance-campagne
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
@@ -2865,17 +2865,6 @@ Fiabiliser la vérification d'identité à distance avec l’European Digital Id
 
 
 
-CVE-2025-8030 - Mozilla Firefox/Thunderbird Cross-Site Scripting (XSS)
-CVE-2025-8031 - Mozilla Firefox and Thunderbird HTTP Basic Authentication Credential Leak Vulnerability
-CVE-2025-8032 - Mozilla Firefox/Thunderbird XSLT Document Loading CSP Bypass
-CVE-2025-8033 - Mozilla Firefox/Thunderbird Null Pointer Dereference in JavaScript Engine
-CVE-2025-8034 - Mozilla Firefox and Thunderbird Memory Corruption Vulnerability
-CVE-2025-8035 - Mozilla Firefox/Thunderbird Memory Corruption Vulnerability
-CVE-2025-8036 - Thunderbird CORS Preloading DNS Rebinding
-CVE-2025-8037 - Mozilla Cookie Secure Bypass
-CVE-2025-8038 - Thunderbird Frame Navigation Path Validation Vulnerability
-CVE-2025-8039 - Firefox/Thunderbird URL Bar Search Term Persistence Vulnerability
-CVE-2025-8040 - Mozilla Firefox and Thunderbird Memory Corruption Vulnerability
 CVE-2025-8043 - Firefox URL Truncation Vulnerability
 CVE-2025-8044 - Mozilla Firefox Memory Corruption Vulnerability
 CVE-2025-41425 - DuraComm SPM-500 Cross-Site Scripting (XSS) Vulnerability
@@ -2890,6 +2879,17 @@ CVE-2025-54141 - ViewVC Filesystem Exposure Vulnerability
 CVE-2025-7766 - Lantronix Provisioning Manager XML External Entity Injection RCE
 CVE-2025-8010 - Google Chrome V8 Type Confusion Heap Corruption
 CVE-2025-8011 - Google Chrome V8 Type Confusion Heap Corruption Vulnerability
+CVE-2025-43020 - Poly Clariti Manager Command Injection
+CVE-2025-43021 - Poly Clariti Manager Default Password Disclosure Vulnerability
+CVE-2025-43022 - Poly Clariti Manager SQL Injection Vulnerability
+CVE-2025-43483 - Poly Clariti Manager Cryptographic Key Disclosure Vulnerability
+CVE-2025-43484 - Poly Clariti Manager Cross-Site Scripting (XSS)
+CVE-2025-43485 - Poly Clariti Manager Information Disclosure Vulnerability
+CVE-2025-43486 - Poly Clariti Manager Stored Cross-Site Scripting Vulnerability
+CVE-2025-43487 - Poly Clariti Manager Sudo Privilege Escalation Vulnerability
+CVE-2025-43488 - Poly Clariti Manager XSS Bypass
+CVE-2025-43489 - Poly Clariti Manager Deserialization Vulnerability
+CVE-2025-54139 - HAX CMS Clickjacking Vulnerability
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant des failles de sécurité critiques dans les produits Microsoft
 #PrenezLaConfiance : six acteurs français engagés lancent une campagne commune pour sensibiliser les citoyens aux bons réflexes et améliorer leur confiance dans leurs usages du numérique
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
@@ -2910,6 +2910,17 @@ Particuliers : quelles sont les cybermalveillances les plus fréquentes en 2024 
 Découvrez « Cyber en Clair », la nouvelle campagne de sensibilisation de Cybermalveillance.gouv.fr destinée aux jeunes
 Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
+CVE-2025-8030 - Mozilla Firefox/Thunderbird Cross-Site Scripting (XSS)
+CVE-2025-8031 - Mozilla Firefox and Thunderbird HTTP Basic Authentication Credential Leak Vulnerability
+CVE-2025-8032 - Mozilla Firefox/Thunderbird XSLT Document Loading CSP Bypass
+CVE-2025-8033 - Mozilla Firefox/Thunderbird Null Pointer Dereference in JavaScript Engine
+CVE-2025-8034 - Mozilla Firefox and Thunderbird Memory Corruption Vulnerability
+CVE-2025-8035 - Mozilla Firefox/Thunderbird Memory Corruption Vulnerability
+CVE-2025-8036 - Thunderbird CORS Preloading DNS Rebinding
+CVE-2025-8037 - Mozilla Cookie Secure Bypass
+CVE-2025-8038 - Thunderbird Frame Navigation Path Validation Vulnerability
+CVE-2025-8039 - Firefox/Thunderbird URL Bar Search Term Persistence Vulnerability
+CVE-2025-8040 - Mozilla Firefox and Thunderbird Memory Corruption Vulnerability
 CVE-2025-31511 - AlertEnterprise Guardian Bypass Manager Approval Vulnerability
 CVE-2025-31512 - AlertEnterprise Guardian Approval Bypass Vulnerability
 CVE-2025-31513 - AlertEnterprise Guardian Privilege Escalation Vulnerability
