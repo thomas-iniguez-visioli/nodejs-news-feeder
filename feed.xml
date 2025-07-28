@@ -8,18 +8,86 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 28 Jul 2025 21:52:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 22:20:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-54426 - Polkadot Frontier Curve25519 Precompute Invalid Input Handling</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54426
+<br>
+<strong>Published : </strong> 2025年7月28日21:15 | 35分 ago
+<br>
+<strong>Description : </strong>Polkadot Frontier is an Ethereum and EVM compatibility layer for Polkadot and Substrate. In versions prior to commit 36f70d1, the Curve25519Add and Curve25519ScalarMul precompiles incorrectly handle invalid Ristretto point representations. Instead of returning an error, they silently treat invalid input bytes as the Ristretto identity element, leading to potentially incorrect cryptographic results. This is fixed in commit 36f70d1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54426</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54426</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54427 - Polkadot Frontier EVM Gas Price Manipulation Denial-of-Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54427
+<br>
+<strong>Published : </strong> 2025年7月28日21:15 | 35分 ago
+<br>
+<strong>Description : </strong>Polkadot Frontier is an Ethereum and EVM compatibility layer for Polkadot and Substrate. The extrinsic note_min_gas_price_target is an inherent extrinsic, meaning only the block producer can call it. To ensure correctness, the ProvideInherent trait should be implemented for each inherent, which includes the check_inherent call. This allows other nodes to verify if the input (in this case, the target value) is correct. However, prior to commit a754b3d, the check_inherent function has not been implemented for note_min_gas_price_target. This lets the block producer set the target value without verification. The target is then used to set the MinGasPrice, which has an upper and lower bound defined in the on_initialize hook. The block producer can set the target to the upper bound. Which also increases the upper and lower bounds for the next block. Over time, this could result in continuously raising the gas price, making contract execution too expensive and ineffective for users. An attacker could use this flaw to manipulate the gas price, potentially leading to significantly inflated transaction fees. Such manipulation could render contract execution prohibitively expensive for users, effectively resulting in a denial-of-service condition for the network. This is fixed in version a754b3d.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54427</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54427</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54428 - RevelaCode MongoDB Atlas URI Exposure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54428
+<br>
+<strong>Published : </strong> 2025年7月28日21:15 | 35分 ago
+<br>
+<strong>Description : </strong>RevelaCode is an AI-powered faith-tech project that decodes biblical verses, prophecies and global events into accessible language. In versions below 1.0.1, a valid MongoDB Atlas URI with embedded username and password was accidentally committed to the public repository. This could allow unauthorized access to production or staging databases, potentially leading to data exfiltration, modification, or deletion. This is fixed in version 1.0.1. Workarounds include: immediately rotating credentials for the exposed database user, using a secret manager (like Vault, Doppler, AWS Secrets Manager, etc.) instead of storing secrets directly in code, or auditing recent access logs for suspicious activity.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54428</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54428</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54429 - Polkadot Frontier CallableByContract AddressType Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54429
+<br>
+<strong>Published : </strong> 2025年7月28日21:15 | 35分 ago
+<br>
+<strong>Description : </strong>Polkadot Frontier is an Ethereum and EVM compatibility layer for Polkadot and Substrate. There are various account address types in Frontier, e.g. precompiled contracts, smart contracts, and externally owned accounts. Some EVM mechanisms should be unreachable by certain types of accounts for safety. For precompiles to be callable by smart contracts they must be explicitly configured as CallableByContract. If this configuration is absent, then the precompile should be unreachable via smart contract accounts. In commits prior to 0822030, the underlying implementation of CallableByContract which returned the AddressType was incorrect. It considered the contract address running under CREATE or CREATE2 to be AddressType::EOA rather than correctly as AddressType::Contract. The issue only affects users who use custom precompile implementations that utilize AddressType::EOA and AddressType::Contract. It's not directly exploitable in any of the predefined precompiles in Frontier. This is fixed in version 0822030.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54429</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54429</guid>
+    </item>
+    <item>
       <title>CVE-2025-29534 - PowerStick Wave Dual-Band Wifi Extender Remote Code Execution Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-29534
 <br>
-<strong>Published : </strong> July 28, 2025, 8:17 p.m. | 55 minutes ago
+<strong>Published : </strong> 2025年7月28日20:17 | 1時間, 32分 ago
 <br>
 <strong>Description : </strong>An authenticated remote code execution vulnerability in PowerStick Wave Dual-Band Wifi Extender V1.0 allows an attacker with valid credentials to execute arbitrary commands with root privileges. The issue stems from insufficient sanitization of user-supplied input in the /cgi-bin/cgi_vista.cgi executable, which is passed to a system-level function call.
 <br>
@@ -36,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50485
 <br>
-<strong>Published : </strong> July 28, 2025, 8:17 p.m. | 55 minutes ago
+<strong>Published : </strong> 2025年7月28日20:17 | 1時間, 32分 ago
 <br>
 <strong>Description : </strong>Improper session invalidation in the component /crm/change-password.php of PHPGurukul Online Course Registration v3.1 allows attackers to execute a session hijacking attack.
 <br>
@@ -53,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50486
 <br>
-<strong>Published : </strong> July 28, 2025, 8:17 p.m. | 55 minutes ago
+<strong>Published : </strong> 2025年7月28日20:17 | 1時間, 32分 ago
 <br>
 <strong>Description : </strong>Improper session invalidation in the component /carrental/update-password.php of PHPGurukul Car Rental Project v3.0 allows attackers to execute a session hijacking attack.
 <br>
@@ -70,9 +138,9 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54419
 <br>
-<strong>Published : </strong> July 28, 2025, 8:17 p.m. | 55 minutes ago
+<strong>Published : </strong> 2025年7月28日20:17 | 1時間, 32分 ago
 <br>
-<strong>Description : </strong>A SAML library not dependent on any frameworks that runs in Node. In versions 5.0.1 and below, Node-SAML loads the assertion from the (unsigned) original response document. This is different than the parts that are verified when checking signature. This allows an attacker to modify authentication details within a valid SAML assertion. For example, in one attack it is possible to remove any character from the SAML assertion username. To conduct the attack an attacker would need a validly signed document from the identity provider (IdP). This is fixed in version 5.1.0.
+<strong>Description : </strong>A SAML library not dependent on any frameworks that runs in Node. In version 5.0.1, Node-SAML loads the assertion from the (unsigned) original response document. This is different than the parts that are verified when checking signature. This allows an attacker to modify authentication details within a valid SAML assertion. For example, in one attack it is possible to remove any character from the SAML assertion username. To conduct the attack an attacker would need a validly signed document from the identity provider (IdP). This is fixed in version 5.1.0.
 <br>
 <strong>Severity:</strong> 10.0 | CRITICAL
 <br>
@@ -87,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54423
 <br>
-<strong>Published : </strong> July 28, 2025, 8:17 p.m. | 55 minutes ago
+<strong>Published : </strong> 2025年7月28日20:17 | 1時間, 32分 ago
 <br>
 <strong>Description : </strong>copyparty is a portable file server. In versions up to and including versions 1.18.4, an unauthenticated attacker is able to execute arbitrary JavaScript code in a victim's browser due to improper sanitization of multimedia tags in music files, including m3u files. This is fixed in version 1.18.5.
 <br>
@@ -104,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50484
 <br>
-<strong>Published : </strong> July 28, 2025, 7:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日19:15 | 2時間, 34分 ago
 <br>
 <strong>Description : </strong>Improper session invalidation in the component /crm/change-password.php of PHPGurukul Small CRM v3.0 allows attackers to execute a session hijacking attack.
 <br>
@@ -121,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50487
 <br>
-<strong>Published : </strong> July 28, 2025, 7:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日19:15 | 2時間, 34分 ago
 <br>
 <strong>Description : </strong>Improper session invalidation in the component /bbdms/change-password.php of PHPGurukul Blood Bank & Donor Management System v2.4 allows attackers to execute a session hijacking attack.
 <br>
@@ -138,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8194
 <br>
-<strong>Published : </strong> July 28, 2025, 7:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日19:15 | 2時間, 34分 ago
 <br>
 <strong>Description : </strong>There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. 
 
@@ -169,7 +237,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8283
 <br>
-<strong>Published : </strong> July 28, 2025, 7:15 p.m. | 1 hour, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日19:15 | 2時間, 34分 ago
 <br>
 <strong>Description : </strong>A vulnerability was found in the netavark package, a network stack for containers used with Podman. Due to dns.podman search domain being removed, netavark may return external servers if a valid A/AAAA record is sent as a response. When creating a container with a given name, this name will be used as the hostname for the container itself, as the podman's search domain is not added anymore the container is using the host's resolv.conf, and the DNS resolver will try to look into the search domains contained on it. If one of the domains contain a name with the same hostname as the running container, the connection will forward to unexpected external servers.
 <br>
@@ -186,7 +254,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-43023
 <br>
-<strong>Published : </strong> July 28, 2025, 6:15 p.m. | 2 hours, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日18:15 | 3時間, 35分 ago
 <br>
 <strong>Description : </strong>A potential security vulnerability has been identified in the HP Linux Imaging and Printing Software documentation. This potential vulnerability is due to the use of a weak code signing key, Digital Signature Algorithm (DSA).
 <br>
@@ -203,7 +271,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50488
 <br>
-<strong>Published : </strong> July 28, 2025, 6:15 p.m. | 2 hours, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日18:15 | 3時間, 35分 ago
 <br>
 <strong>Description : </strong>Improper session invalidation in the component /library/change-password.php of PHPGurukul Online Library Management System v3.0 allows attackers to execute a session hijacking attack.
 <br>
@@ -220,7 +288,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50489
 <br>
-<strong>Published : </strong> July 28, 2025, 6:15 p.m. | 2 hours, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日18:15 | 3時間, 35分 ago
 <br>
 <strong>Description : </strong>Improper session invalidation in the component /srms/change-password.php of PHPGurukul Student Result Management System v2.0 allows attackers to execute a session hijacking attack.
 <br>
@@ -237,7 +305,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50491
 <br>
-<strong>Published : </strong> July 28, 2025, 6:15 p.m. | 2 hours, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日18:15 | 3時間, 35分 ago
 <br>
 <strong>Description : </strong>Improper session invalidation in the component /banker/change-password.php of PHPGurukul Bank Locker Management System v1 allows attackers to execute a session hijacking attack.
 <br>
@@ -254,7 +322,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50492
 <br>
-<strong>Published : </strong> July 28, 2025, 6:15 p.m. | 2 hours, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日18:15 | 3時間, 35分 ago
 <br>
 <strong>Description : </strong>Improper session invalidation in the component /edms/change-password.php of PHPGurukul e-Diary Management System v1 allows attackers to execute a session hijacking attack.
 <br>
@@ -271,7 +339,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54298
 <br>
-<strong>Published : </strong> July 28, 2025, 6:15 p.m. | 2 hours, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日18:15 | 3時間, 35分 ago
 <br>
 <strong>Description : </strong>A stored XSS vulnerability in CommentBox component 1.0.0-1.1.0 for Joomla was discovered.
 <br>
@@ -288,7 +356,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54299
 <br>
-<strong>Published : </strong> July 28, 2025, 6:15 p.m. | 2 hours, 57 minutes ago
+<strong>Published : </strong> 2025年7月28日18:15 | 3時間, 35分 ago
 <br>
 <strong>Description : </strong>A stored XSS vulnerability in No Boss Testimonials component 1.0.0-3.0.0 and 4.0.0-4.0.2 for Joomla was discovered.
 <br>
@@ -299,6 +367,91 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 28 Jul 2025 18:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-54299</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-54299</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54535 - JetBrains TeamCity Weak Password Token Hashing</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54535
+<br>
+<strong>Published : </strong> 2025年7月28日17:15 | 4時間, 34分 ago
+<br>
+<strong>Description : </strong>In JetBrains TeamCity before 2025.07 password reset and email verification tokens were using weak hashing algorithms
+<br>
+<strong>Severity:</strong> 5.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54535</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54535</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54536 - JetBrains TeamCity GraphQL CSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54536
+<br>
+<strong>Published : </strong> 2025年7月28日17:15 | 4時間, 34分 ago
+<br>
+<strong>Description : </strong>In JetBrains TeamCity before 2025.07 a CSRF was possible on GraphQL endpoint
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54536</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54536</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54537 - JetBrains TeamCity Plain Text User Credentials Memory Snapshot Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54537
+<br>
+<strong>Published : </strong> 2025年7月28日17:15 | 4時間, 34分 ago
+<br>
+<strong>Description : </strong>In JetBrains TeamCity before 2025.07 user credentials were stored in plain text in memory snapshots
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54537</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54537</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54538 - JetBrains TeamCity Password Exposure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54538
+<br>
+<strong>Published : </strong> 2025年7月28日17:15 | 4時間, 34分 ago
+<br>
+<strong>Description : </strong>In JetBrains TeamCity before 2025.07 password exposure was possible via command line in the "hg pull" command
+<br>
+<strong>Severity:</strong> 5.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54538</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54538</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7676 - Microsoft Windows DLL Hijacking Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7676
+<br>
+<strong>Published : </strong> 2025年7月28日17:15 | 4時間, 34分 ago
+<br>
+<strong>Description : </strong>DLL hijacking of all PE32 executables when run on Windows for ARM64 CPU architecture. This allows an attacker to execute code, if the attacker can plant a DLL in the same directory as the executable. Vulnerable versions of Windows 11 for ARM attempt to load Base DLLs that would ordinarily not be loaded from the application directory. Fixed in release 24H2, but present in all earlier versions of Windows 11 for ARM CPUs.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7676</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7676</guid>
     </item>
     <item>
       <title>CVE-2025-54531 - JetBrains TeamCity Path Traversal Vulnerability</title>
@@ -367,91 +520,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-54534</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-54534</guid>
-    </item>
-    <item>
-      <title>CVE-2025-54535 - JetBrains TeamCity Weak Password Token Hashing</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-54535
-<br>
-<strong>Published : </strong> July 28, 2025, 5:15 p.m. | 3 hours, 57 minutes ago
-<br>
-<strong>Description : </strong>In JetBrains TeamCity before 2025.07 password reset and email verification tokens were using weak hashing algorithms
-<br>
-<strong>Severity:</strong> 5.8 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-54535</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54535</guid>
-    </item>
-    <item>
-      <title>CVE-2025-54536 - JetBrains TeamCity GraphQL CSRF Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-54536
-<br>
-<strong>Published : </strong> July 28, 2025, 5:15 p.m. | 3 hours, 57 minutes ago
-<br>
-<strong>Description : </strong>In JetBrains TeamCity before 2025.07 a CSRF was possible on GraphQL endpoint
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-54536</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54536</guid>
-    </item>
-    <item>
-      <title>CVE-2025-54537 - JetBrains TeamCity Plain Text User Credentials Memory Snapshot Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-54537
-<br>
-<strong>Published : </strong> July 28, 2025, 5:15 p.m. | 3 hours, 57 minutes ago
-<br>
-<strong>Description : </strong>In JetBrains TeamCity before 2025.07 user credentials were stored in plain text in memory snapshots
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-54537</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54537</guid>
-    </item>
-    <item>
-      <title>CVE-2025-54538 - JetBrains TeamCity Password Exposure Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-54538
-<br>
-<strong>Published : </strong> July 28, 2025, 5:15 p.m. | 3 hours, 57 minutes ago
-<br>
-<strong>Description : </strong>In JetBrains TeamCity before 2025.07 password exposure was possible via command line in the "hg pull" command
-<br>
-<strong>Severity:</strong> 5.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-54538</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54538</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7676 - Microsoft Windows DLL Hijacking Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7676
-<br>
-<strong>Published : </strong> July 28, 2025, 5:15 p.m. | 3 hours, 57 minutes ago
-<br>
-<strong>Description : </strong>DLL hijacking of all PE32 executables when run on Windows for ARM64 CPU architecture. This allows an attacker to execute code, if the attacker can plant a DLL in the same directory as the executable. Vulnerable versions of Windows 11 for ARM attempt to load Base DLLs that would ordinarily not be loaded from the application directory. Fixed in release 24H2, but present in all earlier versions of Windows 11 for ARM CPUs.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7676</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7676</guid>
     </item>
     <item>
       <title>CVE-2025-50494 - PHPGurukul Car Washing Management System Session Hijacking Vulnerability</title>
