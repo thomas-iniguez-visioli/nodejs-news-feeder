@@ -8,12 +8,437 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 28 Jul 2025 08:56:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 09:30:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-8263 - A vulnerability was found in prettier up to 3.6.2.</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8263
+<br>
+<strong>Published : </strong> July 28, 2025, 8:15 a.m. | 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in prettier up to 3.6.2. It has been declared as problematic. Affected by this vulnerability is the function parseNestedCSS of the file src/language-css/parser-postcss.js. The manipulation of the argument node leads to inefficient regular expression complexity. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8263</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8263</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8261 - A vulnerability was found in Vaelsys 4.1.0 and cla</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8261
+<br>
+<strong>Published : </strong> July 28, 2025, 7:15 a.m. | 1 hour, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Vaelsys 4.1.0 and classified as critical. This issue affects some unknown processing of the file /grid/vgrid_server.php of the component User Creation Handler. The manipulation leads to improper authorization. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8261</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8261</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8262 - A vulnerability was found in yarnpkg Yarn up to 1.</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8262
+<br>
+<strong>Published : </strong> July 28, 2025, 7:15 a.m. | 1 hour, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in yarnpkg Yarn up to 1.22.22. It has been classified as problematic. Affected is the function explodeHostedGitFragment of the file src/resolvers/exotics/hosted-git-resolver.js. The manipulation leads to inefficient regular expression complexity. It is possible to launch the attack remotely. The patch is identified as 97731871e674bf93bcbf29e9d3258da8685f3076. It is recommended to apply a patch to fix this issue.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 07:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8262</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8262</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8259 - A vulnerability, which was classified as critical,</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8259
+<br>
+<strong>Published : </strong> July 28, 2025, 6:15 a.m. | 2 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Vaelsys 4.1.0. This affects the function execute_DataObjectProc of the file /grid/vgrid_server.php. The manipulation of the argument xajaxargs leads to os command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8259</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8259</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8260 - A vulnerability has been found in Vaelsys 4.1.0 an</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8260
+<br>
+<strong>Published : </strong> July 28, 2025, 6:15 a.m. | 2 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in Vaelsys 4.1.0 and classified as problematic. This vulnerability affects unknown code of the file /grid/vgrid_server.php of the component MD4 Hash Handler. The manipulation of the argument xajaxargs leads to use of weak hash. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 3.1 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 06:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8260</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8260</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8256 - A vulnerability classified as critical has been fo</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8256
+<br>
+<strong>Published : </strong> July 28, 2025, 5:16 a.m. | 3 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Online Ordering System 1.0. Affected is an unknown function of the file /admin/product.php. The manipulation of the argument image leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 05:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8256</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8256</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8257 - A vulnerability classified as problematic was foun</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8257
+<br>
+<strong>Published : </strong> July 28, 2025, 5:16 a.m. | 3 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic was found in Lobby Universe Lobby App up to 2.8.0 on Android. Affected by this vulnerability is an unknown functionality of the file AndroidManifest.xml of the component com.maverick.lobby. The manipulation leads to improper export of android application components. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 05:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8257</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8257</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8258 - A vulnerability, which was classified as problemat</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8258
+<br>
+<strong>Published : </strong> July 28, 2025, 5:16 a.m. | 3 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in Cool Mo Maigcal Number App up to 1.0.3 on Android. Affected by this issue is some unknown functionality of the file AndroidManifest.xml of the component com.sdmagic.number. The manipulation leads to improper export of android application components. An attack has to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 05:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8258</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8258</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8267 - Versions of the package ssrfcheck before 1.2.0 are</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8267
+<br>
+<strong>Published : </strong> July 28, 2025, 5:16 a.m. | 3 hours, 45 minutes ago
+<br>
+<strong>Description : </strong>Versions of the package ssrfcheck before 1.2.0 are vulnerable to Server-Side Request Forgery (SSRF) due to an incomplete denylist of IP address ranges. Specifically, the package fails to classify the reserved IP address space 224.0.0.0/4 (Multicast) as invalid. This oversight allows attackers to craft requests targeting these multicast addresses.
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 05:16:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8267</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8267</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8254 - A vulnerability was found in Campcodes Courier Man</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8254
+<br>
+<strong>Published : </strong> July 28, 2025, 4:15 a.m. | 4 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Campcodes Courier Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /view_parcel.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8254</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8254</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8255 - A vulnerability was found in code-projects Exam Fo</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8255
+<br>
+<strong>Published : </strong> July 28, 2025, 4:15 a.m. | 4 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Exam Form Submission 1.0. It has been rated as critical. This issue affects some unknown processing of the file /register.php. The manipulation of the argument image leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 04:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8255</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8255</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53159 - The openssl crate before 0.10.55 for Rust allows a</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53159
+<br>
+<strong>Published : </strong> July 28, 2025, 3:15 a.m. | 5 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>The openssl crate before 0.10.55 for Rust allows an out-of-bounds read via an empty string to X509VerifyParamRef::set_host.
+<br>
+<strong>Severity:</strong> 4.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53159</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53159</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53160 - The sequoia-openpgp crate before 1.16.0 for Rust a</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53160
+<br>
+<strong>Published : </strong> July 28, 2025, 3:15 a.m. | 5 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>The sequoia-openpgp crate before 1.16.0 for Rust allows out-of-bounds array access and a panic.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53160</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53160</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53161 - The buffered-reader crate before 1.1.5 for Rust al</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53161
+<br>
+<strong>Published : </strong> July 28, 2025, 3:15 a.m. | 5 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>The buffered-reader crate before 1.1.5 for Rust allows out-of-bounds array access and a panic.
+<br>
+<strong>Severity:</strong> 2.9 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53161</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53161</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8252 - A vulnerability was found in code-projects Exam Fo</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8252
+<br>
+<strong>Published : </strong> July 28, 2025, 3:15 a.m. | 5 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Exam Form Submission 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/delete_s5.php. The manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8252</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8252</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8253 - A vulnerability was found in code-projects Exam Fo</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8253
+<br>
+<strong>Published : </strong> July 28, 2025, 3:15 a.m. | 5 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Exam Form Submission 1.0. It has been classified as critical. This affects an unknown part of the file /admin/delete_s6.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 03:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8253</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8253</guid>
+    </item>
+    <item>
+      <title>CVE-2022-50237 - The ed25519-dalek crate before 2 for Rust allows a</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2022-50237
+<br>
+<strong>Published : </strong> July 28, 2025, 2:15 a.m. | 6 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>The ed25519-dalek crate before 2 for Rust allows a double public key signing function oracle attack. The Keypair implementation leads to a simple computation for extracting a private key.
+<br>
+<strong>Severity:</strong> 5.9 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2022-50237</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2022-50237</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8251 - A vulnerability has been found in code-projects Ex</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8251
+<br>
+<strong>Published : </strong> July 28, 2025, 2:15 a.m. | 6 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in code-projects Exam Form Submission 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/delete_s4.php. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8251</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8251</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53158 - The gix-transport crate before 0.36.1 for Rust all</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53158
+<br>
+<strong>Published : </strong> July 28, 2025, 1:15 a.m. | 7 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>The gix-transport crate before 0.36.1 for Rust allows command execution via the "gix clone 'ssh://-oProxyCommand=open$IFS" substring. NOTE: this was discovered before CVE-2024-32884, a similar vulnerability (involving a username field) that is more difficult to exploit.
+<br>
+<strong>Severity:</strong> 4.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53158</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53158</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8248 - A vulnerability classified as critical was found i</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8248
+<br>
+<strong>Published : </strong> July 28, 2025, 1:15 a.m. | 7 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in code-projects Online Ordering System 1.0. This vulnerability affects unknown code of the file /signup.php. The manipulation of the argument firstname leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8248</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8248</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8249 - A vulnerability, which was classified as critical,</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8249
+<br>
+<strong>Published : </strong> July 28, 2025, 1:15 a.m. | 7 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Exam Form Submission 1.0. This issue affects some unknown processing of the file /admin/update_s3.php. The manipulation of the argument credits leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8249</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8249</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8250 - A vulnerability, which was classified as critical,</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8250
+<br>
+<strong>Published : </strong> July 28, 2025, 1:15 a.m. | 7 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Exam Form Submission 1.0. Affected is an unknown function of the file /admin/update_s4.php. The manipulation of the argument credits leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 01:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8250</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8250</guid>
+    </item>
+    <item>
+      <title>CVE-2023-53157 - The rosenpass crate before 0.2.1 for Rust allows r</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2023-53157
+<br>
+<strong>Published : </strong> July 28, 2025, 12:15 a.m. | 8 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>The rosenpass crate before 0.2.1 for Rust allows remote attackers to cause a denial of service (panic) via a one-byte UDP packet.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2023-53157</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2023-53157</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8247 - A vulnerability classified as critical has been fo</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8247
+<br>
+<strong>Published : </strong> July 28, 2025, 12:15 a.m. | 8 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in Projectworlds Online Admission System 1.0. This affects an unknown part of the file /admin.php. The manipulation of the argument markof leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8247</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8247</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8246 - A vulnerability was found in TOTOLINK X15 1.0.0-B2</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8246
+<br>
+<strong>Published : </strong> July 27, 2025, 11:15 p.m. | 9 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in TOTOLINK X15 1.0.0-B20230714.1105. It has been rated as critical. Affected by this issue is some unknown functionality of the file /boafrm/formRoute of the component HTTP POST Request Handler. The manipulation of the argument submit-url leads to buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 27 Jul 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8246</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8246</guid>
+    </item>
     <item>
       <title>Cybermalveillance.gouv.fr lance une AlerteCyber concernant deux failles  de sécurité critiques dans  Microsoft SharePoint</title>
       <description><![CDATA[<p><p>Cybermalveillance.gouv.fr déclenche ce jour une nouvelle AlerteCyber concernant deux failles de sécurité critiques dans Microsoft SharePoint. Il est primordial de les corriger le plus rapidement possible en mettant à jour les systèmes concernés pour réduire les risques d’une cyberattaque.</p>
