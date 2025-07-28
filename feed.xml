@@ -8,18 +8,137 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 28 Jul 2025 16:57:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 17:23:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-49342 - IBM Informix Dynamic Server Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-49342
+<br>
+<strong>Published : </strong> July 28, 2025, 4:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>IBM Informix Dynamic Server 12.10 and 14.10 uses an inadequate account lockout setting that could allow a remote attacker to brute force account credentials.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-49342</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-49342</guid>
+    </item>
+    <item>
+      <title>CVE-2024-49343 - IBM Informix Dynamic Server HTML Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-49343
+<br>
+<strong>Published : </strong> July 28, 2025, 4:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>IBM Informix Dynamic Server 12.10 and 14.10 is vulnerable to HTML injection. A remote attacker could inject malicious HTML code, which when viewed, would be executed in the victim's Web browser within the security context of the hosting site.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-49343</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-49343</guid>
+    </item>
+    <item>
+      <title>CVE-2025-2297 - Apache Struts Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-2297
+<br>
+<strong>Published : </strong> July 28, 2025, 4:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>Prior to version 25.4.270.0, a local authenticated attacker can manipulate user profile files to add illegitimate challenge response codes into the local user registry under certain conditions. This allows users with the ability to edit their user profile files to elevate their privileges to administrator.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-2297</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-2297</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6250 - Symantec Defendpoint Service Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6250
+<br>
+<strong>Published : </strong> July 28, 2025, 4:15 p.m. | 47 minutes ago
+<br>
+<strong>Description : </strong>Prior to 25.4.270.0, when wmic.exe is elevated with a full admin token the user can stop the Defendpoint service, bypassing anti-tamper protections. Once the service is disabled, the malicious user can add themselves to Administrators group and run any process with elevated permissions.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 16:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6250</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6250</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30125 - Marbella KR8s Dashcam Weak Password Authentication Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30125
+<br>
+<strong>Published : </strong> July 28, 2025, 3:15 p.m. | 1 hour, 47 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered on Marbella KR8s Dashcam FF 2.0.8 devices. All dashcams were shipped with the same default credentials of 12345678, which creates an insecure-by-default condition. For users who change their passwords, it's limited to 8 characters. These short passwords can be cracked in 8 hours via low-end commercial cloud resources.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30125</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30125</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53696 - iSTAR Ultra Firmware Verification Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53696
+<br>
+<strong>Published : </strong> July 28, 2025, 3:15 p.m. | 1 hour, 47 minutes ago
+<br>
+<strong>Description : </strong>iSTAR Ultra performs a firmware verification on boot, however the verification does not inspect certain portions of the firmware. These firmware parts may contain malicious code. Tested up to firmware 6.9.2, later firmwares are also possibly affected.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53696</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53696</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54418 - CodeIgniter ImageMagick Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54418
+<br>
+<strong>Published : </strong> July 28, 2025, 3:15 p.m. | 1 hour, 47 minutes ago
+<br>
+<strong>Description : </strong>CodeIgniter is a PHP full-stack web framework. A command injection vulnerability present in versions prior to 4.6.2 affects applications that use the ImageMagick handler for image processing (`imagick` as the image library) and either allow file uploads with user-controlled filenames and process uploaded images using the `resize()` method or use the `text()` method with user-controlled text content or options. An attacker can upload a file with a malicious filename containing shell metacharacters that get executed when the image is processed or provide malicious text content or options that get executed when adding text to images Users should upgrade to v4.6.2 or later to receive a patch. As a workaround, switch to the GD image handler (`gd`, the default handler), which is not affected by either vulnerability. For file upload scenarios, instead of using user-provided filenames, generate random names to eliminate the attack vector with `getRandomName()` when using the `move()` method, or use the `store()` method, which automatically generates safe filenames. For text operations, if one must use ImageMagick with user-controlled text, sanitize the input to only allow safe characters and validate/restrict text options.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54418</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54418</guid>
+    </item>
+    <item>
       <title>CVE-2025-24485 - MedDream PACS Premium Server-Side Request Forgery Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24485
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>A server-side request forgery vulnerability exists in the cecho.php functionality of MedDream PACS Premium 7.3.5.860. A specially crafted HTTP request can lead to SSRF. An attacker can make an unauthenticated HTTP request to trigger this vulnerability.
 <br>
@@ -36,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-26469
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>An incorrect default permissions vulnerability exists in the CServerSettings::SetRegistryValues functionality of MedDream PACS Premium 7.3.3.840.
 A specially crafted application can decrypt credentials stored in a configuration-related registry key.
@@ -55,7 +174,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-27724
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>A privilege escalation vulnerability exists in the login.php functionality of meddream MedDream PACS Premium 7.3.3.840. A specially crafted .php file can lead to elevated capabilities. An attacker can upload a malicious file to trigger this vulnerability.
 <br>
@@ -72,7 +191,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30124
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered on Marbella KR8s Dashcam FF 2.0.8 devices. When a new SD card is inserted into the dashcam, the existing password is written onto the SD card in cleartext automatically. An attacker with temporary access to the dashcam can switch the SD card to steal this password.
 <br>
@@ -89,7 +208,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30126
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered on Marbella KR8s Dashcam FF 2.0.8 devices. Via port 7777 without any need to pair or press a physical button, a remote attacker can disable recording, delete recordings, or even disable battery protection to cause a flat battery to essentially disable the car from being used. During the process of changing these settings, there are no indications or sounds on the dashcam to alert the dashcam owner that someone else is making those changes.
 <br>
@@ -106,7 +225,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-30133
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered on IROAD Dashcam FX2 devices. Bypass of Device Pairing/Registration can occur. It requires device registration via the "IROAD X View" app for authentication, but its HTTP server lacks this restriction. Once connected to the dashcam's Wi-Fi network via the default password ("qwertyuiop"), an attacker can directly access the HTTP server at http://192.168.10.1 without undergoing the pairing process. Additionally, no alert is triggered on the device when an attacker connects, making this intrusion completely silent.
 <br>
@@ -123,7 +242,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-32731
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>A reflected cross-site scripting (xss) vulnerability exists in the radiationDoseReport.php functionality of meddream MedDream PACS Premium 7.3.5.860. A specially crafted malicious url can lead to arbitrary javascript code execution. An attacker can provide a crafted URL to trigger this vulnerability.
 <br>
@@ -140,7 +259,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53695
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>OS Command Injection in iSTAR Ultra products web application allows an authenticated attacker to gain even more privileged access ('root' user) to the device firmware.
 <br>
@@ -157,7 +276,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8279
 <br>
-<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 2:15 p.m. | 2 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>Insufficient input validation within GitLab Language Server 7.6.0 and later before 7.30.0 allows arbitrary GraphQL query execution
 <br>
@@ -174,7 +293,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4056
 <br>
-<strong>Published : </strong> July 28, 2025, 1:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 1:15 p.m. | 3 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in GLib. A denial of service on Windows platforms may occur if an application attempts to spawn a program using long command lines.
 <br>
@@ -191,7 +310,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54569
 <br>
-<strong>Published : </strong> July 28, 2025, 1:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 1:15 p.m. | 3 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>In Malwarebytes Binisoft Windows Firewall Control before 6.16.0.0, the installer is vulnerable to local privilege escalation.
 <br>
@@ -208,7 +327,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8275
 <br>
-<strong>Published : </strong> July 28, 2025, 1:15 p.m. | 1 hour, 46 minutes ago
+<strong>Published : </strong> July 28, 2025, 1:15 p.m. | 3 hours, 46 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in bsc Peru Cocktails App 1.0.0 on Android. Affected by this issue is some unknown functionality of the file AndroidManifest.xml of the component bsc.devy.peru_cocktails. The manipulation leads to improper export of android application components. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.
 <br>
@@ -219,6 +338,173 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 28 Jul 2025 13:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-8275</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-8275</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38494 - Linux Kernel HID Raw Request Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38494
+<br>
+<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 4 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+HID: core: do not bypass hid_hw_raw_request
+
+hid_hw_raw_request() is actually useful to ensure the provided buffer
+and length are valid. Directly calling in the low level transport driver
+function bypassed those checks and allowed invalid paramto be used.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38494</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38494</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38495 - Linux Kernel HID Buffer Undersized</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38495
+<br>
+<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 4 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+HID: core: ensure the allocated report buffer can contain the reserved report ID
+
+When the report ID is not used, the low level transport drivers expect
+the first byte to be 0. However, currently the allocated buffer not
+account for that extra byte, meaning that instead of having 8 guaranteed
+bytes for implement to be working, we only have 7.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38495</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38495</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38496 - QEMU dm-bufio Preemption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38496
+<br>
+<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 4 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+dm-bufio: fix sched in atomic context
+
+If "try_verify_in_tasklet" is set for dm-verity, DM_BUFIO_CLIENT_NO_SLEEP
+is enabled for dm-bufio. However, when bufio tries to evict buffers, there
+is a chance to trigger scheduling in spin_lock_bh, the following warning
+is hit:
+
+BUG: sleeping function called from invalid context at drivers/md/dm-bufio.c:2745
+in_atomic(): 1, irqs_disabled(): 0, non_block: 0, pid: 123, name: kworker/2:2
+preempt_count: 201, expected: 0
+RCU nest depth: 0, expected: 0
+4 locks held by kworker/2:2/123:
+ #0: ffff88800a2d1548 ((wq_completion)dm_bufio_cache){....}-{0:0}, at: process_one_work+0xe46/0x1970
+ #1: ffffc90000d97d20 ((work_completion)(&dm_bufio_replacement_work)){....}-{0:0}, at: process_one_work+0x763/0x1970
+ #2: ffffffff8555b528 (dm_bufio_clients_lock){....}-{3:3}, at: do_global_cleanup+0x1ce/0x710
+ #3: ffff88801d5820b8 (&c->spinlock){....}-{2:2}, at: do_global_cleanup+0x2a5/0x710
+Preemption disabled at:
+[<0000000000000000>] 0x0
+CPU: 2 UID: 0 PID: 123 Comm: kworker/2:2 Not tainted 6.16.0-rc3-g90548c634bd0 #305 PREEMPT(voluntary)
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.3-0-ga6ed6b701f0a-prebuilt.qemu.org 04/01/2014
+Workqueue: dm_bufio_cache do_global_cleanup
+Call Trace:
+ <TASK>
+ dump_stack_lvl+0x53/0x70
+ __might_resched+0x360/0x4e0
+ do_global_cleanup+0x2f5/0x710
+ process_one_work+0x7db/0x1970
+ worker_thread+0x518/0xea0
+ kthread+0x359/0x690
+ ret_from_fork+0xf3/0x1b0
+ ret_from_fork_asm+0x1a/0x30
+ </TASK>
+
+That can be reproduced by:
+
+  veritysetup format --data-block-size=4096 --hash-block-size=4096 /dev/vda /dev/vdb
+  SIZE=$(blockdev --getsz /dev/vda)
+  dmsetup create myverity -r --table "0 $SIZE verity 1 /dev/vda /dev/vdb 4096 4096 <data_blocks> 1 sha256 <root_hash> <salt> 1 try_verify_in_tasklet"
+  mount /dev/dm-0 /mnt -o ro
+  echo 102400 > /sys/module/dm_bufio/parameters/max_cache_size_bytes
+  [read files in /mnt]
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38496</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38496</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38497 - Linux Kernel USB Gadget configfs Out-of-Bounds Read</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38497
+<br>
+<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 4 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
+
+usb: gadget: configfs: Fix OOB read on empty string write
+
+When writing an empty string to either 'qw_sign' or 'landingPage'
+sysfs attributes, the store functions attempt to access page[l - 1]
+before validating that the length 'l' is greater than zero.
+
+This patch fixes the vulnerability by adding a check at the beginning
+of os_desc_qw_sign_store() and webusb_landingPage_store() to handle
+the zero-length input case gracefully by returning immediately.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38497</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38497</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5997 - Beamsec PhishPro Privileged API Abuse</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5997
+<br>
+<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 4 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>Incorrect Use of Privileged APIs vulnerability in Beamsec PhishPro allows Privilege Abuse.This issue affects PhishPro: before 7.5.4.2.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5997</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5997</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8274 - Campcodes Online Recruitment Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8274
+<br>
+<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 4 hours, 46 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in Campcodes Online Recruitment Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/ajax.php?action=save_recruitment_status. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8274</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8274</guid>
     </item>
     <item>
       <title>CVE-2025-38487 - Aspeed LPC Snoop NULL Pointer Dereference Vulnerability</title>
@@ -592,173 +878,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-38493</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-38493</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38494 - Linux Kernel HID Raw Request Bypass Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38494
-<br>
-<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 2 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-HID: core: do not bypass hid_hw_raw_request
-
-hid_hw_raw_request() is actually useful to ensure the provided buffer
-and length are valid. Directly calling in the low level transport driver
-function bypassed those checks and allowed invalid paramto be used.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38494</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38494</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38495 - Linux Kernel HID Buffer Undersized</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38495
-<br>
-<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 2 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-HID: core: ensure the allocated report buffer can contain the reserved report ID
-
-When the report ID is not used, the low level transport drivers expect
-the first byte to be 0. However, currently the allocated buffer not
-account for that extra byte, meaning that instead of having 8 guaranteed
-bytes for implement to be working, we only have 7.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38495</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38495</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38496 - QEMU dm-bufio Preemption Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38496
-<br>
-<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 2 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-dm-bufio: fix sched in atomic context
-
-If "try_verify_in_tasklet" is set for dm-verity, DM_BUFIO_CLIENT_NO_SLEEP
-is enabled for dm-bufio. However, when bufio tries to evict buffers, there
-is a chance to trigger scheduling in spin_lock_bh, the following warning
-is hit:
-
-BUG: sleeping function called from invalid context at drivers/md/dm-bufio.c:2745
-in_atomic(): 1, irqs_disabled(): 0, non_block: 0, pid: 123, name: kworker/2:2
-preempt_count: 201, expected: 0
-RCU nest depth: 0, expected: 0
-4 locks held by kworker/2:2/123:
- #0: ffff88800a2d1548 ((wq_completion)dm_bufio_cache){....}-{0:0}, at: process_one_work+0xe46/0x1970
- #1: ffffc90000d97d20 ((work_completion)(&dm_bufio_replacement_work)){....}-{0:0}, at: process_one_work+0x763/0x1970
- #2: ffffffff8555b528 (dm_bufio_clients_lock){....}-{3:3}, at: do_global_cleanup+0x1ce/0x710
- #3: ffff88801d5820b8 (&c->spinlock){....}-{2:2}, at: do_global_cleanup+0x2a5/0x710
-Preemption disabled at:
-[<0000000000000000>] 0x0
-CPU: 2 UID: 0 PID: 123 Comm: kworker/2:2 Not tainted 6.16.0-rc3-g90548c634bd0 #305 PREEMPT(voluntary)
-Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.3-0-ga6ed6b701f0a-prebuilt.qemu.org 04/01/2014
-Workqueue: dm_bufio_cache do_global_cleanup
-Call Trace:
- <TASK>
- dump_stack_lvl+0x53/0x70
- __might_resched+0x360/0x4e0
- do_global_cleanup+0x2f5/0x710
- process_one_work+0x7db/0x1970
- worker_thread+0x518/0xea0
- kthread+0x359/0x690
- ret_from_fork+0xf3/0x1b0
- ret_from_fork_asm+0x1a/0x30
- </TASK>
-
-That can be reproduced by:
-
-  veritysetup format --data-block-size=4096 --hash-block-size=4096 /dev/vda /dev/vdb
-  SIZE=$(blockdev --getsz /dev/vda)
-  dmsetup create myverity -r --table "0 $SIZE verity 1 /dev/vda /dev/vdb 4096 4096 <data_blocks> 1 sha256 <root_hash> <salt> 1 try_verify_in_tasklet"
-  mount /dev/dm-0 /mnt -o ro
-  echo 102400 > /sys/module/dm_bufio/parameters/max_cache_size_bytes
-  [read files in /mnt]
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38496</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38496</guid>
-    </item>
-    <item>
-      <title>CVE-2025-38497 - Linux Kernel USB Gadget configfs Out-of-Bounds Read</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-38497
-<br>
-<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 2 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
-
-usb: gadget: configfs: Fix OOB read on empty string write
-
-When writing an empty string to either 'qw_sign' or 'landingPage'
-sysfs attributes, the store functions attempt to access page[l - 1]
-before validating that the length 'l' is greater than zero.
-
-This patch fixes the vulnerability by adding a check at the beginning
-of os_desc_qw_sign_store() and webusb_landingPage_store() to handle
-the zero-length input case gracefully by returning immediately.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-38497</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38497</guid>
-    </item>
-    <item>
-      <title>CVE-2025-5997 - Beamsec PhishPro Privileged API Abuse</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-5997
-<br>
-<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 2 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>Incorrect Use of Privileged APIs vulnerability in Beamsec PhishPro allows Privilege Abuse.This issue affects PhishPro: before 7.5.4.2.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-5997</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5997</guid>
-    </item>
-    <item>
-      <title>CVE-2025-8274 - Campcodes Online Recruitment Management System SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-8274
-<br>
-<strong>Published : </strong> July 28, 2025, 12:15 p.m. | 2 hours, 46 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability classified as critical was found in Campcodes Online Recruitment Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/ajax.php?action=save_recruitment_status. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 28 Jul 2025 12:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-8274</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8274</guid>
     </item>
     <item>
       <title>CVE-2025-38474 - Sierra USB Net Interrupt Input Endpoint Validation Vulnerability</title>
