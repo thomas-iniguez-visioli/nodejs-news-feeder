@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 29 Jul 2025 23:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 23:42:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40600
 <br>
-<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Use of Externally-Controlled Format String vulnerability in the SonicOS SSL VPN interface allows a remote unauthenticated attacker to cause service disruption.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4674
 <br>
-<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>The go command may execute unexpected commands when operating in untrusted VCS repositories. This occurs when possibly dangerous VCS configuration is present in repositories. This can happen when a repository was fetched via one VCS (e.g. Git), but contains metadata for another VCS (e.g. Mercurial). Modules which are retrieved using the go command line, i.e. via "go get", are not affected.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54126
 <br>
-<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>The WebAssembly Micro Runtime's (WAMR) iwasm package is the executable binary built with WAMR VMcore which supports WebAssembly System Interface (WASI) and command line interface. In versions 2.4.0 and below, iwasm uses --addr-pool with an IPv4 address that lacks a subnet mask, allowing the system to accept all IP addresses. This can unintentionally expose the service to all incoming connections and bypass intended access restrictions. Services relying on --addr-pool for restricting access by IP may unintentionally become open to all external connections. This may lead to unauthorized access in production deployments, especially when users assume that specifying an IP without a subnet mask implies a default secure configuration. This is fixed in version 2.4.1.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7361
 <br>
-<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>A code injection vulnerability due to an improper initialization check exists in NI LabVIEW that may result in arbitrary code execution.  Successful exploitation requires an attacker to get a user to open a specially crafted VI using a CIN node.  This vulnerability affects 32-bit NI LabVIEW 2025 Q1 and prior versions.  LabVIEW 64-bit versions do not support CIN nodes and are not affected.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7848
 <br>
-<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>A memory corruption vulnerability due to improper input validation in lvpict.cpp exists in NI LabVIEW that may result in arbitrary code execution.  Successful exploitation requires an attacker to get a user to open a specially crafted VI.  This vulnerability affects NI LabVIEW 2025 Q1 and prior versions.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7849
 <br>
-<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 10:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>A memory corruption vulnerability due to improper error handling when a VILinkObj is null exists in NI LabVIEW that may result in arbitrary code execution.  Successful exploitation requires an attacker to get a user to open a specially crafted VI.  This vulnerability affects NI LabVIEW 2025 Q1 and prior versions.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-43018
 <br>
-<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Piwigo 13.8.0 and below is vulnerable to SQL Injection in the parameters max_level and min_register. These parameters are used in ws_user_gerList function from file include\ws_functions\pwg.users.php and this same function is called by ws.php file at some point can be used for searching users in advanced way in /admin.php?page=user_list.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45346
 <br>
-<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>SQL Injection vulnerability in Bacula-web before v.9.7.1 allows a remote attacker to execute arbitrary code via a crafted HTTP GET request.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52490
 <br>
-<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in Couchbase Sync Gateway before 3.2.6. In sgcollect_info_options.log and sync_gateway.log, there are cleartext passwords in redacted and unredacted output.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52899
 <br>
-<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Tuleap is an Open Source Suite created to facilitate management of software development and collaboration. In Tuleap Community Edition prior to version 16.9.99.1750843170 and Tuleap Enterprise Edition prior to 16.8-4 and 16.9-2, the forgot password form allows for user enumeration. This is fixed in Tuleap Community Edition version 16.9.99.1750843170 and Tuleap Enterprise Edition 16.8-4 and 16.9-2.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53102
 <br>
-<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Discourse is an open-source community discussion platform. Prior to version 3.4.7 on the `stable` branch and version 3.5.0.beta.8 on the `tests-passed` branch, upon issuing a physical security key for 2FA, the server generates a WebAuthn challenge, which the client signs. The challenge is not cleared from the user’s session after authentication, potentially allowing reuse and increasing security risk. This is fixed in versions 3.4.7 and 3.5.0.beta.8.
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53541
 <br>
-<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Tuleap is an Open Source Suite created to facilitate management of software development and collaboration. In Tuleap Community Edition prior to version 16.9.99.1751892857 and Tuleap Enterprise Edition prior to 16.8-5 and 16.9-3, malicious users with some control over certain artifacts could insert malicious code when displaying the children of a parent artifact to force victims to execute the uncontrolled code. This is fixed in version Tuleap Community Edition prior to version 16.9.99.1751892857 and Tuleap Enterprise Edition prior to 16.8-5 and 16.9-3.
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53902
 <br>
-<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Tuleap is an Open Source Suite created to facilitate management of software development and collaboration. In Tuleap Community Edition prior to version 16.9.99.1752585665 and Tuleap Enterprise Edition prior to 16.8-6 and 16.9-5, users may potentially access confidential information from artifacts that they are not authorized to view. This is fixed in Tuleap Community Edition prior to version 16.9.99.1752585665 and Tuleap Enterprise Edition prior to 16.8-6 and 16.9-5.
 <br>
@@ -240,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5684
 <br>
-<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 8:15 p.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>The MetForm – Contact Form, Survey, Quiz, & Custom Form Builder for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the `mf-template` DOM Element in all versions up to, and including, 4.0.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -257,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-42651
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>NanoMQ v0.17.9 was discovered to contain a heap use-after-free vulnerability via the component sub_Ctx_handle. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted SUBSCRIBE message.
 <br>
@@ -274,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-42655
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>An access control issue in NanoMQ v0.21.10 allows attackers to bypass security restrictions and access sensitive system topic messages using MQTT wildcard characters.
 <br>
@@ -291,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-49828
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5.0.0 through 10.5.0.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.2 is vulnerable to a denial of service as the server may crash under certain conditions with a specially crafted query.
 <br>
@@ -308,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-51473
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5.0.0 through 10.5.0.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.2 
 
@@ -327,7 +327,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-52894
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5.0.0 through 10.5.0.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.2 is vulnerable to a denial of service as the server may crash under certain conditions with a specially crafted query.
 <br>
@@ -344,7 +344,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-33092
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>IBM Db2 for Linux 12.1.0, 12.1.1, and 12.1.2 
 
@@ -363,7 +363,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-33114
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>IBM Db2 for Linux 12.1.0, 12.1.1, and 12.1.2 
 
@@ -384,7 +384,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-36071
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>IBM Db2 for Linux, UNIX and Windows (includes DB2 Connect Server) 11.5.0 through 11.5.9 and 12.1.0 through 12.1.2 is vulnerable to a denial of service as the server may crash under certain conditions with a specially crafted query due to improper release of memory resources.
 <br>
@@ -401,7 +401,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-51044
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>phpgurukul Nipah virus (NiV) Testing Management System 1.0 contains a SQL injection vulnerability in the /new-user-testing.php file, due to insufficient validation of user input for the " govtissuedid" parameter.
 <br>
@@ -418,7 +418,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-51045
 <br>
-<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 7:15 p.m. | 3 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>Phpgurukul Pre-School Enrollment System 1.0 contains a SQL injection vulnerability in the /admin/password-recovery.php file. This vulnerability is attributed to the insufficient validation of user input for the username parameter.
 <br>
@@ -435,7 +435,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7675
 <br>
-<strong>Published : </strong> July 29, 2025, 6:15 p.m. | 4 hours, 32 minutes ago
+<strong>Published : </strong> July 29, 2025, 6:15 p.m. | 4 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A maliciously crafted 3DM file, when parsed through certain Autodesk products, can force an Out-of-Bounds Write vulnerability. A malicious actor may leverage this vulnerability to cause a crash, cause data corruption, or execute arbitrary code in the context of the current process.
 <br>
