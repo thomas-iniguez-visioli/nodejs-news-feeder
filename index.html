@@ -179,12 +179,213 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-52567 - GLPI SSRF Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52567
+<br>
+<strong>Published : </strong> July 30, 2025, 2:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing. In versions 0.84 through 10.0.18, usage of RSS feeds or external calendars when planning is subject to SSRF exploit. The previous security patches provided since GLPI 10.0.4 were not robust enough for certain specific cases. This is fixed in version 10.0.19.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52567">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-52897 - GLPI Phishing Vulnerability in Planning Feature
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-52897
+<br>
+<strong>Published : </strong> July 30, 2025, 2:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>GLPI is a Free Asset and IT Management Software package. In versions 9.1.0 through 10.0.18, an unauthenticated user can send a malicious link to attempt a phishing attack from the planning feature. This is fixed in version 10.0.19.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-52897">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-53008 - GLPI Email Receiver Credentials Stealer
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-53008
+<br>
+<strong>Published : </strong> July 30, 2025, 2:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>GLPI stands for Gestionnaire Libre de Parc Informatique is a Free Asset and IT Management Software package, that provides ITIL Service Desk features, licenses tracking and software auditing. In versions 9.3.1 through 10.0.19, a connected user can use a malicious payload to steal mail receiver credentials. This is fixed in version 10.0.19.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-53008">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-54388 - Docker Moby iptables Rule Deletion and Recreation Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-54388
+<br>
+<strong>Published : </strong> July 30, 2025, 2:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>Moby is an open source container framework developed by Docker Inc. that is distributed as Docker Engine, Mirantis Container Runtime, and various other downstream projects/products. In versions 28.2.0 through 28.3.2, when the firewalld service is reloaded it removes all iptables rules including those created by Docker. While Docker should automatically recreate these rules, versions before 28.3.3 fail to recreate the specific rules that block external access to containers. This means that after a firewalld reload, containers with ports published to localhost (like 127.0.0.1:8080) become accessible from remote machines that have network routing to the Docker bridge, even though they should only be accessible from the host itself. The vulnerability only affects explicitly published ports - unpublished ports remain protected. This issue is fixed in version 28.3.3.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54388">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-54410 - Docker Moby Firewalld Container Isolation Bypass
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-54410
+<br>
+<strong>Published : </strong> July 30, 2025, 2:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>Moby is an open source container framework developed by Docker Inc. that is distributed as Docker Engine, Mirantis Container Runtime, and various other downstream projects/products. A firewalld vulnerability affects Moby releases before 28.0.0. When firewalld reloads, Docker fails to re-create iptables rules that isolate bridge networks, allowing any container to access all ports on any other container across different bridge networks on the same host. This breaks network segmentation between containers that should be isolated, creating significant risk in multi-tenant environments. Only containers in --internal networks remain protected.
+Workarounds include reloading firewalld and either restarting the docker daemon, re-creating bridge networks, or using rootless mode. Maintainers anticipate a fix for this issue in version 25.0.13.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54410">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-54425 - Umbraco Content Delivery API Cache Bypass Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-54425
+<br>
+<strong>Published : </strong> July 30, 2025, 2:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>Umbraco is an ASP.NET CMS. In versions 13.0.0 through 13.9.2, 15.0.0 through 15.4.1 and 16.0.0 through 16.1.0, the content delivery API can be restricted from public access where an API key must be provided in a header to authorize the request. It's also possible to configure output caching, such that the delivery API outputs will be cached for a period of time, improving performance. There's an issue when these two things are used together, where caching doesn't vary by the header that contains the API key. As such, it's possible for a user without a valid API key to retrieve a response for a given path and query if it has recently been requested and cached by request with a valid key. This is fixed in versions 13.9.3, 15.4.4 and 16.1.1.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54425">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-54430 - Apache Dedupe GitHub Token Exfiltration
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-54430
+<br>
+<strong>Published : </strong> July 30, 2025, 2:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>dedupe is a python library that uses machine learning to perform fuzzy matching, deduplication and entity resolution quickly on structured data. Before commit 3f61e79, a critical severity vulnerability has been identified within the .github/workflows/benchmark-bot.yml workflow, where a issue_comment can be triggered using the @benchmark body. This workflow is susceptible to exploitation as it checkout the ${{ github.event.issue.number }}, which correspond to the branch of the PR manipulated by potentially malicious actors, and where untrusted code may be executed. Running untrusted code may lead to the exfiltration of GITHUB_TOKEN, which in this workflow has write permissions on most of the scopes - in particular the contents one - and could lead to potential repository takeover. This is fixed by commit 3f61e79.
+<br>
+<strong>Severity:</strong> 9.1 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54430">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-54572 - Apache Ruby SAML Denial-of-Service Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-54572
+<br>
+<strong>Published : </strong> July 30, 2025, 2:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>The Ruby SAML library is for implementing the client side of a SAML authorization. In versions 1.18.0 and below, a denial-of-service vulnerability exists in ruby-saml even with the message_max_bytesize setting configured. The vulnerability occurs because the SAML response is validated for Base64 format prior to checking the message size, leading to potential resource exhaustion. This is fixed in version 1.18.1.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 14:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-54572">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-47001 - Adobe Experience Manager Stored XSS Vulnerability
                         </h3>
                         <p>
 <strong>CVE ID : </strong>CVE-2025-47001
 <br>
-<strong>Published : </strong> July 30, 2025, 1:15 p.m. | 21 minutes ago
+<strong>Published : </strong> July 30, 2025, 1:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>Adobe Experience Manager versions 6.5.22 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim’s browser when they browse to the page containing the vulnerable field.
 <br>
@@ -209,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-8326
 <br>
-<strong>Published : </strong> July 30, 2025, 1:15 p.m. | 21 minutes ago
+<strong>Published : </strong> July 30, 2025, 1:15 p.m. | 1 hour, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Exam Form Submission 1.0. Affected is an unknown function of the file /admin/delete_s7.php. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -234,7 +435,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-6348
 <br>
-<strong>Published : </strong> July 30, 2025, 9:15 a.m. | 3 hours, 49 minutes ago
+<strong>Published : </strong> July 30, 2025, 9:15 a.m. | 5 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>The Smart Slider 3 plugin for WordPress is vulnerable to time-based SQL Injection via the ‘sliderid’ parameter in all versions up to, and including, 3.5.1.28 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 <br>
@@ -259,7 +460,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1221
 <br>
-<strong>Published : </strong> July 30, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<strong>Published : </strong> July 30, 2025, 8:15 a.m. | 6 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A Zigbee Radio Co-Processor (RCP), which is using SiLabs EmberZNet Zigbee stack, was unable to send messages to the host system (CPCd) due to heavy Zigbee traffic, resulting in a Denial of Service (DoS) attack, Only hard reset will bring the device to normal operation
 <br>
@@ -284,7 +485,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-1394
 <br>
-<strong>Published : </strong> July 30, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<strong>Published : </strong> July 30, 2025, 8:15 a.m. | 6 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>Failure to handle the error status returned by the buffer management APIs in SiLabs EmberZNet Zigbee stack may result in data leaks or potential Denial of Service (DoS).
 <br>
@@ -309,7 +510,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-38498
 <br>
-<strong>Published : </strong> July 30, 2025, 6:15 a.m. | 6 hours, 49 minutes ago
+<strong>Published : </strong> July 30, 2025, 6:15 a.m. | 8 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>In the Linux kernel, the following vulnerability has been resolved:
 
@@ -340,7 +541,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-8322
 <br>
-<strong>Published : </strong> July 30, 2025, 4:16 a.m. | 8 hours, 48 minutes ago
+<strong>Published : </strong> July 30, 2025, 4:16 a.m. | 10 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>The e-School from Ventem has a Missing Authorization vulnerability, allowing remote attackers with regular privilege to access administrator functions, including creating, modifying, and deleting accounts. They can even escalate any account to system administrator privilege.
 <br>
@@ -365,7 +566,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-8323
 <br>
-<strong>Published : </strong> July 30, 2025, 4:16 a.m. | 8 hours, 48 minutes ago
+<strong>Published : </strong> July 30, 2025, 4:16 a.m. | 10 hours, 48 minutes ago
 <br>
 <strong>Description : </strong>The e-School from Ventem has a Arbitrary File Upload vulnerability, allowing unauthenticated remote attackers to upload and execute web shell backdoors, thereby enabling arbitrary code execution on the server.
 <br>
@@ -390,7 +591,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                         <p>
 <strong>CVE ID : </strong>CVE-2025-8292
 <br>
-<strong>Published : </strong> July 30, 2025, 2:17 a.m. | 10 hours, 47 minutes ago
+<strong>Published : </strong> July 30, 2025, 2:17 a.m. | 12 hours, 47 minutes ago
 <br>
 <strong>Description : </strong>Use after free in Media Stream in Google Chrome prior to 138.0.7204.183 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 <br>
@@ -402,6 +603,214 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 30 Jul 2025 02:17:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-8292">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4422 - Lenovo SMB Relay Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4422
+<br>
+<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4422">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4423 - Lenovo Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4423
+<br>
+<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4423">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4424 - Lenovo Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4424
+<br>
+<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
+<br>
+<strong>Severity:</strong> 6.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4424">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4425 - Lenovo Power Manager Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4425
+<br>
+<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
+<br>
+<strong>Severity:</strong> 8.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4425">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-4426 - Lenovo Network Authentication Bypass Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-4426
+<br>
+<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
+<br>
+<strong>Severity:</strong> 6.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4426">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-8217 - Amazon Q Developer Visual Studio Code Extension Code Injection Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-8217
+<br>
+<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>The Amazon Q Developer Visual Studio Code (VS Code) extension v1.84.0 contains inert, injected code designed to call the Q Developer CLI. The code executes when the extension is launched within the VS Code environment; however the injected code contains a syntax error which prevents it from making a successful API call to the Q Developer CLI.
+
+
+
+To mitigate this issue, users should upgrade to version v1.85.0. All installations of v1.84.0 should be removed from use.
+<br>
+<strong>Severity:</strong> 4.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-8217">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-8320 - Tesla Wall Connector HTTP Content-Length Header Buffer Overflow Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-8320
+<br>
+<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>Tesla Wall Connector Content-Length Header Improper Input Validation Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Tesla Wall Connector devices. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the parsing of the HTTP Content-Length header. The issue results from the lack of proper validation of user-supplied data, which can result in memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Was ZDI-CAN-26300.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-8320">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-8321 - Tesla Wall Connector Firmware Downgrade Remote Code Execution Vulnerability
+                        </h3>
+                        <p>
+<strong>CVE ID : </strong>CVE-2025-8321
+<br>
+<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 13 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>Tesla Wall Connector Firmware Downgrade Vulnerability. This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Tesla Wall Connector devices. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the firmware upgrade feature. The issue results from the lack of an anti-downgrade mechanism. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device. Was ZDI-CAN-26299.
+<br>
+<strong>Severity:</strong> 6.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>
+                            <p class="feed-time">
+                                Wed, 30 Jul 2025 01:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-8321">
                                 read more
                             </a>
                     </article>
@@ -477,214 +886,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
                                 Wed, 30 Jul 2025 01:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4421">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4422 - Lenovo SMB Relay Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4422
-<br>
-<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 11 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
-<br>
-<strong>Severity:</strong> 8.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Jul 2025 01:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4422">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4423 - Lenovo Remote Code Execution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4423
-<br>
-<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 11 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
-<br>
-<strong>Severity:</strong> 8.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Jul 2025 01:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4423">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4424 - Lenovo Remote Code Execution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4424
-<br>
-<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 11 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
-<br>
-<strong>Severity:</strong> 6.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Jul 2025 01:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4424">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4425 - Lenovo Power Manager Remote Code Execution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4425
-<br>
-<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 11 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
-<br>
-<strong>Severity:</strong> 8.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Jul 2025 01:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4425">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-4426 - Lenovo Network Authentication Bypass Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-4426
-<br>
-<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 11 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>The vulnerability was identified in the code developed specifically for Lenovo. Please visit "Lenovo Product Security Advisories and Announcements" webpage for more information about the vulnerability.  https://support.lenovo.com/us/en/product_security/home
-<br>
-<strong>Severity:</strong> 6.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Jul 2025 01:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-4426">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-8217 - Amazon Q Developer Visual Studio Code Extension Code Injection Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-8217
-<br>
-<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 11 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>The Amazon Q Developer Visual Studio Code (VS Code) extension v1.84.0 contains inert, injected code designed to call the Q Developer CLI. The code executes when the extension is launched within the VS Code environment; however the injected code contains a syntax error which prevents it from making a successful API call to the Q Developer CLI.
-
-
-
-To mitigate this issue, users should upgrade to version v1.85.0. All installations of v1.84.0 should be removed from use.
-<br>
-<strong>Severity:</strong> 4.0 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Jul 2025 01:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-8217">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-8320 - Tesla Wall Connector HTTP Content-Length Header Buffer Overflow Remote Code Execution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-8320
-<br>
-<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 11 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>Tesla Wall Connector Content-Length Header Improper Input Validation Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Tesla Wall Connector devices. Authentication is not required to exploit this vulnerability.
-
-The specific flaw exists within the parsing of the HTTP Content-Length header. The issue results from the lack of proper validation of user-supplied data, which can result in memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Was ZDI-CAN-26300.
-<br>
-<strong>Severity:</strong> 8.8 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Jul 2025 01:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-8320">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-8321 - Tesla Wall Connector Firmware Downgrade Remote Code Execution Vulnerability
-                        </h3>
-                        <p>
-<strong>CVE ID : </strong>CVE-2025-8321
-<br>
-<strong>Published : </strong> July 30, 2025, 1:15 a.m. | 11 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>Tesla Wall Connector Firmware Downgrade Vulnerability. This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Tesla Wall Connector devices. Authentication is not required to exploit this vulnerability.
-
-The specific flaw exists within the firmware upgrade feature. The issue results from the lack of an anti-downgrade mechanism. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device. Was ZDI-CAN-26299.
-<br>
-<strong>Severity:</strong> 6.8 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>
-                            <p class="feed-time">
-                                Wed, 30 Jul 2025 01:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-8321">
                                 read more
                             </a>
                     </article>
