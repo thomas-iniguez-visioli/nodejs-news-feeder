@@ -142,16 +142,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-11/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-12/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-13/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-22/
-https://cvefeed.io/vuln/detail/CVE-2013-10042
-https://cvefeed.io/vuln/detail/CVE-2013-10043
-https://cvefeed.io/vuln/detail/CVE-2014-125121
-https://cvefeed.io/vuln/detail/CVE-2014-125122
-https://cvefeed.io/vuln/detail/CVE-2014-125123
-https://cvefeed.io/vuln/detail/CVE-2014-125124
-https://cvefeed.io/vuln/detail/CVE-2014-125125
-https://cvefeed.io/vuln/detail/CVE-2014-125126
-https://cvefeed.io/vuln/detail/CVE-2024-34328
-https://cvefeed.io/vuln/detail/CVE-2025-29557
 https://cvefeed.io/vuln/detail/CVE-2025-34146
 https://cvefeed.io/vuln/detail/CVE-2025-50270
 https://cvefeed.io/vuln/detail/CVE-2025-50475
@@ -167,6 +157,16 @@ https://cvefeed.io/vuln/detail/CVE-2025-50850
 https://cvefeed.io/vuln/detail/CVE-2025-50867
 https://cvefeed.io/vuln/detail/CVE-2025-52203
 https://cvefeed.io/vuln/detail/CVE-2025-8409
+https://cvefeed.io/vuln/detail/CVE-2024-34327
+https://cvefeed.io/vuln/detail/CVE-2025-50866
+https://cvefeed.io/vuln/detail/CVE-2025-51383
+https://cvefeed.io/vuln/detail/CVE-2025-51384
+https://cvefeed.io/vuln/detail/CVE-2025-51385
+https://cvefeed.io/vuln/detail/CVE-2025-51503
+https://cvefeed.io/vuln/detail/CVE-2025-54832
+https://cvefeed.io/vuln/detail/CVE-2025-54833
+https://cvefeed.io/vuln/detail/CVE-2025-54834
+https://cvefeed.io/vuln/detail/CVE-2025-8426
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cactus-lancement-national
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2024
@@ -3394,16 +3394,6 @@ CRA, l’ANSSI encourage l’implication d’organismes d’évaluation de la co
 
 
 
-CVE-2013-10042 - FreeFTPd FTP PASS Command Stack-Based Buffer Overflow
-CVE-2013-10043 - OAstium VoIP PBX Remote Code Execution Vulnerability
-CVE-2014-125121 - Array Networks vAPV/vxAG SSH Privilege Escalation Vulnerability
-CVE-2014-125122 - Linksys WRT120N Remote Stack Buffer Overflow Vulnerability
-CVE-2014-125123 - Kloxo SQL Injection Vulnerability
-CVE-2014-125124 - Pandora FMS Anyterm Remote Command Execution
-CVE-2014-125125 - A10 Networks AX Loadbalancer Path Traversal Vulnerability
-CVE-2014-125126 - Apache Simple E-Document Unrestricted File Upload and Authentication Bypass
-CVE-2024-34328 - Sielox AnyWare Open Redirect Vulnerability
-CVE-2025-29557 - ExaGrid EX10 Remote Authentication Bypass
 CVE-2025-34146 - SandboxJS Prototype Pollution Vulnerability
 CVE-2025-50270 - AnQiCMS Stored XSS
 CVE-2025-50475 - Russound MBX-PRE-D67F OS Command Injection Vulnerability
@@ -3419,6 +3409,16 @@ CVE-2025-50850 - CS Cart Brute Force Vendor Login
 CVE-2025-50867 - CloudClassroom-PHP-Project SQL Injection
 CVE-2025-52203 - DevaslanPHP Stored XSS
 CVE-2025-8409 - "Code-projects Vehicle Management SQL Injection"
+CVE-2024-34327 - Sielox AnyWare SQL Injection
+CVE-2025-50866 - CloudClassroom-PHP Project 1.0 Reflected Cross-site Scripting (XSS)
+CVE-2025-51383 - D-Link DI-8200 Buffer Overflow Vulnerability
+CVE-2025-51384 - D-Link DI-8200 IPsec Buffer Overflow
+CVE-2025-51385 - D-Link DI-8200 Buffer Overflow Vulnerability
+CVE-2025-51503 - Microweber CMS Stored Cross-Site Scripting (XSS)
+CVE-2025-54832 - OPEXUS FOIAXpress Arbitrary State/Territory Modification Vulnerability
+CVE-2025-54833 - OPEXUS FOIAXpress Bypass Account-Lockout and CAPTCHA Protection Vulnerability
+CVE-2025-54834 - OPEXUS FOIAXpress Information Disclosure Vulnerability
+CVE-2025-8426 - Marvell QConvergeConsole Directory Traversal and Information Disclosure/DoS
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
 Opération Cactus : lancement national de la campagne de sensibilisation à lrsquo;hameçonnage dans les espaces numériques de travail
 Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
@@ -3439,6 +3439,16 @@ Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
 AlerteCyber : Failles de sécurité critiques dans Microsoft SharePoint
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant deux failles  de sécurité critiques dans  Microsoft SharePoint
+CVE-2013-10042 - FreeFTPd FTP PASS Command Stack-Based Buffer Overflow
+CVE-2013-10043 - OAstium VoIP PBX Remote Code Execution Vulnerability
+CVE-2014-125121 - Array Networks vAPV/vxAG SSH Privilege Escalation Vulnerability
+CVE-2014-125122 - Linksys WRT120N Remote Stack Buffer Overflow Vulnerability
+CVE-2014-125123 - Kloxo SQL Injection Vulnerability
+CVE-2014-125124 - Pandora FMS Anyterm Remote Command Execution
+CVE-2014-125125 - A10 Networks AX Loadbalancer Path Traversal Vulnerability
+CVE-2014-125126 - Apache Simple E-Document Unrestricted File Upload and Authentication Bypass
+CVE-2024-34328 - Sielox AnyWare Open Redirect Vulnerability
+CVE-2025-29557 - ExaGrid EX10 Remote Authentication Bypass
 CVE-2013-10033 - Kimai SQL Injection Remote Code Execution
 CVE-2013-10034 - Kaseya KServer Unauthenticated File Upload Remote Code Execution Vulnerability
 CVE-2013-10035 - ProcessMaker Code Injection Vulnerability
