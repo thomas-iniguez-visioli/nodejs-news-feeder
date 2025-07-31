@@ -8,18 +8,137 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 31 Jul 2025 12:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jul 2025 13:26:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-8068 - Elementor HT Mega Absolute Addons WordPress Unauthorized Data Manipulation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8068
+<br>
+<strong>Published : </strong> July 31, 2025, 12:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>The HT Mega – Absolute Addons For Elementor plugin for WordPress is vulnerable to unauthorized modification and loss of data due to an improper capability check on the 'ajax_trash_templates' function in all versions up to, and including, 2.9.1. This makes it possible for authenticated attackers, with Contributor-level access and above, to delete arbitrary attachment files, and move arbitrary posts, pages, and templates to the Trash.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8068</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8068</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8151 - HT Mega – Absolute Addons For Elementor Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8151
+<br>
+<strong>Published : </strong> July 31, 2025, 12:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>The HT Mega – Absolute Addons For Elementor plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 2.9.1 via the 'save_block_css' function. This makes it possible for authenticated attackers, with Author-level access and above, to create CSS files in any directory, and delete CSS files in any directory in a Windows environment.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8151</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8151</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8381 - Campcodes Online Hotel Reservation System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8381
+<br>
+<strong>Published : </strong> July 31, 2025, 12:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, has been found in Campcodes Online Hotel Reservation System 1.0. This issue affects some unknown processing of the file /add_reserve.php. The manipulation of the argument room_id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8381</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8381</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8382 - Campcodes Online Hotel Reservation System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8382
+<br>
+<strong>Published : </strong> July 31, 2025, 12:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in Campcodes Online Hotel Reservation System 1.0. Affected is an unknown function of the file /admin/edit_room.php. The manipulation of the argument room_id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8382</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8382</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8401 - HT Mega – Absolute Addons For Elementor Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8401
+<br>
+<strong>Published : </strong> July 31, 2025, 12:15 p.m. | 49 minutes ago
+<br>
+<strong>Description : </strong>The HT Mega – Absolute Addons For Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.9.1 via the 'get_post_data' function. This makes it possible for authenticated attackers, with Author-level access and above, to extract sensitive data including the content of private, password-protected, and draft posts and pages.
+<br>
+<strong>Severity:</strong> 4.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 12:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8401</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8401</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8379 - Campcodes Online Hotel Reservation System File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8379
+<br>
+<strong>Published : </strong> July 31, 2025, 11:15 a.m. | 1 hour, 49 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in Campcodes Online Hotel Reservation System 1.0. This affects an unknown part of the file /admin/edit_room.php. The manipulation of the argument photo leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8379</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8379</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8380 - Campcodes Online Hotel Reservation System Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8380
+<br>
+<strong>Published : </strong> July 31, 2025, 11:15 a.m. | 1 hour, 49 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic was found in Campcodes Online Hotel Reservation System 1.0. This vulnerability affects unknown code of the file /admin/add_query_account.php. The manipulation of the argument Name leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.5 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 11:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8380</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8380</guid>
+    </item>
+    <item>
       <title>CVE-2025-2813 - Apache HTTP Server DoS</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-2813
 <br>
-<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>An unauthenticated remote attacker can cause a Denial of Service by sending a large number of requests to the http service on port 80.
 <br>
@@ -36,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-40980
 <br>
-<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A Stored Cross Site Scripting vulnerability has been found in UltimatePOS by UltimateFosters. This vulnerability is due to the lack of proper validation of user inputs via ‘/products/<PRODUCT_ID>/edit’, affecting to ‘name’ parameter via POST. The vulnerability could allow a remote attacker to send a specially crafted query to an authenticated user and steal his/her session cookies details.
 <br>
@@ -53,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41688
 <br>
-<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A high privileged remote attacker can execute arbitrary OS commands using an undocumented method allowing to escape the implemented LUA sandbox.
 <br>
@@ -70,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8376
 <br>
-<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in code-projects Vehicle Management 1.0. Affected is an unknown function of the file /updatebal.php. The manipulation of the argument company leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -87,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8378
 <br>
-<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 10:15 a.m. | 2 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Campcodes Online Hotel Reservation System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /admin/index.php of the component Login. The manipulation of the argument username/password leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -104,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24853
 <br>
-<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 1 hour, 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 3 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A carefully crafted request when creating a header link using the 
 wiki markup syntax, which could allow the attacker to execute javascript
@@ -130,7 +249,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-24854
 <br>
-<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 1 hour, 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 3 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A carefully crafted request using the Image plugin could trigger an XSS 
 vulnerability on Apache JSPWiki, which could allow the attacker to 
@@ -156,7 +275,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8192
 <br>
-<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 1 hour, 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 3 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>There exists a TOCTOU race condition in TvSettings AppRestrictionsFragment.java that lead to start of attacker supplied activity in Settings’ context, i.e. system-uid context, thus lead to launchAnyWhere. The core idea is to utilize the time window between the check of Intent and the use to Intent to change the target component’s state, thus bypass the original security sanitize function.
 <br>
@@ -173,7 +292,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8374
 <br>
-<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 1 hour, 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 3 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Vehicle Management 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /addcompany.php. The manipulation of the argument company leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -190,7 +309,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8375
 <br>
-<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 1 hour, 49 minutes ago
+<strong>Published : </strong> July 31, 2025, 9:15 a.m. | 3 hours, 49 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Vehicle Management 1.0. It has been rated as critical. This issue affects some unknown processing of the file /addvehicle.php. The manipulation of the argument vehicle leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -201,6 +320,142 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 31 Jul 2025 09:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-8375</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-8375</guid>
+    </item>
+    <item>
+      <title>CVE-2025-41391 - PowerCMS Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-41391
+<br>
+<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>Stored cross-site scripting vulnerability exists in multiple versions of PowerCMS. If a product user accesses a malicious page, an arbitrary script may be executed on the browser.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-41391</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-41391</guid>
+    </item>
+    <item>
+      <title>CVE-2025-41396 - PowerCMS Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-41396
+<br>
+<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>A path traversal issue exists in file uploading feature of multiple versions of PowerCMS. Arbitrary files may be overwritten by a product user.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-41396</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-41396</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46359 - PowerCMS Path Traversal RCE Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46359
+<br>
+<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>A path traversal issue exists in backup and restore feature of multiple versions of PowerCMS. A product administrator may execute arbitrary code by restoring a crafted backup file.
+<br>
+<strong>Severity:</strong> 7.2 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46359</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46359</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54752 - PowerCMS CSV Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54752
+<br>
+<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>Multiple versions of PowerCMS improperly neutralize formula elements in a CSV file.  If a product user creates a malformed entry and a victim user downloads it as a CSV file and opens it in the user's environment, the embedded code may be executed.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54752</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54752</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54757 - PowerCMS Cross-Site Scripting (XSS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54757
+<br>
+<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>Multiple versions of PowerCMS allow unrestricted upload of dangerous files. If a product administrator accesses a malicious file uploaded by a product user, an arbitrary script may be executed on the browser.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54757</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54757</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7205 - GiveWP Stored Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7205
+<br>
+<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the donor notes parameter in all versions up to, and including, 4.5.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with GiveWP worker-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Additionally, they need to trick an administrator into visiting the legacy version of the site.
+<br>
+<strong>Severity:</strong> 5.4 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7205</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7205</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8372 - Exam Form Submission SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8372
+<br>
+<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Exam Form Submission 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/update_s7.php. The manipulation of the argument credits leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8372</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8372</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8373 - Code-projects Vehicle Management SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8373
+<br>
+<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 4 hours, 49 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in code-projects Vehicle Management 1.0. It has been classified as critical. This affects an unknown part of the file /print.php. The manipulation of the argument sno leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8373</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8373</guid>
     </item>
     <item>
       <title>CVE-2025-36563 - PowerCMS Cross-Site Scripting (XSS)</title>
@@ -218,142 +473,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-36563</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-36563</guid>
-    </item>
-    <item>
-      <title>CVE-2025-41391 - PowerCMS Cross-Site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-41391
-<br>
-<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 2 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>Stored cross-site scripting vulnerability exists in multiple versions of PowerCMS. If a product user accesses a malicious page, an arbitrary script may be executed on the browser.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-41391</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-41391</guid>
-    </item>
-    <item>
-      <title>CVE-2025-41396 - PowerCMS Path Traversal Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-41396
-<br>
-<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 2 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>A path traversal issue exists in file uploading feature of multiple versions of PowerCMS. Arbitrary files may be overwritten by a product user.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-41396</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-41396</guid>
-    </item>
-    <item>
-      <title>CVE-2025-46359 - PowerCMS Path Traversal RCE Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-46359
-<br>
-<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 2 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>A path traversal issue exists in backup and restore feature of multiple versions of PowerCMS. A product administrator may execute arbitrary code by restoring a crafted backup file.
-<br>
-<strong>Severity:</strong> 7.2 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-46359</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46359</guid>
-    </item>
-    <item>
-      <title>CVE-2025-54752 - PowerCMS CSV Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-54752
-<br>
-<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 2 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>Multiple versions of PowerCMS improperly neutralize formula elements in a CSV file.  If a product user creates a malformed entry and a victim user downloads it as a CSV file and opens it in the user's environment, the embedded code may be executed.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-54752</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54752</guid>
-    </item>
-    <item>
-      <title>CVE-2025-54757 - PowerCMS Cross-Site Scripting (XSS) Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-54757
-<br>
-<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 2 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>Multiple versions of PowerCMS allow unrestricted upload of dangerous files. If a product administrator accesses a malicious file uploaded by a product user, an arbitrary script may be executed on the browser.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-54757</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54757</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7205 - GiveWP Stored Cross-Site Scripting Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7205
-<br>
-<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 2 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the donor notes parameter in all versions up to, and including, 4.5.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with GiveWP worker-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Additionally, they need to trick an administrator into visiting the legacy version of the site.
-<br>
-<strong>Severity:</strong> 5.4 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7205</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7205</guid>
-    </item>
-    <item>
-      <title>CVE-2025-8372 - Exam Form Submission SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-8372
-<br>
-<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 2 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Exam Form Submission 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/update_s7.php. The manipulation of the argument credits leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-8372</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8372</guid>
-    </item>
-    <item>
-      <title>CVE-2025-8373 - Code-projects Vehicle Management SQL Injection</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-8373
-<br>
-<strong>Published : </strong> July 31, 2025, 8:15 a.m. | 2 hours, 49 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in code-projects Vehicle Management 1.0. It has been classified as critical. This affects an unknown part of the file /print.php. The manipulation of the argument sno leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-<br>
-<strong>Severity:</strong> 7.3 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 31 Jul 2025 08:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-8373</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8373</guid>
     </item>
     <item>
       <title>CVE-2025-8370 - Portabilis i-Educar Cross-Site Scripting Vulnerability</title>
