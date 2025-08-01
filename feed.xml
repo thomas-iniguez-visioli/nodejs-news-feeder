@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 01 Aug 2025 19:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 20:21:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -19,7 +19,7 @@
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50869
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>A stored Cross-Site Scripting (XSS) vulnerability exists in the qureydetails.php page of Institute-of-Current-Students 1.0, where the input fields for Query and Answer do not properly sanitize user input. Authenticated users can inject arbitrary JavaScript code.
 <br>
@@ -36,7 +36,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50870
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Institute-of-Current-Students 1.0 is vulnerable to Incorrect Access Control in the mydetailsstudent.php endpoint. The myds GET parameter accepts an email address as input and directly returns the corresponding student's personal information without validating the identity or permissions of the requesting user. This allows any authenticated or unauthenticated attacker to enumerate and retrieve sensitive student details by altering the email value in the request URL, leading to information disclosure.
 <br>
@@ -53,7 +53,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53009
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers. In versions 1.39.2 and below, when parsing an MTLX file with multiple nested nodegraph implementations, the MaterialX XML parsing logic can potentially crash due to stack exhaustion. An attacker could intentionally crash a target program that uses OpenEXR by sending a malicious MTLX file. This is fixed in version 1.39.3.
 <br>
@@ -70,7 +70,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53010
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers. In version 1.39.2, when parsing shader nodes in a MTLX file, the MaterialXCore code accesses a potentially null pointer, which can lead to crashes with maliciously crafted files. An attacker could intentionally crash a target program that uses OpenEXR by sending a malicious MTLX file. This is fixed in version 1.39.3.
 <br>
@@ -87,7 +87,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53011
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers. In version 1.39.2, when parsing shader nodes in a MTLX file, the MaterialXCore code accesses a potentially null pointer, which can lead to crashes with maliciously crafted files. An attacker could intentionally crash a target program that uses MaterialX by sending a malicious MTLX file. This is fixed in version 1.39.3.
 <br>
@@ -104,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53012
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers. In version 1.39.2, nested imports of MaterialX files can lead to a crash via stack memory exhaustion, due to the lack of a limit on the "import chain" depth. When parsing file imports, recursion is used to process nested files; however, there is no limit imposed to the depth of files that can be parsed by the library. By building a sufficiently deep chain of MaterialX files one referencing the next, it is possible to crash the process using the MaterialX library via stack exhaustion. This is fixed in version 1.39.3.
 <br>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54564
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>uploadsm in ChargePoint Home Flex 5.5.4.13 does not validate a user-controlled string for bz2 decompression, which allows command execution as the nobody user.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54574
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Squid is a caching proxy for the Web. In versions 6.3 and below, Squid is vulnerable to a heap buffer overflow and possible remote code execution attack when processing URN due to incorrect buffer management. This has been fixed in version 6.4. To work around this issue, disable URN access permissions.
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54590
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>webfinger.js is a TypeScript-based WebFinger client that runs in both browsers and Node.js environments. In versions 2.8.0 and below, the lookup function accepts user addresses for account checking. However, the ActivityPub specification requires preventing access to localhost services in production. This library does not prevent localhost access, only checking for hosts that start with "localhost" and end with a port. Users can exploit this by creating servers that send GET requests with controlled host, path, and port parameters to query services on the instance's host or local network, enabling blind SSRF attacks. This is fixed in version 2.8.1.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54593
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>FreshRSS is a free, self-hostable RSS aggregator. In versions 1.26.1 and below, an authenticated administrator user can execute arbitrary code on the FreshRSS server by modifying the update URL to one they control, and gain code execution after running an update. After successfully executing code, user data including hashed passwords can be exfiltrated, the instance can be defaced when file permissions allow. Malicious code can be inserted into the instance to steal plaintext passwords, among others. This is fixed in version 1.26.2.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54595
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Pearcleaner is a free, source-available and fair-code licensed mac app cleaner. The PearcleanerHelper is a privileged helper tool bundled with the Pearcleaner application. It is registered and activated only after the user approves a system prompt to allow privileged operations. Upon approval, the helper is configured as a LaunchDaemon and runs with root privileges. In versions 4.4.0 through 4.5.1, the helper registers an XPC service (com.alienator88.Pearcleaner.PearcleanerHelper) and accepts unauthenticated connections from any local process. It exposes a method that executes arbitrary shell commands. This allows any local unprivileged user to escalate privileges to root once the helper is approved and active. This issue is fixed in version 4.5.2.
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5999
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>A privileged Vault operator with write permissions to the root namespace’s identity endpoint could escalate their own or another user’s token privileges to Vault’s root policy. Fixed in Vault Community Edition 1.20.0 and Vault Enterprise 1.20.0, 1.19.6, 1.18.11 and 1.16.22.
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6000
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>A privileged Vault operator within the root namespace with write permission to {{sys/audit}} may obtain code execution on the underlying host if a plugin directory is set in Vault’s configuration. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
 <br>
@@ -240,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6004
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Vault and Vault Enterprise’s (“Vault”) user lockout feature could be bypassed for Userpass and LDAP authentication methods. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
 <br>
@@ -257,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6011
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>A timing side channel in Vault and Vault Enterprise’s (“Vault”) userpass auth method allowed an attacker to distinguish between existing and non-existing users, and potentially enumerate valid usernames for Vault’s Userpass auth method. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
 <br>
@@ -274,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6014
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Vault and Vault Enterprise’s (“Vault”) TOTP Secrets Engine code validation endpoint is susceptible to code reuse within its validity period. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
 <br>
@@ -291,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6015
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Vault and Vault Enterprise’s (“Vault”) login MFA rate limits could be bypassed and TOTP tokens could be reused. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
 <br>
@@ -308,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6037
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Vault and Vault Enterprise (“Vault”) TLS certificate auth method did not correctly validate client certificates when configured with a non-CA certificate as [+trusted certificate+|https://developer.hashicorp.com/vault/api-docs/auth/cert#certificate]. In this configuration, an attacker may be able to craft a malicious certificate that could be used to impersonate another user. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
 <br>
@@ -325,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8472
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Alpine iLX-507 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-507 devices. User interaction is required to exploit this vulnerability in that the target must connect to a malicious Bluetooth device.
 
@@ -344,7 +344,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8473
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Alpine iLX-507 UPDM_wstpCBCUpdStart Command Injection Vulnerability. This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-507 devices. Authentication is not required to exploit this vulnerability.
 
@@ -363,7 +363,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8474
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Alpine iLX-507 CarPlay Stack-based Buffer Overflow Code Execution Vulnerability. This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-507 devices. Authentication is not required to exploit this vulnerability.
 
@@ -382,7 +382,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8475
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Alpine iLX-507 AVRCP Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-507 devices. User interaction is required to exploit this vulnerability in that the target must connect to a malicious Bluetooth device.
 
@@ -401,7 +401,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8476
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Alpine iLX-507 TIDAL Improper Certificate Validation Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-507 devices. Authentication is not required to exploit this vulnerability.
 
@@ -420,7 +420,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8477
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Alpine iLX-507 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Alpine iLX-507 devices. User interaction is required to exploit this vulnerability in that the target must connect to a malicious Bluetooth device.
 
@@ -439,7 +439,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8480
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 6:15 p.m. | 49 minutes ago
 <br>
 <strong>Description : </strong>Alpine iLX-507 Command Injection Remote Code Execution. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-507 devices. Authentication is not required to exploit this vulnerability.
 
