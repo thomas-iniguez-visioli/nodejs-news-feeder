@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 01 Aug 2025 18:28:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 18:55:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -121,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2019-19144
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 50 minutes ago
 <br>
 <strong>Description : </strong>XML External Entity Injection vulnerability in Quantum DXi6702 2.3.0.3 (11449-53631 Build304) devices via rest/Users?action=authenticate.
 <br>
@@ -138,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44139
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 50 minutes ago
 <br>
 <strong>Description : </strong>Emlog Pro V2.5.7 is vulnerable to Unrestricted Upload of File with Dangerous Type via /emlog/admin/plugin.php?action=upload_zip
 <br>
@@ -155,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50460
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 50 minutes ago
 <br>
 <strong>Description : </strong>A remote code execution (RCE) vulnerability exists in the ms-swift project version 3.3.0 due to unsafe deserialization in tests/run.py using yaml.load() from the PyYAML library (versions = 5.3.1). If an attacker can control the content of the YAML configuration file passed to the --run_config parameter, arbitrary code can be executed during deserialization. This can lead to full system compromise. The vulnerability is triggered when a malicious YAML file is loaded, allowing the execution of arbitrary Python commands such as os.system(). It is recommended to upgrade PyYAML to version 5.4 or higher, and to use yaml.safe_load() to mitigate the issue.
 <br>
@@ -172,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50472
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 50 minutes ago
 <br>
 <strong>Description : </strong>The modelscope/ms-swift library thru 2.6.1 is vulnerable to arbitrary code execution through deserialization of untrusted data within the `load_model_meta()` function of the `ModelFileSystemCache()` class. Attackers can execute arbitrary code and commands by crafting a malicious serialized `.mdl` payload, exploiting the use of `pickle.load()` on data from potentially untrusted sources. This vulnerability allows for remote code execution (RCE) by deceiving victims into loading a seemingly harmless checkpoint during a normal training process, thereby enabling attackers to execute arbitrary code on the targeted machine. Note that the payload file is a hidden file, making it difficult for the victim to detect tampering. More importantly, during the model training process, after the `.mdl` file is loaded and executes arbitrary code, the normal training process remains unaffected'meaning the user remains unaware of the arbitrary code execution.
 <br>
@@ -189,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52327
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 50 minutes ago
 <br>
 <strong>Description : </strong>SQL Injection vulnerability in Restaurant Order System 1.0 allows a local attacker to obtain sensitive information via the payment.php file
 <br>
@@ -206,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52361
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 50 minutes ago
 <br>
 <strong>Description : </strong>Insecure permissions in the script /etc/init.d/lighttpd in AK-Nord USB-Server-LXL Firmware v0.0.16 Build 2023-03-13 allows a locally authenticated low-privilege user to execute arbitrary commands with root privilege via editing this script which is executed with root-privileges on any interaction and on every system boot.
 <br>
@@ -223,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52390
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 1 hour, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 4:15 p.m. | 50 minutes ago
 <br>
 <strong>Description : </strong>Saurus CMS Community Edition since commit d886e5b0 (2010-04-23) is vulnerable to a SQL Injection vulnerability in the `prepareSearchQuery()` method in `FulltextSearch.class.php`. The application directly concatenates user-supplied input (`$search_word`) into SQL queries without sanitization, allowing attackers to manipulate the SQL logic and potentially extract sensitive information or escalate their privileges.
 <br>
@@ -240,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45767
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 3:15 p.m. | 2 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 3:15 p.m. | 1 hour, 50 minutes ago
 <br>
 <strong>Description : </strong>jose v6.0.10 was discovered to contain weak encryption.
 <br>
@@ -257,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-44976
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 2:15 p.m. | 3 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 2:15 p.m. | 2 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>Hangzhou Shunwang Rentdrv2 before 2024-12-24 allows local users to terminate EDR processes and possibly have unspecified other impact via DeviceIoControl with control code 0x22E010, as exploited in the wild in October 2023.
 <br>
@@ -274,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46018
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 2:15 p.m. | 3 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 2:15 p.m. | 2 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>CSC Pay Mobile App 2.19.4 (fixed in version 2.20.0) contains a vulnerability allowing users to bypass payment authorization by disabling Bluetooth at a specific point during a transaction. This could result in unauthorized use of laundry services and potential financial loss.
 <br>
@@ -291,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41370
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 4 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb/html/view/acceso.php.
 <br>
@@ -308,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41371
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 4 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb_v4/integra/html/view/acceso.php
 <br>
@@ -325,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41372
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 4 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb[_v4]/integra/html/view/informe_campo_entrevistas.php.
 <br>
@@ -342,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41373
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 4 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb[_v4]/integra/html/view/hislistadoacciones.php.
 <br>
@@ -359,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41374
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 4 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb[_v4]/integra/html/view/hislistadoacciones.php.
 <br>
@@ -376,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41375
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 4 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb[_v4]/integra/html/view/consultaincimails.php.
 <br>
@@ -393,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-41376
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 4 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 1:15 p.m. | 3 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb[_v4]/integra/html/view/consultacuotasred.php.
 <br>
@@ -410,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4684
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 12:15 p.m. | 5 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 12:15 p.m. | 4 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The BlockSpare: Gutenberg Blocks & Patterns for Blogs, Magazines, Business Sites – Post Grids, Sliders, Carousels, Counters, Page Builder & Starter Site Imports, No Coding Needed plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the HTML attributes of Image Carousel and Image Slider widgets in all versions up to, and including, 3.2.13.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
@@ -427,7 +427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-6228
 <br>
-<strong>Published : </strong> Aug. 1, 2025, 12:15 p.m. | 5 hours, 14 minutes ago
+<strong>Published : </strong> Aug. 1, 2025, 12:15 p.m. | 4 hours, 50 minutes ago
 <br>
 <strong>Description : </strong>The Sina Extension for Elementor (Header Builder, Footer Builter, Theme Builder, Slider, Gallery, Form, Modal, Data Table Free Elementor Widgets & Elementor Templates) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the `Sina Posts`, `Sina Blog Post` and `Sina Table` widgets in all versions up to, and including, 3.7.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 <br>
