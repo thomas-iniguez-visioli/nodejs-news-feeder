@@ -142,12 +142,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-11/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-12/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-13/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-22/
-https://cvefeed.io/vuln/detail/CVE-2019-19145
-https://cvefeed.io/vuln/detail/CVE-2025-53399
-https://cvefeed.io/vuln/detail/CVE-2025-54657
-https://cvefeed.io/vuln/detail/CVE-2025-54839
-https://cvefeed.io/vuln/detail/CVE-2025-54840
-https://cvefeed.io/vuln/detail/CVE-2025-54841
 https://cvefeed.io/vuln/detail/CVE-2025-54842
 https://cvefeed.io/vuln/detail/CVE-2025-54843
 https://cvefeed.io/vuln/detail/CVE-2025-54844
@@ -167,6 +161,12 @@ https://cvefeed.io/vuln/detail/CVE-2025-54939
 https://cvefeed.io/vuln/detail/CVE-2025-5921
 https://cvefeed.io/vuln/detail/CVE-2025-8436
 https://cvefeed.io/vuln/detail/CVE-2025-8454
+https://cvefeed.io/vuln/detail/CVE-2025-7646
+https://cvefeed.io/vuln/detail/CVE-2025-8437
+https://cvefeed.io/vuln/detail/CVE-2025-8438
+https://cvefeed.io/vuln/detail/CVE-2025-8439
+https://cvefeed.io/vuln/detail/CVE-2025-8441
+https://cvefeed.io/vuln/detail/CVE-2025-8442
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cactus-lancement-national
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2024
@@ -201,6 +201,10 @@ https://cvefeed.io/vuln/detail/CVE-2025-7443
 https://cvefeed.io/vuln/detail/CVE-2025-7725
 https://cvefeed.io/vuln/detail/CVE-2025-7845
 https://cvefeed.io/vuln/detail/CVE-2025-8435
+https://cvefeed.io/vuln/detail/CVE-2019-19145
+https://cvefeed.io/vuln/detail/CVE-2025-53399
+https://cvefeed.io/vuln/detail/CVE-2025-54657
+https://cvefeed.io/vuln/detail/CVE-2025-54839
 https://cvefeed.io/vuln/detail/CVE-2025-54840
 https://cvefeed.io/vuln/detail/CVE-2025-54841
 https://cvefeed.io/vuln/detail/CVE-2025-54842
@@ -212,10 +216,6 @@ https://cvefeed.io/vuln/detail/CVE-2025-54847
 https://cvefeed.io/vuln/detail/CVE-2025-5947
 https://cvefeed.io/vuln/detail/CVE-2025-8433
 https://cvefeed.io/vuln/detail/CVE-2025-8434
-https://cvefeed.io/vuln/detail/CVE-2019-19145
-https://cvefeed.io/vuln/detail/CVE-2025-53399
-https://cvefeed.io/vuln/detail/CVE-2025-54657
-https://cvefeed.io/vuln/detail/CVE-2025-54839
 https://cvefeed.io/vuln/detail/CVE-2025-5954
 https://cvefeed.io/vuln/detail/CVE-2025-8431
 https://cvefeed.io/vuln/detail/CVE-2025-48071
@@ -3453,12 +3453,6 @@ CRA, l’ANSSI encourage l’implication d’organismes d’évaluation de la co
 
 
 
-CVE-2019-19145 - Quantum SuperLoader 3 Password Brute Force
-CVE-2025-53399 - Sipwise RTPengine RTP Stream Injection and Interception Vulnerability
-CVE-2025-54657 - Apache Struts Command Injection
-CVE-2025-54839 - Apache HTTP Server Cross-Site Request Forgery
-CVE-2025-54840 - Apache HTTP Server Denial of Service
-CVE-2025-54841 - Apache Struts SQL Injection
 CVE-2025-54842 - Apache HTTP Server Cross-Site Request Forgery
 CVE-2025-54843 - Fortinet DNS Server Insufficient Input Validation
 CVE-2025-54844 - Apache Struts Command Execution
@@ -3478,6 +3472,12 @@ CVE-2025-54939 - LiteSpeed QUIC (LSQUIC) Library LSQUIC Engine Packet In Memory 
 CVE-2025-5921 - "SureForms WordPress Reflected Cross-Site Scripting"
 CVE-2025-8436 - Projectworlds Online Admission System SQL Injection Vulnerability
 CVE-2025-8454 - Debian Package devscripts OpenPGP Verification Bypass
+CVE-2025-7646 - Elementor Addons Stored Cross-Site Scripting
+CVE-2025-8437 - Kitchen Treasure SQL Injection Vulnerability
+CVE-2025-8438 - Code-Projects Wazifa System SQL Injection Vulnerability
+CVE-2025-8439 - Wazifa System SQL Injection Vulnerability
+CVE-2025-8441 - Code-projects Online Medicine Guide SQL Injection Vulnerability
+CVE-2025-8442 - Code-projects Online Medicine Guide SQL Injection Vulnerability
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
 Opération Cactus : lancement national de la campagne de sensibilisation à lrsquo;hameçonnage dans les espaces numériques de travail
 Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
@@ -3498,10 +3498,12 @@ Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
 AlerteCyber : Failles de sécurité critiques dans Microsoft SharePoint
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant deux failles  de sécurité critiques dans  Microsoft SharePoint
-CVE-2025-7646 - Elementor Addons Stored Cross-Site Scripting
-CVE-2025-8437 - Kitchen Treasure SQL Injection Vulnerability
-CVE-2025-8438 - Code-Projects Wazifa System SQL Injection Vulnerability
-CVE-2025-8439 - Wazifa System SQL Injection Vulnerability
+CVE-2019-19145 - Quantum SuperLoader 3 Password Brute Force
+CVE-2025-53399 - Sipwise RTPengine RTP Stream Injection and Interception Vulnerability
+CVE-2025-54657 - Apache Struts Command Injection
+CVE-2025-54839 - Apache HTTP Server Cross-Site Request Forgery
+CVE-2025-54840 - Apache HTTP Server Denial of Service
+CVE-2025-54841 - Apache Struts SQL Injection
 CVE-2025-5954 - WordPress Service Finder SMS System Plugin Unauthenticated Administrator Account Takeover Vulnerability
 CVE-2025-8431 - PHPGurukul Boat Booking System SQL Injection Vulnerability
 CVE-2025-48071 - OpenEXR ZIPS-packed Deep Scan-Line Heap Buffer Overflow
