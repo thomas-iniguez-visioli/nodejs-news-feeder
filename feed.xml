@@ -8,18 +8,86 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Sun, 03 Aug 2025 01:57:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 03:52:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-54349 - Iperf Heap-Based Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54349
+<br>
+<strong>Published : </strong> Aug. 3, 2025, 2:15 a.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In iperf before 3.19.1, iperf_auth.c has an off-by-one error and resultant heap-based buffer overflow.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 03 Aug 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54349</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54349</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54350 - Iperf Base64Decode Assertion Failure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54350
+<br>
+<strong>Published : </strong> Aug. 3, 2025, 2:15 a.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In iperf before 3.19.1, iperf_auth.c has a Base64Decode assertion failure and application exit upon a malformed authentication attempt.
+<br>
+<strong>Severity:</strong> 3.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 03 Aug 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54350</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54350</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54351 - Iperf Buffer Overflow</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54351
+<br>
+<strong>Published : </strong> Aug. 3, 2025, 2:15 a.m. | 30 minutes ago
+<br>
+<strong>Description : </strong>In iperf before 3.19.1, net.c has a buffer overflow when --skip-rx-copy is used (for MSG_TRUNC in recv).
+<br>
+<strong>Severity:</strong> 8.9 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 03 Aug 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54351</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54351</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8495 - Code-projects Intern Membership Management System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8495
+<br>
+<strong>Published : </strong> Aug. 3, 2025, 2:15 a.m. | 29 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in code-projects Intern Membership Management System 1.0. Affected is an unknown function of the file /admin/edit_admin_query.php. The manipulation of the argument Username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Sun, 03 Aug 2025 02:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8495</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8495</guid>
+    </item>
+    <item>
       <title>CVE-2025-54955 - OpenNebula FireEdge JWT Authentication Bypass</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54955
 <br>
-<strong>Published : </strong> Aug. 3, 2025, 12:15 a.m. | 1 hour, 21 minutes ago
+<strong>Published : </strong> Aug. 3, 2025, 12:15 a.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>OpenNebula Community Edition (CE) before 7.0.0 and Enterprise Edition (EE) before 6.10.3 have a critical FireEdge race condition that can lead to full account takeover. By exploiting this, an unauthenticated attacker can obtain a valid JSON Web Token (JWT) belonging to a legitimate user without knowledge of their credentials.
 <br>
@@ -36,7 +104,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8494
 <br>
-<strong>Published : </strong> Aug. 3, 2025, 12:15 a.m. | 1 hour, 21 minutes ago
+<strong>Published : </strong> Aug. 3, 2025, 12:15 a.m. | 2 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in code-projects Intern Membership Management System 1.0. This issue affects some unknown processing of the file /admin/delete_student.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -53,7 +121,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-32253
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 2 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in the Linux kernel's ksmbd component. A deadlock is triggered by sending multiple concurrent session setup requests, possibly leading to a denial of service.
 <br>
@@ -70,7 +138,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2023-32255
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 2 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in the Linux kernel's ksmbd component. A memory leak can occur if a client sends a session setup request with an unknown NTLMSSP message type,  potentially leading to resource exhaustion.
 <br>
@@ -87,7 +155,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23284
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 2 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager, where a malicious guest could cause a stack buffer overflow. A successful exploit of this vulnerability might lead to code execution, denial of service, information disclosure, or data tampering.
 <br>
@@ -104,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23285
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 2 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager, where it allows a guest to access global resources. A successful exploit of this vulnerability might lead to denial of service.
 <br>
@@ -121,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23290
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 2 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager, where a guest could get global GPU metrics which may be influenced by work in other VMs. A successful exploit of this vulnerability might lead to information disclosure.
 <br>
@@ -138,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8493
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 2 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 11:15 p.m. | 3 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in code-projects Intern Membership Management System 1.0. This vulnerability affects unknown code of the file /admin/edit_student_query.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -155,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23276
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA Installer for Windows contains a vulnerability where an attacker may be able to escalate privileges. A successful exploit of this vulnerability may lead to escalation of privileges, denial of service, code execution, information disclosure and data tampering.
 <br>
@@ -172,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23277
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA Display Driver for Linux and Windows contains a vulnerability in the kernel mode driver, where an attacker could access memory outside bounds permitted under normal use cases. A successful exploit of this vulnerability might lead to denial of service, data tampering, or information disclosure.
 <br>
@@ -189,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23278
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA Display Driver for Windows and Linux contains a vulnerability where an attacker might cause an improper index validation by issuing a call with crafted parameters. A successful exploit of this vulnerability might lead to data tampering  or denial of service.
 <br>
@@ -206,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23279
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA .run Installer for Linux and Solaris contains a vulnerability where an attacker could use a race condition to escalate privileges. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, denial of service, or data tampering.
 <br>
@@ -223,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23281
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA GPU Display Driver for Windows contains a vulnerability where an attacker with local unprivileged access that can win a race condition might be able to trigger a use-after-free error. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, or information disclosure.
 <br>
@@ -240,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23283
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA vGPU software for Linux-style hypervisors contains a vulnerability in the Virtual GPU Manager, where a malicious guest could cause stack buffer overflow. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, or data tampering.
 <br>
@@ -257,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23286
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA GPU Display Driver for Windows and Linux contains a vulnerability where an attacker could read invalid memory. A successful exploit of this vulnerability might lead to information disclosure.
 <br>
@@ -274,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23287
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA GPU Display Driver for Windows contains a vulnerability where an attacker may access sensitive system-level information. A successful exploit of this vulnerability may lead to Information disclosure.
 <br>
@@ -291,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-23288
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 3 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 10:15 p.m. | 4 hours, 29 minutes ago
 <br>
 <strong>Description : </strong>NVIDIA GPU Display Driver for Windows contains a vulnerability  where an attacker may cause an exposure of sensitive system information with local unprivileged system access. A successful exploit of this vulnerability may lead to Information disclosure.
 <br>
@@ -308,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8471
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 7:15 p.m. | 6 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 7:15 p.m. | 7 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability, which was classified as critical, has been found in projectworlds Online Admission System 1.0. This issue affects some unknown processing of the file /adminlogin.php. The manipulation of the argument a_id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -325,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8470
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 6:15 p.m. | 7 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 6:15 p.m. | 8 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in SourceCodester Online Hotel Reservation System 1.0. This vulnerability affects unknown code of the file /admin/deleteroom.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -342,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8469
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 5:15 p.m. | 8 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 5:15 p.m. | 9 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical has been found in SourceCodester Online Hotel Reservation System 1.0. This affects an unknown part of the file /admin/deletegallery.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -359,7 +427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8468
 <br>
-<strong>Published : </strong> Aug. 2, 2025, 3:15 p.m. | 10 hours, 21 minutes ago
+<strong>Published : </strong> Aug. 2, 2025, 3:15 p.m. | 11 hours, 30 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in code-projects Wazifa System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /controllers/reset.php. The manipulation of the argument email leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
