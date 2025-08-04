@@ -8,18 +8,222 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 04 Aug 2025 20:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 21:19:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-50340 - SOGo Webmail IDOR Email Spoofing</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50340
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 8:15 p.m. | 54 minutes ago
+<br>
+<strong>Description : </strong>An Insecure Direct Object Reference (IDOR) vulnerability was discovered in SOGo Webmail thru 5.6.0, allowing an authenticated user to send emails on behalf of other users by manipulating a user-controlled identifier in the email-sending request. The server fails to verify whether the authenticated user is authorized to use the specified sender identity, resulting in unauthorized message delivery as another user. This can lead to impersonation, phishing, or unauthorized communication within the system.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50340</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50340</guid>
+    </item>
+    <item>
+      <title>CVE-2025-55014 - Youdao StarDict X11 Selection Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-55014
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 8:15 p.m. | 54 minutes ago
+<br>
+<strong>Description : </strong>The YouDao plugin for StarDict, as used in stardict 3.0.7+git20220909+dfsg-6 in Debian trixie and elsewhere, sends an X11 selection to the dict.youdao.com and dict.cn servers via cleartext HTTP.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-55014</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-55014</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8523 - RiderLike Fruit Crush-Brain App Android Component Export Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8523
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 8:15 p.m. | 54 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability has been found in RiderLike Fruit Crush-Brain App 1.0 on Android and classified as problematic. Affected by this vulnerability is an unknown functionality of the file AndroidManifest.xml of the component com.fruitcrush.fun. The manipulation leads to improper export of android application components. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8523</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8523</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8524 - "Boquan DotWallet Android AndroidManifest.xml Component Export Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8524
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 8:15 p.m. | 54 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Boquan DotWallet App 2.15.2 on Android and classified as problematic. Affected by this issue is some unknown functionality of the file AndroidManifest.xml of the component com.boquanhash.dotwallet. The manipulation leads to improper export of android application components. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 20:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8524</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8524</guid>
+    </item>
+    <item>
+      <title>CVE-2025-21120 - Dell Avamar HTTP Permission Methods Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-21120
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 7:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Dell Avamar, versions prior to 19.12 with patch 338905, excluding version 19.10SP1 with patch 338904, contains a Trusting HTTP Permission Methods on the Server-Side vulnerability in Security. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information exposure.
+<br>
+<strong>Severity:</strong> 8.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-21120</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-21120</guid>
+    </item>
+    <item>
+      <title>CVE-2025-26476 - Dell ECS Hard-coded Cryptographic Key Unauthorized Access Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-26476
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 7:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Dell ECS versions prior to 3.8.1.5/ ObjectScale version 4.0.0.0, contain a Use of Hard-coded Cryptographic Key vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Unauthorized access.
+<br>
+<strong>Severity:</strong> 8.4 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-26476</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-26476</guid>
+    </item>
+    <item>
+      <title>CVE-2025-38741 - "Dell Enterprise SONiC OS SSH Cryptographic Key Exposure Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-38741
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 7:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Dell Enterprise SONiC OS, version 4.5.0, contains a cryptographic key vulnerability in SSH. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to unauthorized access to communication.
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-38741</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-38741</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52239 - ZKEACMS File Upload Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52239
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 7:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>An arbitrary file upload vulnerability in ZKEACMS v4.1 allows attackers to execute arbitrary code via a crafted file.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52239</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52239</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53394 - Macrium Reflect Remote Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53394
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 7:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Paramount Macrium Reflect through 2025-06-26 allows attackers to execute arbitrary code with administrator privileges via a crafted .mrimgx or .mrbax backup file and a renamed executable placed in the same directory. When a user with administrative privileges opens the crafted backup file and proceeds to mount it, Reflect launches the renamed executable (e.g., explorer.exe), which is under attacker control. This occurs because of insufficient validation of companion files referenced during backup mounting.
+<br>
+<strong>Severity:</strong> 7.7 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53394</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53394</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53395 - Macrium Reflect DLL Loading Vulnerability (Local Privilege Escalation)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53395
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 7:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>Paramount Macrium Reflect through 2025-06-26 allows local attackers to execute arbitrary code with administrator privileges via a crafted .mrimgx backup file and a malicious VSSSvr.dll located in the same directory. When a user with administrative privileges mounts a backup by opening the .mrimgx file, Reflect loads the attacker's VSSSvr.dll after the mount completes. This occurs because of untrusted DLL search path behavior in ReflectMonitor.exe.
+<br>
+<strong>Severity:</strong> 7.7 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53395</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53395</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8521 - Givanz Vvveb Add Type Handler Cross-Site Scripting Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8521
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 7:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as problematic, has been found in givanz Vvveb up to 1.0.5. This issue affects some unknown processing of the file /vadmin123/index.php?module=settings/post-types of the component Add Type Handler. The manipulation leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.6 is able to address this issue. The patch is named b53c7161da606f512b7efcb392d6ffc708688d49/605a70f8729e4d44ebe272671cb1e43e3d6ae014. It is recommended to upgrade the affected component.
+<br>
+<strong>Severity:</strong> 2.4 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8521</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8521</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8522 - Givanz Vvvebjs Node.js File Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8522
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 7:15 p.m. | 1 hour, 54 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability, which was classified as critical, was found in givanz Vvvebjs up to 2.0.4. Affected is an unknown function of the file /save.php of the component node.js. The manipulation of the argument File leads to path traversal. It is possible to launch the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 5.0 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8522</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8522</guid>
+    </item>
+    <item>
       <title>CVE-2013-10052 - ZPanel Sudo Privilege Escalation Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2013-10052
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 51 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>ZPanel includes a helper binary named zsudo, intended to allow restricted privilege escalation for administrative tasks. However, when misconfigured in /etc/sudoers, zsudo can be invoked by low-privileged users to execute arbitrary commands as root. This flaw enables local attackers with shell access to escalate privileges by writing a payload to a writable directory and executing it via zsudo. The vulnerability is particularly impactful in post-exploitation scenarios following web server compromise, where the attacker inherits access to zsudo.
 <br>
@@ -36,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2013-10054
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 51 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>An unauthenticated arbitrary file upload vulnerability exists in LibrettoCMS version 1.1.7 (and possibly earlier) contains an unauthenticated arbitrary file upload vulnerability in its File Manager plugin. The upload handler located at adm/ui/js/ckeditor/plugins/pgrfilemanager/php/upload.php fails to properly validate file extensions, allowing attackers to upload files with misleading extensions and subsequently rename them to executable .php scripts. This enables remote code execution on the server without authentication.
 <br>
@@ -53,11 +257,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-45183
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 51 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in Samsung Mobile Processor Exynos 2100, 1280, 2200, 1330, 1380, 1480, and 2400. A lack of a JPEG length check leads to an out-of-bound write.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 6.5 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -70,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-34147
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 51 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>An unauthenticated OS command injection vulnerability exists in the Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02). When configuring the device in Extender mode via its captive portal, the extap2g SSID field is inserted unescaped into a reboot-time shell script. This allows remote attackers within Wi-Fi range to inject arbitrary shell commands that execute as root during device reboot, leading to full system compromise.
 <br>
@@ -87,11 +291,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46206
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 51 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>An issue in Artifex mupdf 1.25.6, 1.25.5 allows a remote attacker to cause a denial of service via an infinite recursion in the `mutool clean` utility. When processing a crafted PDF file containing cyclic /Next references in the outline structure, the `strip_outline()` function enters infinite recursion
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 7.5 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -104,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-51390
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 51 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>TOTOLINK N600R V4.3.0cu.7647_B20210106 was discovered to contain a command injection vulnerability via the pin parameter in the setWiFiWpsConfig function.
 <br>
@@ -121,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8519
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 51 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as problematic has been found in givanz Vvveb up to 1.0.5. This affects an unknown part of the file /vadmin123/index.php?module=editor/editor of the component Drag-and-Drop Editor. The manipulation of the argument url leads to information disclosure. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.6 is able to address this issue. The identifier of the patch is f684f3e374d04db715730fc4796e102f5ebcacb2. It is recommended to upgrade the affected component.
 <br>
@@ -138,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8520
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 51 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 2 hours, 54 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability classified as critical was found in givanz Vvveb up to 1.0.5. This vulnerability affects unknown code of the file /vadmin123/?module=editor/editor of the component Drag-and-Drop Editor. The manipulation of the argument url leads to server-side request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.6 is able to address this issue. The patch is identified as f684f3e374d04db715730fc4796e102f5ebcacb2. It is recommended to upgrade the affected component.
 <br>
@@ -149,6 +353,91 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-8520</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-8520</guid>
+    </item>
+    <item>
+      <title>CVE-2025-50420 - Poppler PDF Denial of Service</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50420
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 3 hours, 54 minutes ago
+<br>
+<strong>Description : </strong>An issue in the pdfseparate utility of freedesktop poppler v25.04.0 allows attackers to cause an infinite recursion via supplying a crafted PDF file. This can lead to a Denial of Service (DoS).
+<br>
+<strong>Severity:</strong> 7.5 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50420</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50420</guid>
+    </item>
+    <item>
+      <title>CVE-2025-50422 - Poppler PDF Memory Leak Information Disclosure</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50422
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 3 hours, 54 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in freedesktop poppler v25.04.0. The heap memory containing PDF stream objects is not cleared upon program exit, allowing attackers to obtain sensitive PDF content via a memory dump.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50422</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50422</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51534 - Austrian Archaeological Institute (AI) OpenAtlas Cross-Site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51534
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 3 hours, 54 minutes ago
+<br>
+<strong>Description : </strong>A cross-site scripting (XSS) vulnerability in Austrian Archaeological Institute (AI) OpenAtlas v8.11.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name field.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51534</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51534</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51535 - Austrian Archaeological Institute OpenAtlas SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51535
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 3 hours, 54 minutes ago
+<br>
+<strong>Description : </strong>Austrian Archaeological Institute (AI) OpenAtlas v8.11.0 as discovered to contain a SQL injection vulnerability.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51535</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51535</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8518 - Givanz Vvveb Code Editor Remote Code Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8518
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 3 hours, 54 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in givanz Vvveb 1.0.5. It has been rated as critical. Affected by this issue is the function Save of the file admin/controller/editor/code.php of the component Code Editor. The manipulation leads to code injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.6 is able to address this issue. The name of the patch is f684f3e374d04db715730fc4796e102f5ebcacb2. It is recommended to upgrade the affected component.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8518</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8518</guid>
     </item>
     <item>
       <title>CVE-2025-44954 - RUCKUS SmartZone SSH Private Key Hardcoded Vulnerability</title>
@@ -268,91 +557,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-44963</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-44963</guid>
-    </item>
-    <item>
-      <title>CVE-2025-50420 - Poppler PDF Denial of Service</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-50420
-<br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 51 minutes ago
-<br>
-<strong>Description : </strong>An issue in the pdfseparate utility of freedesktop poppler v25.04.0 allows attackers to cause an infinite recursion via supplying a crafted PDF file. This can lead to a Denial of Service (DoS).
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-50420</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50420</guid>
-    </item>
-    <item>
-      <title>CVE-2025-50422 - Poppler PDF Memory Leak Information Disclosure</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-50422
-<br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 51 minutes ago
-<br>
-<strong>Description : </strong>An issue was discovered in freedesktop poppler v25.04.0. The heap memory containing PDF stream objects is not cleared upon program exit, allowing attackers to obtain sensitive PDF content via a memory dump.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-50422</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50422</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51534 - Austrian Archaeological Institute (AI) OpenAtlas Cross-Site Scripting (XSS)</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51534
-<br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 51 minutes ago
-<br>
-<strong>Description : </strong>A cross-site scripting (XSS) vulnerability in Austrian Archaeological Institute (AI) OpenAtlas v8.11.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name field.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51534</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51534</guid>
-    </item>
-    <item>
-      <title>CVE-2025-51535 - Austrian Archaeological Institute OpenAtlas SQL Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-51535
-<br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 51 minutes ago
-<br>
-<strong>Description : </strong>Austrian Archaeological Institute (AI) OpenAtlas v8.11.0 as discovered to contain a SQL injection vulnerability.
-<br>
-<strong>Severity:</strong> 0.0 | NA
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-51535</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51535</guid>
-    </item>
-    <item>
-      <title>CVE-2025-8518 - Givanz Vvveb Code Editor Remote Code Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-8518
-<br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 51 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in givanz Vvveb 1.0.5. It has been rated as critical. Affected by this issue is the function Save of the file admin/controller/editor/code.php of the component Code Editor. The manipulation leads to code injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.6 is able to address this issue. The name of the patch is f684f3e374d04db715730fc4796e102f5ebcacb2. It is recommended to upgrade the affected component.
-<br>
-<strong>Severity:</strong> 4.7 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Mon, 04 Aug 2025 17:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-8518</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8518</guid>
     </item>
     <item>
       <title>CVE-2025-38739 - Dell Digital Delivery Insufficiently Protected Credentials Information Disclosure</title>
