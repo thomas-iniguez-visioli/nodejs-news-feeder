@@ -8,18 +8,154 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 04 Aug 2025 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 19:51:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2013-10052 - ZPanel Sudo Privilege Escalation Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2013-10052
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>ZPanel includes a helper binary named zsudo, intended to allow restricted privilege escalation for administrative tasks. However, when misconfigured in /etc/sudoers, zsudo can be invoked by low-privileged users to execute arbitrary commands as root. This flaw enables local attackers with shell access to escalate privileges by writing a payload to a writable directory and executing it via zsudo. The vulnerability is particularly impactful in post-exploitation scenarios following web server compromise, where the attacker inherits access to zsudo.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2013-10052</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2013-10052</guid>
+    </item>
+    <item>
+      <title>CVE-2013-10054 - LibrettoCMS Unauthenticated Remote Code Execution File Upload Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2013-10054
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated arbitrary file upload vulnerability exists in LibrettoCMS version 1.1.7 (and possibly earlier) contains an unauthenticated arbitrary file upload vulnerability in its File Manager plugin. The upload handler located at adm/ui/js/ckeditor/plugins/pgrfilemanager/php/upload.php fails to properly validate file extensions, allowing attackers to upload files with misleading extensions and subsequently rename them to executable .php scripts. This enables remote code execution on the server without authentication.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2013-10054</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2013-10054</guid>
+    </item>
+    <item>
+      <title>CVE-2024-45183 - Samsung Exynos JPEG Length Check Vulnerability (Buffer Overflow)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-45183
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in Samsung Mobile Processor Exynos 2100, 1280, 2200, 1330, 1380, 1480, and 2400. A lack of a JPEG length check leads to an out-of-bound write.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-45183</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-45183</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34147 - Shenzhen Aitemi M300 Wi-Fi Repeater OS Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34147
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated OS command injection vulnerability exists in the Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02). When configuring the device in Extender mode via its captive portal, the extap2g SSID field is inserted unescaped into a reboot-time shell script. This allows remote attackers within Wi-Fi range to inject arbitrary shell commands that execute as root during device reboot, leading to full system compromise.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34147</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34147</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46206 - Artifex mupdf Denial of Service (DoS) Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46206
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>An issue in Artifex mupdf 1.25.6, 1.25.5 allows a remote attacker to cause a denial of service via an infinite recursion in the `mutool clean` utility. When processing a crafted PDF file containing cyclic /Next references in the outline structure, the `strip_outline()` function enters infinite recursion
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46206</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46206</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51390 - TOTOLINK N600R Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51390
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>TOTOLINK N600R V4.3.0cu.7647_B20210106 was discovered to contain a command injection vulnerability via the pin parameter in the setWiFiWpsConfig function.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51390</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51390</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8519 - Givanz Vvveb Drag-and-Drop Editor Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8519
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in givanz Vvveb up to 1.0.5. This affects an unknown part of the file /vadmin123/index.php?module=editor/editor of the component Drag-and-Drop Editor. The manipulation of the argument url leads to information disclosure. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.6 is able to address this issue. The identifier of the patch is f684f3e374d04db715730fc4796e102f5ebcacb2. It is recommended to upgrade the affected component.
+<br>
+<strong>Severity:</strong> 2.7 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8519</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8519</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8520 - Givanz Vvveb SSRF Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8520
+<br>
+<strong>Published : </strong> Aug. 4, 2025, 6:15 p.m. | 16 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical was found in givanz Vvveb up to 1.0.5. This vulnerability affects unknown code of the file /vadmin123/?module=editor/editor of the component Drag-and-Drop Editor. The manipulation of the argument url leads to server-side request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.6 is able to address this issue. The patch is identified as f684f3e374d04db715730fc4796e102f5ebcacb2. It is recommended to upgrade the affected component.
+<br>
+<strong>Severity:</strong> 4.7 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8520</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8520</guid>
+    </item>
+    <item>
       <title>CVE-2025-44954 - RUCKUS SmartZone SSH Private Key Hardcoded Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44954
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>RUCKUS SmartZone (SZ) before 6.1.2p3 Refresh Build has a hardcoded SSH private key for a root-equivalent user account.
 <br>
@@ -36,7 +172,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44957
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>Ruckus SmartZone (SZ) before 6.1.2p3 Refresh Build allows authentication bypass via a valid API key and crafted HTTP headers.
 <br>
@@ -53,7 +189,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44958
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>RUCKUS Network Director (RND) before 4.5 stores passwords in a recoverable format.
 <br>
@@ -70,7 +206,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44960
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>RUCKUS SmartZone (SZ) before 6.1.2p3 Refresh Build allows OS command injection via a certain parameter in an API route.
 <br>
@@ -87,7 +223,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44961
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>In RUCKUS SmartZone (SZ) before 6.1.2p3 Refresh Build, OS command injection can occur via an IP address field provided by an authenticated user.
 <br>
@@ -104,7 +240,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44962
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>RUCKUS SmartZone (SZ) before 6.1.2p3 Refresh Build allows ../ directory traversal to read files.
 <br>
@@ -121,7 +257,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44963
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>RUCKUS Network Director (RND) before 4.5 allows spoofing of an administrator JWT by an attacker who knows the hardcoded value of a certain secret key.
 <br>
@@ -138,7 +274,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50420
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>An issue in the pdfseparate utility of freedesktop poppler v25.04.0 allows attackers to cause an infinite recursion via supplying a crafted PDF file. This can lead to a Denial of Service (DoS).
 <br>
@@ -155,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50422
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in freedesktop poppler v25.04.0. The heap memory containing PDF stream objects is not cleared upon program exit, allowing attackers to obtain sensitive PDF content via a memory dump.
 <br>
@@ -172,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-51534
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>A cross-site scripting (XSS) vulnerability in Austrian Archaeological Institute (AI) OpenAtlas v8.11.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name field.
 <br>
@@ -189,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-51535
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>Austrian Archaeological Institute (AI) OpenAtlas v8.11.0 as discovered to contain a SQL injection vulnerability.
 <br>
@@ -206,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8518
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 5:15 p.m. | 1 hour, 16 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in givanz Vvveb 1.0.5. It has been rated as critical. Affected by this issue is the function Save of the file admin/controller/editor/code.php of the component Code Editor. The manipulation leads to code injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.6 is able to address this issue. The name of the patch is f684f3e374d04db715730fc4796e102f5ebcacb2. It is recommended to upgrade the affected component.
 <br>
@@ -223,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38739
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 16 minutes ago
 <br>
 <strong>Description : </strong>Dell Digital Delivery, versions prior to 5.6.1.0, contains an Insufficiently Protected Credentials vulnerability. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to Information Disclosure.
 <br>
@@ -240,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44955
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 16 minutes ago
 <br>
 <strong>Description : </strong>RUCKUS Network Director (RND) before 4.5 allows jailed users to obtain root access vis a weak, hardcoded password.
 <br>
@@ -257,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-5988
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 16 minutes ago
 <br>
 <strong>Description : </strong>A flaw was found in the Ansible aap-gateway. Cross-site request forgery (CSRF) origin checking is not done on requests from the gateway to external components, such as the controller, hub, and eda.
 <br>
@@ -274,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8516
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 16 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Kingdee Cloud-Starry-Sky Enterprise Edition up to 8.2. It has been classified as problematic. Affected is the function BaseServiceFactory.getFileUploadService.deleteFileAction of the file K3Cloud\BBCMallSite\WEB-INF\lib\Kingdee.K3.O2O.Base.WebApp.jar!\kingdee\k3\o2o\base\webapp\action\FileUploadAction.class of the component IIS-K3CloudMiniApp. The manipulation of the argument filePath leads to path traversal. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor recommends as a short-term measure to "[t]emporarily disable external network access to the Kingdee Cloud Galaxy Retail System or set up an IP whitelist for access control." The long-term remediation will be: "Install the security patch provided by the Starry Sky system, with the specific solutions being: i) Adding authentication to the vulnerable CMKAppWebHandler.ashx interface; ii) Removing the file reading function."
 <br>
@@ -291,7 +427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8517
 <br>
-<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 6 minutes ago
+<strong>Published : </strong> Aug. 4, 2025, 4:15 p.m. | 2 hours, 16 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in givanz Vvveb 1.0.6.1. It has been declared as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to session fixiation. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.7 is able to address this issue. The patch is named d4b1e030066417b77d15b4ac505eed5ae7bf2c5e. It is recommended to upgrade the affected component.
 <br>
