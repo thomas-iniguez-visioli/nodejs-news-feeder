@@ -8,18 +8,341 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Wed, 06 Aug 2025 23:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 23:42:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-55398 - 4C Strategies Exonaut Insecure Permissions Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-55398
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>4C Strategies Exonaut before v22.4 was discovered to contain insecure permissions.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-55398</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-55398</guid>
+    </item>
+    <item>
+      <title>CVE-2024-55399 - 4C Strategies Exonaut SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-55399
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>4C Strategies Exonaut before v21.6.2.1-1 was discovered to contain a Server-Side Request Forgery (SSRF).
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-55399</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-55399</guid>
+    </item>
+    <item>
+      <title>CVE-2024-55402 - 4C Strategies Exonaut Authentication Bypass Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-55402
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>4C Strategies Exonaut before v22.4 was discovered to contain an access control issue.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-55402</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-55402</guid>
+    </item>
+    <item>
+      <title>CVE-2025-46660 - 4C Strategies Exonaut Hashing Without Salt Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46660
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>An issue was discovered in 4C Strategies Exonaut 21.6. Passwords, stored in the database, are hashed without a salt.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46660</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46660</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47908 - Apache Middleware Denial of Service Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47908
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Middleware causes a prohibitive amount of heap allocations when processing malicious preflight requests that include a Access-Control-Request-Headers (ACRH) header whose value contains many commas. This behavior can be abused by attackers to produce undue load on the middleware/server as an attempt to cause a denial of service.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47908</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47908</guid>
+    </item>
+    <item>
+      <title>CVE-2025-50740 - AutoConnect Arduino Library XSS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50740
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>AutoConnect 1.4.2, an Arduino library, is vulnerable to a cross site scripting (xss) vulnerability. The AutoConnect web interface /_ac/config allows HTML/JS code to be executed via a crafted network SSID.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50740</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50740</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51052 - Vedo Suite Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51052
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>A path traversal vulnerability in Vedo Suite 2024.17 allows remote authenticated attackers to read arbitrary filesystem files by exploiting an unsanitized 'file_get_contents()' function call in '/api_vedo/template'.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51052</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51052</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51053 - Vedo Suite Cross-site Scripting (XSS)</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51053
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>A Cross-site scripting (XSS) vulnerability in /api_vedo/ in Vedo Suite version 2024.17 allows remote attackers to inject arbitrary Javascript or HTML code and potentially trigger code execution in victim's browser.
+<br>
+<strong>Severity:</strong> 6.1 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51053</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51053</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51054 - Vedo Suite Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51054
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Vedo Suite 2024.17 is vulnerable to Incorrect Access Control, which allows remote attackers to obtain a valid high privilege JWT token without prior authentication via sending an empty HTTP POST request to the /autologin/ API endpoint.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51054</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51054</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51055 - Vedo Suite Insecure Data Storage Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51055
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Insecure Data Storage of credentials has been found in /api_vedo/configuration/config.yml file in Vedo Suite version 2024.17. This file contains clear-text credentials, secret keys, and database information.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51055</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51055</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51056 - Vedo Suite Unrestricted File Upload RCE</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51056
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>An unrestricted file upload vulnerability in Vedo Suite version 2024.17 allows remote authenticated attackers to write to arbitrary filesystem paths by exploiting the insecure 'uploadPreviews()' custom function in '/api_vedo/colorways_preview', ultimately resulting in remote code execution (RCE).
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51056</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51056</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51057 - Vedo Suite LFI Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51057
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>A local file inclusion (LFI) vulnerability in Vedo Suite version 2024.17 allows remote authenticated attackers to read arbitrary filesystem files by exploiting an unsanitized 'readfile()' function call in '/api_vedo/video/preview'.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51057</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51057</guid>
+    </item>
+    <item>
+      <title>CVE-2025-51058 - Bottinelli Informatical Vedo Suite SSRF</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-51058
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Bottinelli Informatical Vedo Suite 2024.17 is vulnerable to Server-side Request Forgery (SSRF) in the /api_vedo/video/preview endpoint, which allows remote authenticated attackers to trigger HTTP requests towards arbitrary remote paths via the "file" URL parameter.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-51058</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-51058</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6632 - Autodesk 3ds Max Out-of-Bounds Read</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6632
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>A maliciously crafted PSD file, when linked or imported into Autodesk 3ds Max, can force an Out-of-Bounds Read vulnerability. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.
+<br>
+<strong>Severity:</strong> 5.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6632</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6632</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6633 - Autodesk 3ds Max Out-of-Bounds Write Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6633
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>A maliciously crafted RBG file, when parsed through Autodesk 3ds Max, can force an Out-of-Bounds Write vulnerability. A malicious actor may leverage this vulnerability to cause a crash, cause data corruption, or execute arbitrary code in the context of the current process.
+<br>
+<strong>Severity:</strong> 8.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6633</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6633</guid>
+    </item>
+    <item>
+      <title>CVE-2025-6634 - Autodesk 3ds Max Memory Corruption Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-6634
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>A maliciously crafted TGA file, when linked or imported into Autodesk 3ds Max, can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.
+<br>
+<strong>Severity:</strong> 7.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-6634</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-6634</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7768 - Tigo Energy CCA Hard-Coded Credentials Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7768
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Tigo Energy's Cloud Connect Advanced (CCA) device contains hard-coded credentials that allow unauthorized users to gain administrative access. This vulnerability enables attackers to escalate privileges and take full control of the device, potentially modifying system settings, disrupting solar energy production, and interfering with safety mechanisms.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7768</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7768</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7769 - Tigo Energy CCA Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7769
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Tigo Energy's CCA is vulnerable to a command injection vulnerability in the /cgi-bin/mobile_api endpoint when the DEVICE_PING command is called, allowing remote code execution due to improper handling of user input. When used with default credentials, this enables attackers to execute arbitrary commands on the device that could cause potential unauthorized access, service disruption, and data exposure.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7769</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7769</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7770 - Tigo Energy CCA Predictable Session ID Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7770
+<br>
+<strong>Published : </strong> Aug. 6, 2025, 9:15 p.m. | 1 hour, 59 minutes ago
+<br>
+<strong>Description : </strong>Tigo Energy's CCA device is vulnerable to insecure session ID generation in their remote API. The session IDs are generated using a predictable method based on the current timestamp, allowing attackers to recreate valid session IDs. When combined with the ability to circumvent session ID requirements for certain commands, this enables unauthorized access to sensitive device functions on connected solar optimization systems.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 21:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7770</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7770</guid>
+    </item>
+    <item>
       <title>CVE-2025-38746 - Dell SupportAssist OS Recovery Exposure of Sensitive Information to an Unauthorized Actor</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38746
 <br>
-<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>Dell SupportAssist OS Recovery, versions prior to 5.5.14.0, contains an Exposure of Sensitive Information to an Unauthorized Actor vulnerability. An unauthenticated attacker with physical access could potentially exploit this vulnerability, leading to Information Disclosure.
 <br>
@@ -36,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-38747
 <br>
-<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>Dell SupportAssist OS Recovery, versions prior to 5.5.14.0, contain a Creation of Temporary File With Insecure Permissions vulnerability. A local authenticated attacker could potentially exploit this vulnerability, leading to Elevation of Privileges.
 <br>
@@ -53,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45764
 <br>
-<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>jsrsasign v11.1.0 was discovered to contain weak encryption.
 <br>
@@ -70,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45766
 <br>
-<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>poco v1.14.1-release was discovered to contain weak encryption.
 <br>
@@ -87,11 +410,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46659
 <br>
-<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in ExonautWeb in 4C Strategies Exonaut 21.6. Information disclosure can occur via an external HTTPS request.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 7.5 | HIGH
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -104,7 +427,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-51624
 <br>
-<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 1 hour, 11 minutes ago
+<strong>Published : </strong> Aug. 6, 2025, 8:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>Cross-site scripting (XSS) vulnerability in Zone Bitaqati thru 3.4.0.
 <br>
