@@ -8,18 +8,273 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 07 Aug 2025 17:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Aug 2025 17:46:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2024-42048 - OpenOrange Business Framework Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2024-42048
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>OpenOrange Business Framework 1.15.5 provides unprivileged users with write access to the installation directory.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2024-42048</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2024-42048</guid>
+    </item>
+    <item>
+      <title>CVE-2025-24000 - WPExperts Post SMTP Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-24000
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>Authentication Bypass Using an Alternate Path or Channel vulnerability in WPExperts Post SMTP allows Authentication Bypass.This issue affects Post SMTP: from n/a through 3.2.0.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-24000</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-24000</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34148 - Shenzhen Aitemi M300 Wi-Fi Repeater OS Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34148
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated OS command injection vulnerability exists in the Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02). When configuring the device in WISP mode, the 'ssid' parameter is passed unsanitized to system-level scripts. This allows remote attackers within Wi-Fi range to inject arbitrary shell commands that execute as root, resulting in full device compromise.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34148</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34148</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34149 - Shenzhen Aitemi M300 Wi-Fi Repeater WPA2 Command Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34149
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>A command injection vulnerability affects the Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) during WPA2 configuration. The 'key' parameter is interpreted directly by the system shell, enabling attackers to execute arbitrary commands as root. Exploitation requires no authentication and can be triggered during wireless setup.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34149</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34149</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34150 - Shenzhen Aitemi M300 Wi-Fi Repeater PPPoE Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34150
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>The PPPoE configuration interface of the Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) is vulnerable to command injection via the 'user' parameter. Input is processed unsafely during network setup, allowing attackers to execute arbitrary system commands with root privileges.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34150</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34150</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34151 - Shenzhen Aitemi M300 Wi-Fi Repeater Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34151
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>A command injection vulnerability exists in the 'passwd' parameter of the PPPoE setup process on the Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02). The input is passed directly to system-level commands without sanitation, enabling unauthenticated attackers to achieve root-level code execution.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34151</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34151</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34152 - "Aitemi M300 Wi-Fi Repeater OS Command Injection"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-34152
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>An unauthenticated OS command injection vulnerability exists in the Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) via the 'time' parameter of the '/protocol.csp?' endpoint. The input is processed by the internal date '-s' command without rebooting or disrupting HTTP service. Unlike other injection points, this vector allows remote compromise without triggering visible configuration changes.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-34152</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-34152</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54392 - Netwrix Directory Manager Cross-Site Scripting</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54392
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>Netwrix Directory Manager (formerly Imanami GroupID) 11.0.0.0 before 11.1.25162.02 allows XSS for authentication error data, a different vulnerability than CVE-2025-47189.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54392</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54392</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54393 - Netwrix Directory Manager Static Code Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54393
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>Netwrix Directory Manager (formerly Imanami GroupID) 11.0.0.0 before 11.1.25162.02 allows Static Code Injection. Authenticated users can obtain administrative access.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54393</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54393</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54394 - Netwrix Directory Manager Insufficiently Protected Credentials Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54394
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>Netwrix Directory Manager (formerly Imanami GroupID) 11.0.0.0 before 11.1.25162.02 has Insufficiently Protected Credentials for requests to remote Excel resources.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54394</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54394</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54395 - Netwrix Directory Manager XSS Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54395
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>Netwrix Directory Manager (formerly Imanami GroupID) 11.0.0.0 before 11.1.25162.02 allows XSS for authentication configuration data.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54395</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54395</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54396 - Netwrix Directory Manager SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54396
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>Netwrix Directory Manager (formerly Imanami GroupID) 11.0.0.0 before 11.1.25162.02 allows SQL Injection. Authenticated users can exploit this.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54396</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54396</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54397 - Netwrix Directory Manager Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54397
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>Netwrix Directory Manager (formerly Imanami GroupID) 11.0.0.0 before 11.1.25162.02 inserts Sensitive Information Into Sent Data to authenticated users.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54397</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54397</guid>
+    </item>
+    <item>
+      <title>CVE-2025-55137 - Apache LinkJoin Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-55137
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>LinkJoin through 882f196 mishandles lacks type checking in password reset.
+<br>
+<strong>Severity:</strong> 7.4 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-55137</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-55137</guid>
+    </item>
+    <item>
+      <title>CVE-2025-55138 - LinkJoin Password Reset Token Ownership Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-55138
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 5:15 p.m. | 24 minutes ago
+<br>
+<strong>Description : </strong>LinkJoin through 882f196 mishandles token ownership in password reset.
+<br>
+<strong>Severity:</strong> 7.4 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-55138</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-55138</guid>
+    </item>
+    <item>
       <title>CVE-2024-56339 - IBM WebSphere Application Server Bypass of Security Restrictions Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2024-56339
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour ago
+<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour, 24 minutes ago
 <br>
 <strong>Description : </strong>IBM WebSphere Application Server 9.0 and WebSphere Application Server Liberty 17.0.0.3 through 25.0.0.7 could allow a remote attacker to bypass security restrictions caused by a failure to honor security configuration.
 <br>
@@ -36,7 +291,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-44779
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour ago
+<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour, 24 minutes ago
 <br>
 <strong>Description : </strong>An issue in Ollama v0.1.33 allows attackers to delete arbitrary files via sending a crafted packet to the endpoint /api/pull.
 <br>
@@ -53,7 +308,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47907
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour ago
+<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour, 24 minutes ago
 <br>
 <strong>Description : </strong>Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
 <br>
@@ -70,7 +325,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-55133
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour ago
+<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour, 24 minutes ago
 <br>
 <strong>Description : </strong>In Agora Foundation Agora fall23-Alpha1 before b087490, there is XSS via topicName in client/agora/public/js/editorManager.js.
 <br>
@@ -87,7 +342,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-55134
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour ago
+<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour, 24 minutes ago
 <br>
 <strong>Description : </strong>In Agora Foundation Agora fall23-Alpha1 before b087490, there is XSS via tag in client/agora/public/js/editorManager.js.
 <br>
@@ -104,7 +359,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-55135
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour ago
+<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour, 24 minutes ago
 <br>
 <strong>Description : </strong>In Agora Foundation Agora fall23-Alpha1 before 690ce56, there is XSS via a profile picture to server/controller/userController.js. Formats other than PNG, JPEG, and WEBP are permitted by server/routes/userRoutes.js; this includes SVG.
 <br>
@@ -121,11 +376,11 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-55136
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour ago
+<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour, 24 minutes ago
 <br>
 <strong>Description : </strong>ERC (aka Emotion Recognition in Conversation) through 0.3 has insecure deserialization via a serialized object because jsonpickle is used.
 <br>
-<strong>Severity:</strong> 0.0 | NA
+<strong>Severity:</strong> 5.7 | MEDIUM
 <br>
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 </p>]]></description>
@@ -138,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-7054
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour ago
+<strong>Published : </strong> Aug. 7, 2025, 4:15 p.m. | 1 hour, 24 minutes ago
 <br>
 <strong>Description : </strong>Cloudflare quiche was discovered to be vulnerable to an infinite loop when sending packets containing RETIRE_CONNECTION_ID frames.
 
@@ -159,7 +414,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47188
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 3:15 p.m. | 2 hours ago
+<strong>Published : </strong> Aug. 7, 2025, 3:15 p.m. | 2 hours, 24 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability in the Mitel 6800 Series, 6900 Series, and 6900w Series SIP Phones, including the 6970 Conference Unit through 6.4 SP4, could allow an unauthenticated attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the phone, leading to disclosure or modification of sensitive configuration data or affecting device availability and operation.
 <br>
@@ -176,7 +431,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50952
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 3:15 p.m. | 2 hours ago
+<strong>Published : </strong> Aug. 7, 2025, 3:15 p.m. | 2 hours, 24 minutes ago
 <br>
 <strong>Description : </strong>openjpeg v 2.5.0 was discovered to contain a NULL pointer dereference via the component /openjp2/dwt.c.
 <br>
