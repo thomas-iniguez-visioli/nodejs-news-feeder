@@ -8,18 +8,142 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 08 Aug 2025 19:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 19:37:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-50927 - "EHCP FTP User List XSS"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50927
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>A reflected cross-site scripting (XSS) vulnerability in the List All FTP User Function in EHCP v20.04.1.b allows authenticated attackers to execute arbitrary JavaScript via injecting a crafted payload into the ftpusername parameter.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50927</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50927</guid>
+    </item>
+    <item>
+      <title>CVE-2025-50928 - Easy Hosting Control Panel EHCP SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50928
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>Easy Hosting Control Panel EHCP v20.04.1.b was discovered to contain a SQL injection vulnerability via the id parameter in the Change Settings function.
+<br>
+<strong>Severity:</strong> 4.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50928</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50928</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52913 - Mitel MiCollab NuPoint Unified Messaging Path Traversal Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52913
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the NuPoint Unified Messaging (NPM) component of Mitel MiCollab through 9.8 SP2 (9.8.2.12) could allow an unauthenticated attacker to conduct a path traversal attack due to insufficient input validation. A successful exploit could allow unauthorized access, enabling the attacker to view, corrupt, or delete users' data and system configurations.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52913</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52913</guid>
+    </item>
+    <item>
+      <title>CVE-2025-52914 - Mitel MiCollab SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-52914
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability in the Suite Applications Services component of Mitel MiCollab 10.0 through SP1 FP1 (10.0.1.101) could allow an authenticated attacker to conduct a SQL Injection attack due to insufficient validation of user input. A successful exploit could allow an attacker to execute arbitrary SQL database commands.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-52914</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-52914</guid>
+    </item>
+    <item>
+      <title>CVE-2025-5095 - Burk Technology ARC Solo Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-5095
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>Burk Technology ARC Solo's password change mechanism can be utilized without proper 
+authentication procedures, allowing an attacker to take over the device.
+ A password change request can be sent directly to the device's HTTP 
+endpoint without providing valid credentials. The system does not 
+enforce proper authentication or session validation, allowing the 
+password change to proceed without verifying the request's legitimacy.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-5095</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-5095</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8733 - GNU Bison Local Assertion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8733
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in GNU Bison up to 3.8.2. It has been rated as problematic. This issue affects the function __obstack_vprintf_internal of the file obprintf.c. The manipulation leads to reachable assertion. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8733</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8733</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8734 - GNU Bison Double Free Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8734
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 6:15 p.m. | 1 hour, 6 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as problematic has been found in GNU Bison up to 3.8.2. Affected is the function code_free of the file src/scan-code.c. The manipulation leads to double free. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 18:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8734</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8734</guid>
+    </item>
+    <item>
       <title>CVE-2025-46414 - Apache IoT Device PIN Brute-Force Weakness</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-46414
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>The affected product does not limit the number of attempts for inputting
  the correct PIN for a registered product, which may allow an attacker 
@@ -41,7 +165,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47872
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>The public-facing product registration endpoint server responds 
 differently depending on whether the S/N is valid and unregistered, 
@@ -63,7 +187,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50465
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>OpenMetadata <=1.4.4 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the TestDefinitionDAO interface. The testPlatform parameter can be used to build a SQL query.
 <br>
@@ -80,7 +204,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50466
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>OpenMetadata <=1.4.4 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the TestDefinitionDAO interface. The entityType parameter can be used to build a SQL query.
 <br>
@@ -97,7 +221,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50467
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>OpenMetadata <=1.4.4 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the TestDefinitionDAO interface. The supportedDataTypeParam parameter can be used to build a SQL query.
 <br>
@@ -114,7 +238,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-50468
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>OpenMetadata <=1.4.4 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the DocStoreDAO interface. The entityType parameters can be used to build a SQL query.
 <br>
@@ -131,7 +255,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53520
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>The affected product allows firmware updates to be downloaded from EG4's
  website, transferred via USB dongles, or installed through EG4's 
@@ -153,7 +277,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8284
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>By default, the Packet Power Monitoring and Control Web Interface do not
  enforce authentication mechanisms. This vulnerability could allow 
@@ -173,7 +297,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8393
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>A TLS vulnerability exists in the phone application used to manage a 
 connected device. The phone application accepts self-signed certificates
@@ -194,7 +318,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8732
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 2 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in libxml2 up to 2.14.5. It has been declared as problematic. This vulnerability affects the function xmlParseSGMLCatalog of the component xmlcatalog. The manipulation leads to uncontrolled recursion. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The code maintainer explains, that "[t]he issue can only be triggered with untrusted SGML catalogs and it makes absolutely no sense to use untrusted catalogs. I also doubt that anyone is still using SGML catalogs at all."
 <br>
@@ -211,7 +335,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4576
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 3 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>A reflected cross-site scripting (XSS) vulnerability in the Liferay Portal 7.4.0 through 7.4.3.133, and Liferay DXP 2025.Q1.0 through 2025.Q1.4 ,2024.Q4.0 through 2024.Q4.7, 2024.Q3.1 through 2024.Q3.13, 2024.Q2.0 through 2024.Q2.13, 2024.Q1.1 through 2024.Q1.15, 7.4 GA through update 92 allows an remote non-authenticated attacker to inject JavaScript into the modules/apps/blogs/blogs-web/src/main/resources/META-INF/resources/blogs/entry_cover_image_caption.jsp
 <br>
@@ -228,7 +352,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52586
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 3 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>The MOD3 command traffic between the monitoring application and the 
 inverter is transmitted in plaintext without encryption or obfuscation. 
@@ -252,7 +376,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8355
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 3 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>In Xerox FreeFlow Core version 8.0.4, improper handling of XML input allows injection of external entities. An attacker can craft malicious XML containing references to internal URLs, this results in a Server-Side Request Forgery (SSRF).
 <br>
@@ -269,7 +393,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8356
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 3 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>In Xerox FreeFlow Core version 8.0.4, an attacker can exploit a Path Traversal vulnerability to access unauthorized files on the server. This can lead to Remote Code Execution (RCE), allowing the attacker to run arbitrary commands on the system.
 <br>
@@ -286,7 +410,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8731
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 3 hours, 6 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in TRENDnet TI-G160i, TI-PG102i and TPL-430AP up to 20250724. It has been classified as critical. This affects an unknown part of the component SSH Service. The manipulation leads to use of default credentials. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -297,6 +421,57 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 08 Aug 2025 16:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-8731</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-8731</guid>
+    </item>
+    <item>
+      <title>CVE-2025-36023 - IBM Cloud Pak for Business Automation Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-36023
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 4 hours, 6 minutes ago
+<br>
+<strong>Description : </strong>IBM Cloud Pak for Business Automation 24.0.0 through 24.0.0 IF005 and 24.0.1 through 24.0.1 IF002 could allow an authenticated user to view sensitive user and system information due to an indirect object reference through a user-controlled key.
+<br>
+<strong>Severity:</strong> 6.5 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-36023</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-36023</guid>
+    </item>
+    <item>
+      <title>CVE-2025-36119 - IBM Digital Certificate Manager for i Web Session Hijacking Privilege Escalation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-36119
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 4 hours, 6 minutes ago
+<br>
+<strong>Description : </strong>IBM i 7.3, 7.4, 7.5, and 7.6 is affected by an authenticated user obtaining elevated privileges with IBM Digital Certificate Manager for i (DCM) due to a web session hijacking vulnerability. An authenticated user without administrator privileges could exploit this vulnerability to perform actions in DCM as an administrator.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-36119</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-36119</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8730 - Belkin Web Interface Hard-Coded Credentials Remote Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8730
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 4 hours, 6 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in Belkin F9K1009 and F9K1010 2.00.04/2.00.09 and classified as critical. Affected by this issue is some unknown functionality of the component Web Interface. The manipulation leads to hard-coded credentials. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 15:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8730</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8730</guid>
     </item>
     <item>
       <title>CVE-2020-9322 - Statamic Core XSS Vulnerability</title>
@@ -314,57 +489,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Fri, 08 Aug 2025 15:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2020-9322</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2020-9322</guid>
-    </item>
-    <item>
-      <title>CVE-2025-36023 - IBM Cloud Pak for Business Automation Information Disclosure Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-36023
-<br>
-<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 2 hours, 5 minutes ago
-<br>
-<strong>Description : </strong>IBM Cloud Pak for Business Automation 24.0.0 through 24.0.0 IF005 and 24.0.1 through 24.0.1 IF002 could allow an authenticated user to view sensitive user and system information due to an indirect object reference through a user-controlled key.
-<br>
-<strong>Severity:</strong> 6.5 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 08 Aug 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-36023</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-36023</guid>
-    </item>
-    <item>
-      <title>CVE-2025-36119 - IBM Digital Certificate Manager for i Web Session Hijacking Privilege Escalation</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-36119
-<br>
-<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 2 hours, 5 minutes ago
-<br>
-<strong>Description : </strong>IBM i 7.3, 7.4, 7.5, and 7.6 is affected by an authenticated user obtaining elevated privileges with IBM Digital Certificate Manager for i (DCM) due to a web session hijacking vulnerability. An authenticated user without administrator privileges could exploit this vulnerability to perform actions in DCM as an administrator.
-<br>
-<strong>Severity:</strong> 7.1 | HIGH
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 08 Aug 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-36119</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-36119</guid>
-    </item>
-    <item>
-      <title>CVE-2025-8730 - Belkin Web Interface Hard-Coded Credentials Remote Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-8730
-<br>
-<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 2 hours, 5 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in Belkin F9K1009 and F9K1010 2.00.04/2.00.09 and classified as critical. Affected by this issue is some unknown functionality of the component Web Interface. The manipulation leads to hard-coded credentials. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 9.8 | CRITICAL
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Fri, 08 Aug 2025 15:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-8730</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8730</guid>
     </item>
     <item>
       <title>CVE-2025-8729 - MigoXLab LMeterX Remote Path Traversal Vulnerability</title>
