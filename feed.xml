@@ -8,18 +8,210 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Fri, 08 Aug 2025 17:51:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 18:27:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-46414 - Apache IoT Device PIN Brute-Force Weakness</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-46414
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>The affected product does not limit the number of attempts for inputting
+ the correct PIN for a registered product, which may allow an attacker 
+to gain unauthorized access using brute-force methods if they possess a 
+valid device serial number. The API provides clear feedback when the 
+correct PIN is entered. This vulnerability was patched in a server-side 
+update on April 6, 2025.
+<br>
+<strong>Severity:</strong> 8.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-46414</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-46414</guid>
+    </item>
+    <item>
+      <title>CVE-2025-47872 - Cisco Product Serial Number Information Disclosure Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-47872
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>The public-facing product registration endpoint server responds 
+differently depending on whether the S/N is valid and unregistered, 
+valid but already registered, or does not exist in the database. 
+Combined with the fact that serial numbers are sequentially assigned, 
+this allows an attacker to gain information on the product registration 
+status of different S/Ns.
+<br>
+<strong>Severity:</strong> 5.8 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-47872</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-47872</guid>
+    </item>
+    <item>
+      <title>CVE-2025-50465 - Apache OpenMetadata SQL Injection</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50465
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>OpenMetadata <=1.4.4 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the TestDefinitionDAO interface. The testPlatform parameter can be used to build a SQL query.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50465</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50465</guid>
+    </item>
+    <item>
+      <title>CVE-2025-50466 - Apache OpenMetadata SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50466
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>OpenMetadata <=1.4.4 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the TestDefinitionDAO interface. The entityType parameter can be used to build a SQL query.
+<br>
+<strong>Severity:</strong> 7.1 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50466</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50466</guid>
+    </item>
+    <item>
+      <title>CVE-2025-50467 - Apache OpenMetadata SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50467
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>OpenMetadata <=1.4.4 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the TestDefinitionDAO interface. The supportedDataTypeParam parameter can be used to build a SQL query.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50467</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50467</guid>
+    </item>
+    <item>
+      <title>CVE-2025-50468 - Apache OpenMetadata SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-50468
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>OpenMetadata <=1.4.4 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the DocStoreDAO interface. The entityType parameters can be used to build a SQL query.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-50468</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-50468</guid>
+    </item>
+    <item>
+      <title>CVE-2025-53520 - EG4 Firmware Update Vulnerability - Unchecked Archive Exploitation</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-53520
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>The affected product allows firmware updates to be downloaded from EG4's
+ website, transferred via USB dongles, or installed through EG4's 
+Monitoring Center (remote, cloud-connected interface) or via a serial 
+connection, and can install these files without integrity checks. The 
+TTComp archive format used for the firmware is unencrypted and can be 
+unpacked and altered without detection.
+<br>
+<strong>Severity:</strong> 8.8 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-53520</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-53520</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8284 - Packet Power Monitoring and Control Web Interface Authentication Bypass</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8284
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>By default, the Packet Power Monitoring and Control Web Interface do not
+ enforce authentication mechanisms. This vulnerability could allow 
+unauthorized users to access and manipulate monitoring and control 
+functions.
+<br>
+<strong>Severity:</strong> 9.8 | CRITICAL
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8284</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8284</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8393 - "Fortnite Phone TLS Accepts Self-Signed Certificates"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8393
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>A TLS vulnerability exists in the phone application used to manage a 
+connected device. The phone application accepts self-signed certificates
+ when establishing TLS communication which may result in 
+man-in-the-middle attacks on untrusted networks. Captured communications
+ may include user credentials and sensitive session tokens.
+<br>
+<strong>Severity:</strong> 7.3 | HIGH
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8393</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8393</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8732 - Libxml2 SGML Catalog Recursion Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8732
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 5:15 p.m. | 59 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in libxml2 up to 2.14.5. It has been declared as problematic. This vulnerability affects the function xmlParseSGMLCatalog of the component xmlcatalog. The manipulation leads to uncontrolled recursion. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The code maintainer explains, that "[t]he issue can only be triggered with untrusted SGML catalogs and it makes absolutely no sense to use untrusted catalogs. I also doubt that anyone is still using SGML catalogs at all."
+<br>
+<strong>Severity:</strong> 3.3 | LOW
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 17:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8732</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8732</guid>
+    </item>
+    <item>
       <title>CVE-2025-4576 - Liferay Portal Liferay DXP Reflected Cross-Site Scripting (XSS) Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-4576
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
 <br>
 <strong>Description : </strong>A reflected cross-site scripting (XSS) vulnerability in the Liferay Portal 7.4.0 through 7.4.3.133, and Liferay DXP 2025.Q1.0 through 2025.Q1.4 ,2024.Q4.0 through 2024.Q4.7, 2024.Q3.1 through 2024.Q3.13, 2024.Q2.0 through 2024.Q2.13, 2024.Q1.1 through 2024.Q1.15, 7.4 GA through update 92 allows an remote non-authenticated attacker to inject JavaScript into the modules/apps/blogs/blogs-web/src/main/resources/META-INF/resources/blogs/entry_cover_image_caption.jsp
 <br>
@@ -36,7 +228,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-52586
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
 <br>
 <strong>Description : </strong>The MOD3 command traffic between the monitoring application and the 
 inverter is transmitted in plaintext without encryption or obfuscation. 
@@ -60,7 +252,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8355
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
 <br>
 <strong>Description : </strong>In Xerox FreeFlow Core version 8.0.4, improper handling of XML input allows injection of external entities. An attacker can craft malicious XML containing references to internal URLs, this results in a Server-Side Request Forgery (SSRF).
 <br>
@@ -77,7 +269,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8356
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
 <br>
 <strong>Description : </strong>In Xerox FreeFlow Core version 8.0.4, an attacker can exploit a Path Traversal vulnerability to access unauthorized files on the server. This can lead to Remote Code Execution (RCE), allowing the attacker to run arbitrary commands on the system.
 <br>
@@ -94,7 +286,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8731
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 5 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 4:15 p.m. | 1 hour, 59 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in TRENDnet TI-G160i, TI-PG102i and TPL-430AP up to 20250724. It has been classified as critical. This affects an unknown part of the component SSH Service. The manipulation leads to use of default credentials. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -111,7 +303,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2020-9322
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>The /users endpoint in Statamic Core before 2.11.8 allows XSS to add an administrator user. This can be exploited via CSRF. Stored XSS can occur via a JavaScript payload in a username during account registration. Reflected XSS can occur via the /users PATH_INFO.
 <br>
@@ -128,7 +320,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-36023
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>IBM Cloud Pak for Business Automation 24.0.0 through 24.0.0 IF005 and 24.0.1 through 24.0.1 IF002 could allow an authenticated user to view sensitive user and system information due to an indirect object reference through a user-controlled key.
 <br>
@@ -145,7 +337,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-36119
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>IBM i 7.3, 7.4, 7.5, and 7.6 is affected by an authenticated user obtaining elevated privileges with IBM Digital Certificate Manager for i (DCM) due to a web session hijacking vulnerability. An authenticated user without administrator privileges could exploit this vulnerability to perform actions in DCM as an administrator.
 <br>
@@ -162,7 +354,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8730
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 3:15 p.m. | 2 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Belkin F9K1009 and F9K1010 2.00.04/2.00.09 and classified as critical. Affected by this issue is some unknown functionality of the component Web Interface. The manipulation leads to hard-coded credentials. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 <br>
@@ -179,7 +371,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8729
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 2:15 p.m. | 1 hour, 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 2:15 p.m. | 3 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability has been found in MigoXLab LMeterX 1.2.0 and classified as critical. Affected by this vulnerability is the function process_cert_files of the file backend/service/upload_service.py. The manipulation of the argument task_id leads to path traversal. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of the patch is f1b00597e293d09452aabd4fa57f3185207350e8. It is recommended to apply a patch to fix this issue.
 <br>
@@ -196,7 +388,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8088
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 12:15 p.m. | 3 hours, 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 12:15 p.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute arbitrary code by crafting malicious archive files. This vulnerability was exploited in the wild and was discovered by Anton Cherepanov, Peter Košinár, and Peter Strýček
      from ESET.
@@ -214,7 +406,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8749
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 12:15 p.m. | 3 hours, 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 12:15 p.m. | 5 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>Path Traversal vulnerability in API Endpoint in Mobile Industrial Robots (MiR) Software Versions prior to 3.0.0 on MiR Robots allows authenticated users to extract files from the robot file system via a crafted API request.
 <br>
@@ -231,7 +423,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8748
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 11:15 a.m. | 4 hours, 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 11:15 a.m. | 6 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>MiR software versions prior to version 3.0.0 are affected by a command injection vulnerability. A malicious 
 HTTP request crafted by an authenticated user could allow the execution of arbitrary commands on the 
@@ -250,7 +442,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48913
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 10:15 a.m. | 5 hours, 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 10:15 a.m. | 7 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>If untrusted users are allowed to configure JMS for Apache CXF, previously they could use RMI or LDAP URLs, potentially leading to code execution capabilities.  This interface is now restricted to reject those protocols, removing this possibility.
 
@@ -269,7 +461,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53606
 <br>
-<strong>Published : </strong> Aug. 8, 2025, 10:15 a.m. | 5 hours, 58 minutes ago
+<strong>Published : </strong> Aug. 8, 2025, 10:15 a.m. | 7 hours, 59 minutes ago
 <br>
 <strong>Description : </strong>Deserialization of Untrusted Data vulnerability in Apache Seata (incubating).
 
