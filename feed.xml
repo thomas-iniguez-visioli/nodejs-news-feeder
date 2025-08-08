@@ -8,18 +8,154 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Thu, 07 Aug 2025 23:54:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 01:45:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
     <item>
+      <title>CVE-2025-54368 - "uv ZIP Archive Extraction Vulnerability"</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54368
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 12:15 a.m. | 34 minutes ago
+<br>
+<strong>Description : </strong>uv is a Python package and project manager written in Rust. In versions 0.8.5 and earlier, remote ZIP archives were handled in a streamwise fashion, and file entries were not reconciled against the archive's central directory. An attacker could contrive a ZIP archive that would extract with legitimate contents on some package installers, and malicious contents on others due to multiple local file entries. An attacker could  also contrive a "stacked" ZIP input with multiple internal ZIPs, which would be handled differently by different package installers. The attacker could choose which installer to target in both scenarios. This issue is fixed in version 0.8.6. To work around this issue, users may choose to set UV_INSECURE_NO_ZIP_VALIDATION=1 to revert to the previous behavior.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54368</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54368</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54952 - ExecuTorch Integer Overflow Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54952
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 12:15 a.m. | 34 minutes ago
+<br>
+<strong>Description : </strong>An integer overflow vulnerability in the loading of ExecuTorch models can cause smaller-than-expected memory regions to be allocated, potentially resulting in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit 8f062d3f661e20bb19b24b767b9a9a46e8359f2b.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54952</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54952</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8702 - Wanzhou WOES Intelligent Optimization Energy Saving System SQL Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8702
+<br>
+<strong>Published : </strong> Aug. 8, 2025, 12:15 a.m. | 34 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability classified as critical has been found in Wanzhou WOES Intelligent Optimization Energy Saving System 1.0. This affects an unknown part of the file /CommonSolution/GetVariableByOneIDNew of the component Historical Data Query Module. The manipulation of the argument ObjectID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Fri, 08 Aug 2025 00:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8702</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8702</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30404 - Apache ExecuTorch Integer Overflow Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30404
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 11:15 p.m. | 1 hour, 34 minutes ago
+<br>
+<strong>Description : </strong>An integer overflow vulnerability in the loading of ExecuTorch models can cause overlapping allocations, potentially resulting in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit d158236b1dc84539c1b16843bc74054c9dcba006.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30404</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30404</guid>
+    </item>
+    <item>
+      <title>CVE-2025-30405 - ExecuTorch Integer Overflow Code Execution Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-30405
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 11:15 p.m. | 1 hour, 34 minutes ago
+<br>
+<strong>Description : </strong>An integer overflow vulnerability in the loading of ExecuTorch models can cause objects to be placed outside their allocated memory area, potentially resulting in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit 0830af8207240df8d7f35b984cdf8bc35d74fa73.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-30405</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-30405</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54949 - ExecuTorch Heap Buffer Overflow Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54949
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 11:15 p.m. | 1 hour, 34 minutes ago
+<br>
+<strong>Description : </strong>A heap buffer overflow vulnerability in the loading of ExecuTorch models can potentially result in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit ede82493dae6d2d43f8c424e7be4721abe5242be
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54949</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54949</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54950 - Oracle ExecuTorch Out-of-Bounds Access Code Execution</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54950
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 11:15 p.m. | 1 hour, 34 minutes ago
+<br>
+<strong>Description : </strong>An out-of-bounds access vulnerability in the loading of ExecuTorch models can cause the runtime to crash and potentially result in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit fb03b6f85596a8f954d97929075335255b6a58d4.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54950</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54950</guid>
+    </item>
+    <item>
+      <title>CVE-2025-54951 - ExecuTorch Buffer Overflow Vulnerabilities</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-54951
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 11:15 p.m. | 1 hour, 34 minutes ago
+<br>
+<strong>Description : </strong>A group of related buffer overflow vulnerabilities in the loading of ExecuTorch models can cause the runtime to crash and potentially result in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit cea9b23aa8ff78aff92829a466da97461cc7930c.
+<br>
+<strong>Severity:</strong> 0.0 | NA
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 23:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-54951</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-54951</guid>
+    </item>
+    <item>
       <title>CVE-2025-54787 - SuiteCRM Unauthenticated File Download Vulnerability</title>
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-54787
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 10:15 p.m. | 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 10:15 p.m. | 2 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. There is a vulnerability in SuiteCRM version 7.14.6 which allows unauthenticated downloads of any file from the upload-directory, as long as it is named by an ID (e.g. attachments). An unauthenticated attacker could download internal files when he discovers a valid file-ID.
 Valid IDs could be brute-forced, but this is quite time-consuming as the file-IDs are usually UUIDs. This issue is fixed in version 7.14.7.
@@ -37,7 +173,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-26513
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>The installer for SAN Host Utilities for Windows versions prior to 8.0 is susceptible to a vulnerability which when successfully exploited could allow a local user to escalate their privileges.
 <br>
@@ -54,7 +190,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-45765
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>ruby-jwt v3.0.0.beta1 was discovered to contain weak encryption. NOTE: the Supplier's perspective is "keysize is not something that is enforced by this library. Currently more recent versions of OpenSSL are enforcing some key sizes and those restrictions apply to the users of this gem also."
 <br>
@@ -71,7 +207,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53767
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Azure OpenAI Elevation of Privilege Vulnerability
 <br>
@@ -88,7 +224,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53774
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Microsoft 365 Copilot BizChat Information Disclosure Vulnerability
 <br>
@@ -105,7 +241,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53787
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Microsoft 365 Copilot BizChat Information Disclosure Vulnerability
 <br>
@@ -122,7 +258,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-53792
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>Azure Portal Elevation of Privilege Vulnerability
 <br>
@@ -139,7 +275,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8698
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Open5GS up to 2.7.5. It has been classified as problematic. Affected is the function amf_nsmf_pdusession_handle_release_sm_context of the file src/amf/nsmf-handler.c of the component AMF Service. The manipulation leads to reachable assertion. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The name of the patch is 66bc558e417e70ae216ec155e4e81c14ae0ecf30. It is recommended to apply a patch to fix this issue.
 <br>
@@ -156,7 +292,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-8701
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 1 hour, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 9:15 p.m. | 3 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>A vulnerability was found in Wanzhou WOES Intelligent Optimization Energy Saving System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /OL_OprationLog/GetPageList. The manipulation of the argument optUser leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 <br>
@@ -173,7 +309,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47183
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 2 hours, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 4 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>In GStreamer through 1.26.1, the isomp4 plugin's qtdemux_parse_tree function may read past the end of a heap buffer while parsing an MP4 file, leading to information disclosure.
 <br>
@@ -190,7 +326,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47219
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 2 hours, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 4 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>In GStreamer through 1.26.1, the isomp4 plugin's qtdemux_parse_trak function may read past the end of a heap buffer while parsing an MP4 file, possibly leading to information disclosure.
 <br>
@@ -207,7 +343,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47806
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 2 hours, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 4 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>In GStreamer through 1.26.1, the subparse plugin's parse_subrip_time function may write data past the bounds of a stack buffer, leading to a crash.
 <br>
@@ -224,7 +360,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47807
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 2 hours, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 4 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>In GStreamer through 1.26.1, the subparse plugin's subrip_unescape_formatting function may dereference a NULL pointer while parsing a subtitle file, leading to a crash.
 <br>
@@ -241,7 +377,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-47808
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 2 hours, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 4 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>In GStreamer through 1.26.1, the subparse plugin's tmplayer_parse_line function may dereference a NULL pointer while parsing a subtitle file, leading to a crash.
 <br>
@@ -258,7 +394,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <description><![CDATA[<p>
 <strong>CVE ID : </strong>CVE-2025-48709
 <br>
-<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 2 hours, 33 minutes ago
+<strong>Published : </strong> Aug. 7, 2025, 8:15 p.m. | 4 hours, 34 minutes ago
 <br>
 <strong>Description : </strong>An issue was discovered in BMC Control-M 9.0.21.300. When Control-M Server has a database connection, it runs DBUStatus.exe frequently, which then calls dbu_connection_details.vbs with the username, password, database hostname, and port written in cleartext, which can be seen in event and process logs in two separate locations.
 <br>
@@ -269,6 +405,40 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 07 Aug 2025 20:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-48709</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-48709</guid>
+    </item>
+    <item>
+      <title>CVE-2025-7195 - Operator-SDK Insecure User Setup Permissions Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-7195
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 7:15 p.m. | 5 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>Early versions of Operator-SDK provided an insecure method to allow operator containers to run in environments that used a random UID. Operator-SDK before 0.15.2 provided a script, user_setup, which modifies the permissions of the /etc/passwd file to 664 during build time. Developers who used Operator-SDK before 0.15.2 to scaffold their operator may still be impacted by this if the insecure user_setup script is still being used to build new container images. In affected images, the /etc/passwd file was created during build time with group-writable permissions and a group ownership of root (gid=0). An attacker who can execute commands within an affected container, even as a non-root user, may be able to leverage their membership in the root group to modify the /etc/passwd file. This could allow the attacker to add a new user with any arbitrary UID, including UID 0, leading to full root privileges within the container.
+<br>
+<strong>Severity:</strong> 5.2 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-7195</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7195</guid>
+    </item>
+    <item>
+      <title>CVE-2025-8697 - AgentUniverse MCPSessionManager/MCPTool/MCPToolkit Os Command Injection Vulnerability</title>
+      <description><![CDATA[<p>
+<strong>CVE ID : </strong>CVE-2025-8697
+<br>
+<strong>Published : </strong> Aug. 7, 2025, 7:15 p.m. | 5 hours, 34 minutes ago
+<br>
+<strong>Description : </strong>A vulnerability was found in agentUniverse up to 0.0.18 and classified as critical. This issue affects the function StdioServerParameters of the component MCPSessionManager/MCPTool/MCPToolkit. The manipulation leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<br>
+<strong>Severity:</strong> 6.3 | MEDIUM
+<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</p>]]></description>
+      <pubDate>Thu, 07 Aug 2025 19:15:00 GMT</pubDate>
+      <link>https://cvefeed.io/vuln/detail/CVE-2025-8697</link>
+      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8697</guid>
     </item>
     <item>
       <title>CVE-2025-50675 - GPMAW Unprivileged Privilege Escalation Vulnerability</title>
@@ -337,40 +507,6 @@ Visit the link for more details, such as CVSS details, affected products, timeli
       <pubDate>Thu, 07 Aug 2025 19:15:00 GMT</pubDate>
       <link>https://cvefeed.io/vuln/detail/CVE-2025-55077</link>
       <guid>https://cvefeed.io/vuln/detail/CVE-2025-55077</guid>
-    </item>
-    <item>
-      <title>CVE-2025-7195 - Operator-SDK Insecure User Setup Permissions Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-7195
-<br>
-<strong>Published : </strong> Aug. 7, 2025, 7:15 p.m. | 3 hours, 33 minutes ago
-<br>
-<strong>Description : </strong>Early versions of Operator-SDK provided an insecure method to allow operator containers to run in environments that used a random UID. Operator-SDK before 0.15.2 provided a script, user_setup, which modifies the permissions of the /etc/passwd file to 664 during build time. Developers who used Operator-SDK before 0.15.2 to scaffold their operator may still be impacted by this if the insecure user_setup script is still being used to build new container images. In affected images, the /etc/passwd file was created during build time with group-writable permissions and a group ownership of root (gid=0). An attacker who can execute commands within an affected container, even as a non-root user, may be able to leverage their membership in the root group to modify the /etc/passwd file. This could allow the attacker to add a new user with any arbitrary UID, including UID 0, leading to full root privileges within the container.
-<br>
-<strong>Severity:</strong> 5.2 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 07 Aug 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-7195</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-7195</guid>
-    </item>
-    <item>
-      <title>CVE-2025-8697 - AgentUniverse MCPSessionManager/MCPTool/MCPToolkit Os Command Injection Vulnerability</title>
-      <description><![CDATA[<p>
-<strong>CVE ID : </strong>CVE-2025-8697
-<br>
-<strong>Published : </strong> Aug. 7, 2025, 7:15 p.m. | 3 hours, 33 minutes ago
-<br>
-<strong>Description : </strong>A vulnerability was found in agentUniverse up to 0.0.18 and classified as critical. This issue affects the function StdioServerParameters of the component MCPSessionManager/MCPTool/MCPToolkit. The manipulation leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
-<br>
-<strong>Severity:</strong> 6.3 | MEDIUM
-<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</p>]]></description>
-      <pubDate>Thu, 07 Aug 2025 19:15:00 GMT</pubDate>
-      <link>https://cvefeed.io/vuln/detail/CVE-2025-8697</link>
-      <guid>https://cvefeed.io/vuln/detail/CVE-2025-8697</guid>
     </item>
     <item>
       <title>CVE-2023-41530 - "MediCare SQL Injection"</title>
