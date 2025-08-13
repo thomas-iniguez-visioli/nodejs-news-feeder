@@ -158,8 +158,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-20/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-21/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-22/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-08-12/
-https://cvefeed.io/vuln/detail/CVE-2025-54217
-https://cvefeed.io/vuln/detail/CVE-2025-54218
 https://cvefeed.io/vuln/detail/CVE-2025-54219
 https://cvefeed.io/vuln/detail/CVE-2025-54220
 https://cvefeed.io/vuln/detail/CVE-2025-54221
@@ -183,6 +181,8 @@ https://cvefeed.io/vuln/detail/CVE-2025-54232
 https://cvefeed.io/vuln/detail/CVE-2025-54233
 https://cvefeed.io/vuln/detail/CVE-2025-54238
 https://cvefeed.io/vuln/detail/CVE-2025-8395
+https://cvefeed.io/vuln/detail/CVE-2025-4276
+https://cvefeed.io/vuln/detail/CVE-2025-4277
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/expertcyber-4-ans
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cactus-lancement-national
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2024
@@ -203,16 +203,16 @@ https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-inf
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/microsoft-cybermalveillancegouvfr-parquet-paris-arnaque-faux-support-technique
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-de-securite-critiques-dans-microsoft-sharepoint-202507
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-microsoft-sharepoint
+https://cvefeed.io/vuln/detail/CVE-2025-49456
+https://cvefeed.io/vuln/detail/CVE-2025-49457
+https://cvefeed.io/vuln/detail/CVE-2025-54229
+https://cvefeed.io/vuln/detail/CVE-2025-54230
+https://cvefeed.io/vuln/detail/CVE-2025-54231
+https://cvefeed.io/vuln/detail/CVE-2025-54232
+https://cvefeed.io/vuln/detail/CVE-2025-54233
+https://cvefeed.io/vuln/detail/CVE-2025-54238
+https://cvefeed.io/vuln/detail/CVE-2025-8395
 https://cvefeed.io/vuln/detail/CVE-2025-54222
-https://cvefeed.io/vuln/detail/CVE-2025-54208
-https://cvefeed.io/vuln/detail/CVE-2025-54209
-https://cvefeed.io/vuln/detail/CVE-2025-54210
-https://cvefeed.io/vuln/detail/CVE-2025-54211
-https://cvefeed.io/vuln/detail/CVE-2025-54212
-https://cvefeed.io/vuln/detail/CVE-2025-54213
-https://cvefeed.io/vuln/detail/CVE-2025-54214
-https://cvefeed.io/vuln/detail/CVE-2025-54215
-https://cvefeed.io/vuln/detail/CVE-2025-54216
 https://cvefeed.io/vuln/detail/CVE-2025-54217
 https://cvefeed.io/vuln/detail/CVE-2025-54218
 https://cvefeed.io/vuln/detail/CVE-2025-54219
@@ -228,6 +228,15 @@ https://cvefeed.io/vuln/detail/CVE-2025-54235
 https://cvefeed.io/vuln/detail/CVE-2025-55165
 https://cvefeed.io/vuln/detail/CVE-2025-55170
 https://cvefeed.io/vuln/detail/CVE-2025-55171
+https://cvefeed.io/vuln/detail/CVE-2025-54208
+https://cvefeed.io/vuln/detail/CVE-2025-54209
+https://cvefeed.io/vuln/detail/CVE-2025-54210
+https://cvefeed.io/vuln/detail/CVE-2025-54211
+https://cvefeed.io/vuln/detail/CVE-2025-54212
+https://cvefeed.io/vuln/detail/CVE-2025-54213
+https://cvefeed.io/vuln/detail/CVE-2025-54214
+https://cvefeed.io/vuln/detail/CVE-2025-54215
+https://cvefeed.io/vuln/detail/CVE-2025-54216
 https://cvefeed.io/vuln/detail/CVE-2025-54207
 https://cvefeed.io/vuln/detail/CVE-2023-45584
 https://cvefeed.io/vuln/detail/CVE-2024-26009
@@ -4553,8 +4562,6 @@ CRA, l’ANSSI encourage l’implication d’organismes d’évaluation de la co
 
 
 
-CVE-2025-54217 - Adobe InCopy Heap-based Buffer Overflow Vulnerability
-CVE-2025-54218 - Adobe InCopy Out-of-Bounds Write Arbitrary Code Execution
 CVE-2025-54219 - Adobe InCopy Heap-based Buffer Overflow Arbitrary Code Execution
 CVE-2025-54220 - Adobe InCopy Heap-based Buffer Overflow Arbitrary Code Execution
 CVE-2025-54221 - Adobe InCopy Out-of-Bounds Write Arbitrary Code Execution Vulnerability
@@ -4578,6 +4585,8 @@ CVE-2025-54232 - Adobe Framemaker Use After Free Vulnerability
 CVE-2025-54233 - Adobe Framemaker Out-of-Bounds Read Vulnerability
 CVE-2025-54238 - Dimension Out-of-Bounds Read Vulnerability
 CVE-2025-8395 - "CVE-xxxx: Apache Struts SQL Injection Vulnerability"
+CVE-2025-4276 - Intel UsbCoreDxe SMM Arbitrary Code Execution
+CVE-2025-4277 - Intel Tcg2Smm SMM Execute Code Arbitrary Memory Write
 Le label ExpertCyber fête ses 4 ans : retour sur cette caution reconnue par les professionnels
 Opération Cactus : lancement national de la campagne de sensibilisation à lrsquo;hameçonnage dans les espaces numériques de travail
 Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
@@ -4598,6 +4607,8 @@ Lettres drsquo;information
 Microsoft, Cybermalveillance.gouv.fr et la section de lutte contre la cybercriminalité du Parquet de Paris appellent à se mobiliser contre les arnaques au faux support technique
 AlerteCyber : Failles de sécurité critiques dans Microsoft SharePoint
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant deux failles  de sécurité critiques dans  Microsoft SharePoint
+CVE-2025-54217 - Adobe InCopy Heap-based Buffer Overflow Vulnerability
+CVE-2025-54218 - Adobe InCopy Out-of-Bounds Write Arbitrary Code Execution
 CVE-2025-54208 - Adobe InDesign Out-of-Bounds Write Arbitrary Code Execution Vulnerability
 CVE-2025-54209 - Adobe InDesign Heap-based Buffer Overflow Vulnerability
 CVE-2025-54210 - Adobe InDesign Arbitrary Code Execution Vulnerability
