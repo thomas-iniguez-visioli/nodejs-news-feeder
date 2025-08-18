@@ -161,9 +161,6 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-20/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-21/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-07-22/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-08-12/
-https://cvefeed.io/vuln/detail/CVE-2025-7342
-https://cvefeed.io/vuln/detail/CVE-2025-9094
-https://cvefeed.io/vuln/detail/CVE-2025-9095
 https://cvefeed.io/vuln/detail/CVE-2025-9096
 https://cvefeed.io/vuln/detail/CVE-2025-9097
 https://cvefeed.io/vuln/detail/CVE-2025-31713
@@ -186,6 +183,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-57701
 https://cvefeed.io/vuln/detail/CVE-2025-57702
 https://cvefeed.io/vuln/detail/CVE-2025-57703
 https://cvefeed.io/vuln/detail/CVE-2025-6625
+https://cvefeed.io/vuln/detail/CVE-2025-5296
+https://cvefeed.io/vuln/detail/CVE-2025-41242
+https://cvefeed.io/vuln/detail/CVE-2025-47206
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2024
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territoriaux-17cyber
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
@@ -229,9 +229,9 @@ https://cvefeed.io/vuln/detail/CVE-2025-9098
 https://cvefeed.io/vuln/detail/CVE-2025-9099
 https://cvefeed.io/vuln/detail/CVE-2025-9096
 https://cvefeed.io/vuln/detail/CVE-2025-9097
+https://cvefeed.io/vuln/detail/CVE-2025-7342
 https://cvefeed.io/vuln/detail/CVE-2025-9094
 https://cvefeed.io/vuln/detail/CVE-2025-9095
-https://cvefeed.io/vuln/detail/CVE-2025-7342
 https://cvefeed.io/vuln/detail/CVE-2025-9093
 https://cvefeed.io/vuln/detail/CVE-2025-9090
 https://cvefeed.io/vuln/detail/CVE-2025-9091
@@ -5106,9 +5106,6 @@ CRA, l’ANSSI encourage l’implication d’organismes d’évaluation de la co
 
 
 
-CVE-2025-7342 - Kubernetes Image Builder Default Credentials Vulnerability
-CVE-2025-9094 - ThingsBoard Template Engine Remote Code Injection Vulnerability
-CVE-2025-9095 - ExpressGateway Cross-Site Scripting Vulnerability
 CVE-2025-9096 - ExpressGateway Cross-Site Scripting Vulnerability
 CVE-2025-9097 - Euro Information CIC Banque et Compte en Ligne Android Improper Export of Application Components Vulnerability
 CVE-2025-31713 - F5 Networks Engineer Mode Command Injection Vulnerability
@@ -5131,6 +5128,9 @@ CVE-2025-57701 - DIAEnergie Reflected Cross-site Scripting Vulnerability
 CVE-2025-57702 - DIAEnergie Reflected Cross-site Scripting
 CVE-2025-57703 - DIAEnergie Reflected Cross-site Scripting Vulnerability
 CVE-2025-6625 - Cisco FTP Denial Of Service
+CVE-2025-5296 - Apache Link Following Privilege Escalation
+CVE-2025-41242 - Apache Tomcat and Eclipse Jetty Spring Framework MVC Path Traversal Vulnerability
+CVE-2025-47206 - File Station Out-of-Bounds Write Vulnerability
 Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
 Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ annoncent la signature drsquo;une convention pour intégrer lrsquo;offre de service drsquo;assistance des CSIRT territoriaux néo-aquitain et d’Occitanie dans le 17Cyber, guichet unique face à la cybermalveillance
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
@@ -5151,7 +5151,9 @@ AlerteCyber : Failles de sécurité critiques dans Microsoft SharePoint
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant deux failles  de sécurité critiques dans  Microsoft SharePoint
 Violation de données personnelles de lrsquo;opérateur Bouygues Telecom : situation, risques et recommandations
 Violation de données personnelles Bouygues Telecom
-CVE-2025-5296 - Apache Link Following Privilege Escalation
+CVE-2025-7342 - Kubernetes Image Builder Default Credentials Vulnerability
+CVE-2025-9094 - ThingsBoard Template Engine Remote Code Injection Vulnerability
+CVE-2025-9095 - ExpressGateway Cross-Site Scripting Vulnerability
 CVE-2025-9093 - BuzzFeed App Android Improper Component Export Vulnerability
 CVE-2025-9090 - Tenda Telnet Service Command Injection
 CVE-2025-9091 - Tenda AC20 Hard-Coded Credentials Vulnerability
