@@ -116,31 +116,6 @@ https://bonjourlafuite.eu.org/#France Link Interactive-2025-08-13
 https://bonjourlafuite.eu.org/#Partner Immo-2025-08-13
 https://bonjourlafuite.eu.org/#Google-2025-08-13
 https://bonjourlafuite.eu.org/#Auchan-2025-08-21
-https://cvefeed.io/vuln/detail/CVE-2025-52219
-https://cvefeed.io/vuln/detail/CVE-2025-6366
-https://cvefeed.io/vuln/detail/CVE-2025-56432
-https://cvefeed.io/vuln/detail/CVE-2025-57810
-https://cvefeed.io/vuln/detail/CVE-2025-57813
-https://cvefeed.io/vuln/detail/CVE-2025-1494
-https://cvefeed.io/vuln/detail/CVE-2025-1994
-https://cvefeed.io/vuln/detail/CVE-2025-2697
-https://cvefeed.io/vuln/detail/CVE-2025-36729
-https://cvefeed.io/vuln/detail/CVE-2025-50974
-https://cvefeed.io/vuln/detail/CVE-2025-52184
-https://cvefeed.io/vuln/detail/CVE-2025-55212
-https://cvefeed.io/vuln/detail/CVE-2025-57425
-https://cvefeed.io/vuln/detail/CVE-2025-9491
-https://cvefeed.io/vuln/detail/CVE-2025-50976
-https://cvefeed.io/vuln/detail/CVE-2025-55298
-https://cvefeed.io/vuln/detail/CVE-2025-57803
-https://cvefeed.io/vuln/detail/CVE-2025-57818
-https://cvefeed.io/vuln/detail/CVE-2025-23307
-https://cvefeed.io/vuln/detail/CVE-2025-23312
-https://cvefeed.io/vuln/detail/CVE-2025-23313
-https://cvefeed.io/vuln/detail/CVE-2025-23314
-https://cvefeed.io/vuln/detail/CVE-2025-23315
-https://cvefeed.io/vuln/detail/CVE-2025-50975
-https://cvefeed.io/vuln/detail/CVE-2025-9478
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-16/
 https://thomas-iniguez-visioli.github.io/retro-weekly/vbcq-2025-06-16/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-06-17/
@@ -215,6 +190,31 @@ https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-08-16/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-08-17/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-08-18/
 https://thomas-iniguez-visioli.github.io/retro-weekly/perso-2025-08-26/
+https://cvefeed.io/vuln/detail/CVE-2025-57810
+https://cvefeed.io/vuln/detail/CVE-2025-57813
+https://cvefeed.io/vuln/detail/CVE-2025-1494
+https://cvefeed.io/vuln/detail/CVE-2025-1994
+https://cvefeed.io/vuln/detail/CVE-2025-2697
+https://cvefeed.io/vuln/detail/CVE-2025-36729
+https://cvefeed.io/vuln/detail/CVE-2025-50974
+https://cvefeed.io/vuln/detail/CVE-2025-52184
+https://cvefeed.io/vuln/detail/CVE-2025-55212
+https://cvefeed.io/vuln/detail/CVE-2025-57425
+https://cvefeed.io/vuln/detail/CVE-2025-9491
+https://cvefeed.io/vuln/detail/CVE-2025-50976
+https://cvefeed.io/vuln/detail/CVE-2025-55298
+https://cvefeed.io/vuln/detail/CVE-2025-57803
+https://cvefeed.io/vuln/detail/CVE-2025-57818
+https://cvefeed.io/vuln/detail/CVE-2025-23307
+https://cvefeed.io/vuln/detail/CVE-2025-23312
+https://cvefeed.io/vuln/detail/CVE-2025-23313
+https://cvefeed.io/vuln/detail/CVE-2025-23314
+https://cvefeed.io/vuln/detail/CVE-2025-23315
+https://cvefeed.io/vuln/detail/CVE-2025-50975
+https://cvefeed.io/vuln/detail/CVE-2025-9478
+https://cvefeed.io/vuln/detail/CVE-2025-50971
+https://cvefeed.io/vuln/detail/CVE-2025-52353
+https://cvefeed.io/vuln/detail/CVE-2025-55443
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2024
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/csirt-territoriaux-17cyber
 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/strategie-cybermalveillancegouvfr-20252030
@@ -5969,9 +5969,80 @@ Fuite de données chez France Link Interactive
 Fuite de données chez Partner Immo
 Fuite de données chez Google
 Fuite de données chez Auchan
-CVE-2025-52219 - SelectZero Data Observability Platform Open Redirect Vulnerability
-CVE-2025-6366 - WordPress Event List Plugin Privilege Escalation Vulnerability
-CVE-2025-56432 - Nagios XI Cross-Site Scripting (XSS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CVE-2025-57810 - jsPDF High CPU Utilization Denial of Service Vulnerability
 CVE-2025-57813 - traP traQ Exposed OAuth Tokens in SQL Error Logs
 CVE-2025-1494 - IBM Cognos Command Center Clickjacking Vulnerability
@@ -5994,80 +6065,9 @@ CVE-2025-23314 - NVIDIA NeMo Framework NLP Code Injection Vulnerability
 CVE-2025-23315 - NVIDIA NeMo Framework Code Injection Vulnerability
 CVE-2025-50975 - IPFire Stored XSS in Firewall CGI Interface
 CVE-2025-9478 - Google Chrome ANGLE Use-After-Free Vulnerability
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+CVE-2025-50971 - AbanteCart Directory Traversal Vulnerability
+CVE-2025-52353 - Badaso CMS Arbitrary Code Execution Vulnerability
+CVE-2025-55443 - Telpo MDM Plaintext Credentials and MQTT Server Exposure
 Cybermalveillance.gouv.fr dévoile les tendances de la menace cyber en France
 Cybermalveillance.gouv.fr, le Campus cyber Nouvelle Aquitaine et Cyber’Occ annoncent la signature drsquo;une convention pour intégrer lrsquo;offre de service drsquo;assistance des CSIRT territoriaux néo-aquitain et d’Occitanie dans le 17Cyber, guichet unique face à la cybermalveillance
 Cybermalveillance.gouv.fr dévoile sa stratégie 2025-2030
@@ -6088,9 +6088,9 @@ AlerteCyber : Failles de sécurité critiques dans Microsoft SharePoint
 Cybermalveillance.gouv.fr lance une AlerteCyber concernant deux failles  de sécurité critiques dans  Microsoft SharePoint
 Violation de données personnelles de lrsquo;opérateur Bouygues Telecom : situation, risques et recommandations
 Violation de données personnelles Bouygues Telecom
-CVE-2025-50971 - AbanteCart Directory Traversal Vulnerability
-CVE-2025-52353 - Badaso CMS Arbitrary Code Execution Vulnerability
-CVE-2025-55443 - Telpo MDM Plaintext Credentials and MQTT Server Exposure
+CVE-2025-56432 - Nagios XI Cross-Site Scripting (XSS)
+CVE-2025-52219 - SelectZero Data Observability Platform Open Redirect Vulnerability
+CVE-2025-6366 - WordPress Event List Plugin Privilege Escalation Vulnerability
 CVE-2025-25732 - Kapsch TrafficCom RIS-9160  RIS-9260 Roadside Units EEPROM Access Control Bypass Privilege Escalation
 CVE-2025-25733 - Kapsch TrafficCom RIS-9160  RIS-9260 Roadside Units SPI Flash Chip Access Control Bypass
 CVE-2025-25734 - Kapsch TrafficCom RIS-9160  RIS-9260 Roadside Units (RSUs) Boot Process Privilege Escalation
