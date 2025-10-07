@@ -42,10 +42,10 @@ parser.parseString(t).then((parsedXml) => {
    
   })
 })}
-//addfeed('https://cyber.gouv.fr/actualites/feed')
-//addfeed('https://cvefeed.io/rssfeed/latest.xml')
-//addfeed("https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet")
-//addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")
+addfeed('https://cyber.gouv.fr/actualites/feed')
+addfeed('https://cvefeed.io/rssfeed/latest.xml')
+addfeed("https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet")
+addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")
   try {
     //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
    var html ="" 
@@ -137,6 +137,62 @@ parser.parseString(t).then((parsedXml) => {
     console.log("Retrospective not found or generated and error, so we're not updating the feed.")
     console.log("Configuration for the retrospective won't be updated either.")
   }
+// --- Nouvelle récupération améliorée ---
+const feedUrls = [
+  'https://cyber.gouv.fr/actualites/feed',
+  'https://cvefeed.io/rssfeed/latest.xml',
+  'https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet',
+  'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml'
+];
+
+async function fetchAllFeeds(urls) {
+  const parser = new ParseRss();
+  const results = await Promise.all(urls.map(async (url) => {
+    try {
+      const t = await got(url).text();
+      const parsedXml = await parser.parseString(t);
+      return parsedXml.items.map((dat) => ({
+        title: dat.title,
+        description: dat.content || dat.summary || '',
+        pubDate: buildRFC822Date(dat.pubDate),
+        link: dat.link,
+        guid: dat.guid || dat.link
+      }));
+    } catch (err) {
+      console.log(`Erreur récupération feed ${url}:`, err.message);
+      return [];
+    }
+  }));
+  // Aplatir et filtrer les doublons
+  const allItems = results.flat();
+  const seen = new Set();
+  return allItems.filter(item => {
+    if (!item.title || !item.link) return false;
+    const key = item.guid || item.link;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+async function updateFeedWithAllItems() {
+  const items = await fetchAllFeeds(feedUrls);
+  items.forEach((dat) => {
+    const retrospective = composeFeedItem({
+      title: dat.title,
+      description: `<![CDATA[<p>${dat.description}</p>]]>`,
+      pubDate: dat.pubDate,
+      link: dat.link,
+      guid: dat.guid
+    });
+    const feedContent = getFeedContent();
+    const [before, after] = feedContent.split(breakDelimiter);
+    const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`;
+    overwriteFeedContent(updatedFeedContent);
+  });
+}
+
+updateFeedWithAllItems();
 
 
 
