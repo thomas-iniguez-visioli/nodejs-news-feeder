@@ -1,10 +1,10 @@
-Error: Attribute without value
-Line: 1239
-Column: 93
-Char: B
+Error: Unencoded <
+Line: 1293
+Column: 44
+Char: 1
     at error (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:658:10)
     at strictFail (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:684:7)
-    at SAXParser.write (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:1362:13)
+    at SAXParser.write (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/sax/lib/sax.js:1087:13)
     at exports.Parser.Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/xml2js/lib/parser.js:327:31)
     at Parser.parseString (/home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/xml2js/lib/parser.js:5:59)
     at /home/runner/work/nodejs-news-feeder/nodejs-news-feeder/node_modules/rss-parser/lib/parser.js:33:22
