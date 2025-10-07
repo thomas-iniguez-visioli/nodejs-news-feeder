@@ -104,3 +104,21 @@ export function parseRetrospectiveContent (data) {
   console.log(dates)
   return { title, description, lastDay: dates[1], nextDay: dates[3] }
 }
+
+// Filtrage centralisé des items RSS
+export function filterFeedItems(items, { keywords = [], categories = [] } = {}) {
+  const seen = new Set();
+  return items.filter(item => {
+    // Exclure les entrées incomplètes
+    if (!item.title || !item.link || !item.pubDate) return false;
+    // Filtrage par mot-clé
+    if (keywords.length && !keywords.some(k => item.title.includes(k) || (item.description && item.description.includes(k)))) return false;
+    // Filtrage par catégorie
+    if (categories.length && (!item.categories || !item.categories.some(c => categories.includes(c)))) return false;
+    // Doublons par guid ou lien ou titre
+    const key = (item.guid || item.link || item.title).trim();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}

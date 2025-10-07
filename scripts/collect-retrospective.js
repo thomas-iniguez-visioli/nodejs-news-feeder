@@ -2,7 +2,7 @@ import got from 'got'
 import ParseRss from 'rss-parser'
 import { parse } from 'node-html-parser';
 import * as https from 'node:https'
-import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl } from '../utils/index.js'
+import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl, filterFeedItems } from '../utils/index.js'
 const staticDnsAgent = (resolvconf) => new https.Agent({
   lookup: (hostname, opts, cb) => {
     console.log(resolvconf[0].address)
@@ -18,30 +18,32 @@ resolvConf.push({
 })
 // Collect new retrospective
 const { retrospective: currentConfig, breakDelimiter } = getConfig()
-const addfeed=async(url)=>{const t=await got(url).text()
-//console.log(t)
-const parser = new ParseRss()
-parser.parseString(t).then((parsedXml) => {
-  //console.log(parsedXml.items)
-  parsedXml.items.map((dat)=>{
-    console.log(dat.title)
-    console.log(dat.link)
-    const retrospective =composeFeedItem({
-      title: dat.title,
-      description: `<![CDATA[<p>${dat.content|| dat.summary}</p>]]>`,
-      pubDate: buildRFC822Date(dat.pubDate),
-      link: dat.link,
-      guid: dat.guid
+const addfeed = async (url) => {
+  const t = await got(url).text()
+  const parser = new ParseRss()
+  parser.parseString(t).then((parsedXml) => {
+    // Filtrage amélioré
+    const filteredItems = filterFeedItems(parsedXml.items)
+    filteredItems.forEach((dat) => {
+      const retrospective = composeFeedItem({
+        title: dat.title,
+        description: `<![CDATA[<p>${dat.content || dat.summary}</p>]]>`,
+        pubDate: buildRFC822Date(dat.pubDate),
+        link: dat.link,
+        guid: dat.guid
+      })
+      const feedContent = getFeedContent()
+      // Vérification doublon dans le feed
+      if (!feedContent.includes(`<guid>${dat.guid}</guid>`)) {
+        const [before, after] = feedContent.split(breakDelimiter)
+        const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
+        overwriteFeedContent(updatedFeedContent)
+      } else {
+        console.log(`⏩ Doublon ignoré : ${dat.title}`)
+      }
     })
-    const feedContent = getFeedContent()
-   // console.log((dat.title))
-  
-      const [before, after] = feedContent.split(breakDelimiter)
-    const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
-    overwriteFeedContent(updatedFeedContent)
-   
   })
-})}
+}
 addfeed('https://cyber.gouv.fr/actualites/feed')
 addfeed('https://cvefeed.io/rssfeed/latest.xml')
 addfeed("https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet")
