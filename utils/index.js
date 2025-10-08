@@ -30,7 +30,7 @@ export function overwriteConfig (config) {
 
 export function composeFeedItem ({ title, description, pubDate, link, guid }) {
  // console.log(pubDate)
- // console.log(title)
+  console.log(title)
   return `
     <item>
       <title>${title.replace("\r\n","").replaceAll("&","").replaceAll("<br>","")}</title>
