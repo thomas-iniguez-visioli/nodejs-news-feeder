@@ -27,13 +27,7 @@ const xml = getFeedContent()
 const updaterrss = (feed) => {
   // Filtrage centralisé
   var fed = filterFeedItems(feed)
-  fed = tribykey(tribykey([...new Set(fed.map((i) => {
-    return JSON.stringify(i)
-  }))].map((i) => {
-    return JSON.parse(i)
-  }), "link"), "title").filter((item) => {
-    return !item.link.includes("Fuite de données")
-  })
+ 
   //console.log(fed)
   return fed
 }
