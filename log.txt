@@ -1,14 +1,14 @@
+CVE-2025-39954 - clk: sunxi-ng: mp: Fix dual-divider clock rate readback
+CVE-2025-39955 - tcp: Clear tcp_sk(sk)->fastopen_rsk in tcp_disconnect().
+CVE-2025-39956 - igc: don't fail igc_probe() on LED setup error
+CVE-2025-39957 - wifi: mac80211: increase scan_ies_len for S1G
+CVE-2025-39958 - iommu/s390: Make attach succeed when the device was surprise removed
+CVE-2025-39959 - ASoC: amd: acp: Fix incorrect retrival of acp_chip_info
 CVE-2025-10862 - Popup builder with Gamification, Multi-Step Popups, Page-Level Targeting, and WooCommerce Triggers <= 2.1.3 - Unauthenticated SQL Injection via 'id'
 CVE-2025-11522 - Search & Go - Directory WordPress Theme <= 2.7 - Authentication Bypass to Privilege Escalation via Account Takeover
 CVE-2025-11539 - Arbitrary Code Execution in Grafana Image Renderer Plugin
 CVE-2025-7526 - WP Travel Engine – Tour Booking Plugin – Tour Operator Software <= 6.6.7 - Authenticated (Subscriber+) Arbitrary File Deletion via File Renaming
 CVE-2025-7634 - WP Travel Engine – Tour Booking Plugin – Tour Operator Software <= 6.6.7 - Unauthenticated Local File Inclusion
-CVE-2025-27039 - Detection of Error Condition Without Action in Computer Vision
-CVE-2025-27040 - Improper Input Validation in TZ Firmware
-CVE-2025-27041 - Buffer Over-read in Video
-CVE-2025-27045 - Buffer Over-read in Video
-CVE-2025-27048 - Untrusted Pointer Dereference in Camera
-CVE-2025-27049 - Buffer Over-read in Camera
 CVE-2025-27053 - Incorrect Calculation of Buffer Size in HLOS
 CVE-2025-27054 - Out-of-bounds Write in Display
 CVE-2025-27059 - Use of Out-of-range Pointer Offset in TZ Firmware
@@ -23,14 +23,20 @@ CVE-2025-47351 - Integer Overflow or Wraparound in DSP Service
 CVE-2025-47354 - Use After Free in DSP Service
 CVE-2025-47355 - Out-of-bounds Write in DSP Service
 CVE-2025-6038 - Lisfinity Core - Lisfinity Core plugin used for pebas® Lisfinity WordPress theme <= 1.4.0 - Authenticated (Subscriber+) Privilege Escalation
+CVE-2025-27039 - Detection of Error Condition Without Action in Computer Vision
+CVE-2025-27040 - Improper Input Validation in TZ Firmware
+CVE-2025-27041 - Buffer Over-read in Video
+CVE-2025-27045 - Buffer Over-read in Video
+CVE-2025-27048 - Untrusted Pointer Dereference in Camera
+CVE-2025-27049 - Buffer Over-read in Camera
 CVE-2025-11530 - code-projects Online Complaint Site state.php sql injection
 CVE-2025-11529 - ChurchCRM API Endpoint AuthMiddleware.php AuthMiddleware missing authentication
 CVE-2025-11528 - Tenda AC7 saveAutoQos stack-based overflow
 CVE-2025-11526 - Tenda AC7 WifiMacFilterSet stack-based overflow
 CVE-2025-11527 - Tenda AC7 fast_setting_pppoe_set stack-based overflow
-CVE-2025-10496 - Cookie Notice  Consent  1.6.5 - Unauthenticated Stored Cross-Site Scripting
-CVE-2025-10586 - Community Events  1.5.1 - Unauthenticated SQL Injection
-CVE-2025-11166 - WP Go Maps (formerly WP Google Maps)  9.0.46 - Cross-Site Request Forgery to Plugin Settings Update
+CVE-2025-10496 - Cookie Notice Consent 1.6.5 - Unauthenticated Stored Cross-Site Scripting
+CVE-2025-10586 - Community Events 1.5.1 - Unauthenticated SQL Injection
+CVE-2025-11166 - WP Go Maps (formerly WP Google Maps) 9.0.46 - Cross-Site Request Forgery to Plugin Settings Update
 CVE-2025-11523 - Tenda AC7 AdvSetLanip command injection
 CVE-2025-11524 - Tenda AC7 SetDDNSCfg stack-based overflow
 CVE-2025-11525 - Tenda AC7 SetUpnpCfg stack-based overflow
@@ -43,7 +49,7 @@ CVE-2025-11508 - code-projects Voting System voters_add.php unrestricted upload
 CVE-2025-11509 - code-projects E-Commerce Website product_add.php sql injection
 CVE-2025-11511 - code-projects E-Commerce Website supplier_add.php sql injection
 CVE-2025-61913 - Flowise is vulnerable to arbitrary file read, arbitrary file write
-CVE-2017-20201 - CCleaner v5.33.6162  CCleaner Cloud v1.07.3191 Malicious Backdoor Supply Chain Compromise
+CVE-2017-20201 - CCleaner v5.33.6162 CCleaner Cloud v1.07.3191 Malicious Backdoor Supply Chain Compromise
 CVE-2017-20202 - Web Developer for Chrome v0.4.9 Malicious Backdoor Supply Chain Compromise
 CVE-2025-11505 - PHPGurukul Beauty Parlour Management System new-appointment.php sql injection
 CVE-2025-11506 - PHPGurukul Beauty Parlour Management System search-appointment.php sql injection
@@ -98,7 +104,7 @@ CVE-2025-43821 - Liferay Portal Liferay DXP XSS
 CVE-2025-11474 - SourceCodester Hotel and Lodge Management System edit_booking.php sql injection
 Cryptographie post-quantique, les travaux de l’ANSSI
 CVE-2025-11473 - SourceCodester Hotel and Lodge Management System edit_curr.php sql injection
-CVE-2025-10649 - Welcart e-Commerce  2.11.21 - Authenticated (Author+) SQL Injection via Cookie
+CVE-2025-10649 - Welcart e-Commerce 2.11.21 - Authenticated (Author+) SQL Injection via Cookie
 CVE-2025-11471 - SourceCodester Hotel and Lodge Management System edit_customer.php sql injection
 CVE-2025-11472 - SourceCodester Hotel and Lodge Management System edit_room.php sql injection
 CVE-2025-10352 - Missing Authorization vulnerability in Melis Platform
@@ -115,17 +121,17 @@ CVE-2025-11439 - JhumanJ OpnForm integrations authorization
 CVE-2025-11440 - JhumanJ OpnForm edit access control
 CVE-2025-11441 - JhumanJ OpnForm HTTP Header excessive authentication
 CVE-2025-48464 - Exposure of Sensitive Information
-CVE-2025-10635 - Find Me On   2.0.9.1 - Subscriber+ SQL Injection
-CVE-2025-11171 - Chartify – WordPress Chart Plugin   3.5.9 - Missing Authentication for Administrative Function
+CVE-2025-10635 - Find Me On 2.0.9.1 - Subscriber+ SQL Injection
+CVE-2025-11171 - Chartify – WordPress Chart Plugin 3.5.9 - Missing Authentication for Administrative Function
 CVE-2025-11435 - JhumanJ OpnForm submissions cross site scripting
 CVE-2025-11436 - JhumanJ OpnForm answer unrestricted upload
 CVE-2025-11437 - JhumanJ OpnForm Form Editor forms cross site scripting
-CVE-2025-11204 - RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login   6.0.6.2 - Authenticated (Administrator+) SQL Injection
+CVE-2025-11204 - RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login 6.0.6.2 - Authenticated (Administrator+) SQL Injection
 CVE-2025-11432 - itsourcecode Leave Management System reset.php sql injection
 CVE-2025-11433 - itsourcecode Leave Management System Query Parameter controller.php redirect cross site scripting
 CVE-2025-11434 - itsourcecode Student Transcript Processing System login.php sql injection
-CVE-2025-10494 - Motors – Car Dealership  Classified Listings Plugin   1.4.89 - Authenticated (Subscriber+) Arbitrary File Deletion
-CVE-2025-10587 - Community Events   1.5.1 - Unauthenticated SQL Injection
+CVE-2025-10494 - Motors – Car Dealership Classified Listings Plugin 1.4.89 - Authenticated (Subscriber+) Arbitrary File Deletion
+CVE-2025-10587 - Community Events 1.5.1 - Unauthenticated SQL Injection
 CVE-2025-11430 - SourceCodester Simple E-Commerce Bookstore cart.php sql injection
 CVE-2025-11431 - code-projects Web-Based Inventory and POS System transaction.php sql injection
 CVE-2025-11425 - projectworlds Advanced Library Management System edit_admin.php cross site scripting
@@ -263,15 +269,15 @@ CVE-2025-11387 - Tenda AC15 fast_setting_pppoe_set stack-based overflow
 CVE-2025-11388 - Tenda AC15 setNotUpgrade stack-based overflow
 CVE-2025-11385 - Tenda AC20 fast_setting_wifi_set sscanf buffer overflow
 CVE-2025-11386 - Tenda AC15 POST Parameter SetDDNSCfg stack-based overflow
-CVE-2025-10645 - WP Reset   2.05 - Unauthenticated Sensitive Information Exposure via wf-licensing.log
+CVE-2025-10645 - WP Reset 2.05 - Unauthenticated Sensitive Information Exposure via wf-licensing.log
 CVE-2025-11359 - code-projects Simple Banking System transfermoney.php sql injection
 CVE-2025-11360 - jakowenko double-take API app.js app.use cross site scripting
 CVE-2025-11358 - code-projects Simple Banking System removeuser.php sql injection
-CVE-2025-7400 - Featured Image from URL (FIFU)   5.2.7 - Authenticated (Contributor+) Stored Cross-Site Scripting via Featured Image Custom Fields
+CVE-2025-7400 - Featured Image from URL (FIFU) 5.2.7 - Authenticated (Contributor+) Stored Cross-Site Scripting via Featured Image Custom Fields
 CVE-2025-11357 - code-projects Simple Banking System createuser.php sql injection
 CVE-2025-11355 - UTT 1250GW aspChangeChannel strcpy buffer overflow
 CVE-2025-11356 - Tenda AC23 SetStaticRouteCfg sscanf buffer overflow
-CVE-2025-10162 - OrderConvo  14 - Unauthenticated Arbitrary File Read
+CVE-2025-10162 - OrderConvo 14 - Unauthenticated Arbitrary File Read
 CVE-2025-11353 - code-projects Online Hotel Reservation System addgalleryexec.php unrestricted upload
 CVE-2025-11354 - code-projects Online Hotel Reservation System addslideexec.php unrestricted upload
 CVE-2025-11351 - code-projects Online Hotel Reservation System editpicexec.php unrestricted upload
@@ -281,7 +287,7 @@ CVE-2025-11349 - Campcodes Online Apartment Visitor Management System search-vis
 CVE-2025-11350 - Campcodes Online Apartment Visitor Management System bwdates-reports-details.php sql injection
 CVE-2025-11347 - code-projects Student Crud Operation Add Student Page/Edit Student add.php move_uploaded_file unrestricted upload
 CVE-2025-11348 - Campcodes Online Apartment Visitor Management System index.php sql injection
-CVE-2025-34251 - Tesla Telematics Control Unit (TCU)  v2025.14 Authentication Bypass
+CVE-2025-34251 - Tesla Telematics Control Unit (TCU) v2025.14 Authentication Bypass
 CVE-2025-61774 - PyVista has Dependency Confusion Vulnerability in that leads to RCE
 Maturité cyber des TPE-PME : encore un cap à franchir
 CVE-2025-43824 - Liferay Portal Cross-Site Scripting (XSS) and File Extension Manipulation
@@ -480,7 +486,7 @@ CVE-2025-9716 - O2OA Cross-Site Scripting Vulnerability
 CVE-2025-9717 - O2OA Cross-Site Scripting Vulnerability
 CVE-2025-5083 - WordPress Amministrazione Trasparente Stored Cross-Site Scripting
 CVE-2025-47696 - Solwin Blog Designer PRO PHP Remote File Inclusion Vulnerability
-CVE-2024-32589 - UkrSolution Barcode Scanner with Inventory  Order Manager Missing Authorization
+CVE-2024-32589 - UkrSolution Barcode Scanner with Inventory Order Manager Missing Authorization
 CVE-2024-32832 - Hamid Alinia Login with Phone Number Missing Authorization
 CVE-2025-31100 - Mojoomla School Management Unrestricted File Upload Vulnerability
 CVE-2025-9715 - O2OA Cross Site Scripting Vulnerability
@@ -772,7 +778,7 @@ CVE-2025-53576 - Ovatheme Events PHP Local File Inclusion Vulnerability
 CVE-2025-53578 - Gavias Kipso PHP Remote File Inclusion Vulnerability
 CVE-2025-53579 - Captcha.eu Cross-Site Scripting Vulnerability
 CVE-2025-53583 - Emarket-Design Employee Spotlight Deserialization of Untrusted Data Object Injection
-CVE-2025-53584 - WP Ticket Customer Service Software  Support Ticket System Object Injection Vulnerability
+CVE-2025-53584 - WP Ticket Customer Service Software Support Ticket System Object Injection Vulnerability
 CVE-2025-54762 - D-Link Media Server Remote File Upload and Command Execution Vulnerability
 CVE-2025-48963 - Acronis Cyber Protect Cloud Agent Privilege Escalation Vulnerability
 CVE-2025-58072 - "Sony SS Path Traversal Vulnerability"
@@ -918,7 +924,7 @@ CVE-2025-9513 - Apache editso fuso RsaAndAesHandshake Encryption Strength Vulner
 CVE-2025-9514 - "Macrozheng Mall Registration Weak Password Requirements Remote RCE"
 CVE-2025-57797 - Fujitsu ScanSnap Manager Privilege Escalation Vulnerability
 CVE-2025-9510 - iSourcecode Apartment Management System SQL Injection Vulnerability
-CVE-2025-48081 - Printeers Print  Ship Path Traversal Vulnerability
+CVE-2025-48081 - Printeers Print Ship Path Traversal Vulnerability
 CVE-2025-9508 - iSourcecode Apartment Management System SQL Injection
 CVE-2025-9509 - itsourcecode Apartment Management System SQL Injection
 CVE-2025-49039 - Mibuthu Link View Stored Cross-Site Scripting
@@ -988,12 +994,12 @@ CVE-2025-57813 - traP traQ Exposed OAuth Tokens in SQL Error Logs
 CVE-2025-56432 - Nagios XI Cross-Site Scripting (XSS)
 CVE-2025-52219 - SelectZero Data Observability Platform Open Redirect Vulnerability
 CVE-2025-6366 - WordPress Event List Plugin Privilege Escalation Vulnerability
-CVE-2025-25732 - Kapsch TrafficCom RIS-9160  RIS-9260 Roadside Units EEPROM Access Control Bypass Privilege Escalation
-CVE-2025-25733 - Kapsch TrafficCom RIS-9160  RIS-9260 Roadside Units SPI Flash Chip Access Control Bypass
-CVE-2025-25734 - Kapsch TrafficCom RIS-9160  RIS-9260 Roadside Units (RSUs) Boot Process Privilege Escalation
-CVE-2025-25735 - Kapsch TrafficCom RIS-9160  RIS-9260 Roadside Units (RSUs) SPI Flash Modification Vulnerability
+CVE-2025-25732 - Kapsch TrafficCom RIS-9160 RIS-9260 Roadside Units EEPROM Access Control Bypass Privilege Escalation
+CVE-2025-25733 - Kapsch TrafficCom RIS-9160 RIS-9260 Roadside Units SPI Flash Chip Access Control Bypass
+CVE-2025-25734 - Kapsch TrafficCom RIS-9160 RIS-9260 Roadside Units (RSUs) Boot Process Privilege Escalation
+CVE-2025-25735 - Kapsch TrafficCom RIS-9160 RIS-9260 Roadside Units (RSUs) SPI Flash Modification Vulnerability
 CVE-2025-25736 - Kapsch TrafficCom RIS-9260 RSU Android Debug Bridge Root Access
-CVE-2025-25737 - Kapsch TrafficCom RIS-9160  RIS-9260 Roadside Units (RSUs) Unprotected BIOS Authentication
+CVE-2025-25737 - Kapsch TrafficCom RIS-9160 RIS-9260 Roadside Units (RSUs) Unprotected BIOS Authentication
 CVE-2025-52035 - NotesCMS Stored XSS Vulnerability
 CVE-2025-52036 - NotesCMS Stored XSS Vulnerability
 CVE-2025-52037 - NotesCMS Stored XSS Vulnerability
@@ -1171,9 +1177,9 @@ CVE-2025-7842 - Silencesoft RSS Reader Plugin CSRF Vulnerability
 CVE-2025-7957 - WordPress ShortcodeHub Stored Cross-Site Scripting Vulnerability
 CVE-2025-8062 - WordPress WS Theme Addons Stored Cross-Site Scripting Vulnerability
 CVE-2025-7839 - WordPress Restore Permanently Delete Post or Page Data CSRF
-CVE-2025-7841 - Sertifier Certificate  Badge Maker for WordPress - Tutor LMS Cross-Site Request Forgery (CSRF)
+CVE-2025-7841 - Sertifier Certificate Badge Maker for WordPress - Tutor LMS Cross-Site Request Forgery (CSRF)
 CVE-2025-7827 - Ni WooCommerce Customer Product Report Unauthorized Data Modification
-CVE-2025-7828 - "WordPress WP Filter  Combine RSS Feeds Unauthenticated Data Deletion Vulnerability"
+CVE-2025-7828 - "WordPress WP Filter Combine RSS Feeds Unauthenticated Data Deletion Vulnerability"
 CVE-2025-7642 - WordPress Simpler Checkout Plugin Authentication Bypass
 CVE-2025-7821 - "WordPress WC Plus Favicon Logo Base Unauthorized Modification Vulnerability"
 CVE-2025-43766 - Liferay Portal/DPX Remote Code Execution Vulnerability
@@ -1594,7 +1600,7 @@ CVE-2025-5261 - Pik Online Authorization Bypass Through User-Controlled Key
 CVE-2025-9228 - MiR Text Note Authorization Bypass
 CVE-2025-9229 - MiR Error Handling Information Disclosure Vulnerability
 CVE-2024-39954 - Apache EventMesh SSRF
-CVE-2025-54677 - vcita Online Booking  Scheduling Calendar for WordPress Unrestricted File Upload Vulnerability
+CVE-2025-54677 - vcita Online Booking Scheduling Calendar for WordPress Unrestricted File Upload Vulnerability
 CVE-2025-54713 - Magepeopleteam Taxi Booking Manager for WooCommerce Authentication Bypass
 CVE-2025-54726 - Miguel Useche JS Archive List SQL Injection
 CVE-2025-54735 - CubeWP Framework Privilege Escalation
@@ -1852,7 +1858,7 @@ CVE-2025-9107 - Portabilis i-Diario Cross-Site Scripting Vulnerability
 CVE-2025-9105 - Portabilis i-Diario Cross Site Scripting Vulnerability
 CVE-2025-9103 - ZenCart CKEditor Cross-Site Scripting Vulnerability
 CVE-2025-9104 - Portabilis i-Diario Cross-Site Scripting Vulnerability
-CVE-2025-9102 - "11 Mail  Media mail.com App Android Improper Component Export Vulnerability"
+CVE-2025-9102 - "11 Mail Media mail.com App Android Improper Component Export Vulnerability"
 CVE-2025-9101 - Zhenfeng13 My-Blog Cross-Site Scripting Vulnerability
 CVE-2025-9100 - Zhenfeng13 My-Blog Authentication Bypass Vulnerability
 CVE-2025-31713 - F5 Networks Engineer Mode Command Injection Vulnerability
@@ -2091,7 +2097,7 @@ CVE-2025-54749 - Crocoblock JetProductGallery Cross-site Scripting
 CVE-2025-54730 - PARETO Digital Embedder for Google Reviews Missing Authorization Vulnerability
 CVE-2025-54732 - Shahjada WPDM Premium Packages CSRF Vulnerability
 CVE-2025-54712 - Hashthemes Easy Elementor Addons Missing Authorization Vulnerability
-CVE-2025-54715 - UKR Solution Barcode Scanner with Inventory  Order Manager Path Traversal
+CVE-2025-54715 - UKR Solution Barcode Scanner with Inventory Order Manager Path Traversal
 CVE-2025-54717 - e-Plugins WP Membership Missing Authorization Vulnerability
 CVE-2025-54727 - CreativeMindsSolutions CM On Demand Search And Replace Stored Cross-site Scripting
 CVE-2025-54728 - CreativeMindsSolutions CM On Demand Search And Replace CSRF Vulnerability
@@ -3355,7 +3361,7 @@ CVE-2025-8468 - Code-projects Wazifa System SQL Injection Vulnerability
 CVE-2025-7500 - WordPress Ocean Social Sharing Plugin Stored Cross-Site Scripting Vulnerability
 CVE-2025-7710 - "Brave Conversion Engine WordPress Facebook Authentication Bypass"
 CVE-2025-8467 - Code-Projects Wazifa System SQL Injection Vulnerability
-CVE-2025-8488 - Elementor Header  Footer Builder Unauthorized Data Modification Vulnerability
+CVE-2025-8488 - Elementor Header Footer Builder Unauthorized Data Modification Vulnerability
 CVE-2025-6722 - BitFire Security - WordPress Firewall, WAF, Bot/Spam Blocker, Login Security Sensitive Information Exposure
 CVE-2025-6832 - WordPress All in One Time Clock Lite Reflected Cross-Site Scripting
 CVE-2025-8391 - WordPress Magic Edge Lite Stored Cross-Site Scripting Vulnerability
@@ -3835,7 +3841,7 @@ CVE-2025-54423 - Copyparty Cross-Site Scripting (XSS) Vulnerability
 CVE-2025-8194 - Apache CPython TarFile Infinite Loop Deadlock
 CVE-2025-8283 - "Podman Netavark DNS Hijacking Vulnerability"
 CVE-2025-50484 - PHPGurukul Small CRM Session Hijacking Vulnerability
-CVE-2025-50487 - PHPGurukul Blood Bank  Donor Management System Session Hijacking Vulnerability
+CVE-2025-50487 - PHPGurukul Blood Bank Donor Management System Session Hijacking Vulnerability
 CVE-2025-43023 - HP Linux Imaging and Printing Software DSA Code Signing Key Weakness
 CVE-2025-50488 - PHPGurukul Online Library Management System Session Hijacking Vuln
 CVE-2025-50489 - PHPGurukul Student Result Management System Session Hijacking Vulnerability
@@ -4107,7 +4113,7 @@ CVE-2025-8015 - "WordPress Shortcodes Ultimate Stored Cross-Site Scripting"
 CVE-2025-8018 - Code-projects Food Ordering Review System SQL Injection Vulnerability
 CVE-2025-4878 - A vulnerability was found in libssh, where an unin
 CVE-2025-51858 - Self Cross-Site Scripting (XSS) vulnerability in C
-CVE-2015-10140 - The Ajax Load More plugin before 2.8.1.2 does not 
+CVE-2015-10140 - The Ajax Load More plugin before 2.8.1.2 does not
 CVE-2025-4294 - Improper Neutralization of Input During Web Page G
 CVE-2025-4295 - Improper Validation of Certificate with Host Misma
 CVE-2025-51867 - Insecure Direct Object Reference (IDOR) vulnerabil
@@ -4119,15 +4125,15 @@ CVE-2025-34143 - An authentication bypass vulnerability exists in E
 CVE-2025-4284 - Improper Neutralization of Input During Web Page G
 CVE-2025-4285 - Improper Neutralization of Special Elements used i
 CVE-2025-7705 - : Active Debug Code vulnerability in ABB Switch Ac
-CVE-2025-7899 - The powermail extension for TYPO3 allows Insecure 
-CVE-2025-7900 - The femanager extension for TYPO3 allows Insecure 
-CVE-2025-46267 - Hidden functionality issue exists in WRC-BE36QS-B 
+CVE-2025-7899 - The powermail extension for TYPO3 allows Insecure
+CVE-2025-7900 - The femanager extension for TYPO3 allows Insecure
+CVE-2025-46267 - Hidden functionality issue exists in WRC-BE36QS-B
 CVE-2025-53472 - WRC-BE36QS-B and WRC-W701-B contain an improper ne
 CVE-2025-6082 - The Birth Chart Compatibility plugin for WordPress
-CVE-2025-6187 - The bSecure plugin for WordPress is vulnerable to 
+CVE-2025-6187 - The bSecure plugin for WordPress is vulnerable to
 CVE-2025-6213 - The Nginx Cache Purge Preload plugin for WordPress
 CVE-2025-7427 - Uncontrolled Search Path Element in Arm Developmen
-CVE-2025-7685 - The Like  Share My Site plugin for WordPress is v
+CVE-2025-7685 - The Like Share My Site plugin for WordPress is v
 CVE-2025-7687 - The Latest Post Accordian Slider plugin for WordPr
 CVE-2025-7692 - The Orion Login with SMS plugin for WordPress is v
 CVE-2025-38352 - Linux Kernel POSIX CPU Timers Race Condition Vulnerability
@@ -4146,13 +4152,13 @@ CVE-2025-54358 - Rejected reason: Not used
 CVE-2025-54359 - Rejected reason: Not used
 CVE-2025-54360 - Rejected reason: Not used
 CVE-2025-54361 - Rejected reason: Not used
-CVE-2025-7945 - A vulnerability was found in D-Link DIR-513 up to 
+CVE-2025-7945 - A vulnerability was found in D-Link DIR-513 up to
 Fuite de données chez France Travail
 CVE-2025-7486 - The Ebook Store plugin for WordPress is vulnerable
 CVE-2025-7943 - A vulnerability was found in PHPGurukul Taxi Stand
 CVE-2025-7944 - A vulnerability was found in PHPGurukul Taxi Stand
 CVE-2025-7941 - A vulnerability, which was classified as problemat
-CVE-2025-7942 - A vulnerability has been found in PHPGurukul Taxi 
+CVE-2025-7942 - A vulnerability has been found in PHPGurukul Taxi
 CVE-2025-53528 - Cadwyn creates production-ready community-driven m
 CVE-2025-53832 - Lara Translate MCP Server is a Model Context Proto
 CVE-2025-54122 - Manager-io/Manager is accounting software. A criti
@@ -4162,14 +4168,14 @@ CVE-2025-54129 - HAXiam is a packaging wrapper for HAXcms which all
 CVE-2025-54134 - HAX CMS NodeJs allows users to manage their micros
 CVE-2025-7939 - A vulnerability was found in jerryshensjf JPACooki
 CVE-2025-7940 - A vulnerability was found in Genshin Albedo Cat Ho
-CVE-2025-7318 - IrfanView CADImage Plugin DWG File Parsing Memory 
+CVE-2025-7318 - IrfanView CADImage Plugin DWG File Parsing Memory
 CVE-2025-7319 - IrfanView CADImage Plugin DWG File Parsing Out-Of-
-CVE-2025-7320 - IrfanView CADImage Plugin DXF File Parsing Memory 
-CVE-2025-7321 - IrfanView CADImage Plugin DWG File Parsing Memory 
+CVE-2025-7320 - IrfanView CADImage Plugin DXF File Parsing Memory
+CVE-2025-7321 - IrfanView CADImage Plugin DWG File Parsing Memory
 CVE-2025-7322 - IrfanView CADImage Plugin DWG File Parsing Out-Of-
-CVE-2025-7323 - IrfanView CADImage Plugin DWG File Parsing Memory 
+CVE-2025-7323 - IrfanView CADImage Plugin DWG File Parsing Memory
 CVE-2025-7324 - IrfanView CADImage Plugin DXF File Parsing Out-Of-
-CVE-2025-7325 - IrfanView CADImage Plugin DXF File Parsing Memory 
+CVE-2025-7325 - IrfanView CADImage Plugin DXF File Parsing Memory
 CVE-2025-7936 - A vulnerability has been found in fuyang_lipengjun
 CVE-2025-7938 - A vulnerability was found in jerryshensjf JPACooki
 CVE-2025-4049 - Signum-Net FARA SQLite Hard-Coded Credentials Vulnerability
@@ -4740,8 +4746,8 @@ CVE-2025-24477 - Fortinet FortiOS Heap-Based Buffer Overflow Privilege Escalatio
 CVE-2025-3621 - ProTNS ActADUR Remote Code Inclusion and Command Injection
 CVE-2025-7672 - JiranSoft CrossEditor4 Stored XSS Vulnerability
 CVE-2025-7340 - "Elementor HT Contact Form Widget File Upload Vulnerability"
-CVE-2025-7341 - Elementor Page Builder  Gutenberg Blocks  Form Builder File Deletion Vulnerability
-CVE-2025-7360 - Elementor Page Builder  Gutenberg Blocks  Form Builder HT Contact Form Widget File Moving Vulnerability
+CVE-2025-7341 - Elementor Page Builder Gutenberg Blocks Form Builder File Deletion Vulnerability
+CVE-2025-7360 - Elementor Page Builder Gutenberg Blocks Form Builder HT Contact Form Widget File Moving Vulnerability
 CVE-2025-7367 - WordPress Strong Testimonials Stored Cross-Site Scripting
 CVE-2025-5393 - WordPress Alone Charity Multipurpose Non-profit Theme Arbitrary File Deletion Vulnerability
 CVE-2025-5394 - Alone – Charity Multipurpose Non-profit WordPress Theme Unauthenticated Arbitrary File Upload Vulnerability
@@ -4888,10 +4894,10 @@ CVE-2025-7545 - "GNU Binutils Heap-Based Buffer Overflow"
 CVE-2025-7546 - GNU Binutils Out-of-Bounds Write Vulnerability
 CVE-2024-58258 - SugarCRM SSRF Vulnerability
 CVE-2025-6491 - Apache PHP SOAP XML Namespace Prefix Overflow Vulnerability
-CVE-2025-7543 - PHPGurukul User Registration  Login and User Management System SQL Injection Vulnerability
+CVE-2025-7543 - PHPGurukul User Registration Login and User Management System SQL Injection Vulnerability
 CVE-2025-7544 - Tenda AC1206 Stack-Based Buffer Overflow Vulnerability
 CVE-2025-7541 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
-CVE-2025-7542 - PHPGurukul User Registration  Login and User Management System SQL Injection Vulnerability
+CVE-2025-7542 - PHPGurukul User Registration Login and User Management System SQL Injection Vulnerability
 CVE-2025-53865 - Roundup Cross-Site Scripting Vulnerability
 CVE-2025-7539 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
 CVE-2025-7540 - Code-projects Online Appointment Booking System SQL Injection Vulnerability
@@ -5327,7 +5333,7 @@ CVE-2025-7219 - Campcodes Payroll Management System SQL Injection
 CVE-2025-7215 - FNKvision FNK-GU2 Cleartext Storage of Sensitive Information Vulnerability
 CVE-2025-7216 - "Lty628 Aidigu PHP Object Handler Deserialization Vulnerability"
 CVE-2025-7217 - Campcodes Payroll Management System SQL Injection Vulnerability
-CVE-2025-4606 - Sala - Startup  SaaS WordPress Theme Privilege Escalation Vulnerability
+CVE-2025-4606 - Sala - Startup SaaS WordPress Theme Privilege Escalation Vulnerability
 CVE-2025-7059 - WordPress Simple Featured Image Stored Cross-Site Scripting
 CVE-2025-7214 - FNKvision FNK-GU2 MD5 Cryptographic Algorithm Vulnerability
 CVE-2025-53685 - Apache HTTP Server Remote Code Execution
@@ -5975,7 +5981,7 @@ CVE-2025-6783 - WordPress GoZen Forms SQL Injection
 CVE-2025-6786 - DocCheck Login for WordPress Information Disclosure
 CVE-2025-6787 - WordPress Smart Docs Stored Cross-Site Scripting
 CVE-2025-6814 - Booking X WordPress Unauthorized Data Access Vulnerability
-CVE-2025-7046 - Elementor  Image Gallery PowerFolio WordPress Stored Cross-Site Scripting Vulnerability
+CVE-2025-7046 - Elementor Image Gallery PowerFolio WordPress Stored Cross-Site Scripting Vulnerability
 CVE-2025-7053 - Cockpit Cross-Site Scripting Vulnerability
 CVE-2025-5322 - VikRentCar WordPress Car Rental Management System File Upload Vulnerability (Arbitrary File Upload)
 CVE-2025-49005 - Next.js App Router/Cache Poisoning Vulnerability
@@ -6012,7 +6018,7 @@ CVE-2025-50258 - Tenda AC6 Buffer Overflow Vulnerability
 CVE-2025-50260 - Tenda AC6 Buffer Overflow Vulnerability
 CVE-2025-50262 - Tenda AC6 Buffer Overflow Vulnerability
 CVE-2025-50263 - Tenda AC6 Buffer Overflow
-CVE-2025-5961 - NGINX WordPress Plugin WPvivid Backup  Migration Arbitrary File Upload Vulnerability
+CVE-2025-5961 - NGINX WordPress Plugin WPvivid Backup Migration Arbitrary File Upload Vulnerability
 CVE-2025-3702 - Melapress File Monitor Missing Authorization Vulnerability
 CVE-2025-49032 - PublishPress Gutenberg Blocks Cross-Site Scripting (XSS)
 CVE-2025-49595 - n8n Denial of Service (DoS) Vulnerability
@@ -6480,7 +6486,7 @@ CVE-2025-6763 - Comet System Web-based Management Interface Missing Authenticati
 CVE-2025-6765 - Intelbras InControl Remote File Permission Bypass Vulnerability
 CVE-2025-6761 - Kingdee Cloud-Starry-Sky Enterprise Edition Freemarker Engine Template Engine Injection Vulnerability
 CVE-2025-5398 - Ninja Forms Stored Cross-Site Scripting Vulnerability
-CVE-2024-12827 - WordPress DWT Directory  Listing Theme Privilege Escalation Vulnerability
+CVE-2024-12827 - WordPress DWT Directory Listing Theme Privilege Escalation Vulnerability
 CVE-2025-2940 - WordPress Easy Data Table Builder SSRF
 CVE-2025-4587 - WordPress A/B Testing Stored Cross-Site Scripting
 CVE-2025-5306 - Pandora FMS Command Injection Vulnerability
@@ -6492,7 +6498,7 @@ CVE-2025-6689 - "FL3R Accessibility Suite Plugin Stored XSS Vulnerability"
 CVE-2025-36529 - TB-Eye Command Injection Vulnerability
 CVE-2025-41418 - TB-eye Network Recorders/AHD Recorders Buffer Overflow Vulnerability
 CVE-2025-5035 - Firelight Lightbox WordPress Stored Cross-Site Scripting Vulnerability
-CVE-2025-5093 - WordPress Responsive Lightbox  Gallery Stored Cross-Site Scripting Vulnerability
+CVE-2025-5093 - WordPress Responsive Lightbox Gallery Stored Cross-Site Scripting Vulnerability
 CVE-2025-5194 - WordPress Map Block Stored Cross-Site Scripting
 CVE-2025-5526 - BuddyPress Docs Information Disclosure Vulnerability
 CVE-2025-45737 - NetEase NeacSafe64 Elevation of Privilege
@@ -6562,7 +6568,7 @@ Fuite de données chez Pulsy
 The syzygy distinguisher élu best paper award
 Fuite de données chez Cerballiance
 Le France Cybersecurity challenge s'achève
-Bilan du volet cybersécurité de France Relance : un défi réussi 
+Bilan du volet cybersécurité de France Relance : un défi réussi
 Fuite de données chez Carrefour Mobile
 Fuite de données chez Easy Cash
 Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
