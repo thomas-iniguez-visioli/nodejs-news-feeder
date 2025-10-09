@@ -13,7 +13,9 @@ import got from 'got'
 export function md2html (md) {
   return remark.remark().use(remarkHtml).processSync(md).toString()
 }
+const cleancontent=(txt)=>{
 
+}
 export function buildTitleDate (timestamp) {
   const [date, time] = new Date(timestamp).toISOString().split('T')
   // Format: YYYY-MM-DD HH:MM:SS
