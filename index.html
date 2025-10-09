@@ -179,13 +179,13 @@
                     <hr>
                     <article>
                         <h3>
-                            CVE-2025-2934 - Allocation of Resources Without Limits or Throttling in GitLab
+                            CVE-2025-10004 - Allocation of Resources Without Limits or Throttling in GitLab
                         </h3>
                         ]]>
                             <p class="feed-time">
-                                Thu, 09 Oct 2025 11:33:00 GMT
+                                Thu, 09 Oct 2025 12:15:00 GMT
                             </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2934">
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-10004">
                                 read more
                             </a>
                     </article>
@@ -198,9 +198,39 @@
                         </h3>
                         ]]>
                             <p class="feed-time">
-                                Thu, 09 Oct 2025 11:20:00 GMT
+                                Thu, 09 Oct 2025 12:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-10249">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-11340 - Incorrect Authorization in GitLab
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-11340">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-2934 - Allocation of Resources Without Limits or Throttling in GitLab
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 12:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-2934">
                                 read more
                             </a>
                     </article>
@@ -213,9 +243,84 @@
                         </h3>
                         ]]>
                             <p class="feed-time">
-                                Thu, 09 Oct 2025 11:20:00 GMT
+                                Thu, 09 Oct 2025 12:15:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-9371">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-39960 - gpiolib: acpi: initialize acpi_gpio_info struct
+                        </h3>
+                        quirks is used in acpi_populate_gpio_lookup. This breaks the i2c_hid_cpi driver: [ 58.122916] i2c_hid_acpi i2c-UNIW0001:00: HID over i2c has not been provided an Int IRQ [ 58.123097] i2c_hid_acpi i2c-UNIW0001:00: probe with driver i2c_hid_acpi failed with error -22 Fix this by initializing the acpi_gpio_info pass to __acpi_find_gpio() Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 12:13:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39960">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-39961 - iommu/amd/pgtbl: Fix possible race while increase page table level
+                        </h3>
+                        [root/mode] without lock. So its possible that in exteme corner case, when increase_address_space() is updating pgtable->[root/mode], fetch_pte() reads wrong page table level (pgtable->mode). It does compare the value with level encoded in page table and returns NULL. This will result is iommu_unmap ops to fail and upper layer may retry/log WARN_ON. CPU 0 CPU 1 ------ ------ map pages unmap pages alloc_pte() -> increase_address_space() iommu_v1_unmap_pages() -> fetch_pte() pgtable->root = pte (new root value) READ pgtable->[mode/root] Reads new root, old mode Updates mode (pgtable->mode += 1) Since Page table level updates are infrequent and already synchronized with a spinlock, implement seqcount to enable lock-free read operations on the read path. Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 12:13:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39961">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-39962 - rxrpc: Fix untrusted unsigned subtract
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 12:13:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39962">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-39963 - io_uring: fix incorrect io_kiocb reference in io_link_skb
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 12:13:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-39963">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            Résultat de l’appel à manifestation d’intérêt
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 11:52:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cyber.gouv.fr/actualites/resultat-de-lappel-manifestation-dinteret">
                                 read more
                             </a>
                     </article>
@@ -389,6 +494,81 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-47349 - Use of Out-of-range Pointer Offset in DSP Service
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 04:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47349">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-47351 - Integer Overflow or Wraparound in DSP Service
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 04:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47351">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-47354 - Use After Free in DSP Service
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 04:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47354">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-47355 - Out-of-bounds Write in DSP Service
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 04:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47355">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-6038 - Lisfinity Core - Lisfinity Core plugin used for pebas® Lisfinity WordPress theme &lt;= 1.4.0 - Authenticated (Subscriber+) Privilege Escalation
+                        </h3>
+                        ]]>
+                            <p class="feed-time">
+                                Thu, 09 Oct 2025 04:16:00 GMT
+                            </p>
+                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6038">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-27060 - Untrusted Pointer Dereference in TZ Firmware
                         </h3>
                         ]]>
@@ -471,81 +651,6 @@
                                 Thu, 09 Oct 2025 04:16:00 GMT
                             </p>
                             <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47347">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-47349 - Use of Out-of-range Pointer Offset in DSP Service
-                        </h3>
-                        ]]>
-                            <p class="feed-time">
-                                Thu, 09 Oct 2025 04:16:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47349">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-47351 - Integer Overflow or Wraparound in DSP Service
-                        </h3>
-                        ]]>
-                            <p class="feed-time">
-                                Thu, 09 Oct 2025 04:16:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47351">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-47354 - Use After Free in DSP Service
-                        </h3>
-                        ]]>
-                            <p class="feed-time">
-                                Thu, 09 Oct 2025 04:16:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47354">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-47355 - Out-of-bounds Write in DSP Service
-                        </h3>
-                        ]]>
-                            <p class="feed-time">
-                                Thu, 09 Oct 2025 04:16:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-47355">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-6038 - Lisfinity Core - Lisfinity Core plugin used for pebas® Lisfinity WordPress theme &lt;= 1.4.0 - Authenticated (Subscriber+) Privilege Escalation
-                        </h3>
-                        ]]>
-                            <p class="feed-time">
-                                Thu, 09 Oct 2025 04:16:00 GMT
-                            </p>
-                            <a class="feed-link" href="https://cvefeed.io/vuln/detail/CVE-2025-6038">
                                 read more
                             </a>
                     </article>
@@ -3406,7 +3511,7 @@
                         <h3>
                             CVE-2023-53685 - tun: Fix memory leak for detached NAPI queue.
                         </h3>
-                        lock) `- __skb_queue_tail(queue, skb) Another solution is to call tun_queue_purge() when closing and reattaching the detached queue, but it could paper over another problems. Also, we do the same kind of test for IFF_NAPI_FRAGS. [0]: unreferenced object 0xffff88801edbc800 (size 2048): comm "syz-executor.1", pid 33269, jiffies 4295743834 (age 18.756s) hex dump (first 32 bytes): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................ 00 00 07 40 00 00 00 00 00 00 00 00 00 00 00 00 ...@............ backtrace: [] __do_kmalloc_node mm/slab_common.c:965 [inline] [] __kmalloc+0x4a/0x130 mm/slab_common.c:979 [] kmalloc include/linux/slab.h:563 [inline] [] sk_prot_alloc+0xef/0x1b0 net/core/sock.c:2035 [] sk_alloc+0x36/0x2f0 net/core/sock.c:2088 [] tun_chr_open+0x3d/0x190 drivers/net/tun.c:3438 [] misc_open+0x1a6/0x1f0 drivers/char/misc.c:165 [] chrdev_open+0x111/0x300 fs/char_dev.c:414 [] do_dentry_open+0x2f9/0x750 fs/open.c:920 [] do_open fs/namei.c:3636 [inline] [] path_openat+0x143f/0x1a30 fs/namei.c:3791 [] do_filp_open+0xce/0x1c0 fs/namei.c:3818 [] do_sys_openat2+0xf0/0x260 fs/open.c:1356 [] do_sys_open fs/open.c:1372 [inline] [] __do_sys_openat fs/open.c:1388 [inline] [] __se_sys_openat fs/open.c:1383 [inline] [] __x64_sys_openat+0x83/0xf0 fs/open.c:1383 [] do_syscall_x64 arch/x86/entry/common.c:50 [inline] [] do_syscall_64+0x3c/0x90 arch/x86/entry/common.c:80 [] entry_SYSCALL_64_after_hwframe+0x72/0xdc unreferenced object 0xffff88802f671700 (size 240): comm "syz-executor.1", pid 33269, jiffies 4295743854 (age 18.736s) hex dump (first 32 bytes): 68 c9 db 1e 80 88 ff ff 68 c9 db 1e 80 88 ff ff h.......h....... 00 c0 7b 2f 80 88 ff ff 00 c8 db 1e 80 88 ff ff ..{/............ backtrace: [] __alloc_skb+0x223/0x250 net/core/skbuff.c:644 [] alloc_skb include/linux/skbuff.h:1288 [inline] [] alloc_skb_with_frags+0x6f/0x350 net/core/skbuff.c:6378 [] sock_alloc_send_pskb+0x3ac/0x3e0 net/core/sock.c:2729 [] tun_alloc_skb drivers/net/tun.c:1529 [inline] [ Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        ]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Tue, 07 Oct 2025 16:15:00 GMT
                             </p>
@@ -37996,7 +38101,7 @@
                         <h3>
                             CVE-2025-40570 - Siemens SIPROTEC 5 USB Port Bandwidth Exhaustion Vulnerability
                         </h3>
-                        = V7.80 V10.0), SIPROTEC 5 7SD82 (CP150) (All versions V10.0), SIPROTEC 5 7SD86 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SD87 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SJ81 (CP150) (All versions V10.0), SIPROTEC 5 7SJ82 (CP150) (All versions V10.0), SIPROTEC 5 7SJ85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SJ86 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SK82 (CP150) (All versions V10.0), SIPROTEC 5 7SK85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SL82 (CP150) (All versions V10.0), SIPROTEC 5 7SL86 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SL87 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SS85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7ST85 (CP300) (All versions V10.0), SIPROTEC 5 7ST86 (CP300) (All versions V10.0), SIPROTEC 5 7SX82 (CP150) (All versions V10.0), SIPROTEC 5 7SX85 (CP300) (All versions V10.0), SIPROTEC 5 7SY82 (CP150) (All versions V10.0), SIPROTEC 5 7UM85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7UT82 (CP150) (All versions V10.0), SIPROTEC 5 7UT85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7UT86 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7UT87 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7VE85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7VK87 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7VU85 (CP300) (All versions V10.0), SIPROTEC 5 Compact 7SX800 (CP050) (All versions V10.0). Affected devices do not properly limit the bandwidth for incoming network packets over their local USB port. This could allow an attacker with physical access to send specially crafted packets with high bandwidth to the affected devices thus forcing them to exhaust their memory and stop responding to any network traffic via the local USB port. Affected devices reset themselves automatically after a successful attack. The protection function is not affected of this vulnerability. Severity: 2.4 | LOW Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        = V7.80 V10.0), SIPROTEC 5 7SD87 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SJ81 (CP150) (All versions V10.0), SIPROTEC 5 7SJ82 (CP150) (All versions V10.0), SIPROTEC 5 7SJ85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SJ86 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SK82 (CP150) (All versions V10.0), SIPROTEC 5 7SK85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SL82 (CP150) (All versions V10.0), SIPROTEC 5 7SL86 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SL87 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7SS85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7ST85 (CP300) (All versions V10.0), SIPROTEC 5 7ST86 (CP300) (All versions V10.0), SIPROTEC 5 7SX82 (CP150) (All versions V10.0), SIPROTEC 5 7SX85 (CP300) (All versions V10.0), SIPROTEC 5 7SY82 (CP150) (All versions V10.0), SIPROTEC 5 7UM85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7UT82 (CP150) (All versions V10.0), SIPROTEC 5 7UT85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7UT86 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7UT87 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7VE85 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7VK87 (CP300) (All versions >= V7.80 V10.0), SIPROTEC 5 7VU85 (CP300) (All versions V10.0), SIPROTEC 5 Compact 7SX800 (CP050) (All versions V10.0). Affected devices do not properly limit the bandwidth for incoming network packets over their local USB port. This could allow an attacker with physical access to send specially crafted packets with high bandwidth to the affected devices thus forcing them to exhaust their memory and stop responding to any network traffic via the local USB port. Affected devices reset themselves automatically after a successful attack. The protection function is not affected of this vulnerability. Severity: 2.4 | LOW Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Tue, 12 Aug 2025 12:15:00 GMT
                             </p>
@@ -78496,7 +78601,7 @@
                         <h3>
                             CVE-2025-38345 - &#34;Intel Virtual Box ACPICA Illegal I/O Port Address/Length Vulnerability&#34;
                         </h3>
-                        [ 0.597858] ACPI: Unable to start the ACPI Interpreter >[ 0.599162] ACPI Error: Could not remove SCI handler (20170303/evmisc-281) >[ 0.601836] kmem_cache_destroy Acpi-Operand: Slab cache still has objects >[ 0.603556] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.12.0-rc5 #26 >[ 0.605159] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS virtual_box 12/01/2006 >[ 0.609177] Call Trace: >[ 0.610063] ? dump_stack+0x5c/0x81 >[ 0.611118] ? kmem_cache_destroy+0x1aa/0x1c0 >[ 0.612632] ? acpi_sleep_proc_init+0x27/0x27 >[ 0.613906] ? acpi_os_delete_cache+0xa/0x10 >[ 0.617986] ? acpi_ut_delete_caches+0x3f/0x7b >[ 0.619293] ? acpi_terminate+0xa/0x14 >[ 0.620394] ? acpi_init+0x2af/0x34f >[ 0.621616] ? __class_create+0x4c/0x80 >[ 0.623412] ? video_setup+0x7f/0x7f >[ 0.624585] ? acpi_sleep_proc_init+0x27/0x27 >[ 0.625861] ? do_one_initcall+0x4e/0x1a0 >[ 0.627513] ? kernel_init_freeable+0x19e/0x21f >[ 0.628972] ? rest_init+0x80/0x80 >[ 0.630043] ? kernel_init+0xa/0x100 >[ 0.631084] ? ret_from_fork+0x25/0x30 >[ 0.633343] vgaarb: loaded >[ 0.635036] EDAC MC: Ver: 3.0.0 >[ 0.638601] PCI: Probing PCI hardware >[ 0.639833] PCI host bridge to bus 0000:00 >[ 0.641031] pci_bus 0000:00: root bus resource [io 0x0000-0xffff] > ... Continue to boot and log is omitted ... I analyzed this memory leak in detail and found acpi_ds_obj_stack_pop_and_ delete() function miscalculated the top of the stack. acpi_ds_obj_stack_push() function uses walk_state->operand_index for start position of the top, but acpi_ds_obj_stack_pop_and_delete() function considers index 0 for it. Therefore, this causes acpi operand memory leak. This cache leak causes a security threat because an old kernel ( 4.9) shows memory locations of kernel functions in stack dump. Some malicious users could use this information to neutralize kernel ASLR. I made a patch to fix ACPI operand cache leak. Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        [ 0.599162] ACPI Error: Could not remove SCI handler (20170303/evmisc-281) >[ 0.601836] kmem_cache_destroy Acpi-Operand: Slab cache still has objects >[ 0.603556] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.12.0-rc5 #26 >[ 0.605159] Hardware name: innotek gmb_h virtual_box/virtual_box, BIOS virtual_box 12/01/2006 >[ 0.609177] Call Trace: >[ 0.610063] ? dump_stack+0x5c/0x81 >[ 0.611118] ? kmem_cache_destroy+0x1aa/0x1c0 >[ 0.612632] ? acpi_sleep_proc_init+0x27/0x27 >[ 0.613906] ? acpi_os_delete_cache+0xa/0x10 >[ 0.617986] ? acpi_ut_delete_caches+0x3f/0x7b >[ 0.619293] ? acpi_terminate+0xa/0x14 >[ 0.620394] ? acpi_init+0x2af/0x34f >[ 0.621616] ? __class_create+0x4c/0x80 >[ 0.623412] ? video_setup+0x7f/0x7f >[ 0.624585] ? acpi_sleep_proc_init+0x27/0x27 >[ 0.625861] ? do_one_initcall+0x4e/0x1a0 >[ 0.627513] ? kernel_init_freeable+0x19e/0x21f >[ 0.628972] ? rest_init+0x80/0x80 >[ 0.630043] ? kernel_init+0xa/0x100 >[ 0.631084] ? ret_from_fork+0x25/0x30 >[ 0.633343] vgaarb: loaded >[ 0.635036] EDAC MC: Ver: 3.0.0 >[ 0.638601] PCI: Probing PCI hardware >[ 0.639833] PCI host bridge to bus 0000:00 >[ 0.641031] pci_bus 0000:00: root bus resource [io 0x0000-0xffff] > ... Continue to boot and log is omitted ... I analyzed this memory leak in detail and found acpi_ds_obj_stack_pop_and_ delete() function miscalculated the top of the stack. acpi_ds_obj_stack_push() function uses walk_state->operand_index for start position of the top, but acpi_ds_obj_stack_pop_and_delete() function considers index 0 for it. Therefore, this causes acpi operand memory leak. This cache leak causes a security threat because an old kernel ( 4.9) shows memory locations of kernel functions in stack dump. Some malicious users could use this information to neutralize kernel ASLR. I made a patch to fix ACPI operand cache leak. Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Thu, 10 Jul 2025 09:15:00 GMT
                             </p>
@@ -78541,7 +78646,7 @@
                         <h3>
                             CVE-2025-38348 - &#34;Intersil p54 WiFi Interface Buffer Overflow Vulnerability&#34;
                         </h3>
-                        eeprom, eeprom->v2.data, | le16_to_cpu(eeprom->v2.len)); | } else { | memcpy(priv->eeprom, eeprom->v1.data, | le16_to_cpu(eeprom->v1.len)); | } | [...] The eeprom->v{1,2}.len is set by the driver in p54_download_eeprom(). The device is supposed to provide the same length back to the driver. But yes, it's possible (like shown in the report) to alter the value to something that causes a crash/panic due to overrun. This patch addresses the issue by adding the size to the common device context, so p54_rx_eeprom_readback no longer relies on possibly tampered values... That said, it also checks if the "firmware" altered the value and no longer copies them. The one, small saving grace is: Before the driver tries to read the eeprom, it needs to upload >a firmware. the vendor firmware has a proprietary license and as a reason, it is not present on most distributions by default. Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        v2.data, | le16_to_cpu(eeprom->v2.len)); | } else { | memcpy(priv->eeprom, eeprom->v1.data, | le16_to_cpu(eeprom->v1.len)); | } | [...] The eeprom->v{1,2}.len is set by the driver in p54_download_eeprom(). The device is supposed to provide the same length back to the driver. But yes, it's possible (like shown in the report) to alter the value to something that causes a crash/panic due to overrun. This patch addresses the issue by adding the size to the common device context, so p54_rx_eeprom_readback no longer relies on possibly tampered values... That said, it also checks if the "firmware" altered the value and no longer copies them. The one, small saving grace is: Before the driver tries to read the eeprom, it needs to upload >a firmware. the vendor firmware has a proprietary license and as a reason, it is not present on most distributions by default. Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Thu, 10 Jul 2025 09:15:00 GMT
                             </p>
@@ -79906,7 +80011,7 @@
                         <h3>
                             CVE-2025-38263 - Linux bcache NULL Pointer Dereference Vulnerability
                         </h3>
-                        uuids = alloc_bucket_pages(GFP_KERNEL, c)) || 1869 !(c->moving_gc_wq = alloc_workqueue("bcache_gc", 1870 WQ_MEM_RECLAIM, 0)) || 1871 bch_journal_alloc(c) || 1872 bch_btree_cache_alloc(c) || 1873 bch_open_buckets_alloc(c) || 1874 bch_bset_sort_state_init(&c->sort, ilog2(c->btree_pages))) 1875 goto err; ^^^^^^^^ 1876 ... 1883 return c; 1884 err: 1885 bch_cache_set_unregister(c); ^^^^^^^^^^^^^^^^^^^^^^^^^^^ 1886 return NULL; 1887 } ... 2078 static const char *register_cache_set(struct cache *ca) 2079 { ... 2098 c = bch_cache_set_alloc(&ca->sb); 2099 if (!c) 2100 return err; ^^^^^^^^^^ ... 2128 ca->set = c; 2129 ca->set->cache[ca->sb.nr_this_dev] = ca; ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ... 2138 return NULL; 2139 err: 2140 bch_cache_set_unregister(c); 2141 return err; 2142 } (1) If LINE#1860 - LINE#1874 is true, then do 'goto err'(LINE#1875) and call bch_cache_set_unregister()(LINE#1885). (2) As (1) return NULL(LINE#1886), LINE#2098 - LINE#2100 would return. (3) As (2) has returned, LINE#2128 - LINE#2129 would do *not* give the value to c->cache[], it means that c->cache[] is NULL. LINE#1624 - LINE#1665 is some codes about function of cache_set_flush(). As (1), in LINE#1885 call bch_cache_set_unregister() ---> bch_cache_set_stop() ---> closure_queue() -.-> cache_set_flush() (as below LINE#1624) 1624 static void cache_set_flush(struct closure *cl) 1625 { ... 1654 for_each_cache(ca, c, i) 1655 if (ca->alloc_thread) ^^ 1656 kthread_stop(ca->alloc_thread); ... 1665 } (4) In LINE#1655 ca is NULL(see (3)) in cache_set_flush() then the kernel crash occurred as below: [ 846.712887] bcache: register_cache() error drbd6: cannot allocate memory [ 846.713242] bcache: register_bcache() error : failed to register device [ 846.713336] bcache: cache_set_free() Cache set 2f84bdc1-498a-4f2f-98a7-01946bf54287 unregistered [ 846.713768] BUG: unable to handle kernel NULL pointer dereference at 00000000000009f8 [ 846.714790] PGD 0 P4D 0 [ 846.715129] Oops: 0000 [#1] SMP PTI [ 846.715472] CPU: 19 PID: 5057 Comm: kworker/19:16 Kdump: loaded Tainted: G OE --------- - - 4.18.0-147.5.1.el8_1.5es.3.x86_64 #1 [ 846.716082] Hardware name: ESPAN GI-25212/X11DPL-i, BIOS 2.1 06/15/2018 [ 846.716451] Workqueue: events cache_set_flush [bcache] [ 846.716808] RIP: 0010:cache_set_flush+0xc9/0x1b0 [bcache] [ 846.717155] Code: 00 4c 89 a5 b0 03 00 00 48 8b 85 68 f6 ff ff a8 08 0f 84 88 00 00 00 31 db 66 83 bd 3c f7 ff ff 00 48 8b 85 48 ff ff ff 74 28 8b b8 f8 09 00 0 ---truncated--- Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        moving_gc_wq = alloc_workqueue("bcache_gc", 1870 WQ_MEM_RECLAIM, 0)) || 1871 bch_journal_alloc(c) || 1872 bch_btree_cache_alloc(c) || 1873 bch_open_buckets_alloc(c) || 1874 bch_bset_sort_state_init(&c->sort, ilog2(c->btree_pages))) 1875 goto err; ^^^^^^^^ 1876 ... 1883 return c; 1884 err: 1885 bch_cache_set_unregister(c); ^^^^^^^^^^^^^^^^^^^^^^^^^^^ 1886 return NULL; 1887 } ... 2078 static const char *register_cache_set(struct cache *ca) 2079 { ... 2098 c = bch_cache_set_alloc(&ca->sb); 2099 if (!c) 2100 return err; ^^^^^^^^^^ ... 2128 ca->set = c; 2129 ca->set->cache[ca->sb.nr_this_dev] = ca; ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ... 2138 return NULL; 2139 err: 2140 bch_cache_set_unregister(c); 2141 return err; 2142 } (1) If LINE#1860 - LINE#1874 is true, then do 'goto err'(LINE#1875) and call bch_cache_set_unregister()(LINE#1885). (2) As (1) return NULL(LINE#1886), LINE#2098 - LINE#2100 would return. (3) As (2) has returned, LINE#2128 - LINE#2129 would do *not* give the value to c->cache[], it means that c->cache[] is NULL. LINE#1624 - LINE#1665 is some codes about function of cache_set_flush(). As (1), in LINE#1885 call bch_cache_set_unregister() ---> bch_cache_set_stop() ---> closure_queue() -.-> cache_set_flush() (as below LINE#1624) 1624 static void cache_set_flush(struct closure *cl) 1625 { ... 1654 for_each_cache(ca, c, i) 1655 if (ca->alloc_thread) ^^ 1656 kthread_stop(ca->alloc_thread); ... 1665 } (4) In LINE#1655 ca is NULL(see (3)) in cache_set_flush() then the kernel crash occurred as below: [ 846.712887] bcache: register_cache() error drbd6: cannot allocate memory [ 846.713242] bcache: register_bcache() error : failed to register device [ 846.713336] bcache: cache_set_free() Cache set 2f84bdc1-498a-4f2f-98a7-01946bf54287 unregistered [ 846.713768] BUG: unable to handle kernel NULL pointer dereference at 00000000000009f8 [ 846.714790] PGD 0 P4D 0 [ 846.715129] Oops: 0000 [#1] SMP PTI [ 846.715472] CPU: 19 PID: 5057 Comm: kworker/19:16 Kdump: loaded Tainted: G OE --------- - - 4.18.0-147.5.1.el8_1.5es.3.x86_64 #1 [ 846.716082] Hardware name: ESPAN GI-25212/X11DPL-i, BIOS 2.1 06/15/2018 [ 846.716451] Workqueue: events cache_set_flush [bcache] [ 846.716808] RIP: 0010:cache_set_flush+0xc9/0x1b0 [bcache] [ 846.717155] Code: 00 4c 89 a5 b0 03 00 00 48 8b 85 68 f6 ff ff a8 08 0f 84 88 00 00 00 31 db 66 83 bd 3c f7 ff ff 00 48 8b 85 48 ff ff ff 74 28 8b b8 f8 09 00 0 ---truncated--- Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Wed, 09 Jul 2025 11:15:00 GMT
                             </p>
@@ -79981,7 +80086,7 @@
                         <h3>
                             CVE-2025-38244 - Samba SMB vulnerability - Deadlock in SMB Client
                         </h3>
-                        #0 (&tcp_ses->srv_lock){+.+.}-{3:3}: check_noncircular+0x95/0xc0 check_prev_add+0x115/0x2f0 validate_chain+0x1cf/0x270 __lock_acquire+0x60e/0x780 lock_acquire.part.0+0xb4/0x1f0 _raw_spin_lock+0x2f/0x40 cifs_signal_cifsd_for_reconnect+0x134/0x200 __cifs_reconnect+0x8f/0x500 cifs_handle_standard+0x112/0x280 cifs_demultiplex_thread+0x64d/0xbc0 kthread+0x2f7/0x310 ret_from_fork+0x2a/0x230 ret_from_fork_asm+0x1a/0x30 other info that might help us debug this: Chain exists of: &tcp_ses->srv_lock --> &ret_buf->ses_lock --> &ret_buf->chan_lock Possible unsafe locking scenario: CPU0 CPU1 ---- ---- lock(&ret_buf->chan_lock); lock(&ret_buf->ses_lock); lock(&ret_buf->chan_lock); lock(&tcp_ses->srv_lock); *** DEADLOCK *** 3 locks held by cifsd/6055: #0: ffffffff857de398 (&cifs_tcp_ses_lock){+.+.}-{3:3}, at: cifs_signal_cifsd_for_reconnect+0x7b/0x200 #1: ffff888119c64060 (&ret_buf->ses_lock){+.+.}-{3:3}, at: cifs_signal_cifsd_for_reconnect+0x9c/0x200 #2: ffff888119c64330 (&ret_buf->chan_lock){+.+.}-{3:3}, at: cifs_signal_cifsd_for_reconnect+0xcf/0x200 Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        srv_lock){+.+.}-{3:3}: check_noncircular+0x95/0xc0 check_prev_add+0x115/0x2f0 validate_chain+0x1cf/0x270 __lock_acquire+0x60e/0x780 lock_acquire.part.0+0xb4/0x1f0 _raw_spin_lock+0x2f/0x40 cifs_signal_cifsd_for_reconnect+0x134/0x200 __cifs_reconnect+0x8f/0x500 cifs_handle_standard+0x112/0x280 cifs_demultiplex_thread+0x64d/0xbc0 kthread+0x2f7/0x310 ret_from_fork+0x2a/0x230 ret_from_fork_asm+0x1a/0x30 other info that might help us debug this: Chain exists of: &tcp_ses->srv_lock --> &ret_buf->ses_lock --> &ret_buf->chan_lock Possible unsafe locking scenario: CPU0 CPU1 ---- ---- lock(&ret_buf->chan_lock); lock(&ret_buf->ses_lock); lock(&ret_buf->chan_lock); lock(&tcp_ses->srv_lock); *** DEADLOCK *** 3 locks held by cifsd/6055: #0: ffffffff857de398 (&cifs_tcp_ses_lock){+.+.}-{3:3}, at: cifs_signal_cifsd_for_reconnect+0x7b/0x200 #1: ffff888119c64060 (&ret_buf->ses_lock){+.+.}-{3:3}, at: cifs_signal_cifsd_for_reconnect+0x9c/0x200 #2: ffff888119c64330 (&ret_buf->chan_lock){+.+.}-{3:3}, at: cifs_signal_cifsd_for_reconnect+0xcf/0x200 Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Wed, 09 Jul 2025 11:15:00 GMT
                             </p>
@@ -88501,7 +88606,7 @@
                         <h3>
                             CVE-2025-38234 - Linux Kernel Sched/rt: Push Rt Task Race Vulnerability
                         </h3>
-                        nr_running) Call Trace: ? __die_body+0x1a/0x60 ? die+0x2a/0x50 ? do_trap+0x85/0x100 ? dequeue_top_rt_rq+0xa2/0xb0 ? do_error_trap+0x64/0xa0 ? dequeue_top_rt_rq+0xa2/0xb0 ? exc_invalid_op+0x4c/0x60 ? dequeue_top_rt_rq+0xa2/0xb0 ? asm_exc_invalid_op+0x12/0x20 ? dequeue_top_rt_rq+0xa2/0xb0 dequeue_rt_entity+0x1f/0x70 dequeue_task_rt+0x2d/0x70 __schedule+0x1a8/0x7e0 ? blk_finish_plug+0x25/0x40 schedule+0x3c/0xb0 futex_wait_queue_me+0xb6/0x120 futex_wait+0xd9/0x240 do_futex+0x344/0xa90 ? get_mm_exe_file+0x30/0x60 ? audit_exe_compare+0x58/0x70 ? audit_filter_rules.constprop.26+0x65e/0x1220 __x64_sys_futex+0x148/0x1f0 do_syscall_64+0x30/0x80 entry_SYSCALL_64_after_hwframe+0x62/0xc7 -> BUG: unable to handle page fault for address: ffff8cf3608bc2c0 Call Trace: ? __die_body+0x1a/0x60 ? no_context+0x183/0x350 ? spurious_kernel_fault+0x171/0x1c0 ? exc_page_fault+0x3b6/0x520 ? plist_check_list+0x15/0x40 ? plist_check_list+0x2e/0x40 ? asm_exc_page_fault+0x1e/0x30 ? _cond_resched+0x15/0x30 ? futex_wait_queue_me+0xc8/0x120 ? futex_wait+0xd9/0x240 ? try_to_wake_up+0x1b8/0x490 ? futex_wake+0x78/0x160 ? do_futex+0xcd/0xa90 ? plist_check_list+0x15/0x40 ? plist_check_list+0x2e/0x40 ? plist_del+0x6a/0xd0 ? plist_check_list+0x15/0x40 ? plist_check_list+0x2e/0x40 ? dequeue_pushable_task+0x20/0x70 ? __schedule+0x382/0x7e0 ? asm_sysvec_reschedule_i ---truncated--- Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        BUG: unable to handle page fault for address: ffff8cf3608bc2c0 Call Trace: ? __die_body+0x1a/0x60 ? no_context+0x183/0x350 ? spurious_kernel_fault+0x171/0x1c0 ? exc_page_fault+0x3b6/0x520 ? plist_check_list+0x15/0x40 ? plist_check_list+0x2e/0x40 ? asm_exc_page_fault+0x1e/0x30 ? _cond_resched+0x15/0x30 ? futex_wait_queue_me+0xc8/0x120 ? futex_wait+0xd9/0x240 ? try_to_wake_up+0x1b8/0x490 ? futex_wake+0x78/0x160 ? do_futex+0xcd/0xa90 ? plist_check_list+0x15/0x40 ? plist_check_list+0x2e/0x40 ? plist_del+0x6a/0xd0 ? plist_check_list+0x15/0x40 ? plist_check_list+0x2e/0x40 ? dequeue_pushable_task+0x20/0x70 ? __schedule+0x382/0x7e0 ? asm_sysvec_reschedule_i ---truncated--- Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Fri, 04 Jul 2025 14:15:00 GMT
                             </p>
@@ -88576,7 +88681,7 @@
                         <h3>
                             CVE-2025-38231 - Linux Kernel NFSd NULL Pointer Dereference Vulnerability
                         </h3>
-                        wait_for_completion path), the delayed work may start before nfsd_ssc initialization finishes. Fix this by moving nfsd_ssc initialization before starting laundromat_work. Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        ]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Fri, 04 Jul 2025 14:15:00 GMT
                             </p>
@@ -90991,7 +91096,7 @@
                         <h3>
                             CVE-2025-38154 - Linux Kernel BPF Sockmap Use After Free Vulnerability
                         </h3>
-                        work); == not executed sk_psock_put(sk, psock); ... } ''' Based on the fact that we already wait for the workqueue to finish in sock_map_close() if psock is held, we simply increase the psock reference count to avoid race conditions. With this patch, if the backlog thread is running, sock_map_close() will wait for the backlog thread to complete and cancel all pending work. If no backlog running, any pending work that hasn't started by then will fail when invoked by sk_psock_get(), as the psock reference count have been zeroed, and sk_psock_drop() will cancel all jobs via cancel_delayed_work_sync(). In summary, we require synchronization to coordinate the backlog thread and close() thread. The panic I catched: ''' Workqueue: events sk_psock_backlog RIP: 0010:sock_sendmsg+0x21d/0x440 RAX: 0000000000000000 RBX: ffffc9000521fad8 RCX: 0000000000000001 ... Call Trace: ? die_addr+0x40/0xa0 ? exc_general_protection+0x14c/0x230 ? asm_exc_general_protection+0x26/0x30 ? sock_sendmsg+0x21d/0x440 ? sock_sendmsg+0x3e0/0x440 ? __pfx_sock_sendmsg+0x10/0x10 __skb_send_sock+0x543/0xb70 sk_psock_backlog+0x247/0xb80 ... ''' Severity: 0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more... ]]>]]>]]>]]>]]>]]>]]>]]>
+                        ]]>]]>]]>]]>]]>]]>]]>]]>
                             <p class="feed-time">
                                 Thu, 03 Jul 2025 09:15:00 GMT
                             </p>
