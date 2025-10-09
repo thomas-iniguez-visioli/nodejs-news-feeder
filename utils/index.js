@@ -381,16 +381,9 @@ function applyFinalCleanup(text, options) {
  * @returns {string} - Clean XML-safe string
  */
 export function cleancontent(text, options = {}) {
+  return text
   // Merge and validate configuration options
-  const validatedOptions = mergeAndValidateOptions(options)
 
-  // Process text through the cleaning pipeline
-  let cleanedText = processTextPipeline(text, validatedOptions)
-
-  // Apply final cleanup including length limiting
-  cleanedText = applyFinalCleanup(cleanedText, validatedOptions)
-
-  return cleanedText
 }
 export function buildTitleDate(timestamp) {
   const [date, time] = new Date(timestamp).toISOString().split('T')
