@@ -2,7 +2,6 @@
   "name": "nodejs-news-feeder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "private": true,
   "type": "module",
   "scripts": {
@@ -41,8 +40,10 @@
   "dependencies": {
     "@octokit/graphql": "8.2.2",
     "@ulisesgascon/rss-feed-parser": "^1.0.1",
+    "cacheable-request": "^13.0.12",
     "cheerio": "^1.1.2",
     "ejs": "3.1.10",
+    "extend": "^3.0.2",
     "gh-got": "10.0.0",
     "got": "13.0.0",
     "jsdom": "22.1.0",
@@ -51,6 +52,7 @@
     "remark": "14.0.3",
     "remark-html": "15.0.2",
     "rss-parser": "^3.13.0",
+    "unified": "^11.0.5",
     "xml-formatter": "3.6.6"
   }
 }
