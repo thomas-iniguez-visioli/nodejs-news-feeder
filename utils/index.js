@@ -66,7 +66,7 @@ export function escapeHtmlTags(text) {
 
 const getkeys = () => {
   if(existsSync(join(process.cwd(), "./blacklist.txt"))){
-    return readFileSync(join(process.cwd(), "./blacklist.txt"), "utf-8").split("\n")
+    return readFileSync(join(process.cwd(), "./blacklist.txt"), "utf-8").split("\n").map((key) => key.trim().replace("\r", ""))
   }else{
     writeFileSync(join(process.cwd(), "./blacklist.txt"), "")
     return []
@@ -81,8 +81,11 @@ const getkeys = () => {
 export function cleancontent(text, options = {}) {
   let validtext=text
   const keys=getkeys()
+  console.log(keys)
   for(const key of keys){
-    while (validtext.includes(key)){  
+    
+    while (validtext.includes(key)){
+      console.log(validtext.includes(key))  
       validtext=validtext.replace(key,"")
     }
   }

@@ -141,9 +141,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
   }
 // --- Nouvelle récupération améliorée ---
 const feedUrls = [
-  'https://cyber.gouv.fr/actualites/feed',
-  'https://cvefeed.io/rssfeed/latest.xml',
-  'https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet',
+
   'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml'
 ];
 
