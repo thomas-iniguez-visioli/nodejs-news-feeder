@@ -91,7 +91,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       timestamp:timestamp,
       title,
       content,
-      source:source.replace(/&/g,"")
+      source:source.replace(/&/g,""),link:"https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href')
     };
   });
   //console.log(JSON.stringify(jsonData,null,2));
@@ -100,7 +100,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       title: dat.title,
       description: `<![CDATA[<p>${dat.content}</p>]]>`,
       pubDate: dat.timestamp,
-      link: dat.source,
+      link: dat.link,
       guid: dat.timestamp
     })
     // Add the new item to the feed
