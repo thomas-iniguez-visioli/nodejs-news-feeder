@@ -86,7 +86,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
         return "https://bonjourlafuite.eu.org"+e
       }
     })[0]
-   
+   console.log(source)
     return {
       timestamp:timestamp,
       title,
