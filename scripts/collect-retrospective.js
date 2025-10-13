@@ -101,7 +101,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       description: `<![CDATA[<p>${dat.content}</p>]]>`,
       pubDate: dat.timestamp,
       link: dat.link,source:dat.source,
-      guid: dat.timestamp
+      guid: dat.source
     })
     // Add the new item to the feed
     
