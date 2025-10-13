@@ -108,7 +108,7 @@ export function overwriteConfig(config) {
   writeFileSync(configFile, JSON.stringify(config, null, 2))
 }
 
-export function composeFeedItem({ title, description, pubDate, link, guid }) {
+export function composeFeedItem({ title, description, pubDate, link, guid,source:link }) {
   // console.log(pubDate)
   console.log(title)
 
@@ -131,6 +131,7 @@ export function composeFeedItem({ title, description, pubDate, link, guid }) {
       <description>${cleanDescription}</description>
       <pubDate>${pubDate}</pubDate>
       <link>${link}</link>
+      <source>${source}</source>
       <guid>${guid}</guid>
     </item>
   `
