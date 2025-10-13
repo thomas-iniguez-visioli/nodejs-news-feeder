@@ -131,12 +131,7 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
       <description>${cleanDescription}</description>
       <pubDate>${pubDate}</pubDate>
       <link>${cleancontent(link,{})}</link>
-      <source>
-  <id>${source}</id>
-  <title>Fourty-Two</title>
-  <updated>2003-12-13T18:30:02Z</updated>
-  <rights>© 2005 Example, Inc.</rights>
-</source>
+    
       <guid>${guid}</guid>
     </item>
   `
