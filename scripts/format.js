@@ -27,7 +27,7 @@ const xml = getFeedContent()
 const updaterrss = (feed) => {
   // Filtrage centralisé
   var fed = filterFeedItems(feed)
- 
+   console.log(fed)
   //console.log(fed)
   return fed
 }
