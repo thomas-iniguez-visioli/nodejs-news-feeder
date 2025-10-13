@@ -108,7 +108,7 @@ export function overwriteConfig(config) {
   writeFileSync(configFile, JSON.stringify(config, null, 2))
 }
 
-export function composeFeedItem({ title, description, pubDate, link, guid,source:link }) {
+export function composeFeedItem({ title, description, pubDate, link, guid,source:"" }) {
   // console.log(pubDate)
   console.log(title)
 
