@@ -130,7 +130,7 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
       <title>${cleanTitle}</title>
       <description>${cleanDescription}</description>
       <pubDate>${pubDate}</pubDate>
-      <link>${link}</link>
+      <link>${cleancontent(link,{})}</link>
       <source>${source}</source>
       <guid>${guid}</guid>
     </item>
