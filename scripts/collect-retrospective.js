@@ -78,7 +78,13 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
       content = contentItems.join(', ');
     }
-    console.log(Array.from(entry.querySelectorAll('a')).filter((item)=>{return !item.id}).map((i)=>{return parse(i.toString()).childNodes.map((e)=>{return e.rawAttrs.split(" ")[0]})}).flat().map((i)=>{return i.replace('href="',"").replace('"',"")}))
+    console.log(Array.from(entry.querySelectorAll('a')).filter((item)=>{return !item.id}).map((i)=>{return parse(i.toString()).childNodes.map((e)=>{return e.rawAttrs.split(" ")[0]})}).flat().map((i)=>{return i.replace('href="',"").replace('"',"")}).map((e)=>{
+      if(e.startWith("http"){
+        return e 
+      }else{
+        return "https://bonjourlafuite.eu.org/"+e
+      }
+    }))
     const source = "https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href');
     return {
       timestamp:timestamp,
