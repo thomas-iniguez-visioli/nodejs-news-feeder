@@ -110,7 +110,7 @@ export function overwriteConfig(config) {
 
 export function composeFeedItem({ title, description, pubDate, link, guid,source }) {
   // console.log(pubDate)
-  console.log(title)
+  console.log(source)
 
   // Clean title and description using cleancontent function
   const cleanTitle = cleancontent(title, {
