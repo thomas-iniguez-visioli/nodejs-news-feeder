@@ -80,7 +80,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
     }
     console.log(Array.from(entry.querySelectorAll('a')).filter((item)=>{return !item.id}).map((i)=>{return parse(i.toString()).childNodes.map((e)=>{return e.rawAttrs.split(" ")[0]})}).flat().map((i)=>{return i.replace('href="',"").replace('"',"")}).map((e)=>{
       console.log(e)
-      if(e.startwith("http")){
+      if(e.startsWith("http")){
         return e 
       }else{
         return "https://bonjourlafuite.eu.org/"+e
