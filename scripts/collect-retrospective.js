@@ -79,6 +79,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       content = contentItems.join(', ');
     }
     console.log(Array.from(entry.querySelectorAll('a')).filter((item)=>{return !item.id}).map((i)=>{return parse(i.toString()).childNodes.map((e)=>{return e.rawAttrs.split(" ")[0]})}).flat().map((i)=>{return i.replace('href="',"").replace('"',"")}).map((e)=>{
+      console.log(e)
       if(e.startwith("http")){
         return e 
       }else{
