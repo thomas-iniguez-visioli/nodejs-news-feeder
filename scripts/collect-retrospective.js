@@ -78,7 +78,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
       content = contentItems.join(', ');
     }
-    const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href');
+    const source = entry.querySelector('ul li a').getAttribute('href');
     return {
       timestamp:timestamp,
       title,
