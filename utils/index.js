@@ -46,8 +46,13 @@ export function stripHtmlTags(text) {
     return text
   }
 
-  // Remove HTML tags (both opening and closing)
-  return text.replace(/<[^>]*>/g, '')
+  // Remove HTML tags (both opening and closing) using repeated replacement to avoid incomplete multi-character sanitization
+  let previous;
+  do {
+    previous = text;
+    text = text.replace(/<[^>]*>/g, '');
+  } while (text !== previous);
+  return text;
 }
 
 /**
