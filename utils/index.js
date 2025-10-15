@@ -66,7 +66,7 @@ export function escapeHtmlTags(text) {
 
 const getkeys = () => {
   if(existsSync(join(process.cwd(), "./blacklist.txt"))){
-    return readFileSync(join(process.cwd(), "./blacklist.txt"), "utf-8").split("\n").map((key) => key.trim().replace("\r", ""))
+    return readFileSync(join(process.cwd(), "./blacklist.txt"), "utf-8").split("\n").map((key) => key.trim().replace("/\r/g", ""))
   }else{
     writeFileSync(join(process.cwd(), "./blacklist.txt"), "")
     return []
