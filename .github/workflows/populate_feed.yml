@@ -28,8 +28,6 @@ jobs:
     - name: Install dependencies
       run: npm i
 
-   
-
     - name: Collect Issues (Comments)
       run: npm run collect:issues
       env:
@@ -54,5 +52,7 @@ jobs:
 
     - name: Build website
       run: npm run website:build
-    - uses: actions4git/add-commit-push@v1
-    
+
+    - name: Commit & Push changes if any
+      uses: actions4git/add-commit-push@v1
+      continue-on-error: true
