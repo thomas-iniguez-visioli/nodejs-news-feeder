@@ -5,9 +5,9 @@ import * as https from 'node:https'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl, filterFeedItems } from '../utils/index.js'
 const staticDnsAgent = (resolvconf) => new https.Agent({
   lookup: (hostname, opts, cb) => {
-    console.log(resolvconf[0].address)
-    console.log(hostname)
-    console.log(opts)
+    //console.log(resolvconf[0].address)
+    //console.log(hostname)
+    //console.log(opts)
   cb(null, resolvconf, resolvconf[0].family)
   },timeout:30000000,keepAlive:true
 });
@@ -55,7 +55,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
     
   },response=>{ 
      response.setTimeout(3000000, function() {
-    console.log("temp")
+    //console.log("temp")
   });
      response.on('timeout', function () {console.log("timeout")})
   response.on('data', (chunk) => {
@@ -91,7 +91,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
 
   return href.startsWith('http') ? href : `https://bonjourlafuite.eu.org${href}`;
 })();
-   console.log(source)
+   //console.log(source)
     return {
       timestamp:timestamp,
       title,
@@ -111,7 +111,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
     // Add the new item to the feed
     
     const feedContent = getFeedContent()
-    console.log((dat.title))
+    //console.log((dat.title))
   
       const [before, after] = feedContent.split(breakDelimiter)
     const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
