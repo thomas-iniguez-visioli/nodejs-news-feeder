@@ -86,11 +86,11 @@ const getkeys = () => {
 export function cleancontent(text, options = {}) {
   let validtext=text
   const keys=getkeys()
-  console.log(keys)
+  //console.log(keys)
   for(const key of keys){
     
     while (validtext.includes(key)){
-      console.log(validtext.includes(key))  
+      //console.log(validtext.includes(key))  
       validtext=validtext.replace(key,"")
     }
   }
@@ -115,7 +115,7 @@ export function overwriteConfig(config) {
 
 export function composeFeedItem({ title, description, pubDate, link, guid,source }) {
   // console.log(pubDate)
-  console.log(source)
+  //console.log(source)
 
   // Clean title and description using cleancontent function
   const cleanTitle = cleancontent(title, {
@@ -136,7 +136,6 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
       <description>${cleanDescription}</description>
       <pubDate>${pubDate}</pubDate>
       <link>${cleancontent(link,{})}</link>
-    
       <guid>${guid}</guid>
     </item>
   `
@@ -189,7 +188,7 @@ export function buildRFC822Date(dateString) {
 }
 
 export async function generateRetroRequestUrl() {
-  console.log(JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()))
+  //console.log(JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()))
   return JSON.parse(await got.get("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.json").text()).items
 }
 
@@ -201,7 +200,7 @@ export function parseRetrospectiveContent(data) {
   const [rawTitle, , description] = data.split('\n')
   const title = rawTitle.replace('# ', '').replaceAll('`', '').trim()
   const dates = title.split(dateRegex)
-  console.log(dates)
+  //console.log(dates)
   return { title, description, lastDay: dates[1], nextDay: dates[3] }
 }
 
