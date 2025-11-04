@@ -154,7 +154,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
   }
 // --- Nouvelle récupération améliorée ---
 const feedUrls = [
-
+  'https://haveibeenpwned.com/feed/breaches/',
   'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml'
 ];
 
@@ -169,7 +169,7 @@ async function fetchAllFeeds(urls) {
         description: dat.content || dat.summary || '',
         pubDate: buildRFC822Date(dat.pubDate),
         link: dat.link,
-        guid: dat.guid || dat.link
+        guid: dat.link
       }));
     } catch (err) {
       console.log(`Erreur récupération feed ${url}:`, err.message);
