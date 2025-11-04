@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Leak Post</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        .form-group { margin-bottom: 1em; }
+        label { display: block; margin-bottom: 0.5em; }
+        input, textarea { width: 100%; padding: 0.5em; font-size: 1em; }
+        button { padding: 0.5em 1em; font-size: 1em; }
+    </style>
+</head>
+<body>
+    <h1>Add Leak Post</h1>
+    <form id="add-post-form">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="link">Link</label>
+            <input type="text" id="link" name="link" required>
+        </div>
+        <div class="form-group">
+            <label for="published_at">Publication Date</label>
+            <input type="datetime-local" id="published_at" name="published_at">
+        </div>
+        <button type="submit">Add Post</button>
+    </form>
+
+    <h2>Current Manual Posts</h2>
+    <div id="posts-list"></div>
+
+    <script>
+        const form = document.getElementById('add-post-form');
+        const postsList = document.getElementById('posts-list');
+
+        async function getPosts() {
+            const response = await fetch('/api/posts');
+            const posts = await response.json();
+            postsList.innerHTML = '';
+            posts.forEach(post => {
+                const postElement = document.createElement('div');
+                postElement.innerHTML = `
+                    <h3>${post.title}</h3>
+                    <p>${post.description}</p>
+                    <a href="${post.link}">${post.link}</a>
+                    <p><small>Published on: ${new Date(post.published_at).toLocaleString()}</small></p>
+                    <hr>
+                `;
+                postsList.appendChild(postElement);
+            });
+        }
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            const response = await fetch('/api/posts', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                form.reset();
+                getPosts();
+            } else {
+                alert('Failed to add post');
+            }
+        });
+
+        getPosts();
+    </script>
+</body>
+</html>
