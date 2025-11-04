@@ -164,13 +164,16 @@ async function fetchAllFeeds(urls) {
     try {
       const t = await got(url).text();
       const parsedXml = await parser.parseString(t);
-      return parsedXml.items.map((dat) => ({
+      return parsedXml.items.map((dat) => {
+        const postDate = new Date(dat.pubDate);
+        const formattedDate = `-${postDate.getFullYear()}-${String(postDate.getMonth() + 1).padStart(2, '0')}-${String(postDate.getDate()).padStart(2, '0')}`;
+        return {
         title: dat.title,
         description: dat.content || dat.summary || '',
         pubDate: buildRFC822Date(dat.pubDate),
-        link: dat.link,
-        guid: dat.link
-      }));
+        link: dat.link + formattedDate,
+        guid: dat.link + formattedDate
+      }});
     } catch (err) {
       console.log(`Erreur récupération feed ${url}:`, err.message);
       return [];
