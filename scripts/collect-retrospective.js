@@ -172,7 +172,7 @@ async function fetchAllFeeds(urls) {
         description: dat.content || dat.summary || '',
         pubDate: buildRFC822Date(dat.pubDate),
         link: dat.link ,
-        guid: dat.link + formattedDate
+        guid: dat.link 
       }});
     } catch (err) {
       console.log(`Erreur récupération feed ${url}:`, err.message);
