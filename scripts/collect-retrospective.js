@@ -171,7 +171,7 @@ async function fetchAllFeeds(urls) {
         title: dat.title,
         description: dat.content || dat.summary || '',
         pubDate: buildRFC822Date(dat.pubDate),
-        link: dat.link + formattedDate,
+        link: dat.link ,
         guid: dat.link + formattedDate
       }});
     } catch (err) {
