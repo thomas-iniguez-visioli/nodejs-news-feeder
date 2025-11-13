@@ -91,14 +91,14 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
 
   return href.startsWith('http') ? href : `https://bonjourlafuite.eu.org${href}`;
 })();
-   //console.log(source)
+   console.log(source)
     return {
       timestamp:timestamp,
       title,
       content,
       source:source.replace(/&/g,""),link:"https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href')
     };
-  });
+  }).slice(0,10);
   //console.log(JSON.stringify(jsonData,null,2));
   jsonData.map((dat)=>{
     const retrospective = composeFeedItem({
@@ -173,7 +173,7 @@ async function fetchAllFeeds(urls) {
         pubDate: buildRFC822Date(dat.pubDate),
         link: dat.link ,
         guid: dat.link 
-      }});
+      }}).slice(0,10);
     } catch (err) {
       console.log(`Erreur récupération feed ${url}:`, err.message);
       return [];
