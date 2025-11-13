@@ -1,14 +1,22 @@
 import express from 'express';
 import fs from 'fs/promises';
 import path from 'path';
+import rateLimit from 'express-rate-limit';
 
 const app = express();
 const port = 3000;
 const postsFilePath = path.join(process.cwd(), 'manual-posts.json');
 
+// Set up rate limiter: limit each IP to 100 requests per 15 minutes
+const apiLimiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100, // limit each IP to 100 requests per windowMs
+    standardHeaders: true, // Return rate limit info in the RateLimit-* headers
+    legacyHeaders: false, // Disable the X-RateLimit-* headers
+});
+
 app.use(express.json());
 app.use(express.static(process.cwd()));
-
 app.get('/', (req, res) => {
     res.sendFile(path.join(process.cwd(), 'add-post.html'));
 });
@@ -26,7 +34,7 @@ app.get('/api/posts', async (req, res) => {
     }
 });
 
-app.post('/api/posts', async (req, res) => {
+app.post('/api/posts', apiLimiter, async (req, res) => {
     try {
         let posts = [];
         try {
