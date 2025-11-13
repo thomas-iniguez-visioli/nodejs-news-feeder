@@ -11,7 +11,7 @@ const now = new Date()
 // Sinon, on peut utiliser un champ dans config : lastFeedContent ou autre
 // Ici, on suppose qu'on a `lastFeedContent` dans config (à adapter selon votre logique)
 
-const hasChanged = !config.lastFeedContent || config.lastFeedContent !== xml
+const hasChanged = !config.lastFeedContent || config.lastFeedContent.length !== xml.length
 
 if (hasChanged) {
   // Replace lastBuildDate with current date in the feed
