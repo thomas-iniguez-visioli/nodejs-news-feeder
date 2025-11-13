@@ -7,6 +7,9 @@ const feed = getFeedContent()
 try{
 const { metadata, items } = rssParse(feed)
 console .log(items)
-const html = ejs.render(template, { metadata, items })
+const html = ejs.render(template, { metadata, items.map((e)=>{
+  e.link.replace('https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/','')
+  return e 
+} })
 overwriteWebsiteContent(html)
 }catch(err){console.log(err)}
