@@ -155,7 +155,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
 // --- Nouvelle récupération améliorée ---
 const feedUrls = [
   'https://haveibeenpwned.com/feed/breaches/',
-  'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml'
+  'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml','https://feeds.feedburner.com/IntelligenceOnline-fr'
 ];
 
 async function fetchAllFeeds(urls) {
