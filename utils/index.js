@@ -136,7 +136,7 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
       <description>${cleanDescription}</description>
       <pubDate>${pubDate}</pubDate>
       <link>${cleancontent(link,{})}</link>
-      <guid>${guid}</guid>${categories.map((c)=>{return "<category><![CDATA["+c+"]]></category>"})}
+      <guid>${guid}</guid>${categories.map((c)=>{return "<category><![CDATA["+c+"]]></category>"}).join("\n")}
     </item>
   `
 }
