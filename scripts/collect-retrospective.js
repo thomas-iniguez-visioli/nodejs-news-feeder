@@ -30,8 +30,7 @@ const addfeed = async (url) => {
         description: `<![CDATA[<p>${dat.content || dat.summary}</p>]]>`,
         pubDate: buildRFC822Date(dat.pubDate),
         link: dat.link,
-        guid: dat.guid
-      })
+        guid: dat.guid,categories:dat.categories||[]      })
       const feedContent = getFeedContent()
       // Vérification doublon dans le feed
       if (!feedContent.includes(`<guid>${dat.guid}</guid>`)) {
@@ -106,7 +105,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       description: `<![CDATA[<p>${dat.content}</p>]]>`,
       pubDate: dat.timestamp,
       link: dat.link,source:dat.source,
-      guid: dat.source
+      guid: dat.source,categories:dat.categories||[]
     })
     // Add the new item to the feed
     
@@ -173,7 +172,7 @@ async function fetchAllFeeds(urls) {
         description: dat.content || dat.summary || '',
         pubDate: buildRFC822Date(dat.pubDate),
         link: dat.link ,
-        guid: dat.link 
+        guid: dat.link ,categories:dat.categories||[]
       }}).slice(0,10);
     } catch (err) {
       console.log(`Erreur récupération feed ${url}:`, err.message);
@@ -200,7 +199,7 @@ async function updateFeedWithAllItems() {
       description: `<![CDATA[<p>${dat.description}</p>]]>`,
       pubDate: dat.pubDate,
       link: dat.link,
-      guid: dat.guid
+      guid: dat.guid,categories:dat.categories||[]
     });
     const feedContent = getFeedContent();
     const [before, after] = feedContent.split(breakDelimiter);
