@@ -38,13 +38,13 @@ try {
       (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
     )
     const newXml = sortedItems
-      .map(({ title, link, pubDate, content, guid,source }) =>
+      .map(({ title, link, pubDate, content, guid,source,categories }) =>
         composeFeedItem({
           title,
           description: `<![CDATA[${content}]]>`,
           pubDate: pubDate,
           link,
-          guid,source
+          guid,source,categories
         })
       )
       .join('')
