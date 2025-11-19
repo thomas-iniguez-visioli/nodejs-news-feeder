@@ -27,7 +27,7 @@ const xml = getFeedContent()
 const updaterrss = (feed) => {
   // Filtrage centralisé
   var fed = filterFeedItems(feed)
- 
+   console.log(fed)
   //console.log(fed)
   return fed
 }
@@ -38,13 +38,13 @@ try {
       (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
     )
     const newXml = sortedItems
-      .map(({ title, link, pubDate, content, guid }) =>
+      .map(({ title, link, pubDate, content, guid,source,categories }) =>
         composeFeedItem({
           title,
           description: `<![CDATA[${content}]]>`,
           pubDate: pubDate,
           link,
-          guid
+          guid,source,categories
         })
       )
       .join('')

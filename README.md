@@ -1,6 +1,6 @@
 [![Dependabot Updates](https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/actions/workflows/dependabot/dependabot-updates)[![Analyze with Semgrep and Fix with Pixee](https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/actions/workflows/t.yml/badge.svg)](https://github.com/thomas-iniguez-visioli/nodejs-news-feeder/actions/workflows/t.yml)# Official Node.js News Feeder
 
-### Usage
+## Usage
 
 As the Node.js organization continues to grow and expand, it becomes increasingly difficult to keep track of all the ongoing projects, teams, and working groups. We've recognized this challenge and have been actively seeking solutions to improve communication and awareness within our community.
 

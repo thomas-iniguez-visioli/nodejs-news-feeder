@@ -5,9 +5,9 @@ import * as https from 'node:https'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl, filterFeedItems } from '../utils/index.js'
 const staticDnsAgent = (resolvconf) => new https.Agent({
   lookup: (hostname, opts, cb) => {
-    console.log(resolvconf[0].address)
-    console.log(hostname)
-    console.log(opts)
+    //console.log(resolvconf[0].address)
+    //console.log(hostname)
+    //console.log(opts)
   cb(null, resolvconf, resolvconf[0].family)
   },timeout:30000000,keepAlive:true
 });
@@ -30,8 +30,7 @@ const addfeed = async (url) => {
         description: `<![CDATA[<p>${dat.content || dat.summary}</p>]]>`,
         pubDate: buildRFC822Date(dat.pubDate),
         link: dat.link,
-        guid: dat.guid
-      })
+        guid: dat.guid,categories:dat.categories||[]      })
       const feedContent = getFeedContent()
       // Vérification doublon dans le feed
       if (!feedContent.includes(`<guid>${dat.guid}</guid>`)) {
@@ -55,7 +54,7 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
     
   },response=>{ 
      response.setTimeout(3000000, function() {
-    console.log("temp")
+    //console.log("temp")
   });
      response.on('timeout', function () {console.log("timeout")})
   response.on('data', (chunk) => {
@@ -78,27 +77,40 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
       content = contentItems.join(', ');
     }
-    const source ="https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href');
+    const source = (() => {
+  const linkElement = entry.querySelector('a:not([id])') || entry.querySelector('a');
+  if (!linkElement) {
+    return '';
+  }
+
+  const href = linkElement.getAttribute('href') || '';
+  if (!href) {
+    return '';
+  }
+
+  return href.startsWith('http') ? href : `https://bonjourlafuite.eu.org${href}`;
+})();
+   console.log(source)
     return {
       timestamp:timestamp,
       title,
       content,
-      source:source.replace(/&/g,"")
+      source:source.replace(/&/g,""),link:"https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href')
     };
-  });
+  }).slice(0,10);
   //console.log(JSON.stringify(jsonData,null,2));
   jsonData.map((dat)=>{
     const retrospective = composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.content}</p>]]>`,
       pubDate: dat.timestamp,
-      link: dat.source,
-      guid: dat.timestamp
+      link: dat.link,source:dat.source,
+      guid: dat.source,categories:dat.categories||[]
     })
     // Add the new item to the feed
     
     const feedContent = getFeedContent()
-    console.log((dat.title))
+    //console.log((dat.title))
   
       const [before, after] = feedContent.split(breakDelimiter)
     const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
@@ -141,10 +153,8 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
   }
 // --- Nouvelle récupération améliorée ---
 const feedUrls = [
-  'https://cyber.gouv.fr/actualites/feed',
-  'https://cvefeed.io/rssfeed/latest.xml',
-  'https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet',
-  'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml'
+  'https://haveibeenpwned.com/feed/breaches/',
+  'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml','https://feeds.feedburner.com/IntelligenceOnline-fr','https://www.zataz.com/rss/zataz-news.rss','https://www.cloudflarestatus.com/feed.rss'
 ];
 
 async function fetchAllFeeds(urls) {
@@ -153,13 +163,17 @@ async function fetchAllFeeds(urls) {
     try {
       const t = await got(url).text();
       const parsedXml = await parser.parseString(t);
-      return parsedXml.items.map((dat) => ({
+      return parsedXml.items.map((dat) => {
+        const postDate = new Date(dat.pubDate);
+        const formattedDate = `-${postDate.getFullYear()}-${String(postDate.getMonth() + 1).padStart(2, '0')}-${String(postDate.getDate()).padStart(2, '0')}`;
+        console.log(dat)
+        return {
         title: dat.title,
         description: dat.content || dat.summary || '',
         pubDate: buildRFC822Date(dat.pubDate),
-        link: dat.link,
-        guid: dat.guid || dat.link
-      }));
+        link: dat.link ,
+        guid: dat.link ,categories:dat.categories||[]
+      }}).slice(0,10);
     } catch (err) {
       console.log(`Erreur récupération feed ${url}:`, err.message);
       return [];
@@ -185,7 +199,7 @@ async function updateFeedWithAllItems() {
       description: `<![CDATA[<p>${dat.description}</p>]]>`,
       pubDate: dat.pubDate,
       link: dat.link,
-      guid: dat.guid
+      guid: dat.guid,categories:dat.categories||[]
     });
     const feedContent = getFeedContent();
     const [before, after] = feedContent.split(breakDelimiter);
