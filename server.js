@@ -16,11 +16,11 @@ const apiLimiter = rateLimit({
 });
 
 app.use(express.json());
-app.use(express.static(process.cwd()));
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(process.cwd(), 'add-post.html'));
 });
-
+app.use(express.static(process.cwd()));
 app.get('/api/posts', async (req, res) => {
     try {
         const posts = await fs.readFile(postsFilePath, 'utf-8');

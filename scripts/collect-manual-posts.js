@@ -1,4 +1,4 @@
-import { md2html, buildRFC822Date, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig } from './utils/index.js';
+import { md2html, buildRFC822Date, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig } from '../utils/index.js';
 import fs from 'fs/promises';
 import path from 'path';
 
