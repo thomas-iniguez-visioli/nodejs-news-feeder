@@ -90,9 +90,9 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
     return '';
   }
 
-  return href.startsWith('http') ? href : `https://bonjourlafuite.eu.org${href}`;
+  return href.startsWith('http') ? href : `https://bonjourlafuite.eu.org/${href}`;
 })();
-   console.log(source)
+   //console.log(source)
     return {
       timestamp:timestamp,
       title,
