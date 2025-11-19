@@ -208,10 +208,10 @@ async function updateFeedWithAllItems() {
     if(existsSync("./link.txt")){
       already=readFileSync("./link.txt")
     }
-    if(already.includes(dat.source)){
+    if(already.includes(dat.guid)){
       return
     }
-    appendFileSync("./link.txt",`\n${dat.source}`)
+    appendFileSync("./link.txt",`\n${dat.guid}`)
     const retrospective = composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.description}</p>]]>`,
