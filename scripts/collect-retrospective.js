@@ -2,6 +2,7 @@ import got from 'got'
 import ParseRss from 'rss-parser'
 import { parse } from 'node-html-parser';
 import * as https from 'node:https'
+import {readFileSync,appendFileSync,existsSync} from'node:fs'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl, filterFeedItems } from '../utils/index.js'
 const staticDnsAgent = (resolvconf) => new https.Agent({
   lookup: (hostname, opts, cb) => {
@@ -64,7 +65,8 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
   response.on("end",(da)=>{
     
     const buffer = html
-  
+    
+   
   const parsedHtml = parse(buffer.toString());
   const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
   const jsonData = Array.from(timelineEntries).map(entry => {
@@ -97,9 +99,17 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
       content,
       source:source.replace(/&/g,""),link:"https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href')
     };
-  }).slice(0,10);
+  })
   //console.log(JSON.stringify(jsonData,null,2));
   jsonData.map((dat)=>{
+    let already=[]
+    if(existsSync("./link.txt")){
+      already=readFileSync("./link.txt")
+    }
+    if(already.includes(dat.source)){
+      return
+    }
+    appendFileSync("./link.txt",`\n${dat.source}`)
     const retrospective = composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.content}</p>]]>`,
@@ -173,7 +183,7 @@ async function fetchAllFeeds(urls) {
         pubDate: buildRFC822Date(dat.pubDate),
         link: dat.link ,
         guid: dat.link ,categories:dat.categories||[]
-      }}).slice(0,10);
+      }})
     } catch (err) {
       console.log(`Erreur récupération feed ${url}:`, err.message);
       return [];
@@ -194,6 +204,14 @@ async function fetchAllFeeds(urls) {
 async function updateFeedWithAllItems() {
   const items = await fetchAllFeeds(feedUrls);
   items.forEach((dat) => {
+     let already=[]
+    if(existsSync("./link.txt")){
+      already=readFileSync("./link.txt")
+    }
+    if(already.includes(dat.source)){
+      return
+    }
+    appendFileSync("./link.txt",`\n${dat.source}`)
     const retrospective = composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.description}</p>]]>`,
