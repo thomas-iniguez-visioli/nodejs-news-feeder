@@ -167,7 +167,7 @@ const feedUrls = [
   'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml',
   'https://feeds.feedburner.com/IntelligenceOnline-fr',
   'https://www.zataz.com/rss/zataz-news.rss',
-  'https://www.cloudflarestatus.com/feed.rss','https://www.numerama.com/feed/'
+  'https://www.cloudflarestatus.com/feed.rss','https://www.numerama.com/feed/','https://www.frandroid.com/feed'
 ];
 
 async function fetchAllFeeds(urls) {
