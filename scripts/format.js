@@ -36,7 +36,7 @@ try {
     //console.log(parsedXml)
     const sortedItems = updaterrss(parsedXml.items).sort(
       (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
-    )
+    ).slice(0,100)
     const newXml = sortedItems
       .map(({ title, link, pubDate, content, guid,source,categories }) =>
         composeFeedItem({
