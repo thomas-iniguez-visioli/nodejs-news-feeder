@@ -8,12 +8,63 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 01 Dec 2025 19:01:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 19:32:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-11772 A carefully crafted DLL, copied to 
+
+C\ProgramData\Synaptics
+
+ folder, allows a local user to execu...</title>
+      <description><![CDATA[A carefully crafted DLL, copied to 
+
+C\ProgramData\Synaptics
+
+ folder, allows a local user to execute 
+arbitrary code with elevated privileges during driver installation. | CVSS Score 6.6 (MEDIUM)  ]]></description>
+      <pubDate>Mon, 01 Dec 2025 19:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-11772</link>
+      <guid>CVE-2025-11772</guid>
+    </item>
+    <item>
+      <title>CVE-2025-34297 KissFFT versions prior to the fix commit 1b083165 contain an integer overflow in kiss_fft_alloc() in...</title>
+      <description><![CDATA[KissFFT versions prior to the fix commit 1b083165 contain an integer overflow in kiss_fft_alloc() in kiss_fft.c on platforms where size_t is 32-bit. The nfft parameter is not validated before being used in a size calculation (sizeof(kiss_fft_cpx) * (nfft - 1)), which can wrap to a small value when nfft is large. As a result, malloc() allocates an undersized buffer and the subsequent twiddle-factor initialization loop writes nfft elements, causing a heap buffer overflow. This vulnerability only affects 32-bit architectures. | Severity UNKNOWN  ]]></description>
+      <pubDate>Mon, 01 Dec 2025 19:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-34297</link>
+      <guid>CVE-2025-34297</guid>
+    </item>
+    <item>
+      <title>CVE-2025-63365 SoftSea EPUB File Reader 1.0.0.0 is vulnerable to Directory Traversal. The vulnerability resides in ...</title>
+      <description><![CDATA[SoftSea EPUB File Reader 1.0.0.0 is vulnerable to Directory Traversal. The vulnerability resides in the EPUB file processing component, specifically in the functionality responsible for extracting and handling EPUB archive contents. | Severity UNKNOWN  ]]></description>
+      <pubDate>Mon, 01 Dec 2025 19:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-63365</link>
+      <guid>CVE-2025-63365</guid>
+    </item>
+    <item>
+      <title>CVE-2025-65407 A use-after-free in the MPEG1or2DemuxnewElementaryStream() function of Live555 Streaming Media v20...</title>
+      <description><![CDATA[A use-after-free in the MPEG1or2DemuxnewElementaryStream() function of Live555 Streaming Media v2018.09.02 allows attackers to cause a Denial of Service (DoS) via supplying a crafted MPEG Program stream. | Severity UNKNOWN  ]]></description>
+      <pubDate>Mon, 01 Dec 2025 19:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-65407</link>
+      <guid>CVE-2025-65407</guid>
+    </item>
+    <item>
+      <title>Google Météo, c’est fini  tout ce qui change sur Android et notre meilleure alternative</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>C'est un petit rituel qui disparaît. Depuis des années, appuyer sur l'icône Météo de Google lançait une interface propre, soignée, avec cette fameuse grenouille "Froggy". C'était simple, efficace et agréable. <strong>C'est fini.</strong> Google a décidé de tout casser pour remplacer cette expérience par une vulgaire page de résultats de recherche.</div>
+</div>  ]]></description>
+      <pubDate>Mon, 01 Dec 2025 19:02:00 GMT</pubDate>
+      <link>https//www.frandroid.com/android/applications/2894575_google-meteo-cest-fini-tout-ce-qui-change-sur-android-et-notre-meilleure-alternative</link>
+      <guid>https://www.frandroid.com/android/applications/2894575_google-meteo-cest-fini-tout-ce-qui-change-sur-android-et-notre-meilleure-alternative</guid>
+      <category><![CDATA[Android]]></category>
+      <category><![CDATA[Applications Android]]></category>
+      <category><![CDATA[Google]]></category>
+      <category><![CDATA[Marques]]></category>
+      <category><![CDATA[Météociel]]></category>
+    </item>
     <item>
       <title>La fin du nano-ordinateur pas cher ? Raspberry Pi revoit ses prix à la hausse</title>
       <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
@@ -1062,93 +1113,6 @@ Alors que la saison 5 de Stranger Things cartonne actuellement sur Netflix depui
       <pubDate>Mon, 01 Dec 2025 14:16:00 GMT</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2025-49643</link>
       <guid>CVE-2025-49643</guid>
-    </item>
-    <item>
-      <title>Cet outil règle le problème des mots de passe oubliés pour moins d’un euro par mois</title>
-      <description><![CDATA[
-[Deal du jour] Si chaque connexion se transforme en enquête pour retrouver votre mot de passe, un gestionnaire de mots de passe est sûrement l’outil qu’il vous manque. NordPass propose en ce moment une remise exclusive via Numerama.
-  ]]></description>
-      <pubDate>Mon, 01 Dec 2025 14:16:00 GMT</pubDate>
-      <link>https//www.numerama.com/cyberguerre/2066261-pour-moins-dun-euro-par-mois-cet-outil-regle-le-probleme-des-mots-de-passe.html</link>
-      <guid>https://www.numerama.com/cyberguerre/2066261-pour-moins-dun-euro-par-mois-cet-outil-regle-le-probleme-des-mots-de-passe.html</guid>
-      <category><![CDATA[Cyberguerre]]></category>
-      <category><![CDATA[Hygiène numérique]]></category>
-      <category><![CDATA[VPN]]></category>
-      <category><![CDATA[Bons plans]]></category>
-      <category><![CDATA[NordPass]]></category>
-      <category><![CDATA[nordvpn]]></category>
-    </item>
-    <item>
-      <title>Netflix vous oblige à reprendre votre télécommande  la diffusion depuis le smartphone, c’est fini</title>
-      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
-<div>Netflix plante un nouveau clou dans le cercueil de Chromecast en désactivant la fonctionnalité de diffusion depuis votre téléphone ou tablette. Elle reste cependant disponible sur les anciens appareils compatibles avec Google Cast.</div>
-</div>  ]]></description>
-      <pubDate>Mon, 01 Dec 2025 14:12:00 GMT</pubDate>
-      <link>https//www.frandroid.com/services/svod/2893619_netflix-vous-oblige-a-reprendre-votre-telecommande-la-diffusion-depuis-le-smartphone-cest-fini</link>
-      <guid>https://www.frandroid.com/services/svod/2893619_netflix-vous-oblige-a-reprendre-votre-telecommande-la-diffusion-depuis-le-smartphone-cest-fini</guid>
-      <category><![CDATA[Android]]></category>
-      <category><![CDATA[Google]]></category>
-      <category><![CDATA[Google TV (ex Android TV)]]></category>
-      <category><![CDATA[Marques]]></category>
-      <category><![CDATA[Services]]></category>
-      <category><![CDATA[SVOD]]></category>
-      <category><![CDATA[Netflix]]></category>
-    </item>
-    <item>
-      <title>Cyber Monday VPN  7 offres pour continuer à faire ses achats en ligne en sécurité pour la dernière ligne droite du Black Friday</title>
-      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
-<div>Aujourd'hui, les VPN jouent également les prolongations du Black Friday avec des offres qui durent jusqu'au Cyber Monday. NordVPN, ExpressVPN, CyberGhost VPN et les autres grands noms du secteur proposent pour quelques heures encore de belles réductions sur des abonnements de deux ans.</div>
-</div>  ]]></description>
-      <pubDate>Mon, 01 Dec 2025 14:10:00 GMT</pubDate>
-      <link>https//www.frandroid.com/bons-plans/2875107_cyber-monday-vpn-7-offres-pour-continuer-a-faire-ses-achats-en-ligne-en-securite-pour-la-derniere-ligne-droite-du-black-friday</link>
-      <guid>https://www.frandroid.com/bons-plans/2875107_cyber-monday-vpn-7-offres-pour-continuer-a-faire-ses-achats-en-ligne-en-securite-pour-la-derniere-ligne-droite-du-black-friday</guid>
-      <category><![CDATA[Bons plans]]></category>
-      <category><![CDATA[Services]]></category>
-      <category><![CDATA[VPN]]></category>
-      <category><![CDATA[Black Friday 2025]]></category>
-      <category><![CDATA[Bons plans CyberGhost VPN]]></category>
-      <category><![CDATA[Bons plans NordVPN]]></category>
-      <category><![CDATA[Bons plans PureVPN]]></category>
-      <category><![CDATA[Bons plans Surfshark]]></category>
-      <category><![CDATA[Cyber Monday 2025]]></category>
-      <category><![CDATA[ExpressVPN]]></category>
-      <category><![CDATA[IPVanish]]></category>
-      <category><![CDATA[ProtonVPN]]></category>
-      <category><![CDATA[purevpn]]></category>
-      <category><![CDATA[Sélections Black Friday]]></category>
-    </item>
-    <item>
-      <title>Le Cyber Monday donne la banane avec Donkey Kong Bananza à -44 % sur Nintendo Switch 2</title>
-      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
-<div>Donkey Kong Bananza est l'une des exclusivités de la Switch 2 où le célèbre singe est le héros d'une aventure riche en rebondissements et destruction. Il est accessible pour 49,99 euros au lieu de 89,99 euros sur Rakuten. </div>
-</div>  ]]></description>
-      <pubDate>Mon, 01 Dec 2025 14:08:00 GMT</pubDate>
-      <link>https//www.frandroid.com/bons-plans/2893687_le-cyber-monday-donne-la-banane-avec-donkey-kong-bananza-a-44-sur-nintendo-switch-2</link>
-      <guid>https://www.frandroid.com/bons-plans/2893687_le-cyber-monday-donne-la-banane-avec-donkey-kong-bananza-a-44-sur-nintendo-switch-2</guid>
-      <category><![CDATA[Bons plans]]></category>
-      <category><![CDATA[Bons plans gaming]]></category>
-      <category><![CDATA[Jeux vidéo]]></category>
-      <category><![CDATA[Marques]]></category>
-      <category><![CDATA[Nintendo]]></category>
-      <category><![CDATA[Services]]></category>
-      <category><![CDATA[Bons plans Rakuten]]></category>
-      <category><![CDATA[Cyber Monday 2025]]></category>
-      <category><![CDATA[Nintendo Switch 2]]></category>
-    </item>
-    <item>
-      <title>Ce bug de Windows 11 peut vous empêcher de déverrouiller votre PC</title>
-      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
-<div>Une mise à jour de Windows 11 entraîne la disparition de l'icône de mot de passe dans les options de connexion de l'écran de verrouillage. Heureusement, il y a une solution. </div>
-</div>  ]]></description>
-      <pubDate>Mon, 01 Dec 2025 14:08:00 GMT</pubDate>
-      <link>https//www.frandroid.com/marques/microsoft/2893549_ce-bug-de-windows-11-peut-vous-empecher-de-deverrouiller-votre-pc</link>
-      <guid>https://www.frandroid.com/marques/microsoft/2893549_ce-bug-de-windows-11-peut-vous-empecher-de-deverrouiller-votre-pc</guid>
-      <category><![CDATA[Marques]]></category>
-      <category><![CDATA[Microsoft]]></category>
-      <category><![CDATA[OS]]></category>
-      <category><![CDATA[PC]]></category>
-      <category><![CDATA[Produits]]></category>
-      <category><![CDATA[Windows]]></category>
     </item>
   </channel>
 </rss>
