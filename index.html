@@ -194,6 +194,158 @@
                     <hr>
                     <article>
                         <h3>
+                            CVE-2025-66313 ChurchCRM is an open-source church management system. In ChurchCRM 6.2.0 and earlier, there is a tim...
+                        </h3>
+                        ChurchCRM is an open-source church management system. In ChurchCRM 6.2.0 and earlier, there is a time-based blind SQL injection in the handling of the 1FieldSec parameter. Injecting SLEEP() causes deterministic server-side delays, proving the value is incorporated into a SQL query without proper parameterization. The issue allows data exfiltration and modification via blind techniques. | Severity UNKNOWN  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66313">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-66400 mdast-util-to-hast is an mdast utility to transform to hast. From 13.0.0 to before 13.2.1, multiple ...
+                        </h3>
+                        mdast-util-to-hast is an mdast utility to transform to hast. From 13.0.0 to before 13.2.1, multiple (unprefixed) classnames could be added in markdown source by using character references. This could make rendered user supplied markdown code elements appear like the rest of the page. This vulnerability is fixed in 13.2.1. | Severity UNKNOWN  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66400">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-66401 MCP Watch is a comprehensive security scanner for Model Context Protocol (MCP) servers. In 0.1.2 and...
+                        </h3>
+                        MCP Watch is a comprehensive security scanner for Model Context Protocol (MCP) servers. In 0.1.2 and earlier, the MCPScanner class contains a critical Command Injection vulnerability in the cloneRepo method. The application passes the user-supplied githubUrl argument directly to a system shell via execSync without sanitization. This allows an attacker to execute arbitrary commands on the host machine by appending shell metacharacters to the URL. | CVSS Score 9.8 (CRITICAL)  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66401">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-66403 FileRise is a self-hosted web-based file manager with multi-file upload, editing, and batch operatio...
+                        </h3>
+                        FileRise is a self-hosted web-based file manager with multi-file upload, editing, and batch operations. Prior to 2.2.3, a stored cross-site scripting (XSS) vulnerability exists in the Filerise application due to improper handling of uploaded SVG files. The application accepts user-supplied SVG uploads without sanitizing or restricting embedded script content. When a malicious SVG containing inline JavaScript or event-based payloads is uploaded, it is later rendered directly in the browser whenever viewed within the application. Because SVGs are XML-based and allow scripting, they execute in the origin context of the application, enabling full stored XSS. This vulnerability is fixed in 2.2.3. | CVSS Score 4.6 (MEDIUM)  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66403">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-66405 Portkey.ai Gateway is a blazing fast AI Gateway with integrated guardrails. Prior to 1.14.0, the gat...
+                        </h3>
+                        Portkey.ai Gateway is a blazing fast AI Gateway with integrated guardrails. Prior to 1.14.0, the gateway determined the destination baseURL by prioritizing the value in the x-portkey-custom-host request header. The proxy route then appends the client-specified path to perform an external fetch. This can be maliciously used by users for SSRF attacks. This vulnerability is fixed in 1.14.0. | Severity UNKNOWN  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66405">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-66410 Gin-vue-admin is a backstage management system based on vue and gin. In 2.8.6 and earlier, attackers...
+                        </h3>
+                        Gin-vue-admin is a backstage management system based on vue and gin. In 2.8.6 and earlier, attackers can delete any file on the server at will, causing damage or unavailability of server resources. Attackers can control the 'FileMd5' parameter to delete any file and folder. | Severity UNKNOWN  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66410">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-66412 Angular is a development platform for building mobile and desktop web applications using TypeScript/...
+                        </h3>
+                        Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. Prior to 21.0.2, 20.3.15, and 19.2.17, A Stored Cross-Site Scripting (XSS) vulnerability has been identified in the Angular Template Compiler. It occurs because the compiler's internal security schema is incomplete, allowing attackers to bypass Angular's built-in security sanitization. Specifically, the schema fails to classify certain URL-holding attributes (e.g., those that could contain javascript URLs) as requiring strict URL security, enabling the injection of malicious scripts. This vulnerability is fixed in 21.0.2, 20.3.15, and 19.2.17. | Severity UNKNOWN  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66412">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-66415 fastify-reply-from is a Fastify plugin to forward the current HTTP request to another server. Prior ...
+                        </h3>
+                        fastify-reply-from is a Fastify plugin to forward the current HTTP request to another server. Prior to 12.5.0, by crafting a malicious URL, an attacker could access routes that are not allowed, even though the reply.from is defined for specific routes in @fastify/reply-from. This vulnerability is fixed in 12.5.0. | Severity UNKNOWN  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66415">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            CVE-2025-66448 vLLM is an inference and serving engine for large language models (LLMs). Prior to 0.11.1, vllm has ...
+                        </h3>
+                        vLLM is an inference and serving engine for large language models (LLMs). Prior to 0.11.1, vllm has a critical remote code execution vector in a config class named Nemotron_Nano_VL_Config. When vllm loads a model config that contains an auto_map entry, the config class resolves that mapping with get_class_from_dynamic_module(...) and immediately instantiates the returned class. This fetches and executes Python from the remote repository referenced in the auto_map string. Crucially, this happens even when the caller explicitly sets trust_remote_code=False in vllm.transformers_utils.config.get_config. In practice, an attacker can publish a benign-looking frontend repo whose config.json points via auto_map to a separate malicious backend repo loading the frontend will silently run the backend’s code on the victim host. This vulnerability is fixed in 0.11.1. | CVSS Score 7.1 (HIGH)  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:15:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-66448">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
+                            Apple se sépare de son patron de l’intelligence artificielle, remplacé par un cadre de Microsoft
+                        </h3>
+                        
+John Giannandrea, autrefois considéré comme une des pontes de l'intelligence artificielle, quittera Apple au printemps 2026. Son départ n'est pas réellement une surprise  le lancement poussif d'Apple Intelligence et le retard du nouveau Siri avaient déjà changé beaucoup de choses chez Apple. 
+  
+                            <p class="feed-time">
+                                Mon, 01 Dec 2025 23:00:00 GMT
+                            </p>
+                            <a class="feed-link" href="https//www.numerama.com/tech/2132305-apple-se-separe-de-son-patron-de-lintelligence-artificielle-remplace-par-un-cadre-de-microsoft.html">
+                                read more
+                            </a>
+                    </article>
+
+                    
+                    <hr>
+                    <article>
+                        <h3>
                             CVE-2025-65622 Snipe-IT before 8.3.4 allows stored XSS via the Locations &#34;Country&#34; field, enabling a low-privileged...
                         </h3>
                         Snipe-IT before 8.3.4 allows stored XSS via the Locations "Country" field, enabling a low-privileged authenticated user to inject JavaScript that executes in another user's session. | Severity UNKNOWN  
@@ -1579,160 +1731,6 @@ After this configuration change, the device will be in a denial-of-service state
                                 Mon, 01 Dec 2025 16:15:00 GMT
                             </p>
                             <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-61229">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-63095 Improper input validation in the BitstreamWriterwrite_bits() function of Tempus Ex hello-video-cod...
-                        </h3>
-                        Improper input validation in the BitstreamWriterwrite_bits() function of Tempus Ex hello-video-codec v0.1.0 allows attackers to cause a Denial of Service (DoS) via a crafted input. | Severity UNKNOWN  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-63095">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-63532 A SQL injection vulnerability exists in the Blood Bank Management System 1.0 within the cancel.php c...
-                        </h3>
-                        A SQL injection vulnerability exists in the Blood Bank Management System 1.0 within the cancel.php component. The application fails to properly sanitize user-supplied input in SQL queries, allowing an attacker to inject arbitrary SQL code. By manipulating the search field, an attacker can bypass authentication and gain unauthorized access to the system. | CVSS Score 9.6 (CRITICAL)  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-63532">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-63533 A cross-site scripting (XSS) vulnerability exists in the Blood Bank Management System 1.0 within the...
-                        </h3>
-                        A cross-site scripting (XSS) vulnerability exists in the Blood Bank Management System 1.0 within the updateprofile.php and rprofile.php components. The application fails to properly sanitize or encode user-supplied input before rendering it in response. An attacker can inject malicious JavaScript payloads into the rname, remail, rpassword, rphone, rcity parameters, which are then executed in the victim's browser when the page is viewed. | CVSS Score 8.5 (HIGH)  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-63533">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-63534 A cross-site scripting (XSS) vulnerability exists in the Blood Bank Management System 1.0 within the...
-                        </h3>
-                        A cross-site scripting (XSS) vulnerability exists in the Blood Bank Management System 1.0 within the login.php component. The application fails to properly sanitize or encode user-supplied input before rendering it in response. An attacker can inject malicious JavaScript payloads into the msg and error parameters, which are then executed in the victim's browser when the page is viewed. | CVSS Score 8.5 (HIGH)  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-63534">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-63535 A SQL injection vulnerability exists in the Blood Bank Management System 1.0 within the abs.php comp...
-                        </h3>
-                        A SQL injection vulnerability exists in the Blood Bank Management System 1.0 within the abs.php component. The application fails to properly sanitize usersupplied input in SQL queries, allowing an attacker to inject arbitrary SQL code. By manipulating the search field, an attacker can bypass authentication and gain unauthorized access to the system. | CVSS Score 9.6 (CRITICAL)  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-63535">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-64775 Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes d...
-                        </h3>
-                        Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes disk exhaustion.
-
-This issue affects Apache Struts from 2.0.0 through 6.7.0, from 7.0.0 through 7.0.3.
-
-Users are recommended to upgrade to version 6.8.0 or 7.1.1, which fixes the issue. | Severity UNKNOWN  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-64775">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-65403 A buffer overflow in the g_cfg.MaxUsers component of LightFTP v2.0 allows attackers to cause a Denia...
-                        </h3>
-                        A buffer overflow in the g_cfg.MaxUsers component of LightFTP v2.0 allows attackers to cause a Denial of Service (DoS) via a crafted input. | Severity UNKNOWN  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-65403">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-65404 A buffer overflow in the getSideInfo2() function of Live555 Streaming Media v2018.09.02 allows attac...
-                        </h3>
-                        A buffer overflow in the getSideInfo2() function of Live555 Streaming Media v2018.09.02 allows attackers to cause a Denial of Service (DoS) via a crafted MP3 stream. | Severity UNKNOWN  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-65404">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-65405 A use-after-free in the ADTSAudioFileSourcesamplingFrequency() function of Live555 Streaming Media...
-                        </h3>
-                        A use-after-free in the ADTSAudioFileSourcesamplingFrequency() function of Live555 Streaming Media v2018.09.02 allows attackers to cause a Denial of Service (DoS) via supplying a crafted ADTS/AAC file. | Severity UNKNOWN  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-65405">
-                                read more
-                            </a>
-                    </article>
-
-                    
-                    <hr>
-                    <article>
-                        <h3>
-                            CVE-2025-8351 Heap-based Buffer Overflow, Out-of-bounds Read vulnerability in Avast Antivirus on MacOS when scanni...
-                        </h3>
-                        Heap-based Buffer Overflow, Out-of-bounds Read vulnerability in Avast Antivirus on MacOS when scanning a malformed file may allow Local Execution of Code or Denial-of-Service of the anitvirus engine process.This issue affects Antivirus from 8.3.70.94 before 8.3.70.98. | CVSS Score 9 (CRITICAL)  
-                            <p class="feed-time">
-                                Mon, 01 Dec 2025 16:15:00 GMT
-                            </p>
-                            <a class="feed-link" href="https//nvd.nist.gov/vuln/detail/CVE-2025-8351">
                                 read more
                             </a>
                     </article>
