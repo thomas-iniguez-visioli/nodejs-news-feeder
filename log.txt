@@ -1,23 +1,23 @@
 [
   {
-    title: 'CVE-2025-11772 A carefully crafted DLL, copied to \n' +
-      '\n' +
-      'C\\ProgramData\\Synaptics\n' +
-      '\n' +
+    title: 'CVE-2025-11772 A carefully crafted DLL, copied to \r\n' +
+      '\r\n' +
+      'C\\ProgramData\\Synaptics\r\n' +
+      '\r\n' +
       ' folder, allows a local user to execu...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-11772',
     pubDate: 'Mon, 01 Dec 2025 19:15:00 GMT',
-    content: 'A carefully crafted DLL, copied to \n' +
-      '\n' +
-      'C\\ProgramData\\Synaptics\n' +
-      '\n' +
-      ' folder, allows a local user to execute \n' +
+    content: 'A carefully crafted DLL, copied to \r\n' +
+      '\r\n' +
+      'C\\ProgramData\\Synaptics\r\n' +
+      '\r\n' +
+      ' folder, allows a local user to execute \r\n' +
       'arbitrary code with elevated privileges during driver installation. | CVSS Score 6.6 (MEDIUM)  ',
-    contentSnippet: 'A carefully crafted DLL, copied to \n' +
-      '\n' +
-      'C\\ProgramData\\Synaptics\n' +
-      '\n' +
-      ' folder, allows a local user to execute \n' +
+    contentSnippet: 'A carefully crafted DLL, copied to \r\n' +
+      '\r\n' +
+      'C\\ProgramData\\Synaptics\r\n' +
+      '\r\n' +
+      ' folder, allows a local user to execute \r\n' +
       'arbitrary code with elevated privileges during driver installation. | CVSS Score 6.6 (MEDIUM)',
     guid: 'CVE-2025-11772',
     isoDate: '2025-12-01T19:15:00.000Z'
@@ -53,8 +53,8 @@
     title: 'Google Météo, c’est fini  tout ce qui change sur Android et notre meilleure alternative',
     link: 'https//www.frandroid.com/android/applications/2894575_google-meteo-cest-fini-tout-ce-qui-change-sur-android-et-notre-meilleure-alternative',
     pubDate: 'Mon, 01 Dec 2025 19:02:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      `<div>C'est un petit rituel qui disparaît. Depuis des années, appuyer sur l'icône Météo de Google lançait une interface propre, soignée, avec cette fameuse grenouille "Froggy". C'était simple, efficace et agréable. <strong>C'est fini.</strong> Google a décidé de tout casser pour remplacer cette expérience par une vulgaire page de résultats de recherche.</div>\n` +
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      `<div>C'est un petit rituel qui disparaît. Depuis des années, appuyer sur l'icône Météo de Google lançait une interface propre, soignée, avec cette fameuse grenouille "Froggy". C'était simple, efficace et agréable. <strong>C'est fini.</strong> Google a décidé de tout casser pour remplacer cette expérience par une vulgaire page de résultats de recherche.</div>\r\n` +
       '</div>  ',
     contentSnippet: `C'est un petit rituel qui disparaît. Depuis des années, appuyer sur l'icône Météo de Google lançait une interface propre, soignée, avec cette fameuse grenouille "Froggy". C'était simple, efficace et agréable. C'est fini. Google a décidé de tout casser pour remplacer cette expérience par une vulgaire page de résultats de recherche.`,
     guid: 'https://www.frandroid.com/android/applications/2894575_google-meteo-cest-fini-tout-ce-qui-change-sur-android-et-notre-meilleure-alternative',
@@ -1384,6 +1384,5 @@
     contentSnippet: 'An authenticated Zabbix user (including Guest) is able to cause disproportionate CPU load on the webserver by sending specially crafted parameters to /imgstore.php, leading to potential denial of service. | Severity UNKNOWN',
     guid: 'CVE-2025-49643',
     isoDate: '2025-12-01T14:16:00.000Z'
-  },
-  ... 5 more items
+  }
 ]
