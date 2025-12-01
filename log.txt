@@ -1,5 +1,149 @@
 [
   {
+    title: 'CVE-2025-65622 Snipe-IT before 8.3.4 allows stored XSS via the Locations "Country" field, enabling a low-privileged...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65622',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: `Snipe-IT before 8.3.4 allows stored XSS via the Locations "Country" field, enabling a low-privileged authenticated user to inject JavaScript that executes in another user's session. | Severity UNKNOWN  `,
+    contentSnippet: `Snipe-IT before 8.3.4 allows stored XSS via the Locations "Country" field, enabling a low-privileged authenticated user to inject JavaScript that executes in another user's session. | Severity UNKNOWN`,
+    guid: 'CVE-2025-65622',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66298 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, having a simple form on site can reveal t...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66298',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, having a simple form on site can reveal the whole Grav configuration details (including plugin configuration details) by using the correct POST payload to exploit a Server-Side Template (SST) vulnerability. Sensitive information may be contained in the configuration details. This vulnerability is fixed in 1.8.0-beta.27. | Severity UNKNOWN  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, having a simple form on site can reveal the whole Grav configuration details (including plugin configuration details) by using the correct POST payload to exploit a Server-Side Template (SST) vulnerability. Sensitive information may be contained in the configuration details. This vulnerability is fixed in 1.8.0-beta.27. | Severity UNKNOWN',
+    guid: 'CVE-2025-66298',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66299 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, Grav CMS is vulnerable to a Server-Side T...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66299',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, Grav CMS is vulnerable to a Server-Side Template Injection (SSTI) that allows any authenticated user with editor permissions to execute arbitrary code on the remote server, bypassing the existing security sandbox. Since the security sandbox does not fully protect the Twig object, it is possible to interact with it (e.g., call methods, read/write attributes) through maliciously crafted Twig template directives injected into a web page. This allows an authenticated editor to add arbitrary functions to the Twig attribute system.twig.safe_filters, effectively bypassing the Grav CMS sandbox. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 8.8 (HIGH)  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, Grav CMS is vulnerable to a Server-Side Template Injection (SSTI) that allows any authenticated user with editor permissions to execute arbitrary code on the remote server, bypassing the existing security sandbox. Since the security sandbox does not fully protect the Twig object, it is possible to interact with it (e.g., call methods, read/write attributes) through maliciously crafted Twig template directives injected into a web page. This allows an authenticated editor to add arbitrary functions to the Twig attribute system.twig.safe_filters, effectively bypassing the Grav CMS sandbox. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 8.8 (HIGH)',
+    guid: 'CVE-2025-66299',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66300 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A low privilege user account with page ed...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66300',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A low privilege user account with page editing privilege can read any server files using "Frontmatter" form. This includes Grav user account files (/grav/user/accounts/*.yaml), which store hashed user password, 2FA secret, and the password reset token. This can allow an adversary to compromise any registered account by resetting a password for a user to get access to the password reset token from the file or by cracking the hashed password. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 8.5 (HIGH)  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A low privilege user account with page editing privilege can read any server files using "Frontmatter" form. This includes Grav user account files (/grav/user/accounts/*.yaml), which store hashed user password, 2FA secret, and the password reset token. This can allow an adversary to compromise any registered account by resetting a password for a user to get access to the password reset token from the file or by cracking the hashed password. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 8.5 (HIGH)',
+    guid: 'CVE-2025-66300',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66301 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, due to improper authorization checks when...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66301',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, due to improper authorization checks when modifying critical fields on a POST request to /admin/pages/{page_name}, an editor with only permissions to change basic content on the form is now able to change the functioning of the form through modifying the content of the data[_json][header][form] which is the YAML frontmatter which includes the process section which dictates what happens after a user submits the form which include some important actions that could lead to further vulnerabilities. This vulnerability is fixed in 1.8.0-beta.27. | Severity UNKNOWN  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, due to improper authorization checks when modifying critical fields on a POST request to /admin/pages/{page_name}, an editor with only permissions to change basic content on the form is now able to change the functioning of the form through modifying the content of the data[_json][header][form] which is the YAML frontmatter which includes the process section which dictates what happens after a user submits the form which include some important actions that could lead to further vulnerabilities. This vulnerability is fixed in 1.8.0-beta.27. | Severity UNKNOWN',
+    guid: 'CVE-2025-66301',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66302 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A path traversal vulnerability has been i...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66302',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A path traversal vulnerability has been identified in Grav CMS, allowing authenticated attackers with administrative privileges to read arbitrary files on the underlying server filesystem. This vulnerability arises due to insufficient input sanitization in the backup tool, where user-supplied paths are not properly restricted, enabling access to files outside the intended webroot directory. The impact of this vulnerability depends on the privileges of the user account running the application. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 6.8 (MEDIUM)  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A path traversal vulnerability has been identified in Grav CMS, allowing authenticated attackers with administrative privileges to read arbitrary files on the underlying server filesystem. This vulnerability arises due to insufficient input sanitization in the backup tool, where user-supplied paths are not properly restricted, enabling access to files outside the intended webroot directory. The impact of this vulnerability depends on the privileges of the user account running the application. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 6.8 (MEDIUM)',
+    guid: 'CVE-2025-66302',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66303 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A Denial of Service (DoS) vulnerability h...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66303',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A Denial of Service (DoS) vulnerability has been identified in Grav related to the handling of scheduled_at parameters. Specifically, the application fails to properly sanitize input for cron expressions. By manipulating the scheduled_at parameter with a malicious input, such as a single quote, the application admin panel becomes non-functional, causing significant disruptions to administrative operations. The only way to recover from this issue is to manually access the host server and modify the backup.yaml file to correct the corrupted cron expression. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 4.9 (MEDIUM)  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A Denial of Service (DoS) vulnerability has been identified in Grav related to the handling of scheduled_at parameters. Specifically, the application fails to properly sanitize input for cron expressions. By manipulating the scheduled_at parameter with a malicious input, such as a single quote, the application admin panel becomes non-functional, causing significant disruptions to administrative operations. The only way to recover from this issue is to manually access the host server and modify the backup.yaml file to correct the corrupted cron expression. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 4.9 (MEDIUM)',
+    guid: 'CVE-2025-66303',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66304 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, users with read access on the user accoun...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66304',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, users with read access on the user account management section of the admin panel can view the password hashes of all users, including the admin user. This exposure can potentially lead to privilege escalation if an attacker can crack these password hashes. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 6.2 (MEDIUM)  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, users with read access on the user account management section of the admin panel can view the password hashes of all users, including the admin user. This exposure can potentially lead to privilege escalation if an attacker can crack these password hashes. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 6.2 (MEDIUM)',
+    guid: 'CVE-2025-66304',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66305 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, a Denial of Service (DoS) vulnerability w...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66305',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, a Denial of Service (DoS) vulnerability was identified in the "Languages" submenu of the Grav admin configuration panel (/admin/config/system). Specifically, the Supported parameter fails to properly validate user input. If a malformed value is inserted—such as a single forward slash (/) or an XSS test string—it causes a fatal regular expression parsing error on the server. This leads to application-wide failure due to the use of the preg_match() function with an improperly constructed regular expression, resulting in an error. Once triggered, the site becomes completely unavailable to all users. This vulnerability is fixed in 1.8.0-beta.27. | Severity UNKNOWN  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, a Denial of Service (DoS) vulnerability was identified in the "Languages" submenu of the Grav admin configuration panel (/admin/config/system). Specifically, the Supported parameter fails to properly validate user input. If a malformed value is inserted—such as a single forward slash (/) or an XSS test string—it causes a fatal regular expression parsing error on the server. This leads to application-wide failure due to the use of the preg_match() function with an improperly constructed regular expression, resulting in an error. Once triggered, the site becomes completely unavailable to all users. This vulnerability is fixed in 1.8.0-beta.27. | Severity UNKNOWN',
+    guid: 'CVE-2025-66305',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66306 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, there is an IDOR (Insecure Direct Object ...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66306',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, there is an IDOR (Insecure Direct Object Reference) vulnerability in the Grav CMS Admin Panel which allows low-privilege users to access sensitive information from other accounts. Although direct account takeover is not possible, admin email addresses and other metadata can be exposed, increasing the risk of phishing, credential stuffing, and social engineering. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 4.3 (MEDIUM)  ',
+    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, there is an IDOR (Insecure Direct Object Reference) vulnerability in the Grav CMS Admin Panel which allows low-privilege users to access sensitive information from other accounts. Although direct account takeover is not possible, admin email addresses and other metadata can be exposed, increasing the risk of phishing, credential stuffing, and social engineering. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 4.3 (MEDIUM)',
+    guid: 'CVE-2025-66306',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66307 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66307',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a user enumeration and email disclosure vulnerability exists in Grav. The "Forgot Password" functionality at /admin/forgot leaks information about valid usernames and their associated email addresses through distinct server responses. This allows an attacker to enumerate users and disclose sensitive email addresses, which can be leveraged for targeted attacks such as password spraying, phishing, or social engineering. This vulnerability is fixed in 1.11.0-beta.1. | CVSS Score 6.5 (MEDIUM)  ',
+    contentSnippet: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a user enumeration and email disclosure vulnerability exists in Grav. The "Forgot Password" functionality at /admin/forgot leaks information about valid usernames and their associated email addresses through distinct server responses. This allows an attacker to enumerate users and disclose sensitive email addresses, which can be leveraged for targeted attacks such as password spraying, phishing, or social engineering. This vulnerability is fixed in 1.11.0-beta.1. | CVSS Score 6.5 (MEDIUM)',
+    guid: 'CVE-2025-66307',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66308 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66308',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/config/site endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[taxonomies] parameter. The injected payload is stored on the server and automatically executed in the browser of any user who accesses the affected site configuration, resulting in a persistent attack vector. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN  ',
+    contentSnippet: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/config/site endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[taxonomies] parameter. The injected payload is stored on the server and automatically executed in the browser of any user who accesses the affected site configuration, resulting in a persistent attack vector. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN',
+    guid: 'CVE-2025-66308',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66309 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66309',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Reflected Cross-Site Scripting (XSS) vulnerability was identified in the /admin/pages/[page] endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[header][content][items] parameter. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN  ',
+    contentSnippet: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Reflected Cross-Site Scripting (XSS) vulnerability was identified in the /admin/pages/[page] endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[header][content][items] parameter. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN',
+    guid: 'CVE-2025-66309',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66310 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66310',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: "This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/pages/[page] endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[header][template] parameter. The script is saved within the page's frontmatter and executed automatically whenever the affected content is rendered in the administrative interface or frontend view. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN  ",
+    contentSnippet: "This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/pages/[page] endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[header][template] parameter. The script is saved within the page's frontmatter and executed automatically whenever the affected content is rendered in the administrative interface or frontend view. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN",
+    guid: 'CVE-2025-66310',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66311 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66311',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/pages/[page] endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[header][metadata], data[header][taxonomy][category], and data[header][taxonomy][tag] parameters. These scripts are stored in the page frontmatter and executed automatically whenever the affected page is accessed or rendered in the administrative interface. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN  ',
+    contentSnippet: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/pages/[page] endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[header][metadata], data[header][taxonomy][category], and data[header][taxonomy][tag] parameters. These scripts are stored in the page frontmatter and executed automatically whenever the affected page is accessed or rendered in the administrative interface. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN',
+    guid: 'CVE-2025-66311',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-66312 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66312',
+    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
+    content: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/accounts/groups/Grupo endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[readableName] parameter. The injected scripts are stored on the server and executed automatically whenever the affected page is accessed by users, posing a significant security risk. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN  ',
+    contentSnippet: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/accounts/groups/Grupo endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[readableName] parameter. The injected scripts are stored on the server and executed automatically whenever the affected page is accessed by users, posing a significant security risk. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN',
+    guid: 'CVE-2025-66312',
+    isoDate: '2025-12-01T22:15:00.000Z'
+  },
+  {
     title: 'HKG (Hong Kong) on 2025-12-03',
     link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
     pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
@@ -1017,250 +1161,5 @@
     guid: 'CVE-2025-8351',
     isoDate: '2025-12-01T16:15:00.000Z'
   },
-  {
-    title: 'Cyber Monday  Amazon baisse le prix de la manette Xbox rose Heart Breaker',
-    link: 'https//www.frandroid.com/bons-plans/bons-plans-gaming/2894429_cyber-monday-amazon-baisse-le-prix-de-la-manette-xbox-rose-heart-breaker',
-    pubDate: 'Mon, 01 Dec 2025 16:15:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      "<div>Les éditions spéciales de manettes Xbox descendent rarement sous les 65 €. Pourtant, Amazon affiche la superbe <strong>Heart Breaker</strong> (Rose) à <strong>56,99 €</strong>. Si vous cherchiez une deuxième manette qui ne finit pas perdue sur le canapé noir, c'est celle-ci qu'il faut prendre.</div>\r\n" +
-      '</div>  ',
-    contentSnippet: "Les éditions spéciales de manettes Xbox descendent rarement sous les 65 €. Pourtant, Amazon affiche la superbe Heart Breaker (Rose) à 56,99 €. Si vous cherchiez une deuxième manette qui ne finit pas perdue sur le canapé noir, c'est celle-ci qu'il faut prendre.",
-    guid: 'https://www.frandroid.com/bons-plans/bons-plans-gaming/2894429_cyber-monday-amazon-baisse-le-prix-de-la-manette-xbox-rose-heart-breaker',
-    categories: [
-      'Bons plans',
-      'Bons plans gaming',
-      'Gaming',
-      'Manettes de jeu',
-      'Marques',
-      'Microsoft',
-      'Produits',
-      'Black Friday 2025',
-      'Bons plans Amazon',
-      'Cyber Monday 2025',
-      'Microsoft Manette sans fil Xbox Séries'
-    ],
-    isoDate: '2025-12-01T16:15:00.000Z'
-  },
-  {
-    title: 'Amazon écoule son stock pour le Cyber Monday  les derniers deals à ne pas manquer',
-    link: 'https//www.frandroid.com/bons-plans/2889201_amazon-ecoule-son-stock-pour-le-cyber-monday-les-derniers-deals-a-ne-pas-manquer',
-    pubDate: 'Mon, 01 Dec 2025 16:07:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      '<div>Le Cyber Monday est lancé  la dernière chance pour faire des économies sur vos achats Tech. Plusieurs références sont à prix cassés chez Amazon, et voici les meilleures que nous avons retenues encore disponibles en stock.</div>\r\n' +
-      '</div>  ',
-    contentSnippet: 'Le Cyber Monday est lancé  la dernière chance pour faire des économies sur vos achats Tech. Plusieurs références sont à prix cassés chez Amazon, et voici les meilleures que nous avons retenues encore disponibles en stock.',
-    guid: 'https://www.frandroid.com/bons-plans/2889201_amazon-ecoule-son-stock-pour-le-cyber-monday-les-derniers-deals-a-ne-pas-manquer',
-    categories: [
-      'Bons plans',
-      'Black Friday 2025',
-      'Bons plans Amazon',
-      'Cyber Monday 2025'
-    ],
-    isoDate: '2025-12-01T16:07:00.000Z'
-  },
-  {
-    title: 'Quid de la responsabilité des entreprises ? Une fuite de données vertigineuse touche 65% de la population sud-coréenne et relance le débat',
-    link: 'https//www.numerama.com/cyberguerre/2131893-quid-de-la-responsabilite-des-entreprises-une-fuite-de-donnees-vertigineuse-touche-65-de-la-population-sud-coreenne-et-relance-le-debat.html',
-    pubDate: 'Mon, 01 Dec 2025 15:58:00 GMT',
-    content: '\r\n' +
-      "La Corée du Sud fait face à une nouvelle fuite de données d'une ampleur spectaculaire. Cette fois, c’est le géant du commerce en ligne Coupang, souvent présenté comme l’Amazon du pays, qui est touché. Selon l’entreprise, 33,7 millions de comptes seraient concernés, soit environ 65% de la population, plaçant clients et autorités en état d’alerte.\r\n" +
-      '  ',
-    contentSnippet: "La Corée du Sud fait face à une nouvelle fuite de données d'une ampleur spectaculaire. Cette fois, c’est le géant du commerce en ligne Coupang, souvent présenté comme l’Amazon du pays, qui est touché. Selon l’entreprise, 33,7 millions de comptes seraient concernés, soit environ 65% de la population, plaçant clients et autorités en état d’alerte.",
-    guid: 'https://www.numerama.com/cyberguerre/2131893-quid-de-la-responsabilite-des-entreprises-une-fuite-de-donnees-vertigineuse-touche-65-de-la-population-sud-coreenne-et-relance-le-debat.html',
-    categories: [
-      'Cybercriminalité',
-      'Cyberguerre',
-      'Fuites de données',
-      'Hygiène numérique',
-      'Corée du Sud',
-      'cybersécurité'
-    ],
-    isoDate: '2025-12-01T15:58:00.000Z'
-  },
-  {
-    title: 'Ce chargeur rapide 100 W 3 ports avec écran intelligent se retrouve à -50 % pour quelques heures encore',
-    link: 'https//www.frandroid.com/bons-plans/2893927_ce-chargeur-rapide-100-w-3-ports-avec-ecran-intelligent-se-retrouve-a-50-pour-quelques-heures-encore',
-    pubDate: 'Mon, 01 Dec 2025 15:55:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      "<div>Amazon propose une sacrée réduction pour la fin du Cyber Monday avec 30 euros de réduction sur le Baseus PicoGo AE21, un chargeur rapide 3 ports d'une puissance de 100 W.</div>\r\n" +
-      '</div>  ',
-    contentSnippet: "Amazon propose une sacrée réduction pour la fin du Cyber Monday avec 30 euros de réduction sur le Baseus PicoGo AE21, un chargeur rapide 3 ports d'une puissance de 100 W.",
-    guid: 'https://www.frandroid.com/bons-plans/2893927_ce-chargeur-rapide-100-w-3-ports-avec-ecran-intelligent-se-retrouve-a-50-pour-quelques-heures-encore',
-    categories: [
-      'Bons plans',
-      'Bons plans hardware',
-      'Bons plans Amazon',
-      'chargeur',
-      'Cyber Monday 2025'
-    ],
-    isoDate: '2025-12-01T15:55:00.000Z'
-  },
-  {
-    title: 'Contrairement aux idées reçues, les ondes des voitures électriques ne sont pas plus dangereuses que chez les thermiques',
-    link: 'https//www.numerama.com/vroom/2131931-contrairement-aux-idees-recues-les-ondes-des-voitures-electriques-ne-sont-pas-plus-dangereuses-que-chez-les-thermiques.html',
-    pubDate: 'Mon, 01 Dec 2025 15:50:00 GMT',
-    content: '\r\n' +
-      "Des chercheurs allemands en collaboration avec l'ADAC ont testé 11 voitures électriques afin de savoir si elles émettaient trop d'ondes électromagnétiques. Vous pouvez être rassurés, d'après cette étude les VE sont sans danger.\r\n" +
-      '  ',
-    contentSnippet: "Des chercheurs allemands en collaboration avec l'ADAC ont testé 11 voitures électriques afin de savoir si elles émettaient trop d'ondes électromagnétiques. Vous pouvez être rassurés, d'après cette étude les VE sont sans danger.",
-    guid: 'https://www.numerama.com/vroom/2131931-contrairement-aux-idees-recues-les-ondes-des-voitures-electriques-ne-sont-pas-plus-dangereuses-que-chez-les-thermiques.html',
-    categories: [ 'Voiture', 'Voiture électrique', 'Vroom', 'santé' ],
-    isoDate: '2025-12-01T15:50:00.000Z'
-  },
-  {
-    title: 'Les 10 smartphones les plus populaires de la semaine sur Frandroid  Xiaomi et Samsung se partagent les places populaires',
-    link: 'https//www.frandroid.com/produits-android/smartphone/2491986_les-10-smartphones-les-plus-populaires-de-la-semaine-sur-frandroid-xiaomi-et-samsung-se-partagent-les-places-populaires',
-    pubDate: 'Mon, 01 Dec 2025 15:42:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      '<div>Pour notre top 10 des smartphones les plus populaires de la semaine sur Frandroid, certaines marques prennent le dessus. Au programme de ce top, Samsung et Xiaomi sont omniprésents.</div>\r\n' +
-      '</div>  ',
-    contentSnippet: 'Pour notre top 10 des smartphones les plus populaires de la semaine sur Frandroid, certaines marques prennent le dessus. Au programme de ce top, Samsung et Xiaomi sont omniprésents.',
-    guid: 'https://www.frandroid.com/produits-android/smartphone/2491986_les-10-smartphones-les-plus-populaires-de-la-semaine-sur-frandroid-xiaomi-et-samsung-se-partagent-les-places-populaires',
-    categories: [
-      'Marques',
-      'OnePlus',
-      'Produits',
-      'Samsung',
-      'Smartphones',
-      'Xiaomi',
-      'Samsung Galaxy A56',
-      'Xiaomi 15T Pro',
-      'Xiaomi Redmi Note 14 Pro 5G'
-    ],
-    isoDate: '2025-12-01T15:42:00.000Z'
-  },
-  {
-    title: 'Cyber Monday  les meilleures offres à moins de 100 euros, c’est par ici !',
-    link: 'https//www.frandroid.com/bons-plans/2866283_cyber-monday-les-meilleures-offres-a-moins-de-100-euros-cest-par-ici',
-    pubDate: 'Mon, 01 Dec 2025 15:39:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      '<div>Le Cyber Monday a débuté et pour les budgets plus restreints qui souhaiteraient tout de même profiter de l’évènement sans dépenser les 100 euros, sachez qu’on trouve de belles offres cotées Tech.</div>\r\n' +
-      '</div>  ',
-    contentSnippet: 'Le Cyber Monday a débuté et pour les budgets plus restreints qui souhaiteraient tout de même profiter de l’évènement sans dépenser les 100 euros, sachez qu’on trouve de belles offres cotées Tech.',
-    guid: 'https://www.frandroid.com/bons-plans/2866283_cyber-monday-les-meilleures-offres-a-moins-de-100-euros-cest-par-ici',
-    categories: [
-      'Bons plans',
-      'Black Friday 2025',
-      'Bons plans AliExpress',
-      'Bons plans Amazon',
-      'Bons plans Auchan',
-      'Bons plans Boulanger',
-      'Bons plans Darty',
-      'Bons plans Fnac',
-      'Bons plans Rakuten',
-      'Sélections Black Friday',
-      'Single Day 2025'
-    ],
-    isoDate: '2025-12-01T15:39:00.000Z'
-  },
-  {
-    title: 'Generate a timeline of your day, automatically',
-    link: 'https//opensourceprojects.dev/post/1995513560412402095',
-    pubDate: 'Mon, 01 Dec 2025 15:21:00 GMT',
-    content: 'Ever finish a workday and wonder where the time actually went? You know you were busy, but the details are a blur of Slack messages, browser tabs, and half-finished commits. Manually piecing together a timeline feels like tedious admin work. What if your computer could just… tell you?\r\n' +
-      '\r\n' +
-      'GitHub Repository https//github.com/JerryZLiu/Dayflow  ',
-    contentSnippet: 'Ever finish a workday and wonder where the time actually went? You know you were busy, but the details are a blur of Slack messages, browser tabs, and half-finished commits. Manually piecing together a timeline feels like tedious admin work. What if your computer could just… tell you?\r\n' +
-      '\r\n' +
-      'GitHub Repository https//github.com/JerryZLiu/Dayflow',
-    guid: 'https://opensourceprojects.dev/post/1995513560412402095',
-    isoDate: '2025-12-01T15:21:00.000Z'
-  },
-  {
-    title: 'Fnac fait -50 % sur ce pack Xiaomi Mix Flip + imprimante photo pour la fin du Black Friday',
-    link: 'https//www.frandroid.com/bons-plans/2893905_fnac-fait-50-sur-ce-pack-xiaomi-mix-flip-imprimante-photo-pour-la-fin-du-black-friday',
-    pubDate: 'Mon, 01 Dec 2025 15:21:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      '<div>Avant de découvrir la deuxième version de ce Mix Flip, Darty offre une remise de quasiment 50 % sur le premier modèle dans un pack contenant une imprimante photo et son papier photo, le tout pour 699 euros au lieu de 1 303 euros.</div>\r\n' +
-      '</div>  ',
-    contentSnippet: 'Avant de découvrir la deuxième version de ce Mix Flip, Darty offre une remise de quasiment 50 % sur le premier modèle dans un pack contenant une imprimante photo et son papier photo, le tout pour 699 euros au lieu de 1 303 euros.',
-    guid: 'https://www.frandroid.com/bons-plans/2893905_fnac-fait-50-sur-ce-pack-xiaomi-mix-flip-imprimante-photo-pour-la-fin-du-black-friday',
-    categories: [
-      'Bons plans',
-      'Bons plans smartphones',
-      'Marques',
-      'Produits',
-      'Smartphones',
-      'Xiaomi',
-      'Bons plans Darty',
-      'Cyber Monday 2025',
-      'Xiaomi Mix Flip'
-    ],
-    isoDate: '2025-12-01T15:21:00.000Z'
-  },
-  {
-    title: 'Google TV  attention si vous utilisez cette alternative à YouTube sans pubs, elle a été infectée par un malware',
-    link: 'https//www.frandroid.com/marques/google/2893851_google-tv-attention-si-vous-utilisez-cette-alternative-a-youtube-sans-pubs-elle-a-ete-infectee-par-un-malware',
-    pubDate: 'Mon, 01 Dec 2025 15:18:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      "<div>Le développeur d'une célèbre alternative à YouTube pour Google TV admet que les dernières versions de l'application contiennent possiblement un malware.</div>\r\n" +
-      '</div>  ',
-    contentSnippet: "Le développeur d'une célèbre alternative à YouTube pour Google TV admet que les dernières versions de l'application contiennent possiblement un malware.",
-    guid: 'https://www.frandroid.com/marques/google/2893851_google-tv-attention-si-vous-utilisez-cette-alternative-a-youtube-sans-pubs-elle-a-ete-infectee-par-un-malware',
-    categories: [
-      'Android',
-      'Google',
-      'Google TV (ex Android TV)',
-      'Marques',
-      'Android TV',
-      'Google TV',
-      'YouTube',
-      'YouTube for Android TV'
-    ],
-    isoDate: '2025-12-01T15:18:00.000Z'
-  },
-  {
-    title: 'CVE-2024-56089 An issue in Technitium through v13.2.2 enables attackers to conduct a DNS cache poisoning attack and...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2024-56089',
-    pubDate: 'Mon, 01 Dec 2025 15:15:00 GMT',
-    content: 'An issue in Technitium through v13.2.2 enables attackers to conduct a DNS cache poisoning attack and inject fake responses by reviving the birthday attack. | Severity UNKNOWN  ',
-    contentSnippet: 'An issue in Technitium through v13.2.2 enables attackers to conduct a DNS cache poisoning attack and inject fake responses by reviving the birthday attack. | Severity UNKNOWN',
-    guid: 'CVE-2024-56089',
-    isoDate: '2025-12-01T15:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-13129 Improper Enforcement of Behavioral Workflow vulnerability in Seneka Software Hardware Information Te...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13129',
-    pubDate: 'Mon, 01 Dec 2025 15:15:00 GMT',
-    content: 'Improper Enforcement of Behavioral Workflow vulnerability in Seneka Software Hardware Information Technology Trade Contracting and Industry Ltd. Co. Onaylarım allows Functionality Misuse.This issue affects Onaylarım from 25.09.26.01 through 18112025. | CVSS Score 3.5 (LOW)  ',
-    contentSnippet: 'Improper Enforcement of Behavioral Workflow vulnerability in Seneka Software Hardware Information Technology Trade Contracting and Industry Ltd. Co. Onaylarım allows Functionality Misuse.This issue affects Onaylarım from 25.09.26.01 through 18112025. | CVSS Score 3.5 (LOW)',
-    guid: 'CVE-2025-13129',
-    isoDate: '2025-12-01T15:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-63520 Cross Site Scripting (XSS) vulnerability in FeehiCMS 2.1.1 via the id parameter of the User Update f...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63520',
-    pubDate: 'Mon, 01 Dec 2025 15:15:00 GMT',
-    content: 'Cross Site Scripting (XSS) vulnerability in FeehiCMS 2.1.1 via the id parameter of the User Update function (?r=user%2Fupdate). | Severity UNKNOWN  ',
-    contentSnippet: 'Cross Site Scripting (XSS) vulnerability in FeehiCMS 2.1.1 via the id parameter of the User Update function (?r=user%2Fupdate). | Severity UNKNOWN',
-    guid: 'CVE-2025-63520',
-    isoDate: '2025-12-01T15:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-63522 Reverse Tabnabbing vulnerability in FeehiCMS 2.1.1 in the Comments Management function',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63522',
-    pubDate: 'Mon, 01 Dec 2025 15:15:00 GMT',
-    content: 'Reverse Tabnabbing vulnerability in FeehiCMS 2.1.1 in the Comments Management function | Severity UNKNOWN  ',
-    contentSnippet: 'Reverse Tabnabbing vulnerability in FeehiCMS 2.1.1 in the Comments Management function | Severity UNKNOWN',
-    guid: 'CVE-2025-63522',
-    isoDate: '2025-12-01T15:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-63523 FeehiCMS version 2.1.1 fails to enforce server-side immutability for parameters that are presented t...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63523',
-    pubDate: 'Mon, 01 Dec 2025 15:15:00 GMT',
-    content: 'FeehiCMS version 2.1.1 fails to enforce server-side immutability for parameters that are presented to clients as "read-only." An authenticated attacker can intercept and modify the parameter in transit and the backend accepts the changes. This can lead to unintended username changes. | Severity UNKNOWN  ',
-    contentSnippet: 'FeehiCMS version 2.1.1 fails to enforce server-side immutability for parameters that are presented to clients as "read-only." An authenticated attacker can intercept and modify the parameter in transit and the backend accepts the changes. This can lead to unintended username changes. | Severity UNKNOWN',
-    guid: 'CVE-2025-63523',
-    isoDate: '2025-12-01T15:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-63525 An issue was discovered in Blood Bank Management System 1.0 allowing authenticated attackers to perf...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63525',
-    pubDate: 'Mon, 01 Dec 2025 15:15:00 GMT',
-    content: 'An issue was discovered in Blood Bank Management System 1.0 allowing authenticated attackers to perform actions with escalated privileges via crafted request to delete.php. | CVSS Score 9.6 (CRITICAL)  ',
-    contentSnippet: 'An issue was discovered in Blood Bank Management System 1.0 allowing authenticated attackers to perform actions with escalated privileges via crafted request to delete.php. | CVSS Score 9.6 (CRITICAL)',
-    guid: 'CVE-2025-63525',
-    isoDate: '2025-12-01T15:15:00.000Z'
-  }
+  ... 16 more items
 ]
