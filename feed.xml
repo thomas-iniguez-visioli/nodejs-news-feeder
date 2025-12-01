@@ -3237,40 +3237,40 @@ Successful exploitation of this vulnerability could allow the attacker to bypass
     </item>
   
     <item>
-      <title>CVE-2024-48050 In agentscope <=v0.0.4, the file agentscope\web\workstation\workflow_utils.py has the function is_ca...</title>
-      <description>In agentscope <=v0.0.4, the file agentscope\web\workstation\workflow_utils.py has the function is_callable_expression. Within this function, the line result = eval(s) poses a security risk as it can directly execute user-provided commands. | CVSS Score 9.8 (CRITICAL)  </description>
+      <title>CVE-2024-48050 In agentscope   v0.0.4, the file agentscope\web\workstation\workflow_utils.py has the function is_ca...</title>
+      <description>In agentscope   v0.0.4, the file agentscope\web\workstation\workflow_utils.py has the function is_callable_expression. Within this function, the line result = eval(s) poses a security risk as it can directly execute user-provided commands. | CVSS Score 9.8 (CRITICAL)  </description>
       <pubDate>Mon, 04 Nov 2024 23:15:00 BST</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2024-48050</link>
       <guid>CVE-2024-48050</guid>
     </item>
   
     <item>
-      <title>CVE-2024-48052 In gradio <=4.42.0, the gr.DownloadButton function has a hidden server-side request forgery (SSRF) v...</title>
-      <description>In gradio <=4.42.0, the gr.DownloadButton function has a hidden server-side request forgery (SSRF) vulnerability. The reason is that within the save_url_to_cache function, there are no restrictions on the URL, which allows access to local target resources. This can lead to the download of local resources and sensitive information. | CVSS Score 6.5 (MEDIUM)  </description>
+      <title>CVE-2024-48052 In gradio   4.42.0, the gr.DownloadButton function has a hidden server-side request forgery (SSRF) v...</title>
+      <description>In gradio   4.42.0, the gr.DownloadButton function has a hidden server-side request forgery (SSRF) vulnerability. The reason is that within the save_url_to_cache function, there are no restrictions on the URL, which allows access to local target resources. This can lead to the download of local resources and sensitive information. | CVSS Score 6.5 (MEDIUM)  </description>
       <pubDate>Mon, 04 Nov 2024 23:15:00 BST</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2024-48052</link>
       <guid>CVE-2024-48052</guid>
     </item>
   
     <item>
-      <title>CVE-2024-48057 localai <=2.20.1 is vulnerable to Cross Site Scripting (XSS). When calling the delete model API and ...</title>
-      <description>localai <=2.20.1 is vulnerable to Cross Site Scripting (XSS). When calling the delete model API and passing inappropriate parameters, it can cause a one-time storage XSS, which will trigger the payload when a user accesses the homepage. | CVSS Score 6.1 (MEDIUM)  </description>
+      <title>CVE-2024-48057 localai   2.20.1 is vulnerable to Cross Site Scripting (XSS). When calling the delete model API and ...</title>
+      <description>localai   2.20.1 is vulnerable to Cross Site Scripting (XSS). When calling the delete model API and passing inappropriate parameters, it can cause a one-time storage XSS, which will trigger the payload when a user accesses the homepage. | CVSS Score 6.1 (MEDIUM)  </description>
       <pubDate>Mon, 04 Nov 2024 23:15:00 BST</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2024-48057</link>
       <guid>CVE-2024-48057</guid>
     </item>
   
     <item>
-      <title>CVE-2024-48059 gaizhenbiao/chuanhuchatgpt project, version <=20240802 is vulnerable to stored Cross-Site Scripting ...</title>
-      <description>gaizhenbiao/chuanhuchatgpt project, version <=20240802 is vulnerable to stored Cross-Site Scripting (XSS) in WebSocket session transmission. An attacker can inject malicious content into a WebSocket message. When a victim accesses this session, the malicious JavaScript is executed in the victim's browser. | CVSS Score 6.1 (MEDIUM)  </description>
+      <title>CVE-2024-48059 gaizhenbiao/chuanhuchatgpt project, version   20240802 is vulnerable to stored Cross-Site Scripting ...</title>
+      <description>gaizhenbiao/chuanhuchatgpt project, version   20240802 is vulnerable to stored Cross-Site Scripting (XSS) in WebSocket session transmission. An attacker can inject malicious content into a WebSocket message. When a victim accesses this session, the malicious JavaScript is executed in the victim's browser. | CVSS Score 6.1 (MEDIUM)  </description>
       <pubDate>Mon, 04 Nov 2024 23:15:00 BST</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2024-48059</link>
       <guid>CVE-2024-48059</guid>
     </item>
   
     <item>
-      <title>CVE-2024-48061 langflow <=1.0.18 is vulnerable to Remote Code Execution (RCE) as any component provided the code fu...</title>
-      <description>langflow <=1.0.18 is vulnerable to Remote Code Execution (RCE) as any component provided the code functionality and the components run on the local machine rather than in a sandbox. | CVSS Score 9.8 (CRITICAL)  </description>
+      <title>CVE-2024-48061 langflow   1.0.18 is vulnerable to Remote Code Execution (RCE) as any component provided the code fu...</title>
+      <description>langflow   1.0.18 is vulnerable to Remote Code Execution (RCE) as any component provided the code functionality and the components run on the local machine rather than in a sandbox. | CVSS Score 9.8 (CRITICAL)  </description>
       <pubDate>Mon, 04 Nov 2024 23:15:00 BST</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2024-48061</link>
       <guid>CVE-2024-48061</guid>
