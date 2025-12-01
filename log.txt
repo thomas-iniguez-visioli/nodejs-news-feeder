@@ -1,23 +1,88 @@
 [
   {
-    title: 'Extract any website’s design system into design tokens in a few seconds logo, colors, typography, b...',
-    link: 'https//opensourceprojects.dev/post/1995539211714465839',
-    pubDate: 'Mon, 01 Dec 2025 17:03:00 GMT',
-    content: 'Ever land on a beautifully designed website and immediately wonder, quotWhataposs their color palette? What font is that? How are their borders styled?quot Figuring that out usually involves digging through dev tools, inspecting elements, and manually noting values. Itaposs a tedious process.\n' +
-      '\n' +
-      'GitHub Repository https//github.com/thevangelist/dembrandt  ',
-    contentSnippet: 'Ever land on a beautifully designed website and immediately wonder, quotWhataposs their color palette? What font is that? How are their borders styled?quot Figuring that out usually involves digging through dev tools, inspecting elements, and manually noting values. Itaposs a tedious process.\n' +
-      '\n' +
-      'GitHub Repository https//github.com/thevangelist/dembrandt',
-    guid: 'https://opensourceprojects.dev/post/1995539211714465839',
-    isoDate: '2025-12-01T17:03:00.000Z'
+    title: 'CVE-2025-13653 In Search Guard FLX versions from 3.1.0 up to 4.0.0 with enterprise modules being disabled, there ex...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13653',
+    pubDate: 'Mon, 01 Dec 2025 18:16:00 GMT',
+    content: 'In Search Guard FLX versions from 3.1.0 up to 4.0.0 with enterprise modules being disabled, there exists an issue which allows authenticated users to use specially crafted requests to read documents from data streams without having the respective privileges. | CVSS Score 4.3 (MEDIUM)  ',
+    contentSnippet: 'In Search Guard FLX versions from 3.1.0 up to 4.0.0 with enterprise modules being disabled, there exists an issue which allows authenticated users to use specially crafted requests to read documents from data streams without having the respective privileges. | CVSS Score 4.3 (MEDIUM)',
+    guid: 'CVE-2025-13653',
+    isoDate: '2025-12-01T18:16:00.000Z'
+  },
+  {
+    title: "CVE-2025-13835 Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability i...",
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13835',
+    pubDate: 'Mon, 01 Dec 2025 18:16:00 GMT',
+    content: "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Tyche Softwares Arconix Shortcodes allows Stored XSS.This issue affects Arconix Shortcodes from n/a through 2.1.19. | CVSS Score 6.5 (MEDIUM)  ",
+    contentSnippet: "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Tyche Softwares Arconix Shortcodes allows Stored XSS.This issue affects Arconix Shortcodes from n/a through 2.1.19. | CVSS Score 6.5 (MEDIUM)",
+    guid: 'CVE-2025-13835',
+    isoDate: '2025-12-01T18:16:00.000Z'
+  },
+  {
+    title: 'CVE-2025-13836 When reading an HTTP response from a server, if no read amount is specified, the default behavior wi...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13836',
+    pubDate: 'Mon, 01 Dec 2025 18:16:00 GMT',
+    content: 'When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS. | Severity UNKNOWN  ',
+    contentSnippet: 'When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS. | Severity UNKNOWN',
+    guid: 'CVE-2025-13836',
+    isoDate: '2025-12-01T18:16:00.000Z'
+  },
+  {
+    title: 'CVE-2025-13837 When loading a plist file, the plistlib module reads data in size specified by the file itself, mean...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13837',
+    pubDate: 'Mon, 01 Dec 2025 18:16:00 GMT',
+    content: 'When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues | Severity UNKNOWN  ',
+    contentSnippet: 'When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues | Severity UNKNOWN',
+    guid: 'CVE-2025-13837',
+    isoDate: '2025-12-01T18:16:00.000Z'
+  },
+  {
+    title: 'La part de marché de Linux explose  pourquoi les utilisateurs quittent Windows',
+    link: 'https//www.frandroid.com/os/gnu-linux/2894475_la-part-de-marche-de-linux-explose-pourquoi-les-utilisateurs-quittent-windows',
+    pubDate: 'Mon, 01 Dec 2025 17:52:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      "<div>C'est le <em>running gag</em> le plus vieux de la tech  « Cette année, c'est l'année de Linux ». Sauf que cette fois, les chiffres ne rigolent plus. Avec une <strong>croissance qui a triplé</strong> en quatre ans et des utilisateurs de Windows qui fuient le navire, l'OS libre n'est plus une simple curiosité pour barbus. C'est une lame de fond.</div>\n" +
+      '</div>  ',
+    contentSnippet: "C'est le running gag le plus vieux de la tech  « Cette année, c'est l'année de Linux ». Sauf que cette fois, les chiffres ne rigolent plus. Avec une croissance qui a triplé en quatre ans et des utilisateurs de Windows qui fuient le navire, l'OS libre n'est plus une simple curiosité pour barbus. C'est une lame de fond.",
+    guid: 'https://www.frandroid.com/os/gnu-linux/2894475_la-part-de-marche-de-linux-explose-pourquoi-les-utilisateurs-quittent-windows',
+    categories: [
+      'GNU/Linux',
+      'mini PC',
+      'OS',
+      'PC',
+      'PC fixes',
+      'PC portables',
+      'Produits',
+      'Windows'
+    ],
+    isoDate: '2025-12-01T17:52:00.000Z'
+  },
+  {
+    title: 'Données personnelles  reprendre la main',
+    link: 'https//www.zataz.com/donnees-personnelles-reprendre-la-main/',
+    pubDate: 'Mon, 01 Dec 2025 18:26:00 GMT',
+    content: 'Que Choisir lance un Pratique 2025 écrit par ZATAZ pour reprendre le contrôle de vos données face aux rançongiciels, fuites et IA....  ',
+    contentSnippet: 'Que Choisir lance un Pratique 2025 écrit par ZATAZ pour reprendre le contrôle de vos données face aux rançongiciels, fuites et IA....',
+    guid: 'https://www.zataz.com/donnees-personnelles-reprendre-la-main/',
+    categories: [
+      'Actualités',
+      'cyber actualité',
+      'Divers',
+      'éducation cybersécurité',
+      'Phishing',
+      'Sécurité',
+      'Technologie',
+      'Vie privée',
+      'données personnelles',
+      'rançongiciels'
+    ],
+    isoDate: '2025-12-01T18:26:00.000Z'
   },
   {
     title: 'Le gigantesque écran gaming de Samsung, le Odyssey OLED G9 et ses 49 pouces, s’offre 200 € de remise chez Boulanger',
     link: 'https//www.frandroid.com/marques/2893277_le-gigantesque-ecran-gaming-de-samsung-le-odyssey-oled-g9-et-ses-49-pouces-soffre-200-e-de-remise-chez-boulanger',
     pubDate: 'Mon, 01 Dec 2025 17:30:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      "<div>Si vous voulez voir la vie sur très grand écran, foncez sur ce Samsung Odyssey OLED G9 muni d'une dalle de 49 pouces. Pour le Cyber Monday, Boulanger baisse son prix de 200 euros et l'affiche désormais à 899 euros.</div>\n" +
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      "<div>Si vous voulez voir la vie sur très grand écran, foncez sur ce Samsung Odyssey OLED G9 muni d'une dalle de 49 pouces. Pour le Cyber Monday, Boulanger baisse son prix de 200 euros et l'affiche désormais à 899 euros.</div>\r\n" +
       '</div>  ',
     contentSnippet: "Si vous voulez voir la vie sur très grand écran, foncez sur ce Samsung Odyssey OLED G9 muni d'une dalle de 49 pouces. Pour le Cyber Monday, Boulanger baisse son prix de 200 euros et l'affiche désormais à 899 euros.",
     guid: 'https://www.frandroid.com/marques/2893277_le-gigantesque-ecran-gaming-de-samsung-le-odyssey-oled-g9-et-ses-49-pouces-soffre-200-e-de-remise-chez-boulanger',
@@ -34,25 +99,6 @@
       'Samsung Odyssey OLED G9 (G95SD)'
     ],
     isoDate: '2025-12-01T17:30:00.000Z'
-  },
-  {
-    title: 'Pourquoi Blizzard a mis 20 ans à permettre le housing dans World of Warcraft',
-    link: 'https//www.numerama.com/pop-culture/2131885-pourquoi-blizzard-a-mis-20-ans-a-permettre-le-housing-dans-world-of-warcraft.html',
-    pubDate: 'Mon, 01 Dec 2025 15:01:00 GMT',
-    content: '\n' +
-      "C’est la fin de la plus vieille attente de l'histoire de World of Warcraft. Ce 3 décembre 2025, le MMORPG de Blizzard accueille enfin le « housing » (ou « logis ») avec le prélancement de l'extension Midnight. Pourquoi aura-t-il fallu attendre vingt ans avant de pouvoir poser ses valises en Azeroth ?\n" +
-      '  ',
-    contentSnippet: "C’est la fin de la plus vieille attente de l'histoire de World of Warcraft. Ce 3 décembre 2025, le MMORPG de Blizzard accueille enfin le « housing » (ou « logis ») avec le prélancement de l'extension Midnight. Pourquoi aura-t-il fallu attendre vingt ans avant de pouvoir poser ses valises en Azeroth ?",
-    guid: 'https://www.numerama.com/pop-culture/2131885-pourquoi-blizzard-a-mis-20-ans-a-permettre-le-housing-dans-world-of-warcraft.html',
-    categories: [
-      'Jeux Vidéo',
-      'Pop culture',
-      'Blizzard',
-      'MMORPG',
-      'World of Warcraft',
-      'World of Warcraft: Midnight'
-    ],
-    isoDate: '2025-12-01T15:01:00.000Z'
   },
   {
     title: 'Après la hausse du Game Pass, voici le meilleur plan pour payer moins cher son abonnement',
@@ -178,6 +224,19 @@
       'France'
     ],
     isoDate: '2025-12-01T17:11:00.000Z'
+  },
+  {
+    title: 'Extract any website’s design system into design tokens in a few seconds logo, colors, typography, b...',
+    link: 'https//opensourceprojects.dev/post/1995539211714465839',
+    pubDate: 'Mon, 01 Dec 2025 17:03:00 GMT',
+    content: 'Ever land on a beautifully designed website and immediately wonder, quotWhataposs their color palette? What font is that? How are their borders styled?quot Figuring that out usually involves digging through dev tools, inspecting elements, and manually noting values. Itaposs a tedious process.\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/thevangelist/dembrandt  ',
+    contentSnippet: 'Ever land on a beautifully designed website and immediately wonder, quotWhataposs their color palette? What font is that? How are their borders styled?quot Figuring that out usually involves digging through dev tools, inspecting elements, and manually noting values. Itaposs a tedious process.\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/thevangelist/dembrandt',
+    guid: 'https://opensourceprojects.dev/post/1995539211714465839',
+    isoDate: '2025-12-01T17:03:00.000Z'
   },
   {
     title: 'On sait enfin comment le géant chinois du solaire a battu le record de performances avec sa cellule hors normes',
@@ -1049,6 +1108,25 @@
     isoDate: '2025-12-01T15:08:00.000Z'
   },
   {
+    title: 'Pourquoi Blizzard a mis 20 ans à permettre le housing dans World of Warcraft',
+    link: 'https//www.numerama.com/pop-culture/2131885-pourquoi-blizzard-a-mis-20-ans-a-permettre-le-housing-dans-world-of-warcraft.html',
+    pubDate: 'Mon, 01 Dec 2025 15:01:00 GMT',
+    content: '\r\n' +
+      "C’est la fin de la plus vieille attente de l'histoire de World of Warcraft. Ce 3 décembre 2025, le MMORPG de Blizzard accueille enfin le « housing » (ou « logis ») avec le prélancement de l'extension Midnight. Pourquoi aura-t-il fallu attendre vingt ans avant de pouvoir poser ses valises en Azeroth ?\r\n" +
+      '  ',
+    contentSnippet: "C’est la fin de la plus vieille attente de l'histoire de World of Warcraft. Ce 3 décembre 2025, le MMORPG de Blizzard accueille enfin le « housing » (ou « logis ») avec le prélancement de l'extension Midnight. Pourquoi aura-t-il fallu attendre vingt ans avant de pouvoir poser ses valises en Azeroth ?",
+    guid: 'https://www.numerama.com/pop-culture/2131885-pourquoi-blizzard-a-mis-20-ans-a-permettre-le-housing-dans-world-of-warcraft.html',
+    categories: [
+      'Jeux Vidéo',
+      'Pop culture',
+      'Blizzard',
+      'MMORPG',
+      'World of Warcraft',
+      'World of Warcraft: Midnight'
+    ],
+    isoDate: '2025-12-01T15:01:00.000Z'
+  },
+  {
     title: 'World of Warcraft  pourquoi le housing (logis) arrive-t-il seulement maintenant, et pas il y a 20 ans ?',
     link: 'https//www.numerama.com/pop-culture/2131885-world-of-warcraft-pourquoi-le-housing-logis-arrive-t-il-seulement-maintenant-et-pas-il-y-a-20-ans.html',
     pubDate: 'Mon, 01 Dec 2025 15:00:00 GMT',
@@ -1350,184 +1428,5 @@
     ],
     isoDate: '2025-12-01T14:06:00.000Z'
   },
-  {
-    title: 'Netflix a trouvé un moyen d’embêter encore plus ses abonnés qui partagent un compte',
-    link: 'https//www.numerama.com/pop-culture/2131879-netflix-a-trouve-un-moyen-dembeter-encore-plus-ses-abonnes-qui-partagent-un-compte.html',
-    pubDate: 'Mon, 01 Dec 2025 14:00:00 GMT',
-    content: '\r\n' +
-      "Après avoir verrouillé la connexion Netflix sur téléviseur, en exigeant que chaque foyer ait son propre compte, Netflix désactive le système Google Cast dans son application. Il s'agissait d'une des dernières ruses pour regarder un film ou une série en dehors de sa maison. \r\n" +
-      '  ',
-    contentSnippet: "Après avoir verrouillé la connexion Netflix sur téléviseur, en exigeant que chaque foyer ait son propre compte, Netflix désactive le système Google Cast dans son application. Il s'agissait d'une des dernières ruses pour regarder un film ou une série en dehors de sa maison.",
-    guid: 'https://www.numerama.com/pop-culture/2131879-netflix-a-trouve-un-moyen-dembeter-encore-plus-ses-abonnes-qui-partagent-un-compte.html',
-    categories: [
-      'Applications',
-      'Pop culture',
-      'Smartphone',
-      'Streaming',
-      'SVOD',
-      'Tech',
-      'TV & Hi-Fi',
-      'AirPlay',
-      'Chromecast',
-      'Google Chromecast',
-      'Google TV Streamer 4K',
-      'Netflix'
-    ],
-    isoDate: '2025-12-01T14:00:00.000Z'
-  },
-  {
-    title: 'Les offres Samsung sont encore plus attractives au Cyber Monday  les 13 deals à ne pas rater',
-    link: 'https//www.frandroid.com/bons-plans/2852851_les-offres-samsung-sont-encore-plus-attractives-au-cyber-monday-les-13-deals-a-ne-pas-rater',
-    pubDate: 'Mon, 01 Dec 2025 13:52:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      '<div>Les meilleures promotions Samsung du Cyber Monday sont listées ici. Du smartphone au téléviseur, en passant par les écrans PC ou les montres connectées, vous trouverez votre bonheur pour renouveler votre matériel. </div>\r\n' +
-      '</div>  ',
-    contentSnippet: 'Les meilleures promotions Samsung du Cyber Monday sont listées ici. Du smartphone au téléviseur, en passant par les écrans PC ou les montres connectées, vous trouverez votre bonheur pour renouveler votre matériel.',
-    guid: 'https://www.frandroid.com/bons-plans/2852851_les-offres-samsung-sont-encore-plus-attractives-au-cyber-monday-les-13-deals-a-ne-pas-rater',
-    categories: [
-      'Bons plans',
-      'Marques',
-      'Samsung',
-      'Black Friday 2025',
-      'Bons plans AliExpress',
-      'Bons plans Amazon',
-      'Bons plans Boulanger',
-      'Bons plans Bouygues Télécom',
-      'Bons plans Darty',
-      'Bons plans Fnac',
-      'Bons plans Rakuten',
-      'Bons plans Samsung',
-      'Bons plans Ubaldi',
-      'Sélections Black Friday'
-    ],
-    isoDate: '2025-12-01T13:52:00.000Z'
-  },
-  {
-    title: 'Le pack Nintendo Switch 2 avec Mario Kart World revient en promotion pour le Cyber Monday',
-    link: 'https//www.frandroid.com/bons-plans/2850515_le-pack-nintendo-switch-2-avec-mario-kart-world-revient-en-promotion-pour-le-cyber-monday',
-    pubDate: 'Mon, 01 Dec 2025 13:44:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      '<div>Sortie cet été, la Nintendo Switch 2 remet une pièce dans la machine avec un design affûté et des muscles en plus sous la coque. Et pour les amateurs de carapaces bleues et de virages serrés, elle débarque avec Mario Kart World dans les bagages à 449 euros au lieu de 509 euros sur Rakuten (via le vendeur Darty).</div>\r\n' +
-      '</div>  ',
-    contentSnippet: 'Sortie cet été, la Nintendo Switch 2 remet une pièce dans la machine avec un design affûté et des muscles en plus sous la coque. Et pour les amateurs de carapaces bleues et de virages serrés, elle débarque avec Mario Kart World dans les bagages à 449 euros au lieu de 509 euros sur Rakuten (via le vendeur Darty).',
-    guid: 'https://www.frandroid.com/bons-plans/2850515_le-pack-nintendo-switch-2-avec-mario-kart-world-revient-en-promotion-pour-le-cyber-monday',
-    categories: [
-      'Bons plans',
-      'Bons plans gaming',
-      'Consoles de jeux',
-      'Gaming',
-      'Marques',
-      'Nintendo',
-      'Produits',
-      'Black Friday 2025',
-      'Bons plans AliExpress',
-      'Bons plans Amazon',
-      'Bons plans Rakuten',
-      'Cyber Monday 2025',
-      'Nintendo Switch 2'
-    ],
-    isoDate: '2025-12-01T13:44:00.000Z'
-  },
-  {
-    title: 'Meilleurs smartphones haut de gamme 2025  nos recommandations et tests',
-    link: 'https//www.frandroid.com/guide-dachat/smartphones/289788_quels-sont-les-meilleurs-smartphones-haut-de-gamme-android-en-2017',
-    pubDate: 'Mon, 01 Dec 2025 13:43:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      "<div>Vous partez en quête du smartphone de vos rêves et vous avez un budget illimité pour vous l'offrirnbsp? Bienvenue sur notre sélection de smartphones haut de gamme, tous testés et approuvés, pour vous aider dans votre choix.</div>\r\n" +
-      '</div>  ',
-    contentSnippet: "Vous partez en quête du smartphone de vos rêves et vous avez un budget illimité pour vous l'offrirnbsp? Bienvenue sur notre sélection de smartphones haut de gamme, tous testés et approuvés, pour vous aider dans votre choix.",
-    guid: 'https://www.frandroid.com/guide-dachat/smartphones/289788_quels-sont-les-meilleurs-smartphones-haut-de-gamme-android-en-2017',
-    categories: [
-      'Apple',
-      'Google',
-      "Guides d'achat",
-      "Guides d'achat smartphones",
-      'Honor',
-      'Marques',
-      'OnePlus',
-      'Produits',
-      'Samsung',
-      'Smartphones',
-      'Vivo',
-      'Apple iPhone 15 Pro',
-      'Apple iPhone 15 Pro Max',
-      'Apple iPhone 16 Pro',
-      'Apple iPhone 17',
-      'Apple iPhone 17 Pro',
-      'Bons plans Fnac',
-      'Google Pixel 10 Pro',
-      'Google Pixel 10 Pro XL',
-      'Honor Magic 7 Pro',
-      'Nothing Phone (3)',
-      'OnePlus 15',
-      'OnePlus Open',
-      'Oppo Find X8 Pro',
-      'Realme GT 7 Pro',
-      'Samsung Galaxy S25 Ultra',
-      'Samsung Galaxy Z Flip 7',
-      'Samsung Galaxy Z Fold 7',
-      'Xiaomi 14 Ultra',
-      'Xiaomi 15 Ultra'
-    ],
-    isoDate: '2025-12-01T13:43:00.000Z'
-  },
-  {
-    title: 'Samsung Galaxy Book 4  ce performant laptop doté d’un i5 13e gen n’est qu’à 449 € pour le Cyber Monday',
-    link: 'https//www.frandroid.com/bons-plans/2439124_samsung-galaxy-book-4-ce-performant-laptop-dote-dun-i5-13e-gen-nest-qua-449-euros-pour-le-cyber-monday',
-    pubDate: 'Mon, 01 Dec 2025 13:32:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      "<div>Si vous êtes à la recherche d’un PC portable efficace sans faire exploser votre budget pour ce Cyber Monday, ce bon plan pourrait bien vous intéresser. Le Galaxy Book 4 est un bon laptop équipé d'un i5 de 13e gen qui ne coûte pas plus de 450 euros aujourd'hui. </div>\r\n" +
-      '</div>  ',
-    contentSnippet: "Si vous êtes à la recherche d’un PC portable efficace sans faire exploser votre budget pour ce Cyber Monday, ce bon plan pourrait bien vous intéresser. Le Galaxy Book 4 est un bon laptop équipé d'un i5 de 13e gen qui ne coûte pas plus de 450 euros aujourd'hui.",
-    guid: 'https://www.frandroid.com/bons-plans/2439124_samsung-galaxy-book-4-ce-performant-laptop-dote-dun-i5-13e-gen-nest-qua-449-euros-pour-le-cyber-monday',
-    categories: [
-      'Bons plans',
-      'Bons plans PC portables',
-      'Marques',
-      'PC',
-      'PC portables',
-      'Produits',
-      'Samsung',
-      'Black Friday 2025',
-      'Bons plans Boulanger',
-      'Bons plans Carrefour',
-      'Bons plans Samsung',
-      'Cyber Monday 2025',
-      'Samsung Galaxy Book 4'
-    ],
-    isoDate: '2025-12-01T13:32:00.000Z'
-  },
-  {
-    title: 'Cyber Monday Forfait mobile  les promotions chez les opérateurs mobiles durent encore 24 heures ! Voici les 9 meilleures offres',
-    link: 'https//www.frandroid.com/bons-plans/2879671_cyber-monday-forfait-mobile-les-promotions-chez-les-operateurs-mobiles-durent-encore-24-heures-voici-les-9-meilleures-offres',
-    pubDate: 'Mon, 01 Dec 2025 13:31:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
-      '<div>Plus que quelques heures encore pour profiter des promotions des opérateurs mobiles qui ont dégainé leur série spéciale Black Friday ! Voici quels opérateurs proposent les meilleures offres en ce Cyber Monday !</div>\r\n' +
-      '</div>  ',
-    contentSnippet: 'Plus que quelques heures encore pour profiter des promotions des opérateurs mobiles qui ont dégainé leur série spéciale Black Friday ! Voici quels opérateurs proposent les meilleures offres en ce Cyber Monday !',
-    guid: 'https://www.frandroid.com/bons-plans/2879671_cyber-monday-forfait-mobile-les-promotions-chez-les-operateurs-mobiles-durent-encore-24-heures-voici-les-9-meilleures-offres',
-    categories: [
-      'Bons plans',
-      'Bons Plans Forfait Mobile',
-      'Forfait Mobile',
-      'Opérateurs mobiles',
-      'Services',
-      'Telecom',
-      'Bons plans Auchan Telecom',
-      'Bons plans Bouygues Télécom',
-      'Bons plans Cdiscount',
-      'Bons plans Coriolis',
-      'Bons plans Lebara',
-      'Bons plans NRJ Mobile',
-      'Bons plans Red by SFR',
-      'Bons plans SFR',
-      'Bons plans Sosh',
-      'Cyber Monday 2025',
-      'forfait 4G',
-      'forfait 5G',
-      'forfait sans engagement'
-    ],
-    isoDate: '2025-12-01T13:31:00.000Z'
-  },
-  ... 3 more items
+  ... 6 more items
 ]
