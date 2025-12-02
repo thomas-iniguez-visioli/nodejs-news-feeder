@@ -1,88 +1,238 @@
 [
   {
-    title: 'An evil brother of WormGPT.',
-    link: 'https//opensourceprojects.dev/post/1995744643150217469',
-    pubDate: 'Tue, 02 Dec 2025 06:39:00 GMT',
-    content: 'When a project gets described as the quotevil brother of WormGPTquot on Twitter, you know itaposs going to be an interesting rabbit hole. This isnapost your typical AI assistant project. Hacx-GPT is an open-source, uncensored large language model interface that strips away the guardrails, presenting a raw, unfi...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/BlackTechX011/Hacx-GPT  ',
-    contentSnippet: 'When a project gets described as the quotevil brother of WormGPTquot on Twitter, you know itaposs going to be an interesting rabbit hole. This isnapost your typical AI assistant project. Hacx-GPT is an open-source, uncensored large language model interface that strips away the guardrails, presenting a raw, unfi...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/BlackTechX011/Hacx-GPT',
-    guid: 'https://opensourceprojects.dev/post/1995744643150217469',
-    isoDate: '2025-12-02T06:39:00.000Z'
+    title: 'CVE-2025-12483 The Visualizer Tables and Charts Manager for WordPress plugin for WordPress is vulnerable to SQL In...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-12483',
+    pubDate: 'Tue, 02 Dec 2025 07:15:00 GMT',
+    content: "The Visualizer Tables and Charts Manager for WordPress plugin for WordPress is vulnerable to SQL Injection via the 'query' parameter in all versions up to, and including, 3.11.12 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with Contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. Version 3.11.13 raises the minimum user-level for exploitation to administrator. 3.11.14 fully patches the vulnerability. | CVSS Score 6.5 (MEDIUM)  ",
+    contentSnippet: "The Visualizer Tables and Charts Manager for WordPress plugin for WordPress is vulnerable to SQL Injection via the 'query' parameter in all versions up to, and including, 3.11.12 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with Contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. Version 3.11.13 raises the minimum user-level for exploitation to administrator. 3.11.14 fully patches the vulnerability. | CVSS Score 6.5 (MEDIUM)",
+    guid: 'CVE-2025-12483',
+    isoDate: '2025-12-02T07:15:00.000Z'
   },
   {
-    title: 'Diagram generation for understanding codebases and system architecture using Nano Banana Pro.',
-    link: 'https//opensourceprojects.dev/post/1995745486863802542',
-    pubDate: 'Tue, 02 Dec 2025 06:42:00 GMT',
-    content: 'Ever spent hours whiteboarding a system architecture, only to have it become outdated after the next PR? Or jumped into a new codebase and wished you could just *see* how everything connects? Thereaposs a new tool thataposs tackling this exact problem, and itaposs using AI in a way that feels genuinely usefu...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/ArcadeAI/blueprint-mcp  ',
-    contentSnippet: 'Ever spent hours whiteboarding a system architecture, only to have it become outdated after the next PR? Or jumped into a new codebase and wished you could just *see* how everything connects? Thereaposs a new tool thataposs tackling this exact problem, and itaposs using AI in a way that feels genuinely usefu...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/ArcadeAI/blueprint-mcp',
-    guid: 'https://opensourceprojects.dev/post/1995745486863802542',
-    isoDate: '2025-12-02T06:42:00.000Z'
+    title: 'CVE-2025-13007 The WP Social Ninja – Embed Social Feeds, Customer Reviews, Chat Widgets plugin for WordPress is vul...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13007',
+    pubDate: 'Tue, 02 Dec 2025 07:15:00 GMT',
+    content: 'The WP Social Ninja – Embed Social Feeds, Customer Reviews, Chat Widgets plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 3.20.3 due to insufficient input sanitization and output escaping on externally-sourced content. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page, granted they can post malicious content to a connected Google Business Profile or Facebook page. | CVSS Score 6.1 (MEDIUM)  ',
+    contentSnippet: 'The WP Social Ninja – Embed Social Feeds, Customer Reviews, Chat Widgets plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 3.20.3 due to insufficient input sanitization and output escaping on externally-sourced content. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page, granted they can post malicious content to a connected Google Business Profile or Facebook page. | CVSS Score 6.1 (MEDIUM)',
+    guid: 'CVE-2025-13007',
+    isoDate: '2025-12-02T07:15:00.000Z'
   },
   {
-    title: 'Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn sca...',
-    link: 'https//opensourceprojects.dev/post/1995746093687009639',
-    pubDate: 'Tue, 02 Dec 2025 06:45:00 GMT',
-    content: 'Ever wished learning AWS or cloud infrastructure felt less like studying a manual and more like, well, playing a game? What if you could understand scaling, load balancing, and server provisioning by defending a base from waves of enemies? That’s the exact premise behind Server Survival.\n' +
-      '\n' +
-      'GitHub Repository https//github.com/pshenok/server-survival  ',
-    contentSnippet: 'Ever wished learning AWS or cloud infrastructure felt less like studying a manual and more like, well, playing a game? What if you could understand scaling, load balancing, and server provisioning by defending a base from waves of enemies? That’s the exact premise behind Server Survival.\n' +
-      '\n' +
-      'GitHub Repository https//github.com/pshenok/server-survival',
-    guid: 'https://opensourceprojects.dev/post/1995746093687009639',
-    isoDate: '2025-12-02T06:45:00.000Z'
+    title: 'CVE-2025-13140 The SurveyJS Drag  Drop WordPress Form Builder plugin for WordPress is vulnerable to Cross-Site Re...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13140',
+    pubDate: 'Tue, 02 Dec 2025 07:15:00 GMT',
+    content: 'The SurveyJS Drag  Drop WordPress Form Builder plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.12.20. This is due to missing nonce validation on the SurveyJS_DeleteSurvey AJAX action. This makes it possible for unauthenticated attackers to delete surveys via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. | CVSS Score 4.3 (MEDIUM)  ',
+    contentSnippet: 'The SurveyJS Drag  Drop WordPress Form Builder plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.12.20. This is due to missing nonce validation on the SurveyJS_DeleteSurvey AJAX action. This makes it possible for unauthenticated attackers to delete surveys via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. | CVSS Score 4.3 (MEDIUM)',
+    guid: 'CVE-2025-13140',
+    isoDate: '2025-12-02T07:15:00.000Z'
   },
   {
-    title: '500+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview...',
-    link: 'https//opensourceprojects.dev/post/1995746679228957071',
-    pubDate: 'Tue, 02 Dec 2025 06:47:00 GMT',
-    content: 'If youaposve been experimenting with the Nano Banana Pro AI image generator, you know the drill sometimes the hardest part isnapost the tech, itaposs figuring out what to ask for. You need the right prompt—the right combination of words, styles, and concepts—to get the output youaposre imagining. Thataposs where ...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts  ',
-    contentSnippet: 'If youaposve been experimenting with the Nano Banana Pro AI image generator, you know the drill sometimes the hardest part isnapost the tech, itaposs figuring out what to ask for. You need the right prompt—the right combination of words, styles, and concepts—to get the output youaposre imagining. Thataposs where ...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts',
-    guid: 'https://opensourceprojects.dev/post/1995746679228957071',
-    isoDate: '2025-12-02T06:47:00.000Z'
+    title: 'CVE-2025-13685 The Photo Gallery by Ays plugin for WordPress is vulnerable to Cross-Site Request Forgery in all ver...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13685',
+    pubDate: 'Tue, 02 Dec 2025 07:15:00 GMT',
+    content: "The Photo Gallery by Ays plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 6.4.8. This is due to missing nonce verification on the bulk action functionality in the 'process_bulk_action()' function. This makes it possible for unauthenticated attackers to perform bulk operations (delete, publish, or unpublish galleries) via a forged request granted they can trick an administrator into performing an action such as clicking on a link. | CVSS Score 4.3 (MEDIUM)  ",
+    contentSnippet: "The Photo Gallery by Ays plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 6.4.8. This is due to missing nonce verification on the bulk action functionality in the 'process_bulk_action()' function. This makes it possible for unauthenticated attackers to perform bulk operations (delete, publish, or unpublish galleries) via a forged request granted they can trick an administrator into performing an action such as clicking on a link. | CVSS Score 4.3 (MEDIUM)",
+    guid: 'CVE-2025-13685',
+    isoDate: '2025-12-02T07:15:00.000Z'
   },
   {
-    title: 'An universal osint tool.',
-    link: 'https//opensourceprojects.dev/post/1995747440067314033',
-    pubDate: 'Tue, 02 Dec 2025 06:50:00 GMT',
-    content: 'Sometimes you need to dig a little deeper. Whether youaposre verifying a username, checking a potentially suspicious link, or just satisfying your own curiosity about the digital footprint of an online entity, having a set of OSINT (Open-Source Intelligence) tools at your disposal is incredibly useful....\n' +
-      '\n' +
-      'GitHub Repository https//github.com/portrret/spyder-osint  ',
-    contentSnippet: 'Sometimes you need to dig a little deeper. Whether youaposre verifying a username, checking a potentially suspicious link, or just satisfying your own curiosity about the digital footprint of an online entity, having a set of OSINT (Open-Source Intelligence) tools at your disposal is incredibly useful....\n' +
-      '\n' +
-      'GitHub Repository https//github.com/portrret/spyder-osint',
-    guid: 'https://opensourceprojects.dev/post/1995747440067314033',
-    isoDate: '2025-12-02T06:50:00.000Z'
+    title: 'Xreal dévoile les lunettes 1S, les premières au monde à faire une conversion vidéo 2D en 3D automatique et en plus elles sont abordables',
+    link: 'https//www.frandroid.com/produits-android/accessoires-objets-connectes/lunettes-intelligentes/2894837_xreal-devoile-les-lunettes-1s-les-premieres-au-monde-a-faire-une-conversion-video-2d-en-3d-automatique-et-en-plus-elles-sont-abordables',
+    pubDate: 'Tue, 02 Dec 2025 07:03:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      "<div>Le fabricant chinois de lunettes de réalité augmentée lance un nouveau modèle d'entrée de gamme doté d'une technologie inédite capable de transformer instantanément les contenus 2D en expériences tridimensionnelles. C’est une première mondiale et cerise sur le gâteau, le prix n’est pas exorbitantnbsp!</div>\n" +
+      '</div>  ',
+    contentSnippet: "Le fabricant chinois de lunettes de réalité augmentée lance un nouveau modèle d'entrée de gamme doté d'une technologie inédite capable de transformer instantanément les contenus 2D en expériences tridimensionnelles. C’est une première mondiale et cerise sur le gâteau, le prix n’est pas exorbitantnbsp!",
+    guid: 'https://www.frandroid.com/produits-android/accessoires-objets-connectes/lunettes-intelligentes/2894837_xreal-devoile-les-lunettes-1s-les-premieres-au-monde-a-faire-une-conversion-video-2d-en-3d-automatique-et-en-plus-elles-sont-abordables',
+    categories: [
+      'Lunettes connectées',
+      'Produits',
+      'Wearables',
+      'Xreal',
+      'Xreal 1S'
+    ],
+    isoDate: '2025-12-02T07:03:00.000Z'
+  },
+  {
+    title: 'La nouvelle Insta360 X4 Air devient déjà plus légère au niveau de son prix',
+    link: 'https//www.frandroid.com/bons-plans/2894215_la-nouvelle-insta360-x4-air-devient-deja-plus-legere-au-niveau-de-son-prix',
+    pubDate: 'Tue, 02 Dec 2025 07:18:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      "<div>Meilleure que la X4 et plus abordable que la X5, l'Insta360 X4 Air s'affirme comme un parfait compromis entre les deux modèles et Boulanger baisse son prix de 40 euros. Elle est désormais affichée à 359,99 euros contre 399,99 euros habituellement.</div>\n" +
+      '</div>  ',
+    contentSnippet: "Meilleure que la X4 et plus abordable que la X5, l'Insta360 X4 Air s'affirme comme un parfait compromis entre les deux modèles et Boulanger baisse son prix de 40 euros. Elle est désormais affichée à 359,99 euros contre 399,99 euros habituellement.",
+    guid: 'https://www.frandroid.com/bons-plans/2894215_la-nouvelle-insta360-x4-air-devient-deja-plus-legere-au-niveau-de-son-prix',
+    categories: [
+      'Action Cam',
+      'Bons plans',
+      'Bons plans photos, vidéos et drones',
+      'insta360',
+      'Marques',
+      'Photos et Vidéos',
+      'Produits',
+      'Bons plans Boulanger',
+      'Insta360 X4 Air'
+    ],
+    isoDate: '2025-12-02T07:18:00.000Z'
+  },
+  {
+    title: '« Le pliant définitif », première prise en main du Samsung Galaxy Z TriFold',
+    link: 'https//www.frandroid.com/marques/2894853_le-pliant-definitif-premiere-prise-en-main-du-samsung-galaxy-z-trifold',
+    pubDate: 'Tue, 02 Dec 2025 07:26:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      '<div>Oubliez tout ce que vous savez sur le Z Fold 7. Le <strong>Galaxy Z TriFold</strong> arrive et il change les règles du jeu. Écran immense de <strong>10 pouces</strong>, mode DeX natif et… un chargeur dans la boîte (incroyable, non ?). Mais attention, à près de 3000 dollars, la moindre rayure sur cet écran ultra-tendre va vous coûter très cher. Un des premiers YouTubers a mis la main dessus.</div>\n' +
+      '</div>  ',
+    contentSnippet: 'Oubliez tout ce que vous savez sur le Z Fold 7. Le Galaxy Z TriFold arrive et il change les règles du jeu. Écran immense de 10 pouces, mode DeX natif et… un chargeur dans la boîte (incroyable, non ?). Mais attention, à près de 3000 dollars, la moindre rayure sur cet écran ultra-tendre va vous coûter très cher. Un des premiers YouTubers a mis la main dessus.',
+    guid: 'https://www.frandroid.com/marques/2894853_le-pliant-definitif-premiere-prise-en-main-du-samsung-galaxy-z-trifold',
+    categories: [
+      'Android',
+      'Marques',
+      'Produits',
+      'Samsung',
+      'Smartphones',
+      'Samsung Galaxy Z TriFold'
+    ],
+    isoDate: '2025-12-02T07:26:00.000Z'
+  },
+  {
+    title: 'HKG (Hong Kong) on 2025-12-03',
+    link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
+    pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
+    content: "<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ",
+    contentSnippet: 'THIS IS A SCHEDULED EVENT Dec 3, 1800 - 2330 UTCDec  1, 2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.\n' +
+      'Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.\n' +
+      'You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.',
+    guid: 'https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
+    isoDate: '2025-12-03T18:00:00.000Z'
   },
   {
     title: 'Web based GUI to cleanup gmail delete, mark as read, unsubsribe from uncessary things u dont like',
     link: 'https//opensourceprojects.dev/post/1995748079975211512',
     pubDate: 'Tue, 02 Dec 2025 06:53:00 GMT',
-    content: 'If youaposre like most developers, your Gmail inbox is probably a mix of important project updates, newsletters you signed up for (and maybe regret), and a whole lot of promotional noise you never wanted. Manually cleaning that up is a chore. A new open-source tool aims to make that process visual, sim...\n' +
-      '\n' +
+    content: 'If youaposre like most developers, your Gmail inbox is probably a mix of important project updates, newsletters you signed up for (and maybe regret), and a whole lot of promotional noise you never wanted. Manually cleaning that up is a chore. A new open-source tool aims to make that process visual, sim...\r\n' +
+      '\r\n' +
       'GitHub Repository https//github.com/Gururagavendra/gmail-cleaner  ',
-    contentSnippet: 'If youaposre like most developers, your Gmail inbox is probably a mix of important project updates, newsletters you signed up for (and maybe regret), and a whole lot of promotional noise you never wanted. Manually cleaning that up is a chore. A new open-source tool aims to make that process visual, sim...\n' +
-      '\n' +
+    contentSnippet: 'If youaposre like most developers, your Gmail inbox is probably a mix of important project updates, newsletters you signed up for (and maybe regret), and a whole lot of promotional noise you never wanted. Manually cleaning that up is a chore. A new open-source tool aims to make that process visual, sim...\r\n' +
+      '\r\n' +
       'GitHub Repository https//github.com/Gururagavendra/gmail-cleaner',
     guid: 'https://opensourceprojects.dev/post/1995748079975211512',
     isoDate: '2025-12-02T06:53:00.000Z'
   },
   {
+    title: 'An universal osint tool.',
+    link: 'https//opensourceprojects.dev/post/1995747440067314033',
+    pubDate: 'Tue, 02 Dec 2025 06:50:00 GMT',
+    content: 'Sometimes you need to dig a little deeper. Whether youaposre verifying a username, checking a potentially suspicious link, or just satisfying your own curiosity about the digital footprint of an online entity, having a set of OSINT (Open-Source Intelligence) tools at your disposal is incredibly useful....\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/portrret/spyder-osint  ',
+    contentSnippet: 'Sometimes you need to dig a little deeper. Whether youaposre verifying a username, checking a potentially suspicious link, or just satisfying your own curiosity about the digital footprint of an online entity, having a set of OSINT (Open-Source Intelligence) tools at your disposal is incredibly useful....\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/portrret/spyder-osint',
+    guid: 'https://opensourceprojects.dev/post/1995747440067314033',
+    isoDate: '2025-12-02T06:50:00.000Z'
+  },
+  {
+    title: '500+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview...',
+    link: 'https//opensourceprojects.dev/post/1995746679228957071',
+    pubDate: 'Tue, 02 Dec 2025 06:47:00 GMT',
+    content: 'If youaposve been experimenting with the Nano Banana Pro AI image generator, you know the drill sometimes the hardest part isnapost the tech, itaposs figuring out what to ask for. You need the right prompt—the right combination of words, styles, and concepts—to get the output youaposre imagining. Thataposs where ...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts  ',
+    contentSnippet: 'If youaposve been experimenting with the Nano Banana Pro AI image generator, you know the drill sometimes the hardest part isnapost the tech, itaposs figuring out what to ask for. You need the right prompt—the right combination of words, styles, and concepts—to get the output youaposre imagining. Thataposs where ...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts',
+    guid: 'https://opensourceprojects.dev/post/1995746679228957071',
+    isoDate: '2025-12-02T06:47:00.000Z'
+  },
+  {
+    title: 'Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn sca...',
+    link: 'https//opensourceprojects.dev/post/1995746093687009639',
+    pubDate: 'Tue, 02 Dec 2025 06:45:00 GMT',
+    content: 'Ever wished learning AWS or cloud infrastructure felt less like studying a manual and more like, well, playing a game? What if you could understand scaling, load balancing, and server provisioning by defending a base from waves of enemies? That’s the exact premise behind Server Survival.\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/pshenok/server-survival  ',
+    contentSnippet: 'Ever wished learning AWS or cloud infrastructure felt less like studying a manual and more like, well, playing a game? What if you could understand scaling, load balancing, and server provisioning by defending a base from waves of enemies? That’s the exact premise behind Server Survival.\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/pshenok/server-survival',
+    guid: 'https://opensourceprojects.dev/post/1995746093687009639',
+    isoDate: '2025-12-02T06:45:00.000Z'
+  },
+  {
+    title: 'Diagram generation for understanding codebases and system architecture using Nano Banana Pro.',
+    link: 'https//opensourceprojects.dev/post/1995745486863802542',
+    pubDate: 'Tue, 02 Dec 2025 06:42:00 GMT',
+    content: 'Ever spent hours whiteboarding a system architecture, only to have it become outdated after the next PR? Or jumped into a new codebase and wished you could just *see* how everything connects? Thereaposs a new tool thataposs tackling this exact problem, and itaposs using AI in a way that feels genuinely usefu...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/ArcadeAI/blueprint-mcp  ',
+    contentSnippet: 'Ever spent hours whiteboarding a system architecture, only to have it become outdated after the next PR? Or jumped into a new codebase and wished you could just *see* how everything connects? Thereaposs a new tool thataposs tackling this exact problem, and itaposs using AI in a way that feels genuinely usefu...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/ArcadeAI/blueprint-mcp',
+    guid: 'https://opensourceprojects.dev/post/1995745486863802542',
+    isoDate: '2025-12-02T06:42:00.000Z'
+  },
+  {
+    title: 'OnlyOffice va vous réconcilier avec le travail sur smartphone grâce à son assistant IA [Sponso]',
+    link: 'https//www.frandroid.com/android/applications/2871869_onlyoffice-va-vous-reconcilier-avec-le-travail-sur-smartphone-grace-a-son-assistant-ia',
+    pubDate: 'Tue, 02 Dec 2025 06:42:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      "<div>Une seule application gratuite pour éditer tous vos documents  voici la promesse de l'application OnlyOffice Documents et de son interface pensée pour les interfaces tactiles. </div>\r\n" +
+      '</div>  ',
+    contentSnippet: "Une seule application gratuite pour éditer tous vos documents  voici la promesse de l'application OnlyOffice Documents et de son interface pensée pour les interfaces tactiles.",
+    guid: 'https://www.frandroid.com/android/applications/2871869_onlyoffice-va-vous-reconcilier-avec-le-travail-sur-smartphone-grace-a-son-assistant-ia',
+    categories: [
+      'Android',
+      'Applications Android',
+      'iOS',
+      'iPadOS',
+      'OS',
+      'Services',
+      'document',
+      'suite bureautique'
+    ],
+    isoDate: '2025-12-02T06:42:00.000Z'
+  },
+  {
+    title: 'La nouvelle Google Pixel Watch 4 profite enfin d’une première baisse de prix (-20 %)',
+    link: 'https//www.frandroid.com/bons-plans/2893591_la-nouvelle-google-pixel-watch-4-profite-enfin-dune-premiere-baisse-de-prix-20',
+    pubDate: 'Tue, 02 Dec 2025 06:41:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '<div>Dévoilée cet été, la Google Pixel Watch 4 est une montre connectée premium précise, complète et qui a même bénéficié de quelques améliorations. Et elle affiche enfin un prix réduit  Amazon et Darty la proposent à 329 euros au lieu de 399 euros.</div>\r\n' +
+      '</div>  ',
+    contentSnippet: 'Dévoilée cet été, la Google Pixel Watch 4 est une montre connectée premium précise, complète et qui a même bénéficié de quelques améliorations. Et elle affiche enfin un prix réduit  Amazon et Darty la proposent à 329 euros au lieu de 399 euros.',
+    guid: 'https://www.frandroid.com/bons-plans/2893591_la-nouvelle-google-pixel-watch-4-profite-enfin-dune-premiere-baisse-de-prix-20',
+    categories: [
+      'Bons plans',
+      'Bons plans objets connectés',
+      'Google',
+      'Marques',
+      'Montres connectées',
+      'Produits',
+      'Wearables',
+      'Bons plans Amazon',
+      'Bons plans Darty',
+      'Google Pixel Watch 4'
+    ],
+    isoDate: '2025-12-02T06:41:00.000Z'
+  },
+  {
+    title: 'An evil brother of WormGPT.',
+    link: 'https//opensourceprojects.dev/post/1995744643150217469',
+    pubDate: 'Tue, 02 Dec 2025 06:39:00 GMT',
+    content: 'When a project gets described as the quotevil brother of WormGPTquot on Twitter, you know itaposs going to be an interesting rabbit hole. This isnapost your typical AI assistant project. Hacx-GPT is an open-source, uncensored large language model interface that strips away the guardrails, presenting a raw, unfi...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/BlackTechX011/Hacx-GPT  ',
+    contentSnippet: 'When a project gets described as the quotevil brother of WormGPTquot on Twitter, you know itaposs going to be an interesting rabbit hole. This isnapost your typical AI assistant project. Hacx-GPT is an open-source, uncensored large language model interface that strips away the guardrails, presenting a raw, unfi...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/BlackTechX011/Hacx-GPT',
+    guid: 'https://opensourceprojects.dev/post/1995744643150217469',
+    isoDate: '2025-12-02T06:39:00.000Z'
+  },
+  {
     title: 'Après le fiasco Siri, Apple se sépare de son responsable de l’IA et le remplace par an ancien de chez Google',
     link: 'https//www.frandroid.com/marques/apple/2894829_apres-le-fiasco-siri-apple-se-separe-de-son-responsable-de-lia-et-le-remplace-par-an-ancien-de-chez-google',
     pubDate: 'Tue, 02 Dec 2025 06:37:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      '<div>Toujours empêtré dans son retard sur l’IA générative, Apple va bousculer son organigramme en embauchant un ancien responsable de chez Google pour remplacer John Giannandrea.</div>\n' +
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '<div>Toujours empêtré dans son retard sur l’IA générative, Apple va bousculer son organigramme en embauchant un ancien responsable de chez Google pour remplacer John Giannandrea.</div>\r\n' +
       '</div>  ',
     contentSnippet: 'Toujours empêtré dans son retard sur l’IA générative, Apple va bousculer son organigramme en embauchant un ancien responsable de chez Google pour remplacer John Giannandrea.',
     guid: 'https://www.frandroid.com/marques/apple/2894829_apres-le-fiasco-siri-apple-se-separe-de-son-responsable-de-lia-et-le-remplace-par-an-ancien-de-chez-google',
@@ -104,61 +254,6 @@
       'google'
     ],
     isoDate: '2025-12-02T06:37:00.000Z'
-  },
-  {
-    title: 'La nouvelle Google Pixel Watch 4 profite enfin d’une première baisse de prix (-20 %)',
-    link: 'https//www.frandroid.com/bons-plans/2893591_la-nouvelle-google-pixel-watch-4-profite-enfin-dune-premiere-baisse-de-prix-20',
-    pubDate: 'Tue, 02 Dec 2025 06:41:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      '<div>Dévoilée cet été, la Google Pixel Watch 4 est une montre connectée premium précise, complète et qui a même bénéficié de quelques améliorations. Et elle affiche enfin un prix réduit  Amazon et Darty la proposent à 329 euros au lieu de 399 euros.</div>\n' +
-      '</div>  ',
-    contentSnippet: 'Dévoilée cet été, la Google Pixel Watch 4 est une montre connectée premium précise, complète et qui a même bénéficié de quelques améliorations. Et elle affiche enfin un prix réduit  Amazon et Darty la proposent à 329 euros au lieu de 399 euros.',
-    guid: 'https://www.frandroid.com/bons-plans/2893591_la-nouvelle-google-pixel-watch-4-profite-enfin-dune-premiere-baisse-de-prix-20',
-    categories: [
-      'Bons plans',
-      'Bons plans objets connectés',
-      'Google',
-      'Marques',
-      'Montres connectées',
-      'Produits',
-      'Wearables',
-      'Bons plans Amazon',
-      'Bons plans Darty',
-      'Google Pixel Watch 4'
-    ],
-    isoDate: '2025-12-02T06:41:00.000Z'
-  },
-  {
-    title: 'OnlyOffice va vous réconcilier avec le travail sur smartphone grâce à son assistant IA [Sponso]',
-    link: 'https//www.frandroid.com/android/applications/2871869_onlyoffice-va-vous-reconcilier-avec-le-travail-sur-smartphone-grace-a-son-assistant-ia',
-    pubDate: 'Tue, 02 Dec 2025 06:42:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      "<div>Une seule application gratuite pour éditer tous vos documents  voici la promesse de l'application OnlyOffice Documents et de son interface pensée pour les interfaces tactiles. </div>\n" +
-      '</div>  ',
-    contentSnippet: "Une seule application gratuite pour éditer tous vos documents  voici la promesse de l'application OnlyOffice Documents et de son interface pensée pour les interfaces tactiles.",
-    guid: 'https://www.frandroid.com/android/applications/2871869_onlyoffice-va-vous-reconcilier-avec-le-travail-sur-smartphone-grace-a-son-assistant-ia',
-    categories: [
-      'Android',
-      'Applications Android',
-      'iOS',
-      'iPadOS',
-      'OS',
-      'Services',
-      'document',
-      'suite bureautique'
-    ],
-    isoDate: '2025-12-02T06:42:00.000Z'
-  },
-  {
-    title: 'HKG (Hong Kong) on 2025-12-03',
-    link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
-    pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
-    content: "<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ",
-    contentSnippet: 'THIS IS A SCHEDULED EVENT Dec 3, 1800 - 2330 UTCDec  1, 2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.\n' +
-      'Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.\n' +
-      'You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.',
-    guid: 'https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
-    isoDate: '2025-12-03T18:00:00.000Z'
   },
   {
     title: 'Ce forfait mobile à moins de 9 € cache une excellente surprise pour vos voyages en Europe',
@@ -961,68 +1056,5 @@
     guid: 'CVE-2025-66302',
     isoDate: '2025-12-01T22:15:00.000Z'
   },
-  {
-    title: 'CVE-2025-66303 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A Denial of Service (DoS) vulnerability h...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66303',
-    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
-    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A Denial of Service (DoS) vulnerability has been identified in Grav related to the handling of scheduled_at parameters. Specifically, the application fails to properly sanitize input for cron expressions. By manipulating the scheduled_at parameter with a malicious input, such as a single quote, the application admin panel becomes non-functional, causing significant disruptions to administrative operations. The only way to recover from this issue is to manually access the host server and modify the backup.yaml file to correct the corrupted cron expression. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 4.9 (MEDIUM)  ',
-    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, A Denial of Service (DoS) vulnerability has been identified in Grav related to the handling of scheduled_at parameters. Specifically, the application fails to properly sanitize input for cron expressions. By manipulating the scheduled_at parameter with a malicious input, such as a single quote, the application admin panel becomes non-functional, causing significant disruptions to administrative operations. The only way to recover from this issue is to manually access the host server and modify the backup.yaml file to correct the corrupted cron expression. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 4.9 (MEDIUM)',
-    guid: 'CVE-2025-66303',
-    isoDate: '2025-12-01T22:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-66304 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, users with read access on the user accoun...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66304',
-    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
-    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, users with read access on the user account management section of the admin panel can view the password hashes of all users, including the admin user. This exposure can potentially lead to privilege escalation if an attacker can crack these password hashes. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 6.2 (MEDIUM)  ',
-    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, users with read access on the user account management section of the admin panel can view the password hashes of all users, including the admin user. This exposure can potentially lead to privilege escalation if an attacker can crack these password hashes. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 6.2 (MEDIUM)',
-    guid: 'CVE-2025-66304',
-    isoDate: '2025-12-01T22:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-66305 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, a Denial of Service (DoS) vulnerability w...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66305',
-    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
-    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, a Denial of Service (DoS) vulnerability was identified in the "Languages" submenu of the Grav admin configuration panel (/admin/config/system). Specifically, the Supported parameter fails to properly validate user input. If a malformed value is inserted—such as a single forward slash (/) or an XSS test string—it causes a fatal regular expression parsing error on the server. This leads to application-wide failure due to the use of the preg_match() function with an improperly constructed regular expression, resulting in an error. Once triggered, the site becomes completely unavailable to all users. This vulnerability is fixed in 1.8.0-beta.27. | Severity UNKNOWN  ',
-    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, a Denial of Service (DoS) vulnerability was identified in the "Languages" submenu of the Grav admin configuration panel (/admin/config/system). Specifically, the Supported parameter fails to properly validate user input. If a malformed value is inserted—such as a single forward slash (/) or an XSS test string—it causes a fatal regular expression parsing error on the server. This leads to application-wide failure due to the use of the preg_match() function with an improperly constructed regular expression, resulting in an error. Once triggered, the site becomes completely unavailable to all users. This vulnerability is fixed in 1.8.0-beta.27. | Severity UNKNOWN',
-    guid: 'CVE-2025-66305',
-    isoDate: '2025-12-01T22:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-66306 Grav is a file-based Web platform. Prior to 1.8.0-beta.27, there is an IDOR (Insecure Direct Object ...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66306',
-    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
-    content: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, there is an IDOR (Insecure Direct Object Reference) vulnerability in the Grav CMS Admin Panel which allows low-privilege users to access sensitive information from other accounts. Although direct account takeover is not possible, admin email addresses and other metadata can be exposed, increasing the risk of phishing, credential stuffing, and social engineering. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 4.3 (MEDIUM)  ',
-    contentSnippet: 'Grav is a file-based Web platform. Prior to 1.8.0-beta.27, there is an IDOR (Insecure Direct Object Reference) vulnerability in the Grav CMS Admin Panel which allows low-privilege users to access sensitive information from other accounts. Although direct account takeover is not possible, admin email addresses and other metadata can be exposed, increasing the risk of phishing, credential stuffing, and social engineering. This vulnerability is fixed in 1.8.0-beta.27. | CVSS Score 4.3 (MEDIUM)',
-    guid: 'CVE-2025-66306',
-    isoDate: '2025-12-01T22:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-66307 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66307',
-    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
-    content: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a user enumeration and email disclosure vulnerability exists in Grav. The "Forgot Password" functionality at /admin/forgot leaks information about valid usernames and their associated email addresses through distinct server responses. This allows an attacker to enumerate users and disclose sensitive email addresses, which can be leveraged for targeted attacks such as password spraying, phishing, or social engineering. This vulnerability is fixed in 1.11.0-beta.1. | CVSS Score 6.5 (MEDIUM)  ',
-    contentSnippet: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a user enumeration and email disclosure vulnerability exists in Grav. The "Forgot Password" functionality at /admin/forgot leaks information about valid usernames and their associated email addresses through distinct server responses. This allows an attacker to enumerate users and disclose sensitive email addresses, which can be leveraged for targeted attacks such as password spraying, phishing, or social engineering. This vulnerability is fixed in 1.11.0-beta.1. | CVSS Score 6.5 (MEDIUM)',
-    guid: 'CVE-2025-66307',
-    isoDate: '2025-12-01T22:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-66308 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66308',
-    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
-    content: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/config/site endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[taxonomies] parameter. The injected payload is stored on the server and automatically executed in the browser of any user who accesses the affected site configuration, resulting in a persistent attack vector. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN  ',
-    contentSnippet: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Stored Cross-Site Scripting (XSS) vulnerability was identified in the /admin/config/site endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[taxonomies] parameter. The injected payload is stored on the server and automatically executed in the browser of any user who accesses the affected site configuration, resulting in a persistent attack vector. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN',
-    guid: 'CVE-2025-66308',
-    isoDate: '2025-12-01T22:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-66309 This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Gra...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66309',
-    pubDate: 'Mon, 01 Dec 2025 22:15:00 GMT',
-    content: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Reflected Cross-Site Scripting (XSS) vulnerability was identified in the /admin/pages/[page] endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[header][content][items] parameter. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN  ',
-    contentSnippet: 'This admin plugin for Grav is an HTML user interface that provides a convenient way to configure Grav and easily create and modify pages. Prior to 1.11.0-beta.1, a Reflected Cross-Site Scripting (XSS) vulnerability was identified in the /admin/pages/[page] endpoint of the Grav application. This vulnerability allows attackers to inject malicious scripts into the data[header][content][items] parameter. This vulnerability is fixed in 1.11.0-beta.1. | Severity UNKNOWN',
-    guid: 'CVE-2025-66309',
-    isoDate: '2025-12-01T22:15:00.000Z'
-  },
-  ... 9 more items
+  ... 7 more items
 ]
