@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 02 Dec 2025 08:55:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 09:25:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -20,6 +20,106 @@
       <pubDate>Wed, 03 Dec 2025 18:00:00 GMT</pubDate>
       <link>https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5</link>
       <guid>https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5</guid>
+    </item>
+    <item>
+      <title>CVE-2025-10543 In Eclipse Paho Go MQTT v3.1 library (paho.mqtt.golang) versions 1.5.0 UTF-8 encoded strings, pass...</title>
+      <description><![CDATA[In Eclipse Paho Go MQTT v3.1 library (paho.mqtt.golang) versions 1.5.0 UTF-8 encoded strings, passed into the library, may be incorrectly encoded if their length exceeds 65535 bytes. This may lead to unexpected content in packets sent to the server (for example, part of an MQTT topic may leak into the message body in a PUBLISH packet).
+
+
+The issue arises because the length of the data passed in was converted from an int64/int32 (depending upon CPU) to an int16 without checks for overflows. The int16 length was then written, followed by the data (e.g. topic). This meant that when the data (e.g. topic) was over 65535 bytes then the amount of data written exceeds what the length field indicates. This could lead to a corrupt packet, or mean that the excess data leaks into another field (e.g. topic leaks into message body). | Severity UNKNOWN  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 09:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-10543</link>
+      <guid>CVE-2025-10543</guid>
+    </item>
+    <item>
+      <title>CVE-2025-13516 The SureMail – SMTP and Email Logs Plugin for WordPress is vulnerable to Unrestricted Upload of File...</title>
+      <description><![CDATA[The SureMail – SMTP and Email Logs Plugin for WordPress is vulnerable to Unrestricted Upload of File with Dangerous Type in versions up to and including 1.9.0. This is due to the plugin's save_file() function in inc/emails/handler/uploads.php which duplicates all email attachments to a web-accessible directory (wp-content/uploads/suremails/attachments/) without validating file extensions or content types. Files are saved with predictable names derived from MD5 hashes of their content. While the plugin attempts to protect this directory with an Apache .htaccess file to disable PHP execution, this protection is ineffective on nginx, IIS, and Lighttpd servers, or on misconfigured Apache installations. This makes it possible for unauthenticated attackers to achieve Remote Code Execution by uploading malicious PHP files through any public form that emails attachments, calculating the predictable filename, and directly accessing the file to execute arbitrary code granted they are exploiting a site running on an affected web server configuration. | CVSS Score 8.1 (HIGH)  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 09:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-13516</link>
+      <guid>CVE-2025-13516</guid>
+    </item>
+    <item>
+      <title>CVE-2025-13534 The ELEX WordPress HelpDesk  Customer Ticketing System plugin for WordPress is vulnerable to Privil...</title>
+      <description><![CDATA[The ELEX WordPress HelpDesk  Customer Ticketing System plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.3.2. This is due to missing authorization checks on the eh_crm_edit_agent AJAX action. This makes it possible for authenticated attackers, with Contributor-level access and above, to escalate their WSDesk privileges from limited "Reply Tickets" permissions to full helpdesk administrator capabilities, gaining unauthorized access to ticket management, settings configuration, agent administration, and sensitive customer data. | CVSS Score 6.3 (MEDIUM)  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 09:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-13534</link>
+      <guid>CVE-2025-13534</guid>
+    </item>
+    <item>
+      <title>CVE-2025-13724 The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to time-based blind S...</title>
+      <description><![CDATA[The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to time-based blind SQL Injection via the 'month' parameter in all versions up to, and including, 1.4.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. | CVSS Score 7.5 (HIGH)  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 09:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-13724</link>
+      <guid>CVE-2025-13724</guid>
+    </item>
+    <item>
+      <title>Quels sont les meilleurs câbles USB-C selon vos besoins ? Notre sélection</title>
+      <description><![CDATA[Plus que jamais, cette ère de la tech est sous le signe de la connectique USB-C. En effet, l’Union européenne ou encore la France ont imposé cette norme pour tous les nouveaux produits tech lancés. À tel point que même Apple a dû céder avec la génération d#8217iPhone#16015. Toutefois, les câbles USB-C ne sont pas [#8230]  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 09:15:00 GMT</pubDate>
+      <link>https//www.frandroid.com/guide-dachat/1911109_quels-sont-les-meilleurs-cables-usb-c-selon-vos-besoins-notre-selection</link>
+      <guid>https://www.frandroid.com/guide-dachat/1911109_quels-sont-les-meilleurs-cables-usb-c-selon-vos-besoins-notre-selection</guid>
+      <category><![CDATA[Guides d'achat]]></category>
+      <category><![CDATA[Bons plans Amazon]]></category>
+      <category><![CDATA[câble USB-C]]></category>
+      <category><![CDATA[USB-C]]></category>
+    </item>
+    <item>
+      <title>Le Black Friday est terminé, mais voici les offres encore en ligne qui méritent votre attention</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>C’est officiel… Le Black Friday ainsi que le Cyber Monday sont terminés ! Toutefois, plusieurs offres sur des produits Tech populaires sont encore valables chez les différents e-commerçants, pratique pour celles et ceux qui ont loupé le coche.</div>
+</div>  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 09:10:00 GMT</pubDate>
+      <link>https//www.frandroid.com/bons-plans/2894961_le-black-friday-est-termine-mais-voici-les-offres-encore-en-ligne-qui-meritent-votre-attention</link>
+      <guid>https://www.frandroid.com/bons-plans/2894961_le-black-friday-est-termine-mais-voici-les-offres-encore-en-ligne-qui-meritent-votre-attention</guid>
+      <category><![CDATA[Bons plans]]></category>
+      <category><![CDATA[Black Friday 2025]]></category>
+      <category><![CDATA[Cyber Monday 2025]]></category>
+      <category><![CDATA[Sélections Black Friday]]></category>
+    </item>
+    <item>
+      <title>« Pas d’autre solution »  40 % des employés sont licenciés chez l’historique marque italienne Campagnolo, spécialiste du vélo</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Campagnolo engage une restructuration profonde après trois exercices déficitaires, avec la suppression de 40 % de ses effectifs à Vicence. La direction affirme que ces mesures, malgré l’apport de 10 millions d’euros de l’actionnaire, sont devenues indispensables pour assurer la continuité de ses activités.</div>
+</div>  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 09:02:00 GMT</pubDate>
+      <link>https//www.frandroid.com/survoltes/velo-electrique/2894993_pas-dautre-solution-40-des-employes-sont-licencies-chez-lhistorique-marque-italienne-campagnolo-specialiste-du-velo</link>
+      <guid>https://www.frandroid.com/survoltes/velo-electrique/2894993_pas-dautre-solution-40-des-employes-sont-licencies-chez-lhistorique-marque-italienne-campagnolo-specialiste-du-velo</guid>
+      <category><![CDATA[Économie]]></category>
+      <category><![CDATA[Société]]></category>
+      <category><![CDATA[Survoltés]]></category>
+      <category><![CDATA[Vélos électriques]]></category>
+      <category><![CDATA[Campagnolo]]></category>
+    </item>
+    <item>
+      <title>Ce robot aide les archéologues de Pompéi à reconstituer des fresques brisées en milliers de morceaux</title>
+      <description><![CDATA[
+Après 4 années, le projet RePAIR s'achève. Son objectif était d'aider les archéologues en permettant la reconstitution des fresques de Pompéi, qui sont en morceaux, grâce à un robot et à l'intelligence artificielle. 
+  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 08:58:00 GMT</pubDate>
+      <link>https//www.numerama.com/sciences/2131889-ce-robot-aide-les-archeologues-de-pompei-a-reconstituer-des-fresques-brisees-en-milliers-de-morceaux.html</link>
+      <guid>https://www.numerama.com/sciences/2131889-ce-robot-aide-les-archeologues-de-pompei-a-reconstituer-des-fresques-brisees-en-milliers-de-morceaux.html</guid>
+      <category><![CDATA[Archéologie]]></category>
+      <category><![CDATA[Découvertes]]></category>
+      <category><![CDATA[Intelligence artificielle]]></category>
+      <category><![CDATA[Robots]]></category>
+      <category><![CDATA[Sciences]]></category>
+      <category><![CDATA[IA]]></category>
+      <category><![CDATA[Italie]]></category>
+      <category><![CDATA[peinture]]></category>
+    </item>
+    <item>
+      <title>Samsung officialise son smartphone le plus ambitieux  le Galaxy Z TriFold</title>
+      <description><![CDATA[
+Après Huawei, au tour de Samsung de se lancer dans le secteur des smartphones capables de se plier en trois. Le Z TriFold est une grande tablette de 10 pouces avec deux charnières, capable de se transformer en un smartphone de 6,5 pouces. Il s'agit à ce jour du smartphone le plus fin de l'histoire de Samsung. 
+  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 08:57:00 GMT</pubDate>
+      <link>https//www.numerama.com/tech/2132361-samsung-officialise-son-smartphone-le-plus-ambitieux-le-galaxy-z-trifold.html</link>
+      <guid>https://www.numerama.com/tech/2132361-samsung-officialise-son-smartphone-le-plus-ambitieux-le-galaxy-z-trifold.html</guid>
+      <category><![CDATA[Smartphones Android]]></category>
+      <category><![CDATA[Samsung]]></category>
+      <category><![CDATA[Samsung Galaxy Z TriFold]]></category>
+      <category><![CDATA[Smartphone pliable]]></category>
+      <category><![CDATA[smartphone pliant]]></category>
     </item>
     <item>
       <title>Samsung Galaxy Z TriFold vs Huawei Mate XTs  est-ce que Samsung a repris la main ?</title>
@@ -51,6 +151,30 @@ CD Projekt Red a peut-être teasé l'arrivée d'une nouvelle mise à jour pour C
       <category><![CDATA[Jeux Vidéo]]></category>
       <category><![CDATA[CD Projekt]]></category>
       <category><![CDATA[Cyberpunk 2077]]></category>
+    </item>
+    <item>
+      <title>Monter un PC gaming  nos recommandations des configurations PC gamer pour tous les budgets</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Monter soi-même son PC de bureau gamer est la solution idéale pour avoir un équipement qui correspond parfaitement à ses besoins. Pour vous aider dans cette tâche, Frandroid vous accompagne pas à pas en vous conseillant les meilleurs composants pour la configuration PC gamer qu'il vous faut.</div>
+</div>  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 08:25:00 GMT</pubDate>
+      <link>https//www.frandroid.com/guide-dachat/1588431_monter-un-pc-gaming-nos-recommandations-de-configurations</link>
+      <guid>https://www.frandroid.com/guide-dachat/1588431_monter-un-pc-gaming-nos-recommandations-de-configurations</guid>
+      <category><![CDATA[Guides d'achat]]></category>
+      <category><![CDATA[Guides d'achat Hardware]]></category>
+      <category><![CDATA[Guides d'achat ordinateurs]]></category>
+      <category><![CDATA[PC]]></category>
+      <category><![CDATA[PC fixes]]></category>
+      <category><![CDATA[Périphériques PC]]></category>
+      <category><![CDATA[Produits]]></category>
+      <category><![CDATA[Bons plans Amazon]]></category>
+      <category><![CDATA[Bons plans Boulanger]]></category>
+      <category><![CDATA[Bons plans Darty]]></category>
+      <category><![CDATA[Bons plans Dell]]></category>
+      <category><![CDATA[Bons plans Fnac]]></category>
+      <category><![CDATA[Bons plans Ldlc]]></category>
+      <category><![CDATA[Bons plans Rueducommerce]]></category>
+      <category><![CDATA[Configuration PC]]></category>
     </item>
     <item>
       <title>Ce rice cooker intelligent signé Xiaomi, testé et validé, coûte moins de 45 € grâce à cette offre</title>
@@ -341,6 +465,28 @@ GitHub Repository https//github.com/Hugo-Dz/spritefusion-pixel-snapper  ]]></des
       <pubDate>Tue, 02 Dec 2025 07:15:00 GMT</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2025-13685</link>
       <guid>CVE-2025-13685</guid>
+    </item>
+    <item>
+      <title>Quelles sont les meilleures trottinettes électriques pas chères en 2025 ?</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Compactes, maniables, les trottinettes électriques font le bonheur de certains citadins. Moins coûteuses que les vélos électriques, elles permettent de se déplacer sans effort. Nous avons regroupé ici les meilleures trottinettes, à un bon rapport qualité/prix, toutes testées par nos soins.</div>
+</div>  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 07:09:00 GMT</pubDate>
+      <link>https//www.frandroid.com/guide-dachat/1778011_les-meilleures-trottinettes-electriques-pas-cheres</link>
+      <guid>https://www.frandroid.com/guide-dachat/1778011_les-meilleures-trottinettes-electriques-pas-cheres</guid>
+      <category><![CDATA[Guides d'achat]]></category>
+      <category><![CDATA[Guides d'achat trottinettes électriques]]></category>
+      <category><![CDATA[Survoltés]]></category>
+      <category><![CDATA[Trottinettes électriques]]></category>
+      <category><![CDATA[Bons plans Darty]]></category>
+      <category><![CDATA[Navee S60]]></category>
+      <category><![CDATA[Ninebot KickScooter F2]]></category>
+      <category><![CDATA[Ninebot Segway KickScooter E2 Pro E]]></category>
+      <category><![CDATA[Trottinette électrique]]></category>
+      <category><![CDATA[Xiaomi Electric Scooter 4]]></category>
+      <category><![CDATA[Xiaomi Mi Scooter Essential]]></category>
+      <category><![CDATA[Xiaomi Scooter 4 Lite (1nd Gen)]]></category>
+      <category><![CDATA[Xiaomi Scooter 4 Lite (2nd Gen)]]></category>
     </item>
     <item>
       <title>Xreal dévoile les lunettes 1S, les premières au monde à faire une conversion vidéo 2D en 3D automatique et en plus elles sont abordables</title>
@@ -841,83 +987,6 @@ GitHub Repository https//github.com/felladrin/MiniSearch  ]]></description>
       <pubDate>Tue, 02 Dec 2025 03:16:00 GMT</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2025-20791</link>
       <guid>CVE-2025-20791</guid>
-    </item>
-    <item>
-      <title>CVE-2025-20792 In Modem, there is a possible system crash due to improper input validation. This could lead to remo...</title>
-      <description><![CDATA[In Modem, there is a possible system crash due to improper input validation. This could lead to remote denial of service, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID MOLY01717526 Issue ID MSV-5591. | Severity UNKNOWN  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 03:16:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-20792</link>
-      <guid>CVE-2025-20792</guid>
-    </item>
-    <item>
-      <title>CVE-2025-21072 Out-of-bounds write in decoding metadata in fingerprint trustlet prior to SMR Dec-2025 Release 1 all...</title>
-      <description><![CDATA[Out-of-bounds write in decoding metadata in fingerprint trustlet prior to SMR Dec-2025 Release 1 allows local privileged attackers to write out-of-bounds memory. | CVSS Score 5.7 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-21072</link>
-      <guid>CVE-2025-21072</guid>
-    </item>
-    <item>
-      <title>CVE-2025-21080 Improper export of android application components in Dynamic Lockscreen prior to SMR Dec-2025 Releas...</title>
-      <description><![CDATA[Improper export of android application components in Dynamic Lockscreen prior to SMR Dec-2025 Release 1 allows local attackers to access files with Dynamic Lockscreen's privilege. | CVSS Score 6.2 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-21080</link>
-      <guid>CVE-2025-21080</guid>
-    </item>
-    <item>
-      <title>CVE-2025-55129 HackerOne community member Kassem S.(kassem_s94) has reported that username handling in Revive Adser...</title>
-      <description><![CDATA[HackerOne community member Kassem S.(kassem_s94) has reported that username handling in Revive Adserver was still vulnerable to impersonation attacks after the fix for CVE-2025-52672, via several alternate techniques. Homoglyphs based impersonation has been independently reported by other HackerOne users, such as  itz_hari_ and khoof. | CVSS Score 5.4 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-55129</link>
-      <guid>CVE-2025-55129</guid>
-    </item>
-    <item>
-      <title>CVE-2025-58475 Improper input validation in libsec-ril.so prior to SMR Dec-2025 Release 1 allows local privileged a...</title>
-      <description><![CDATA[Improper input validation in libsec-ril.so prior to SMR Dec-2025 Release 1 allows local privileged attackers to write out-of-bounds memory. | CVSS Score 5.6 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-58475</link>
-      <guid>CVE-2025-58475</guid>
-    </item>
-    <item>
-      <title>CVE-2025-58476 Out-of-bounds read vulnerability in bootloader prior to SMR Dec-2025 Release 1 allows physical attac...</title>
-      <description><![CDATA[Out-of-bounds read vulnerability in bootloader prior to SMR Dec-2025 Release 1 allows physical attackers to access out-of-bounds memory. | CVSS Score 4.2 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-58476</link>
-      <guid>CVE-2025-58476</guid>
-    </item>
-    <item>
-      <title>CVE-2025-58477 Out-of-bounds write in parsing IFD tag in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 all...</title>
-      <description><![CDATA[Out-of-bounds write in parsing IFD tag in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-58477</link>
-      <guid>CVE-2025-58477</guid>
-    </item>
-    <item>
-      <title>CVE-2025-58478 Out-of-bounds write in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attacker...</title>
-      <description><![CDATA[Out-of-bounds write in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-58478</link>
-      <guid>CVE-2025-58478</guid>
-    </item>
-    <item>
-      <title>CVE-2025-58479 Out-of-bounds read in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers...</title>
-      <description><![CDATA[Out-of-bounds read in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-58479</link>
-      <guid>CVE-2025-58479</guid>
-    </item>
-    <item>
-      <title>CVE-2025-58480 Heap-based buffer overflow in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote a...</title>
-      <description><![CDATA[Heap-based buffer overflow in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-58480</link>
-      <guid>CVE-2025-58480</guid>
-    </item>
-    <item>
-      <title>CVE-2025-58481 Improper access control in MPRemoteService of MotionPhoto prior to version 4.1.51 allows local attac...</title>
-      <description><![CDATA[Improper access control in MPRemoteService of MotionPhoto prior to version 4.1.51 allows local attackers to start privileged service. | CVSS Score 7.3 (HIGH)  ]]></description>
-      <pubDate>Tue, 02 Dec 2025 02:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-58481</link>
-      <guid>CVE-2025-58481</guid>
     </item>
   </channel>
 </rss>

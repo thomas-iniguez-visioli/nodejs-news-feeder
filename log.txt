@@ -1,10 +1,201 @@
 [
   {
+    title: 'CVE-2025-10543 In Eclipse Paho Go MQTT v3.1 library (paho.mqtt.golang) versions 1.5.0 UTF-8 encoded strings, pass...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-10543',
+    pubDate: 'Tue, 02 Dec 2025 09:15:00 GMT',
+    content: 'In Eclipse Paho Go MQTT v3.1 library (paho.mqtt.golang) versions 1.5.0 UTF-8 encoded strings, passed into the library, may be incorrectly encoded if their length exceeds 65535 bytes. This may lead to unexpected content in packets sent to the server (for example, part of an MQTT topic may leak into the message body in a PUBLISH packet).\n' +
+      '\n' +
+      '\n' +
+      'The issue arises because the length of the data passed in was converted from an int64/int32 (depending upon CPU) to an int16 without checks for overflows. The int16 length was then written, followed by the data (e.g. topic). This meant that when the data (e.g. topic) was over 65535 bytes then the amount of data written exceeds what the length field indicates. This could lead to a corrupt packet, or mean that the excess data leaks into another field (e.g. topic leaks into message body). | Severity UNKNOWN  ',
+    contentSnippet: 'In Eclipse Paho Go MQTT v3.1 library (paho.mqtt.golang) versions 1.5.0 UTF-8 encoded strings, passed into the library, may be incorrectly encoded if their length exceeds 65535 bytes. This may lead to unexpected content in packets sent to the server (for example, part of an MQTT topic may leak into the message body in a PUBLISH packet).\n' +
+      '\n' +
+      '\n' +
+      'The issue arises because the length of the data passed in was converted from an int64/int32 (depending upon CPU) to an int16 without checks for overflows. The int16 length was then written, followed by the data (e.g. topic). This meant that when the data (e.g. topic) was over 65535 bytes then the amount of data written exceeds what the length field indicates. This could lead to a corrupt packet, or mean that the excess data leaks into another field (e.g. topic leaks into message body). | Severity UNKNOWN',
+    guid: 'CVE-2025-10543',
+    isoDate: '2025-12-02T09:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-13516 The SureMail – SMTP and Email Logs Plugin for WordPress is vulnerable to Unrestricted Upload of File...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13516',
+    pubDate: 'Tue, 02 Dec 2025 09:15:00 GMT',
+    content: "The SureMail – SMTP and Email Logs Plugin for WordPress is vulnerable to Unrestricted Upload of File with Dangerous Type in versions up to and including 1.9.0. This is due to the plugin's save_file() function in inc/emails/handler/uploads.php which duplicates all email attachments to a web-accessible directory (wp-content/uploads/suremails/attachments/) without validating file extensions or content types. Files are saved with predictable names derived from MD5 hashes of their content. While the plugin attempts to protect this directory with an Apache .htaccess file to disable PHP execution, this protection is ineffective on nginx, IIS, and Lighttpd servers, or on misconfigured Apache installations. This makes it possible for unauthenticated attackers to achieve Remote Code Execution by uploading malicious PHP files through any public form that emails attachments, calculating the predictable filename, and directly accessing the file to execute arbitrary code granted they are exploiting a site running on an affected web server configuration. | CVSS Score 8.1 (HIGH)  ",
+    contentSnippet: "The SureMail – SMTP and Email Logs Plugin for WordPress is vulnerable to Unrestricted Upload of File with Dangerous Type in versions up to and including 1.9.0. This is due to the plugin's save_file() function in inc/emails/handler/uploads.php which duplicates all email attachments to a web-accessible directory (wp-content/uploads/suremails/attachments/) without validating file extensions or content types. Files are saved with predictable names derived from MD5 hashes of their content. While the plugin attempts to protect this directory with an Apache .htaccess file to disable PHP execution, this protection is ineffective on nginx, IIS, and Lighttpd servers, or on misconfigured Apache installations. This makes it possible for unauthenticated attackers to achieve Remote Code Execution by uploading malicious PHP files through any public form that emails attachments, calculating the predictable filename, and directly accessing the file to execute arbitrary code granted they are exploiting a site running on an affected web server configuration. | CVSS Score 8.1 (HIGH)",
+    guid: 'CVE-2025-13516',
+    isoDate: '2025-12-02T09:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-13534 The ELEX WordPress HelpDesk  Customer Ticketing System plugin for WordPress is vulnerable to Privil...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13534',
+    pubDate: 'Tue, 02 Dec 2025 09:15:00 GMT',
+    content: 'The ELEX WordPress HelpDesk  Customer Ticketing System plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.3.2. This is due to missing authorization checks on the eh_crm_edit_agent AJAX action. This makes it possible for authenticated attackers, with Contributor-level access and above, to escalate their WSDesk privileges from limited "Reply Tickets" permissions to full helpdesk administrator capabilities, gaining unauthorized access to ticket management, settings configuration, agent administration, and sensitive customer data. | CVSS Score 6.3 (MEDIUM)  ',
+    contentSnippet: 'The ELEX WordPress HelpDesk  Customer Ticketing System plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.3.2. This is due to missing authorization checks on the eh_crm_edit_agent AJAX action. This makes it possible for authenticated attackers, with Contributor-level access and above, to escalate their WSDesk privileges from limited "Reply Tickets" permissions to full helpdesk administrator capabilities, gaining unauthorized access to ticket management, settings configuration, agent administration, and sensitive customer data. | CVSS Score 6.3 (MEDIUM)',
+    guid: 'CVE-2025-13534',
+    isoDate: '2025-12-02T09:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-13724 The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to time-based blind S...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13724',
+    pubDate: 'Tue, 02 Dec 2025 09:15:00 GMT',
+    content: "The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to time-based blind SQL Injection via the 'month' parameter in all versions up to, and including, 1.4.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. | CVSS Score 7.5 (HIGH)  ",
+    contentSnippet: "The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to time-based blind SQL Injection via the 'month' parameter in all versions up to, and including, 1.4.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. | CVSS Score 7.5 (HIGH)",
+    guid: 'CVE-2025-13724',
+    isoDate: '2025-12-02T09:15:00.000Z'
+  },
+  {
+    title: 'Quelles sont les meilleures trottinettes électriques pas chères en 2025 ?',
+    link: 'https//www.frandroid.com/guide-dachat/1778011_les-meilleures-trottinettes-electriques-pas-cheres',
+    pubDate: 'Tue, 02 Dec 2025 07:09:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      '<div>Compactes, maniables, les trottinettes électriques font le bonheur de certains citadins. Moins coûteuses que les vélos électriques, elles permettent de se déplacer sans effort. Nous avons regroupé ici les meilleures trottinettes, à un bon rapport qualité/prix, toutes testées par nos soins.</div>\n' +
+      '</div>  ',
+    contentSnippet: 'Compactes, maniables, les trottinettes électriques font le bonheur de certains citadins. Moins coûteuses que les vélos électriques, elles permettent de se déplacer sans effort. Nous avons regroupé ici les meilleures trottinettes, à un bon rapport qualité/prix, toutes testées par nos soins.',
+    guid: 'https://www.frandroid.com/guide-dachat/1778011_les-meilleures-trottinettes-electriques-pas-cheres',
+    categories: [
+      "Guides d'achat",
+      "Guides d'achat trottinettes électriques",
+      'Survoltés',
+      'Trottinettes électriques',
+      'Bons plans Darty',
+      'Navee S60',
+      'Ninebot KickScooter F2',
+      'Ninebot Segway KickScooter E2 Pro E',
+      'Trottinette électrique',
+      'Xiaomi Electric Scooter 4',
+      'Xiaomi Mi Scooter Essential',
+      'Xiaomi Scooter 4 Lite (1nd Gen)',
+      'Xiaomi Scooter 4 Lite (2nd Gen)'
+    ],
+    isoDate: '2025-12-02T07:09:00.000Z'
+  },
+  {
+    title: 'Monter un PC gaming  nos recommandations des configurations PC gamer pour tous les budgets',
+    link: 'https//www.frandroid.com/guide-dachat/1588431_monter-un-pc-gaming-nos-recommandations-de-configurations',
+    pubDate: 'Tue, 02 Dec 2025 08:25:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      "<div>Monter soi-même son PC de bureau gamer est la solution idéale pour avoir un équipement qui correspond parfaitement à ses besoins. Pour vous aider dans cette tâche, Frandroid vous accompagne pas à pas en vous conseillant les meilleurs composants pour la configuration PC gamer qu'il vous faut.</div>\n" +
+      '</div>  ',
+    contentSnippet: "Monter soi-même son PC de bureau gamer est la solution idéale pour avoir un équipement qui correspond parfaitement à ses besoins. Pour vous aider dans cette tâche, Frandroid vous accompagne pas à pas en vous conseillant les meilleurs composants pour la configuration PC gamer qu'il vous faut.",
+    guid: 'https://www.frandroid.com/guide-dachat/1588431_monter-un-pc-gaming-nos-recommandations-de-configurations',
+    categories: [
+      "Guides d'achat",
+      "Guides d'achat Hardware",
+      "Guides d'achat ordinateurs",
+      'PC',
+      'PC fixes',
+      'Périphériques PC',
+      'Produits',
+      'Bons plans Amazon',
+      'Bons plans Boulanger',
+      'Bons plans Darty',
+      'Bons plans Dell',
+      'Bons plans Fnac',
+      'Bons plans Ldlc',
+      'Bons plans Rueducommerce',
+      'Configuration PC'
+    ],
+    isoDate: '2025-12-02T08:25:00.000Z'
+  },
+  {
+    title: '« Pas d’autre solution »  40 % des employés sont licenciés chez l’historique marque italienne Campagnolo, spécialiste du vélo',
+    link: 'https//www.frandroid.com/survoltes/velo-electrique/2894993_pas-dautre-solution-40-des-employes-sont-licencies-chez-lhistorique-marque-italienne-campagnolo-specialiste-du-velo',
+    pubDate: 'Tue, 02 Dec 2025 09:02:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      '<div>Campagnolo engage une restructuration profonde après trois exercices déficitaires, avec la suppression de 40 % de ses effectifs à Vicence. La direction affirme que ces mesures, malgré l’apport de 10 millions d’euros de l’actionnaire, sont devenues indispensables pour assurer la continuité de ses activités.</div>\n' +
+      '</div>  ',
+    contentSnippet: 'Campagnolo engage une restructuration profonde après trois exercices déficitaires, avec la suppression de 40 % de ses effectifs à Vicence. La direction affirme que ces mesures, malgré l’apport de 10 millions d’euros de l’actionnaire, sont devenues indispensables pour assurer la continuité de ses activités.',
+    guid: 'https://www.frandroid.com/survoltes/velo-electrique/2894993_pas-dautre-solution-40-des-employes-sont-licencies-chez-lhistorique-marque-italienne-campagnolo-specialiste-du-velo',
+    categories: [
+      'Économie',
+      'Société',
+      'Survoltés',
+      'Vélos électriques',
+      'Campagnolo'
+    ],
+    isoDate: '2025-12-02T09:02:00.000Z'
+  },
+  {
+    title: 'Le Black Friday est terminé, mais voici les offres encore en ligne qui méritent votre attention',
+    link: 'https//www.frandroid.com/bons-plans/2894961_le-black-friday-est-termine-mais-voici-les-offres-encore-en-ligne-qui-meritent-votre-attention',
+    pubDate: 'Tue, 02 Dec 2025 09:10:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      '<div>C’est officiel… Le Black Friday ainsi que le Cyber Monday sont terminés ! Toutefois, plusieurs offres sur des produits Tech populaires sont encore valables chez les différents e-commerçants, pratique pour celles et ceux qui ont loupé le coche.</div>\n' +
+      '</div>  ',
+    contentSnippet: 'C’est officiel… Le Black Friday ainsi que le Cyber Monday sont terminés ! Toutefois, plusieurs offres sur des produits Tech populaires sont encore valables chez les différents e-commerçants, pratique pour celles et ceux qui ont loupé le coche.',
+    guid: 'https://www.frandroid.com/bons-plans/2894961_le-black-friday-est-termine-mais-voici-les-offres-encore-en-ligne-qui-meritent-votre-attention',
+    categories: [
+      'Bons plans',
+      'Black Friday 2025',
+      'Cyber Monday 2025',
+      'Sélections Black Friday'
+    ],
+    isoDate: '2025-12-02T09:10:00.000Z'
+  },
+  {
+    title: 'Quels sont les meilleurs câbles USB-C selon vos besoins ? Notre sélection',
+    link: 'https//www.frandroid.com/guide-dachat/1911109_quels-sont-les-meilleurs-cables-usb-c-selon-vos-besoins-notre-selection',
+    pubDate: 'Tue, 02 Dec 2025 09:15:00 GMT',
+    content: 'Plus que jamais, cette ère de la tech est sous le signe de la connectique USB-C. En effet, l’Union européenne ou encore la France ont imposé cette norme pour tous les nouveaux produits tech lancés. À tel point que même Apple a dû céder avec la génération d#8217iPhone#16015. Toutefois, les câbles USB-C ne sont pas [#8230]  ',
+    contentSnippet: 'Plus que jamais, cette ère de la tech est sous le signe de la connectique USB-C. En effet, l’Union européenne ou encore la France ont imposé cette norme pour tous les nouveaux produits tech lancés. À tel point que même Apple a dû céder avec la génération d#8217iPhone#16015. Toutefois, les câbles USB-C ne sont pas [#8230]',
+    guid: 'https://www.frandroid.com/guide-dachat/1911109_quels-sont-les-meilleurs-cables-usb-c-selon-vos-besoins-notre-selection',
+    categories: [ "Guides d'achat", 'Bons plans Amazon', 'câble USB-C', 'USB-C' ],
+    isoDate: '2025-12-02T09:15:00.000Z'
+  },
+  {
+    title: 'Samsung officialise son smartphone le plus ambitieux  le Galaxy Z TriFold',
+    link: 'https//www.numerama.com/tech/2132361-samsung-officialise-son-smartphone-le-plus-ambitieux-le-galaxy-z-trifold.html',
+    pubDate: 'Tue, 02 Dec 2025 08:57:00 GMT',
+    content: '\n' +
+      "Après Huawei, au tour de Samsung de se lancer dans le secteur des smartphones capables de se plier en trois. Le Z TriFold est une grande tablette de 10 pouces avec deux charnières, capable de se transformer en un smartphone de 6,5 pouces. Il s'agit à ce jour du smartphone le plus fin de l'histoire de Samsung. \n" +
+      '  ',
+    contentSnippet: "Après Huawei, au tour de Samsung de se lancer dans le secteur des smartphones capables de se plier en trois. Le Z TriFold est une grande tablette de 10 pouces avec deux charnières, capable de se transformer en un smartphone de 6,5 pouces. Il s'agit à ce jour du smartphone le plus fin de l'histoire de Samsung.",
+    guid: 'https://www.numerama.com/tech/2132361-samsung-officialise-son-smartphone-le-plus-ambitieux-le-galaxy-z-trifold.html',
+    categories: [
+      'Smartphones Android',
+      'Samsung',
+      'Samsung Galaxy Z TriFold',
+      'Smartphone pliable',
+      'smartphone pliant'
+    ],
+    isoDate: '2025-12-02T08:57:00.000Z'
+  },
+  {
+    title: 'Ce robot aide les archéologues de Pompéi à reconstituer des fresques brisées en milliers de morceaux',
+    link: 'https//www.numerama.com/sciences/2131889-ce-robot-aide-les-archeologues-de-pompei-a-reconstituer-des-fresques-brisees-en-milliers-de-morceaux.html',
+    pubDate: 'Tue, 02 Dec 2025 08:58:00 GMT',
+    content: '\n' +
+      "Après 4 années, le projet RePAIR s'achève. Son objectif était d'aider les archéologues en permettant la reconstitution des fresques de Pompéi, qui sont en morceaux, grâce à un robot et à l'intelligence artificielle. \n" +
+      '  ',
+    contentSnippet: "Après 4 années, le projet RePAIR s'achève. Son objectif était d'aider les archéologues en permettant la reconstitution des fresques de Pompéi, qui sont en morceaux, grâce à un robot et à l'intelligence artificielle.",
+    guid: 'https://www.numerama.com/sciences/2131889-ce-robot-aide-les-archeologues-de-pompei-a-reconstituer-des-fresques-brisees-en-milliers-de-morceaux.html',
+    categories: [
+      'Archéologie',
+      'Découvertes',
+      'Intelligence artificielle',
+      'Robots',
+      'Sciences',
+      'IA',
+      'Italie',
+      'peinture'
+    ],
+    isoDate: '2025-12-02T08:58:00.000Z'
+  },
+  {
+    title: 'HKG (Hong Kong) on 2025-12-03',
+    link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
+    pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
+    content: "<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ",
+    contentSnippet: 'THIS IS A SCHEDULED EVENT Dec 3, 1800 - 2330 UTCDec  1, 2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.\n' +
+      'Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.\n' +
+      'You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.',
+    guid: 'https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
+    isoDate: '2025-12-03T18:00:00.000Z'
+  },
+  {
     title: 'Samsung Galaxy Z TriFold vs Huawei Mate XTs  est-ce que Samsung a repris la main ?',
     link: 'https//www.frandroid.com/marques/samsung/2894793_samsung-galaxy-z-trifold-vs-huawei-mate-xts-est-ce-que-samsung-a-repris-la-main',
     pubDate: 'Tue, 02 Dec 2025 08:30:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      `<div>Huawei a eu le mérite d'être le premier. Personne ne pourra lui enlever ça. Mais être le premier ne signifie pas être le meilleur. Face au nouveau <strong><a href="https//www.frandroid.com/marques/samsung/2894769_samsung-officialise-le-galaxy-z-trifold-un-ecran-de-10-pouces-qui-tient-dans-la-poche">Galaxy Z TriFold</a></strong> de Samsung, le <a href="https//www.frandroid.com/marques/huawei/2813893_on-a-pris-en-main-le-dernier-smartphone-tripliant-de-huawei-les-demos-sont-bluffantes-sur-harmonyos-next">Mate XTs</a> montre ses limites  puissance d'un autre âge, absence de Google et fragilité. Voici pourquoi Samsung reprend la main.</div>\n` +
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      `<div>Huawei a eu le mérite d'être le premier. Personne ne pourra lui enlever ça. Mais être le premier ne signifie pas être le meilleur. Face au nouveau <strong><a href="https//www.frandroid.com/marques/samsung/2894769_samsung-officialise-le-galaxy-z-trifold-un-ecran-de-10-pouces-qui-tient-dans-la-poche">Galaxy Z TriFold</a></strong> de Samsung, le <a href="https//www.frandroid.com/marques/huawei/2813893_on-a-pris-en-main-le-dernier-smartphone-tripliant-de-huawei-les-demos-sont-bluffantes-sur-harmonyos-next">Mate XTs</a> montre ses limites  puissance d'un autre âge, absence de Google et fragilité. Voici pourquoi Samsung reprend la main.</div>\r\n` +
       '</div>  ',
     contentSnippet: "Huawei a eu le mérite d'être le premier. Personne ne pourra lui enlever ça. Mais être le premier ne signifie pas être le meilleur. Face au nouveau Galaxy Z TriFold de Samsung, le Mate XTs montre ses limites  puissance d'un autre âge, absence de Google et fragilité. Voici pourquoi Samsung reprend la main.",
     guid: 'https://www.frandroid.com/marques/samsung/2894793_samsung-galaxy-z-trifold-vs-huawei-mate-xts-est-ce-que-samsung-a-repris-la-main',
@@ -26,24 +217,13 @@
     title: 'Cyberpunk 2077 va-t-il encore recevoir une mise à jour surprise ?',
     link: 'https//www.numerama.com/pop-culture/2132337-cyberpunk-2077-va-t-il-encore-recevoir-une-mise-a-jour-surprise.html',
     pubDate: 'Tue, 02 Dec 2025 08:28:00 GMT',
-    content: '\n' +
-      "CD Projekt Red a peut-être teasé l'arrivée d'une nouvelle mise à jour pour Cyberpunk 2077, qui fêtera ses cinq ans d'existence le 10 décembre 2025. \n" +
+    content: '\r\n' +
+      "CD Projekt Red a peut-être teasé l'arrivée d'une nouvelle mise à jour pour Cyberpunk 2077, qui fêtera ses cinq ans d'existence le 10 décembre 2025. \r\n" +
       '  ',
     contentSnippet: "CD Projekt Red a peut-être teasé l'arrivée d'une nouvelle mise à jour pour Cyberpunk 2077, qui fêtera ses cinq ans d'existence le 10 décembre 2025.",
     guid: 'https://www.numerama.com/pop-culture/2132337-cyberpunk-2077-va-t-il-encore-recevoir-une-mise-a-jour-surprise.html',
     categories: [ 'Jeux Vidéo', 'CD Projekt', 'Cyberpunk 2077' ],
     isoDate: '2025-12-02T08:28:00.000Z'
-  },
-  {
-    title: 'HKG (Hong Kong) on 2025-12-03',
-    link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
-    pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
-    content: "<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ",
-    contentSnippet: 'THIS IS A SCHEDULED EVENT Dec 3, 1800 - 2330 UTCDec  1, 2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.\n' +
-      'Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.\n' +
-      'You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.',
-    guid: 'https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
-    isoDate: '2025-12-03T18:00:00.000Z'
   },
   {
     title: 'Ce rice cooker intelligent signé Xiaomi, testé et validé, coûte moins de 45 € grâce à cette offre',
@@ -1083,104 +1263,5 @@
     guid: 'CVE-2025-20791',
     isoDate: '2025-12-02T03:16:00.000Z'
   },
-  {
-    title: 'CVE-2025-20792 In Modem, there is a possible system crash due to improper input validation. This could lead to remo...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20792',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In Modem, there is a possible system crash due to improper input validation. This could lead to remote denial of service, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID MOLY01717526 Issue ID MSV-5591. | Severity UNKNOWN  ',
-    contentSnippet: 'In Modem, there is a possible system crash due to improper input validation. This could lead to remote denial of service, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID MOLY01717526 Issue ID MSV-5591. | Severity UNKNOWN',
-    guid: 'CVE-2025-20792',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-21072 Out-of-bounds write in decoding metadata in fingerprint trustlet prior to SMR Dec-2025 Release 1 all...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-21072',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Out-of-bounds write in decoding metadata in fingerprint trustlet prior to SMR Dec-2025 Release 1 allows local privileged attackers to write out-of-bounds memory. | CVSS Score 5.7 (MEDIUM)  ',
-    contentSnippet: 'Out-of-bounds write in decoding metadata in fingerprint trustlet prior to SMR Dec-2025 Release 1 allows local privileged attackers to write out-of-bounds memory. | CVSS Score 5.7 (MEDIUM)',
-    guid: 'CVE-2025-21072',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-21080 Improper export of android application components in Dynamic Lockscreen prior to SMR Dec-2025 Releas...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-21080',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: "Improper export of android application components in Dynamic Lockscreen prior to SMR Dec-2025 Release 1 allows local attackers to access files with Dynamic Lockscreen's privilege. | CVSS Score 6.2 (MEDIUM)  ",
-    contentSnippet: "Improper export of android application components in Dynamic Lockscreen prior to SMR Dec-2025 Release 1 allows local attackers to access files with Dynamic Lockscreen's privilege. | CVSS Score 6.2 (MEDIUM)",
-    guid: 'CVE-2025-21080',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-55129 HackerOne community member Kassem S.(kassem_s94) has reported that username handling in Revive Adser...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-55129',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'HackerOne community member Kassem S.(kassem_s94) has reported that username handling in Revive Adserver was still vulnerable to impersonation attacks after the fix for CVE-2025-52672, via several alternate techniques. Homoglyphs based impersonation has been independently reported by other HackerOne users, such as  itz_hari_ and khoof. | CVSS Score 5.4 (MEDIUM)  ',
-    contentSnippet: 'HackerOne community member Kassem S.(kassem_s94) has reported that username handling in Revive Adserver was still vulnerable to impersonation attacks after the fix for CVE-2025-52672, via several alternate techniques. Homoglyphs based impersonation has been independently reported by other HackerOne users, such as  itz_hari_ and khoof. | CVSS Score 5.4 (MEDIUM)',
-    guid: 'CVE-2025-55129',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58475 Improper input validation in libsec-ril.so prior to SMR Dec-2025 Release 1 allows local privileged a...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58475',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Improper input validation in libsec-ril.so prior to SMR Dec-2025 Release 1 allows local privileged attackers to write out-of-bounds memory. | CVSS Score 5.6 (MEDIUM)  ',
-    contentSnippet: 'Improper input validation in libsec-ril.so prior to SMR Dec-2025 Release 1 allows local privileged attackers to write out-of-bounds memory. | CVSS Score 5.6 (MEDIUM)',
-    guid: 'CVE-2025-58475',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58476 Out-of-bounds read vulnerability in bootloader prior to SMR Dec-2025 Release 1 allows physical attac...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58476',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Out-of-bounds read vulnerability in bootloader prior to SMR Dec-2025 Release 1 allows physical attackers to access out-of-bounds memory. | CVSS Score 4.2 (MEDIUM)  ',
-    contentSnippet: 'Out-of-bounds read vulnerability in bootloader prior to SMR Dec-2025 Release 1 allows physical attackers to access out-of-bounds memory. | CVSS Score 4.2 (MEDIUM)',
-    guid: 'CVE-2025-58476',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58477 Out-of-bounds write in parsing IFD tag in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 all...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58477',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Out-of-bounds write in parsing IFD tag in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)  ',
-    contentSnippet: 'Out-of-bounds write in parsing IFD tag in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)',
-    guid: 'CVE-2025-58477',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58478 Out-of-bounds write in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attacker...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58478',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Out-of-bounds write in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)  ',
-    contentSnippet: 'Out-of-bounds write in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)',
-    guid: 'CVE-2025-58478',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58479 Out-of-bounds read in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58479',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Out-of-bounds read in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)  ',
-    contentSnippet: 'Out-of-bounds read in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)',
-    guid: 'CVE-2025-58479',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58480 Heap-based buffer overflow in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote a...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58480',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Heap-based buffer overflow in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)  ',
-    contentSnippet: 'Heap-based buffer overflow in libimagecodec.quram.so prior to SMR Dec-2025 Release 1 allows remote attackers to access out-of-bounds memory. | CVSS Score 4.3 (MEDIUM)',
-    guid: 'CVE-2025-58480',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58481 Improper access control in MPRemoteService of MotionPhoto prior to version 4.1.51 allows local attac...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58481',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Improper access control in MPRemoteService of MotionPhoto prior to version 4.1.51 allows local attackers to start privileged service. | CVSS Score 7.3 (HIGH)  ',
-    contentSnippet: 'Improper access control in MPRemoteService of MotionPhoto prior to version 4.1.51 allows local attackers to start privileged service. | CVSS Score 7.3 (HIGH)',
-    guid: 'CVE-2025-58481',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  ... 2 more items
+  ... 11 more items
 ]
