@@ -8,7 +8,7 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 02 Dec 2025 05:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 05:43:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
@@ -20,6 +20,33 @@
       <pubDate>Wed, 03 Dec 2025 18:00:00 GMT</pubDate>
       <link>https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5</link>
       <guid>https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5</guid>
+    </item>
+    <item>
+      <title>Accessible shadcn/ui components built with React, TypeScript, and Tailwind CSS. Copy-paste ready, an...</title>
+      <description><![CDATA[Accessible shadcn/ui components built with React, TypeScript, and Tailwind CSS. Copy-paste ready, and customizable
+
+GitHub Repository https//github.com/sadmann7/diceui  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 05:34:00 GMT</pubDate>
+      <link>https//opensourceprojects.dev/post/1995728336069292107</link>
+      <guid>https://opensourceprojects.dev/post/1995728336069292107</guid>
+    </item>
+    <item>
+      <title>Framework for Monorepo to build high level Terraform Workflows by GitHub Actions</title>
+      <description><![CDATA[Managing Terraform at scale in a monorepo can get messy. You end up with a tangle of custom GitHub Actions workflows, duplicated logic, and complex dependencies between directories. Itaposs a problem many infrastructure teams face but few solutions tackle head-on.
+
+GitHub Repository https//github.com/suzuki-shunsuke/tfaction  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 05:31:00 GMT</pubDate>
+      <link>https//opensourceprojects.dev/post/1995727544574693790</link>
+      <guid>https://opensourceprojects.dev/post/1995727544574693790</guid>
+    </item>
+    <item>
+      <title>Minimalist web-searching platform with an AI assistant that runs directly from your browser</title>
+      <description><![CDATA[Ever feel like your search engine knows a little too much about you? Or maybe youaposre tired of the same old, ad-heavy results pages. What if you could have a clean, fast, and private search experience that lives entirely in your browser, with an AI assistant ready to help you make sense of what you f...
+
+GitHub Repository https//github.com/felladrin/MiniSearch  ]]></description>
+      <pubDate>Tue, 02 Dec 2025 05:30:00 GMT</pubDate>
+      <link>https//opensourceprojects.dev/post/1995727149441933357</link>
+      <guid>https://opensourceprojects.dev/post/1995727149441933357</guid>
     </item>
     <item>
       <title>CVE-2025-13387 The Kadence WooCommerce Email Designer plugin for WordPress is vulnerable to Stored Cross-Site Scrip...</title>
@@ -715,36 +742,6 @@ John Giannandrea, autrefois considéré comme une des pontes de l'intelligence a
       <pubDate>Mon, 01 Dec 2025 20:15:00 GMT</pubDate>
       <link>https//nvd.nist.gov/vuln/detail/CVE-2025-65836</link>
       <guid>CVE-2025-65836</guid>
-    </item>
-    <item>
-      <title>CVE-2025-65838 PublicCMS V5.202506.b is vulnerable to path traversal via the doUploadSitefile method.</title>
-      <description><![CDATA[PublicCMS V5.202506.b is vulnerable to path traversal via the doUploadSitefile method. | Severity UNKNOWN  ]]></description>
-      <pubDate>Mon, 01 Dec 2025 20:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-65838</link>
-      <guid>CVE-2025-65838</guid>
-    </item>
-    <item>
-      <title>CVE-2025-11772 A carefully crafted DLL, copied to 
-
-C\ProgramData\Synaptics
-
- folder, allows a local user to execu...</title>
-      <description><![CDATA[A carefully crafted DLL, copied to 
-
-C\ProgramData\Synaptics
-
- folder, allows a local user to execute 
-arbitrary code with elevated privileges during driver installation. | CVSS Score 6.6 (MEDIUM)  ]]></description>
-      <pubDate>Mon, 01 Dec 2025 19:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-11772</link>
-      <guid>CVE-2025-11772</guid>
-    </item>
-    <item>
-      <title>CVE-2025-34297 KissFFT versions prior to the fix commit 1b083165 contain an integer overflow in kiss_fft_alloc() in...</title>
-      <description><![CDATA[KissFFT versions prior to the fix commit 1b083165 contain an integer overflow in kiss_fft_alloc() in kiss_fft.c on platforms where size_t is 32-bit. The nfft parameter is not validated before being used in a size calculation (sizeof(kiss_fft_cpx) * (nfft - 1)), which can wrap to a small value when nfft is large. As a result, malloc() allocates an undersized buffer and the subsequent twiddle-factor initialization loop writes nfft elements, causing a heap buffer overflow. This vulnerability only affects 32-bit architectures. | Severity UNKNOWN  ]]></description>
-      <pubDate>Mon, 01 Dec 2025 19:15:00 GMT</pubDate>
-      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-34297</link>
-      <guid>CVE-2025-34297</guid>
     </item>
   </channel>
 </rss>
