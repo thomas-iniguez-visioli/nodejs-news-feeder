@@ -1,75 +1,163 @@
 [
   {
-    title: 'A highly extensible private cloud storage solution for individuals and teams, featuring AI-powered s...',
-    link: 'https//opensourceprojects.dev/post/1995760374403215824',
-    pubDate: 'Tue, 02 Dec 2025 07:42:00 GMT',
-    content: 'Ever feel like youaposre drowning in files? Between personal photos, work documents, and side project assets, keeping everything organized and findable is a constant battle. Cloud storage is convenient, but it often means trading privacy and control for that convenience. What if you could have the best...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/DrizzleTime/Foxel  ',
-    contentSnippet: 'Ever feel like youaposre drowning in files? Between personal photos, work documents, and side project assets, keeping everything organized and findable is a constant battle. Cloud storage is convenient, but it often means trading privacy and control for that convenience. What if you could have the best...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/DrizzleTime/Foxel',
-    guid: 'https://opensourceprojects.dev/post/1995760374403215824',
-    isoDate: '2025-12-02T07:42:00.000Z'
+    title: 'CVE-2025-10971 Insecure Storage of Sensitive Information vulnerability in MeetMe on iOS, Android allows Retrieve Em...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-10971',
+    pubDate: 'Tue, 02 Dec 2025 08:15:00 GMT',
+    content: 'Insecure Storage of Sensitive Information vulnerability in MeetMe on iOS, Android allows Retrieve Embedded Sensitive Data. This issue affects MeetMe through v2.2.5. | Severity UNKNOWN  ',
+    contentSnippet: 'Insecure Storage of Sensitive Information vulnerability in MeetMe on iOS, Android allows Retrieve Embedded Sensitive Data. This issue affects MeetMe through v2.2.5. | Severity UNKNOWN',
+    guid: 'CVE-2025-10971',
+    isoDate: '2025-12-02T08:15:00.000Z'
   },
   {
-    title: 'A complete video subtitle editing React component with AI-powered speech recognition and visual edit...',
-    link: 'https//opensourceprojects.dev/post/1995760859138949456',
-    pubDate: 'Tue, 02 Dec 2025 07:44:00 GMT',
-    content: 'Editing video subtitles is one of those tasks that can quickly become tedious. Youaposre juggling timestamps, text alignment, and trying to keep everything in sync. What if you could skip the manual transcription and have a visual, intuitive interface for the whole process? Thataposs exactly what Flycut C...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/x007xyz/flycut-caption  ',
-    contentSnippet: 'Editing video subtitles is one of those tasks that can quickly become tedious. Youaposre juggling timestamps, text alignment, and trying to keep everything in sync. What if you could skip the manual transcription and have a visual, intuitive interface for the whole process? Thataposs exactly what Flycut C...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/x007xyz/flycut-caption',
-    guid: 'https://opensourceprojects.dev/post/1995760859138949456',
-    isoDate: '2025-12-02T07:44:00.000Z'
+    title: 'CVE-2025-11726 The Beaver Builder – WordPress Page Builder plugin for WordPress is vulnerable to Missing Authorizat...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-11726',
+    pubDate: 'Tue, 02 Dec 2025 08:15:00 GMT',
+    content: "The Beaver Builder – WordPress Page Builder plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 2.9.4. This is due to insufficient capability checks in the REST API endpoints under the 'fl-controls/v1' namespace that control site-wide Global Presets. This makes it possible for authenticated attackers with contributor-level access and above to add, modify, or delete global color and background presets that affect all Beaver Builder content site-wide. | CVSS Score 4.3 (MEDIUM)  ",
+    contentSnippet: "The Beaver Builder – WordPress Page Builder plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 2.9.4. This is due to insufficient capability checks in the REST API endpoints under the 'fl-controls/v1' namespace that control site-wide Global Presets. This makes it possible for authenticated attackers with contributor-level access and above to add, modify, or delete global color and background presets that affect all Beaver Builder content site-wide. | CVSS Score 4.3 (MEDIUM)",
+    guid: 'CVE-2025-11726',
+    isoDate: '2025-12-02T08:15:00.000Z'
   },
   {
-    title: 'Multiple USB File Flasher',
-    link: 'https//opensourceprojects.dev/post/1995761493368078546',
-    pubDate: 'Tue, 02 Dec 2025 07:46:00 GMT',
-    content: 'If youaposve ever needed to create a bunch of bootable USB drives—for a workshop, a classroom, or deploying machines—you know the pain. Itaposs a serial process flash one drive, wait, eject, insert the next one, repeat. Itaposs a massive time sink. What if you could just plug in a handful of drives and flas...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/pop-os/popsicle  ',
-    contentSnippet: 'If youaposve ever needed to create a bunch of bootable USB drives—for a workshop, a classroom, or deploying machines—you know the pain. Itaposs a serial process flash one drive, wait, eject, insert the next one, repeat. Itaposs a massive time sink. What if you could just plug in a handful of drives and flas...\n' +
-      '\n' +
-      'GitHub Repository https//github.com/pop-os/popsicle',
-    guid: 'https://opensourceprojects.dev/post/1995761493368078546',
-    isoDate: '2025-12-02T07:46:00.000Z'
+    title: 'CVE-2025-13696 The Zigaform plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to,...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13696',
+    pubDate: 'Tue, 02 Dec 2025 08:16:00 GMT',
+    content: 'The Zigaform plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 7.6.5. This is due to the plugin exposing a public AJAX endpoint that retrieves form submission data without performing authorization checks to verify ownership or access rights. This makes it possible for unauthenticated attackers to extract sensitive form submission data including personal information, payment details, and other private data via the rocket_front_payment_seesummary action by enumerating sequential form_r_id values. | CVSS Score 5.3 (MEDIUM)  ',
+    contentSnippet: 'The Zigaform plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 7.6.5. This is due to the plugin exposing a public AJAX endpoint that retrieves form submission data without performing authorization checks to verify ownership or access rights. This makes it possible for unauthenticated attackers to extract sensitive form submission data including personal information, payment details, and other private data via the rocket_front_payment_seesummary action by enumerating sequential form_r_id values. | CVSS Score 5.3 (MEDIUM)',
+    guid: 'CVE-2025-13696',
+    isoDate: '2025-12-02T08:16:00.000Z'
   },
   {
-    title: 'An in-browser game that teaches core Vim motions and editing commands',
-    link: 'https//opensourceprojects.dev/post/1995762131262673080',
-    pubDate: 'Tue, 02 Dec 2025 07:49:00 GMT',
-    content: 'Letaposs be honest learning Vim can feel like trying to learn to drive a manual transmission while the car is already rolling downhill. The payoff is huge—blazing fast text navigation and editing—but the initial learning curve is steep. Most tutorials have you memorizing commands in a vacuum, which do...\n' +
+    title: 'ungoogled-chromium',
+    link: 'https//opensourceprojects.dev/post/1995763208821539278',
+    pubDate: 'Tue, 02 Dec 2025 07:53:00 GMT',
+    content: 'Ever wonder what Chromium would be like if it completely severed its ties with Google? Not just the sync and account features, but all the background pings, proprietary codecs, and services baked into the core? Thataposs exactly what Ungoogled-Chromium sets out to answer.\n' +
       '\n' +
-      'GitHub Repository https//github.com/renzorlive/vimmaster  ',
-    contentSnippet: 'Letaposs be honest learning Vim can feel like trying to learn to drive a manual transmission while the car is already rolling downhill. The payoff is huge—blazing fast text navigation and editing—but the initial learning curve is steep. Most tutorials have you memorizing commands in a vacuum, which do...\n' +
+      'GitHub Repository https//github.com/ungoogled-software/ungoogled-chromium  ',
+    contentSnippet: 'Ever wonder what Chromium would be like if it completely severed its ties with Google? Not just the sync and account features, but all the background pings, proprietary codecs, and services baked into the core? Thataposs exactly what Ungoogled-Chromium sets out to answer.\n' +
       '\n' +
-      'GitHub Repository https//github.com/renzorlive/vimmaster',
-    guid: 'https://opensourceprojects.dev/post/1995762131262673080',
-    isoDate: '2025-12-02T07:49:00.000Z'
+      'GitHub Repository https//github.com/ungoogled-software/ungoogled-chromium',
+    guid: 'https://opensourceprojects.dev/post/1995763208821539278',
+    isoDate: '2025-12-02T07:53:00.000Z'
+  },
+  {
+    title: 'Ce rice cooker intelligent signé Xiaomi, testé et validé, coûte moins de 45 € grâce à cette offre',
+    link: 'https//www.frandroid.com/bons-plans/2893935_ce-rice-cooker-intelligent-signe-xiaomi-teste-et-valide-coute-moins-de-45-e-grace-a-cette-offre',
+    pubDate: 'Tue, 02 Dec 2025 08:19:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      `<div>Si vous rêvez d'un riz parfaitement cuit, sans devoir surveiller une casserole sur le feu, alors c'est un "rice cooker", ou cuiseur à riz, qu'il vous faut. Xiaomi en propose un connecté, le Smart Multifunctional Rice Cooker, que nous avons vraiment apprécié. En ce moment, la marque le propose à 44,99 euros au lieu de 49,99 euros.</div>\n` +
+      '</div>  ',
+    contentSnippet: `Si vous rêvez d'un riz parfaitement cuit, sans devoir surveiller une casserole sur le feu, alors c'est un "rice cooker", ou cuiseur à riz, qu'il vous faut. Xiaomi en propose un connecté, le Smart Multifunctional Rice Cooker, que nous avons vraiment apprécié. En ce moment, la marque le propose à 44,99 euros au lieu de 49,99 euros.`,
+    guid: 'https://www.frandroid.com/bons-plans/2893935_ce-rice-cooker-intelligent-signe-xiaomi-teste-et-valide-coute-moins-de-45-e-grace-a-cette-offre',
+    categories: [
+      'Bons plans',
+      'Bons plans maison connectée',
+      'Bons plans objets connectés',
+      'Maison connectée',
+      'Marques',
+      'Produits',
+      'Robots-cuiseurs',
+      'Xiaomi',
+      'Bons plans Xiaomi',
+      'Cyber Monday 2025'
+    ],
+    isoDate: '2025-12-02T08:19:00.000Z'
+  },
+  {
+    title: 'Stranger Things saison 5  voici les secrets derrière la transformation hallucinante de Jamie Campbell Bower en Vecna',
+    link: 'https//www.numerama.com/pop-culture/2131641-stranger-things-saison-5-voici-les-secrets-derriere-la-transformation-hallucinante-de-jamie-campbell-bower-en-vecna.html',
+    pubDate: 'Tue, 02 Dec 2025 08:15:00 GMT',
+    content: '\n' +
+      "Le tournage de la saison 5 de Stranger Things n'a visiblement pas été de tout repos. Pour donner vie à certains personnages, des heures de maquillage ont ainsi été nécessaires. Parmi les personnages concernés, se trouve un antagoniste de taille  Vecna.\n" +
+      '  ',
+    contentSnippet: "Le tournage de la saison 5 de Stranger Things n'a visiblement pas été de tout repos. Pour donner vie à certains personnages, des heures de maquillage ont ainsi été nécessaires. Parmi les personnages concernés, se trouve un antagoniste de taille  Vecna.",
+    guid: 'https://www.numerama.com/pop-culture/2131641-stranger-things-saison-5-voici-les-secrets-derriere-la-transformation-hallucinante-de-jamie-campbell-bower-en-vecna.html',
+    categories: [
+      'Pop culture',
+      'Séries et cinéma',
+      'Streaming',
+      'SVOD',
+      'Netflix',
+      'Stranger things',
+      'Vie du streaming'
+    ],
+    isoDate: '2025-12-02T08:15:00.000Z'
+  },
+  {
+    title: 'HKG (Hong Kong) on 2025-12-03',
+    link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
+    pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
+    content: "<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ",
+    contentSnippet: 'THIS IS A SCHEDULED EVENT Dec 3, 1800 - 2330 UTCDec  1, 2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.\n' +
+      'Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.\n' +
+      'You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.',
+    guid: 'https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
+    isoDate: '2025-12-03T18:00:00.000Z'
   },
   {
     title: 'A curated list of innovative and impactful project ideas for final-year students, covering AI, susta...',
     link: 'https//opensourceprojects.dev/post/1995762637498712145',
     pubDate: 'Tue, 02 Dec 2025 07:51:00 GMT',
-    content: 'A curated list of innovative and impactful project ideas for final-year students, covering AI, sustainability, health, education, and more\n' +
-      '\n' +
+    content: 'A curated list of innovative and impactful project ideas for final-year students, covering AI, sustainability, health, education, and more\r\n' +
+      '\r\n' +
       'GitHub Repository https//github.com/DharminJoshi/Final-Year-Project-Ideas-2025  ',
-    contentSnippet: 'A curated list of innovative and impactful project ideas for final-year students, covering AI, sustainability, health, education, and more\n' +
-      '\n' +
+    contentSnippet: 'A curated list of innovative and impactful project ideas for final-year students, covering AI, sustainability, health, education, and more\r\n' +
+      '\r\n' +
       'GitHub Repository https//github.com/DharminJoshi/Final-Year-Project-Ideas-2025',
     guid: 'https://opensourceprojects.dev/post/1995762637498712145',
     isoDate: '2025-12-02T07:51:00.000Z'
   },
   {
+    title: 'Amazon veut remplacer les supermarchés avec la livraison en 30 minutes',
+    link: 'https//www.frandroid.com/marques/amazon/2894883_amazon-veut-remplacer-les-supermarches-avec-la-livraison-en-30-minutes',
+    pubDate: 'Tue, 02 Dec 2025 07:50:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '<div>Dans sa ville natale de Seattle et à Philadelphie, Amazon cherche à repousser les limites de la livraison ultrarapide avec la promesse d’une commande sur le pas de votre porte en 30 minutes. De quoi rapprocher le site des services de courses en ligne.</div>\r\n' +
+      '</div>  ',
+    contentSnippet: 'Dans sa ville natale de Seattle et à Philadelphie, Amazon cherche à repousser les limites de la livraison ultrarapide avec la promesse d’une commande sur le pas de votre porte en 30 minutes. De quoi rapprocher le site des services de courses en ligne.',
+    guid: 'https://www.frandroid.com/marques/amazon/2894883_amazon-veut-remplacer-les-supermarches-avec-la-livraison-en-30-minutes',
+    categories: [
+      'Amazon',
+      'Économie',
+      'Marques',
+      'Société',
+      'Amazon Prime',
+      'Amazon Prime Now',
+      'livraison'
+    ],
+    isoDate: '2025-12-02T07:50:00.000Z'
+  },
+  {
+    title: 'An in-browser game that teaches core Vim motions and editing commands',
+    link: 'https//opensourceprojects.dev/post/1995762131262673080',
+    pubDate: 'Tue, 02 Dec 2025 07:49:00 GMT',
+    content: 'Letaposs be honest learning Vim can feel like trying to learn to drive a manual transmission while the car is already rolling downhill. The payoff is huge—blazing fast text navigation and editing—but the initial learning curve is steep. Most tutorials have you memorizing commands in a vacuum, which do...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/renzorlive/vimmaster  ',
+    contentSnippet: 'Letaposs be honest learning Vim can feel like trying to learn to drive a manual transmission while the car is already rolling downhill. The payoff is huge—blazing fast text navigation and editing—but the initial learning curve is steep. Most tutorials have you memorizing commands in a vacuum, which do...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/renzorlive/vimmaster',
+    guid: 'https://opensourceprojects.dev/post/1995762131262673080',
+    isoDate: '2025-12-02T07:49:00.000Z'
+  },
+  {
+    title: 'Multiple USB File Flasher',
+    link: 'https//opensourceprojects.dev/post/1995761493368078546',
+    pubDate: 'Tue, 02 Dec 2025 07:46:00 GMT',
+    content: 'If youaposve ever needed to create a bunch of bootable USB drives—for a workshop, a classroom, or deploying machines—you know the pain. Itaposs a serial process flash one drive, wait, eject, insert the next one, repeat. Itaposs a massive time sink. What if you could just plug in a handful of drives and flas...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/pop-os/popsicle  ',
+    contentSnippet: 'If youaposve ever needed to create a bunch of bootable USB drives—for a workshop, a classroom, or deploying machines—you know the pain. Itaposs a serial process flash one drive, wait, eject, insert the next one, repeat. Itaposs a massive time sink. What if you could just plug in a handful of drives and flas...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/pop-os/popsicle',
+    guid: 'https://opensourceprojects.dev/post/1995761493368078546',
+    isoDate: '2025-12-02T07:46:00.000Z'
+  },
+  {
     title: 'Pourquoi le Galaxy Z Fold 7 est déjà mort',
     link: 'https//www.frandroid.com/marques/samsung/2894783_pourquoi-le-galaxy-z-fold-7-est-deja-mort',
     pubDate: 'Tue, 02 Dec 2025 07:45:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      `<div>C'est violent. En dévoilant son <a href="https//www.frandroid.com/marques/samsung/2894769_samsung-officialise-le-galaxy-z-trifold-un-ecran-de-10-pouces-qui-tient-dans-la-poche">Galaxy Z TriFold</a>, Samsung n'a pas seulement répondu à Huawei. Le constructeur coréen vient, peut-être sans le vouloir, de tirer une balle dans le pied de son actuel flagship, le <strong>Galaxy Z Fold 7</strong>. Sorti il y a à peine six mois, le format "livre" prend soudainement un terrible coup de vieux.</div>\n` +
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      `<div>C'est violent. En dévoilant son <a href="https//www.frandroid.com/marques/samsung/2894769_samsung-officialise-le-galaxy-z-trifold-un-ecran-de-10-pouces-qui-tient-dans-la-poche">Galaxy Z TriFold</a>, Samsung n'a pas seulement répondu à Huawei. Le constructeur coréen vient, peut-être sans le vouloir, de tirer une balle dans le pied de son actuel flagship, le <strong>Galaxy Z Fold 7</strong>. Sorti il y a à peine six mois, le format "livre" prend soudainement un terrible coup de vieux.</div>\r\n` +
       '</div>  ',
     contentSnippet: `C'est violent. En dévoilant son Galaxy Z TriFold, Samsung n'a pas seulement répondu à Huawei. Le constructeur coréen vient, peut-être sans le vouloir, de tirer une balle dans le pied de son actuel flagship, le Galaxy Z Fold 7. Sorti il y a à peine six mois, le format "livre" prend soudainement un terrible coup de vieux.`,
     guid: 'https://www.frandroid.com/marques/samsung/2894783_pourquoi-le-galaxy-z-fold-7-est-deja-mort',
@@ -86,35 +174,17 @@
     isoDate: '2025-12-02T07:45:00.000Z'
   },
   {
-    title: 'Amazon veut remplacer les supermarchés avec la livraison en 30 minutes',
-    link: 'https//www.frandroid.com/marques/amazon/2894883_amazon-veut-remplacer-les-supermarches-avec-la-livraison-en-30-minutes',
-    pubDate: 'Tue, 02 Dec 2025 07:50:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      '<div>Dans sa ville natale de Seattle et à Philadelphie, Amazon cherche à repousser les limites de la livraison ultrarapide avec la promesse d’une commande sur le pas de votre porte en 30 minutes. De quoi rapprocher le site des services de courses en ligne.</div>\n' +
-      '</div>  ',
-    contentSnippet: 'Dans sa ville natale de Seattle et à Philadelphie, Amazon cherche à repousser les limites de la livraison ultrarapide avec la promesse d’une commande sur le pas de votre porte en 30 minutes. De quoi rapprocher le site des services de courses en ligne.',
-    guid: 'https://www.frandroid.com/marques/amazon/2894883_amazon-veut-remplacer-les-supermarches-avec-la-livraison-en-30-minutes',
-    categories: [
-      'Amazon',
-      'Économie',
-      'Marques',
-      'Société',
-      'Amazon Prime',
-      'Amazon Prime Now',
-      'livraison'
-    ],
-    isoDate: '2025-12-02T07:50:00.000Z'
-  },
-  {
-    title: 'HKG (Hong Kong) on 2025-12-03',
-    link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
-    pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
-    content: "<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ",
-    contentSnippet: 'THIS IS A SCHEDULED EVENT Dec 3, 1800 - 2330 UTCDec  1, 2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.\n' +
-      'Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.\n' +
-      'You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.',
-    guid: 'https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
-    isoDate: '2025-12-03T18:00:00.000Z'
+    title: 'A complete video subtitle editing React component with AI-powered speech recognition and visual edit...',
+    link: 'https//opensourceprojects.dev/post/1995760859138949456',
+    pubDate: 'Tue, 02 Dec 2025 07:44:00 GMT',
+    content: 'Editing video subtitles is one of those tasks that can quickly become tedious. Youaposre juggling timestamps, text alignment, and trying to keep everything in sync. What if you could skip the manual transcription and have a visual, intuitive interface for the whole process? Thataposs exactly what Flycut C...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/x007xyz/flycut-caption  ',
+    contentSnippet: 'Editing video subtitles is one of those tasks that can quickly become tedious. Youaposre juggling timestamps, text alignment, and trying to keep everything in sync. What if you could skip the manual transcription and have a visual, intuitive interface for the whole process? Thataposs exactly what Flycut C...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/x007xyz/flycut-caption',
+    guid: 'https://opensourceprojects.dev/post/1995760859138949456',
+    isoDate: '2025-12-02T07:44:00.000Z'
   },
   {
     title: 'Bon plan home-cinéma  -110 € sur le vidéoprojecteur Xgimi MoGo 2 Pro avec Full HD + Google TV en bundle avec son support inclinable',
@@ -137,6 +207,19 @@
       'Xgimi Mogo 2 Pro'
     ],
     isoDate: '2025-12-02T07:44:00.000Z'
+  },
+  {
+    title: 'A highly extensible private cloud storage solution for individuals and teams, featuring AI-powered s...',
+    link: 'https//opensourceprojects.dev/post/1995760374403215824',
+    pubDate: 'Tue, 02 Dec 2025 07:42:00 GMT',
+    content: 'Ever feel like youaposre drowning in files? Between personal photos, work documents, and side project assets, keeping everything organized and findable is a constant battle. Cloud storage is convenient, but it often means trading privacy and control for that convenience. What if you could have the best...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/DrizzleTime/Foxel  ',
+    contentSnippet: 'Ever feel like youaposre drowning in files? Between personal photos, work documents, and side project assets, keeping everything organized and findable is a constant battle. Cloud storage is convenient, but it often means trading privacy and control for that convenience. What if you could have the best...\r\n' +
+      '\r\n' +
+      'GitHub Repository https//github.com/DrizzleTime/Foxel',
+    guid: 'https://opensourceprojects.dev/post/1995760374403215824',
+    isoDate: '2025-12-02T07:42:00.000Z'
   },
   {
     title: 'A web GUI for nginx for developers.',
@@ -1082,59 +1165,5 @@
     guid: 'CVE-2025-58483',
     isoDate: '2025-12-02T02:15:00.000Z'
   },
-  {
-    title: 'CVE-2025-58484 Incorrect default permissions in Samsung Cloud Assistant prior to version 8.0.03.8 allows local atta...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58484',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Incorrect default permissions in Samsung Cloud Assistant prior to version 8.0.03.8 allows local attacker to access partial data in sandbox. | CVSS Score 4 (MEDIUM)  ',
-    contentSnippet: 'Incorrect default permissions in Samsung Cloud Assistant prior to version 8.0.03.8 allows local attacker to access partial data in sandbox. | CVSS Score 4 (MEDIUM)',
-    guid: 'CVE-2025-58484',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58485 Improper input validation in Samsung Internet prior to version 29.0.0.48 allows local attackers to i...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58485',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Improper input validation in Samsung Internet prior to version 29.0.0.48 allows local attackers to inject arbitrary script. | CVSS Score 5.5 (MEDIUM)  ',
-    contentSnippet: 'Improper input validation in Samsung Internet prior to version 29.0.0.48 allows local attackers to inject arbitrary script. | CVSS Score 5.5 (MEDIUM)',
-    guid: 'CVE-2025-58485',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58486 Improper input validation in Samsung Account prior to version 15.5.01.1 allows local attacker to exe...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58486',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Improper input validation in Samsung Account prior to version 15.5.01.1 allows local attacker to execute arbitrary script. | CVSS Score 4 (MEDIUM)  ',
-    contentSnippet: 'Improper input validation in Samsung Account prior to version 15.5.01.1 allows local attacker to execute arbitrary script. | CVSS Score 4 (MEDIUM)',
-    guid: 'CVE-2025-58486',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58487 Improper authorization in Samsung Account prior to version 15.5.01.1 allows local attacker to launch...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58487',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Improper authorization in Samsung Account prior to version 15.5.01.1 allows local attacker to launch arbitrary activity with Samsung Account privilege. | CVSS Score 4 (MEDIUM)  ',
-    contentSnippet: 'Improper authorization in Samsung Account prior to version 15.5.01.1 allows local attacker to launch arbitrary activity with Samsung Account privilege. | CVSS Score 4 (MEDIUM)',
-    guid: 'CVE-2025-58487',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-58488 Improper verification of source of a communication channel in SmartTouchCall prior to version 1.0.1....',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-58488',
-    pubDate: 'Tue, 02 Dec 2025 02:15:00 GMT',
-    content: 'Improper verification of source of a communication channel in SmartTouchCall prior to version 1.0.1.1 allows remote attackers to access sensitive information. User interaction is required for triggering this vulnerability. | CVSS Score 4.5 (MEDIUM)  ',
-    contentSnippet: 'Improper verification of source of a communication channel in SmartTouchCall prior to version 1.0.1.1 allows remote attackers to access sensitive information. User interaction is required for triggering this vulnerability. | CVSS Score 4.5 (MEDIUM)',
-    guid: 'CVE-2025-58488',
-    isoDate: '2025-12-02T02:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-66313 ChurchCRM is an open-source church management system. In ChurchCRM 6.2.0 and earlier, there is a tim...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-66313',
-    pubDate: 'Mon, 01 Dec 2025 23:15:00 GMT',
-    content: 'ChurchCRM is an open-source church management system. In ChurchCRM 6.2.0 and earlier, there is a time-based blind SQL injection in the handling of the 1FieldSec parameter. Injecting SLEEP() causes deterministic server-side delays, proving the value is incorporated into a SQL query without proper parameterization. The issue allows data exfiltration and modification via blind techniques. | Severity UNKNOWN  ',
-    contentSnippet: 'ChurchCRM is an open-source church management system. In ChurchCRM 6.2.0 and earlier, there is a time-based blind SQL injection in the handling of the 1FieldSec parameter. Injecting SLEEP() causes deterministic server-side delays, proving the value is incorporated into a SQL query without proper parameterization. The issue allows data exfiltration and modification via blind techniques. | Severity UNKNOWN',
-    guid: 'CVE-2025-66313',
-    isoDate: '2025-12-01T23:15:00.000Z'
-  },
-  ... 7 more items
+  ... 6 more items
 ]
