@@ -1,52 +1,216 @@
 [
   {
-    title: 'Windows 11  la grosse mise à jour de novembre est là, voici toutes les nouveautés',
-    link: 'https//www.frandroid.com/marques/microsoft/2894959_windows-11-la-grosse-mise-a-jour-de-novembre-est-la-voici-toutes-les-nouveautes',
-    pubDate: 'Tue, 02 Dec 2025 09:35:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      "<div>Windows 11 continue de s'améliorer avec une nouvelle mise à jour riche en fonctionnalités, allant de l'amélioration de l'interface, de nouvelles options de récupération ou encore des nouveautés bienvenues pour les joueurs.</div>\n" +
-      '</div>  ',
-    contentSnippet: "Windows 11 continue de s'améliorer avec une nouvelle mise à jour riche en fonctionnalités, allant de l'amélioration de l'interface, de nouvelles options de récupération ou encore des nouveautés bienvenues pour les joueurs.",
-    guid: 'https://www.frandroid.com/marques/microsoft/2894959_windows-11-la-grosse-mise-a-jour-de-novembre-est-la-voici-toutes-les-nouveautes',
-    categories: [
-      'Marques',
-      'Microsoft',
-      'OS',
-      'PC',
-      'Produits',
-      'Windows',
-      'Windows 11',
-      'Windows 11 24H2',
-      'Windows 11 25H2'
-    ],
-    isoDate: '2025-12-02T09:35:00.000Z'
+    title: 'CVE-2025-13870 Mattermost versions 10.11.x  10.11.4, 10.5.x  10.5.12 fail to validate the user permission when ...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13870',
+    pubDate: 'Tue, 02 Dec 2025 10:16:00 GMT',
+    content: 'Mattermost versions 10.11.x  10.11.4, 10.5.x  10.5.12 fail to validate the user permission when accessing the files and subscribing to the block in Boards, which allows an authenticated user to access other board files and was able to subscribe to the block from other boards that the user does not have access to | CVSS Score 3.1 (LOW)  ',
+    contentSnippet: 'Mattermost versions 10.11.x  10.11.4, 10.5.x  10.5.12 fail to validate the user permission when accessing the files and subscribing to the block in Boards, which allows an authenticated user to access other board files and was able to subscribe to the block from other boards that the user does not have access to | CVSS Score 3.1 (LOW)',
+    guid: 'CVE-2025-13870',
+    isoDate: '2025-12-02T10:16:00.000Z'
   },
   {
-    title: 'Windows a du souci à se faire ? Steam franchit un cap historique d’utilisateurs sur Linux',
-    link: 'https//www.frandroid.com/os/gnu-linux/2894905_windows-a-du-souci-a-se-faire-steam-franchit-un-cap-historique-dutilisateurs-sur-linux',
-    pubDate: 'Tue, 02 Dec 2025 09:43:00 GMT',
+    title: 'CVE-2025-13871 Cross-Site Request Forgery (CSRF) in the resource-management feature of \n' +
+      '\n' +
+      'ObjectPlanet Opinio 7.26 r...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13871',
+    pubDate: 'Tue, 02 Dec 2025 10:16:00 GMT',
+    content: 'Cross-Site Request Forgery (CSRF) in the resource-management feature of \n' +
+      '\n' +
+      'ObjectPlanet Opinio 7.26 rev12562\n' +
+      '\n' +
+      ' allows to upload \n' +
+      'files on behalf of the connected users and then access such files without authentication. | Severity UNKNOWN  ',
+    contentSnippet: 'Cross-Site Request Forgery (CSRF) in the resource-management feature of \n' +
+      '\n' +
+      'ObjectPlanet Opinio 7.26 rev12562\n' +
+      '\n' +
+      ' allows to upload \n' +
+      'files on behalf of the connected users and then access such files without authentication. | Severity UNKNOWN',
+    guid: 'CVE-2025-13871',
+    isoDate: '2025-12-02T10:16:00.000Z'
+  },
+  {
+    title: 'CVE-2025-13872 Blind Server-Side Request Forgery (SSRF) in the survey-import feature of \n' +
+      '\n' +
+      ' ObjectPlanet Opinio 7.26...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13872',
+    pubDate: 'Tue, 02 Dec 2025 10:16:00 GMT',
+    content: 'Blind Server-Side Request Forgery (SSRF) in the survey-import feature of \n' +
+      '\n' +
+      ' ObjectPlanet Opinio 7.26 rev12562 on \n' +
+      '\n' +
+      'Web-based platforms allows an attacker to force the server to perform HTTP GET requests via crafted import requests \n' +
+      '\n' +
+      ' to an arbitrary destination. | Severity UNKNOWN  ',
+    contentSnippet: 'Blind Server-Side Request Forgery (SSRF) in the survey-import feature of \n' +
+      '\n' +
+      ' ObjectPlanet Opinio 7.26 rev12562 on \n' +
+      '\n' +
+      'Web-based platforms allows an attacker to force the server to perform HTTP GET requests via crafted import requests \n' +
+      '\n' +
+      ' to an arbitrary destination. | Severity UNKNOWN',
+    guid: 'CVE-2025-13872',
+    isoDate: '2025-12-02T10:16:00.000Z'
+  },
+  {
+    title: 'CVE-2025-13873 Stored Cross-Site Scripting (XSS) in the survey-import feature of ObjectPlanet Opinio 7.26 rev12562 ...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13873',
+    pubDate: 'Tue, 02 Dec 2025 10:16:00 GMT',
+    content: 'Stored Cross-Site Scripting (XSS) in the survey-import feature of ObjectPlanet Opinio 7.26 rev12562 on web application allows an attacker to inject arbitrary JavaScript code, which executes in the browsing context of any visitor accessing the compromised survey. | Severity UNKNOWN  ',
+    contentSnippet: 'Stored Cross-Site Scripting (XSS) in the survey-import feature of ObjectPlanet Opinio 7.26 rev12562 on web application allows an attacker to inject arbitrary JavaScript code, which executes in the browsing context of any visitor accessing the compromised survey. | Severity UNKNOWN',
+    guid: 'CVE-2025-13873',
+    isoDate: '2025-12-02T10:16:00.000Z'
+  },
+  {
+    title: 'Marre de Google Assistant  sur vos enceintes Home ? Il existe une astuce pour (plus ou moins) forcer le passage sur Gemini',
+    link: 'https//www.frandroid.com/marques/google/2894991_marre-de-google-assistant-sur-vos-enceintes-home-il-existe-une-astuce-pour-plus-ou-moins-forcer-le-passage-sur-gemini',
+    pubDate: 'Tue, 02 Dec 2025 09:49:00 GMT',
     content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      "<div>Le système d'exploitation libre séduit de nouveaux joueurs et s'impose devant macOS en novembre 2025. </div>\n" +
+      '<div>Alors que Google Assistant continue pour le moment de squatter les enceintes intelligentes du géant de la recherche, basculer vers la nouvelle IA Gemini n’a rien de très sorcier... Si vous avez de la chance.</div>\n' +
       '</div>  ',
-    contentSnippet: "Le système d'exploitation libre séduit de nouveaux joueurs et s'impose devant macOS en novembre 2025.",
-    guid: 'https://www.frandroid.com/os/gnu-linux/2894905_windows-a-du-souci-a-se-faire-steam-franchit-un-cap-historique-dutilisateurs-sur-linux',
+    contentSnippet: 'Alors que Google Assistant continue pour le moment de squatter les enceintes intelligentes du géant de la recherche, basculer vers la nouvelle IA Gemini n’a rien de très sorcier... Si vous avez de la chance.',
+    guid: 'https://www.frandroid.com/marques/google/2894991_marre-de-google-assistant-sur-vos-enceintes-home-il-existe-une-astuce-pour-plus-ou-moins-forcer-le-passage-sur-gemini',
     categories: [
-      'Gaming',
-      'GNU/Linux',
+      'Android',
+      'Applications Android',
+      'Enceintes connectées',
+      'Google',
+      'Google Apps',
+      'Google Gemini',
+      'Intelligence artificielle',
+      'iOS',
+      'Maison connectée',
       'Marques',
       'OS',
       'Produits',
-      'Valve',
-      'Steam'
+      'Smartphones',
+      'Société',
+      'astuces',
+      'enceintes',
+      'Gemini for Home',
+      'Google Bard',
+      'Google Home'
     ],
-    isoDate: '2025-12-02T09:43:00.000Z'
+    isoDate: '2025-12-02T09:49:00.000Z'
+  },
+  {
+    title: 'Cette nouvelle montre OnePlus profitera d’une fonction encore inédite sur les autres montres connectées',
+    link: 'https//www.frandroid.com/marques/oneplus/2895149_cette-nouvelle-montre-oneplus-profitera-dune-fonction-encore-inedite-sur-les-autres-montres-connectees',
+    pubDate: 'Tue, 02 Dec 2025 10:12:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      '<div>OnePlus a donné plus de détails sur sa prochaine montre connectée, la OnePlus Watch Lite, attendue mi-décembre. Elle sera notamment capable de se connecter simultanément à deux smartphones, dont un iPhone. </div>\n' +
+      '</div>  ',
+    contentSnippet: 'OnePlus a donné plus de détails sur sa prochaine montre connectée, la OnePlus Watch Lite, attendue mi-décembre. Elle sera notamment capable de se connecter simultanément à deux smartphones, dont un iPhone.',
+    guid: 'https://www.frandroid.com/marques/oneplus/2895149_cette-nouvelle-montre-oneplus-profitera-dune-fonction-encore-inedite-sur-les-autres-montres-connectees',
+    categories: [
+      'Marques',
+      'Montres connectées',
+      'OnePlus',
+      'Produits',
+      'Wearables',
+      'OnePlus Watch Lite'
+    ],
+    isoDate: '2025-12-02T10:12:00.000Z'
+  },
+  {
+    title: 'Taillé pour la productivité, ce Dell 16 suréquipé (Ryzen AI 7, 32 Go RAM, SSD 1 To) et dopé à l’IA s’allège de 200 €',
+    link: 'https//www.frandroid.com/bons-plans/2895025_taille-pour-la-productivite-ce-dell-16-surequipe-ryzen-ai-7-32-go-ram-ssd-1-to-et-dope-a-lia-sallege-de-200-e',
+    pubDate: 'Tue, 02 Dec 2025 10:12:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      '<div>Avec sa configuration pointue, le Dell 16 DC16256 est clairement un laptop idéal pour le travail et la création de contenus. Actuellement, la marque le propose en plus à un excellent prix  749 euros au lieu de 949 euros.</div>\n' +
+      '</div>  ',
+    contentSnippet: 'Avec sa configuration pointue, le Dell 16 DC16256 est clairement un laptop idéal pour le travail et la création de contenus. Actuellement, la marque le propose en plus à un excellent prix  749 euros au lieu de 949 euros.',
+    guid: 'https://www.frandroid.com/bons-plans/2895025_taille-pour-la-productivite-ce-dell-16-surequipe-ryzen-ai-7-32-go-ram-ssd-1-to-et-dope-a-lia-sallege-de-200-e',
+    categories: [
+      'Bons plans',
+      'Bons plans PC portables',
+      'Dell',
+      'Marques',
+      'PC',
+      'PC portables',
+      'Produits',
+      'Bons plans Dell'
+    ],
+    isoDate: '2025-12-02T10:12:00.000Z'
+  },
+  {
+    title: 'Jeep arrive fort en Europe avec ces deux nouvelles voitures électriques pratiques qui sentent bon l’aventure',
+    link: 'https//www.frandroid.com/marques/jeep/2894977_jeep-arrive-fort-en-europe-avec-ces-deux-nouvelles-voitures-electriques-pratiques-qui-sentent-bon-laventure',
+    pubDate: 'Tue, 02 Dec 2025 10:14:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
+      '<div>Si Jeep commercialise déjà son Avenger, il veut étoffer encore sa gamme de voitures électriques en Europe. Au programme, deux SUV aux philosophies bien différentes qui verront le jour en 2026.</div>\n' +
+      '</div>  ',
+    contentSnippet: 'Si Jeep commercialise déjà son Avenger, il veut étoffer encore sa gamme de voitures électriques en Europe. Au programme, deux SUV aux philosophies bien différentes qui verront le jour en 2026.',
+    guid: 'https://www.frandroid.com/marques/jeep/2894977_jeep-arrive-fort-en-europe-avec-ces-deux-nouvelles-voitures-electriques-pratiques-qui-sentent-bon-laventure',
+    categories: [
+      'Jeep',
+      'Marques',
+      'Survoltés',
+      'Voitures électriques',
+      'Europe',
+      'Jeep Recon',
+      'Jeep Wagoneer S',
+      'SUV électrique'
+    ],
+    isoDate: '2025-12-02T10:14:00.000Z'
+  },
+  {
+    title: 'Mercedes pensait pouvoir vivre uniquement du luxe, le marché lui rappelle la réalité',
+    link: 'https//www.numerama.com/vroom/2132477-mercedes-pensait-pouvoir-vivre-uniquement-du-luxe-le-marche-lui-rappelle-la-realite.html',
+    pubDate: 'Tue, 02 Dec 2025 09:52:00 GMT',
+    content: '\n' +
+      'Mercedes a voulu se débarrasser de « l’entrée de gamme » pour vivre de ses modèles les plus luxueux. Cela a marché un temps, mais la réalité du marché actuel place désormais le patron de la marque dans une situation inconfortable, le poussant à un rétropédalage discret, mais vital.\n' +
+      '  ',
+    contentSnippet: 'Mercedes a voulu se débarrasser de « l’entrée de gamme » pour vivre de ses modèles les plus luxueux. Cela a marché un temps, mais la réalité du marché actuel place désormais le patron de la marque dans une situation inconfortable, le poussant à un rétropédalage discret, mais vital.',
+    guid: 'https://www.numerama.com/vroom/2132477-mercedes-pensait-pouvoir-vivre-uniquement-du-luxe-le-marche-lui-rappelle-la-realite.html',
+    categories: [
+      'Voiture',
+      'Voiture électrique',
+      'Vroom',
+      'Chine',
+      'Luxe',
+      'Mercedes-Benz'
+    ],
+    isoDate: '2025-12-02T09:52:00.000Z'
+  },
+  {
+    title: 'Pourquoi les célébrités clonent leur animal de compagnie (et pourquoi c’est un problème)',
+    link: 'https//www.numerama.com/sciences/2132455-pourquoi-les-celebrites-clonent-leur-animal-de-compagnie-et-pourquoi-cest-un-probleme.html',
+    pubDate: 'Tue, 02 Dec 2025 10:19:00 GMT',
+    content: '\n' +
+      "Sans être une pratique extrêmement courante, le clonage d'animaux de compagnie de célébrités est devenu aujourd'hui une réalité. Mais si le processus peut sembler attirant, il vient aussi avec de nombreux questionnements éthiques et techniques.\n" +
+      '  ',
+    contentSnippet: "Sans être une pratique extrêmement courante, le clonage d'animaux de compagnie de célébrités est devenu aujourd'hui une réalité. Mais si le processus peut sembler attirant, il vient aussi avec de nombreux questionnements éthiques et techniques.",
+    guid: 'https://www.numerama.com/sciences/2132455-pourquoi-les-celebrites-clonent-leur-animal-de-compagnie-et-pourquoi-cest-un-probleme.html',
+    categories: [
+      'Animaux',
+      'Environnement',
+      'Médecine',
+      'Sciences',
+      'animaux',
+      'clonage',
+      'gène',
+      'recherche'
+    ],
+    isoDate: '2025-12-02T10:19:00.000Z'
+  },
+  {
+    title: 'HKG (Hong Kong) on 2025-12-03',
+    link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
+    pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
+    content: "<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ",
+    contentSnippet: 'THIS IS A SCHEDULED EVENT Dec 3, 1800 - 2330 UTCDec  1, 2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.\n' +
+      'Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.\n' +
+      'You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.',
+    guid: 'https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
+    isoDate: '2025-12-03T18:00:00.000Z'
   },
   {
     title: 'Les voitures électriques « officielles » chinoises arrivent en Europe avec une décision forte de sens',
     link: 'https//www.frandroid.com/marques/hongqi/2894907_les-voitures-electriques-officielles-chinoises-arrivent-en-europe-avec-une-decision-forte-de-sens',
     pubDate: 'Tue, 02 Dec 2025 09:45:00 GMT',
-    content: '<div class="chapo has-text-weight-semibold mb-5">\n' +
-      '<div>Les constructeurs chinois arrivent massivement en Europe. Dernière preuve en date  le constructeur historique du gouvernement chinois, Hongqi, prévoit de construire une usine sur le Vieux continent.</div>\n' +
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '<div>Les constructeurs chinois arrivent massivement en Europe. Dernière preuve en date  le constructeur historique du gouvernement chinois, Hongqi, prévoit de construire une usine sur le Vieux continent.</div>\r\n' +
       '</div>  ',
     contentSnippet: 'Les constructeurs chinois arrivent massivement en Europe. Dernière preuve en date  le constructeur historique du gouvernement chinois, Hongqi, prévoit de construire une usine sur le Vieux continent.',
     guid: 'https://www.frandroid.com/marques/hongqi/2894907_les-voitures-electriques-officielles-chinoises-arrivent-en-europe-avec-une-decision-forte-de-sens',
@@ -64,28 +228,31 @@
     isoDate: '2025-12-02T09:45:00.000Z'
   },
   {
-    title: 'Pourquoi un remake du très rare Meal Gear Solid 4 s’annonce compliqué',
-    link: 'https//www.numerama.com/pop-culture/2132367-pourquoi-un-remake-du-tres-rare-meal-gear-solid-4-sannonce-complique.html',
-    pubDate: 'Tue, 02 Dec 2025 09:31:00 GMT',
-    content: '\n' +
-      'Le producteur de la série Metal Gear Solid, Noriaki Okamura, a récemment pris la parole pour évoquer brièvement l’avenir de la saga, laissant entrevoir les intentions de Konami sans pour autant dévoiler de feuille de route précise.\n' +
-      '  ',
-    contentSnippet: 'Le producteur de la série Metal Gear Solid, Noriaki Okamura, a récemment pris la parole pour évoquer brièvement l’avenir de la saga, laissant entrevoir les intentions de Konami sans pour autant dévoiler de feuille de route précise.',
-    guid: 'https://www.numerama.com/pop-culture/2132367-pourquoi-un-remake-du-tres-rare-meal-gear-solid-4-sannonce-complique.html',
+    title: 'Windows a du souci à se faire ? Steam franchit un cap historique d’utilisateurs sur Linux',
+    link: 'https//www.frandroid.com/os/gnu-linux/2894905_windows-a-du-souci-a-se-faire-steam-franchit-un-cap-historique-dutilisateurs-sur-linux',
+    pubDate: 'Tue, 02 Dec 2025 09:43:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      "<div>Le système d'exploitation libre séduit de nouveaux joueurs et s'impose devant macOS en novembre 2025. </div>\r\n" +
+      '</div>  ',
+    contentSnippet: "Le système d'exploitation libre séduit de nouveaux joueurs et s'impose devant macOS en novembre 2025.",
+    guid: 'https://www.frandroid.com/os/gnu-linux/2894905_windows-a-du-souci-a-se-faire-steam-franchit-un-cap-historique-dutilisateurs-sur-linux',
     categories: [
-      'Jeux Vidéo',
-      'Pop culture',
-      'Konami',
-      'Metal Gear Solid Delta: Snake Eater'
+      'Gaming',
+      'GNU/Linux',
+      'Marques',
+      'OS',
+      'Produits',
+      'Valve',
+      'Steam'
     ],
-    isoDate: '2025-12-02T09:31:00.000Z'
+    isoDate: '2025-12-02T09:43:00.000Z'
   },
   {
     title: 'Alerte rouge chez OpenAI  l’entreprise suspendrait plusieurs projets à cause de Google',
     link: 'https//www.numerama.com/tech/2132433-alerte-rouge-chez-openai-lentreprise-suspendrait-plusieurs-projets-a-cause-de-google.html',
     pubDate: 'Tue, 02 Dec 2025 09:38:00 GMT',
-    content: '\n' +
-      "Selon The Information, Sam Altman aurait envoyé un mémo aux employés d'OpenAI pour leur annoncer que l'entreprise traverse une zone de turbulence. Face à la montée en puissance de Google Gemini, ChatGPT pourrait lancer un nouveau modèle dès la semaine prochaine. \n" +
+    content: '\r\n' +
+      "Selon The Information, Sam Altman aurait envoyé un mémo aux employés d'OpenAI pour leur annoncer que l'entreprise traverse une zone de turbulence. Face à la montée en puissance de Google Gemini, ChatGPT pourrait lancer un nouveau modèle dès la semaine prochaine. \r\n" +
       '  ',
     contentSnippet: "Selon The Information, Sam Altman aurait envoyé un mémo aux employés d'OpenAI pour leur annoncer que l'entreprise traverse une zone de turbulence. Face à la montée en puissance de Google Gemini, ChatGPT pourrait lancer un nouveau modèle dès la semaine prochaine.",
     guid: 'https://www.numerama.com/tech/2132433-alerte-rouge-chez-openai-lentreprise-suspendrait-plusieurs-projets-a-cause-de-google.html',
@@ -102,15 +269,43 @@
     isoDate: '2025-12-02T09:38:00.000Z'
   },
   {
-    title: 'HKG (Hong Kong) on 2025-12-03',
-    link: 'https//www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
-    pubDate: 'Wed, 03 Dec 2025 18:00:00 GMT',
-    content: "<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ",
-    contentSnippet: 'THIS IS A SCHEDULED EVENT Dec 3, 1800 - 2330 UTCDec  1, 2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.\n' +
-      'Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.\n' +
-      'You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.',
-    guid: 'https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5',
-    isoDate: '2025-12-03T18:00:00.000Z'
+    title: 'Windows 11  la grosse mise à jour de novembre est là, voici toutes les nouveautés',
+    link: 'https//www.frandroid.com/marques/microsoft/2894959_windows-11-la-grosse-mise-a-jour-de-novembre-est-la-voici-toutes-les-nouveautes',
+    pubDate: 'Tue, 02 Dec 2025 09:35:00 GMT',
+    content: '<div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      "<div>Windows 11 continue de s'améliorer avec une nouvelle mise à jour riche en fonctionnalités, allant de l'amélioration de l'interface, de nouvelles options de récupération ou encore des nouveautés bienvenues pour les joueurs.</div>\r\n" +
+      '</div>  ',
+    contentSnippet: "Windows 11 continue de s'améliorer avec une nouvelle mise à jour riche en fonctionnalités, allant de l'amélioration de l'interface, de nouvelles options de récupération ou encore des nouveautés bienvenues pour les joueurs.",
+    guid: 'https://www.frandroid.com/marques/microsoft/2894959_windows-11-la-grosse-mise-a-jour-de-novembre-est-la-voici-toutes-les-nouveautes',
+    categories: [
+      'Marques',
+      'Microsoft',
+      'OS',
+      'PC',
+      'Produits',
+      'Windows',
+      'Windows 11',
+      'Windows 11 24H2',
+      'Windows 11 25H2'
+    ],
+    isoDate: '2025-12-02T09:35:00.000Z'
+  },
+  {
+    title: 'Pourquoi un remake du très rare Meal Gear Solid 4 s’annonce compliqué',
+    link: 'https//www.numerama.com/pop-culture/2132367-pourquoi-un-remake-du-tres-rare-meal-gear-solid-4-sannonce-complique.html',
+    pubDate: 'Tue, 02 Dec 2025 09:31:00 GMT',
+    content: '\r\n' +
+      'Le producteur de la série Metal Gear Solid, Noriaki Okamura, a récemment pris la parole pour évoquer brièvement l’avenir de la saga, laissant entrevoir les intentions de Konami sans pour autant dévoiler de feuille de route précise.\r\n' +
+      '  ',
+    contentSnippet: 'Le producteur de la série Metal Gear Solid, Noriaki Okamura, a récemment pris la parole pour évoquer brièvement l’avenir de la saga, laissant entrevoir les intentions de Konami sans pour autant dévoiler de feuille de route précise.',
+    guid: 'https://www.numerama.com/pop-culture/2132367-pourquoi-un-remake-du-tres-rare-meal-gear-solid-4-sannonce-complique.html',
+    categories: [
+      'Jeux Vidéo',
+      'Pop culture',
+      'Konami',
+      'Metal Gear Solid Delta: Snake Eater'
+    ],
+    isoDate: '2025-12-02T09:31:00.000Z'
   },
   {
     title: 'CVE-2025-10543 In Eclipse Paho Go MQTT v3.1 library (paho.mqtt.golang) versions 1.5.0 UTF-8 encoded strings, pass...',
@@ -1230,95 +1425,5 @@
     guid: 'CVE-2025-20766',
     isoDate: '2025-12-02T03:16:00.000Z'
   },
-  {
-    title: 'CVE-2025-20767 In display, there is a possible out of bounds write due to an integer overflow. This could lead to l...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20767',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4807. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4807. | Severity UNKNOWN',
-    guid: 'CVE-2025-20767',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20768 In display, there is a possible out of bounds read due to a missing bounds check. This could lead to...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20768',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible out of bounds read due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4805. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible out of bounds read due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4805. | Severity UNKNOWN',
-    guid: 'CVE-2025-20768',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20769 In display, there is a possible out of bounds write due to a missing bounds check. This could lead t...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20769',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4804. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4804. | Severity UNKNOWN',
-    guid: 'CVE-2025-20769',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20770 In display, there is a possible memory corruption due to use after free. This could lead to local es...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20770',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4803. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4803. | Severity UNKNOWN',
-    guid: 'CVE-2025-20770',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20771 In display, there is a possible escalation of privilege due to improper input validation. This could...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20771',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible escalation of privilege due to improper input validation. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4802. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible escalation of privilege due to improper input validation. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4802. | Severity UNKNOWN',
-    guid: 'CVE-2025-20771',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20772 In display, there is a possible memory corruption due to use after free. This could lead to local es...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20772',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4801. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4801. | Severity UNKNOWN',
-    guid: 'CVE-2025-20772',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20773 In display, there is a possible memory corruption due to use after free. This could lead to local es...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20773',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4797. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4797. | Severity UNKNOWN',
-    guid: 'CVE-2025-20773',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20774 In display, there is a possible out of bounds write due to a missing bounds check. This could lead t...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20774',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4796. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10196993 Issue ID MSV-4796. | Severity UNKNOWN',
-    guid: 'CVE-2025-20774',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20775 In display, there is a possible memory corruption due to use after free. This could lead to local es...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20775',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10182914 Issue ID MSV-4795. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10182914 Issue ID MSV-4795. | Severity UNKNOWN',
-    guid: 'CVE-2025-20775',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  {
-    title: 'CVE-2025-20776 In display, there is a possible out of bounds read due to a missing bounds check. This could lead to...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-20776',
-    pubDate: 'Tue, 02 Dec 2025 03:16:00 GMT',
-    content: 'In display, there is a possible out of bounds read due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10184297 Issue ID MSV-4759. | Severity UNKNOWN  ',
-    contentSnippet: 'In display, there is a possible out of bounds read due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID ALPS10184297 Issue ID MSV-4759. | Severity UNKNOWN',
-    guid: 'CVE-2025-20776',
-    isoDate: '2025-12-02T03:16:00.000Z'
-  },
-  ... 5 more items
+  ... 10 more items
 ]
