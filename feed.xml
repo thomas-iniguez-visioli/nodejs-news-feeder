@@ -8,12 +8,222 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Tue, 02 Dec 2025 10:47:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 11:18:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
+    <item>
+      <title>CVE-2025-13353 In gokey versions <0.2.0,
+ a flaw in the seed decryption logic resulted in passwords incorrectly 
+be...</title>
+      <description>In gokey versions <0.2.0,
+ a flaw in the seed decryption logic resulted in passwords incorrectly 
+being derived solely from the initial vector and the AES-GCM 
+authentication tag of the key seed.
+
+
+This issue has been fixed in gokey version 0.2.0. This is a breaking change. The fix has invalidated any passwords/secrets that were derived from the seed file (using the -s option). Even if the input seed file stays the same, version 0.2.0 gokey will generate different secrets.
+
+
+Impact
+This vulnerability impacts generated keys/secrets using a seed file as an entropy input (using the -s option). Keys/secrets generated just from the master password (without the -s
+ option) are not impacted. The confidentiality of the seed itself is 
+also not impacted (it is not required to regenerate the seed itself). 
+Specific impact includes
+
+
+
+  *  keys/secrets generated from a seed file may have lower entropy it 
+was expected that the whole seed would be used to generate keys (240 
+bytes of entropy input), where in vulnerable versions only 28 bytes was 
+used
+
+  *  a malicious entity could have recovered all passwords, generated 
+from a particular seed, having only the seed file in possession without 
+the knowledge of the seed master password
+
+
+
+
+Patches
+The code logic bug has been fixed in gokey version 0.2.0
+ and above. Due to the deterministic nature of gokey, fixed versions 
+will produce different passwords/secrets using seed files, as all seed 
+entropy will be used now.
+
+
+System secret rotation guidance
+It is advised for users to regenerate passwords/secrets using the patched version of gokey (0.2.0
+ and above), and provision/rotate these secrets into respective systems 
+in place of the old secret. A specific rotation procedure is 
+system-dependent, but most common patterns are described below.
+
+
+Systems that do not require the old password/secret for rotation
+Such systems usually have a "Forgot password" facility or a
+ similar facility allowing users to rotate their password/secrets by 
+sending a unique "magic" link to the user's email or phone. In such 
+cases users are advised to use this facility and input the newly 
+generated password secret, when prompted by the system.
+
+
+Systems that require the old password/secret for rotation
+Such systems usually have a modal password rotation window
+ usually in the user settings section requiring the user to input the 
+old and the new password sometimes with a confirmation. To 
+generate/recover the old password in such cases users are advised to
+
+
+
+  *  temporarily download  gokey version 0.1.3 https//github.com/cloudflare/gokey/releases/tag/v0.1.3  for their respective operating system to recover the old password
+
+  *  use gokey version 0.2.0 or above to generate the new password
+
+  *  populate the system provided password rotation form
+
+
+
+
+Systems that allow multiple credentials for the same account to be provisioned
+Such systems usually require a secret or a cryptographic 
+key as a credential for access, but allow several credentials at the 
+same time. One example is SSH a particular user may have several 
+authorized public keys configured on the SSH server for access. For such
+ systems users are advised to
+
+
+
+  *  generate a new secret/key/credential using gokey version 0.2.0 or above
+
+  *  provision the new secret/key/credential in addition to the existing credential on the system
+
+  *  verify that the access or required system operation is still possible with the new secret/key/credential
+
+  *  revoke authorization for the existing/old credential from the system
+
+
+
+
+Credit
+This vulnerability was found by Théo Cusnir ( @mister_mime https//hackerone.com/mister_mime ) and responsibly disclosed through Cloudflare's bug bounty program. | Severity UNKNOWN  </description>
+      <pubDate>Tue, 02 Dec 2025 11:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-13353</link>
+      <guid>CVE-2025-13353</guid>
+    </item>
+  
+    <item>
+      <title>CVE-2025-41742 Sprecher Automations SPRECON-E-C,  SPRECON-E-P, SPRECON-E-T3 is vulnerable to attack by an unauthori...</title>
+      <description>Sprecher Automations SPRECON-E-C,  SPRECON-E-P, SPRECON-E-T3 is vulnerable to attack by an unauthorized remote attacker via default cryptographic keys. The use of these keys allows the attacker to read, modify, and write projects and data, or to access any device via remote maintenance. | CVSS Score 9.8 (CRITICAL)  </description>
+      <pubDate>Tue, 02 Dec 2025 11:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-41742</link>
+      <guid>CVE-2025-41742</guid>
+    </item>
+  
+    <item>
+      <title>CVE-2025-41743 Insufficient encryption strength in Sprecher Automation SPRECON-E-C, SPRECON-E-P, and SPRECON-E-T3 a...</title>
+      <description>Insufficient encryption strength in Sprecher Automation SPRECON-E-C, SPRECON-E-P, and SPRECON-E-T3 allows a local unprivileged attacker to extract data from update images and thus obtain limited information about the architecture and internal processes. | CVSS Score 4 (MEDIUM)  </description>
+      <pubDate>Tue, 02 Dec 2025 11:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-41743</link>
+      <guid>CVE-2025-41743</guid>
+    </item>
+  
+    <item>
+      <title>CVE-2025-41744 Sprecher Automations SPRECON-E series uses default cryptographic keys that allow an unprivileged rem...</title>
+      <description>Sprecher Automations SPRECON-E series uses default cryptographic keys that allow an unprivileged remote attacker to access all encrypted communications, thereby compromising confidentiality and integrity. | CVSS Score 9.1 (CRITICAL)  </description>
+      <pubDate>Tue, 02 Dec 2025 11:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-41744</link>
+      <guid>CVE-2025-41744</guid>
+    </item>
+  
+    <item>
+      <title>Sony a discrètement supprimé la contrainte la plus détestée de la PS5 Slim. Mais pour combien de temps ?</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>C’est un détail technique qui change tout. Le nouveau modèle de PS5 destiné à l'Europe semble s'affranchir d'une obligation  celle de valider son lecteur de disque en ligne. Fin du DRM ou simple ajustement logistique ? On fait le point.</div>
+</div>]]>  </description>
+      <pubDate>Tue, 02 Dec 2025 10:52:00 GMT</pubDate>
+      <link>https//www.frandroid.com/marques/sony/2895273_sony-a-discretement-supprime-la-contrainte-la-plus-detestee-de-la-ps5-slim-mais-pour-combien-de-temps</link>
+      <guid>https://www.frandroid.com/marques/sony/2895273_sony-a-discretement-supprime-la-contrainte-la-plus-detestee-de-la-ps5-slim-mais-pour-combien-de-temps</guid><category><![CDATA[Consoles de jeux]]></category>
+<category><![CDATA[Gaming]]></category>
+<category><![CDATA[Marques]]></category>
+<category><![CDATA[Produits]]></category>
+<category><![CDATA[Sony]]></category>
+<category><![CDATA[Sony Playstation 5 Slim]]></category>
+<category><![CDATA[Sony PlayStation 5 Slim Digital Edition]]></category>
+    </item>
+  
+    <item>
+      <title>Cdiscount a attendu la fin du Black Friday pour brader la Nintendo Switch 2 avec Mario Kart World à un prix jamais vu</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>La Nintendo Switch 2 a connu de nombreuses promotions depuis sa sortie, notamment grâce au Black Friday, mais c'est Cdiscount qui propose la meilleure offre disponible depuis sa sortie  434 euros pour le pack avec Mario Kart World au lieu de 509 euros à sa sortie. </div>
+</div>]]>  </description>
+      <pubDate>Tue, 02 Dec 2025 11:05:00 GMT</pubDate>
+      <link>https//www.frandroid.com/bons-plans/2850515_cdiscount-a-attendu-la-fin-du-black-friday-pour-brader-la-nintendo-switch-2-avec-mario-kart-world-a-un-prix-jamais-vu</link>
+      <guid>https://www.frandroid.com/bons-plans/2850515_cdiscount-a-attendu-la-fin-du-black-friday-pour-brader-la-nintendo-switch-2-avec-mario-kart-world-a-un-prix-jamais-vu</guid><category><![CDATA[Bons plans]]></category>
+<category><![CDATA[Bons plans gaming]]></category>
+<category><![CDATA[Consoles de jeux]]></category>
+<category><![CDATA[Gaming]]></category>
+<category><![CDATA[Marques]]></category>
+<category><![CDATA[Nintendo]]></category>
+<category><![CDATA[Produits]]></category>
+<category><![CDATA[Black Friday 2025]]></category>
+<category><![CDATA[Bons plans AliExpress]]></category>
+<category><![CDATA[Bons plans Amazon]]></category>
+<category><![CDATA[Bons plans Rakuten]]></category>
+<category><![CDATA[Cyber Monday 2025]]></category>
+<category><![CDATA[Nintendo Switch 2]]></category>
+    </item>
+  
+    <item>
+      <title>La Chine est désormais un poids lourd du marché automobile mondial, comme le prouvent ces chiffres implacables</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Avec plus de 8 millions de voitures électriques, hybrides et thermiques vendues, la Chine est tout doucement en train d’envahir le marché automobile mondial. Et sa croissance devrait encore progresser au fil des mois.</div>
+</div>]]>  </description>
+      <pubDate>Tue, 02 Dec 2025 11:11:00 GMT</pubDate>
+      <link>https//www.frandroid.com/survoltes/voitures-electriques/2895185_la-chine-est-desormais-un-poids-lourd-du-marche-automobile-mondial-comme-le-prouvent-ces-chiffres-implacables</link>
+      <guid>https://www.frandroid.com/survoltes/voitures-electriques/2895185_la-chine-est-desormais-un-poids-lourd-du-marche-automobile-mondial-comme-le-prouvent-ces-chiffres-implacables</guid><category><![CDATA[Survoltés]]></category>
+<category><![CDATA[Voitures électriques]]></category>
+<category><![CDATA[Chiffres de ventes]]></category>
+<category><![CDATA[chine]]></category>
+<category><![CDATA[marché auto]]></category>
+    </item>
+  
+    <item>
+      <title>Pourquoi les moteurs thermiques modernes cassent comme du verre  cette enquête dévoile le scandale qui touche tous les constructeurs</title>
+      <description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Une enquête édifiante venue des États-Unis révèle pourquoi nos moteurs modernes cassent comme du verre. Spoiler  à force de vouloir l’impossible, on a créé des machines autodestructrices.</div>
+</div>]]>  </description>
+      <pubDate>Tue, 02 Dec 2025 11:13:00 GMT</pubDate>
+      <link>https//www.frandroid.com/survoltes/voitures-electriques/2895375_pourquoi-les-moteurs-thermiques-modernes-cassent-comme-du-verre-cette-enquete-devoile-le-scandale-qui-touche-tous-les-constructeurs</link>
+      <guid>https://www.frandroid.com/survoltes/voitures-electriques/2895375_pourquoi-les-moteurs-thermiques-modernes-cassent-comme-du-verre-cette-enquete-devoile-le-scandale-qui-touche-tous-les-constructeurs</guid><category><![CDATA[Batterie / Alimentation]]></category>
+<category><![CDATA[Batteries et panneaux solaires]]></category>
+<category><![CDATA[Énergie]]></category>
+<category><![CDATA[Hardware]]></category>
+<category><![CDATA[Produits]]></category>
+<category><![CDATA[Survoltés]]></category>
+<category><![CDATA[Voitures électriques]]></category>
+<category><![CDATA[Voitures hybrides]]></category>
+    </item>
+  
+    <item>
+      <title>Il y a une application cachée dans X pour Android (Twitter)</title>
+      <description><![CDATA[
+Dans l'application X pour Android, une nouvelle option commence à faire son apparition chez certains utilisateurs  « Nouveau X Android ». Il s'agit d'une application cachée, intégrée directement à l'application originale, avec une interface simplifiée. 
+]]>  </description>
+      <pubDate>Tue, 02 Dec 2025 11:12:00 GMT</pubDate>
+      <link>https//www.numerama.com/tech/2132653-il-y-a-une-application-cachee-dans-x-pour-android-twitter.html</link>
+      <guid>https://www.numerama.com/tech/2132653-il-y-a-une-application-cachee-dans-x-pour-android-twitter.html</guid><category><![CDATA[Applications]]></category>
+<category><![CDATA[Réseaux sociaux]]></category>
+<category><![CDATA[Smartphone]]></category>
+<category><![CDATA[Tech]]></category>
+<category><![CDATA[Web]]></category>
+<category><![CDATA[Android]]></category>
+<category><![CDATA[Le rachat de Twitter par Elon Musk (X)]]></category>
+<category><![CDATA[Twitter]]></category>
+<category><![CDATA[X (Twitter)]]></category>
+    </item>
+  
     <item>
       <title>HKG (Hong Kong) on 2025-12-03</title>
       <description><![CDATA[<strong>THIS IS A SCHEDULED EVENT Dec <var data-var='date'>3</var>, <var data-var='time'>1800</var> - <var data-var='time'>2330</var> UTC</strong><small>Dec <var data-var='date'> 1</var>, <var data-var='time'>2106</var> UTC</small><strong>Scheduled</strong> - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.<br /><br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.<br /><br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.  ]]></description>
