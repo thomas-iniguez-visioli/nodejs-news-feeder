@@ -1,10 +1,28 @@
 [
   {
+    title: 'CVE-2025-65229 A stored cross-site scripting (XSS) vulnerability exists in the web interface of Lyrion Music Server...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65229',
+    pubDate: 'Mon, 08 Dec 2025 20:15:00 GMT',
+    content: 'A stored cross-site scripting (XSS) vulnerability exists in the web interface of Lyrion Music Server  9.0.3. An authenticated user with access to Settings Player can save arbitrary HTML/JavaScript in the Player name field. That value is stored by the server and later rendered without proper output encoding on the Information (Player Info) tab, causing the script to execute in the context of any user viewing that page. | Severity UNKNOWN  ',
+    contentSnippet: 'A stored cross-site scripting (XSS) vulnerability exists in the web interface of Lyrion Music Server  9.0.3. An authenticated user with access to Settings Player can save arbitrary HTML/JavaScript in the Player name field. That value is stored by the server and later rendered without proper output encoding on the Information (Player Info) tab, causing the script to execute in the context of any user viewing that page. | Severity UNKNOWN',
+    guid: 'CVE-2025-65229',
+    isoDate: '2025-12-08T20:15:00.000Z'
+  },
+  {
+    title: 'CVE-2025-65230 Barix Instreamer v04.06 and v04.05 contains a stored cross-site scripting (XSS) vulnerability in the...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65230',
+    pubDate: 'Mon, 08 Dec 2025 20:15:00 GMT',
+    content: 'Barix Instreamer v04.06 and v04.05 contains a stored cross-site scripting (XSS) vulnerability in the Web UI Configuration Streaming Destination input. | Severity UNKNOWN  ',
+    contentSnippet: 'Barix Instreamer v04.06 and v04.05 contains a stored cross-site scripting (XSS) vulnerability in the Web UI Configuration Streaming Destination input. | Severity UNKNOWN',
+    guid: 'CVE-2025-65230',
+    isoDate: '2025-12-08T20:15:00.000Z'
+  },
+  {
     title: 'CVE-2025-14261 The Litmus platform uses JWT for authentication and authorization, but the secret being used for sig...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14261',
     pubDate: 'Mon, 08 Dec 2025 19:15:00 GMT',
-    content: '![CDATA[![CDATA[The Litmus platform uses JWT for authentication and authorization, but the secret being used for signing the JWT is only 6 bytes long at its core, which makes it extremely easy to crack. | CVSS Score 7.1 (HIGH)  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[The Litmus platform uses JWT for authentication and authorization, but the secret being used for signing the JWT is only 6 bytes long at its core, which makes it extremely easy to crack. | CVSS Score 7.1 (HIGH)  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[The Litmus platform uses JWT for authentication and authorization, but the secret being used for signing the JWT is only 6 bytes long at its core, which makes it extremely easy to crack. | CVSS Score 7.1 (HIGH)  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[The Litmus platform uses JWT for authentication and authorization, but the secret being used for signing the JWT is only 6 bytes long at its core, which makes it extremely easy to crack. | CVSS Score 7.1 (HIGH)  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-14261',
     isoDate: '2025-12-08T19:15:00.000Z'
   },
@@ -12,8 +30,8 @@
     title: 'CVE-2025-65231 Barix Instreamer v04.06 and earlier is vulnerable to Cross Site Scripting (XSS) in the Web UI I/O  ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65231',
     pubDate: 'Mon, 08 Dec 2025 19:15:00 GMT',
-    content: '![CDATA[![CDATA[Barix Instreamer v04.06 and earlier is vulnerable to Cross Site Scripting (XSS) in the Web UI I/O  Serial configuration page, specifically the CTS close command user-input field which is stored and later rendered on the Status page. | Severity UNKNOWN  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[Barix Instreamer v04.06 and earlier is vulnerable to Cross Site Scripting (XSS) in the Web UI I/O  Serial configuration page, specifically the CTS close command user-input field which is stored and later rendered on the Status page. | Severity UNKNOWN  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[Barix Instreamer v04.06 and earlier is vulnerable to Cross Site Scripting (XSS) in the Web UI I/O  Serial configuration page, specifically the CTS close command user-input field which is stored and later rendered on the Status page. | Severity UNKNOWN  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[Barix Instreamer v04.06 and earlier is vulnerable to Cross Site Scripting (XSS) in the Web UI I/O  Serial configuration page, specifically the CTS close command user-input field which is stored and later rendered on the Status page. | Severity UNKNOWN  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-65231',
     isoDate: '2025-12-08T19:15:00.000Z'
   },
@@ -21,8 +39,8 @@
     title: 'CVE-2025-65271 Client-side template injection (CSTI) in Azuriom CMS admin dashboard allows a low-privilege user to ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65271',
     pubDate: 'Mon, 08 Dec 2025 19:15:00 GMT',
-    content: "![CDATA[![CDATA[Client-side template injection (CSTI) in Azuriom CMS admin dashboard allows a low-privilege user to execute arbitrary template code in the context of an administrator's session. This can occur via plugins or dashboard components that render untrusted user input, potentially enabling privilege escalation to an administrative account. Fixed in Azuriom 1.2.7. | Severity UNKNOWN  ]]>  ]]>  ",
-    contentSnippet: "![CDATA[![CDATA[Client-side template injection (CSTI) in Azuriom CMS admin dashboard allows a low-privilege user to execute arbitrary template code in the context of an administrator's session. This can occur via plugins or dashboard components that render untrusted user input, potentially enabling privilege escalation to an administrative account. Fixed in Azuriom 1.2.7. | Severity UNKNOWN  ]]>  ]]>",
+    content: "![CDATA[![CDATA[![CDATA[Client-side template injection (CSTI) in Azuriom CMS admin dashboard allows a low-privilege user to execute arbitrary template code in the context of an administrator's session. This can occur via plugins or dashboard components that render untrusted user input, potentially enabling privilege escalation to an administrative account. Fixed in Azuriom 1.2.7. | Severity UNKNOWN  ]]>  ]]>  ]]>  ",
+    contentSnippet: "![CDATA[![CDATA[![CDATA[Client-side template injection (CSTI) in Azuriom CMS admin dashboard allows a low-privilege user to execute arbitrary template code in the context of an administrator's session. This can occur via plugins or dashboard components that render untrusted user input, potentially enabling privilege escalation to an administrative account. Fixed in Azuriom 1.2.7. | Severity UNKNOWN  ]]>  ]]>  ]]>",
     guid: 'CVE-2025-65271',
     isoDate: '2025-12-08T19:15:00.000Z'
   },
@@ -30,8 +48,8 @@
     title: 'CVE-2025-65548 NUT-14 allows cashu tokens to be created with a preimage hash. However, nutshell (cashubtc/nuts) bef...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65548',
     pubDate: 'Mon, 08 Dec 2025 19:15:00 GMT',
-    content: "![CDATA[![CDATA[NUT-14 allows cashu tokens to be created with a preimage hash. However, nutshell (cashubtc/nuts) before 0.18.0 do not validate the size of preimage when the token is spent. The preimage is stored by the mint and attacker can exploit this vulnerability to fill the mint's db nd disk with arbitrary data. | Severity UNKNOWN  ]]>  ]]>  ",
-    contentSnippet: "![CDATA[![CDATA[NUT-14 allows cashu tokens to be created with a preimage hash. However, nutshell (cashubtc/nuts) before 0.18.0 do not validate the size of preimage when the token is spent. The preimage is stored by the mint and attacker can exploit this vulnerability to fill the mint's db nd disk with arbitrary data. | Severity UNKNOWN  ]]>  ]]>",
+    content: "![CDATA[![CDATA[![CDATA[NUT-14 allows cashu tokens to be created with a preimage hash. However, nutshell (cashubtc/nuts) before 0.18.0 do not validate the size of preimage when the token is spent. The preimage is stored by the mint and attacker can exploit this vulnerability to fill the mint's db nd disk with arbitrary data. | Severity UNKNOWN  ]]>  ]]>  ]]>  ",
+    contentSnippet: "![CDATA[![CDATA[![CDATA[NUT-14 allows cashu tokens to be created with a preimage hash. However, nutshell (cashubtc/nuts) before 0.18.0 do not validate the size of preimage when the token is spent. The preimage is stored by the mint and attacker can exploit this vulnerability to fill the mint's db nd disk with arbitrary data. | Severity UNKNOWN  ]]>  ]]>  ]]>",
     guid: 'CVE-2025-65548',
     isoDate: '2025-12-08T19:15:00.000Z'
   },
@@ -39,8 +57,8 @@
     title: 'CVE-2025-65849 A cryptanalytic break in Altcha Proof-of-Work obfuscation mode version 0.8.0 and later allows for re...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65849',
     pubDate: 'Mon, 08 Dec 2025 19:15:00 GMT',
-    content: '![CDATA[![CDATA[A cryptanalytic break in Altcha Proof-of-Work obfuscation mode version 0.8.0 and later allows for remote visitors to recover the Proof-of-Work nonce in constant time via mathematical deduction. | Severity UNKNOWN  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[A cryptanalytic break in Altcha Proof-of-Work obfuscation mode version 0.8.0 and later allows for remote visitors to recover the Proof-of-Work nonce in constant time via mathematical deduction. | Severity UNKNOWN  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[A cryptanalytic break in Altcha Proof-of-Work obfuscation mode version 0.8.0 and later allows for remote visitors to recover the Proof-of-Work nonce in constant time via mathematical deduction. | Severity UNKNOWN  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[A cryptanalytic break in Altcha Proof-of-Work obfuscation mode version 0.8.0 and later allows for remote visitors to recover the Proof-of-Work nonce in constant time via mathematical deduction. | Severity UNKNOWN  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-65849',
     isoDate: '2025-12-08T19:15:00.000Z'
   },
@@ -48,12 +66,12 @@
     title: 'Amazon retire 40 % de son prix à ce chargeur 2-en-1 compatible MagSafe et Qi2',
     link: 'https//www.frandroid.com/bons-plans/2902491_amazon-retire-40-de-son-prix-a-ce-chargeur-2-en-1-compatible-magsafe-et-qi2',
     pubDate: 'Mon, 08 Dec 2025 18:35:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       'div>Ugreen propose de nombreux accessoires pour téléphone, et quelques produits qui sortent du lot comme ce chargeur à induction 2-en-1 certifié Qi2 et MagSafe dont le prix passe de 39 euros à 23 euros seulement sur Amazon./div>\r\n' +
-      '/div>]]>  ]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       'div>Ugreen propose de nombreux accessoires pour téléphone, et quelques produits qui sortent du lot comme ce chargeur à induction 2-en-1 certifié Qi2 et MagSafe dont le prix passe de 39 euros à 23 euros seulement sur Amazon./div>\r\n' +
-      '/div>]]>  ]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/bons-plans/2902491_amazon-retire-40-de-son-prix-a-ce-chargeur-2-en-1-compatible-magsafe-et-qi2',
     categories: [
       'Accessoires',
@@ -69,12 +87,12 @@
     title: 'Quelles sont les nouveautés d’iOS 26.2, la future mise à jour de l’iPhone ?',
     link: 'https//www.numerama.com/tech/2137193-ios-26-2-est-disponible-quelles-sont-les-nouveautes-de-la-mise-a-jour-sur-iphone.html',
     pubDate: 'Mon, 08 Dec 2025 18:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       'Trois mois après iOS 26, la mise à jour iOS 26.2 apporte quelques nouveautés aux iPhone, dont la traduction en temps réel sur les AirPods en Europe. Quelques autres ajustements sont au programme. \r\n' +
-      ']]>  ]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+      ']]>  ]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       'Trois mois après iOS 26, la mise à jour iOS 26.2 apporte quelques nouveautés aux iPhone, dont la traduction en temps réel sur les AirPods en Europe. Quelques autres ajustements sont au programme. \r\n' +
-      ']]>  ]]>]]>]]>]]>',
+      ']]>  ]]>]]>]]>]]>]]>',
     guid: 'https://www.numerama.com/tech/2137193-ios-26-2-est-disponible-quelles-sont-les-nouveautes-de-la-mise-a-jour-sur-iphone.html',
     categories: [
       'Apple iPhone',
@@ -93,8 +111,8 @@
     title: 'CVE-2025-14258 A vulnerability has been found in itsourcecode Student Management System 1.0. Affected by this vulne...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14258',
     pubDate: 'Mon, 08 Dec 2025 18:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability has been found in itsourcecode Student Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /newsubject.php. The manipulation of the argument sub leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability has been found in itsourcecode Student Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /newsubject.php. The manipulation of the argument sub leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability has been found in itsourcecode Student Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /newsubject.php. The manipulation of the argument sub leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability has been found in itsourcecode Student Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /newsubject.php. The manipulation of the argument sub leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-14258',
     isoDate: '2025-12-08T18:15:00.000Z'
   },
@@ -102,8 +120,8 @@
     title: 'CVE-2025-14259 A vulnerability was found in Jihai Jshop MiniProgram Mall System 2.9.0. Affected by this issue is so...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14259',
     pubDate: 'Mon, 08 Dec 2025 18:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability was found in Jihai Jshop MiniProgram Mall System 2.9.0. Affected by this issue is some unknown functionality of the file /index.php/api.html. The manipulation of the argument cat_id results in sql injection. The attack may be launched remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability was found in Jihai Jshop MiniProgram Mall System 2.9.0. Affected by this issue is some unknown functionality of the file /index.php/api.html. The manipulation of the argument cat_id results in sql injection. The attack may be launched remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability was found in Jihai Jshop MiniProgram Mall System 2.9.0. Affected by this issue is some unknown functionality of the file /index.php/api.html. The manipulation of the argument cat_id results in sql injection. The attack may be launched remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability was found in Jihai Jshop MiniProgram Mall System 2.9.0. Affected by this issue is some unknown functionality of the file /index.php/api.html. The manipulation of the argument cat_id results in sql injection. The attack may be launched remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-14259',
     isoDate: '2025-12-08T18:15:00.000Z'
   },
@@ -111,8 +129,8 @@
     title: 'CVE-2025-48569 In multiple locations, there is a possible permanent denial of service due to resource exhaustion. T...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48569',
     pubDate: 'Mon, 08 Dec 2025 18:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48569',
     isoDate: '2025-12-08T18:15:00.000Z'
   },
@@ -120,8 +138,8 @@
     title: 'CVE-2025-48606 In preparePackage of InstallPackageHelper.java, there is a possible way for an app to appear hidden ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48606',
     pubDate: 'Mon, 08 Dec 2025 18:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[In preparePackage of InstallPackageHelper.java, there is a possible way for an app to appear hidden upon installation without a mechanism to uninstall it due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[In preparePackage of InstallPackageHelper.java, there is a possible way for an app to appear hidden upon installation without a mechanism to uninstall it due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In preparePackage of InstallPackageHelper.java, there is a possible way for an app to appear hidden upon installation without a mechanism to uninstall it due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In preparePackage of InstallPackageHelper.java, there is a possible way for an app to appear hidden upon installation without a mechanism to uninstall it due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48606',
     isoDate: '2025-12-08T18:15:00.000Z'
   },
@@ -129,8 +147,8 @@
     title: 'CVE-2025-48608 In isValidMediaUri of SettingsProvider.java, there is a possible cross user media read due to a miss...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48608',
     pubDate: 'Mon, 08 Dec 2025 18:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[In isValidMediaUri of SettingsProvider.java, there is a possible cross user media read due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[In isValidMediaUri of SettingsProvider.java, there is a possible cross user media read due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In isValidMediaUri of SettingsProvider.java, there is a possible cross user media read due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In isValidMediaUri of SettingsProvider.java, there is a possible cross user media read due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48608',
     isoDate: '2025-12-08T18:15:00.000Z'
   },
@@ -138,8 +156,8 @@
     title: 'CVE-2025-48625 In multiple locations of UsbDataAdvancedProtectionHook.java, there is a possible way to access USB d...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48625',
     pubDate: 'Mon, 08 Dec 2025 18:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations of UsbDataAdvancedProtectionHook.java, there is a possible way to access USB data when the screen is off due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations of UsbDataAdvancedProtectionHook.java, there is a possible way to access USB data when the screen is off due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations of UsbDataAdvancedProtectionHook.java, there is a possible way to access USB data when the screen is off due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations of UsbDataAdvancedProtectionHook.java, there is a possible way to access USB data when the screen is off due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48625',
     isoDate: '2025-12-08T18:15:00.000Z'
   },
@@ -147,8 +165,8 @@
     title: 'CVE-2025-64081 SQL injection vulnerability in /php/api_patient_schedule.php in SourceCodester Patients Waiting Area...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-64081',
     pubDate: 'Mon, 08 Dec 2025 18:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[SQL injection vulnerability in /php/api_patient_schedule.php in SourceCodester Patients Waiting Area Queue Management System v1 allows attackers to execute arbitrary SQL commands via the appointmentID parameter. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[SQL injection vulnerability in /php/api_patient_schedule.php in SourceCodester Patients Waiting Area Queue Management System v1 allows attackers to execute arbitrary SQL commands via the appointmentID parameter. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[SQL injection vulnerability in /php/api_patient_schedule.php in SourceCodester Patients Waiting Area Queue Management System v1 allows attackers to execute arbitrary SQL commands via the appointmentID parameter. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[SQL injection vulnerability in /php/api_patient_schedule.php in SourceCodester Patients Waiting Area Queue Management System v1 allows attackers to execute arbitrary SQL commands via the appointmentID parameter. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-64081',
     isoDate: '2025-12-08T18:15:00.000Z'
   },
@@ -156,8 +174,8 @@
     title: 'CVE-2025-65804 Tenda AX3 v16.03.12.11 contains a stack overflow in formSetIptv via the iptvType parameter, which ca...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65804',
     pubDate: 'Mon, 08 Dec 2025 18:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[Tenda AX3 v16.03.12.11 contains a stack overflow in formSetIptv via the iptvType parameter, which can cause memory corruption and enable remote code execution (RCE). | CVSS Score 6.5 (MEDIUM)  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[Tenda AX3 v16.03.12.11 contains a stack overflow in formSetIptv via the iptvType parameter, which can cause memory corruption and enable remote code execution (RCE). | CVSS Score 6.5 (MEDIUM)  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Tenda AX3 v16.03.12.11 contains a stack overflow in formSetIptv via the iptvType parameter, which can cause memory corruption and enable remote code execution (RCE). | CVSS Score 6.5 (MEDIUM)  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Tenda AX3 v16.03.12.11 contains a stack overflow in formSetIptv via the iptvType parameter, which can cause memory corruption and enable remote code execution (RCE). | CVSS Score 6.5 (MEDIUM)  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-65804',
     isoDate: '2025-12-08T18:15:00.000Z'
   },
@@ -165,12 +183,12 @@
     title: 'Les 3 voitures électriques favorites de Survoltés en décembre 2025',
     link: 'https//www.frandroid.com/guide-dachat/2901877_les-3-voitures-electriques-favorites-de-survoltes-en-decembre-2025',
     pubDate: 'Mon, 08 Dec 2025 18:11:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       'div>Les voitures électriques demeurent une véritable attraction pour le grand public. Voici le top 3 des modèles que nous avons adoré tester sur em>Frandroid/em> le mois dernier. /div>\r\n' +
-      '/div>]]>  ]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       'div>Les voitures électriques demeurent une véritable attraction pour le grand public. Voici le top 3 des modèles que nous avons adoré tester sur em>Frandroid/em> le mois dernier. /div>\r\n' +
-      '/div>]]>  ]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/guide-dachat/2901877_les-3-voitures-electriques-favorites-de-survoltes-en-decembre-2025',
     categories: [
       "Guides d'achat",
@@ -186,12 +204,12 @@
     title: 'Pebble tease une nouvelle montre ronde  le retour inattendu de la Time Round se précise pour le 9 décembre',
     link: 'https//www.frandroid.com/actualites-generales/2902675_pebble-tease-une-nouvelle-montre-ronde-le-retour-inattendu-de-la-time-round-se-precise-pour-le-9-decembre',
     pubDate: 'Mon, 08 Dec 2025 17:57:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Pebble a publié une image mystérieuse annonçant une nouveauté imminente. Tout porte à croire qu'une version modernisée de la Pebble Time Round est dans les tuyaux./div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Pebble a publié une image mystérieuse annonçant une nouveauté imminente. Tout porte à croire qu'une version modernisée de la Pebble Time Round est dans les tuyaux./div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/actualites-generales/2902675_pebble-tease-une-nouvelle-montre-ronde-le-retour-inattendu-de-la-time-round-se-precise-pour-le-9-decembre',
     categories: [ 'Actualités Générales', 'e-paper', 'montre connectée', 'pebble' ],
     isoDate: '2025-12-08T17:57:00.000Z'
@@ -200,12 +218,12 @@
     title: 'In-depth tutorials on LLMs, RAGs and real-world AI agent applications.',
     link: 'https//opensourceprojects.dev/post/3927bebf-0237-4167-95d4-258de6764757',
     pubDate: 'Mon, 08 Dec 2025 17:44:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[If youaposve been following the latest wave of AI developments, you know the feeling endless tutorials, exciting papers, and a mountain of theoretical concepts. But when you sit down to actually build something, the gap between theory and a working application can feel huge. You need concrete examples...\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[If youaposve been following the latest wave of AI developments, you know the feeling endless tutorials, exciting papers, and a mountain of theoretical concepts. But when you sit down to actually build something, the gap between theory and a working application can feel huge. You need concrete examples...\r\n' +
       '\r\n' +
-      'GitHub Repository https//github.com/patchy631/ai-engineering-hub]]>  ]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[If youaposve been following the latest wave of AI developments, you know the feeling endless tutorials, exciting papers, and a mountain of theoretical concepts. But when you sit down to actually build something, the gap between theory and a working application can feel huge. You need concrete examples...\r\n' +
+      'GitHub Repository https//github.com/patchy631/ai-engineering-hub]]>  ]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[If youaposve been following the latest wave of AI developments, you know the feeling endless tutorials, exciting papers, and a mountain of theoretical concepts. But when you sit down to actually build something, the gap between theory and a working application can feel huge. You need concrete examples...\r\n' +
       '\r\n' +
-      'GitHub Repository https//github.com/patchy631/ai-engineering-hub]]>  ]]>]]>]]>]]>]]>',
+      'GitHub Repository https//github.com/patchy631/ai-engineering-hub]]>  ]]>]]>]]>]]>]]>]]>',
     guid: 'https://opensourceprojects.dev/post/3927bebf-0237-4167-95d4-258de6764757',
     isoDate: '2025-12-08T17:44:00.000Z'
   },
@@ -213,12 +231,12 @@
     title: 'Ce pack Samsung Galaxy S25 + Chromebook Go est à un super prix chez la Fnac et Darty',
     link: 'https//www.frandroid.com/bons-plans/2902337_ce-pack-samsung-galaxy-s25-chromebook-go-est-a-un-super-prix-chez-la-fnac-et-darty',
     pubDate: 'Mon, 08 Dec 2025 17:19:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Le Samsung Galaxy S25, actuel fleuron de la marque sud-coréenne, se tient actuellement aux côtés d'un laptop Samsung Galaxy Chromebook Go dans un pack dont le prix a considérablement chuté  la Fnac et Darty le proposent à 899 euros au lieu de 1 468 euros./div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Le Samsung Galaxy S25, actuel fleuron de la marque sud-coréenne, se tient actuellement aux côtés d'un laptop Samsung Galaxy Chromebook Go dans un pack dont le prix a considérablement chuté  la Fnac et Darty le proposent à 899 euros au lieu de 1 468 euros./div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/bons-plans/2902337_ce-pack-samsung-galaxy-s25-chromebook-go-est-a-un-super-prix-chez-la-fnac-et-darty',
     categories: [
       'Bons plans',
@@ -241,8 +259,8 @@
     title: 'CVE-2025-14256 A vulnerability was detected in itsourcecode Student Management System 1.0. This impacts an unknown ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14256',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability was detected in itsourcecode Student Management System 1.0. This impacts an unknown function of the file /newcurriculm.php. Performing manipulation of the argument ID results in sql injection. The attack can be initiated remotely. The exploit is now public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability was detected in itsourcecode Student Management System 1.0. This impacts an unknown function of the file /newcurriculm.php. Performing manipulation of the argument ID results in sql injection. The attack can be initiated remotely. The exploit is now public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability was detected in itsourcecode Student Management System 1.0. This impacts an unknown function of the file /newcurriculm.php. Performing manipulation of the argument ID results in sql injection. The attack can be initiated remotely. The exploit is now public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A vulnerability was detected in itsourcecode Student Management System 1.0. This impacts an unknown function of the file /newcurriculm.php. Performing manipulation of the argument ID results in sql injection. The attack can be initiated remotely. The exploit is now public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-14256',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -250,8 +268,8 @@
     title: 'CVE-2025-14257 A flaw has been found in itsourcecode Student Management System 1.0. Affected is an unknown function...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14257',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A flaw has been found in itsourcecode Student Management System 1.0. Affected is an unknown function of the file /newrecord.php. Executing manipulation of the argument ID can lead to sql injection. The attack can be launched remotely. The exploit has been published and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A flaw has been found in itsourcecode Student Management System 1.0. Affected is an unknown function of the file /newrecord.php. Executing manipulation of the argument ID can lead to sql injection. The attack can be launched remotely. The exploit has been published and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A flaw has been found in itsourcecode Student Management System 1.0. Affected is an unknown function of the file /newrecord.php. Executing manipulation of the argument ID can lead to sql injection. The attack can be launched remotely. The exploit has been published and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A flaw has been found in itsourcecode Student Management System 1.0. Affected is an unknown function of the file /newrecord.php. Executing manipulation of the argument ID can lead to sql injection. The attack can be launched remotely. The exploit has been published and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-14257',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -259,8 +277,8 @@
     title: 'CVE-2025-22420 In multiple locations, there is a possible way to leak audio files across user profiles due to a con...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-22420',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to leak audio files across user profiles due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to leak audio files across user profiles due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to leak audio files across user profiles due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to leak audio files across user profiles due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-22420',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -268,8 +286,8 @@
     title: 'CVE-2025-22432 In notifyTimeout of CallRedirectionProcessor.java, there is a possible persistent connection due to ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-22432',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In notifyTimeout of CallRedirectionProcessor.java, there is a possible persistent connection due to improper input validation. This could lead to local escalation of privilege and background activity launches with User execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In notifyTimeout of CallRedirectionProcessor.java, there is a possible persistent connection due to improper input validation. This could lead to local escalation of privilege and background activity launches with User execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In notifyTimeout of CallRedirectionProcessor.java, there is a possible persistent connection due to improper input validation. This could lead to local escalation of privilege and background activity launches with User execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In notifyTimeout of CallRedirectionProcessor.java, there is a possible persistent connection due to improper input validation. This could lead to local escalation of privilege and background activity launches with User execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-22432',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -277,8 +295,8 @@
     title: 'CVE-2025-32319 In ensureBound of RemotePrintService.java, there is a possible way for a background app to keep fore...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-32319',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In ensureBound of RemotePrintService.java, there is a possible way for a background app to keep foreground permissions due to a permissions bypass. This could lead to local escalation of privilege with user execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In ensureBound of RemotePrintService.java, there is a possible way for a background app to keep foreground permissions due to a permissions bypass. This could lead to local escalation of privilege with user execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In ensureBound of RemotePrintService.java, there is a possible way for a background app to keep foreground permissions due to a permissions bypass. This could lead to local escalation of privilege with user execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In ensureBound of RemotePrintService.java, there is a possible way for a background app to keep foreground permissions due to a permissions bypass. This could lead to local escalation of privilege with user execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-32319',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -286,8 +304,8 @@
     title: 'CVE-2025-32328 In multiple functions of Session.java, there is a possible way to view images belonging to a differe...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-32328',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of Session.java, there is a possible way to view images belonging to a different user of the device due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of Session.java, there is a possible way to view images belonging to a different user of the device due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of Session.java, there is a possible way to view images belonging to a different user of the device due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of Session.java, there is a possible way to view images belonging to a different user of the device due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-32328',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -295,8 +313,8 @@
     title: 'CVE-2025-32329 In multiple functions of Session.java, there is a possible way to view images belonging to a differe...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-32329',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of Session.java, there is a possible way to view images belonging to a different user of the device due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of Session.java, there is a possible way to view images belonging to a different user of the device due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of Session.java, there is a possible way to view images belonging to a different user of the device due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of Session.java, there is a possible way to view images belonging to a different user of the device due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-32329',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -304,8 +322,8 @@
     title: 'CVE-2025-48525 In disassociate of DisassociationProcessor.java, there is a possible way for an app to continue read...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48525',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In disassociate of DisassociationProcessor.java, there is a possible way for an app to continue reading notifications when not associated to a companion device due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In disassociate of DisassociationProcessor.java, there is a possible way for an app to continue reading notifications when not associated to a companion device due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In disassociate of DisassociationProcessor.java, there is a possible way for an app to continue reading notifications when not associated to a companion device due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In disassociate of DisassociationProcessor.java, there is a possible way for an app to continue reading notifications when not associated to a companion device due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48525',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -313,8 +331,8 @@
     title: 'CVE-2025-48536 In grantAllowlistedPackagePermissions of SettingsSliceProvider.java, there is a possible way for a t...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48536',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In grantAllowlistedPackagePermissions of SettingsSliceProvider.java, there is a possible way for a third party app to modify secure settings due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In grantAllowlistedPackagePermissions of SettingsSliceProvider.java, there is a possible way for a third party app to modify secure settings due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In grantAllowlistedPackagePermissions of SettingsSliceProvider.java, there is a possible way for a third party app to modify secure settings due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In grantAllowlistedPackagePermissions of SettingsSliceProvider.java, there is a possible way for a third party app to modify secure settings due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48536',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -322,8 +340,8 @@
     title: 'CVE-2025-48555 In multiple functions of NotificationStation.java, there is a possible cross-profile information dis...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48555',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of NotificationStation.java, there is a possible cross-profile information disclosure due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of NotificationStation.java, there is a possible cross-profile information disclosure due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of NotificationStation.java, there is a possible cross-profile information disclosure due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of NotificationStation.java, there is a possible cross-profile information disclosure due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48555',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -331,8 +349,8 @@
     title: 'CVE-2025-48564 In multiple locations, there is a possible intent filter bypass due to a race condition. This could ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48564',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible intent filter bypass due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible intent filter bypass due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible intent filter bypass due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible intent filter bypass due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48564',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -340,8 +358,8 @@
     title: 'CVE-2025-48565 In multiple locations, there is a possible way to bypass the cross profile intent filter due to a lo...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48565',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to bypass the cross profile intent filter due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to bypass the cross profile intent filter due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to bypass the cross profile intent filter due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to bypass the cross profile intent filter due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48565',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -349,8 +367,8 @@
     title: 'CVE-2025-48566 In multiple locations, there is a possible bypass of user profile boundary with a forwarded intent d...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48566',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible bypass of user profile boundary with a forwarded intent due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible bypass of user profile boundary with a forwarded intent due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible bypass of user profile boundary with a forwarded intent due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible bypass of user profile boundary with a forwarded intent due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48566',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -358,8 +376,8 @@
     title: 'CVE-2025-48572 In multiple locations, there is a possible way to launch activities from the background due to a per...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48572',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to launch activities from the background due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to launch activities from the background due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to launch activities from the background due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to launch activities from the background due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48572',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -367,8 +385,8 @@
     title: 'CVE-2025-48573 In sendCommand of MediaSessionRecord.java, there is a possible way to launch the foreground service ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48573',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In sendCommand of MediaSessionRecord.java, there is a possible way to launch the foreground service while the app is in the background due to FGS while-in-use abuse. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In sendCommand of MediaSessionRecord.java, there is a possible way to launch the foreground service while the app is in the background due to FGS while-in-use abuse. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In sendCommand of MediaSessionRecord.java, there is a possible way to launch the foreground service while the app is in the background due to FGS while-in-use abuse. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In sendCommand of MediaSessionRecord.java, there is a possible way to launch the foreground service while the app is in the background due to FGS while-in-use abuse. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48573',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -376,8 +394,8 @@
     title: 'CVE-2025-48575 In multiple functions of CertInstaller.java, there is a possible way to install certificates due to ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48575',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of CertInstaller.java, there is a possible way to install certificates due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of CertInstaller.java, there is a possible way to install certificates due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of CertInstaller.java, there is a possible way to install certificates due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of CertInstaller.java, there is a possible way to install certificates due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48575',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -385,8 +403,8 @@
     title: 'CVE-2025-48576 In updateNotificationChannelGroupFromPrivilegedListener of NotificationManagerService.java, there is...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48576',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In updateNotificationChannelGroupFromPrivilegedListener of NotificationManagerService.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In updateNotificationChannelGroupFromPrivilegedListener of NotificationManagerService.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In updateNotificationChannelGroupFromPrivilegedListener of NotificationManagerService.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In updateNotificationChannelGroupFromPrivilegedListener of NotificationManagerService.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48576',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -394,8 +412,8 @@
     title: 'CVE-2025-48580 In connectInternal of MediaBrowser.java, there is a possible way to access while in use permission w...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48580',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In connectInternal of MediaBrowser.java, there is a possible way to access while in use permission while the app is in background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In connectInternal of MediaBrowser.java, there is a possible way to access while in use permission while the app is in background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In connectInternal of MediaBrowser.java, there is a possible way to access while in use permission while the app is in background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In connectInternal of MediaBrowser.java, there is a possible way to access while in use permission while the app is in background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48580',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -403,8 +421,8 @@
     title: 'CVE-2025-48583 In multiple functions of BaseBundle.java, there is a possible way to execute arbitrary code due to a...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48583',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of BaseBundle.java, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of BaseBundle.java, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of BaseBundle.java, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of BaseBundle.java, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48583',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -412,8 +430,8 @@
     title: 'CVE-2025-48584 In multiple functions of NotificationManagerService.java, there is a possible way to bypass the per-...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48584',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of NotificationManagerService.java, there is a possible way to bypass the per-package channel limits causing resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of NotificationManagerService.java, there is a possible way to bypass the per-package channel limits causing resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of NotificationManagerService.java, there is a possible way to bypass the per-package channel limits causing resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of NotificationManagerService.java, there is a possible way to bypass the per-package channel limits causing resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48584',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -421,8 +439,8 @@
     title: 'CVE-2025-48586 In onActivityResult of EditFdnContactScreen.java, there is a possible way to leak contacts from the ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48586',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onActivityResult of EditFdnContactScreen.java, there is a possible way to leak contacts from the work profile due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onActivityResult of EditFdnContactScreen.java, there is a possible way to leak contacts from the work profile due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onActivityResult of EditFdnContactScreen.java, there is a possible way to leak contacts from the work profile due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onActivityResult of EditFdnContactScreen.java, there is a possible way to leak contacts from the work profile due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48586',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -430,8 +448,8 @@
     title: 'CVE-2025-48588 In startAlwaysOnVpn of Vpn.java, there is a possible way to disable always-on VPN due to a logic err...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48588',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In startAlwaysOnVpn of Vpn.java, there is a possible way to disable always-on VPN due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In startAlwaysOnVpn of Vpn.java, there is a possible way to disable always-on VPN due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In startAlwaysOnVpn of Vpn.java, there is a possible way to disable always-on VPN due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In startAlwaysOnVpn of Vpn.java, there is a possible way to disable always-on VPN due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48588',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -439,8 +457,8 @@
     title: 'CVE-2025-48589 In multiple functions of HeaderPrivacyIconsController.kt, there is a possible way to grand permissio...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48589',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of HeaderPrivacyIconsController.kt, there is a possible way to grand permissions across user  due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of HeaderPrivacyIconsController.kt, there is a possible way to grand permissions across user  due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of HeaderPrivacyIconsController.kt, there is a possible way to grand permissions across user  due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of HeaderPrivacyIconsController.kt, there is a possible way to grand permissions across user  due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48589',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -448,8 +466,8 @@
     title: 'CVE-2025-48590 In verifyAndGetBypass of AppOpsService.java, there is a possible method for a malicious app to preve...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48590',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In verifyAndGetBypass of AppOpsService.java, there is a possible method for a malicious app to prevent dialing emergency services under limited circumstances due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In verifyAndGetBypass of AppOpsService.java, there is a possible method for a malicious app to prevent dialing emergency services under limited circumstances due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In verifyAndGetBypass of AppOpsService.java, there is a possible method for a malicious app to prevent dialing emergency services under limited circumstances due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In verifyAndGetBypass of AppOpsService.java, there is a possible method for a malicious app to prevent dialing emergency services under limited circumstances due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48590',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -457,8 +475,8 @@
     title: 'CVE-2025-48591 In multiple locations, there is a possible way to read files from another user due to a missing perm...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48591',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to read files from another user due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to read files from another user due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to read files from another user due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to read files from another user due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48591',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -466,8 +484,8 @@
     title: 'CVE-2025-48592 In initDecoder of C2SoftDav1dDec.cpp, there is a possible out of bounds read due to a heap buffer ov...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48592',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In initDecoder of C2SoftDav1dDec.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In initDecoder of C2SoftDav1dDec.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In initDecoder of C2SoftDav1dDec.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In initDecoder of C2SoftDav1dDec.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48592',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -475,8 +493,8 @@
     title: 'CVE-2025-48594 In onUidImportance of DisassociationProcessor.java, there is a possible way to retain companion appl...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48594',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onUidImportance of DisassociationProcessor.java, there is a possible way to retain companion application privileges after disassociation due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onUidImportance of DisassociationProcessor.java, there is a possible way to retain companion application privileges after disassociation due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onUidImportance of DisassociationProcessor.java, there is a possible way to retain companion application privileges after disassociation due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onUidImportance of DisassociationProcessor.java, there is a possible way to retain companion application privileges after disassociation due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48594',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -484,8 +502,8 @@
     title: 'CVE-2025-48596 In appendFrom of Parcel.cpp, there is a possible out of bounds read due to a missing bounds check. T...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48596',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In appendFrom of Parcel.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In appendFrom of Parcel.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In appendFrom of Parcel.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In appendFrom of Parcel.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48596',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -493,8 +511,8 @@
     title: 'CVE-2025-48597 In multiple locations, there is a possible way to trick a user into accepting a permission due to a ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48597',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to trick a user into accepting a permission due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to trick a user into accepting a permission due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to trick a user into accepting a permission due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to trick a user into accepting a permission due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48597',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -502,8 +520,8 @@
     title: "CVE-2025-48598 In multiple locations, there is a possible way to alter the primary user's face unlock settings due ...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48598',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to alter the primary user's face unlock settings due to a confused deputy. This could lead to physical escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
-    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to alter the primary user's face unlock settings due to a confused deputy. This could lead to physical escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
+    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to alter the primary user's face unlock settings due to a confused deputy. This could lead to physical escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
+    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to alter the primary user's face unlock settings due to a confused deputy. This could lead to physical escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
     guid: 'CVE-2025-48598',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -511,8 +529,8 @@
     title: 'CVE-2025-48599 In multiple functions of WifiScanModeActivity.java, there is a possible way to bypass a device confi...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48599',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of WifiScanModeActivity.java, there is a possible way to bypass a device config restriction due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of WifiScanModeActivity.java, there is a possible way to bypass a device config restriction due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of WifiScanModeActivity.java, there is a possible way to bypass a device config restriction due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of WifiScanModeActivity.java, there is a possible way to bypass a device config restriction due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48599',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -520,8 +538,8 @@
     title: 'CVE-2025-48600 In multiple files, there is a possible way to reveal information across users due to a missing permi...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48600',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple files, there is a possible way to reveal information across users due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple files, there is a possible way to reveal information across users due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple files, there is a possible way to reveal information across users due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple files, there is a possible way to reveal information across users due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48600',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -529,8 +547,8 @@
     title: 'CVE-2025-48601 In multiple locations, there is a possible permanent denial of service due to improper input validat...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48601',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible permanent denial of service due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible permanent denial of service due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible permanent denial of service due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible permanent denial of service due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48601',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -538,8 +556,8 @@
     title: 'CVE-2025-48603 In InputMethodInfo of InputMethodInfo.java, there is a possible permanent denial of service due to r...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48603',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In InputMethodInfo of InputMethodInfo.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In InputMethodInfo of InputMethodInfo.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In InputMethodInfo of InputMethodInfo.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In InputMethodInfo of InputMethodInfo.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48603',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -547,8 +565,8 @@
     title: 'CVE-2025-48604 In multiple locations, there is a possible way to read files from another user due to a missing perm...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48604',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to read files from another user due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to read files from another user due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to read files from another user due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to read files from another user due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48604',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -556,8 +574,8 @@
     title: 'CVE-2025-48607 In multiple locations, there is a possible way to create a large amount of app ops due to a logic er...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48607',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to create a large amount of app ops due to a logic error in the code. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to create a large amount of app ops due to a logic error in the code. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to create a large amount of app ops due to a logic error in the code. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to create a large amount of app ops due to a logic error in the code. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48607',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -565,8 +583,8 @@
     title: 'CVE-2025-48610 In __pkvm_guest_relinquish_to_host of mem_protect.c, there is a possible configuration data leak due...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48610',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In __pkvm_guest_relinquish_to_host of mem_protect.c, there is a possible configuration data leak due to a logic error in the code. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In __pkvm_guest_relinquish_to_host of mem_protect.c, there is a possible configuration data leak due to a logic error in the code. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In __pkvm_guest_relinquish_to_host of mem_protect.c, there is a possible configuration data leak due to a logic error in the code. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In __pkvm_guest_relinquish_to_host of mem_protect.c, there is a possible configuration data leak due to a logic error in the code. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48610',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -574,8 +592,8 @@
     title: 'CVE-2025-48612 In multiple locations, there is a possible way for an application on a work profile to set the main ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48612',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way for an application on a work profile to set the main user's default NFC payment setting due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
-    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way for an application on a work profile to set the main user's default NFC payment setting due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
+    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way for an application on a work profile to set the main user's default NFC payment setting due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
+    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way for an application on a work profile to set the main user's default NFC payment setting due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
     guid: 'CVE-2025-48612',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -583,8 +601,8 @@
     title: 'CVE-2025-48614 In rebootWipeUserData of RecoverySystem.java, there is a possible way to factory reset the device wh...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48614',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In rebootWipeUserData of RecoverySystem.java, there is a possible way to factory reset the device while in DSU mode due to a missing permission check. This could lead to physical denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In rebootWipeUserData of RecoverySystem.java, there is a possible way to factory reset the device while in DSU mode due to a missing permission check. This could lead to physical denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In rebootWipeUserData of RecoverySystem.java, there is a possible way to factory reset the device while in DSU mode due to a missing permission check. This could lead to physical denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In rebootWipeUserData of RecoverySystem.java, there is a possible way to factory reset the device while in DSU mode due to a missing permission check. This could lead to physical denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48614',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -592,8 +610,8 @@
     title: 'CVE-2025-48615 In getComponentName of MediaButtonReceiverHolder.java, there is a possible desync in persistence due...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48615',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In getComponentName of MediaButtonReceiverHolder.java, there is a possible desync in persistence due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In getComponentName of MediaButtonReceiverHolder.java, there is a possible desync in persistence due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In getComponentName of MediaButtonReceiverHolder.java, there is a possible desync in persistence due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In getComponentName of MediaButtonReceiverHolder.java, there is a possible desync in persistence due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48615',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -601,8 +619,8 @@
     title: 'CVE-2025-48618 In processLaunchBrowser of CommandParamsFactory.java, there is a possible browser interaction from t...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48618',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In processLaunchBrowser of CommandParamsFactory.java, there is a possible browser interaction from the lockscreen due to improper locking. This could lead to physical escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In processLaunchBrowser of CommandParamsFactory.java, there is a possible browser interaction from the lockscreen due to improper locking. This could lead to physical escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In processLaunchBrowser of CommandParamsFactory.java, there is a possible browser interaction from the lockscreen due to improper locking. This could lead to physical escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In processLaunchBrowser of CommandParamsFactory.java, there is a possible browser interaction from the lockscreen due to improper locking. This could lead to physical escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48618',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -610,8 +628,8 @@
     title: 'CVE-2025-48620 In onSomePackagesChanged of VoiceInteractionManagerService.java, there is a possible way for a third...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48620',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onSomePackagesChanged of VoiceInteractionManagerService.java, there is a possible way for a third party application's component name to persist even after uninstalling due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
-    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onSomePackagesChanged of VoiceInteractionManagerService.java, there is a possible way for a third party application's component name to persist even after uninstalling due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
+    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onSomePackagesChanged of VoiceInteractionManagerService.java, there is a possible way for a third party application's component name to persist even after uninstalling due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
+    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onSomePackagesChanged of VoiceInteractionManagerService.java, there is a possible way for a third party application's component name to persist even after uninstalling due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
     guid: 'CVE-2025-48620',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -619,8 +637,8 @@
     title: 'CVE-2025-48621 In DefaultTransitionHandler.java, there is a possible way to enable a tapjacking attack due to a ins...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48621',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In DefaultTransitionHandler.java, there is a possible way to enable a tapjacking attack due to a insecure default. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In DefaultTransitionHandler.java, there is a possible way to enable a tapjacking attack due to a insecure default. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In DefaultTransitionHandler.java, there is a possible way to enable a tapjacking attack due to a insecure default. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In DefaultTransitionHandler.java, there is a possible way to enable a tapjacking attack due to a insecure default. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48621',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -628,8 +646,8 @@
     title: 'CVE-2025-48622 In ProcessArea of dng_misc_opcodes.cpp, there is a possible out of bounds read due to a buffer overf...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48622',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In ProcessArea of dng_misc_opcodes.cpp, there is a possible out of bounds read due to a buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In ProcessArea of dng_misc_opcodes.cpp, there is a possible out of bounds read due to a buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In ProcessArea of dng_misc_opcodes.cpp, there is a possible out of bounds read due to a buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In ProcessArea of dng_misc_opcodes.cpp, there is a possible out of bounds read due to a buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48622',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -637,8 +655,8 @@
     title: 'CVE-2025-48623 In init_pkvm_hyp_vcpu of pkvm.c, there is a possible out of bounds write due to improper input valid...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48623',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In init_pkvm_hyp_vcpu of pkvm.c, there is a possible out of bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In init_pkvm_hyp_vcpu of pkvm.c, there is a possible out of bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In init_pkvm_hyp_vcpu of pkvm.c, there is a possible out of bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In init_pkvm_hyp_vcpu of pkvm.c, there is a possible out of bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48623',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -646,8 +664,8 @@
     title: 'CVE-2025-48624 In multiple functions of arm-smmu-v3.c, there is a possible out-of-bounds write due to improper inpu...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48624',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of arm-smmu-v3.c, there is a possible out-of-bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of arm-smmu-v3.c, there is a possible out-of-bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of arm-smmu-v3.c, there is a possible out-of-bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of arm-smmu-v3.c, there is a possible out-of-bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48624',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -655,8 +673,8 @@
     title: 'CVE-2025-48626 In multiple locations, there is a possible way to launch an application from the background due to a...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48626',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to launch an application from the background due to a precondition check failure. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to launch an application from the background due to a precondition check failure. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to launch an application from the background due to a precondition check failure. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple locations, there is a possible way to launch an application from the background due to a precondition check failure. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48626',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -664,8 +682,8 @@
     title: 'CVE-2025-48627 In startNextMatchingActivity of ActivityTaskManagerService.java, there is a possible way to launch a...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48627',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In startNextMatchingActivity of ActivityTaskManagerService.java, there is a possible way to launch an activity from the background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In startNextMatchingActivity of ActivityTaskManagerService.java, there is a possible way to launch an activity from the background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In startNextMatchingActivity of ActivityTaskManagerService.java, there is a possible way to launch an activity from the background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In startNextMatchingActivity of ActivityTaskManagerService.java, there is a possible way to launch an activity from the background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48627',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -673,8 +691,8 @@
     title: 'CVE-2025-48628 In validateIconUserBoundary of PrintManagerService.java, there is a possible cross-user image leak d...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48628',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In validateIconUserBoundary of PrintManagerService.java, there is a possible cross-user image leak due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In validateIconUserBoundary of PrintManagerService.java, there is a possible cross-user image leak due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In validateIconUserBoundary of PrintManagerService.java, there is a possible cross-user image leak due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In validateIconUserBoundary of PrintManagerService.java, there is a possible cross-user image leak due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48628',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -682,8 +700,8 @@
     title: 'CVE-2025-48629 In findAvailRecognizer of VoiceInteractionManagerService.java, there is a possible way to become the...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48629',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In findAvailRecognizer of VoiceInteractionManagerService.java, there is a possible way to become the default speech recognizer app due to an insecure default value. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In findAvailRecognizer of VoiceInteractionManagerService.java, there is a possible way to become the default speech recognizer app due to an insecure default value. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In findAvailRecognizer of VoiceInteractionManagerService.java, there is a possible way to become the default speech recognizer app due to an insecure default value. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In findAvailRecognizer of VoiceInteractionManagerService.java, there is a possible way to become the default speech recognizer app due to an insecure default value. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48629',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -691,8 +709,8 @@
     title: 'CVE-2025-48631 In onHeaderDecoded of LocalImageResolver.java, there is a possible persistent denial of service due ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48631',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onHeaderDecoded of LocalImageResolver.java, there is a possible persistent denial of service due to resource exhaustion. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onHeaderDecoded of LocalImageResolver.java, there is a possible persistent denial of service due to resource exhaustion. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onHeaderDecoded of LocalImageResolver.java, there is a possible persistent denial of service due to resource exhaustion. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In onHeaderDecoded of LocalImageResolver.java, there is a possible persistent denial of service due to resource exhaustion. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48631',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -700,8 +718,8 @@
     title: 'CVE-2025-48632 In setDisplayName of AssociationRequest.java, there is a possible way to cause CDM associations to p...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48632',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In setDisplayName of AssociationRequest.java, there is a possible way to cause CDM associations to persist after the user has disassociated them due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In setDisplayName of AssociationRequest.java, there is a possible way to cause CDM associations to persist after the user has disassociated them due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In setDisplayName of AssociationRequest.java, there is a possible way to cause CDM associations to persist after the user has disassociated them due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In setDisplayName of AssociationRequest.java, there is a possible way to cause CDM associations to persist after the user has disassociated them due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48632',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -709,8 +727,8 @@
     title: 'CVE-2025-48633 In hasAccountsOnAnyUser of DevicePolicyManagerService.java, there is a possible way to add a Device ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48633',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In hasAccountsOnAnyUser of DevicePolicyManagerService.java, there is a possible way to add a Device Owner after provisioning due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In hasAccountsOnAnyUser of DevicePolicyManagerService.java, there is a possible way to add a Device Owner after provisioning due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In hasAccountsOnAnyUser of DevicePolicyManagerService.java, there is a possible way to add a Device Owner after provisioning due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In hasAccountsOnAnyUser of DevicePolicyManagerService.java, there is a possible way to add a Device Owner after provisioning due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48633',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -718,8 +736,8 @@
     title: 'CVE-2025-48637 In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer ov...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48637',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48637',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -727,8 +745,8 @@
     title: 'CVE-2025-48638 In __pkvm_load_tracing of trace.c, there is a possible out-of-bounds write due to improper input val...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48638',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In __pkvm_load_tracing of trace.c, there is a possible out-of-bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In __pkvm_load_tracing of trace.c, there is a possible out-of-bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In __pkvm_load_tracing of trace.c, there is a possible out-of-bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In __pkvm_load_tracing of trace.c, there is a possible out-of-bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48638',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -736,8 +754,8 @@
     title: 'CVE-2025-48639 In DefaultTransitionHandler.java, there is a possible way to unknowingly grant permissions to an app...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-48639',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In DefaultTransitionHandler.java, there is a possible way to unknowingly grant permissions to an app due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In DefaultTransitionHandler.java, there is a possible way to unknowingly grant permissions to an app due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In DefaultTransitionHandler.java, there is a possible way to unknowingly grant permissions to an app due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[In DefaultTransitionHandler.java, there is a possible way to unknowingly grant permissions to an app due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-48639',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -745,8 +763,8 @@
     title: "CVE-2025-59391 A memory disclosure vulnerability exists in libcoap's OSCORE configuration parser in libcoap before ...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-59391',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A memory disclosure vulnerability exists in libcoap's OSCORE configuration parser in libcoap before release-4.3.5-patches. An out-of-bounds read may occur when parsing certain configuration values, allowing an attacker to infer or read memory beyond string boundaries in the .rodata section. This could potentially lead to information disclosure or denial of service. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
-    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A memory disclosure vulnerability exists in libcoap's OSCORE configuration parser in libcoap before release-4.3.5-patches. An out-of-bounds read may occur when parsing certain configuration values, allowing an attacker to infer or read memory beyond string boundaries in the .rodata section. This could potentially lead to information disclosure or denial of service. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
+    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A memory disclosure vulnerability exists in libcoap's OSCORE configuration parser in libcoap before release-4.3.5-patches. An out-of-bounds read may occur when parsing certain configuration values, allowing an attacker to infer or read memory beyond string boundaries in the .rodata section. This could potentially lead to information disclosure or denial of service. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
+    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A memory disclosure vulnerability exists in libcoap's OSCORE configuration parser in libcoap before release-4.3.5-patches. An out-of-bounds read may occur when parsing certain configuration values, allowing an attacker to infer or read memory beyond string boundaries in the .rodata section. This could potentially lead to information disclosure or denial of service. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
     guid: 'CVE-2025-59391',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -754,8 +772,8 @@
     title: 'CVE-2025-63721 HummerRisk thru v1.5.0 is using a vulnerable Snakeyaml component allowing attackers to achieve RCE a...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63721',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[HummerRisk thru v1.5.0 is using a vulnerable Snakeyaml component allowing attackers to achieve RCE and take over the server. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[HummerRisk thru v1.5.0 is using a vulnerable Snakeyaml component allowing attackers to achieve RCE and take over the server. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[HummerRisk thru v1.5.0 is using a vulnerable Snakeyaml component allowing attackers to achieve RCE and take over the server. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[HummerRisk thru v1.5.0 is using a vulnerable Snakeyaml component allowing attackers to achieve RCE and take over the server. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-63721',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -763,8 +781,8 @@
     title: 'CVE-2025-65363 Authenticated append-style command-injection Ruijie APs (AP_RGOS 11.1.x) allows an authenticated web...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65363',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Authenticated append-style command-injection Ruijie APs (AP_RGOS 11.1.x) allows an authenticated web user to execute appended shell expressions as root, enabling file disclosure, device disruption, and potential network pivoting via the command parameter to the web_action.do endpoint. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Authenticated append-style command-injection Ruijie APs (AP_RGOS 11.1.x) allows an authenticated web user to execute appended shell expressions as root, enabling file disclosure, device disruption, and potential network pivoting via the command parameter to the web_action.do endpoint. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Authenticated append-style command-injection Ruijie APs (AP_RGOS 11.1.x) allows an authenticated web user to execute appended shell expressions as root, enabling file disclosure, device disruption, and potential network pivoting via the command parameter to the web_action.do endpoint. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Authenticated append-style command-injection Ruijie APs (AP_RGOS 11.1.x) allows an authenticated web user to execute appended shell expressions as root, enabling file disclosure, device disruption, and potential network pivoting via the command parameter to the web_action.do endpoint. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-65363',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -772,8 +790,8 @@
     title: 'CVE-2025-65795 Incorrect access control in the /api/v1/user endpoint of usememos memos v0.25.2 allows unauthorized ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65795',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in the /api/v1/user endpoint of usememos memos v0.25.2 allows unauthorized attackers to create arbitrary accounts via a crafted request. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in the /api/v1/user endpoint of usememos memos v0.25.2 allows unauthorized attackers to create arbitrary accounts via a crafted request. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in the /api/v1/user endpoint of usememos memos v0.25.2 allows unauthorized attackers to create arbitrary accounts via a crafted request. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in the /api/v1/user endpoint of usememos memos v0.25.2 allows unauthorized attackers to create arbitrary accounts via a crafted request. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-65795',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -781,8 +799,8 @@
     title: 'CVE-2025-65797 Incorrect access control in the Identity Provider service of usememos memos v0.25.2 allows attackers...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65797',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in the Identity Provider service of usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily modify or delete registered identity providers, leading to an account takeover or Denial of Service (DoS). | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in the Identity Provider service of usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily modify or delete registered identity providers, leading to an account takeover or Denial of Service (DoS). | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in the Identity Provider service of usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily modify or delete registered identity providers, leading to an account takeover or Denial of Service (DoS). | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in the Identity Provider service of usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily modify or delete registered identity providers, leading to an account takeover or Denial of Service (DoS). | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-65797',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -790,8 +808,8 @@
     title: 'CVE-2025-65799 A lack of file name validation or verification in the Attachment service of usememos memos v0.25.2 a...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65799',
     pubDate: 'Mon, 08 Dec 2025 17:16:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A lack of file name validation or verification in the Attachment service of usememos memos v0.25.2 allows attackers to execute a path traversal. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A lack of file name validation or verification in the Attachment service of usememos memos v0.25.2 allows attackers to execute a path traversal. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A lack of file name validation or verification in the Attachment service of usememos memos v0.25.2 allows attackers to execute a path traversal. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A lack of file name validation or verification in the Attachment service of usememos memos v0.25.2 allows attackers to execute a path traversal. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-65799',
     isoDate: '2025-12-08T17:16:00.000Z'
   },
@@ -799,12 +817,12 @@
     title: '#FrandroidOffreMoi un immense smartphone TCL',
     link: 'https//www.frandroid.com/actualites-generales/2901845_frandroidoffremoi-un-immense-smartphone-tcl',
     pubDate: 'Mon, 08 Dec 2025 17:06:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Vous pouvez gagner un smartphone en participant à notre concours #FrandroidOffreMoi. La case 8 de notre calendrier de l'Avent s'ouvre sur le TCL NXTPAPER 60 Ultra !/div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Vous pouvez gagner un smartphone en participant à notre concours #FrandroidOffreMoi. La case 8 de notre calendrier de l'Avent s'ouvre sur le TCL NXTPAPER 60 Ultra !/div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/actualites-generales/2901845_frandroidoffremoi-un-immense-smartphone-tcl',
     categories: [
       'Actualités Générales',
@@ -817,12 +835,12 @@
     title: 'Voici quel est le meilleur appareil photo hybride de 2025 – Frandroid Awards 2025',
     link: 'https//www.frandroid.com/produits-android/2894457_voici-quel-est-le-meilleur-appareil-photo-hybride-de-2025-frandroid-awards-2025',
     pubDate: 'Mon, 08 Dec 2025 17:00:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       'div>Le meilleur appareil photo hybride testé par Frandroid est le Nikon Z5 II. Découvrez pourquoi ce produit a reçu le Frandroid Awards avec Delos de sa catégorie./div>\r\n' +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       'div>Le meilleur appareil photo hybride testé par Frandroid est le Nikon Z5 II. Découvrez pourquoi ce produit a reçu le Frandroid Awards avec Delos de sa catégorie./div>\r\n' +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/produits-android/2894457_voici-quel-est-le-meilleur-appareil-photo-hybride-de-2025-frandroid-awards-2025',
     categories: [ 'Produits', 'Frandroid Awards 2025', 'Nikon Z5 II' ],
     isoDate: '2025-12-08T17:00:00.000Z'
@@ -831,8 +849,8 @@
     title: 'SEA (Seattle) on 2025-12-08',
     link: 'https//www.cloudflarestatus.com/incidents/1j1bqthv0zcy',
     pubDate: 'Mon, 08 Dec 2025 17:00:00 GMT',
-    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>8/var>, var data-var='time'>1700/var> - var data-var='time'>1900/var> UTC/strong>small>Dec var data-var='date'> 8/var>, var data-var='time'>1618/var> UTC/small>strong>Update/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-08 between 1700 and 1900 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.small>Dec var data-var='date'> 8/var>, var data-var='time'>1616/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-08 between 1630 and 1830 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
-    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>8/var>, var data-var='time'>1700/var> - var data-var='time'>1900/var> UTC/strong>small>Dec var data-var='date'> 8/var>, var data-var='time'>1618/var> UTC/small>strong>Update/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-08 between 1700 and 1900 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.small>Dec var data-var='date'> 8/var>, var data-var='time'>1616/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-08 between 1630 and 1830 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
+    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>8/var>, var data-var='time'>1700/var> - var data-var='time'>1900/var> UTC/strong>small>Dec var data-var='date'> 8/var>, var data-var='time'>1618/var> UTC/small>strong>Update/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-08 between 1700 and 1900 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.small>Dec var data-var='date'> 8/var>, var data-var='time'>1616/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-08 between 1630 and 1830 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
+    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>8/var>, var data-var='time'>1700/var> - var data-var='time'>1900/var> UTC/strong>small>Dec var data-var='date'> 8/var>, var data-var='time'>1618/var> UTC/small>strong>Update/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-08 between 1700 and 1900 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.small>Dec var data-var='date'> 8/var>, var data-var='time'>1616/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-08 between 1630 and 1830 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
     guid: 'https://www.cloudflarestatus.com/incidents/1j1bqthv0zcy',
     isoDate: '2025-12-08T17:00:00.000Z'
   },
@@ -840,12 +858,12 @@
     title: 'Où regarder tous les films du studio Ghibli en streaming ?',
     link: 'https//www.numerama.com/pop-culture/1492672-ou-voir-tous-les-films-de-ghibli-en-streaming.html',
     pubDate: 'Mon, 08 Dec 2025 16:58:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "Mon Voisin Totoro, Le Tombeau des Lucioles, Le Château Ambulant, Princesse Mononoké... Depuis déjà plus de 40 ans, le studio Ghibli nous offre des chefs-d'œuvre du cinéma d'animation. Si vous cherchez où voir ces classiques, la réponse s'appelle Netflix ou France.TV, selon ce que vous voulez voir.\r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "Mon Voisin Totoro, Le Tombeau des Lucioles, Le Château Ambulant, Princesse Mononoké... Depuis déjà plus de 40 ans, le studio Ghibli nous offre des chefs-d'œuvre du cinéma d'animation. Si vous cherchez où voir ces classiques, la réponse s'appelle Netflix ou France.TV, selon ce que vous voulez voir.\r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>',
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.numerama.com/pop-culture/1492672-ou-voir-tous-les-films-de-ghibli-en-streaming.html',
     categories: [
       'Pop culture',
@@ -867,12 +885,12 @@
     title: 'Personne n’imagine Hideo Kojima faire un jeu d’horreur qui ne fonctionne pas… sauf lui',
     link: 'https//www.numerama.com/pop-culture/2137139-personne-nimagine-hideo-kojima-faire-un-jeu-dhorreur-qui-ne-fonctionne-pas-sauf-lui.html',
     pubDate: 'Mon, 08 Dec 2025 16:55:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "Hideo Kojima entend réinventer le jeu d'horreur avec OD. Mais ses dernières déclarations à ce sujet laissent entendre qu'il pourrait échouer. \r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "Hideo Kojima entend réinventer le jeu d'horreur avec OD. Mais ses dernières déclarations à ce sujet laissent entendre qu'il pourrait échouer. \r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>',
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.numerama.com/pop-culture/2137139-personne-nimagine-hideo-kojima-faire-un-jeu-dhorreur-qui-ne-fonctionne-pas-sauf-lui.html',
     categories: [ 'Jeux Vidéo', 'Hideo Kojima', 'horreur', 'OD' ],
     isoDate: '2025-12-08T16:55:00.000Z'
@@ -881,12 +899,12 @@
     title: 'Meilleurs ordinateurs portables Acer  notre sélection de PC en 2025',
     link: 'https//www.frandroid.com/guide-dachat/guides-dachat-ordinateurs/1532466_quels-sont-les-meilleurs-pc-portables-acer',
     pubDate: 'Mon, 08 Dec 2025 16:51:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>La marque Acer est un mastodonte sur le secteur des ordinateurs portables. Vous aimez leurs machines mais vous ne savez pas quel modèle à choisir ? Voici notre sélection des meilleurs PC portables Acer à l'heure actuelle./div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>La marque Acer est un mastodonte sur le secteur des ordinateurs portables. Vous aimez leurs machines mais vous ne savez pas quel modèle à choisir ? Voici notre sélection des meilleurs PC portables Acer à l'heure actuelle./div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/guide-dachat/guides-dachat-ordinateurs/1532466_quels-sont-les-meilleurs-pc-portables-acer',
     categories: [
       'Acer',
@@ -912,12 +930,12 @@
     title: 'Apple va proposer ses cours Fitness+ dans plusieurs langues… mais oublie la VF',
     link: 'https//www.numerama.com/tech/2137161-apple-va-proposer-ses-cours-fitness-dans-plusieurs-langues-mais-oublie-la-vf.html',
     pubDate: 'Mon, 08 Dec 2025 16:47:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "Apple a annoncé le 8 décembre 2025 la plus grande expansion de son service Fitness+  28 nouveaux marchés rejoindront la plateforme le 15 décembre, accompagnés de trois nouvelles langues de doublage. Pour l'heure, aucune VF ne semble prévue. \r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "Apple a annoncé le 8 décembre 2025 la plus grande expansion de son service Fitness+  28 nouveaux marchés rejoindront la plateforme le 15 décembre, accompagnés de trois nouvelles langues de doublage. Pour l'heure, aucune VF ne semble prévue. \r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.numerama.com/tech/2137161-apple-va-proposer-ses-cours-fitness-dans-plusieurs-langues-mais-oublie-la-vf.html',
     categories: [
       'Applications',
@@ -935,12 +953,12 @@
     title: 'Mon Voisin Totoro, Chihiro… La liste des 11 films Ghibli en streaming gratuit sur France TV',
     link: 'https//www.numerama.com/pop-culture/2121889-mon-voisin-totoro-chihiro-la-liste-des-11-films-ghibli-en-streaming-gratuit-sur-france-tv.html',
     pubDate: 'Mon, 08 Dec 2025 16:39:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "C'est parti  comme promis, France Télévisions a lancé son marathon Ghibli le 6 décembre 2025. En tout, 11 films du studio japonais vont être proposés gratuitement en streaming légal en France. Deux longs-métrages sont d'ores et déjà sortis. Noël avant l'heure.\r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "C'est parti  comme promis, France Télévisions a lancé son marathon Ghibli le 6 décembre 2025. En tout, 11 films du studio japonais vont être proposés gratuitement en streaming légal en France. Deux longs-métrages sont d'ores et déjà sortis. Noël avant l'heure.\r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.numerama.com/pop-culture/2121889-mon-voisin-totoro-chihiro-la-liste-des-11-films-ghibli-en-streaming-gratuit-sur-france-tv.html',
     categories: [
       'Pop culture',
@@ -960,12 +978,12 @@
     title: '« Pour la toute première fois de l’histoire », l’ISS affiche complet  il n’y a plus de place pour un autre vaisseau spatial',
     link: 'https//www.numerama.com/sciences/2137017-pour-la-toute-premiere-fois-de-lhistoire-liss-affiche-complet-il-ny-a-plus-de-place-pour-un-autre-vaisseau-spatial.html',
     pubDate: 'Mon, 08 Dec 2025 16:32:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "C'est une image inédite à 400 km d'altitude  tous les ports de la Station spatiale internationale sont occupés. Avec l'arrivée récente de capsules SpaceX et russes, l'ISS sature sa capacité d'accueil pour la première fois avec huit véhicules amarrés en même temps.\r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       "C'est une image inédite à 400 km d'altitude  tous les ports de la Station spatiale internationale sont occupés. Avec l'arrivée récente de capsules SpaceX et russes, l'ISS sature sa capacité d'accueil pour la première fois avec huit véhicules amarrés en même temps.\r\n" +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.numerama.com/sciences/2137017-pour-la-toute-premiere-fois-de-lhistoire-liss-affiche-complet-il-ny-a-plus-de-place-pour-un-autre-vaisseau-spatial.html',
     categories: [
       'Conquête spatiale',
@@ -982,12 +1000,12 @@
     title: 'Ce PC gaming Lenovo étire son écran à la demande pour jouer plus confortablement',
     link: 'https//www.frandroid.com/marques/lenovo/2901781_ce-pc-gaming-lenovo-etire-son-ecran-a-la-demande-pour-jouer-plus-confortablement',
     pubDate: 'Mon, 08 Dec 2025 16:30:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Lenovo s’apprêterait à dévoiler un PC portable de la gamme Legion capable d'élargir son écran pour passer d'un format classique à un affichage ultra-large./div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Lenovo s’apprêterait à dévoiler un PC portable de la gamme Legion capable d'élargir son écran pour passer d'un format classique à un affichage ultra-large./div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/marques/lenovo/2901781_ce-pc-gaming-lenovo-etire-son-ecran-a-la-demande-pour-jouer-plus-confortablement',
     categories: [
       'Gaming',
@@ -1006,12 +1024,12 @@
     title: 'L’Apple Watch Ultra façon Realme devient encore plus abordable à moins de 40 €',
     link: 'https//www.frandroid.com/bons-plans/2902303_lapple-watch-ultra-facon-realme-devient-encore-plus-abordable-a-moins-de-40-e',
     pubDate: 'Mon, 08 Dec 2025 16:24:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Avec son look d'Apple Watch Ultra, la Realme Watch 5 est pourtant une montre connectée qui se vend à un prix bien plus accessible surtout avec cette offre  36 euros contre 69 euros de base.  /div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       "div>Avec son look d'Apple Watch Ultra, la Realme Watch 5 est pourtant une montre connectée qui se vend à un prix bien plus accessible surtout avec cette offre  36 euros contre 69 euros de base.  /div>\r\n" +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/bons-plans/2902303_lapple-watch-ultra-facon-realme-devient-encore-plus-abordable-a-moins-de-40-e',
     categories: [
       'Bons plans',
@@ -1030,12 +1048,12 @@
     title: 'Paradise saison 2  quand sort la suite de la série Disney+ ?',
     link: 'https//www.numerama.com/pop-culture/1902907-paradise-saison-2-quand-sort-la-suite-de-la-serie-disney.html',
     pubDate: 'Mon, 08 Dec 2025 16:23:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       'La série, qui mêle science-fiction, enquête policière et drame intimiste, a rapidement été renouvelée pour une saison 2. Mais quand pourra-t-on découvrir la suite de Paradise sur Disney+ ?\r\n' +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[\r\n' +
       'La série, qui mêle science-fiction, enquête policière et drame intimiste, a rapidement été renouvelée pour une saison 2. Mais quand pourra-t-on découvrir la suite de Paradise sur Disney+ ?\r\n' +
-      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+      ']]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.numerama.com/pop-culture/1902907-paradise-saison-2-quand-sort-la-suite-de-la-serie-disney.html',
     categories: [
       'Pop culture',
@@ -1052,12 +1070,12 @@
     title: 'Finie la jungle de la recharge des voitures électriques  cet abonnement unique à moins de 10 € va enfin vous simplifier la vie en baissant les prix',
     link: 'https//www.frandroid.com/survoltes/voitures-electriques/2902061_finie-la-jungle-de-la-recharge-des-voitures-electriques-cet-abonnement-unique-a-moins-de-10-e-va-enfin-vous-simplifier-la-vie-en-baissant-les-prix',
     pubDate: 'Mon, 08 Dec 2025 16:17:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       'div>Fini le casse-tête des applications multiples et des tarifs opaques. Electra vient de lancer Electra+ Boost, un abonnement unique qui promet de simplifier radicalement la vie des conducteurs de voitures électriques en Europe./div>\r\n' +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">\r\n' +
       'div>Fini le casse-tête des applications multiples et des tarifs opaques. Electra vient de lancer Electra+ Boost, un abonnement unique qui promet de simplifier radicalement la vie des conducteurs de voitures électriques en Europe./div>\r\n' +
-      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>',
+      '/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>]]>',
     guid: 'https://www.frandroid.com/survoltes/voitures-electriques/2902061_finie-la-jungle-de-la-recharge-des-voitures-electriques-cet-abonnement-unique-a-moins-de-10-e-va-enfin-vous-simplifier-la-vie-en-baissant-les-prix',
     categories: [ 'Survoltés', 'Voitures électriques', 'Borne de recharge' ],
     isoDate: '2025-12-08T16:17:00.000Z'
@@ -1066,8 +1084,8 @@
     title: 'CVE-2025-14250 A weakness has been identified in code-projects Online Ordering System 1.0. The impacted element is ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14250',
     pubDate: 'Mon, 08 Dec 2025 16:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A weakness has been identified in code-projects Online Ordering System 1.0. The impacted element is an unknown function of the file /user_contact.php. This manipulation of the argument Name causes sql injection. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A weakness has been identified in code-projects Online Ordering System 1.0. The impacted element is an unknown function of the file /user_contact.php. This manipulation of the argument Name causes sql injection. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A weakness has been identified in code-projects Online Ordering System 1.0. The impacted element is an unknown function of the file /user_contact.php. This manipulation of the argument Name causes sql injection. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A weakness has been identified in code-projects Online Ordering System 1.0. The impacted element is an unknown function of the file /user_contact.php. This manipulation of the argument Name causes sql injection. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-14250',
     isoDate: '2025-12-08T16:15:00.000Z'
   },
@@ -1075,8 +1093,8 @@
     title: 'CVE-2025-14251 A security vulnerability has been detected in code-projects Online Ordering System 1.0. This affects...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14251',
     pubDate: 'Mon, 08 Dec 2025 16:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A security vulnerability has been detected in code-projects Online Ordering System 1.0. This affects an unknown function of the file /admin/ of the component Admin Login. Such manipulation of the argument Username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A security vulnerability has been detected in code-projects Online Ordering System 1.0. This affects an unknown function of the file /admin/ of the component Admin Login. Such manipulation of the argument Username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A security vulnerability has been detected in code-projects Online Ordering System 1.0. This affects an unknown function of the file /admin/ of the component Admin Login. Such manipulation of the argument Username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[A security vulnerability has been detected in code-projects Online Ordering System 1.0. This affects an unknown function of the file /admin/ of the component Admin Login. Such manipulation of the argument Username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 7.3 (HIGH)  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-14251',
     isoDate: '2025-12-08T16:15:00.000Z'
   },
@@ -1084,8 +1102,8 @@
     title: 'CVE-2025-14271 Rejected reason This CVE ID has been withdrawn by its CVE Numbering Authority.',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14271',
     pubDate: 'Mon, 08 Dec 2025 16:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Rejected reason This CVE ID has been withdrawn by its CVE Numbering Authority. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Rejected reason This CVE ID has been withdrawn by its CVE Numbering Authority. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Rejected reason This CVE ID has been withdrawn by its CVE Numbering Authority. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Rejected reason This CVE ID has been withdrawn by its CVE Numbering Authority. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-14271',
     isoDate: '2025-12-08T16:15:00.000Z'
   },
@@ -1093,28 +1111,10 @@
     title: 'CVE-2025-61318 Emlog Pro 2.5.20 has an arbitrary file deletion vulnerability. This vulnerability stems from the adm...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-61318',
     pubDate: 'Mon, 08 Dec 2025 16:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Emlog Pro 2.5.20 has an arbitrary file deletion vulnerability. This vulnerability stems from the admin/template.php component and the admin/plugin.php component. They fail to perform path verification and dangerous code filtering for deletion parameters, allowing attackers to exploit this feature for directory traversal. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Emlog Pro 2.5.20 has an arbitrary file deletion vulnerability. This vulnerability stems from the admin/template.php component and the admin/plugin.php component. They fail to perform path verification and dangerous code filtering for deletion parameters, allowing attackers to exploit this feature for directory traversal. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
+    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Emlog Pro 2.5.20 has an arbitrary file deletion vulnerability. This vulnerability stems from the admin/template.php component and the admin/plugin.php component. They fail to perform path verification and dangerous code filtering for deletion parameters, allowing attackers to exploit this feature for directory traversal. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
+    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Emlog Pro 2.5.20 has an arbitrary file deletion vulnerability. This vulnerability stems from the admin/template.php component and the admin/plugin.php component. They fail to perform path verification and dangerous code filtering for deletion parameters, allowing attackers to exploit this feature for directory traversal. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
     guid: 'CVE-2025-61318',
     isoDate: '2025-12-08T16:15:00.000Z'
   },
-  {
-    title: 'CVE-2025-65796 Incorrect access control in usememos memos v0.25.2 allows attackers with low-level privileges to arb...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65796',
-    pubDate: 'Mon, 08 Dec 2025 16:15:00 GMT',
-    content: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily delete reactions made to other users' Memos. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ",
-    contentSnippet: "![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily delete reactions made to other users' Memos. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>",
-    guid: 'CVE-2025-65796',
-    isoDate: '2025-12-08T16:15:00.000Z'
-  },
-  {
-    title: 'CVE-2025-65798 Incorrect access control in usememos memos v0.25.2 allows attackers with low-level privileges to arb...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65798',
-    pubDate: 'Mon, 08 Dec 2025 16:15:00 GMT',
-    content: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily modify or delete attachments made by other users. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ',
-    contentSnippet: '![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[Incorrect access control in usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily modify or delete attachments made by other users. | Severity UNKNOWN  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>',
-    guid: 'CVE-2025-65798',
-    isoDate: '2025-12-08T16:15:00.000Z'
-  },
-  ... 38 more items
+  ... 40 more items
 ]
