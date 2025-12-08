@@ -8,12 +8,117 @@
     <pubDate>Tue, 13 Jun 2023 04:17:50 GMT</pubDate>
     <language>en-us</language>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <lastBuildDate>Mon, 08 Dec 2025 12:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 13:23:00 GMT</lastBuildDate>
     <image>
       <title>Node.js News</title>
       <url>https://nodejs.org/static/images/logo-hexagon-card.png</url>
       <link>https://github.com/nodejs/nodejs-news-feeder</link>
     </image>
-  </channel>
+    <item>
+      <title>CVE-2025-14245 A vulnerability has been found in IdeaCMS up to 1.8. This affects the function whereRaw of the file ...</title>
+      <description>![CDATA[A vulnerability has been found in IdeaCMS up to 1.8. This affects the function whereRaw of the file app/common/logic/index/Coupon.php. Such manipulation of the argument params leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)  ]]>  </description>
+      <pubDate>Mon, 08 Dec 2025 13:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-14245</link>
+      <guid>CVE-2025-14245</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42616 Some endpoints in vulnerability-lookup that modified 
+application state (e.g. changing database entr...</title>
+      <description>![CDATA[Some endpoints in vulnerability-lookup that modified 
+application state (e.g. changing database entries, user data, 
+configurations, or other privileged actions) may have been accessible 
+via HTTP GET requests without requiring a CSRF token. This flaw leaves 
+the application vulnerable to Cross-Site Request Forgery (CSRF) attacks
+ an attacker who tricks a logged-in user into visiting a malicious 
+website could cause the user’s browser to issue GET requests that 
+perform unintended state-changing operations in the context of their 
+authenticated session.
 
+
+Because the server would treat these GET requests as valid (since no 
+CSRF protection or POST method enforcement was in place), the attacker 
+could exploit this to escalate privileges, change settings, or carry out
+ other unauthorized actions without needing the user’s explicit consent 
+or awareness. 
+The fix ensures that all state-changing endpoints now require HTTP POST 
+requests and include a valid CSRF token. This enforces that state 
+changes cannot be triggered by arbitrary cross-site GET requests. This issue affects Vulnerability-Lookup before 2.18.0. | Severity UNKNOWN  ]]></description>
+      <pubDate>Mon, 08 Dec 2025 13:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-42616</link>
+      <guid>CVE-2025-42616</guid>
+    </item>
+    <item>
+      <title>CVE-2025-42620 In affected versions, vulnerability-lookup handled user-controlled 
+content in comments and bundles ...</title>
+      <description>![CDATA[In affected versions, vulnerability-lookup handled user-controlled 
+content in comments and bundles in an unsafe way, which could lead to 
+stored Cross-Site Scripting (XSS).
+
+
+
+
+On the backend, the related_vulnerabilities field of bundles accepted 
+arbitrary strings without format validation or proper sanitization. On 
+the frontend, comment and bundle descriptions were converted from 
+Markdown to HTML and then injected directly into the DOM using string 
+templates and innerHTML. This combination allowed an attacker who could 
+create or edit comments or bundles to store crafted HTML/JavaScript 
+payloads which would later be rendered and executed in the browser of 
+any user visiting the affected profile page (user.html). 
+
+
+
+
+
+
+
+This issue affects Vulnerability-Lookup before 2.18.0. | Severity UNKNOWN  ]]></description>
+      <pubDate>Mon, 08 Dec 2025 13:15:00 GMT</pubDate>
+      <link>https//nvd.nist.gov/vuln/detail/CVE-2025-42620</link>
+      <guid>CVE-2025-42620</guid>
+    </item>
+    <item>
+      <title>Voici la meilleure façon d’utiliser Google Agenda sur Windows 11</title>
+      <description>![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">
+div>Astral permet aux utilisateurs sur Windows d'avoir accès à une application native pour gérer leur Google Agenda. Avec sa nouvelle version, l'application prend en charge le multicomptes et dévoile des options de visioconférences.   /div>
+/div>]]>  ]]></description>
+      <pubDate>Mon, 08 Dec 2025 13:15:00 GMT</pubDate>
+      <link>https//www.frandroid.com/marques/microsoft/2901795_voici-la-meilleure-facon-dutiliser-google-agenda-sur-windows-11</link>
+      <guid>https://www.frandroid.com/marques/microsoft/2901795_voici-la-meilleure-facon-dutiliser-google-agenda-sur-windows-11</guid>
+      <category><![CDATA[Marques]]></category>
+      <category><![CDATA[Microsoft]]></category>
+      <category><![CDATA[OS]]></category>
+      <category><![CDATA[PC]]></category>
+      <category><![CDATA[Produits]]></category>
+      <category><![CDATA[Windows]]></category>
+      <category><![CDATA[Google Agenda]]></category>
+    </item>
+    <item>
+      <title>Rachat de Warner Bros.  Netflix assure que « rien ne change »… pour l’instant</title>
+      <description>![CDATA[![CDATA[
+Dans un mail envoyé à ses abonnés le 7 décembre 2025, Netflix a tenté de rassurer après l'annonce du rachat de Warner Bros. Si la société indique que « rien ne change aujourd'hui », cela pourrait bien finir par changer à terme. 
+]]>  ]]></description>
+      <pubDate>Mon, 08 Dec 2025 13:09:00 GMT</pubDate>
+      <link>https//www.numerama.com/tech/2136801-rachat-de-warner-bros-netflix-assure-que-rien-ne-change-pour-linstant.html</link>
+      <guid>https://www.numerama.com/tech/2136801-rachat-de-warner-bros-netflix-assure-que-rien-ne-change-pour-linstant.html</guid>
+      <category><![CDATA[Streaming]]></category>
+      <category><![CDATA[Tech]]></category>
+      <category><![CDATA[HBO]]></category>
+      <category><![CDATA[HBO Max]]></category>
+      <category><![CDATA[Netflix]]></category>
+      <category><![CDATA[Rachat de Warner Bros par Netflix]]></category>
+      <category><![CDATA[Warner Bros.]]></category>
+    </item>
+    <item>
+      <title>N’utilisez plus ce vélo électrique vendu par Decathlon et Nature  Découvertes  un défaut le rend dangereux, un rappel est en cours</title>
+      <description>![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">
+div>AddBike lance une campagne de rappel visant l’ensemble des vélos cargo U-Cargo équipés d’une fourche rigide, commercialisés en France depuis 2020. Cette procédure fait suite à la détection d’un possible défaut de fabrication au niveau du cintrage des fourreaux de fourche, susceptible d’entraîner un risque de blessure pour l’utilisateur./div>
+/div>]]>  ]]></description>
+      <pubDate>Mon, 08 Dec 2025 12:54:00 GMT</pubDate>
+      <link>https//www.frandroid.com/survoltes/velo-electrique/2902011_nutilisez-plus-ce-velo-electrique-vendu-par-decathlon-et-nature-decouvertes-un-defaut-le-rend-dangereux-un-rappel-est-en-cours</link>
+      <guid>https://www.frandroid.com/survoltes/velo-electrique/2902011_nutilisez-plus-ce-velo-electrique-vendu-par-decathlon-et-nature-decouvertes-un-defaut-le-rend-dangereux-un-rappel-est-en-cours</guid>
+      <category><![CDATA[Survoltés]]></category>
+      <category><![CDATA[Vélos électriques]]></category>
+    </item>
+  </channel>
 </rss>
