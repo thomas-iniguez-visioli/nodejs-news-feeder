@@ -230,6 +230,7 @@ async function updateFeedWithAllItems() {
     const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`;
     overwriteFeedContent(updatedFeedContent);
   });
+  process.exit(0)
 }
 
 updateFeedWithAllItems();
