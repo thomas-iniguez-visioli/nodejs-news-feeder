@@ -233,6 +233,7 @@ async function updateFeedWithAllItems() {
     const [before, after] = feedContent.split(breakDelimiter);
     const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`;
     overwriteFeedContent(updatedFeedContent);
+    return
   });
   process.exit(0)
 }
