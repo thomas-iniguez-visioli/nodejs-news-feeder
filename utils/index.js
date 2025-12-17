@@ -123,7 +123,7 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
     preserveLineBreaks: false,
     normalizeWhitespace: true
   })
-
+  console.log(cleanTitle)
   const cleanDescription = cleancontent(description, {
     stripHtml: true,
     preserveLineBreaks: false,

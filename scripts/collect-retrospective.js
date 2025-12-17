@@ -2,19 +2,19 @@ import got from 'got'
 import ParseRss from 'rss-parser'
 import { parse } from 'node-html-parser';
 import * as https from 'node:https'
-import {readFileSync,appendFileSync,existsSync} from'node:fs'
+import { readFileSync, appendFileSync, existsSync } from 'node:fs'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl, filterFeedItems } from '../utils/index.js'
 const staticDnsAgent = (resolvconf) => new https.Agent({
   lookup: (hostname, opts, cb) => {
     //console.log(resolvconf[0].address)
     //console.log(hostname)
     //console.log(opts)
-  cb(null, resolvconf, resolvconf[0].family)
-  },timeout:30000000,keepAlive:true
+    cb(null, resolvconf, resolvconf[0].family)
+  }, timeout: 30000000, keepAlive: true
 });
-var resolvConf=[]
+var resolvConf = []
 resolvConf.push({
-  address: '82.67.8.211', 
+  address: '82.67.8.211',
   family: 4,
 })
 // Collect new retrospective
@@ -31,7 +31,8 @@ const addfeed = async (url) => {
         description: `<![CDATA[<p>${dat.content || dat.summary}</p>]]>`,
         pubDate: buildRFC822Date(dat.pubDate),
         link: dat.link,
-        guid: dat.guid,categories:dat.categories||[]      })
+        guid: dat.guid, categories: dat.categories || []
+      })
       const feedContent = getFeedContent()
       // Vérification doublon dans le feed
       if (!feedContent.includes(`<guid>${dat.guid}</guid>`)) {
@@ -48,129 +49,131 @@ const addfeed = async (url) => {
 addfeed('https://cvefeed.io/rssfeed/latest.xml')
 addfeed("https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet")
 addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
-  try {
-    //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
-   var html ="" 
-   https.get("https://bonjourlafuite.eu.org/",{agent: staticDnsAgent(resolvConf)
-    
-  },response=>{ 
-     response.setTimeout(3000000, function() {
-    //console.log("temp")
-  });
-     response.on('timeout', function () {console.log("timeout")})
-  response.on('data', (chunk) => {
-    html += chunk;
-    //console.log(html.length)
-  })
-  response.on("end",(da)=>{
-    
-    const buffer = html
-    
-   
-  const parsedHtml = parse(buffer.toString());
-  const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
-  const jsonData = Array.from(timelineEntries).map(entry => {
-    const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
-    //console.log(buildRFC822Date(timestamp))
-    const title = "Fuite de données chez "+entry.querySelector('h2').textContent.replace(/&/g,"").trim().replaceAll("  "," ");
-   var content = entry.querySelector('p').textContent;
-    const contentList = entry.querySelector('p ul');
-    if (contentList) {
-      const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
-      content = contentItems.join(', ');
-    }
-    const source = (() => {
-  const linkElement = entry.querySelector('a:not([id])') || entry.querySelector('a');
-  if (!linkElement) {
-    return '';
-  }
+try {
+  //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
+  var html = ""
+  https.get("https://bonjourlafuite.eu.org/", {
+    agent: staticDnsAgent(resolvConf)
 
-  const href = linkElement.getAttribute('href') || '';
-  if (!href) {
-    return '';
-  }
+  }, response => {
+    response.setTimeout(3000000, function () {
+      //console.log("temp")
+    });
+    response.on('timeout', function () { console.log("timeout") })
+    response.on('data', (chunk) => {
+      html += chunk;
+      //console.log(html.length)
+    })
+    response.on("end", (da) => {
+      console.log(da)
+      const buffer = html
 
-  return href.startsWith('http') ? href : `https://bonjourlafuite.eu.org${href}`;
-})();
-   //console.log(source)
-    return {
-      timestamp:timestamp,
-      title,
-      content,
-      source:source.replace(/&/g,""),link:"https://bonjourlafuite.eu.org/"+ entry.querySelector('a').getAttribute('href')
-    };
-  })
-  //console.log(JSON.stringify(jsonData,null,2));
-  jsonData.filter((dat)=>{
-     let already=[]
-    if(existsSync("./link.txt")){
-      already=readFileSync("./link.txt")
-    }
-    if(already.includes(dat.source)){
-      return false
-    }
-    appendFileSync("./link.txt",`\n${dat.source}`)
-    return true 
-  }).map((dat)=>{
-   
-    const retrospective = composeFeedItem({
-      title: dat.title,
-      description: `<![CDATA[<p>${dat.content}</p>]]>`,
-      pubDate: dat.timestamp,
-      link: dat.link,source:dat.source,
-      guid: dat.source,categories:dat.categories||[]
+
+      const parsedHtml = parse(buffer.toString());
+      const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
+      const jsonData = Array.from(timelineEntries).map(entry => {
+        const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
+        //console.log(buildRFC822Date(timestamp))
+        const title = "Fuite de données chez " + entry.querySelector('h2').textContent.replace(/&/g, "").trim().replaceAll("  ", " ");
+        var content = entry.querySelector('p').textContent;
+        const contentList = entry.querySelector('p ul');
+        if (contentList) {
+          const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
+          content = contentItems.join(', ');
+        }
+        const source = (() => {
+          const linkElement = entry.querySelector('a:not([id])') || entry.querySelector('a');
+          if (!linkElement) {
+            return '';
+          }
+
+          const href = linkElement.getAttribute('href') || '';
+          if (!href) {
+            return '';
+          }
+
+          return href.startsWith('http') ? href : `https://bonjourlafuite.eu.org/${href}`;
+        })();
+        console.log(source)
+        return {
+          timestamp: timestamp,
+          title,
+          content,
+          source: source.replace(/&/g, "").replaceAll("//img","/img"), link: "https://bonjourlafuite.eu.org/" + entry.querySelector('a').getAttribute('href')
+        };
+      })
+      //console.log(JSON.stringify(jsonData,null,2));
+      jsonData.filter((dat) => {
+        let already = []
+        if (existsSync("./link.txt")) {
+          already = readFileSync("./link.txt")
+        }
+        if (already.includes(dat.source)) {
+          return false
+        }
+        appendFileSync("./link.txt", `\n${dat.source}`)
+        return true
+      }).map((dat) => {
+
+        const retrospective = composeFeedItem({
+          title: dat.title,
+          description: `<![CDATA[<p>${dat.content}</p>]]>`,
+          pubDate: dat.timestamp,
+          link: dat.link, source: dat.source,
+          guid: dat.source, categories: dat.categories || []
+        })
+        // Add the new item to the feed
+
+        const feedContent = getFeedContent()
+        //console.log((dat.title))
+
+        const [before, after] = feedContent.split(breakDelimiter)
+        const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
+        overwriteFeedContent(updatedFeedContent)
+
+
+      })
     })
-    // Add the new item to the feed
-    
-    const feedContent = getFeedContent()
-    //console.log((dat.title))
-  
-      const [before, after] = feedContent.split(breakDelimiter)
-    const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
-    overwriteFeedContent(updatedFeedContent)
-   
-    
   })
-  })})
-  
-    
-  
-   /* const data = parseRetrospectiveContent(content)
-      console.log(data.nextDay)
-    const retrospective = composeFeedItem({
-      title: data.title,
-      description: `<![CDATA[<p>${data.description}</p>]]>`,
-      pubDate: buildRFC822Date(url.date_published),
-      link: generateRetroUIUrl(data.nextDay),
-      guid: data.nextDay
-    })
-    // Add the new item to the feed
-      const feedContent = getFeedContent()
-    const [before, after] = feedContent.split(breakDelimiter)
-    const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
-    overwriteFeedContent(updatedFeedContent)
-  
-    // Overwrite config with new dates
-    const config = getConfig()
-    overwriteConfig({
-      ...config,
-      retrospective: {
-        lastDay: data.lastDay,
-        nextDay: data.nextDay
-      }
-    })*/
-  } catch (error) {
-    console.log(error)
-    console.log("Retrospective not found or generated and error, so we're not updating the feed.")
-    console.log("Configuration for the retrospective won't be updated either.")
-  }
+
+
+
+  /* const data = parseRetrospectiveContent(content)
+     console.log(data.nextDay)
+   const retrospective = composeFeedItem({
+     title: data.title,
+     description: `<![CDATA[<p>${data.description}</p>]]>`,
+     pubDate: buildRFC822Date(url.date_published),
+     link: generateRetroUIUrl(data.nextDay),
+     guid: data.nextDay
+   })
+   // Add the new item to the feed
+     const feedContent = getFeedContent()
+   const [before, after] = feedContent.split(breakDelimiter)
+   const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
+   overwriteFeedContent(updatedFeedContent)
+ 
+   // Overwrite config with new dates
+   const config = getConfig()
+   overwriteConfig({
+     ...config,
+     retrospective: {
+       lastDay: data.lastDay,
+       nextDay: data.nextDay
+     }
+   })*/
+} catch (error) {
+  console.log(error)
+  console.log("Retrospective not found or generated and error, so we're not updating the feed.")
+  console.log("Configuration for the retrospective won't be updated either.")
+}
 // --- Nouvelle récupération améliorée ---
 const feedUrls = [
 
   'https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml',
   'https://feeds.feedburner.com/IntelligenceOnline-fr',
   'https://www.zataz.com/rss/zataz-news.rss',
-  'https://www.cloudflarestatus.com/feed.rss','https://www.numerama.com/feed/','https://www.frandroid.com/feed','https://www.opensourceprojects.dev/rss'
+  'https://www.cloudflarestatus.com/feed.rss', 'https://www.numerama.com/feed/', 'https://www.frandroid.com/feed', 'https://www.opensourceprojects.dev/rss'
 ];
 
 async function fetchAllFeeds(urls) {
@@ -182,14 +185,15 @@ async function fetchAllFeeds(urls) {
       return parsedXml.items.map((dat) => {
         const postDate = new Date(dat.pubDate);
         const formattedDate = `-${postDate.getFullYear()}-${String(postDate.getMonth() + 1).padStart(2, '0')}-${String(postDate.getDate()).padStart(2, '0')}`;
-        //console.log(dat)
+        // console.log(dat)
         return {
-        title: dat.title,
-        description: dat.content || dat.summary || '',
-        pubDate: buildRFC822Date(dat.pubDate),
-        link: dat.link ,
-        guid: dat.link ,categories:dat.categories||[]
-      }})
+          title: dat.title,
+          description: dat.content || dat.summary || '',
+          pubDate: buildRFC822Date(dat.pubDate),
+          link: dat.link,
+          guid: dat.link, categories: dat.categories || []
+        }
+      })
     } catch (err) {
       console.log(`Erreur récupération feed ${url}:`, err.message);
       return [];
@@ -199,6 +203,7 @@ async function fetchAllFeeds(urls) {
   const allItems = results.flat();
   const seen = new Set();
   return allItems.filter(item => {
+    // console.log(item.title)
     if (!item.title || !item.link) return false;
     const key = item.guid || item.link;
     if (seen.has(key)) return false;
@@ -209,33 +214,33 @@ async function fetchAllFeeds(urls) {
 
 async function updateFeedWithAllItems() {
   const items = await fetchAllFeeds(feedUrls);
-  items.filter((dat)=>{
-    
-     let already=[]
-    if(existsSync("./link.txt")){
-      already=readFileSync("./link.txt")
+  items.filter((dat) => {
+    // console.log(dat.guid)
+    let already = []
+    if (existsSync("./link.txt")) {
+      already = readFileSync("./link.txt")
     }
-    if(already.includes(dat.guid)){
+    if (already.includes(dat.guid)) {
       return false
     }
-    appendFileSync("./link.txt",`\n${dat.guid}`)
-   return true
+    appendFileSync("./link.txt", `\n${dat.guid}`)
+    return true
   }).forEach((dat) => {
-    console.log(dat.title)
-     const retrospective = composeFeedItem({
+    //  console.log(dat.title)
+    const retrospective = composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.description}</p>]]>`,
       pubDate: dat.pubDate,
       link: dat.link,
-      guid: dat.guid,categories:dat.categories||[]
+      guid: dat.guid, categories: dat.categories || []
     });
     const feedContent = getFeedContent();
     const [before, after] = feedContent.split(breakDelimiter);
     const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`;
     overwriteFeedContent(updatedFeedContent);
-    return
+
   });
-  process.exit(0)
+
 }
 
 updateFeedWithAllItems();
