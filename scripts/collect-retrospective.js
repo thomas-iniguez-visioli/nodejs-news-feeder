@@ -101,15 +101,18 @@ addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
     };
   })
   //console.log(JSON.stringify(jsonData,null,2));
-  jsonData.map((dat)=>{
-    let already=[]
+  jsonData.filter((dat)=>{
+     let already=[]
     if(existsSync("./link.txt")){
       already=readFileSync("./link.txt")
     }
     if(already.includes(dat.source)){
-      return
+      return false
     }
     appendFileSync("./link.txt",`\n${dat.source}`)
+    return true 
+  }).map((dat)=>{
+   
     const retrospective = composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.content}</p>]]>`,
