@@ -209,16 +209,19 @@ async function fetchAllFeeds(urls) {
 
 async function updateFeedWithAllItems() {
   const items = await fetchAllFeeds(feedUrls);
-  items.forEach((dat) => {
+  items.filter((dat)=>{
+    
      let already=[]
     if(existsSync("./link.txt")){
       already=readFileSync("./link.txt")
     }
     if(already.includes(dat.guid)){
-      return
+      return false
     }
     appendFileSync("./link.txt",`\n${dat.guid}`)
-    const retrospective = composeFeedItem({
+   return true
+  }).forEach((dat) => {
+     const retrospective = composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.description}</p>]]>`,
       pubDate: dat.pubDate,
