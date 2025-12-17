@@ -182,7 +182,7 @@ async function fetchAllFeeds(urls) {
       return parsedXml.items.map((dat) => {
         const postDate = new Date(dat.pubDate);
         const formattedDate = `-${postDate.getFullYear()}-${String(postDate.getMonth() + 1).padStart(2, '0')}-${String(postDate.getDate()).padStart(2, '0')}`;
-        console.log(dat)
+        //console.log(dat)
         return {
         title: dat.title,
         description: dat.content || dat.summary || '',
@@ -221,6 +221,7 @@ async function updateFeedWithAllItems() {
     appendFileSync("./link.txt",`\n${dat.guid}`)
    return true
   }).forEach((dat) => {
+    console.log(dat.title)
      const retrospective = composeFeedItem({
       title: dat.title,
       description: `<![CDATA[<p>${dat.description}</p>]]>`,
