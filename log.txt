@@ -1,19 +1,10 @@
 [
   {
-    title: 'CVE-2025-14546 Versions of the package fastapi-sso before 0.19.0 are vulnerable to Cross-site Request Forgery (CSRF...',
-    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14546',
-    pubDate: 'Fri, 19 Dec 2025 05:16:00 GMT',
-    content: "Versions of the package fastapi-sso before 0.19.0 are vulnerable to Cross-site Request Forgery (CSRF) due to the improper validation of the OAuth state parameter during the authentication callback. While the get_login_url method allows for state generation, it does not persist the state or bind it to the user's session. Consequently, the verify_and_process method accepts the state received in the query parameters without verifying it against a trusted local value. This allows a remote attacker to trick a victim into visiting a malicious callback URL, which can result in the attacker's account being linked to the victim's internal account. | CVSS Score 6.3 (MEDIUM)  ",
-    contentSnippet: "Versions of the package fastapi-sso before 0.19.0 are vulnerable to Cross-site Request Forgery (CSRF) due to the improper validation of the OAuth state parameter during the authentication callback. While the get_login_url method allows for state generation, it does not persist the state or bind it to the user's session. Consequently, the verify_and_process method accepts the state received in the query parameters without verifying it against a trusted local value. This allows a remote attacker to trick a victim into visiting a malicious callback URL, which can result in the attacker's account being linked to the victim's internal account. | CVSS Score 6.3 (MEDIUM)",
-    guid: 'CVE-2025-14546',
-    isoDate: '2025-12-19T05:16:00.000Z'
-  },
-  {
     title: 'MCI (Kansas City) on 2025-12-19',
     link: 'https//www.cloudflarestatus.com/incidents/f8skp8h754d3',
     pubDate: 'Fri, 19 Dec 2025 10:00:00 GMT',
-    content: "[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>1000/var> - var data-var='time'>2200/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>2200/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in MCI (Kansas City) datacenter on 2025-12-19 between 1000 and 2200 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                      ",
-    contentSnippet: "[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>1000/var> - var data-var='time'>2200/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>2200/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in MCI (Kansas City) datacenter on 2025-12-19 between 1000 and 2200 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
+    content: "[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>1000/var> - var data-var='time'>2200/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>2200/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in MCI (Kansas City) datacenter on 2025-12-19 between 1000 and 2200 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                        ",
+    contentSnippet: "[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>1000/var> - var data-var='time'>2200/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>2200/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in MCI (Kansas City) datacenter on 2025-12-19 between 1000 and 2200 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
     guid: 'https://www.cloudflarestatus.com/incidents/f8skp8h754d3',
     isoDate: '2025-12-19T10:00:00.000Z'
   },
@@ -21,17 +12,26 @@
     title: 'SEA (Seattle) on 2025-12-19',
     link: 'https//www.cloudflarestatus.com/incidents/vk4lm2wkmcn6',
     pubDate: 'Fri, 19 Dec 2025 10:00:00 GMT',
-    content: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>1000/var> - var data-var='time'>1500/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>1448/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-19 between 1000 and 1500 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                                                          ",
-    contentSnippet: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>1000/var> - var data-var='time'>1500/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>1448/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-19 between 1000 and 1500 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
+    content: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>1000/var> - var data-var='time'>1500/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>1448/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-19 between 1000 and 1500 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                                                            ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>1000/var> - var data-var='time'>1500/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>1448/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SEA (Seattle) datacenter on 2025-12-19 between 1000 and 1500 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
     guid: 'https://www.cloudflarestatus.com/incidents/vk4lm2wkmcn6',
     isoDate: '2025-12-19T10:00:00.000Z'
+  },
+  {
+    title: 'CVE-2025-14546 Versions of the package fastapi-sso before 0.19.0 are vulnerable to Cross-site Request Forgery (CSRF...',
+    link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14546',
+    pubDate: 'Fri, 19 Dec 2025 05:16:00 GMT',
+    content: "[Versions of the package fastapi-sso before 0.19.0 are vulnerable to Cross-site Request Forgery (CSRF) due to the improper validation of the OAuth state parameter during the authentication callback. While the get_login_url method allows for state generation, it does not persist the state or bind it to the user's session. Consequently, the verify_and_process method accepts the state received in the query parameters without verifying it against a trusted local value. This allows a remote attacker to trick a victim into visiting a malicious callback URL, which can result in the attacker's account being linked to the victim's internal account. | CVSS Score 6.3 (MEDIUM)    ",
+    contentSnippet: "[Versions of the package fastapi-sso before 0.19.0 are vulnerable to Cross-site Request Forgery (CSRF) due to the improper validation of the OAuth state parameter during the authentication callback. While the get_login_url method allows for state generation, it does not persist the state or bind it to the user's session. Consequently, the verify_and_process method accepts the state received in the query parameters without verifying it against a trusted local value. This allows a remote attacker to trick a victim into visiting a malicious callback URL, which can result in the attacker's account being linked to the victim's internal account. | CVSS Score 6.3 (MEDIUM)",
+    guid: 'CVE-2025-14546',
+    isoDate: '2025-12-19T05:16:00.000Z'
   },
   {
     title: 'GRU (São Paulo) on 2025-12-19',
     link: 'https//www.cloudflarestatus.com/incidents/ztv7yy0vr2tw',
     pubDate: 'Fri, 19 Dec 2025 05:00:00 GMT',
-    content: "[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0500/var> - var data-var='time'>1000/var> UTC/strong>small>Dec var data-var='date'>19/var>, var data-var='time'>0122/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in GRU (São Paulo) datacenter on 2025-12-19 between 0500 and 1000 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.          ",
-    contentSnippet: "[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0500/var> - var data-var='time'>1000/var> UTC/strong>small>Dec var data-var='date'>19/var>, var data-var='time'>0122/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in GRU (São Paulo) datacenter on 2025-12-19 between 0500 and 1000 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
+    content: "[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0500/var> - var data-var='time'>1000/var> UTC/strong>small>Dec var data-var='date'>19/var>, var data-var='time'>0122/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in GRU (São Paulo) datacenter on 2025-12-19 between 0500 and 1000 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.            ",
+    contentSnippet: "[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0500/var> - var data-var='time'>1000/var> UTC/strong>small>Dec var data-var='date'>19/var>, var data-var='time'>0122/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in GRU (São Paulo) datacenter on 2025-12-19 between 0500 and 1000 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
     guid: 'https://www.cloudflarestatus.com/incidents/ztv7yy0vr2tw',
     isoDate: '2025-12-19T05:00:00.000Z'
   },
@@ -39,8 +39,8 @@
     title: 'CVE-2025-14939 A vulnerability was found in code-projects Online Appointment Booking System 1.0. Impacted is an unk...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14939',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[A vulnerability was found in code-projects Online Appointment Booking System 1.0. Impacted is an unknown function of the file /admin/deletemanager.php. The manipulation of the argument managername results in sql injection. The attack may be performed from remote. The exploit has been made public and could be used. | CVSS Score 4.7 (MEDIUM)    ',
-    contentSnippet: '[A vulnerability was found in code-projects Online Appointment Booking System 1.0. Impacted is an unknown function of the file /admin/deletemanager.php. The manipulation of the argument managername results in sql injection. The attack may be performed from remote. The exploit has been made public and could be used. | CVSS Score 4.7 (MEDIUM)',
+    content: '[[A vulnerability was found in code-projects Online Appointment Booking System 1.0. Impacted is an unknown function of the file /admin/deletemanager.php. The manipulation of the argument managername results in sql injection. The attack may be performed from remote. The exploit has been made public and could be used. | CVSS Score 4.7 (MEDIUM)      ',
+    contentSnippet: '[[A vulnerability was found in code-projects Online Appointment Booking System 1.0. Impacted is an unknown function of the file /admin/deletemanager.php. The manipulation of the argument managername results in sql injection. The attack may be performed from remote. The exploit has been made public and could be used. | CVSS Score 4.7 (MEDIUM)',
     guid: 'CVE-2025-14939',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -48,8 +48,8 @@
     title: 'CVE-2025-14940 A vulnerability was determined in code-projects Scholars Tracking System 1.0. The affected element i...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14940',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[A vulnerability was determined in code-projects Scholars Tracking System 1.0. The affected element is an unknown function of the file /admin/delete_user.php. This manipulation of the argument ID causes sql injection. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. | CVSS Score 7.3 (HIGH)    ',
-    contentSnippet: '[A vulnerability was determined in code-projects Scholars Tracking System 1.0. The affected element is an unknown function of the file /admin/delete_user.php. This manipulation of the argument ID causes sql injection. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. | CVSS Score 7.3 (HIGH)',
+    content: '[[A vulnerability was determined in code-projects Scholars Tracking System 1.0. The affected element is an unknown function of the file /admin/delete_user.php. This manipulation of the argument ID causes sql injection. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. | CVSS Score 7.3 (HIGH)      ',
+    contentSnippet: '[[A vulnerability was determined in code-projects Scholars Tracking System 1.0. The affected element is an unknown function of the file /admin/delete_user.php. This manipulation of the argument ID causes sql injection. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. | CVSS Score 7.3 (HIGH)',
     guid: 'CVE-2025-14940',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -57,8 +57,8 @@
     title: 'CVE-2025-68483 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68483',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68483',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -66,8 +66,8 @@
     title: 'CVE-2025-68484 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68484',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68484',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -75,8 +75,8 @@
     title: 'CVE-2025-68485 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68485',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68485',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -84,8 +84,8 @@
     title: 'CVE-2025-68486 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68486',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68486',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -93,8 +93,8 @@
     title: 'CVE-2025-68487 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68487',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68487',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -102,8 +102,8 @@
     title: 'CVE-2025-68488 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68488',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68488',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -111,8 +111,8 @@
     title: 'CVE-2025-68489 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68489',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68489',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -120,8 +120,8 @@
     title: 'CVE-2025-68490 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68490',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68490',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -129,8 +129,8 @@
     title: 'CVE-2025-68491 Rejected reason Not used',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68491',
     pubDate: 'Fri, 19 Dec 2025 04:16:00 GMT',
-    content: '[Rejected reason Not used | Severity UNKNOWN    ',
-    contentSnippet: '[Rejected reason Not used | Severity UNKNOWN',
+    content: '[[Rejected reason Not used | Severity UNKNOWN      ',
+    contentSnippet: '[[Rejected reason Not used | Severity UNKNOWN',
     guid: 'CVE-2025-68491',
     isoDate: '2025-12-19T04:16:00.000Z'
   },
@@ -138,8 +138,8 @@
     title: 'CVE-2025-13941 A local privilege escalation vulnerability exists in the Foxit PDF Reader/Editor Update Service. Dur...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13941',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: '[[[A local privilege escalation vulnerability exists in the Foxit PDF Reader/Editor Update Service. During plugin installation, incorrect file system permissions are assigned to resources used by the update service. A local attacker with low privileges could modify or replace these resources, which are later executed by the service, resulting in execution of arbitrary code with SYSTEM privileges. | CVSS Score 8.8 (HIGH)        ',
-    contentSnippet: '[[[A local privilege escalation vulnerability exists in the Foxit PDF Reader/Editor Update Service. During plugin installation, incorrect file system permissions are assigned to resources used by the update service. A local attacker with low privileges could modify or replace these resources, which are later executed by the service, resulting in execution of arbitrary code with SYSTEM privileges. | CVSS Score 8.8 (HIGH)',
+    content: '[[[[A local privilege escalation vulnerability exists in the Foxit PDF Reader/Editor Update Service. During plugin installation, incorrect file system permissions are assigned to resources used by the update service. A local attacker with low privileges could modify or replace these resources, which are later executed by the service, resulting in execution of arbitrary code with SYSTEM privileges. | CVSS Score 8.8 (HIGH)          ',
+    contentSnippet: '[[[[A local privilege escalation vulnerability exists in the Foxit PDF Reader/Editor Update Service. During plugin installation, incorrect file system permissions are assigned to resources used by the update service. A local attacker with low privileges could modify or replace these resources, which are later executed by the service, resulting in execution of arbitrary code with SYSTEM privileges. | CVSS Score 8.8 (HIGH)',
     guid: 'CVE-2025-13941',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -147,8 +147,8 @@
     title: 'CVE-2025-14909 A weakness has been identified in JeecgBoot up to 3.9.0. The impacted element is the function SysUse...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14909',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: '[[[A weakness has been identified in JeecgBoot up to 3.9.0. The impacted element is the function SysUserOnlineController of the file jeecg-boot/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/SysUserOnlineController.java. Executing manipulation can lead to manage user sessions. The attack can be launched remotely. The exploit has been made available to the public and could be exploited. This patch is called b686f9fbd1917edffe5922c6362c817a9361cfbd. Applying a patch is advised to resolve this issue. | CVSS Score 4.3 (MEDIUM)        ',
-    contentSnippet: '[[[A weakness has been identified in JeecgBoot up to 3.9.0. The impacted element is the function SysUserOnlineController of the file jeecg-boot/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/SysUserOnlineController.java. Executing manipulation can lead to manage user sessions. The attack can be launched remotely. The exploit has been made available to the public and could be exploited. This patch is called b686f9fbd1917edffe5922c6362c817a9361cfbd. Applying a patch is advised to resolve this issue. | CVSS Score 4.3 (MEDIUM)',
+    content: '[[[[A weakness has been identified in JeecgBoot up to 3.9.0. The impacted element is the function SysUserOnlineController of the file jeecg-boot/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/SysUserOnlineController.java. Executing manipulation can lead to manage user sessions. The attack can be launched remotely. The exploit has been made available to the public and could be exploited. This patch is called b686f9fbd1917edffe5922c6362c817a9361cfbd. Applying a patch is advised to resolve this issue. | CVSS Score 4.3 (MEDIUM)          ',
+    contentSnippet: '[[[[A weakness has been identified in JeecgBoot up to 3.9.0. The impacted element is the function SysUserOnlineController of the file jeecg-boot/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/SysUserOnlineController.java. Executing manipulation can lead to manage user sessions. The attack can be launched remotely. The exploit has been made available to the public and could be exploited. This patch is called b686f9fbd1917edffe5922c6362c817a9361cfbd. Applying a patch is advised to resolve this issue. | CVSS Score 4.3 (MEDIUM)',
     guid: 'CVE-2025-14909',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -156,8 +156,8 @@
     title: 'CVE-2025-14910 A vulnerability was detected in Edimax BR-6208AC 1.02. This impacts the function handle_retr of the ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14910',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: '[[[A vulnerability was detected in Edimax BR-6208AC 1.02. This impacts the function handle_retr of the component FTP Daemon Service. The manipulation results in path traversal. The attack may be launched remotely. The exploit is now public and may be used. Edimax confirms this issue "This product is no longer available in the market and has been discontinued for five years. Consequently, Edimax no longer provides technical support, firmware updates, or security patches for this specific model. However, to ensure the safety of our remaining active users, we acknowledge this report and will take the following mitigation actions (A) We will issue an official security advisory on our support website. (B) We will strongly advise users to disable the FTP service on this device to mitigate the reported risk, by which the product will still work for common use. (C) We will recommend users upgrade to newer, supported models." This vulnerability only affects products that are no longer supported by the maintainer. | CVSS Score 4.3 (MEDIUM)        ',
-    contentSnippet: '[[[A vulnerability was detected in Edimax BR-6208AC 1.02. This impacts the function handle_retr of the component FTP Daemon Service. The manipulation results in path traversal. The attack may be launched remotely. The exploit is now public and may be used. Edimax confirms this issue "This product is no longer available in the market and has been discontinued for five years. Consequently, Edimax no longer provides technical support, firmware updates, or security patches for this specific model. However, to ensure the safety of our remaining active users, we acknowledge this report and will take the following mitigation actions (A) We will issue an official security advisory on our support website. (B) We will strongly advise users to disable the FTP service on this device to mitigate the reported risk, by which the product will still work for common use. (C) We will recommend users upgrade to newer, supported models." This vulnerability only affects products that are no longer supported by the maintainer. | CVSS Score 4.3 (MEDIUM)',
+    content: '[[[[A vulnerability was detected in Edimax BR-6208AC 1.02. This impacts the function handle_retr of the component FTP Daemon Service. The manipulation results in path traversal. The attack may be launched remotely. The exploit is now public and may be used. Edimax confirms this issue "This product is no longer available in the market and has been discontinued for five years. Consequently, Edimax no longer provides technical support, firmware updates, or security patches for this specific model. However, to ensure the safety of our remaining active users, we acknowledge this report and will take the following mitigation actions (A) We will issue an official security advisory on our support website. (B) We will strongly advise users to disable the FTP service on this device to mitigate the reported risk, by which the product will still work for common use. (C) We will recommend users upgrade to newer, supported models." This vulnerability only affects products that are no longer supported by the maintainer. | CVSS Score 4.3 (MEDIUM)          ',
+    contentSnippet: '[[[[A vulnerability was detected in Edimax BR-6208AC 1.02. This impacts the function handle_retr of the component FTP Daemon Service. The manipulation results in path traversal. The attack may be launched remotely. The exploit is now public and may be used. Edimax confirms this issue "This product is no longer available in the market and has been discontinued for five years. Consequently, Edimax no longer provides technical support, firmware updates, or security patches for this specific model. However, to ensure the safety of our remaining active users, we acknowledge this report and will take the following mitigation actions (A) We will issue an official security advisory on our support website. (B) We will strongly advise users to disable the FTP service on this device to mitigate the reported risk, by which the product will still work for common use. (C) We will recommend users upgrade to newer, supported models." This vulnerability only affects products that are no longer supported by the maintainer. | CVSS Score 4.3 (MEDIUM)',
     guid: 'CVE-2025-14910',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -165,8 +165,8 @@
     title: 'CVE-2025-52692 Successful exploitation of the vulnerability could allow an attacker with local network access to se...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-52692',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: '[[[Successful exploitation of the vulnerability could allow an attacker with local network access to send a specially crafted URL to access certain administration functions without login credentials. | CVSS Score 8.8 (HIGH)        ',
-    contentSnippet: '[[[Successful exploitation of the vulnerability could allow an attacker with local network access to send a specially crafted URL to access certain administration functions without login credentials. | CVSS Score 8.8 (HIGH)',
+    content: '[[[[Successful exploitation of the vulnerability could allow an attacker with local network access to send a specially crafted URL to access certain administration functions without login credentials. | CVSS Score 8.8 (HIGH)          ',
+    contentSnippet: '[[[[Successful exploitation of the vulnerability could allow an attacker with local network access to send a specially crafted URL to access certain administration functions without login credentials. | CVSS Score 8.8 (HIGH)',
     guid: 'CVE-2025-52692',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -174,8 +174,8 @@
     title: 'CVE-2025-67842 The Static Asset API in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitr...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-67842',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: "[[[The Static Asset API in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitrary web script or HTML via the subdomain parameter because any tenant's assets can be served on any other tenant's documentation site. | CVSS Score 6.4 (MEDIUM)        ",
-    contentSnippet: "[[[The Static Asset API in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitrary web script or HTML via the subdomain parameter because any tenant's assets can be served on any other tenant's documentation site. | CVSS Score 6.4 (MEDIUM)",
+    content: "[[[[The Static Asset API in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitrary web script or HTML via the subdomain parameter because any tenant's assets can be served on any other tenant's documentation site. | CVSS Score 6.4 (MEDIUM)          ",
+    contentSnippet: "[[[[The Static Asset API in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitrary web script or HTML via the subdomain parameter because any tenant's assets can be served on any other tenant's documentation site. | CVSS Score 6.4 (MEDIUM)",
     guid: 'CVE-2025-67842',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -183,8 +183,8 @@
     title: 'CVE-2025-67843 A Server-Side Template Injection (SSTI) vulnerability in the MDX Rendering Engine in Mintlify Platfo...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-67843',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: '[[[A Server-Side Template Injection (SSTI) vulnerability in the MDX Rendering Engine in Mintlify Platform before 2025-11-15 allows remote attackers to execute arbitrary code via inline JSX expressions in an MDX file. | CVSS Score 8.3 (HIGH)        ',
-    contentSnippet: '[[[A Server-Side Template Injection (SSTI) vulnerability in the MDX Rendering Engine in Mintlify Platform before 2025-11-15 allows remote attackers to execute arbitrary code via inline JSX expressions in an MDX file. | CVSS Score 8.3 (HIGH)',
+    content: '[[[[A Server-Side Template Injection (SSTI) vulnerability in the MDX Rendering Engine in Mintlify Platform before 2025-11-15 allows remote attackers to execute arbitrary code via inline JSX expressions in an MDX file. | CVSS Score 8.3 (HIGH)          ',
+    contentSnippet: '[[[[A Server-Side Template Injection (SSTI) vulnerability in the MDX Rendering Engine in Mintlify Platform before 2025-11-15 allows remote attackers to execute arbitrary code via inline JSX expressions in an MDX file. | CVSS Score 8.3 (HIGH)',
     guid: 'CVE-2025-67843',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -192,8 +192,8 @@
     title: 'CVE-2025-67844 The GitHub Integration API in Mintlify Platform before 2025-11-15 allows remote attackers to obtain ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-67844',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: "[[[The GitHub Integration API in Mintlify Platform before 2025-11-15 allows remote attackers to obtain sensitive repository metadata via the repository owner and name fields. It fails to validate that the repository owner and name fields provided during configuration belong to the specific GitHub App Installation ID associated with the user's organization. | CVSS Score 5 (MEDIUM)        ",
-    contentSnippet: "[[[The GitHub Integration API in Mintlify Platform before 2025-11-15 allows remote attackers to obtain sensitive repository metadata via the repository owner and name fields. It fails to validate that the repository owner and name fields provided during configuration belong to the specific GitHub App Installation ID associated with the user's organization. | CVSS Score 5 (MEDIUM)",
+    content: "[[[[The GitHub Integration API in Mintlify Platform before 2025-11-15 allows remote attackers to obtain sensitive repository metadata via the repository owner and name fields. It fails to validate that the repository owner and name fields provided during configuration belong to the specific GitHub App Installation ID associated with the user's organization. | CVSS Score 5 (MEDIUM)          ",
+    contentSnippet: "[[[[The GitHub Integration API in Mintlify Platform before 2025-11-15 allows remote attackers to obtain sensitive repository metadata via the repository owner and name fields. It fails to validate that the repository owner and name fields provided during configuration belong to the specific GitHub App Installation ID associated with the user's organization. | CVSS Score 5 (MEDIUM)",
     guid: 'CVE-2025-67844',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -201,8 +201,8 @@
     title: 'CVE-2025-67845 A Directory Traversal vulnerability in the Static Asset Proxy Endpoint in Mintlify Platform before 2...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-67845',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: '[[[A Directory Traversal vulnerability in the Static Asset Proxy Endpoint in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitrary web script or HTML via a crafted URL containing path traversal sequences. | CVSS Score 6.4 (MEDIUM)        ',
-    contentSnippet: '[[[A Directory Traversal vulnerability in the Static Asset Proxy Endpoint in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitrary web script or HTML via a crafted URL containing path traversal sequences. | CVSS Score 6.4 (MEDIUM)',
+    content: '[[[[A Directory Traversal vulnerability in the Static Asset Proxy Endpoint in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitrary web script or HTML via a crafted URL containing path traversal sequences. | CVSS Score 6.4 (MEDIUM)          ',
+    contentSnippet: '[[[[A Directory Traversal vulnerability in the Static Asset Proxy Endpoint in Mintlify Platform before 2025-11-15 allows remote attackers to inject arbitrary web script or HTML via a crafted URL containing path traversal sequences. | CVSS Score 6.4 (MEDIUM)',
     guid: 'CVE-2025-67845',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -210,8 +210,8 @@
     title: 'CVE-2025-67846 The Deployment Infrastructure in Mintlify Platform before 2025-11-15 allows remote attackers to bypa...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-67846',
     pubDate: 'Fri, 19 Dec 2025 02:16:00 GMT',
-    content: '[[[The Deployment Infrastructure in Mintlify Platform before 2025-11-15 allows remote attackers to bypass security patches and execute downgrade attacks via predictable deployment identifiers on the Vercel preview domain. An attacker can identify the URL structure of a previous deployment that contains unpatched vulnerabilities. By browsing directly to the specific git-ref or deployment-id subdomain, the attacker can force the application to load the vulnerable version. | CVSS Score 4.9 (MEDIUM)        ',
-    contentSnippet: '[[[The Deployment Infrastructure in Mintlify Platform before 2025-11-15 allows remote attackers to bypass security patches and execute downgrade attacks via predictable deployment identifiers on the Vercel preview domain. An attacker can identify the URL structure of a previous deployment that contains unpatched vulnerabilities. By browsing directly to the specific git-ref or deployment-id subdomain, the attacker can force the application to load the vulnerable version. | CVSS Score 4.9 (MEDIUM)',
+    content: '[[[[The Deployment Infrastructure in Mintlify Platform before 2025-11-15 allows remote attackers to bypass security patches and execute downgrade attacks via predictable deployment identifiers on the Vercel preview domain. An attacker can identify the URL structure of a previous deployment that contains unpatched vulnerabilities. By browsing directly to the specific git-ref or deployment-id subdomain, the attacker can force the application to load the vulnerable version. | CVSS Score 4.9 (MEDIUM)          ',
+    contentSnippet: '[[[[The Deployment Infrastructure in Mintlify Platform before 2025-11-15 allows remote attackers to bypass security patches and execute downgrade attacks via predictable deployment identifiers on the Vercel preview domain. An attacker can identify the URL structure of a previous deployment that contains unpatched vulnerabilities. By browsing directly to the specific git-ref or deployment-id subdomain, the attacker can force the application to load the vulnerable version. | CVSS Score 4.9 (MEDIUM)',
     guid: 'CVE-2025-67846',
     isoDate: '2025-12-19T02:16:00.000Z'
   },
@@ -219,8 +219,8 @@
     title: "CVE-2025-11774 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerabi...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-11774',
     pubDate: 'Fri, 19 Dec 2025 01:16:00 GMT',
-    content: `[[[[Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the software keyboard function (hereinafter referred to as "keypad function") of Mitsubishi Electric GENESIS64 versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions GENESIS64 versions 10.97.2 CFR3 and prior, Mitsubishi Electric ICONICS Suite versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions ICONICS Suite versions 10.97.2 CFR3 and prior, Mitsubishi Electric MobileHMI versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions MobileHMI versions 10.97.2 CFR3 and prior, and Mitsubishi Electric MC Works64 all versions allows a local attacker to execute arbitrary executable files (EXE) when a legitimate user uses the keypad function by tampering with the configuration file for the function. This could allow the attacker to disclose, tamper with, delete, or destroy information stored on the PC where the affected product is installed, or cause a denial-of-service (DoS) condition on the system, through the execution of the EXE. | CVSS Score 8.2 (HIGH)          `,
-    contentSnippet: `[[[[Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the software keyboard function (hereinafter referred to as "keypad function") of Mitsubishi Electric GENESIS64 versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions GENESIS64 versions 10.97.2 CFR3 and prior, Mitsubishi Electric ICONICS Suite versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions ICONICS Suite versions 10.97.2 CFR3 and prior, Mitsubishi Electric MobileHMI versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions MobileHMI versions 10.97.2 CFR3 and prior, and Mitsubishi Electric MC Works64 all versions allows a local attacker to execute arbitrary executable files (EXE) when a legitimate user uses the keypad function by tampering with the configuration file for the function. This could allow the attacker to disclose, tamper with, delete, or destroy information stored on the PC where the affected product is installed, or cause a denial-of-service (DoS) condition on the system, through the execution of the EXE. | CVSS Score 8.2 (HIGH)`,
+    content: `[[[[[Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the software keyboard function (hereinafter referred to as "keypad function") of Mitsubishi Electric GENESIS64 versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions GENESIS64 versions 10.97.2 CFR3 and prior, Mitsubishi Electric ICONICS Suite versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions ICONICS Suite versions 10.97.2 CFR3 and prior, Mitsubishi Electric MobileHMI versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions MobileHMI versions 10.97.2 CFR3 and prior, and Mitsubishi Electric MC Works64 all versions allows a local attacker to execute arbitrary executable files (EXE) when a legitimate user uses the keypad function by tampering with the configuration file for the function. This could allow the attacker to disclose, tamper with, delete, or destroy information stored on the PC where the affected product is installed, or cause a denial-of-service (DoS) condition on the system, through the execution of the EXE. | CVSS Score 8.2 (HIGH)            `,
+    contentSnippet: `[[[[[Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the software keyboard function (hereinafter referred to as "keypad function") of Mitsubishi Electric GENESIS64 versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions GENESIS64 versions 10.97.2 CFR3 and prior, Mitsubishi Electric ICONICS Suite versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions ICONICS Suite versions 10.97.2 CFR3 and prior, Mitsubishi Electric MobileHMI versions 10.97.2 CFR3 and prior, Mitsubishi Electric Iconics Digital Solutions MobileHMI versions 10.97.2 CFR3 and prior, and Mitsubishi Electric MC Works64 all versions allows a local attacker to execute arbitrary executable files (EXE) when a legitimate user uses the keypad function by tampering with the configuration file for the function. This could allow the attacker to disclose, tamper with, delete, or destroy information stored on the PC where the affected product is installed, or cause a denial-of-service (DoS) condition on the system, through the execution of the EXE. | CVSS Score 8.2 (HIGH)`,
     guid: 'CVE-2025-11774',
     isoDate: '2025-12-19T01:16:00.000Z'
   },
@@ -228,8 +228,8 @@
     title: 'CVE-2025-14733 An Out-of-bounds Write vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated at...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14733',
     pubDate: 'Fri, 19 Dec 2025 01:16:00 GMT',
-    content: '[[[[An Out-of-bounds Write vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the Mobile User VPN with IKEv2 and the Branch Office VPN using IKEv2 when configured with a dynamic gateway peer.This vulnerability affects Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including 12.11.5 and 2025.1 up to and including 2025.1.3. | Severity UNKNOWN          ',
-    contentSnippet: '[[[[An Out-of-bounds Write vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the Mobile User VPN with IKEv2 and the Branch Office VPN using IKEv2 when configured with a dynamic gateway peer.This vulnerability affects Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including 12.11.5 and 2025.1 up to and including 2025.1.3. | Severity UNKNOWN',
+    content: '[[[[[An Out-of-bounds Write vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the Mobile User VPN with IKEv2 and the Branch Office VPN using IKEv2 when configured with a dynamic gateway peer.This vulnerability affects Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including 12.11.5 and 2025.1 up to and including 2025.1.3. | Severity UNKNOWN            ',
+    contentSnippet: '[[[[[An Out-of-bounds Write vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the Mobile User VPN with IKEv2 and the Branch Office VPN using IKEv2 when configured with a dynamic gateway peer.This vulnerability affects Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including 12.11.5 and 2025.1 up to and including 2025.1.3. | Severity UNKNOWN',
     guid: 'CVE-2025-14733',
     isoDate: '2025-12-19T01:16:00.000Z'
   },
@@ -237,8 +237,8 @@
     title: 'CVE-2025-14899 A weakness has been identified in CodeAstro Real Estate Management System 1.0. This impacts an unkno...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14899',
     pubDate: 'Fri, 19 Dec 2025 01:16:00 GMT',
-    content: '[[[[A weakness has been identified in CodeAstro Real Estate Management System 1.0. This impacts an unknown function of the file /admin/stateadd.php of the component Administrator Endpoint. This manipulation causes sql injection. The attack may be initiated remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 4.7 (MEDIUM)          ',
-    contentSnippet: '[[[[A weakness has been identified in CodeAstro Real Estate Management System 1.0. This impacts an unknown function of the file /admin/stateadd.php of the component Administrator Endpoint. This manipulation causes sql injection. The attack may be initiated remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 4.7 (MEDIUM)',
+    content: '[[[[[A weakness has been identified in CodeAstro Real Estate Management System 1.0. This impacts an unknown function of the file /admin/stateadd.php of the component Administrator Endpoint. This manipulation causes sql injection. The attack may be initiated remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 4.7 (MEDIUM)            ',
+    contentSnippet: '[[[[[A weakness has been identified in CodeAstro Real Estate Management System 1.0. This impacts an unknown function of the file /admin/stateadd.php of the component Administrator Endpoint. This manipulation causes sql injection. The attack may be initiated remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 4.7 (MEDIUM)',
     guid: 'CVE-2025-14899',
     isoDate: '2025-12-19T01:16:00.000Z'
   },
@@ -246,8 +246,8 @@
     title: 'CVE-2025-14900 A security vulnerability has been detected in CodeAstro Real Estate Management System 1.0. Affected ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14900',
     pubDate: 'Fri, 19 Dec 2025 01:16:00 GMT',
-    content: '[[[[A security vulnerability has been detected in CodeAstro Real Estate Management System 1.0. Affected is an unknown function of the file /admin/userdelete.php of the component Administrator Endpoint. Such manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 4.7 (MEDIUM)          ',
-    contentSnippet: '[[[[A security vulnerability has been detected in CodeAstro Real Estate Management System 1.0. Affected is an unknown function of the file /admin/userdelete.php of the component Administrator Endpoint. Such manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 4.7 (MEDIUM)',
+    content: '[[[[[A security vulnerability has been detected in CodeAstro Real Estate Management System 1.0. Affected is an unknown function of the file /admin/userdelete.php of the component Administrator Endpoint. Such manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 4.7 (MEDIUM)            ',
+    contentSnippet: '[[[[[A security vulnerability has been detected in CodeAstro Real Estate Management System 1.0. Affected is an unknown function of the file /admin/userdelete.php of the component Administrator Endpoint. Such manipulation of the argument ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 4.7 (MEDIUM)',
     guid: 'CVE-2025-14900',
     isoDate: '2025-12-19T01:16:00.000Z'
   },
@@ -255,8 +255,8 @@
     title: 'CVE-2025-14908 A security flaw has been discovered in JeecgBoot up to 3.9.0. The affected element is an unknown fun...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14908',
     pubDate: 'Fri, 19 Dec 2025 01:16:00 GMT',
-    content: '[[[[A security flaw has been discovered in JeecgBoot up to 3.9.0. The affected element is an unknown function of the file jeecg-boot/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/SysTenantController.java of the component Multi-Tenant Management Module. Performing manipulation of the argument ID results in improper authentication. The attack can be initiated remotely. The exploit has been released to the public and may be exploited. The patch is named e1c8f00bf2a2e0edddbaa8119afe1dc92d9dc1d2/67795493bdc579e489d3ab12e52a1793c4f8a0ee. It is recommended to apply a patch to fix this issue. | CVSS Score 6.3 (MEDIUM)          ',
-    contentSnippet: '[[[[A security flaw has been discovered in JeecgBoot up to 3.9.0. The affected element is an unknown function of the file jeecg-boot/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/SysTenantController.java of the component Multi-Tenant Management Module. Performing manipulation of the argument ID results in improper authentication. The attack can be initiated remotely. The exploit has been released to the public and may be exploited. The patch is named e1c8f00bf2a2e0edddbaa8119afe1dc92d9dc1d2/67795493bdc579e489d3ab12e52a1793c4f8a0ee. It is recommended to apply a patch to fix this issue. | CVSS Score 6.3 (MEDIUM)',
+    content: '[[[[[A security flaw has been discovered in JeecgBoot up to 3.9.0. The affected element is an unknown function of the file jeecg-boot/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/SysTenantController.java of the component Multi-Tenant Management Module. Performing manipulation of the argument ID results in improper authentication. The attack can be initiated remotely. The exploit has been released to the public and may be exploited. The patch is named e1c8f00bf2a2e0edddbaa8119afe1dc92d9dc1d2/67795493bdc579e489d3ab12e52a1793c4f8a0ee. It is recommended to apply a patch to fix this issue. | CVSS Score 6.3 (MEDIUM)            ',
+    contentSnippet: '[[[[[A security flaw has been discovered in JeecgBoot up to 3.9.0. The affected element is an unknown function of the file jeecg-boot/jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/SysTenantController.java of the component Multi-Tenant Management Module. Performing manipulation of the argument ID results in improper authentication. The attack can be initiated remotely. The exploit has been released to the public and may be exploited. The patch is named e1c8f00bf2a2e0edddbaa8119afe1dc92d9dc1d2/67795493bdc579e489d3ab12e52a1793c4f8a0ee. It is recommended to apply a patch to fix this issue. | CVSS Score 6.3 (MEDIUM)',
     guid: 'CVE-2025-14908',
     isoDate: '2025-12-19T01:16:00.000Z'
   },
@@ -264,8 +264,8 @@
     title: 'MAD (Madrid) on 2025-12-19',
     link: 'https//www.cloudflarestatus.com/incidents/bt73t52rtmv4',
     pubDate: 'Fri, 19 Dec 2025 01:00:00 GMT',
-    content: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0100/var> - var data-var='time'>0500/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>1448/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in MAD (Madrid) datacenter on 2025-12-19 between 0100 and 0500 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                                                          ",
-    contentSnippet: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0100/var> - var data-var='time'>0500/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>1448/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in MAD (Madrid) datacenter on 2025-12-19 between 0100 and 0500 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
+    content: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0100/var> - var data-var='time'>0500/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>1448/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in MAD (Madrid) datacenter on 2025-12-19 between 0100 and 0500 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                                                            ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0100/var> - var data-var='time'>0500/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>1448/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in MAD (Madrid) datacenter on 2025-12-19 between 0100 and 0500 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
     guid: 'https://www.cloudflarestatus.com/incidents/bt73t52rtmv4',
     isoDate: '2025-12-19T01:00:00.000Z'
   },
@@ -273,8 +273,8 @@
     title: 'DUR (Durban) on 2025-12-19',
     link: 'https//www.cloudflarestatus.com/incidents/8kl70gmw28d6',
     pubDate: 'Fri, 19 Dec 2025 01:00:00 GMT',
-    content: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0100/var> - var data-var='time'>0700/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>0942/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in DUR (Durban) datacenter on 2025-12-19 between 0100 and 0700 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                                                                                ",
-    contentSnippet: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0100/var> - var data-var='time'>0700/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>0942/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in DUR (Durban) datacenter on 2025-12-19 between 0100 and 0700 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
+    content: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0100/var> - var data-var='time'>0700/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>0942/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in DUR (Durban) datacenter on 2025-12-19 between 0100 and 0700 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                                                                                  ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>19/var>, var data-var='time'>0100/var> - var data-var='time'>0700/var> UTC/strong>small>Dec var data-var='date'>18/var>, var data-var='time'>0942/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in DUR (Durban) datacenter on 2025-12-19 between 0100 and 0700 UTC.br />br />Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email, PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.",
     guid: 'https://www.cloudflarestatus.com/incidents/8kl70gmw28d6',
     isoDate: '2025-12-19T01:00:00.000Z'
   },
@@ -282,8 +282,8 @@
     title: 'CVE-2025-14897 A vulnerability was identified in CodeAstro Real Estate Management System 1.0. The impacted element ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14897',
     pubDate: 'Fri, 19 Dec 2025 00:15:00 GMT',
-    content: '[[[[A vulnerability was identified in CodeAstro Real Estate Management System 1.0. The impacted element is an unknown function of the file /admin/useragentdelete.php of the component Administrator Endpoint. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit is publicly available and might be used. | CVSS Score 4.7 (MEDIUM)          ',
-    contentSnippet: '[[[[A vulnerability was identified in CodeAstro Real Estate Management System 1.0. The impacted element is an unknown function of the file /admin/useragentdelete.php of the component Administrator Endpoint. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit is publicly available and might be used. | CVSS Score 4.7 (MEDIUM)',
+    content: '[[[[[A vulnerability was identified in CodeAstro Real Estate Management System 1.0. The impacted element is an unknown function of the file /admin/useragentdelete.php of the component Administrator Endpoint. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit is publicly available and might be used. | CVSS Score 4.7 (MEDIUM)            ',
+    contentSnippet: '[[[[[A vulnerability was identified in CodeAstro Real Estate Management System 1.0. The impacted element is an unknown function of the file /admin/useragentdelete.php of the component Administrator Endpoint. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit is publicly available and might be used. | CVSS Score 4.7 (MEDIUM)',
     guid: 'CVE-2025-14897',
     isoDate: '2025-12-19T00:15:00.000Z'
   },
@@ -291,8 +291,8 @@
     title: 'CVE-2025-14898 A security flaw has been discovered in CodeAstro Real Estate Management System 1.0. This affects an ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14898',
     pubDate: 'Fri, 19 Dec 2025 00:15:00 GMT',
-    content: '[[[[A security flaw has been discovered in CodeAstro Real Estate Management System 1.0. This affects an unknown function of the file /admin/userbuilderdelete.php of the component Administrator Endpoint. The manipulation results in sql injection. The attack can be launched remotely. The exploit has been released to the public and may be exploited. | CVSS Score 4.7 (MEDIUM)          ',
-    contentSnippet: '[[[[A security flaw has been discovered in CodeAstro Real Estate Management System 1.0. This affects an unknown function of the file /admin/userbuilderdelete.php of the component Administrator Endpoint. The manipulation results in sql injection. The attack can be launched remotely. The exploit has been released to the public and may be exploited. | CVSS Score 4.7 (MEDIUM)',
+    content: '[[[[[A security flaw has been discovered in CodeAstro Real Estate Management System 1.0. This affects an unknown function of the file /admin/userbuilderdelete.php of the component Administrator Endpoint. The manipulation results in sql injection. The attack can be launched remotely. The exploit has been released to the public and may be exploited. | CVSS Score 4.7 (MEDIUM)            ',
+    contentSnippet: '[[[[[A security flaw has been discovered in CodeAstro Real Estate Management System 1.0. This affects an unknown function of the file /admin/userbuilderdelete.php of the component Administrator Endpoint. The manipulation results in sql injection. The attack can be launched remotely. The exploit has been released to the public and may be exploited. | CVSS Score 4.7 (MEDIUM)',
     guid: 'CVE-2025-14898',
     isoDate: '2025-12-19T00:15:00.000Z'
   },
@@ -300,8 +300,8 @@
     title: "CVE-2025-64675 Improper neutralization of input during web page generation ('cross-site scripting') in Azure Cosmos...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-64675',
     pubDate: 'Fri, 19 Dec 2025 00:15:00 GMT',
-    content: "[[[[Improper neutralization of input during web page generation ('cross-site scripting') in Azure Cosmos DB allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 8.3 (HIGH)          ",
-    contentSnippet: "[[[[Improper neutralization of input during web page generation ('cross-site scripting') in Azure Cosmos DB allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 8.3 (HIGH)",
+    content: "[[[[[Improper neutralization of input during web page generation ('cross-site scripting') in Azure Cosmos DB allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 8.3 (HIGH)            ",
+    contentSnippet: "[[[[[Improper neutralization of input during web page generation ('cross-site scripting') in Azure Cosmos DB allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 8.3 (HIGH)",
     guid: 'CVE-2025-64675',
     isoDate: '2025-12-19T00:15:00.000Z'
   },
@@ -309,8 +309,8 @@
     title: 'CVE-2025-68279 Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to read arbit...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68279',
     pubDate: 'Thu, 18 Dec 2025 23:15:00 GMT',
-    content: '[[[[[[[Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to read arbitrary files from the server file system using crafted symbolic links in the repository. Version 5.15.1 fixes the issue. | CVSS Score 7.7 (HIGH)                ',
-    contentSnippet: '[[[[[[[Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to read arbitrary files from the server file system using crafted symbolic links in the repository. Version 5.15.1 fixes the issue. | CVSS Score 7.7 (HIGH)',
+    content: '[[[[[[[[Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to read arbitrary files from the server file system using crafted symbolic links in the repository. Version 5.15.1 fixes the issue. | CVSS Score 7.7 (HIGH)                  ',
+    contentSnippet: '[[[[[[[[Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to read arbitrary files from the server file system using crafted symbolic links in the repository. Version 5.15.1 fixes the issue. | CVSS Score 7.7 (HIGH)',
     guid: 'CVE-2025-68279',
     isoDate: '2025-12-18T23:15:00.000Z'
   },
@@ -318,8 +318,8 @@
     title: "CVE-2025-68385 Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68385',
     pubDate: 'Thu, 18 Dec 2025 23:15:00 GMT',
-    content: "[[[[[[[Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows an authenticated user to embed a malicious script in content that will be served to web browsers causing cross-site scripting (XSS) (CAPEC-63) via a method in Vega bypassing a previous Vega XSS mitigation. | CVSS Score 7.2 (HIGH)                ",
-    contentSnippet: "[[[[[[[Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows an authenticated user to embed a malicious script in content that will be served to web browsers causing cross-site scripting (XSS) (CAPEC-63) via a method in Vega bypassing a previous Vega XSS mitigation. | CVSS Score 7.2 (HIGH)",
+    content: "[[[[[[[[Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows an authenticated user to embed a malicious script in content that will be served to web browsers causing cross-site scripting (XSS) (CAPEC-63) via a method in Vega bypassing a previous Vega XSS mitigation. | CVSS Score 7.2 (HIGH)                  ",
+    contentSnippet: "[[[[[[[[Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows an authenticated user to embed a malicious script in content that will be served to web browsers causing cross-site scripting (XSS) (CAPEC-63) via a method in Vega bypassing a previous Vega XSS mitigation. | CVSS Score 7.2 (HIGH)",
     guid: 'CVE-2025-68385',
     isoDate: '2025-12-18T23:15:00.000Z'
   },
@@ -327,8 +327,8 @@
     title: 'CVE-2025-68386 Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68386',
     pubDate: 'Thu, 18 Dec 2025 23:15:00 GMT',
-    content: `[[[[[[[Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing an authenticated user to change a document's sharing type to "global," even though they do not have permission to do so, making it visible to everyone in the space via a crafted a HTTP request. | CVSS Score 4.3 (MEDIUM)                `,
-    contentSnippet: `[[[[[[[Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing an authenticated user to change a document's sharing type to "global," even though they do not have permission to do so, making it visible to everyone in the space via a crafted a HTTP request. | CVSS Score 4.3 (MEDIUM)`,
+    content: `[[[[[[[[Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing an authenticated user to change a document's sharing type to "global," even though they do not have permission to do so, making it visible to everyone in the space via a crafted a HTTP request. | CVSS Score 4.3 (MEDIUM)                  `,
+    contentSnippet: `[[[[[[[[Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing an authenticated user to change a document's sharing type to "global," even though they do not have permission to do so, making it visible to everyone in the space via a crafted a HTTP request. | CVSS Score 4.3 (MEDIUM)`,
     guid: 'CVE-2025-68386',
     isoDate: '2025-12-18T23:15:00.000Z'
   },
@@ -336,8 +336,8 @@
     title: "CVE-2025-68387 Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68387',
     pubDate: 'Thu, 18 Dec 2025 23:15:00 GMT',
-    content: "[[[[[[[Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows an unauthenticated user to embed a malicious script in content that will be served to web browsers causing cross-site scripting (XSS) (CAPEC-63) via a vulnerability a function handler in the Vega AST evaluator. | CVSS Score 6.1 (MEDIUM)                ",
-    contentSnippet: "[[[[[[[Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows an unauthenticated user to embed a malicious script in content that will be served to web browsers causing cross-site scripting (XSS) (CAPEC-63) via a vulnerability a function handler in the Vega AST evaluator. | CVSS Score 6.1 (MEDIUM)",
+    content: "[[[[[[[[Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows an unauthenticated user to embed a malicious script in content that will be served to web browsers causing cross-site scripting (XSS) (CAPEC-63) via a vulnerability a function handler in the Vega AST evaluator. | CVSS Score 6.1 (MEDIUM)                  ",
+    contentSnippet: "[[[[[[[[Improper neutralization of input during web page generation ('Cross-site Scripting') (CWE-79) allows an unauthenticated user to embed a malicious script in content that will be served to web browsers causing cross-site scripting (XSS) (CAPEC-63) via a vulnerability a function handler in the Vega AST evaluator. | CVSS Score 6.1 (MEDIUM)",
     guid: 'CVE-2025-68387',
     isoDate: '2025-12-18T23:15:00.000Z'
   },
@@ -345,8 +345,8 @@
     title: 'CVE-2025-68389 Allocation of Resources Without Limits or Throttling (CWE-770) in Kibana can allow a low-privileged ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68389',
     pubDate: 'Thu, 18 Dec 2025 23:15:00 GMT',
-    content: '[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Kibana can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) of computing resources and a denial of service (DoS) of the Kibana process via a crafted HTTP request. | CVSS Score 6.5 (MEDIUM)                ',
-    contentSnippet: '[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Kibana can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) of computing resources and a denial of service (DoS) of the Kibana process via a crafted HTTP request. | CVSS Score 6.5 (MEDIUM)',
+    content: '[[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Kibana can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) of computing resources and a denial of service (DoS) of the Kibana process via a crafted HTTP request. | CVSS Score 6.5 (MEDIUM)                  ',
+    contentSnippet: '[[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Kibana can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) of computing resources and a denial of service (DoS) of the Kibana process via a crafted HTTP request. | CVSS Score 6.5 (MEDIUM)',
     guid: 'CVE-2025-68389',
     isoDate: '2025-12-18T23:15:00.000Z'
   },
@@ -354,8 +354,8 @@
     title: 'CVE-2025-68390 Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow an authent...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68390',
     pubDate: 'Thu, 18 Dec 2025 23:15:00 GMT',
-    content: '[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow an authenticated user with snapshot restore privileges to cause Excessive Allocation (CAPEC-130) of memory and a denial of service (DoS) via crafted HTTP request. | CVSS Score 4.9 (MEDIUM)                ',
-    contentSnippet: '[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow an authenticated user with snapshot restore privileges to cause Excessive Allocation (CAPEC-130) of memory and a denial of service (DoS) via crafted HTTP request. | CVSS Score 4.9 (MEDIUM)',
+    content: '[[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow an authenticated user with snapshot restore privileges to cause Excessive Allocation (CAPEC-130) of memory and a denial of service (DoS) via crafted HTTP request. | CVSS Score 4.9 (MEDIUM)                  ',
+    contentSnippet: '[[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow an authenticated user with snapshot restore privileges to cause Excessive Allocation (CAPEC-130) of memory and a denial of service (DoS) via crafted HTTP request. | CVSS Score 4.9 (MEDIUM)',
     guid: 'CVE-2025-68390',
     isoDate: '2025-12-18T23:15:00.000Z'
   },
@@ -363,8 +363,8 @@
     title: 'CVE-2025-68398 Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to overwrite ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68398',
     pubDate: 'Thu, 18 Dec 2025 23:15:00 GMT',
-    content: '[[[[[[[Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to overwrite Git configuration remotely and override some of its behavior. Version 5.15.1 fixes the issue. | CVSS Score 9.1 (CRITICAL)                ',
-    contentSnippet: '[[[[[[[Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to overwrite Git configuration remotely and override some of its behavior. Version 5.15.1 fixes the issue. | CVSS Score 9.1 (CRITICAL)',
+    content: '[[[[[[[[Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to overwrite Git configuration remotely and override some of its behavior. Version 5.15.1 fixes the issue. | CVSS Score 9.1 (CRITICAL)                  ',
+    contentSnippet: '[[[[[[[[Weblate is a web based localization tool. In versions prior to 5.15.1, it was possible to overwrite Git configuration remotely and override some of its behavior. Version 5.15.1 fixes the issue. | CVSS Score 9.1 (CRITICAL)',
     guid: 'CVE-2025-68398',
     isoDate: '2025-12-18T23:15:00.000Z'
   },
@@ -372,8 +372,8 @@
     title: 'CVE-2025-68422 Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68422',
     pubDate: 'Thu, 18 Dec 2025 23:15:00 GMT',
-    content: '[[[[[[[Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing an authenticated user to bypass intended permission restrictions via a crafted HTTP request. This allows an attacker who lacks the live queries - read permission to successfully retrieve the list of live queries. | CVSS Score 4.3 (MEDIUM)                ',
-    contentSnippet: '[[[[[[[Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing an authenticated user to bypass intended permission restrictions via a crafted HTTP request. This allows an attacker who lacks the live queries - read permission to successfully retrieve the list of live queries. | CVSS Score 4.3 (MEDIUM)',
+    content: '[[[[[[[[Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing an authenticated user to bypass intended permission restrictions via a crafted HTTP request. This allows an attacker who lacks the live queries - read permission to successfully retrieve the list of live queries. | CVSS Score 4.3 (MEDIUM)                  ',
+    contentSnippet: '[[[[[[[[Improper Authorization (CWE-285) in Kibana can lead to privilege escalation (CAPEC-233) by allowing an authenticated user to bypass intended permission restrictions via a crafted HTTP request. This allows an attacker who lacks the live queries - read permission to successfully retrieve the list of live queries. | CVSS Score 4.3 (MEDIUM)',
     guid: 'CVE-2025-68422',
     isoDate: '2025-12-18T23:15:00.000Z'
   },
@@ -381,8 +381,8 @@
     title: 'CVE-2025-64663 Custom Question Answering Elevation of Privilege Vulnerability',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-64663',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: '[[[[[[[[[[Custom Question Answering Elevation of Privilege Vulnerability | CVSS Score 9.9 (CRITICAL)                      ',
-    contentSnippet: '[[[[[[[[[[Custom Question Answering Elevation of Privilege Vulnerability | CVSS Score 9.9 (CRITICAL)',
+    content: '[[[[[[[[[[[Custom Question Answering Elevation of Privilege Vulnerability | CVSS Score 9.9 (CRITICAL)                        ',
+    contentSnippet: '[[[[[[[[[[[Custom Question Answering Elevation of Privilege Vulnerability | CVSS Score 9.9 (CRITICAL)',
     guid: 'CVE-2025-64663',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -390,8 +390,8 @@
     title: "CVE-2025-64676 '.../...//' in Microsoft Purview allows an authorized attacker to execute code over a network.",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-64676',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: "[[[[[[[[[['.../...//' in Microsoft Purview allows an authorized attacker to execute code over a network. | CVSS Score 7.2 (HIGH)                      ",
-    contentSnippet: "[[[[[[[[[['.../...//' in Microsoft Purview allows an authorized attacker to execute code over a network. | CVSS Score 7.2 (HIGH)",
+    content: "[[[[[[[[[[['.../...//' in Microsoft Purview allows an authorized attacker to execute code over a network. | CVSS Score 7.2 (HIGH)                        ",
+    contentSnippet: "[[[[[[[[[[['.../...//' in Microsoft Purview allows an authorized attacker to execute code over a network. | CVSS Score 7.2 (HIGH)",
     guid: 'CVE-2025-64676',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -399,8 +399,8 @@
     title: "CVE-2025-64677 Improper neutralization of input during web page generation ('cross-site scripting') in Office Out-o...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-64677',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: "[[[[[[[[[[Improper neutralization of input during web page generation ('cross-site scripting') in Office Out-of-Box Experience allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 8.2 (HIGH)                      ",
-    contentSnippet: "[[[[[[[[[[Improper neutralization of input during web page generation ('cross-site scripting') in Office Out-of-Box Experience allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 8.2 (HIGH)",
+    content: "[[[[[[[[[[[Improper neutralization of input during web page generation ('cross-site scripting') in Office Out-of-Box Experience allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 8.2 (HIGH)                        ",
+    contentSnippet: "[[[[[[[[[[[Improper neutralization of input during web page generation ('cross-site scripting') in Office Out-of-Box Experience allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 8.2 (HIGH)",
     guid: 'CVE-2025-64677',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -408,8 +408,8 @@
     title: "CVE-2025-65037 Improper control of generation of code ('code injection') in Azure Container Apps allows an unauthor...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65037',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: "[[[[[[[[[[Improper control of generation of code ('code injection') in Azure Container Apps allows an unauthorized attacker to execute code over a network. | CVSS Score 10 (CRITICAL)                      ",
-    contentSnippet: "[[[[[[[[[[Improper control of generation of code ('code injection') in Azure Container Apps allows an unauthorized attacker to execute code over a network. | CVSS Score 10 (CRITICAL)",
+    content: "[[[[[[[[[[[Improper control of generation of code ('code injection') in Azure Container Apps allows an unauthorized attacker to execute code over a network. | CVSS Score 10 (CRITICAL)                        ",
+    contentSnippet: "[[[[[[[[[[[Improper control of generation of code ('code injection') in Azure Container Apps allows an unauthorized attacker to execute code over a network. | CVSS Score 10 (CRITICAL)",
     guid: 'CVE-2025-65037',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -417,8 +417,8 @@
     title: 'CVE-2025-65041 Improper authorization in Microsoft Partner Center allows an unauthorized attacker to elevate privil...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65041',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: '[[[[[[[[[[Improper authorization in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network. | CVSS Score 10 (CRITICAL)                      ',
-    contentSnippet: '[[[[[[[[[[Improper authorization in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network. | CVSS Score 10 (CRITICAL)',
+    content: '[[[[[[[[[[[Improper authorization in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network. | CVSS Score 10 (CRITICAL)                        ',
+    contentSnippet: '[[[[[[[[[[[Improper authorization in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network. | CVSS Score 10 (CRITICAL)',
     guid: 'CVE-2025-65041',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -426,8 +426,8 @@
     title: 'CVE-2025-65046 Microsoft Edge (Chromium-based) Spoofing Vulnerability',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65046',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: '[[[[[[[[[[Microsoft Edge (Chromium-based) Spoofing Vulnerability | CVSS Score 3.1 (LOW)                      ',
-    contentSnippet: '[[[[[[[[[[Microsoft Edge (Chromium-based) Spoofing Vulnerability | CVSS Score 3.1 (LOW)',
+    content: '[[[[[[[[[[[Microsoft Edge (Chromium-based) Spoofing Vulnerability | CVSS Score 3.1 (LOW)                        ',
+    contentSnippet: '[[[[[[[[[[[Microsoft Edge (Chromium-based) Spoofing Vulnerability | CVSS Score 3.1 (LOW)',
     guid: 'CVE-2025-65046',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -435,8 +435,8 @@
     title: 'CVE-2025-68381 Improper Bounds Check (CWE-787) in Packetbeat can allow a remote unauthenticated attacker to exploit...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68381',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: '[[[[[[[[[[Improper Bounds Check (CWE-787) in Packetbeat can allow a remote unauthenticated attacker to exploit a Buffer Overflow (CAPEC-100) and reliably crash the application or cause significant resource exhaustion via a single crafted UDP packet with an invalid fragment sequence number. | CVSS Score 6.5 (MEDIUM)                      ',
-    contentSnippet: '[[[[[[[[[[Improper Bounds Check (CWE-787) in Packetbeat can allow a remote unauthenticated attacker to exploit a Buffer Overflow (CAPEC-100) and reliably crash the application or cause significant resource exhaustion via a single crafted UDP packet with an invalid fragment sequence number. | CVSS Score 6.5 (MEDIUM)',
+    content: '[[[[[[[[[[[Improper Bounds Check (CWE-787) in Packetbeat can allow a remote unauthenticated attacker to exploit a Buffer Overflow (CAPEC-100) and reliably crash the application or cause significant resource exhaustion via a single crafted UDP packet with an invalid fragment sequence number. | CVSS Score 6.5 (MEDIUM)                        ',
+    contentSnippet: '[[[[[[[[[[[Improper Bounds Check (CWE-787) in Packetbeat can allow a remote unauthenticated attacker to exploit a Buffer Overflow (CAPEC-100) and reliably crash the application or cause significant resource exhaustion via a single crafted UDP packet with an invalid fragment sequence number. | CVSS Score 6.5 (MEDIUM)',
     guid: 'CVE-2025-68381',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -444,8 +444,8 @@
     title: 'CVE-2025-68382 Out-of-bounds read (CWE-125) allows an unauthenticated remote attacker to perform a buffer overflow ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68382',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: '[[[[[[[[[[Out-of-bounds read (CWE-125) allows an unauthenticated remote attacker to perform a buffer overflow (CAPEC-100) via the NFS protocol dissector, leading to a denial-of-service (DoS) through a reliable process crash when handling truncated XDR-encoded RPC messages. | CVSS Score 6.5 (MEDIUM)                      ',
-    contentSnippet: '[[[[[[[[[[Out-of-bounds read (CWE-125) allows an unauthenticated remote attacker to perform a buffer overflow (CAPEC-100) via the NFS protocol dissector, leading to a denial-of-service (DoS) through a reliable process crash when handling truncated XDR-encoded RPC messages. | CVSS Score 6.5 (MEDIUM)',
+    content: '[[[[[[[[[[[Out-of-bounds read (CWE-125) allows an unauthenticated remote attacker to perform a buffer overflow (CAPEC-100) via the NFS protocol dissector, leading to a denial-of-service (DoS) through a reliable process crash when handling truncated XDR-encoded RPC messages. | CVSS Score 6.5 (MEDIUM)                        ',
+    contentSnippet: '[[[[[[[[[[[Out-of-bounds read (CWE-125) allows an unauthenticated remote attacker to perform a buffer overflow (CAPEC-100) via the NFS protocol dissector, leading to a denial-of-service (DoS) through a reliable process crash when handling truncated XDR-encoded RPC messages. | CVSS Score 6.5 (MEDIUM)',
     guid: 'CVE-2025-68382',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -453,8 +453,8 @@
     title: 'CVE-2025-68383 Improper Validation of Specified Index, Position, or Offset in Input (CWE-1285) in Filebeat Syslog p...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68383',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: '[[[[[[[[[[Improper Validation of Specified Index, Position, or Offset in Input (CWE-1285) in Filebeat Syslog parser and the Libbeat Dissect processor can allow a user to trigger a Buffer Overflow (CAPEC-100) and cause a denial of service (panic/crash) of the Filebeat process via either a malformed Syslog message or a malicious tokenizer pattern in the Dissect configuration. | CVSS Score 6.5 (MEDIUM)                      ',
-    contentSnippet: '[[[[[[[[[[Improper Validation of Specified Index, Position, or Offset in Input (CWE-1285) in Filebeat Syslog parser and the Libbeat Dissect processor can allow a user to trigger a Buffer Overflow (CAPEC-100) and cause a denial of service (panic/crash) of the Filebeat process via either a malformed Syslog message or a malicious tokenizer pattern in the Dissect configuration. | CVSS Score 6.5 (MEDIUM)',
+    content: '[[[[[[[[[[[Improper Validation of Specified Index, Position, or Offset in Input (CWE-1285) in Filebeat Syslog parser and the Libbeat Dissect processor can allow a user to trigger a Buffer Overflow (CAPEC-100) and cause a denial of service (panic/crash) of the Filebeat process via either a malformed Syslog message or a malicious tokenizer pattern in the Dissect configuration. | CVSS Score 6.5 (MEDIUM)                        ',
+    contentSnippet: '[[[[[[[[[[[Improper Validation of Specified Index, Position, or Offset in Input (CWE-1285) in Filebeat Syslog parser and the Libbeat Dissect processor can allow a user to trigger a Buffer Overflow (CAPEC-100) and cause a denial of service (panic/crash) of the Filebeat process via either a malformed Syslog message or a malicious tokenizer pattern in the Dissect configuration. | CVSS Score 6.5 (MEDIUM)',
     guid: 'CVE-2025-68383',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -462,8 +462,8 @@
     title: 'CVE-2025-68384 Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow a low-priv...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68384',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: '[[[[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) causing a persistent denial of service (OOM crash) via submission of oversized user settings data. | CVSS Score 6.5 (MEDIUM)                      ',
-    contentSnippet: '[[[[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) causing a persistent denial of service (OOM crash) via submission of oversized user settings data. | CVSS Score 6.5 (MEDIUM)',
+    content: '[[[[[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) causing a persistent denial of service (OOM crash) via submission of oversized user settings data. | CVSS Score 6.5 (MEDIUM)                        ',
+    contentSnippet: '[[[[[[[[[[[Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) causing a persistent denial of service (OOM crash) via submission of oversized user settings data. | CVSS Score 6.5 (MEDIUM)',
     guid: 'CVE-2025-68384',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -471,8 +471,8 @@
     title: 'CVE-2025-68388 Allocation of resources without limits or throttling (CWE-770) allows an unauthenticated remote atta...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68388',
     pubDate: 'Thu, 18 Dec 2025 22:16:00 GMT',
-    content: '[[[[[[[[[[Allocation of resources without limits or throttling (CWE-770) allows an unauthenticated remote attacker to cause excessive allocation (CAPEC-130) of memory and CPU via the integration of malicious IPv4 fragments, leading to denial-of-service in Packetbeat. | CVSS Score 7.5 (HIGH)                      ',
-    contentSnippet: '[[[[[[[[[[Allocation of resources without limits or throttling (CWE-770) allows an unauthenticated remote attacker to cause excessive allocation (CAPEC-130) of memory and CPU via the integration of malicious IPv4 fragments, leading to denial-of-service in Packetbeat. | CVSS Score 7.5 (HIGH)',
+    content: '[[[[[[[[[[[Allocation of resources without limits or throttling (CWE-770) allows an unauthenticated remote attacker to cause excessive allocation (CAPEC-130) of memory and CPU via the integration of malicious IPv4 fragments, leading to denial-of-service in Packetbeat. | CVSS Score 7.5 (HIGH)                        ',
+    contentSnippet: '[[[[[[[[[[[Allocation of resources without limits or throttling (CWE-770) allows an unauthenticated remote attacker to cause excessive allocation (CAPEC-130) of memory and CPU via the integration of malicious IPv4 fragments, leading to denial-of-service in Packetbeat. | CVSS Score 7.5 (HIGH)',
     guid: 'CVE-2025-68388',
     isoDate: '2025-12-18T22:16:00.000Z'
   },
@@ -480,10 +480,10 @@
     title: 'CVE-2025-13427 An authentication bypass vulnerability in Google Cloud Dialogflow CX Messenger allowed unauthenticat...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13427',
     pubDate: 'Thu, 18 Dec 2025 22:15:00 GMT',
-    content: "[[[[[[[[[[An authentication bypass vulnerability in Google Cloud Dialogflow CX Messenger allowed unauthenticated users to interact with restricted chat agents, gaining access to the agents' knowledge and the ability to trigger their intents, by manipulating initialization parameters or crafting specific API requests. \r\n" +
+    content: "[[[[[[[[[[[An authentication bypass vulnerability in Google Cloud Dialogflow CX Messenger allowed unauthenticated users to interact with restricted chat agents, gaining access to the agents' knowledge and the ability to trigger their intents, by manipulating initialization parameters or crafting specific API requests. \r\n" +
       '\r\n' +
       'All versions after August 20th, 2025 have been updated to protect from this vulnerability. No user action is required for this. | Severity UNKNOWN',
-    contentSnippet: "[[[[[[[[[[An authentication bypass vulnerability in Google Cloud Dialogflow CX Messenger allowed unauthenticated users to interact with restricted chat agents, gaining access to the agents' knowledge and the ability to trigger their intents, by manipulating initialization parameters or crafting specific API requests. \r\n" +
+    contentSnippet: "[[[[[[[[[[[An authentication bypass vulnerability in Google Cloud Dialogflow CX Messenger allowed unauthenticated users to interact with restricted chat agents, gaining access to the agents' knowledge and the ability to trigger their intents, by manipulating initialization parameters or crafting specific API requests. \r\n" +
       '\r\n' +
       'All versions after August 20th, 2025 have been updated to protect from this vulnerability. No user action is required for this. | Severity UNKNOWN',
     guid: 'CVE-2025-13427',
@@ -493,8 +493,8 @@
     title: 'CVE-2025-34449 Genymobile/scrcpy versions up to and including 3.3.3 and prior to commit 3e40b24 contain a global bu...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-34449',
     pubDate: 'Thu, 18 Dec 2025 22:15:00 GMT',
-    content: '[[[[[[[[[[Genymobile/scrcpy versions up to and including 3.3.3 and prior to commit 3e40b24 contain a global buffer overflow vulnerability in the function sc_read32be, invoked via sc_device_msg_deserialize() and process_msgs(). Processing crafted device messages can cause reads beyond the bounds of a global buffer, leading to memory corruption or crashes. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations. | Severity UNKNOWN                      ',
-    contentSnippet: '[[[[[[[[[[Genymobile/scrcpy versions up to and including 3.3.3 and prior to commit 3e40b24 contain a global buffer overflow vulnerability in the function sc_read32be, invoked via sc_device_msg_deserialize() and process_msgs(). Processing crafted device messages can cause reads beyond the bounds of a global buffer, leading to memory corruption or crashes. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations. | Severity UNKNOWN',
+    content: '[[[[[[[[[[[Genymobile/scrcpy versions up to and including 3.3.3 and prior to commit 3e40b24 contain a global buffer overflow vulnerability in the function sc_read32be, invoked via sc_device_msg_deserialize() and process_msgs(). Processing crafted device messages can cause reads beyond the bounds of a global buffer, leading to memory corruption or crashes. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations. | Severity UNKNOWN                        ',
+    contentSnippet: '[[[[[[[[[[[Genymobile/scrcpy versions up to and including 3.3.3 and prior to commit 3e40b24 contain a global buffer overflow vulnerability in the function sc_read32be, invoked via sc_device_msg_deserialize() and process_msgs(). Processing crafted device messages can cause reads beyond the bounds of a global buffer, leading to memory corruption or crashes. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations. | Severity UNKNOWN',
     guid: 'CVE-2025-34449',
     isoDate: '2025-12-18T22:15:00.000Z'
   },
@@ -502,8 +502,8 @@
     title: 'CVE-2025-34450 merbanan/rtl_433 versions up to and including 25.02 and prior to commit 25e47f8 contain a stack-base...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-34450',
     pubDate: 'Thu, 18 Dec 2025 22:15:00 GMT',
-    content: '[[[[[[[[[[merbanan/rtl_433 versions up to and including 25.02 and prior to commit 25e47f8 contain a stack-based buffer overflow vulnerability in the function parse_rfraw() located in src/rfraw.c. When processing crafted or excessively large raw RF input data, the application may write beyond the bounds of a stack buffer, resulting in memory corruption or a crash. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations. | Severity UNKNOWN                      ',
-    contentSnippet: '[[[[[[[[[[merbanan/rtl_433 versions up to and including 25.02 and prior to commit 25e47f8 contain a stack-based buffer overflow vulnerability in the function parse_rfraw() located in src/rfraw.c. When processing crafted or excessively large raw RF input data, the application may write beyond the bounds of a stack buffer, resulting in memory corruption or a crash. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations. | Severity UNKNOWN',
+    content: '[[[[[[[[[[[merbanan/rtl_433 versions up to and including 25.02 and prior to commit 25e47f8 contain a stack-based buffer overflow vulnerability in the function parse_rfraw() located in src/rfraw.c. When processing crafted or excessively large raw RF input data, the application may write beyond the bounds of a stack buffer, resulting in memory corruption or a crash. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations. | Severity UNKNOWN                        ',
+    contentSnippet: '[[[[[[[[[[[merbanan/rtl_433 versions up to and including 25.02 and prior to commit 25e47f8 contain a stack-based buffer overflow vulnerability in the function parse_rfraw() located in src/rfraw.c. When processing crafted or excessively large raw RF input data, the application may write beyond the bounds of a stack buffer, resulting in memory corruption or a crash. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations. | Severity UNKNOWN',
     guid: 'CVE-2025-34450',
     isoDate: '2025-12-18T22:15:00.000Z'
   },
@@ -511,8 +511,8 @@
     title: 'CVE-2025-34451 rofl0r/proxychains-ng versions up to and including 4.17 and prior to commit cc005b7 contain a stack-...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-34451',
     pubDate: 'Thu, 18 Dec 2025 22:15:00 GMT',
-    content: '[[[[[[[[[[rofl0r/proxychains-ng versions up to and including 4.17 and prior to commit cc005b7 contain a stack-based buffer overflow vulnerability in the function proxy_from_string() located in src/libproxychains.c. When parsing crafted proxy configuration entries containing overly long username or password fields, the application may write beyond the bounds of fixed-size stack buffers, leading to memory corruption or crashes. This vulnerability may allow denial of service and, under certain conditions, could be leveraged for further exploitation depending on the execution environment and applied mitigations. | Severity UNKNOWN                      ',
-    contentSnippet: '[[[[[[[[[[rofl0r/proxychains-ng versions up to and including 4.17 and prior to commit cc005b7 contain a stack-based buffer overflow vulnerability in the function proxy_from_string() located in src/libproxychains.c. When parsing crafted proxy configuration entries containing overly long username or password fields, the application may write beyond the bounds of fixed-size stack buffers, leading to memory corruption or crashes. This vulnerability may allow denial of service and, under certain conditions, could be leveraged for further exploitation depending on the execution environment and applied mitigations. | Severity UNKNOWN',
+    content: '[[[[[[[[[[[rofl0r/proxychains-ng versions up to and including 4.17 and prior to commit cc005b7 contain a stack-based buffer overflow vulnerability in the function proxy_from_string() located in src/libproxychains.c. When parsing crafted proxy configuration entries containing overly long username or password fields, the application may write beyond the bounds of fixed-size stack buffers, leading to memory corruption or crashes. This vulnerability may allow denial of service and, under certain conditions, could be leveraged for further exploitation depending on the execution environment and applied mitigations. | Severity UNKNOWN                        ',
+    contentSnippet: '[[[[[[[[[[[rofl0r/proxychains-ng versions up to and including 4.17 and prior to commit cc005b7 contain a stack-based buffer overflow vulnerability in the function proxy_from_string() located in src/libproxychains.c. When parsing crafted proxy configuration entries containing overly long username or password fields, the application may write beyond the bounds of fixed-size stack buffers, leading to memory corruption or crashes. This vulnerability may allow denial of service and, under certain conditions, could be leveraged for further exploitation depending on the execution environment and applied mitigations. | Severity UNKNOWN',
     guid: 'CVE-2025-34451',
     isoDate: '2025-12-18T22:15:00.000Z'
   },
@@ -520,8 +520,8 @@
     title: 'CVE-2025-34452 Streama versions 1.10.0 through 1.10.5 and prior to commit b7c8767 contain a combination of path tra...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-34452',
     pubDate: 'Thu, 18 Dec 2025 22:15:00 GMT',
-    content: '[[[[[[[[[[Streama versions 1.10.0 through 1.10.5 and prior to commit b7c8767 contain a combination of path traversal and server-side request forgery (SSRF) vulnerabilities in that allow an authenticated attacker to write arbitrary files to the server filesystem. The issue exists in the subtitle download functionality, where user-controlled parameters are used to fetch remote content and construct file paths without proper validation. By supplying a crafted subtitle download URL and a path traversal sequence in the file name, an attacker can write files to arbitrary locations on the server, potentially leading to remote code execution. | Severity UNKNOWN                      ',
-    contentSnippet: '[[[[[[[[[[Streama versions 1.10.0 through 1.10.5 and prior to commit b7c8767 contain a combination of path traversal and server-side request forgery (SSRF) vulnerabilities in that allow an authenticated attacker to write arbitrary files to the server filesystem. The issue exists in the subtitle download functionality, where user-controlled parameters are used to fetch remote content and construct file paths without proper validation. By supplying a crafted subtitle download URL and a path traversal sequence in the file name, an attacker can write files to arbitrary locations on the server, potentially leading to remote code execution. | Severity UNKNOWN',
+    content: '[[[[[[[[[[[Streama versions 1.10.0 through 1.10.5 and prior to commit b7c8767 contain a combination of path traversal and server-side request forgery (SSRF) vulnerabilities in that allow an authenticated attacker to write arbitrary files to the server filesystem. The issue exists in the subtitle download functionality, where user-controlled parameters are used to fetch remote content and construct file paths without proper validation. By supplying a crafted subtitle download URL and a path traversal sequence in the file name, an attacker can write files to arbitrary locations on the server, potentially leading to remote code execution. | Severity UNKNOWN                        ',
+    contentSnippet: '[[[[[[[[[[[Streama versions 1.10.0 through 1.10.5 and prior to commit b7c8767 contain a combination of path traversal and server-side request forgery (SSRF) vulnerabilities in that allow an authenticated attacker to write arbitrary files to the server filesystem. The issue exists in the subtitle download functionality, where user-controlled parameters are used to fetch remote content and construct file paths without proper validation. By supplying a crafted subtitle download URL and a path traversal sequence in the file name, an attacker can write files to arbitrary locations on the server, potentially leading to remote code execution. | Severity UNKNOWN',
     guid: 'CVE-2025-34452',
     isoDate: '2025-12-18T22:15:00.000Z'
   },
@@ -530,7 +530,7 @@
       'scripting is utilized for automa...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-13911',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[The vulnerability affects Ignition SCADA applications where Python \r\n' +
+    content: '[[[[[[[[[[[[[[The vulnerability affects Ignition SCADA applications where Python \r\n' +
       'scripting is utilized for automation purposes. The vulnerability arises \r\n' +
       'from the absence of proper security controls that restrict which Python \r\n' +
       'libraries can be imported and executed within the scripting environment.\r\n' +
@@ -541,7 +541,7 @@
       'these scripts with the same privileges as the Ignition Gateway process, \r\n' +
       'which typically runs with SYSTEM-level permissions on Windows. \r\n' +
       'Alternative code execution patterns could lead to similar results. | CVSS Score 6.4 (MEDIUM)',
-    contentSnippet: '[[[[[[[[[[[[[The vulnerability affects Ignition SCADA applications where Python \r\n' +
+    contentSnippet: '[[[[[[[[[[[[[[The vulnerability affects Ignition SCADA applications where Python \r\n' +
       'scripting is utilized for automation purposes. The vulnerability arises \r\n' +
       'from the absence of proper security controls that restrict which Python \r\n' +
       'libraries can be imported and executed within the scripting environment.\r\n' +
@@ -560,9 +560,9 @@
       'is vulnerable to absolute directory traversal, which may allow an attacker...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14848',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[Advantech WebAccess/SCADA\r\n' +
+    content: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA\r\n' +
       'is vulnerable to absolute directory traversal, which may allow an attacker to determine the existence of arbitrary files. | CVSS Score 4.3 (MEDIUM)',
-    contentSnippet: '[[[[[[[[[[[[[Advantech WebAccess/SCADA\r\n' +
+    contentSnippet: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA\r\n' +
       'is vulnerable to absolute directory traversal, which may allow an attacker to determine the existence of arbitrary files. | CVSS Score 4.3 (MEDIUM)',
     guid: 'CVE-2025-14848',
     isoDate: '2025-12-18T21:15:00.000Z'
@@ -572,9 +572,9 @@
       'is vulnerable to unrestricted file upload, which may allow an attacker to...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14849',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[Advantech WebAccess/SCADA \r\n' +
+    content: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA \r\n' +
       'is vulnerable to unrestricted file upload, which may allow an attacker to remotely execute arbitrary code. | CVSS Score 8.8 (HIGH)',
-    contentSnippet: '[[[[[[[[[[[[[Advantech WebAccess/SCADA \r\n' +
+    contentSnippet: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA \r\n' +
       'is vulnerable to unrestricted file upload, which may allow an attacker to remotely execute arbitrary code. | CVSS Score 8.8 (HIGH)',
     guid: 'CVE-2025-14849',
     isoDate: '2025-12-18T21:15:00.000Z'
@@ -583,8 +583,8 @@
     title: 'CVE-2025-14850 Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to delet...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-14850',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to delete arbitrary files. | CVSS Score 8.1 (HIGH)                            ',
-    contentSnippet: '[[[[[[[[[[[[[Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to delete arbitrary files. | CVSS Score 8.1 (HIGH)',
+    content: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to delete arbitrary files. | CVSS Score 8.1 (HIGH)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to delete arbitrary files. | CVSS Score 8.1 (HIGH)',
     guid: 'CVE-2025-14850',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -593,9 +593,9 @@
       'is vulnerable to SQL injection, which may allow an attacker to execute ar...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-46268',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[Advantech WebAccess/SCADA \r\n' +
+    content: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA \r\n' +
       'is vulnerable to SQL injection, which may allow an attacker to execute arbitrary SQL commands. | CVSS Score 6.3 (MEDIUM)',
-    contentSnippet: '[[[[[[[[[[[[[Advantech WebAccess/SCADA \r\n' +
+    contentSnippet: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA \r\n' +
       'is vulnerable to SQL injection, which may allow an attacker to execute arbitrary SQL commands. | CVSS Score 6.3 (MEDIUM)',
     guid: 'CVE-2025-46268',
     isoDate: '2025-12-18T21:15:00.000Z'
@@ -604,8 +604,8 @@
     title: 'CVE-2025-53710 Due to a product misconfiguration in certain deployment types, it was possible from different pods i...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-53710',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[Due to a product misconfiguration in certain deployment types, it was possible from different pods in the same namespace to communicate with each other. This issue resulted in bypass of access control due to the presence of a vulnerable endpoint in Foundry Container Service that executed user-controlled commands locally. | CVSS Score 7.5 (HIGH)                            ',
-    contentSnippet: '[[[[[[[[[[[[[Due to a product misconfiguration in certain deployment types, it was possible from different pods in the same namespace to communicate with each other. This issue resulted in bypass of access control due to the presence of a vulnerable endpoint in Foundry Container Service that executed user-controlled commands locally. | CVSS Score 7.5 (HIGH)',
+    content: '[[[[[[[[[[[[[[Due to a product misconfiguration in certain deployment types, it was possible from different pods in the same namespace to communicate with each other. This issue resulted in bypass of access control due to the presence of a vulnerable endpoint in Foundry Container Service that executed user-controlled commands locally. | CVSS Score 7.5 (HIGH)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[Due to a product misconfiguration in certain deployment types, it was possible from different pods in the same namespace to communicate with each other. This issue resulted in bypass of access control due to the presence of a vulnerable endpoint in Foundry Container Service that executed user-controlled commands locally. | CVSS Score 7.5 (HIGH)',
     guid: 'CVE-2025-53710',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -613,8 +613,8 @@
     title: 'CVE-2025-59529 Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protoco...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-59529',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users. | CVSS Score 5.5 (MEDIUM)                            ',
-    contentSnippet: '[[[[[[[[[[[[[Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users. | CVSS Score 5.5 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users. | CVSS Score 5.5 (MEDIUM)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users. | CVSS Score 5.5 (MEDIUM)',
     guid: 'CVE-2025-59529',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -622,8 +622,8 @@
     title: 'CVE-2025-62000 BullWall Ransomware Containment does not entirely inspect a file to determine if it is ransomware. A...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-62000',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[BullWall Ransomware Containment does not entirely inspect a file to determine if it is ransomware. An authenticated attacker could bypass detection by encrypting a file and leaving the first four bytes unaltered. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 7.1 (HIGH)                            ',
-    contentSnippet: '[[[[[[[[[[[[[BullWall Ransomware Containment does not entirely inspect a file to determine if it is ransomware. An authenticated attacker could bypass detection by encrypting a file and leaving the first four bytes unaltered. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 7.1 (HIGH)',
+    content: '[[[[[[[[[[[[[[BullWall Ransomware Containment does not entirely inspect a file to determine if it is ransomware. An authenticated attacker could bypass detection by encrypting a file and leaving the first four bytes unaltered. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 7.1 (HIGH)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[BullWall Ransomware Containment does not entirely inspect a file to determine if it is ransomware. An authenticated attacker could bypass detection by encrypting a file and leaving the first four bytes unaltered. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 7.1 (HIGH)',
     guid: 'CVE-2025-62000',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -631,8 +631,8 @@
     title: "CVE-2025-62001 BullWall Ransomware Containment contains excluded file paths, such as '$recycle.bin' that are not mo...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-62001',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: "[[[[[[[[[[[[[BullWall Ransomware Containment contains excluded file paths, such as '$recycle.bin' that are not monitored. An attacker with file write permissions could bypass detection by renaming a directory. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 8.8 (HIGH)                            ",
-    contentSnippet: "[[[[[[[[[[[[[BullWall Ransomware Containment contains excluded file paths, such as '$recycle.bin' that are not monitored. An attacker with file write permissions could bypass detection by renaming a directory. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 8.8 (HIGH)",
+    content: "[[[[[[[[[[[[[[BullWall Ransomware Containment contains excluded file paths, such as '$recycle.bin' that are not monitored. An attacker with file write permissions could bypass detection by renaming a directory. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 8.8 (HIGH)                              ",
+    contentSnippet: "[[[[[[[[[[[[[[BullWall Ransomware Containment contains excluded file paths, such as '$recycle.bin' that are not monitored. An attacker with file write permissions could bypass detection by renaming a directory. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 8.8 (HIGH)",
     guid: 'CVE-2025-62001',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -640,8 +640,8 @@
     title: 'CVE-2025-62002 BullWall Ransomware Containment relies on the number of file modifications to trigger detection. An ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-62002',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[BullWall Ransomware Containment relies on the number of file modifications to trigger detection. An authenticated attacker could encrypt a single large file without triggering a detection alert. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 4.3 (MEDIUM)                            ',
-    contentSnippet: '[[[[[[[[[[[[[BullWall Ransomware Containment relies on the number of file modifications to trigger detection. An authenticated attacker could encrypt a single large file without triggering a detection alert. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 4.3 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[BullWall Ransomware Containment relies on the number of file modifications to trigger detection. An authenticated attacker could encrypt a single large file without triggering a detection alert. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 4.3 (MEDIUM)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[BullWall Ransomware Containment relies on the number of file modifications to trigger detection. An authenticated attacker could encrypt a single large file without triggering a detection alert. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 4.3 (MEDIUM)',
     guid: 'CVE-2025-62002',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -649,8 +649,8 @@
     title: 'CVE-2025-62003 BullWall Server Intrusion Protection has a noticeable delay before the MFA check when connecting via...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-62003',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[BullWall Server Intrusion Protection has a noticeable delay before the MFA check when connecting via RDP. A remote authenticated attacker with administrative privileges can potentially bypass detection during this window. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 6.2 (MEDIUM)                            ',
-    contentSnippet: '[[[[[[[[[[[[[BullWall Server Intrusion Protection has a noticeable delay before the MFA check when connecting via RDP. A remote authenticated attacker with administrative privileges can potentially bypass detection during this window. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 6.2 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[BullWall Server Intrusion Protection has a noticeable delay before the MFA check when connecting via RDP. A remote authenticated attacker with administrative privileges can potentially bypass detection during this window. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 6.2 (MEDIUM)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[BullWall Server Intrusion Protection has a noticeable delay before the MFA check when connecting via RDP. A remote authenticated attacker with administrative privileges can potentially bypass detection during this window. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 6.2 (MEDIUM)',
     guid: 'CVE-2025-62003',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -658,8 +658,8 @@
     title: 'CVE-2025-62004 BullWall Server Intrusion Protection services are initialized after login services. An authenticated...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-62004',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[BullWall Server Intrusion Protection services are initialized after login services. An authenticated attacker with administrative permissions can log in after boot and bypass MFA. SIP service does not retroactively enforce the challenge or disconnect unauthenticated sessions. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 6.2 (MEDIUM)                            ',
-    contentSnippet: '[[[[[[[[[[[[[BullWall Server Intrusion Protection services are initialized after login services. An authenticated attacker with administrative permissions can log in after boot and bypass MFA. SIP service does not retroactively enforce the challenge or disconnect unauthenticated sessions. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 6.2 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[BullWall Server Intrusion Protection services are initialized after login services. An authenticated attacker with administrative permissions can log in after boot and bypass MFA. SIP service does not retroactively enforce the challenge or disconnect unauthenticated sessions. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 6.2 (MEDIUM)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[BullWall Server Intrusion Protection services are initialized after login services. An authenticated attacker with administrative permissions can log in after boot and bypass MFA. SIP service does not retroactively enforce the challenge or disconnect unauthenticated sessions. Versions 4.6.0.0, 4.6.0.6, 4.6.0.7, and 4.6.1.4 were confirmed to be affected other versions before and after may also be affected. | CVSS Score 6.2 (MEDIUM)',
     guid: 'CVE-2025-62004',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -667,8 +667,8 @@
     title: 'CVE-2025-63947 A Reflected Cross-Site Scripting (XSS) vulnerability exists in phpMsAdmin version 2.2 in the databas...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63947',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[A Reflected Cross-Site Scripting (XSS) vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An attacker can execute arbitrary web script or HTML via the dbname parameter after a user is authenticated. | CVSS Score 5.4 (MEDIUM)                            ',
-    contentSnippet: '[[[[[[[[[[[[[A Reflected Cross-Site Scripting (XSS) vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An attacker can execute arbitrary web script or HTML via the dbname parameter after a user is authenticated. | CVSS Score 5.4 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[A Reflected Cross-Site Scripting (XSS) vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An attacker can execute arbitrary web script or HTML via the dbname parameter after a user is authenticated. | CVSS Score 5.4 (MEDIUM)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[A Reflected Cross-Site Scripting (XSS) vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An attacker can execute arbitrary web script or HTML via the dbname parameter after a user is authenticated. | CVSS Score 5.4 (MEDIUM)',
     guid: 'CVE-2025-63947',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -676,8 +676,8 @@
     title: 'CVE-2025-63948 A SQL Injection vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An att...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63948',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[A SQL Injection vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An attacker can execute arbitrary SQL commands via the dbname parameter, potentially leading to information disclosure or database manipulation. | CVSS Score 5.4 (MEDIUM)                            ',
-    contentSnippet: '[[[[[[[[[[[[[A SQL Injection vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An attacker can execute arbitrary SQL commands via the dbname parameter, potentially leading to information disclosure or database manipulation. | CVSS Score 5.4 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[A SQL Injection vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An attacker can execute arbitrary SQL commands via the dbname parameter, potentially leading to information disclosure or database manipulation. | CVSS Score 5.4 (MEDIUM)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[A SQL Injection vulnerability exists in phpMsAdmin version 2.2 in the database_mode.php file. An attacker can execute arbitrary SQL commands via the dbname parameter, potentially leading to information disclosure or database manipulation. | CVSS Score 5.4 (MEDIUM)',
     guid: 'CVE-2025-63948',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -685,8 +685,8 @@
     title: 'CVE-2025-63949 A Reflected Cross-Site Scripting (XSS) vulnerability in yohanawi Hotel Management System (commit 87e...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63949',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: "[[[[[[[[[[[[[A Reflected Cross-Site Scripting (XSS) vulnerability in yohanawi Hotel Management System (commit 87e004a) allows a remote attacker to execute arbitrary web script via the 'error' parameter in pages/room.php. | Severity UNKNOWN                            ",
-    contentSnippet: "[[[[[[[[[[[[[A Reflected Cross-Site Scripting (XSS) vulnerability in yohanawi Hotel Management System (commit 87e004a) allows a remote attacker to execute arbitrary web script via the 'error' parameter in pages/room.php. | Severity UNKNOWN",
+    content: "[[[[[[[[[[[[[[A Reflected Cross-Site Scripting (XSS) vulnerability in yohanawi Hotel Management System (commit 87e004a) allows a remote attacker to execute arbitrary web script via the 'error' parameter in pages/room.php. | Severity UNKNOWN                              ",
+    contentSnippet: "[[[[[[[[[[[[[[A Reflected Cross-Site Scripting (XSS) vulnerability in yohanawi Hotel Management System (commit 87e004a) allows a remote attacker to execute arbitrary web script via the 'error' parameter in pages/room.php. | Severity UNKNOWN",
     guid: 'CVE-2025-63949',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -694,8 +694,8 @@
     title: 'CVE-2025-63950 An insecure deserialization vulnerability exists in the download.php script of the to3k Twittodon ap...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63950',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: "[[[[[[[[[[[[[An insecure deserialization vulnerability exists in the download.php script of the to3k Twittodon application through commit b1c58a7d1dc664b38deb486ca290779621342c0b (2023-02-28). The 'obj' parameter receives base64-encoded data that is passed directly to the unserialize() function without validation. This allows a remote, unauthenticated attacker to inject arbitrary PHP objects, leading to a denial of service. | Severity UNKNOWN                            ",
-    contentSnippet: "[[[[[[[[[[[[[An insecure deserialization vulnerability exists in the download.php script of the to3k Twittodon application through commit b1c58a7d1dc664b38deb486ca290779621342c0b (2023-02-28). The 'obj' parameter receives base64-encoded data that is passed directly to the unserialize() function without validation. This allows a remote, unauthenticated attacker to inject arbitrary PHP objects, leading to a denial of service. | Severity UNKNOWN",
+    content: "[[[[[[[[[[[[[[An insecure deserialization vulnerability exists in the download.php script of the to3k Twittodon application through commit b1c58a7d1dc664b38deb486ca290779621342c0b (2023-02-28). The 'obj' parameter receives base64-encoded data that is passed directly to the unserialize() function without validation. This allows a remote, unauthenticated attacker to inject arbitrary PHP objects, leading to a denial of service. | Severity UNKNOWN                              ",
+    contentSnippet: "[[[[[[[[[[[[[[An insecure deserialization vulnerability exists in the download.php script of the to3k Twittodon application through commit b1c58a7d1dc664b38deb486ca290779621342c0b (2023-02-28). The 'obj' parameter receives base64-encoded data that is passed directly to the unserialize() function without validation. This allows a remote, unauthenticated attacker to inject arbitrary PHP objects, leading to a denial of service. | Severity UNKNOWN",
     guid: 'CVE-2025-63950',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -703,8 +703,8 @@
     title: 'CVE-2025-63951 An insecure deserialization vulnerability exists in the rss-mp3.php script of the MiczFlor RPi-Jukeb...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-63951',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: "[[[[[[[[[[[[[An insecure deserialization vulnerability exists in the rss-mp3.php script of the MiczFlor RPi-Jukebox-RFID project through commit 4b2334f0ae0e87c0568876fc41c48c38aa9a7014 (2025-10-07). The 'rss' GET parameter receives data that is passed directly to the unserialize() function without validation. This allows a remote, unauthenticated attacker to inject arbitrary PHP objects, causing the application to process them and leading to errors or a denial of service. | Severity UNKNOWN                            ",
-    contentSnippet: "[[[[[[[[[[[[[An insecure deserialization vulnerability exists in the rss-mp3.php script of the MiczFlor RPi-Jukebox-RFID project through commit 4b2334f0ae0e87c0568876fc41c48c38aa9a7014 (2025-10-07). The 'rss' GET parameter receives data that is passed directly to the unserialize() function without validation. This allows a remote, unauthenticated attacker to inject arbitrary PHP objects, causing the application to process them and leading to errors or a denial of service. | Severity UNKNOWN",
+    content: "[[[[[[[[[[[[[[An insecure deserialization vulnerability exists in the rss-mp3.php script of the MiczFlor RPi-Jukebox-RFID project through commit 4b2334f0ae0e87c0568876fc41c48c38aa9a7014 (2025-10-07). The 'rss' GET parameter receives data that is passed directly to the unserialize() function without validation. This allows a remote, unauthenticated attacker to inject arbitrary PHP objects, causing the application to process them and leading to errors or a denial of service. | Severity UNKNOWN                              ",
+    contentSnippet: "[[[[[[[[[[[[[[An insecure deserialization vulnerability exists in the rss-mp3.php script of the MiczFlor RPi-Jukebox-RFID project through commit 4b2334f0ae0e87c0568876fc41c48c38aa9a7014 (2025-10-07). The 'rss' GET parameter receives data that is passed directly to the unserialize() function without validation. This allows a remote, unauthenticated attacker to inject arbitrary PHP objects, causing the application to process them and leading to errors or a denial of service. | Severity UNKNOWN",
     guid: 'CVE-2025-63951',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -712,8 +712,8 @@
     title: 'CVE-2025-67653 Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to deter...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-67653',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to determine the existence of arbitrary files. | CVSS Score 4.3 (MEDIUM)                            ',
-    contentSnippet: '[[[[[[[[[[[[[Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to determine the existence of arbitrary files. | CVSS Score 4.3 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to determine the existence of arbitrary files. | CVSS Score 4.3 (MEDIUM)                              ',
+    contentSnippet: '[[[[[[[[[[[[[[Advantech WebAccess/SCADA is vulnerable to directory traversal, which may allow an attacker to determine the existence of arbitrary files. | CVSS Score 4.3 (MEDIUM)',
     guid: 'CVE-2025-67653',
     isoDate: '2025-12-18T21:15:00.000Z'
   },
@@ -721,7 +721,7 @@
     title: 'CVE-2025-68161 The Socket Appender in Apache Log4j Core versions 2.0-beta9 through 2.25.2 does not perform TLS host...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-68161',
     pubDate: 'Thu, 18 Dec 2025 21:15:00 GMT',
-    content: '[[[[[[[[[[[[[The Socket Appender in Apache Log4j Core versions 2.0-beta9 through 2.25.2 does not perform TLS hostname verification of the peer certificate, even when the  verifyHostName https//logging.apache.org/log4j/2.x/manual/appenders/network.html#SslConfiguration-attr-verifyHostName  configuration attribute or the  log4j2.sslVerifyHostName https//logging.apache.org/log4j/2.x/manual/systemproperties.html#log4j2.sslVerifyHostName  system property is set to true.\r\n' +
+    content: '[[[[[[[[[[[[[[The Socket Appender in Apache Log4j Core versions 2.0-beta9 through 2.25.2 does not perform TLS hostname verification of the peer certificate, even when the  verifyHostName https//logging.apache.org/log4j/2.x/manual/appenders/network.html#SslConfiguration-attr-verifyHostName  configuration attribute or the  log4j2.sslVerifyHostName https//logging.apache.org/log4j/2.x/manual/systemproperties.html#log4j2.sslVerifyHostName  system property is set to true.\r\n' +
       '\r\n' +
       'This issue may allow a man-in-the-middle attacker to intercept or redirect log traffic under the following conditions\r\n' +
       '\r\n' +
@@ -732,7 +732,7 @@
       'Users are advised to upgrade to Apache Log4j Core version 2.25.3, which addresses this issue.\r\n' +
       '\r\n' +
       'As an alternative mitigation, the Socket Appender may be configured to use a private or restricted trust root to limit the set of trusted certificates. | Severity UNKNOWN',
-    contentSnippet: '[[[[[[[[[[[[[The Socket Appender in Apache Log4j Core versions 2.0-beta9 through 2.25.2 does not perform TLS hostname verification of the peer certificate, even when the  verifyHostName https//logging.apache.org/log4j/2.x/manual/appenders/network.html#SslConfiguration-attr-verifyHostName  configuration attribute or the  log4j2.sslVerifyHostName https//logging.apache.org/log4j/2.x/manual/systemproperties.html#log4j2.sslVerifyHostName  system property is set to true.\r\n' +
+    contentSnippet: '[[[[[[[[[[[[[[The Socket Appender in Apache Log4j Core versions 2.0-beta9 through 2.25.2 does not perform TLS hostname verification of the peer certificate, even when the  verifyHostName https//logging.apache.org/log4j/2.x/manual/appenders/network.html#SslConfiguration-attr-verifyHostName  configuration attribute or the  log4j2.sslVerifyHostName https//logging.apache.org/log4j/2.x/manual/systemproperties.html#log4j2.sslVerifyHostName  system property is set to true.\r\n' +
       '\r\n' +
       'This issue may allow a man-in-the-middle attacker to intercept or redirect log traffic under the following conditions\r\n' +
       '\r\n' +
@@ -750,8 +750,8 @@
     title: 'CVE-2025-64400 Control Panel provides an API for pre-registering  into an enrollment and organization prior to a us...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-64400',
     pubDate: 'Thu, 18 Dec 2025 20:16:00 GMT',
-    content: "[[[[[[[[[[[[[[[[Control Panel provides an API for pre-registering  into an enrollment and organization prior to a user's first login. The API for creating users checks that the account requesting a user creation has `edit` on the enrollment-level user directory, but is missing a separate check that the enrollment editor has access (or belongs to) the organization that they are adding a user to. | CVSS Score 4.1 (MEDIUM)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[Control Panel provides an API for pre-registering  into an enrollment and organization prior to a user's first login. The API for creating users checks that the account requesting a user creation has `edit` on the enrollment-level user directory, but is missing a separate check that the enrollment editor has access (or belongs to) the organization that they are adding a user to. | CVSS Score 4.1 (MEDIUM)",
+    content: "[[[[[[[[[[[[[[[[[Control Panel provides an API for pre-registering  into an enrollment and organization prior to a user's first login. The API for creating users checks that the account requesting a user creation has `edit` on the enrollment-level user directory, but is missing a separate check that the enrollment editor has access (or belongs to) the organization that they are adding a user to. | CVSS Score 4.1 (MEDIUM)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[Control Panel provides an API for pre-registering  into an enrollment and organization prior to a user's first login. The API for creating users checks that the account requesting a user creation has `edit` on the enrollment-level user directory, but is missing a separate check that the enrollment editor has access (or belongs to) the organization that they are adding a user to. | CVSS Score 4.1 (MEDIUM)",
     guid: 'CVE-2025-64400',
     isoDate: '2025-12-18T20:16:00.000Z'
   },
@@ -759,8 +759,8 @@
     title: 'CVE-2025-65566 A denial-of-service vulnerability exists in the omec-project UPF (pfcpiface component) in version up...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-65566',
     pubDate: 'Thu, 18 Dec 2025 20:16:00 GMT',
-    content: "[[[[[[[[[[[[[[[[A denial-of-service vulnerability exists in the omec-project UPF (pfcpiface component) in version upf-epc-pfcpiface2.1.3-dev. When the UPF receives a PFCP Session Report Response that is missing the mandatory Cause Information Element, the session report handler dereferences a nil pointer instead of rejecting the malformed message. This triggers a panic and terminates the UPF process. An attacker who can send PFCP Session Report Response messages to the UPF's N4/PFCP endpoint can exploit this flaw to repeatedly crash the UPF and disrupt user-plane services. | Severity UNKNOWN                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[A denial-of-service vulnerability exists in the omec-project UPF (pfcpiface component) in version upf-epc-pfcpiface2.1.3-dev. When the UPF receives a PFCP Session Report Response that is missing the mandatory Cause Information Element, the session report handler dereferences a nil pointer instead of rejecting the malformed message. This triggers a panic and terminates the UPF process. An attacker who can send PFCP Session Report Response messages to the UPF's N4/PFCP endpoint can exploit this flaw to repeatedly crash the UPF and disrupt user-plane services. | Severity UNKNOWN",
+    content: "[[[[[[[[[[[[[[[[[A denial-of-service vulnerability exists in the omec-project UPF (pfcpiface component) in version upf-epc-pfcpiface2.1.3-dev. When the UPF receives a PFCP Session Report Response that is missing the mandatory Cause Information Element, the session report handler dereferences a nil pointer instead of rejecting the malformed message. This triggers a panic and terminates the UPF process. An attacker who can send PFCP Session Report Response messages to the UPF's N4/PFCP endpoint can exploit this flaw to repeatedly crash the UPF and disrupt user-plane services. | Severity UNKNOWN                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[A denial-of-service vulnerability exists in the omec-project UPF (pfcpiface component) in version upf-epc-pfcpiface2.1.3-dev. When the UPF receives a PFCP Session Report Response that is missing the mandatory Cause Information Element, the session report handler dereferences a nil pointer instead of rejecting the malformed message. This triggers a panic and terminates the UPF process. An attacker who can send PFCP Session Report Response messages to the UPF's N4/PFCP endpoint can exploit this flaw to repeatedly crash the UPF and disrupt user-plane services. | Severity UNKNOWN",
     guid: 'CVE-2025-65566',
     isoDate: '2025-12-18T20:16:00.000Z'
   },
@@ -768,8 +768,8 @@
     title: 'CVE-2025-67163 A stored cross-site scripting (XSS) vulnerability in Simple Machines Forum v2.1.6 allows attackers t...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2025-67163',
     pubDate: 'Thu, 18 Dec 2025 20:16:00 GMT',
-    content: '[[[[[[[[[[[[[[[[A stored cross-site scripting (XSS) vulnerability in Simple Machines Forum v2.1.6 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Forum Name parameter. | Severity UNKNOWN                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[A stored cross-site scripting (XSS) vulnerability in Simple Machines Forum v2.1.6 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Forum Name parameter. | Severity UNKNOWN',
+    content: '[[[[[[[[[[[[[[[[[A stored cross-site scripting (XSS) vulnerability in Simple Machines Forum v2.1.6 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Forum Name parameter. | Severity UNKNOWN                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[A stored cross-site scripting (XSS) vulnerability in Simple Machines Forum v2.1.6 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Forum Name parameter. | Severity UNKNOWN',
     guid: 'CVE-2025-67163',
     isoDate: '2025-12-18T20:16:00.000Z'
   },
@@ -777,8 +777,8 @@
     title: 'CVE-2019-25228 An information disclosure vulnerability in Kentico Xperience allows attackers to leak virtual contex...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2019-25228',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows attackers to leak virtual context URLs via the HTTP Referer header when users interact with third-party domains. Sensitive virtual context information can be exposed to external domains through page builder interactions and link/image loading. | CVSS Score 5.3 (MEDIUM)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows attackers to leak virtual context URLs via the HTTP Referer header when users interact with third-party domains. Sensitive virtual context information can be exposed to external domains through page builder interactions and link/image loading. | CVSS Score 5.3 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows attackers to leak virtual context URLs via the HTTP Referer header when users interact with third-party domains. Sensitive virtual context information can be exposed to external domains through page builder interactions and link/image loading. | CVSS Score 5.3 (MEDIUM)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows attackers to leak virtual context URLs via the HTTP Referer header when users interact with third-party domains. Sensitive virtual context information can be exposed to external domains through page builder interactions and link/image loading. | CVSS Score 5.3 (MEDIUM)',
     guid: 'CVE-2019-25228',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -786,8 +786,8 @@
     title: "CVE-2019-25229 An unrestricted file upload vulnerability in Kentico Xperience allows authenticated users with 'Read...",
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2019-25229',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: "[[[[[[[[[[[[[[[[An unrestricted file upload vulnerability in Kentico Xperience allows authenticated users with 'Read data' permissions to upload arbitrary file types via MVC form file uploader components. Attackers can manipulate file names and upload potentially malicious files to the system, enabling unauthorized file uploads. | CVSS Score 8.8 (HIGH)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[An unrestricted file upload vulnerability in Kentico Xperience allows authenticated users with 'Read data' permissions to upload arbitrary file types via MVC form file uploader components. Attackers can manipulate file names and upload potentially malicious files to the system, enabling unauthorized file uploads. | CVSS Score 8.8 (HIGH)",
+    content: "[[[[[[[[[[[[[[[[[An unrestricted file upload vulnerability in Kentico Xperience allows authenticated users with 'Read data' permissions to upload arbitrary file types via MVC form file uploader components. Attackers can manipulate file names and upload potentially malicious files to the system, enabling unauthorized file uploads. | CVSS Score 8.8 (HIGH)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[An unrestricted file upload vulnerability in Kentico Xperience allows authenticated users with 'Read data' permissions to upload arbitrary file types via MVC form file uploader components. Attackers can manipulate file names and upload potentially malicious files to the system, enabling unauthorized file uploads. | CVSS Score 8.8 (HIGH)",
     guid: 'CVE-2019-25229',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -795,8 +795,8 @@
     title: 'CVE-2019-25230 An information disclosure vulnerability in Kentico Xperience allows authenticated users to view sens...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2019-25230',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows authenticated users to view sensitive system objects through the live site widget properties dialog. Attackers can exploit this vulnerability to access unauthorized system information without proper access controls. | CVSS Score 4.3 (MEDIUM)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows authenticated users to view sensitive system objects through the live site widget properties dialog. Attackers can exploit this vulnerability to access unauthorized system information without proper access controls. | CVSS Score 4.3 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows authenticated users to view sensitive system objects through the live site widget properties dialog. Attackers can exploit this vulnerability to access unauthorized system information without proper access controls. | CVSS Score 4.3 (MEDIUM)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows authenticated users to view sensitive system objects through the live site widget properties dialog. Attackers can exploit this vulnerability to access unauthorized system information without proper access controls. | CVSS Score 4.3 (MEDIUM)',
     guid: 'CVE-2019-25230',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -804,8 +804,8 @@
     title: 'CVE-2020-36889 A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject maliciou...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2020-36889',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: "[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via error messages containing specially crafted object names. This allows malicious scripts to execute in users' browsers when administrators view error messages in the administration interface. | CVSS Score 4.6 (MEDIUM)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via error messages containing specially crafted object names. This allows malicious scripts to execute in users' browsers when administrators view error messages in the administration interface. | CVSS Score 4.6 (MEDIUM)",
+    content: "[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via error messages containing specially crafted object names. This allows malicious scripts to execute in users' browsers when administrators view error messages in the administration interface. | CVSS Score 4.6 (MEDIUM)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via error messages containing specially crafted object names. This allows malicious scripts to execute in users' browsers when administrators view error messages in the administration interface. | CVSS Score 4.6 (MEDIUM)",
     guid: 'CVE-2020-36889',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -813,8 +813,8 @@
     title: 'CVE-2020-36890 An access control bypass vulnerability in Kentico Xperience allows administrators to modify global a...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2020-36890',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[An access control bypass vulnerability in Kentico Xperience allows administrators to modify global administrator user privileges via unauthorized requests. Attackers could potentially compromise global administrator accounts and invalidate security-sensitive macros by manipulating user privilege levels. | CVSS Score 7.2 (HIGH)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[An access control bypass vulnerability in Kentico Xperience allows administrators to modify global administrator user privileges via unauthorized requests. Attackers could potentially compromise global administrator accounts and invalidate security-sensitive macros by manipulating user privilege levels. | CVSS Score 7.2 (HIGH)',
+    content: '[[[[[[[[[[[[[[[[[An access control bypass vulnerability in Kentico Xperience allows administrators to modify global administrator user privileges via unauthorized requests. Attackers could potentially compromise global administrator accounts and invalidate security-sensitive macros by manipulating user privilege levels. | CVSS Score 7.2 (HIGH)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[An access control bypass vulnerability in Kentico Xperience allows administrators to modify global administrator user privileges via unauthorized requests. Attackers could potentially compromise global administrator accounts and invalidate security-sensitive macros by manipulating user privilege levels. | CVSS Score 7.2 (HIGH)',
     guid: 'CVE-2020-36890',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -822,8 +822,8 @@
     title: 'CVE-2020-36891 A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to upload files wi...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2020-36891',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: "[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to upload files with spoofed Content-Type that do not match file extensions. Attackers can exploit this vulnerability by uploading malicious files with manipulated MIME types, allowing malicious scripts to execute in users' browsers. | CVSS Score 4.6 (MEDIUM)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to upload files with spoofed Content-Type that do not match file extensions. Attackers can exploit this vulnerability by uploading malicious files with manipulated MIME types, allowing malicious scripts to execute in users' browsers. | CVSS Score 4.6 (MEDIUM)",
+    content: "[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to upload files with spoofed Content-Type that do not match file extensions. Attackers can exploit this vulnerability by uploading malicious files with manipulated MIME types, allowing malicious scripts to execute in users' browsers. | CVSS Score 4.6 (MEDIUM)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to upload files with spoofed Content-Type that do not match file extensions. Attackers can exploit this vulnerability by uploading malicious files with manipulated MIME types, allowing malicious scripts to execute in users' browsers. | CVSS Score 4.6 (MEDIUM)",
     guid: 'CVE-2020-36891',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -831,8 +831,8 @@
     title: 'CVE-2021-47711 A SQL injection vulnerability in Kentico Xperience allows authenticated editors to inject malicious ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2021-47711',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[A SQL injection vulnerability in Kentico Xperience allows authenticated editors to inject malicious SQL queries via online marketing macro method parameters. This enables unauthorized database access and potential data manipulation by exploiting macro method input validation weaknesses. | CVSS Score 8.8 (HIGH)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[A SQL injection vulnerability in Kentico Xperience allows authenticated editors to inject malicious SQL queries via online marketing macro method parameters. This enables unauthorized database access and potential data manipulation by exploiting macro method input validation weaknesses. | CVSS Score 8.8 (HIGH)',
+    content: '[[[[[[[[[[[[[[[[[A SQL injection vulnerability in Kentico Xperience allows authenticated editors to inject malicious SQL queries via online marketing macro method parameters. This enables unauthorized database access and potential data manipulation by exploiting macro method input validation weaknesses. | CVSS Score 8.8 (HIGH)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[A SQL injection vulnerability in Kentico Xperience allows authenticated editors to inject malicious SQL queries via online marketing macro method parameters. This enables unauthorized database access and potential data manipulation by exploiting macro method input validation weaknesses. | CVSS Score 8.8 (HIGH)',
     guid: 'CVE-2021-47711',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -840,8 +840,8 @@
     title: 'CVE-2021-47712 A cryptography vulnerability in Kentico Xperience allows attackers to potentially manipulate URL has...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2021-47712',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[A cryptography vulnerability in Kentico Xperience allows attackers to potentially manipulate URL hash values through existing hashing mechanisms. The hotfix introduces an additional security layer to prevent hash value reuse and potential exploitation. | CVSS Score 7.5 (HIGH)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[A cryptography vulnerability in Kentico Xperience allows attackers to potentially manipulate URL hash values through existing hashing mechanisms. The hotfix introduces an additional security layer to prevent hash value reuse and potential exploitation. | CVSS Score 7.5 (HIGH)',
+    content: '[[[[[[[[[[[[[[[[[A cryptography vulnerability in Kentico Xperience allows attackers to potentially manipulate URL hash values through existing hashing mechanisms. The hotfix introduces an additional security layer to prevent hash value reuse and potential exploitation. | CVSS Score 7.5 (HIGH)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[A cryptography vulnerability in Kentico Xperience allows attackers to potentially manipulate URL hash values through existing hashing mechanisms. The hotfix introduces an additional security layer to prevent hash value reuse and potential exploitation. | CVSS Score 7.5 (HIGH)',
     guid: 'CVE-2021-47712',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -849,8 +849,8 @@
     title: 'CVE-2022-50680 A stored cross-site scripting vulnerability in Kentico Xperience allows administration users to inje...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2022-50680',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows administration users to inject malicious scripts via email marketing templates. Attackers can exploit this vulnerability to execute malicious scripts that could compromise user browsers and steal sensitive information. | CVSS Score 4.6 (MEDIUM)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows administration users to inject malicious scripts via email marketing templates. Attackers can exploit this vulnerability to execute malicious scripts that could compromise user browsers and steal sensitive information. | CVSS Score 4.6 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows administration users to inject malicious scripts via email marketing templates. Attackers can exploit this vulnerability to execute malicious scripts that could compromise user browsers and steal sensitive information. | CVSS Score 4.6 (MEDIUM)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows administration users to inject malicious scripts via email marketing templates. Attackers can exploit this vulnerability to execute malicious scripts that could compromise user browsers and steal sensitive information. | CVSS Score 4.6 (MEDIUM)',
     guid: 'CVE-2022-50680',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -858,8 +858,8 @@
     title: 'CVE-2022-50681 A reflected cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malic...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2022-50681',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: "[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via administration input fields in the Rich text editor component. Attackers can exploit this vulnerability to execute arbitrary scripts in users' browsers. | CVSS Score 5.4 (MEDIUM)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via administration input fields in the Rich text editor component. Attackers can exploit this vulnerability to execute arbitrary scripts in users' browsers. | CVSS Score 5.4 (MEDIUM)",
+    content: "[[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via administration input fields in the Rich text editor component. Attackers can exploit this vulnerability to execute arbitrary scripts in users' browsers. | CVSS Score 5.4 (MEDIUM)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via administration input fields in the Rich text editor component. Attackers can exploit this vulnerability to execute arbitrary scripts in users' browsers. | CVSS Score 5.4 (MEDIUM)",
     guid: 'CVE-2022-50681',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -867,8 +867,8 @@
     title: 'CVE-2022-50682 A CRLF injection vulnerability in Kentico Xperience allows attackers to manipulate URL query string ...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2022-50682',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[A CRLF injection vulnerability in Kentico Xperience allows attackers to manipulate URL query string redirects via improper encoding in the routing engine. This could enable header injection and potentially facilitate further web application attacks. | CVSS Score 6.5 (MEDIUM)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[A CRLF injection vulnerability in Kentico Xperience allows attackers to manipulate URL query string redirects via improper encoding in the routing engine. This could enable header injection and potentially facilitate further web application attacks. | CVSS Score 6.5 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[[[[A CRLF injection vulnerability in Kentico Xperience allows attackers to manipulate URL query string redirects via improper encoding in the routing engine. This could enable header injection and potentially facilitate further web application attacks. | CVSS Score 6.5 (MEDIUM)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[A CRLF injection vulnerability in Kentico Xperience allows attackers to manipulate URL query string redirects via improper encoding in the routing engine. This could enable header injection and potentially facilitate further web application attacks. | CVSS Score 6.5 (MEDIUM)',
     guid: 'CVE-2022-50682',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -876,8 +876,8 @@
     title: 'CVE-2022-50683 A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject maliciou...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2022-50683',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: "[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via form redirect URL configuration. This allows malicious scripts to execute in users' browsers through unvalidated form configuration settings. | CVSS Score 4.6 (MEDIUM)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via form redirect URL configuration. This allows malicious scripts to execute in users' browsers through unvalidated form configuration settings. | CVSS Score 4.6 (MEDIUM)",
+    content: "[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via form redirect URL configuration. This allows malicious scripts to execute in users' browsers through unvalidated form configuration settings. | CVSS Score 4.6 (MEDIUM)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows attackers to inject malicious scripts via form redirect URL configuration. This allows malicious scripts to execute in users' browsers through unvalidated form configuration settings. | CVSS Score 4.6 (MEDIUM)",
     guid: 'CVE-2022-50683',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -885,8 +885,8 @@
     title: 'CVE-2022-50684 An HTML injection vulnerability in Kentico Xperience allows attackers to inject malicious HTML value...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2022-50684',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[An HTML injection vulnerability in Kentico Xperience allows attackers to inject malicious HTML values into form submission emails via unencoded form fields. Unencoded form values could enable HTML content execution in recipient email clients, potentially compromising email security. | CVSS Score 4.6 (MEDIUM)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[An HTML injection vulnerability in Kentico Xperience allows attackers to inject malicious HTML values into form submission emails via unencoded form fields. Unencoded form values could enable HTML content execution in recipient email clients, potentially compromising email security. | CVSS Score 4.6 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[[[[An HTML injection vulnerability in Kentico Xperience allows attackers to inject malicious HTML values into form submission emails via unencoded form fields. Unencoded form values could enable HTML content execution in recipient email clients, potentially compromising email security. | CVSS Score 4.6 (MEDIUM)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[An HTML injection vulnerability in Kentico Xperience allows attackers to inject malicious HTML values into form submission emails via unencoded form fields. Unencoded form values could enable HTML content execution in recipient email clients, potentially compromising email security. | CVSS Score 4.6 (MEDIUM)',
     guid: 'CVE-2022-50684',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -894,8 +894,8 @@
     title: 'CVE-2022-50685 A stored cross-site scripting vulnerability in Kentico Xperience allows authenticated users to injec...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2022-50685',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: "[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts via XML file uploads as page attachments or metafiles. Attackers can upload malicious XML files that enable stored XSS, allowing malicious scripts to execute in users' browsers. | CVSS Score 4.6 (MEDIUM)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts via XML file uploads as page attachments or metafiles. Attackers can upload malicious XML files that enable stored XSS, allowing malicious scripts to execute in users' browsers. | CVSS Score 4.6 (MEDIUM)",
+    content: "[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts via XML file uploads as page attachments or metafiles. Attackers can upload malicious XML files that enable stored XSS, allowing malicious scripts to execute in users' browsers. | CVSS Score 4.6 (MEDIUM)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts via XML file uploads as page attachments or metafiles. Attackers can upload malicious XML files that enable stored XSS, allowing malicious scripts to execute in users' browsers. | CVSS Score 4.6 (MEDIUM)",
     guid: 'CVE-2022-50685',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -903,8 +903,8 @@
     title: 'CVE-2022-50686 An information disclosure vulnerability in Kentico Xperience allows attackers to view sensitive stac...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2022-50686',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows attackers to view sensitive stack trace details via Portal Engine form control error messages. Detailed error messages can expose internal system information and potentially reveal implementation details to unauthorized users. | CVSS Score 5.3 (MEDIUM)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows attackers to view sensitive stack trace details via Portal Engine form control error messages. Detailed error messages can expose internal system information and potentially reveal implementation details to unauthorized users. | CVSS Score 5.3 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows attackers to view sensitive stack trace details via Portal Engine form control error messages. Detailed error messages can expose internal system information and potentially reveal implementation details to unauthorized users. | CVSS Score 5.3 (MEDIUM)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[An information disclosure vulnerability in Kentico Xperience allows attackers to view sensitive stack trace details via Portal Engine form control error messages. Detailed error messages can expose internal system information and potentially reveal implementation details to unauthorized users. | CVSS Score 5.3 (MEDIUM)',
     guid: 'CVE-2022-50686',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -912,8 +912,8 @@
     title: 'CVE-2023-53736 A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to in...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2023-53736',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts in the administration interface. Attackers can exploit this vulnerability to execute arbitrary scripts within the administrative context. | CVSS Score 4.6 (MEDIUM)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts in the administration interface. Attackers can exploit this vulnerability to execute arbitrary scripts within the administrative context. | CVSS Score 4.6 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts in the administration interface. Attackers can exploit this vulnerability to execute arbitrary scripts within the administrative context. | CVSS Score 4.6 (MEDIUM)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts in the administration interface. Attackers can exploit this vulnerability to execute arbitrary scripts within the administrative context. | CVSS Score 4.6 (MEDIUM)',
     guid: 'CVE-2023-53736',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -921,8 +921,8 @@
     title: 'CVE-2023-53737 A stored cross-site scripting vulnerability in Kentico Xperience allows global administrators to inj...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2023-53737',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows global administrators to inject malicious payloads via the Localization application. Attackers can execute scripts that could affect multiple parts of the administration interface. | CVSS Score 4.4 (MEDIUM)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows global administrators to inject malicious payloads via the Localization application. Attackers can execute scripts that could affect multiple parts of the administration interface. | CVSS Score 4.4 (MEDIUM)',
+    content: '[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows global administrators to inject malicious payloads via the Localization application. Attackers can execute scripts that could affect multiple parts of the administration interface. | CVSS Score 4.4 (MEDIUM)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[A stored cross-site scripting vulnerability in Kentico Xperience allows global administrators to inject malicious payloads via the Localization application. Attackers can execute scripts that could affect multiple parts of the administration interface. | CVSS Score 4.4 (MEDIUM)',
     guid: 'CVE-2023-53737',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -930,8 +930,8 @@
     title: 'CVE-2023-53738 A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to in...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2023-53738',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: "[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts via page preview URLs. Attackers can exploit this vulnerability to execute arbitrary scripts in users' browsers during page preview interactions. | CVSS Score 4.6 (MEDIUM)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts via page preview URLs. Attackers can exploit this vulnerability to execute arbitrary scripts in users' browsers during page preview interactions. | CVSS Score 4.6 (MEDIUM)",
+    content: "[[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts via page preview URLs. Attackers can exploit this vulnerability to execute arbitrary scripts in users' browsers during page preview interactions. | CVSS Score 4.6 (MEDIUM)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[A reflected cross-site scripting vulnerability in Kentico Xperience allows authenticated users to inject malicious scripts via page preview URLs. Attackers can exploit this vulnerability to execute arbitrary scripts in users' browsers during page preview interactions. | CVSS Score 4.6 (MEDIUM)",
     guid: 'CVE-2023-53738',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -939,8 +939,8 @@
     title: 'CVE-2023-53934 A denial of service vulnerability in Kentico Xperience allows attackers to launch DoS attacks via sp...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2023-53934',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: '[[[[[[[[[[[[[[[[A denial of service vulnerability in Kentico Xperience allows attackers to launch DoS attacks via specially crafted requests to the GetResource handler. Improper input validation enables remote attackers to potentially disrupt service availability through maliciously constructed requests. | CVSS Score 7.5 (HIGH)                                  ',
-    contentSnippet: '[[[[[[[[[[[[[[[[A denial of service vulnerability in Kentico Xperience allows attackers to launch DoS attacks via specially crafted requests to the GetResource handler. Improper input validation enables remote attackers to potentially disrupt service availability through maliciously constructed requests. | CVSS Score 7.5 (HIGH)',
+    content: '[[[[[[[[[[[[[[[[[A denial of service vulnerability in Kentico Xperience allows attackers to launch DoS attacks via specially crafted requests to the GetResource handler. Improper input validation enables remote attackers to potentially disrupt service availability through maliciously constructed requests. | CVSS Score 7.5 (HIGH)                                    ',
+    contentSnippet: '[[[[[[[[[[[[[[[[[A denial of service vulnerability in Kentico Xperience allows attackers to launch DoS attacks via specially crafted requests to the GetResource handler. Improper input validation enables remote attackers to potentially disrupt service availability through maliciously constructed requests. | CVSS Score 7.5 (HIGH)',
     guid: 'CVE-2023-53934',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
@@ -948,12 +948,12 @@
     title: 'CVE-2023-53935 WBiz Desk 1.2 contains a SQL injection vulnerability that allows non-admin users to manipulate datab...',
     link: 'https//nvd.nist.gov/vuln/detail/CVE-2023-53935',
     pubDate: 'Thu, 18 Dec 2025 20:15:00 GMT',
-    content: "[[[[[[[[[[[[[[[[WBiz Desk 1.2 contains a SQL injection vulnerability that allows non-admin users to manipulate database queries through the 'tk' parameter in ticket.php. Attackers can inject crafted SQL statements using UNION-based techniques to extract sensitive database information by sending malformed requests to the ticket endpoint. | CVSS Score 5.4 (MEDIUM)                                  ",
-    contentSnippet: "[[[[[[[[[[[[[[[[WBiz Desk 1.2 contains a SQL injection vulnerability that allows non-admin users to manipulate database queries through the 'tk' parameter in ticket.php. Attackers can inject crafted SQL statements using UNION-based techniques to extract sensitive database information by sending malformed requests to the ticket endpoint. | CVSS Score 5.4 (MEDIUM)",
+    content: "[[[[[[[[[[[[[[[[[WBiz Desk 1.2 contains a SQL injection vulnerability that allows non-admin users to manipulate database queries through the 'tk' parameter in ticket.php. Attackers can inject crafted SQL statements using UNION-based techniques to extract sensitive database information by sending malformed requests to the ticket endpoint. | CVSS Score 5.4 (MEDIUM)                                    ",
+    contentSnippet: "[[[[[[[[[[[[[[[[[WBiz Desk 1.2 contains a SQL injection vulnerability that allows non-admin users to manipulate database queries through the 'tk' parameter in ticket.php. Attackers can inject crafted SQL statements using UNION-based techniques to extract sensitive database information by sending malformed requests to the ticket endpoint. | CVSS Score 5.4 (MEDIUM)",
     guid: 'CVE-2023-53935',
     isoDate: '2025-12-18T20:15:00.000Z'
   },
-  ... 401 more items
+  ... 400 more items
 ]
 MCI (Kansas City) on 2025-12-19
 SEA (Seattle) on 2025-12-19
