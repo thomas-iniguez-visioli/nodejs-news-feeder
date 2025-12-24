@@ -8,7 +8,7 @@
     "collect:releases": "node scripts/collect-releases.js",
     "collect:issues": "node scripts/collect-issues.js",
     "collect:discussions": "node scripts/collect-discussions.js",
-    "collect:retrospective": "node scripts/collect-retrospective.js && npm run collect:cves",
+    "collect:retrospective": "node scripts/collect-retrospective.js ",
     "collect:manual": "node scripts/collect-manual-posts.js",
     "collect:cves": "node scripts/collect-cves.js",
     "start": "node server.js",
