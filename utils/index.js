@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync} from 'fs'
+import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { createHash } from 'crypto'
 import * as remark from 'remark'
@@ -10,95 +10,15 @@ const configFile = join(process.cwd(), 'config.json')
 const websiteFile = join(process.cwd(), 'index.html')
 const websiteTemplate = join(process.cwd(), 'templates', 'index.html.ejs')
 import got from 'got'
+import ContentProcessor from './ContentProcessor.js'
+import DuplicateFilter from './DuplicateFilter.js'
+import ErrorHandler from './ErrorHandler.js'
+
 export function md2html(md) {
   return remark.remark().use(remarkHtml).processSync(md).toString()
 }
-// XML character escape mapping
-const xmlEscapeMap = {
-  '&': '&amp;',
-  '<': '&lt;',
-  '>': '&gt;',
-  '"': '&quot;',
-  "'": '&apos;',
-  "< ":"","<=":""
-}
 
-/**
- * Escapes XML special characters in text
- * @param {string} text - The text to escape
- * @returns {string} - Text with XML characters escaped
- */
-export function escapeXmlCharacters(text) {
-  if (typeof text !== 'string') {
-    return text
-  }
-
-  return text.replace(/[&<>"']/g, (match) => xmlEscapeMap[match])
-}
-
-/**
- * Strips HTML tags from text completely
- * @param {string} text - The text to process
- * @returns {string} - Text with HTML tags removed
- */
-export function stripHtmlTags(text) {
-  if (typeof text !== 'string') {
-    return text
-  }
-
-  // Remove HTML tags (both opening and closing) using repeated replacement to avoid incomplete multi-character sanitization
-  let previous;
-  do {
-    previous = text;
-    text = text.replace(/<[^>]*>/g, '');
-  } while (text !== previous);
-  return text;
-}
-
-/**
- * Escapes HTML tags as text (converts < and > to entities)
- * @param {string} text - The text to process
- * @returns {string} - Text with HTML tags escaped as text
- */
-export function escapeHtmlTags(text) {
-  if (typeof text !== 'string') {
-    return text
-  }
-
-  // Escape HTML tags by converting < and > to entities
-  return text.replace(/</g, '&lt;').replace(/>/g, '&gt;')
-}
-
-const getkeys = () => {
-  if(existsSync(join(process.cwd(), "./blacklist.txt"))){
-    return readFileSync(join(process.cwd(), "./blacklist.txt"), "utf-8").split("\n").map((key) => key.trim().replace(/\r/g, ""))
-  }else{
-    writeFileSync(join(process.cwd(), "./blacklist.txt"), "")
-    return []
-  }
-}
-/**
- * Main cleancontent function that orchestrates all cleaning operations
- * @param {any} text - The content to clean (will be converted to string)
- * @param {object} options - Configuration options
- * @returns {string} - Clean XML-safe string
- */
-export function cleancontent(text, options = {}) {
-  let validtext=text
-  const keys=getkeys()
-  //console.log(keys)
-  for(const key of keys){
-    
-    while (validtext.includes(key)){
-      //console.log(validtext.includes(key))  
-      validtext=validtext.replace(key,"")
-    }
-  }
-
-  return validtext
-  // Merge and validate configuration options
-
-}
+const contentProcessor = new ContentProcessor()
 export function buildTitleDate(timestamp) {
   const [date, time] = new Date(timestamp).toISOString().split('T')
   // Format: YYYY-MM-DD HH:MM:SS
@@ -114,29 +34,39 @@ export function overwriteConfig(config) {
 }
 
 export function composeFeedItem({ title, description, pubDate, link, guid,source,categories=[] }) {
-  // console.log(pubDate)
-  //console.log(source)
+  let processedTitle = title;
+  let processedDescription = description;
+  let processedLink = link;
 
-  // Clean title and description using cleancontent function
-  const cleanTitle = cleancontent(title, {
-    stripHtml: true,
-    preserveLineBreaks: false,
-    normalizeWhitespace: true
-  })
-  console.log(cleanTitle)
-  const cleanDescription = cleancontent(description, {
-    stripHtml: true,
-    preserveLineBreaks: false,
-    normalizeWhitespace: true
-  })
+  // Apply ContentProcessor methods for title
+  processedTitle = contentProcessor.stripHtmlTags(processedTitle);
+  processedTitle = contentProcessor.normalizeLineEndings(processedTitle);
+  processedTitle = contentProcessor.normalizeWhitespace(processedTitle);
+  processedTitle = contentProcessor.removeRepetitiveBrackets(processedTitle);
+  processedTitle = contentProcessor.removeControlCharacters(processedTitle);
+  processedTitle = contentProcessor.escapeXmlCharacters(processedTitle); // Escape for XML output
+
+  // Apply ContentProcessor methods for description
+  processedDescription = contentProcessor.stripHtmlTags(processedDescription);
+  processedDescription = contentProcessor.normalizeLineEndings(processedDescription);
+  processedDescription = contentProcessor.normalizeWhitespace(processedDescription);
+  processedDescription = contentProcessor.removeRepetitiveBrackets(processedDescription);
+  processedDescription = contentProcessor.removeControlCharacters(processedDescription);
+  // Description is CDATA wrapped, so don't escape it here, but rather wrap after processing
+  // processedDescription = contentProcessor.escapeXmlCharacters(processedDescription);
+
+  // Apply ContentProcessor methods for link (less aggressive cleaning for URLs)
+  processedLink = contentProcessor.removeControlCharacters(processedLink);
+  processedLink = contentProcessor.removeRepetitiveBrackets(processedLink); // Unlikely for links, but consistent
+  processedLink = contentProcessor.escapeXmlCharacters(processedLink); // Escape for XML output
 
   return `
     <item>
-      <title>${cleanTitle}</title>
-      <description>${cleanDescription}  </description>
+      <title>${processedTitle}</title>
+      <description><![CDATA[${processedDescription}]]></description>
       <pubDate>${pubDate}</pubDate>
-      <link>${cleancontent(link,{})}</link>
-      <guid>${guid}</guid>${categories.map((c)=>{return "<category><![CDATA["+c+"]]></category>"}).join("\n")}
+      <link>${processedLink}</link>
+      <guid>${contentProcessor.escapeXmlCharacters(guid)}</guid>${categories.map((c)=>{return "<category><![CDATA["+c+"]]></category>"}).join("\n")}
     </item>
   `
 }
@@ -206,18 +136,23 @@ export function parseRetrospectiveContent(data) {
 
 // Filtrage centralisé des items RSS
 export function filterFeedItems(items, { keywords = [], categories = [] } = {}) {
-  const seen = new Set();
-  return items.filter(item => {
+  const duplicateFilter = new DuplicateFilter(contentProcessor);
+  const errorHandler = new ErrorHandler();
+
+  const filteredByContent = items.filter(item => {
     // Exclure les entrées incomplètes
-    if (!item.title || !item.link || !item.pubDate) return false;
+    if (!item.title || !item.link || !item.pubDate) {
+      errorHandler.logError(new Error('Skipping incomplete item'), { item });
+      return false;
+    }
     // Filtrage par mot-clé
     if (keywords.length && !keywords.some(k => item.title.includes(k) || (item.description && item.description.includes(k)))) return false;
     // Filtrage par catégorie
     if (categories.length && (!item.categories || !item.categories.some(c => categories.includes(c)))) return false;
-    // Doublons par guid ou lien ou titre
-    const key = (item.guid || item.link || item.title).trim();
-    if (seen.has(key)) return false;
-    seen.add(key);
+    
     return true;
   });
+
+  // After filtering by content, apply duplicate filter
+  return duplicateFilter.filter(filteredByContent);
 }

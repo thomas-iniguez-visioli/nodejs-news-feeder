@@ -1,62 +1,39 @@
 import ParseRss from 'rss-parser'
-import xmlFormat from 'xml-formatter'
+import XMLGenerator from '../utils/XMLGenerator.js'
+import ErrorHandler from '../utils/ErrorHandler.js'
 import {
   composeFeedItem,
   getConfig,
   getFeedContent,
   overwriteFeedContent,
-  buildRFC822Date,
   filterFeedItems
 } from '../utils/index.js'
 
-const { breakDelimiter } = getConfig()
+const { xmlDelimiter, processingLimit } = getConfig()
+const errorHandler = new ErrorHandler()
+const rssParser = new ParseRss()
+const feedXmlContent = getFeedContent()
 
-const parser = new ParseRss()
-const tribykey = (array, key) => {
-  var valid = [array[0]]
-  array.forEach(element => {
-    console.log(element[key])
-    if (!valid.map((item) => { return item[key] }).includes(element[key])) {
-      //console.log(valid)
-      valid.push(element)
-    }
-  });
-  return valid
-}
-const xml = getFeedContent()
-const updaterrss = (feed) => {
+const getFilteredFeedItems = (feedItems) => {
   // Filtrage centralisé
-  var fed = filterFeedItems(feed)
-   console.log(fed)
-  //console.log(fed)
-  return fed
+  const filteredItems = filterFeedItems(feedItems)
+  return filteredItems
 }
 try {
-  parser.parseString(xml).then((parsedXml) => {
-    //console.log(parsedXml)
-    const sortedItems = updaterrss(parsedXml.items).sort(
+  rssParser.parseString(feedXmlContent).then((parsedXmlFeed) => {
+    const processedItems = getFilteredFeedItems(parsedXmlFeed.items)
+    const sortedItems = processedItems.sort(
       (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
-    ).slice(0,500)
-    const newXml = sortedItems
-      .map(({ title, link, pubDate, content, guid,source,categories }) =>
-        composeFeedItem({
-          title,
-          description: `<![CDATA[${content}]]>`,
-          pubDate: pubDate,
-          link,
-          guid,source,categories
-        })
-      )
-      .join('')
-
-    const [before] = xml.split(breakDelimiter)
-    const updatedFeedContent = `${before}${breakDelimiter}${newXml}</channel></rss>`
-
-    const formattedXml = xmlFormat(updatedFeedContent, {
-      indentation: '  ',
-      collapseContent: true
-    })
+    ).slice(0, processingLimit)
+    
+    const xmlGenerator = new XMLGenerator(composeFeedItem);
+    const [beforeDelimiter] = feedXmlContent.split(xmlDelimiter);
+    const formattedXml = xmlGenerator.generate(sortedItems, beforeDelimiter, xmlDelimiter);
 
     overwriteFeedContent(formattedXml)
-  }).catch((err) => { console.log(err) })
-} catch (error) { console.log(error) }
+  }).catch((error) => {
+    errorHandler.logError(error, 'Error parsing RSS feed');
+  })
+} catch (error) {
+  errorHandler.logError(error, 'Error processing RSS feed');
+}
