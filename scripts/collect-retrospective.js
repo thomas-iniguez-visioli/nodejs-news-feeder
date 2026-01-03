@@ -79,6 +79,7 @@ try {
 
       const jsonData = Array.from(timelineEntries).map(entry => {
         const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
+
         console.log(buildRFC822Date(timestamp))
         const title = "Fuite de données chez " + entry.querySelector('h2').textContent.replace(/&/g, "").trim().replaceAll("  ", " ");
         var content = entry.querySelector('p').textContent;
@@ -105,7 +106,8 @@ try {
           timestamp: timestamp,
           title,
           content,
-          source: source.replace(/&/g, "").replaceAll("//img","/img"), link: "https://bonjourlafuite.eu.org/" + entry.querySelector('a').getAttribute('href')
+          source: encodeURI(source.replace(/&/g, "").replaceAll("//img","/img")),
+          link: encodeURI("https://bonjourlafuite.eu.org/" + entry.querySelector('a').getAttribute('href'))
         };
       })
       //console.log(JSON.stringify(jsonData,null,2));
@@ -124,7 +126,7 @@ try {
         const retrospective = composeFeedItem({
           title: dat.title,
           description: `<![CDATA[<p>${dat.content}</p>]]>`,
-          pubDate: dat.timestamp,
+          pubDate: buildRFC822Date(dat.timestamp),
           link: dat.link, source: dat.source,
           guid: dat.source, categories: dat.categories || []
         })
