@@ -65,7 +65,7 @@ try {
       //console.log(html.length)
     })
     response.on("end", (da) => {
-      console.log(da)
+     // console.log(da)
       const buffer = html
 
 
@@ -73,7 +73,7 @@ try {
       const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
       const jsonData = Array.from(timelineEntries).map(entry => {
         const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
-        //console.log(buildRFC822Date(timestamp))
+        console.log(buildRFC822Date(timestamp))
         const title = "Fuite de données chez " + entry.querySelector('h2').textContent.replace(/&/g, "").trim().replaceAll("  ", " ");
         var content = entry.querySelector('p').textContent;
         const contentList = entry.querySelector('p ul');
