@@ -49,7 +49,7 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
   // Apply ContentProcessor methods for description
   processedDescription = contentProcessor.stripHtmlTags(processedDescription);
   processedDescription = contentProcessor.normalizeLineEndings(processedDescription);
-  processedDescription = contentProcessor.normalizeWhitespace(processedDescription);
+
   processedDescription = contentProcessor.removeRepetitiveBrackets(processedDescription);
   processedDescription = contentProcessor.removeControlCharacters(processedDescription);
   // Description is CDATA wrapped, so don't escape it here, but rather wrap after processing
