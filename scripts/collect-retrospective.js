@@ -71,6 +71,12 @@ try {
 
       const parsedHtml = parse(buffer.toString());
       const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
+
+      if (timelineEntries.length === 0) {
+        console.warn('Aucune entrée de timeline trouvée sur https://bonjourlafuite.eu.org/. La structure du site a peut-être changé.');
+        return; // Quitter le callback si aucune entrée n'est trouvée
+      }
+
       const jsonData = Array.from(timelineEntries).map(entry => {
         const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
         console.log(buildRFC822Date(timestamp))
