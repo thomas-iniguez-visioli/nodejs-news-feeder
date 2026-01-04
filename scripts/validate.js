@@ -1,8 +1,7 @@
 import got from 'got'
-import jsdom from 'jsdom'
+import { JSDOM } from 'jsdom'
 import { getFeedContent } from '../utils/index.js'
 
-const { JSDOM } = jsdom
 const xml = getFeedContent()
 
 try {

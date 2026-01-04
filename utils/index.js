@@ -4,6 +4,7 @@ import { createHash } from 'crypto'
 import * as remark from 'remark'
 import remarkHtml from 'remark-html'
 import { DateTime } from 'luxon'
+import { JSDOM } from 'jsdom'
 const dateRegex = /(\d*-\d*-\d*)/gm
 const xmlFile = join(process.cwd(), 'feed.xml')
 const configFile = join(process.cwd(), 'config.json')
@@ -72,15 +73,24 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
 }
 
 export function getFeedContent() {
-  return readFileSync(xmlFile, 'utf8')
+  const xmlString = readFileSync(xmlFile, 'utf8');
+  const dom = new JSDOM(xmlString, { contentType: 'application/xml' });
+  return dom.window.document;
 }
 
-export function getWebsiteTemplate() {
-  return readFileSync(websiteTemplate, 'utf8')
-}
-
-export function overwriteFeedContent(content) {
-  writeFileSync(xmlFile, content)
+export function overwriteFeedContent(input) {
+  let serializedXml;
+  
+  // Handle both Document objects and strings
+  if (typeof input === 'string') {
+    serializedXml = input;
+  } else if (input && input.documentElement) {
+    serializedXml = input.documentElement.outerHTML;
+  } else {
+    throw new Error('overwriteFeedContent expects a string or Document object');
+  }
+  
+  writeFileSync(xmlFile, serializedXml);
 }
 
 export function overwriteWebsiteContent(content) {

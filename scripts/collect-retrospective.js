@@ -1,6 +1,6 @@
 import got from 'got'
 import ParseRss from 'rss-parser'
-import { parse } from 'node-html-parser';
+import { JSDOM } from 'jsdom'
 import * as https from 'node:https'
 import { readFileSync, appendFileSync, existsSync } from 'node:fs'
 import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl, filterFeedItems } from '../utils/index.js'
@@ -18,31 +18,47 @@ resolvConf.push({
   family: 4,
 })
 // Collect new retrospective
-const { retrospective: currentConfig, breakDelimiter } = getConfig()
+const { retrospective: currentConfig } = getConfig()
 const addfeed = async (url) => {
   const t = await got(url).text()
   const parser = new ParseRss()
   parser.parseString(t).then((parsedXml) => {
     // Filtrage amélioré
     const filteredItems = filterFeedItems(parsedXml.items)
-    filteredItems.forEach((dat) => {
-      const retrospective = composeFeedItem({
-        title: dat.title,
-        description: `<![CDATA[<p>${dat.content || dat.summary}</p>]]>`,
-        pubDate: buildRFC822Date(dat.pubDate),
-        link: dat.link,
-        guid: dat.guid, categories: dat.categories || []
+
+    const feedDocument = getFeedContent()
+    const channel = feedDocument.querySelector('channel')
+
+    if (channel) {
+      const firstItem = channel.querySelector('item');
+      filteredItems.forEach((dat) => {
+        // Vérification doublon dans le feed
+        const existingGuids = Array.from(feedDocument.querySelectorAll('guid')).map(guidElement => guidElement.textContent);
+        if (!existingGuids.includes(dat.guid)) {
+          return true
+        } else {
+          console.log(`⏩ Doublon ignoré : ${dat.title}`)
+          return false
+        }
+      }).map((dat) => {
+        return composeFeedItem({
+          title: dat.title,
+          description: `<![CDATA[<p>${dat.content || dat.summary}</p>]]>`,
+          pubDate: buildRFC822Date(dat.pubDate),
+          link: dat.link,
+          guid: dat.guid, categories: dat.categories || []
+        })
       })
-      const feedContent = getFeedContent()
-      // Vérification doublon dans le feed
-      if (!feedContent.includes(`<guid>${dat.guid}</guid>`)) {
-        const [before, after] = feedContent.split(breakDelimiter)
-        const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
-        overwriteFeedContent(updatedFeedContent)
-      } else {
-        console.log(`⏩ Doublon ignoré : ${dat.title}`)
-      }
-    })
+
+      // Insert items by appending XML before the closing </channel> tag
+      const feedContent = feedDocument.documentElement.outerHTML
+      const breakDelimiter = '</channel>'
+      const [before, after] = feedContent.split(breakDelimiter)
+      const updatedFeedContent = `${before}${newItemsXmlStrings.join('')}${breakDelimiter}${after}`
+      overwriteFeedContent(updatedFeedContent)
+    } else {
+      console.error("No <channel> element found in feed.xml. Cannot add items.");
+    }
   })
 }
 /*addfeed('https://cyber.gouv.fr/actualites/feed')
@@ -68,8 +84,8 @@ try {
      // console.log(da)
       const buffer = html
 
-
-      const parsedHtml = parse(buffer.toString());
+      const dom = new JSDOM(buffer.toString())
+      const parsedHtml = dom.window.document
       const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
 
       if (timelineEntries.length === 0) {
@@ -81,9 +97,9 @@ try {
         const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
 
         console.log(buildRFC822Date(timestamp))
-        const title = "Fuite de données chez " + entry.querySelector('h2').textContent.replace(/&/g, "").trim().replaceAll("  ", " ");
+        const title = "Fuite de données chez " + entry.querySelector('h2').textContent.trim().replaceAll("  ", " ");
         var content = entry.querySelector('p').textContent;
-        const contentList = entry.querySelector('p ul');
+        const contentList = entry.querySelector('ul');
         if (contentList) {
           const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
           content = contentItems.join(', ');
@@ -106,15 +122,16 @@ try {
           timestamp: timestamp,
           title,
           content,
-          source: encodeURI(source.replace(/&/g, "").replaceAll("//img","/img")),
+          source: encodeURI(source.replaceAll("//img","/img")),
           link: encodeURI("https://bonjourlafuite.eu.org/" + entry.querySelector('a').getAttribute('href'))
         };
       })
       //console.log(JSON.stringify(jsonData,null,2));
-      jsonData.filter((dat) => {
+      // Collect all new items
+      const newItemsXmlStrings = jsonData.filter((dat) => {
         let already = []
         if (existsSync("./link.txt")) {
-          already = readFileSync("./link.txt")
+          already = readFileSync("./link.txt", 'utf8').split('\n').filter(Boolean); // Read as string, split by lines, filter empty
         }
         if (already.includes(dat.source)) {
           return false
@@ -122,25 +139,29 @@ try {
         appendFileSync("./link.txt", `\n${dat.source}`)
         return true
       }).map((dat) => {
-
-        const retrospective = composeFeedItem({
+        return composeFeedItem({
           title: dat.title,
           description: `<![CDATA[<p>${dat.content}</p>]]>`,
           pubDate: buildRFC822Date(dat.timestamp),
           link: dat.link, source: dat.source,
           guid: dat.source, categories: dat.categories || []
-        })
-        // Add the new item to the feed
-
-        const feedContent = getFeedContent()
-        //console.log((dat.title))
-
-        const [before, after] = feedContent.split(breakDelimiter)
-        const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
-        overwriteFeedContent(updatedFeedContent)
-
-
+        });
       })
+
+      // Get the current feed document
+      const feedDocument = getFeedContent()
+      const channel = feedDocument.querySelector('channel')
+
+      if (channel) {
+        // Insert items by appending XML before the closing </channel> tag
+        const feedContent = feedDocument.documentElement.outerHTML
+        const breakDelimiter = '</channel>'
+        const [before, after] = feedContent.split(breakDelimiter)
+        const updatedFeedContent = `${before}${newItemsXmlStrings.join('')}${breakDelimiter}${after}`
+        overwriteFeedContent(updatedFeedContent)
+      } else {
+        console.error("No <channel> element found in feed.xml. Cannot add items.");
+      }
     })
   })
 
@@ -188,8 +209,6 @@ async function fetchAllFeeds(urls) {
       const t = await got(url).text();
       const parsedXml = await parser.parseString(t);
       return parsedXml.items.map((dat) => {
-        const postDate = new Date(dat.pubDate);
-        const formattedDate = `-${postDate.getFullYear()}-${String(postDate.getMonth() + 1).padStart(2, '0')}-${String(postDate.getDate()).padStart(2, '0')}`;
         // console.log(dat)
         return {
           title: dat.title,
@@ -219,33 +238,46 @@ async function fetchAllFeeds(urls) {
 
 async function updateFeedWithAllItems() {
   const items = await fetchAllFeeds(feedUrls);
-  items.filter((dat) => {
-    // console.log(dat.guid)
-    let already = []
-    if (existsSync("./link.txt")) {
-      already = readFileSync("./link.txt")
-    }
-    if (already.includes(dat.guid)) {
-      return false
-    }
-    appendFileSync("./link.txt", `\n${dat.guid}`)
-    return true
-  }).forEach((dat) => {
-    //  console.log(dat.title)
-    const retrospective = composeFeedItem({
-      title: dat.title,
-      description: `<![CDATA[<p>${dat.description}</p>]]>`,
-      pubDate: dat.pubDate,
-      link: dat.link,
-      guid: dat.guid, categories: dat.categories || []
+
+  const feedDocument = getFeedContent();
+  const channel = feedDocument.querySelector('channel');
+
+  if (channel) {
+    const existingGuids = Array.from(feedDocument.querySelectorAll('guid')).map(guidElement => guidElement.textContent);
+
+    const newItemsXmlStrings = items.filter((dat) => {
+      // Check against link.txt for previously processed items
+      let already = [];
+      if (existsSync("./link.txt")) {
+        already = readFileSync("./link.txt", 'utf8').split('\n').filter(Boolean); // Filter Boolean to remove empty strings
+      }
+      if (already.includes(dat.guid)) {
+        return false;
+      }
+      appendFileSync("./link.txt", `\n${dat.guid}`);
+      return true;
+    }).filter((dat) => {
+      // Only add to feed if not a duplicate based on GUID
+      return !existingGuids.includes(dat.guid);
+    }).map((dat) => {
+      return composeFeedItem({
+        title: dat.title,
+        description: `<![CDATA[<p>${dat.description}</p>]]>`,
+        pubDate: dat.pubDate,
+        link: dat.link,
+        guid: dat.guid, categories: dat.categories || []
+      });
     });
-    const feedContent = getFeedContent();
-    const [before, after] = feedContent.split(breakDelimiter);
-    const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`;
+
+    // Insert items by appending XML before the closing </channel> tag
+    const feedContent = feedDocument.documentElement.outerHTML
+    const breakDelimiter = '</channel>'
+    const [before, after] = feedContent.split(breakDelimiter)
+    const updatedFeedContent = `${before}${newItemsXmlStrings.join('')}${breakDelimiter}${after}`
     overwriteFeedContent(updatedFeedContent);
-
-  });
-
+  } else {
+    console.error("No <channel> element found in feed.xml. Cannot add items in updateFeedWithAllItems.");
+  }
 }
 
 updateFeedWithAllItems();
