@@ -168,3 +168,6 @@ export function filterFeedItems(items, { keywords = [], categories = [] } = {}) 
   // After filtering by content, apply duplicate filter
   return duplicateFilter.filter(filteredByContent);
 }
+export function getWebsiteTemplate() {
+  return readFileSync(websiteTemplate, 'utf8')
+}

@@ -3,11 +3,11 @@ import { JSDOM } from 'jsdom'
 import { getFeedContent } from '../utils/index.js'
 
 const xml = getFeedContent()
-
+console.log(xml.documentElement.outerHTML)
 try {
   const data = await got.post('https://validator.w3.org/feed/check.cgi', {
     form: {
-      rawdata: xml,
+      rawdata: xml.documentElement.outerHTML,
       manual: 1
     }
   }).text()
