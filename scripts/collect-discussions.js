@@ -2,7 +2,7 @@ import { graphql } from '@octokit/graphql'
 import { getConfig, composeFeedItem, buildTitleDate, md2html, buildRFC822Date, getFeedContent, overwriteFeedContent } from '../utils/index.js'
 
 const { discussionsInScope, breakDelimiter, lastCheckTimestamp } = getConfig()
-
+process.exit(0)
 const comments = await Promise.all(discussionsInScope.map(async ({ discussionId, team }) => {
   const { repository } = await graphql(
     `
