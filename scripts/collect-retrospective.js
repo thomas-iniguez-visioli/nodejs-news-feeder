@@ -122,8 +122,8 @@ try {
           timestamp: timestamp,
           title,
           content,
-          source: encodeURI(source.replaceAll("//img","/img")),
-          link: encodeURI("https://bonjourlafuite.eu.org/" + entry.querySelector('a').getAttribute('href'))
+          source: source.replaceAll("//img","/img"),
+          link: "https://bonjourlafuite.eu.org/" + entry.querySelector('a').getAttribute('href')
         };
       })
       //console.log(JSON.stringify(jsonData,null,2));
