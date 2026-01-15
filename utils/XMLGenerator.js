@@ -13,6 +13,7 @@ class XMLGenerator {
    * @returns {string} - The full, formatted RSS feed XML.
    */
   generate(items, feedHeader, delimiter) {
+    console.log("delimiteur transmis"+delimiter)
     if (!this.composeFeedItem) {
       throw new Error('composeFeedItem function is required.');
     }
@@ -30,9 +31,9 @@ class XMLGenerator {
         })
       )
       .join('');
-
-    const updatedFeedContent = `${feedHeader}${delimiter}${formattedFeedItems}</channel></rss>`;
-
+//console.log(formattedFeedItems.includes("</rss>"))
+    const updatedFeedContent = `<?xml version="1.0" encoding="UTF-8"?>${feedHeader}${delimiter}${formattedFeedItems}</channel></rss>`;
+     // console.log(updatedFeedContent)
     return xmlFormat(updatedFeedContent, {
       indentation: '  ',
       collapseContent: true

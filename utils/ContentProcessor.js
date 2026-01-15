@@ -1,4 +1,6 @@
 // Placeholder for ContentProcessor class
+import {readFileSync} from"fs"
+const fslist=readFileSync("blacklist.txt")
 class ContentProcessor {
   constructor() {
     // Constructor logic
@@ -12,13 +14,18 @@ class ContentProcessor {
     '"': '&quot;',
     "'": '&apos;'
   }
-
+  
   /**
    * Escapes XML special characters in text
    * @param {string} text - The text to escape
    * @returns {string} - Text with XML characters escaped
    */
   escapeXmlCharacters(text) {
+    fslist.toString().split("\n").map((v)=>{
+      if(!Object.keys(this.xmlEscapeMap).includes(v)){
+        this.xmlEscapeMap[v]=""
+      }
+    })
     if (typeof text !== 'string') {
       return text
     }

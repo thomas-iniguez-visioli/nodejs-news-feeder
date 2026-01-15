@@ -9,7 +9,7 @@ import {
   filterFeedItems
 } from '../utils/index.js'
 
-const { xmlDelimiter, processingLimit } = getConfig()
+const { breakDelimiter, processingLimit } = getConfig()
 const errorHandler = new ErrorHandler()
 const rssParser = new ParseRss()
 const feedXmlContent = getFeedContent()
@@ -20,15 +20,17 @@ const getFilteredFeedItems = (feedItems) => {
   return filteredItems
 }
 try {
-  rssParser.parseString(feedXmlContent.querySelector('channel').documentElement.outerHTML).then((parsedXmlFeed) => {
+  //console.log(feedXmlContent.documentElement.outerHTML)
+  rssParser.parseString(feedXmlContent.documentElement.outerHTML).then((parsedXmlFeed) => {
     const processedItems = getFilteredFeedItems(parsedXmlFeed.items)
     const sortedItems = processedItems.sort(
       (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
     ).slice(0, processingLimit)
     
     const xmlGenerator = new XMLGenerator(composeFeedItem);
-    const [beforeDelimiter] = feedXmlContent.split(xmlDelimiter);
-    const formattedXml = xmlGenerator.generate(sortedItems, beforeDelimiter, xmlDelimiter);
+    const [beforeDelimiter] = feedXmlContent.documentElement.outerHTML.split(breakDelimiter);
+    console.log("avant  "+feedXmlContent.documentElement.outerHTML.split(breakDelimiter)+"apprès"+breakDelimiter)
+    const formattedXml = xmlGenerator.generate(sortedItems, beforeDelimiter, breakDelimiter);
 
     overwriteFeedContent(formattedXml)
   }).catch((error) => {

@@ -12,10 +12,7 @@ class ErrorHandler {
   logError(error, context) {
     console.error(JSON.stringify({
       timestamp: new Date().toISOString(),
-      error: {
-        message: error.message,
-        stack: error.stack,
-      },
+      error: {...error},
       context: context
     }, null, 2));
   }

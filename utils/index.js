@@ -64,7 +64,7 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
   return `
     <item>
       <title>${processedTitle}</title>
-      <description><![CDATA[${processedDescription}]]></description>
+      <description><![CDATA[ ${processedDescription} ]]></description>
       <pubDate>${pubDate}</pubDate>
       <link>${processedLink}</link>
       <guid>${contentProcessor.escapeXmlCharacters(guid)}</guid>${categories.map((c)=>{return "<category><![CDATA["+c+"]]></category>"}).join("\n")}
