@@ -20,7 +20,7 @@ const getFilteredFeedItems = (feedItems) => {
   return filteredItems
 }
 try {
-  rssParser.parseString(feedXmlContent).then((parsedXmlFeed) => {
+  rssParser.parseString(feedXmlContent.querySelector('channel').documentElement.outerHTML).then((parsedXmlFeed) => {
     const processedItems = getFilteredFeedItems(parsedXmlFeed.items)
     const sortedItems = processedItems.sort(
       (a, b) => new Date(b.isoDate) - new Date(a.isoDate)
