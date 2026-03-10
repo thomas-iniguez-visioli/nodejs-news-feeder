@@ -1,287 +1,220 @@
 import got from 'got'
-import ParseRss from 'rss-parser'
 import { JSDOM } from 'jsdom'
-import * as https from 'node:https'
 import { readFileSync, appendFileSync, existsSync } from 'node:fs'
-import { buildRFC822Date, overwriteConfig, composeFeedItem, getFeedContent, overwriteFeedContent, getConfig, generateRetroRequestUrl, parseRetrospectiveContent, generateRetroUIUrl, filterFeedItems } from '../utils/index.js'
-const staticDnsAgent = (resolvconf) => new https.Agent({
-  lookup: (hostname, opts, cb) => {
-    //console.log(resolvconf[0].address)
-    //console.log(hostname)
-    //console.log(opts)
-    cb(null, resolvconf, resolvconf[0].family)
-  }, timeout: 30000000, keepAlive: true
-});
-var resolvConf = []
-resolvConf.push({
-  address: '82.67.8.211',
-  family: 4,
-})
-// Collect new retrospective
-const { retrospective: currentConfig } = getConfig()
-const addfeed = async (url) => {
-  const t = await got(url).text()
-  const parser = new ParseRss()
-  parser.parseString(t).then((parsedXml) => {
-    // Filtrage amélioré
-    const filteredItems = filterFeedItems(parsedXml.items)
+import {
+  buildRFC822Date,
+  composeFeedItem,
+  getFeedContent,
+  overwriteFeedContent,
+  getConfig // eslint-disable-line no-unused-vars
+} from '../utils/index.js'
+import DuplicateFilter from '../utils/DuplicateFilter.js'
+import ContentProcessor from '../utils/ContentProcessor.js'
+import ErrorHandler from '../utils/ErrorHandler.js'
 
+const SITE_URL = 'https://bonjourlafuite.eu.org/'
+const LINK_FILE = './link.txt'
+
+const errorHandler = new ErrorHandler()
+const contentProcessor = new ContentProcessor()
+
+/**
+ * Lit le fichier de liens déjà traités et retourne un Set pour perf O(1).
+ * @returns {Set<string>}
+ */
+function getAlreadySeenLinks () {
+  if (!existsSync(LINK_FILE)) return new Set()
+  return new Set(
+    readFileSync(LINK_FILE, 'utf8').split('\n').filter(Boolean)
+  )
+}
+
+/**
+ * Extrait les informations d'une entrée de la timeline.
+ * @param {Element} entry - Élément DOM d'une entrée timeline.
+ * @returns {object|null} - Données structurées ou null si invalide.
+ */
+function parseTimelineEntry (entry) {
+  try {
+    // --- Timestamp ---
+    const timeEl = entry.querySelector('span.timestamp time')
+    if (!timeEl) {
+      errorHandler.logError(new Error('Pas de balise <time> trouvée'), { entry: entry.outerHTML.slice(0, 200) })
+      return null
+    }
+    const timestamp = timeEl.getAttribute('datetime')
+
+    // --- Titre ---
+    const h2 = entry.querySelector('h2')
+    if (!h2) {
+      errorHandler.logError(new Error('Pas de <h2> trouvé'), { entry: entry.outerHTML.slice(0, 200) })
+      return null
+    }
+    const rawTitle = h2.textContent.trim().replace(/\s+/g, ' ')
+    // Capitalisation correcte : "Fuite de données chez NomEntreprise"
+    const title = 'Fuite de données chez ' + rawTitle
+
+    // --- Description enrichie ---
+    // On récupère les paragraphes et la liste à puces si présente
+    const paragraphs = Array.from(entry.querySelectorAll('p')).map(p => p.textContent.trim()).filter(Boolean)
+    const listItems = Array.from(entry.querySelectorAll('ul li')).map(li => li.textContent.trim()).filter(Boolean)
+
+    let description
+    if (listItems.length > 0) {
+      // Format : puces (ex: données exposées)
+      description = listItems.join(' • ')
+    } else if (paragraphs.length > 0) {
+      description = paragraphs.join(' ')
+    } else {
+      description = `Fuite de données signalée pour : ${rawTitle}`
+    }
+
+    // --- Sources : toutes les URLs présentes dans l'entrée ---
+    const anchorElements = Array.from(entry.querySelectorAll('a[href]'))
+    const sources = anchorElements
+      .map(a => {
+        const href = (a.getAttribute('href') || '').trim()
+        if (!href) return null
+        // Exclure les ancres internes (#...) sans domaine
+        if (href.startsWith('#')) return null
+        return href.startsWith('http') ? href : `${SITE_URL}${href.replace(/^\//, '')}`
+      })
+      .filter(Boolean)
+      // Normaliser les doublons d'images
+      .map(url => url.replace('//img', '/img'))
+
+    // Source principale = première URL externe ou fallback
+    const primarySource = sources.find(s => s.startsWith('http') && !s.startsWith(SITE_URL)) ||
+                          sources[0] ||
+                          ''
+
+    // Lien vers la page de détail sur bonjourlafuite
+    const detailAnchor = entry.querySelector('a[href]')
+    const detailHref = detailAnchor ? detailAnchor.getAttribute('href') : ''
+    const link = detailHref
+      ? (detailHref.startsWith('http') ? detailHref : `${SITE_URL}${detailHref.replace(/^\//, '')}`)
+      : SITE_URL
+
+    return {
+      timestamp,
+      title,
+      description,
+      primarySource,
+      sources,
+      link
+    }
+  } catch (err) {
+    errorHandler.logError(err, { context: 'parseTimelineEntry' })
+    return null
+  }
+}
+
+/**
+ * Collecte les entrées de bonjourlafuite.eu.org et met à jour le feed.
+ */
+async function collectBonjourLaFuite () {
+  console.log(`🔍 Collecte depuis ${SITE_URL} ...`)
+
+  let html
+  try {
+    html = await got(SITE_URL, {
+      timeout: { request: 30000 },
+      retry: {
+        limit: 3,
+        methods: ['GET'],
+        statusCodes: [408, 413, 429, 500, 502, 503, 504],
+        calculateDelay: ({ retryCount }) => retryCount * 2000 // backoff linéaire : 2s, 4s, 6s
+      },
+      headers: {
+        'User-Agent': 'nodejs-news-feeder/1.0 (github.com/thomas-iniguez-visioli/nodejs-news-feeder)'
+      }
+    }).text()
+  } catch (err) {
+    errorHandler.logError(err, { context: 'Téléchargement de bonjourlafuite.eu.org' })
+    console.error('❌ Impossible de récupérer la page après plusieurs tentatives. Abandon.')
+    return
+  }
+
+  const dom = new JSDOM(html)
+  const document = dom.window.document
+  const timelineEntries = document.querySelectorAll('div.timeline-entry')
+
+  if (timelineEntries.length === 0) {
+    console.warn('⚠️  Aucune entrée de timeline trouvée. La structure du site a peut-être changé.')
+    return
+  }
+
+  console.log(`📋 ${timelineEntries.length} entrée(s) trouvée(s) sur la page.`)
+
+  // Parser toutes les entrées valides
+  const parsedEntries = Array.from(timelineEntries)
+    .map(parseTimelineEntry)
+    .filter(Boolean)
+
+  // Déduplication intra-page (en mémoire, par source principale)
+  const duplicateFilter = new DuplicateFilter(contentProcessor)
+  const deduplicatedEntries = duplicateFilter.filter(
+    parsedEntries.map(e => ({ ...e, guid: e.primarySource || e.link }))
+  )
+
+  // Filtrage par rapport aux liens déjà traités (link.txt)
+  const alreadySeen = getAlreadySeenLinks()
+
+  let newCount = 0
+  let dupCount = 0
+
+  const newItemsXmlStrings = deduplicatedEntries
+    .filter(entry => {
+      const key = entry.primarySource || entry.link
+      if (alreadySeen.has(key)) {
+        console.log(`⏩ Doublon ignoré : ${entry.title}`)
+        dupCount++
+        return false
+      }
+      // Enregistrer immédiatement pour éviter les doublons si le script est relancé
+      appendFileSync(LINK_FILE, `\n${key}`)
+      alreadySeen.add(key)
+      return true
+    })
+    .map(entry => {
+      const pubDate = buildRFC822Date(entry.timestamp)
+      if (pubDate === 'Invalid DateTime') {
+        console.warn(`⚠️  Date invalide pour : ${entry.title} (${entry.timestamp})`)
+      }
+      console.log(`✅ Nouveau : ${entry.title}`)
+      newCount++
+      return composeFeedItem({
+        title: entry.title,
+        description: `<![CDATA[<p>${entry.description}</p>]]>`,
+        pubDate: buildRFC822Date(entry.timestamp),
+        link: entry.link,
+        source: entry.primarySource,
+        guid: entry.primarySource || entry.link,
+        categories: []
+      })
+    })
+
+  // Mise à jour du feed XML
+  if (newItemsXmlStrings.length === 0) {
+    console.log('ℹ️  Aucun nouvel élément à ajouter au feed.')
+  } else {
     const feedDocument = getFeedContent()
     const channel = feedDocument.querySelector('channel')
 
-    if (channel) {
-      const firstItem = channel.querySelector('item');
-      filteredItems.forEach((dat) => {
-        // Vérification doublon dans le feed
-        const existingGuids = Array.from(feedDocument.querySelectorAll('guid')).map(guidElement => guidElement.textContent);
-        if (!existingGuids.includes(dat.guid)) {
-          return true
-        } else {
-          console.log(`⏩ Doublon ignoré : ${dat.title}`)
-          return false
-        }
-      }).map((dat) => {
-        return composeFeedItem({
-          title: dat.title,
-          description: `<![CDATA[<p>${dat.content || dat.summary}</p>]]>`,
-          pubDate: buildRFC822Date(dat.pubDate),
-          link: dat.link,
-          guid: dat.guid, categories: dat.categories || []
-        })
-      })
-
-      // Insert items by appending XML before the closing </channel> tag
-      const feedContent = feedDocument.documentElement.outerHTML
-      const breakDelimiter = '</channel>'
-      const [before, after] = feedContent.split(breakDelimiter)
-      const updatedFeedContent = `${before}${newItemsXmlStrings.join('')}${breakDelimiter}${after}`
-      overwriteFeedContent(updatedFeedContent)
-    } else {
-      console.error("No <channel> element found in feed.xml. Cannot add items.");
+    if (!channel) {
+      console.error('❌ Pas d\'élément <channel> dans feed.xml. Impossible d\'ajouter des items.')
+      return
     }
-  })
-}
-/*addfeed('https://cyber.gouv.fr/actualites/feed')
-addfeed('https://cvefeed.io/rssfeed/latest.xml')
-addfeed("https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet")
-addfeed("https://thomas-iniguez-visioli.github.io/retro-weekly/feed.xml")*/
-try {
-  //const content = await got(`https://raw.githubusercontent.com/thomas-iniguez-visioli/retro-weekly/main/retros/${url.url.split("/")[url.url.split("/").length-2]}.md`).text()
-  var html = ""
-  https.get("https://bonjourlafuite.eu.org/", {
-    agent: staticDnsAgent(resolvConf)
 
-  }, response => {
-    response.setTimeout(3000000, function () {
-      //console.log("temp")
-    });
-    response.on('timeout', function () { console.log("timeout") })
-    response.on('data', (chunk) => {
-      html += chunk;
-      //console.log(html.length)
-    })
-    response.on("end", (da) => {
-     // console.log(da)
-      const buffer = html
-
-      const dom = new JSDOM(buffer.toString())
-      const parsedHtml = dom.window.document
-      const timelineEntries = parsedHtml.querySelectorAll('div.timeline-entry');
-
-      if (timelineEntries.length === 0) {
-        console.warn('Aucune entrée de timeline trouvée sur https://bonjourlafuite.eu.org/. La structure du site a peut-être changé.');
-        return; // Quitter le callback si aucune entrée n'est trouvée
-      }
-
-      const jsonData = Array.from(timelineEntries).map(entry => {
-        const timestamp = entry.querySelector('span.timestamp time').getAttribute('datetime').toString();
-
-        console.log(buildRFC822Date(timestamp))
-        const title = "Fuite de données chez " + entry.querySelector('h2').textContent.trim().replaceAll("  ", " ");
-        var content = entry.querySelector('p').textContent;
-        const contentList = entry.querySelector('ul');
-        if (contentList) {
-          const contentItems = Array.from(contentList.querySelectorAll('li')).map(item => item.textContent);
-          content = contentItems.join(', ');
-        }
-        const source = (() => {
-          const linkElement = entry.querySelector('a:not([id])') || entry.querySelector('a');
-          if (!linkElement) {
-            return '';
-          }
-
-          const href = linkElement.getAttribute('href') || '';
-          if (!href) {
-            return '';
-          }
-
-          return href.startsWith('http') ? href : `https://bonjourlafuite.eu.org/${href}`;
-        })();
-        console.log(source)
-        return {
-          timestamp: timestamp,
-          title,
-          content,
-          source: source.replaceAll("//img","/img"),
-          link: "https://bonjourlafuite.eu.org/" + entry.querySelector('a').getAttribute('href')
-        };
-      })
-      //console.log(JSON.stringify(jsonData,null,2));
-      // Collect all new items
-      const newItemsXmlStrings = jsonData.filter((dat) => {
-        let already = []
-        if (existsSync("./link.txt")) {
-          already = readFileSync("./link.txt", 'utf8').split('\n').filter(Boolean); // Read as string, split by lines, filter empty
-        }
-        if (already.includes(dat.source)) {
-          return false
-        }
-        appendFileSync("./link.txt", `\n${dat.source}`)
-        return true
-      }).map((dat) => {
-        return composeFeedItem({
-          title: dat.title,
-          description: `<![CDATA[<p>${dat.content}</p>]]>`,
-          pubDate: buildRFC822Date(dat.timestamp),
-          link: dat.link, source: dat.source,
-          guid: dat.source, categories: dat.categories || []
-        });
-      })
-
-      // Get the current feed document
-      const feedDocument = getFeedContent()
-      const channel = feedDocument.querySelector('channel')
-
-      if (channel) {
-        // Insert items by appending XML before the closing </channel> tag
-        const feedContent = feedDocument.documentElement.outerHTML
-        const breakDelimiter = '</channel>'
-        const [before, after] = feedContent.split(breakDelimiter)
-        const updatedFeedContent = `${before}${newItemsXmlStrings.join('')}${breakDelimiter}${after}`
-        overwriteFeedContent(updatedFeedContent)
-      } else {
-        console.error("No <channel> element found in feed.xml. Cannot add items.");
-      }
-    })
-  })
-
-
-
-  /* const data = parseRetrospectiveContent(content)
-     console.log(data.nextDay)
-   const retrospective = composeFeedItem({
-     title: data.title,
-     description: `<![CDATA[<p>${data.description}</p>]]>`,
-     pubDate: buildRFC822Date(url.date_published),
-     link: generateRetroUIUrl(data.nextDay),
-     guid: data.nextDay
-   })
-   // Add the new item to the feed
-     const feedContent = getFeedContent()
-   const [before, after] = feedContent.split(breakDelimiter)
-   const updatedFeedContent = `${before}${breakDelimiter}${retrospective}${after}`
-   overwriteFeedContent(updatedFeedContent)
- 
-   // Overwrite config with new dates
-   const config = getConfig()
-   overwriteConfig({
-     ...config,
-     retrospective: {
-       lastDay: data.lastDay,
-       nextDay: data.nextDay
-     }
-   })*/
-} catch (error) {
-  console.log(error)
-  console.log("Retrospective not found or generated and error, so we're not updating the feed.")
-  console.log("Configuration for the retrospective won't be updated either.")
-}
-// --- Nouvelle récupération améliorée ---
-const feedUrls = [
-
-
-];
-
-async function fetchAllFeeds(urls) {
-  const parser = new ParseRss();
-  const results = await Promise.all(urls.map(async (url) => {
-    try {
-      const t = await got(url).text();
-      const parsedXml = await parser.parseString(t);
-      return parsedXml.items.map((dat) => {
-        // console.log(dat)
-        return {
-          title: dat.title,
-          description: dat.content || dat.summary || '',
-          pubDate: buildRFC822Date(dat.pubDate),
-          link: dat.link,
-          guid: dat.link, categories: dat.categories || []
-        }
-      })
-    } catch (err) {
-      console.log(`Erreur récupération feed ${url}:`, err.message);
-      return [];
-    }
-  }));
-  // Aplatir et filtrer les doublons
-  const allItems = results.flat();
-  const seen = new Set();
-  return allItems.filter(item => {
-    // console.log(item.title)
-    if (!item.title || !item.link) return false;
-    const key = item.guid || item.link;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-}
-
-async function updateFeedWithAllItems() {
-  const items = await fetchAllFeeds(feedUrls);
-
-  const feedDocument = getFeedContent();
-  const channel = feedDocument.querySelector('channel');
-
-  if (channel) {
-    const existingGuids = Array.from(feedDocument.querySelectorAll('guid')).map(guidElement => guidElement.textContent);
-
-    const newItemsXmlStrings = items.filter((dat) => {
-      // Check against link.txt for previously processed items
-      let already = [];
-      if (existsSync("./link.txt")) {
-        already = readFileSync("./link.txt", 'utf8').split('\n').filter(Boolean); // Filter Boolean to remove empty strings
-      }
-      if (already.includes(dat.guid)) {
-        return false;
-      }
-      appendFileSync("./link.txt", `\n${dat.guid}`);
-      return true;
-    }).filter((dat) => {
-      // Only add to feed if not a duplicate based on GUID
-      return !existingGuids.includes(dat.guid);
-    }).map((dat) => {
-      return composeFeedItem({
-        title: dat.title,
-        description: `<![CDATA[<p>${dat.description}</p>]]>`,
-        pubDate: dat.pubDate,
-        link: dat.link,
-        guid: dat.guid, categories: dat.categories || []
-      });
-    });
-
-    // Insert items by appending XML before the closing </channel> tag
     const feedContent = feedDocument.documentElement.outerHTML
     const breakDelimiter = '</channel>'
     const [before, after] = feedContent.split(breakDelimiter)
     const updatedFeedContent = `${before}${newItemsXmlStrings.join('')}${breakDelimiter}${after}`
-    overwriteFeedContent(updatedFeedContent);
-  } else {
-    console.error("No <channel> element found in feed.xml. Cannot add items in updateFeedWithAllItems.");
+    overwriteFeedContent(updatedFeedContent)
   }
+
+  // Résumé
+  console.log(`\n📊 Résumé : ${newCount} nouveau(x) item(s) ajouté(s), ${dupCount} doublon(s) ignoré(s).`)
 }
 
-updateFeedWithAllItems();
-
-
-
-
+collectBonjourLaFuite()
