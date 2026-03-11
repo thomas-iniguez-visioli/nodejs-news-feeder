@@ -54,7 +54,7 @@ export function composeFeedItem({ title, description, pubDate, link, guid,source
   processedDescription = contentProcessor.removeRepetitiveBrackets(processedDescription);
   processedDescription = contentProcessor.removeControlCharacters(processedDescription);
   // Description is CDATA wrapped, so don't escape it here, but rather wrap after processing
-  // processedDescription = contentProcessor.escapeXmlCharacters(processedDescription);
+   processedDescription = contentProcessor.escapeXmlCharacters(processedDescription);
 
   // Apply ContentProcessor methods for link (less aggressive cleaning for URLs)
   processedLink = contentProcessor.removeControlCharacters(processedLink);
