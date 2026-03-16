@@ -17,7 +17,7 @@ const apiLimiter = rateLimit({
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
+app.get('/', apiLimiter, (req, res) => {
     res.sendFile(path.join(process.cwd(), 'add-post.html'));
 });
 app.use(express.static(process.cwd()));
